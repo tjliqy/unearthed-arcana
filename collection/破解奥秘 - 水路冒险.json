@@ -1,0 +1,1091 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAWaterborneAdventures",
+				"abbreviation": "UAWA",
+				"full": "破解奥秘：水上冒险",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy",
+					"Lyra [he/him]"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2015/downloads/dnd/UA_Waterborne_v3.pdf",
+				"dateReleased": "2015-05-04"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1759315511,
+		"_dateLastModifiedHash": "00b600985d"
+	},
+	"subclass": [
+		{
+			"ENG_name": "Storm Sorcery",
+			"name": "风暴术法",
+			"shortName": "风暴",
+			"source": "UAWaterborneAdventures",
+			"className": "术士",
+			"classSource": "PHB",
+			"page": 4,
+			"isReprinted": true,
+			"reprintedAs": [
+				"风暴|术士|PHB|XGE"
+			],
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"known": {
+						"1": [
+							"云雾术|PHB",
+							"雷鸣波|PHB"
+						],
+						"3": [
+							"造风术|PHB",
+							"浮空术|PHB"
+						],
+						"5": [
+							"召雷术|PHB",
+							"雪雨暴|PHB"
+						],
+						"7": [
+							"咒唤微元素群|PHB",
+							"冰风暴|PHB"
+						],
+						"9": [
+							"咒唤元素|PHB"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"云雾术|PHB",
+				"雷鸣波|PHB",
+				"造风术|PHB",
+				"浮空术|PHB",
+				"召雷术|PHB",
+				"雪雨暴|PHB",
+				"咒唤微元素群|PHB",
+				"冰风暴|PHB",
+				"咒唤元素|PHB"
+			],
+			"subclassFeatures": [
+				"风暴术法|术士|PHB|风暴|UAWaterborneAdventures|1",
+				"风暴之心|术士|PHB|风暴|UAWaterborneAdventures|6",
+				"风暴导向|术士|PHB|风暴|UAWaterborneAdventures|6",
+				"暴风狂怒|术士|PHB|风暴|UAWaterborneAdventures|14",
+				"清风之灵|术士|PHB|风暴|UAWaterborneAdventures|18"
+			]
+		},
+		{
+			"ENG_name": "Swashbuckler",
+			"name": "剑客",
+			"shortName": "剑客",
+			"source": "UAWaterborneAdventures",
+			"className": "游荡者",
+			"classSource": "PHB",
+			"page": 3,
+			"isReprinted": true,
+			"reprintedAs": [
+				"剑客|游荡者|PHB|XGE"
+			],
+			"edition": "classic",
+			"subclassFeatures": [
+				"剑客|游荡者|PHB|剑客|UAWaterborneAdventures|3",
+				"潇洒气质|游荡者|PHB|剑客|UAWaterborneAdventures|9",
+				"优雅战技|游荡者|PHB|剑客|UAWaterborneAdventures|13",
+				"决斗大师|游荡者|PHB|剑客|UAWaterborneAdventures|17"
+			],
+			"hasFluff": true
+		}
+	],
+	"subclassFluff": [
+		{
+			"ENG_name": "Swashbuckler",
+			"name": "剑客",
+			"shortName": "剑客",
+			"source": "UAWaterborneAdventures",
+			"className": "游荡者",
+			"classSource": "PHB",
+			"entries": [
+				{
+					"ENG_name": "Swashbucklers and Two-Weapon Fighting",
+					"name": "剑客和双武器战斗",
+					"type": "inset",
+					"page": 4,
+					"entries": [
+						"剑客需要充分理解D&D规则才能发挥其潜力，特别是在使用双武器战斗时。其他角色必须使用一个附赠动作来{@action 撤离}如果他们想要从近战中逃脱，但剑客的梦幻舞步属性将更有限版本的{@action 撤离}整合到你的攻击中。这允许你在使用附赠动作进行双武器战斗后，安全地避开每个你攻击过的敌人。"
+					]
+				}
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"ENG_name": "Swashbuckler",
+			"name": "剑客",
+			"source": "UAWaterborneAdventures",
+			"page": 3,
+			"className": "游荡者",
+			"classSource": "PHB",
+			"subclassShortName": "剑客",
+			"subclassSource": "UAWaterborneAdventures",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"你将训练专注于剑刃的艺术，同等依赖速度、优雅和魅力。当其他武者是披着重甲的蛮兵时，你的战斗方式看起来更像表演。浪子、决斗者和海盗通常遵循此原型。",
+				"剑客擅长单打独斗的战斗，且能安全地从对手身边闪避的同时使用两把武器战斗。剑客特别擅长创造困难的战技来逃脱敌人或从意想不到的方向发起攻击。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "梦幻舞步|游荡者|PHB|剑客|UAWaterborneAdventures|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Toujours l'Audace|游荡者|PHB|剑客|UAWaterborneAdventures|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Fancy Footwork",
+			"name": "梦幻舞步",
+			"source": "UAWaterborneAdventures",
+			"page": 3,
+			"className": "游荡者",
+			"classSource": "PHB",
+			"subclassShortName": "剑客",
+			"subclassSource": "UAWaterborneAdventures",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"从3级开始，你在战斗中如同连续的行为残像般移动，快速突进、攻击且开溜到安全位置。在你的回合中，若你对一个生物进行近战攻击，该生物在你的回合剩余时间内无法对你进行{@action 借机攻击|PHB|借机攻击}。"
+			]
+		},
+		{
+			"ENG_name": "Toujours l'Audace",
+			"name": "Toujours l'Audace",
+			"source": "UAWaterborneAdventures",
+			"page": 3,
+			"className": "游荡者",
+			"classSource": "PHB",
+			"subclassShortName": "剑客",
+			"subclassSource": "UAWaterborneAdventures",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"在3级时，你那无可置疑的自信推动你投入战斗。你将你的魅力调整值添加到你的先攻掷骰中。",
+				"此外，你可以对任何没有盟友相邻的目标使用{@classFeature 偷袭|游荡者|PHB|1}进行近战攻击。"
+			]
+		},
+		{
+			"ENG_name": "Panache",
+			"name": "潇洒气质",
+			"source": "UAWaterborneAdventures",
+			"page": 3,
+			"className": "游荡者",
+			"classSource": "PHB",
+			"subclassShortName": "剑客",
+			"subclassSource": "UAWaterborneAdventures",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"在9级时，你的魅惑变得如同你的刀刃一般锐利且危险。以一个动作，你可以进行一次魅力（{@skill 游说}）检定，与一个生物的感知（{@skill 洞悉}）检定对抗。该生物必须能听到你，且你们二人必须共享一门语言。",
+				"若你成功通过该检定且该生物为敌对，它必须将你作为其所有攻击的目标且不能自愿移动远离你。此效应持续1分钟或直到你移动至距离该目标超过60尺。",
+				"如果你成功通过检定且该生物不敌对，它将被你{@condition 魅惑}1分钟。在被{@condition 魅惑}期间，它视你为友好的相识。"
+			]
+		},
+		{
+			"ENG_name": "Elegant Maneuver",
+			"name": "优雅战技",
+			"source": "UAWaterborneAdventures",
+			"page": 3,
+			"className": "游荡者",
+			"classSource": "PHB",
+			"subclassShortName": "剑客",
+			"subclassSource": "UAWaterborneAdventures",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"你以熟练的轻松完成困难战技。从13级开始，你可以使用一个附赠动作来获得优势，作用于你在自己回合内下一次敏捷（{@skill 特技}）或力量（{@skill 运动}）检定。"
+			]
+		},
+		{
+			"ENG_name": "Master Duelist",
+			"name": "决斗大师",
+			"source": "UAWaterborneAdventures",
+			"page": 3,
+			"className": "游荡者",
+			"classSource": "PHB",
+			"subclassShortName": "剑客",
+			"subclassSource": "UAWaterborneAdventures",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"在17级时，你对刀刃的精通使你能在战斗中将失败转化为成功。如果你在一次攻击中未命中，你可以选择以优势重新掷骰该攻击。一旦你使用了这个能力，直到你完成一次短休或长休前都无法再次使用它。"
+			]
+		},
+		{
+			"ENG_name": "Storm Sorcery",
+			"name": "风暴术法",
+			"source": "UAWaterborneAdventures",
+			"page": 4,
+			"className": "术士",
+			"classSource": "PHB",
+			"subclassShortName": "风暴",
+			"subclassSource": "UAWaterborneAdventures",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"你的天生魔法来自气元素的力量。或许你出生在一场如此猛烈的狂风之中，以至于人们至今仍在讲述它的故事。你的血统可能包括强大风生物的影响，比如瓦提或气巨灵。无论如何，风暴的魔法渗透了你的灵魂。",
+				"风暴术士是极具价值的海员。其魔法足以驾驭其周边的风与气象。且他们的能力亦可用于对抗鲨华鱼人、海盗、以及其他的水上威胁。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "风暴降生|术士|PHB|风暴|UAWaterborneAdventures|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "暴风魔法|术士|PHB|风暴|UAWaterborneAdventures|1"
+				}
+			]
+		},
+		{
+			"ENG_name": "Stormborn",
+			"name": "风暴降生",
+			"source": "UAWaterborneAdventures",
+			"page": 4,
+			"className": "术士",
+			"classSource": "PHB",
+			"subclassShortName": "风暴",
+			"subclassSource": "UAWaterborneAdventures",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"你所掌握的奥术魔法注入了气元素之力。你能说、读、写{@language 原初语}。此外，你会在达到列出的术士等级时获得下列法术。这些法术不计入你已知术士法术的数量上限。",
+				{
+					"ENG_name": "Storm Sorcerer Bonus Spells",
+					"name": "风暴术士附赠法术",
+					"type": "statblock",
+					"tag": "table",
+					"source": "UAWaterborneAdventures",
+					"page": 5
+				}
+			]
+		},
+		{
+			"ENG_name": "Tempestuous Magic",
+			"name": "暴风魔法",
+			"source": "UAWaterborneAdventures",
+			"page": 4,
+			"className": "术士",
+			"classSource": "PHB",
+			"subclassShortName": "风暴",
+			"subclassSource": "UAWaterborneAdventures",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"在1环时，你与气元素魔法产生共鸣。每当你在回合内施放一个非戏法的法术时，旋转的气元素狂风会环绕着你。你可以使用一个附赠动作飞行10尺而不会引发{@action 借机攻击|PHB|借机攻击}。"
+			]
+		},
+		{
+			"ENG_name": "Heart of the Storm",
+			"name": "风暴之心",
+			"source": "UAWaterborneAdventures",
+			"page": 4,
+			"className": "术士",
+			"classSource": "PHB",
+			"subclassShortName": "风暴",
+			"subclassSource": "UAWaterborneAdventures",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"在6级时，你获得闪电和雷鸣伤害的抗性。每当你施放一个非戏法的法术并造成闪电或雷鸣伤害时，一个风暴光环会环绕着你。除了法术的效应外，你周围10尺内由你选择的生物会受到等同于你术士等级一半的闪电或雷鸣伤害（每次激活此能力时选择）。"
+			]
+		},
+		{
+			"ENG_name": "Storm Guide",
+			"name": "风暴导向",
+			"source": "UAWaterborneAdventures",
+			"page": 4,
+			"className": "术士",
+			"classSource": "PHB",
+			"subclassShortName": "风暴",
+			"subclassSource": "UAWaterborneAdventures",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"从6级起，你获得对你周遭气象的微妙掌控。",
+				"如果正在下雨，你可以使用一个动作使雨在你为中心的20英尺半径范围内停止坠落。你可以用一个附赠动作结束此效应。",
+				"如果有风势，你可以每轮使用一个附赠动作来选择100尺半径内风吹的方向。风会朝该方向吹拂直到你的下个回合结束。你无法改变风的速度。"
+			]
+		},
+		{
+			"ENG_name": "Storm's Fury",
+			"name": "暴风狂怒",
+			"source": "UAWaterborneAdventures",
+			"page": 4,
+			"className": "术士",
+			"classSource": "PHB",
+			"subclassShortName": "风暴",
+			"subclassSource": "UAWaterborneAdventures",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"在14级时，你通过魔法引导的风暴能量在你的灵魂中沸腾。当你被近战攻击命中时，你可以使用你的反应对攻击手造成等同于你术士等级的闪电伤害。攻击手还必须进行一次力量豁免检定，DC等于8 + 你的魅力加值 + 你的熟练加值。豁免失败时，攻击手会被推离你20尺远的直线距离。"
+			]
+		},
+		{
+			"ENG_name": "Wind Soul",
+			"name": "清风之灵",
+			"source": "UAWaterborneAdventures",
+			"page": 4,
+			"className": "术士",
+			"classSource": "PHB",
+			"subclassShortName": "风暴",
+			"subclassSource": "UAWaterborneAdventures",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"在18级时，你获得60尺的飞行速度且免疫闪电和雷鸣伤害。",
+				"作为一个动作，你可以将自己的飞行速度缩小至30尺，持续1小时，且选择30尺内数量等于3+你的魅力调整值的生物。这些选民获得30尺的飞行速度，持续1小时。"
+			]
+		}
+	],
+	"foundrySubclassFeature": [
+		{
+			"ENG_name": "Stormborn",
+			"name": "风暴降生",
+			"source": "UAWaterborneAdventures",
+			"className": "术士",
+			"classSource": "PHB",
+			"subclassShortName": "风暴",
+			"subclassSource": "UAWaterborneAdventures",
+			"level": 1,
+			"entryData": {
+				"languageProficiencies": [
+					{
+						"primordial": true
+					}
+				]
+			}
+		},
+		{
+			"ENG_name": "Heart of the Storm",
+			"name": "风暴之心",
+			"source": "UAWaterborneAdventures",
+			"className": "术士",
+			"classSource": "PHB",
+			"subclassShortName": "风暴",
+			"subclassSource": "UAWaterborneAdventures",
+			"level": 6,
+			"entryData": {
+				"resist": [
+					"闪电",
+					"雷鸣"
+				]
+			}
+		},
+		{
+			"ENG_name": "Wind Soul",
+			"name": "清风之灵",
+			"source": "UAWaterborneAdventures",
+			"className": "术士",
+			"classSource": "PHB",
+			"subclassShortName": "风暴",
+			"subclassSource": "UAWaterborneAdventures",
+			"level": 18,
+			"effects": [
+				{
+					"ENG_name": "Wind Soul",
+					"name": "清风之灵",
+					"changes": [
+						{
+							"key": "system.attributes.movement.fly",
+							"mode": "UPGRADE",
+							"value": 60
+						}
+					]
+				}
+			],
+			"entryData": {
+				"immune": [
+					"闪电",
+					"雷鸣"
+				]
+			}
+		}
+	],
+	"optionalfeature": [
+		{
+			"ENG_name": "Mariner",
+			"name": "水手",
+			"source": "UAWaterborneAdventures",
+			"page": 3,
+			"featureType": [
+				"FS:F",
+				"FS:P",
+				"FS:R"
+			],
+			"entries": [
+				"只要你没有穿着重甲或使用盾牌，你的游泳速度和攀爬速度等同于你的正常速度，且你的AC获得+1加值。"
+			],
+			"hasFluff": true
+		}
+	],
+	"optionalfeatureFluff": [
+		{
+			"ENG_name": "Mariner",
+			"name": "水手",
+			"source": "UAWaterborneAdventures",
+			"entries": [
+				"战士、圣武士和游侠可以选择以下新选项作为战斗风格职业特性。",
+				"无论是海盗、经验丰富的水手还是受过特殊训练的水手，水手都能轻松攀爬船舶的索具并在汹涌的水中游泳。适应穿着轻甲和中甲，水手们可以在不依赖重甲或笨重盾牌的情况下保护自己。因此它们大多使用{@itemProperty 2H|PHB|双手}武器或使用一对刀刃战斗。",
+				{
+					"ENG_name": "Mariner Design Notes",
+					"name": "水手设计备注",
+					"type": "inset",
+					"page": 3,
+					"entries": [
+						"战斗风格是一种很好的方式，可以同时为多个角色引入特定的游戏玩法风味。在以海洋为基础的战役中，你可以期待大量在水上和船上的战斗。游泳和攀爬速度在这样的环境中非常方便，但它们在其他范围也可能很有用。",
+						"水手的AC加值附带状态，但它需要水手必须遵守限制以获得游泳或攀爬速度。此外，基于船舶的战役适合使用{@item 弯刀|PHB|弯刀}（代表弯刀）和{@item 匕首|PHB}，且穿着轻甲的战士。这个特定的AC加值有助于支援该角色选项。"
+					]
+				}
+			]
+		}
+	],
+	"foundryOptionalfeature": [
+		{
+			"ENG_name": "Mariner",
+			"name": "水手",
+			"source": "UAWaterborneAdventures",
+			"effects": [
+				{
+					"ENG_name": "Mariner",
+					"name": "水手",
+					"changes": [
+						{
+							"key": "system.attributes.movement.swim",
+							"mode": "UPGRADE",
+							"value": "system.attributes.movement.walk"
+						},
+						{
+							"key": "system.attributes.movement.climb",
+							"mode": "UPGRADE",
+							"value": "system.attributes.movement.walk"
+						},
+						{
+							"key": "system.attributes.ac.bonus",
+							"mode": "ADD",
+							"value": 1
+						}
+					]
+				}
+			]
+		}
+	],
+	"race": [
+		{
+			"ENG_name": "Minotaur (Krynn)",
+			"name": "牛头人（克莱恩）",
+			"source": "UAWaterborneAdventures",
+			"page": 1,
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"str": 1,
+					"choose": {
+						"from": [
+							"str",
+							"int",
+							"wis"
+						],
+						"count": 1
+					}
+				}
+			],
+			"age": {
+				"mature": 17,
+				"max": 150
+			},
+			"traitTags": [
+				"天生武器",
+				"工具熟练"
+			],
+			"languageProficiencies": [
+				{
+					"common": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"navigator's tools": true,
+					"vehicles (water)": true
+				}
+			],
+			"entries": [
+				"你的牛头人角色拥有若干特质，这些特质反映了你所属类型的法力和优越性。",
+				{
+					"ENG_name": "Age",
+					"name": "年龄",
+					"type": "entries",
+					"entries": [
+						"牛头人大约17岁左右成年，可以活到150岁。"
+					]
+				},
+				{
+					"ENG_name": "Alignment",
+					"name": "阵营",
+					"type": "entries",
+					"entries": [
+						"牛头人信奉严格的荣誉准则，因此倾向于守序。他们对死亡保持忠诚，并成为不可调和的敌人，即使他们野蛮的文化和对虚弱的蔑视将它们推向邪恶。"
+					]
+				},
+				{
+					"ENG_name": "Size",
+					"name": "体型",
+					"type": "entries",
+					"entries": [
+						"牛头人通常身高超过6英尺且体重平均300磅。你的体型是中等。"
+					]
+				},
+				{
+					"ENG_name": "Conqueror's Virtue",
+					"name": "征服者美善",
+					"type": "entries",
+					"entries": [
+						"从青年时期起，你就专注于力量、狡黠或才智这三项美德之一。你选择的力量、智力或感知值增加1点。"
+					]
+				},
+				{
+					"ENG_name": "Horns",
+					"name": "角击",
+					"type": "entries",
+					"entries": [
+						"你永远不会手无寸铁。你擅长使用你的角击，这是一种近战武器，可造成{@damage 1d10}穿刺伤害。你的角击使你在所有试图{@action 推撞}生物的检定上具有优势，但不会使你在避免被推撞时获得优势。"
+					]
+				},
+				{
+					"ENG_name": "Goring Rush",
+					"name": "猛抵冲撞",
+					"type": "entries",
+					"entries": [
+						"当你在你的回合使用{@action 疾走}动作时，你可以用一个附赠动作进行一次角击的近战攻击。"
+					]
+				},
+				{
+					"ENG_name": "Hammering Horns",
+					"name": "角锤",
+					"type": "entries",
+					"entries": [
+						"当你在你的回合使用{@action 攻击}动作进行近战攻击时，你可以尝试用你的角击作为附赠动作{@action 推撞}一个生物。你不能用这次{@action 推撞}尝试使生物{@condition 倒地}。"
+					]
+				},
+				{
+					"ENG_name": "Labyrinthine Recall",
+					"name": "迷宫追忆",
+					"type": "entries",
+					"entries": [
+						"你可以完美回忆起你走过的任何路途。"
+					]
+				},
+				{
+					"ENG_name": "Sea Reaver",
+					"name": "海洋掠夺者",
+					"type": "entries",
+					"entries": [
+						"你获得{@item 领航工具|PHB}和{@filter 载具 (水上)|items|source=phb;dmg|miscellaneous=寻常|type=载具(水上)}的熟练项。"
+					]
+				},
+				{
+					"ENG_name": "Languages",
+					"name": "语言",
+					"type": "entries",
+					"entries": [
+						"你可以说、读且写{@language 通用语}。"
+					]
+				}
+			],
+			"hasFluff": true
+		}
+	],
+	"raceFluff": [
+		{
+			"ENG_name": "Minotaur (Krynn)",
+			"name": "牛头人（克莱恩）",
+			"source": "UAWaterborneAdventures",
+			"entries": [
+				"在克莱恩的世界中，龙枪传奇的设定里，牛头人生活在一个以荣誉为基础的社会，力量决定了他们在角斗场和日常生活中的法力。无论是在大地还是海洋上，克莱恩的牛头人都是凶猛的海上掠夺者，他们是世界上最有能力和最危险的水手。",
+				{
+					"ENG_name": "Arrogant Conquerors",
+					"name": "傲慢的征服者",
+					"type": "entries",
+					"page": 1,
+					"entries": [
+						"牛头人信奉弱者应当消亡而强者必须统治的理念\u2014\u2014且他们自身是克莱恩上最强大有力的种族。他们相信自己的宿命是统治世界，而他们的统治将是征服与军用力量的结合。为此，所有牛头人从青年时期就开始接受武器、护甲和战术的训练。",
+						"牛头人的傲慢源于力量、狡黠和才智的结合\u2014\u2014这三种他们珍视的美德，他们认为这是他们伟大的基础。他们相信这种特质的结合使他们与竞争对手区别开来。"
+					]
+				},
+				{
+					"ENG_name": "Trial by Combat",
+					"name": "决斗审判",
+					"type": "entries",
+					"page": 1,
+					"entries": [
+						"牛头人社会建立在力量即正义的原则上，且认为正义的考量是不必要的。牛头人由一位皇帝领导，皇帝由一个称为最高议会的八名牛头人组成的议会辅佐。政府中的所有职位，包括皇帝的职位，都由最强壮和最聪明的牛头人通过竞技场的战斗证明自己来赢得。",
+						"竞技场是牛头人社会中唯一晋升的途径。这是一场盛大的年度单挑决斗，牛头人彼此战斗以争夺霸权。年轻的牛头人必须在竞技场中证明自己，以获得通往成年的通行证。",
+						"参与马戏团是牛头人看不起其他种族的另一个原因。对牛头人来说，战斗中的死亡和荣耀是一个自然过程。战斗是确保强者生存的关键，且能在弱者破坏上级征服大计前将他们淘汰。"
+					]
+				},
+				{
+					"ENG_name": "Honor above All",
+					"name": "荣誉至上",
+					"type": "entries",
+					"page": 1,
+					"entries": [
+						"尽管他们残虐成性，牛头人仍被一种强烈的荣誉感所连接。每一次胜利都会为个体牛头人及其家族带来更大的荣誉。失败则会招致只有死亡才能完全洗刷的污点。",
+						"荣誉要求牛头人一旦承诺就必须遵守诺言，且每个牛头人都对交友术和氏族的忠诚高于一切。牛头人很少与其他种族交友，因为他们经常只在战斗中遭遇它们。如果一个牛头人确实建立了友谊，通常是与其他展示牛头人美德和嘲笑战斗的生物。对于这样的朋友，牛头人成为一个盟友，其支援永远不会动摇。"
+					]
+				},
+				{
+					"ENG_name": "Sea Reavers",
+					"name": "海洋掠夺者",
+					"type": "entries",
+					"page": 2,
+					"entries": [
+						"在克莱恩的世界中，牛头人统治着一系列被米萨斯岛和科萨斯岛支配的岛屿。四面环海的环境使牛头人将他们的坚韧、力量和狡黠发挥到极致，成为了世界上最熟习且凶悍的水手之一。他们驾驶船只航行于水域，随心所欲地进行劫掠。牛头人有时会参与贸易，但他们更倾向于用武力夺取所需。毕竟，作为所有种族中最强大的存在，他们理应获得那些弱小生物所收集的宝藏和商品。"
+					]
+				},
+				{
+					"ENG_name": "Minotaur Names",
+					"name": "牛头人名字",
+					"type": "entries",
+					"page": 2,
+					"entries": [
+						"牛头人氏族名字起源于一位伟大英雄，其后代将该名字作为自己的名字，并尽力遵循先祖的理想。在克莱恩，氏族名字总是以\"es-\"前缀开头，代表来自米萨斯岛控制地区的牛头人，或以\"de-\"前缀开头，代表来自科萨斯影响范围内的牛头人。",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"ENG_name": "Male Names:",
+									"name": "男性名字：",
+									"type": "item",
+									"entry": "Beliminorgath, Cinmac, Dastrun, Edder, Galdar, Ganthirogani, Hecariverani, Kyris, Tosher, Zurgas"
+								},
+								{
+									"ENG_name": "Female Names:",
+									"name": "女性名字：",
+									"type": "item",
+									"entry": "阿雅莎, 卡琳娜, 芙莉亚拉, 赫拉蒂, 基莉, 凯莉, 莫加拉, 塞克拉, 塔莉琪, 特莉亚"
+								},
+								{
+									"ENG_name": "Clan Names:",
+									"name": "氏族名：",
+									"type": "item",
+									"entry": "阿萨克, 布雷根, 恩特拉加斯, 卡兹甘西, 拉格兰格利, 马斯昆, 奥里尔格, 苏马尔, 特斯科斯, 扎坎"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ENG_name": "Minotaur Bonds",
+					"name": "牛头人牵挂",
+					"type": "entries",
+					"page": 2,
+					"entries": [
+						"当创建一个根植于克莱恩（或任何借鉴了这里所呈现的背景故事的战役）的牛头人角色时，你可以使用以下牵挂表格来协助充实你的角色。除了你的背景的牵挂或你自己创造的牵挂之外，也可以使用这个表格。",
+						{
+							"ENG_name": "Minotaur Bonds",
+							"name": "牛头人牵挂",
+							"type": "statblock",
+							"tag": "table",
+							"source": "UAWaterborneAdventures",
+							"page": 3
+						}
+					]
+				},
+				{
+					"ENG_name": "Minotaurs in Your Campaign",
+					"name": "战役中的牛头人",
+					"type": "inset",
+					"page": 3,
+					"entries": [
+						"我们选择克莱恩的牛头人作为这个种族的描绘模型有一个非常具体的原因。将它们与海洋和独特的文化联系起来，有助于赋予牛头人比仅仅作为另一个庞大、野蛮的怪物种族更多的特色。毕竟，我们已经在{@book 玩家手册|PHB}中有了{@race 半兽人|PHB|半兽人}，在我们的{@i 《邪恶元素玩家伴侣》}中有了{@race 歌利亚|VGM}。作为一个额外的附赠动作，这些牛头人是中等体型（与{@creature 牛头人|MM|怪物版本}的大型相对），因此更容易与{@book 玩家手册|PHB}中的种族保持平衡。",
+						"将牛头人塑造成征服心强、荣誉感强的海盗为它们提供了独特的风格，同时为玩家提供了许多角色扮演的切入点。当在你的战役中添加一个新种族时，思考其文化、与其他种族的关系以及两者如何结合以在你的世界中赋予它一个独特的地点总是一个好主意。创建一个像为牛头人提供的牵挂表格可以是一个好的起点。",
+						"将牛头人设定为水手对设定有一些有趣的暗示。迷宫追忆属性使牛头人成为完美的水手，因为他们可以在海洋中旅行，几乎不用担心迷路或迷失方向。牛头人导航员是海洋中无与伦比的大师。在将种族适应到你的战役中时，寻找类似的线索，这些线索可能埋藏在生物故事的特殊能力或元素中，否则你可能会忽略。",
+						"请记住，我们提供的故事只是一个起点。将这个牛头人从其克莱恩的根源中移开，就像将海洋掠夺者提供的熟练项替换为其他更能反映你设定的选项一样容易。作为指导，考虑将工具熟练项替换为任一技能的熟练，或替换为{@item 盗贼工具|PHB}的熟练，或替换为除{@item 盗贼工具|PHB}外的两种工具的熟练。"
+					]
+				}
+			]
+		}
+	],
+	"table": [
+		{
+			"ENG_name": "Minotaur Bonds",
+			"name": "牛头人牵挂",
+			"source": "UAWaterborneAdventures",
+			"page": 3,
+			"colLabels": [
+				"d6",
+				"牵挂"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"我在成年试炼的马戏团中的对手多年前就被选中。虽然我们只交手过一次，但我深深坠入了爱河。我没有与我心爱的人战斗至死，而是逃离了家园，并被烙上了懦夫的烙印。"
+				],
+				[
+					"2",
+					"我是氏族的最后一人。如果我在没有取得伟大成就的情况下死去，作为氏族雇主的英雄将被遗忘。"
+				],
+				[
+					"3",
+					"我曾是一个被击败且奴役的突袭队伍的一部分。我已逃脱并誓言复仇。"
+				],
+				[
+					"4",
+					"我从未分享过我的人民对暴力的嘲笑。我是阴谋的一部分，目的是推翻皇帝的暴力政权。"
+				],
+				[
+					"5",
+					"我声称我是被族人流放的，但实际上我是被派来当间谍的。我被期望留下秘密信息，告诉我的族人哪些村庄和城镇是成熟的征服目标。"
+				],
+				[
+					"6",
+					"我是一艘在暴风中失事的船舶的最后生还者。偶尔，我船员的精魂会出现在我的梦境中，并要求我完成他们在生命中未完成的任务。"
+				]
+			]
+		},
+		{
+			"ENG_name": "Storm Sorcerer Bonus Spells",
+			"name": "风暴术士附赠法术",
+			"source": "UAWaterborneAdventures",
+			"page": 5,
+			"colLabels": [
+				"术士等级",
+				"法术"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1st",
+					"{@spell 云雾术|PHB}, {@spell 雷鸣波|PHB}"
+				],
+				[
+					"3rd",
+					"{@spell 造风术|PHB}, {@spell 浮空术|PHB}"
+				],
+				[
+					"5th",
+					"{@spell 召雷术|PHB}, {@spell 雪雨暴|PHB}"
+				],
+				[
+					"7th",
+					"{@spell 咒唤微元素群|PHB}*, {@spell 冰风暴|PHB}"
+				],
+				[
+					"9th",
+					"{@spell 咒唤元素|PHB}**"
+				]
+			],
+			"footnotes": [
+				"* 除非你从其他来源获得该法术，否则你只能用它召唤{@creature 烟魔蝠|MM|烟魔蝠}、{@creature 蒸汽魔蝠|MM|蒸汽魔蝠}、{@creature 冰魔蝠|MM|冰魔蝠}或{@creature 尘魔蝠|MM|尘魔蝠}。",
+				"**除非你从其他来源获得该法术，否则你只能用它召唤{@creature 气元素|MM|气元素}。"
+			]
+		}
+	],
+	"book": [
+		{
+			"ENG_name": "Unearthed Arcana: Waterborne Adventures",
+			"name": "破解奥秘：水上冒险",
+			"id": "UAWaterborneAdventures",
+			"source": "UAWaterborneAdventures",
+			"group": "prerelease",
+			"cover": {
+				"type": "internal",
+				"path": "covers/blank.webp"
+			},
+			"published": "2015-05-04",
+			"author": "威世智",
+			"contents": [
+				{
+					"ENG_name": "Unearthed Arcana: Waterborne Adventures",
+					"name": "破解奥秘：水上冒险",
+					"headers": [
+						"牛头人（克莱恩）",
+						"战斗风格：水手",
+						"游荡者范型：剑客",
+						"术法起源：风暴"
+					]
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "UAWaterborneAdventures",
+			"source": "UAWaterborneAdventures",
+			"data": [
+				{
+					"ENG_name": "Unearthed Arcana: Waterborne Adventures",
+					"name": "破解奥秘：水上冒险",
+					"type": "section",
+					"page": 1,
+					"entries": [
+						{
+							"type": "quote",
+							"entries": [
+								"相信我，我年轻的朋友，没有什么\u2014\u2014绝对没有什么\u2014\u2014比在船上闲逛更值得做的事情了。"
+							],
+							"by": "肯尼斯·格雷厄姆",
+							"from": "柳林中的风"
+						},
+						"以下新角色选项展示了在公海上冒险的简易设计入口。这些规则专门为航海D&D战役设计，但它们足够通用，可以在任何战役中使用。",
+						"《{@book 城主指南|DMG}》包含了管理海上船只的规则，以及遭遇表格、天气规则和其他有用的工具。通过将这些规则与这些新选项结合，你的战役将准备好扬帆起航。",
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"ENG_name": "What Is Unearthed Arcana?",
+											"name": "什么是破解奥秘？",
+											"type": "entries",
+											"page": 1,
+											"entries": [
+												"你可以将《破解奥秘》中呈现的材质视为类似于第五版D&D测试的第一波。这些游戏机制处于征募形态，可用于你的战役但尚未经过测试和设计迭代的充分锤炼。它们高度易变且可能不稳定；如果你使用它们，请预备裁定出现的任何问题。它们是用铅笔写的，不是墨水。由于这些原因，本专栏中的材质在D&D组织战役活动中不合法。"
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ENG_name": "Minotaur (Krynn)",
+							"name": "牛头人（克莱恩）",
+							"type": "section",
+							"page": 1,
+							"entries": [
+								"在克莱恩的世界中，龙枪传奇的设定里，牛头人生活在一个以荣誉为基础的社会，力量决定了他们在角斗场和日常生活中的法力。无论是在大地还是海洋上，克莱恩的牛头人都是凶猛的海上掠夺者，他们是世界上最有能力和最危险的水手。",
+								{
+									"ENG_name": "Arrogant Conquerors",
+									"name": "傲慢的征服者",
+									"type": "entries",
+									"page": 1,
+									"entries": [
+										"牛头人信奉弱者应当消亡而强者必须统治的理念\u2014\u2014且他们自身是克莱恩上最强大有力的种族。他们相信自己的宿命是统治世界，而他们的统治将是征服与军用力量的结合。为此，所有牛头人从青年时期就开始接受武器、护甲和战术的训练。",
+										"牛头人的傲慢源于力量、狡黠和才智的结合\u2014\u2014这三种他们珍视的美德，他们认为这是他们伟大的基础。他们相信这种特质的结合使他们与竞争对手区别开来。"
+									]
+								},
+								{
+									"ENG_name": "Trial by Combat",
+									"name": "决斗审判",
+									"type": "entries",
+									"page": 1,
+									"entries": [
+										"牛头人社会建立在力量即正义的原则上，且认为正义的考量是不必要的。牛头人由一位皇帝领导，皇帝由一个称为最高议会的八名牛头人组成的议会辅佐。政府中的所有职位，包括皇帝的职位，都由最强壮和最聪明的牛头人通过竞技场的战斗证明自己来赢得。",
+										"竞技场是牛头人社会中唯一晋升的途径。这是一场盛大的年度单挑决斗，牛头人彼此战斗以争夺霸权。年轻的牛头人必须在竞技场中证明自己，以获得通往成年的通行证。",
+										"参与马戏团是牛头人看不起其他种族的另一个原因。对牛头人来说，战斗中的死亡和荣耀是一个自然过程。战斗是确保强者生存的关键，且能在弱者破坏上级征服大计前将他们淘汰。"
+									]
+								},
+								{
+									"ENG_name": "Honor above All",
+									"name": "荣誉至上",
+									"type": "entries",
+									"page": 1,
+									"entries": [
+										"尽管他们残虐成性，牛头人仍被一种强烈的荣誉感所连接。每一次胜利都会为个体牛头人及其家族带来更大的荣誉。失败则会招致只有死亡才能完全洗刷的污点。",
+										"荣誉要求牛头人一旦承诺就必须遵守诺言，且每个牛头人都对交友术和氏族的忠诚高于一切。牛头人很少与其他种族交友，因为他们经常只在战斗中遭遇它们。如果一个牛头人确实建立了友谊，通常是与其他展示牛头人美德和嘲笑战斗的生物。对于这样的朋友，牛头人成为一个盟友，其支援永远不会动摇。"
+									]
+								},
+								{
+									"ENG_name": "Sea Reavers",
+									"name": "海洋掠夺者",
+									"type": "entries",
+									"page": 2,
+									"entries": [
+										"在克莱恩的世界中，牛头人统治着一系列被米萨斯岛和科萨斯岛支配的岛屿。四面环海的环境使牛头人将他们的坚韧、力量和狡黠发挥到极致，成为了世界上最熟习且凶悍的水手之一。他们驾驶船只航行于水域，随心所欲地进行劫掠。牛头人有时会参与贸易，但他们更倾向于用武力夺取所需。毕竟，作为所有种族中最强大的存在，他们理应获得那些弱小生物所收集的宝藏和商品。"
+									]
+								},
+								{
+									"ENG_name": "Minotaur Names",
+									"name": "牛头人名字",
+									"type": "entries",
+									"page": 2,
+									"entries": [
+										"牛头人氏族名字起源于一位伟大英雄，其后代将该名字作为自己的名字，并尽力遵循先祖的理想。在克莱恩，氏族名字总是以\"es-\"前缀开头，代表来自米萨斯岛控制地区的牛头人，或以\"de-\"前缀开头，代表来自科萨斯影响范围内的牛头人。",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"items": [
+												{
+													"ENG_name": "Male Names:",
+													"name": "男性名字：",
+													"type": "item",
+													"entry": "Beliminorgath, Cinmac, Dastrun, Edder, Galdar, Ganthirogani, Hecariverani, Kyris, Tosher, Zurgas"
+												},
+												{
+													"ENG_name": "Female Names:",
+													"name": "女性名字：",
+													"type": "item",
+													"entry": "阿雅莎, 卡琳娜, 芙莉亚拉, 赫拉蒂, 基莉, 凯莉, 莫加拉, 塞克拉, 塔莉琪, 特莉亚"
+												},
+												{
+													"ENG_name": "Clan Names:",
+													"name": "氏族名：",
+													"type": "item",
+													"entry": "阿萨克, 布雷根, 恩特拉加斯, 卡兹甘西, 拉格兰格利, 马斯昆, 奥里尔格, 苏马尔, 特斯科斯, 扎坎"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ENG_name": "Minotaur Traits",
+									"name": "牛头人特质",
+									"type": "entries",
+									"page": 2,
+									"entries": [
+										{
+											"ENG_name": "Minotaur (Krynn)",
+											"name": "牛头人（克莱恩）",
+											"type": "statblock",
+											"tag": "race",
+											"source": "UAWaterborneAdventures",
+											"page": 2
+										}
+									]
+								},
+								{
+									"ENG_name": "Minotaur Bonds",
+									"name": "牛头人牵挂",
+									"type": "entries",
+									"page": 2,
+									"entries": [
+										"当创建一个根植于克莱恩（或任何借鉴了这里所呈现的背景故事的战役）的牛头人角色时，你可以使用以下牵挂表格来协助充实你的角色。除了你的背景的牵挂或你自己创造的牵挂之外，也可以使用这个表格。",
+										{
+											"ENG_name": "Minotaur Bonds",
+											"name": "牛头人牵挂",
+											"type": "statblock",
+											"tag": "table",
+											"source": "UAWaterborneAdventures",
+											"page": 3
+										}
+									]
+								},
+								{
+									"ENG_name": "Minotaurs in Your Campaign",
+									"name": "战役中的牛头人",
+									"type": "inset",
+									"page": 3,
+									"entries": [
+										"我们选择克莱恩的牛头人作为这个种族的描绘模型有一个非常具体的原因。将它们与海洋和独特的文化联系起来，有助于赋予牛头人比仅仅作为另一个庞大、野蛮的怪物种族更多的特色。毕竟，我们已经在{@book 玩家手册|PHB}中有了{@race 半兽人|PHB|半兽人}，在我们的{@book 《邪恶元素玩家伴侣》|EEPC}中有了{@race 歌利亚|VGM}。作为一个额外的附赠动作，这些牛头人是中等体型（与{@creature 牛头人|MM|怪物版本}的大型体型相对），因此更容易与{@book 玩家手册|PHB}种族平衡。",
+										"将牛头人塑造成征服心强、荣誉感强的海盗为它们提供了独特的风格，同时为玩家提供了许多角色扮演的切入点。当在你的战役中添加一个新种族时，思考其文化、与其他种族的关系以及两者如何结合以在你的世界中赋予它一个独特的地点总是一个好主意。创建一个像为牛头人提供的牵挂表格可以是一个好的起点。",
+										"将牛头人设定为水手对设定有一些有趣的暗示。迷宫追忆属性使牛头人成为完美的水手，因为他们可以在海洋中旅行，几乎不用担心迷路或迷失方向。牛头人导航员是海洋中无与伦比的大师。在将种族适应到你的战役中时，寻找类似的线索，这些线索可能埋藏在生物故事的特殊能力或元素中，否则你可能会忽略。",
+										"请记住，我们提供的故事只是一个起点。将这个牛头人从其克莱恩的根源中移开，就像将海洋掠夺者提供的熟练项替换为其他更能反映你设定的选项一样容易。作为指导，考虑将工具熟练项替换为任一技能的熟练，或替换为{@item 盗贼工具|PHB}的熟练，或替换为除{@item 盗贼工具|PHB}外的两种工具的熟练。"
+									]
+								}
+							]
+						},
+						{
+							"ENG_name": "Fighting Style: Mariner",
+							"name": "战斗风格：水手",
+							"type": "section",
+							"page": 3,
+							"entries": [
+								"战士、圣武士和游侠可以选择以下新选项作为战斗风格职业特性。",
+								"无论是海盗、经验丰富的水手还是受过特殊训练的水手，水手都能轻松攀爬船舶的索具并在汹涌的水中游泳。适应穿着轻甲和中甲，水手们可以在不依赖重甲或笨重盾牌的情况下保护自己。因此它们大多使用{@itemProperty 2H|PHB|双手}武器或使用一对刀刃战斗。",
+								{
+									"ENG_name": "Mariner",
+									"name": "水手",
+									"type": "statblock",
+									"tag": "optfeature",
+									"source": "UAWaterborneAdventures",
+									"page": 3
+								},
+								{
+									"ENG_name": "Mariner Design Notes",
+									"name": "水手设计备注",
+									"type": "inset",
+									"page": 3,
+									"entries": [
+										"战斗风格是一种很好的方式，可以同时为多个角色引入特定的游戏玩法风味。在以海洋为基础的战役中，你可以期待大量在水上和船上的战斗。游泳和攀爬速度在这样的环境中非常方便，但它们在其他范围也可能很有用。",
+										"水手的AC加值附带状态，但它需要水手必须遵守限制以获得游泳或攀爬速度。此外，基于船舶的战役适合使用{@item 弯刀|PHB|弯刀}（代表弯刀）和{@item 匕首|PHB}，且穿着轻甲的战士。这个特定的AC加值有助于支援该角色选项。"
+									]
+								}
+							]
+						},
+						{
+							"ENG_name": "Roguish Archetype: Swashbuckler",
+							"name": "游荡者范型：剑客",
+							"type": "section",
+							"page": 3,
+							"entries": [
+								{
+									"ENG_name": "Swashbuckler",
+									"name": "剑客",
+									"type": "statblock",
+									"prop": "subclass",
+									"source": "UAWaterborneAdventures",
+									"className": "游荡者",
+									"classSource": "PHB",
+									"page": 3
+								},
+								{
+									"ENG_name": "Swashbucklers and Two-Weapon Fighting",
+									"name": "剑客和双武器战斗",
+									"type": "inset",
+									"page": 4,
+									"entries": [
+										"剑客需要充分理解D&D规则才能发挥其潜力，特别是在使用双武器战斗时。其他角色必须使用一个附赠动作来{@action 撤离}如果他们想要从近战中逃脱，但剑客的梦幻舞步属性将更有限版本的{@action 撤离}整合到你的攻击中。这允许你在使用附赠动作进行双武器战斗后，安全地避开每个你攻击过的敌人。"
+									]
+								}
+							]
+						},
+						{
+							"ENG_name": "Sorcerous Origin: Storm",
+							"name": "术法起源：风暴",
+							"type": "section",
+							"page": 4,
+							"entries": [
+								{
+									"ENG_name": "Storm",
+									"name": "风暴",
+									"type": "statblock",
+									"prop": "subclass",
+									"source": "UAWaterborneAdventures",
+									"className": "术士",
+									"classSource": "PHB",
+									"page": 4
+								},
+								{
+									"ENG_name": "Ribbons",
+									"name": "绶带",
+									"type": "inset",
+									"page": 5,
+									"entries": [
+										"在R&D团队中，任何旨在传达风味而非机械优势的能力都被称为缎带\u2014\u2014主要是为了展示的东西。{@classFeature 盗贼黑话|游荡者|PHB|1|PHB}是一个很好的缎带能力范例，且{@subclassFeature 风暴导向|术士|PHB|风暴|UAWaterborneAdventures|6|UAWaterborneAdventures}也属于这一类别。",
+										"我们在平衡一个职业或选项与另一个时不会衡量绶带。例如，{@subclassFeature 风暴之心|术士|PHB|风暴|UAWaterborneAdventures|6|UAWaterborneAdventures}承载了6级暴风术士的法力负荷，而{@subclassFeature 风暴导向|术士|PHB|风暴|UAWaterborneAdventures|6|UAWaterborneAdventures}在这里只是为了展示这些术士如何能成为出色的水手。它并非旨在协助战斗，但在操纵船舶时可能非常有用。"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

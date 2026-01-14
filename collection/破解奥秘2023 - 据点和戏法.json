@@ -1,0 +1,4598 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "XUA2023BastionsAndCantrips",
+				"abbreviation": "XUA23BC",
+				"full": "破解奥秘2023：据点和戏法",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Lyra"
+				],
+				"version": "1.0.0",
+				"url": "https://media.dndbeyond.com/compendium-images/ua/bastions-cantrips/BRF3GSu0nTfNu8p4/UA2023-BastionsCantrips.pdf",
+				"dateReleased": "2023-10-05"
+			}
+		],
+		"optionalFeatureTypes": {
+			"BF": "Bastion Facility"
+		},
+		"edition": "classic",
+		"dateAdded": 1696529407,
+		"dateLastModified": 1733837795,
+		"_dateLastModifiedHash": "57e2831a84"
+	},
+	"optionalfeature": [
+		{
+			"ENG_name": "Arcane Study",
+			"name": "奥术研究室",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 7,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 5,
+					"other": "使用奥术法器作为法器的属性"
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Space:",
+					"name": "空间",
+					"type": "entries",
+					"entries": [
+						"宽敞"
+					]
+				},
+				{
+					"ENG_name": "Hirelings:",
+					"name": "雇员",
+					"type": "entries",
+					"entries": [
+						"1"
+					]
+				},
+				{
+					"ENG_name": "Order:",
+					"name": "秩序",
+					"type": "entries",
+					"entries": [
+						"制造（{@dice 1d4} BP）"
+					]
+				},
+				"奥术研究室是一个安静的实验场所，包含一台或更多的书桌与书架。",
+				"当你向该设施下达制造命令时，从以下选项中选择一项：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Craft: Arcane Focus",
+							"name": "制造：奥术法器",
+							"type": "item",
+							"entries": [
+								"你委托设施的雇工制造一个{@item 奥术法器|PHB}。这项工作需要7天且不花费金钱。{@item 奥术法器|PHB}会留在你的据点中直到你认领它，或者你可以将其以10GP的价格出售。"
+							]
+						},
+						{
+							"ENG_name": "Craft: Book",
+							"name": "制造：书籍",
+							"type": "item",
+							"entries": [
+								"你委托设施的雇工制造一本空白的{@item 书籍|PHB}。这项工作需要7天且花费你10GP。这本{@item 书籍|PHB}会留在你的据点中直到你认领它，或者你可以以25GP的价格将其出售。"
+							]
+						}
+					]
+				},
+				"奥术研究室还提供以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Cast Identify",
+							"name": "施放鉴定术",
+							"type": "item",
+							"entries": [
+								"在你的据点中完成一次长休后，你可以在接下来的7天内施放一次{@spell 鉴定术}而无需消耗法术位或使用材料成分。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Archive",
+			"name": "档案馆",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 7,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 13
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Space:",
+					"name": "空间",
+					"type": "entries",
+					"entries": [
+						"宽敞"
+					]
+				},
+				{
+					"ENG_name": "Hirelings:",
+					"name": "雇员",
+					"type": "entries",
+					"entries": [
+						"1"
+					]
+				},
+				{
+					"ENG_name": "Order:",
+					"name": "秩序",
+					"type": "entries",
+					"entries": [
+						"研究（{@dice 1d8} BP）"
+					]
+				},
+				"档案馆是一个存放珍贵书籍、卷轴和地图的储藏室。它通常连接着一个{@optfeature 图书馆|XUA2023BastionsAndCantrips}，位于上锁的门或暗门之后。",
+				"你的档案馆包含一本珍稀且宝贵的参考书副本，选自{@table 参考书|XUA2023BastionsAndCantrips}表格中的选项。当你和这本书在你的据点时，你会获得该书籍的增益，如表格中所述。（你的DM可能会提供其他参考书。）",
+				"当你向这个设施下达研究指令时，你将委托设施的雇工在档案馆中搜索乐于助人的逸闻。这项工作需要7天时间。执行这项工作的人将获得知识，如同他们施放了{@spell 通晓传奇}法术。获得此知识的雇工会在下次与你交谈时将其分享给你。",
+				{
+					"ENG_name": "Reference Books",
+					"name": "参考书",
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2023BastionsAndCantrips",
+					"page": 8
+				},
+				{
+					"ENG_name": "Enlarging an Archive",
+					"name": "扩大档案馆",
+					"type": "entries",
+					"page": 8,
+					"entries": [
+						"你可以花费2000GP将你的档案馆变巨为一个庞大的设施。如果这样做，你可以从{@table 参考书|XUA2023BastionsAndCantrips}表格中额外选择二本参考书。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Armory",
+			"name": "军械库",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 8,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 5
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Space:",
+					"name": "空间",
+					"type": "entries",
+					"entries": [
+						"宽敞"
+					]
+				},
+				{
+					"ENG_name": "Hirelings:",
+					"name": "雇员",
+					"type": "entries",
+					"entries": [
+						"1"
+					]
+				},
+				{
+					"ENG_name": "Order:",
+					"name": "秩序",
+					"type": "entries",
+					"entries": [
+						"贸易（{@dice 1d4} BP）"
+					]
+				},
+				"军械库包含用于展示护甲的模特、墙上用于悬挂盾牌的钩子、存放武器的架子以及存放弹药的木制宝箱。它通常连接（或位于附近）一个{@optfeature 军营|XUA2023BastionsAndCantrips}。",
+				"当你向此设施下达贸易指令时，你将委托设施的雇工将军械库装满护甲、盾牌、武器和弹药。这些装备将花费你100GP，外加你的据点中每个据点防御者额外100GP。如果你的据点拥有{@optfeature 铁匠铺|XUA2023BastionsAndCantrips}，则总花费减半。",
+				"当你的军械库有存货时，你的据点防御者更难被消灭。当任何事件导致你掷骰以决定你的据点是否失去一名或多名防御者时（参见本文档末尾的\"{@variantrule 据点事件|XUA2023BastionsAndCantrips}\"），用{@dice d8}替代你通常会掷的{@dice d6}。事件结束后，无论你有多少据点防御者或失去了多少，军械库中的装备都会被消耗，使你的军械库耗尽，直到你向该设施下达贸易订单并支付重新补货的花费。"
+			]
+		},
+		{
+			"ENG_name": "Barracks",
+			"name": "军营",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 8,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 5
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Space:",
+					"name": "空间",
+					"type": "entries",
+					"entries": [
+						"宽敞"
+					]
+				},
+				{
+					"ENG_name": "Hirelings:",
+					"name": "雇员",
+					"type": "entries",
+					"entries": [
+						"0"
+					]
+				},
+				{
+					"ENG_name": "Order:",
+					"name": "秩序",
+					"type": "entries",
+					"entries": [
+						"招募（{@dice 1d4} BP）"
+					]
+				},
+				"一个据点可以拥有多个军营，每个军营都配备有最多可供十二名据点防御者使用的寝室。",
+				"每次你向该设施下达招募命令时，最多四名据点防御者会被招募到你的据点并被分配至该军营的住所。该招募对你无花费。如果该设施已完全占用，你将无法对其下达招募命令。",
+				"追踪每个军营中驻扎的据点防御者的数值。如果你失去了据点防御者，从你的名册中扣除它们。根据你的喜好为据点防御者分配名字且个性。",
+				{
+					"ENG_name": "Enlarging a Barracks",
+					"name": "扩大军营",
+					"type": "entries",
+					"page": 9,
+					"entries": [
+						"你可以花费2000GP将你的军营扩建为庞大的设施。庞大的军营最多可容纳25名据点防御者。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Demiplane",
+			"name": "半位面",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 9,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 17,
+					"other": "使用奥术法器作为法器的属性"
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Space:",
+					"name": "空间",
+					"type": "entries",
+					"entries": [
+						"庞大"
+					]
+				},
+				{
+					"ENG_name": "Hirelings:",
+					"name": "雇员",
+					"type": "entries",
+					"entries": [
+						"0"
+					]
+				},
+				{
+					"ENG_name": "Order:",
+					"name": "秩序",
+					"type": "entries",
+					"entries": [
+						"增强（{@dice 1d10} BP）"
+					]
+				},
+				"一道阴影门扉出现在你据点中其他设施的平坦坚固表面上。你可以选择位置。如果你在据点回合期间处于据点中，你可以将此门扉重新定位到据点中的另一个设施。该门扉足够大型以允许中等生物畅通无阻地通过，且只有你和你的据点雇员能够开启它。",
+				"这扇门扉通向一个半位面，该半位面呈现为由异界材质构成的房间形态，其牢固程度堪比岩石。该半位面存在于异次元空间中，因此不会物理连接到你的据点中的其他地点。半位面及其门扉均无法被解除。",
+				"当你对此设施发出增强命令时，魔法符文会出现在半位面的墙壁、地板和天花板上，并持续7天。在符文消失前，你在半位面度过一次完整的长休后，会获得等于你等级五倍的临时生命值。",
+				"该半位面还赋予以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Fabrication",
+							"name": "造物",
+							"type": "item",
+							"entries": [
+								"在半位面中，你可以使用一个{@action 魔法|XUA2023PlayersHandbookP7}动作魔法性地从无中创造一个你选择的非魔法物件，使其出现在半位面内的一个未占据空间中。该物件在任何维度上都不能超过5英尺立方且必须由木、岩石、粘土、瓷器、玻璃、纸张、非贵重水晶或非贵重金属制成。你必须完成一次长休后才能再次执行此动作。"
+							]
+						},
+						{
+							"ENG_name": "Scry-Proof",
+							"name": "防窥视",
+							"type": "item",
+							"entries": [
+								"该半位面及其内容无法通过{@item 水晶球|DMG|水晶球}、预言系法术或类似魔法被窥视。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Gaming Hall",
+			"name": "游戏厅",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 9,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 9
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Space:",
+					"name": "空间",
+					"type": "entries",
+					"entries": [
+						"庞大"
+					]
+				},
+				{
+					"ENG_name": "Hirelings:",
+					"name": "雇员",
+					"type": "entries",
+					"entries": [
+						"4"
+					]
+				},
+				{
+					"ENG_name": "Order:",
+					"name": "秩序",
+					"type": "entries",
+					"entries": [
+						"贸易（{@dice 1d6} BP）"
+					]
+				},
+				"游戏厅提供从棋盘和飞镖到卡牌游戏和骰子的娱乐活动。",
+				"当你向此设施发布贸易秩序时，你委托设施的雇员将游戏厅转变为赌博休息室7天。在第七天结束时，掷百分骰并查阅{@table 赌博休息室赢得的钱|XUA2023BastionsAndCantrips}表格以确定你从家族赢得的钱中所占的份额。",
+				{
+					"ENG_name": "Gambling Den Winnings",
+					"name": "赌博休息室赢得的钱",
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2023BastionsAndCantrips",
+					"page": 9
+				}
+			]
+		},
+		{
+			"ENG_name": "Garden",
+			"name": "种植园",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 9,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 5
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Space:",
+					"name": "空间",
+					"type": "entries",
+					"entries": [
+						"宽敞"
+					]
+				},
+				{
+					"ENG_name": "Hirelings:",
+					"name": "雇员",
+					"type": "entries",
+					"entries": [
+						"1"
+					]
+				},
+				{
+					"ENG_name": "Order:",
+					"name": "秩序",
+					"type": "entries",
+					"entries": [
+						"收获（{@dice 1d4} BP）"
+					]
+				},
+				"一个据点可以拥有多个种植园。每次你向据点添加种植园时，从以下选项中选择其类型：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Decorative Garden",
+							"name": "装饰性种植园",
+							"type": "item",
+							"entries": [
+								"这个美观的种植园里满是花朵且修剪整齐的灌木。"
+							]
+						},
+						{
+							"ENG_name": "Food Garden",
+							"name": "进食种植园",
+							"type": "item",
+							"entries": [
+								"这里种植着美味的蘑菇或蔬菜。"
+							]
+						},
+						{
+							"ENG_name": "Herb Garden",
+							"name": "草药种植园",
+							"type": "item",
+							"entries": [
+								"这个种植园包含珍稀草药，其中一些具有药用价值。"
+							]
+						},
+						{
+							"ENG_name": "Poison Garden",
+							"name": "毒素种植园",
+							"type": "item",
+							"entries": [
+								"这个种植园储存着可以提取毒素和抗毒剂的植物且真菌。"
+							]
+						}
+					]
+				},
+				"当你位于据点内时，你可以指示此设施的雇员将种植园从当前类型改为另一种类型。这项工作需要花费 21 天，在这段时间内，此设施无法进行其他活动。",
+				"当你向该设施下达收获指令时，你将委托设施的雇工从种植园收集有价值的物品，如{@table 种植园收获|XUA2023BastionsAndCantrips}表格所述。这项工作需要7天且不需要花费金钱。",
+				{
+					"ENG_name": "Garden Harvest",
+					"name": "种植园收获",
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2023BastionsAndCantrips",
+					"page": 10
+				},
+				{
+					"ENG_name": "Enlarging a Garden",
+					"name": "扩大种植园",
+					"type": "entries",
+					"page": 10,
+					"entries": [
+						"你可以花费2000GP将你的种植园变巨为庞大设施。庞大种植园相当于二座宽敞花园，且可以包括二座相同生物类型的种植园或二座不同类型的种植园。当你向庞大种植园下达收获秩序时，每个成分花园都会产生自己的收获。庞大种植园获得1个额外雇工。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Greenhouse",
+			"name": "温室",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 10,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 9
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Space:",
+					"name": "空间",
+					"type": "entries",
+					"entries": [
+						"宽敞"
+					]
+				},
+				{
+					"ENG_name": "Hirelings:",
+					"name": "雇员",
+					"type": "entries",
+					"entries": [
+						"1"
+					]
+				},
+				{
+					"ENG_name": "Order:",
+					"name": "秩序",
+					"type": "entries",
+					"entries": [
+						"收获（{@dice 1d6} BP）"
+					]
+				},
+				"温室是一个宽敞的围场，珍稀植物和真菌在受控气候中被培育。",
+				"你的温室中有一株植物生长着三个魔法果实。任何生物食用其中一个果实可获得{@spell 次级复原术}法术的增益效果。采摘后24小时内未被食用的果实将失去魔法效果。该植物每天拂晓时会替换所有被采摘的果实，且移植会导致其死亡。",
+				"当你向该温室设施下达收获指令时，选择以下一项：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Harvest: Healing Herbs",
+							"name": "收获：治疗草药",
+							"type": "item",
+							"entries": [
+								"你委托温室的雇工用治疗草药制作一瓶{@item 高等治疗药水|DMG|治疗药水（高等）}（高等治疗药水），或者自己完成这项工作。这项工作需要7天且无需花费。"
+							]
+						},
+						{
+							"ENG_name": "Harvest: Poison",
+							"name": "收获：毒素",
+							"type": "item",
+							"entries": [
+								"你委托温室的雇工从珍稀植物或真菌中提取一份可服用的毒素，或自己完成这项工作。从以下选项中选择毒素类型：{@item 午夜之泪}、{@item 苍白酊剂}、{@item 蒙汗药}或{@item 吐真剂}。每种毒素的效应详见{@book 城主指南|DMG}中的\"{@book 毒药|DMG|8|毒药}\"章节。收获后，毒素可装入小瓶中保存。这项工作需要7天且无花费。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Guildhall",
+			"name": "公会大厅",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 10,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 17,
+					"other": "{@variantrule 专精|XUA2023PlayersHandbookP7} 技能"
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Space:",
+					"name": "空间",
+					"type": "entries",
+					"entries": [
+						"庞大"
+					]
+				},
+				{
+					"ENG_name": "Hirelings:",
+					"name": "雇员",
+					"type": "entries",
+					"entries": [
+						"0"
+					]
+				},
+				{
+					"ENG_name": "Order:",
+					"name": "秩序",
+					"type": "entries",
+					"entries": [
+						"招募（{@dice 1d10} BP）"
+					]
+				},
+				"公会大厅附带一个公会，你是该公会的公会大师。从{@table 范例公会|XUA2023BastionsAndCantrips}表格中选择公会类型，或与你的DM合作创建一个新公会。该设施是一个会见室，你公会的成员可以在此与你讨论重要事务。墙上的横幅描绘了公会的徽记。",
+				"你的公会由大约五十名技艺精湛的成员组成，他们在居住和工作在你据点之外的地方，通常是靠近这里的聚落。",
+				"每次你向这个设施发布招募命令时，你会委托公会的一名或多名成员执行一项特殊任务。{@table 范例公会|XUA2023BastionsAndCantrips}表格中的每个公会都指定了该任务的性质。在你的DM的许可和协助下，你可以为公会成员创建新的任务来完成。",
+				{
+					"ENG_name": "Sample Guilds",
+					"name": "范例公会",
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2023BastionsAndCantrips",
+					"page": 11
+				}
+			]
+		},
+		{
+			"ENG_name": "Laboratory",
+			"name": "实验室",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 11,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 9
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Space:",
+					"name": "空间",
+					"type": "entries",
+					"entries": [
+						"宽敞"
+					]
+				},
+				{
+					"ENG_name": "Hirelings:",
+					"name": "雇员",
+					"type": "entries",
+					"entries": [
+						"1"
+					]
+				},
+				{
+					"ENG_name": "Order:",
+					"name": "秩序",
+					"type": "entries",
+					"entries": [
+						"制造（{@dice 1d6} BP）"
+					]
+				},
+				"实验室包含储藏空间用于存放炼金补给品，且有工作空间用于制造药水和其他混合物。",
+				"当你向该设施下达制造命令时，从以下选项中选择一项：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Craft: Liquid Concoction",
+							"name": "制造：液体混合物",
+							"type": "item",
+							"entries": [
+								"你委托实验室的雇工制造一个{@item 强酸(小瓶装)|PHB|小瓶强酸}、一个{@item 炽火胶(扁瓶装)|PHB|扁瓶炽火胶}或一个{@item 墨水(1盎司/瓶)|PHB|一瓶墨水}。这项工作需要7天且花费你物品正常成本的一半。"
+							]
+						},
+						{
+							"ENG_name": "Craft: Poison",
+							"name": "制造：毒素",
+							"type": "item",
+							"entries": [
+								"你委托实验室的雇工制造一瓶{@item 基础毒药(小瓶装)|PHB|小瓶基础毒药}或一瓶珍稀毒素。该珍稀毒素必须是以下之一：{@item 焦引熏烟}、{@item 食腐虫粘液}、{@item 乙醚精}或{@item 怨恨}。这项工作需要7天，且你必须支付毒素的花费。详情请参阅{@book 毒药|DMG|8|毒药}中\"{@book 城主指南|DMG}\"章节对珍稀毒素的描述和成本。"
+							]
+						},
+						{
+							"ENG_name": "Craft: Potion",
+							"name": "制造：药水",
+							"type": "item",
+							"entries": [
+								"你委托实验室的雇工制造一瓶魔法药水（如{@note 2024?}城主指南中所述），或者如果你有使用法器的能力，也可以自己制造。这项工作需要7天。{@table 制造药水|XUA2023BastionsAndCantrips}表格显示了制造特定稀有度药水所需的最低等级以及你必须为补给品支付的花费。为了制造药水，你的雇工等级是你等级的一半（向上取整）。",
+								{
+									"ENG_name": "Craft Potion",
+									"name": "制造药水",
+									"type": "statblock",
+									"tag": "table",
+									"source": "XUA2023BastionsAndCantrips",
+									"page": 12
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Library",
+			"name": "图书馆",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 12,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 5
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Space:",
+					"name": "空间",
+					"type": "entries",
+					"entries": [
+						"宽敞"
+					]
+				},
+				{
+					"ENG_name": "Hirelings:",
+					"name": "雇员",
+					"type": "entries",
+					"entries": [
+						"1"
+					]
+				},
+				{
+					"ENG_name": "Order:",
+					"name": "秩序",
+					"type": "entries",
+					"entries": [
+						"研究（{@dice 1d4} BP）"
+					]
+				},
+				"图书馆包含了一系列书籍收藏以及若干桌椅。",
+				"当你向这个设施下达研究指令时，你可以委托设施的雇工研究一个主题，或者自己进行研究。主题可以是传说、已知事件或位置、重要人物、生物类型或著名物件。这项工作需要7天。研究结束时，你将获得最多三条关于该主题的准确信息，这些信息是你之前不知道的。DM会决定你了解到什么信息。"
+			]
+		},
+		{
+			"ENG_name": "Meditation Chamber",
+			"name": "冥想室",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 7,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 13
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Space:",
+					"name": "空间",
+					"type": "entries",
+					"entries": [
+						"狭窄"
+					]
+				},
+				{
+					"ENG_name": "Hirelings:",
+					"name": "雇员",
+					"type": "entries",
+					"entries": [
+						"0"
+					]
+				},
+				{
+					"ENG_name": "Order:",
+					"name": "秩序",
+					"type": "entries",
+					"entries": [
+						"增强（{@dice 1d8} BP）"
+					]
+				},
+				"冥想间是一个让人放空心灵的地方，能帮助你心身合一，锻神定灵。",
+				"当你向这个特色设施发出增强命令时，你使你据点的所有雇员能够使用冥想室以获得内心的平静。你可以立即向你据点的其他特色设施发出一个据点命令，即使该设施已在本据点回合中被发出过命令。",
+				"冥想室还提供以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Fortify Self",
+							"name": "自我强化",
+							"type": "item",
+							"entries": [
+								"你可以在此设施中冥想7天来强化你的心智、身体和精魄。若在此期间离开据点，则无法获得增益。否则，在第七天结束时，你将获得接下来7天内两种豁免检定的优势，随机从{@table 强化豁免|XUA2023BastionsAndCantrips}表格中选择。（若出现重复结果则重骰。）",
+								{
+									"ENG_name": "Fortified Saves",
+									"name": "强化豁免",
+									"type": "statblock",
+									"tag": "table",
+									"source": "XUA2023BastionsAndCantrips",
+									"page": 12
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Menagerie",
+			"name": "动物园",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 12,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 13
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Space:",
+					"name": "空间",
+					"type": "entries",
+					"entries": [
+						"庞大"
+					]
+				},
+				{
+					"ENG_name": "Hirelings:",
+					"name": "雇员",
+					"type": "entries",
+					"entries": [
+						"2"
+					]
+				},
+				{
+					"ENG_name": "Order:",
+					"name": "秩序",
+					"type": "entries",
+					"entries": [
+						"招募（{@dice 1d8} BP）"
+					]
+				},
+				"动物园在各种围栏中饲养不同的生物。如果这些生物通常能和睦相处，多个生物可以共用一个围栏。",
+				"当你向此设施发布招募命令时，你将委托设施的雇员从{@table 兽栏生物|XUA2023BastionsAndCantrips}表格中添加一个生物到你的动物园。招募需要7天且花费表格中列出的数量。雇员会确保该生物得到妥善照料。",
+				"动物园足够大，可以容纳四只大型生物。四只小型或中等生物占据的空间与一只大型生物相同。",
+				"追踪你动物园中栖息的生物，因为他们被视为据点防御者。从你的据点防御者名册中扣除任何损失的生物。你可以选择不将其中一只或多只生物视为据点防御者，在这种情况下，他们不能被召唤来保卫据点。相反，他们会根据自己的本性行动并使用他们在{@book 怪物图鉴|MM}中的数据卡。",
+				{
+					"ENG_name": "Menagerie Creatures",
+					"name": "兽栏生物",
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2023BastionsAndCantrips",
+					"page": 13
+				},
+				"在DM的选择下，你可以向你的动物园添加不同于表格所示的生物。一个生物的花费取决于其挑战等级，如{@table 兽栏生物按挑战等级|XUA2023BastionsAndCantrips}表格所示。只有野兽和一些怪兽（经DM批准）可以饲养在动物园中。",
+				{
+					"ENG_name": "Menagerie Creatures By Challenge Rating",
+					"name": "兽栏生物按挑战等级",
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2023BastionsAndCantrips",
+					"page": 13
+				}
+			]
+		},
+		{
+			"ENG_name": "Observatory",
+			"name": "天文台",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 7,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 13,
+					"other": "使用法器的属性"
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Space:",
+					"name": "空间",
+					"type": "entries",
+					"entries": [
+						"宽敞"
+					]
+				},
+				{
+					"ENG_name": "Hirelings:",
+					"name": "雇员",
+					"type": "entries",
+					"entries": [
+						"1"
+					]
+				},
+				{
+					"ENG_name": "Order:",
+					"name": "秩序",
+					"type": "entries",
+					"entries": [
+						"增强（{@dice 1d8} BP）"
+					]
+				},
+				"位于你的据点顶部，你的天文台包含一台指向黑夜天空的强大望远镜。",
+				"你可以使用你的天文台窥视荒宇和星光位面的遥远转角，即便不是天堂。每当你在天文台中进行一次完整的长休时，你可以在接下来的7天内施放一次{@spell 异界探知}而不消耗法术位。",
+				"当你向这个天文台发出增强指令时，你或天文台的雇工可以连续7个夜晚探索星辰的神秘事件。在那段时间结束时，掷一个骰子。如果掷出的数值是偶数，则无收获。如果掷出的数值是奇数，一种未知的法力会赐予你或你选择的另一个与你处于同一存在平面的生物以下超自然护咒之一：{@reward 黑暗视觉护咒}、{@reward 英勇护咒}或{@reward 活力护咒}（全部描述在{@book 城主指南|DMG}中）。"
+			]
+		},
+		{
+			"ENG_name": "Pub",
+			"name": "酒馆",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 13,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 13
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Space:",
+					"name": "空间",
+					"type": "entries",
+					"entries": [
+						"宽敞"
+					]
+				},
+				{
+					"ENG_name": "Hirelings:",
+					"name": "雇员",
+					"type": "entries",
+					"entries": [
+						"1"
+					]
+				},
+				{
+					"ENG_name": "Order:",
+					"name": "秩序",
+					"type": "entries",
+					"entries": [
+						"研究（{@dice 1d8} BP）"
+					]
+				},
+				"人们来到酒馆，饮用美酒，参与社交。你的酒馆可以是一个小酒吧、咖啡厅、或茶室；它也可能有着丰富多彩的名字，比如锈壶酒馆或者龙阁旅店。此设施的雇员在这里担任酒保，并运营着一个地下情报网络，其间谍分布在附近的社群中。这些间谍是有用的情报来源，同时也是酒馆的常客，常常隐姓埋名出入酒馆。",
+				"当你向这个设施下达研究指令时，你会委托酒馆的酒保从间谍们那里收集消息，这些间谍知晓接下来7天内你的据点10英里范围内发生的所有重要事件。在此期间，这些间谍可以透露任何你熟悉的生物的位置，前提是该生物在你的据点50英里范围内，并且没有被魔法隐藏或限制在DM认为超出间谍网络定位能力的位置。如果间谍们得知目标的位置，他们还会了解该生物过去7天的行踪。",
+				"此外，酒馆有一种魔法饮品可供选择，选自{@table 酒馆特饮|XUA2023BastionsAndCantrips}表格中的选项。在据点回合之间，你可以切换到表格中的其他选项。你的DM可以创建新选项并允许它们对你可用。",
+				{
+					"ENG_name": "Pub Special",
+					"name": "酒馆特饮",
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2023BastionsAndCantrips",
+					"page": 14
+				},
+				{
+					"ENG_name": "Enlarging a Pub",
+					"name": "扩大酒馆",
+					"type": "entries",
+					"page": 14,
+					"entries": [
+						"你可以花费2000GP将你的酒馆变巨为庞大设施。如果这样做，酒馆可以同时拥有来自{@table 酒馆特饮|XUA2023BastionsAndCantrips}表格的两种魔法饮品。庞大酒馆获得3名额外雇员，总计4名。这些新雇员是服务员。为它们分配名字和个性。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Reliquary",
+			"name": "圣物匣",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 14,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 13,
+					"other": "使用圣徽或德鲁伊法器作为法器的能力"
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Space:",
+					"name": "空间",
+					"type": "entries",
+					"entries": [
+						"狭窄"
+					]
+				},
+				{
+					"ENG_name": "Hirelings:",
+					"name": "雇员",
+					"type": "entries",
+					"entries": [
+						"1"
+					]
+				},
+				{
+					"ENG_name": "Order:",
+					"name": "秩序",
+					"type": "entries",
+					"entries": [
+						"收获（{@dice 1d8} BP）"
+					]
+				},
+				"这个金库存放着强化你宗教的神圣物件。每当你在据点中度过一次长休时，你可以在接下来的7天内施放一次{@spell 高等复原术}，而无需消耗法术位或使用材料成分。",
+				"当你向此设施下达收获指令时，你将委托设施的雇工为你制作一个特别准备的符之魔契以供使用。该符之魔契通常表现为护符、刻有符文的小盒子或小雕像，但也可以是任何具有宗教意义的微型非魔法物件。这项工作需要7天且无需花费金钱。你可以将此符之魔契作为法器使用，忽略法术的任何材料成分，包括那些花费1000GP或更少的成分。该符之魔契只能以这种方式使用一次，之后必须归还至你的圣物匣。再次下达收获指令可使其重新准备就绪。"
+			]
+		},
+		{
+			"ENG_name": "Sacristy",
+			"name": "圣器室",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 14,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 9,
+					"other": "使用圣徽或德鲁伊法器作为法器的能力"
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Space:",
+					"name": "空间",
+					"type": "entries",
+					"entries": [
+						"宽敞"
+					]
+				},
+				{
+					"ENG_name": "Hirelings:",
+					"name": "雇员",
+					"type": "entries",
+					"entries": [
+						"1"
+					]
+				},
+				{
+					"ENG_name": "Order:",
+					"name": "秩序",
+					"type": "entries",
+					"entries": [
+						"制造（{@dice 1d6} BP）"
+					]
+				},
+				"圣器室用作预备且储藏室，用于存放你宗教的神圣物品和祭袍。拥有圣器室允许你在据点中度过一次完整的短休后，恢复一个5环或更低的已消耗法术位。在完成一次长休前，你无法再次获得此增益。",
+				"当你向该设施下达制造命令时，从以下选项中选择一项：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Craft: Holy Water",
+							"name": "制造：圣水",
+							"type": "item",
+							"entries": [
+								"你委托设施的雇工制造一瓶{@item 圣水(扁瓶装)|PHB|圣水瓶}，或自己完成这项工作。工作需要7天且成本为无。你可以在创造过程中花费金币来提升圣水的潜能。每花费100GP（最高500GP），圣水造成的伤害就增加{@dice 1d6}。"
+							]
+						},
+						{
+							"ENG_name": "Craft: Sacred Item",
+							"name": "制造：神圣物品",
+							"type": "item",
+							"entries": [
+								"你委托设施的雇工制造一个临时魔法物品，其词条持续7天，或你自己进行工作。从以下列表中选择物品：{@item 法力再生珍珠}、{@item 愈合护符}、{@item 水上行走戒指}、{@item 短讯石}（一对）、{@item 蝰蛇法杖}、{@item 巨蟒法杖}或{@item 搜魔魔杖}。工作需要7天且花费你200金币。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Sanctuary",
+			"name": "庇护术",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 15,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 5,
+					"other": "使用圣徽或德鲁伊法器作为法器的能力"
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Space:",
+					"name": "空间",
+					"type": "entries",
+					"entries": [
+						"宽敞"
+					]
+				},
+				{
+					"ENG_name": "Hirelings:",
+					"name": "雇员",
+					"type": "entries",
+					"entries": [
+						"1"
+					]
+				},
+				{
+					"ENG_name": "Order:",
+					"name": "秩序",
+					"type": "entries",
+					"entries": [
+						"制造（{@dice 1d4} BP）"
+					]
+				},
+				"该设施内展示有你宗教的圣像，其中包括一个用于礼拜或灵修的安静地点。",
+				"庇护术赋予以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Cast Healing Word",
+							"name": "施放治愈真言",
+							"type": "item",
+							"entries": [
+								"你可以汲取庇护术的法力来治疗自己或他人。在你的据点长休后，你可以在接下来的7天内施放一次{@spell 治愈真言}而不消耗法术位。该法术的等级为你等级的一半，向下取整。"
+							]
+						}
+					]
+				},
+				"当你向该设施下达制造命令时，它会生产一个神圣专注：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Craft: Sacred Focus",
+							"name": "制造：神圣法器",
+							"type": "item",
+							"entries": [
+								"你委托据点的雇工制造一个{@item 木质法杖|PHB|德鲁伊法器（木质法杖）}或一个{@item 圣徽|PHB}。这项工作需要7天且不花费金钱。该物品会留在你的据点中直到你认领它，或者你可以将其以5金币出售。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Sanctum",
+			"name": "圣所",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 15,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 17,
+					"other": "使用圣徽或德鲁伊法器作为法器的能力"
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Space:",
+					"name": "空间",
+					"type": "entries",
+					"entries": [
+						"宽敞"
+					]
+				},
+				{
+					"ENG_name": "Hirelings:",
+					"name": "雇员",
+					"type": "entries",
+					"entries": [
+						"4"
+					]
+				},
+				{
+					"ENG_name": "Order:",
+					"name": "秩序",
+					"type": "entries",
+					"entries": [
+						"增强（{@dice 1d10} BP）"
+					]
+				},
+				"圣所是提供抚慰和治愈的地方。",
+				"当你向这个设施发出增强命令时，你会激励其雇员执行日常仪式，为你或你选择的另一个玩家角色提供增益。每当受益者完成一次长休时，他们会获得等于你等级的临时生命值。此效应持续7天。",
+				"圣所还会赋予以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Cast Heal",
+							"name": "施放医疗术",
+							"type": "item",
+							"entries": [
+								"每当你在据点长休时，你可以在接下来的7天内施放一次{@spell 医疗术}而无需消耗法术位。"
+							]
+						},
+						{
+							"ENG_name": "Sanctum Recall",
+							"name": "圣所回返",
+							"type": "item",
+							"entries": [
+								"当你施放{@spell 回返真言}时，你可以将你的圣所作为该法术的目的地，而非你先前指定的其他地点。此外，通过该法术到达圣所的一个你选择的生物将获得{@spell 医疗术}的增益。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Scriptorium",
+			"name": "抄写室",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 15,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 9
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Space:",
+					"name": "空间",
+					"type": "entries",
+					"entries": [
+						"宽敞"
+					]
+				},
+				{
+					"ENG_name": "Hirelings:",
+					"name": "雇员",
+					"type": "entries",
+					"entries": [
+						"1"
+					]
+				},
+				{
+					"ENG_name": "Order:",
+					"name": "秩序",
+					"type": "entries",
+					"entries": [
+						"制造（{@dice 1d6} BP）"
+					]
+				},
+				"抄写室包含桌子和书写工具。",
+				"当你向该设施下达制造命令时，从以下选项中选择一项：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Craft: Book Replica",
+							"name": "制造：书籍复制品",
+							"type": "item",
+							"entries": [
+								"你委托抄写室的雇工复制一本非魔法的书籍。这样做需要一本空白的{@item 书籍|PHB}。这项工作需要7天。"
+							]
+						},
+						{
+							"ENG_name": "Craft: Paperwork",
+							"name": "制造：文书工作",
+							"type": "item",
+							"entries": [
+								"你委托据点的雇工制作最多五十份传单、小册子或其他散页纸张产品。这项工作需要7天且每份花费你1GP。无需额外的时间或金钱成本，据点的雇工可以将文书工作分发到你据点10英里内的一个或多个地点。"
+							]
+						},
+						{
+							"ENG_name": "Craft: Scroll",
+							"name": "制造：卷轴",
+							"type": "item",
+							"entries": [
+								"你委托设施的雇工制造一张魔法卷轴（如{@note 2024?}城主指南中所述），或自行制造。若是{@item 法术卷轴}，卷轴上的法术必须是你可准备的法术。该工作需要7天。{@table 制造卷轴|XUA2023BastionsAndCantrips}表格显示了制造特定稀有度卷轴所需的最低等级及所需补给品的花费。就制造卷轴而言，你的雇工等级为你等级的一半（向上取整）。",
+								{
+									"ENG_name": "Craft Scroll",
+									"name": "制造卷轴",
+									"type": "statblock",
+									"tag": "table",
+									"source": "XUA2023BastionsAndCantrips",
+									"page": 16
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Smithy",
+			"name": "铁匠铺",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 16,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 5,
+					"other": "战斗风格特性或无甲防御特性"
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Space:",
+					"name": "空间",
+					"type": "entries",
+					"entries": [
+						"宽敞"
+					]
+				},
+				{
+					"ENG_name": "Hirelings:",
+					"name": "雇员",
+					"type": "entries",
+					"entries": [
+						"2"
+					]
+				},
+				{
+					"ENG_name": "Order:",
+					"name": "秩序",
+					"type": "entries",
+					"entries": [
+						"制造（{@dice 1d4} BP）"
+					]
+				},
+				"这个铁匠铺包含一个锻造厂、一个锻砧，以及制造武器和工具所需的其他工具。",
+				"当你向该设施下达制造命令时，从以下选项中选择一项：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Craft: Ammunition or Simple Weapon",
+							"name": "制造：弹药或简易武器",
+							"type": "item",
+							"entries": [
+								"你委托铁匠铺的雇员制造最多二十件弹药或一件简易武器，这需要7天且花费你弹药或武器正常价格的一半。或者你可以委托制造一件精制品简易武器，这需要14天且花费你800金币。精制品简易武器在被施放{@spell 魔化武器}法术前没有任何特殊词条。当该法术结束时，精制品武器将永久保留魔法效果，成为一件{@item +1 武器}。"
+							]
+						},
+						{
+							"ENG_name": "Craft: Armor or Equipment",
+							"name": "制造：护甲或装备",
+							"type": "item",
+							"entries": [
+								"你委托该设施的雇员制造以下物品之一：一套中等或重甲（不包括{@item 兽皮甲|PHB|躲藏}）、{@item 铁蒺藜(一包20个)|PHB|20铁蒺藜}、{@item 链条(10尺)|PHB}、{@item 撬棍|PHB}、{@item 爪钩|PHB}、{@item 锤子|PHB}（普通或{@item 长柄铁锤|PHB|大锤}）、4个马蹄铁、{@item 捕猎陷阱|PHB}、一套{@item 镣铐|PHB}、{@item 矿工镐|PHB}、{@item 长铁钉(10)|PHB|10 铁钉(组)}或{@item 岩钉|PHB|岩钉}、一个{@item 铁壶|PHB}、一个金属{@item 盾牌|PHB}或一把{@item 铲子|PHB}。这项工作需要7天，或21天（如果是盔甲套装），且花费你该物品正常成本的一半。"
+							]
+						},
+						{
+							"ENG_name": "Craft: Martial Weapon",
+							"name": "制造：军用武器",
+							"type": "item",
+							"entries": [
+								"你委托铁匠铺的雇员制造一把军用武器，这需要14天且花费你武器正常成本的一半，或者一把精制品军用武器，这需要21天且花费你800金币。一把精制品军用武器在被施放{@spell 魔化武器}法术前没有特殊词条。当该法术结束时，精制品武器将永久保留魔法效果，成为一件{@item +1 武器}。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Stable",
+			"name": "伤势稳定",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 16,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 9
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Space:",
+					"name": "空间",
+					"type": "entries",
+					"entries": [
+						"宽敞"
+					]
+				},
+				{
+					"ENG_name": "Hirelings:",
+					"name": "雇员",
+					"type": "entries",
+					"entries": [
+						"1"
+					]
+				},
+				{
+					"ENG_name": "Order:",
+					"name": "秩序",
+					"type": "entries",
+					"entries": [
+						"贸易（{@dice 1d6} BP）"
+					]
+				},
+				"一个据点可以拥有多个伤势稳定设施。每个伤势稳定设施配备一匹{@item 乘用马|PHB}（或一头{@item 骆驼|PHB}）和两匹{@item 矮种马|PHB|矮种马}（或两头{@item 骡子|PHB|骡子}）。该设施足够容纳三头大型动物。两个中等生物占据的空间与一个大型生物相同。设施的雇工会照料这些生物。",
+				"当一只可作为乘骑的野兽在此设施中度过至少14天后，所有与它相关的感知（{@skill 驯兽}）检定具有优势，因为该动物变得更容易驾驭。",
+				"当你向此设施下达贸易指令时，你将委托设施的雇工以正常花费购买或出售一匹或多匹坐骑，并将购买的坐骑存放在你的伤势稳定中。这项工作需要7天，且DM决定可购买的动物类型\u2014\u2014马匹、矮种马和骡子最为普通。《{@table 坐骑与载具; 坐骑和其他动物|PHB|坐骑和其他动物}》表格在《{@book 玩家手册|PHB}》中给出了各种坐骑的标准价格，包括骆驼、马匹、矮种马和骡子。当你从伤势稳定出售一匹坐骑时，买家会支付比标准价格高20%的费用；当你达到13级时，这一利润增加到50%，当你达到17级时增加到100%。",
+				{
+					"ENG_name": "Enlarging a Stable",
+					"name": "扩大伤势稳定",
+					"type": "entries",
+					"page": 16,
+					"entries": [
+						"你可以花费 2000 GP ，将马厩扩大为庞大设施。这样做之后，马厩将能够容纳六只大型动物。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Storehouse",
+			"name": "仓库",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 16,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 5
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Space:",
+					"name": "空间",
+					"type": "entries",
+					"entries": [
+						"宽敞"
+					]
+				},
+				{
+					"ENG_name": "Hirelings:",
+					"name": "雇员",
+					"type": "entries",
+					"entries": [
+						"1"
+					]
+				},
+				{
+					"ENG_name": "Order:",
+					"name": "秩序",
+					"type": "entries",
+					"entries": [
+						"贸易（{@dice 1d4} BP）"
+					]
+				},
+				"这个清凉、黑暗的空间旨在存放商业货物（参见{@table 商业货物|PHB}表格，位于{@book 玩家手册|PHB}中），但几乎可以容纳任何东西。",
+				"当你向此设施下达贸易指令时，其雇工将在接下来的7天内采购总价值不超过500GP的非魔法物品并将其存放在仓库中，或者雇工利用这7天时间销售仓库中的商品。你将承担所有采购的花费，且当你达到9级时，可购买物品的最大价值提升至2000GP，达到13级时提升至5000GP。{@book 装备章节|PHB|5}的{@book 玩家手册|PHB}中包含可购买的普通商品表格。",
+				"当你从仓库中出售商品时，买家会额外支付你 10% 于标准价格的酬金；额外酬金将在你达到 9 级后提升至 20% 、 13 级后提升至 50% 、 17 级后提升至 100% 。"
+			]
+		},
+		{
+			"ENG_name": "Teleportation Circle",
+			"name": "传送法阵",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 17,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 9
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Space:",
+					"name": "空间",
+					"type": "entries",
+					"entries": [
+						"宽敞"
+					]
+				},
+				{
+					"ENG_name": "Hirelings:",
+					"name": "雇员",
+					"type": "entries",
+					"entries": [
+						"0"
+					]
+				},
+				{
+					"ENG_name": "Order:",
+					"name": "秩序",
+					"type": "entries",
+					"entries": [
+						"招募（{@dice 1d6} BP）"
+					]
+				},
+				"这个房间的地板上刻有一个由{@spell 传送法阵}法术创造的永久传送法阵。",
+				"每次你向此设施下达招募命令时，你的据点会向一位友好的{@creature 魔法师|MM}发出请君入瓮的邀请，若你达到17级或更高，则邀请一位友好的{@creature 大法师|MM}（参见{@book 怪物图鉴|MM}获取其数据卡）。掷任意骰子。若掷出奇数，受邀者会拒绝邀请，且你从该命令中得不到任何增益。若掷出偶数，受邀者会接受邀请并通过你的{@spell 传送法阵}抵达你的据点。这位客人会停留7天。该客人不会协助保卫你的据点，并在据点遭受攻击时立即离开（参见文档末尾的\"{@variantrule 据点事件|XUA2023BastionsAndCantrips}\"）。",
+				"当你在据点时，你可以请求来访的{@creature 魔法师|MM}或{@creature 大法师|MM}施放一个法术。若是{@creature 魔法师|MM}，选择一个4级或更低的法师法术；若是{@creature 大法师|MM}，选择一个8级或更低的法师法术。该法术可能是来访者已准备的，也可能是写在{@item 法术书|PHB}中的。如果该法术有一个或多个需要花费金钱的材料成分，你必须在法术施放前支付它们。"
+			]
+		},
+		{
+			"ENG_name": "Theater",
+			"name": "剧院",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 17,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 9
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Space:",
+					"name": "空间",
+					"type": "entries",
+					"entries": [
+						"庞大"
+					]
+				},
+				{
+					"ENG_name": "Hirelings:",
+					"name": "雇员",
+					"type": "entries",
+					"entries": [
+						"4"
+					]
+				},
+				{
+					"ENG_name": "Order:",
+					"name": "秩序",
+					"type": "entries",
+					"entries": [
+						"增强（{@dice 1d6} BP）"
+					]
+				},
+				"剧院包含一座舞台、一个用于存放道具和布景的后台区域、以及为一小群观众准备的观众席。",
+				"当你向该设施发出增强秩序时，其雇员开始着手戏剧制作或音乐会。排练和其他准备需要14天，随后至少7天的表演。表演可以无限期持续，直到新制作开始。",
+				"一名玩家角色可以通过以下方式为剧院制作做出贡献：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Composer/Writer",
+							"name": "作曲家/编剧",
+							"type": "item",
+							"entries": [
+								"角色可以给音乐会创作曲目或者给戏剧编写剧本，这项工作需要 14 天，并且必须在节目开始排练前完成。"
+							]
+						},
+						{
+							"ENG_name": "Conductor/Director",
+							"name": "指挥家/导演",
+							"type": "item",
+							"entries": [
+								"在整个节目编排期间一直待在此据点内的角色可以担任音乐会的指挥家或戏剧的导演。"
+							]
+						},
+						{
+							"ENG_name": "Performer",
+							"name": "演艺者",
+							"type": "item",
+							"entries": [
+								"在整个节目排练期间一直待在此据点内的角色在一次或更多次演出中担任领衔主演。设施的某位雇员将作为替补，在其他场次中代替该角色出演。"
+							]
+						}
+					]
+				},
+				"在排练期结束时，每个为音乐会或制作做出贡献的角色可以进行一次{@dc 15}魅力（{@skill 表演}）检定。如果成功的检定多于失败的，你和任何其他为音乐会或制作做出贡献的角色各自获得一个剧院骰，一个{@dice d6}。当你达到13级时，这个骰子增加到{@dice d8}，17级时增加到{@dice d10}。在排练结束后的任何时候，角色可以消耗他们的剧院骰来掷骰并将掷出的数值添加到一次属性检定、攻击检定或豁免检定中。如果一个角色在获得另一个剧院骰之前没有消耗他们的骰子，他们的第一个骰子将丢失。"
+			]
+		},
+		{
+			"ENG_name": "Training Area",
+			"name": "训练场",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 18,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 9,
+					"other": "{@variantrule 专精|XUA2023PlayersHandbookP7}于一个技能、战斗风格特性或无甲防御特性"
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Space:",
+					"name": "空间",
+					"type": "entries",
+					"entries": [
+						"庞大"
+					]
+				},
+				{
+					"ENG_name": "Hirelings:",
+					"name": "雇员",
+					"type": "entries",
+					"entries": [
+						"4"
+					]
+				},
+				{
+					"ENG_name": "Order:",
+					"name": "秩序",
+					"type": "entries",
+					"entries": [
+						"增强（{@dice 1d6} BP）"
+					]
+				},
+				"每个据点可以拥有多个训练场。训练场可以是开放式庭院、体育场、歌舞厅、亦或是精心打造的充满陷阱和危险的试炼场。它还可能包含固定靶（供武器训练）、软垫以及其他设备。此设施的其中一位雇员是专业教练，其他雇员则是陪练人员。",
+				"当训练场成为你据点的一部分时，从{@table 专业教练|XUA2023BastionsAndCantrips}表格中选择一名训练师。在每个据点回合，你可以将该训练师替换为表格中的另一名训练师。",
+				"当你向这个训练场下达增强指令时，训练场的雇员会在接下来的7天内进行训练演习。任何在这些天内每天至少在这里训练8小时的角色，在训练期结束时获得一个增益。增益效果取决于训练场中出现的训练师，如{@table 专业教练|XUA2023BastionsAndCantrips}表格所述。增益持续7天。",
+				{
+					"ENG_name": "Expert Trainers",
+					"name": "专业教练",
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2023BastionsAndCantrips",
+					"page": 18
+				}
+			]
+		},
+		{
+			"ENG_name": "Trophy Room",
+			"name": "陈列室",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 18,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 9
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Space:",
+					"name": "空间",
+					"type": "entries",
+					"entries": [
+						"宽敞"
+					]
+				},
+				{
+					"ENG_name": "Hirelings:",
+					"name": "雇员",
+					"type": "entries",
+					"entries": [
+						"1"
+					]
+				},
+				{
+					"ENG_name": "Order:",
+					"name": "秩序",
+					"type": "entries",
+					"entries": [
+						"研究（{@dice 1d6} BP）"
+					]
+				},
+				"这个房间收藏了一系列纪念品，例如来自古老战斗的武器、恩人赠送的礼物、被击杀生物的头颅、从地下城和废墟中收集的饰品，以及祖先传下来的战利品。",
+				"当你向此设施发布研究命令时，选择以下一项：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Research: Lore",
+							"name": "研究：逸闻",
+							"type": "item",
+							"entries": [
+								"你委托设施的雇工研究你选择的主题，或自己进行研究。主题可以是传说、任何类型的生物或著名物件。主题不必直接与房间陈列的物品相关，因为这些战利品为研究各种其他主题提供了线索。这项工作需要7天。研究结束时，你将获得最多三条关于该主题的、你之前未知的准确消息。DM决定获得什么信息。"
+							]
+						},
+						{
+							"ENG_name": "Research: Trinket Trophy",
+							"name": "研究：饰品纪念品展室",
+							"type": "item",
+							"entries": [
+								"你委托设施的雇工搜索可能对你有用的饰品。这项工作需要7天。研究结束时，掷一个骰子。如果掷出的数值是奇数，雇工没有找到任何有用的东西。如果掷出的数值是偶数，雇工会找到一个具有先前未知魔法属性的饰品。你可以决定饰品的外观，或在{@item 饰品|PHB|饰品}表格中掷骰以确定其形态，该表格位于{@book 玩家手册|PHB}中。作为一个{@action 魔法|XUA2023PlayersHandbookP7}动作，一个生物可以使用该饰品施放特定法术，且不需要法术成分。从以下列表中选择法术：{@spell 鹰眼术}、{@spell 防死结界}、{@spell 寻找陷阱}、{@spell 生物定位术}、{@spell 魔化武器}、{@spell 移除诅咒}或{@spell 死者交谈}。一旦以这种方式使用，饰品将失去其魔法。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "War Room",
+			"name": "作战指挥室",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 19,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 17,
+					"other": "战斗风格特性或无甲防御特性"
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Space:",
+					"name": "空间",
+					"type": "entries",
+					"entries": [
+						"庞大"
+					]
+				},
+				{
+					"ENG_name": "Hirelings:",
+					"name": "雇员",
+					"type": "entries",
+					"entries": [
+						"见下文"
+					]
+				},
+				{
+					"ENG_name": "Order:",
+					"name": "秩序",
+					"type": "entries",
+					"entries": [
+						"招募（{@dice 1d10} BP）"
+					]
+				},
+				"作战指挥室是你与忠诚的中尉内环商议军事行动的地方，每位中尉都是身经百战的{@creature 老兵|MM}（参见{@book 怪物图鉴|MM}），其阵营与你相同。你开始时有两名中尉，但可以按照下方描述添加更多。如果你的据点没有设施来安置你的中尉，他们会在最靠近你据点的旅馆或聚居地找到宿舍。",
+				"副官不计入据点防御者，但如果你的据点遭到攻击（参见本文档末尾的\"{@variantrule 据点事件|XUA2023BastionsAndCantrips}\"部分），据点中驻扎的每位副官可使你在掷骰确定有多少据点防御者在此次攻击中迷失时减少1个骰子。",
+				"作战指挥室里摆放着战争纪念品，以及一张大桌子，桌子周围摆放着足够你和副官一一就座的椅子。",
+				"当你向该设施发布招募命令时，选择以下一项：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Recruit: Lieutenants",
+							"name": "招募：中尉",
+							"type": "item",
+							"entries": [
+								"你获得一名新的副官。你最多可以同时拥有十名副官。根据需要为它们分配名字和个性。"
+							]
+						},
+						{
+							"ENG_name": "Recruit: Soldiers",
+							"name": "招募：士兵",
+							"type": "item",
+							"entries": [
+								"你委派一名或多名副官组建一支小型军队。每名副官可在7天内召集一百名{@creature 警卫|MM|警卫们}（参见{@book 怪物图鉴|MM}）为你的目标而战。若你希望他们骑乘{@creature 乘用马|MM|乘用马}（参见{@book 怪物图鉴|MM}），则将该数值缩小至二十名警卫们。每日需花费1GP金币为你军队中的每名{@creature 警卫|MM}和每匹{@creature 乘用马|MM|马}提供进食。无论军队前往何处，必须由你或至少一名副官领导，否则将立即解散。若军队1天未进食也会解散。否则军队将一直存在直至被摧毁或你命令其解散。在当前军队解散或被摧毁前，你无法再次下达此招募秩序命令。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Workshop",
+			"name": "工坊",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 19,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 5,
+					"other": "{@variantrule 专精|XUA2023PlayersHandbookP7} 技能"
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Space:",
+					"name": "空间",
+					"type": "entries",
+					"entries": [
+						"宽敞"
+					]
+				},
+				{
+					"ENG_name": "Hirelings:",
+					"name": "雇员",
+					"type": "entries",
+					"entries": [
+						"2"
+					]
+				},
+				{
+					"ENG_name": "Order:",
+					"name": "秩序",
+					"type": "entries",
+					"entries": [
+						"制造（{@dice 1d4} BP）"
+					]
+				},
+				"这个工坊是一个创造空间，可以制造各种有用的物品。",
+				"在你的工坊中度过整个短休后，你获得{@variantrule 英雄优势|XUA2023PlayersHandbookP7}。直到完成一次长休前，你无法再次获得此增益。",
+				"当你向此工坊下达制造订单时，你将委托工坊的雇员制造一个可使用{@item 木匠工具|PHB}、{@item 鞋匠工具|PHB}、{@item 玻璃匠工具|PHB}、{@item 石匠工具|PHB}、{@item 陶匠工具|PHB}、{@item 修补工具|PHB}、{@item 织布工具|PHB}或{@item 木雕工具|PHB|伐木工工具}制作的微型非魔法物件。示例包括{@item 表演服装|PHB|戏服}、{@item 赌具|PHB}、{@item 乐器|PHB}、法器、{@item 玻璃瓶|PHB|瓶子}、鞋子或玩具。这项工作需要7天且无需花费，除非该物品价值10GP或更高，此时你需支付该物品花费的一半。"
+			]
+		}
+	],
+	"spell": [
+		{
+			"ENG_name": "Acid Splash",
+			"name": "酸液飞溅",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 22,
+			"level": 0,
+			"school": "V",
+			"groups": [
+				{
+					"ENG_name": "Sorcerer",
+					"name": "术士",
+					"source": "XUA2023BastionsAndCantrips"
+				},
+				{
+					"ENG_name": "Wizard",
+					"name": "法师",
+					"source": "XUA2023BastionsAndCantrips"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"你创造一个酸性气泡并将其猛投至射程内的一点，在那里它会爆炸形成一个半径5尺的球状区域。该区域内的每个生物必须成功通过一次敏捷豁免检定，否则受到{@damage 1d6}强酸伤害。"
+			],
+			"entriesHigherLevel": [
+				{
+					"ENG_name": "Cantrip Upgrade",
+					"name": "戏法强化",
+					"type": "entries",
+					"entries": [
+						"该法术的伤害在你达到5级（{@damage 2d6}）、11级（{@damage 3d6}）和17级（{@damage 4d6}）时增加{@dice 1d6}。"
+					]
+				}
+			],
+			"scalingLevelDice": {
+				"label": "强酸伤害",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"damageInflict": [
+				"强酸"
+			],
+			"savingThrow": [
+				"敏捷"
+			],
+			"miscTags": [
+				"SCL"
+			],
+			"areaTags": [
+				"MT",
+				"ST"
+			]
+		},
+		{
+			"ENG_name": "Blade Ward",
+			"name": "剑刃防护",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 22,
+			"level": 0,
+			"school": "A",
+			"groups": [
+				{
+					"ENG_name": "Bard",
+					"name": "吟游诗人",
+					"source": "XUA2023BastionsAndCantrips"
+				},
+				{
+					"ENG_name": "Sorcerer",
+					"name": "术士",
+					"source": "XUA2023BastionsAndCantrips"
+				},
+				{
+					"ENG_name": "Warlock",
+					"name": "魔契师",
+					"source": "XUA2023BastionsAndCantrips"
+				},
+				{
+					"ENG_name": "Wizard",
+					"name": "法师",
+					"source": "XUA2023BastionsAndCantrips"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "反应",
+					"condition": "当你受到一个可见生物以近战攻击为目标时使用"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"你画出一个守卫印记，使该生物对你的攻击检定具有劣势。"
+			]
+		},
+		{
+			"ENG_name": "Chill Touch",
+			"name": "颤栗之触",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 22,
+			"level": 0,
+			"school": "N",
+			"groups": [
+				{
+					"ENG_name": "Sorcerer",
+					"name": "术士",
+					"source": "XUA2023BastionsAndCantrips"
+				},
+				{
+					"ENG_name": "Warlock",
+					"name": "魔契师",
+					"source": "XUA2023BastionsAndCantrips"
+				},
+				{
+					"ENG_name": "Wizard",
+					"name": "法师",
+					"source": "XUA2023BastionsAndCantrips"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"你引导坟墓的寒意尝试接触一个生物。对目标进行一次近战法术攻击。命中时，目标受到{@damage 1d10}暗蚀伤害，且直到你的下个回合结束前无法恢复生命值。"
+			],
+			"entriesHigherLevel": [
+				{
+					"ENG_name": "Cantrip Upgrade",
+					"name": "戏法强化",
+					"type": "entries",
+					"entries": [
+						"当你达到5级（{@dice 4d10}）、11级（{@dice 2d10}）和17级（{@dice 3d10}）时，该法术的伤害增加{@dice 1d10}。"
+					]
+				}
+			],
+			"scalingLevelDice": {
+				"label": "暗蚀伤害",
+				"scaling": {
+					"1": "1d10",
+					"5": "2d10",
+					"11": "3d10",
+					"17": "4d10"
+				}
+			},
+			"damageInflict": [
+				"暗蚀"
+			],
+			"spellAttack": [
+				"M"
+			],
+			"miscTags": [
+				"SCL"
+			]
+		},
+		{
+			"ENG_name": "Friends",
+			"name": "交友术",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 22,
+			"level": 0,
+			"school": "E",
+			"groups": [
+				{
+					"ENG_name": "Bard",
+					"name": "吟游诗人",
+					"source": "XUA2023BastionsAndCantrips"
+				},
+				{
+					"ENG_name": "Sorcerer",
+					"name": "术士",
+					"source": "XUA2023BastionsAndCantrips"
+				},
+				{
+					"ENG_name": "Warlock",
+					"name": "魔契师",
+					"source": "XUA2023BastionsAndCantrips"
+				},
+				{
+					"ENG_name": "Wizard",
+					"name": "法师",
+					"source": "XUA2023BastionsAndCantrips"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "一些化妆品"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"你魔法般地散发出一种对范围内一个可见生物的友好感。目标必须成功通过一次感知豁免检定，否则在持续时间内获得{@condition 魅惑}状态。如果目标不是类人生物、你正在与它战斗，或你在过去24小时内对它施放过此法术，则目标自动成功。如果目标受到伤害，或你进行攻击检定、造成伤害或迫使任何人进行豁免检定，则法术提前结束。"
+			],
+			"conditionInflict": [
+				"魅惑"
+			],
+			"savingThrow": [
+				"感知"
+			]
+		},
+		{
+			"ENG_name": "Poison Spray",
+			"name": "毒气喷涌",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 23,
+			"level": 0,
+			"school": "N",
+			"groups": [
+				{
+					"ENG_name": "Druid",
+					"name": "德鲁伊",
+					"source": "XUA2023BastionsAndCantrips"
+				},
+				{
+					"ENG_name": "Sorcerer",
+					"name": "术士",
+					"source": "XUA2023BastionsAndCantrips"
+				},
+				{
+					"ENG_name": "Warlock",
+					"name": "魔契师",
+					"source": "XUA2023BastionsAndCantrips"
+				},
+				{
+					"ENG_name": "Wizard",
+					"name": "法师",
+					"source": "XUA2023BastionsAndCantrips"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"你向射程内的一个生物发射一团有毒能量雾气。对目标进行一次远程法术攻击。命中时，目标受到{@damage 1d12}毒素伤害。"
+			],
+			"entriesHigherLevel": [
+				{
+					"ENG_name": "Cantrip Upgrade",
+					"name": "戏法强化",
+					"type": "entries",
+					"entries": [
+						"该法术的伤害在5级（{@dice 4d12}）、11级（{@dice 2d12}）和17级（{@dice 3d12}）时增加{@dice 1d12}。"
+					]
+				}
+			],
+			"scalingLevelDice": {
+				"label": "毒素伤害",
+				"scaling": {
+					"1": "1d12",
+					"5": "2d12",
+					"11": "3d12",
+					"17": "4d12"
+				}
+			},
+			"damageInflict": [
+				"毒素"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"miscTags": [
+				"SCL"
+			]
+		},
+		{
+			"ENG_name": "Produce Flame",
+			"name": "燃火术",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 23,
+			"level": 0,
+			"school": "C",
+			"groups": [
+				{
+					"ENG_name": "Druid",
+					"name": "德鲁伊",
+					"source": "XUA2023BastionsAndCantrips"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "附赠动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					}
+				}
+			],
+			"entries": [
+				"一团摇曳火焰出现在你手中并持续存在。在此期间，火焰不会产生高温且不会引燃任何物体，它会散发20尺半径的明亮光照和额外20尺的微光光照。若你以附赠动作解除该法术或再次施放它，则法术终止。",
+				"直到法术结束前，你可以消耗一个{@action 魔法|XUA2023PlayersHandbookP7}动作向60尺内的一个生物或物件投掷火焰。进行一次远程法术攻击。命中时，目标受到{@damage 1d8}火焰伤害。"
+			],
+			"entriesHigherLevel": [
+				{
+					"ENG_name": "Cantrip Upgrade",
+					"name": "戏法强化",
+					"type": "entries",
+					"entries": [
+						"该法术的伤害在你达到5级（{@dice 4d8}）、11级（{@dice 2d8}）和17级（{@dice 3d8}）时各增加{@dice 1d8}。"
+					]
+				}
+			],
+			"scalingLevelDice": {
+				"label": "火焰伤害",
+				"scaling": {
+					"1": "1d8",
+					"5": "2d8",
+					"11": "3d8",
+					"17": "4d8"
+				}
+			},
+			"damageInflict": [
+				"火焰"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"miscTags": [
+				"LGT",
+				"OBJ",
+				"SCL",
+				"UBA"
+			]
+		},
+		{
+			"ENG_name": "Shillelagh",
+			"name": "橡棍术",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 23,
+			"level": 0,
+			"school": "T",
+			"groups": [
+				{
+					"ENG_name": "Druid",
+					"name": "德鲁伊",
+					"source": "XUA2023BastionsAndCantrips"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "附赠动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "一些槲寄生，一片三叶草叶子、以及一根短棒或长棍"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你将自然之力灌入手中持握的一根短棒或长棍中。你在法术持续时间内使用该武器进行近战攻击时，可以用你的施法属性代替力量属性来进行攻击检定和伤害掷骰，且该武器的伤害骰变为{@dice d8}。此类攻击造成伤害时，你可以选择将其伤害类型改为力场伤害，或是维持武器原本的伤害类型。",
+				"你再次施展该法术或丢掉该武器时，该法术也随之终止。"
+			],
+			"entriesHigherLevel": [
+				{
+					"ENG_name": "Cantrip Upgrade",
+					"name": "戏法强化",
+					"type": "entries",
+					"entries": [
+						"武器的伤害骰会在你达到5级（{@dice d10}）、11级（{@dice d12}）和17级（{@dice 2d6}）时改变。"
+					]
+				}
+			],
+			"scalingLevelDice": {
+				"label": "力场伤害",
+				"scaling": {
+					"1": "1d8",
+					"5": "1d10",
+					"11": "1d12",
+					"17": "2d6"
+				}
+			},
+			"miscTags": [
+				"SCL"
+			]
+		},
+		{
+			"ENG_name": "Shocking Grasp",
+			"name": "电爪",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 23,
+			"level": 0,
+			"school": "V",
+			"groups": [
+				{
+					"ENG_name": "Sorcerer",
+					"name": "术士",
+					"source": "XUA2023BastionsAndCantrips"
+				},
+				{
+					"ENG_name": "Wizard",
+					"name": "法师",
+					"source": "XUA2023BastionsAndCantrips"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"闪电从你的手中迸发，对你试图接触的生物造成电击。对目标进行一次近战法术攻击。命中时，目标受到{@damage 1d8}闪电伤害，且在其下个回合开始前不能进行{@action 借机攻击|PHB|借机攻击}。"
+			],
+			"entriesHigherLevel": [
+				{
+					"ENG_name": "Cantrip Upgrade",
+					"name": "戏法强化",
+					"type": "entries",
+					"entries": [
+						"该法术的伤害在你达到5级（{@dice 4d8}）、11级（{@dice 2d8}）和17级（{@dice 3d8}）时各增加{@dice 1d8}。"
+					]
+				}
+			],
+			"scalingLevelDice": {
+				"label": "闪电伤害",
+				"scaling": {
+					"1": "1d8",
+					"5": "2d8",
+					"11": "3d8",
+					"17": "4d8"
+				}
+			},
+			"damageInflict": [
+				"闪电"
+			],
+			"spellAttack": [
+				"M"
+			],
+			"miscTags": [
+				"SCL"
+			]
+		},
+		{
+			"ENG_name": "Spare the Dying",
+			"name": "维生术",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 23,
+			"level": 0,
+			"school": "N",
+			"groups": [
+				{
+					"ENG_name": "Cleric",
+					"name": "牧师",
+					"source": "XUA2023BastionsAndCantrips"
+				},
+				{
+					"ENG_name": "Druid",
+					"name": "德鲁伊",
+					"source": "XUA2023BastionsAndCantrips"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 15
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"选择一个范围内生命值为0但仍存活的生物。该生物伤势变得稳定。"
+			],
+			"entriesHigherLevel": [
+				{
+					"ENG_name": "Cantrip Upgrade",
+					"name": "戏法强化",
+					"type": "entries",
+					"entries": [
+						"当你达到5级（30尺）、11级（60尺）和17级（120尺）时，该法术的范围加倍。"
+					]
+				}
+			],
+			"miscTags": [
+				"SCL"
+			]
+		},
+		{
+			"ENG_name": "True Strike",
+			"name": "克敌先击",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 23,
+			"level": 0,
+			"school": "D",
+			"groups": [
+				{
+					"ENG_name": "Bard",
+					"name": "吟游诗人",
+					"source": "XUA2023BastionsAndCantrips"
+				},
+				{
+					"ENG_name": "Sorcerer",
+					"name": "术士",
+					"source": "XUA2023BastionsAndCantrips"
+				},
+				{
+					"ENG_name": "Warlock",
+					"name": "魔契师",
+					"source": "XUA2023BastionsAndCantrips"
+				},
+				{
+					"ENG_name": "Wizard",
+					"name": "法师",
+					"source": "XUA2023BastionsAndCantrips"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "一把你熟练的武器"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"你受到一瞬魔法洞见的指引，使用施展此法术时使用的那把武器发动一次攻击。此次攻击使用你的施法属性（而非力量属性或敏捷属性）进行攻击检定与伤害掷骰。此次攻击造成伤害时，你可以选择将其伤害类型改为光耀伤害，或是维持武器原本的伤害类型。"
+			],
+			"entriesHigherLevel": [
+				{
+					"ENG_name": "Cantrip Upgrade",
+					"name": "戏法强化",
+					"type": "entries",
+					"entries": [
+						"无论你选择造成光耀伤害还是武器的正常伤害类型，该攻击在你达到5级（{@dice 1d6}）、11级（{@dice 2d6}）和17级（{@dice 3d6}）时都会造成额外光耀伤害。"
+					]
+				}
+			],
+			"scalingLevelDice": {
+				"label": "光耀伤害",
+				"scaling": {
+					"1": "0",
+					"5": "1d6",
+					"11": "2d6",
+					"17": "3d6"
+				}
+			},
+			"miscTags": [
+				"SCL"
+			]
+		}
+	],
+	"variantrule": [
+		{
+			"ENG_name": "Bastion Events",
+			"name": "据点事件",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 20,
+			"ruleType": "P",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"在任何据点回合结束时，若角色对其据点下达了维护秩序的命令，DM需在{@table 据点事件|XUA2023BastionsAndCantrips}表格上掷骰一次。若事件发生，DM需向控制该据点的玩家角色所属玩家宣读事件（表格后章节有描述）。事件将立即解决，玩家与DM需合作按需扩展故事细节。",
+						"据点事件仅在据点处于维护秩序状态下才会发生，这通常意味着据点的主人当时不在据点内。这意味着这些事件可以是玩家扮演据点雇员并对这些事件做出反应的机会。DM甚至可以决定将据点事件变成一种过场场景，每个玩家扮演据点的一名雇员（在拥有据点的角色玩家的指导下）。",
+						{
+							"ENG_name": "Bastion Events",
+							"name": "据点事件",
+							"type": "statblock",
+							"tag": "table",
+							"source": "XUA2023BastionsAndCantrips",
+							"page": 20
+						},
+						{
+							"ENG_name": "Event Descriptions",
+							"name": "事件描述",
+							"type": "entries",
+							"page": 20,
+							"entries": [
+								"据点事件表格中的各类事件，其具体描述在这里以首字母排序的顺序写明。",
+								{
+									"ENG_name": "Attack",
+									"name": "攻击",
+									"type": "entries",
+									"page": 20,
+									"entries": [
+										"一支敌对势力攻击了你的据点但被击败。掷{@dice 6d6}；每掷出一个1，就有一名据点防御者死亡。将这些据点防御者从你的据点名册中移除。此外，据点的其中一个特色设施（随机决定）受损并被迫关闭。如果据点没有据点防御者，或者在攻击后没有据点防御者幸存，第二个特色设施也会关闭。关闭的特色设施在你的下一个据点回合不能使用，之后它会自动修复并重新运作，无需你花费任何代价。关闭的特色设施在你发布维护命令时不会生成任何{@variantrule 据点点数|XUA2023BastionsAndCantrips}。"
+									]
+								},
+								{
+									"ENG_name": "Criminal Hireling",
+									"name": "罪犯雇员",
+									"type": "entries",
+									"page": 20,
+									"entries": [
+										"你据点的一位雇员以前犯下过罪行，但直到执法人员或者赏金猎人带着他的通缉令出现在据点门口时，大家才知道这件事。你可以贿赂他们{@dice 1d6 × 100}GP来保下这位雇员，否则这位雇员会被逮捕。如果这导致你的某个特色设施完全没有雇员在工作，那么该特色设施在你的下个据点回合中无法使用。之后，新的雇员会来接手工作，这不会花费你任何金钱。"
+									]
+								},
+								{
+									"ENG_name": "Extraordinary Opportunity",
+									"name": "机不可失",
+									"type": "entries",
+									"page": 20,
+									"entries": [
+										"如果你花费500GP举办节日庆典、资助一位强大施法者的研究或安抚一位专横的贵族，你将获得额外的{@dice 2d4}据点点数。与DM合作确定细节。"
+									]
+								},
+								{
+									"ENG_name": "Friendly Visitors",
+									"name": "友好的来访者",
+									"type": "entries",
+									"page": 20,
+									"entries": [
+										"友好的来访者来到你的据点，希望使用你的一个特色设施。他们为短暂使用该设施报价{@dice 1d6 × 100}金币。例如，商队可能想使用你的{@optfeature 工坊|XUA2023BastionsAndCantrips}来修复他们的马车和旅行装备。朝圣者可能想在你的{@optfeature 庇护术|XUA2023BastionsAndCantrips}中休息。一位骑士可能想用你的{@optfeature 铁匠铺|XUA2023BastionsAndCantrips}更换马蹄铁或损坏的武器护甲。或者智者可能需要你的{@optfeature 奥术研究室|XUA2023BastionsAndCantrips}来协助他们解决争端。他们对设施的使用不会中断你已下达的任何命令。"
+									]
+								},
+								{
+									"ENG_name": "Honored Guest",
+									"name": "尊贵客人",
+									"type": "entries",
+									"page": 20,
+									"entries": [
+										"一位客人来到你的据点暂住。与你的DM合作确定这位陌生人的身份。在{@table 荣誉嘉宾|XUA2023BastionsAndCantrips}表格上掷骰或从该表格中选择一个选项。",
+										{
+											"ENG_name": "Honored Guests",
+											"name": "荣誉嘉宾",
+											"type": "statblock",
+											"tag": "table",
+											"source": "XUA2023BastionsAndCantrips",
+											"page": 21
+										}
+									]
+								},
+								{
+									"ENG_name": "Lost Hirelings",
+									"name": "失去雇员",
+									"type": "entries",
+									"page": 21,
+									"entries": [
+										"你据点的其中一个特色设施（随机决定）失去了它的所有雇员。雇员离开的原因由你决定。该特色设施在你的下个据点回合中无法使用。之后，新的雇员会来接手工作，这不会花费你任何金钱。"
+									]
+								},
+								{
+									"ENG_name": "Magical Discovery",
+									"name": "魔法发现",
+									"type": "entries",
+									"page": 21,
+									"entries": [
+										"你的雇员意外发现或创造了一件你选择的非普通魔法物品。该魔法物品不能是盔甲套装、盾牌或武器，且其魔法是临时的；其词条在你认领该物品时开始生效，并持续到你的下一个据点回合开始，之后该魔法物品会化为粉尘。"
+									]
+								},
+								{
+									"ENG_name": "Refugees",
+									"name": "难民",
+									"type": "entries",
+									"page": 21,
+									"entries": [
+										"{@dice 2d4}名难民正在逃离怪物攻击、自然灾害、或是其他灾难。他们希望在你的据点避难。如果你的据点没有足以容纳他们的基础设施，他们会在据点外扎营。难民们向你支付{@dice 1d6 × 100}GP作为你接纳并保护他们的报酬。他们会一直待在这里，直至你为他们找到新家，或直至敌对势力袭击你的据点。"
+									]
+								},
+								{
+									"ENG_name": "Request for Aid",
+									"name": "请求援助",
+									"type": "entries",
+									"page": 21,
+									"entries": [
+										"你的据点被要求协助一位当地首领。可能是在搜索一名失踪人员，或是土匪正在侵扰该区域。如果你选择协助，你必须派遣一名或多名据点防御者。为你派遣的每名据点防御者掷一枚{@dice d6}。如果这些骰子结果总和为10或更高，问题将被解决，且你将获得{@dice 1d6 × 100}金币的回报。如果骰子结果总和小于10，问题仍会被解决，但回报减半且你的一名据点防御者会阵亡。将该据点防御者从你的据点名册中移除。"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Bastion Facilities",
+			"name": "堡垒设施",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 3,
+			"ruleType": "P",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"当角色获得一个据点时，它会附带二基础设施和二特色设施。两种类型的设施均在下方说明。",
+						"设施中的空间数量决定了其以5英尺方格为单位的最大面积，如{@table 设施空间|XUA2023BastionsAndCantrips}表格所示。玩家可以在据点的地图上自由配置设施的方格。这些方格可以堆叠，使得设施的区域分布在多个等级或楼层上。",
+						{
+							"ENG_name": "Facility Space",
+							"name": "设施空间",
+							"type": "statblock",
+							"tag": "table",
+							"source": "XUA2023BastionsAndCantrips",
+							"page": 4
+						},
+						{
+							"ENG_name": "Bastion Map",
+							"name": "据点地图",
+							"type": "entries",
+							"page": 4,
+							"entries": [
+								"玩家被鼓励创建其角色据点的平面图，按照他们的喜好配置据点的基础和特色设施。除了这些设施（如下所述），据点还可以拥有以下特性：",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"page": 4,
+									"items": [
+										{
+											"ENG_name": "Closets",
+											"name": "盥洗室",
+											"type": "item",
+											"entries": [
+												"基础或特色设施可以包含一个或多个盥洗室大小的封闭空间，无需额外花费。盥洗室必须位于设施内部且不能增加设施的方格区域。"
+											]
+										},
+										{
+											"ENG_name": "Doors and Windows",
+											"name": "门和窗户",
+											"type": "item",
+											"entries": [
+												"每个设施都配有一扇或多扇门和带百叶窗的窗户，玩家可以将其放置在任何合适的位置。关于可供选择的门类，包括上锁的门、暗门和吊闸门，请参阅{@book 门|DMG|5|门}中的{@book 第五章|DMG|5}，出自{@book 城主指南|DMG}。这些特性是自由的。"
+											]
+										},
+										{
+											"ENG_name": "Corridors, Ramps, and Staircases",
+											"name": "走廊、斜坡和楼梯",
+											"type": "item",
+											"entries": [
+												"每个设施可以拥有一个或更多通往据点内其他设施的走廊，坡道或楼梯。这些特征是免费的。"
+											]
+										},
+										{
+											"ENG_name": "Defensive Walls",
+											"name": "防御墙",
+											"type": "item",
+											"entries": [
+												"一名玩家角色可以在其据点周围添加防御墙。防御墙高20尺且顶部可包含一条走道，并有进入走道的方式（例如梯子或升降机）。每5尺见方的防御墙需要10天建造且成本为250GP。如果你的据点完全被防御墙包围且遭到攻击（参见本文档末尾的\"{@variantrule 据点事件|XUA2023BastionsAndCantrips}\"部分），则在掷骰确定有多少据点防御者在攻击中迷失时，将骰子数值减少2个。"
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"ENG_name": "Combining Bastions",
+									"name": "合并据点",
+									"type": "entries",
+									"page": 4,
+									"entries": [
+										"两名或更多玩家可以选择将他们角色的据点合并为一个体系。这样做不会改变每个据点可以拥有的特色设施数量、这些特色设施如何工作或谁可以向每个据点下达命令。每个据点保留自己的雇员，这些雇员不能被派遣或与其他据点共享。据点防御者的处理方式不同：如果某些事件剥夺了一个角色据点的防御者，另一个角色可以将全部或部分损失转移到自己的据点，前提是两个据点已合并。"
+									]
+								}
+							]
+						},
+						{
+							"ENG_name": "Basic Facilities",
+							"name": "基础设施",
+							"type": "entries",
+							"page": 4,
+							"entries": [
+								"基础设施不会生成据点点数，但它们可以激励有意义的角色扮演机会且增强据点的真实性。一个有厨房的据点与没有厨房的据点在功能上是相同的，但前者为你和你的玩家提供了一个有趣的设定来开始游戏会话、进行角色内讨论或介绍新的NPC。",
+								"角色的据点开始时拥有两个自由的基础设施，由角色的玩家从下方的基础设施列表中选择。其中一个选中的设施是狭窄的，另一个是宽敞的。据点可以拥有多个相同的基础设施。",
+								{
+									"ENG_name": "Basic Facilities",
+									"name": "基础设施",
+									"type": "list",
+									"style": "list-no-bullets",
+									"page": 4,
+									"items": [
+										"卧室",
+										"庭院",
+										"餐厅",
+										"厨房",
+										"客厅",
+										"储藏室",
+										"盥洗室"
+									]
+								},
+								"每个基础设施都配有非魔法的家具以及与该设施相配的装饰。",
+								"基础设施可以被变巨且通过花费金币和游戏内时间添加新的设施，如下文所述。任何数量的基础设施可以同时被建造或变巨。角色在添加或变巨新设施时不需要身处他们的据点。",
+								{
+									"ENG_name": "Adding Basic Facilities",
+									"name": "增添基础设施",
+									"type": "entries",
+									"page": 5,
+									"entries": [
+										"角色可以通过花费金钱和游戏内时间向其据点增添基础设施。增添基础设施的花费以及所需的游戏内时间取决于设施的占用空间，如{@table 增添基础设施|XUA2023BastionsAndCantrips}表格所示。",
+										{
+											"ENG_name": "Adding Basic Facilities",
+											"name": "增添基础设施",
+											"type": "statblock",
+											"tag": "table",
+											"source": "XUA2023BastionsAndCantrips",
+											"page": 5
+										}
+									]
+								},
+								{
+									"ENG_name": "Enlarging Basic Facilities",
+									"name": "扩大基础建设",
+									"type": "entries",
+									"page": 5,
+									"entries": [
+										"扩大基础建设不会获得游戏内的增益，但角色可能出于外观原因或为了增加据点的整体体型而想要扩大设施。",
+										"角色可以花费金钱和游戏时间来将据点中的基础设施空间扩大一个类别，如{@table 扩大基础建设|XUA2023BastionsAndCantrips}表格所示。",
+										{
+											"ENG_name": "Enlarging Basic Facilities",
+											"name": "扩大基础建设",
+											"type": "statblock",
+											"tag": "table",
+											"source": "XUA2023BastionsAndCantrips",
+											"page": 5
+										}
+									]
+								}
+							]
+						},
+						{
+							"ENG_name": "Special Facilities",
+							"name": "特色设施",
+							"type": "entries",
+							"page": 5,
+							"entries": [
+								"特色设施是据点中的地点，在那里进行的活动可以获得游戏内的增益。",
+								"角色的据点最初拥有两个角色符合资格的所选特色设施。每个特色设施只能选择一次，除非其描述另有说明。",
+								"与基础设施不同，特色设施无法购买；角色通过等级提升获得它们。在9级时，角色获得两个额外的自选特色设施（需满足条件），然后在13级时获得一个额外设施，17级时再获得一个。{@table 特色设施获取|XUA2023BastionsAndCantrips}表格显示了角色据点中特色设施的总数。假设在角色达到新等级前的这段时间里建设一直在进行，因此每个新设施会在角色达到该等级时立即成为角色据点的一部分。",
+								"每当一个角色提升一个等级时，该角色可以将其据点的其中一个特色设施替换为另一个符合资格的特色设施。再次说明，假设改建工程在变化前就已持续进行。",
+								{
+									"ENG_name": "Special Facility Acquisition",
+									"name": "特色设施获取",
+									"type": "statblock",
+									"tag": "table",
+									"source": "XUA2023BastionsAndCantrips",
+									"page": 5
+								},
+								{
+									"ENG_name": "Requirements",
+									"name": "要求",
+									"type": "entries",
+									"page": 5,
+									"entries": [
+										"每个特色设施都有一个等级。角色必须达到或超过该等级才能获得该设施。特色设施可能还有一个角色必须满足的先决条件才能获得该设施。例如，只有能够使用奥术法器作为法器的角色才能拥有奥术研究室特色设施。"
+									]
+								},
+								{
+									"ENG_name": "Space",
+									"name": "空间",
+									"type": "entries",
+									"page": 5,
+									"entries": [
+										"一个特色设施占据一定数量的空间（参见{@table 设施空间|XUA2023BastionsAndCantrips}表格）。如同基础设施一样，玩家可以在据点的地图上按需配置特色设施的方格。除非描述中另有说明，否则特色设施不能被变巨。"
+									]
+								},
+								{
+									"ENG_name": "Hirelings",
+									"name": "雇员",
+									"type": "entries",
+									"page": 5,
+									"entries": [
+										"特色设施附带一名或多名雇员，他们在设施中工作且维护设施。雇员也会执行据点命令，如下一节所述。",
+										"玩家可以使用DM创建非玩家角色的相同工具，为其角色据点中的雇员分配名字和个性。",
+										"据点的每个特色设施都被假定能产生足够收入以支付其雇员的报酬。雇员遵循被给予的命令且被假定对据点所有者忠诚。"
+									]
+								},
+								{
+									"ENG_name": "Orders",
+									"name": "命令",
+									"type": "entries",
+									"page": 5,
+									"entries": [
+										"在据点回合中，位于自己的据点内的角色可以向一个或更多特色设施下达特殊的指令\u2014\u2014这被称为据点指令。角色无需在一个据点回合内向所有特色设施下达指令。",
+										"维护命令较为特殊；它是向整个据点而非一个或多个特色设施下达的。如果角色在某个据点回合中不在其据点内，据点会表现得如同在该回合被下达了维护命令。",
+										"每当一个角色发布一个据点命令时，该角色获得一定数量的据点点数（参见上方\"{@variantrule 据点点数|XUA2023BastionsAndCantrips}\"），由掷骰决定，如设施描述的秩序线所示。",
+										"全部指令如下所示：",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"page": 6,
+											"items": [
+												{
+													"ENG_name": "Craft",
+													"name": "制造",
+													"type": "item",
+													"entries": [
+														"特色设施中的雇员开始制造一件可以在该设施中制作的物品。你也可以自己完成这项工作，但如果你这样做，当你离开据点时工作会暂停，直到你返回。在制造物品所需的时间内，该设施不能用于制造任何其他东西，即使特殊属性允许该设施同时执行两个命令。"
+													]
+												},
+												{
+													"ENG_name": "Empower",
+													"name": "增强",
+													"type": "item",
+													"entries": [
+														"特色设施为玩家角色或其他人提供临时增强效果。"
+													]
+												},
+												{
+													"ENG_name": "Harvest",
+													"name": "收获",
+													"type": "item",
+													"entries": [
+														"资源在特色设施中生产，且雇员会收集它。你也可以自己进行收集，但如果你这样做，工作会在你离开据点时暂停，直到你返回。在收获资源所需时间内，该设施无法用于收获任何其他东西，即使特殊属性允许该设施同时执行两个命令。"
+													]
+												},
+												{
+													"ENG_name": "Maintain",
+													"name": "维护",
+													"type": "item",
+													"entries": [
+														"所有据点的雇员都专注于维护据点而非在特色设施中执行命令。发布此命令将禁止在当前据点回合内向据点发布其他命令。每次发布维护命令时，发布命令的角色将为其据点中的每个特色设施获得{@dice 1d4}据点点数（代替他们通常通过向特色设施发布命令获得的据点点数），且DM在{@table 据点事件|XUA2023BastionsAndCantrips}表格上掷骰（参见本文件末尾的\"{@variantrule 据点事件|XUA2023BastionsAndCantrips}\"）。据点事件将在下一个据点回合开始前解决。"
+													]
+												},
+												{
+													"ENG_name": "Recruit",
+													"name": "招募",
+													"type": "item",
+													"entries": [
+														"雇员为你的据点招募生物。"
+													]
+												},
+												{
+													"ENG_name": "Research",
+													"name": "研究",
+													"type": "item",
+													"entries": [
+														"特色设施中的雇员会收集消息。你也可以亲自进行研究，但如果这样做，工作会在你离开据点时暂停，直到你返回。"
+													]
+												},
+												{
+													"ENG_name": "Trade",
+													"name": "贸易",
+													"type": "item",
+													"entries": [
+														"雇员对这个特色设施内储存或生产的货物进行买卖，又或者对外售卖该设施能提供的服务。"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Bastion Points",
+			"name": "据点点数",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 3,
+			"ruleType": "P",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"据点的每个特色设施会根据设施类型和下达的据点秩序在据点回合中生成据点点数(BP)。玩家需负责追踪其角色拥有的据点点数，且据点点数无法在角色或其据点之间转移。角色可以花费据点点数从其据点获取魔法物品或获得某些其他特殊奖励。",
+						"据点点数是一种抽象概念，反映了角色在其据点运作时所累积的增益。具体而言，积累和消耗据点点数如何导致角色获取魔法物品取决于玩家的想象。也许是据点雇员散布消息称该角色正在寻找特定物品。随着在团队中建立足够的时间和善意，该物品作为赠礼被送至据点。也许是据点雇员不懈工作以创造该角色所需的物品。",
+						{
+							"ENG_name": "Accumulating Bastion Points",
+							"name": "积累据点点数",
+							"type": "entries",
+							"page": 3,
+							"entries": [
+								"当角色向他们据点中的特色设施发出命令时，这些设施会生成据点点数。（基础设施不会生成据点点数。）每个特色设施的描述中会标明该设施在完成命令时生成的据点点数。如果角色向据点发出维护命令，每个特色设施会改为生成{@dice 1d4}据点点数。因事件而关闭或失去雇员的特色设施在无法运作期间不会生成据点点数。",
+								"角色可以使用金钱来影响设施生成据点点的速率。当对设施发布据点秩序时花费25GP，允许玩家掷骰两次来决定该设施的据点点数生成，并使用较高的结果。角色在对据点发布维护秩序时不能使用此选项。"
+							]
+						},
+						{
+							"ENG_name": "Acquiring Magic Items",
+							"name": "获取魔法物品",
+							"type": "entries",
+							"page": 3,
+							"entries": [
+								"每当角色提升一个等级时，他们可以消耗据点点数来获取一件魔法物品。通过这种方式获取的任何魔法物品都必须经过DM的批准。每件魔法物品的据点点数花费基于物品稀有度，如{@table 消耗据点点数|XUA2023BastionsAndCantrips}表格所示。如果某稀有度有等级先决条件，角色必须达到或超过该等级才能获取该物品。",
+								"角色必须在其据点中才能领取用据点点数获得的魔法物品。如果角色不在据点中，魔法物品将安全保存在据点中，直到角色前来领取。",
+								{
+									"ENG_name": "Spending Bastion Points",
+									"name": "消耗据点点数",
+									"type": "statblock",
+									"tag": "table",
+									"source": "XUA2023BastionsAndCantrips",
+									"page": 3
+								},
+								"达到20级的角色可以使用据点点数来获取魔法物品，每次他们获得一个附赠动作专长时（每超过355,000经验值的30,000经验值）。"
+							]
+						},
+						{
+							"ENG_name": "Other Uses Of Bastion Points",
+							"name": "据点点数的其他用途",
+							"type": "entries",
+							"page": 3,
+							"entries": [
+								"在获得新的等级时，角色可以花费10据点点数来确保他们英雄事迹的消息传遍据点周围的区域。接下来的7天里，角色在其据点50英里范围内进行所有魅力检定时具有优势。",
+								"当角色死亡时，角色可以花费100据点点数以在下一个拂晓时在自己的据点中复活。以这种方式花费BP后，角色在获得至少1个等级前不能再次这样做。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Bastion Turns",
+			"name": "据点回合",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 2,
+			"ruleType": "P",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"随着战役时间的推移，角色们会进行据点回合来反映他们据点中发生的活动，无论角色是否在场。一个据点回合每7天游戏时间发生一次，不过DM可以调整据点回合的频率。（有关如何操作的指导，请参阅\"据点回合如何工作\"。）",
+						"在据点回合中，角色可以向其据点中的特色设施下达命令，或向整个据点下达维护命令（见下方\"{@variantrule 堡垒设施|XUA2023BastionsAndCantrips|命令}\"）。",
+						{
+							"ENG_name": "How Bastion Turns Work",
+							"name": "据点回合如何工作",
+							"type": "entries",
+							"page": 2,
+							"entries": [
+								"默认情况下，据点回合每7天发生一次，为角色提供定期向其据点发布命令的机会，且能从中获得增益。以下是一些典型情况：",
+								{
+									"type": "list",
+									"page": 2,
+									"items": [
+										"角色们正远离他们的据点进行长途旅行。当角色们离开7天后，你可能会说：\"是时候进行据点回合了。既然你们不在那里，就为你们的据点解决维护秩序。\"然后掷骰决定{@variantrule 据点事件|XUA2023BastionsAndCantrips}。",
+										"角色们在两次冒险之间在他们的据点内待了 7 天或更多时间。这时你或许会说：\"你们已经据点里待了整整六周，来吧，结算六次据点回合。\"",
+										"角色们在冒险途中返回他们的据点。你可以说：\"如果愿意的话，你们刚好有时间发布一个新命令。在明早再次出发前，进行一个据点回合。\"",
+										"角色们正在他们的据点附近冒险且每晚都在据点中度过。你可以说：\"距离你们上次据点回合已经过去一周了，所以现在可以进行新的据点了。\""
+									]
+								},
+								"有时，你可能想要减缓据点回合的步调。如果角色们在冒险之间有较长的休整期，比如六个月或更久，你可以改为每月进行一次据点回合，而非每7天一次。",
+								"瞄准每等级大约六到八个据点回合。如果角色以极快的步调冒险且每周都获得新的等级，他们将没有时间享受据点的增益。另一方面，如果他们花费大量时间在冒险之余（且获得等级），分散据点回合可以确保他们不会积累超过使用能力的{@variantrule 据点点数|XUA2023BastionsAndCantrips}。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Bastions",
+			"name": "据点",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 3,
+			"ruleType": "P",
+			"entries": [
+				"据点是属于一名玩家角色的位置：一个家、一个要塞，且是角色在战役过程中培养和发展的法力地点。据点为角色提供了从危险的冒险世界中暂时避难的机会，并为角色提供了制造魔法物品、进行研究、收获毒素、建造船只以及进行广泛的其他活动的机会。",
+				"由DM决定据点是否在战役中可用。据点最适合那些允许角色在不积极冒险的间歇期返回他们的据点的战役。",
+				"无需在冒险和指挥据点之间做出选择；角色可以同时进行这两件事。据点拥有能产生游戏内增益的特色设施，这些设施还能在角色忙于其他事务时执行项目。",
+				"据点是拥有它们的角色的避风港。虽然随机事件可能会不时考验据点（参见\"{@variantrule 据点事件|XUA2023BastionsAndCantrips}\"部分），但据点只能以两种方式被摧毁（参见\"{@variantrule 失去据点|XUA2023BastionsAndCantrips}\"部分）。",
+				"最重要的是，据点是玩家的创意游乐场，也是战役中共享的讲故事空间。DM应尽可能允许玩家在他们的据点中讲述故事，但玩家应该知道他们的控制权仅限于战役的更宏大故事，DM努力让每个人都感到有趣。",
+				{
+					"ENG_name": "Design Notes",
+					"name": "设计备注",
+					"type": "inset",
+					"page": 2,
+					"entries": [
+						"在审阅此文档时请牢记以下备注。",
+						{
+							"ENG_name": "Defenders and Hirelings",
+							"name": "防御者和雇员",
+							"type": "entries",
+							"entries": [
+								"为了减轻玩家的负担，我们不会提供或要求据点雇员和防御者的数据。玩家只需要追踪据点中每种居住者的数值即可。玩家可以按照自己的喜好为据点的居住者分配名字和个性。"
+							]
+						},
+						{
+							"ENG_name": "GP Expenditure",
+							"name": "金币消耗",
+							"type": "entries",
+							"entries": [
+								"据点给角色提供了新的花费金钱的方式，但我们希望他们花费的金钱能使它们快乐（而不是感觉像抵押贷款）。"
+							]
+						}
+					]
+				},
+				{
+					"ENG_name": "Gaining a Bastion",
+					"name": "建立一个据点",
+					"type": "statblock",
+					"tag": "variantrule",
+					"source": "XUA2023BastionsAndCantrips",
+					"page": 2,
+					"collapsed": true
+				},
+				{
+					"ENG_name": "Bastion Turns",
+					"name": "据点回合",
+					"type": "statblock",
+					"tag": "variantrule",
+					"source": "XUA2023BastionsAndCantrips",
+					"page": 2,
+					"collapsed": true
+				},
+				{
+					"ENG_name": "Bastion Points",
+					"name": "据点点数",
+					"type": "statblock",
+					"tag": "variantrule",
+					"source": "XUA2023BastionsAndCantrips",
+					"page": 3,
+					"collapsed": true
+				},
+				{
+					"ENG_name": "Bastion Facilities",
+					"name": "堡垒设施",
+					"type": "statblock",
+					"tag": "variantrule",
+					"source": "XUA2023BastionsAndCantrips",
+					"page": 3,
+					"collapsed": true
+				},
+				"特色设施按字母顺序排列。特色设施表格列出了本节中介绍的所有特色设施，以及它们的先决条件和命令。",
+				{
+					"ENG_name": "Special Facilities",
+					"name": "特色设施",
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2023BastionsAndCantrips",
+					"page": 6,
+					"collapsed": true
+				},
+				{
+					"ENG_name": "Fall of a Bastion",
+					"name": "失去据点",
+					"type": "statblock",
+					"tag": "variantrule",
+					"source": "XUA2023BastionsAndCantrips",
+					"page": 19,
+					"collapsed": true
+				},
+				{
+					"ENG_name": "Bastion Events",
+					"name": "据点事件",
+					"type": "statblock",
+					"tag": "variantrule",
+					"source": "XUA2023BastionsAndCantrips",
+					"page": 20,
+					"collapsed": true
+				}
+			]
+		},
+		{
+			"ENG_name": "Fall of a Bastion",
+			"name": "失去据点",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 19,
+			"ruleType": "P",
+			"entries": [
+				"如果一个角色连续数个据点回合（数值等于角色等级）未向其据点发出命令（通常是因为角色死亡或其他原因无法行动），雇员将放弃据点且该地点最终会被洗劫。如果角色后文返回，他们可以选择建立一个新的据点，或许可以在旧据点的废墟中重建。",
+				"角色可以随时放弃他们的据点，释放据点的雇员并遗弃该位置。被放弃的据点会很快被清空，最终被洗劫一空，甚至可能被烧成灰烬。角色可以选择在其他地方建立一个新的据点。",
+				"在任一情况下，玩家可以与DM合作建立一个新据点并确定其形成方式。使用{@table 特色设施获取|XUA2023BastionsAndCantrips}表格来确定附带多少特色设施。新据点还会以角色选择的两个基础设施（一个狭窄和一个宽敞）开始。"
+			]
+		},
+		{
+			"ENG_name": "Gaining a Bastion",
+			"name": "建立一个据点",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 2,
+			"ruleType": "P",
+			"entries": [
+				"如果你允许据点在战役中出现，角色将在他们达到5环时获得他们的据点。你和玩家可以共同决定这些据点如何形成。一个角色可能继承或获得一块土地来建造他们的据点，或者他们可能接管一个现有的体系并进行翻新。可以合理地假设在角色早期冒险生涯中，战役幕后一直在进行工作，所以当角色达到5环时，据点已预备使用。",
+				"角色的据点的形态、风格和功能由玩家决定。例如，法师可能建造一座塔楼，牧师可能建立一座圣坛，战士可能建造一座坚固的堡垒或类似要塞，游荡者可能建立一个公会大厅或会所。其他职业的角色可以选择这些形态之一或结合它们\u2014\u2014圣武士的据点可能与牧师的圣坛相似，但像战士的要塞一样坚固。且多个角色可以结合它们的据点形成一个单一的大型体系（见后文中的\"{@variantrule 堡垒设施|XUA2023BastionsAndCantrips|据点地图}\"）。",
+				"并非每个角色都需要拥有一个据点。在你的战役中，有些玩家选择拥有据点而另一些选择不拥有据点也是可以的。没有自己据点的角色仍然可以从他们朋友的据点中获得一些增益。",
+				"每个据点都包含基础设施和特色设施，这些设施涵盖了从厨房和卧室到奇幻动物园和魔法实验室的一切（参见下方\"{@variantrule 堡垒设施|XUA2023BastionsAndCantrips|堡垒设施}\"）。角色可以随时向其据点添加基础设施，花费的金钱和时间取决于设施类型。每个据点开始时拥有两个特色设施，角色在达到9级、13级和17级时会添加额外的特色设施。"
+			]
+		}
+	],
+	"table": [
+		{
+			"ENG_name": "Adding Basic Facilities",
+			"name": "增添基础设施",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 5,
+			"colLabels": [
+				"设施空间",
+				"花费",
+				"所需时间"
+			],
+			"colStyles": [
+				"col-4",
+				"col-4 text-right",
+				"col-4 text-right"
+			],
+			"rows": [
+				[
+					"狭窄",
+					"500GP",
+					"20 天"
+				],
+				[
+					"宽敞",
+					"1,000 GP",
+					"45天"
+				],
+				[
+					"庞大",
+					"3000GP",
+					"125 天"
+				]
+			]
+		},
+		{
+			"ENG_name": "Bastion Events",
+			"name": "据点事件",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 20,
+			"colLabels": [
+				"d20",
+				"事件"
+			],
+			"colStyles": [
+				"col-3 text-center",
+				"col-9"
+			],
+			"rows": [
+				[
+					"1\u20139",
+					"无重大事件发生。"
+				],
+				[
+					"10",
+					"攻击"
+				],
+				[
+					"11\u201312",
+					"失去雇员"
+				],
+				[
+					"13\u201314",
+					"难民"
+				],
+				[
+					"15",
+					"友好的来访者"
+				],
+				[
+					"16",
+					"请求援助"
+				],
+				[
+					"17",
+					"尊贵客人"
+				],
+				[
+					"18",
+					"机不可失"
+				],
+				[
+					"19",
+					"罪犯雇员"
+				],
+				[
+					"20",
+					"魔法发现"
+				]
+			]
+		},
+		{
+			"ENG_name": "Craft Potion",
+			"name": "制造药水",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 12,
+			"colLabels": [
+				"物品稀有度",
+				"最低等级",
+				"花费"
+			],
+			"colStyles": [
+				"col-4",
+				"col-4 text-center",
+				"col-4 text-right"
+			],
+			"rows": [
+				[
+					"通用语",
+					"\u2014",
+					"50GP"
+				],
+				[
+					"非普通",
+					"5",
+					"200 GP"
+				],
+				[
+					"珍稀",
+					"9",
+					"2,000 GP"
+				],
+				[
+					"极珍稀",
+					"13",
+					"20,000 GP"
+				],
+				[
+					"传说",
+					"17",
+					"100,000 GP"
+				]
+			]
+		},
+		{
+			"ENG_name": "Craft Scroll",
+			"name": "制造卷轴",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 16,
+			"colLabels": [
+				"物品稀有度",
+				"最低等级",
+				"花费"
+			],
+			"colStyles": [
+				"col-4",
+				"col-4 text-center",
+				"col-4 text-right"
+			],
+			"rows": [
+				[
+					"通用语",
+					"\u2014",
+					"50GP"
+				],
+				[
+					"非普通",
+					"5",
+					"200 GP"
+				],
+				[
+					"珍稀",
+					"9",
+					"2,000 GP"
+				],
+				[
+					"极珍稀",
+					"13",
+					"20,000 GP"
+				],
+				[
+					"传说",
+					"17",
+					"100,000 GP"
+				]
+			]
+		},
+		{
+			"ENG_name": "Enlarging Basic Facilities",
+			"name": "扩大基础建设",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 5,
+			"colLabels": [
+				"设施空间",
+				"花费",
+				"所需时间"
+			],
+			"colStyles": [
+				"col-6",
+				"col-3 text-right",
+				"col-3 text-right"
+			],
+			"rows": [
+				[
+					"狭窄到宽敞",
+					"500GP",
+					"25 天"
+				],
+				[
+					"宽敞到庞大",
+					"2,000 GP",
+					"80 天"
+				]
+			]
+		},
+		{
+			"ENG_name": "Expert Trainers",
+			"name": "专业教练",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 18,
+			"colLabels": [
+				"训练师",
+				"训练增益"
+			],
+			"colStyles": [
+				"col-4",
+				"col-8"
+			],
+			"rows": [
+				[
+					"战斗专家",
+					"每回合一次，当你受到来自{@variantrule 徒手打击|XUA2023PlayersHandbookP7}或武器的攻击伤害时，若你不处于{@condition 失能}状态，可以将此伤害减少{@dice 1d4}。"
+				],
+				[
+					"技能专家",
+					"你获得以下一项自选技能的熟练项：{@skill 特技}、{@skill 运动}、{@skill 表演}、{@skill 巧手}或{@skill 隐匿}。"
+				],
+				[
+					"工具专家",
+					"你获得自选一种乐器或工具的熟练。"
+				],
+				[
+					"徒手格斗专家",
+					"当你使用{@variantrule 徒手打击|XUA2023PlayersHandbookP7}对目标造成伤害时，攻击命中后会额外造成{@dice 1d4}钝击伤害。"
+				],
+				[
+					"武器专家",
+					"选择一种简易或军用武器类型，例如{@item 矛|PHB}或{@item 长弓|PHB}。如果你不熟练该武器，你将在接下来的7天内获得其熟练项。如果你已经熟练该武器，你可以在接下来的7天内使用其精通词条。"
+				]
+			]
+		},
+		{
+			"ENG_name": "Facility Space",
+			"name": "设施空间",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 4,
+			"colLabels": [
+				"空间",
+				"最大面积"
+			],
+			"colStyles": [
+				"col-4",
+				"col-8"
+			],
+			"rows": [
+				[
+					"狭窄",
+					"4 方格"
+				],
+				[
+					"宽敞",
+					"16 方格"
+				],
+				[
+					"庞大",
+					"36 方格"
+				]
+			]
+		},
+		{
+			"ENG_name": "Fortified Saves",
+			"name": "强化豁免",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 12,
+			"colLabels": [
+				"d6",
+				"豁免检定"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"力量"
+				],
+				[
+					"2",
+					"敏捷"
+				],
+				[
+					"3",
+					"体质"
+				],
+				[
+					"4",
+					"智力"
+				],
+				[
+					"5",
+					"感知"
+				],
+				[
+					"6",
+					"魅力"
+				]
+			]
+		},
+		{
+			"ENG_name": "Gambling Den Winnings",
+			"name": "赌博休息室赢得的钱",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 9,
+			"colLabels": [
+				"d100",
+				"赢得的钱"
+			],
+			"colStyles": [
+				"col-6 text-center",
+				"col-6 text-right"
+			],
+			"rows": [
+				[
+					"01\u201333",
+					"{@dice 3d6} 金币"
+				],
+				[
+					"34\u201350",
+					"{@dice 1d6 × 10}GP"
+				],
+				[
+					"51\u201385",
+					"{@dice 2d6 × 10}GP"
+				],
+				[
+					"86\u201395",
+					"{@dice 4d6 × 10}GP"
+				],
+				[
+					"96\u201300",
+					"{@dice 10d6 × 10}GP"
+				]
+			]
+		},
+		{
+			"ENG_name": "Garden Harvest",
+			"name": "种植园收获",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 10,
+			"colLabels": [
+				"类型",
+				"收获"
+			],
+			"colStyles": [
+				"col-4",
+				"col-8"
+			],
+			"rows": [
+				[
+					"花园",
+					"种植园生产十束精美的花束或十瓶香水。每件可以以5GP的价格出售。"
+				],
+				[
+					"进食",
+					"种植园生产蘑菇和蔬菜，出售后可为你赚取50GP。"
+				],
+				[
+					"草药园",
+					"种植园生产用于制作{@item 治疗药水|DMG}的草药。"
+				],
+				[
+					"毒素",
+					"种植园生产用于制造两小瓶{@item 抗毒剂 (小瓶)|PHB|抗毒剂}或一小瓶{@item 基础毒药(小瓶装)|PHB|基础毒药}的植物。"
+				]
+			]
+		},
+		{
+			"ENG_name": "Honored Guests",
+			"name": "荣誉嘉宾",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 21,
+			"colLabels": [
+				"d4",
+				"事件"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"这位知名客人感激地留在你的据点，并给你一封推荐信，你可以用它来说服一个重要人物为你免费提供服务。"
+				],
+				[
+					"2",
+					"客人请求庇护术以避免因其信仰或罪行而受到迫害。他们在下一个据点回合前离开，但会赠予你一份价值{@dice 1d6 × 100}金币的赠礼。"
+				],
+				[
+					"3",
+					"荣誉嘉宾是一群友好的雇佣兵，为你提供四名额外的据点防御者。它们不需要设施来安置它们，且它们会一直留到你送走它们或它们被杀为止。"
+				],
+				[
+					"4",
+					"这位客人是一只龙或其他飞行怪物，它会栖息在你的据点顶部直到下一个据点回合，除非它被杀死或赶走。它对其他人态度冷漠，但如果受到威胁或攻击会转为敌对。你可以尝试贿赂这个生物让它不要在你的下一个据点回合离开；与DM合作确定它认为什么样的贿赂是值得的。"
+				]
+			]
+		},
+		{
+			"ENG_name": "Menagerie Creatures",
+			"name": "兽栏生物",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 13,
+			"colLabels": [
+				"生物",
+				"体型",
+				"花费"
+			],
+			"colStyles": [
+				"col-4",
+				"col-4",
+				"col-4 text-right"
+			],
+			"rows": [
+				[
+					"{@creature 猿|MM}",
+					"中等",
+					"500GP"
+				],
+				[
+					"{@creature 黑熊|MM}",
+					"中等",
+					"500GP"
+				],
+				[
+					"{@creature 棕熊|MM}",
+					"大型",
+					"1,000 GP"
+				],
+				[
+					"{@creature 蟒蛇|MM}",
+					"大型",
+					"250 GP"
+				],
+				[
+					"{@creature 鳄鱼|MM}",
+					"大型",
+					"500GP"
+				],
+				[
+					"{@creature 恐狼|MM}",
+					"大型",
+					"1,000 GP"
+				],
+				[
+					"{@creature 巨蝎|MM}",
+					"大型",
+					"3,500 GP"
+				],
+				[
+					"{@creature 巨秃鹫|MM}",
+					"大型",
+					"1,000 GP"
+				],
+				[
+					"{@creature 鬣狗|MM}",
+					"中等",
+					"50GP"
+				],
+				[
+					"{@creature 胡狼|MM}",
+					"小型",
+					"50GP"
+				],
+				[
+					"{@creature 狮子|MM}",
+					"大型",
+					"1,000 GP"
+				],
+				[
+					"{@creature 枭熊|MM}",
+					"大型",
+					"3,500 GP"
+				],
+				[
+					"{@creature 黑豹|MM}",
+					"中等",
+					"250 GP"
+				],
+				[
+					"{@creature 老虎|MM}",
+					"大型",
+					"1,000 GP"
+				]
+			]
+		},
+		{
+			"ENG_name": "Menagerie Creatures By Challenge Rating",
+			"name": "兽栏生物按挑战等级",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 13,
+			"colLabels": [
+				"挑战等级",
+				"花费"
+			],
+			"colStyles": [
+				"col-6 text-center",
+				"col-6 text-right"
+			],
+			"rows": [
+				[
+					"0",
+					"50GP"
+				],
+				[
+					"1/4",
+					"250 GP"
+				],
+				[
+					"1/2",
+					"500GP"
+				],
+				[
+					"1",
+					"1,000 GP"
+				],
+				[
+					"2",
+					"2,000 GP"
+				],
+				[
+					"3",
+					"3,500 GP"
+				]
+			]
+		},
+		{
+			"ENG_name": "Pub Special",
+			"name": "酒馆特饮",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 14,
+			"colLabels": [
+				"饮品",
+				"效应"
+			],
+			"colStyles": [
+				"col-4",
+				"col-8"
+			],
+			"rows": [
+				[
+					"毕格比之重",
+					"饮用此饮品会赋予你一个持续时间为24小时的{@spell 变巨/缩小术}法术的变巨效应，对此你无法进行豁免检定。"
+				],
+				[
+					"蛛后之吻",
+					"饮用此饮品将赋予你一个持续时间为24小时的{@spell 蛛行术}法术效应。"
+				],
+				[
+					"月光小夜曲",
+					"饮用这种饮品可以让你在接下来的24小时内获得{@sense 黑暗视觉}，范围为60尺。如果你已经拥有{@sense 黑暗视觉}，则其范围在相同持续时间内增加60尺。"
+				],
+				[
+					"正能量支援",
+					"饮用此饮品可使你在接下来的24小时内获得对暗蚀伤害的抗性。"
+				],
+				[
+					"坚强特饮",
+					"饮用这种饮品将使你在接下来的24小时内免疫{@condition 恐慌}状态。"
+				]
+			]
+		},
+		{
+			"ENG_name": "Reference Books",
+			"name": "参考书",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 8,
+			"colLabels": [
+				"书籍标题",
+				"增益"
+			],
+			"colStyles": [
+				"col-5",
+				"col-7"
+			],
+			"rows": [
+				[
+					"{@i 毕格比的实用奥术典籍}",
+					"当你进行{@action 研究|XUA2023PlayersHandbookP7}动作来回忆关于法术、魔法物品、神秘徽记术、魔法传统和存在位面的逸闻时，你在任何智力（{@skill 奥秘}）检定上具有优势。"
+				],
+				[
+					"{@i 库若尼普斯编年史}",
+					"当你采取{@action 研究|XUA2023PlayersHandbookP7}动作来回忆关于历史事件、传说人物、远古王国、过去争端、战争和迷失文明的逸闻时，你在任何智力（{@skill 历史}）检定上具有优势。"
+				],
+				[
+					"{@i 调查员的调查报告}",
+					"当你采取{@action 研究|XUA2023PlayersHandbookP7}动作基于线索或证据进行推理或回忆关于陷阱、密韵者、谜语和装置的逸闻时，你在智力（{@skill 调查}）检定上具有优势。"
+				],
+				[
+					"{@i 关于世间万物本质的材质思考}",
+					"当你采取{@action 研究|XUA2023PlayersHandbookP7}动作来回忆关于地形、植物和动物、天气以及自然周期的逸闻时，你在任何智力（{@skill 自然}）检定上具有优势。"
+				],
+				[
+					"{@i 旧日信仰和其他宗教}",
+					"当你采取{@action 研究|XUA2023PlayersHandbookP7}动作来回忆关于神祇、仪式与祷词、宗教阶层、圣徽以及秘密教派实践的相关逸闻时，你在智力（{@skill 宗教}）检定上具有优势。"
+				]
+			]
+		},
+		{
+			"ENG_name": "Sample Guilds",
+			"name": "范例公会",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 11,
+			"colLabels": [
+				"公会",
+				"徽记术",
+				"任务"
+			],
+			"colStyles": [
+				"col-3",
+				"col-3",
+				"col-6"
+			],
+			"rows": [
+				[
+					"冒险者公会",
+					"点燃的火把",
+					"你派遣冒险者去追踪一只挑战等级为2或更低且已知在你据点50英里内筑巢的野兽。冒险者在{@dice 1d6 + 1}天内剿灭或捕获该生物（由你选择）。如果该生物被剿灭且你的据点拥有{@optfeature 陈列室|XUA2023BastionsAndCantrips}，你可以从该生物身上获取一件纪念品添加到该设施中。如果该生物被捕且你的据点拥有{@optfeature 动物园|XUA2023BastionsAndCantrips}，只要该设施有空间容纳，你可以将该生物添加到该设施中。"
+				],
+				[
+					"烘培师公会",
+					"甜点",
+					"你指派面包师为7天内即将举行的重大活动制作烘焙商品。你可以获得硬币（500GP）作为报酬，或以活动主办方欠你恩赐的形式支付，具体细节由你和你的DM商定。"
+				],
+				[
+					"酿酒师公会",
+					"冒泡的酒杯",
+					"你指派酿酒师在7天内运送50桶40加仑的麦芽酒到你的据点。你可以以每桶10GP的价格出售这些麦芽酒。"
+				],
+				[
+					"制图师公会",
+					"六分仪",
+					"你指派制图师在7天内绘制地图。或者，你可以支付它们500GP以获取已知冒险位置的地图，并在7天内将其交付到你的据点，前提是DM同意该地图存在。"
+				],
+				[
+					"艺人公会",
+					"银里拉琴",
+					"你指派艺人创作一件艺术品（如一幅画作、一出戏剧、一首民谣、一部交响乐或一件雕塑）并在7天内完成。该作品获得认可且高度赞扬但没有货币价值。DM可以决定该作品在你死亡后开始增值。"
+				],
+				[
+					"珠宝商公会",
+					"金戒指",
+					"你指派珠宝匠制造一颗宝石或一件价值不超过1000GP的珠宝首饰。这项工作需要7天，且你必须支付物品一半花费的原料金币。"
+				],
+				[
+					"石匠公会",
+					"石制面具",
+					"你可以指派石匠在你的据点免费添加一道防御墙。或者，你可以让石匠为另一个玩家角色的据点进行这项工作，前提是他们的据点在你1英里范围内。每5英尺见方的防御墙需要1天时间建造，而不是10天（参见本文档前面的\"{@variantrule 堡垒设施|XUA2023BastionsAndCantrips|据点地图}\"）。"
+				],
+				[
+					"造船师公会",
+					"交叉的船桨",
+					"你指派造船师建造一艘{@table 坐骑与载具；水运载具|PHB|水运载具}表格中的载具，该表格位于{@book 玩家手册|PHB}。你需要支付载具的全部花费，且工作需要花费1天每1000GP载具的花费（一艘{@item 划艇|DMG}可以在1天内完成）"
+				],
+				[
+					"盗贼公会",
+					"白色的钥匙",
+					"你指派窃贼潜入距离你的据点50英里内的一个位置，并从那里偷取一个非魔法的物件。该物件的大小不得超过5英尺立方，并在{@dice 1d6 + 1}天内被送到你的据点。一把白色的钥匙会被留在原地点。DM可以决定此用途使你面临来自守序执法者或受害者的报偿风险。"
+				]
+			]
+		},
+		{
+			"ENG_name": "Special Facilities",
+			"name": "特色设施",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 6,
+			"colLabels": [
+				"等级",
+				"特色设施",
+				"先决",
+				"秩序"
+			],
+			"colStyles": [
+				"col-1 text-center",
+				"col-3",
+				"col-6",
+				"col-2"
+			],
+			"rows": [
+				[
+					"5",
+					"{@optfeature 奥术研究室|XUA2023BastionsAndCantrips}",
+					"使用奥术法器作为法器的属性",
+					"制造"
+				],
+				[
+					"5",
+					"{@optfeature 军械库|XUA2023BastionsAndCantrips}",
+					"无",
+					"贸易"
+				],
+				[
+					"5",
+					"{@optfeature 军营|XUA2023BastionsAndCantrips}",
+					"无",
+					"招募"
+				],
+				[
+					"5",
+					"{@optfeature 种植园|XUA2023BastionsAndCantrips}",
+					"无",
+					"收获"
+				],
+				[
+					"5",
+					"{@optfeature 图书馆|XUA2023BastionsAndCantrips}",
+					"无",
+					"研究"
+				],
+				[
+					"5",
+					"{@optfeature 庇护术|XUA2023BastionsAndCantrips}",
+					"使用圣徽或德鲁伊法器作为法器的能力",
+					"制造"
+				],
+				[
+					"5",
+					"{@optfeature 铁匠铺|XUA2023BastionsAndCantrips}",
+					"战斗风格特性或无甲防御特性",
+					"制造"
+				],
+				[
+					"5",
+					"{@optfeature 仓库|XUA2023BastionsAndCantrips}",
+					"无",
+					"贸易"
+				],
+				[
+					"5",
+					"{@optfeature 工坊|XUA2023BastionsAndCantrips}",
+					"{@variantrule 专精|XUA2023PlayersHandbookP7} 技能",
+					"制造"
+				],
+				[
+					"9",
+					"{@optfeature 游戏厅|XUA2023BastionsAndCantrips}",
+					"无",
+					"贸易"
+				],
+				[
+					"9",
+					"{@optfeature 温室|XUA2023BastionsAndCantrips}",
+					"无",
+					"收获"
+				],
+				[
+					"9",
+					"{@optfeature 实验室|XUA2023BastionsAndCantrips}",
+					"无*",
+					"制造"
+				],
+				[
+					"9",
+					"{@optfeature 圣器室|XUA2023BastionsAndCantrips}",
+					"使用圣徽或德鲁伊法器作为法器的能力",
+					"制造"
+				],
+				[
+					"9",
+					"{@optfeature 抄写室|XUA2023BastionsAndCantrips}",
+					"无*",
+					"制造"
+				],
+				[
+					"9",
+					"{@optfeature 伤势稳定|XUA2023BastionsAndCantrips}",
+					"无",
+					"贸易"
+				],
+				[
+					"9",
+					"{@optfeature 传送法阵|XUA2023BastionsAndCantrips}",
+					"无",
+					"招募"
+				],
+				[
+					"9",
+					"{@optfeature 剧院|XUA2023BastionsAndCantrips}",
+					"无",
+					"增强"
+				],
+				[
+					"9",
+					"{@optfeature 训练场|XUA2023BastionsAndCantrips}",
+					"{@variantrule 专精|XUA2023PlayersHandbookP7}于一个技能、战斗风格特性或无甲防御特性",
+					"增强"
+				],
+				[
+					"9",
+					"{@optfeature 陈列室|XUA2023BastionsAndCantrips}",
+					"无",
+					"研究"
+				],
+				[
+					"13",
+					"{@optfeature 档案馆|XUA2023BastionsAndCantrips}",
+					"无",
+					"研究"
+				],
+				[
+					"13",
+					"{@optfeature 冥想室|XUA2023BastionsAndCantrips}",
+					"无",
+					"增强"
+				],
+				[
+					"13",
+					"{@optfeature 动物园|XUA2023BastionsAndCantrips}",
+					"无",
+					"招募"
+				],
+				[
+					"13",
+					"{@optfeature 天文台|XUA2023BastionsAndCantrips}",
+					"使用法器的属性",
+					"增强"
+				],
+				[
+					"13",
+					"{@optfeature 酒馆|XUA2023BastionsAndCantrips}",
+					"无",
+					"研究"
+				],
+				[
+					"13",
+					"{@optfeature 圣物匣|XUA2023BastionsAndCantrips}",
+					"使用圣徽或德鲁伊法器作为法器的能力",
+					"收获"
+				],
+				[
+					"17",
+					"{@optfeature 半位面|XUA2023BastionsAndCantrips}",
+					"使用奥术法器作为法器的属性",
+					"增强"
+				],
+				[
+					"17",
+					"{@optfeature 公会大厅|XUA2023BastionsAndCantrips}",
+					"{@variantrule 专精|XUA2023PlayersHandbookP7} 技能",
+					"招募"
+				],
+				[
+					"17",
+					"{@optfeature 圣所|XUA2023BastionsAndCantrips}",
+					"使用圣徽或德鲁伊法器作为法器的能力",
+					"增强"
+				],
+				[
+					"17",
+					"{@optfeature 作战指挥室|XUA2023BastionsAndCantrips}",
+					"战斗风格特性或无甲防御特性",
+					"招募"
+				]
+			],
+			"footnotes": [
+				"* 某些可以对这些特色设施下达的命令有额外的先决条件。"
+			]
+		},
+		{
+			"ENG_name": "Special Facility Acquisition",
+			"name": "特色设施获取",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 5,
+			"colLabels": [
+				"等级",
+				"特色设施"
+			],
+			"colStyles": [
+				"col-6 text-center",
+				"col-6 text-center"
+			],
+			"rows": [
+				[
+					"5",
+					"2"
+				],
+				[
+					"9",
+					"4"
+				],
+				[
+					"13",
+					"5"
+				],
+				[
+					"17",
+					"6"
+				]
+			]
+		},
+		{
+			"ENG_name": "Spending Bastion Points",
+			"name": "消耗据点点数",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 3,
+			"colLabels": [
+				"魔法物品",
+				"等级 先决",
+				"花费"
+			],
+			"colStyles": [
+				"col-5",
+				"col-4 text-center",
+				"col-3 text-right"
+			],
+			"rows": [
+				[
+					"通用语",
+					"\u2014",
+					"20 BP"
+				],
+				[
+					"非普通",
+					"\u2014",
+					"70 BP"
+				],
+				[
+					"珍稀",
+					"9",
+					"250 BP"
+				],
+				[
+					"极珍稀",
+					"13",
+					"350 BP"
+				],
+				[
+					"传说",
+					"17",
+					"700 BP"
+				]
+			]
+		}
+	],
+	"book": [
+		{
+			"ENG_name": "Unearthed Arcana 2023: Bastions and Cantrips",
+			"name": "破解奥秘2023：据点和戏法",
+			"id": "XUA2023BastionsAndCantrips",
+			"source": "XUA2023BastionsAndCantrips",
+			"group": "prerelease",
+			"cover": {
+				"type": "internal",
+				"path": "covers/blank.webp"
+			},
+			"published": "2023-10-05",
+			"author": "威世智",
+			"contents": [
+				{
+					"ENG_name": "Unearthed Arcana 2023: Bastions And Cantrips",
+					"name": "破解奥秘2023：据点和戏法",
+					"headers": [
+						"这里有什么"
+					]
+				},
+				{
+					"ENG_name": "Bastions",
+					"name": "据点",
+					"headers": [
+						"建立一个据点",
+						"据点回合",
+						"据点点数",
+						"堡垒设施",
+						{
+							"header": "特色设施描述",
+							"depth": 1
+						},
+						"失去据点",
+						"据点事件"
+					]
+				},
+				{
+					"ENG_name": "Revised Cantrips",
+					"name": "修订版戏法",
+					"headers": [
+						{
+							"header": "职业 生物类型附标",
+							"depth": 1
+						},
+						{
+							"header": "法术描述",
+							"depth": 1
+						}
+					]
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "XUA2023BastionsAndCantrips",
+			"source": "XUA2023BastionsAndCantrips",
+			"data": [
+				{
+					"ENG_name": "Unearthed Arcana 2023: Bastions And Cantrips",
+					"name": "破解奥秘2023：据点和戏法",
+					"type": "section",
+					"page": 1,
+					"entries": [
+						"本测试文档提供了为2024版核心规则书设计的材质。这里的材质使用2014版核心规则书中的规则，除非另有说明。",
+						"在{@i 玩家手册}的公开测试继续进行的同时，我们想让你提前体验一下这本修订版{@i 城主指南}中的材质。",
+						{
+							"ENG_name": "Learn More on YouTube",
+							"name": "在 YouTube 上了解更多",
+							"type": "inset",
+							"page": 1,
+							"entries": [
+								"要了解更多关于本文中的设计，我们邀请您在 YouTube 上观看相关视频（{@link www.youtube.com/DNDWizards}）。"
+							],
+							"id": "001"
+						},
+						{
+							"ENG_name": "What's Inside",
+							"name": "这里有什么",
+							"type": "section",
+							"page": 1,
+							"entries": [
+								"本文包含两个部分：",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"page": 1,
+									"items": [
+										{
+											"ENG_name": "Bastions",
+											"name": "据点",
+											"type": "item",
+											"entries": [
+												"本文的主要内容是介绍一个新的据点子系统。它包括了你将据点引入游戏所需的一切。"
+											]
+										},
+										{
+											"ENG_name": "Cantrips",
+											"name": "戏法",
+											"type": "item",
+											"entries": [
+												"本文末尾部分提供了几个修订版戏法。"
+											]
+										}
+									]
+								},
+								{
+									"ENG_name": "This Is Playtest Material",
+									"name": "本材料为游玩测试内容",
+									"type": "inset",
+									"page": 1,
+									"entries": [
+										"本文章为游玩测试和反馈而呈现。这里的选项是实验样本和征募形态。它们不是游戏的官员部分。您的反馈将协助决定我们是否将它们采纳为官员。",
+										{
+											"ENG_name": "How to Playtest This UA",
+											"name": "如何游玩测试本破解奥秘",
+											"type": "entries",
+											"page": 1,
+											"entries": [
+												"我们邀请您在游玩中尝试本材质。当您这样做时，您可以使用通过{@book 2014玩家手册|PHB}创建的角色，或使用\"玩家手册游玩测试\"系列创建的角色，从\"{@loader 角色起源|collection/Unearthed Arcana 2022 - Character Origins.json|预发布}\"开始",
+												"要游玩测试本材料，你可以将其融入你的战役中，或运行一个或多个特殊的游玩测试环节。对于测试据点规则的环节，你不需要准备冒险；只需专注于创建据点并解决据点回合。对于测试戏法，你可以创建自己的冒险，或使用来自类似{@adventure 金色金库的钥匙|KftGV}、{@adventure 耀光城之旅|JttRC}或{@adventure 烛堡秘辛|CM}等来源的短篇冒险。"
+											],
+											"id": "004"
+										},
+										{
+											"ENG_name": "Feedback",
+											"name": "反馈",
+											"type": "entries",
+											"page": 1,
+											"entries": [
+												"您就这份材质向我们提供反馈的最佳方式是通过我们将在D&D Beyond上发布的调查。如果我们使这份材质成为官方版本，它将根据您的反馈进行完善，然后会出现在一本D&D书中。",
+												"提供关于本文件的反馈是您能协助塑造下一代D&D的一种方式！"
+											],
+											"id": "005"
+										}
+									],
+									"id": "003"
+								}
+							],
+							"id": "002"
+						}
+					],
+					"id": "000"
+				},
+				{
+					"ENG_name": "Bastions",
+					"name": "据点",
+					"type": "section",
+					"page": 1,
+					"entries": [
+						"据点是属于一名玩家角色的位置：一个家、一个要塞，且是角色在战役过程中培养和发展的法力地点。据点为角色提供了从危险的冒险世界中暂时避难的机会，并为角色提供了制造魔法物品、进行研究、收获毒素、建造船只以及进行广泛的其他活动的机会。",
+						"由DM决定据点是否在战役中可用。据点最适合那些允许角色在不积极冒险的间歇期返回他们的据点的战役。",
+						"无需在冒险和指挥据点之间做出选择；角色可以同时进行这两件事。据点拥有能产生游戏内增益的特色设施，这些设施还能在角色忙于其他事务时执行项目。",
+						"据点是拥有它们的角色的避风港。虽然随机事件可能会不时考验据点（参见\"{@variantrule 据点事件|XUA2023BastionsAndCantrips}\"部分），但据点只能以两种方式被摧毁（参见\"{@variantrule 失去据点|XUA2023BastionsAndCantrips}\"部分）。",
+						"最重要的是，据点是玩家的创意游乐场，也是战役中共享的讲故事空间。DM应尽可能允许玩家在他们的据点中讲述故事，但玩家应该知道他们的控制权仅限于战役的更宏大故事，DM努力让每个人都感到有趣。",
+						{
+							"ENG_name": "Design Notes",
+							"name": "设计备注",
+							"type": "inset",
+							"page": 2,
+							"entries": [
+								"在审阅此文档时请牢记以下备注。",
+								{
+									"ENG_name": "Defenders and Hirelings",
+									"name": "防御者和雇员",
+									"type": "entries",
+									"entries": [
+										"为了减轻玩家的负担，我们不会提供或要求据点雇员和防御者的数据。玩家只需要追踪据点中每种居住者的数值即可。玩家可以按照自己的喜好为据点的居住者分配名字和个性。"
+									],
+									"id": "008"
+								},
+								{
+									"ENG_name": "GP Expenditure",
+									"name": "金币消耗",
+									"type": "entries",
+									"entries": [
+										"据点给角色提供了新的花费金钱的方式，但我们希望他们花费的金钱能使它们快乐（而不是感觉像抵押贷款）。"
+									],
+									"id": "009"
+								}
+							],
+							"id": "007"
+						},
+						{
+							"ENG_name": "Gaining a Bastion",
+							"name": "建立一个据点",
+							"type": "section",
+							"page": 2,
+							"entries": [
+								{
+									"ENG_name": "Gaining a Bastion",
+									"name": "建立一个据点",
+									"type": "statblock",
+									"tag": "variantrule",
+									"source": "XUA2023BastionsAndCantrips",
+									"page": 2,
+									"collapsed": true
+								}
+							],
+							"id": "00a"
+						},
+						{
+							"ENG_name": "Bastion Turns",
+							"name": "据点回合",
+							"type": "section",
+							"page": 2,
+							"entries": [
+								{
+									"ENG_name": "Bastion Turns",
+									"name": "据点回合",
+									"type": "statblock",
+									"tag": "variantrule",
+									"source": "XUA2023BastionsAndCantrips",
+									"page": 2,
+									"collapsed": true
+								}
+							],
+							"id": "00b"
+						},
+						{
+							"ENG_name": "Bastion Points",
+							"name": "据点点数",
+							"type": "section",
+							"page": 3,
+							"entries": [
+								{
+									"ENG_name": "Bastion Points",
+									"name": "据点点数",
+									"type": "statblock",
+									"tag": "variantrule",
+									"source": "XUA2023BastionsAndCantrips",
+									"page": 3,
+									"collapsed": true
+								}
+							],
+							"id": "00c"
+						},
+						{
+							"ENG_name": "Bastion Facilities",
+							"name": "堡垒设施",
+							"type": "section",
+							"page": 3,
+							"entries": [
+								{
+									"ENG_name": "Bastion Facilities",
+									"name": "堡垒设施",
+									"type": "statblock",
+									"tag": "variantrule",
+									"source": "XUA2023BastionsAndCantrips",
+									"page": 3,
+									"collapsed": true
+								},
+								{
+									"ENG_name": "Special Facility Descriptions",
+									"name": "特色设施描述",
+									"type": "entries",
+									"page": 6,
+									"entries": [
+										"特色设施按字母顺序排列。特色设施表格列出了本节中介绍的所有特色设施，以及它们的先决条件和命令。",
+										"{@note 你也可以在{@filter 其他选项与特性|optionalfeatures|source=XUA2023据点与戏法}页面查看这些内容。}",
+										{
+											"ENG_name": "Special Facilities",
+											"name": "特色设施",
+											"type": "statblock",
+											"tag": "table",
+											"source": "XUA2023BastionsAndCantrips",
+											"page": 6
+										}
+									],
+									"id": "00e"
+								}
+							],
+							"id": "00d"
+						},
+						{
+							"ENG_name": "Fall of a Bastion",
+							"name": "失去据点",
+							"type": "section",
+							"page": 19,
+							"entries": [
+								{
+									"ENG_name": "Fall of a Bastion",
+									"name": "失去据点",
+									"type": "statblock",
+									"tag": "variantrule",
+									"source": "XUA2023BastionsAndCantrips",
+									"page": 19,
+									"collapsed": true
+								}
+							],
+							"id": "00f"
+						},
+						{
+							"ENG_name": "Bastion Events",
+							"name": "据点事件",
+							"type": "section",
+							"page": 20,
+							"entries": [
+								{
+									"ENG_name": "Bastion Events",
+									"name": "据点事件",
+									"type": "statblock",
+									"tag": "variantrule",
+									"source": "XUA2023BastionsAndCantrips",
+									"page": 20,
+									"collapsed": true
+								}
+							],
+							"id": "010"
+						}
+					],
+					"id": "006"
+				},
+				{
+					"ENG_name": "Revised Cantrips",
+					"name": "修订版戏法",
+					"type": "section",
+					"page": 21,
+					"entries": [
+						"本节提供了用于试玩的修订法术。",
+						{
+							"ENG_name": "Class Tags",
+							"name": "职业 生物类型附标",
+							"type": "entries",
+							"page": 21,
+							"entries": [
+								"一个法术的描述包含一个或多个生物类型附标，指示包含该法术的职业法术列表。例如，如果一个法术有\"法师\"附标，则该法术在法师法术列表中。"
+							],
+							"id": "012"
+						},
+						{
+							"ENG_name": "Spell Descriptions",
+							"name": "法术描述",
+							"type": "entries",
+							"page": 21,
+							"entries": [
+								"下列法术依首字母顺序排列。",
+								{
+									"ENG_name": "Design Note: Spell Updates",
+									"name": "设计笔记：法术更新",
+									"type": "inset",
+									"page": 21,
+									"entries": [
+										"以下是本节法术的主要更新：",
+										{
+											"type": "list",
+											"page": 21,
+											"items": [
+												{
+													"ENG_name": "Acid Splash",
+													"name": "酸液飞溅",
+													"type": "item",
+													"nameDot": false,
+													"entries": [
+														"现在创造一个半径5尺的球状区域，可以影响其中的任何生物，且它是一个塑能学派而非咒法学派的法术。这一学派变化使该法术与术士和法师的其他直爽强酸伤害法术统一起来。"
+													]
+												},
+												{
+													"ENG_name": "Blade Ward",
+													"name": "剑刃防护",
+													"type": "item",
+													"nameDot": false,
+													"entries": [
+														"现在是一个反应，可使一个生物的近战攻击掷骰处于劣势。"
+													]
+												},
+												{
+													"ENG_name": "Chill Touch",
+													"name": "颤栗之触",
+													"type": "item",
+													"nameDot": false,
+													"entries": [
+														"现在是一个接触法术，造成{@damage 1d10}伤害而非{@damage 1d8}，且不再具有珍稀使用的亡灵专属效应。"
+													]
+												},
+												{
+													"ENG_name": "Friends",
+													"name": "交友术",
+													"type": "item",
+													"nameDot": false,
+													"entries": [
+														"现在会强制目标进行一次豁免以避免被{@condition 魅惑}短暂时间。"
+													]
+												},
+												{
+													"ENG_name": "Poison Spray",
+													"name": "毒气喷涌",
+													"type": "item",
+													"nameDot": false,
+													"entries": [
+														"现在的范围是30尺而非10尺，且使用攻击检定而非豁免检定。此外，它现在是一个死灵法术而非咒法法术。"
+													]
+												},
+												{
+													"ENG_name": "Produce Flame",
+													"name": "燃火术",
+													"type": "item",
+													"nameDot": false,
+													"entries": [
+														"现在是一个附赠动作，但攻击部分仍然是一个动作。光照范围增加到20尺，且攻击范围增加到60尺。此外，攻击现在可以以生物或物件为目标。"
+													]
+												},
+												{
+													"ENG_name": "Shillelagh",
+													"name": "橡棍术",
+													"type": "item",
+													"nameDot": false,
+													"entries": [
+														"现在会在更高等级时提升，且让你可以选择造成力场伤害或武器的正常类型。"
+													]
+												},
+												{
+													"ENG_name": "Shocking Grasp",
+													"name": "电爪",
+													"type": "item",
+													"nameDot": false,
+													"entries": [
+														"现在会阻止{@action 借机攻击|PHB|借机攻击}而非所有反应。阻止所有反应对一个戏法来说过于强大。这个戏法一直旨在提供部分{@action 撤离}效果，在当前版本中依然如此。与其他闪电法术一样，该法术也不再区分目标是否穿着金属护甲。"
+													]
+												},
+												{
+													"ENG_name": "Spare the Dying",
+													"name": "维生术",
+													"type": "item",
+													"nameDot": false,
+													"entries": [
+														"现在是一个远程而非接触法术，且范围会随着你的等级提升而增加。该法术现在也在德鲁伊列表上。"
+													]
+												},
+												{
+													"ENG_name": "True Strike",
+													"name": "克敌先击",
+													"type": "item",
+													"nameDot": false,
+													"entries": [
+														"现在是一个使用你的施法属性而非力量或敏捷的武器攻击。"
+													]
+												}
+											]
+										}
+									],
+									"id": "014"
+								},
+								{
+									"ENG_name": "Acid Splash",
+									"name": "酸液飞溅",
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2023BastionsAndCantrips",
+									"page": 22,
+									"collapsed": true
+								},
+								{
+									"ENG_name": "Blade Ward",
+									"name": "剑刃防护",
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2023BastionsAndCantrips",
+									"page": 22,
+									"collapsed": true
+								},
+								{
+									"ENG_name": "Chill Touch",
+									"name": "颤栗之触",
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2023BastionsAndCantrips",
+									"page": 22,
+									"collapsed": true
+								},
+								{
+									"ENG_name": "Friends",
+									"name": "交友术",
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2023BastionsAndCantrips",
+									"page": 22,
+									"collapsed": true
+								},
+								{
+									"ENG_name": "Poison Spray",
+									"name": "毒气喷涌",
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2023BastionsAndCantrips",
+									"page": 22,
+									"collapsed": true
+								},
+								{
+									"ENG_name": "Produce Flame",
+									"name": "燃火术",
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2023BastionsAndCantrips",
+									"page": 23,
+									"collapsed": true
+								},
+								{
+									"ENG_name": "Shillelagh",
+									"name": "橡棍术",
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2023BastionsAndCantrips",
+									"page": 23,
+									"collapsed": true
+								},
+								{
+									"ENG_name": "Shocking Grasp",
+									"name": "电爪",
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2023BastionsAndCantrips",
+									"page": 23,
+									"collapsed": true
+								},
+								{
+									"ENG_name": "Spare the Dying",
+									"name": "维生术",
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2023BastionsAndCantrips",
+									"page": 23,
+									"collapsed": true
+								},
+								{
+									"ENG_name": "True Strike",
+									"name": "克敌先击",
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2023BastionsAndCantrips",
+									"page": 23,
+									"collapsed": true
+								}
+							],
+							"id": "013"
+						}
+					],
+					"id": "011"
+				}
+			]
+		}
+	]
+}

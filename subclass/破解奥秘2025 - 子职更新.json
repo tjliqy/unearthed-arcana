@@ -1,0 +1,2016 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "XUA2025SubclassesUpdate",
+				"abbreviation": "XUA25SU",
+				"full": "出土文献2025：子职更新",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Lyra [he/him]"
+				],
+				"version": "1.0.0",
+				"url": "https://media.dndbeyond.com/compendium-images/ua/subclasses-update/PWtmnmBuM6NVYAXE/UA2025+Updated+Subclasses.pdf",
+				"dateReleased": "2025-10-30"
+			}
+		],
+		"edition": "one",
+		"status": "ready",
+		"dateAdded": 1761853046,
+		"dateLastModified": 1761853046,
+		"_dateLastModifiedHash": "584a04a25a"
+	},
+	"subclass": [
+		{
+			"ENG_name": "Cavalier",
+			"name": "骁骑士",
+			"shortName": "骁骑士",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "战士",
+			"classSource": "XPHB",
+			"page": 3,
+			"subclassFeatures": [
+				"骁骑士|战士|XPHB|骁骑士|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate",
+				"守护战技|战士|XPHB|骁骑士|XUA2025SubclassesUpdate|7|XUA2025SubclassesUpdate",
+				"坚守战线|战士|XPHB|骁骑士|XUA2025SubclassesUpdate|10|XUA2025SubclassesUpdate",
+				"冲锋陷阵|战士|XPHB|骁骑士|XUA2025SubclassesUpdate|15|XUA2025SubclassesUpdate",
+				"警戒守卫|战士|XPHB|骁骑士|XUA2025SubclassesUpdate|18|XUA2025SubclassesUpdate"
+			],
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Oathbreaker",
+			"name": "破誓者",
+			"shortName": "破誓者",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "圣武士",
+			"classSource": "XPHB",
+			"page": 5,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"炼狱叱喝|XPHB",
+							"巫术箭|XPHB"
+						],
+						"5": [
+							"疯狂冠冕|XPHB",
+							"黑暗术|XPHB"
+						],
+						"9": [
+							"恐惧术|XPHB",
+							"亡灵召唤术|XPHB"
+						],
+						"13": [
+							"枯萎术|XPHB",
+							"魅影杀手|XPHB"
+						],
+						"17": [
+							"疫病术|XPHB",
+							"钢风斩|XPHB"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"炼狱叱喝|XPHB",
+				"巫术箭|XPHB",
+				"疯狂冠冕|XPHB",
+				"黑暗术|XPHB",
+				"恐惧术|XPHB",
+				"亡灵召唤术|XPHB",
+				"枯萎术|XPHB",
+				"魅影杀手|XPHB",
+				"疫病术|XPHB",
+				"钢风斩|XPHB"
+			],
+			"subclassFeatures": [
+				"破誓者|圣武士|XPHB|破誓者|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate",
+				"憎恨灵光|圣武士|XPHB|破誓者|XUA2025SubclassesUpdate|7|XUA2025SubclassesUpdate",
+				"超然抗性|圣武士|XPHB|破誓者|XUA2025SubclassesUpdate|15|XUA2025SubclassesUpdate",
+				"恐惧之王|圣武士|XPHB|破誓者|XUA2025SubclassesUpdate|20|XUA2025SubclassesUpdate"
+			],
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Path of the Spiritual Guardian",
+			"name": "灵体守护者之路",
+			"shortName": "灵性守护者",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "野蛮人",
+			"classSource": "XPHB",
+			"page": 1,
+			"additionalSpells": [
+				{
+					"ability": "wis",
+					"innate": {
+						"10": {
+							"rest": {
+								"1": [
+									"卜筮术|XPHB",
+									"鹰眼术|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"subclassSpells": [
+				"卜筮术|XPHB",
+				"鹰眼术|XPHB"
+			],
+			"subclassFeatures": [
+				"灵体守护者之路|野蛮人|XPHB|灵性守护者|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate",
+				"精魂之盾|野蛮人|XPHB|灵性守护者|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate",
+				"问道精魂|野蛮人|XPHB|灵性守护者|XUA2025SubclassesUpdate|10|XUA2025SubclassesUpdate",
+				"复仇精魂|野蛮人|XPHB|灵性守护者|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate"
+			],
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Path of the Storm Herald",
+			"name": "风暴先驱道途",
+			"shortName": "风暴先声",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "野蛮人",
+			"classSource": "XPHB",
+			"page": 2,
+			"subclassFeatures": [
+				"风暴先驱道途|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate",
+				"风暴之魂|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate",
+				"风暴之盾|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|10|XUA2025SubclassesUpdate",
+				"狂怒风暴|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate"
+			],
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Warrior of Intoxication",
+			"name": "沉醉战士",
+			"shortName": "醉意",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "武僧",
+			"classSource": "XPHB",
+			"page": 4,
+			"subclassFeatures": [
+				"沉醉战士|武僧|XPHB|醉意|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate",
+				"酣醉若狂|武僧|XPHB|醉意|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate",
+				"秘术酿造|武僧|XPHB|醉意|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate",
+				"大师酿酒师|武僧|XPHB|醉意|XUA2025SubclassesUpdate|11|XUA2025SubclassesUpdate",
+				"酣醉若狂|武僧|XPHB|醉意|XUA2025SubclassesUpdate|17|XUA2025SubclassesUpdate"
+			],
+			"hasFluff": true
+		}
+	],
+	"subclassFluff": [
+		{
+			"ENG_name": "Cavalier",
+			"name": "骁骑士",
+			"shortName": "骁骑士",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "战士",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i 徒步或乘骑保护盟友}",
+				{
+					"ENG_name": "Design Note: Cavalier Updates",
+					"name": "设计笔记：骁骑士更新",
+					"type": "inset",
+					"page": 3,
+					"entries": [
+						"这是该子职自其出现在{@book 珊娜萨的万事指南|XGE}以来的主要更新：",
+						{
+							"type": "list",
+							"page": 3,
+							"items": [
+								{
+									"ENG_name": "Unwavering Mark",
+									"name": "坚定之印",
+									"type": "item",
+									"nameDot": false,
+									"entries": [
+										"不再有使用次数限制。"
+									]
+								},
+								{
+									"ENG_name": "Ferocious Charger",
+									"name": "冲锋陷阵",
+									"type": "item",
+									"nameDot": false,
+									"entries": [
+										"已被重新设计，用于在每场战斗的第一轮中爆发速度。"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Oathbreaker",
+			"name": "破誓者",
+			"shortName": "破誓者",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "圣武士",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i 不惜一切代价获得强大法力}",
+				{
+					"ENG_name": "Design Note: Oathbreaker Updates",
+					"name": "设计笔记：破誓者更新",
+					"type": "inset",
+					"page": 5,
+					"entries": [
+						"这里是该子职自2014年{@book 城主指南|DMG}上次出现以来的主要更新：",
+						{
+							"type": "list",
+							"page": 5,
+							"items": [
+								{
+									"ENG_name": "Conjure Undead",
+									"name": "咒唤不死",
+									"type": "item",
+									"nameDot": false,
+									"entries": [
+										"（原为{@subclassFeature 控制亡灵|圣武士|PHB|破誓者|DMG|3|DMG}）现在允许你短暂召唤亡灵来援助你。"
+									]
+								},
+								{
+									"ENG_name": "Dreadful Aspect",
+									"name": "恐怖显现",
+									"type": "item",
+									"nameDot": false,
+									"entries": [
+										"现在循环施放{@spell 至圣斩|XPHB}法术。"
+									]
+								},
+								{
+									"ENG_name": "Oathbreaker Spells",
+									"name": "破誓者法术",
+									"type": "item",
+									"nameDot": false,
+									"entries": [
+										"拥有新的法术。"
+									]
+								},
+								{
+									"ENG_name": "Aura of Hate",
+									"name": "憎恨灵光",
+									"type": "item",
+									"nameDot": false,
+									"entries": [
+										"现在将其效应添加到你的{@classFeature 守护灵光|圣武士|XPHB|6|XPHB}。该灵光现在仅对你盟友中的邪魔与不死生物提供增益。"
+									]
+								},
+								{
+									"ENG_name": "Dread Lord",
+									"name": "恐惧之王",
+									"type": "item",
+									"nameDot": false,
+									"entries": [
+										"现在会灌注你的{@classFeature 守护灵光|圣武士|XPHB|6|XPHB}且可以通过消耗一个5环法术位来充能。"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Path of the Spiritual Guardian",
+			"name": "灵体守护者之路",
+			"shortName": "灵性守护者",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "野蛮人",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i 呼唤精魂以获得战斗援助}",
+				{
+					"ENG_name": "Design Note: Path of the Spiritual Guardian Updates",
+					"name": "设计笔记：灵体守护者路途更新",
+					"type": "inset",
+					"page": 1,
+					"entries": [
+						"这里是该子职（原为{@class 野蛮人|PHB|先祖守卫道途|先祖守卫|XGE}）自上次在{@book 珊娜萨的万事指南|XGE}中出现以来的主要更新：",
+						{
+							"type": "list",
+							"page": 1,
+							"items": [
+								{
+									"ENG_name": "Spiritual Protectors",
+									"name": "灵性守护者",
+									"type": "item",
+									"nameDot": false,
+									"entries": [
+										"（原{@subclassFeature 先祖护卫|野蛮人|PHB|先祖守卫|XGE|3|XGE}）已被重新设计。该特性现在将原特性的效应与新效应分开，作为当你{@classFeature 狂暴|野蛮人|XPHB|1|XPHB}激活时命中生物的选项。"
+									]
+								},
+								{
+									"ENG_name": "Spirit Shield",
+									"name": "精魂之盾",
+									"type": "item",
+									"nameDot": false,
+									"entries": [
+										"现在随你的狂暴伤害加值提升。"
+									]
+								},
+								{
+									"ENG_name": "Vengeful Spirits",
+									"name": "复仇精魂",
+									"type": "item",
+									"nameDot": false,
+									"entries": [
+										"（原为{@subclassFeature 仇魂先祖|野蛮人|PHB|先祖守卫|XGE|14|XGE}）是一个新特性，允许你在攻击检定掷出18或更高时进行一次额外攻击。"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Path of the Storm Herald",
+			"name": "风暴先驱道途",
+			"shortName": "风暴先声",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "野蛮人",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i 驾驭暴风之愤恨}",
+				{
+					"ENG_name": "Design Note: Path of the Storm Herald Updates",
+					"name": "设计笔记：风暴先驱道途更新",
+					"type": "inset",
+					"page": 3,
+					"entries": [
+						"这是该子职自其出现在{@book 珊娜萨的万事指南|XGE}以来的主要更新：",
+						{
+							"type": "list",
+							"page": 2,
+							"items": [
+								{
+									"ENG_name": "Storm Aura",
+									"name": "风暴灵光",
+									"type": "item",
+									"nameDot": false,
+									"entries": [
+										"现在会随着你的狂暴伤害加值提升。此外，{@subclassFeature 冻原|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate}已被重新设计为缩小生物的伤害而非施加{@variantrule 临时生命值|XPHB}。"
+									]
+								},
+								{
+									"ENG_name": "Raging Storm",
+									"name": "狂怒风暴",
+									"type": "item",
+									"nameDot": false,
+									"entries": [
+										"每个环境都经过重新设计。{@subclassFeature 荒漠|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate}现在会使豁免检定失败的生物开始燃烧。{@subclassFeature 海洋|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate}现在可以将闪电束链击到另一个生物。{@subclassFeature 冻原|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate}现在造成寒冷伤害且将生物的{@variantrule 速度|XPHB}减半。"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Warrior of Intoxication",
+			"name": "沉醉战士",
+			"shortName": "醉意",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "武僧",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i 饮用秘术佳酿以压制且迷惑敌人}",
+				{
+					"ENG_name": "Design Note: Warrior of Intoxication Updates",
+					"name": "设计笔记：醉意战士更新",
+					"type": "inset",
+					"page": 4,
+					"entries": [
+						"这里是该子职（原为{@class 武僧|PHB|醉拳宗|醉拳|XGE}）自上次在{@book 珊娜萨的万事指南|XGE}中出现以来的主要更新：",
+						{
+							"type": "list",
+							"page": 4,
+							"items": [
+								{
+									"ENG_name": "Mystic Brew",
+									"name": "秘术酿造",
+									"type": "item",
+									"nameDot": false,
+									"entries": [
+										"是一个新特性，允许{@class 武僧|XPHB}创造魔法饮品，他们可以饮用这些饮品以获得持久增益。"
+									]
+								},
+								{
+									"ENG_name": "Master Brewer",
+									"name": "大师酿酒师",
+									"type": "item",
+									"nameDot": false,
+									"entries": [
+										"是一个新特性，取代了{@subclassFeature 醉汉机运|武僧|PHB|醉拳|XGE|11|XGE}。该特性为{@subclassFeature 秘术酿造|武僧|XPHB|醉意|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate}增加了额外的饮品选项。"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"ENG_name": "Path of the Spiritual Guardian",
+			"name": "灵体守护者之路",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 1,
+			"className": "野蛮人",
+			"classSource": "XPHB",
+			"subclassShortName": "灵性守护者",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"野蛮人谁走灵体守护者路途召唤精魂\u2014\u2014无论是自然的野兽精魂、逝去祖先的精魂，还是原始元素生物的法力精魂\u2014\u2014来向导且保护它们。当这些野蛮人狂暴时，他们联系精魂领域并召唤它们援助术。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "灵性守护者|野蛮人|XPHB|灵性守护者|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				}
+			]
+		},
+		{
+			"ENG_name": "Spiritual Protectors",
+			"name": "灵性守护者",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 1,
+			"className": "野蛮人",
+			"classSource": "XPHB",
+			"subclassShortName": "灵性守护者",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"你的{@classFeature 狂暴|野蛮人|XPHB|1|XPHB}召唤灵体武者来援助你。当你的{@classFeature 狂暴|野蛮人|XPHB|1|XPHB}处于激活状态时，当你用武器或{@variantrule 徒手打击|XPHB}命中一个生物时，它会成为精魂的目标，精魂会造成以下你选择的一个效应。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "干扰|野蛮人|XPHB|灵性守护者|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "保护|野蛮人|XPHB|灵性守护者|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "打击|野蛮人|XPHB|灵性守护者|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				}
+			]
+		},
+		{
+			"ENG_name": "Distract",
+			"name": "干扰",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 1,
+			"className": "野蛮人",
+			"classSource": "XPHB",
+			"subclassShortName": "灵性守护者",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 3,
+			"entries": [
+				"直到你的下个回合开始，目标对其他目标或另一个拥有此特性的{@class 野蛮人|XPHB}进行攻击检定时具有{@variantrule 劣势|XPHB}。"
+			]
+		},
+		{
+			"ENG_name": "Protect",
+			"name": "保护",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 1,
+			"className": "野蛮人",
+			"classSource": "XPHB",
+			"subclassShortName": "灵性守护者",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 3,
+			"entries": [
+				"直到目标的下个回合结束前，下一次它以攻击检定命中一个非你的生物时，该生物对此次攻击造成的伤害具有{@variantrule 抗性|XPHB}。"
+			]
+		},
+		{
+			"ENG_name": "Strike",
+			"name": "打击",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 1,
+			"className": "野蛮人",
+			"classSource": "XPHB",
+			"subclassShortName": "灵性守护者",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 3,
+			"entries": [
+				"目标额外受到{@dice 1d6}伤害，伤害类型可以是强酸、寒冷、火焰、力场、闪电或雷鸣伤害（由你选择）。"
+			]
+		},
+		{
+			"ENG_name": "Spirit Shield",
+			"name": "精魂之盾",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 2,
+			"className": "野蛮人",
+			"classSource": "XPHB",
+			"subclassShortName": "灵性守护者",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"你的守护精魂能为你所保护的目标提供超自然守护。当你的{@classFeature 狂暴|野蛮人|XPHB|1|XPHB}处于激活状态时，若你30尺内另一个你能看见的生物受到伤害，你可以使用一个{@variantrule 反应|XPHB}来缩小该伤害。要确定伤害缩小的数值，掷骰等同于你狂暴伤害加成的{@dice d6|d6s}数量，并将它们相加。"
+			]
+		},
+		{
+			"ENG_name": "Consult the Spirits",
+			"name": "问道精魂",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 2,
+			"className": "野蛮人",
+			"classSource": "XPHB",
+			"subclassShortName": "灵性守护者",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"你获得与守护精魂交流的能力。当你这样做时，你可以施放{@spell 卜筮术|XPHB}或{@spell 鹰眼术|XPHB}法术，且无需消耗法术位或材料成分。这种使用{@spell 鹰眼术|XPHB}的方式不会创造球形传感器，而是隐形地召唤一个你的守护精魂到选定位置。感知是你施放这些法术的施法属性。",
+				"当你以这种方式施放其中任一法术后，在完成一次{@variantrule 短休|XPHB|短}或{@variantrule 长休|XPHB}前，你无法再次使用该特性。"
+			]
+		},
+		{
+			"ENG_name": "Vengeful Spirits",
+			"name": "复仇精魂",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 2,
+			"className": "野蛮人",
+			"classSource": "XPHB",
+			"subclassShortName": "灵性守护者",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"当你以近战武器进行攻击检定作为{@action 攻击|XPHB}动作的一部分且{@dice d20}掷骰结果为18-20时，你可以用同一武器进行一次额外的攻击检定作为该动作的一部分。一旦你使用了此特性，直到你的下个回合开始前都不能再次使用。"
+			]
+		},
+		{
+			"ENG_name": "Path of the Storm Herald",
+			"name": "风暴先驱道途",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 2,
+			"className": "野蛮人",
+			"classSource": "XPHB",
+			"subclassShortName": "风暴先声",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"遵循风暴先驱道途的野蛮人学会将他们的{@classFeature 狂暴|野蛮人|XPHB|1|XPHB}转化为环绕他们如暴风般的原始魔法斗篷。当处于{@classFeature 狂暴|野蛮人|XPHB|1|XPHB}时，这些野蛮人会利用自然界的元素力量来创造强大的魔法效应。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "风暴灵光|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				}
+			]
+		},
+		{
+			"ENG_name": "Storm Aura",
+			"name": "风暴灵光",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 2,
+			"className": "野蛮人",
+			"classSource": "XPHB",
+			"subclassShortName": "风暴先声",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"每当你激活你的{@classFeature 狂暴|野蛮人|XPHB|1|XPHB}时，选择荒漠、海洋或冻原。你在10尺{@variantrule 光环 [效应区域]|XPHB|光环}范围内扩展出一个以你自身为源点的光环，持续时间为你的{@classFeature 狂暴|野蛮人|XPHB|1|XPHB}。",
+				"你的灵光有一个效应，当你进入{@classFeature 狂暴|野蛮人|XPHB|1|XPHB}时激活，且你可以在每个回合以一个{@variantrule 附赠动作|XPHB}再次激活该效应。你的灵光效应取决于所选环境，如下所述。",
+				"如果你的灵光效应需要豁免检定，DC等于8加上你的{@table 熟练加值|XPHB}再加上你的体质调整值。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "荒漠|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "海洋|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "冻原|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				}
+			]
+		},
+		{
+			"ENG_name": "Desert",
+			"name": "荒漠",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 2,
+			"className": "野蛮人",
+			"classSource": "XPHB",
+			"subclassShortName": "风暴先声",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 3,
+			"entries": [
+				"当此效应激活时，掷骰等同于你狂暴伤害加成的{@dice d4|d4s}数量，且将它们相加。光环内的每个生物必须成功通过一次敏捷豁免检定，否则受到等同于掷骰数值的火焰伤害。你可以选择光环内一个你能看见的生物自动通过此豁免检定。"
+			]
+		},
+		{
+			"ENG_name": "Sea",
+			"name": "海洋",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 2,
+			"className": "野蛮人",
+			"classSource": "XPHB",
+			"subclassShortName": "风暴先声",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 3,
+			"entries": [
+				"当此效应激活时，掷骰等同于你狂暴伤害加值的{@dice d6|d6s}数量，并将它们相加。然后你可以向光环范围内一个你能看见的其他生物猛投一道闪电弩失。目标需进行一次敏捷豁免检定，豁免失败时受到等同于掷骰数值的闪电伤害，豁免成功则只受一半伤害。"
+			]
+		},
+		{
+			"ENG_name": "Tundra",
+			"name": "冻原",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 2,
+			"className": "野蛮人",
+			"classSource": "XPHB",
+			"subclassShortName": "风暴先声",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 3,
+			"entries": [
+				"当此效应激活时，掷骰等同于你狂暴伤害加成的{@dice d4|d4s}数量，并将它们相加。你可以选择你灵光范围内可见的一个其他生物用冰冷精魂骚扰。目标必须成功通过一次力量豁免检定，否则在你下个回合开始前，它从下一次伤害掷骰中减去掷出的数值。"
+			]
+		},
+		{
+			"ENG_name": "Storm Soul",
+			"name": "风暴之魂",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 2,
+			"className": "野蛮人",
+			"classSource": "XPHB",
+			"subclassShortName": "风暴先声",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"即使你的灵光未激活，风暴也会为你提供增益。这些增益基于你上次进入{@classFeature 狂暴|野蛮人|XPHB|1|XPHB}时为你的{@subclassFeature 风暴灵光|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate}选择的环境。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "荒漠|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "海洋|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "冻原|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
+				}
+			]
+		},
+		{
+			"ENG_name": "Desert",
+			"name": "荒漠",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 2,
+			"className": "野蛮人",
+			"classSource": "XPHB",
+			"subclassShortName": "风暴先声",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 6,
+			"header": 3,
+			"entries": [
+				"你获得对火焰伤害的{@variantrule 抗性|XPHB}。以一个{@action 魔法|XPHB}动作，你可以接触一个未被其他任何人穿戴或携带的易燃物件并使该物件开始燃烧。"
+			]
+		},
+		{
+			"ENG_name": "Sea",
+			"name": "海洋",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 3,
+			"className": "野蛮人",
+			"classSource": "XPHB",
+			"subclassShortName": "风暴先声",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 6,
+			"header": 3,
+			"entries": [
+				"你获得对闪电伤害的{@variantrule 抗性|XPHB}，且可以在水下呼吸。你还获得等于你{@variantrule 速度|XPHB}的{@variantrule 游泳速度|XPHB}。"
+			]
+		},
+		{
+			"ENG_name": "Tundra",
+			"name": "冻原",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 3,
+			"className": "野蛮人",
+			"classSource": "XPHB",
+			"subclassShortName": "风暴先声",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 6,
+			"header": 3,
+			"entries": [
+				"你获得{@variantrule 抗性|XPHB}对寒冷伤害的抗性。作为一个{@action 魔法|XPHB}动作，你可以接触水并将5尺{@variantrule 立方 [效应区域]|XPHB|立方}的水变成冰，冰会在1分钟后融化。如果有生物在{@variantrule 立方 [效应区域]|XPHB|立方}内，此动作失败。"
+			]
+		},
+		{
+			"ENG_name": "Shielding Storm",
+			"name": "风暴之盾",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 3,
+			"className": "野蛮人",
+			"classSource": "XPHB",
+			"subclassShortName": "风暴先声",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"你可以运用风暴的精通来保护他人。你选择的每个处于你的{@subclassFeature 风暴灵光|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate}范围内的生物，都将获得来自{@subclassFeature 风暴之魂|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate}特性的{@variantrule 抗性|XPHB}伤害。"
+			]
+		},
+		{
+			"ENG_name": "Raging Storm",
+			"name": "狂怒风暴",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 3,
+			"className": "野蛮人",
+			"classSource": "XPHB",
+			"subclassShortName": "风暴先声",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"你引导的暴风法力变得更加强大，猛烈攻击你的敌人。效应基于你为{@subclassFeature 风暴灵光|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate}选择的环境。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "荒漠|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "海洋|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "冻原|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate"
+				}
+			]
+		},
+		{
+			"ENG_name": "Desert",
+			"name": "荒漠",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 3,
+			"className": "野蛮人",
+			"classSource": "XPHB",
+			"subclassShortName": "风暴先声",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 14,
+			"header": 3,
+			"entries": [
+				"每回合一次，当你可见的一个生物对抗你的{@subclassFeature 风暴灵光|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate}效应豁免检定时失败，你可以使其开始燃烧1分钟或直到你的{@classFeature 狂暴|野蛮人|XPHB|1|XPHB}结束。燃烧的生物在其每回合开始时受到额外{@damage 1d4}火焰伤害（总计{@damage 2d4}火焰伤害）。"
+			]
+		},
+		{
+			"ENG_name": "Sea",
+			"name": "海洋",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 3,
+			"className": "野蛮人",
+			"classSource": "XPHB",
+			"subclassShortName": "风暴先声",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 14,
+			"header": 3,
+			"entries": [
+				"无论目标是否通过对抗你{@subclassFeature 风暴灵光|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate}效应的豁免检定，一道闪电都会从目标跃向30尺内你指定的另一个目标。新目标需进行与第一个目标相同的敏捷豁免检定。"
+			]
+		},
+		{
+			"ENG_name": "Tundra",
+			"name": "冻原",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 3,
+			"className": "野蛮人",
+			"classSource": "XPHB",
+			"subclassShortName": "风暴先声",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 14,
+			"header": 3,
+			"entries": [
+				"每回合一次，当你看见的一个生物对抗你的{@subclassFeature 风暴灵光|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate}效应的豁免检定失败时，你可以使其受到{@damage 2d4}寒冷伤害且其{@variantrule 速度|XPHB}减半直到其下个回合结束。"
+			]
+		},
+		{
+			"ENG_name": "Cavalier",
+			"name": "骁骑士",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 3,
+			"className": "战士",
+			"classSource": "XPHB",
+			"subclassShortName": "骁骑士",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"骑兵擅长骑乘战斗且保护那些他们负责的人，通常保护他们的上级和虚弱者。骁骑士同样擅长领导骑兵冲锋或在国宴上机智应答。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "附赠熟练项|战士|XPHB|骁骑士|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "生而为骑|战士|XPHB|骁骑士|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "坚定之印|战士|XPHB|骁骑士|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				}
+			]
+		},
+		{
+			"ENG_name": "Bonus Proficiency",
+			"name": "附赠熟练项",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 3,
+			"className": "战士",
+			"classSource": "XPHB",
+			"subclassShortName": "骁骑士",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"你获得以下一个自选技能的熟练项：{@skill 驯兽|XPHB}（驯兽）、{@skill 历史|XPHB}（历史）、{@skill 洞悉|XPHB}（洞悉）、{@skill 表演|XPHB}（表演）或{@skill 游说|XPHB}（游说）。或者，你可以选择学习一门自选语言。"
+			]
+		},
+		{
+			"ENG_name": "Born to the Saddle",
+			"name": "生而为骑",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 3,
+			"className": "战士",
+			"classSource": "XPHB",
+			"subclassShortName": "骁骑士",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"你在避免从坐骑上跌落的豁免检定上具有{@variantrule 优势|XPHB}。如果你从坐骑上跌落且下落不超过10尺，只要你不处于{@condition 失能|XPHB}状态，就能双脚着地。",
+				"此外，骑乘或下马仅消耗你5尺移动力，而非你{@variantrule 速度|XPHB}的一半。"
+			]
+		},
+		{
+			"ENG_name": "Unwavering Mark",
+			"name": "坚定之印",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 3,
+			"className": "战士",
+			"classSource": "XPHB",
+			"subclassShortName": "骁骑士",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"你可以威吓你的敌人，挫败它们的攻击并惩罚它们伤害他人。当你用近战武器命中一个生物时，你可以标记该生物直到你的下个回合结束。如果你处于{@condition 失能|XPHB}状态、你死亡或其他人标记了该生物，此效应提前结束。",
+				"当被你标记的生物在你5尺范围内时，它对除你以外的其他生物进行攻击检定时具有{@variantrule 劣势|XPHB}。",
+				"此外，如果一个被你标记的生物用攻击检定命中了你以外的其他生物，你对被标记的生物的攻击检定具有{@variantrule 优势|XPHB}直到你的下一个回合结束。"
+			]
+		},
+		{
+			"ENG_name": "Warding Maneuver",
+			"name": "守护战技",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 3,
+			"className": "战士",
+			"classSource": "XPHB",
+			"subclassShortName": "骁骑士",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"你学会抵御针对你、你的乘骑或附近其他生物的攻击。如果你或你能看到的5尺内的一个生物被攻击检定命中，且你正持用一把近战武器或一件{@item 盾牌|XPHB}，你可以作为{@variantrule 反应|XPHB}掷{@dice 1d8}。掷骰并将掷出的数值添加到目标的AC以对抗触发攻击。如果攻击仍然命中，目标对该攻击的伤害具有{@variantrule 抗性|XPHB}。",
+				"你可以使用此特性的次数等同于你的体质调整值（至少一次），且完成一次{@variantrule 长休|XPHB}后恢复所有已消耗的使用次数。"
+			]
+		},
+		{
+			"ENG_name": "Hold the Line",
+			"name": "坚守战线",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 4,
+			"className": "战士",
+			"classSource": "XPHB",
+			"subclassShortName": "骁骑士",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"当生物在你的触及范围内移动5尺或更多时，他们会引发你的{@action 借机攻击|XPHB}。当你用{@action 借机攻击|XPHB}命中一个生物时，目标的{@variantrule 速度|XPHB}变为0直到当前回合结束。"
+			]
+		},
+		{
+			"ENG_name": "Ferocious Charger",
+			"name": "冲锋陷阵",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 4,
+			"className": "战士",
+			"classSource": "XPHB",
+			"subclassShortName": "骁骑士",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"在每场战斗的第一轮，你和你的坐骑的{@variantrule 速度|XPHB}增加10尺，且你的移动不会在该轮触发{@action 借机攻击|XPHB|借机攻击}。当你在本轮移动到生物5尺内时，该生物必须成功通过一次力量豁免检定（DC 8加你的力量调整值和{@table 熟练加值|XPHB}），否则你将其推离5尺或使其陷入{@condition 倒地|XPHB}状态。生物在一个回合内只需进行一次此豁免。"
+			]
+		},
+		{
+			"ENG_name": "Vigilant Defender",
+			"name": "警戒守卫",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 4,
+			"className": "战士",
+			"classSource": "XPHB",
+			"subclassShortName": "骁骑士",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"在战斗中，你获得一个特殊的{@variantrule 反应|XPHB}，可以在除你回合外的每个生物回合使用一次。你只能使用这个{@variantrule 反应|XPHB}来进行一次{@action 借机攻击|XPHB}，且不能在同一个回合中使用你正常的{@variantrule 反应|XPHB}。"
+			]
+		},
+		{
+			"ENG_name": "Warrior of Intoxication",
+			"name": "沉醉战士",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 4,
+			"className": "武僧",
+			"classSource": "XPHB",
+			"subclassShortName": "醉意",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"沉醉武者以醉汉特有的颠簸、不可预测的动作移动。这些武僧在不稳的脚步上摇摆，显得无能，然后证明自己难以对付。他们看似不规则的蹒跚隐藏着精心执行的格挡、招架、前进、攻击和撤退的舞蹈。",
+				"沉醉武者常以愚者姿态为落魄者带来欢乐，或教导傲慢者谦逊，但这些武僧在战斗中却是令人发狂的精湛对手。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "附赠熟练|武僧|XPHB|醉意|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "醉拳技巧|武僧|XPHB|醉意|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				}
+			]
+		},
+		{
+			"ENG_name": "Bonus Proficiencies",
+			"name": "附赠熟练",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 4,
+			"className": "武僧",
+			"classSource": "XPHB",
+			"subclassShortName": "醉意",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"你获得{@skill 表演|XPHB}技能的熟练，若你已拥有该熟练，则你可以从武僧在1级时可选的技能中选择一个技能获得熟练。如果你尚未拥有，你还将获得{@item 酿酒工具|XPHB}的熟练。"
+			]
+		},
+		{
+			"ENG_name": "Drunken Technique",
+			"name": "醉拳技巧",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 4,
+			"className": "武僧",
+			"classSource": "XPHB",
+			"subclassShortName": "醉意",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"作为你{@classFeature 疾风连击|武僧|XPHB|2|XPHB}的一部分，你快速转折且转身。每当你使用{@classFeature 疾风连击|武僧|XPHB|2|XPHB}时，你的{@variantrule 速度|XPHB}增加10尺直到当前回合结束，且你在该时间内的移动不会引发{@action 借机攻击|XPHB|借机攻击}。"
+			]
+		},
+		{
+			"ENG_name": "Mystic Brew",
+			"name": "秘术酿造",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 4,
+			"className": "武僧",
+			"classSource": "XPHB",
+			"subclassShortName": "醉意",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 6,
+			"header": 2,
+			"consumes": {
+				"ENG_name": "Focus Point",
+				"name": "功力",
+				"amountMin": 0,
+				"amountMax": 1
+			},
+			"entries": [
+				"每当你完成一次{@variantrule 短休|XPHB|短}或{@variantrule 长休|XPHB}且持有{@item 酿酒工具|XPHB}时，你可以使用该工具魔法般地酿造出一种魔法饮品，可从以下选项中选择：肉桂龙、天界精魄或清爽浸浴。饮品会出现在一个瓶子或木桶中，当饮品被饮用或倒出时瓶子会消隐。若你在完成一次{@variantrule 短休|XPHB|短}或{@variantrule 长休|XPHB}时仍有剩余饮品，则该饮品及其容器会消隐。",
+				{
+					"ENG_name": "Drinking a Magical Beverage",
+					"name": "饮用魔法饮料",
+					"type": "entries",
+					"page": 4,
+					"entries": [
+						"只有你能获得饮用该饮品的增益。你必须饮用至少一品脱的饮品才能获得其增益。你可以花费1分钟饮用一品脱的饮品。然后你将获得该饮品的增益效果，持续1小时，如下所述。"
+					]
+				},
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 5,
+					"items": [
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "肉桂龙|武僧|XPHB|醉意|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "天界精魄|武僧|XPHB|醉意|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "清爽浸浴|武僧|XPHB|醉意|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
+						}
+					]
+				},
+				{
+					"ENG_name": "Enhancing a Magical Beverage",
+					"name": "强化魔法饮品",
+					"type": "entries",
+					"page": 5,
+					"entries": [
+						"当你创造一种魔法饮料时，你可以消耗1点功力。当你这样做时，增益的持续时间延长至8小时。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Tipsy Sway",
+			"name": "酣醉若狂",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 4,
+			"className": "武僧",
+			"classSource": "XPHB",
+			"subclassShortName": "醉意",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"你可以以突然、摇摆的方式移动。你获得以下增益。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "鲤鱼打挺|武僧|XPHB|醉意|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "攻击重定向|武僧|XPHB|醉意|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
+				}
+			]
+		},
+		{
+			"ENG_name": "Cinnamon Dragon",
+			"name": "肉桂龙",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 5,
+			"className": "武僧",
+			"classSource": "XPHB",
+			"subclassShortName": "醉意",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 6,
+			"header": 3,
+			"entries": [
+				"你可以执行一个{@action 魔法|XPHB}动作来在30尺{@variantrule 锥状 [效应区域]|XPHB|锥状}范围内吐出毒焰。每个生物需进行一次敏捷豁免检定（DC为8加上你的感知调整值和{@table 熟练加值|XPHB}）。豁免失败时，生物将受到等同于四次{@classFeature 武艺骰|武僧|XPHB|1|XPHB}掷骰的火焰伤害，并在其下一回合结束前处于{@condition 中毒|XPHB}状态。豁免成功时，生物仅受到一半伤害。"
+			]
+		},
+		{
+			"ENG_name": "Heavenly Spirit",
+			"name": "天界精魄",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 5,
+			"className": "武僧",
+			"classSource": "XPHB",
+			"subclassShortName": "醉意",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 6,
+			"header": 3,
+			"entries": [
+				"你获得对心灵和光耀伤害的{@variantrule 抗性|XPHB}抗性。"
+			]
+		},
+		{
+			"ENG_name": "Leap to Your Feet",
+			"name": "鲤鱼打挺",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 4,
+			"className": "武僧",
+			"classSource": "XPHB",
+			"subclassShortName": "醉意",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 6,
+			"header": 3,
+			"entries": [
+				"当你处于{@condition 倒地|XPHB}状态时，你可以花费5尺移动力站起来，而非消耗一半的{@variantrule 速度|XPHB}。"
+			]
+		},
+		{
+			"ENG_name": "Redirect Attack",
+			"name": "攻击重定向",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 4,
+			"className": "武僧",
+			"classSource": "XPHB",
+			"subclassShortName": "醉意",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 6,
+			"header": 3,
+			"consumes": {
+				"ENG_name": "Focus Point",
+				"name": "功力",
+				"amount": 1
+			},
+			"entries": [
+				"当一个生物用近战攻击掷骰对你未命中时，你可以消耗1点功力作为{@variantrule 反应|XPHB}，使该攻击命中你5尺内可见的、除攻击手外的其他一个生物。"
+			]
+		},
+		{
+			"ENG_name": "Refreshing Dip",
+			"name": "清爽浸浴",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 5,
+			"className": "武僧",
+			"classSource": "XPHB",
+			"subclassShortName": "醉意",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 6,
+			"header": 3,
+			"entries": [
+				"每当你恢复{@variantrule 生命值|XPHB}时，你额外恢复等同于你{@classFeature 武艺骰|武僧|XPHB|1|XPHB}掷骰结果的{@variantrule 生命值|XPHB}。"
+			]
+		},
+		{
+			"ENG_name": "Master Brewer",
+			"name": "大师酿酒师",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 5,
+			"className": "武僧",
+			"classSource": "XPHB",
+			"subclassShortName": "醉意",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"你学会了更复杂的风味。以下饮品被添加到你的{@subclassFeature 秘术酿造|武僧|XPHB|醉意|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate}选项中。",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 5,
+					"items": [
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "蓝闪电|武僧|XPHB|醉意|XUA2025SubclassesUpdate|11|XUA2025SubclassesUpdate"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "醉汉机运|武僧|XPHB|醉意|XUA2025SubclassesUpdate|11|XUA2025SubclassesUpdate"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Blue Lightning",
+			"name": "蓝闪电",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 5,
+			"className": "武僧",
+			"classSource": "XPHB",
+			"subclassShortName": "醉意",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 11,
+			"header": 3,
+			"entries": [
+				"每当你进行一次{@variantrule 反应|XPHB}而非{@action 借机攻击|XPHB}或施放法术时，你可以作为该{@variantrule 反应|XPHB}的一部分进行一次{@variantrule 徒手打击|XPHB}。"
+			]
+		},
+		{
+			"ENG_name": "Drunkard's Luck",
+			"name": "醉汉机运",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 5,
+			"className": "武僧",
+			"classSource": "XPHB",
+			"subclassShortName": "醉意",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 11,
+			"header": 3,
+			"entries": [
+				"若你尚未拥有{@variantrule 英雄激励|XPHB}，则你获得之。此外，当你掷{@variantrule 英雄激励|XPHB}时没有{@variantrule 先攻|XPHB}也可以获得一个。"
+			]
+		},
+		{
+			"ENG_name": "Intoxicated Frenzy",
+			"name": "酣醉若狂",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 5,
+			"className": "武僧",
+			"classSource": "XPHB",
+			"subclassShortName": "醉意",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 17,
+			"header": 3,
+			"entries": [
+				"你对一群敌人发动压倒性的攻击。当你使用{@classFeature 疾风连击|武僧|XPHB|2|XPHB}时，你可以额外进行最多三次{@variantrule 徒手打击|XPHB|徒手打击}（最多总共六次{@variantrule 徒手打击|XPHB|徒手打击}），条件是每回合每次打击必须针对不同的生物。"
+			]
+		},
+		{
+			"ENG_name": "Oathbreaker",
+			"name": "破誓者",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 5,
+			"className": "圣武士",
+			"classSource": "XPHB",
+			"subclassShortName": "破誓者",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"圣武士誓言的威力是如此强大，以至于即使被违背时也拥有扭曲的力量。当圣武士因腐败、骄傲或对权力的渴望而背叛其教义时，他们会失去原有誓言赐予的祝福，但有时会取而代之获得破誓者的邪恶祝福。破誓者利用恐惧术和压倒性的力量来实现其目标。虽然许多破誓者已无可救赎，但有些圣武士会通过这一誓言来完成伟大而高尚的行为，以弥补过去的罪恶。",
+				"在DM的裁量下，任何等级的圣武士若违反其教义，可能会失去原有子职提供的增益并获得破誓者子职的特性。或者，圣武士可以在3级时基于角色从恩典中坠落的背景故事选择此子职。",
+				"这些圣武士通常遵循以下教义：",
+				{
+					"type": "list",
+					"page": 5,
+					"items": [
+						"恐惧术是强者手中的工具。",
+						"不惜一切代价追求法力。",
+						"做必须做的事，但永远不要失去你的目标。"
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "咒唤不死|圣武士|XPHB|破誓者|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "恐怖显现|圣武士|XPHB|破誓者|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "破誓者法术|圣武士|XPHB|破誓者|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				}
+			]
+		},
+		{
+			"ENG_name": "Conjure Undead",
+			"name": "咒唤不死",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 5,
+			"className": "圣武士",
+			"classSource": "XPHB",
+			"subclassShortName": "破誓者",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 2,
+			"consumes": {
+				"ENG_name": "Channel Divinity",
+				"name": "引导神力",
+				"amount": 1
+			},
+			"entries": [
+				"作为{@variantrule 附赠动作|XPHB}，你可以消耗一次{@classFeature 引导神力|圣武士|XPHB|3|XPHB}来召唤数量等同于你魅力调整值一半（向上取整；至少召唤一个亡灵）的亡灵。每个亡灵出现在你30尺内一个你能看见的未占据空间，且是你选择的生物类型：{@creature 骷髅|XMM}或{@creature 丧尸|XMM}（数据卡见{@book 玩家手册的附录 B|XPHB|9}）。这些亡灵受你控制1分钟，之后他们会化为灰烬。",
+				"每个亡灵都是你和你的盟友的盟友。在战斗中，亡灵共享你的{@variantrule 先攻|XPHB}先攻值，但它在你的回合后立即行动。它会服从你的口头命令（你无需动作）。如果你没有发出任何命令，它会采取{@action 回避|XPHB}回避动作并使用移动力来避免危险。"
+			]
+		},
+		{
+			"ENG_name": "Dreadful Aspect",
+			"name": "恐怖显现",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 6,
+			"className": "圣武士",
+			"classSource": "XPHB",
+			"subclassShortName": "破誓者",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 2,
+			"consumes": {
+				"ENG_name": "Channel Divinity",
+				"name": "引导神力",
+				"amount": 1
+			},
+			"entries": [
+				"在你施放{@spell 至圣斩|XPHB}后，你可以消耗一次{@classFeature 引导神力|圣武士|XPHB|3|XPHB}来引导一股魔法威吓爆发。你选择的30尺{@variantrule 光环 [效应区域]|XPHB|光环}范围内的每个生物必须成功通过一次感知豁免检定，否则将获得{@condition 恐慌|XPHB}状态1分钟。{@condition 恐慌|XPHB}的生物会在其每回合结束时重复豁免检定，成功则自身终止该效应。"
+			]
+		},
+		{
+			"ENG_name": "Oathbreaker Spells",
+			"name": "破誓者法术",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 6,
+			"className": "圣武士",
+			"classSource": "XPHB",
+			"subclassShortName": "破誓者",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"你的誓仇魔法确保你总是预备某些法术；当你达到{@class 圣武士|XPHB}职业等级中{@table 破誓者法术|XUA2025SubclassesUpdate}表格指定的等级时，你此后总是准备所列出的法术。",
+				{
+					"ENG_name": "Oathbreaker Spells",
+					"name": "破誓者法术",
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2025SubclassesUpdate",
+					"page": 6
+				}
+			]
+		},
+		{
+			"ENG_name": "Aura of Hate",
+			"name": "憎恨灵光",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 6,
+			"className": "圣武士",
+			"classSource": "XPHB",
+			"subclassShortName": "破誓者",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"当你以及在你{@classFeature 守护灵光|圣武士|XPHB|6|XPHB}范围内的任何盟友邪魔或亡灵以近战攻击命中一个生物时，该攻击造成等同于你魅力调整值的额外暗蚀伤害。"
+			]
+		},
+		{
+			"ENG_name": "Supernatural Resistance",
+			"name": "超然抗性",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 6,
+			"className": "圣武士",
+			"classSource": "XPHB",
+			"subclassShortName": "破誓者",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"你获得对钝击、穿刺、挥砍伤害的{@variantrule 抗性|XPHB}。"
+			]
+		},
+		{
+			"ENG_name": "Dread Lord",
+			"name": "恐惧之王",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 6,
+			"className": "圣武士",
+			"classSource": "XPHB",
+			"subclassShortName": "破誓者",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 20,
+			"header": 2,
+			"entries": [
+				"作为{@variantrule 附赠动作|XPHB}，你可以用邪恶的黑暗灌注你的{@classFeature 守护灵光|圣武士|XPHB|6|XPHB}，获得下方增益持续10分钟或直到你结束它们（无需动作）。一旦你使用此特性，在完成一次{@variantrule 长休|XPHB}前不能再次使用。你也可以通过消耗一个5环法术位来复原它的使用次数（无需动作）。",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 6,
+					"items": [
+						{
+							"ENG_name": "Darkness",
+							"name": "黑暗术",
+							"type": "item",
+							"entries": [
+								"魔法{@variantrule 黑暗术|XPHB}充满你的{@classFeature 守护灵光|圣武士|XPHB|6|XPHB}。你和你的{@classFeature 守护灵光|圣武士|XPHB|6|XPHB}内的盟友可以看穿这片魔法{@variantrule 黑暗术|XPHB}。"
+							]
+						},
+						{
+							"ENG_name": "Fear",
+							"name": "恐惧术",
+							"type": "item",
+							"entries": [
+								"每当一个处于{@condition 恐慌|XPHB}状态的生物在你的{@classFeature 守护灵光|圣武士|XPHB|6|XPHB}范围内开始其回合时，该生物会受到{@damage 4d10}心灵伤害。"
+							]
+						},
+						{
+							"ENG_name": "Shadow Strike",
+							"name": "幽影袭",
+							"type": "item",
+							"entries": [
+								"作为{@variantrule 附赠动作|XPHB}，你可以进行一次近战法术攻击，将你散发出的幽暗塑造成一把刀刃，攻击你{@classFeature 守护灵光|圣武士|XPHB|6|XPHB}范围内的一个生物。命中时，该攻击造成等于{@damage 3d10}加上你的魅力调整值的暗蚀伤害。"
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"foundrySubclassFeature": [
+		{
+			"ENG_name": "Desert",
+			"name": "荒漠",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "野蛮人",
+			"classSource": "XPHB",
+			"subclassShortName": "风暴先声",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 6,
+			"entryData": {
+				"resist": [
+					"火焰"
+				]
+			}
+		},
+		{
+			"ENG_name": "Sea",
+			"name": "海洋",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "野蛮人",
+			"classSource": "XPHB",
+			"subclassShortName": "风暴先声",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 6,
+			"effects": [
+				{
+					"ENG_name": "Sea",
+					"name": "海洋",
+					"changes": [
+						{
+							"key": "system.attributes.movement.swim",
+							"mode": "UPGRADE",
+							"value": "system.attributes.movement.walk"
+						}
+					]
+				}
+			],
+			"entryData": {
+				"resist": [
+					"闪电"
+				]
+			}
+		},
+		{
+			"ENG_name": "Tundra",
+			"name": "冻原",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "野蛮人",
+			"classSource": "XPHB",
+			"subclassShortName": "风暴先声",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 6,
+			"entryData": {
+				"resist": [
+					"寒冷"
+				]
+			}
+		},
+		{
+			"ENG_name": "Bonus Proficiency",
+			"name": "附赠熟练项",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "战士",
+			"classSource": "XPHB",
+			"subclassShortName": "骁骑士",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"entryData": {
+				"skillToolLanguageProficiencies": [
+					{
+						"choose": [
+							{
+								"from": [
+									"驯兽",
+									"历史",
+									"洞悉",
+									"表演",
+									"游说",
+									"anyStandardLanguage"
+								],
+								"count": 1
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"ENG_name": "Bonus Proficiencies",
+			"name": "附赠熟练",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "武僧",
+			"classSource": "XPHB",
+			"subclassShortName": "醉意",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"entryData": {
+				"skillProficiencies": [
+					{
+						"performance": true
+					},
+					{
+						"choose": {
+							"from": [
+								"特技",
+								"运动",
+								"历史",
+								"洞悉",
+								"宗教",
+								"隐匿"
+							],
+							"count": 1
+						}
+					}
+				],
+				"toolProficiencies": [
+					{
+						"brewer's supplies": true
+					}
+				]
+			}
+		},
+		{
+			"ENG_name": "Supernatural Resistance",
+			"name": "超然抗性",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "圣武士",
+			"classSource": "XPHB",
+			"subclassShortName": "破誓者",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 7,
+			"entryData": {
+				"resist": [
+					"钝击",
+					"穿刺",
+					"挥砍"
+				]
+			}
+		}
+	],
+	"table": [
+		{
+			"ENG_name": "Oathbreaker Spells",
+			"name": "破誓者法术",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 6,
+			"type": "table",
+			"colLabels": [
+				"圣武士等级",
+				"法术"
+			],
+			"colStyles": [
+				"col-3 text-center",
+				"col-9"
+			],
+			"rows": [
+				[
+					"3",
+					"{@spell 炼狱叱喝|XPHB}, {@spell 巫术箭|XPHB}"
+				],
+				[
+					"5",
+					"{@spell 疯狂冠冕|XPHB}, {@spell 黑暗术|XPHB}"
+				],
+				[
+					"9",
+					"{@spell 恐惧术|XPHB}, {@spell 亡灵召唤术|XPHB}"
+				],
+				[
+					"13",
+					"{@spell 枯萎术|XPHB}, {@spell 魅影杀手|XPHB}"
+				],
+				[
+					"17",
+					"{@spell 疫病术|XPHB}, {@spell 钢风斩|XPHB}"
+				]
+			]
+		}
+	],
+	"book": [
+		{
+			"ENG_name": "Unearthed Arcana 2025: Subclasses Update",
+			"name": "出土文献2025：子职更新",
+			"id": "XUA2025SubclassesUpdate",
+			"source": "XUA2025SubclassesUpdate",
+			"group": "prerelease",
+			"cover": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/refs/heads/master/_img/XUA2025SubclassesUpdate/cover.webp"
+			},
+			"published": "2025-10-30",
+			"author": "威世智",
+			"contents": [
+				{
+					"ENG_name": "Unearthed Arcana 2025: Subclasses Update",
+					"name": "出土文献2025：子职更新",
+					"headers": [
+						"这里有什么",
+						"子职",
+						{
+							"header": "灵体守护者之路（野蛮人）",
+							"depth": 1
+						},
+						{
+							"header": "风暴先声之路（野蛮人）",
+							"depth": 1
+						},
+						{
+							"header": "骁骑士（战士）",
+							"depth": 1
+						},
+						{
+							"header": "醉意战士（武僧）",
+							"depth": 1
+						},
+						{
+							"header": "破誓者（圣武士）",
+							"depth": 1
+						}
+					]
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "XUA2025SubclassesUpdate",
+			"source": "XUA2025SubclassesUpdate",
+			"data": [
+				{
+					"ENG_name": "Unearthed Arcana 2025: Subclasses Update",
+					"name": "出土文献2025：子职更新",
+					"type": "section",
+					"page": 1,
+					"entries": [
+						"本测试文档是系列{@i 破解奥秘}文章的一部分，这些文章展示了为即将推出的产品设计的素材。这里的素材使用了{@book 2024玩家手册|XPHB}中的规则。",
+						{
+							"ENG_name": "What's Inside",
+							"name": "这里有什么",
+							"type": "section",
+							"page": 1,
+							"entries": [
+								"本文档介绍了五个子职：修订后的{@class 野蛮人|XPHB}子职（{@class 野蛮人|XPHB|灵体守护者之路|灵性守护者|XUA2025SubclassesUpdate}和{@class 野蛮人|XPHB|风暴先驱道途|风暴先声|XUA2025SubclassesUpdate}）、{@class 战士|XPHB}子职（{@class 战士|XPHB|骁骑士|骁骑士|XUA2025SubclassesUpdate}）、{@class 武僧|XPHB}子职（{@class 武僧|XPHB|沉醉战士|醉意|XUA2025SubclassesUpdate}）以及{@class 圣武士|XPHB}子职（{@class 圣武士|XPHB|破誓者|破誓者|XUA2025SubclassesUpdate}）。",
+								{
+									"ENG_name": "This Is Playtest Material",
+									"name": "本材料为游玩测试内容",
+									"type": "inset",
+									"page": 1,
+									"entries": [
+										"本文旨在进行游戏测试和反馈。这里的选项是实验性的且处于草稿形态。它们并非游戏的官方部分。您的反馈将协助我们决定是否将其采纳为官方。",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"page": 1,
+											"items": [
+												{
+													"ENG_name": "How to Playtest This UA",
+													"name": "如何游玩测试本破解奥秘",
+													"type": "item",
+													"entries": [
+														"我们邀请您在游戏中尝试这些材质。要使用这些材质，您可以将它们融入您的战役中，或者进行一次或多次特殊的试玩测试会话。对于这样的会话，您可以创建自己的冒险，或者使用来自类似{@adventure 来自无尽阶梯的委托集|QftIS}这样的来源的短冒险。"
+													]
+												},
+												{
+													"ENG_name": "Power Level",
+													"name": "威力水平",
+													"type": "item",
+													"entries": [
+														"你在这里阅读的角色选项可能比{@book 2024玩家手册|XPHB}中的选项威力更强或更弱。如果一个设计在游戏测试中存活下来，我们会在发布前将其威力调整到理想水平。这意味着一个选项在其最终形态中可能威力更强或更弱。"
+													]
+												},
+												{
+													"ENG_name": "Feedback",
+													"name": "反馈",
+													"type": "item",
+													"entries": [
+														"您就这份材质向我们提供反馈的最佳方式是通过我们将在D&D Beyond上发布的调查。如果我们使这份材质成为官方版本，它将根据您的反馈进行完善，然后会出现在一本D&D书中。",
+														"对本文件提供反馈是您协助塑造D&D未来的一种方式！"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ENG_name": "Subclasses",
+							"name": "子职",
+							"type": "section",
+							"page": 1,
+							"entries": [
+								"本节介绍以下子职：{@class 野蛮人|XPHB|灵体守护者之路|灵性守护者|XUA2025SubclassesUpdate}，{@class 野蛮人|XPHB|风暴先驱道途|风暴先声|XUA2025SubclassesUpdate}，{@class 战士|XPHB|骁骑士|骁骑士|XUA2025SubclassesUpdate}，{@class 武僧|XPHB|沉醉战士|醉意|XUA2025SubclassesUpdate}，且{@class 圣武士|XPHB|破誓者|破誓者|XUA2025SubclassesUpdate}。",
+								{
+									"ENG_name": "Path of the Spiritual Guardian (Barbarian)",
+									"name": "灵体守护者之路（野蛮人）",
+									"type": "entries",
+									"page": 1,
+									"entries": [
+										"{@i 呼唤精魂以获得战斗援助}",
+										{
+											"ENG_name": "Design Note: Path of the Spiritual Guardian Updates",
+											"name": "设计笔记：灵体守护者路途更新",
+											"type": "inset",
+											"page": 1,
+											"entries": [
+												"这里是该子职（原为{@class 野蛮人|PHB|先祖守卫道途|先祖守卫|XGE}）自上次在{@book 珊娜萨的万事指南|XGE}中出现以来的主要更新：",
+												{
+													"type": "list",
+													"page": 1,
+													"items": [
+														{
+															"ENG_name": "Spiritual Protectors",
+															"name": "灵性守护者",
+															"type": "item",
+															"nameDot": false,
+															"entries": [
+																"（原{@subclassFeature 先祖护卫|野蛮人|PHB|先祖守卫|XGE|3|XGE}）已被重新设计。该特性现在将原特性的效应与新效应分开，作为当你{@classFeature 狂暴|野蛮人|XPHB|1|XPHB}激活时命中生物的选项。"
+															]
+														},
+														{
+															"ENG_name": "Spirit Shield",
+															"name": "精魂之盾",
+															"type": "item",
+															"nameDot": false,
+															"entries": [
+																"现在随你的狂暴伤害加值提升。"
+															]
+														},
+														{
+															"ENG_name": "Vengeful Spirits",
+															"name": "复仇精魂",
+															"type": "item",
+															"nameDot": false,
+															"entries": [
+																"（原为{@subclassFeature 仇魂先祖|野蛮人|PHB|先祖守卫|XGE|14|XGE}）是一个新特性，允许你在攻击检定掷出18或更高时进行一次额外攻击。"
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"ENG_name": "Spiritual Guardian",
+											"name": "灵性守护者",
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025SubclassesUpdate",
+											"className": "野蛮人",
+											"classSource": "XPHB",
+											"page": 1
+										}
+									]
+								},
+								{
+									"ENG_name": "Path of the Storm Herald (Barbarian)",
+									"name": "风暴先声之路（野蛮人）",
+									"type": "entries",
+									"page": 2,
+									"entries": [
+										"{@i 驾驭暴风之愤恨}",
+										{
+											"ENG_name": "Design Note: Path of the Storm Herald Updates",
+											"name": "设计笔记：风暴先驱道途更新",
+											"type": "inset",
+											"page": 3,
+											"entries": [
+												"这是该子职自其出现在{@book 珊娜萨的万事指南|XGE}以来的主要更新：",
+												{
+													"type": "list",
+													"page": 2,
+													"items": [
+														{
+															"ENG_name": "Storm Aura",
+															"name": "风暴灵光",
+															"type": "item",
+															"nameDot": false,
+															"entries": [
+																"现在会随着你的狂暴伤害加值提升。此外，{@subclassFeature 冻原|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate}已被重新设计为缩小生物的伤害而非施加{@variantrule 临时生命值|XPHB}。"
+															]
+														},
+														{
+															"ENG_name": "Raging Storm",
+															"name": "狂怒风暴",
+															"type": "item",
+															"nameDot": false,
+															"entries": [
+																"每个环境都经过重新设计。{@subclassFeature 荒漠|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate}现在会使豁免检定失败的生物开始燃烧。{@subclassFeature 海洋|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate}现在可以将闪电束链击到另一个生物。{@subclassFeature 冻原|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate}现在造成寒冷伤害且将生物的{@variantrule 速度|XPHB}减半。"
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"ENG_name": "Storm Herald",
+											"name": "风暴先声",
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025SubclassesUpdate",
+											"className": "野蛮人",
+											"classSource": "XPHB",
+											"page": 2
+										}
+									]
+								},
+								{
+									"ENG_name": "Cavalier (Fighter)",
+									"name": "骁骑士（战士）",
+									"type": "entries",
+									"page": 3,
+									"entries": [
+										"{@i 徒步或乘骑保护盟友}",
+										{
+											"ENG_name": "Design Note: Cavalier Updates",
+											"name": "设计笔记：骁骑士更新",
+											"type": "inset",
+											"page": 3,
+											"entries": [
+												"这是该子职自其出现在{@book 珊娜萨的万事指南|XGE}以来的主要更新：",
+												{
+													"type": "list",
+													"page": 3,
+													"items": [
+														{
+															"ENG_name": "Unwavering Mark",
+															"name": "坚定之印",
+															"type": "item",
+															"nameDot": false,
+															"entries": [
+																"不再有使用次数限制。"
+															]
+														},
+														{
+															"ENG_name": "Ferocious Charger",
+															"name": "冲锋陷阵",
+															"type": "item",
+															"nameDot": false,
+															"entries": [
+																"已被重新设计，用于在每场战斗的第一轮中爆发速度。"
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"ENG_name": "Cavalier",
+											"name": "骁骑士",
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025SubclassesUpdate",
+											"className": "战士",
+											"classSource": "XPHB",
+											"page": 3
+										}
+									]
+								},
+								{
+									"ENG_name": "Warrior of Intoxication (Monk)",
+									"name": "醉意战士（武僧）",
+									"type": "entries",
+									"page": 4,
+									"entries": [
+										"{@i 饮用秘术佳酿以压制且迷惑敌人}",
+										{
+											"ENG_name": "Design Note: Warrior of Intoxication Updates",
+											"name": "设计笔记：醉意战士更新",
+											"type": "inset",
+											"page": 4,
+											"entries": [
+												"这里是该子职（原为{@class 武僧|PHB|醉拳宗|醉拳|XGE}）自上次在{@book 珊娜萨的万事指南|XGE}中出现以来的主要更新：",
+												{
+													"type": "list",
+													"page": 4,
+													"items": [
+														{
+															"ENG_name": "Mystic Brew",
+															"name": "秘术酿造",
+															"type": "item",
+															"nameDot": false,
+															"entries": [
+																"是一个新特性，允许{@class 武僧|XPHB}创造魔法饮品，他们可以饮用这些饮品以获得持久增益。"
+															]
+														},
+														{
+															"ENG_name": "Master Brewer",
+															"name": "大师酿酒师",
+															"type": "item",
+															"nameDot": false,
+															"entries": [
+																"是一个新特性，取代了{@subclassFeature 醉汉机运|武僧|PHB|醉拳|XGE|11|XGE}。该特性为{@subclassFeature 秘术酿造|武僧|XPHB|醉意|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate}增加了额外的饮品选项。"
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"ENG_name": "Intoxication",
+											"name": "醉意",
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025SubclassesUpdate",
+											"className": "武僧",
+											"classSource": "XPHB",
+											"page": 4
+										}
+									]
+								},
+								{
+									"ENG_name": "Oathbreaker (Paladin)",
+									"name": "破誓者（圣武士）",
+									"type": "entries",
+									"page": 5,
+									"entries": [
+										"{@i 不惜一切代价获得强大法力}",
+										{
+											"ENG_name": "Design Note: Oathbreaker Updates",
+											"name": "设计笔记：破誓者更新",
+											"type": "inset",
+											"page": 5,
+											"entries": [
+												"这里是该子职自2014年{@book 城主指南|DMG}上次出现以来的主要更新：",
+												{
+													"type": "list",
+													"page": 5,
+													"items": [
+														{
+															"ENG_name": "Conjure Undead",
+															"name": "咒唤不死",
+															"type": "item",
+															"nameDot": false,
+															"entries": [
+																"（原为{@subclassFeature 控制亡灵|圣武士|PHB|破誓者|DMG|3|DMG}）现在允许你短暂召唤亡灵来援助你。"
+															]
+														},
+														{
+															"ENG_name": "Dreadful Aspect",
+															"name": "恐怖显现",
+															"type": "item",
+															"nameDot": false,
+															"entries": [
+																"现在循环施放{@spell 至圣斩|XPHB}法术。"
+															]
+														},
+														{
+															"ENG_name": "Oathbreaker Spells",
+															"name": "破誓者法术",
+															"type": "item",
+															"nameDot": false,
+															"entries": [
+																"拥有新的法术。"
+															]
+														},
+														{
+															"ENG_name": "Aura of Hate",
+															"name": "憎恨灵光",
+															"type": "item",
+															"nameDot": false,
+															"entries": [
+																"现在将其效应添加到你的{@classFeature 守护灵光|圣武士|XPHB|6|XPHB}。该灵光现在仅对你盟友中的邪魔与不死生物提供增益。"
+															]
+														},
+														{
+															"ENG_name": "Dread Lord",
+															"name": "恐惧之王",
+															"type": "item",
+															"nameDot": false,
+															"entries": [
+																"现在会灌注你的{@classFeature 守护灵光|圣武士|XPHB|6|XPHB}且可以通过消耗一个5环法术位来充能。"
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"ENG_name": "Oathbreaker",
+											"name": "破誓者",
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025SubclassesUpdate",
+											"className": "圣武士",
+											"classSource": "XPHB",
+											"page": 5
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

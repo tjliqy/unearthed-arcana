@@ -1,0 +1,726 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAFighterRangerRogue",
+				"abbreviation": "UAFRR",
+				"full": "破解奥秘：战士、游侠与游荡者",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2019/dnd/downloads/UA-RuneSwarmRevived.pdf",
+				"dateReleased": "2019-10-17"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1729637619,
+		"_dateLastModifiedHash": "b4881717a5"
+	},
+	"subclass": [
+		{
+			"ENG_name": "Rune Knight (UA)",
+			"name": "符文骑士（UA）",
+			"shortName": "符文骑士（UA）",
+			"source": "UAFighterRangerRogue",
+			"className": "战士",
+			"classSource": "PHB",
+			"page": 1,
+			"isReprinted": true,
+			"optionalfeatureProgression": [
+				{
+					"ENG_name": "Runes",
+					"name": "符文",
+					"featureType": [
+						"RN"
+					],
+					"progression": {
+						"3": 2,
+						"7": 3,
+						"10": 4,
+						"15": 5
+					}
+				}
+			],
+			"subclassFeatures": [
+				"符文骑士|战士||符文骑士（UA）|UAFighterRangerRogue|3",
+				"防御符文|战士||符文骑士（UA）|UAFighterRangerRogue|7",
+				"奇伟身躯|战士||符文骑士（UA）|UAFighterRangerRogue|10",
+				"符文魔法精通|战士||符文骑士（UA）|UAFighterRangerRogue|15",
+				"众父神的祝福|战士||符文骑士（UA）|UAFighterRangerRogue|18"
+			]
+		},
+		{
+			"ENG_name": "Swarmkeeper (UA)",
+			"name": "集群守卫（UA）",
+			"shortName": "集群守卫（UA）",
+			"source": "UAFighterRangerRogue",
+			"className": "游侠",
+			"classSource": "PHB",
+			"page": 3,
+			"isReprinted": true,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"妖火"
+						],
+						"5": [
+							"蛛网术"
+						],
+						"9": [
+							"气化形体"
+						],
+						"13": [
+							"巨虫术"
+						],
+						"17": [
+							"疫病虫群"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"集群守卫|游侠||集群守卫（UA）|UAFighterRangerRogue|3",
+				"翻腾浪涌|游侠||集群守卫（UA）|UAFighterRangerRogue|7",
+				"爬行之眼|游侠||集群守卫（UA）|UAFighterRangerRogue|11",
+				"蜂聚集群强化|游侠||集群守卫（UA）|UAFighterRangerRogue|11",
+				"暴风仆从|游侠||集群守卫（UA）|UAFighterRangerRogue|15"
+			]
+		},
+		{
+			"ENG_name": "The Revived (UA)",
+			"name": "复苏者 (UA)",
+			"shortName": "复苏者 (UA)",
+			"source": "UAFighterRangerRogue",
+			"className": "游荡者",
+			"classSource": "PHB",
+			"page": 4,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"复苏者|游荡者||复苏者 (UA)|UAFighterRangerRogue|3",
+				"与亡者沟通|游荡者||复苏者 (UA)|UAFighterRangerRogue|9",
+				"接见室与死亡|游荡者||复苏者 (UA)|UAFighterRangerRogue|13",
+				"以太漫游|游荡者||复苏者 (UA)|UAFighterRangerRogue|17"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"ENG_name": "Rune Knight",
+			"name": "符文骑士",
+			"source": "UAFighterRangerRogue",
+			"page": 1,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "符文骑士（UA）",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 3,
+			"entries": [
+				"你发现了如何使用符文的超自然法力来增强你的军事实力。远古的符文魔法实践起源于巨人。{@i Skiltgravr}（\"符文切割者\"）可以在任何生物类型的巨人中找到，你可能从这样一位神秘的工匠那里直接或间接地学到了你的方法。无论你是在丘陵或洞穴中发现巨人的工作，从一位旅行的智者那里了解到符文，还是亲自遇到了巨人，你都研究了巨人的制造技艺。随着时间的推移，你学会了如何雕刻符文并将其应用到你的装备上，以及如何唤起它们的魔法，最终成为一名符文骑士。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "附赠熟练|战士||符文骑士（UA）|UAFighterRangerRogue|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "符文魔法|战士||符文骑士（UA）|UAFighterRangerRogue|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "符文选项|战士||符文骑士（UA）|UAFighterRangerRogue|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "巨人力量|战士||符文骑士（UA）|UAFighterRangerRogue|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Bonus Proficiencies",
+			"name": "附赠熟练",
+			"source": "UAFighterRangerRogue",
+			"page": 1,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "符文骑士（UA）",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3级符文骑士特性}",
+				"你获得{@item 铁匠工具|PHB}的熟练项，并且学会说、读、写{@language 巨人语}。"
+			]
+		},
+		{
+			"ENG_name": "Giant Might",
+			"name": "巨人力量",
+			"source": "UAFighterRangerRogue",
+			"page": 1,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "符文骑士（UA）",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3级符文骑士特性}",
+				"你可以灌注巨人伟力于自身。以一个附赠动作，你魔法性地获得以下增益，持续1分钟：",
+				{
+					"type": "list",
+					"items": [
+						"如果你的体型小于大型，你和你所穿戴的所有物品一起变为大型。如果你缺少变为大型的空间，则你的体型不会发生变化。",
+						"你进行力量检定和力量豁免时具有优势。",
+						"你的武器攻击造成额外{@damage 1d6}伤害。"
+					]
+				},
+				"你可以使用此特性两次，且完成一次长休后恢复所有已消耗的使用次数。"
+			]
+		},
+		{
+			"ENG_name": "Rune Magic",
+			"name": "符文魔法",
+			"source": "UAFighterRangerRogue",
+			"page": 1,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "符文骑士（UA）",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3级符文骑士特性}",
+				"你学会了如何使用符文来增强你的装备。当你获得此特性时，你将学会如何在武器、护甲或盾牌上镌刻两个你选择的符文（参见\"{@filter 符文选项|optionalfeatures|特性 类型=RN|source=UAFighterRangerRogue}\"）。",
+				"每当你完成一次长休时，你可以接触等同于已知符文数量的物件，并在每个物件上刻印不同的符文。符合条件的物件必须是一件武器、一套盔甲或一面护盾。",
+				"你的符文会留在一个物件上直到你完成一次长休，且一个物件只能承载你的一个符文。",
+				"每次你在此职业升级时，可以将一个已知符文替换为另一个不同的符文。"
+			]
+		},
+		{
+			"ENG_name": "Rune Options",
+			"name": "符文选项",
+			"source": "UAFighterRangerRogue",
+			"page": 1,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "符文骑士（UA）",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"这里是符文魔法特性的符文选项。它们都是魔法效应。如果一个符文需要豁免检定，你的符文魔法豁免DC等于8 + 你的熟练加值 + 你的智力调整值。",
+				{
+					"type": "options",
+					"count": 2,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "豪格（山丘符文）|UAFighterRangerRogue"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "火符文（火焰符文）|UAFighterRangerRogue"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "寒霜符文Ise (寒霜符文)|UAFighterRangerRogue"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "云符文（云雾符文）|UAFighterRangerRogue"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "酒杯（岩石符文）|UAFighterRangerRogue"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Uvar（风暴符文）|UAFighterRangerRogue"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Defensive Runes",
+			"name": "防御符文",
+			"source": "UAFighterRangerRogue",
+			"page": 1,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "符文骑士（UA）",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"{@i 7级符文骑士特性}",
+				"你学会调用符文魔法来保护盟友。当你60尺内能看见的另一个生物被攻击检定命中时，你可以使用反应为该生物对抗该攻击的AC提供加值。加值等于1+你的智力调整值（最低为+2）。",
+				"此外，你可以从符文魔法特性中选择学习一个新的符文（总计三个）。"
+			]
+		},
+		{
+			"ENG_name": "Great Stature",
+			"name": "奇伟身躯",
+			"source": "UAFighterRangerRogue",
+			"page": 1,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "符文骑士（UA）",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"{@i 10级符文骑士特性}",
+				"你符文的魔法永久改变了你。当你获得此特性时，掷{@dice 3d4}。你的身高增加等同于掷骰结果的英寸数。此外，你用巨人力量特性造成的额外伤害提升至{@dice 1d8}。",
+				"此外，你可以从你的符文魔法特性中学习一个自选的新符文（总计四个）。"
+			]
+		},
+		{
+			"ENG_name": "Rune Magic Mastery",
+			"name": "符文魔法精通",
+			"source": "UAFighterRangerRogue",
+			"page": 1,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "符文骑士（UA）",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"{@i 15级符文骑士特性}",
+				"你可以从符文魔法特性中调用每个已知符文两次，而非一次，且你在完成短休或长休时恢复所有已消耗的使用次数。",
+				"此外，你从符文魔法特性中学习一个自选的新符文（总计五个）。"
+			]
+		},
+		{
+			"ENG_name": "Blessing of the All Father",
+			"name": "众父神的祝福",
+			"source": "UAFighterRangerRogue",
+			"page": 1,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "符文骑士（UA）",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"{@i 18级符文骑士特性}",
+				"你学会了如何与你的盟友分享符文魔法。当你使用巨人力量特性时，你可以选择60尺内一个你能看见且愿意的生物。该选民也会获得你巨人力量特性的增益。"
+			]
+		},
+		{
+			"ENG_name": "Swarmkeeper",
+			"name": "集群守卫",
+			"source": "UAFighterRangerRogue",
+			"page": 3,
+			"className": "游侠",
+			"classSource": "PHB",
+			"subclassShortName": "集群守卫（UA）",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 3,
+			"entries": [
+				"感受到与周围世界的深层联系，一些游侠通过他们与自然的魔法联系，召集了一群妖精精魂，这些精魂以集群野兽的形态出现\u2014\u2014无论是嗡嗡作响的昆虫、飞舞的群鸟、滑溜的鱿鱼，还是其他形态。集群在战斗中成为一种强大的力量，同时也是游侠乐于助人\u2014\u2014尽管可能令人不安\u2014\u2014的伙伴。一些集群守卫是边缘弃儿或隐士，宁愿独处并与他们的随行集群为伴，也不愿面对他人的不适。其他集群守卫则喜欢建立充满活力的社区，为所有他们认为属于其集群一部分的人谋求共同利益。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "集群守卫魔法|游侠||集群守卫（UA）|UAFighterRangerRogue|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "蜂聚集群|游侠||集群守卫（UA）|UAFighterRangerRogue|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Gathered Swarm",
+			"name": "蜂聚集群",
+			"source": "UAFighterRangerRogue",
+			"page": 3,
+			"className": "游侠",
+			"classSource": "PHB",
+			"subclassShortName": "集群守卫（UA）",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3级集群牧者特性}",
+				"你魔法般地吸引了一群看起来像你选择的微型野兽的妖精精魂集群。该集群停留在你的空间内，匍匐在你身上或穿过你的衣物，或飞行且在你空间内立即围绕你疾跑。",
+				"作为附赠动作，你可以激怒蜂聚集群1分钟。在持续时间内，部分集群会附着在你的武器上或跟随你的攻击：在你的每个回合中，当你用武器攻击命中一个生物时，你可以对该生物造成额外的{@damage 1d6}力场伤害，且蜂聚集群会将目标生物向你或远离你的方向移动5尺（由你选择）。在11级时，额外伤害提升至{@dice 2d6}。",
+				"你可以使用此特性的次数等于你的感知调整值（至少一次），且当你完成一次长休时恢复所有已使用的次数。"
+			]
+		},
+		{
+			"ENG_name": "Swarmkeeper Magic",
+			"name": "集群守卫魔法",
+			"source": "UAFighterRangerRogue",
+			"page": 3,
+			"className": "游侠",
+			"classSource": "PHB",
+			"subclassShortName": "集群守卫（UA）",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3级集群牧者特性}",
+				"如果你尚未学会，你将习得戏法{@spell 法师之手}。当你施放它时，这只手会呈现为成群的自然之灵形态。当你在此职业中达到特定等级时，你还会习得一个额外的法术，如集群守卫法术表格所示。这些法术对你而言视为游侠法术，但不计入你所知的游侠法术数量上限。",
+				{
+					"type": "table",
+					"caption": "集群守卫法术",
+					"colLabels": [
+						"游侠等级",
+						"法术"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell 妖火}"
+						],
+						[
+							"5th",
+							"{@spell 蛛网术}"
+						],
+						[
+							"9th",
+							"{@spell 气化形体}"
+						],
+						[
+							"13th",
+							"{@spell 巨虫术}"
+						],
+						[
+							"17th",
+							"{@spell 疫病虫群}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Writhing Tide",
+			"name": "翻腾浪涌",
+			"source": "UAFighterRangerRogue",
+			"page": 3,
+			"className": "游侠",
+			"classSource": "PHB",
+			"subclassShortName": "集群守卫（UA）",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"{@i 7级集群牧者特性}",
+				"你可以将蜂聚集群的部分凝聚成一个集中的质量，将你抬起或推动。每当你激活蜂聚集群特性时，选择以下一项额外增益：",
+				{
+					"type": "list",
+					"items": [
+						"你的步行速度增加10尺，且你可以将{@action 撤离}动作作为附赠动作使用。",
+						"你获得等于你步行速度的攀爬速度。你可以攀爬困难表面，包括倒挂在天花板上，而无需进行属性检定。",
+						"你获得10尺的飞行速度且可以悬浮。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Gathered Swarm Improvement",
+			"name": "蜂聚集群强化",
+			"source": "UAFighterRangerRogue",
+			"page": 3,
+			"className": "游侠",
+			"classSource": "PHB",
+			"subclassShortName": "集群守卫（UA）",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"{@i 11级集群牧者特性}",
+				"来自你集群的额外伤害增加到{@dice 2d6}。"
+			]
+		},
+		{
+			"ENG_name": "Scuttling Eyes",
+			"name": "爬行之眼",
+			"source": "UAFighterRangerRogue",
+			"page": 3,
+			"className": "游侠",
+			"classSource": "PHB",
+			"subclassShortName": "集群守卫（UA）",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"{@i 11级集群牧者特性}",
+				"以一个动作，你可以魔法地将你的集群中的一个精魄变形为你选择的微型野兽形态。该变形持续1小时，届时精魄会消失。在持续时间内，精魄拥有40尺的速度，可用于行走、攀爬、飞行或游泳。精魄拥有你的感官，并通过心灵感应将它所见所闻传递给你。在你的回合中，你可以通过精魄说话，心灵感应命令它移动，并且它可以{@action 躲藏}使用你的敏捷（{@skill 隐匿}）检定加值。精魄的AC为18。如果它受到伤害，你必须成功通过一个感知豁免检定（DC等于10或所受伤害的一半，取较高者），否则精魄会消失。",
+				"作为一个动作，你可以提前解散精魄。如果这样做，你可以魔法传送到精魄消失处5尺内的一个未占据空间。",
+				"一旦你使用了此特性，在完成一次长休前不能再次使用。你也可以通过消耗一个3环或更高的法术位来再次使用它。"
+			]
+		},
+		{
+			"ENG_name": "Storm of Minions",
+			"name": "暴风仆从",
+			"source": "UAFighterRangerRogue",
+			"page": 3,
+			"className": "游侠",
+			"classSource": "PHB",
+			"subclassShortName": "集群守卫（UA）",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"{@i 15级集群牧者特性}",
+				"你的集群可以释放出一股沸腾的精魂风暴，从他人身上汲取生命。以一个动作，你在你能看到的120尺内的一点创造一个充满愤怒集群的魔法球状区域。该球状区域半径为10尺且持续1分钟。该区域对其他生物来说是{@quickref 困难地形||3}。其他生物若在其回合开始时处于该区域内，则必须进行一次对抗你法术豁免DC的体质豁免检定。若豁免失败，该生物受到{@damage 2d8}暗蚀伤害并陷入{@condition 目盲}状态直到其下个回合开始。若豁免成功，它只受到一半伤害且不会陷入{@condition 目盲}状态。在你的回合开始时，若有任何小型或更大体型的生物因集群受到暗蚀伤害，你恢复{@dice 1d8}生命值。在后续回合中，你可以用一个附赠动作将该球状区域移动最多30尺。",
+				"当你激活此特性时，可以选择任意数量的可见生物不受其影响。",
+				"一旦你使用了此特性，在完成一次长休前无法再次使用。你也可以通过消耗一个4环或更高环位的法术位来再次使用它。"
+			]
+		},
+		{
+			"ENG_name": "The Revived",
+			"name": "复苏者",
+			"source": "UAFighterRangerRogue",
+			"page": 4,
+			"className": "游荡者",
+			"classSource": "PHB",
+			"subclassShortName": "复苏者 (UA)",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 3,
+			"entries": [
+				"你经历了一次灵魂震撼的领悟：你曾经死亡过，但不知何故你又活了过来。这一生并非你的第一世；甚至可能不是第二世。你对前世，或前几世的记忆模糊不清，但你确信自己曾穿越过死亡的大门。而死亡的力量，或某种其他影响力，尚未与你断绝。你可能说服了一位神祇让你重返物质位面，或许你与邪魔签订了契约，又或者你使用了令你复生的神器。无论何种力场将你带回，你现在都认清了一个关于自己的真相：你是亡者在生者之中的代表之一。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "过去生命的印记|游荡者||复苏者 (UA)|UAFighterRangerRogue|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "复苏本质|游荡者||复苏者 (UA)|UAFighterRangerRogue|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "坟墓弩箭|游荡者||复苏者 (UA)|UAFighterRangerRogue|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Bolts from the Grave",
+			"name": "坟墓弩箭",
+			"source": "UAFighterRangerRogue",
+			"page": 4,
+			"className": "游荡者",
+			"classSource": "PHB",
+			"subclassShortName": "复苏者 (UA)",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3级复生者特性}",
+				"你已学会从复生者体内释放暗蚀能量弩箭。在你使用灵巧动作后，若你本回合尚未使用偷袭，则可立即对30尺内的一个生物进行一次远程法术攻击。你擅长此攻击，且可将你的敏捷调整值添加到攻击和伤害掷骰上。被此攻击命中的生物将受到等同于你偷袭伤害的暗蚀伤害。此攻击将消耗你本回合的偷袭机会。"
+			]
+		},
+		{
+			"ENG_name": "Revived Nature",
+			"name": "复苏本质",
+			"source": "UAFighterRangerRogue",
+			"page": 4,
+			"className": "游荡者",
+			"classSource": "PHB",
+			"subclassShortName": "复苏者 (UA)",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3级复生者特性}",
+				"你对死亡的新联系赋予你以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你在对抗疾病和{@condition 中毒}的豁免骰上有优势，并且你对毒素伤害具有抗性。",
+						"你不需要吃、喝和呼吸。",
+						"你不需要睡眠。当你进行长休时，你必须至少花费四小时处于无法行动且静止的状态，而非沉睡。在此状态下，你保持半清醒状态，且听力如常。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Tokens of Past Lives",
+			"name": "过去生命的印记",
+			"source": "UAFighterRangerRogue",
+			"page": 4,
+			"className": "游荡者",
+			"classSource": "PHB",
+			"subclassShortName": "复苏者 (UA)",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3级复生者特性}",
+				"你记起了前世拥有的才能。当你完成一次长休时，你可以获得一个自选的技能或工具熟练项。你可以在完成长休时将此熟练项替换为另一个。"
+			]
+		},
+		{
+			"ENG_name": "Connect with the Dead",
+			"name": "与亡者沟通",
+			"source": "UAFighterRangerRogue",
+			"page": 4,
+			"className": "游荡者",
+			"classSource": "PHB",
+			"subclassShortName": "复苏者 (UA)",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"{@i 9级复生者特性}",
+				"你可以通过一具尸体与其精魄建立联系。当你这样做时，你将施放{@spell 死者交谈}法术，且无需使用法术位或材料成分。智力是你的该法术的施法属性。",
+				"以这种方式与死者交谈会暂时赋予你一项来自过往经历的能力\u2014\u2014你不确定这是来自你的过去还是精魄的过去。当法术结束时，你会从复苏能力表格中获得一个随机增益。该增益持续到你完成一次短休或长休为止。",
+				{
+					"type": "table",
+					"caption": "复苏能力",
+					"colLabels": [
+						"d3",
+						"能力"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"你学会如何说、读且写一种你选择的语言。"
+						],
+						[
+							"2",
+							"你获得一个自选的技能或工具熟练。"
+						],
+						[
+							"3",
+							"你获得一项自选豁免检定的熟练。"
+						]
+					]
+				},
+				"当你施放这个特性的法术后，直到完成一次短休或长休前，你无法再次施放。"
+			]
+		},
+		{
+			"ENG_name": "Audience with Death",
+			"name": "接见室与死亡",
+			"source": "UAFighterRangerRogue",
+			"page": 4,
+			"className": "游荡者",
+			"classSource": "PHB",
+			"subclassShortName": "复苏者 (UA)",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"{@i 13级复生特性}",
+				"当濒临死亡之门扉时，你可以与死亡之力交谈。你在死亡豁免检定上具有优势，且每当你进行一次死亡豁免检定时，你的精魄可以向一个死亡实体提出一个可以用\"是\"、\"否\"或\"未知\"来回答的问题。该实体会如实回答，使用所有已逝者的了解。",
+				"此外，每当你生命值为0且被治疗或稳定时，你可以改变任何人物特征：特点、理想、牵挂或缺点。"
+			]
+		},
+		{
+			"ENG_name": "Ethereal Jaunt",
+			"name": "以太漫游",
+			"source": "UAFighterRangerRogue",
+			"page": 4,
+			"className": "游荡者",
+			"classSource": "PHB",
+			"subclassShortName": "复苏者 (UA)",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"{@i 17级复生者特性}",
+				"如同幽魂一般，你拥有进出以太位面的能力。你现在可以使用你的灵巧动作传送到30尺内一个未占据空间。你不需要看到该空间即可传送，但若你试图穿过中等或更大的魔法力场（例如力场墙）进行传送，你的传送会失败并浪费你的附赠动作。如果你出现在被另一个生物占据或被物件填满的空间中，你会立即被推挤到最近的可用未占据空间，并受到相当于被推挤距离（以尺为单位）两倍的力场伤害。"
+			]
+		}
+	],
+	"optionalfeature": [
+		{
+			"ENG_name": "Haug (Hill Rune)",
+			"name": "豪格（山丘符文）",
+			"source": "UAFighterRangerRogue",
+			"page": 1,
+			"featureType": [
+				"RN"
+			],
+			"entries": [
+				"此符文的魔法赋予了一种让人联想到山丘巨人的恢复力。当你穿戴或携带一个刻有此符文的物件时，你在对抗{@condition 中毒}状态的豁免检定上具有优势，且你对毒素伤害具有抗性。",
+				"此外，你可以以一个附赠动作激活符文，获得对钝击、穿刺且挥砍伤害的抗性，持续1分钟。一旦你激活了符文，在完成一次短休或长休前无法再次激活。"
+			]
+		},
+		{
+			"ENG_name": "Ild (Fire Rune)",
+			"name": "火符文（火焰符文）",
+			"source": "UAFighterRangerRogue",
+			"page": 1,
+			"featureType": [
+				"RN"
+			],
+			"entries": [
+				"此符文的魔法引导了火巨人铁匠的精湛工艺。当你穿戴或携带一个刻有此符文的物件时，你在使用工具熟练进行的任何属性检定中，熟练加值翻倍。",
+				"此外，当你用武器攻击命中一个生物时，你可以激活符文召唤炽热镣铐：目标必须通过一次力量豁免检定否则将被{@condition 束缚}1分钟。在被镣铐{@condition 束缚}期间，目标在其每回合开始时受到{@damage 2d6}火焰伤害。目标可以在其每回合结束时重复豁免检定，成功则驱散镣铐。一旦你激活了符文，直到你完成一次短休或长休前都不能再次激活。"
+			]
+		},
+		{
+			"ENG_name": "Ise (Frost Rune)",
+			"name": "寒霜符文Ise (寒霜符文)",
+			"source": "UAFighterRangerRogue",
+			"page": 1,
+			"featureType": [
+				"RN"
+			],
+			"entries": [
+				"此符文的魔法唤起了霜巨人那坚忍的无风。当你穿戴或携带一个刻有此符文的物件时，你在感知（{@skill 驯兽}）检定和魅力（{@skill 威吓}）检定上具有优势。",
+				"此外，你可以用一个附赠动作激活符文，使你的力量值提升2点，持续10分钟。这个提升可以让你的属性值超过20，但不能超过30。一旦你激活了符文，你必须完成一次短休或长休才能再次激活。"
+			]
+		},
+		{
+			"ENG_name": "Skye (Cloud Rune)",
+			"name": "云符文（云雾符文）",
+			"source": "UAFighterRangerRogue",
+			"page": 2,
+			"featureType": [
+				"RN"
+			],
+			"entries": [
+				"此符文的魔法模仿了云巨人的欺骗性。当你穿戴或携带刻有此符文的物件时，你在敏捷（{@skill 巧手}）检定和魅力（{@skill 欺瞒}）检定上具有优势。",
+				"此外，当你或一个你能看见的30尺内的生物被攻击检定命中时，你可以使用你的反应来激活符文并使该攻击转而以30尺内另一个生物（攻击手除外）为目标，使用相同的掷骰结果。此魔法可以转移攻击而不论其范围如何。一旦你激活了符文，直到你完成一次短休或长休前都不能再次使用。"
+			]
+		},
+		{
+			"ENG_name": "Stein (Stone Rune)",
+			"name": "酒杯（岩石符文）",
+			"source": "UAFighterRangerRogue",
+			"page": 2,
+			"featureType": [
+				"RN"
+			],
+			"senses": [
+				{
+					"darkvision": 60
+				}
+			],
+			"entries": [
+				"此符文的魔法引导了石巨人的洞察力。当你穿戴或携带刻有此符文的物件时，你在感知（{@skill 洞悉}）检定上具有优势，并且你拥有{@sense 黑暗视觉}，范围为60尺。若你已有{@sense 黑暗视觉}，其范围增加30尺。",
+				"此外，当一个你能看见的生物在其回合结束时位于你30尺内，你可以使用你的反应来激活符文并迫使该生物进行一次感知豁免检定。除非豁免成功，否则该生物将被你{@condition 魅惑}1分钟。当以这种方式被{@condition 魅惑}时，该生物的速度为0且处于{@condition 失能}状态，陷入梦幻般的恍惚。此效应在被{@condition 魅惑}的生物受到任何伤害或其他人使用动作将其从污霭中摇醒时结束。一旦你激活了符文，直到你完成一次短休或长休前都无法再次激活。"
+			]
+		},
+		{
+			"ENG_name": "Uvar (Storm Rune)",
+			"name": "Uvar（风暴符文）",
+			"source": "UAFighterRangerRogue",
+			"page": 2,
+			"featureType": [
+				"RN"
+			],
+			"entries": [
+				"使用此符文，你可以像风暴巨人一样窥见未来。当你穿戴或携带刻有此符文的物件时，你在智力（{@skill 奥秘}）检定上具有优势，且只要你未处于{@condition 失能}状态，你就不会受到{@quickref 突袭|PHB|3|0|突袭}。",
+				"此外，你可以用一个附赠动作激活符文，进入预言状态1分钟或直到你{@condition 失能}。在该状态结束前，当你或你能看见的60尺内的另一个生物进行攻击检定、豁免检定或属性检定时，你可以使用你的反应使该掷骰具有优势或劣势。一旦你激活了符文，直到你完成一次短休或长休前，你不能再这样做。"
+			]
+		}
+	]
+}

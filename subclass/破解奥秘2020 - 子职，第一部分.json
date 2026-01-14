@@ -1,0 +1,900 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UA2020SubclassesPt1",
+				"abbreviation": "UA20S1",
+				"full": "破解奥秘：2020 子职，第一部分",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2020/dnd/downloads/UA2020-Subclasses01.pdf",
+				"dateReleased": "2020-01-14"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1729637619,
+		"_dateLastModifiedHash": "b650d61c93"
+	},
+	"subclass": [
+		{
+			"ENG_name": "Oath of the Watchers (UA)",
+			"name": "守望者之誓 (UA)",
+			"shortName": "守望 (UA)",
+			"source": "UA2020SubclassesPt1",
+			"className": "圣武士",
+			"classSource": "PHB",
+			"page": 3,
+			"isReprinted": true,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"警报术",
+							"繁彩球"
+						],
+						"5": [
+							"卜筮术",
+							"月华之光"
+						],
+						"9": [
+							"法术反制",
+							"回避侦测"
+						],
+						"13": [
+							"净化灵光",
+							"放逐术"
+						],
+						"17": [
+							"定身怪物",
+							"圣居"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"守望之誓|圣武士||守望 (UA)|UA2020SubclassesPt1|3",
+				"哨卫灵光|圣武士||守望 (UA)|UA2020SubclassesPt1|7",
+				"警戒呵斥|圣武士||守望 (UA)|UA2020SubclassesPt1|15",
+				"尘世壁垒|圣武士||守望 (UA)|UA2020SubclassesPt1|20"
+			]
+		},
+		{
+			"ENG_name": "Path of the Beast (UA)",
+			"name": "野兽路途（UA）",
+			"shortName": "野兽（UA）",
+			"source": "UA2020SubclassesPt1",
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"page": 1,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"野兽道途|野蛮人||野兽（UA）|UA2020SubclassesPt1|3",
+				"兽性之魂|野蛮人||野兽（UA）|UA2020SubclassesPt1|6",
+				"感染之怒|野蛮人||野兽（UA）|UA2020SubclassesPt1|10",
+				"狩猎之唤|野蛮人||野兽（UA）|UA2020SubclassesPt1|14"
+			]
+		},
+		{
+			"ENG_name": "The Noble Genie (UA)",
+			"name": "贵族巨灵（UA）",
+			"shortName": "贵族巨灵 (UA)",
+			"source": "UA2020SubclassesPt1",
+			"className": "魔契师",
+			"classSource": "PHB",
+			"page": 4,
+			"isReprinted": true,
+			"additionalSpells": [
+				{
+					"expanded": {
+						"s1": [
+							"云雾术",
+							"睡眠术"
+						],
+						"s2": [
+							"变巨/缩小术",
+							"魅影之力"
+						],
+						"s3": [
+							"造粮术",
+							"防护能量"
+						],
+						"s4": [
+							"变形术",
+							"魅影杀手"
+						],
+						"s5": [
+							"毕格比之手",
+							"造物术"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"贵族巨灵|魔契师||贵族巨灵 (UA)|UA2020SubclassesPt1|1",
+				"元素生物抗性|魔契师||贵族巨灵 (UA)|UA2020SubclassesPt1|6",
+				"安全感祈愿术|魔契师||贵族巨灵 (UA)|UA2020SubclassesPt1|10",
+				"巨灵的娱乐|魔契师||贵族巨灵 (UA)|UA2020SubclassesPt1|10",
+				"收藏家的召唤|魔契师||贵族巨灵 (UA)|UA2020SubclassesPt1|14"
+			]
+		},
+		{
+			"ENG_name": "Way of Mercy (UA)",
+			"name": "命流宗（UA）",
+			"shortName": "命流（UA）",
+			"source": "UA2020SubclassesPt1",
+			"className": "武僧",
+			"classSource": "PHB",
+			"page": 2,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"命流宗|武僧||命流（UA）|UA2020SubclassesPt1|3",
+				"恶臭光环|武僧||命流（UA）|UA2020SubclassesPt1|6",
+				"治愈技法|武僧||命流（UA）|UA2020SubclassesPt1|11",
+				"命流之手|武僧||命流（UA）|UA2020SubclassesPt1|17"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"ENG_name": "Path of the Beast",
+			"name": "野兽道途",
+			"source": "UA2020SubclassesPt1",
+			"page": 1,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"subclassShortName": "野兽（UA）",
+			"subclassSource": "UA2020SubclassesPt1",
+			"level": 3,
+			"entries": [
+				"行走野兽道途的野蛮人从他们灵魂中燃烧的野兽火花中汲取狂暴。那野兽嚎叫着要释放，并在狂暴的阵痛中爆发。",
+				"那些踏上此道途的人可能被原始精魄所附身，或是变形者的后裔。你可以选择你野性力量的起源，或通过在野兽起源表格上掷骰来随机决定。",
+				{
+					"type": "table",
+					"caption": "野兽起源",
+					"colLabels": [
+						"d4",
+						"起源"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"你的双亲之一是狼人，且你继承了一些诅咒。"
+						],
+						[
+							"2",
+							"你是传说中德鲁伊的后裔，这一事实通过你能够部分变形的能力显现出来。"
+						],
+						[
+							"3",
+							"一只精类的精魂赐予你变换不同野兽形态的能力。"
+						],
+						[
+							"4",
+							"一只上古野兽的精魂住在你的体内，为你打开走上此道途的大门。"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "野兽之形|野蛮人||野兽（UA）|UA2020SubclassesPt1|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Form of the Beast",
+			"name": "野兽之形",
+			"source": "UA2020SubclassesPt1",
+			"page": 1,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"subclassShortName": "野兽（UA）",
+			"subclassSource": "UA2020SubclassesPt1",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3级野兽道途特性}",
+				"当你进入狂暴时，你可以变形，展现出内在的野兽之力。在你的狂暴结束前，你会显现出一种自然近战武器，每次狂暴时从以下选项中选择一种：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Bite",
+							"name": "啃咬",
+							"type": "item",
+							"entry": "你的嘴变形为野兽般的口鼻或巨大的颚咬（由你选择）。你的啃咬在命中时造成{@damage 1d8}穿刺伤害。在你的每个回合中，当你用啃咬对一个生物造成伤害时，你可以恢复等同于你体质调整值的生命值（至少1点生命值）。"
+						},
+						{
+							"ENG_name": "Claws",
+							"name": "爪击",
+							"type": "item",
+							"entry": "你的双手变形为爪击，命中时造成{@damage 1d6}挥砍伤害。当你在你的回合使用{@action 攻击}动作且用你的爪击进行攻击时，你可以作为同一动作的一部分使用你的爪击进行一次额外攻击。"
+						},
+						{
+							"ENG_name": "Tail",
+							"name": "尾击",
+							"type": "item",
+							"entry": "你长出一条鞭状的尖刺尾巴，命中时造成{@damage 1d12}穿刺伤害且具有触及属性。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Bestial Soul",
+			"name": "兽性之魂",
+			"source": "UA2020SubclassesPt1",
+			"page": 1,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"subclassShortName": "野兽（UA）",
+			"subclassSource": "UA2020SubclassesPt1",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6级野兽道途特性}",
+				"你体内的野性精魄法力增长，使你野兽形态的天生武器在克服对非魔法攻击和伤害的抗性及免疫时视为魔法武器。",
+				"你也可以呼唤野性精魄来协助你适应周边环境。当你完成一次短休或长休时，选择下列一项增益，该效果持续到你完成一次短休或长休为止：",
+				{
+					"type": "list",
+					"items": [
+						"你获得等于步行速度的游泳速度，并且能够在水中呼吸。",
+						"你获得等于步行速度的攀爬速度。你无需进行属性检定也可攀爬于困难表面，包括倒挂天花板。",
+						"每回合一次，你能在跳跃时进行一次力量（{@skill 运动}）检定，使你的跳跃距离延长等于检定结果的尺数。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Infectious Fury",
+			"name": "感染之怒",
+			"source": "UA2020SubclassesPt1",
+			"page": 1,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"subclassShortName": "野兽（UA）",
+			"subclassSource": "UA2020SubclassesPt1",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"{@i 10级野兽道途特性}",
+				"当你狂暴时用天生武器命中一个生物，你体内的精魄可以用狂热狂怒诅咒你的目标。目标必须成功通过一个感知豁免检定（DC等于8 + 你的体质调整值 + 你的熟练加值）否则遭受以下效应之一（由你选择）：",
+				{
+					"type": "list",
+					"items": [
+						"目标用反应对一个由你选择且你能看见的生物发动一次近战攻击。",
+						"目标受到{@damage 2d12}心灵伤害。"
+					]
+				},
+				"你能使用此特性的次数等同于你的体质调整值（至少1次）。在你完成一次长休后，你重获全部已消耗的使用次数。"
+			]
+		},
+		{
+			"ENG_name": "Call the Hunt",
+			"name": "狩猎之唤",
+			"source": "UA2020SubclassesPt1",
+			"page": 1,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"subclassShortName": "野兽（UA）",
+			"subclassSource": "UA2020SubclassesPt1",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"{@i 14级野兽道途特性}",
+				"狂野兽心变得如此强大以至于你可以将狂怒传播给你的盟友。当你进入狂暴时，你可以选择30尺内你能看见的愿意生物，数量等于你的体质调整值（至少一个生物）。直到你的狂暴结束，选民生物获得鲁莽{@action 攻击}特性且你在对抗{@condition 恐慌}状态的豁免检定上具有优势。你还为每个接受增益的生物获得5点临时生命值。你可以使用此特性的次数等于你的体质调整值（至少一次）。完成一次长休后你恢复所有已消耗的使用次数。"
+			]
+		},
+		{
+			"ENG_name": "Way of Mercy",
+			"name": "命流宗",
+			"source": "UA2020SubclassesPt1",
+			"page": 2,
+			"className": "武僧",
+			"classSource": "PHB",
+			"subclassShortName": "命流（UA）",
+			"subclassSource": "UA2020SubclassesPt1",
+			"level": 3,
+			"entries": [
+				"命流宗武僧学习操纵他人的生命力量，为需要帮助的人带来援助。他们是穷困和受伤者的游方医师。然而，对于那些超出他们协助范围的人\u2014\u2014无论是病痛还是邪恶\u2014\u2014他们会以命流之名带来迅捷的终结。",
+				"那些追随命流宗的人可能是教团中谦卑的成员，服务于那些最需要帮助的人，做出基于现实而非理想主义的噩兆选择。有些人可能是声音温柔的治愈者，深受社区爱戴，而其他人可能是被遮盖的带来阴森慈悲的人。这条道路的行者通常装着简易的长袍，带有深地兜帽，且他们经常用面具遮盖自己的脸，将自己呈现为无面者的生死使者。如果你戴着一个面具，选择它的外貌，或通过掷命流面具表格随机决定。",
+				{
+					"type": "table",
+					"caption": "命流面具",
+					"colLabels": [
+						"d6",
+						"面具样式"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"渡鸦"
+						],
+						[
+							"2",
+							"黑白"
+						],
+						[
+							"3",
+							"哭脸"
+						],
+						[
+							"4",
+							"笑脸"
+						],
+						[
+							"5",
+							"骷髅"
+						],
+						[
+							"6",
+							"蝴蝶"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "操命本事|武僧||命流（UA）|UA2020SubclassesPt1|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "治愈之手|武僧||命流（UA）|UA2020SubclassesPt1|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "重伤之手|武僧||命流（UA）|UA2020SubclassesPt1|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Hands of Harm",
+			"name": "重伤之手",
+			"source": "UA2020SubclassesPt1",
+			"page": 2,
+			"className": "武僧",
+			"classSource": "PHB",
+			"subclassShortName": "命流（UA）",
+			"subclassSource": "UA2020SubclassesPt1",
+			"level": 3,
+			"header": 1,
+			"consumes": {
+				"ENG_name": "Ki",
+				"name": "Ki"
+			},
+			"entries": [
+				"{@i 3级命流宗特性}",
+				"你使用气来施展致伤术。当你用徒手打击命中一个生物时，你可以消耗1点气来造成等同于一次武艺骰掷骰的额外暗蚀伤害。如果该生物处于{@condition 失能}或{@condition 中毒}状态，则该生物改为受到等同于三次武艺骰掷骰的暗蚀伤害。你每回合只能使用此特性一次。"
+			]
+		},
+		{
+			"ENG_name": "Hands of Healing",
+			"name": "治愈之手",
+			"source": "UA2020SubclassesPt1",
+			"page": 2,
+			"className": "武僧",
+			"classSource": "PHB",
+			"subclassShortName": "命流（UA）",
+			"subclassSource": "UA2020SubclassesPt1",
+			"level": 3,
+			"header": 1,
+			"consumes": {
+				"ENG_name": "Ki",
+				"name": "Ki"
+			},
+			"entries": [
+				"{@i 3级命流宗特性}",
+				"你的玄秘之触能够愈合伤口。以一个动作，你能消耗1点气来接触一个生物，恢复目标 一枚你的武艺骰+感知调整值 点的生命值。",
+				"当你使用疾风连击时，可以替换其中一次徒手打击来使用此特性而无需花费其气。"
+			]
+		},
+		{
+			"ENG_name": "Implements of Mercy",
+			"name": "操命本事",
+			"source": "UA2020SubclassesPt1",
+			"page": 2,
+			"className": "武僧",
+			"classSource": "PHB",
+			"subclassShortName": "命流（UA）",
+			"subclassSource": "UA2020SubclassesPt1",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3级命流宗特性}",
+				"你获得{@skill 洞悉}或{@skill 医药}技能的熟练（自选其一），且你获得{@item 草药工具|PHB}和{@item 毒药工具|PHB}的熟练。"
+			]
+		},
+		{
+			"ENG_name": "Noxious Aura",
+			"name": "恶臭光环",
+			"source": "UA2020SubclassesPt1",
+			"page": 2,
+			"className": "武僧",
+			"classSource": "PHB",
+			"subclassShortName": "命流（UA）",
+			"subclassSource": "UA2020SubclassesPt1",
+			"level": 6,
+			"header": 2,
+			"consumes": {
+				"ENG_name": "Ki",
+				"name": "Ki"
+			},
+			"entries": [
+				"{@i 6级命流宗特性}",
+				"作为附赠动作，你消耗1点气来将你的气转化为有毒瘴气的光环。该光环从你向各个方向延伸5尺，但不穿过全身掩护。它持续1分钟，直到你处于{@condition 失能}状态，或者你解消它（无需动作）。",
+				"当你的光环处于激活状态时，远程攻击对你具有劣势。任何其他在光环内开始其回合的生物必须成功通过一次体质豁免检定，否则将陷入{@condition 中毒}状态直到你的下个回合结束，并且受到等同于你感知调整值的毒素伤害（最低为0伤害）。"
+			]
+		},
+		{
+			"ENG_name": "Healing Technique",
+			"name": "治愈技法",
+			"source": "UA2020SubclassesPt1",
+			"page": 2,
+			"className": "武僧",
+			"classSource": "PHB",
+			"subclassShortName": "命流（UA）",
+			"subclassSource": "UA2020SubclassesPt1",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"{@i 11级命流宗特性}",
+				"你操控气来治愈的技能提升了。当你使用治愈之手为生物回复生命时，你还可以结束目标身上以下列表中的一种疾病或状态：{@condition 目盲}、{@condition 耳聋}、{@condition 麻痹}或{@condition 中毒}。"
+			]
+		},
+		{
+			"ENG_name": "Hand of Mercy",
+			"name": "命流之手",
+			"source": "UA2020SubclassesPt1",
+			"page": 2,
+			"className": "武僧",
+			"classSource": "PHB",
+			"subclassShortName": "命流（UA）",
+			"subclassSource": "UA2020SubclassesPt1",
+			"level": 17,
+			"header": 2,
+			"consumes": {
+				"ENG_name": "Ki",
+				"name": "Ki",
+				"amount": 4
+			},
+			"entries": [
+				"{@i 17级命流宗特性}",
+				"你对生命能量的精通开启了通往终极回春技巧的门扉。以一个动作，你可以接触一个生物，消耗4气点，并迫使该生物进行一次体质豁免检定（该生物可以自愿豁免失败）。除非豁免成功，否则该生物进入假死状态，持续天数等于你的武僧等级或直到你提前结束效应（无需动作）。在此期间，该生物处于{@condition 麻痹}状态，对所有伤害免疫，且影响它的任何诅咒、疾病或毒素都被暂停。该生物对所有外部检查和用于确定其状态的法术都显示为死亡。",
+				"你一次只能让一个生物处于此特性的效应下。"
+			]
+		},
+		{
+			"ENG_name": "Oath of the Watchers",
+			"name": "守望之誓",
+			"source": "UA2020SubclassesPt1",
+			"page": 3,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"subclassShortName": "守望 (UA)",
+			"subclassSource": "UA2020SubclassesPt1",
+			"level": 3,
+			"entries": [
+				"立下守望之誓的圣武士们致力于保护凡界免受异界生物的侵扰，其中许多生物能轻易摧毁凡人士兵。因此，守望者们磨练自己的心智、精魂与躯体，使之成为对抗此类威胁的终极武器。",
+				"遵循着守望之誓的圣武士们总是警戒着异界力量的影响，他们时常会通过建立间谍和线人的情报网络来收集可疑邪教的信息。对于一个守望者来说，对周围环境保持一种积极态度的怀疑和警戒就像在战斗中穿着盔甲一样自然。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "守望之信条|圣武士||守望 (UA)|UA2020SubclassesPt1|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "圣誓法术|圣武士||守望 (UA)|UA2020SubclassesPt1|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "引导神力|圣武士||守望 (UA)|UA2020SubclassesPt1|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Channel Divinity",
+			"name": "引导神力",
+			"source": "UA2020SubclassesPt1",
+			"page": 3,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"subclassShortName": "守望 (UA)",
+			"subclassSource": "UA2020SubclassesPt1",
+			"level": 3,
+			"header": 1,
+			"consumes": {
+				"ENG_name": "Channel Divinity",
+				"name": "引导神力"
+			},
+			"entries": [
+				"{@i 3级守望之誓特性}",
+				"你获得以下这些引导神力选项。有关引导神力的规则请查阅圣武士 神圣誓言Sacred Oath 特性中记载的文本。",
+				{
+					"ENG_name": "Watcher's Will",
+					"name": "守望之志",
+					"type": "entries",
+					"entries": [
+						"你可以使用引导神力来为你的存在注入信仰的守卫法力。作为一个动作，你可以选择你30尺内能看见的生物，数量至多等同于你的魅力调整值（至少一个生物）。在1分钟内，所有选民生物在智力、感知和魅力的豁免检定上具有优势。"
+					]
+				},
+				{
+					"ENG_name": "Abjure the Extraplanar",
+					"name": "驱散异域",
+					"type": "entries",
+					"entries": [
+						"你可以使用引导神力来惩奸除恶异域生物。作为一个动作，你展示你的圣徽且每个30尺内能听到你的元素生物、妖精、邪魔或异怪必须进行一次感知豁免检定。若豁免失败，该生物将被转变1分钟或直到它受到伤害。",
+						"被转变的生物必须在其回合内尽可能远离你，且不能自愿移动到距离你30尺以内的空间。作为其动作，它只能使用{@action 疾走}动作或尝试逃离阻止其移动的效应。如果无处可移动，该生物可以使用{@action 回避}动作。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Oath Spells",
+			"name": "圣誓法术",
+			"source": "UA2020SubclassesPt1",
+			"page": 3,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"subclassShortName": "守望 (UA)",
+			"subclassSource": "UA2020SubclassesPt1",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3级守望之誓特性}",
+				"当你的圣武士达到特定等级时，你将获得以下的圣誓法术，如守望之誓法术表所示。有关圣誓法术的规则请查阅圣武士 神圣誓言Sacred Oath 特性中记载的文本。",
+				{
+					"type": "table",
+					"caption": "守望者誓言法术",
+					"colLabels": [
+						"圣武士等级",
+						"法术"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell 警报术}, {@spell 繁彩球}"
+						],
+						[
+							"5th",
+							"{@spell 卜筮术}, {@spell 月华之光}"
+						],
+						[
+							"9th",
+							"{@spell 法术反制}, {@spell 回避侦测}"
+						],
+						[
+							"13th",
+							"{@spell 净化灵光}, {@spell 放逐术}"
+						],
+						[
+							"17th",
+							"{@spell 定身怪物}, {@spell 圣居}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Tenets of the Watchers",
+			"name": "守望之信条",
+			"source": "UA2020SubclassesPt1",
+			"page": 3,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"subclassShortName": "守望 (UA)",
+			"subclassSource": "UA2020SubclassesPt1",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"一位立下守望者誓言的圣武士发誓要佑护凡界免受异界威胁。",
+				{
+					"ENG_name": "Vigilance",
+					"name": "警惕",
+					"type": "entries",
+					"entries": [
+						"你所面临的威胁狡猾、强大而又超乎常理。时刻警惕他们的腐化。"
+					]
+				},
+				{
+					"ENG_name": "Loyalty",
+					"name": "忠诚",
+					"type": "entries",
+					"entries": [
+						"永远不要接受来自邪魔或其同伙的礼物或恩惠。忠于你的使命，忠于你的同伴，忠于你的职责。"
+					]
+				},
+				{
+					"ENG_name": "Discipline",
+					"name": "纪律",
+					"type": "entries",
+					"entries": [
+						"你是抵御星辰之外无尽恐怖的盾牌。你的剑刃必须永远锋利，你的头脑必须永远清晰。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Aura of the Sentinel",
+			"name": "哨卫灵光",
+			"source": "UA2020SubclassesPt1",
+			"page": 3,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"subclassShortName": "守望 (UA)",
+			"subclassSource": "UA2020SubclassesPt1",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"{@i 7级合和18级守誓者之誓特性}",
+				"当你未处于{@condition 失能}状态时，你会散发警觉灵光。当你和你10尺内任意一个你选择的生物进行先攻检定时，你们各自在先攻上获得等同于你魅力调整值的加值（至少为+1）。18级时，此灵光的范围增加至30尺。"
+			]
+		},
+		{
+			"ENG_name": "Vigilant Rebuke",
+			"name": "警戒呵斥",
+			"source": "UA2020SubclassesPt1",
+			"page": 3,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"subclassShortName": "守望 (UA)",
+			"subclassSource": "UA2020SubclassesPt1",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"{@i 15级守望之誓特性}",
+				"你学会了如何以魔法惩戒任何胆敢对你和你所守护的大区施放不受欢迎法术的人。每当你或你30尺内能看见的一个生物成功通过对抗一个法术的豁免检定时，你可以使用你的反应对施法者造成{@damage 2d8} + 你的魅力调整值力场伤害。"
+			]
+		},
+		{
+			"ENG_name": "Mortal Bulwark",
+			"name": "尘世壁垒",
+			"source": "UA2020SubclassesPt1",
+			"page": 3,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"subclassShortName": "守望 (UA)",
+			"subclassSource": "UA2020SubclassesPt1",
+			"level": 20,
+			"header": 2,
+			"entries": [
+				"{@i 20级守望之誓特性}",
+				"你显现出一丝神之法力来捍卫你的神圣誓言。以一个附赠动作，你获得以下增益，持续1分钟：",
+				{
+					"type": "list",
+					"items": [
+						"你获得120尺范围内的{@sense 真实视觉}。",
+						"你对元素生物、妖精、邪魔和异怪的攻击检定具有优势。",
+						"当你以攻击命中一个生物且对其造成伤害时，你可以同时强迫其进行一次魅力豁免检定。若豁免失败，若该生物当前不在其原生存在平面，则会被魔法放逐至该处。若豁免成功，该生物24小时内无法被此特性放逐。"
+					]
+				},
+				"一旦你使用这个附赠动作，在完成一次长休前无法再次使用。"
+			]
+		},
+		{
+			"ENG_name": "The Noble Genie",
+			"name": "贵族巨灵",
+			"source": "UA2020SubclassesPt1",
+			"page": 4,
+			"className": "魔契师",
+			"classSource": "PHB",
+			"subclassShortName": "贵族巨灵 (UA)",
+			"subclassSource": "UA2020SubclassesPt1",
+			"level": 1,
+			"entries": [
+				"你与巨灵中最稀有的贵族巨灵订立了契约。这些实体是元素位面上庞大领地的统治者，对低级巨灵和元素生物有着巨大的影响力。贵族巨灵的动机各不相同，但都是傲慢的生物、知识和宝藏收藏家。巨灵珍视他们的收藏，并会保护他们声称拥有所有权的东西。通过与贵族的联系，你可以利用他们的影响力，并扩展他们在多元宇宙中对事物的所有权。",
+				{
+					"ENG_name": "Expanded Spell List",
+					"name": "扩展法术列表",
+					"type": "entries",
+					"entries": [
+						"{@i 1级贵族巨灵特性}",
+						"贵族巨灵让你在学习魔契师法术时可以从扩展法术列表中选择。以下法术将被添加到你的魔契师法术列表中。",
+						{
+							"type": "table",
+							"caption": "贵族巨灵扩展法术",
+							"colLabels": [
+								"法术环阶",
+								"法术"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1st",
+									"{@spell 云雾术}, {@spell 睡眠术}"
+								],
+								[
+									"2nd",
+									"{@spell 变巨/缩小术}, {@spell 魅影之力}"
+								],
+								[
+									"3rd",
+									"{@spell 造粮术}, {@spell 防护能量}"
+								],
+								[
+									"4th",
+									"{@spell 变形术}, {@spell 魅影杀手}"
+								],
+								[
+									"5th",
+									"{@spell 毕格比之手}, {@spell 造物术}"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "收藏家的器皿|魔契师||贵族巨灵 (UA)|UA2020SubclassesPt1|1"
+				}
+			]
+		},
+		{
+			"ENG_name": "Collector's Vessel",
+			"name": "收藏家的器皿",
+			"source": "UA2020SubclassesPt1",
+			"page": 4,
+			"className": "魔契师",
+			"classSource": "PHB",
+			"subclassShortName": "贵族巨灵 (UA)",
+			"subclassSource": "UA2020SubclassesPt1",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"{@i 1级贵族巨灵特性}",
+				"你的雇主给予你一个魔法器皿，你可以用它来将一个生物绑定到你和你雇主的动物园。该器皿是一个微型物件，并且它是你的法器。你可以决定这个物件是什么，或者你可以通过掷骰收藏家的器皿表格来随机决定它是什么。",
+				{
+					"type": "table",
+					"caption": "收藏家的器皿",
+					"colLabels": [
+						"d6",
+						"器皿"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"油灯"
+						],
+						[
+							"2",
+							"瓮"
+						],
+						[
+							"3",
+							"可装东西的戒指"
+						],
+						[
+							"4",
+							"被塞住的瓶子"
+						],
+						[
+							"5",
+							"空心小雕像"
+						],
+						[
+							"6",
+							"华丽提灯"
+						]
+					]
+				},
+				"如果你丢失了你的器皿，你可以进行一个1小时的典礼术来从你的雇主那里获得一个替代品。这个典礼术可以在短休或长休期间进行，且它会摧毁之前的器皿。当你死亡时，器皿会在元素生物法力的耀斑效应中消失。",
+				"当你持握该器皿时，你可以用一个动作指定一个你能看见且在100尺内愿意的生物为目标，并创造一条连接你与目标的朦胧元素材质纽带。该纽带持续1小时，直到你使用此特性创造另一条纽带、被连接的目标生命值降至0、或目标在其回合结束时距离你超过100尺。",
+				"当你与一个生物相连时，获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你在感知（{@skill 察觉}）检定上获得等同于魅力调整值的加值（至少为+1）。",
+						"当你可以施法时，你可以从你的空间或连接生物的空间释放法术。"
+					]
+				},
+				"你可以创造束缚的次数等同于你的魅力调整值（至少一次），且完成一次长休后恢复所有已消耗的使用次数。",
+				{
+					"ENG_name": "Collector's Vessel and Pact Boons",
+					"name": "收藏家的器皿与契约恩赐",
+					"type": "inset",
+					"entries": [
+						"当你与你的收藏家的器皿建立联系时，这种联系会呈现出反映你雇主类型巨灵形态的形式：气巨灵是旋转的雾和{@creature 气巨灵}的风势，土巨灵是沙子和{@creature 土巨灵}的岩或宝石碎片，火巨灵是烟和{@creature 火巨灵}的余烬，水巨灵则是泡沫状的{@creature 水巨灵}的水。",
+						"当你获得3级的魔契恩泽特性时，若你选择一个赋予你物理物件的恩惠，你的器皿会转化为该物件。例如，一个雇主是贵族火巨灵且选择书之魔契的魔契师可能会发现他们的瓶子转化为一个由红龙振翅制成的精美卷轴，带有黄铜和铁的滚动权杖。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Elemental Resistance",
+			"name": "元素生物抗性",
+			"source": "UA2020SubclassesPt1",
+			"page": 4,
+			"className": "魔契师",
+			"classSource": "PHB",
+			"subclassShortName": "贵族巨灵 (UA)",
+			"subclassSource": "UA2020SubclassesPt1",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6级贵族巨灵特性}",
+				"你的雇主为你提供元素守护。每当你完成一次长休时，你可以选择获得强酸、寒冷、火焰或闪电伤害的抗性，直到你下一次长休结束。",
+				"当你的收藏家的器皿的联结处于激活状态时，被联结的生物将获得你所选择的伤害类型的抗性。"
+			]
+		},
+		{
+			"ENG_name": "Genie's Entertainment",
+			"name": "巨灵的娱乐",
+			"source": "UA2020SubclassesPt1",
+			"page": 4,
+			"className": "魔契师",
+			"classSource": "PHB",
+			"subclassShortName": "贵族巨灵 (UA)",
+			"subclassSource": "UA2020SubclassesPt1",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"{@i 10级贵族巨灵特性}",
+				"以一个动作，你尝试将一个你能看见的90尺内的生物送往你雇主的庭院。目标必须成功通过一个对抗你魔契师法术豁免DC的魅力豁免检定，否则将被魔法吸入你的器皿并传送至元素位面中你雇主的庭院。在那里时，目标处于{@condition 震慑}状态且你的雇主会以娱乐的心态观察目标但不会对其造成伤害。目标可以在其每回合结束时重复豁免检定，成功时重新出现在它离开的空间或最近的未占据空间（若原空间已被占据）。",
+				"一旦你使用了此特性，在完成一次长休前无法再次使用。若目标在你的雇主庭院中停留1分钟，巨灵宗主会在其回合结束时将目标送回，如同其成功豁免一般，且你恢复此特性的使用次数。"
+			]
+		},
+		{
+			"ENG_name": "Protective Wish",
+			"name": "安全感祈愿术",
+			"source": "UA2020SubclassesPt1",
+			"page": 4,
+			"className": "魔契师",
+			"classSource": "PHB",
+			"subclassShortName": "贵族巨灵 (UA)",
+			"subclassSource": "UA2020SubclassesPt1",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"{@i 10级贵族巨灵特性}",
+				"你现在能够使用你的收藏家的器皿为自己或与你相连的生物祈愿守护。如果你或相连的生物被攻击命中，你可以使用你的反应进行传送术，与生物交换位置并切换你们中谁被该攻击命中。"
+			]
+		},
+		{
+			"ENG_name": "Collector's Call",
+			"name": "收藏家的召唤",
+			"source": "UA2020SubclassesPt1",
+			"page": 4,
+			"className": "魔契师",
+			"classSource": "PHB",
+			"subclassShortName": "贵族巨灵 (UA)",
+			"subclassSource": "UA2020SubclassesPt1",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"{@i 14级贵族巨灵特性}",
+				"作为扩展雇主对多元宇宙影响力的交换，你可以调用更多他们的法力。以一个动作，你可以通过进行一次对抗你魔契师法术豁免DC的魅力（{@skill 游说}）检定来恳求雇主援助。如果检定成功，你可以选择以下效应之一：",
+				{
+					"type": "list",
+					"items": [
+						"一个你能看见的60尺内的生物恢复{@dice 8d6}生命值且结束一个影响它的疾病或状态：{@condition 目盲}、{@condition 魅惑}、{@condition 耳聋}、{@condition 恐慌}、{@condition 麻痹}或{@condition 中毒}。",
+						"你能看见的60尺内的一个生物在攻击检定和豁免检定上具有劣势，直到你的下个回合开始。",
+						"你施放{@spell 通晓传奇}法术而无需材料成分。"
+					]
+				},
+				"无论检定成功与否，你在完成一次长休前都无法再次使用该特性。或者，你可以通过向你的雇主献祭价值至少500GP的非魔法宝藏来恢复该特性的使用。这个献祭需要宝藏在你10尺范围内至少1分钟，结束时你用一个动作将宝藏传送到你雇主的领域，前提是你手中持有收藏家的器皿。"
+			]
+		}
+	]
+}

@@ -1,0 +1,2927 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UA2022WondersOfTheMultiverse",
+				"abbreviation": "UA22WotM",
+				"full": "破解奥秘：2022多元宇宙奇观",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2022/dnd/downloads/UA2022-WondersoftheMultiverse.pdf",
+				"dateReleased": "2022-07-18"
+			}
+		],
+		"dependencies": {
+			"subclassFeature": [
+				"UAClassFeatureVariants"
+			]
+		},
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1729637619,
+		"_dateLastModifiedHash": "ecfccfaf9b"
+	},
+	"subclass": [
+		{
+			"ENG_name": "Fate Domain (UA)",
+			"name": "命运领域（UA）",
+			"shortName": "命运（UA）",
+			"source": "UA2022WondersOfTheMultiverse",
+			"className": "牧师",
+			"classSource": "PHB",
+			"page": 2,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"不谐低语",
+							"英雄气概"
+						],
+						"3": [
+							"识破隐形",
+							"守护之链"
+						],
+						"5": [
+							"希望信标",
+							"鹰眼术"
+						],
+						"7": [
+							"防死结界",
+							"预言术"
+						],
+						"9": [
+							"通神术",
+							"指使术"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"命运领域（UA）|牧师||命运（UA）|UA2022WondersOfTheMultiverse|1",
+				"引导神力：命运线缕|牧师||命运（UA）|UA2022WondersOfTheMultiverse|2",
+				"洞悉打击|牧师||命运（UA）|UA2022WondersOfTheMultiverse|6",
+				"强力施法|牧师||命运（UA）|UA2022WondersOfTheMultiverse|8",
+				"受祝击|牧师||命运（UA）|UA2022WondersOfTheMultiverse|8|UAClassFeatureVariants",
+				"未来幻象|牧师||命运（UA）|UA2022WondersOfTheMultiverse|17"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"ENG_name": "Fate Domain (UA)",
+			"name": "命运领域（UA）",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 2,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "命运（UA）",
+			"subclassSource": "UA2022WondersOfTheMultiverse",
+			"level": 1,
+			"entries": [
+				"命运之神能预见未来，以及凡人的选择如何驱使它们走向自己的命运。一些神祇认为未来是注定的，而另一些则将多元宇宙理解为一个充满无限可能的地点。从命运之力中汲取法力的牧师有时会直接从他们的神那里接收到幻象，并获得短暂的未来预兆。他们与盟友分享不可能的了解，并预言敌人的末日。",
+				{
+					"type": "table",
+					"caption": "命运领域神祇",
+					"colLabels": [
+						"神祇范例",
+						"神系"
+					],
+					"colStyles": [
+						"col-6",
+						"col-6"
+					],
+					"rows": [
+						[
+							"萨弗拉斯",
+							"被遗忘的国度"
+						],
+						[
+							"伊斯图丝",
+							"灰鹰"
+						],
+						[
+							"吉立安",
+							"龙枪"
+						],
+						[
+							"勒比拉斯·伊诺拉斯",
+							"精灵"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "领域法术|牧师||命运（UA）|UA2022WondersOfTheMultiverse|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "预兆和征兆|牧师||命运（UA）|UA2022WondersOfTheMultiverse|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "绑定数值相同|牧师||命运（UA）|UA2022WondersOfTheMultiverse|1"
+				}
+			]
+		},
+		{
+			"ENG_name": "Domain Spells",
+			"name": "领域法术",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 2,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "命运（UA）",
+			"subclassSource": "UA2022WondersOfTheMultiverse",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"{@i 1级命运领域特性}",
+				"你将在牧师等级达到命运领域法术表格中所列的等级时获得领域法术。有关领域法术如何运作，请参阅神圣领域职业特性。",
+				{
+					"type": "table",
+					"caption": "命运领域法术",
+					"colLabels": [
+						"牧师等级",
+						"领域法术"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell 不谐低语}, {@spell 英雄气概}"
+						],
+						[
+							"3rd",
+							"{@spell 识破隐形}, {@spell 守护之链}"
+						],
+						[
+							"5th",
+							"{@spell 希望信标}, {@spell 鹰眼术}"
+						],
+						[
+							"7th",
+							"{@spell 防死结界}, {@spell 预言术}"
+						],
+						[
+							"9th",
+							"{@spell 通神术}, {@spell 指使术}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Omens and Portents",
+			"name": "预兆和征兆",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 2,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "命运（UA）",
+			"subclassSource": "UA2022WondersOfTheMultiverse",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"{@i 1级命运领域特性}",
+				"你能在日常物件和事件中感知未来的征兆，例如鸟群的飞行或投掷岩石在水中激起的涟漪。你可以不消耗法术位施放{@spell 卜筮术}，且当你以此方式施放该法术时，该法术无需咒语、姿势或材料成分。一旦你以此方式施放该法术，直到完成一次长休前无法再次施放。",
+				"此外，直到你完成一次长休为止，当你施放一个包含DM可能不给予答复或随机阅读的预言法术时\u2014\u2014例如卜筮术、通神术或预言术\u2014\u2014将该几率降低25%。"
+			]
+		},
+		{
+			"ENG_name": "Ties That Bind",
+			"name": "绑定数值相同",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 2,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "命运（UA）",
+			"subclassSource": "UA2022WondersOfTheMultiverse",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"{@i 1级命运领域特性}",
+				"你可以暂时将自己的命运与他人相连。以一个动作，你可以接触一个物件或生物，并魔法性地将一条命运之线从你自己连接到它，持续1小时或直到你再次使用此特性。一个不愿意的生物必须成功通过对抗你法术豁免DC的感知豁免检定来抵抗此效应。当目标与你相连且与你处于同一存在位面时，你可以感知到目标位置的方向，并且如果目标在移动，你知道其移动的方向。",
+				"此外，每回合一次，当你使用法术位施法对目标造成伤害或回复生命时，掷一枚{@dice d6}，且目标分别受到等同于掷骰数值的额外伤害或治愈。",
+				"你可以使用此特性的动作次数等同于你的熟练加值，且完成一次长休后恢复所有已消耗的使用次数。"
+			]
+		},
+		{
+			"ENG_name": "Channel Divinity: Strands of Fate",
+			"name": "引导神力：命运线缕",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 2,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "命运（UA）",
+			"subclassSource": "UA2022WondersOfTheMultiverse",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"{@i 2级命运领域特性}",
+				"你可以使用引导神力来看见并操纵围绕其他个体的命运线缕。以一个附赠动作，你可以进入此状态持续最多1分钟或直到你失去{@status 专注}（如同你正在{@status 专注||专注于}一个法术）。在持续时间内，每当你看见的其他生物进行攻击检定或属性检定时，你可以用一个反应给予该掷骰优势或劣势（由你选择）。"
+			]
+		},
+		{
+			"ENG_name": "Insightful Striking",
+			"name": "洞悉打击",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 2,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "命运（UA）",
+			"subclassSource": "UA2022WondersOfTheMultiverse",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6级命运领域特性}",
+				"作为一个附赠动作，你可以选择你30尺内能看见的一个生物。你的魔法会短暂地让你看到目标的防御设施。直到你的下一个回合结束，你获得以下一项你选择的效应：",
+				{
+					"type": "list",
+					"items": [
+						"下次你对目标进行攻击检定时，掷一枚{@dice d6}并将掷出的数值添加到全部攻击中。",
+						"下一次目标必须对你施放的法术进行豁免检定时，目标必须掷一枚{@dice d6}且从豁免检定中减去掷出的数值。"
+					]
+				},
+				"你可以使用该附赠动作的次数等同于你的熟练加值，你在完成一次长休后恢复所有已消耗的使用次数。"
+			]
+		},
+		{
+			"ENG_name": "Potent Spellcasting",
+			"name": "强力施法",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 8,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "命运（UA）",
+			"subclassSource": "UA2022WondersOfTheMultiverse",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"{@i 8级命运领域特性}",
+				"你施展牧师戏法造成伤害时，可以再加上你的感知调整值。"
+			]
+		},
+		{
+			"ENG_name": "Visions of the Future",
+			"name": "未来幻象",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 2,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "命运（UA）",
+			"subclassSource": "UA2022WondersOfTheMultiverse",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"{@i 17级命运领域特性}",
+				"你对未来的了解使你能够引导一个个体实现他们最大的可能成功。你可以施放一次{@spell 预见术}而不消耗法术位；当你以这种方式施放该法术时，该法术的持续时间为1分钟。一旦你以这种方式施放了该法术，直到你完成一次长休前，你无法再次这样做。"
+			]
+		}
+	],
+	"background": [
+		{
+			"ENG_name": "Gate Warden",
+			"name": "门镇守卫",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 3,
+			"feats": [
+				{
+					"scion of the outer planes|ua2022wondersofthemultiverse": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"persuasion": true,
+					"survival": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 2
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"special": "一轮不知道什么锁对应的钥匙串"
+						},
+						{
+							"item": "书籍|PHB",
+							"displayName": "空白书"
+						},
+						"墨水(1盎司/瓶)|PHB",
+						"旅行服装|PHB",
+						{
+							"item": "小包|PHB",
+							"containsValue": 1000
+						}
+					]
+				},
+				{
+					"a": [
+						"墨水笔|PHB"
+					],
+					"b": [
+						{
+							"special": "羽毛笔"
+						}
+					]
+				}
+			],
+			"fromFeature": {
+				"feats": true
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Skill Proficiencies:",
+							"name": "技能熟练项：",
+							"type": "item",
+							"entry": "{@skill 游说}, {@skill 求生}"
+						},
+						{
+							"ENG_name": "Languages:",
+							"name": "语言",
+							"type": "item",
+							"entry": "任选其二（推荐{@language 深渊语}、{@language 天界语}或{@language 炼狱语}）"
+						},
+						{
+							"ENG_name": "Equipment:",
+							"name": "装备：",
+							"type": "item",
+							"entry": "一串未知锁的钥匙，一本空白的{@item 书籍|PHB}，一支{@item 墨水笔|PHB}或羽毛笔，一瓶{@item 墨水(1盎司/瓶)|PHB|一瓶黑色墨水}，一套{@item 旅行服装|PHB}，以及一个装有10GP的{@item 小包|PHB}"
+						}
+					]
+				},
+				{
+					"ENG_name": "Feature: Planar Infusion",
+					"name": "特性：位面注能",
+					"type": "entries",
+					"entries": [
+						"生活在诸位面能量充沛的地方，你获得{@feat 外层位面后裔|UA2022WondersOfTheMultiverse}专长。此外，你知道在你成长的团队中哪里可以找到自由、俭朴的住宿和进食。"
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"ENG_name": "Building a Gate Warden Character",
+					"name": "创建一个门镇守卫角色",
+					"type": "entries",
+					"entries": [
+						"那些长期居住在通往另一个位面的永久传送门附近的人会吸收从异界辐射出的精华。这会导致行为上的相似性，甚至在外貌上也会出现标记，表明某人受到了特定位面的影响。",
+						{
+							"ENG_name": "Suggested Characteristics",
+							"name": "建议人物特征",
+							"type": "entries",
+							"entries": [
+								"外层位面的影响塑造了你的观点。门镇守卫个性特点表格提供了你可能为你的角色采用的各种特质。",
+								{
+									"type": "table",
+									"caption": "门镇守卫个性特点",
+									"colLabels": [
+										"d6",
+										"特点"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											"1",
+											"奇怪的事件和异世界的生物不会让我感到不安。"
+										],
+										[
+											"2",
+											"我认为交换的原则是：有得必有失，无得则无失。"
+										],
+										[
+											"3",
+											"我以一种罕见的腔调说话。"
+										],
+										[
+											"4",
+											"我在口语中夹杂着从异界语言借来的词汇或诅咒。"
+										],
+										[
+											"5",
+											"我见过的世面足以让我明白不能以貌取人，所以我仔细审视每一个打交道的人。"
+										],
+										[
+											"6",
+											"我有一个迷信的习惯，比如紧张时会触摸铁或者将物件按特定顺序排列。"
+										]
+									]
+								}
+							]
+						},
+						{
+							"ENG_name": "Gate Warden Trinkets",
+							"name": "门镇守卫饰品",
+							"type": "entries",
+							"entries": [
+								"当你创建角色时，你可以掷骰一次门镇守卫饰品表，而不是玩家手册中的饰品表，来获取你的起始饰品。",
+								{
+									"type": "table",
+									"caption": "门镇守卫饰品",
+									"colLabels": [
+										"d6",
+										"饰品"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											"1",
+											"一个微型小瓶吊坠，里面装着一滴微微发光的蜂蜜"
+										],
+										[
+											"2",
+											"一块小型铅锭，上面压着一个奇怪的拇指印，紧握时会低语"
+										],
+										[
+											"3",
+											"两个磁石球，当它们互相吸引时会发出鸣声。"
+										],
+										[
+											"4",
+											"一块焖燃的煤块，虽然总是炎热，但不会燃烧皮肤"
+										],
+										[
+											"5",
+											"一根白羽毛，在5尺半径内散发微光光照"
+										],
+										[
+											"6",
+											"一枚由链环制成的戒指，一旦戴上，除非用力拉扯否则不会脱落"
+										]
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Giant Foundling",
+			"name": "巨人养子",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 4,
+			"feats": [
+				{
+					"strike of the giants|ua2022wondersofthemultiverse": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"intimidation": true,
+					"survival": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 2
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"special": "背包"
+						},
+						"旅行服装|PHB",
+						{
+							"item": "小包|PHB",
+							"containsValue": 1000
+						}
+					]
+				},
+				{
+					"a": [
+						{
+							"special": "小型岩石"
+						}
+					],
+					"b": [
+						{
+							"special": "一块可以令你回忆起家乡的小树枝"
+						}
+					]
+				}
+			],
+			"fromFeature": {
+				"feats": true
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Skill Proficiencies:",
+							"name": "技能熟练项：",
+							"type": "item",
+							"entry": "{@skill 威吓}, {@skill 求生}"
+						},
+						{
+							"ENG_name": "Languages:",
+							"name": "语言",
+							"type": "item",
+							"entry": "任选两项"
+						},
+						{
+							"ENG_name": "Equipment:",
+							"name": "装备：",
+							"type": "item",
+							"entry": "一个背包，一套{@item 旅行服装|PHB}，一块小型岩石或让你想起家的小树枝，以及一个装有10GP的{@item 小包|PHB}"
+						}
+					]
+				},
+				{
+					"ENG_name": "Origin Stories",
+					"name": "起源",
+					"type": "entries",
+					"entries": [
+						"由你决定你是如何来到这个充斥着庞大生物的地方并在此居住的，不过 养子起源Foundling Origin 表为你提供了一些可能性的建议。",
+						{
+							"type": "table",
+							"caption": "养子起源",
+							"colLabels": [
+								"d6",
+								"起源"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"你在还是婴儿的时候就被一群游牧巨人收养，他们将你当做他们的同族孩童抚养。"
+								],
+								[
+									"2",
+									"一个石巨人家庭在你坠入山地裂缝时救了你，且你从此一直与它们在地下生活。"
+								],
+								[
+									"3",
+									"你小时候在一片充满饿鸦号恐龙的丛林中迷失或被遗弃。在那里，你遇到了同样迷失的霜巨人且一起生存了下来。"
+								],
+								[
+									"4",
+									"在一场巨人族群与族群之间的战斗中，你的农场被摧毁了，你的家人们也被杀死了。出于对破坏行为的内疚，一名富有同情心的巨人战士向你承诺会照顾你。"
+								],
+								[
+									"5",
+									"在你孩童时期，你曾有过一系列的奇怪梦境。那之后，你那无比迷信的家长送你去跟一名强大但离群的风暴巨人圣贤一同学习。"
+								],
+								[
+									"6",
+									"当你和朋友们玩捉迷藏时，你误入了一位云巨人女族长的城堡，她立即收养了你。"
+								]
+							]
+						}
+					]
+				},
+				{
+					"ENG_name": "Feature: Strike of the Giants",
+					"name": "特性：巨人打击",
+					"type": "entries",
+					"entries": [
+						"你获得{@feat 巨人打击|UA2022WondersOfTheMultiverse}专长。"
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"ENG_name": "Building a Giant Foundling Character",
+					"name": "创建一个巨人养子角色",
+					"type": "entries",
+					"entries": [
+						"你非凡的体型且与巨型生物相处的体验给了你独特的视角。建议人物特征。巨人养子特点表格为你提供了多种可能适合角色的特质。",
+						{
+							"type": "table",
+							"caption": "巨人养子个性特点",
+							"colLabels": [
+								"d6",
+								"特点"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"我虽身材矮小，却以纯粹的恶意弥补。"
+								],
+								[
+									"2",
+									"有时候体型确实很重要，好吗？如果我看到一只比我大的野兽，我会立刻逃跑。"
+								],
+								[
+									"3",
+									"拥挤的空间让我感到不适。我宁愿待在一片开阔的田野里，也不愿待在熙熙攘攘的酒馆中。"
+								],
+								[
+									"4",
+									"我喜欢小型。这有助于我保持不被注意\u2014且被低估。"
+								],
+								[
+									"5",
+									"体型只是故事的一半。每场雪崩都始于一颗小石子。"
+								],
+								[
+									"6",
+									"这个世界总是让我觉得一切都很大，这让我害怕我找不到我的位置。"
+								]
+							]
+						}
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Planar Philosopher",
+			"name": "位面哲学家",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 3,
+			"feats": [
+				{
+					"scion of the outer planes|ua2022wondersofthemultiverse": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"arcana": true,
+					"persuasion": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 2
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						"普通服装|PHB",
+						{
+							"item": "小包|PHB",
+							"containsValue": 1000
+						}
+					]
+				}
+			],
+			"fromFeature": {
+				"feats": true
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Skill Proficiencies:",
+							"name": "技能熟练项：",
+							"type": "item",
+							"entry": "{@skill 奥秘}, {@skill 游说}"
+						},
+						{
+							"ENG_name": "Languages:",
+							"name": "语言",
+							"type": "item",
+							"entry": "任选两项"
+						},
+						{
+							"ENG_name": "Equipment:",
+							"name": "装备：",
+							"type": "item",
+							"entry": "一套{@item 普通服装|PHB}，且一个{@item 小包|PHB}内装有来自不同世界和位面的价值10GP的钱币"
+						}
+					]
+				},
+				{
+					"ENG_name": "Feature: Conviction",
+					"name": "特性：信念",
+					"type": "entries",
+					"entries": [
+						"你获得{@feat 外层位面后裔|UA2022WondersOfTheMultiverse}专长。此外，该组织的成员会在他们的据点或其他派系成员的家中为你提供免费、俭朴的住宿和进食。"
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"ENG_name": "Building a Planar Philosopher Character",
+					"name": "创建一个位面哲学家角色",
+					"type": "entries",
+					"entries": [
+						"一些位面哲学家的结伙可能对某些类型的角色有偏好或反对，但大体上任何支持并促进该结伙信仰的角色都会受到欢迎。",
+						{
+							"ENG_name": "Suggested Characteristics",
+							"name": "建议人物特征",
+							"type": "entries",
+							"entries": [
+								"致力于特定多元宇宙哲学的冒险者会受到接纳这些信仰的派系欢迎。位面哲学家个性特点表格提供了你可能为角色采用的各种特质，以及哪些派系会欢迎具有这些特质的冒险者。",
+								{
+									"type": "table",
+									"caption": "位面哲学家个性特点",
+									"colLabels": [
+										"d6",
+										"特点"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											"1",
+											"我不崇拜任何神；我们可以和它们一样强大或更强大。"
+										],
+										[
+											"2",
+											"体验就是一切，活在当下。"
+										],
+										[
+											"3",
+											"当事物崩溃时，我在灰烬中寻找含义。"
+										],
+										[
+											"4",
+											"生命通过秩序而繁荣；我不会容忍破坏。"
+										],
+										[
+											"5",
+											"当他人制定计划时，多元宇宙会笑话他们，当然，我也会笑话他们。"
+										],
+										[
+											"6",
+											"我知道什么是正确的，且没有人会随意挡我的路。"
+										]
+									]
+								}
+							]
+						},
+						{
+							"ENG_name": "Planar Philosopher Trinkets",
+							"name": "位面哲学家饰品",
+							"type": "entries",
+							"entries": [
+								"当你创建角色时，你可以掷骰一次位面哲学家饰品表，而不是玩家手册中的饰品表，来获取你的初始饰品。",
+								{
+									"type": "table",
+									"caption": "位面哲学家饰品",
+									"colLabels": [
+										"d6",
+										"饰品"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											"1",
+											"一个带有我导师照片的挂坠盒且有一段我无法阅读的铭文"
+										],
+										[
+											"2",
+											"一个漂白的老鼠骷髅头，眼窝里有彩色玻璃珠"
+										],
+										[
+											"3",
+											"一张撕破的羊皮纸，上面画着一半的谜题"
+										],
+										[
+											"4",
+											"一束扭曲的刃藤茎制成的手镯"
+										],
+										[
+											"5",
+											"一片覆满铜绿的青铜刀刃碎片"
+										],
+										[
+											"6",
+											"一块光滑的河流岩石，上面刻有微型的圣徽"
+										]
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Rune Carver",
+			"name": "符文雕刻者",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 5,
+			"feats": [
+				{
+					"rune carver apprentice|ua2022wondersofthemultiverse": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"history": true,
+					"perception": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"giant": true,
+					"anyStandard": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"herbalism kit": true
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"equipmentType": "工匠工具"
+						},
+						{
+							"special": "小刀"
+						},
+						"磨刀石|PHB",
+						"普通服装|PHB",
+						{
+							"item": "小包|PHB",
+							"containsValue": 1000
+						}
+					]
+				}
+			],
+			"fromFeature": {
+				"feats": true
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Skill Proficiencies:",
+							"name": "技能熟练项：",
+							"type": "item",
+							"entry": "{@skill 历史}, {@skill 察觉}"
+						},
+						{
+							"ENG_name": "Languages:",
+							"name": "语言",
+							"type": "item",
+							"entry": "巨人语与另一项你自选的语言"
+						},
+						{
+							"ENG_name": "Equipment:",
+							"name": "装备：",
+							"type": "item",
+							"entry": "一套{@filter 工匠工具|items|source=phb|miscellaneous=寻常|type=工匠工具} （任选其一），一把小刀，一块{@item 磨刀石|PHB}，一套普通{@item 普通服装|PHB}，以及一个包含10 gp的{@item 小包|PHB}"
+						}
+					]
+				},
+				{
+					"ENG_name": "Rune Styles",
+					"name": "符文风格",
+					"type": "entries",
+					"entries": [
+						"每个符文雕刻者都有独特的风格和偏好的符文创作媒介。要确定你如何制作符文，你可以在符文风格表格上掷骰。",
+						{
+							"type": "table",
+							"caption": "符文风格",
+							"colLabels": [
+								"d6",
+								"风格"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"你用一根优质金属针雕刻你的符文。"
+								],
+								[
+									"2",
+									"你将木块削成小型雕像，并用你的符文进行标记。"
+								],
+								[
+									"3",
+									"你将符文雕刻在玻璃珠子上，并将他们串成项链或是手镯。"
+								],
+								[
+									"4",
+									"你将符文缝制在衣物的边缘。"
+								],
+								[
+									"5",
+									"你在可以投掷的、形状大小一组骨头上刻下你的符文。"
+								],
+								[
+									"6",
+									"你将符文雕刻进蜡烛中，融化蜡以平滑雕刻痕迹。"
+								]
+							]
+						}
+					]
+				},
+				{
+					"ENG_name": "Feature: Rune Carver Apprentice",
+					"name": "特性：符文雕刻学徒",
+					"type": "entries",
+					"entries": [
+						"你获得{@feat 符文雕刻学徒|UA2022WondersOfTheMultiverse}专长。"
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"ENG_name": "Building a Rune Carver Character",
+					"name": "创建一个符文雕刻者角色",
+					"type": "entries",
+					"entries": [
+						"学术追求、远古神秘事件或所有类型的命运遭遇可能会激励一个角色去追寻符文雕刻者的秘密。",
+						{
+							"ENG_name": "Suggested Characteristics",
+							"name": "建议人物特征",
+							"type": "entries",
+							"entries": [
+								"符文雕刻者个性特点表向你提供了一些特点的建议，也许你会为你的角色采用它们。",
+								{
+									"type": "table",
+									"caption": "符文雕刻者个性特点",
+									"colLabels": [
+										"d6",
+										"特点"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											"1",
+											"学习一种在日常口语中很少使用的远古语言实用吗？不。但它有趣吗？非常。"
+										],
+										[
+											"2",
+											"我发现我有一位祖先其实是一名名声远扬的符文雕刻者，但它的故事遗失在了漫长时间的长河中。我试图让这段传奇故事重现在当下。"
+										],
+										[
+											"3",
+											"老旧传统的符文工艺看起来如此乏味。为何不给你的符文增添一些风采呢？"
+										],
+										[
+											"4",
+											"在我对符文的研究中，我努力理解过去伟大文明如何衰落，以便我能防止当今社会重蹈覆辙。"
+										],
+										[
+											"5",
+											"生命或许是我周围混乱的旋风，但每当我创造符文时，我便感到和平。"
+										],
+										[
+											"6",
+											"我的大脑难以处理纸上书写的墨水文字，但雕刻符文的触感让我的心灵歌唱。"
+										]
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"hasFluff": true
+		}
+	],
+	"backgroundFluff": [
+		{
+			"ENG_name": "Gate Warden",
+			"name": "门镇守卫",
+			"source": "UA2022WondersOfTheMultiverse",
+			"entries": [
+				"你花费了大量时间在某处，那里受到通往另一个存在平面的传送门或强烈的位面力量影响。你已习惯于那些会让其他人陷入恐惧或为异界美丽而着迷的经历，且你与邪魔和天族打交道就像与城镇中的商贩一样舒适。"
+			]
+		},
+		{
+			"ENG_name": "Giant Foundling",
+			"name": "巨人养子",
+			"source": "UA2022WondersOfTheMultiverse",
+			"entries": [
+				"虽然你并非一名巨人，但你自巨人之间成长。也许你是某个同情你的石巨人家庭将你如同他们的同族孩子一样抚养长大的一名孤儿。或者你生活在世界的一处史前的与世隔绝之地，生活在巨人们、令人生畏的巨兽、与庞大的恐龙之间。",
+				"关于你的环境\u2014\u2014可能是你童年赖以生存的食物或饮水，你家园中固有的元素生物魔法，或是施加于你身上的繁花滋长祝福\u2014\u2014确保你成长到了非凡的体型。在这种魔法的帮助下，你学会了如何体现巨人的伟力。你习惯于在一个比你大得多的世界中穿行，这反映在你的技能、态度和对生命的看法上。"
+			]
+		},
+		{
+			"ENG_name": "Planar Philosopher",
+			"name": "位面哲学家",
+			"source": "UA2022WondersOfTheMultiverse",
+			"entries": [
+				"你信奉一种独特的哲学，旨在理解诸位面的本质或多元宇宙的某些隐藏真相。你从自己的信念中汲取力量，或许还有一群志同道合的信徒网络。在你的旅途中，你寻求加深理解的深度并传播你的哲学。"
+			]
+		},
+		{
+			"ENG_name": "Rune Carver",
+			"name": "符文雕刻者",
+			"source": "UA2022WondersOfTheMultiverse",
+			"entries": [
+				"你将生命奉献给了研究符文工艺的实践。无论你是由符文雕刻大师亲自教导，还是通过钻研古代遗迹中的雕刻自学，你都懂得如何利用符文中所蕴含的超自然法力。",
+				"符文雕刻的艺术最初由远古巨人创造，但随着时间的推移，这一技艺已被所有种族和背景的个人所采用。因此，尽管巨人符文最为常见，但许多符文雕刻者会将他们母语中的符号融入这门技艺。"
+			]
+		}
+	],
+	"race": [
+		{
+			"ENG_name": "Glitchling",
+			"name": "故障灵",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 1,
+			"lineage": "VRGR",
+			"creatureTypes": [
+				"构装"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"traitTags": [
+				"天生护甲"
+			],
+			"entries": [
+				{
+					"ENG_name": "Creature Type",
+					"name": "生物类型",
+					"type": "entries",
+					"entries": [
+						"你是一个构装生物。"
+					]
+				},
+				{
+					"ENG_name": "Armored Plating",
+					"name": "装甲外壳",
+					"type": "entries",
+					"entries": [
+						"你的金属皮肤被装甲板加固。当你未穿戴护甲时，你的基础护甲等级为14 + 你的敏捷调整值。"
+					]
+				},
+				{
+					"ENG_name": "Balance Chaos",
+					"name": "平衡混沌",
+					"type": "entries",
+					"entries": [
+						"当你进行攻击检定或豁免检定且在{@dice d20}上掷出小于等于9时，你可以平衡混沌并将该掷骰结果视为10。你可以如此平衡混沌的次数等于你的熟练加值，且完成一次长休后恢复所有已消耗的使用次数。"
+					]
+				},
+				{
+					"ENG_name": "Living Construct",
+					"name": "活体构装体",
+					"type": "entries",
+					"entries": [
+						"你被创造出来是为了从几个维持生命但通常不影响构装体的法术中获益：{@spell 疗伤术}、{@spell 治愈真言}、{@spell 群体疗伤术}、{@spell 群体治愈真言}和{@spell 维生术}。"
+					]
+				},
+				{
+					"ENG_name": "Ordered Mind",
+					"name": "有序心智",
+					"type": "entries",
+					"entries": [
+						"你在感知（{@skill 洞悉}）检定和避免或结束自身{@condition 魅惑}状态的豁免检定上具有优势。"
+					]
+				},
+				{
+					"ENG_name": "Vestigial Wings",
+					"name": "退化飞翼",
+					"type": "entries",
+					"entries": [
+						"你拥有退化飞翼，允许有限飞行。当你移动时，你可以展开翅膀获得等同于你步行速度的飞行速度，直到当前回合结束。如果在回合结束时你仍悬空且无其他支撑，你将坠落。你可以使用此特质的次数等于你的熟练加值，且完成一次长休后恢复所有已消耗的使用次数。"
+					]
+				}
+			],
+			"hasFluff": true
+		}
+	],
+	"raceFluff": [
+		{
+			"ENG_name": "Glitchling",
+			"name": "故障灵",
+			"source": "UA2022WondersOfTheMultiverse",
+			"entries": [
+				"由诸位面的守序之力所创造，故障灵是飞翼、类人类的生物，由魔法与机械的融合而成。这些探索者试图学习关于多元宇宙及其生物的一切知识。一些故障灵随后将他们所学带回守序位面，如机械境，以告知多元宇宙的有序运作。另一些则迷恋旅行和所遭遇的各族，他们试图在诸位面中开创属于自己的生活。",
+				"故障灵以基本的人格开始他们的存在。随着他们吸收消息和经验，他们的人格会成长，但许多仍保留与其守序起源相关的怪癖。你可以从有序怪癖表格中掷骰或选择一个怪癖，或创建你自己的。",
+				{
+					"type": "table",
+					"caption": "有序怪癖",
+					"colLabels": [
+						"d6",
+						"怪癖"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"我收集东西，无论是特定类型的物件还是由特定材质制成的东西。"
+						],
+						[
+							"2",
+							"我们认为自己是多元宇宙集体守序力量的一部分，且不将自己视为单一存在。"
+						],
+						[
+							"3",
+							"我寻找新的体验，以便更好地理解我存在的自由。"
+						],
+						[
+							"4",
+							"我会在我所说的话前加上一个简短的描述，例如：\"观察\"、\"插话\"或\"问询\"。"
+						],
+						[
+							"5",
+							"我为每一个触发术精心策划了应对方案，预备在立即通知时执行。"
+						],
+						[
+							"6",
+							"我调查人们行为背后的意图，试图解开引导它们的方程式。"
+						]
+					]
+				}
+			]
+		}
+	],
+	"feat": [
+		{
+			"ENG_name": "Agent Of Order",
+			"name": "秩序代行者",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 6,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"外层位面后裔|UA2022WondersOfTheMultiverse|外层位面后裔（守序外层位面）"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你可以引导秩序的宇宙之力，将多元宇宙锁定为固定模式。你的动作由你自行选择，但这些力量会赋予你以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Stasis Strike",
+							"name": "凝滞打击",
+							"type": "item",
+							"entries": [
+								"每回合一次，当你伤害一个你能看到的60尺内的生物时，你可以对目标造成额外{@damage 1d8}力场伤害，且目标必须成功通过一次感知豁免检定（DC等于8+你的熟练加值+本专长提升的属性调整值）否则会被灵体束缚{@condition 束缚}直到你的下个回合开始。这些束缚表现为链条、齿轮、包裹岩石或其他凝滞徽记。你可以使用此增益的次数等于你的熟练加值数值，且完成一次长休后恢复所有已消耗的使用次数。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Baleful Scion",
+			"name": "恶意后继者",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 6,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"外层位面后裔|UA2022WondersOfTheMultiverse|外层位面后裔（邪恶外层位面）"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你可以引导宇宙邪恶之力，这些力量会造成苦痛但能鼓舞你的存在。尽管有这种邪恶联系，你仍能选择自己的动作。你获得以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Life-Draining Grasp",
+							"name": "生命攫取",
+							"type": "item",
+							"entries": [
+								"每回合一次，当你用近战武器攻击命中一个生物时，你可以同时对其造成暗蚀伤害。伤害等于{@dice 1d6} + 你的熟练加值，且你恢复等同于该暗蚀伤害数值的生命值。你可以使用此特性的次数等于你的熟练加值，且完成一次长休后恢复所有已消耗的使用次数。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Cartomancer",
+			"name": "卡牌占卜师",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 6,
+			"prerequisite": [
+				{
+					"level": {
+						"level": 4
+					},
+					"other": "术士、魔契师或法师职业"
+				}
+			],
+			"additionalSpells": [
+				{
+					"known": {
+						"_": [
+							"魔法伎俩#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你学会了通过一副纸牌来引导你的魔法，获得以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Card Focus",
+							"name": "卡牌专注",
+							"type": "item",
+							"entries": [
+								"你可以使用一套卡牌作为你的法器。当你使用卡牌作为法器施放一个造成伤害的法术时，掷一枚{@dice d4}。你获得一个等于掷骰数值的法术伤害掷骰加值。此加值适用于你选择的一个你能看见的受法术伤害的生物；你可以使用此增益的次数等于你的熟练加值，且完成一次长休后恢复所有已消耗的使用次数。"
+							]
+						},
+						{
+							"ENG_name": "Card Tricks",
+							"name": "卡牌诈术",
+							"type": "item",
+							"entries": [
+								"你学会{@spell 魔法伎俩}戏法且能使用它创造复制舞台魔法效应的幻象。当你以这种方式使用魔法伎俩时，可将该法术的言语和姿势成分伪装成寻常对话和卡牌操控。"
+							]
+						},
+						{
+							"ENG_name": "Hidden Ace",
+							"name": "隐藏王牌",
+							"type": "item",
+							"entries": [
+								"当你完成一次长休时，你可以选择一项你知晓的法术并将其注入一张卡牌；所选法术必须具有1个动作的施法时间，且其等级必须小于或等于你的熟练加值。当卡牌被注入该法术时，你可以使用附赠动作虚张声势地展示卡牌并施放其中的法术。随后该卡牌立即失去其魔法。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Cohort Of Chaos",
+			"name": "混乱与共者",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 6,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"外层位面后裔|UA2022WondersOfTheMultiverse|外层位面后裔（混乱外层位面）"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你可以引导驱使多元宇宙趋向自由与混乱的混沌宇宙之力。你的动作仍由你选择，但你获得这些增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Chaotic Flare",
+							"name": "混乱耀斑",
+							"type": "item",
+							"entries": [
+								"当你进行攻击检定或豁免检定时掷出1或20时，混乱魔法会流经你的身体。掷骰混乱耀斑表格来决定发生什么效果。耀斑效应持续到你下个回合结束，且在第一轮耀斑效应结束前不会发生新的耀斑效应。",
+								{
+									"type": "table",
+									"caption": "混乱耀斑",
+									"colLabels": [
+										"d4",
+										"耀斑效应"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											"1",
+											"{@b 扰乱力场。}能量波纹在你周围10尺球状区域内荡漾。除你之外的每个生物若在该区域内开始其回合，或在该回合首次进入该区域，将受到{@dice 1d8}力场伤害。"
+										],
+										[
+											"2",
+											"{@b 战斗狂热。} 一个你能看见的自选生物被鲁莽狂怒充满。该生物在攻击检定上具有优势且在属性检定上具有劣势。"
+										],
+										[
+											"3",
+											"{@b 限制解除。} 当你移动时，你可以使用部分或全部步行速度进行一次传送，连同你穿戴或携带的任何装备，传送至你能看见的未占据空间，距离不超过所使用的移动距离。"
+										],
+										[
+											"4",
+											"{@b 狂风呼啸。} 呼啸的狂风在你周围60尺半径内盘旋。你和该范围内的任何生物在感知豁免检定上具有劣势。"
+										]
+									]
+								}
+							]
+						}
+					]
+				},
+				"你也可以用一个附赠动作强制释放混乱耀斑，如常掷表格以决定效应。你可以使用此附赠动作的次数等于你的熟练加值，且完成一次长休后恢复所有已消耗的使用次数。"
+			]
+		},
+		{
+			"ENG_name": "Ember Of The Fire Giant",
+			"name": "火巨人之余烬",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 7,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"巨人打击|UA2022WondersOfTheMultiverse|巨人之打击（火巨人）"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"wis"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"resist": [
+				"火焰"
+			],
+			"entries": [
+				"你展现出象征着火巨人的炽烈战斗方式，使得你获得下列增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Born of Flame",
+							"name": "生于烈焰",
+							"type": "item",
+							"entries": [
+								"你对火焰伤害具有抗性。"
+							]
+						},
+						{
+							"ENG_name": "Searing Ignition",
+							"name": "炽热灼烧",
+							"type": "item",
+							"entries": [
+								"当你在你的回合采取{@action 攻击}动作时，你可以用一次魔法火焰爆发替换单次攻击。你选择的15尺内能看见你的每个生物必须进行一次敏捷豁免检定（DC等于8 + 你的熟练加值 + 本专长提升的属性调整值）。豁免失败时，生物受到等于{@dice 1d8} + 你的熟练加值的火焰伤害，且陷入{@condition 目盲}状态直到你的下个回合开始。豁免成功时，该生物只受一半伤害且不会陷入{@condition 目盲}。你可以使用炽热灼烧的次数等于你的熟练加值，完成一次长休后恢复所有已消耗的使用次数。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Fury Of The Frost Giant",
+			"name": "霜巨人之狂怒",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 7,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"巨人打击|UA2022WondersOfTheMultiverse|巨人之打击（霜巨人）"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"wis"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"resist": [
+				"寒冷"
+			],
+			"entries": [
+				"你展现出象征着霜巨人的冰冷力量，使得你获得下列增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Born of Ice",
+							"name": "生于冰霜",
+							"type": "item",
+							"entries": [
+								"你获得寒冷伤害的抗性。"
+							]
+						},
+						{
+							"ENG_name": "Frigid Retaliation",
+							"name": "霜寒回击",
+							"type": "item",
+							"entries": [
+								"当你30尺内一个你能看见的生物用攻击检定命中你且造成伤害后，你可以使用你的反应以召唤一阵冰霜进行反击。该生物必须进行一次体质豁免检定（DC等于8 + 你的熟练加值 + 本专长提升的属性调整值）。若豁免失败，它将受到{@damage 1d8} + 你的熟练加值的寒冷伤害，且其速度减半直到其下个回合结束。你可以使用此反应的次数等于你的熟练加值数值，且你在完成一次长休后恢复所有已消耗的使用次数。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Guile Of The Cloud Giant",
+			"name": "云巨人之诡诈",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 7,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"巨人打击|UA2022WondersOfTheMultiverse|巨人之打击（云巨人）"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"con",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你已显现出云巨人特有的空灵口语和魔法标志，获得以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Cloudy Escape",
+							"name": "迷云逃逸",
+							"type": "item",
+							"entries": [
+								"当你可见的一个生物以攻击检定命中你时，你可以使用你的反应给予自身对该攻击伤害的抗性。然后你传送至一个你可见的30尺内未占据空间。你可以使用此反应的次数等于熟练加值的一半（向上取整），且完成一次长休后恢复所有已消耗的使用次数。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Keenness Of The Stone Giant",
+			"name": "石巨人之敏锐",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 7,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"巨人打击|UA2022WondersOfTheMultiverse|巨人之打击（石巨人）"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"wis"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你展现出象征着石巨人的肉体天赋，使得你获得下列增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Stone Throw",
+							"name": "投掷石块",
+							"type": "item",
+							"entries": [
+								"作为附赠动作，你可以接触一块能握在掌心的岩石并为其灌注魔法。当岩石被灌注魔法且你正持握它时，该岩石成为一把你熟练的魔法远程武器，具有投掷属性，正常射程60尺，最大射程180尺。命中时，岩石造成{@damage 1d10}钝击伤害，且若目标是生物，则必须进行一次力量豁免检定（DC等于8+你的熟练加值+本专长提升的属性调整值），否则被击倒{@condition 倒地}。魔法效果会持续存在于岩石中，直到你用它命中或完成一次长休。你可以用此附赠动作灌注数量等于你熟练加值的岩石，且完成长休时恢复所有已消耗的使用次数。"
+							]
+						},
+						{
+							"ENG_name": "Cavernous Sight",
+							"name": "洞穴视觉",
+							"type": "item",
+							"entries": [
+								"你获得{@sense 黑暗视觉}，范围为60尺。如果你已经从其他来源获得{@sense 黑暗视觉}，其范围增加60尺。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Outlands Envoy",
+			"name": "外域使节",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 7,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"外层位面后裔|UA2022WondersOfTheMultiverse"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"迷踪步",
+									"巧言术"
+								]
+							}
+						}
+					},
+					"ability": "继承"
+				}
+			],
+			"entries": [
+				"你曾在印记城或外域的其他地方度过了相当长的时间，这里是多元宇宙的岔路。沉浸在汇聚的位面能量中使你获得以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Crossroads Emissary",
+							"name": "交路使者",
+							"type": "item",
+							"entries": [
+								"你习得法术{@spell 迷踪步}和{@spell 巧言术}。你可以使用此专长各施放一次这些法术而无需法术位，且你必须完成一次长休才能再次以此方式施放该法术。当你使用此专长施放巧言术时，不需要材料成分。你也可以使用你拥有的适当等级的法术位来施放这些法术。该法术的施法属性是你获得外层位面选民专长时所选的属性。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Planar Wanderer",
+			"name": "位面漫游者",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 7,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"外层位面后裔|UA2022WondersOfTheMultiverse"
+					]
+				}
+			],
+			"entries": [
+				"你可以借助多元宇宙的力量在极端宇宙环境中生存并穿越其无限位面。你获得以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Planar Adaptation",
+							"name": "位面适应",
+							"type": "item",
+							"entries": [
+								"当你完成一次长休时，你将获得强酸伤害、寒冷伤害、或火焰伤害（由你选择）的抗性，持续至你下一次完成长休为止。"
+							]
+						},
+						{
+							"ENG_name": "Portal Cracker",
+							"name": "传送门骇客",
+							"type": "item",
+							"entries": [
+								"你对传送门的体验使你无需正确的传送门钥匙就能操作它们。以一个动作，你可以专注在你5尺内一个你知晓的传送门并进行一次DC 20感知（{@skill 求生}）检定。若失败，你受到{@damage 3d8}力场伤害且直到你完成一次长休前无法再对该传送门使用此特性。若成功，你可以强制使该传送门开放或关闭1小时。在此期间，以此方式关闭的传送门不会响应其传送门钥匙，除非使用钥匙的生物以一个动作成功通过DC 20智力（{@skill 奥秘}）检定。"
+							]
+						},
+						{
+							"ENG_name": "Portal Sense",
+							"name": "传送门感知",
+							"type": "item",
+							"entries": [
+								"你知道与你处于同一位面的最近使用过的位面传送门的方向。此外，以一个动作，你可以侦查30尺内未被全身掩护的任何传送门的位置。一旦你用此动作侦查到一个传送门，在完成一次长休前你无法再次使用该动作。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Righteous Heritor",
+			"name": "公义传承者",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 8,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"外层位面后裔|UA2022WondersOfTheMultiverse|外层位面后裔（善良外层位面）"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你可以引导促进宁静与友谊的善良宇宙之力。你仍可自由选择自己的动作，但获得这些增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Soothe Pain",
+							"name": "舒缓伤痛",
+							"type": "item",
+							"entries": [
+								"当你或一个你30尺内能看见的生物受到伤害时，你可以使用你的反应来减轻其痛苦且将伤害缩小{@dice 1d10} + 你的熟练加值。你可以使用此增益的次数等于你的熟练加值数值，且完成一次长休后恢复所有已消耗的使用次数。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Rune Carver Adept",
+			"name": "符文雕刻者专家",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 8,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"符文雕刻学徒|UA2022WondersOfTheMultiverse"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					},
+					"hidden": true
+				}
+			],
+			"entries": [
+				"你从符文中汲取法力的能力已经增强。",
+				"将你获得符文雕刻学徒专长时选择的施法属性值提高1点，最高不超过20。",
+				"每当你从符文法术表格中施放一个法术，或施放与你符文雕刻学徒专长中标记在物件上的法术相关联的魔法学派的法术时，你可以调用符文法力，获得以下一个你选择的增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Battle Runes",
+							"name": "战斗符文",
+							"type": "item",
+							"entries": [
+								"选择一项你能看见的30尺内的生物。直到该生物的下个回合结束，它在下次攻击检定上具有优势。"
+							]
+						},
+						{
+							"ENG_name": "Healing Runes",
+							"name": "治疗符文",
+							"type": "item",
+							"entries": [
+								"选择一项你能看见的30尺内的生物。该生物获得等于你等级的临时生命值。"
+							]
+						},
+						{
+							"ENG_name": "Runic Winds",
+							"name": "符文大风",
+							"type": "item",
+							"entries": [
+								"选择一项你30尺内能看见的生物。直到该生物回合结束前，其移动不会引发借机攻击，且其步行速度增加10尺。"
+							]
+						}
+					]
+				},
+				"你可以调用符文法力的次数等于你的熟练加值，但每个法术施放时最多只能调用一次。完成一次长休后，你将恢复所有已消耗的使用次数。"
+			]
+		},
+		{
+			"ENG_name": "Rune Carver Apprentice",
+			"name": "符文雕刻学徒",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 8,
+			"entries": [
+				"你已开始学习符文雕刻的艺术。",
+				"你学会了通晓语言法术。你可以不消耗法术位施放该法术，且你必须完成一次长休后才能再次以此方式施放。你也可以使用你拥有的任何法术位来施放该法术。",
+				"你从符文法术表格中选择两个符文。每当你完成一次长休时，你可以用一个你所知的符文标记一件你接触的非魔法武器、护甲、衣物碎片或其他物件。根据你所刻印的符文，你暂时学会一个符文法术表格中指定的一环法术，且你知晓该法术直到你完成一次长休，此时符文会消失。",
+				{
+					"type": "table",
+					"caption": "符文法术",
+					"colLabels": [
+						"符文",
+						"法术"
+					],
+					"colStyles": [
+						"col-4",
+						"col-8"
+					],
+					"rows": [
+						[
+							"死亡",
+							"{@spell 致病射线}"
+						],
+						[
+							"龙",
+							"{@spell 繁彩球}"
+						],
+						[
+							"仇敌",
+							"{@spell 易容术}"
+						],
+						[
+							"友谊",
+							"{@spell 动物交谈}"
+						],
+						[
+							"旅途",
+							"{@spell 大步奔行}"
+						],
+						[
+							"君王",
+							"{@spell 命令术}"
+						],
+						[
+							"山地",
+							"{@spell 纠缠术}"
+						],
+						[
+							"神圣",
+							"{@spell 庇护术}"
+						]
+					]
+				},
+				"当你佩戴或携带该符文标记的物件时，你可以无需使用法术位或材料成分施放一次与该选民符文关联的法术，且你也可以使用你拥有的任何法术位来施放该法术。",
+				"此专长的施法属性为智力、感知或魅力（选择此专长时决定）",
+				"每次升级时，你可以将已知的一个符文替换为符文法术表格中的另一个符文。"
+			]
+		},
+		{
+			"ENG_name": "Scion Of Elemental Air",
+			"name": "气元素后裔",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 8,
+			"additionalSpells": [
+				{
+					"known": {
+						"_": [
+							"次级幻象#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你接触了气之位面的原初魔法，获得以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Elemental Magic",
+							"name": "元素生物魔法",
+							"type": "item",
+							"entries": [
+								"你学会{@spell 次级幻象}戏法，使用智力、感知或魅力作为施法属性（选择此专长时决定）。"
+							]
+						},
+						{
+							"ENG_name": "Wind's Glide",
+							"name": "风势滑翔",
+							"type": "item",
+							"entries": [
+								"你可以使用一个附赠动作来获得等于你步行速度的飞行速度，直到你的回合结束。如果你在使用此移动力后回合结束时仍在空中且没有被其他方式托起，你会坠落。你可以使用此附赠动作的次数等于你的熟练加值，且你在完成一次长休后恢复所有已消耗的使用次数。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Scion Of Elemental Earth",
+			"name": "土元素后裔",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 8,
+			"additionalSpells": [
+				{
+					"known": {
+						"_": [
+							"德鲁伊伎俩#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你接触过土之位面的原初魔法，获得以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Elemental Magic",
+							"name": "元素生物魔法",
+							"type": "item",
+							"entries": [
+								"你学会{@spell 德鲁伊伎俩}戏法，使用智力、感知或魅力作为施法属性（选择此专长时决定）。"
+							]
+						},
+						{
+							"ENG_name": "Earthen Shield",
+							"name": "大地护盾",
+							"type": "item",
+							"entries": [
+								"你可以使用一个附赠动作召唤一道土之意志壁垒，为你自身或30尺内一个你选择的生物提供半身掩护。该意志壁垒会持续到你下个回合开始。你可以创造该意志壁垒的次数等于你的熟练加值，且完成一次长休后恢复所有已消耗的使用次数。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Scion Of Elemental Fire",
+			"name": "火元素后裔",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 9,
+			"additionalSpells": [
+				{
+					"known": {
+						"_": [
+							"舞光术#c",
+							"燃火术#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你接触了火元素位面的原初魔法，获得以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Elemental Magic",
+							"name": "元素生物魔法",
+							"type": "item",
+							"entries": [
+								"你学会使用智力、感知或魅力作为施法属性（选择此专长时决定）的{@spell 舞光术}戏法。"
+							]
+						},
+						{
+							"ENG_name": "Fervent Blaze",
+							"name": "炽热烈焰人",
+							"type": "item",
+							"entries": [
+								"你习得戏法{@spell 燃火术}，使用本专长元素生物魔法增益所选的相同施法属性。你可以正常施放燃火术，且还能以附赠动作施放该法术，次数等同于你的熟练加值，完成一次长休后恢复所有已消耗的使用次数。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Scion Of Elemental Water",
+			"name": "水元素后裔",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 9,
+			"additionalSpells": [
+				{
+					"known": {
+						"_": [
+							"奇术#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你接触过水之位面的原初魔法，获得以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Elemental Magic",
+							"name": "元素生物魔法",
+							"type": "item",
+							"entries": [
+								"你学会奇术戏法，使用智力、感知或魅力作为施法属性（选择此专长时决定）。"
+							]
+						},
+						{
+							"ENG_name": "Wave Surge",
+							"name": "波涛浪涌",
+							"type": "item",
+							"entries": [
+								"你可以使用一个附赠动作在你15尺内能看见的生物方向制造一股强力水浪。目标必须进行一次力量豁免检定；该豁免DC等于8+你的熟练加值+本专长选择的施法属性调整值，且生物可以选择在此豁免中失败。若豁免失败，目标会被推离你最多10尺或拉向你最多10尺（由你选择）。水浪在生物成功或失败后立即消失。你可以制造此效应的次数等于你的熟练加值，且完成一次长休后恢复所有已消耗的使用次数。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Scion Of The Outer Planes",
+			"name": "外层位面后裔",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 9,
+			"additionalSpells": [
+				{
+					"ENG_name": "Astral Plane",
+					"name": "星光位面",
+					"known": {
+						"_": [
+							"传讯术#c"
+						]
+					}
+				},
+				{
+					"ENG_name": "Chaotic Outer Plane",
+					"name": "混乱外层位面",
+					"known": {
+						"_": [
+							"次级幻象#c"
+						]
+					}
+				},
+				{
+					"ENG_name": "Evil Outer Plane",
+					"name": "邪恶外层位面",
+					"known": {
+						"_": [
+							"颤栗之触#c"
+						]
+					}
+				},
+				{
+					"ENG_name": "Good Outer Plane",
+					"name": "善良外层位面",
+					"known": {
+						"_": [
+							"圣火术#c"
+						]
+					}
+				},
+				{
+					"ENG_name": "Lawful Outer Plane",
+					"name": "守序外层位面",
+					"known": {
+						"_": [
+							"神导术#c"
+						]
+					}
+				},
+				{
+					"ENG_name": "The Outlands",
+					"name": "外域",
+					"known": {
+						"_": [
+							"法师之手#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你受到位面通道的影响且擅长穿越外层位面的奇异现实。",
+				"无论是因为位面精华灌注于你，还是因为你拥有异位面血统，你与某个位面的联系都会使你充满那里的能量。从下方的位面灌注表格中选择一种位面类型。你的选择会赋予你一种伤害类型的抗性以及施放一个戏法的能力，具体如表格中所述。你可以无需材料成分施放这个戏法，且你的施法属性为智力、感知或魅力（在选择此专长时决定）。",
+				{
+					"type": "table",
+					"caption": "位面灌注",
+					"colLabels": [
+						"位面",
+						"伤害抗性",
+						"戏法"
+					],
+					"colStyles": [
+						"col-4",
+						"col-4",
+						"col-4"
+					],
+					"rows": [
+						[
+							"星光位面",
+							"心灵",
+							"{@spell 传讯术}"
+						],
+						[
+							"混乱外层位面",
+							"暗蚀",
+							"{@spell 次级幻象}"
+						],
+						[
+							"邪恶外层位面",
+							"暗蚀",
+							"{@spell 颤栗之触}"
+						],
+						[
+							"善良外层位面",
+							"光耀",
+							"{@spell 圣火术}"
+						],
+						[
+							"守序外层位面",
+							"光耀",
+							"{@spell 神导术}"
+						],
+						[
+							"外域",
+							"心灵",
+							"{@spell 法师之手}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Soul Of The Storm Giant",
+			"name": "风暴巨人之灵魂",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 9,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"巨人打击|UA2022WondersOfTheMultiverse|巨人之打击（风暴巨人）"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你已显现出风暴巨人特有的预言术能力和风暴魔法，获得以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Maelstrom Aura",
+							"name": "旋涡灵光",
+							"type": "item",
+							"entries": [
+								"以一个附赠动作，你将自己包围在魔法风势和闪电的灵光中，灵光从你向各个方向延伸10尺，但不会穿过全身掩护。灵光持续到你下个回合开始或你陷入{@condition 失能}状态为止。当灵光激活时，对你的攻击检定具有劣势，且每当一个生物在其回合开始时处于灵光内，你可以迫使该生物进行一次力量豁免检定（DC等于8 + 你的熟练加值 + 本专长提升的属性调整值）。若豁免失败，该生物的速度减半直到其下个回合开始。你可以使用此附赠动作的次数等于你的熟练加值，且你在完成一次长休后恢复所有已消耗的使用次数。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Strike Of The Giants",
+			"name": "巨人打击",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 9,
+			"entries": [
+				"你吸收了原始魔法，这让你获得了巨人伟力的回响。从下方列出的巨人种类中选择一项。以一个附赠动作，你可以呼唤巨人语魔法的法力来为你的攻击附加额外的力量。接下来的一分钟内，当你用近战或投掷武器攻击命中一个目标时，该攻击会根据你巨人魔法的起源产生额外效应：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Hill Giant",
+							"name": "山丘巨人",
+							"type": "item",
+							"entries": [
+								"目标额外受到{@damage 1d6}点该武器类型的伤害。如果目标是生物，它必须成功通过一次力量豁免检定否则被击倒{@condition 倒地}。"
+							]
+						},
+						{
+							"ENG_name": "Stone Giant",
+							"name": "石巨人",
+							"type": "item",
+							"entries": [
+								"目标受到额外{@damage 1d6}力场伤害。如果目标是生物，它必须成功通过力量豁免检定否则被推离你10尺直线距离。"
+							]
+						},
+						{
+							"ENG_name": "Frost Giant",
+							"name": "霜巨人",
+							"type": "item",
+							"entries": [
+								"目标受到额外{@damage 1d6}点寒冷伤害。若目标是生物，则其必须通过一次体质豁免，否则直至你下一回合开始其速度归零。"
+							]
+						},
+						{
+							"ENG_name": "Fire Giant",
+							"name": "火巨人",
+							"type": "item",
+							"entries": [
+								"目标受到额外{@damage 1d8}火焰伤害。"
+							]
+						},
+						{
+							"ENG_name": "Cloud Giant",
+							"name": "云巨人",
+							"type": "item",
+							"entries": [
+								"目标额外受到{@damage 1d4}雷鸣伤害。如果目标是生物，它必须成功通过感知豁免检定，否则你将对它保持{@condition 隐形}状态直到你的下个回合开始。"
+							]
+						},
+						{
+							"ENG_name": "Storm Giant",
+							"name": "风暴巨人",
+							"type": "item",
+							"entries": [
+								"目标受到额外{@damage 1d6}点闪电伤害。若目标是生物，则其必须通过一次体质豁免，否则直至你下一回合开始，其发动的攻击检定都将具有劣势。"
+							]
+						}
+					]
+				},
+				"这些效果豁免检定的DC为8+你的熟练加值+你的力量或体质调整值。",
+				"你可以使用该附赠动作的次数等同于你的熟练加值，你在完成一次长休后恢复所有已消耗的使用次数。"
+			]
+		},
+		{
+			"ENG_name": "Vigor Of The Hill Giant",
+			"name": "山丘巨人之健强",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 10,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"巨人打击|UA2022WondersOfTheMultiverse|巨人之打击（山丘巨人）"
+					]
+				}
+			],
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"entries": [
+				"你展现出象征着山丘巨人的强韧性，使得你获得下列增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Bulwark",
+							"name": "意志壁垒",
+							"type": "item",
+							"entries": [
+								"当你受到一个会使你至少移动5尺或使你{@condition 倒地}的效应时，你可以使用你的反应来稳固自身。随后你既不会被移动也不会被{@condition 倒地}。"
+							]
+						},
+						{
+							"ENG_name": "Iron Stomach",
+							"name": "钢铁肠胃",
+							"type": "item",
+							"entries": [
+								"当你在短休时进食，并且使用了一粒或更多生命骰恢复生命时，你额外恢复等同于你的 体质调整值+你的熟练加值 点的生命值。"
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"spell": [
+		{
+			"ENG_name": "Antagonize",
+			"name": "敌意术",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 10,
+			"level": 3,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "一张描绘着 浪客Rogue 的卡牌"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"你低声念出具有挑衅效果的魔法词语，影响范围内你选择的一个生物。目标必须进行一次感知豁免。豁免失败时，它将受到{@damage 4d4}心灵伤害，并必须立即使用其反应（如果可用），对你可以看到的另一个你选择的生物进行近战攻击。如果没有其他生物在范围内，目标在你下一回合开始前进行的下一次攻击检定将处于劣势。"
+			],
+			"entriesHigherLevel": [
+				{
+					"ENG_name": "At Higher Levels",
+					"name": "升环施法效应",
+					"type": "entries",
+					"entries": [
+						"当你使用4级或更高等级的法术位施放这个法术时，每超过4级，伤害增加{@dice 1d4}。"
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Bard",
+						"name": "吟游诗人",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Sorcerer",
+						"name": "术士",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Warlock",
+						"name": "魔契师",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Wizard",
+						"name": "法师",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"心灵"
+			],
+			"savingThrow": [
+				"感知"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"ENG_name": "House of Cards",
+			"name": "纸牌屋",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 10,
+			"level": 3,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "分钟"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "一副牌组"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 24
+					}
+				}
+			],
+			"entries": [
+				"你触摸地面，召唤出一座由巨大的纸牌构成的防御性结构。这座结构以你为中心升起，无害地抬起你和区域内的任何生物。纸牌屋的底座是30英尺见方，它有三层楼，每层楼都有10英尺高的天花板。第二层是20英尺见方，顶层是10英尺见方\u2014\u2014都位于底层正上方。坡道连接着每层楼的内部，空荡荡的门框连接着每个楼层的内外。在结构内部或顶部的生物有半掩护。",
+				"构成房子的每一张卡片宽5英尺，高10英尺，非常脆弱。一张卡片的AC为10，生命值为1。卡片对毒素和心灵伤害免疫。将一张卡片的生命值减少到0会摧毁它。每次一张卡片被摧毁时，投掷{@dice 1d6}。如果你掷出5或6，房子就会倒塌，法术结束。",
+				"法术结束时，房子和所有的牌都消失了。"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Artificer",
+						"name": "奇械师",
+						"source": "TCE"
+					},
+					{
+						"ENG_name": "Bard",
+						"name": "吟游诗人",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Sorcerer",
+						"name": "术士",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Wizard",
+						"name": "法师",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"ENG_name": "Spirit of Death",
+			"name": "死神灵魄",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 10,
+			"level": 4,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "一张描绘死亡化身的镀金纸牌，价值至少400金币",
+					"cost": 40000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"你召唤出一个体现死亡本身的灵体。选择一个你视野范围内可以看到的生物。灵体在你可以看到的、距离目标10英尺内的未被占据的空间中显现，目标被这个灵体缠绕。灵体使用{@creature 收割者灵魄|UA2022WondersOfTheMultiverse}的统计数据块。当灵体或被缠绕的生物的生命值降至0点，或者法术结束时，灵体就会消失。",
+				"收割者之魂是你的盟友，也是你和你的同伴的盟友。在战斗中，该灵魂共享你的主动性计数，但它会在你之后立即行动。它遵从你的口头命令（你无需采取行动），但它只会攻击那个被诅咒的生物。如果你没有给灵魂下达任何命令，它将采取{@action 回避}动作，并使用其移动来避开危险。"
+			],
+			"entriesHigherLevel": [
+				{
+					"ENG_name": "At Higher Levels",
+					"name": "升环施法效应",
+					"type": "entries",
+					"entries": [
+						"使用五环或更高法术位施展该法术时，该生物数据中使用更高的法术环数。"
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Sorcerer",
+						"name": "术士",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Warlock",
+						"name": "魔契师",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Wizard",
+						"name": "法师",
+						"source": "PHB"
+					}
+				]
+			},
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"ENG_name": "Spray of Cards",
+			"name": "卡牌喷射",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 11,
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "cone",
+				"distance": {
+					"type": "feet",
+					"amount": 15
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "一副牌组"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"你从手中或袖中喷出幽灵般的纸牌；这些纸牌会使你的敌人失明或割伤他们，然后消失。为这些纸牌选择以下效果之一。",
+				{
+					"ENG_name": "Blinding Cards",
+					"name": "眩光卡片",
+					"type": "entries",
+					"entries": [
+						"在15英尺锥形区域内的每个生物都必须成功通过一次智力豁免，否则直到其下一回合结束时都会处于{@condition 目盲}状态。"
+					]
+				},
+				{
+					"ENG_name": "Cutting Cards",
+					"name": "切割卡片",
+					"type": "entries",
+					"entries": [
+						"在15英尺锥形区域内的每个生物都必须进行一次敏捷豁免。生物在豁免失败时受到{@damage 2d10}力量伤害，豁免成功则受到一半的伤害。"
+					]
+				}
+			],
+			"entriesHigherLevel": [
+				{
+					"ENG_name": "At Higher Levels",
+					"name": "升环施法效应",
+					"type": "entries",
+					"entries": [
+						"当你使用4级或更高等级的法术位施放这个法术时，每超过2级，切割纸牌的伤害增加{@dice 1d10}。"
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Bard",
+						"name": "吟游诗人",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Sorcerer",
+						"name": "术士",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Warlock",
+						"name": "魔契师",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Wizard",
+						"name": "法师",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"力场"
+			],
+			"conditionInflict": [
+				"目盲"
+			],
+			"savingThrow": [
+				"敏捷",
+				"感知"
+			]
+		},
+		{
+			"ENG_name": "Summon Warrior Spirit",
+			"name": "召唤战士之魂",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 11,
+			"level": 3,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "一张描绘骑士的镀金扑克牌，价值至少300金币",
+					"cost": 30000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"你从传说中的许多事物之牌中召唤出一个战士之魂。它在你视野范围内的未被占据的空间中显现。这个实体形态使用{@creature 武者精神|UA2022WondersOfTheMultiverse}的统计数据块。当你施放这个法术时，选择一种战士类型：野蛮人、战士或僧侣。这个战士看起来像是一个装备适当的人形生物，根据所选的类别，这决定了其统计数据块中的某些特性。当它的生命值降至0点或法术结束时，战士就会消失。",
+				"战士是你的盟友，也是你和你的同伴的盟友。在战斗中，战士共享你的主动性计数，但它会在你之后立即行动。它遵从你的口头命令（你无需采取行动）。如果你没有下达任何命令，它将采取{@action 回避}动作，并使用其移动来避开危险。"
+			],
+			"entriesHigherLevel": [
+				{
+					"ENG_name": "At Higher Levels",
+					"name": "升环施法效应",
+					"type": "entries",
+					"entries": [
+						"当你使用4级或更高级别的法术位来施放这个法术时，该生物在其统计数据块中使用法术等级的地方都会采用更高的等级。"
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Sorcerer",
+						"name": "术士",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Warlock",
+						"name": "魔契师",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Wizard",
+						"name": "法师",
+						"source": "PHB"
+					}
+				]
+			},
+			"miscTags": [
+				"SGT"
+			]
+		}
+	],
+	"monster": [
+		{
+			"ENG_name": "Reaper Spirit",
+			"name": "收割者灵魄",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 11,
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"ac": [
+				{
+					"special": "11 +法术等级 (天生护甲)"
+				}
+			],
+			"hp": {
+				"special": "40 +10×每比3环高的法术等级"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": {
+					"number": 30,
+					"condition": "(悬浮)"
+				},
+				"canHover": true
+			},
+			"str": 16,
+			"dex": 16,
+			"con": 16,
+			"int": 16,
+			"wis": 16,
+			"cha": 16,
+			"senses": [
+				"黑暗视觉 60 尺"
+			],
+			"passive": 13,
+			"immune": [
+				"暗蚀",
+				"毒素"
+			],
+			"conditionImmune": [
+				"魅惑",
+				"恐慌",
+				"麻痹",
+				"中毒"
+			],
+			"languages": [
+				"理解你所说的语言"
+			],
+			"pbNote": "等于你的加值",
+			"trait": [
+				{
+					"ENG_name": "Incorporeal Movement",
+					"name": "虚体移动",
+					"entries": [
+						"收割者可以如同穿越困难地形一般穿越其他生物和物件。如果它在物件内结束其回合，它会被推挤到最近的未占据空间，并且每移动5尺受到{@damage 1d10}力场伤害。"
+					]
+				},
+				{
+					"ENG_name": "Haunting Tracker",
+					"name": "《萦绕追踪者》",
+					"entries": [
+						"如果你和收割者在同一存在平面上，你可以感知到被诅咒生物的方向和距离。"
+					]
+				}
+			],
+			"action": [
+				{
+					"ENG_name": "Multiattack",
+					"name": "多重攻击",
+					"entries": [
+						"收割者进行的攻击次数等于这个法术等级的一半（向下取整）。"
+					]
+				},
+				{
+					"ENG_name": "Reaping Scythe",
+					"name": "收割之镰",
+					"entries": [
+						"{@atk mw} 你的法术攻击调整值用于命中（具有优势），触及范围5英尺，一个目标。{@h}{@damage 1d10 + 3} + 法术等级的亡灵伤害。"
+					]
+				},
+				{
+					"ENG_name": "Paralyzing Fear (1/Day)",
+					"name": "瘫痪恐惧（每日1次）",
+					"entries": [
+						"收割者试图在60英尺范围内对自己可以看到的受萦绕生物灌输恐惧。该生物必须通过一次对抗你的法术豁免DC的感知豁免，否则会因恐惧收割者而受到{@condition 恐慌}状态影响，持续1分钟。处于{@condition 恐慌}状态的生物速度变为0，且无法从任何速度加成中受益。受到{@condition 恐慌}状态影响的生物可以在自己的回合结束时重复进行豁免检定，或者在受到伤害后立即重复投掷，成功则结束该效果。"
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/UA2022WondersOfTheMultiverse/tokens/Reaper Spirit.webp"
+			},
+			"traitTags": [
+				"虚体移动"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"多重攻击"
+			],
+			"damageTags": [
+				"N",
+				"O"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"恐慌"
+			]
+		},
+		{
+			"ENG_name": "Warrior Spirit",
+			"name": "武者精神",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 11,
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"ac": [
+				{
+					"special": "13 + 法术等级 +2（仅战士）"
+				}
+			],
+			"hp": {
+				"special": "30（仅限野蛮人和战士）或20（仅限武僧） +10×每比3环高的法术等级"
+			},
+			"speed": {
+				"walk": 30,
+				"alternate": {
+					"walk": [
+						{
+							"number": 40,
+							"condition": "（仅武僧）"
+						}
+					]
+				}
+			},
+			"str": 16,
+			"dex": 16,
+			"con": 14,
+			"int": 10,
+			"wis": 16,
+			"cha": 9,
+			"save": {
+				"str": "+3",
+				"dex": "+3"
+			},
+			"passive": 13,
+			"resist": [
+				"毒素"
+			],
+			"conditionImmune": [
+				"魅惑",
+				"中毒"
+			],
+			"languages": [
+				"通用语",
+				"理解你所说的语言"
+			],
+			"pbNote": "等于你的加值",
+			"action": [
+				{
+					"ENG_name": "Multiattack",
+					"name": "多重攻击",
+					"entries": [
+						"战士进行的攻击次数等于这个法术等级的一半（向下取整）。"
+					]
+				},
+				{
+					"ENG_name": "Reckless Strike (Barbarian Only)",
+					"name": "鲁莽攻击（仅野蛮人）",
+					"entries": [
+						"{@atk mw} 你的法术攻击调整值用于命中（具有优势），触及范围5英尺，一个目标。{@h}{@damage 1d12 + 3} + 法术等级的挥砍伤害，且在战士的下一回合开始之前，对战士进行的攻击都具有优势。"
+					]
+				},
+				{
+					"ENG_name": "Rallying Strike (Fighter Only)",
+					"name": "振奋打击（仅战士）",
+					"entries": [
+						"{@atk mw,rw} 你的法术攻击调整值来命中，触及范围5英尺，或射程20/60英尺，一个目标。{@h}{@damage 1d6 + 3} + 法术等级的穿刺伤害，战士可以选择另一个它可以看到的，距离自己20英尺内的生物。选定的生物获得{@dice 1d6}临时生命值。"
+					]
+				},
+				{
+					"ENG_name": "Unarmed Strike (Monk Only)",
+					"name": "徒手攻击（仅僧侣）",
+					"entries": [
+						"{@atk mw} 你的法术攻击调整值来命中，触及范围5英尺，一个目标。{@h}{@damage 1d4 + 3} + 法术等级的钝击伤害，目标必须成功通过一次对抗你的法术豁免DC的力量豁免，否则会被击倒{@condition 倒地}。"
+					]
+				}
+			],
+			"bonus": [
+				{
+					"ENG_name": "Flurry of Blows (Monk Only)",
+					"name": "连击（仅僧侣）",
+					"entries": [
+						"和尚进行一次空手攻击。"
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/UA2022WondersOfTheMultiverse/tokens/Warrior Spirit.webp"
+			},
+			"actionTags": [
+				"多重攻击"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"B",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"conditionInflict": [
+				"倒地"
+			]
+		}
+	]
+}

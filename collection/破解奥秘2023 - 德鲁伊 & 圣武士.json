@@ -1,0 +1,6256 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "XUA2023DruidAndPaladin",
+				"abbreviation": "XUA23DP",
+				"full": "破解奥秘2023：玩家手册：德鲁伊 & 圣武士",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.dndbeyond.com/compendium-images/one-dnd/druid-paladin/PXoa3UgywnZbwc9U/UA-2023-DruidandPaladin.pdf",
+				"dateReleased": "2023-02-23"
+			}
+		],
+		"dependencies": {
+			"spell": [
+				"PHB"
+			]
+		},
+		"edition": "classic",
+		"dateAdded": 1663844222,
+		"dateLastModified": 1732568539,
+		"_dateLastModifiedHash": "ee4026cae4"
+	},
+	"class": [
+		{
+			"ENG_name": "Druid",
+			"name": "德鲁伊",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 3,
+			"classGroup": [
+				"祭司"
+			],
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"int",
+				"wis"
+			],
+			"spellcastingAbility": "wis",
+			"casterProgression": "full",
+			"preparedSpells": "<$level$> + <$wis_mod$>",
+			"cantripProgression": [
+				2,
+				2,
+				2,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4
+			],
+			"classSpells": [
+				{
+					"groupName": "原始",
+					"groupSource": "XUA2023DruidAndPaladin"
+				}
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"shield"
+				],
+				"weapons": [
+					"简易"
+				],
+				"tools": [
+					"{@item 草药工具|PHB}"
+				],
+				"toolProficiencies": [
+					{
+						"herbalism kit": true
+					}
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"arcana",
+								"animal handling",
+								"insight",
+								"medicine",
+								"nature",
+								"perception",
+								"religion",
+								"survival"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"default": [
+					"{@item 德鲁伊法器|PHB|德鲁伊法器（长棍）}",
+					"{@item 皮甲|PHB}",
+					"{@item 盾牌|PHB}",
+					"{@item 探索套组|PHB}",
+					"{@item 镰刀|PHB}",
+					"{@item 草药工具|PHB}",
+					"9 GP"
+				],
+				"goldAlternative": "50GP"
+			},
+			"multiclassing": {
+				"requirements": {
+					"wis": 13
+				},
+				"proficienciesGained": {
+					"armor": [
+						"light",
+						"shield"
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"自然引导"
+					],
+					"rows": [
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						]
+					]
+				},
+				{
+					"colLabels": [
+						"{@filter 已知戏法|spells|level=0|class=德鲁伊}"
+					],
+					"rows": [
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						]
+					]
+				},
+				{
+					"title": "每环法术位",
+					"colLabels": [
+						"{@filter 1st|spells|level=1|class=德鲁伊}",
+						"{@filter 2nd|spells|level=2|class=德鲁伊}",
+						"{@filter 3rd|spells|level=3|class=德鲁伊}",
+						"{@filter 4th|spells|level=4|class=德鲁伊}",
+						"{@filter 5th|spells|level=5|class=德鲁伊}",
+						"{@filter 6th|spells|level=6|class=德鲁伊}",
+						"{@filter 7th|spells|level=7|class=德鲁伊}",
+						"{@filter 8th|spells|level=8|class=德鲁伊}",
+						"{@filter 9th|spells|level=9|class=德鲁伊}"
+					],
+					"rowsSpellProgression": [
+						[
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							2,
+							1,
+							1
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"自然引导|德鲁伊|XUA2023DruidAndPaladin|1",
+				"德鲁伊语|德鲁伊|XUA2023DruidAndPaladin|1",
+				"施法|德鲁伊|XUA2023DruidAndPaladin|1",
+				"自然援助|德鲁伊|XUA2023DruidAndPaladin|2",
+				{
+					"classFeature": "德鲁伊子职|德鲁伊|XUA2023DruidAndPaladin|3",
+					"gainSubclassFeature": true
+				},
+				"专长|德鲁伊|XUA2023DruidAndPaladin|4",
+				"大地之力|德鲁伊|XUA2023DruidAndPaladin|5",
+				{
+					"classFeature": "子职特性|德鲁伊|XUA2023DruidAndPaladin|6",
+					"gainSubclassFeature": true
+				},
+				"水生形态|德鲁伊|XUA2023DruidAndPaladin|7",
+				"专长|德鲁伊|XUA2023DruidAndPaladin|8",
+				"空中形态|德鲁伊|XUA2023DruidAndPaladin|9",
+				{
+					"classFeature": "子职特性|德鲁伊|XUA2023DruidAndPaladin|10",
+					"gainSubclassFeature": true
+				},
+				"微型生物|德鲁伊|XUA2023DruidAndPaladin|11",
+				"专长|德鲁伊|XUA2023DruidAndPaladin|12",
+				"交替形态|德鲁伊|XUA2023DruidAndPaladin|13",
+				{
+					"classFeature": "子职特性|德鲁伊|XUA2023DruidAndPaladin|14",
+					"gainSubclassFeature": true
+				},
+				"荒野复苏|德鲁伊|XUA2023DruidAndPaladin|15",
+				"专长|德鲁伊|XUA2023DruidAndPaladin|16",
+				"兽形施法|德鲁伊|XUA2023DruidAndPaladin|17",
+				"大德鲁伊|德鲁伊|XUA2023DruidAndPaladin|18",
+				"专长|德鲁伊|XUA2023DruidAndPaladin|19",
+				"传奇恩惠|德鲁伊|XUA2023DruidAndPaladin|20"
+			],
+			"subclassTitle": "德鲁伊子职",
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Paladin",
+			"name": "圣武士",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 9,
+			"classGroup": [
+				"祭司"
+			],
+			"hd": {
+				"number": 1,
+				"faces": 10
+			},
+			"proficiency": [
+				"wis",
+				"cha"
+			],
+			"spellcastingAbility": "cha",
+			"casterProgression": "artificer",
+			"preparedSpells": "<$level$> / 2 + <$cha_mod$>",
+			"cantripProgression": [
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3
+			],
+			"classSpells": [
+				{
+					"groupName": "神圣",
+					"groupSource": "XUA2023DruidAndPaladin"
+				}
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium",
+					"heavy",
+					"shield"
+				],
+				"weapons": [
+					"简易",
+					"军用"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"athletics",
+								"insight",
+								"intimidation",
+								"medicine",
+								"persuasion",
+								"religion"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"default": [
+					"{@item 链甲|PHB}",
+					"{@item 祭司套组|XUA2023DruidAndPaladin}",
+					"{@item 圣徽|PHB}",
+					"{@item 盾牌|PHB}",
+					"6 {@item 标枪|PHB|标枪}",
+					"{@item 长剑|PHB}",
+					"9 GP"
+				],
+				"goldAlternative": "150 GP"
+			},
+			"multiclassing": {
+				"requirements": {
+					"str": 13,
+					"cha": 13
+				},
+				"proficienciesGained": {
+					"armor": [
+						"light",
+						"medium",
+						"shield"
+					],
+					"weapons": [
+						"军用"
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"引导神力",
+						"{@filter 已知戏法|spells|level=0|class=圣武士（XUA23DP）}"
+					],
+					"rows": [
+						[
+							0,
+							2
+						],
+						[
+							0,
+							2
+						],
+						[
+							2,
+							2
+						],
+						[
+							2,
+							2
+						],
+						[
+							3,
+							2
+						],
+						[
+							3,
+							2
+						],
+						[
+							3,
+							2
+						],
+						[
+							3,
+							2
+						],
+						[
+							4,
+							2
+						],
+						[
+							4,
+							3
+						],
+						[
+							4,
+							3
+						],
+						[
+							4,
+							3
+						],
+						[
+							4,
+							3
+						],
+						[
+							4,
+							3
+						],
+						[
+							4,
+							3
+						],
+						[
+							4,
+							3
+						],
+						[
+							4,
+							3
+						],
+						[
+							4,
+							3
+						],
+						[
+							4,
+							3
+						],
+						[
+							4,
+							3
+						]
+					]
+				},
+				{
+					"title": "每环法术位",
+					"colLabels": [
+						"{@filter 1st|spells|level=1|class=圣武士}",
+						"{@filter 2nd|spells|level=2|class=圣武士}",
+						"{@filter 3rd|spells|level=3|class=圣武士}",
+						"{@filter 4th|spells|level=4|class=圣武士}",
+						"{@filter 5th|spells|level=5|class=圣武士}"
+					],
+					"rowsSpellProgression": [
+						[
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"圣疗|圣武士|XUA2023DruidAndPaladin|1",
+				"施法|圣武士|XUA2023DruidAndPaladin|1",
+				"至圣斩|圣武士|XUA2023DruidAndPaladin|2",
+				"战斗风格|圣武士|XUA2023DruidAndPaladin|2",
+				"引导神力|圣武士|XUA2023DruidAndPaladin|3",
+				{
+					"classFeature": "圣武士子职|圣武士|XUA2023DruidAndPaladin|3",
+					"gainSubclassFeature": true
+				},
+				"专长|圣武士|XUA2023DruidAndPaladin|4",
+				"额外攻击|圣武士|XUA2023DruidAndPaladin|5",
+				"信实坐骑|圣武士|XUA2023DruidAndPaladin|5",
+				{
+					"classFeature": "子职特性|圣武士|XUA2023DruidAndPaladin|6",
+					"gainSubclassFeature": true
+				},
+				"守护灵光|圣武士|XUA2023DruidAndPaladin|7",
+				"专长|圣武士|XUA2023DruidAndPaladin|8",
+				"弃绝众敌|圣武士|XUA2023DruidAndPaladin|9",
+				{
+					"classFeature": "子职特性|圣武士|XUA2023DruidAndPaladin|10",
+					"gainSubclassFeature": true
+				},
+				"光耀打击|圣武士|XUA2023DruidAndPaladin|11",
+				"专长|圣武士|XUA2023DruidAndPaladin|12",
+				"勇气灵光|圣武士|XUA2023DruidAndPaladin|13",
+				{
+					"classFeature": "子职特性|圣武士|XUA2023DruidAndPaladin|14",
+					"gainSubclassFeature": true
+				},
+				"复原之触|圣武士|XUA2023DruidAndPaladin|15",
+				"专长|圣武士|XUA2023DruidAndPaladin|16",
+				"灵光增效|圣武士|XUA2023DruidAndPaladin|17",
+				"神圣导路|圣武士|XUA2023DruidAndPaladin|18",
+				"专长|圣武士|XUA2023DruidAndPaladin|19",
+				"传奇恩惠|圣武士|XUA2023DruidAndPaladin|20"
+			],
+			"subclassTitle": "圣武士子职",
+			"hasFluff": true
+		}
+	],
+	"classFluff": [
+		{
+			"ENG_name": "Druid",
+			"name": "德鲁伊",
+			"source": "XUA2023DruidAndPaladin",
+			"entries": [
+				{
+					"type": "section",
+					"source": "XUA2023DruidAndPaladin",
+					"entries": [
+						"德鲁伊属于远古命令，能够呼唤自然之力。通过驾驭动物、植物、天气和四象的魔法，德鲁伊可以施展医疗术、变形自身并操纵元素生物的毁灭。",
+						"将自然置于所有之上，个体德鲁伊从自然神、自然本身或两者获得他们的魔法，且他们通常与其他德鲁伊联合表演仪式来标记季节和其他自然周期的通行。远古德鲁伊传统有时被称为先古信仰，与神殿与神龛中对神的崇拜形成对比。",
+						"德鲁伊大师掌握原始魔法，这种魔法倾向于自然和动物\u2014\u2014牙齿和爪抓的力量，太阳和月亮的力量，火焰和暴风的力量。德鲁伊还获得变成动物形态的能力，一些德鲁伊专注于这种修行，甚至到了他们在动物形态中感觉更自然的程度。",
+						"对德鲁伊来讲，自然界存在着一个不稳定的平衡。构成世界的四大元素（气、土、火、水）必须保持平衡，如果其中一某元素的力量大于其他，则世界的结构将被摧毁，并退化成相应的元素位面进而分崩离析。所以，德鲁伊反对崇拜邪恶元素和那些只提升一种元素力量而排挤其他元素的人。",
+						"德鲁伊还关注维持植物和动物生命的微妙生态平衡，以及人们需要与自然和谐共处而非对抗。德鲁伊常被发现守卫圣地或照看未受破坏的自然区域。但当重大危险出现，威胁自然平衡或他们保护的土地时，德鲁伊会作为冒险者采取更积极的职能来对抗威胁。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Paladin",
+			"name": "圣武士",
+			"source": "XUA2023DruidAndPaladin",
+			"entries": [
+				{
+					"type": "section",
+					"source": "XUA2023DruidAndPaladin",
+					"entries": [
+						"圣武士们因誓言团结一致，对抗湮灭与腐败之力。无论是在神的祭坛前、在自然之灵和精类生物见证的神圣林间空地，还是在唯有亡者目睹的绝望悲痛时刻立下的誓言，圣武士的誓约都是强大的牵挂。这份誓约是将虔诚武者转变为受祝福勇士的法力来源。",
+						"一名圣武士发誓要对抗腐蚀影响力，并在任何废墟之力潜伏之处搜寻它们。不同的圣武士专注于这些事业的不同方面，但所有圣武士都受到誓言的约束，这些誓言赋予他们法力来完成他们的神圣工作。",
+						"圣武士训练学习战斗技能，掌握各种武器和护甲。即便如此，他们的军用技能次于他们所掌握的法力\u2014\u2014治疗伤病、圣裁敌人、保护无助者和与他们并肩作战者的法力。",
+						"几乎从定义上来说，圣武士的生活就是一种冒险生活，因为每一位圣武士都生活在对抗湮灭的宇宙斗争前线。战士在世界军队中已经足够稀少，但能宣称受到圣武士召唤的人更少。当他们确实受到召唤时，这些受祝福的人会放弃原先的职业，拿起护甲和魔法。有时他们的誓言会引导他们为王冠服务，成为精英骑士团的领袖，但即便如此，他们的忠诚首先归于神圣誓言，而非王冠与国家。",
+						"冒险圣武士们对待工作非常认真。探索远古废墟或尘土飞扬的地穴可能是出于比获取宝藏更高尚的目的而驱动的任务。邪恶力量潜伏在地下城中，即使是对抗它们的微小胜利也能使宇宙平衡远离湮灭。"
+					]
+				}
+			]
+		}
+	],
+	"subclass": [
+		{
+			"ENG_name": "Circle of the Moon",
+			"name": "月亮结社",
+			"shortName": "月亮",
+			"source": "XUA2023DruidAndPaladin",
+			"className": "德鲁伊",
+			"classSource": "XUA2023DruidAndPaladin",
+			"page": 8,
+			"subclassFeatures": [
+				"月亮结社|德鲁伊|XUA2023DruidAndPaladin|月亮|XUA2023DruidAndPaladin|3",
+				"元素荒野形态|德鲁伊|XUA2023DruidAndPaladin|月亮|XUA2023DruidAndPaladin|6",
+				"元素注拳|德鲁伊|XUA2023DruidAndPaladin|月亮|XUA2023DruidAndPaladin|10",
+				"千面相|德鲁伊|XUA2023DruidAndPaladin|月亮|XUA2023DruidAndPaladin|14"
+			]
+		},
+		{
+			"ENG_name": "Oath of Devotion",
+			"name": "奉献之誓",
+			"shortName": "奉献",
+			"source": "XUA2023DruidAndPaladin",
+			"className": "圣武士",
+			"classSource": "XUA2023DruidAndPaladin",
+			"page": 13,
+			"subclassFeatures": [
+				"奉献之誓|圣武士|XUA2023DruidAndPaladin|奉献|XUA2023DruidAndPaladin|3",
+				"神圣武器|圣武士|XUA2023DruidAndPaladin|奉献|XUA2023DruidAndPaladin|3",
+				"卫护斩|圣武士|XUA2023DruidAndPaladin|奉献|XUA2023DruidAndPaladin|6",
+				"奉献灵光|圣武士|XUA2023DruidAndPaladin|奉献|XUA2023DruidAndPaladin|10",
+				"至圣光轮|圣武士|XUA2023DruidAndPaladin|奉献|XUA2023DruidAndPaladin|14"
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"ENG_name": "Channel Nature",
+			"name": "自然引导",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 4,
+			"className": "德鲁伊",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 1,
+			"entries": [
+				"作为德鲁伊，当你达到该职业的指定等级时，你将获得以下职业特性。这些特性列在德鲁伊表格中。",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "1st Level: Channel Nature",
+							"name": "1环：自然引导",
+							"type": "entries",
+							"entries": [
+								"自然的魔法灌注于你。通过引导这股力量，你可以创造各种魔法效应。你初始获得一个此类效应：荒野形态，其描述见下方。其他德鲁伊特性会提供额外的自然引导效应选项。每次使用此自然导能时，你可以从本职业提供的效应中选择一个来创造。",
+								"你可以使用自然引导两次。当你完成一次{@variantrule 短休|XUA2023DruidAndPaladin}时恢复一次已消耗的使用次数，当你完成一次{@variantrule 长休|XUA2023DruidAndPaladin}时恢复所有已消耗的使用次数。当你达到德鲁伊特定等级时，如德鲁伊表格的自然引导栏所示，你将获得额外的使用次数。",
+								"如果一个自然引导效应需要豁免检定，则DC等于该职业施法特性的法术豁免DC。"
+							]
+						},
+						{
+							"ENG_name": "Wild Shape",
+							"name": "荒野形态",
+							"type": "entries",
+							"entries": [
+								"作为一个{@action 魔法|XUA2023DruidAndPaladin}动作，你变形为你已为该特性学会的一种形态。你开始时知晓一种形态\u2014\u2014陆行动物，该形态在后文的职业描述中的\"荒野形态\"部分有详细说明。你保持该形态的时长等同于你德鲁伊等级一半的小时数，或直到你再次使用荒野形态、获得{@condition 失能|XUA2023DruidAndPaladin}状态或死亡。你也可以用一个附赠动作提前结束荒野形态。",
+								"处于形态时，其游戏数据会取代你的数据，且你处理物件的能力由该形态的肢体决定，而非你自己的肢体。你保留你的个性、记忆、说话能力和荒野形态。你将失去所有其他特性的使用权，例如施法能力（你可以继续专注一个法术）。",
+								"当你变形时，你可以选择让你的装备掉落在你的空间中或融入你的新形态。与形态融合的装备在你离开该形态前无效果。"
+							]
+						},
+						{
+							"ENG_name": "Wild Shapes",
+							"name": "荒野形态",
+							"type": "entries",
+							"entries": [
+								"当你使用荒野形态时，你会变形为你为此特性学会的形态。本节包括三种形态：{@creature 陆行动物|XUA2023DruidAndPaladin}、{@creature 海洋动物|XUA2023DruidAndPaladin}且{@creature 天空动物|XUA2023DruidAndPaladin}。",
+								"当你变形时，你可以决定其外貌，从该形态的描述中选择一个范例动物，选择另一个合适的动物，或选择一个融合了两个或更多动物视觉特征的混合形态。你所选择的外貌对该形态的能力无效果。",
+								"当为形态选择动物的外貌时，该动物不需要与形态的体型相同。例如，你可以选择大象作为外貌且小型作为体型\u2014\u2014创造一个类似小象的形态。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Druidic",
+			"name": "德鲁伊语",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 5,
+			"className": "德鲁伊",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 1,
+			"entries": [
+				"你懂得德鲁伊语，这是德鲁伊们的秘密语言。你可以说这种语言并用它来留下隐藏的传讯术。",
+				"你和其他懂得这种语言的人会自动侦察到这样的传讯术。其他人需要通过一次成功的{@dc 15}智力（{@skill 调查}）检定来侦察到传讯术的存在，但没有魔法就无法解读它。"
+			]
+		},
+		{
+			"ENG_name": "Spellcasting",
+			"name": "施法",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 5,
+			"className": "德鲁伊",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 1,
+			"entries": [
+				"你通过学习自然的神秘力量学会了施法。有关施法的规则请参阅玩家手册。下方的消息详细说明了你作为德鲁伊如何使用这些规则。",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Prepared Spells",
+							"name": "准备法术",
+							"type": "entries",
+							"entries": [
+								"你准备了以下法术：{@spell 疗伤术}、{@spell 德鲁伊伎俩}、{@spell 燃火术}和{@spell 雷鸣波}。或者，你可以从原始法术列表中选择两个0环法术（也称为戏法）和两个1环法术。",
+								"每当你完成一次{@variantrule 长休|XUA2023DruidAndPaladin}时，你可以冥想并将为此职业准备的任一法术替换为同等级的另一个原始法术。",
+								"在此职业的更高等级时，你可以准备更多法术，如德鲁伊表格所示。那里的数值决定了你能准备的每个等级的不同法术数量。例如，作为一个4级德鲁伊，你可以准备三个不同的0环法术，四个不同的1环法术，且三个不同的2环法术。"
+							]
+						},
+						{
+							"ENG_name": "Spell Slots",
+							"name": "法术位",
+							"type": "entries",
+							"entries": [
+								"当你施放一个准备好的德鲁伊法术时，你将消耗一个法术位。你所拥有的1环及更高等级法术位的数量与你所能准备的每个等级的不同法术数量相同，如德鲁伊表格所示。例如，作为一个5级德鲁伊，你拥有四个一环法术位、三个2环法术位和两个3环法术位。"
+							]
+						},
+						{
+							"ENG_name": "Spellcasting Ability",
+							"name": "施法属性",
+							"type": "entries",
+							"entries": [
+								"感知是你的德鲁伊法术的施法属性。"
+							]
+						},
+						{
+							"ENG_name": "Spellcasting Focus",
+							"name": "法器",
+							"type": "entries",
+							"entries": [
+								"你可以使用德鲁伊法器作为你为该职业准备的法术的法器。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Nature's Aid",
+			"name": "自然援助",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 5,
+			"className": "德鲁伊",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 2,
+			"entries": [
+				"你学会另外两种使用自然导能的方式\u2014\u2014治愈之花和荒野伙伴\u2014\u2014每种方式都在下方描述。",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Healing Blossoms",
+							"name": "治愈之花",
+							"type": "entries",
+							"entries": [
+								"作为一个{@action 魔法|XUA2023DruidAndPaladin}动作，你引导治疗能量，表现为盛开的花朵。选择你自身30尺内的一个点，灵体花朵会短暂出现在以该点为中心的半径10尺球状区域内。然后掷骰等同于你感知调整值数量的d4（至少一个骰子），并将骰子相加。该数值是你可以分配给该球状区域内生物的生命值总数。你决定恢复给每个生物的生命值数量，从总数中扣除治疗量。"
+							]
+						},
+						{
+							"ENG_name": "Wild Companion",
+							"name": "荒野伙伴",
+							"type": "entries",
+							"entries": [
+								"你可以召唤一个以动物形态协助你的自然精魄。作为一个{@action 魔法|XUA2023DruidAndPaladin}动作，你可以消耗一次自然导能使用次数并无需材料成分施放{@spell 寻获魔宠}法术。",
+								"当你以此方式施放该法术时，魔宠是一个妖精，且当你完成一次{@variantrule 长休|XUA2023DruidAndPaladin}时它会消失。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Druid Subclass",
+			"name": "德鲁伊子职",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 5,
+			"className": "德鲁伊",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 3,
+			"entries": [
+				"你获得月亮结社子职或自选的其他德鲁伊子职。月亮结社详情见德鲁伊职业描述之后，其他子职将出现在未来的破解奥秘文章中。",
+				"子职是一种专精，可在特定德鲁伊等级授予你特殊能力。在你的剩余职业生涯中，你将获得子职中等于或低于你德鲁伊等级的所有特性。该职业的描述会告诉你子职提供特性的等级。"
+			]
+		},
+		{
+			"ENG_name": "Feat",
+			"name": "专长",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 6,
+			"className": "德鲁伊",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 4,
+			"entries": [
+				"你获得{@feat 属性值提升|XUA2022ClericAndRevisedSpecies}专长或另一个你符合条件的自选专长。"
+			]
+		},
+		{
+			"ENG_name": "Might of the Land",
+			"name": "大地之力",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 6,
+			"className": "德鲁伊",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 5,
+			"entries": [
+				"你与大地的联系加深，强化了你荒野形态中的{@creature 陆行动物|XUA2023DruidAndPaladin}形态；你解锁了该形态的{@variantrule 攀爬速度|XUA2023DruidAndPaladin}和多重攻击。"
+			]
+		},
+		{
+			"ENG_name": "Subclass Feature",
+			"name": "子职特性",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 6,
+			"className": "德鲁伊",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 6,
+			"entries": [
+				"你从你的德鲁伊子职中获得了一个特性。"
+			]
+		},
+		{
+			"ENG_name": "Aquatic Form",
+			"name": "水生形态",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 6,
+			"className": "德鲁伊",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 7,
+			"entries": [
+				"你学会了一种新的荒野形态：{@creature 海洋动物|XUA2023DruidAndPaladin}，该形态会在本职业描述的\"荒野形态\"部分后文中进行说明。"
+			]
+		},
+		{
+			"ENG_name": "Feat",
+			"name": "专长",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 6,
+			"className": "德鲁伊",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 8,
+			"entries": [
+				"你获得{@feat 属性值提升|XUA2022ClericAndRevisedSpecies}专长或另一个你符合条件的自选专长。"
+			]
+		},
+		{
+			"ENG_name": "Aerial Form",
+			"name": "空中形态",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 6,
+			"className": "德鲁伊",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 9,
+			"entries": [
+				"你学会了一个新的荒野形态：{@creature 天空动物|XUA2023DruidAndPaladin}，该形态在后文的\"荒野形态\"章节中有详细描述。"
+			]
+		},
+		{
+			"ENG_name": "Subclass Feature",
+			"name": "子职特性",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 6,
+			"className": "德鲁伊",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 10,
+			"entries": [
+				"你从你的德鲁伊子职中获得了一个特性。"
+			]
+		},
+		{
+			"ENG_name": "Tiny Critter",
+			"name": "微型生物",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 6,
+			"className": "德鲁伊",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 11,
+			"entries": [
+				"你获得变身为微型生物的能力。当你变身为荒野形态时，可以将其变为微型。若如此做，你只能在该形态中停留不超过10分钟，且在该形态中造成的伤害减半。"
+			]
+		},
+		{
+			"ENG_name": "Feat",
+			"name": "专长",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 6,
+			"className": "德鲁伊",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 12,
+			"entries": [
+				"你获得{@feat 属性值提升|XUA2022ClericAndRevisedSpecies}专长或另一个你符合条件的自选专长。"
+			]
+		},
+		{
+			"ENG_name": "Alternating Forms",
+			"name": "交替形态",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 6,
+			"className": "德鲁伊",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 13,
+			"entries": [
+				"你现在可以在荒野形态和正常形态之间快速切换。如果你处于荒野形态，你可以以一个附赠动作切换回正常形态，并且可以在接下来的1分钟内以一个附赠动作再次切换回该荒野形态。这两种切换都不会消耗荒野形态的使用次数。"
+			]
+		},
+		{
+			"ENG_name": "Subclass Feature",
+			"name": "子职特性",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 6,
+			"className": "德鲁伊",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 14,
+			"entries": [
+				"你从你的德鲁伊子职中获得了一个特性。"
+			]
+		},
+		{
+			"ENG_name": "Wild Resurgence",
+			"name": "荒野复苏",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 6,
+			"className": "德鲁伊",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 15,
+			"entries": [
+				"当你使用荒野形态时，原始魔法从你身上散发出来，允许你在同一次自然引导中使用治愈之花。"
+			]
+		},
+		{
+			"ENG_name": "Feat",
+			"name": "专长",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 6,
+			"className": "德鲁伊",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 16,
+			"entries": [
+				"你获得{@feat 属性值提升|XUA2022ClericAndRevisedSpecies}专长或另一个你符合条件的自选专长。"
+			]
+		},
+		{
+			"ENG_name": "Beast Spells",
+			"name": "兽形施法",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 6,
+			"className": "德鲁伊",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 17,
+			"entries": [
+				"你可以在任何荒野形态下施放法术。在此形态下，你可以执行姿势和言语成分，且不需要提供自由的材料成分。如果一个法术消耗其材料成分，你无法在荒野形态下施放该法术。"
+			]
+		},
+		{
+			"ENG_name": "Archdruid",
+			"name": "大德鲁伊",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 6,
+			"className": "德鲁伊",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 18,
+			"entries": [
+				"每当你掷先攻时，你恢复一次自然导能的使用次数。",
+				"此外，你所掌握的原始魔法使你衰老得更慢。每过去10年，你的身体只衰老1年。"
+			]
+		},
+		{
+			"ENG_name": "Feat",
+			"name": "专长",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 6,
+			"className": "德鲁伊",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 19,
+			"entries": [
+				"你获得{@feat 属性值提升|XUA2022ClericAndRevisedSpecies}专长或另一个你符合条件的自选专长。"
+			]
+		},
+		{
+			"ENG_name": "Epic Boon",
+			"name": "传奇恩惠",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 6,
+			"className": "德鲁伊",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 20,
+			"entries": [
+				"你获得以下增益效果：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Ability Score Increase",
+							"name": "属性值加成",
+							"type": "item",
+							"entries": [
+								"选择一项你的属性值。该属性值增加2，且此加成可使该属性值超过20但不超过30。"
+							]
+						},
+						{
+							"ENG_name": "Epic Boon Feat",
+							"name": "传奇恩惠专长",
+							"type": "item",
+							"entries": [
+								"你获得法术回溯传奇恩惠或另一个你选择的传奇恩惠专长。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Lay on Hands",
+			"name": "圣疗",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 10,
+			"className": "圣武士",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 1,
+			"entries": [
+				"你受祝福的接触可以治愈伤口。你拥有一个治疗法力池，当你进行一次{@variantrule 长休|XUA2023DruidAndPaladin}时会补充。通过这个法力池，你可以复原总计相当于你圣武士等级五倍的生命值。",
+				"作为一个{@action 魔法|XUA2023DruidAndPaladin}动作，你可以接触一个生物（可以是你自己）并从治疗水池中汲取法力，为该生物恢复一定数量的生命值，最多不超过水池中剩余的数量。",
+				"此外，你可以消耗治疗水池中的5点生命值来移除该生物的中毒状态，而不是使用这些点数来回复生命值。"
+			]
+		},
+		{
+			"ENG_name": "Spellcasting",
+			"name": "施法",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 10,
+			"className": "圣武士",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 1,
+			"entries": [
+				"你已学会通过祈祷、冥想和奉献来施法。有关施法的规则，请参阅玩家手册。下方的消息详细说明了你作为圣武士如何使用这些规则。",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Prepared Spells",
+							"name": "准备法术",
+							"type": "entries",
+							"entries": [
+								"你准备了以下法术：{@spell 英雄气概}、{@spell 抵抗术}、{@spell 维生术}和{@spell 雷鸣斩}。或者，你可以从神圣法术列表中选择准备二个0环法术（也称为戏法）和二个1环法术。",
+								"每当你完成一次{@variantrule 长休|XUA2023DruidAndPaladin}时，你可以冥想并将为此职业准备的任一法术替换为同等级的另一神圣法术。",
+								"在此职业的更高等级，你可以准备更多法术，如圣武士表格所示。那里的数值决定了你可以准备的每个等级的不同法术数量。例如，作为一个4级圣武士，你可以准备二个不同的0环法术且三个不同的1环法术。"
+							]
+						},
+						{
+							"ENG_name": "Spell Slots",
+							"name": "法术位",
+							"type": "entries",
+							"entries": [
+								"当你施放一个准备好的圣武士法术时，你将消耗一个法术位。你所拥有的一环及更高等级的法术位数量与你所能准备的每个等级的不同法术数量相同，如圣武士表格所示。例如，作为一个5级圣武士，你拥有四个一环法术位和二个2环法术位。"
+							]
+						},
+						{
+							"ENG_name": "Spellcasting Ability",
+							"name": "施法属性",
+							"type": "entries",
+							"entries": [
+								"魅力是你施放圣武士法术的施法属性。"
+							]
+						},
+						{
+							"ENG_name": "Spellcasting Focus",
+							"name": "法器",
+							"type": "entries",
+							"entries": [
+								"你可以使用一面圣徽作为你为该职业准备的法术的法器。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Divine Smite",
+			"name": "至圣斩",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 11,
+			"className": "圣武士",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 2,
+			"entries": [
+				"当你打击一个目标时，你可以引导神圣能量来圣裁它。当你使用武器或{@variantrule 徒手打击|XUA2023DruidAndPaladin}的攻击检定命中目标后，你可以消耗一个法术位来对目标造成光耀伤害。伤害为一环法术位的{@dice 2d8}，每比一环高一个法术位环阶则额外增加{@dice 1d8}。",
+				"你在一个回合中至多可以使用一次至圣斩，且你不能在施法的同一回合使用它。"
+			]
+		},
+		{
+			"ENG_name": "Fighting Style",
+			"name": "战斗风格",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 11,
+			"className": "圣武士",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 2,
+			"entries": [
+				"你磨练了军事实力且获得{@feat 战斗风格：防御|XUA2022ExpertClasses}专长，或你获得另一个自选的战斗风格专长。",
+				"每当你后文获得专长时，战斗风格专长也是你的可选选项，即使你不是武者组的成员。"
+			]
+		},
+		{
+			"ENG_name": "Channel Divinity",
+			"name": "引导神力",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 11,
+			"className": "圣武士",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 3,
+			"entries": [
+				"你可以直接从外层位面引导神圣能量，使用该能量作为魔法效应的燃料。你开始时拥有一个这样的效应：神圣感知，其描述如下。其他圣武士特性会提供额外的引导神力效应选项。每次你使用这个引导神力时，你可以从本职业提供的选项中选择要创造的效应。",
+				"你可以使用引导神力两次。当你完成一次{@variantrule 短休|XUA2023DruidAndPaladin}时恢复一次已消耗的使用次数，且当你完成一次{@variantrule 长休|XUA2023DruidAndPaladin}时恢复所有已消耗的使用次数。当你达到特定圣武士等级时，如圣武士表格的引导神力栏所示，你将获得额外的使用次数。如果一个引导神力效应需要豁免检定，其DC等于该职业施法特性的法术豁免DC。",
+				{
+					"ENG_name": "Divine Sense",
+					"name": "神圣感知",
+					"type": "entries",
+					"entries": [
+						"以一个附赠动作，你可以开放警觉以侦查天族、邪魔和亡灵。在接下来的10分钟或直到你处于{@condition 失能|XUA2023DruidAndPaladin}状态为止，你能知晓60尺内任何此类生物的位置及其生物类型。在同一范围内，你还能侦测到任何被祝圣或亵渎的地点或物件，如同{@spell 圣居}法术的效果。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Paladin Subclass",
+			"name": "圣武士子职",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 11,
+			"className": "圣武士",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 3,
+			"entries": [
+				"你获得奉献之誓子职或自选的另一个圣武士子职。奉献之誓详情见圣武士职业描述之后，其他子职将出现在未来的破解奥秘文章中。",
+				"子职是一种专精，可在特定圣武士等级授予你特殊能力。在你的职业生涯剩余时间里，你将获得子职中等于或低于你圣武士等级的所有特性。该职业的描述会告诉你子职提供特性的等级。"
+			]
+		},
+		{
+			"ENG_name": "Feat",
+			"name": "专长",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 11,
+			"className": "圣武士",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 4,
+			"entries": [
+				"你获得{@feat 属性值提升|XUA2022ClericAndRevisedSpecies}专长或另一个你符合条件的自选专长。"
+			]
+		},
+		{
+			"ENG_name": "Extra Attack",
+			"name": "额外攻击",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 11,
+			"className": "圣武士",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 5,
+			"entries": [
+				"在你的回合中，每当你使用{@action 攻击|XUA2023DruidAndPaladin}动作时，你可以攻击两次而非一次。"
+			]
+		},
+		{
+			"ENG_name": "Faithful Steed",
+			"name": "信实坐骑",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 11,
+			"className": "圣武士",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 5,
+			"entries": [
+				"你可以轻易召唤异界坐骑的援助。你总是准备着{@spell 寻获坐骑}法术，且不计入你可准备的法术数量。",
+				"当你施放该法术时，其施法时间为一个动作。你也可以不消耗法术位施放该法术一次，且当你完成一次{@variantrule 长休|XUA2023DruidAndPaladin}后恢复该能力。"
+			]
+		},
+		{
+			"ENG_name": "Subclass Feature",
+			"name": "子职特性",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 11,
+			"className": "圣武士",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 6,
+			"entries": [
+				"你从你的德鲁伊子职中获得了一个特性。"
+			]
+		},
+		{
+			"ENG_name": "Aura of Protection",
+			"name": "守护灵光",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 12,
+			"className": "圣武士",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 7,
+			"entries": [
+				"你散发出一股保护性的隐形灵光，从你向各个方向延伸10尺，但不会穿过全身掩护。",
+				"你与灵光内盟友的豁免结果获得相当于你魅力调整值的加值（最少为+1）。",
+				"如果存在另一名圣武士，一个生物在同一时间只能从一个守护灵光中获得增益；该生物在进入灵光范围时选择生效的守护灵光。"
+			]
+		},
+		{
+			"ENG_name": "Feat",
+			"name": "专长",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 12,
+			"className": "圣武士",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 8,
+			"entries": [
+				"你获得{@feat 属性值提升|XUA2022ClericAndRevisedSpecies}专长或另一个你符合条件的自选专长。"
+			]
+		},
+		{
+			"ENG_name": "Abjure Foes",
+			"name": "弃绝众敌",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 12,
+			"className": "圣武士",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 9,
+			"entries": [
+				"作为一个{@action 魔法|XUA2023DruidAndPaladin}动作，你可以消耗一次引导神力使用次数，用神圣威严压制敌人。当你展示你的圣徽或武器时，你可以指定数量等同于你魅力调整值（至少一个生物）的生物作为目标，这些生物必须在你60尺范围内且你能看见。",
+				"每个目标必须进行一次感知豁免检定。若豁免失败，目标将陷入{@condition 晕眩|XUA2023DruidAndPaladin}且{@condition 恐慌}状态1分钟或直到受到任何伤害。若豁免成功，目标将陷入{@condition 晕眩|XUA2023DruidAndPaladin}状态1分钟或直到受到任何伤害。"
+			]
+		},
+		{
+			"ENG_name": "Subclass Feature",
+			"name": "子职特性",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 12,
+			"className": "圣武士",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 10,
+			"entries": [
+				"你获得一个来自圣武士子职的特性。"
+			]
+		},
+		{
+			"ENG_name": "Radiant Strikes",
+			"name": "光耀打击",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 12,
+			"className": "圣武士",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 11,
+			"entries": [
+				"你充满了神圣力量，以至于你的武器打击带有超自然法力。当你使用简易或军用武器进行攻击检定命中目标时，目标会受到额外的{@damage 1d8}光耀伤害。"
+			]
+		},
+		{
+			"ENG_name": "Feat",
+			"name": "专长",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 12,
+			"className": "圣武士",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 12,
+			"entries": [
+				"你获得{@feat 属性值提升|XUA2022ClericAndRevisedSpecies}专长或另一个你符合条件的自选专长。"
+			]
+		},
+		{
+			"ENG_name": "Aura of Courage",
+			"name": "勇气灵光",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 12,
+			"className": "圣武士",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 13,
+			"entries": [
+				"你和你的盟友在你的守护灵光范围内对恐慌状态免疫。如果一个恐慌的盟友进入灵光范围，该状态在其停留期间将被压制。"
+			]
+		},
+		{
+			"ENG_name": "Subclass Feature",
+			"name": "子职特性",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 12,
+			"className": "圣武士",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 14,
+			"entries": [
+				"你获得一个来自圣武士子职的特性。"
+			]
+		},
+		{
+			"ENG_name": "Restoring Touch",
+			"name": "复原之触",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 12,
+			"className": "圣武士",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 15,
+			"entries": [
+				"当你对生物使用圣疗时，你也可以从该生物身上移除以下一个或多个状态：{@condition 目盲}、{@condition 魅惑}、{@condition 晕眩|XUA2023DruidAndPaladin}、{@condition 耳聋}、{@condition 恐慌}、{@condition 麻痹}或{@condition 震慑}。你必须为移除的每个状态消耗5点圣疗的治疗池生命值；这些点数不会同时为该生物回复生命值。"
+			]
+		},
+		{
+			"ENG_name": "Feat",
+			"name": "专长",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 12,
+			"className": "圣武士",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 16,
+			"entries": [
+				"你获得{@feat 属性值提升|XUA2022ClericAndRevisedSpecies}专长或另一个你符合条件的自选专长。"
+			]
+		},
+		{
+			"ENG_name": "Aura Expansion",
+			"name": "灵光增效",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 12,
+			"className": "圣武士",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 17,
+			"entries": [
+				"你的守护灵光现在从你延伸30尺而非10尺。"
+			]
+		},
+		{
+			"ENG_name": "Divine Conduit",
+			"name": "神圣导路",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 12,
+			"className": "圣武士",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 18,
+			"entries": [
+				"每当你掷先攻时，你恢复一次该职业的引导神力使用次数。"
+			]
+		},
+		{
+			"ENG_name": "Feat",
+			"name": "专长",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 12,
+			"className": "圣武士",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 19,
+			"entries": [
+				"你获得{@feat 属性值提升|XUA2022ClericAndRevisedSpecies}专长或另一个你符合条件的自选专长。"
+			]
+		},
+		{
+			"ENG_name": "Epic Boon",
+			"name": "传奇恩惠",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 12,
+			"className": "圣武士",
+			"classSource": "XUA2023DruidAndPaladin",
+			"level": 20,
+			"entries": [
+				"你获得以下增益效果：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Ability Score Increase",
+							"name": "属性值加成",
+							"type": "item",
+							"entries": [
+								"选择一项你的属性值。该属性值增加2，且此加成可使该属性值超过20但不超过30。"
+							]
+						},
+						{
+							"ENG_name": "Epic Boon Feat",
+							"name": "传奇恩惠专长",
+							"type": "item",
+							"entries": [
+								"你获得真实视觉的传奇恩惠或另一个你选择的传奇恩惠专长。"
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"ENG_name": "Circle of the Moon",
+			"name": "月亮结社",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 8,
+			"className": "德鲁伊",
+			"classSource": "XUA2023DruidAndPaladin",
+			"subclassShortName": "月亮",
+			"subclassSource": "XUA2023DruidAndPaladin",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"月亮结社的德鲁伊们借助月亮的魔法来变形自己且守护野外。他们的秩序在满月下聚集以分享消息并举行仪式。他们漫游在野外最深处，在那里他们可能连续数周都不会遇到另一个人，更不用说另一个德鲁伊了。",
+				"该结社的德鲁伊如月亮般善变，他们会作为野猫徘徊一晚，第二天又成为一只盘旋在树顶老鹰，再以熊的形态赶走领地中的入侵者。其德鲁伊之血充满野性。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "战斗荒野形态|德鲁伊|XUA2023DruidAndPaladin|月亮|XUA2023DruidAndPaladin|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Combat Wild Shape",
+			"name": "战斗荒野形态",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 8,
+			"className": "德鲁伊",
+			"classSource": "XUA2023DruidAndPaladin",
+			"subclassShortName": "月亮",
+			"subclassSource": "XUA2023DruidAndPaladin",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"你学会了魔法技巧，可以快速变形且在变形时引导魔法守护，给予你这些增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Abjuration Spells",
+							"name": "防护法术",
+							"type": "item",
+							"entries": [
+								"当你处于荒野形态时，你可以施放你当前准备的任何防护学派的法术，只要该法术不需要材料成分。"
+							]
+						},
+						{
+							"ENG_name": "Quick Attack",
+							"name": "迅捷打击",
+							"type": "item",
+							"entries": [
+								"你可以使用{@variantrule 徒手打击|XUA2023DruidAndPaladin}作为附赠动作。"
+							]
+						},
+						{
+							"ENG_name": "Swift Transformation",
+							"name": "迅捷变形",
+							"type": "item",
+							"entries": [
+								"你可以将荒野形态作为附赠动作或{@action 魔法|XUA2023DruidAndPaladin}动作使用，但每回合不超过一次。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Elemental Wild Shape",
+			"name": "元素荒野形态",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 8,
+			"className": "德鲁伊",
+			"classSource": "XUA2023DruidAndPaladin",
+			"subclassShortName": "月亮",
+			"subclassSource": "XUA2023DruidAndPaladin",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"引导远古月之术法，你将元素位面的法力注入你的荒野形态。每当你使用荒野形态时，选择以下伤害类型之一：强酸、寒冷、火焰、闪电或雷鸣。",
+				"在该形态下，你对所选伤害类型具有抗性，且该形态的野兽打击可造成该类型伤害而非其正常类型\u2014\u2014命中时你可选择伤害类型。",
+				"你的形态也会显示出所选伤害类型的迹象。例如，如果你选择火焰，你在荒野形态下的皮毛可能会闪烁着无害的火焰。你可以选择这些细节。"
+			]
+		},
+		{
+			"ENG_name": "Elemental Strike",
+			"name": "元素注拳",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 8,
+			"className": "德鲁伊",
+			"classSource": "XUA2023DruidAndPaladin",
+			"subclassShortName": "月亮",
+			"subclassSource": "XUA2023DruidAndPaladin",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"元素之力灌注你的攻击。当你用野兽打击造成伤害时，目标会受到额外{@damage 1d6}点你从元素荒野形态中选择类型的伤害。当你在该职业中达到17级时，此额外伤害提升至{@dice 2d6}。"
+			]
+		},
+		{
+			"ENG_name": "Thousand Forms",
+			"name": "千面相",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 8,
+			"className": "德鲁伊",
+			"classSource": "XUA2023DruidAndPaladin",
+			"subclassShortName": "月亮",
+			"subclassSource": "XUA2023DruidAndPaladin",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"你已学会使用月之术法以无数种方式改变你的物理形态。你总是准备着{@spell 变身术}法术，且你可以不消耗法术位施放它。它也不会计入你已准备的法术数量。"
+			]
+		},
+		{
+			"ENG_name": "Oath of Devotion",
+			"name": "奉献之誓",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 13,
+			"className": "圣武士",
+			"classSource": "XUA2023DruidAndPaladin",
+			"subclassShortName": "奉献",
+			"subclassSource": "XUA2023DruidAndPaladin",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"奉献之誓将圣武士与正义和秩序的最高理想联系在一起。这些圣武士体现了闪耀护甲骑士的理想。他们以最高的行为标准要求自己，有些人，无论好坏，也以同样的标准要求世界上的其他人。许多宣誓此誓约的人效忠于守序善良的神祇，并以他们神祇的教义作为奉献的标准。他们将天使视为理想，并将天使翅膀的形象融入头盔或护甲中。",
+				{
+					"ENG_name": "Tenets of Devotion",
+					"name": "奉献之信条",
+					"type": "inset",
+					"entries": [
+						"尽管对奉献之誓的精确定义和要求有许多不同的说法，但立下此誓言的圣武士都赞成以下信条。",
+						{
+							"ENG_name": "Honesty",
+							"name": "诚实",
+							"type": "entries",
+							"entries": [
+								"不诳语不欺骗，言出必行。"
+							]
+						},
+						{
+							"ENG_name": "Courage",
+							"name": "勇敢",
+							"type": "entries",
+							"entries": [
+								"谨慎深思，并无畏躬行。"
+							]
+						},
+						{
+							"ENG_name": "Compassion",
+							"name": "怜悯",
+							"type": "entries",
+							"entries": [
+								"援助他人，保护虚弱者，且惩罚那些威胁它们的人。对你的敌人展现命流，但用感知来调和它。荣誉。公平地对待他人，并让你荣誉的行为成为它们的范例。"
+							]
+						}
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "圣誓法术|圣武士|XUA2023DruidAndPaladin|奉献|XUA2023DruidAndPaladin|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "神圣武器|圣武士|XUA2023DruidAndPaladin|奉献|XUA2023DruidAndPaladin|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Oath Spells",
+			"name": "圣誓法术",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 13,
+			"className": "圣武士",
+			"classSource": "XUA2023DruidAndPaladin",
+			"subclassShortName": "奉献",
+			"subclassSource": "XUA2023DruidAndPaladin",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"你的圣誓魔法给予你以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Prepared Spells",
+							"name": "准备法术",
+							"type": "item",
+							"entries": [
+								"你总是预备着某些法术；当你达到奉献之誓法术表格中指定的圣武士等级时，你此后总是准备着列出的法术。这些法术不计入你可准备的法术数量，且它们遵循此职业施法特性的规则。"
+							]
+						},
+						{
+							"ENG_name": "Free Casting",
+							"name": "免费施法",
+							"type": "item",
+							"entries": [
+								"你可以免费施放一个从此特性中准备的法术而不消耗法术位，且你必须完成一次{@variantrule 长休|XUA2023DruidAndPaladin}才能再次使用此增益。"
+							]
+						}
+					]
+				},
+				{
+					"type": "table",
+					"caption": "奉献圣誓法术",
+					"colLabels": [
+						"圣武士等级",
+						"法术"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell 防护善恶}, {@spell 虔诚护盾}"
+						],
+						[
+							"5th",
+							"{@spell 援助术}, {@spell 诚实之域}"
+						],
+						[
+							"9th",
+							"{@spell 活力灵光}, {@spell 致盲斩}"
+						],
+						[
+							"13th",
+							"{@spell 信仰守卫}, {@spell 惊惧斩}"
+						],
+						[
+							"17th",
+							"{@spell 通神术}, {@spell 焰击术}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Sacred Weapon",
+			"name": "神圣武器",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 13,
+			"className": "圣武士",
+			"classSource": "XUA2023DruidAndPaladin",
+			"subclassShortName": "奉献",
+			"subclassSource": "XUA2023DruidAndPaladin",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"作为附赠动作，你可以消耗一次引导神力次数为你持有的一把简易或军用武器注入正能量。在1分钟内，你用该武器进行攻击检定时可以添加你的魅力调整值（最低加值为+1），且每次命中时，你可以使该武器造成其正常伤害类型或光耀伤害。",
+				"该武器还会在20尺半径内发出{@quickref 视野与光照||2||明亮光照}，且在此范围外20尺发出{@quickref 视野与光照||2||微光光照}。",
+				"你可以用一个附赠动作结束此效应。此效应也会在你未持有或携带该武器时，或当你处于{@condition 失能|XUA2023DruidAndPaladin}状态时结束。"
+			]
+		},
+		{
+			"ENG_name": "Smite of Protection",
+			"name": "卫护斩",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 13,
+			"className": "圣武士",
+			"classSource": "XUA2023DruidAndPaladin",
+			"subclassShortName": "奉献",
+			"subclassSource": "XUA2023DruidAndPaladin",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"你的至圣斩现在会散发卫护能量，让你和你的盟友能持续战斗。每当你使用至圣斩时，选择自身或30尺内一名盟友。该选民生物获得等于{@dice 1d8}加上用于至圣斩的法术位等级的临时生命值。"
+			]
+		},
+		{
+			"ENG_name": "Aura of Devotion",
+			"name": "奉献灵光",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 14,
+			"className": "圣武士",
+			"classSource": "XUA2023DruidAndPaladin",
+			"subclassShortName": "奉献",
+			"subclassSource": "XUA2023DruidAndPaladin",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"你且你的盟友在你的守护灵光内对魅惑状态免疫。如果一个被魅惑的盟友进入灵光，该状态在盟友处于灵光内时被压制。"
+			]
+		},
+		{
+			"ENG_name": "Holy Nimbus",
+			"name": "至圣光轮",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 14,
+			"className": "圣武士",
+			"classSource": "XUA2023DruidAndPaladin",
+			"subclassShortName": "奉献",
+			"subclassSource": "XUA2023DruidAndPaladin",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"作为附赠动作，你可以为你的守护灵光注入神圣法力。该灵光获得以下增益，持续1分钟或直到你以一个附赠动作结束它们：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Radiant Damage",
+							"name": "光耀伤害",
+							"type": "item",
+							"entries": [
+								"每当一个敌人在光环内开始其回合时，该生物受到等同于你的熟练加值加上魅力调整值的光耀伤害。"
+							]
+						},
+						{
+							"ENG_name": "Sunlight",
+							"name": "阳光",
+							"type": "item",
+							"entries": [
+								"光环内充满被视为阳光的{@quickref 视野与光照||2||明亮光照}。",
+								"一旦你使用了此特性，除非你在再次使用时消耗至少一个4环法术位，否则你将无法再次使用它，直到完成一次{@variantrule 长休|XUA2023DruidAndPaladin}。"
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"feat": [
+		{
+			"ENG_name": "Epic Boon of Fate",
+			"name": "命运传奇恩惠",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 14,
+			"prerequisite": [
+				{
+					"level": 20,
+					"group": [
+						"mage",
+						"priest"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你获得以下增益效果：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Ability Score Increase",
+							"name": "属性值加成",
+							"type": "item",
+							"entries": [
+								"你的智力、感知或魅力值增加1，最高不超过30。"
+							]
+						},
+						{
+							"ENG_name": "Improve Fate",
+							"name": "时来运转",
+							"type": "item",
+							"entries": [
+								"当60尺内的另一个生物在{@dice d20}检定中失败时，你可以掷{@dice 2d4}并将掷骰总数作为加值或减值应用于该{@dice d20}掷骰。你每回合最多只能使用此增益一次。你拥有8次此增益的使用次数，且每当你完成一次{@variantrule 长休|XUA2023DruidAndPaladin}时，你恢复{@dice 2d4}次已消耗的使用次数。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Epic Boon of Spell Recall",
+			"name": "传奇恩惠：法术回想",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 14,
+			"prerequisite": [
+				{
+					"level": 20,
+					"group": [
+						"mage",
+						"priest"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你获得以下增益效果：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Ability Score Increase",
+							"name": "属性值加成",
+							"type": "item",
+							"entries": [
+								"你的智力、感知或魅力值增加1，最高不超过30。"
+							]
+						},
+						{
+							"ENG_name": "Free Casting",
+							"name": "免费施法",
+							"type": "item",
+							"entries": [
+								"每当你使用1环、2环、3环或4环法术位施法时，掷一枚{@dice d4}。若掷骰结果等于该法术位的等级，则不消耗该法术位。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Epic Boon of Truesight",
+			"name": "传奇恩惠：真实视觉",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 15,
+			"prerequisite": [
+				{
+					"level": 20,
+					"group": [
+						"priest"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你获得以下增益效果：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Ability Score Increase",
+							"name": "属性值加成",
+							"type": "item",
+							"entries": [
+								"你的智力、感知或魅力值增加1，最高不超过30。"
+							]
+						},
+						{
+							"ENG_name": "Truesight",
+							"name": "真实视觉",
+							"type": "item",
+							"entries": [
+								"你在60尺范围内拥有{@variantrule 真实视觉|XUA2023DruidAndPaladin}。"
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"spell": [
+		{
+			"ENG_name": "Banishing Smite",
+			"name": "放逐斩",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 18,
+			"level": 5,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "附赠动作",
+					"condition": "你在用武器或{@variantrule 徒手打击|XUA2023DruidAndPaladin}命中生物后立即获得"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"被打击命中的目标受到额外{@damage 5d10}力场伤害，且目标必须成功通过魅力豁免检定否则被传送至一个无害的半位面持续至法术结束。",
+				"在半位面中，目标处于{@condition 失能|XUA2023DruidAndPaladin}状态。在其每回合结束时，目标重复豁免，成功则终止其身上的法术。当法术在目标身上结束时，它会重新出现在离开的空间中，如果该空间被占据，则出现在最近的未占据空间中。",
+				"如果该法术在目标身上持续1分钟且目标是异怪、天界生物、元素生物、妖精或邪魔，则目标不会返回。它会被传送到与其生物类型相关联的位面的随机位置。"
+			],
+			"entriesHigherLevel": [
+				{
+					"ENG_name": "At Higher Levels",
+					"name": "升环施法效应",
+					"type": "entries",
+					"entries": [
+						"当你使用6环或更高法术位施放该法术时，每比5环高一级，额外伤害增加{@dice 1d10}。"
+					]
+				}
+			],
+			"damageInflict": [
+				"力场"
+			],
+			"savingThrow": [
+				"魅力"
+			]
+		},
+		{
+			"ENG_name": "Blinding Smite",
+			"name": "致盲斩",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 18,
+			"level": 3,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "附赠动作",
+					"condition": "你在用武器或{@variantrule 徒手打击|XUA2023DruidAndPaladin}命中生物后立即获得"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"被打击命中的目标受到额外{@damage 3d8}光耀伤害，且目标必须成功通过体质豁免检定否则陷入目盲状态直到法术结束。在每个回合结束时，目盲的目标重复豁免检定，成功则终止其身上的法术。"
+			],
+			"entriesHigherLevel": [
+				{
+					"ENG_name": "At Higher Levels",
+					"name": "升环施法效应",
+					"type": "entries",
+					"entries": [
+						"当你使用4环或更高法术位施放该法术时，每比3环高一级，额外伤害增加{@dice 1d8}。"
+					]
+				}
+			],
+			"damageInflict": [
+				"光耀"
+			],
+			"savingThrow": [
+				"体质"
+			]
+		},
+		{
+			"ENG_name": "Find Familiar",
+			"name": "寻获魔宠",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 18,
+			"level": 1,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "小时"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "将价值 10gp 的木炭、焚香以及香草，放在黄铜盆中烧尽，作为该法术的耗材",
+					"cost": 1000,
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"你获得一个异界精魄的服务，它会以一个小动物的形态显现在你选择范围内一个未占据的空间中。",
+				"该生物使用{@creature 异界魔宠|XUA2023DruidAndPaladin}资料卡。若你已通过该法术拥有魔宠，原有魔宠将转化为新形态但保留记忆；你不会获得第二只魔宠。",
+				"每当你施放该法术时，选择魔宠的生物类型：天界生物、妖精或邪魔。",
+				"同时选择一个环境：风、大地或水。",
+				"该魔宠形似一只你选择的微型动物\u2014\u2014诸如猫头鹰、猫或青蛙\u2014\u2014且是该选定环境的本土生物。这两个选择\u2014\u2014生物类型和环境\u2014\u2014决定了资料卡中的某些特质。",
+				{
+					"ENG_name": "Combat",
+					"name": "战斗",
+					"type": "entries",
+					"entries": [
+						"该魔宠是你和你的盟友且同伴。在战斗中，它共享你的先攻值，但它在你的回合后立即行动。它服从你的命令术（无需你使用动作），但除非你在它的回合使用你的反应来命令它攻击，否则该魔宠不能攻击。",
+						"如果你没有发出任何命令，魔宠会采取{@action 回避}动作并使用其{@variantrule 移动|XUA2023DruidAndPaladin}来避免危险。"
+					]
+				},
+				{
+					"ENG_name": "Disappearance of the Familiar",
+					"name": "魔宠的消失",
+					"type": "entries",
+					"entries": [
+						"魔宠会在生命值降至0、被你用一个附赠动作解散或你死亡时消失。当它消失时，会留下它所穿戴或携带的任何东西。如果你再次施放该法术，你可以选择召唤之前消失的魔宠或一个不同的魔宠。"
+					]
+				},
+				{
+					"ENG_name": "Remote Viewing",
+					"name": "遥远视野",
+					"type": "entries",
+					"entries": [
+						"以一个{@action 魔法|XUA2023DruidAndPaladin}动作，你可以看见你的魔宠所见且听见你的魔宠所闻，直到你的下一个回合结束。"
+					]
+				}
+			],
+			"entriesHigherLevel": [
+				{
+					"ENG_name": "At Higher Levels",
+					"name": "升环施法效应",
+					"type": "entries",
+					"entries": [
+						"当你使用2环或更高等级的法术位施放该法术时，在资料卡中出现法术等级的地方使用更高的等级。"
+					]
+				}
+			],
+			"miscTags": [
+				"SGT",
+				"SMN",
+				"UBA"
+			]
+		},
+		{
+			"ENG_name": "Find Steed",
+			"name": "寻获坐骑",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 19,
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 10,
+					"unit": "分钟"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"你获得一个异界存在的服务，它会以忠诚坐骑的形态出现在你选择范围内一个未占据的空间中。",
+				"该生物使用{@creature 异界坐骑|XUA2023DruidAndPaladin}资料卡。若你已通过该法术获得坐骑，则新坐骑会取代原有坐骑。",
+				"坐骑看起来像一匹大型的可骑乘动物（由你选择），比如一匹马，一头骆驼，一只恐狼或一头赤鹿。你在施展此法术时从下述三种生物类型中选择坐骑的生物类型：天族、妖精、邪魔，其数据中的特定特质由坐骑的生物类型决定。",
+				{
+					"ENG_name": "Combat",
+					"name": "战斗",
+					"type": "entries",
+					"entries": [
+						"该坐骑是你和你的盟友的盟友。在战斗中，它共享你的先攻值，并作为受控坐骑（如骑乘战斗规则所述）行动。如果你处于{@condition 失能|XUA2023DruidAndPaladin}状态，它会在你的回合后立即行动并独立行动，专注于保护你。"
+					]
+				},
+				{
+					"ENG_name": "Disappearance of the Steed",
+					"name": "坐骑的消失",
+					"type": "entries",
+					"entries": [
+						"坐骑会在生命值降至0、被你用一个附赠动作解散或你死亡时消失。当它消失时，会留下它所穿戴或携带的任何东西。如果你再次施放该法术，你可以选择召唤之前消失的坐骑或一个不同的坐骑。"
+					]
+				}
+			],
+			"entriesHigherLevel": [
+				{
+					"ENG_name": "At Higher Levels",
+					"name": "升环施法效应",
+					"type": "entries",
+					"entries": [
+						"使用三环或更高法术位施展该法术时，该生物数据中使用更高的法术环数。"
+					]
+				}
+			],
+			"miscTags": [
+				"SMN",
+				"UBA"
+			]
+		},
+		{
+			"ENG_name": "Glimmering Smite",
+			"name": "闪耀圣裁",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 20,
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "附赠动作",
+					"condition": "你在用武器或{@variantrule 徒手打击|XUA2023DruidAndPaladin}命中生物后立即获得"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"被打击命中的目标额外受到{@damage 2d6}光耀伤害，且若具有{@condition 隐形|XUA2023DruidAndPaladin}状态，则该状态结束。此外，直到法术结束前，目标散发出5尺半径的明亮光照，且对其进行的攻击检定具有优势。"
+			],
+			"entriesHigherLevel": [
+				{
+					"ENG_name": "At Higher Levels",
+					"name": "升环施法效应",
+					"type": "entries",
+					"entries": [
+						"当你使用3环或更高法术位施放该法术时，每比2环高一级，额外伤害增加{@dice 1d6}。"
+					]
+				}
+			],
+			"damageInflict": [
+				"光耀"
+			],
+			"miscTags": [
+				"LGT"
+			]
+		},
+		{
+			"ENG_name": "Searing Smite",
+			"name": "炽焰斩",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 20,
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "附赠动作",
+					"condition": "在你用武器或{@variantrule 徒手打击|XUA2023DruidAndPaladin}击中目标后立即生效"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"当你命中目标时，你的打击会爆发出白热般的强度，且目标会受到额外的{@damage 1d6}火焰伤害并被魔法火焰点燃。在法术结束前的每回合开始时，目标必须进行一次体质豁免检定。若豁免失败，它将受到{@damage 1d6}火焰伤害。",
+				"豁免成功时，法术结束。"
+			],
+			"entriesHigherLevel": [
+				{
+					"ENG_name": "At Higher Levels",
+					"name": "升环施法效应",
+					"type": "entries",
+					"entries": [
+						"当你使用2环或更高法术位施放该法术时，法术位每比1环高一级，伤害就增加{@dice 1d6}。"
+					]
+				}
+			],
+			"damageInflict": [
+				"火焰"
+			],
+			"savingThrow": [
+				"体质"
+			]
+		},
+		{
+			"ENG_name": "Spare the Dying",
+			"name": "维生术",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 20,
+			"level": 0,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"你接触一个处于濒死状态的生物。该生物恢复1点生命值。"
+			],
+			"miscTags": [
+				"HL"
+			]
+		},
+		{
+			"ENG_name": "Staggering Smite",
+			"name": "惊惧斩",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 20,
+			"level": 4,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "附赠动作",
+					"condition": "你在用武器或{@variantrule 徒手打击|XUA2023DruidAndPaladin}命中生物后立即获得"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"当你命中该生物时，你的打击将贯穿其身体与心灵。目标受到额外{@damage 4d6}心灵伤害，且目标必须成功通过感知豁免检定，否则陷入震慑状态直到你的下个回合结束。"
+			],
+			"entriesHigherLevel": [
+				{
+					"ENG_name": "At Higher Levels",
+					"name": "升环施法效应",
+					"type": "entries",
+					"entries": [
+						"当你使用5环或更高法术位施放该法术时，每比4环高一级，额外伤害增加{@dice 1d6}。"
+					]
+				}
+			],
+			"damageInflict": [
+				"心灵"
+			],
+			"savingThrow": [
+				"感知"
+			]
+		},
+		{
+			"ENG_name": "Thunderous Smite",
+			"name": "雷鸣斩",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 21,
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "附赠动作",
+					"condition": "在你用武器或{@variantrule 徒手打击|XUA2023DruidAndPaladin}击中目标后立即生效"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"当你命中目标时，你的打击会发出雷鸣声，300尺内可闻，且目标会受到额外的{@damage 2d6}雷鸣伤害。此外，如果目标是生物，它必须成功通过力量豁免检定，否则会被推离你10尺并获得倒地状态。"
+			],
+			"entriesHigherLevel": [
+				{
+					"ENG_name": "At Higher Levels",
+					"name": "升环施法效应",
+					"type": "entries",
+					"entries": [
+						"当你使用2环或更高法术位施放该法术时，法术位每比1环高一级，伤害就增加{@dice 1d6}。"
+					]
+				}
+			],
+			"damageInflict": [
+				"雷鸣"
+			],
+			"savingThrow": [
+				"力量"
+			],
+			"miscTags": [
+				"FMV"
+			]
+		},
+		{
+			"ENG_name": "Wrathful Smite",
+			"name": "激愤斩",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 21,
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "附赠动作",
+					"condition": "你在用武器或{@variantrule 徒手打击|XUA2023DruidAndPaladin}命中生物后立即获得"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"当你命中该生物时，它将受到额外的{@damage 1d6}心灵伤害，且必须成功通过感知豁免检定否则陷入恐慌状态直到法术结束。在每个回合结束时，恐慌的目标将重复豁免检定，成功则终止对其自身的法术。"
+			],
+			"entriesHigherLevel": [
+				{
+					"ENG_name": "At Higher Levels",
+					"name": "升环施法效应",
+					"type": "entries",
+					"entries": [
+						"当你使用2环或更高法术位施放该法术时，法术位每比1环高一级，伤害就增加{@dice 1d6}。"
+					]
+				}
+			],
+			"damageInflict": [
+				"心灵"
+			],
+			"savingThrow": [
+				"感知"
+			]
+		}
+	],
+	"spellList": [
+		{
+			"ENG_name": "Divine",
+			"name": "神圣",
+			"source": "XUA2023DruidAndPaladin",
+			"spellListType": "结伙",
+			"spells": [
+				"光亮术",
+				"圣火术",
+				"维生术|XUA2023DruidAndPaladin",
+				"奇术",
+				"灾祸术",
+				"祝福术",
+				"命令术",
+				"强令对决",
+				"疗伤术",
+				"侦测善恶",
+				"侦测魔法",
+				"侦测毒性和疾病",
+				"神恩",
+				"光导箭",
+				"治愈真言",
+				"英雄气概",
+				"致伤术",
+				"防护善恶",
+				"净化饮食",
+				"庇护术",
+				"炽焰斩|XUA2023DruidAndPaladin",
+				"虔诚护盾",
+				"雷鸣斩|XUA2023DruidAndPaladin",
+				"激愤斩|XUA2023DruidAndPaladin",
+				"援助术",
+				"卜筮术",
+				"目盲术/耳聋术",
+				"闪耀圣裁|XUA2023DruidAndPaladin",
+				"安定心神",
+				"寻获坐骑|XUA2023DruidAndPaladin",
+				"寻找陷阱",
+				"遗体防腐",
+				"定身类人",
+				"次级复原术",
+				"物件定位术",
+				"魔化武器",
+				"防护毒素",
+				"沉默术",
+				"灵体武器",
+				"守护之链",
+				"诚实之域",
+				"活力灵光",
+				"希望信标",
+				"致盲斩|XUA2023DruidAndPaladin",
+				"鹰眼术",
+				"造粮术",
+				"十字军披风",
+				"昼明术",
+				"解除魔法",
+				"假死术",
+				"守卫刻文",
+				"防护法阵",
+				"群体治愈真言",
+				"移除诅咒",
+				"回生术",
+				"死者交谈",
+				"灵体卫士",
+				"巧言术",
+				"生命灵光",
+				"净化灵光",
+				"防死结界",
+				"预言术",
+				"行动自如",
+				"信仰守卫",
+				"生物定位术",
+				"惊惧斩|XUA2023DruidAndPaladin",
+				"放逐斩|XUA2023DruidAndPaladin",
+				"原力法阵",
+				"通神术",
+				"疫病术",
+				"湮灭波",
+				"驱逐善恶",
+				"焰击术",
+				"指使术",
+				"高等复原术",
+				"圣居",
+				"通晓传奇",
+				"群体疗伤术",
+				"异界誓缚",
+				"死者复活",
+				"探知术",
+				"剑刃护壁",
+				"寻路术",
+				"禁制术",
+				"重伤术",
+				"医疗术",
+				"英雄宴",
+				"异界誓盟",
+				"阳炎射线",
+				"真知术",
+				"回返真言",
+				"咒唤圣光",
+				"圣言术",
+				"以太化",
+				"位面转移",
+				"再生术",
+				"复生术",
+				"徽记术",
+				"反魔法场",
+				"嫌恶术/关怀术",
+				"圣洁灵光",
+				"阳炎爆",
+				"星界投影",
+				"预见术",
+				"异界之门",
+				"群体医疗术",
+				"律令医疗",
+				"完全复生术"
+			]
+		},
+		{
+			"ENG_name": "Primal",
+			"name": "原始",
+			"source": "XUA2023DruidAndPaladin",
+			"spellListType": "结伙",
+			"spells": [
+				"德鲁伊伎俩",
+				"修复术",
+				"传讯术",
+				"毒气喷涌",
+				"燃火术",
+				"橡棍术",
+				"维生术|XUA2023DruidAndPaladin",
+				"荆棘之鞭",
+				"化兽为友",
+				"造水术/枯水术",
+				"疗伤术",
+				"侦测魔法",
+				"侦测毒性和疾病",
+				"诱捕打击",
+				"纠缠术",
+				"妖火",
+				"云雾术",
+				"神莓术",
+				"棘雹术",
+				"治愈真言",
+				"猎人印记",
+				"跳跃术",
+				"大步奔行",
+				"净化饮食",
+				"动物交谈",
+				"雷鸣波",
+				"动物信使",
+				"卜筮术",
+				"野兽感官",
+				"警戒箭阵",
+				"黑暗视觉",
+				"强化属性",
+				"变巨/缩小术",
+				"寻找陷阱",
+				"火焰刀",
+				"炽焰法球",
+				"遗体防腐",
+				"造风术",
+				"灼热金属",
+				"次级复原术",
+				"动植物定位术",
+				"物件定位术",
+				"月华之光",
+				"行动无踪",
+				"防护毒素",
+				"沉默术",
+				"荆棘丛生",
+				"召雷术",
+				"咒唤兽群",
+				"箭如雨下",
+				"昼明术",
+				"解除魔法",
+				"元素武器",
+				"假死术",
+				"闪电箭矢",
+				"群体治愈真言",
+				"融身入石",
+				"回避侦测",
+				"植物滋长",
+				"防护能量",
+				"回生术",
+				"雪雨暴",
+				"植物交谈",
+				"水下呼吸",
+				"水上行走",
+				"风墙术",
+				"咒唤微元素群",
+				"咒唤林地卫士",
+				"操控水体",
+				"支配野兽",
+				"行动自如",
+				"巨虫术",
+				"擒抱藤",
+				"冰风暴",
+				"生物定位术",
+				"变形术",
+				"塑石术",
+				"石肤术",
+				"火墙术",
+				"防活物护罩",
+				"启蒙术",
+				"问道自然",
+				"咒唤元素",
+				"万箭齐发",
+				"高等复原术",
+				"疫病虫群",
+				"群体疗伤术",
+				"转生术",
+				"探知术",
+				"迅捷箭袋",
+				"树跃术",
+				"石墙术",
+				"咒唤妖精",
+				"寻路术",
+				"医疗术",
+				"地动术",
+				"阳炎射线",
+				"木遁术",
+				"冰墙术",
+				"棘墙术",
+				"御风而行",
+				"火焰风暴",
+				"再生术",
+				"反转重力",
+				"动物形态",
+				"操控天气",
+				"地震术",
+				"阳炎爆",
+				"海啸术",
+				"律令医疗",
+				"形体变化",
+				"复仇风暴",
+				"完全复生术"
+			]
+		}
+	],
+	"baseitem": [
+		{
+			"ENG_name": "Shortsword",
+			"name": "短剑",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 25,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 1000,
+			"weaponCategory": "简易",
+			"property": [
+				"F",
+				"XUA2023DruidAndPaladin-L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true
+		}
+	],
+	"item": [
+		{
+			"ENG_name": "Priest's Pack",
+			"name": "祭司套组",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 27,
+			"type": "G",
+			"rarity": "none",
+			"weight": 24,
+			"value": 3300,
+			"entries": [
+				"包括：",
+				{
+					"type": "list",
+					"items": [
+						"{@item 背包|PHB}",
+						"{@item 毯子|PHB}",
+						"{@item 油灯|PHB}",
+						"{@item 圣水(扁瓶装)|PHB|圣水}",
+						"{@item 口粮(1天份)|PHB|口粮} (7天)",
+						"{@item 长袍|PHB|法袍}",
+						"{@item 火绒盒|PHB}"
+					]
+				}
+			],
+			"packContents": [
+				"背包|PHB",
+				"毯子|PHB",
+				"油灯|PHB",
+				"火绒盒|PHB",
+				{
+					"item": "口粮(1天份)|PHB",
+					"quantity": 7
+				},
+				"长袍|PHB"
+			]
+		}
+	],
+	"itemProperty": [
+		{
+			"abbreviation": "XUA2023DruidAndPaladin-L",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 26,
+			"entries": [
+				{
+					"ENG_name": "Light",
+					"name": "光亮术",
+					"type": "entries",
+					"entries": [
+						"当你在你的回合使用{@action 攻击|XUA2023DruidAndPaladin}动作且用一只手攻击轻型武器并在另一只手持有轻型武器时，你可以作为同一动作的一部分进行一次额外攻击。该额外攻击必须用另一只手的轻型武器进行，且你不将属性调整值加到额外攻击的伤害上。你只能在每个回合进行一次这种额外攻击。",
+						"例如，若你在回合中采取{@action 攻击|XUA2023DruidAndPaladin}动作且一手持短剑另一手持匕首\u2014\u2014两者皆具有轻型属性\u2014\u2014你可以用每把武器各发动一次攻击，但不会将力量或敏捷调整值加到第二把武器的伤害掷骰上。"
+					]
+				}
+			]
+		}
+	],
+	"monster": [
+		{
+			"ENG_name": "Animal of the Land",
+			"name": "陆行动物",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 7,
+			"size": [
+				"S",
+				"M",
+				"L"
+			],
+			"type": {
+				"type": "Terrestrial Animal",
+				"note": "(Your Creature Type Doesn't Change)"
+			},
+			"ac": [
+				{
+					"special": "10 + 你的感知调整值"
+				}
+			],
+			"hp": {
+				"special": "你继续使用你的生命骰和生命值"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": {
+					"number": 40,
+					"condition": "（需要5级或更高等级）"
+				}
+			},
+			"str": {
+				"special": "等于你的感知值"
+			},
+			"dex": {
+				"special": "等于你的感知值"
+			},
+			"con": {
+				"special": "使用你的属性值"
+			},
+			"int": {
+				"special": "使用你的属性值"
+			},
+			"wis": {
+				"special": "使用你的属性值"
+			},
+			"cha": {
+				"special": "使用你的属性值"
+			},
+			"senses": [
+				"黑暗视觉 60 尺"
+			],
+			"languages": [
+				"你所知晓的语言"
+			],
+			"pbNote": "等于你的熟练加值",
+			"trait": [
+				{
+					"ENG_name": "Keen Senses",
+					"name": "敏锐感官",
+					"entries": [
+						"你在感知（察觉）检定上具有优势。"
+					]
+				}
+			],
+			"action": [
+				{
+					"ENG_name": "Bestial Strike",
+					"name": "野兽打击",
+					"entries": [
+						"{@atk m}你的法术攻击调整值以命中，触及范围5尺，单一目标。{@h}{@damage 1d8} + 你的感知调整值的钝击、穿刺或挥砍伤害。"
+					]
+				},
+				{
+					"ENG_name": "Multiattack (Requires 5th+ Level)",
+					"name": "多重攻击（需要5级或更高等级）",
+					"entries": [
+						"你发动两次野兽打击攻击。"
+					]
+				}
+			],
+			"traitTags": [
+				"敏锐感官"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"多重攻击"
+			]
+		},
+		{
+			"ENG_name": "Animal of the Sea",
+			"name": "海洋动物",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 7,
+			"size": [
+				"S",
+				"M",
+				"L"
+			],
+			"type": {
+				"type": {
+					"choose": [
+						"Aquatic Animal",
+						"Semiaquatic Animal"
+					]
+				},
+				"note": "(Your Creature Type Doesn't Change)"
+			},
+			"ac": [
+				{
+					"special": "10 + 你的感知调整值"
+				}
+			],
+			"hp": {
+				"special": "你继续使用你的生命骰和生命值"
+			},
+			"speed": {
+				"walk": 20,
+				"swim": {
+					"number": 40,
+					"condition": "（需要5级或更高等级）"
+				}
+			},
+			"str": {
+				"special": "等于你的感知值"
+			},
+			"dex": {
+				"special": "等于你的感知值"
+			},
+			"con": {
+				"special": "使用你的属性值"
+			},
+			"int": {
+				"special": "使用你的属性值"
+			},
+			"wis": {
+				"special": "使用你的属性值"
+			},
+			"cha": {
+				"special": "使用你的属性值"
+			},
+			"senses": [
+				"黑暗视觉 90 尺"
+			],
+			"languages": [
+				"你所知晓的语言"
+			],
+			"pbNote": "等于你的熟练加值",
+			"trait": [
+				{
+					"ENG_name": "Amphibious",
+					"name": "水陆两栖",
+					"entries": [
+						"你可以在空气和水中呼吸。"
+					]
+				}
+			],
+			"action": [
+				{
+					"ENG_name": "Bestial Strike",
+					"name": "野兽打击",
+					"entries": [
+						"{@atk m}你的法术攻击调整值以命中，触及范围5尺，单一目标。{@h}{@damage 1d8} + 你的感知调整值的钝击、穿刺或挥砍伤害。"
+					]
+				},
+				{
+					"ENG_name": "Multiattack (Requires 5th+ Level)",
+					"name": "多重攻击（需要5级或更高等级）",
+					"entries": [
+						"你发动两次野兽打击攻击。"
+					]
+				}
+			],
+			"traitTags": [
+				"水陆两栖"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"多重攻击"
+			]
+		},
+		{
+			"ENG_name": "Animal of the Sky",
+			"name": "天空动物",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 7,
+			"size": [
+				"S",
+				"M",
+				"L"
+			],
+			"type": {
+				"type": "Winged Animal",
+				"note": "(Your Creature Type Doesn't Change)"
+			},
+			"ac": [
+				{
+					"special": "10 + 你的感知调整值"
+				}
+			],
+			"hp": {
+				"special": "你继续使用你的生命骰和生命值"
+			},
+			"speed": {
+				"walk": 20,
+				"fly": {
+					"number": 40,
+					"condition": "（需要5级或更高等级）"
+				}
+			},
+			"str": {
+				"special": "等于你的感知值"
+			},
+			"dex": {
+				"special": "等于你的感知值"
+			},
+			"con": {
+				"special": "使用你的属性值"
+			},
+			"int": {
+				"special": "使用你的属性值"
+			},
+			"wis": {
+				"special": "使用你的属性值"
+			},
+			"cha": {
+				"special": "使用你的属性值"
+			},
+			"senses": [
+				"黑暗视觉 120 尺"
+			],
+			"languages": [
+				"你所知晓的语言"
+			],
+			"pbNote": "等于你的熟练加值",
+			"trait": [
+				{
+					"ENG_name": "Flyby",
+					"name": "飞掠",
+					"entries": [
+						"当你飞出敌人的触及范围时不会引发借机攻击。"
+					]
+				},
+				{
+					"ENG_name": "Keen Senses",
+					"name": "敏锐感官",
+					"entries": [
+						"你在感知（察觉）检定上具有优势。"
+					]
+				}
+			],
+			"action": [
+				{
+					"ENG_name": "Bestial Strike",
+					"name": "野兽打击",
+					"entries": [
+						"{@atk m}你的法术攻击调整值以命中，触及范围5尺，单一目标。{@h}{@damage 1d8} + 你的感知调整值的钝击、穿刺或挥砍伤害。"
+					]
+				},
+				{
+					"ENG_name": "Multiattack (Requires 5th+ Level)",
+					"name": "多重攻击（需要5级或更高等级）",
+					"entries": [
+						"你发动两次野兽打击攻击。"
+					]
+				}
+			],
+			"traitTags": [
+				"飞掠",
+				"敏锐感官"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"多重攻击"
+			]
+		},
+		{
+			"ENG_name": "Otherworldly Familiar",
+			"name": "异界魔宠",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 19,
+			"size": [
+				"T"
+			],
+			"type": {
+				"type": {
+					"choose": [
+						"celestial",
+						"fey",
+						"fiend"
+					]
+				},
+				"note": "(Choose When Casting the Spell)"
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"special": "10 + 2（仅陆地） + 每法术环阶1（天生护甲）"
+				}
+			],
+			"hp": {
+				"special": "2 + 每个法术环阶2（魔宠拥有等同于法术等级的生命骰[d4s]）"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": {
+					"number": 30,
+					"condition": "（仅陆地）"
+				},
+				"fly": {
+					"number": 30,
+					"condition": "（仅空中）"
+				},
+				"swim": {
+					"number": 30,
+					"condition": "（仅水中）"
+				}
+			},
+			"str": 3,
+			"dex": 14,
+			"con": 10,
+			"int": 10,
+			"wis": 14,
+			"cha": 8,
+			"senses": [
+				"黑暗视觉 60 尺"
+			],
+			"passive": 12,
+			"languages": [
+				"{@variantrule 心灵感应|XUA2023DruidAndPaladin} 120尺（仅限你与魔宠之间）"
+			],
+			"pbNote": "等于你的加值",
+			"trait": [
+				{
+					"ENG_name": "Amphibious (Water Only)",
+					"name": "两栖（仅水生）",
+					"entries": [
+						"该魔宠可以呼吸空气和饮水。"
+					]
+				},
+				{
+					"ENG_name": "Extradimensional Escape (Recharges after a {@variantrule Long Rest|XUA2023DruidAndPaladin})",
+					"name": "异界逃脱（在{@variantrule 长休|XUA2023德鲁伊与圣武士}后充能）",
+					"entries": [
+						"当魔宠的生命值降至0时，它会改为降至1生命值并消失进入异次元空间，留下它所穿戴或携带的任何东西。它会在那里停留1小时或直到你使用一个{@action 魔法|XUA2023DruidAndPaladin}动作召唤它，然后它会重新出现在你的空间。"
+					]
+				}
+			],
+			"action": [
+				{
+					"ENG_name": "Otherworldly Scratch",
+					"name": "异界抓挠",
+					"entries": [
+						"{@atk ms}你的法术攻击调整值以命中，触及范围5尺，单一目标。{@h}1 + 该法术等级的光耀伤害（天界生物）、心灵伤害（妖精）或暗蚀伤害（邪魔）。"
+					]
+				}
+			],
+			"reaction": [
+				{
+					"ENG_name": "Deliver Spell",
+					"name": "传递法术",
+					"entries": [
+						"当你施放一个范围为接触的法术时，魔宠可以用它的接触来传递该法术。",
+						"为此，魔宠必须在你120尺范围内。"
+					]
+				}
+			],
+			"traitTags": [
+				"水陆两栖"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"TP"
+			]
+		},
+		{
+			"ENG_name": "Otherworldly Steed",
+			"name": "异界坐骑",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 19,
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": {
+					"choose": [
+						"celestial",
+						"fey",
+						"fiend"
+					]
+				},
+				"note": "(Choose When Casting the Spell)"
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"special": "10 + 每法术环阶1（天生护甲）"
+				}
+			],
+			"hp": {
+				"special": "5 + 每法术环阶 10（坐骑具有等于法术环阶数量的生命骰[D10]）"
+			},
+			"speed": {
+				"walk": 60,
+				"fly": {
+					"number": 60,
+					"condition": "（需要4环或更高等级法术）"
+				}
+			},
+			"str": 18,
+			"dex": 12,
+			"con": 14,
+			"int": 6,
+			"wis": 12,
+			"cha": 8,
+			"passive": 11,
+			"languages": [
+				"{@variantrule 心灵感应|XUA2023DruidAndPaladin} 1英里（仅限你与坐骑之间）"
+			],
+			"pbNote": "等于你的加值",
+			"trait": [
+				{
+					"ENG_name": "Life Bond",
+					"name": "生命连接",
+					"entries": [
+						"当你从1环或更高等级的法术中恢复生命值时，若你在坐骑5尺范围内，坐骑也会恢复相同数值的生命值。"
+					]
+				}
+			],
+			"action": [
+				{
+					"ENG_name": "Otherworldly Maul",
+					"name": "异界巨锤",
+					"entries": [
+						"{@atk ms}你的法术攻击调整值以命中，触及范围5尺，单一目标。{@h}{@dice 1d8} + 法术等级的光耀伤害（天界生物）、心灵伤害（妖精）或暗蚀伤害（邪魔）。"
+					]
+				}
+			],
+			"bonus": [
+				{
+					"ENG_name": "Fey Step (Fey Only; Recharges after a {@variantrule Long Rest|XUA2023DruidAndPaladin})",
+					"name": "精类步（仅限妖精；在{@variantrule 长休|XUA2023DruidAndPaladin}后充能）",
+					"entries": [
+						"该坐骑与其骑手一同传送至60尺内你选择的一个未占据空间。"
+					]
+				},
+				{
+					"ENG_name": "Fell Glare (Fiend Only; Recharges after a {@variantrule Long Rest|XUA2023DruidAndPaladin})",
+					"name": "极恶凝视（仅限邪魔；在{@variantrule 长休|XUA2023德鲁伊与圣武士}后充能）",
+					"entries": [
+						"坐骑的双眼闪烁着邪魔的光亮术，锁定一个它能在60尺内感知到的生物。目标必须通过对抗你法术豁免DC的感知豁免检定，否则将陷入恐慌状态直到你的下一个回合结束。"
+					]
+				},
+				{
+					"ENG_name": "Healing Touch (Celestial Only; Recharges after a {@variantrule Long Rest|XUA2023DruidAndPaladin})",
+					"name": "治愈之触（仅限天界生物；在{@variantrule 长休|XUA2023德鲁伊与圣武士}后充能）",
+					"entries": [
+						"该坐骑触碰另一个生物并为其恢复等于{@dice 2d8} + 法术等级的数值点生命值。"
+					]
+				}
+			],
+			"languageTags": [
+				"TP"
+			]
+		}
+	],
+	"variantrule": [
+		{
+			"ENG_name": "Armor Training",
+			"name": "护甲受训",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 22,
+			"entries": [
+				"护甲受训是护甲熟练的新名称。任何涉及护甲熟练的现有规则现在都适用于护甲受训。",
+				"如果你穿着轻型、中等或重甲且不具备该类型护甲的护甲受训，你在任何涉及力量或敏捷的{@dice d20}检定上具有劣势，且不能施法。",
+				"如果你装备了护盾术且缺乏护盾术的护甲受训，你将无法获得护盾术的护甲等级附赠动作。"
+			]
+		},
+		{
+			"ENG_name": "Artisan's Tools",
+			"name": "工匠工具",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 22,
+			"entries": [
+				"工匠工具是一类工具，角色可以通过{@variantrule 工具熟练|XUA2023DruidAndPaladin}获得相关能力。关于工匠工具的列表，请参阅2014版玩家手册，但忽略其中的价格；这些工具现在每件花费15GP。"
+			]
+		},
+		{
+			"ENG_name": "Blindsight",
+			"name": "盲视",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 22,
+			"entries": [
+				"如果你拥有盲视，你可以在特定范围内不依赖物理视觉进行观察。在该范围内，你可以有效看到任何不在全身掩护后的东西，即使你处于目盲状态或处于黑暗术中。此外，在该范围内，你可以有效看到具有{@condition 隐形|XUA2023DruidAndPaladin}状态的生物。"
+			]
+		},
+		{
+			"ENG_name": "Climb Speed",
+			"name": "攀爬速度",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 16,
+			"entries": [
+				"攀爬速度可用于穿越垂直表面而无需消耗通常与攀爬相关的额外移动力。",
+				"某些生物具有蛛行术特质，这使得它们的攀爬速度即使在布拉之岩底部的水平表面上也能工作。"
+			]
+		},
+		{
+			"ENG_name": "Creature Type",
+			"name": "生物类型",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 22,
+			"entries": [
+				"D&D中的每个生物，包括每个玩家角色，都有一个特殊的规则标签来标识其生物类型。大多数玩家角色属于类人生物类型。",
+				"这里是按字母顺序排列的游戏生物类型列表：",
+				{
+					"type": "table",
+					"colStyles": [
+						"col-6 text-center",
+						"col-6 text-center"
+					],
+					"rows": [
+						[
+							"异怪",
+							"邪魔"
+						],
+						[
+							"野兽",
+							"巨人语"
+						],
+						[
+							"天界语",
+							"类人"
+						],
+						[
+							"构装",
+							"怪兽"
+						],
+						[
+							"龙",
+							"泥怪"
+						],
+						[
+							"元素",
+							"植物"
+						],
+						[
+							"妖精",
+							"亡灵"
+						]
+					]
+				},
+				"这些类型本身没有规则，但游戏中的一些规则会以不同方式影响特定类型的生物。例如，{@spell 魅惑类人}法术的描述指定其目标必须是类人生物。"
+			]
+		},
+		{
+			"ENG_name": "D20 Tests",
+			"name": "D20 检定",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 22,
+			"entries": [
+				"术语{@dice d20}检定包含游戏的三种主要{@dice d20}掷骰：属性检定、攻击检定和豁免检定。如果游戏中的某些内容影响{@dice d20}检定，则会影响这三种掷骰。",
+				"DM决定在任何给定的{@dice d20}检定是否合理"
+			]
+		},
+		{
+			"ENG_name": "Difficult Terrain",
+			"name": "困难地形",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 22,
+			"entries": [
+				"如果一处空间是困难地形，那么在这个空间里进行的每尺移动都需要额外消耗 1 尺移动力。举个例子，移动穿过 5 尺的困难地形需要消耗你 10 尺的移动力。困难地形无法叠加，一处空间只可能\"是困难地形\"或\"不是困难地形\"。",
+				"一个空间对生物来说是困难地形，如果该空间包含以下任何情况：",
+				{
+					"type": "list",
+					"style": "list-no-bullets",
+					"items": [
+						"非微型生物",
+						"小型或更大体型的家具",
+						"重型雪",
+						"重型灌木丛",
+						"介于小腿和腰部之间的液体（更深则需要游泳）",
+						"一个适合生物大小的狭窄开口",
+						"体型较小",
+						"坑陷或另一个2-5英尺的缺口",
+						"瓦砾",
+						"20度或以上的斜坡"
+					]
+				},
+				"DM可以根据这里的示例确定其他事物是否算作困难地形。"
+			]
+		},
+		{
+			"ENG_name": "Expertise",
+			"name": "专精",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 23,
+			"entries": [
+				"专精是一种特殊特性，能增强你对特定技能熟练的使用。如果你获得专精，你可以在一个你已具备熟练的技能中获得它。你永远不能在同一个技能熟练上获得超过一次的专精。",
+				"当你使用具有专精的技能熟练进行属性检定时，该检定的熟练加值翻倍。"
+			]
+		},
+		{
+			"ENG_name": "Fly Speed",
+			"name": "飞行速度",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 23,
+			"entries": [
+				"飞行速度可用于在风中移动。当你拥有飞行速度时，你可以保持在空中直到你落地、坠落或死亡。",
+				"飞行时，若你缺乏悬浮特质且具有{@condition 失能|XUA2023DruidAndPaladin}或倒地状态，或你的飞行速度缩小至0，则会坠落。"
+			]
+		},
+		{
+			"ENG_name": "Gaming Set",
+			"name": "赌具",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 24,
+			"entries": [
+				"赌具是一类工具，角色可以通过{@variantrule 工具熟练|XUA2023DruidAndPaladin}获得相关能力。有关赌具列表，请参阅2014年玩家手册，但忽略其中的价格；这些赌具现在每套花费1GP。"
+			]
+		},
+		{
+			"ENG_name": "Heroic Advantage",
+			"name": "英雄优势",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 24,
+			"entries": [
+				"当你拥有英雄优势（也称为激励）时，你可以消耗它来让自己在{@variantrule D20 检定|XUA2023DruidAndPaladin|D20 检定}中获得优势。你可以在掷出{@dice d20}后立即决定这样做。",
+				{
+					"ENG_name": "Gaining Heroic Advantage",
+					"name": "获得英雄优势",
+					"type": "entries",
+					"entries": [
+						"DM可以授予一名玩家角色英雄优势，如果该角色做了特别英勇或符合角色性格的事情。",
+						"某些游戏特性，例如人类，也会授予英雄优势。"
+					]
+				},
+				{
+					"ENG_name": "Only One at a Time",
+					"name": "一次只有一个",
+					"type": "entries",
+					"entries": [
+						"你永远不能拥有超过一个英雄优势的实例。如果某物给予你英雄优势且你已经拥有它，你可以将它给予你队伍中缺乏它的一名玩家角色。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Knocking a Creature Out",
+			"name": "击晕",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 26,
+			"entries": [
+				"有时攻击手想要击昏敌人而非造成致命伤害。当攻击手用近战{@action 攻击|XUA2023DruidAndPaladin}将生物的生命值降至0时，攻击手可以改为将其生命值降至1。该生物随后获得{@condition 昏迷|XUA2023DruidAndPaladin}状态并开始一次{@variantrule 短休|XUA2023DruidAndPaladin}。",
+				"该生物保持{@condition 昏迷|XUA2023DruidAndPaladin}状态，直到它恢复任何生命值或有人使用一个动作对其进行急救，这需要一个成功的{@dc 10}感知（{@skill 医药}）检定。"
+			]
+		},
+		{
+			"ENG_name": "Long Rest",
+			"name": "长休",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 26,
+			"entries": [
+				"长休是一段延长的休整期\u2014\u2014至少8小时长\u2014\u2014任何生物都可以进行。在长休期间，你需要进行至少6小时的睡眠术且不超过2小时的轻型活动，例如阅读、交谈、进食或守卫。",
+				"在睡眠期间，你处于{@condition 昏迷|XUA2023DruidAndPaladin}状态。",
+				{
+					"ENG_name": "Benefits of the Rest",
+					"name": "休息的增益",
+					"type": "entries",
+					"entries": [
+						"要开始长休，你必须至少有1点生命值。当你完成休息时，你将获得以下增益：",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"ENG_name": "Regain All HP",
+									"name": "恢复全部生命值",
+									"type": "item",
+									"entries": [
+										"你恢复所有迷失的生命值。"
+									]
+								},
+								{
+									"ENG_name": "Regain All HD",
+									"name": "恢复所有HD",
+									"type": "item",
+									"entries": [
+										"你恢复所有已消耗的生命骰。"
+									]
+								},
+								{
+									"ENG_name": "HP Max Restored",
+									"name": "生命值上限恢复",
+									"type": "item",
+									"entries": [
+										"如果你的生命值上限被缩小，它将恢复正常。"
+									]
+								},
+								{
+									"ENG_name": "Ability Scores Restored",
+									"name": "属性值恢复",
+									"type": "item",
+									"entries": [
+										"如果你的某项属性值被减少了，那么其在此时会恢复原状。"
+									]
+								},
+								{
+									"ENG_name": "Exhaustion Reduced",
+									"name": "力竭消退",
+									"type": "item",
+									"entries": [
+										"如果你处于{@condition 力竭|XUA2023DruidAndPaladin}状态，你的力竭等级降低1级。"
+									]
+								},
+								{
+									"ENG_name": "Special Feature",
+									"name": "特殊特性",
+									"type": "item",
+									"entries": [
+										"有些特性会在长休时恢复。如果你拥有此类特性，长休完成时这些特性会以它们自己描述中写明的方式恢复。"
+									]
+								}
+							]
+						}
+					]
+				},
+				"在你完成一次长休后，必须等待至少16小时才能开始下一次长休。",
+				{
+					"ENG_name": "Interrupting the Rest",
+					"name": "打断休息",
+					"type": "entries",
+					"entries": [
+						"一次长休会因下列原因而被打断："
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"投掷先攻",
+						"施放0等级以外的法术 • 受到任何伤害",
+						"1小时的步行或其他体力消耗。如果在中断前休息时间至少为1小时，你将获得{@variantrule 短休|XUA2023DruidAndPaladin}的增益。"
+					]
+				},
+				"你可以在被打断后立即恢复长休。如果这样做，每次打断需要额外1小时来完成休息。"
+			]
+		},
+		{
+			"ENG_name": "Move",
+			"name": "移动",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 26,
+			"entries": [
+				"当你移动时，你可以移动一段等于或小于你速度的距离。例如，如果你的速度为30尺，你可以在移动时移动最多30尺。{@variantrule 困难地形|XUA2023DruidAndPaladin}可能会使你减速。",
+				{
+					"ENG_name": "Breaking Up Your Move",
+					"name": "拆分移动",
+					"type": "entries",
+					"entries": [
+						"你可以拆分你的移动，在同一个回合内使用部分移动力在你采取的任何动作之前和之后。例如，如果你的速度为30尺，你可以移动10尺，采取一个动作，然后再移动20尺。"
+					]
+				},
+				{
+					"ENG_name": "Moving Around Other Creatures",
+					"name": "绕过其他生物",
+					"type": "entries",
+					"entries": [
+						"在你的移动期间，你可以穿过一个盟友、一个{@condition 失能|XUA2023DruidAndPaladin}的生物、一个微型生物或一个体型比你大两号或小两号的生物的空间。",
+						"另一个生物的空间对你来说是{@variantrule 困难地形|XUA2023DruidAndPaladin}，除非该生物是微型。",
+						"你不能自愿在另一个生物占据的空间内结束你的{@variantrule 移动|XUA2023DruidAndPaladin}。"
+					]
+				},
+				{
+					"ENG_name": "Changes to Your Speeds",
+					"name": "速度上的变化",
+					"type": "entries",
+					"entries": [
+						"如果一个效应在一段时间内增加或减少你的速度，你所拥有的任何特殊速度也会在相同持续时间内增加或减少相同的数量。例如，如果你的速度被缩小到0且你拥有一个{@variantrule 攀爬速度|XUA2023DruidAndPaladin}，你的{@variantrule 攀爬速度|XUA2023DruidAndPaladin}也会被缩小到0。类似地，如果你的速度减半且你拥有一个{@variantrule 飞行速度|XUA2023DruidAndPaladin}，你的{@variantrule 飞行速度|XUA2023DruidAndPaladin}也会减半。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Musical Instrument",
+			"name": "乐器",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 27,
+			"entries": [
+				"乐器是一类工具，角色可以通过{@variantrule 工具熟练|XUA2023DruidAndPaladin}获得相关能力。有关乐器的列表，请参阅2014年玩家手册，但忽略其中的价格；这些乐器现在每件花费20金币。"
+			]
+		},
+		{
+			"ENG_name": "Ritual Casting",
+			"name": "仪式施法",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 27,
+			"entries": [
+				"如果你准备了一个带有仪式标签的法术，你可以将该法术作为仪式施放。仪式施法不再需要特殊特性。2014年玩家手册中关于仪式的所有其他规则仍然适用。"
+			]
+		},
+		{
+			"ENG_name": "Rules Glossary",
+			"name": "术语汇编",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 11,
+			"entries": [
+				"本术语汇编包含了本测试文档中具有新含义的游戏术语，以及诸如{@variantrule 生物类型|XUA2023DruidAndPaladin}等在2014版玩家手册中未定义的术语。这些术语按字母顺序排列。",
+				"如果一个术语没有出现在这里，使用2014年《玩家手册》中的定义，且在试玩本文件时，不要使用任何其他《破解奥秘》文章的术语汇编。",
+				{
+					"type": "list",
+					"columns": 3,
+					"items": [
+						"{@variantrule 护甲受训|XUA2023DruidAndPaladin}",
+						"{@variantrule 盲视|XUA2023DruidAndPaladin}",
+						"{@variantrule 攀爬速度|XUA2023DruidAndPaladin}",
+						"{@variantrule 生物类型|XUA2023DruidAndPaladin}",
+						"{@variantrule D20 检定|XUA2023DruidAndPaladin}",
+						"{@variantrule 困难地形|XUA2023DruidAndPaladin}",
+						"{@variantrule 专精|XUA2023DruidAndPaladin}",
+						"{@variantrule 飞行速度|XUA2023DruidAndPaladin}",
+						"{@variantrule 英雄优势|XUA2023DruidAndPaladin}",
+						"{@variantrule 击晕|XUA2023DruidAndPaladin}",
+						"{@variantrule 长休|XUA2023DruidAndPaladin}",
+						"{@variantrule 移动|XUA2023DruidAndPaladin}",
+						"{@variantrule 仪式施法|XUA2023DruidAndPaladin}",
+						"{@variantrule 短休|XUA2023DruidAndPaladin}",
+						"{@variantrule 游泳速度|XUA2023DruidAndPaladin}",
+						"{@variantrule 心灵感应|XUA2023DruidAndPaladin}",
+						"{@variantrule 传送|XUA2023DruidAndPaladin}",
+						"{@variantrule 工具熟练|XUA2023DruidAndPaladin}",
+						"{@variantrule 震颤感知|XUA2023DruidAndPaladin}",
+						"{@variantrule 真实视觉|XUA2023DruidAndPaladin}",
+						"{@variantrule 徒手打击|XUA2023DruidAndPaladin}",
+						"{@variantrule 工匠工具|XUA2023DruidAndPaladin}",
+						"{@variantrule 赌具|XUA2023DruidAndPaladin}",
+						"{@variantrule 乐器|XUA2023DruidAndPaladin}"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Short Rest",
+			"name": "短休",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 27,
+			"entries": [
+				"短休是1小时的休整期，期间生物只能进行进食、饮水、阅读、打盹和站岗守卫等轻度活动。",
+				{
+					"ENG_name": "Benefits of the Rest",
+					"name": "休息的增益",
+					"type": "entries",
+					"entries": [
+						"要开始短休，你必须至少有1点生命值。当你结束休息时，你将获得以下增益：",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"ENG_name": "Spend Hit Dice",
+									"name": "花费生命骰",
+									"type": "item",
+									"entries": [
+										"你可以消耗一个或多个生命骰来恢复生命值。每消耗一个生命骰，掷骰并添加你的体质调整值。你将恢复等于该总数（至少1点生命值）的生命值。你可以在每次掷骰后决定是否消耗额外的生命骰。"
+									]
+								},
+								{
+									"ENG_name": "Special Feature",
+									"name": "特殊特性",
+									"type": "item",
+									"entries": [
+										"有些特性会在短休时恢复使用次数。如果你拥有此类特性，在短休完成时这些特性会以其描述中写明的方式恢复。"
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ENG_name": "Interrupting the Rest",
+					"name": "打断休息",
+					"type": "entries",
+					"entries": [
+						"一次短休会因下列原因而被打断："
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"投掷先攻",
+						"施放0级以外的法术",
+						"受到任何伤害"
+					]
+				},
+				"被打断的短休不会提供任何增益，且必须重新开始才能获得任何效果"
+			]
+		},
+		{
+			"ENG_name": "Spell Lists",
+			"name": "法术列表",
+			"source": "XUA2023DruidAndPaladin",
+			"type": "entries",
+			"entries": [
+				{
+					"ENG_name": "Divine Spells",
+					"name": "神圣法术",
+					"type": "entries",
+					"entries": [
+						"神圣法术汲取神和外层位面的法力。牧师和圣武士驾驭这种魔法。",
+						"神圣法术表格是神圣法术的部分列表。该表格提供了法术的等级、名称和{@action 魔法|XUA2023DruidAndPaladin}学派。该列表还标明了法术是否带有仪式标签。",
+						"如果一个法术的{@action 魔法|XUA2023DruidAndPaladin}学派与2014年玩家手册中显示的不同，则会在学派后显示一个星号(*)。",
+						{
+							"type": "table",
+							"colLabels": [
+								"等级",
+								"法术",
+								"学派",
+								"仪式"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-5",
+								"col-4",
+								"col-2 text-center"
+							],
+							"rows": [
+								[
+									"0",
+									"{@u {@spell 神导术|XUA2022ClericAndRevisedSpecies}}",
+									"预言术",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 光亮术}",
+									"塑能",
+									"No"
+								],
+								[
+									"0",
+									"{@u {@spell 抵抗术|XUA2022ClericAndRevisedSpecies}}",
+									"防护",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 圣火术}",
+									"塑能",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 维生术}",
+									"死灵",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 奇术}",
+									"变化系",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 灾祸术}",
+									"惑控",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 祝福术}",
+									"惑控",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 命令术}",
+									"惑控",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 强制决斗}",
+									"惑控",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 疗伤术}",
+									"防护*",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 侦测善恶}",
+									"预言术",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 侦测魔法}",
+									"预言术",
+									"是"
+								],
+								[
+									"0",
+									"{@spell 冷冻射线}",
+									"塑能",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 侦测毒性和疾病}",
+									"预言术",
+									"是"
+								],
+								[
+									"1",
+									"{@spell 神恩}",
+									"变化系",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 光导箭}",
+									"塑能",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 治愈真言}",
+									"防护*",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 英雄气概}",
+									"惑控",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 致伤术}",
+									"死灵",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 防护善恶}",
+									"防护",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 净化饮食}",
+									"变化系",
+									"是"
+								],
+								[
+									"1",
+									"{@spell 庇护术}",
+									"防护",
+									"No"
+								],
+								[
+									"1",
+									"{@u {@spell 炽焰斩|XUA2023DruidAndPaladin}}",
+									"塑能",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 虔诚护盾}",
+									"防护",
+									"是"
+								],
+								[
+									"1",
+									"{@u {@spell 雷鸣斩|XUA2023DruidAndPaladin}}",
+									"变化系",
+									"No"
+								],
+								[
+									"1",
+									"{@u {@spell 激愤斩|XUA2023DruidAndPaladin}}",
+									"惑控*",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 援助术}",
+									"防护",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 卜筮术}",
+									"预言术",
+									"是"
+								],
+								[
+									"2",
+									"{@spell 目盲术/耳聋术}",
+									"变化系",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 安定心神}",
+									"惑控",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 寻获坐骑}",
+									"咒法",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 寻找陷阱}",
+									"预言术",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 遗体防腐}",
+									"死灵",
+									"是"
+								],
+								[
+									"2",
+									"{@u {@spell 闪耀圣裁|XUA2023DruidAndPaladin|闪耀圣裁（原印记斩）}}",
+									"变化系",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 定身类人}",
+									"惑控",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 次级复原术}",
+									"防护",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 物件定位术}",
+									"预言术",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 魔化武器}",
+									"变化系",
+									"No"
+								],
+								[
+									"2",
+									"{@u {@spell 治疗祷言|XUA2022ClericAndRevisedSpecies}}",
+									"防护*",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 防护毒素}",
+									"防护",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 沉默术}",
+									"幻术",
+									"是"
+								],
+								[
+									"2",
+									"{@spell 灵体武器}",
+									"塑能",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 守护之链}",
+									"防护",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 诚实之域}",
+									"惑控",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 活力灵光}",
+									"防护*",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 希望信标}",
+									"防护",
+									"No"
+								],
+								[
+									"3",
+									"{@u {@spell 致盲斩|XUA2023DruidAndPaladin}}",
+									"变化系",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 鹰眼术}",
+									"预言术",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 造粮术}",
+									"咒法",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 十字军披风}",
+									"变化系",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 昼明术}",
+									"塑能",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 解除魔法}",
+									"防护",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 假死术}",
+									"死灵",
+									"是"
+								],
+								[
+									"3",
+									"{@spell 守卫刻文}",
+									"防护",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 防护法阵}",
+									"防护",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 群体治愈真言}",
+									"防护*",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 移除诅咒}",
+									"防护",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 回生术}",
+									"死灵",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 死者交谈}",
+									"死灵",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 灵体卫士}",
+									"咒法",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 巧言术}",
+									"预言术",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 生命灵光}",
+									"防护",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 净化灵光}",
+									"防护",
+									"No"
+								],
+								[
+									"4",
+									"{@u {@spell 放逐术|XUA2022ClericAndRevisedSpecies}}",
+									"咒法*",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 防死结界}",
+									"防护",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 预言术}",
+									"预言术",
+									"是"
+								],
+								[
+									"4",
+									"{@spell 行动自如}",
+									"防护",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 信仰守卫}",
+									"咒法",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 生物定位术}",
+									"预言术",
+									"No"
+								],
+								[
+									"4",
+									"{@u {@spell 惊惧斩|XUA2023DruidAndPaladin}}",
+									"惑控*",
+									"No"
+								],
+								[
+									"5",
+									"{@u {@spell 放逐斩|XUA2023DruidAndPaladin}}",
+									"咒法*",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 原力法阵}",
+									"防护",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 通神术}",
+									"预言术",
+									"是"
+								],
+								[
+									"5",
+									"{@spell 疫病术}",
+									"死灵",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 湮灭波}",
+									"塑能",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 驱逐善恶}",
+									"防护",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 焰击术}",
+									"塑能",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 指使术}",
+									"惑控",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 高等复原术}",
+									"防护",
+									"是"
+								],
+								[
+									"5",
+									"{@spell 圣居}",
+									"防护*",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 通晓传奇}",
+									"预言术",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 群体疗伤术}",
+									"防护",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 异界誓缚}",
+									"防护",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 死者复活}",
+									"死灵",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 探知术}",
+									"预言术",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 秘法门}",
+									"咒法",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 剑刃护壁}",
+									"塑能",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 寻路术}",
+									"预言术",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 禁制术}",
+									"防护",
+									"是"
+								],
+								[
+									"6",
+									"{@spell 重伤术}",
+									"死灵",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 医疗术}",
+									"防护*",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 英雄宴}",
+									"咒法",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 异界誓盟}",
+									"咒法",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 阳炎射线}",
+									"塑能",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 真知术}",
+									"预言术",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 回返真言}",
+									"咒法",
+									"No"
+								],
+								[
+									"7",
+									"{@spell 咒唤圣光}",
+									"咒法",
+									"No"
+								],
+								[
+									"7",
+									"{@spell 圣言术}",
+									"塑能",
+									"No"
+								],
+								[
+									"7",
+									"{@spell 以太化}",
+									"变化系",
+									"No"
+								],
+								[
+									"7",
+									"{@spell 位面转移}",
+									"咒法",
+									"No"
+								],
+								[
+									"7",
+									"{@spell 再生术}",
+									"变化系",
+									"No"
+								],
+								[
+									"7",
+									"{@spell 复生术}",
+									"死灵",
+									"No"
+								],
+								[
+									"7",
+									"{@spell 徽记术}",
+									"防护",
+									"No"
+								],
+								[
+									"8",
+									"{@spell 反魔法场}",
+									"防护",
+									"No"
+								],
+								[
+									"8",
+									"{@spell 嫌恶术/关怀术}",
+									"惑控",
+									"No"
+								],
+								[
+									"8",
+									"{@spell 圣洁灵光}",
+									"防护",
+									"No"
+								],
+								[
+									"8",
+									"{@spell 阳炎爆}",
+									"塑能",
+									"No"
+								],
+								[
+									"8",
+									"{@spell 星界投影}",
+									"死灵",
+									"No"
+								],
+								[
+									"8",
+									"{@spell 预见术}",
+									"预言术",
+									"No"
+								],
+								[
+									"8",
+									"{@spell 异界之门}",
+									"咒法",
+									"No"
+								],
+								[
+									"8",
+									"{@spell 群体医疗术}",
+									"防护*",
+									"No"
+								],
+								[
+									"8",
+									"{@spell 律令医疗}",
+									"防护*",
+									"No"
+								],
+								[
+									"8",
+									"{@spell 完全复生术}",
+									"死灵",
+									"No"
+								]
+							]
+						}
+					]
+				},
+				{
+					"ENG_name": "Primal Spells",
+					"name": "原始法术",
+					"type": "entries",
+					"entries": [
+						"原始法术汲取自然和内层位面的力量。德鲁伊和游侠驾驭这种魔法。",
+						"原始法术表格是原始法术的部分列表。该表格提供了法术的等级、名称和魔法学派。该列表还表明法术是否具有仪式标签。",
+						"如果一个法术的魔法学派与2014年玩家手册中出现的不同，会在学派后显示星号(*)。",
+						{
+							"type": "table",
+							"colLabels": [
+								"等级",
+								"法术",
+								"学派",
+								"仪式"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-5",
+								"col-4",
+								"col-2 text-center"
+							],
+							"rows": [
+								[
+									"0",
+									"{@spell 德鲁伊伎俩}",
+									"变化系",
+									"No"
+								],
+								[
+									"0",
+									"{@u {@spell 神导术|XUA2022ClericAndRevisedSpecies}}",
+									"预言术",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 修复术}",
+									"变化系",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 传讯术}",
+									"变化系",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 毒气喷涌}",
+									"咒法",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 燃火术}",
+									"塑能*",
+									"No"
+								],
+								[
+									"0",
+									"{@u {@spell 抵抗术|XUA2022ClericAndRevisedSpecies}}",
+									"防护",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 橡棍术}",
+									"变化系",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 维生术}",
+									"死灵",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 荆棘之鞭}",
+									"变化系",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 化兽为友}",
+									"惑控",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 造水术/枯水术}",
+									"变化系",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 疗伤术}",
+									"防护*",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 侦测魔法}",
+									"预言术",
+									"是"
+								],
+								[
+									"1",
+									"{@spell 侦测毒性和疾病}",
+									"预言术",
+									"是"
+								],
+								[
+									"1",
+									"{@spell 诱捕打击}",
+									"咒法",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 纠缠术}",
+									"咒法",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 妖火}",
+									"塑能",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 云雾术}",
+									"咒法",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 神莓术}",
+									"变化系",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 棘雹术}",
+									"咒法",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 治愈真言}",
+									"防护*",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 猎人印记}",
+									"预言术",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 跳跃术}",
+									"变化系",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 大步奔行}",
+									"变化系",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 净化饮食}",
+									"变化系",
+									"是"
+								],
+								[
+									"1",
+									"{@spell 动物交谈}",
+									"预言术",
+									"是"
+								],
+								[
+									"1",
+									"{@spell 雷鸣波}",
+									"变化系",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 动物信使}",
+									"惑控",
+									"是"
+								],
+								[
+									"2",
+									"{@spell 卜筮术}",
+									"预言术",
+									"是"
+								],
+								[
+									"2",
+									"{@u {@spell 树肤术|XUA2022ClericAndRevisedSpecies}}",
+									"变化系",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 野兽感官}",
+									"预言术",
+									"是"
+								],
+								[
+									"2",
+									"{@spell 警戒箭阵}",
+									"变化系",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 黑暗视觉}",
+									"变化系",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 强化属性}",
+									"变化系",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 变巨/缩小术}",
+									"变化系",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 寻找陷阱}",
+									"预言术",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 火焰刀}",
+									"塑能",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 炽焰法球}",
+									"塑能*",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 遗体防腐}",
+									"死灵",
+									"是"
+								],
+								[
+									"2",
+									"{@spell 造风术}",
+									"塑能",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 灼热金属}",
+									"变化系",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 次级复原术}",
+									"防护",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 动植物定位术}",
+									"预言术",
+									"是"
+								],
+								[
+									"2",
+									"{@spell 物件定位术}",
+									"预言术",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 月华之光}",
+									"塑能",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 行动无踪}",
+									"防护",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 防护毒素}",
+									"防护",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 沉默术}",
+									"幻术",
+									"是"
+								],
+								[
+									"2",
+									"{@spell 荆棘丛生}",
+									"变化系",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 召雷术}",
+									"咒法",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 咒唤兽群}",
+									"咒法",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 箭如雨下}",
+									"咒法",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 昼明术}",
+									"塑能",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 解除魔法}",
+									"防护",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 元素武器}",
+									"变化系",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 假死术}",
+									"死灵",
+									"是"
+								],
+								[
+									"3",
+									"{@spell 闪电箭矢}",
+									"变化系",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 群体治愈真言}",
+									"防护*",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 融身入石}",
+									"变化系",
+									"是"
+								],
+								[
+									"3",
+									"{@spell 回避侦测}",
+									"防护",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 植物滋长}",
+									"变化系",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 防护能量}",
+									"防护",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 回生术}",
+									"死灵",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 雪雨暴}",
+									"咒法",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 植物交谈}",
+									"变化系",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 水下呼吸}",
+									"变化系",
+									"是"
+								],
+								[
+									"3",
+									"{@spell 水上行走}",
+									"变化系",
+									"是"
+								],
+								[
+									"3",
+									"{@spell 风墙术}",
+									"塑能",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 咒唤微元素群}",
+									"咒法",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 咒唤林地卫士}",
+									"咒法",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 操控水体}",
+									"变化系",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 支配野兽}",
+									"惑控",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 行动自如}",
+									"防护",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 巨虫术}",
+									"变化系",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 擒抱藤}",
+									"咒法",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 冰风暴}",
+									"塑能",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 生物定位术}",
+									"预言术",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 变形术}",
+									"变化系",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 塑石术}",
+									"变化系",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 石肤术}",
+									"变化系",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 火墙术}",
+									"塑能",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 防活物护罩}",
+									"防护",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 启蒙术}",
+									"变化系",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 问道自然}",
+									"预言术",
+									"是"
+								],
+								[
+									"5",
+									"{@spell 咒唤元素}",
+									"咒法",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 万箭齐发}",
+									"咒法",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 高等复原术}",
+									"防护",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 疫病虫群}",
+									"咒法",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 群体疗伤术}",
+									"防护*",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 转生术}",
+									"死灵*",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 探知术}",
+									"预言术",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 迅捷箭袋}",
+									"变化系",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 树跃术}",
+									"咒法",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 石墙术}",
+									"塑能",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 咒唤妖精}",
+									"咒法",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 寻路术}",
+									"预言术",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 医疗术}",
+									"防护",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 地动术}",
+									"变化系",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 阳炎射线}",
+									"塑能",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 木遁术}",
+									"咒法",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 冰墙术}",
+									"塑能",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 棘墙术}",
+									"咒法",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 御风而行}",
+									"变化系",
+									"No"
+								],
+								[
+									"7",
+									"{@spell 火焰风暴}",
+									"塑能",
+									"No"
+								],
+								[
+									"7",
+									"{@spell 再生术}",
+									"变化系",
+									"No"
+								],
+								[
+									"7",
+									"{@spell 反转重力}",
+									"变化系",
+									"No"
+								],
+								[
+									"8",
+									"{@spell 动物形态}",
+									"变化系",
+									"No"
+								],
+								[
+									"8",
+									"{@spell 操控天气}",
+									"变化系",
+									"No"
+								],
+								[
+									"8",
+									"{@spell 地震术}",
+									"变化系",
+									"No"
+								],
+								[
+									"8",
+									"{@spell 阳炎爆}",
+									"塑能",
+									"No"
+								],
+								[
+									"8",
+									"{@spell 海啸术}",
+									"咒法",
+									"No"
+								],
+								[
+									"9",
+									"{@spell 律令医疗}",
+									"防护*",
+									"No"
+								],
+								[
+									"9",
+									"{@spell 形体变化}",
+									"变化系",
+									"No"
+								],
+								[
+									"9",
+									"{@spell 复仇风暴}",
+									"咒法",
+									"No"
+								],
+								[
+									"9",
+									"{@spell 完全复生术}",
+									"死灵",
+									"No"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Swim Speed",
+			"name": "游泳速度",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 28,
+			"entries": [
+				"游泳速度可用于在液体中旅行而不消耗通常与游泳相关的额外移动力。"
+			]
+		},
+		{
+			"ENG_name": "Telepathy",
+			"name": "心灵感应",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 28,
+			"entries": [
+				"心灵感应是一种魔法属性，允许一个生物在指定范围内与另一个生物进行心灵沟通。被联系的生物不需要与心灵感应者共享语言来理解这种沟通方式，但被联系的生物必须能够理解至少一种语言或自身具有心灵感应能力才能理解。",
+				"心灵感应者不需要看见被联系的生物，且心灵感应者可以随时开始或结束传心接触（无需动作）。当被联系的生物不再处于心灵感应的范围内、如果心灵感应者联系了范围内的另一个生物、或者心灵感应者处于{@condition 失能|XUA2023DruidAndPaladin}状态时，传心接触会立即中断。",
+				"一个不具备心灵感应的生物可以接收心灵感应传讯术但无法发起心灵感应对话。一旦心灵感应对话开始，非心灵感应者可以心灵感应传讯术给心灵感应者，直到心灵连接结束。"
+			]
+		},
+		{
+			"ENG_name": "Teleportation",
+			"name": "传送",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 28,
+			"entries": [
+				"传送是一种特殊的魔法运输方式。如果你使用传送术，你会立即消失并在别处重新出现，而不会穿过中间的空间。这种运输方式不会消耗移动力，除非有规则另行说明，且传送术永远不会引发借机攻击。",
+				"当你使用传送术时，所有你穿戴和携带的装备都会随你一同传送。如果你在传送时正触碰另一个生物，该生物不会随你一同传送，除非传送效应另有说明。",
+				"如果你的传送目标空间被另一生物占据，或是被固体障碍物阻挡，你会改为传送至距离该空间最近的一处由你选择的未占据空间内。",
+				"如果传送的目的地需要是\"你可见的空间\"，相应的传送效应的描述会告知你这一点。"
+			]
+		},
+		{
+			"ENG_name": "Tool Proficiency",
+			"name": "工具熟练",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 28,
+			"entries": [
+				"如果你拥有工具的熟练，你可以将你的熟练加值添加到任何使用该工具的属性检定上。",
+				"如果你在该检定所使用的技能上具有熟练，你在该检定上也具有优势。这意味着你可以在同一个属性检定上同时获得技能和工具熟练的增益。"
+			]
+		},
+		{
+			"ENG_name": "Tremorsense",
+			"name": "震颤感知",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 28,
+			"entries": [
+				"拥有震颤感知的生物可以精确定位特定范围内生物和移动物件的位置，前提是该拥有震颤感知的生物和它正在探测的任何东西都接触相同的表面（如地面、墙壁或天花板）或相同的液体。",
+				"震颤感知无法侦查空中的生物或物件，且震颤感知不被视为一种预见形态。"
+			]
+		},
+		{
+			"ENG_name": "Truesight",
+			"name": "真实视觉",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 29,
+			"entries": [
+				"一个拥有真实视觉的生物在指定范围内具有增强的视觉。在该范围内，该生物的视觉可以穿透以下内容：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Darkness",
+							"name": "黑暗术",
+							"type": "item",
+							"entries": [
+								"该生物可以在正常和魔法黑暗中视物。"
+							]
+						},
+						{
+							"ENG_name": "Invisibility",
+							"name": "隐形术",
+							"type": "item",
+							"entries": [
+								"该生物可以看见处于{@condition 隐形|XUA2023DruidAndPaladin}状态的生物以及被魔法遮蔽的物件。"
+							]
+						},
+						{
+							"ENG_name": "Visual Illusions",
+							"name": "视觉幻象",
+							"type": "item",
+							"entries": [
+								"该生物会注意到视觉幻象且自动通过对抗它们的豁免检定。"
+							]
+						},
+						{
+							"ENG_name": "Transformations",
+							"name": "变化",
+							"type": "item",
+							"entries": [
+								"该生物能辨别出它所看见的任何被魔法变化过的生物或物件的真实形态。"
+							]
+						},
+						{
+							"ENG_name": "Ethereal Plane",
+							"name": "以太位面",
+							"type": "item",
+							"entries": [
+								"该生物可以看到以太位面。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Unarmed Strike",
+			"name": "徒手打击",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 29,
+			"entries": [
+				"徒手打击是一种近战{@action 攻击|XUA2023DruidAndPaladin}，涉及你使用自己的身体对5尺内的目标造成伤害、擒抱或推撞。",
+				"每当你使用徒手打击时，从下列效应中选择一项：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Damage",
+							"name": "伤害",
+							"type": "item",
+							"entries": [
+								"你对目标进行一次攻击检定。你的命中加值等于你的力量调整值加上你的熟练加值。命中时，目标受到等于1+你的力量调整值的钝击伤害。"
+							]
+						},
+						{
+							"ENG_name": "Grapple",
+							"name": "擒抱",
+							"type": "item",
+							"entries": [
+								"目标必须成功通过一次力量或敏捷豁免检定（由其选择），否则将陷入{@condition 受擒|XUA2023DruidAndPaladin}状态。该豁免检定和任何逃脱尝试的DC等于8 + 你的力量调整值 + 你的熟练加值。此擒抱仅在目标体型不超过你一级且你有一只手空闲可进行擒拿时生效。"
+							]
+						},
+						{
+							"ENG_name": "Shove",
+							"name": "推撞",
+							"type": "item",
+							"entries": [
+								"目标必须成功通过一次力量或敏捷豁免检定（由目标选择），否则你将目标推离5尺或使其陷入倒地状态。豁免检定的DC等于8 + 你的力量调整值 + 你的熟练加值。只有当目标的体型不超过你一级时才能进行此推撞。"
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"condition": [
+		{
+			"ENG_name": "Dazed",
+			"name": "晕眩",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 22,
+			"entries": [
+				"处于晕眩状态时，你会体验到以下效应：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Limited Activity",
+							"name": "受限用途",
+							"type": "item",
+							"entries": [
+								"你可以在你的回合中{@variantrule 移动|XUA2023DruidAndPaladin}或执行一个动作，但不能同时进行。你也不能执行附赠动作或反应。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Dying",
+			"name": "濒死",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 23,
+			"entries": [
+				"{@note 当一名玩家角色的生命值降至0时，该角色将获得濒死状态，这将取代2014年《玩家手册》（第197页）中的以下规则：「坠落{@condition 昏迷|XUA2023DruidAndPaladin}」、「死亡豁免检定」且「稳定伤势」。}",
+				"处于濒死状态时，你会体验到以下效应：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "0 Hit Points",
+							"name": "0生命值",
+							"type": "item",
+							"entries": [
+								"你有0生命值。如果你在濒死状态下恢复任何生命值，此状态将结束。"
+							]
+						},
+						{
+							"ENG_name": "Knocked Out",
+							"name": "昏迷",
+							"type": "item",
+							"entries": [
+								"你处于{@condition 昏迷|XUA2023DruidAndPaladin}状态。"
+							]
+						},
+						{
+							"ENG_name": "Death Saving Throws",
+							"name": "死亡豁免检定",
+							"type": "item",
+							"entries": [
+								"在你的每个回合开始时，你必须进行一次死亡豁免检定，这是一种不关联任何属性值的特殊豁免。你现在处于命运的掌控之中；掷一枚{@dice d20}。如果掷骰结果为10或更高，则你成功。否则，你失败。成功或失败本身不会产生任何效果。成功次数和失败次数也不需要连续；持续追踪两者直到你累计获得三个同类型结果，其效应如下所述。当此状态在你身上结束时，将成功和失败的数值重置为零。"
+							]
+						},
+						{
+							"ENG_name": "Rolling a 1 or 20",
+							"name": "骰出 1 或者 20",
+							"type": "item",
+							"entries": [
+								"当你进行死亡豁免且掷骰结果为{@dice d20}的1时，视为两次失败。若你掷出20，则恢复1点生命值。"
+							]
+						},
+						{
+							"ENG_name": "Three Failures",
+							"name": "三次失败",
+							"type": "item",
+							"entries": [
+								"在你的第三次失败时，你将死亡。"
+							]
+						},
+						{
+							"ENG_name": "Three Successes",
+							"name": "三成功次数",
+							"type": "item",
+							"entries": [
+								"在你第三次成功时，你恢复1点生命值。此状态如常结束，但你仍处于{@condition 昏迷|XUA2023DruidAndPaladin}状态并开始一次{@variantrule 短休|XUA2023DruidAndPaladin}。你将保持{@condition 昏迷|XUA2023DruidAndPaladin}状态直到你恢复任何生命值或另一个生物用一个动作对你实施急救，这需要通过一个{@dc 10}感知（{@skill 医药}）检定。"
+							]
+						},
+						{
+							"ENG_name": "Damage",
+							"name": "伤害",
+							"type": "item",
+							"entries": [
+								"如果你受到任何伤害，你将遭受一次死亡豁免检定失败。如果你遭受重击，你将改为遭受二次死亡豁免检定失败。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Exhausted",
+			"name": "力竭",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 23,
+			"entries": [
+				"当力竭（在旧书籍中称为力竭）时，你将体验以下效应：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Levels of Exhaustion",
+							"name": "力竭等级",
+							"type": "item",
+							"entry": "该状态可叠加。每次获得此状态时，你增加1个{@condition 力竭}等级。若{@condition 力竭}等级超过10，你将死亡。"
+						},
+						{
+							"ENG_name": "d20 Rolls Affected",
+							"name": "受影响的d20掷骰",
+							"type": "item",
+							"entry": "当你进行{@dice d20}检定时，你从{@dice d20}掷骰中减去你的{@condition 力竭}等级。"
+						},
+						{
+							"ENG_name": "Spell Save DCs Affected",
+							"name": "法术豁免DC受影响",
+							"type": "item",
+							"entry": "从你施放的任何法术的豁免DC中减去你的{@condition 力竭}等级。"
+						},
+						{
+							"ENG_name": "Ending the Condition",
+							"name": "结束该状态",
+							"type": "item",
+							"entry": "完成一次{@variantrule 长休|XUA2023DruidAndPaladin}可移除1个你的{@condition 力竭}等级。当你的{@condition 力竭}等级降至0时，你将不再力竭。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Grappled",
+			"name": "受擒",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 24,
+			"entries": [
+				"当你受擒时，你会体验到以下效应：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Speed 0",
+							"name": "速度归零",
+							"type": "item",
+							"entries": [
+								"你的速度为0且无法变化。"
+							]
+						},
+						{
+							"ENG_name": "Attacks Affected",
+							"name": "攻击影响",
+							"type": "item",
+							"entries": [
+								"你对擒抱者以外的任何目标进行攻击检定时具有劣势。"
+							]
+						},
+						{
+							"ENG_name": "Movable",
+							"name": "带动",
+							"type": "item",
+							"entries": [
+								"擒抱者可以在移动时拖动或载重你，但除非你是微型或比擒抱者小两个或更多体型，否则每移动一尺需要额外消耗一尺移动力。"
+							]
+						},
+						{
+							"ENG_name": "Escape",
+							"name": "逃脱",
+							"type": "item",
+							"entries": [
+								"处于受擒状态时，你可以使用你的动作进行一次力量（{@skill 运动}）或敏捷（{@skill 特技}）检定对抗擒抱的逃脱DC，成功则结束你自身的该状态。若擒抱者处于{@condition 失能|XUA2023DruidAndPaladin}状态或你与擒抱者之间的距离超过擒抱范围，该状态也会结束。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Incapacitated",
+			"name": "失能",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 24,
+			"entries": [
+				"当你处于失能状态时，你会体验到以下效应：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Inactive",
+							"name": "无法行动",
+							"type": "item",
+							"entries": [
+								"你无法执行任何动作、附赠动作或反应。"
+							]
+						},
+						{
+							"ENG_name": "No Concentration",
+							"name": "无法专注",
+							"type": "item",
+							"entries": [
+								"你的专注被破碎。"
+							]
+						},
+						{
+							"ENG_name": "No Concentration",
+							"name": "无法专注",
+							"type": "item",
+							"entries": [
+								"你的专注被破碎。"
+							]
+						},
+						{
+							"ENG_name": "Speechless",
+							"name": "无法说话",
+							"type": "item",
+							"entries": [
+								"你无法说话。"
+							]
+						},
+						{
+							"ENG_name": "Surprised",
+							"name": "突袭",
+							"type": "item",
+							"entries": [
+								"若你在掷先攻时处于失能状态，则此次掷骰具有劣势。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Invisible",
+			"name": "隐形",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 25,
+			"entries": [
+				"当你处于隐形状态时，你会体验到以下效应：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Concealed",
+							"name": "隐蔽",
+							"type": "item",
+							"entries": [
+								"你不会受到任何需要看到目标的效应影响。"
+							]
+						},
+						{
+							"ENG_name": "Surprise",
+							"name": "突袭",
+							"type": "item",
+							"entries": [
+								"如果你在掷先攻时处于隐形状态，你在该掷骰上具有优势。"
+							]
+						},
+						{
+							"ENG_name": "Attacks Affected",
+							"name": "攻击影响",
+							"type": "item",
+							"entries": [
+								"{@action 攻击|XUA2023DruidAndPaladin}检定对你具有劣势，且你的攻击检定具有优势。如果一个生物能以某种方式看见你，比如通过魔法或{@variantrule 盲视|XUA2023DruidAndPaladin}，你不会对该生物获得此增益。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Unconscious",
+			"name": "昏迷",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 29,
+			"entries": [
+				"昏迷时，你会体验到以下效应：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Inert",
+							"name": "迟钝",
+							"type": "item",
+							"entries": [
+								"你处于{@condition 失能|XUA2023DruidAndPaladin}且倒地的状态，并且会放下手中持有的任何物品。当此状态结束时，你仍会保持倒地。"
+							]
+						},
+						{
+							"ENG_name": "Speed 0",
+							"name": "速度归零",
+							"type": "item",
+							"entries": [
+								"你的速度归零且无法变化。攻击影响。{@action 攻击|XUA2023DruidAndPaladin}对你进行的攻击检定具有优势。"
+							]
+						},
+						{
+							"ENG_name": "Fail Str. and Dex. Saves.",
+							"name": "力量与敏捷豁免失败。",
+							"type": "item",
+							"entries": [
+								"你自动在力量和敏捷豁免检定中失败。"
+							]
+						},
+						{
+							"ENG_name": "Critical Hits",
+							"name": "重击",
+							"type": "item",
+							"entries": [
+								"任何攻击检定如果在5尺内命中你，则视为重击。"
+							]
+						},
+						{
+							"ENG_name": "Unaware",
+							"name": "无知觉",
+							"type": "item",
+							"entries": [
+								"你对你的周边环境无知觉。"
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"action": [
+		{
+			"ENG_name": "Attack",
+			"name": "攻击",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 22,
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"entries": [
+				"当你进行攻击动作时，你可以用武器或进行一次{@variantrule 徒手打击|XUA2023DruidAndPaladin}。",
+				{
+					"ENG_name": "Equipping Weapons",
+					"name": "装备武器",
+					"type": "entries",
+					"entries": [
+						"你可以在此动作的每次攻击前后装备或卸下一件武器。如果你在攻击前装备一件武器，你不需要将其用于那次攻击。",
+						"装备武器包括从鞘中拔出、拾起或从容器中取出。卸下武器包括入鞘、存放或丢弃。"
+					]
+				},
+				{
+					"ENG_name": "Moving Between Attacks",
+					"name": "攻击间移动",
+					"type": "entries",
+					"entries": [
+						"如果你在你的回合中{@variantrule 移动|XUA2023DruidAndPaladin}，你可以使用部分或全部移动力在此动作的攻击间移动，前提是你拥有一个特性（例如额外攻击），该特性使你在攻击动作中获得多次攻击。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Help",
+			"name": "协助",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 24,
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"entries": [
+				"当你采取协助动作时，你可以执行以下一项：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Assist Ability Check",
+							"name": "协助属性检定",
+							"type": "item",
+							"entries": [
+								"选择一项你的技能或工具熟练项且一个能察觉到你的盟友。你给予该盟友在下一次使用所选技能或工具进行属性检定时优势。若该盟友在你的下个回合开始前未使用此增益，则增益失效。要提供此协助，你必须足够靠近该盟友，以便在其进行检定时能口头或身体上协助。DM最终决定你的协助是否可行。"
+							]
+						},
+						{
+							"ENG_name": "Assist Attack Roll",
+							"name": "协助攻击检定",
+							"type": "item",
+							"entries": [
+								"你暂时干扰5尺内的一个敌人，为你的一名盟友对该敌人的下一次攻击检定赋予优势。此增益在你的下一回合开始时失效。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Hide",
+			"name": "躲藏",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 24,
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"entries": [
+				"使用躲藏动作时，你试图隐藏自己。为此，你必须在你处于重度遮蔽或四分之三掩护或全身掩护时进行一次{@dc 15}敏捷检定（{@skill 隐匿}），且你必须处于任何可见敌人的视线之外；如果你能看到一个生物，你可以辨别它是否能看见你。",
+				"检定成功后，你处于{@condition 隐藏|XUA2023DruidAndPaladin}状态。记下你的检定总值，该值会成为其他生物用感知检定（{@skill 察觉}）发现你的DC。",
+				"该状态会在以下任一情况发生后立即结束：你发出比低语更大的声音、仇敌发现你、你进行攻击检定、或你施放一个带有言语成分的法术。"
+			]
+		},
+		{
+			"ENG_name": "Influence",
+			"name": "影响力",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 25,
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"entries": [
+				"使用影响力动作，你可以尝试影响另一个生物去做一件你请求或要求的事情。",
+				"此动作只能用于由DM控制的生物，且这不是心灵控制；它不能强迫一个生物做出与其阵营相悖或令该生物反感的行为。",
+				"此动作有三个主要部分：态度、互动且一个魅力检定。",
+				{
+					"ENG_name": "Attitude",
+					"name": "态度",
+					"type": "entries",
+					"entries": [
+						"一个生物的态度决定了角色如何影响该生物。每个由DM控制的生物对玩家角色有以下态度之一：",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"ENG_name": "Indifferent",
+									"name": "冷漠",
+									"type": "item",
+									"entries": [
+										"这是DM控制的生物的默认态度。一个冷漠的生物可能会协助或阻碍队伍，取决于该生物认为什么最有益。生物的冷漠并不一定意味着它冷淡或漠不关心。冷漠的生物可能礼貌且亲切，也可能乖戾且易怒，或介于两者之间的任何状态。当冒险者试图说服一个冷漠的生物做某事时，通常需要进行一次成功的魅力检定。"
+									]
+								},
+								{
+									"ENG_name": "Friendly",
+									"name": "友好",
+									"type": "item",
+									"entries": [
+										"一个友好的生物想要协助冒险者且希望它们成功。对于不需要特别风险、努力或花费的任务或动作，友好的生物通常会乐意协助。如果涉及个人风险元素，可能需要成功的魅力检定来说服一个友好的生物承担该风险。"
+									]
+								},
+								{
+									"ENG_name": "Hostile",
+									"name": "敌对",
+									"type": "item",
+									"entries": [
+										"一个敌对生物反对冒险者及其目标，但不一定会一见它们就攻击。冒险者需要通过一次或多次具有挑战性的魅力检定来说服敌对生物为队伍做任何事情；然而，DM可能判定敌对生物对角色的敌意如此之深，以至于任何魅力检定都无法动摇它，在这种情况下，第一次检定自动失败，除非其态度发生转变，否则无法对该生物进行进一步的影响尝试。"
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ENG_name": "Interaction",
+					"name": "互动",
+					"type": "entries",
+					"entries": [
+						"当你使用影响动作时，可以扮演你的角色如何与该生物互动，或描述你角色的行为\u2014\u2014重点在于你角色的请求或要求。如果这次互动特别符合该生物的欲望和观点，DM可能会给予你随后的检定优势，或可能暂时将敌对生物转变为冷漠，或将冷漠生物转变为友好。",
+						"同样地，如果互动让该生物特别恼怒，DM可能会让你随后的检定具有劣势，或者可能暂时将友好生物转为冷漠，或将冷漠生物转为敌对。"
+					]
+				},
+				{
+					"ENG_name": "Ability Check",
+					"name": "属性检定",
+					"type": "entries",
+					"entries": [
+						"要确定你的请求或要求是否成功，你需要进行一次魅力检定。如果该生物是友好的，你在检定中具有优势；如果该生物是敌对的，你在检定中具有劣势。",
+						{
+							"ENG_name": "Choosing a Skill",
+							"name": "选择技能",
+							"type": "entries",
+							"entries": [
+								"影响技能表格建议了当你进行魅力检定时，根据掷骰前的互动类型，哪些技能是适用的。"
+							]
+						},
+						{
+							"type": "table",
+							"caption": "影响技能",
+							"colLabels": [
+								"技能",
+								"互动"
+							],
+							"colStyles": [
+								"col-3",
+								"col-9"
+							],
+							"rows": [
+								[
+									"{@skill 驯兽}",
+									"温和地安抚一只野兽或一只怪兽"
+								],
+								[
+									"{@skill 欺瞒}",
+									"欺骗一个能理解你的生物"
+								],
+								[
+									"{@skill 威吓}",
+									"令人生畏一个生物"
+								],
+								[
+									"{@skill 游说}",
+									"说服一个能理解你的生物"
+								]
+							]
+						},
+						{
+							"ENG_name": "Setting the DC",
+							"name": "设定DC",
+							"type": "entries",
+							"entries": [
+								"该检定的最低DC为15或该生物的智力值，以较高者为准。"
+							]
+						},
+						{
+							"ENG_name": "Outcome",
+							"name": "结果",
+							"type": "entries",
+							"entries": [
+								"如果你的检定成功，该生物会按照要求行事。如果你的检定失败，你必须等待才能再次提出相同的请求。默认等待时间为24小时，DM可根据情况缩短或延长。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Magic",
+			"name": "魔法",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 26,
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"entries": [
+				"当你使用魔法动作时，你可以施放一个施法时间为动作的法术，或者使用一个需要动作来激活的魔法物品。",
+				"如果你施放一个施法时间为1分钟或更长的法术，你必须在施法的每个回合进行魔法动作，且你必须在此过程中保持专注。如果你的专注被打断，法术失败，但你不消耗法术位。"
+			]
+		},
+		{
+			"ENG_name": "Search",
+			"name": "搜索",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 27,
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"entries": [
+				"当你执行搜索动作，你进行一次感知检定来搜索某个\"并不显眼\"的东西。根据你尝试搜索的具体内容，搜索表提供了你在执行此动作时可用技能的建议。",
+				{
+					"type": "table",
+					"caption": "搜索",
+					"colLabels": [
+						"技能",
+						"要搜索的东西"
+					],
+					"colStyles": [
+						"col-3",
+						"col-9"
+					],
+					"rows": [
+						[
+							"{@skill 洞悉}",
+							"生物的心理状态"
+						],
+						[
+							"{@skill 医药}",
+							"生物的疾病"
+						],
+						[
+							"{@skill 察觉}",
+							"被藏匿的生物或物件"
+						],
+						[
+							"{@skill 求生}",
+							"踪迹或食物"
+						]
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Study",
+			"name": "研究",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 28,
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"entries": [
+				"当你进行研究动作时，需进行一次智力检定来研究你的记忆、一本书、一个生物、一个显迹术、一个物件或其他知识来源，并回想起关于它的一个重要消息。",
+				"知识范围表格建议了当你采取此动作时，根据智力检定所涉及的知识范围，哪些技能是适用的。",
+				{
+					"type": "table",
+					"caption": "知识范围",
+					"colLabels": [
+						"技能",
+						"范围"
+					],
+					"colStyles": [
+						"col-1",
+						"col-11"
+					],
+					"rows": [
+						[
+							"{@skill 奥秘}",
+							"法术、魔法物品、魔能符号、魔法传承、存在位面、特定生物（异怪、构装、元素、妖精、怪兽）"
+						],
+						[
+							"{@skill 历史}",
+							"历史事件和历史人物、古文明、战争、特定生物（巨人、类人）"
+						],
+						[
+							"{@skill 调查}",
+							"陷阱、密文、谜语、设备"
+						],
+						[
+							"{@skill 自然}",
+							"地形、植物、天气、特定生物（野兽、龙类、泥怪、植物）"
+						],
+						[
+							"{@skill 宗教}",
+							"神祇、宗教层级和仪式、圣徽、教团、特定生物（天族、邪魔、亡灵）"
+						]
+					]
+				}
+			]
+		}
+	]
+}

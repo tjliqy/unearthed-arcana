@@ -1,0 +1,637 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAPrestigeClassesRunMagic",
+				"abbreviation": "UAPCRM",
+				"full": "破解奥秘：声望职业与符文魔法",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2015/downloads/dnd/UA_Rune_Magic_Prestige_Class.pdf",
+				"dateReleased": "2015-10-05"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1729637619,
+		"_dateLastModifiedHash": "7c6cbc9517"
+	},
+	"class": [
+		{
+			"ENG_name": "Prestige Class: Rune Scribe",
+			"name": "声望职业：符文抄写师",
+			"source": "UAPrestigeClassesRunMagic",
+			"page": 2,
+			"requirements": {
+				"entries": [
+					"{@b 敏捷13。} 符文抄写师需要灵巧的手指来掌握符文复杂的图案。",
+					"{@b 智力13。} 符文知识需要密集的学习和了解。",
+					"{@b 熟练于{@skill 奥秘}技能。} 符文精通需要对奥术传说有所理解。",
+					"{@b 角色等级5级。} 只有强大的灵魂才能觉醒符文魔法，你必须是5级角色，才能获得符文抄写师职业等级。",
+					"{@b 完成一项特殊任务。} 你必须找到一枚符文，并将其呈现给一个接受它的NPC符文抄写师，作为交换，他将教授你符文魔法的知识。你的这个职业等级不能超过你的导师。为了达到这个职业的5级，你可能需要寻找更多的符文，并将其呈现给更熟练的符文抄写师。"
+				]
+			},
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"casterProgression": "full",
+			"startingProficiencies": {
+				"tools": [
+					"{@item 书法工具|PHB}",
+					"{@item 石匠工具|PHB}",
+					"{@item 木雕工具|PHB}"
+				],
+				"toolProficiencies": [
+					{
+						"calligrapher's supplies": true,
+						"mason's tools": true,
+						"woodcarver's tools": true
+					}
+				]
+			},
+			"classTableGroups": [
+				{
+					"title": "每环法术位",
+					"colLabels": [
+						"1st",
+						"2nd",
+						"3rd"
+					],
+					"rowsSpellProgression": [
+						[
+							2,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							0
+						],
+						[
+							4,
+							3,
+							2
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"符文知识|声望职业：符文抄写师|UAPrestigeClassesRunMagic|1",
+				"符文魔法|声望职业：符文抄写师|UAPrestigeClassesRunMagic|1",
+				"符文发现|声望职业：符文抄写师|UAPrestigeClassesRunMagic|2",
+				"符文发现|声望职业：符文抄写师|UAPrestigeClassesRunMagic|3",
+				"活体符文|声望职业：符文抄写师|UAPrestigeClassesRunMagic|4",
+				"符文精通|声望职业：符文抄写师|UAPrestigeClassesRunMagic|5",
+				"符文发现|声望职业：符文抄写师|UAPrestigeClassesRunMagic|5"
+			],
+			"hasFluff": true
+		}
+	],
+	"classFluff": [
+		{
+			"ENG_name": "Prestige Class: Rune Scribe",
+			"name": "声望职业：符文抄写师",
+			"source": "UAPrestigeClassesRunMagic",
+			"entries": [
+				{
+					"ENG_name": "Rune Scribe",
+					"name": "符文抄写师",
+					"type": "section",
+					"entries": [
+						"符文抄写师掌握了力量符文的秘密\u2014\u2014这些古老的符号体现了创造的基本魔法。巨人是最早掌握符文魔法的种族，尽管许多其他种族最终通过偷窃或交易获得了这种力量。",
+						"符文魔法极为罕见。它的一些秘密已经失传，剩下的知识被严密守护。很少有符文抄写者会与他人分享他们的知识。实际上，大多数符文抄写者只有在这样做能让他们接触到一个被遗忘或缺失的符文时，才会接受新学生。符文抄写者尊崇阶级使用本文末尾介绍的符文魔法规则。"
+					],
+					"source": "UAPrestigeClassesRunMagic",
+					"page": 2
+				}
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"ENG_name": "Rune Lore",
+			"name": "符文知识",
+			"source": "UAPrestigeClassesRunMagic",
+			"page": 3,
+			"className": "声望职业：符文抄写师",
+			"classSource": "UAPrestigeClassesRunMagic",
+			"level": 1,
+			"entries": [
+				"在1级时，你学习了刻写符文的基础，并能够在正确共鸣时激活主符文的全部属性。\"{@variantrule 符文魔法|UAPrestigeClassesRunMagic}\"部分包含了有关主符文以及符文及其属性的描述的信息。你掌握的第一个符文是你找到并呈现给你的导师以获得这个尊崇阶级资格的符文。你进入这个班级的过程包括掌握那个符文的秘密。"
+			]
+		},
+		{
+			"ENG_name": "Runic Magic",
+			"name": "符文魔法",
+			"source": "UAPrestigeClassesRunMagic",
+			"page": 3,
+			"className": "声望职业：符文抄写师",
+			"classSource": "UAPrestigeClassesRunMagic",
+			"level": 1,
+			"entries": [
+				"符文可以利用你自己的魔法力量来增强它们的一些效果。你获得的法术位如符文抄写者表格中指定的，但这个尊崇阶级不会授予已知法术。相反，作为一个符文抄写者，你可以消耗你的法术位来增强符文，如\"{@variantrule 符文魔法|UAPrestigeClassesRunMagic}\"部分中描述的。对于兼职来说，为了确定你的总法术位，将你在符文抄写者中的等级加上你在授予你施法特性的班级中的等级。例如，如果你是一个4级的符文抄写者/6级的法师，你将拥有一个10级角色的法术位，此外还有6级法师的戏法和法术书。"
+			]
+		},
+		{
+			"ENG_name": "Runic Discovery",
+			"name": "符文发现",
+			"source": "UAPrestigeClassesRunMagic",
+			"page": 3,
+			"className": "声望职业：符文抄写师",
+			"classSource": "UAPrestigeClassesRunMagic",
+			"level": 2,
+			"entries": [
+				"你对符文魔法的深入学习使你能够重新创造新符文的秘密，而无需首先揭开它们。在2级时，选择一个稀有符文。即使你没有它的主符文，你也可以与该符文共鸣。（有关符文稀有度和主符文的信息，请参见\"{@variantrule 符文魔法|UAPrestigeClassesRunMagic}\"部分。）为了以这种方式与符文共鸣，你必须花费一个短休息时间，除了冥想符文外不做任何事情。在短休息结束时，你与符文共鸣。为了确定是否可以使用其特性，你被认为始终携带该符文。",
+				"你可以再花费一个短休息时间，除了冥想符文外不做任何事情，来结束与它的共鸣。"
+			]
+		},
+		{
+			"ENG_name": "Runic Discovery",
+			"name": "符文发现",
+			"source": "UAPrestigeClassesRunMagic",
+			"page": 3,
+			"className": "声望职业：符文抄写师",
+			"classSource": "UAPrestigeClassesRunMagic",
+			"level": 3,
+			"entries": [
+				"你对符文魔法的持续研究使你能够在不先发现它们的情况下重现新符文的秘密。在3级时，选择一个稀有符文。即使你没有它的主符文，你也可以与该符文共鸣。（有关符文稀有度和主符文的信息，请参见\"{@variantrule 符文魔法|UAPrestigeClassesRunMagic}\"部分。）要以这种方式与符文共鸣，你必须花费一个短休息时间，除了冥想符文外不做任何事情。在短休息结束时，你与符文共鸣。为了确定是否可以使用其特性，你被认为始终携带该符文。",
+				"你可以再花费一个短休息时间，除了冥想符文外不做任何事情，来结束与它的共鸣。"
+			]
+		},
+		{
+			"ENG_name": "Living Rune",
+			"name": "活体符文",
+			"source": "UAPrestigeClassesRunMagic",
+			"page": 3,
+			"className": "声望职业：符文抄写师",
+			"classSource": "UAPrestigeClassesRunMagic",
+			"level": 4,
+			"entries": [
+				"符文是活生生世界的一部分，你的学习让你能够以越来越强大的方式与它们的魔法相连。在4级时，你学会了将符文魔法融入你的身份中，允许你增强你的身体和心灵。在一次长休息结束时，你可以选择将你选择的一项能力值增加2，或者将你选择的两项能力值各增加1。在随后的每次长休息结束时，你可以更改这个选择，减少你之前增加的分数，并提高不同的分数。（如果你选择增加两项能力，你可以选择只更改其中一项。）"
+			]
+		},
+		{
+			"ENG_name": "Rune Mastery",
+			"name": "符文精通",
+			"source": "UAPrestigeClassesRunMagic",
+			"page": 3,
+			"className": "声望职业：符文抄写师",
+			"classSource": "UAPrestigeClassesRunMagic",
+			"level": 5,
+			"entries": [
+				"在5级时，你获得了掌握更广泛符文魔法的能力。当你与一个符文共鸣时，你可以选择让它不计入你共鸣魔法物品的限制。你一次只能以这种方式共鸣一个这样的符文。当你结束与一个符文的共鸣后，你可以再次使用这个能力。"
+			]
+		},
+		{
+			"ENG_name": "Runic Discovery",
+			"name": "符文发现",
+			"source": "UAPrestigeClassesRunMagic",
+			"page": 3,
+			"className": "声望职业：符文抄写师",
+			"classSource": "UAPrestigeClassesRunMagic",
+			"level": 5,
+			"entries": [
+				"你对符文魔法的持续研究使你能够在不先发现它们的情况下重现新符文的秘密。在5级时，选择一个稀有符文。即使你没有它的主符文，你也可以与该符文共鸣。（有关符文稀有度和主符文的信息，请参见\"{@variantrule 符文魔法|UAPrestigeClassesRunMagic}\"部分。）为了以这种方式与符文共鸣，你必须花费一个短休息时间，除了冥想符文外不做任何事情。在短休息结束时，你与符文共鸣。为了确定是否可以使用其特性，你被认为始终携带该符文。",
+				"你可以再花费一个短休息时间，除了冥想符文外不做任何事情，来结束与它的共鸣。"
+			]
+		}
+	],
+	"item": [
+		{
+			"ENG_name": "Opal of the Ild Rune",
+			"name": "烈焰符文蛋白石",
+			"source": "UAPrestigeClassesRunMagic",
+			"page": 4,
+			"type": "MR|UAPrestigeClassesRunMagic",
+			"resist": [
+				"寒冷"
+			],
+			"rarity": "rare",
+			"reqAttune": true,
+			"entries": [
+				"这块三角形的火蛋白石每边约三英寸长且半英寸厚。火符文\u2014\u2014火焰的符文\u2014\u2014在其核心闪烁。握住这个物件会让你经历一瞬间炽热的苦痛。那种苦痛很快消退，取而代之的是温暖的辉光。",
+				{
+					"ENG_name": "Ignite (Simple Property)",
+					"name": "点燃（简易属性）",
+					"type": "entries",
+					"entries": [
+						"作为一个动作，你可以使用灰烬将火符文抄写到易燃物件上。该物件会立即燃起火焰。燃烧时，火焰会从你抄写的符文向外延伸1尺。"
+					]
+				},
+				{
+					"ENG_name": "Fire Tamer (Simple Property)",
+					"name": "火焰驯服者（简易属性）",
+					"type": "entries",
+					"entries": [
+						"以一个动作，你接触一个开放的火焰且用手势在其中抄写火符文Lld。这会导致火焰立即熄灭。对于大型烈焰人，火焰会在你周围10尺半径内熄灭。你可以通过以这种方式使用火符文Lld时消耗一个法术位来扩展这个距离。半径会随着消耗的法术位等级每级增加20尺。"
+					]
+				},
+				{
+					"ENG_name": "Fire's Friend (Simple Property)",
+					"name": "火焰友谊（简易属性）",
+					"type": "entries",
+					"entries": [
+						"当你与该符文共鸣时，你对寒冷伤害具有抗性。"
+					]
+				},
+				{
+					"ENG_name": "Combustion (Complex Property)",
+					"name": "灼热焚烧（复杂属性）",
+					"type": "entries",
+					"entries": [
+						"以一个动作，你可以使用灰烬在你触及范围内的一个生物上抄写这个符文，同时消耗一个法术位。该生物自动受到{@damage 1d10}火焰伤害加上消耗法术位每等级{@damage 1d10}的火焰伤害。"
+					]
+				},
+				{
+					"ENG_name": "Flame Brand (Complex Property)",
+					"name": "火焰烙印（复杂属性）",
+					"type": "entries",
+					"entries": [
+						"在一次短休期间，你可以使用灰烬将这个符文铭刻在一把近战或远程武器上，或最多20发弹药上。该武器或弹药将获得一层幽体的黄色火焰光环，且造成火焰伤害而非穿刺、挥砍或钝击伤害。",
+						"此外，你可以消耗一个法术位，在使用此属性时，使武器或弹药在攻击检定和伤害掷骰上获得加值，该加值等于法术位等级除以三。",
+						"这些效应持续24小时或直到你再次使用该属性。"
+					]
+				},
+				{
+					"ENG_name": "Flame Stoker (Complex Property)",
+					"name": "火焰蓄能者（复杂属性）",
+					"type": "entries",
+					"entries": [
+						"当你与该符文共鸣时，你的火焰攻击将更具致命性。每当你因攻击或施放的法术掷出火焰伤害时，你可以重掷该伤害并取较高结果。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Orb of the Stein Rune",
+			"name": "岩石符文之球",
+			"source": "UAPrestigeClassesRunMagic",
+			"page": 5,
+			"type": "MR|UAPrestigeClassesRunMagic",
+			"rarity": "rare",
+			"reqAttune": true,
+			"entries": [
+				"这块花岗岩球体大约有人类拳头大小。酒杯符文\u2014\u2014岩石符文\u2014\u2014以水晶般的纹路出现在法球表面。初次握住时，石头感觉异常沉重，仿佛连泰坦都无法举起。这种感觉片刻后就会消失，让你能轻松携带这块石头。",
+				{
+					"ENG_name": "Indomitable Stand (Simple Property)",
+					"name": "不动如山（简易属性）",
+					"type": "entries",
+					"entries": [
+						"以一个动作，你将岩石符文抄写在你脚下的地面上。直到你移动前，你在所有抵抗会迫使你移动的效应的属性检定和豁免检定上具有优势。此外，任何移动至你10尺内的生物必须成功通过DC 12的力量豁免检定，否则其移动力立即结束。"
+					]
+				},
+				{
+					"ENG_name": "Stone Soul (Simple Property)",
+					"name": "岩石之魂（简易属性）",
+					"type": "entries",
+					"entries": [
+						"当你与该符文调谐时，你不会被{@condition 石化}。"
+					]
+				},
+				{
+					"ENG_name": "Stone's Secrets (Simple Property)",
+					"name": "岩石的秘密（简易属性）",
+					"type": "entries",
+					"entries": [
+						"以一个动作，你可以将此符文抄写到岩石墙壁或地板上。你将知晓30尺内所有站在或接触该表面的生物的位置和体型，但仅在属性使用时生效。"
+					]
+				},
+				{
+					"ENG_name": "Crushing Brand (Complex Property)",
+					"name": "粉碎烙印（复杂属性）",
+					"type": "entries",
+					"entries": [
+						"在一次短休期间，你用泥土或碎石将这个符文铭刻在一把造成钝击伤害的武器上。该武器获得一层幽体般的棕色灵光，且由该武器造成的钝击伤害将忽略抵抗术和免疫。如果你掷出该武器伤害骰的最大值，你的攻击目标将被击倒{@condition 倒地}（如果它是一个生物）。",
+						"此外，你可以消耗一个法术位，使该武器在攻击检定和伤害掷骰上获得加值，加值等于法术位等级除以三。",
+						"这些效应持续24小时或直到你再次使用该属性。"
+					]
+				},
+				{
+					"ENG_name": "Earthen Step (Complex Property)",
+					"name": "土之步伐（复杂属性）",
+					"type": "entries",
+					"entries": [
+						"当你与该符文调谐时，你可以用一个附赠动作施放{@spell 融身入石}。你在完成一次短休或长休后重新获得该属性。"
+					]
+				},
+				{
+					"ENG_name": "Overwhelming Bolt (Complex Property)",
+					"name": "压倒性弩失（复杂属性）",
+					"type": "entries",
+					"entries": [
+						"以一个动作，你可以使用泥土或碎石在你触及范围内将一个生物上抄写这个符文，同时消耗一个法术位。该生物必须进行一次力量豁免检定（DC 12 + 消耗法术位的等级）。若失败，该生物受到{@damage 2d8}钝击伤害加上消耗法术位每等级{@damage 1d8}钝击伤害并被击倒{@condition 倒地}。若豁免成功，该生物受到一半伤害且不会被击倒{@condition 倒地}。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Pennant of the Vind Rune",
+			"name": "神风符文三角旗",
+			"source": "UAPrestigeClassesRunMagic",
+			"page": 5,
+			"type": "MR|UAPrestigeClassesRunMagic",
+			"rarity": "rare",
+			"reqAttune": true,
+			"entries": [
+				"这面五英尺长的蓝色三角旗由丝绸制成，仿佛被强风吹拂般飘扬。疾风符文vind\u2014\u2014风势符文\u2014\u2014像闪烁的云雾般在其表面闪烁。握住三角旗会让你感官到一股强大的造风术席卷而来，撕扯着你的衣服和装备。任何看着你的人都不会发现任何异常，这种感觉片刻后就会消失。",
+				{
+					"ENG_name": "Comforting Wind (Simple Property)",
+					"name": "舒适之风（简易属性）",
+					"type": "entries",
+					"entries": [
+						"当你与该符文同调时，你不会因窒息术或水溺而死亡，且对抗有毒气体、吸入毒药及类似效应的豁免检定具有优势。"
+					]
+				},
+				{
+					"ENG_name": "Wind Step (Simple Property)",
+					"name": "风之步伐（简易属性）",
+					"type": "entries",
+					"entries": [
+						"以一个动作，你在周围的空气中抄写疾风符文vind并立即飞行20尺。若在此次飞行结束时未落地，你将坠落。"
+					]
+				},
+				{
+					"ENG_name": "Wind's Grasp (Simple Property)",
+					"name": "风势攫取（简易属性）",
+					"type": "entries",
+					"entries": [
+						"当你坠落时，你可以将此符文抄写在你周围的空气中，以此作为反应来免受坠落伤害。"
+					]
+				},
+				{
+					"ENG_name": "Howling Brand (Complex Property)",
+					"name": "嚎叫印记（复杂属性）",
+					"type": "entries",
+					"entries": [
+						"在一次短休期间，你将此符文刻在一件远程武器上方的空气中。该武器获得一个幽蓝色的光环，且其正常范围和最大范围翻倍。该武器的攻击不会因范围而受到劣势。",
+						"此外，你可以消耗一个法术位来使用此属性，为该武器的攻击检定和伤害掷骰提供加值，加值等于法术位等级除以三。",
+						"这些效应持续24小时或直到你再次使用该属性。"
+					]
+				},
+				{
+					"ENG_name": "Shrieking Bolt (Complex Property)",
+					"name": "尖啸弩失（复杂属性）",
+					"type": "entries",
+					"entries": [
+						"以一个动作，你在你和你能看见的一个生物之间的空中抄写这个符文，同时消耗一个法术位。该生物必须进行一次力量豁免检定（DC 12 + 法术位的等级）。若失败，它将受到{@damage 2d8}钝击伤害加上法术位等级每级{@damage 1d8}钝击伤害，并且被沿直线直接推离你每法术位等级10尺。若豁免成功，该生物只受到一半伤害且不会被推离你。"
+					]
+				},
+				{
+					"ENG_name": "Wind Walker (Complex Property)",
+					"name": "风行者（复杂属性）",
+					"type": "entries",
+					"entries": [
+						"当你与这个符文调谐时，你可以以一个附赠动作施放{@spell 浮空术}。你在短休或长休后恢复这个属性。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Shard of the Kalt Rune",
+			"name": "卡尔特符文碎子",
+			"source": "UAPrestigeClassesRunMagic",
+			"page": 6,
+			"type": "MR|UAPrestigeClassesRunMagic",
+			"resist": [
+				"火焰"
+			],
+			"rarity": "rare",
+			"reqAttune": true,
+			"entries": [
+				"这块细长的冰碎子大约有匕首的体型。kalt符文\u2014\u2014冰之符文\u2014\u2014在碎子内发光。当第一次握住时，碎子会释放出痛苦的寒冷，使你的手和手臂麻木。这种感觉片刻后就会消失，使碎子可以正常使用。",
+				{
+					"ENG_name": "Frigid Touch (Simple Property)",
+					"name": "严寒之触（简易属性）",
+					"type": "entries",
+					"entries": [
+						"作为一个动作，你在任何水体的表面抄写卡尔特符文。水会在你抄写符文的位置周围10尺半径内结冰。"
+					]
+				},
+				{
+					"ENG_name": "Frost Friend (Simple Property)",
+					"name": "寒霜之友（简易属性）",
+					"type": "entries",
+					"entries": [
+						"当你与这枚符文同调时，你对火焰伤害具有抗性。"
+					]
+				},
+				{
+					"ENG_name": "Icy Mantle (Simple Property)",
+					"name": "冰霜覆膜（简易属性）",
+					"type": "entries",
+					"entries": [
+						"以一个动作，你可以使用水在自己或另一个生物身上抄写卡尔特符文。水会立即冻结成一层具有安全感的冰霜覆膜，不会妨碍移动力或动作。下次该生物受到钝击、挥砍或穿刺伤害时，该伤害会缩小为零且冰霜覆膜会被摧毁。"
+					]
+				},
+				{
+					"ENG_name": "Freezing Bolt (Complex Property)",
+					"name": "冻结弩失（复杂属性）",
+					"type": "entries",
+					"entries": [
+						"作为一个动作，你可以使用水将这道符文抄写到触及范围内的一个生物身上，同时消耗一个法术位。符文会冻结在原地，且该生物必须进行一次体质豁免检定（DC 12 + 消耗法术位的等级）。若失败，该生物受到{@damage 2d8}寒冷伤害加上消耗法术位每等级{@damage 1d8}寒冷伤害，且其速度降至0直到你的下个回合结束。若豁免成功，该生物只受到一半伤害且速度不受影响。"
+					]
+				},
+				{
+					"ENG_name": "Ice Brand (Complex Property)",
+					"name": "冰霜烙印（复杂属性）",
+					"type": "entries",
+					"entries": [
+						"在一次短休期间，你使用水将这个符文铭刻在一件近战或远程武器上，或最多20发弹药上。该武器或弹药获得一个幽体白色光环，且造成寒冷伤害而非穿刺、挥砍或钝击伤害。",
+						"此外，你可以消耗一个法术位，在使用此属性时，使武器或弹药在攻击检定和伤害掷骰上获得加值，该加值等于法术位等级除以三。",
+						"这些效应持续24小时或直到你再次使用该属性。"
+					]
+				},
+				{
+					"ENG_name": "Winter's Howl (Complex Property)",
+					"name": "冬之嚎叫（复杂属性）",
+					"type": "entries",
+					"entries": [
+						"当你与该符文调谐时，你可以以一个动作施放{@spell 雪雨暴}。你在短休或长休后恢复该属性。"
+					]
+				}
+			]
+		}
+	],
+	"itemType": [
+		{
+			"ENG_name": "Master Rune",
+			"name": "大师符文",
+			"abbreviation": "MR",
+			"source": "UAPrestigeClassesRunMagic",
+			"page": 4
+		}
+	],
+	"variantrule": [
+		{
+			"ENG_name": "Prestige Classes",
+			"name": "声望职业",
+			"source": "UAPrestigeClassesRunMagic",
+			"page": 1,
+			"type": "section",
+			"entries": [
+				"许多曾在早期D&D版本中作为声望职业或典范之路的角色概念，现在已成为1级角色可选的选项。一般而言，游戏设计追求最大灵活性，使所有角色都能获得这些选项。因此，声望职业建立在游戏广泛的基础选项之上，以代表专业化的选择和独特的训练。",
+				{
+					"ENG_name": "Using Prestige Classes",
+					"name": "使用声望职业",
+					"type": "section",
+					"entries": [
+						"一个声望职业需要角色在掌握其基础元素之前就具备高等技能等级。声望职业可能授予迷失的逸闻，允许接触莫测者的魔法形态，授予特制战斗风格的精通，或是围绕秘密社团所掌握的知识构建。",
+						"从机制上讲，声望职业是一种需要与其他职业相同训练和专注的角色职业。你通过正常的兼职规则进入声望职业。然而，你必须至少达到3级才能进入声望职业\u2014\u2014且许多声望职业有更高的等级要求。",
+						"大多数声望职业要求角色完成特定的事迹以获得该职业的资格。在护门者\u2014\u2014通常是那些掌握该职业逸闻的人\u2014\u2014同意接纳你之前，你无法在声望职业中晋升。",
+						"声望职业通常提供仅限该职业成员使用的独特游戏机制。这些机制反映了特定的逸闻、秘密或技术，若不获得已掌握该知识者的尊重和信任，便无法精通。",
+						{
+							"ENG_name": "Joining a Prestige Class",
+							"name": "加入声望职业",
+							"type": "entries",
+							"entries": [
+								"为了加入一个声望职业，你必须首先与你的地下城主进行检定。地下城主可以选择在游戏中包含或禁止声望职业。通常，声望职业要求你在游戏中采取特定的动作，以便你的角色可以开始追求该职业。如果你的战役中尚不具备这些动作，请与你的地下城主讨论整合你感兴趣的声望职业。",
+								"声望职业使用正常的D&D兼职规则（参见{@book 玩家手册|PHB}中的第六章\"{@book 自定义选项|PHB|6|兼职}\"）。当你的角色预备升级时，你可以选择在声望职业中升级。你所有职业的等级，包括声望职业，都会被加总以确定你的角色等级。",
+								{
+									"ENG_name": "Prerequisites",
+									"name": "先决",
+									"type": "entries",
+									"entries": [
+										"通过兼职选择声望职业需要满足某些先决条件，就像兼职进入标准职业一样。你必须满足当前职业和声望职业的属性值先决条件才有资格选择它。",
+										"一个声望职业需要最低角色等级和至少一项属性的最低属性值，且要求你在能够选择该职业之前完成一项特定的事迹\u2014\u2014发现一件魔法物品、击败一个怪物、经受住一项特定的挑战等等。"
+									]
+								},
+								{
+									"ENG_name": "Experience Points",
+									"name": "经验值",
+									"type": "entries",
+									"entries": [
+										"正如标准的兼职规则一样，升级时的经验值花费总是基于你的全部角色等级，而不是你在特定职业中的等级。"
+									]
+								},
+								{
+									"ENG_name": "Hit Points and Hit Dice",
+									"name": "生命值与生命骰",
+									"type": "entries",
+									"entries": [
+										"每个声望职业都指定了你从中获得的生命值。你将所有职业和声望职业授予的生命骰相加，以确定你的生命骰池。如果生命骰是相同的生物类型，你只需将它们简单地汇集在一起。"
+									]
+								},
+								{
+									"ENG_name": "Proficiency Bonus and Proficiencies",
+									"name": "熟练加值和熟练",
+									"type": "entries",
+									"entries": [
+										"你的熟练加值总是基于你的全部角色等级，而不是你在特定职业中的等级。声望职业会指定在你加入时是否授予熟练。"
+									]
+								},
+								{
+									"ENG_name": "Prestige Class Features",
+									"name": "声望职业特性",
+									"type": "entries",
+									"entries": [
+										"你获得声望职业特性就像获得正常职业特性一样。有时，声望职业可以提升你从其他职业获得的特性。如果一个声望职业授予引导神力、额外攻击或无甲防御，该特性的处理方式与你从多个标准职业获得它时相同。"
+									]
+								},
+								{
+									"ENG_name": "Spellcasting",
+									"name": "施法",
+									"type": "entries",
+									"entries": [
+										"一些声望职业会授予施法能力。每个声望职业都会提供细节说明如何根据施法规则和多职业角色规则来确定你的整体施法属性。"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Rune Magic",
+			"name": "符文魔法",
+			"source": "UAPrestigeClassesRunMagic",
+			"page": 3,
+			"type": "section",
+			"entries": [
+				"符文魔法允许一个角色解锁蕴含在魔法符号和印记中的法力。并非每个这样的标记都具有潜在的法力。只有那些在远古造物术时代锻造的符文仍然与世界的基本魔法共鸣。",
+				"符文工作方式与魔法物品类似。你可以发现它们，与它们同调，并以多种方式使用它们的魔法。然而，与魔法物品不同，只有符文抄写师能使用符文提供的所有增益。",
+				{
+					"ENG_name": "Overview",
+					"name": "概述",
+					"type": "entries",
+					"entries": [
+						"符文是强大的图标，可用于多种效应。为了使用符文，你通常必须找到并保留一个{@b 大师符文}。大师符文是一种珍稀物件\u2014\u2014宝石或雕刻的岩、魔法符、某种特殊材质的碎子等等\u2014\u2014刻有符文并注入了魔法，允许你释放符文的效果。这些效果分为二类。",
+						"{@b 简易词条}可由任何与大师符文调谐的人使用。",
+						"{@b 复杂词条}仅可由一名与大师符文调谐且拥有符文知识职业特性的角色使用。",
+						"除非另有说明，否则你必须随身携带大师符文才能使用其词条。"
+					]
+				},
+				{
+					"ENG_name": "Finding Runes",
+					"name": "发现符文",
+					"type": "entries",
+					"entries": [
+						"作为宝藏发现的符文是大师符文，被精心刻印在珍稀物件上，可作为训练工具供潜在的符文抄写师解锁其法力。下方讨论的每个符文都是大师符文的一部分。",
+						"大师符文且它们所包含的符文被视为类似魔法物品。它们按稀有度从珍稀到传说分类，并且可以在战役中由DM选择放置宝藏的地点时放置。没有通用语或非普通的符文。"
+					]
+				},
+				{
+					"ENG_name": "Buying and Selling Runes",
+					"name": "购买与出售符文",
+					"type": "entries",
+					"entries": [
+						"将大师符文视为与其稀有度相当的魔法物品，以便在战役中进行购买与出售。如同其他魔法物品一样，DM将随意决定这些物品是否可在战役中购买且处于何种状态。"
+					]
+				},
+				{
+					"ENG_name": "Identifying Runes",
+					"name": "辨识符文",
+					"type": "entries",
+					"entries": [
+						"符文的辨识方式与魔法物品类似。简单地操控大师符文就会使其符文身份的强烈感觉在角色的脑海中回响。例如，触摸含有kalt符文（寒冷符文）的大师符文物品可能会让你体验到一阵彻骨冻寒，同时冰雪的幻象在你脑海中闪过。",
+						"法术{@spell 鉴定术}会立即揭示大师符文的简易词条。你也可以在短休期间保持与符文的物理接触来学习其简易词条。"
+					]
+				},
+				{
+					"ENG_name": "Runes and Attunement",
+					"name": "符文和同调",
+					"type": "entries",
+					"entries": [
+						"符文总是需要同调才能使用其简易词条。同调大师符文需要你在短休期间专注于该物品并与它保持物理接触。这不能与学习符文词条所用的短休相同。这种专注表现为仔细且反复地复制符文，无论是用墨水和羊皮纸还是简单地将其抄写到泥土中。如果短休被打断，同调尝试就会失败。否则，在短休结束时，你将获得如何激活符文魔法词条的直观理解。",
+						"大师符文一次只能与一个生物同调，且所有符文都计入你可同调的魔法物品数量限制。任何尝试同调第四件魔法物品或符文的举动都会失败（尽管符文抄写师的符文精通特性允许额外同调一个符文）。你不能同调多个相同符文。",
+						"你可以像结束其他魔法物品的同调一样结束符文的同调。"
+					]
+				},
+				{
+					"ENG_name": "Master Runes",
+					"name": "大师符文",
+					"type": "entries",
+					"entries": [
+						"这里展示了四种符文（以大师符文的形态）供你的战役使用\u2014\u2014刚好足够为一名达到5级的符文抄写师提供全套装备。",
+						{
+							"type": "list",
+							"items": [
+								"{@item 烈焰符文蛋白石|UAPrestigeClassesRunMagic}",
+								"{@item 岩石符文之球|UAPrestigeClassesRunMagic}",
+								"{@item 神风符文三角旗|UAPrestigeClassesRunMagic}",
+								"{@item 卡尔特符文碎子|UAPrestigeClassesRunMagic}"
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

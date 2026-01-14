@@ -1,0 +1,928 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAClericDruidWizard",
+				"abbreviation": "UACDW",
+				"full": "破解奥秘：牧师、德鲁伊与法师",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2019/dnd/downloads/UA-TwilightFireNames.pdf",
+				"dateReleased": "2019-10-03"
+			}
+		],
+		"dependencies": {
+			"subclassFeature": [
+				"UAClassFeatureVariants"
+			]
+		},
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1729637619,
+		"_dateLastModifiedHash": "1578ebe280"
+	},
+	"subclass": [
+		{
+			"ENG_name": "Circle of Wildfire (UA)",
+			"name": "野火结社（UA）",
+			"shortName": "野火（UA）",
+			"source": "UAClericDruidWizard",
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"page": 2,
+			"isReprinted": true,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"动植物定位术",
+							"灼热射线"
+						],
+						"5": [
+							"火球术",
+							"植物滋长"
+						],
+						"7": [
+							"生命灵光",
+							"火焰护盾"
+						],
+						"9": [
+							"焰击术",
+							"死者复活"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"野火结社|德鲁伊||野火（UA）|UAClericDruidWizard|2",
+				"强化链接|德鲁伊||野火（UA）|UAClericDruidWizard|6",
+				"生命之火|德鲁伊||野火（UA）|UAClericDruidWizard|10",
+				"爆燃忍耐|德鲁伊||野火（UA）|UAClericDruidWizard|14"
+			]
+		},
+		{
+			"ENG_name": "Onomancy (UA)",
+			"name": "真名魔法（UA）",
+			"shortName": "真名魔法（UA）",
+			"source": "UAClericDruidWizard",
+			"className": "法师",
+			"classSource": "PHB",
+			"page": 4,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"2": [
+							"灾祸术",
+							"祝福术"
+						]
+					}
+				}
+			],
+			"optionalfeatureProgression": [
+				{
+					"ENG_name": "Onomancy Resonant",
+					"name": "真名魔法共鸣",
+					"featureType": [
+						"OR"
+					],
+					"progression": {
+						"6": 2,
+						"10": 2
+					}
+				}
+			],
+			"subclassFeatures": [
+				"真名魔法|法师||真名魔法（UA）|UAClericDruidWizard|2",
+				"共鸣真言|法师||真名魔法（UA）|UAClericDruidWizard|6",
+				"不可阻挡的宣言|法师||真名魔法（UA）|UAClericDruidWizard|10",
+				"坚韧命名|法师||真名魔法（UA）|UAClericDruidWizard|14"
+			]
+		},
+		{
+			"ENG_name": "Twilight Domain (UA)",
+			"name": "暮光领域（UA）",
+			"shortName": "暮光 (UA)",
+			"source": "UAClericDruidWizard",
+			"className": "牧师",
+			"classSource": "PHB",
+			"page": 1,
+			"isReprinted": true,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"妖火",
+							"睡眠术"
+						],
+						"3": [
+							"黑暗术",
+							"隐形术"
+						],
+						"5": [
+							"活力灵光",
+							"李欧蒙小屋"
+						],
+						"7": [
+							"生命灵光",
+							"高等隐形术"
+						],
+						"9": [
+							"原力法阵",
+							"托梦术"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"暮光领域（UA）|牧师||暮光 (UA)|UAClericDruidWizard|1",
+				"引导神力：暮光圣域|牧师||暮光 (UA)|UAClericDruidWizard|2",
+				"勇者步伐|牧师||暮光 (UA)|UAClericDruidWizard|6",
+				"神圣打击|牧师||暮光 (UA)|UAClericDruidWizard|8",
+				"受祝击|牧师||暮光 (UA)|UAClericDruidWizard|8|UAClassFeatureVariants",
+				"午夜遮帷|牧师||暮光 (UA)|UAClericDruidWizard|17"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"ENG_name": "Twilight Domain (UA)",
+			"name": "暮光领域（UA）",
+			"source": "UAClericDruidWizard",
+			"page": 1,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "暮光 (UA)",
+			"subclassSource": "UAClericDruidWizard",
+			"level": 1,
+			"entries": [
+				"暮光领域掌管着从光明到黑暗的过渡与交融。这是一个休息与舒适的时光，但也是安全与未知之间的门槛。治疗或回春之神（如{@deity 博得雷|艾伯伦}、{@deity 赫斯提亚|希腊}、{@deity 米莎凯|龙枪}或{@deity 培罗|灰鹰}），勇气或守护之神（如{@deity 杜·哈拉|艾伯伦}、哈贾玛、{@deity 海姆}或{@deity 伊尔梅特}），旅行或过渡之神（如{@deity 法兰恩|灰鹰}、{@deity 赫尔墨斯|希腊}、{@deity 鸦后|艾桑椎亚|EGW}或{@deity 旅者|艾伯伦}），或黑夜与梦境之神（如{@deity 塞莱斯汀|灰鹰}、摩耳甫斯、努特或{@deity 塞伦涅}）可能会授予其牧师暮光领域。侍奉这些神祇的牧师往往充满勇气，深入黑暗以抵御其危险，并为那些远离光明的迷失者带来慰藉。",
+				"在每个指定的牧师等级，你可以将下表所述法术添加到你的准备法术中。",
+				{
+					"type": "table",
+					"caption": "暮光领域法术",
+					"colLabels": [
+						"牧师等级",
+						"法术"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell 妖火}, {@spell 睡眠术}"
+						],
+						[
+							"3rd",
+							"{@spell 黑暗术}, {@spell 隐形术}"
+						],
+						[
+							"5th",
+							"{@spell 活力灵光}, {@spell 李欧蒙小屋}"
+						],
+						[
+							"7th",
+							"{@spell 生命灵光}, {@spell 高等隐形术}"
+						],
+						[
+							"9th",
+							"{@spell 原力法阵}, {@spell 托梦术}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "附赠熟练项|牧师||暮光 (UA)|UAClericDruidWizard|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "黑夜明目|牧师||暮光 (UA)|UAClericDruidWizard|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "警觉赐福|牧师||暮光 (UA)|UAClericDruidWizard|1"
+				}
+			]
+		},
+		{
+			"ENG_name": "Bonus Proficiency",
+			"name": "附赠熟练项",
+			"source": "UAClericDruidWizard",
+			"page": 1,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "暮光 (UA)",
+			"subclassSource": "UAClericDruidWizard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"{@i 1级暮光领域特性}",
+				"你获得军用武器和重甲的熟练项。"
+			]
+		},
+		{
+			"ENG_name": "Eyes of Night",
+			"name": "黑夜明目",
+			"source": "UAClericDruidWizard",
+			"page": 1,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "暮光 (UA)",
+			"subclassSource": "UAClericDruidWizard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"{@i 1级暮光领域特性}",
+				"你的双眼受祝福，使你能够看透最深的幽暗。你拥有无最大范围的{@sense 黑暗视觉}；你可以将微光光照视为明亮光照，且将黑暗术视为微光光照。",
+				"以一个动作，你可以魔法性地将此特性的增益给予你能看见的10尺内任意数量的生物。共享的增益持续10分钟。你可以扩展此增益的次数等同于你的感知调整值（至少一次），且完成一次长休后恢复所有已消耗的使用次数。"
+			]
+		},
+		{
+			"ENG_name": "Vigilant Blessing",
+			"name": "警觉赐福",
+			"source": "UAClericDruidWizard",
+			"page": 1,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "暮光 (UA)",
+			"subclassSource": "UAClericDruidWizard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"{@i 1级暮光领域特性}",
+				"夜晚教会了你时刻保持警惕。你能用一个动作触碰一个生物（可以是你自己），并赋予该生物下次先攻检定优势。此增益在该生物骰先攻检定后、或你再次使用此特性时立刻结束。"
+			]
+		},
+		{
+			"ENG_name": "Channel Divinity: Twilight Sanctuary",
+			"name": "引导神力：暮光圣域",
+			"source": "UAClericDruidWizard",
+			"page": 1,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "暮光 (UA)",
+			"subclassSource": "UAClericDruidWizard",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"ENG_name": "Channel Divinity",
+				"name": "引导神力"
+			},
+			"entries": [
+				"{@i 2级暮光领域特性}",
+				"你可以引导神力，用柔和的暮光来振作你盟友的精神。",
+				"以一个动作，你展示你的圣徽并使自身散发球体暮光。球体以你为中心，其半径为30尺，且其范围内被微光光照充斥。球体跟随你移动并持续存在1分钟，如果你陷入{@condition 失能}或是死亡，它也会提前消失。每当一个生物（包括你）在球体中结束它自己的回合时，你能给予它以下好处之一：",
+				{
+					"type": "list",
+					"items": [
+						"给予它{@dice 1d8}临时生命值。",
+						"结束一个导致{@condition 魅惑}或{@condition 恐慌}的效应。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Steps of the Brave",
+			"name": "勇者步伐",
+			"source": "UAClericDruidWizard",
+			"page": 1,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "暮光 (UA)",
+			"subclassSource": "UAClericDruidWizard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6级暮光领域特性}",
+				"你从与暮光的联系中汲取力量，并在其黑暗的拥抱中找到家的感觉，获得两个增益：",
+				{
+					"type": "list",
+					"items": [
+						"你进行对抗{@condition 恐慌}的豁免时具有优势。",
+						"如果你处于微光光照或黑暗术范围内，你可以使用一个附赠动作魔法般地给予自己等同于行走速度的飞行速度，直到你的下一个回合结束。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Divine Strike",
+			"name": "神圣打击",
+			"source": "UAClericDruidWizard",
+			"page": 1,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "暮光 (UA)",
+			"subclassSource": "UAClericDruidWizard",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"{@i 8级暮光领域特性}",
+				"你获得将神圣能量注入武器攻击的能力。在你的每个回合中，当你用武器攻击命中一个生物时，你可以使该攻击造成额外{@damage 1d8}点心灵伤害。当你达到14级时，额外伤害提升至{@dice 2d8}。"
+			]
+		},
+		{
+			"ENG_name": "Midnight Shroud",
+			"name": "午夜遮帷",
+			"source": "UAClericDruidWizard",
+			"page": 1,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "暮光 (UA)",
+			"subclassSource": "UAClericDruidWizard",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"{@i 17级暮光领域特性}",
+				"你可以驾驭黑夜的遮蔽之力来保护盟友并阻挠敌人。每当你使用法术位施放{@spell 黑暗术}法术时，可以选择你能看见的生物（包括你自己），数量等同于你的感知调整值（至少为一个）。这些选民可以看透黑暗。"
+			]
+		},
+		{
+			"ENG_name": "Circle of Wildfire",
+			"name": "野火结社",
+			"source": "UAClericDruidWizard",
+			"page": 2,
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"subclassShortName": "野火（UA）",
+			"subclassSource": "UAClericDruidWizard",
+			"level": 2,
+			"entries": [
+				"野火结社的德鲁伊成员们理解毁灭的必要性，比如森林大火如何促进繁花滋长。这些德鲁伊与一个具有破坏性倾向的原始精魄建立牵挂，使他们能够运用法力创造受控的火焰，协助动植物分布繁殖和生长。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "结社法术|德鲁伊||野火（UA）|UAClericDruidWizard|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "召唤野火|德鲁伊||野火（UA）|UAClericDruidWizard|2"
+				}
+			]
+		},
+		{
+			"ENG_name": "Circle Spells",
+			"name": "结社法术",
+			"source": "UAClericDruidWizard",
+			"page": 2,
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"subclassShortName": "野火（UA）",
+			"subclassSource": "UAClericDruidWizard",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"{@i 2级野火结社特性}",
+				"你与一个野火精魂形成了神秘的羁绊，这是一种兼具创造与毁灭的原始存在。你与这个精魂的联系使你能够使用某些法术。在2级时，你学会火焰箭戏法。",
+				"当你在此职业中达到特定等级时，你将获得野火结社法术表格中对应等级所列出的法术。一旦你获得这些法术之一，你将始终准备该法术，且它不计入你每天可准备的法术数量。如果你获得的法术未出现在德鲁伊法术列表中，该法术对你而言仍然是德鲁伊法术。",
+				{
+					"type": "table",
+					"caption": "野火结社法术",
+					"colLabels": [
+						"德鲁伊等级",
+						"结社法术"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell 动植物定位术}, {@spell 灼热射线}"
+						],
+						[
+							"5th",
+							"{@spell 火球术}, {@spell 植物滋长}"
+						],
+						[
+							"7th",
+							"{@spell 生命灵光}, {@spell 火焰护盾}"
+						],
+						[
+							"9th",
+							"{@spell 焰击术}, {@spell 死者复活}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Summon Wildfire",
+			"name": "召唤野火",
+			"source": "UAClericDruidWizard",
+			"page": 2,
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"subclassShortName": "野火（UA）",
+			"subclassSource": "UAClericDruidWizard",
+			"level": 2,
+			"header": 1,
+			"consumes": {
+				"ENG_name": "Wild Shape",
+				"name": "荒野形态"
+			},
+			"entries": [
+				"{@i 2级野火结社特性}",
+				"你可以召唤与你灵魂连接的原始精魄。以一个动作，你可以消耗一次荒野形态特性来召唤你的{@creature 野火精魂|UAClericDruidWizard}，而非变形成野兽形态。",
+				"精魄出现在你30尺内一个你能看见的未占据空间中。当精魄出现时，10尺内的每个生物（除你之外）必须进行一次对抗你法术豁免DC的敏捷豁免检定，否则受到{@damage 2d10}火焰伤害。",
+				"野火精魂对你和你的同伴友好且服从你的命令。参见该生物的游戏数据中的野火精魂资料卡。你决定精魂的外貌。一些精魂呈现为由火焰覆盖的扭曲树枝组成的类人生物形态，而另一些则看起来像烈焰包裹的野兽。",
+				"在战斗中，野火精魂共享你的先攻值，但它会在你的回合结束后立即行动。它在回合中唯一能执行的动作是{@action 回避}动作，除非你在你的回合中使用一个附赠动作命令它执行其资料卡中的一个动作，或是执行{@action 疾走}、{@action 撤离}、{@action 协助}或{@action 躲藏}动作。",
+				"野火精魂显现1小时，直到其生命值降至0点，或你再次使用荒野形态。"
+			]
+		},
+		{
+			"ENG_name": "Enhanced Bond",
+			"name": "强化链接",
+			"source": "UAClericDruidWizard",
+			"page": 2,
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"subclassShortName": "野火（UA）",
+			"subclassSource": "UAClericDruidWizard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6级野火结社特性}",
+				"你与野火精魂的强化链接增强了你的破坏性和恢复性法术。每当你施放一个造成火焰伤害或恢复生命值的法术且野火精魂被召唤时，掷一枚{@dice d8}，且你获得一个等于骰出数值的法术掷骰加值。此外，当你施放一个范围不为自身的法术时，该法术可以从你或你的野火精魂处释放。"
+			]
+		},
+		{
+			"ENG_name": "Flames of Life",
+			"name": "生命之火",
+			"source": "UAClericDruidWizard",
+			"page": 2,
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"subclassShortName": "野火（UA）",
+			"subclassSource": "UAClericDruidWizard",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"{@i 10级野火结社特性}",
+				"你获得将死亡转化为生命之火的能力。当你或你的野火精魂30尺内你能看见的一个小型或更大的生物死亡时，你可以使用你的反应使原始火焰从该生物的身体中喷涌而出。当一个你能看见的生物接触这些火焰时，该生物恢复等于{@dice 2d10} + 你的感知调整值的生命值或受到等量的火焰伤害（由你选择）。这些火焰在被一个生物接触后或1分钟后消隐。你可以使用此特性的次数等于你的感知调整值（至少一次）。完成一次长休后，你恢复所有已消耗的使用次数。"
+			]
+		},
+		{
+			"ENG_name": "Blazing Endurance",
+			"name": "爆燃忍耐",
+			"source": "UAClericDruidWizard",
+			"page": 2,
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"subclassShortName": "野火（UA）",
+			"subclassSource": "UAClericDruidWizard",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"{@i 14级野火结社特性}",
+				"你与野火精魂的牵挂异常强烈，即便是致命打击也只会助长你的反抗。如果你生命值降至0且没有立即死亡，你将改为降至1点生命值并获得相当于你德鲁伊等级五倍的临时生命值，且你选择的30尺内你能看见的每个生物将受到等于{@dice 2d10} + 你德鲁伊等级的火焰伤害。",
+				"必须完成一次长休才能再次使用该特性。"
+			]
+		},
+		{
+			"ENG_name": "Onomancy",
+			"name": "真名魔法",
+			"source": "UAClericDruidWizard",
+			"page": 4,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "真名魔法（UA）",
+			"subclassSource": "UAClericDruidWizard",
+			"level": 2,
+			"entries": [
+				"魔法的实践者们深知名字的力量，但遵循真名魔法传统的法师们则利用他们的魔法来操纵那些包含存在的词语。真名法师们将他们的研究扩展到语言本身，寻找那些贯穿名字的具有魔法意义的线索。在多元宇宙中，被命名的事物从周围的造物术大壁毯中脱颖而出，与众不同。",
+				"这种区别创造了真名法师们试图利用的力量。通过说出目标的真名，法师的法术能够穿过目标的防御设施间隙，通过其名称的力量与其本质自然相契合。为了保护自己，遵循这一传统的法师通常会隐藏自己的真名，通常采用别名和假名。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "真名|法师||真名魔法（UA）|UAClericDruidWizard|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "附赠熟练|法师||真名魔法（UA）|UAClericDruidWizard|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "提取名称|法师||真名魔法（UA）|UAClericDruidWizard|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "命运命名|法师||真名魔法（UA）|UAClericDruidWizard|2"
+				}
+			]
+		},
+		{
+			"ENG_name": "Bonus Proficiencies",
+			"name": "附赠熟练",
+			"source": "UAClericDruidWizard",
+			"page": 4,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "真名魔法（UA）",
+			"subclassSource": "UAClericDruidWizard",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"{@i 2级真名魔法特性}",
+				"你学习一种自选语言且获得{@item 书法工具|PHB}的熟练。"
+			]
+		},
+		{
+			"ENG_name": "Extract Name",
+			"name": "提取名称",
+			"source": "UAClericDruidWizard",
+			"page": 4,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "真名魔法（UA）",
+			"subclassSource": "UAClericDruidWizard",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"{@i 2级真名魔法特性}",
+				"你可以用魔法强迫一个生物透露其真名。以一个附赠动作，你指定一个你能看见的60尺内的生物为目标。目标必须进行一次对抗你法术豁免DC的感知豁免检定。若豁免成功，你会察觉这次魔法失败了，且你无法再次对该目标使用此特性。若豁免失败，目标被你{@condition 魅惑}直到你的下个回合结束，并且你会心灵感应得知这个{@condition 魅惑}目标的名字或该目标没有名字的事实。",
+				"你可以使用此特性的次数等于你的智力调整值（至少一次），且完成一次长休后恢复所有已消耗的使用次数。"
+			]
+		},
+		{
+			"ENG_name": "Fateful Naming",
+			"name": "命运命名",
+			"source": "UAClericDruidWizard",
+			"page": 4,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "真名魔法（UA）",
+			"subclassSource": "UAClericDruidWizard",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"{@i 2级真名魔法特性}",
+				"你能通过生物真名的法力来引导魔法协助或阻碍它们，甚至能用这些名字作为锚点来影响它们周围的其它生物。{@spell 灾祸术}和{@spell 祝福术}对你而言是法师法术，且你将它们添加到你的法术书中。你总是准备着这些法术，但它们不计入你能准备的法术数量上限。",
+				"你可以施放任一法术而不消耗法术位，如果你在施放时说出该法术单一目标的真实名称。你可以以这种方式施放法术的次数等于你的智力调整值（至少一次），且你在完成一次长休后恢复所有已消耗的使用次数。"
+			]
+		},
+		{
+			"ENG_name": "True Names",
+			"name": "真名",
+			"source": "UAClericDruidWizard",
+			"page": 4,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "真名魔法（UA）",
+			"subclassSource": "UAClericDruidWizard",
+			"level": 2,
+			"header": 1,
+			"type": "inset",
+			"entries": [
+				"真名魔法，或称命名术，是一种利用生物的真名来增强法术效应的施法方法。真名是一个有自我意识的生物用以识别自身的名称。这个名称可能是一个人出生时被赋予的名字，也可能是其后来在生活中选择或赢得的名字。无论名称的起源如何，了解你真名的最简单方法是诚实地思考自己，然后想：\"我的名字是......\"你的真名就是你如何完成这句话。",
+				"你可以尝试通过使用假名来隐藏你的真名，但你必须警觉不要过于深入地融入那个假名。如果一个假名成为了你是谁的最佳表达，它就会变成你的真名。改变一个人的真名从来不是一个快速的选择；它是一个随着时间推移，当一个名称成为生物的真实时发生的事情。",
+				"作为一个快速向导，如果一个生物理解至少一种语言或拥有一个阵营，那么它就有一个真名。"
+			]
+		},
+		{
+			"ENG_name": "Resonant Options",
+			"name": "共鸣选项",
+			"source": "UAClericDruidWizard",
+			"page": 4,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "真名魔法（UA）",
+			"subclassSource": "UAClericDruidWizard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"这里是选择共鸣时的选项：",
+				{
+					"type": "options",
+					"style": "list-hang-notitle",
+					"count": 2,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "吸收|UAClericDruidWizard"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "毁灭|UAClericDruidWizard"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "瓦解术|UAClericDruidWizard"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "无效化|UAClericDruidWizard"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "木偶戏|UAClericDruidWizard"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "关怀|UAClericDruidWizard"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Resonant Utterance",
+			"name": "共鸣真言",
+			"source": "UAClericDruidWizard",
+			"page": 4,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "真名魔法（UA）",
+			"subclassSource": "UAClericDruidWizard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6级真名魔法特性}",
+				"你学会了称为共鸣的力量之语，这允许你通过使用目标的真名来定制你的法术。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "已知共鸣语|法师||真名魔法（UA）|UAClericDruidWizard|6"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "使用共鸣|法师||真名魔法（UA）|UAClericDruidWizard|6"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "共鸣选项|法师||真名魔法（UA）|UAClericDruidWizard|6"
+				}
+			]
+		},
+		{
+			"ENG_name": "Resonants Known",
+			"name": "已知共鸣语",
+			"source": "UAClericDruidWizard",
+			"page": 4,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "真名魔法（UA）",
+			"subclassSource": "UAClericDruidWizard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"当你获得此特性时，你可以从\"共鸣选项\"部分中选择学习两种共鸣。每次在此职业升级时，你可以将一个已知的共鸣替换为另一个不同的共鸣。"
+			]
+		},
+		{
+			"ENG_name": "Using a Resonant",
+			"name": "使用共鸣",
+			"source": "UAClericDruidWizard",
+			"page": 4,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "真名魔法（UA）",
+			"subclassSource": "UAClericDruidWizard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"当你施放一个法师法术并使用法术位且说出该法术目标生物的真实名称时，你可以使用一个共鸣。说出名称是施放法术的一部分。你可以使用共鸣的次数等于你的法师等级的一半（向下取整），且当你完成一次长休时恢复所有已消耗的使用次数。"
+			]
+		},
+		{
+			"ENG_name": "Inexorable Pronouncement",
+			"name": "不可阻挡的宣言",
+			"source": "UAClericDruidWizard",
+			"page": 4,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "真名魔法（UA）",
+			"subclassSource": "UAClericDruidWizard",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"{@i 10级真名魔法特性}",
+				"你从共鸣宣言特性中选择两个新的共鸣。"
+			]
+		},
+		{
+			"ENG_name": "Relentless Naming",
+			"name": "坚韧命名",
+			"source": "UAClericDruidWizard",
+			"page": 4,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "真名魔法（UA）",
+			"subclassSource": "UAClericDruidWizard",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"{@i 14级真名魔法特性}",
+				"你学会了如何绕过指定生物对某些伤害类型的防御设施。当你施法对一个生物造成伤害时，若你在施法过程中说出了该生物的真名，你可以使该法术对该生物造成力场或心灵伤害，而非该法术的正常伤害类型。"
+			]
+		}
+	],
+	"foundrySubclassFeature": [
+		{
+			"ENG_name": "Resonant Options",
+			"name": "共鸣选项",
+			"source": "UAClericDruidWizard",
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "真名魔法（UA）",
+			"subclassSource": "UAClericDruidWizard",
+			"level": 6,
+			"isIgnored": true
+		},
+		{
+			"ENG_name": "Resonants Known",
+			"name": "已知共鸣语",
+			"source": "UAClericDruidWizard",
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "真名魔法（UA）",
+			"subclassSource": "UAClericDruidWizard",
+			"level": 6,
+			"isIgnored": true
+		}
+	],
+	"optionalfeature": [
+		{
+			"ENG_name": "Absorption",
+			"name": "吸收",
+			"source": "UAClericDruidWizard",
+			"page": 5,
+			"featureType": [
+				"OR"
+			],
+			"entries": [
+				"当你施法对指定目标造成伤害时，你获得{@dice 3d6}临时生命值。当你在此职业达到10级（{@dice 5d6}）且14级（{@dice 4d6}）时，获得的临时生命值数值增加{@dice 1d6}。"
+			]
+		},
+		{
+			"ENG_name": "Devastation",
+			"name": "毁灭",
+			"source": "UAClericDruidWizard",
+			"page": 5,
+			"featureType": [
+				"OR"
+			],
+			"entries": [
+				"如果该法术要求指定生物进行豁免检定，该生物在对抗该法术的第一次豁免检定中具有劣势。"
+			]
+		},
+		{
+			"ENG_name": "Dissolution",
+			"name": "瓦解术",
+			"source": "UAClericDruidWizard",
+			"page": 5,
+			"featureType": [
+				"OR"
+			],
+			"entries": [
+				"当指定生物第一次受到该法术的伤害时，该生物会受到额外{@damage 2d8}的力场伤害。当你在此职业达到10级（{@damage 4d8}）和14级（{@damage 3d8}）时，额外的力场伤害会增加{@damage 1d8}。"
+			]
+		},
+		{
+			"ENG_name": "Nullification",
+			"name": "无效化",
+			"source": "UAClericDruidWizard",
+			"page": 5,
+			"featureType": [
+				"OR"
+			],
+			"entries": [
+				"如果指定的目标受到任何其他法术影响，你会知道这些法术是什么，且你可以通过成功进行一次DC等于10 + 所选法术等级的智力检定来尝试结束其中一个法术。"
+			]
+		},
+		{
+			"ENG_name": "Puppetry",
+			"name": "木偶戏",
+			"source": "UAClericDruidWizard",
+			"page": 5,
+			"featureType": [
+				"OR"
+			],
+			"entries": [
+				"当指定生物第一次受到该法术的伤害时，你可以使该生物{@condition 倒地}或将其朝向你或远离你的方向移动最多10尺。"
+			]
+		},
+		{
+			"ENG_name": "Sympathy",
+			"name": "关怀",
+			"source": "UAClericDruidWizard",
+			"page": 5,
+			"featureType": [
+				"OR"
+			],
+			"entries": [
+				"如果指定的生物在法术范围内，即使你看不见该生物或该生物对法术有全身掩护，你也可以将该生物作为法术目标。"
+			]
+		}
+	],
+	"monster": [
+		{
+			"ENG_name": "Wildfire Spirit",
+			"name": "野火精魂",
+			"source": "UAClericDruidWizard",
+			"page": 3,
+			"size": [
+				"S"
+			],
+			"type": "elemental",
+			"alignment": [
+				"C",
+				"G",
+				"NY",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"天生护甲"
+					]
+				}
+			],
+			"hp": {
+				"special": "等于野火灵的体质调整值加上你的感知调整值，再加上你在这个职业中的等级的五倍"
+			},
+			"speed": {
+				"walk": 20,
+				"fly": {
+					"number": 30,
+					"condition": "(悬浮)"
+				},
+				"canHover": true
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 14,
+			"int": 13,
+			"wis": 15,
+			"cha": 11,
+			"save": {
+				"dex": "+4",
+				"con": "+4",
+				"wis": "+4"
+			},
+			"skill": {
+				"nature": "+4"
+			},
+			"senses": [
+				"黑暗视觉 60 尺"
+			],
+			"passive": 12,
+			"immune": [
+				"火焰"
+			],
+			"conditionImmune": [
+				"魅惑",
+				"恐慌",
+				"受擒",
+				"倒地",
+				"束缚"
+			],
+			"languages": [
+				"理解你所说的语言"
+			],
+			"trait": [
+				{
+					"ENG_name": "Soul Bond",
+					"name": "灵魂联结",
+					"entries": [
+						"当你的熟练加值增加1时，以下数值也会相应增加1：灵体在上面的技能和豁免检定加值、其火焰种子的命中和伤害加值，以及其炽焰传送的伤害加值。"
+					]
+				}
+			],
+			"actionNote": "需要你的附赠动作",
+			"action": [
+				{
+					"ENG_name": "Flame Seed",
+					"name": "火种",
+					"entries": [
+						"{@atk rw} 命中{@hit 4}，射程30英尺，一个你能看到的目标。{@h}{@damage 1d6 + 2} 火焰伤害。"
+					]
+				},
+				{
+					"ENG_name": "Fiery Teleportation (Recharges after a Short or Long Rest)",
+					"name": "炽焰传送（短休或长休后重置）",
+					"entries": [
+						"精神和您选择的每个愿意的生物在它周围5英尺范围内，可以传送至您能看到的未被占据的空间，最多30英尺。每个在精神离开的空间周围10英尺内的生物必须通过一次敏捷豁免检定，对抗您的法术豁免DC，否则将受到{@dice 1d6 + 2}点火焰伤害。"
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/UAClericDruidWizard/tokens/Wildfire Spirit.webp"
+			},
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"F"
+			],
+			"miscTags": [
+				"RW"
+			]
+		}
+	]
+}
