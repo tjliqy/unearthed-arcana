@@ -602,10 +602,10 @@
 			],
 			"classFeatures": [
 				"施法|奇械师|XUA2024Artificer|1|XUA2024Artificer",
-				"修补匠的魔法|奇械师|XUA2025艾伯伦更新|1|XUA2025艾伯伦更新",
-				"仿制魔法物品|奇械师|XUA2025艾伯伦更新|2|XUA2025艾伯伦更新",
+				"修补匠的魔法|奇械师|XUA2025EberronUpdates|1|XUA2025EberronUpdates",
+				"仿制魔法物品|奇械师|XUA2025EberronUpdates|2|XUA2025EberronUpdates",
 				{
-					"classFeature": "奇械师子职|奇械师|XUA2025艾伯伦更新|3|XUA2025艾伯伦更新",
+					"classFeature": "奇械师子职|奇械师|XUA2025EberronUpdates|3|XUA2025EberronUpdates",
 					"gainSubclassFeature": true
 				},
 				"属性值提升|奇械师|XUA2024Artificer|4|XUA2024Artificer",
@@ -613,17 +613,17 @@
 					"classFeature": "子职特性|奇械师|XUA2024Artificer|5|XUA2024Artificer",
 					"gainSubclassFeature": true
 				},
-				"魔法物品工艺师|奇械师|XUA2025艾伯伦更新|6|XUA2025艾伯伦更新",
+				"魔法物品工艺师|奇械师|XUA2025EberronUpdates|6|XUA2025EberronUpdates",
 				"灵光一闪|奇械师|XUA2024Artificer|7|XUA2024Artificer",
 				"属性值提升|奇械师|XUA2024Artificer|8|XUA2024Artificer",
 				{
 					"classFeature": "子职特性|奇械师|XUA2024Artificer|9|XUA2024Artificer",
 					"gainSubclassFeature": true
 				},
-				"魔法物品熟稔|奇械师|XUA2025艾伯伦更新|10|XUA2025艾伯伦更新",
-				"储法物品|奇械师|XUA2025艾伯伦更新|11|XUA2025艾伯伦更新",
+				"魔法物品熟稔|奇械师|XUA2025EberronUpdates|10|XUA2025EberronUpdates",
+				"储法物品|奇械师|XUA2025EberronUpdates|11|XUA2025EberronUpdates",
 				"属性值提升|奇械师|XUA2024Artificer|12|XUA2024Artificer",
-				"魔法物品专家|奇械师|XUA2025艾伯伦更新|14|XUA2025艾伯伦更新",
+				"魔法物品专家|奇械师|XUA2025EberronUpdates|14|XUA2025EberronUpdates",
 				{
 					"classFeature": "子职特性|奇械师|XUA2024Artificer|15|XUA2024Artificer",
 					"gainSubclassFeature": true
@@ -631,7 +631,7 @@
 				"属性值提升|奇械师|XUA2024Artificer|16|XUA2024Artificer",
 				"魔法物品大师|奇械师|XUA2024Artificer|18|XUA2024Artificer",
 				"传奇恩惠|奇械师|XUA2024Artificer|19|XUA2024Artificer",
-				"奇械之魂|奇械师|XUA2025艾伯伦更新|20|XUA2025艾伯伦更新"
+				"奇械之魂|奇械师|XUA2025EberronUpdates|20|XUA2025EberronUpdates"
 			],
 			"subclassTitle": "奇械师子职",
 			"hasFluff": true
@@ -661,7 +661,7 @@
 			"shortName": "炼金师",
 			"source": "XUA2025EberronUpdates",
 			"className": "奇械师",
-			"classSource": "XUA2025艾伯伦更新",
+			"classSource": "XUA2025EberronUpdates",
 			"_copy": {
 				"ENG_name": "Alchemist",
 				"name": "炼金师",
@@ -680,7 +680,7 @@
 			"shortName": "装甲师",
 			"source": "XUA2025EberronUpdates",
 			"className": "奇械师",
-			"classSource": "XUA2025艾伯伦更新",
+			"classSource": "XUA2025EberronUpdates",
 			"_copy": {
 				"ENG_name": "Armorer",
 				"name": "装甲师",
@@ -699,7 +699,7 @@
 			"shortName": "魔炮师",
 			"source": "XUA2025EberronUpdates",
 			"className": "奇械师",
-			"classSource": "XUA2025艾伯伦更新",
+			"classSource": "XUA2025EberronUpdates",
 			"_copy": {
 				"ENG_name": "Artillerist",
 				"name": "魔炮师",
@@ -718,7 +718,7 @@
 			"shortName": "战地匠师",
 			"source": "XUA2025EberronUpdates",
 			"className": "奇械师",
-			"classSource": "XUA2025艾伯伦更新",
+			"classSource": "XUA2025EberronUpdates",
 			"_copy": {
 				"ENG_name": "Battle Smith",
 				"name": "战地匠师",
@@ -737,7 +737,7 @@
 			"shortName": "制图师",
 			"source": "XUA2025EberronUpdates",
 			"className": "奇械师",
-			"classSource": "XUA2025艾伯伦更新",
+			"classSource": "XUA2025EberronUpdates",
 			"page": 6,
 			"additionalSpells": [
 				{
@@ -797,10 +797,10 @@
 				"寻路术|XPHB"
 			],
 			"subclassFeatures": [
-				"制图师|奇械师|XUA2025艾伯伦更新|制图师|XUA2025艾伯伦更新|3|XUA2025艾伯伦更新",
-				"传送门跃|奇械师|XUA2025艾伯伦更新|制图师|XUA2025艾伯伦更新|5|XUA2025艾伯伦更新",
-				"灵机一动|奇械师|XUA2025艾伯伦更新|制图师|XUA2025艾伯伦更新|9|XUA2025艾伯伦更新",
-				"万能地图匣|奇械师|XUA2025艾伯伦更新|制图师|XUA2025艾伯伦更新|15|XUA2025艾伯伦更新"
+				"制图师|奇械师|XUA2025EberronUpdates|制图师|XUA2025EberronUpdates|3|XUA2025EberronUpdates",
+				"传送门跃|奇械师|XUA2025EberronUpdates|制图师|XUA2025EberronUpdates|5|XUA2025EberronUpdates",
+				"灵机一动|奇械师|XUA2025EberronUpdates|制图师|XUA2025EberronUpdates|9|XUA2025EberronUpdates",
+				"万能地图匣|奇械师|XUA2025EberronUpdates|制图师|XUA2025EberronUpdates|15|XUA2025EberronUpdates"
 			],
 			"hasFluff": true
 		}
@@ -812,7 +812,7 @@
 			"shortName": "炼金师",
 			"source": "XUA2025EberronUpdates",
 			"className": "奇械师",
-			"classSource": "XUA2025艾伯伦更新",
+			"classSource": "XUA2025EberronUpdates",
 			"_copy": {
 				"ENG_name": "Alchemist",
 				"name": "炼金师",
@@ -828,7 +828,7 @@
 			"shortName": "装甲师",
 			"source": "XUA2025EberronUpdates",
 			"className": "奇械师",
-			"classSource": "XUA2025艾伯伦更新",
+			"classSource": "XUA2025EberronUpdates",
 			"_copy": {
 				"ENG_name": "Armorer",
 				"name": "装甲师",
@@ -844,7 +844,7 @@
 			"shortName": "魔炮师",
 			"source": "XUA2025EberronUpdates",
 			"className": "奇械师",
-			"classSource": "XUA2025艾伯伦更新",
+			"classSource": "XUA2025EberronUpdates",
 			"_copy": {
 				"ENG_name": "Artillerist",
 				"name": "魔炮师",
@@ -860,7 +860,7 @@
 			"shortName": "战地匠师",
 			"source": "XUA2025EberronUpdates",
 			"className": "奇械师",
-			"classSource": "XUA2025艾伯伦更新",
+			"classSource": "XUA2025EberronUpdates",
 			"_copy": {
 				"ENG_name": "Battle Smith",
 				"name": "战地匠师",
@@ -876,7 +876,7 @@
 			"shortName": "制图师",
 			"source": "XUA2025EberronUpdates",
 			"className": "奇械师",
-			"classSource": "XUA2025艾伯伦更新",
+			"classSource": "XUA2025EberronUpdates",
 			"entries": [
 				"{@i 绘制动荡中的优势航线}"
 			]
@@ -889,7 +889,7 @@
 			"source": "XUA2025EberronUpdates",
 			"page": 3,
 			"className": "奇械师",
-			"classSource": "XUA2025艾伯伦更新",
+			"classSource": "XUA2025EberronUpdates",
 			"level": 1,
 			"entries": [
 				"你知晓{@spell 修复术|XPHB}戏法。",
@@ -938,7 +938,7 @@
 			"source": "XUA2025EberronUpdates",
 			"page": 3,
 			"className": "奇械师",
-			"classSource": "XUA2025艾伯伦更新",
+			"classSource": "XUA2025EberronUpdates",
 			"level": 2,
 			"entries": [
 				"你学会了用于制作魔法物品的奥术方案。",
@@ -951,7 +951,7 @@
 							"type": "entries",
 							"page": 3,
 							"entries": [
-								"当你获得此特性时，从{@table 魔法物品方案（奇械师等级2+）|XUA2025艾伯伦更新}表格中选择四个计划学习（参见{@book 城主指南|XDMG}了解物品描述）。推荐{@item 次元袋|XDMG}、{@item 水下呼吸帽|XDMG}、{@item 短讯石|XDMG}和{@item +1 战法师魔杖|XDMG|战法师魔杖 +1}。每当你提升奇械师等级时，你可以将一个已知计划替换为你符合条件的新计划。",
+								"当你获得此特性时，从{@table 魔法物品方案（奇械师等级2+）|XUA2025EberronUpdates}表格中选择四个计划学习（参见{@book 城主指南|XDMG}了解物品描述）。推荐{@item 次元袋|XDMG}、{@item 水下呼吸帽|XDMG}、{@item 短讯石|XDMG}和{@item +1 战法师魔杖|XDMG|战法师魔杖 +1}。每当你提升奇械师等级时，你可以将一个已知计划替换为你符合条件的新计划。",
 								"你在达到特定奇械师等级时学会另一个自选计划，如奇械师特性表格的计划已知栏所示。",
 								"当你选择一个计划来学习时，你可以从任何你符合资格的魔法物品方案表格中选择；你的资格基于你的奇械师等级。"
 							]
@@ -1033,10 +1033,10 @@
 			"source": "XUA2025EberronUpdates",
 			"page": 4,
 			"className": "奇械师",
-			"classSource": "XUA2025艾伯伦更新",
+			"classSource": "XUA2025EberronUpdates",
 			"level": 3,
 			"entries": [
-				"你获得一个你选择的奇械师子职。{@subclass 制图师|奇械师|XUA2025艾伯伦更新|XUA2025艾伯伦更新}子职在此职业描述之后详述。子职是一种专精，在特定奇械师等级授予你特性。在你的剩余职业生涯中，你获得你的子职中等于或低于你奇械师等级的所有特性。"
+				"你获得一个你选择的奇械师子职。{@subclass 制图师|奇械师|XUA2025EberronUpdates|XUA2025EberronUpdates}子职在此职业描述之后详述。子职是一种专精，在特定奇械师等级授予你特性。在你的剩余职业生涯中，你获得你的子职中等于或低于你奇械师等级的所有特性。"
 			]
 		},
 		{
@@ -1045,10 +1045,10 @@
 			"source": "XUA2025EberronUpdates",
 			"page": 4,
 			"className": "奇械师",
-			"classSource": "XUA2025艾伯伦更新",
+			"classSource": "XUA2025EberronUpdates",
 			"level": 6,
 			"entries": [
-				"你的{@classFeature 仿制魔法物品|奇械师|XUA2025艾伯伦更新|2|XUA2025艾伯伦更新}特性获得以下选项。",
+				"你的{@classFeature 仿制魔法物品|奇械师|XUA2025EberronUpdates|2|XUA2025EberronUpdates}特性获得以下选项。",
 				{
 					"type": "entries",
 					"entries": [
@@ -1058,7 +1058,7 @@
 							"type": "entries",
 							"page": 4,
 							"entries": [
-								"作为{@variantrule 附赠动作|XPHB}，你可以接触你5尺内一个你通过{@classFeature 仿制魔法物品|奇械师|XUA2025艾伯伦更新|2|XUA2025艾伯伦更新}创造的且使用充能的魔法物品。你为该物品充能并消耗一个1环或更高的法术位。物品恢复的充能数值等于所消耗法术位的等级。"
+								"作为{@variantrule 附赠动作|XPHB}，你可以接触你5尺内一个你通过{@classFeature 仿制魔法物品|奇械师|XUA2025EberronUpdates|2|XUA2025EberronUpdates}创造的且使用充能的魔法物品。你为该物品充能并消耗一个1环或更高的法术位。物品恢复的充能数值等于所消耗法术位的等级。"
 							]
 						},
 						{
@@ -1067,7 +1067,7 @@
 							"type": "entries",
 							"page": 4,
 							"entries": [
-								"作为{@variantrule 附赠动作|XPHB}，你可以接触你5尺内一个你用{@classFeature 仿制魔法物品|奇械师|XUA2025艾伯伦更新|2|XUA2025艾伯伦更新}创造的魔法物品并使其消失，将其魔法能量转化为一个法术位。如果该物品是普通则法术位为1环，如果该物品是非普通或珍稀则为2环。一旦你使用此特性，在完成一次{@variantrule 长休|XPHB}前不能再使用。你用此特性创造的任何法术位在你完成一次{@variantrule 长休|XPHB}时消失。"
+								"作为{@variantrule 附赠动作|XPHB}，你可以接触你5尺内一个你用{@classFeature 仿制魔法物品|奇械师|XUA2025EberronUpdates|2|XUA2025EberronUpdates}创造的魔法物品并使其消失，将其魔法能量转化为一个法术位。如果该物品是普通则法术位为1环，如果该物品是非普通或珍稀则为2环。一旦你使用此特性，在完成一次{@variantrule 长休|XPHB}前不能再使用。你用此特性创造的任何法术位在你完成一次{@variantrule 长休|XPHB}时消失。"
 							]
 						},
 						{
@@ -1076,7 +1076,7 @@
 							"type": "entries",
 							"page": 5,
 							"entries": [
-								"以一个{@action 魔法|XPHB}动作，你可以接触一个你5尺内用{@classFeature 仿制魔法物品|奇械师|XUA2025艾伯伦更新|2|XUA2025艾伯伦更新}创造的魔法物品并将其转化为不同的魔法物品。转化后的物品必须基于你已知的魔法物品方案。一旦你使用此特性，在完成一次{@variantrule 长休|XPHB}前不能再次使用。"
+								"以一个{@action 魔法|XPHB}动作，你可以接触一个你5尺内用{@classFeature 仿制魔法物品|奇械师|XUA2025EberronUpdates|2|XUA2025EberronUpdates}创造的魔法物品并将其转化为不同的魔法物品。转化后的物品必须基于你已知的魔法物品方案。一旦你使用此特性，在完成一次{@variantrule 长休|XPHB}前不能再次使用。"
 							]
 						}
 					]
@@ -1089,7 +1089,7 @@
 			"source": "XUA2025EberronUpdates",
 			"page": 5,
 			"className": "奇械师",
-			"classSource": "XUA2025艾伯伦更新",
+			"classSource": "XUA2025EberronUpdates",
 			"level": 10,
 			"entries": [
 				"你可以同时与最多四件魔法物品同调，而非三件。"
@@ -1101,7 +1101,7 @@
 			"source": "XUA2025EberronUpdates",
 			"page": 5,
 			"className": "奇械师",
-			"classSource": "XUA2025艾伯伦更新",
+			"classSource": "XUA2025EberronUpdates",
 			"level": 11,
 			"entries": [
 				"每当你完成一次{@variantrule 长休|XPHB}时，你可以接触一件简易或军用武器，或一件你能用作{@variantrule 法器|XPHB}的物品，并在其中储存一个法术，选择一个{@filter 1环、2环或3环奇械师法术，其施法时间为一个动作且不需要会被法术消耗的材料成分|spells|source=|level=1;2;3|class=奇械师 (xua2025eu)|components & miscellaneous=!材质被消耗|cast time=动作}（你无需准备该法术）。",
@@ -1115,7 +1115,7 @@
 			"source": "XUA2025EberronUpdates",
 			"page": 5,
 			"className": "奇械师",
-			"classSource": "XUA2025艾伯伦更新",
+			"classSource": "XUA2025EberronUpdates",
 			"level": 14,
 			"entries": [
 				"你现在可以同时与最多五件魔法物品同调，而不是三件。"
@@ -1127,7 +1127,7 @@
 			"source": "XUA2025EberronUpdates",
 			"page": 5,
 			"className": "奇械师",
-			"classSource": "XUA2025艾伯伦更新",
+			"classSource": "XUA2025EberronUpdates",
 			"level": 20,
 			"entries": [
 				"你已与你的魔法物品建立了神秘连接，可以从中汲取援助。你获得以下好处：",
@@ -1140,7 +1140,7 @@
 							"type": "entries",
 							"page": 5,
 							"entries": [
-								"如果你被减少到0{@variantrule 生命值|XPHB}但未被直接杀死，你可以解离任意数量由你的{@classFeature 仿制魔法物品|奇械师|XUA2025艾伯伦更新|2|XUA2025艾伯伦更新}特性创造的非普通或珍稀魔法物品。如果你这样做，你反而会下降到等于20乘以被解离魔法物品数量的{@variantrule 生命值|XPHB}。"
+								"如果你被减少到0{@variantrule 生命值|XPHB}但未被直接杀死，你可以解离任意数量由你的{@classFeature 仿制魔法物品|奇械师|XUA2025EberronUpdates|2|XUA2025EberronUpdates}特性创造的非普通或珍稀魔法物品。如果你这样做，你反而会下降到等于20乘以被解离魔法物品数量的{@variantrule 生命值|XPHB}。"
 							]
 						},
 						{
@@ -1164,9 +1164,9 @@
 			"source": "XUA2025EberronUpdates",
 			"page": 7,
 			"className": "奇械师",
-			"classSource": "XUA2025艾伯伦更新",
+			"classSource": "XUA2025EberronUpdates",
 			"subclassShortName": "制图师",
-			"subclassSource": "XUA2025艾伯伦更新",
+			"subclassSource": "XUA2025EberronUpdates",
 			"level": 3,
 			"entries": [
 				"每当你持用{@item 制图工具|XPHB}完成一次{@variantrule 长休|XPHB}时，你可以使用该工具通过接触至少两个生物（其中一个可以是你自己）来创建一套魔法地图，最多生物数量等于1加上你的智力调整值（最少两个生物）。每个目标获得一张魔法地图，该地图对所有其他人都无法辨认。这些地图持续到你死亡或你再次使用此特性为止，此时任何由该特性创建的现有地图会立即消失。",
@@ -1202,27 +1202,27 @@
 			"source": "XUA2025EberronUpdates",
 			"page": 6,
 			"className": "奇械师",
-			"classSource": "XUA2025艾伯伦更新",
+			"classSource": "XUA2025EberronUpdates",
 			"subclassShortName": "制图师",
-			"subclassSource": "XUA2025艾伯伦更新",
+			"subclassSource": "XUA2025EberronUpdates",
 			"level": 3,
 			"entries": [
 				"制图师是顶级的导航员和侦察代理人。使用他们的造物术，制图师可以高亮威胁、佑护他们的盟友，并开辟通往遥远地点的传送门。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "工具熟练项|奇械师|XUA2025艾伯伦更新|制图师|XUA2025艾伯伦更新|3|XUA2025艾伯伦更新"
+					"subclassFeature": "工具熟练项|奇械师|XUA2025EberronUpdates|制图师|XUA2025EberronUpdates|3|XUA2025EberronUpdates"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "制图师法术|奇械师|XUA2025艾伯伦更新|制图师|XUA2025艾伯伦更新|3|XUA2025艾伯伦更新"
+					"subclassFeature": "制图师法术|奇械师|XUA2025EberronUpdates|制图师|XUA2025EberronUpdates|3|XUA2025EberronUpdates"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "冒险者的地图匣|奇械师|XUA2025艾伯伦更新|制图师|XUA2025艾伯伦更新|3|XUA2025艾伯伦更新"
+					"subclassFeature": "冒险者的地图匣|奇械师|XUA2025EberronUpdates|制图师|XUA2025EberronUpdates|3|XUA2025EberronUpdates"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "探查部件|奇械师|XUA2025艾伯伦更新|制图师|XUA2025艾伯伦更新|3|XUA2025艾伯伦更新"
+					"subclassFeature": "探查部件|奇械师|XUA2025EberronUpdates|制图师|XUA2025EberronUpdates|3|XUA2025EberronUpdates"
 				}
 			]
 		},
@@ -1232,12 +1232,12 @@
 			"source": "XUA2025EberronUpdates",
 			"page": 6,
 			"className": "奇械师",
-			"classSource": "XUA2025艾伯伦更新",
+			"classSource": "XUA2025EberronUpdates",
 			"subclassShortName": "制图师",
-			"subclassSource": "XUA2025艾伯伦更新",
+			"subclassSource": "XUA2025EberronUpdates",
 			"level": 3,
 			"entries": [
-				"当你达到{@table 制图师法术|XUA2025艾伯伦更新}表格中指定的奇械师等级时，你此后始终准备所列出的法术。",
+				"当你达到{@table 制图师法术|XUA2025EberronUpdates}表格中指定的奇械师等级时，你此后始终准备所列出的法术。",
 				{
 					"ENG_name": "Cartographer Spells",
 					"name": "制图师法术",
@@ -1254,9 +1254,9 @@
 			"source": "XUA2025EberronUpdates",
 			"page": 7,
 			"className": "奇械师",
-			"classSource": "XUA2025艾伯伦更新",
+			"classSource": "XUA2025EberronUpdates",
 			"subclassShortName": "制图师",
-			"subclassSource": "XUA2025艾伯伦更新",
+			"subclassSource": "XUA2025EberronUpdates",
 			"level": 3,
 			"entries": [
 				"你获得以下增益。",
@@ -1291,9 +1291,9 @@
 			"source": "XUA2025EberronUpdates",
 			"page": 6,
 			"className": "奇械师",
-			"classSource": "XUA2025艾伯伦更新",
+			"classSource": "XUA2025EberronUpdates",
 			"subclassShortName": "制图师",
-			"subclassSource": "XUA2025艾伯伦更新",
+			"subclassSource": "XUA2025EberronUpdates",
 			"level": 3,
 			"entries": [
 				"你获得{@item 书法工具|XPHB}和{@item 制图工具|XPHB}的熟练项。如果你已经拥有其中一种熟练项，则获得一种你选择的其他类型的{@item 工匠工具|XPHB}的熟练项。此外，当你使用{@book 玩家手册中的手作规则|XPHB|6|抄录法术卷轴}抄写{@item 法术卷轴|XDMG}时，制造所需的时间减半。"
@@ -1305,14 +1305,14 @@
 			"source": "XUA2025EberronUpdates",
 			"page": 7,
 			"className": "奇械师",
-			"classSource": "XUA2025艾伯伦更新",
+			"classSource": "XUA2025EberronUpdates",
 			"subclassShortName": "制图师",
-			"subclassSource": "XUA2025艾伯伦更新",
+			"subclassSource": "XUA2025EberronUpdates",
 			"level": 5,
 			"entries": [
 				"作为{@variantrule 附赠动作|XPHB}，你可以传送至多60尺至一个你能看见的未占据空间。",
 				"你可以使用此特性的次数等于你的智力调整值（至少一次）。当你完成一次{@variantrule 长休|XPHB}时，你恢复所有已消耗的使用次数。",
-				"你也可以在不消耗使用次数的情况下使用此能力，如果目的地空间位于携带你使用{@subclassFeature 冒险者的地图匣|奇械师|XUA2025艾伯伦更新|制图师|XUA2025艾伯伦更新|3|XUA2025艾伯伦更新}创建的地图的生物5尺内。这样做会摧毁该生物携带的地图。"
+				"你也可以在不消耗使用次数的情况下使用此能力，如果目的地空间位于携带你使用{@subclassFeature 冒险者的地图匣|奇械师|XUA2025EberronUpdates|制图师|XUA2025EberronUpdates|3|XUA2025EberronUpdates}创建的地图的生物5尺内。这样做会摧毁该生物携带的地图。"
 			]
 		},
 		{
@@ -1321,9 +1321,9 @@
 			"source": "XUA2025EberronUpdates",
 			"page": 7,
 			"className": "奇械师",
-			"classSource": "XUA2025艾伯伦更新",
+			"classSource": "XUA2025EberronUpdates",
 			"subclassShortName": "制图师",
-			"subclassSource": "XUA2025艾伯伦更新",
+			"subclassSource": "XUA2025EberronUpdates",
 			"level": 9,
 			"entries": [
 				"当你使用你的{@classFeature 灵光一闪|奇械师|XUA2024Artificer|7|XUA2024Artificer}时，你或一个你选择的30尺内你能看见的愿意生物可以传送至多30尺至一个你能看见的未占据空间，作为同一个{@variantrule 反应|XPHB}的一部分。"
@@ -1335,12 +1335,12 @@
 			"source": "XUA2025EberronUpdates",
 			"page": 7,
 			"className": "奇械师",
-			"classSource": "XUA2025艾伯伦更新",
+			"classSource": "XUA2025EberronUpdates",
 			"subclassShortName": "制图师",
-			"subclassSource": "XUA2025艾伯伦更新",
+			"subclassSource": "XUA2025EberronUpdates",
 			"level": 15,
 			"entries": [
-				"你的{@subclassFeature 冒险者的地图匣|奇械师|XUA2025艾伯伦更新|制图师|XUA2025艾伯伦更新|3|XUA2025艾伯伦更新}得到提升，获得以下好处。",
+				"你的{@subclassFeature 冒险者的地图匣|奇械师|XUA2025EberronUpdates|制图师|XUA2025EberronUpdates|3|XUA2025EberronUpdates}得到提升，获得以下好处。",
 				{
 					"type": "entries",
 					"entries": [
@@ -1359,7 +1359,7 @@
 							"type": "entries",
 							"page": 7,
 							"entries": [
-								"如果你是你{@subclassFeature 冒险者的地图匣|奇械师|XUA2025艾伯伦更新|制图师|XUA2025艾伯伦更新|3|XUA2025艾伯伦更新}的地图持有者之一，你可以施放{@spell 寻路术|XPHB}而无需消耗法术位、无需准备该法术且不需要法术成分。一旦你使用了此特性，在完成一次{@variantrule 长休|XPHB}前你不能再次使用它。"
+								"如果你是你{@subclassFeature 冒险者的地图匣|奇械师|XUA2025EberronUpdates|制图师|XUA2025EberronUpdates|3|XUA2025EberronUpdates}的地图持有者之一，你可以施放{@spell 寻路术|XPHB}而无需消耗法术位、无需准备该法术且不需要法术成分。一旦你使用了此特性，在完成一次{@variantrule 长休|XPHB}前你不能再次使用它。"
 							]
 						},
 						{
@@ -1368,7 +1368,7 @@
 							"type": "entries",
 							"page": 7,
 							"entries": [
-								"当至少一张由你的{@subclassFeature 冒险者的地图匣|奇械师|XUA2025艾伯伦更新|制图师|XUA2025艾伯伦更新|3|XUA2025艾伯伦更新}创建的地图仍然存在时，受到伤害不会导致你失去对奇械师法术的{@status 专注|XPHB}。"
+								"当至少一张由你的{@subclassFeature 冒险者的地图匣|奇械师|XUA2025EberronUpdates|制图师|XUA2025EberronUpdates|3|XUA2025EberronUpdates}创建的地图仍然存在时，受到伤害不会导致你失去对奇械师法术的{@status 专注|XPHB}。"
 							]
 						}
 					]
@@ -1382,9 +1382,9 @@
 			"name": "工具熟练项",
 			"source": "XUA2025EberronUpdates",
 			"className": "奇械师",
-			"classSource": "XUA2025艾伯伦更新",
+			"classSource": "XUA2025EberronUpdates",
 			"subclassShortName": "制图师",
-			"subclassSource": "XUA2025艾伯伦更新",
+			"subclassSource": "XUA2025EberronUpdates",
 			"level": 3,
 			"entryData": {
 				"toolProficiencies": [
@@ -1565,51 +1565,51 @@
 							],
 							"rows": [
 								[
-									"{@feat 侦测龙纹|XUA2025艾伯伦更新|侦测}",
+									"{@feat 侦测龙纹|XUA2025EberronUpdates|侦测}",
 									"{@spell 真知术|XPHB}"
 								],
 								[
-									"{@feat 探索龙纹|XUA2025艾伯伦更新|发现}",
+									"{@feat 探索龙纹|XUA2025EberronUpdates|发现}",
 									"{@spell 传送术|XPHB}"
 								],
 								[
-									"{@feat 畜牧龙纹|XUA2025艾伯伦更新|操控}",
+									"{@feat 畜牧龙纹|XUA2025EberronUpdates|操控}",
 									"{@spell 动物形态|XPHB}"
 								],
 								[
-									"{@feat 医疗龙纹|XUA2025艾伯伦更新|治疗}",
+									"{@feat 医疗龙纹|XUA2025EberronUpdates|治疗}",
 									"{@spell 再生术|XPHB}"
 								],
 								[
-									"{@feat 招待龙纹|XUA2025艾伯伦更新|好客}",
+									"{@feat 招待龙纹|XUA2025EberronUpdates|好客}",
 									"{@spell 英雄宴|XPHB}"
 								],
 								[
-									"{@feat 创造龙纹|XUA2025艾伯伦更新|创造}",
+									"{@feat 创造龙纹|XUA2025EberronUpdates|创造}",
 									"{@spell 半位面|XPHB}"
 								],
 								[
-									"{@feat 通行龙纹|XUA2025艾伯伦更新|通行}",
+									"{@feat 通行龙纹|XUA2025EberronUpdates|通行}",
 									"{@spell 位面转移|XPHB}"
 								],
 								[
-									"{@feat 抄录龙纹|XUA2025艾伯伦更新|抄写}",
+									"{@feat 抄录龙纹|XUA2025EberronUpdates|抄写}",
 									"{@spell 徽记术|XPHB}"
 								],
 								[
-									"{@feat 守护龙纹|XUA2025艾伯伦更新|哨兵}",
+									"{@feat 守护龙纹|XUA2025EberronUpdates|哨兵}",
 									"{@spell 心灵屏障|XPHB}"
 								],
 								[
-									"{@feat 阴影龙纹|XUA2025艾伯伦更新|幽影}",
+									"{@feat 阴影龙纹|XUA2025EberronUpdates|幽影}",
 									"{@spell 投影术|XPHB}"
 								],
 								[
-									"{@feat 暴风龙纹|XUA2025艾伯伦更新|风暴}",
+									"{@feat 暴风龙纹|XUA2025EberronUpdates|风暴}",
 									"{@spell 操控天气|XPHB}"
 								],
 								[
-									"{@feat 警戒龙纹|XUA2025艾伯伦更新|守卫}",
+									"{@feat 警戒龙纹|XUA2025EberronUpdates|守卫}",
 									"{@spell 迷宫术|XPHB}"
 								]
 							]
@@ -1628,7 +1628,7 @@
 				{
 					"level": 4,
 					"feat": [
-						"异种龙纹|XUA2025艾伯伦更新"
+						"异种龙纹|XUA2025EberronUpdates"
 					]
 				}
 			],
@@ -1644,7 +1644,7 @@
 					"name": "直觉锐化",
 					"type": "entries",
 					"entries": [
-						"当你使用你的{@feat 异种龙纹|XUA2025艾伯伦更新}专长的异种坚定增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
+						"当你使用你的{@feat 异种龙纹|XUA2025EberronUpdates}专长的异种坚定增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
 					]
 				},
 				{
@@ -1668,7 +1668,7 @@
 				{
 					"level": 4,
 					"feat": [
-						"侦测龙纹|XUA2025艾伯伦更新"
+						"侦测龙纹|XUA2025EberronUpdates"
 					]
 				}
 			],
@@ -1693,7 +1693,7 @@
 					"name": "直觉锐化",
 					"type": "entries",
 					"entries": [
-						"当你使用你的{@feat 侦测龙纹|XUA2025艾伯伦更新}专长的推理直觉增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
+						"当你使用你的{@feat 侦测龙纹|XUA2025EberronUpdates}专长的推理直觉增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
 					]
 				},
 				{
@@ -1716,7 +1716,7 @@
 				{
 					"level": 4,
 					"feat": [
-						"探索龙纹|XUA2025艾伯伦更新"
+						"探索龙纹|XUA2025EberronUpdates"
 					]
 				}
 			],
@@ -1741,7 +1741,7 @@
 					"name": "直觉锐化",
 					"type": "entries",
 					"entries": [
-						"当你使用你的{@feat 探索龙纹|XUA2025艾伯伦更新}专长的猎人直觉增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
+						"当你使用你的{@feat 探索龙纹|XUA2025EberronUpdates}专长的猎人直觉增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
 					]
 				},
 				{
@@ -1764,7 +1764,7 @@
 				{
 					"level": 4,
 					"feat": [
-						"畜牧龙纹|XUA2025艾伯伦更新"
+						"畜牧龙纹|XUA2025EberronUpdates"
 					]
 				}
 			],
@@ -1789,7 +1789,7 @@
 					"name": "直觉锐化",
 					"type": "entries",
 					"entries": [
-						"当你使用你的{@feat 畜牧龙纹|XUA2025艾伯伦更新}专长的野性直觉增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
+						"当你使用你的{@feat 畜牧龙纹|XUA2025EberronUpdates}专长的野性直觉增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
 					]
 				},
 				{
@@ -1812,7 +1812,7 @@
 				{
 					"level": 4,
 					"feat": [
-						"医疗龙纹|XUA2025艾伯伦更新"
+						"医疗龙纹|XUA2025EberronUpdates"
 					]
 				}
 			],
@@ -1860,7 +1860,7 @@
 				{
 					"level": 4,
 					"feat": [
-						"招待龙纹|XUA2025艾伯伦更新"
+						"招待龙纹|XUA2025EberronUpdates"
 					]
 				}
 			],
@@ -1885,7 +1885,7 @@
 					"name": "直觉锐化",
 					"type": "entries",
 					"entries": [
-						"当你使用你的{@feat 招待龙纹|XUA2025艾伯伦更新}专长的永恒款待增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
+						"当你使用你的{@feat 招待龙纹|XUA2025EberronUpdates}专长的永恒款待增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
 					]
 				},
 				{
@@ -1908,7 +1908,7 @@
 				{
 					"level": 4,
 					"feat": [
-						"创造龙纹|XUA2025艾伯伦更新"
+						"创造龙纹|XUA2025EberronUpdates"
 					]
 				}
 			],
@@ -1933,7 +1933,7 @@
 					"name": "直觉锐化",
 					"type": "entries",
 					"entries": [
-						"当你使用你的{@feat 创造龙纹|XUA2025艾伯伦更新}专长的工匠直觉增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
+						"当你使用你的{@feat 创造龙纹|XUA2025EberronUpdates}专长的工匠直觉增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
 					]
 				},
 				{
@@ -1956,7 +1956,7 @@
 				{
 					"level": 4,
 					"feat": [
-						"通行龙纹|XUA2025艾伯伦更新"
+						"通行龙纹|XUA2025EberronUpdates"
 					]
 				}
 			],
@@ -1981,7 +1981,7 @@
 					"name": "直觉锐化",
 					"type": "entries",
 					"entries": [
-						"当你使用你的{@feat 通行龙纹|XUA2025艾伯伦更新}专长的直觉行动增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
+						"当你使用你的{@feat 通行龙纹|XUA2025EberronUpdates}专长的直觉行动增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
 					]
 				},
 				{
@@ -2004,7 +2004,7 @@
 				{
 					"level": 4,
 					"feat": [
-						"抄录龙纹|XUA2025艾伯伦更新"
+						"抄录龙纹|XUA2025EberronUpdates"
 					]
 				}
 			],
@@ -2029,7 +2029,7 @@
 					"name": "直觉锐化",
 					"type": "entries",
 					"entries": [
-						"当你使用你的{@feat 抄录龙纹|XUA2025艾伯伦更新}专长的天才文员增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
+						"当你使用你的{@feat 抄录龙纹|XUA2025EberronUpdates}专长的天才文员增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
 					]
 				},
 				{
@@ -2052,7 +2052,7 @@
 				{
 					"level": 4,
 					"feat": [
-						"守护龙纹|XUA2025艾伯伦更新"
+						"守护龙纹|XUA2025EberronUpdates"
 					]
 				}
 			],
@@ -2077,7 +2077,7 @@
 					"name": "直觉锐化",
 					"type": "entries",
 					"entries": [
-						"当你使用你的{@feat 守护龙纹|XUA2025艾伯伦更新}专长的守卫直觉增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
+						"当你使用你的{@feat 守护龙纹|XUA2025EberronUpdates}专长的守卫直觉增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
 					]
 				},
 				{
@@ -2100,7 +2100,7 @@
 				{
 					"level": 4,
 					"feat": [
-						"阴影龙纹|XUA2025艾伯伦更新"
+						"阴影龙纹|XUA2025EberronUpdates"
 					]
 				}
 			],
@@ -2125,7 +2125,7 @@
 					"name": "直觉锐化",
 					"type": "entries",
 					"entries": [
-						"当你使用你的{@feat 阴影龙纹|XUA2025艾伯伦更新}专长的狡诈直觉增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
+						"当你使用你的{@feat 阴影龙纹|XUA2025EberronUpdates}专长的狡诈直觉增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
 					]
 				},
 				{
@@ -2148,7 +2148,7 @@
 				{
 					"level": 4,
 					"feat": [
-						"暴风龙纹|XUA2025艾伯伦更新"
+						"暴风龙纹|XUA2025EberronUpdates"
 					]
 				}
 			],
@@ -2173,7 +2173,7 @@
 					"name": "直觉锐化",
 					"type": "entries",
 					"entries": [
-						"当你使用你的{@feat 暴风龙纹|XUA2025艾伯伦更新}专长的驭风者直觉增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
+						"当你使用你的{@feat 暴风龙纹|XUA2025EberronUpdates}专长的驭风者直觉增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
 					]
 				},
 				{
@@ -2196,7 +2196,7 @@
 				{
 					"level": 4,
 					"feat": [
-						"警戒龙纹|XUA2025艾伯伦更新"
+						"警戒龙纹|XUA2025EberronUpdates"
 					]
 				}
 			],
@@ -2221,7 +2221,7 @@
 					"name": "直觉锐化",
 					"type": "entries",
 					"entries": [
-						"当你使用你的{@feat 警戒龙纹|XUA2025艾伯伦更新}专长的守卫直觉增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
+						"当你使用你的{@feat 警戒龙纹|XUA2025EberronUpdates}专长的守卫直觉增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
 					]
 				},
 				{
@@ -4438,115 +4438,115 @@
 			],
 			"rows": [
 				[
-					"{@feat 异种龙纹|XUA2025艾伯伦更新}",
+					"{@feat 异种龙纹|XUA2025EberronUpdates}",
 					"龙纹"
 				],
 				[
-					"{@feat 西伯瑞斯之恩惠|XUA2025艾伯伦更新}",
+					"{@feat 西伯瑞斯之恩惠|XUA2025EberronUpdates}",
 					"传奇恩惠"
 				],
 				[
-					"{@feat 高等异种纹|XUA2025艾伯伦更新}",
+					"{@feat 高等异种纹|XUA2025EberronUpdates}",
 					"通用"
 				],
 				[
-					"{@feat 高等侦测之纹|XUA2025艾伯伦更新}",
+					"{@feat 高等侦测之纹|XUA2025EberronUpdates}",
 					"通用"
 				],
 				[
-					"{@feat 高等探索之纹|XUA2025艾伯伦更新}",
+					"{@feat 高等探索之纹|XUA2025EberronUpdates}",
 					"通用"
 				],
 				[
-					"{@feat 高等畜牧之纹|XUA2025艾伯伦更新}",
+					"{@feat 高等畜牧之纹|XUA2025EberronUpdates}",
 					"通用"
 				],
 				[
-					"{@feat 高等医疗之纹|XUA2025艾伯伦更新}",
+					"{@feat 高等医疗之纹|XUA2025EberronUpdates}",
 					"通用"
 				],
 				[
-					"{@feat 高等招待之纹|XUA2025艾伯伦更新}",
+					"{@feat 高等招待之纹|XUA2025EberronUpdates}",
 					"通用"
 				],
 				[
-					"{@feat 高等创造之纹|XUA2025艾伯伦更新}",
+					"{@feat 高等创造之纹|XUA2025EberronUpdates}",
 					"通用"
 				],
 				[
-					"{@feat 高等通行之纹|XUA2025艾伯伦更新}",
+					"{@feat 高等通行之纹|XUA2025EberronUpdates}",
 					"通用"
 				],
 				[
-					"{@feat 高等抄录之纹|XUA2025艾伯伦更新}",
+					"{@feat 高等抄录之纹|XUA2025EberronUpdates}",
 					"通用"
 				],
 				[
-					"{@feat 高等守护之纹|XUA2025艾伯伦更新}",
+					"{@feat 高等守护之纹|XUA2025EberronUpdates}",
 					"通用"
 				],
 				[
-					"{@feat 高等阴影之纹|XUA2025艾伯伦更新}",
+					"{@feat 高等阴影之纹|XUA2025EberronUpdates}",
 					"通用"
 				],
 				[
-					"{@feat 高等风暴之纹|XUA2025艾伯伦更新}",
+					"{@feat 高等风暴之纹|XUA2025EberronUpdates}",
 					"通用"
 				],
 				[
-					"{@feat 高等警戒之纹|XUA2025艾伯伦更新}",
+					"{@feat 高等警戒之纹|XUA2025EberronUpdates}",
 					"通用"
 				],
 				[
-					"{@feat 侦测龙纹|XUA2025艾伯伦更新}",
+					"{@feat 侦测龙纹|XUA2025EberronUpdates}",
 					"龙纹"
 				],
 				[
-					"{@feat 探索龙纹|XUA2025艾伯伦更新}",
+					"{@feat 探索龙纹|XUA2025EberronUpdates}",
 					"龙纹"
 				],
 				[
-					"{@feat 畜牧龙纹|XUA2025艾伯伦更新}",
+					"{@feat 畜牧龙纹|XUA2025EberronUpdates}",
 					"龙纹"
 				],
 				[
-					"{@feat 医疗龙纹|XUA2025艾伯伦更新}",
+					"{@feat 医疗龙纹|XUA2025EberronUpdates}",
 					"龙纹"
 				],
 				[
-					"{@feat 招待龙纹|XUA2025艾伯伦更新}",
+					"{@feat 招待龙纹|XUA2025EberronUpdates}",
 					"龙纹"
 				],
 				[
-					"{@feat 创造龙纹|XUA2025艾伯伦更新}",
+					"{@feat 创造龙纹|XUA2025EberronUpdates}",
 					"龙纹"
 				],
 				[
-					"{@feat 通行龙纹|XUA2025艾伯伦更新}",
+					"{@feat 通行龙纹|XUA2025EberronUpdates}",
 					"龙纹"
 				],
 				[
-					"{@feat 抄录龙纹|XUA2025艾伯伦更新}",
+					"{@feat 抄录龙纹|XUA2025EberronUpdates}",
 					"龙纹"
 				],
 				[
-					"{@feat 守护龙纹|XUA2025艾伯伦更新}",
+					"{@feat 守护龙纹|XUA2025EberronUpdates}",
 					"龙纹"
 				],
 				[
-					"{@feat 阴影龙纹|XUA2025艾伯伦更新}",
+					"{@feat 阴影龙纹|XUA2025EberronUpdates}",
 					"龙纹"
 				],
 				[
-					"{@feat 暴风龙纹|XUA2025艾伯伦更新}",
+					"{@feat 暴风龙纹|XUA2025EberronUpdates}",
 					"龙纹"
 				],
 				[
-					"{@feat 警戒龙纹|XUA2025艾伯伦更新}",
+					"{@feat 警戒龙纹|XUA2025EberronUpdates}",
 					"龙纹"
 				],
 				[
-					"{@feat 强效龙纹|XUA2025艾伯伦更新}",
+					"{@feat 强效龙纹|XUA2025EberronUpdates}",
 					"通用"
 				]
 			]
@@ -4690,7 +4690,7 @@
 					"No"
 				],
 				[
-					"{@item 百变工具|XUA2025艾伯伦更新}（出现在此UA中）",
+					"{@item 百变工具|XUA2025EberronUpdates}（出现在此UA中）",
 					"是"
 				],
 				[
@@ -5131,7 +5131,7 @@
 							"type": "section",
 							"page": 6,
 							"entries": [
-								"奇械师子职是一种专业化，在特定奇械师等级授予你特性，如子职中所述。本节介绍一个新的子职：{@subclass 制图师|奇械师|XUA2025艾伯伦更新|XUA2025艾伯伦更新}。",
+								"奇械师子职是一种专业化，在特定奇械师等级授予你特性，如子职中所述。本节介绍一个新的子职：{@subclass 制图师|奇械师|XUA2025EberronUpdates|XUA2025EberronUpdates}。",
 								{
 									"ENG_name": "Cartographer",
 									"name": "制图师",
@@ -5146,7 +5146,7 @@
 											"prop": "subclass",
 											"source": "XUA2025EberronUpdates",
 											"className": "奇械师",
-											"classSource": "XUA2025艾伯伦更新",
+											"classSource": "XUA2025EberronUpdates",
 											"page": 6
 										}
 									]

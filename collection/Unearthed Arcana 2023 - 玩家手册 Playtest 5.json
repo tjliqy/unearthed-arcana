@@ -258,42 +258,42 @@
 				}
 			],
 			"classFeatures": [
-				"狂暴|野蛮人|XUA2023玩家手册P5|1",
-				"无甲防御|野蛮人|XUA2023玩家手册P5|1",
-				"武器精通|野蛮人|XUA2023玩家手册P5|1",
-				"原初学识|野蛮人|XUA2023玩家手册P5|2",
-				"鲁莽攻击|野蛮人|XUA2023玩家手册P5|2",
+				"狂暴|野蛮人|XUA2023PlayersHandbookP5|1",
+				"无甲防御|野蛮人|XUA2023PlayersHandbookP5|1",
+				"武器精通|野蛮人|XUA2023PlayersHandbookP5|1",
+				"原初学识|野蛮人|XUA2023PlayersHandbookP5|2",
+				"鲁莽攻击|野蛮人|XUA2023PlayersHandbookP5|2",
 				{
-					"classFeature": "野蛮人子职|野蛮人|XUA2023玩家手册P5|3",
+					"classFeature": "野蛮人子职|野蛮人|XUA2023PlayersHandbookP5|3",
 					"gainSubclassFeature": true
 				},
-				"专长|野蛮人|XUA2023玩家手册P5|4",
-				"额外攻击|野蛮人|XUA2023玩家手册P5|5",
-				"快速移动|野蛮人|XUA2023玩家手册P5|5",
+				"专长|野蛮人|XUA2023PlayersHandbookP5|4",
+				"额外攻击|野蛮人|XUA2023PlayersHandbookP5|5",
+				"快速移动|野蛮人|XUA2023PlayersHandbookP5|5",
 				{
-					"classFeature": "子职特性|野蛮人|XUA2023玩家手册P5|6",
+					"classFeature": "子职特性|野蛮人|XUA2023PlayersHandbookP5|6",
 					"gainSubclassFeature": true
 				},
-				"野性直觉|野蛮人|XUA2023玩家手册P5|7",
-				"专长|野蛮人|XUA2023玩家手册P5|8",
-				"不屈勇武|野蛮人|XUA2023玩家手册P5|9",
+				"野性直觉|野蛮人|XUA2023PlayersHandbookP5|7",
+				"专长|野蛮人|XUA2023PlayersHandbookP5|8",
+				"不屈勇武|野蛮人|XUA2023PlayersHandbookP5|9",
 				{
-					"classFeature": "子职特性|野蛮人|XUA2023玩家手册P5|10",
+					"classFeature": "子职特性|野蛮人|XUA2023PlayersHandbookP5|10",
 					"gainSubclassFeature": true
 				},
-				"凶蛮重击|野蛮人|XUA2023玩家手册P5|11",
-				"专长|野蛮人|XUA2023玩家手册P5|12",
-				"持久狂暴|野蛮人|XUA2023玩家手册P5|13",
+				"凶蛮重击|野蛮人|XUA2023PlayersHandbookP5|11",
+				"专长|野蛮人|XUA2023PlayersHandbookP5|12",
+				"持久狂暴|野蛮人|XUA2023PlayersHandbookP5|13",
 				{
-					"classFeature": "子职特性|野蛮人|XUA2023玩家手册P5|14",
+					"classFeature": "子职特性|野蛮人|XUA2023PlayersHandbookP5|14",
 					"gainSubclassFeature": true
 				},
-				"坚韧狂暴|野蛮人|XUA2023玩家手册P5|15",
-				"专长|野蛮人|XUA2023玩家手册P5|16",
-				"狂暴复苏|野蛮人|XUA2023玩家手册P5|17",
-				"原初斗士|野蛮人|XUA2023玩家手册P5|18",
-				"专长|野蛮人|XUA2023玩家手册P5|19",
-				"传奇恩惠|野蛮人|XUA2023玩家手册P5|20"
+				"坚韧狂暴|野蛮人|XUA2023PlayersHandbookP5|15",
+				"专长|野蛮人|XUA2023PlayersHandbookP5|16",
+				"狂暴复苏|野蛮人|XUA2023PlayersHandbookP5|17",
+				"原初斗士|野蛮人|XUA2023PlayersHandbookP5|18",
+				"专长|野蛮人|XUA2023PlayersHandbookP5|19",
+				"传奇恩惠|野蛮人|XUA2023PlayersHandbookP5|20"
 			],
 			"subclassTitle": "野蛮人子职",
 			"hasFluff": true
@@ -465,41 +465,41 @@
 				}
 			],
 			"classFeatures": [
-				"战斗风格|战士|XUA2023玩家手册P5|1",
-				"回气|战士|XUA2023玩家手册P5|1",
-				"武器精通|战士|XUA2023玩家手册P5|1",
-				"动作如潮|战士|XUA2023玩家手册P5|2",
+				"战斗风格|战士|XUA2023PlayersHandbookP5|1",
+				"回气|战士|XUA2023PlayersHandbookP5|1",
+				"武器精通|战士|XUA2023PlayersHandbookP5|1",
+				"动作如潮|战士|XUA2023PlayersHandbookP5|2",
 				{
-					"classFeature": "战士子职|战士|XUA2023玩家手册P5|3",
+					"classFeature": "战士子职|战士|XUA2023PlayersHandbookP5|3",
 					"gainSubclassFeature": true
 				},
-				"专长|战士|XUA2023玩家手册P5|4",
-				"额外攻击|战士|XUA2023玩家手册P5|5",
-				"专长|战士|XUA2023玩家手册P5|5",
+				"专长|战士|XUA2023PlayersHandbookP5|4",
+				"额外攻击|战士|XUA2023PlayersHandbookP5|5",
+				"专长|战士|XUA2023PlayersHandbookP5|5",
 				{
-					"classFeature": "子职特性|战士|XUA2023玩家手册P5|6",
+					"classFeature": "子职特性|战士|XUA2023PlayersHandbookP5|6",
 					"gainSubclassFeature": true
 				},
-				"武器专家|战士|XUA2023玩家手册P5|7",
-				"专长|战士|XUA2023玩家手册P5|8",
-				"不屈|战士|XUA2023玩家手册P5|9",
+				"武器专家|战士|XUA2023PlayersHandbookP5|7",
+				"专长|战士|XUA2023PlayersHandbookP5|8",
+				"不屈|战士|XUA2023PlayersHandbookP5|9",
 				{
-					"classFeature": "子职特性|战士|XUA2023玩家手册P5|10",
+					"classFeature": "子职特性|战士|XUA2023PlayersHandbookP5|10",
 					"gainSubclassFeature": true
 				},
-				"额外攻击（二）|战士|XUA2023玩家手册P5|11",
-				"专长|战士|XUA2023玩家手册P5|12",
-				"武器专家|战士|XUA2023玩家手册P5|13",
+				"额外攻击（二）|战士|XUA2023PlayersHandbookP5|11",
+				"专长|战士|XUA2023PlayersHandbookP5|12",
+				"武器专家|战士|XUA2023PlayersHandbookP5|13",
 				{
-					"classFeature": "子职特性|战士|XUA2023玩家手册P5|14",
+					"classFeature": "子职特性|战士|XUA2023PlayersHandbookP5|14",
 					"gainSubclassFeature": true
 				},
-				"强化动作如潮|战士|XUA2023玩家手册P5|15",
-				"专长|战士|XUA2023玩家手册P5|16",
-				"不屈不挠|战士|XUA2023玩家手册P5|17",
-				"额外攻击（三）|战士|XUA2023玩家手册P5|18",
-				"专长|战士|XUA2023玩家手册P5|19",
-				"传奇恩惠|战士|XUA2023玩家手册P5|20"
+				"强化动作如潮|战士|XUA2023PlayersHandbookP5|15",
+				"专长|战士|XUA2023PlayersHandbookP5|16",
+				"不屈不挠|战士|XUA2023PlayersHandbookP5|17",
+				"额外攻击（三）|战士|XUA2023PlayersHandbookP5|18",
+				"专长|战士|XUA2023PlayersHandbookP5|19",
+				"传奇恩惠|战士|XUA2023PlayersHandbookP5|20"
 			],
 			"subclassTitle": "战士子职",
 			"hasFluff": true
@@ -566,7 +566,7 @@
 			"classSpells": [
 				{
 					"groupName": "奥术",
-					"groupSource": "XUA2023玩家手册P5"
+					"groupSource": "XUA2023PlayersHandbookP5"
 				}
 			],
 			"optionalfeatureProgression": [
@@ -1013,38 +1013,38 @@
 				}
 			],
 			"classFeatures": [
-				"先天术法|术士|XUA2023玩家手册P5|1",
-				"施法|术士|XUA2023玩家手册P5|1",
-				"魔力泉涌|术士|XUA2023玩家手册P5|2",
-				"超魔法|术士|XUA2023玩家手册P5|2",
+				"先天术法|术士|XUA2023PlayersHandbookP5|1",
+				"施法|术士|XUA2023PlayersHandbookP5|1",
+				"魔力泉涌|术士|XUA2023PlayersHandbookP5|2",
+				"超魔法|术士|XUA2023PlayersHandbookP5|2",
 				{
-					"classFeature": "术士子职|术士|XUA2023玩家手册P5|3",
+					"classFeature": "术士子职|术士|XUA2023PlayersHandbookP5|3",
 					"gainSubclassFeature": true
 				},
-				"专长|术士|XUA2023玩家手册P5|4",
-				"术法活力|术士|XUA2023玩家手册P5|5",
+				"专长|术士|XUA2023PlayersHandbookP5|4",
+				"术法活力|术士|XUA2023PlayersHandbookP5|5",
 				{
-					"classFeature": "子职特性|术士|XUA2023玩家手册P5|6",
+					"classFeature": "子职特性|术士|XUA2023PlayersHandbookP5|6",
 					"gainSubclassFeature": true
 				},
-				"奥能迸发|术士|XUA2023玩家手册P5|7",
-				"专长|术士|XUA2023玩家手册P5|8",
-				"术法化身|术士|XUA2023玩家手册P5|9",
+				"奥能迸发|术士|XUA2023PlayersHandbookP5|7",
+				"专长|术士|XUA2023PlayersHandbookP5|8",
+				"术法化身|术士|XUA2023PlayersHandbookP5|9",
 				{
-					"classFeature": "子职特性|术士|XUA2023玩家手册P5|10",
+					"classFeature": "子职特性|术士|XUA2023PlayersHandbookP5|10",
 					"gainSubclassFeature": true
 				},
-				"专长|术士|XUA2023玩家手册P5|12",
-				"额外超魔法|术士|XUA2023玩家手册P5|13",
+				"专长|术士|XUA2023PlayersHandbookP5|12",
+				"额外超魔法|术士|XUA2023PlayersHandbookP5|13",
 				{
-					"classFeature": "子职特性|术士|XUA2023玩家手册P5|14",
+					"classFeature": "子职特性|术士|XUA2023PlayersHandbookP5|14",
 					"gainSubclassFeature": true
 				},
-				"术法复苏|术士|XUA2023玩家手册P5|15",
-				"专长|术士|XUA2023玩家手册P5|16",
-				"奥术登神|术士|XUA2023玩家手册P5|18",
-				"专长|术士|XUA2023玩家手册P5|19",
-				"传奇恩惠|术士|XUA2023玩家手册P5|20"
+				"术法复苏|术士|XUA2023PlayersHandbookP5|15",
+				"专长|术士|XUA2023PlayersHandbookP5|16",
+				"奥术登神|术士|XUA2023PlayersHandbookP5|18",
+				"专长|术士|XUA2023PlayersHandbookP5|19",
+				"传奇恩惠|术士|XUA2023PlayersHandbookP5|20"
 			],
 			"subclassTitle": "术士子职",
 			"hasFluff": true
@@ -1111,7 +1111,7 @@
 			"classSpells": [
 				{
 					"groupName": "奥术",
-					"groupSource": "XUA2023玩家手册P5"
+					"groupSource": "XUA2023PlayersHandbookP5"
 				}
 			],
 			"optionalfeatureProgression": [
@@ -1468,40 +1468,40 @@
 				}
 			],
 			"classFeatures": [
-				"魔契恩泽|魔契师|XUA2023玩家手册P5|1",
-				"施法|魔契师|XUA2023玩家手册P5|1",
-				"魔能祈唤|魔契师|XUA2023玩家手册P5|2",
+				"魔契恩泽|魔契师|XUA2023PlayersHandbookP5|1",
+				"施法|魔契师|XUA2023PlayersHandbookP5|1",
+				"魔能祈唤|魔契师|XUA2023PlayersHandbookP5|2",
 				{
-					"classFeature": "魔契师子职|魔契师|XUA2023玩家手册P5|3",
+					"classFeature": "魔契师子职|魔契师|XUA2023PlayersHandbookP5|3",
 					"gainSubclassFeature": true
 				},
-				"专长|魔契师|XUA2023玩家手册P5|4",
-				"魔能祈唤|魔契师|XUA2023玩家手册P5|5",
+				"专长|魔契师|XUA2023PlayersHandbookP5|4",
+				"魔能祈唤|魔契师|XUA2023PlayersHandbookP5|5",
 				{
-					"classFeature": "子职特性|魔契师|XUA2023玩家手册P5|6",
+					"classFeature": "子职特性|魔契师|XUA2023PlayersHandbookP5|6",
 					"gainSubclassFeature": true
 				},
-				"魔能祈唤|魔契师|XUA2023玩家手册P5|7",
-				"专长|魔契师|XUA2023玩家手册P5|8",
-				"魔能祈唤|魔契师|XUA2023玩家手册P5|9",
+				"魔能祈唤|魔契师|XUA2023PlayersHandbookP5|7",
+				"专长|魔契师|XUA2023PlayersHandbookP5|8",
+				"魔能祈唤|魔契师|XUA2023PlayersHandbookP5|9",
 				{
-					"classFeature": "子职特性|魔契师|XUA2023玩家手册P5|10",
+					"classFeature": "子职特性|魔契师|XUA2023PlayersHandbookP5|10",
 					"gainSubclassFeature": true
 				},
-				"联络宗主|魔契师|XUA2023玩家手册P5|11",
-				"魔能祈唤|魔契师|XUA2023玩家手册P5|11",
-				"专长|魔契师|XUA2023玩家手册P5|12",
-				"魔能祈唤|魔契师|XUA2023玩家手册P5|13",
+				"联络宗主|魔契师|XUA2023PlayersHandbookP5|11",
+				"魔能祈唤|魔契师|XUA2023PlayersHandbookP5|11",
+				"专长|魔契师|XUA2023PlayersHandbookP5|12",
+				"魔能祈唤|魔契师|XUA2023PlayersHandbookP5|13",
 				{
-					"classFeature": "子职特性|魔契师|XUA2023玩家手册P5|14",
+					"classFeature": "子职特性|魔契师|XUA2023PlayersHandbookP5|14",
 					"gainSubclassFeature": true
 				},
-				"魔能祈唤|魔契师|XUA2023玩家手册P5|15",
-				"专长|魔契师|XUA2023玩家手册P5|16",
-				"魔能祈唤|魔契师|XUA2023玩家手册P5|17",
-				"脆弱诅咒大师|魔契师|XUA2023玩家手册P5|18",
-				"专长|魔契师|XUA2023玩家手册P5|19",
-				"传奇恩惠|魔契师|XUA2023玩家手册P5|20"
+				"魔能祈唤|魔契师|XUA2023PlayersHandbookP5|15",
+				"专长|魔契师|XUA2023PlayersHandbookP5|16",
+				"魔能祈唤|魔契师|XUA2023PlayersHandbookP5|17",
+				"脆弱诅咒大师|魔契师|XUA2023PlayersHandbookP5|18",
+				"专长|魔契师|XUA2023PlayersHandbookP5|19",
+				"传奇恩惠|魔契师|XUA2023PlayersHandbookP5|20"
 			],
 			"subclassTitle": "魔契师子职",
 			"hasFluff": true
@@ -1591,7 +1591,7 @@
 			"classSpells": [
 				{
 					"groupName": "奥术",
-					"groupSource": "XUA2023玩家手册P5"
+					"groupSource": "XUA2023PlayersHandbookP5"
 				}
 			],
 			"startingProficiencies": {
@@ -1957,37 +1957,37 @@
 				}
 			],
 			"classFeatures": [
-				"施法|法师|XUA2023玩家手册P5|1",
-				"法师的法术书|法师|XUA2023玩家手册P5|1",
-				"学术|法师|XUA2023玩家手册P5|2",
-				"奥术回想|法师|XUA2023玩家手册P5|2",
+				"施法|法师|XUA2023PlayersHandbookP5|1",
+				"法师的法术书|法师|XUA2023PlayersHandbookP5|1",
+				"学术|法师|XUA2023PlayersHandbookP5|2",
+				"奥术回想|法师|XUA2023PlayersHandbookP5|2",
 				{
-					"classFeature": "法师子职|法师|XUA2023玩家手册P5|3",
+					"classFeature": "法师子职|法师|XUA2023PlayersHandbookP5|3",
 					"gainSubclassFeature": true
 				},
-				"专长|法师|XUA2023玩家手册P5|4",
-				"记忆法术|法师|XUA2023玩家手册P5|5",
+				"专长|法师|XUA2023PlayersHandbookP5|4",
+				"记忆法术|法师|XUA2023PlayersHandbookP5|5",
 				{
-					"classFeature": "子职特性|法师|XUA2023玩家手册P5|6",
+					"classFeature": "子职特性|法师|XUA2023PlayersHandbookP5|6",
 					"gainSubclassFeature": true
 				},
-				"法术修正|法师|XUA2023玩家手册P5|7",
-				"专长|法师|XUA2023玩家手册P5|8",
-				"创造法术|法师|XUA2023玩家手册P5|9",
+				"法术修正|法师|XUA2023PlayersHandbookP5|7",
+				"专长|法师|XUA2023PlayersHandbookP5|8",
+				"创造法术|法师|XUA2023PlayersHandbookP5|9",
 				{
-					"classFeature": "子职特性|法师|XUA2023玩家手册P5|10",
+					"classFeature": "子职特性|法师|XUA2023PlayersHandbookP5|10",
 					"gainSubclassFeature": true
 				},
-				"专长|法师|XUA2023玩家手册P5|12",
+				"专长|法师|XUA2023PlayersHandbookP5|12",
 				{
-					"classFeature": "子职特性|法师|XUA2023玩家手册P5|14",
+					"classFeature": "子职特性|法师|XUA2023PlayersHandbookP5|14",
 					"gainSubclassFeature": true
 				},
-				"法术精通|法师|XUA2023玩家手册P5|15",
-				"专长|法师|XUA2023玩家手册P5|16",
-				"招牌法术|法师|XUA2023玩家手册P5|18",
-				"专长|法师|XUA2023玩家手册P5|19",
-				"传奇恩惠|法师|XUA2023玩家手册P5|20"
+				"法术精通|法师|XUA2023PlayersHandbookP5|15",
+				"专长|法师|XUA2023PlayersHandbookP5|16",
+				"招牌法术|法师|XUA2023PlayersHandbookP5|18",
+				"专长|法师|XUA2023PlayersHandbookP5|19",
+				"传奇恩惠|法师|XUA2023PlayersHandbookP5|20"
 			],
 			"subclassTitle": "法师子职",
 			"hasFluff": true
@@ -2086,14 +2086,14 @@
 			"shortName": "勇士",
 			"source": "XUA2023PlayersHandbookP5",
 			"className": "战士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"page": 18,
 			"subclassFeatures": [
-				"勇士|战士|XUA2023玩家手册P5|勇士|XUA2023玩家手册P5|3",
-				"额外战斗风格|战士|XUA2023玩家手册P5|勇士|XUA2023玩家手册P5|6",
-				"勇战英豪|战士|XUA2023玩家手册P5|勇士|XUA2023玩家手册P5|6",
-				"高效重击|战士|XUA2023玩家手册P5|勇士|XUA2023玩家手册P5|10",
-				"生还者|战士|XUA2023玩家手册P5|勇士|XUA2023玩家手册P5|14"
+				"勇士|战士|XUA2023PlayersHandbookP5|勇士|XUA2023PlayersHandbookP5|3",
+				"额外战斗风格|战士|XUA2023PlayersHandbookP5|勇士|XUA2023PlayersHandbookP5|6",
+				"勇战英豪|战士|XUA2023PlayersHandbookP5|勇士|XUA2023PlayersHandbookP5|6",
+				"高效重击|战士|XUA2023PlayersHandbookP5|勇士|XUA2023PlayersHandbookP5|10",
+				"生还者|战士|XUA2023PlayersHandbookP5|勇士|XUA2023PlayersHandbookP5|14"
 			]
 		},
 		{
@@ -2102,13 +2102,13 @@
 			"shortName": "龙语",
 			"source": "XUA2023PlayersHandbookP5",
 			"className": "术士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"page": 29,
 			"subclassFeatures": [
-				"龙族术士|术士|XUA2023玩家手册P5|龙语|XUA2023玩家手册P5|3",
-				"元素亲和|术士|XUA2023玩家手册P5|龙语|XUA2023玩家手册P5|6",
-				"龙族吐息|术士|XUA2023玩家手册P5|龙语|XUA2023玩家手册P5|10",
-				"龙翼|术士|XUA2023玩家手册P5|龙语|XUA2023玩家手册P5|14"
+				"龙族术士|术士|XUA2023PlayersHandbookP5|龙语|XUA2023PlayersHandbookP5|3",
+				"元素亲和|术士|XUA2023PlayersHandbookP5|龙语|XUA2023PlayersHandbookP5|6",
+				"龙族吐息|术士|XUA2023PlayersHandbookP5|龙语|XUA2023PlayersHandbookP5|10",
+				"龙翼|术士|XUA2023PlayersHandbookP5|龙语|XUA2023PlayersHandbookP5|14"
 			]
 		},
 		{
@@ -2117,13 +2117,13 @@
 			"shortName": "塑能师",
 			"source": "XUA2023PlayersHandbookP5",
 			"className": "法师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"page": 43,
 			"subclassFeatures": [
-				"塑能师|法师|XUA2023玩家手册P5|塑能师|XUA2023玩家手册P5|3",
-				"强力戏法|法师|XUA2023玩家手册P5|塑能师|XUA2023玩家手册P5|6",
-				"强效塑能|法师|XUA2023玩家手册P5|塑能师|XUA2023玩家手册P5|10",
-				"超限导能|法师|XUA2023玩家手册P5|塑能师|XUA2023玩家手册P5|14"
+				"塑能师|法师|XUA2023PlayersHandbookP5|塑能师|XUA2023PlayersHandbookP5|3",
+				"强力戏法|法师|XUA2023PlayersHandbookP5|塑能师|XUA2023PlayersHandbookP5|6",
+				"强效塑能|法师|XUA2023PlayersHandbookP5|塑能师|XUA2023PlayersHandbookP5|10",
+				"超限导能|法师|XUA2023PlayersHandbookP5|塑能师|XUA2023PlayersHandbookP5|14"
 			]
 		},
 		{
@@ -2132,13 +2132,13 @@
 			"shortName": "邪魔",
 			"source": "XUA2023PlayersHandbookP5",
 			"className": "魔契师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"page": 37,
 			"subclassFeatures": [
-				"邪魔宗主|魔契师|XUA2023玩家手册P5|邪魔|XUA2023玩家手册P5|3",
-				"黑暗强运|魔契师|XUA2023玩家手册P5|邪魔|XUA2023玩家手册P5|6",
-				"邪魔体魄|魔契师|XUA2023玩家手册P5|邪魔|XUA2023玩家手册P5|10",
-				"直坠噩梦|魔契师|XUA2023玩家手册P5|邪魔|XUA2023玩家手册P5|14"
+				"邪魔宗主|魔契师|XUA2023PlayersHandbookP5|邪魔|XUA2023PlayersHandbookP5|3",
+				"黑暗强运|魔契师|XUA2023PlayersHandbookP5|邪魔|XUA2023PlayersHandbookP5|6",
+				"邪魔体魄|魔契师|XUA2023PlayersHandbookP5|邪魔|XUA2023PlayersHandbookP5|10",
+				"直坠噩梦|魔契师|XUA2023PlayersHandbookP5|邪魔|XUA2023PlayersHandbookP5|14"
 			]
 		},
 		{
@@ -2147,13 +2147,13 @@
 			"shortName": "狂战士",
 			"source": "XUA2023PlayersHandbookP5",
 			"className": "野蛮人",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"page": 18,
 			"subclassFeatures": [
-				"狂战士道途|野蛮人|XUA2023玩家手册P5|狂战士|XUA2023玩家手册P5|3",
-				"无我狂暴|野蛮人|XUA2023玩家手册P5|狂战士|XUA2023玩家手册P5|6",
-				"报偿|野蛮人|XUA2023玩家手册P5|狂战士|XUA2023玩家手册P5|10",
-				"威慑之姿|野蛮人|XUA2023玩家手册P5|狂战士|XUA2023玩家手册P5|14"
+				"狂战士道途|野蛮人|XUA2023PlayersHandbookP5|狂战士|XUA2023PlayersHandbookP5|3",
+				"无我狂暴|野蛮人|XUA2023PlayersHandbookP5|狂战士|XUA2023PlayersHandbookP5|6",
+				"报偿|野蛮人|XUA2023PlayersHandbookP5|狂战士|XUA2023PlayersHandbookP5|10",
+				"威慑之姿|野蛮人|XUA2023PlayersHandbookP5|狂战士|XUA2023PlayersHandbookP5|14"
 			]
 		}
 	],
@@ -2164,7 +2164,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 17,
 			"className": "野蛮人",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 1,
 			"entries": [
 				"你可以灌注一种被称为狂暴的原始法力，这种力场赋予你非凡的力量和恢复力。只要你不穿着重甲，就可以用一个附赠动作进入狂暴状态。",
@@ -2186,7 +2186,7 @@
 							"name": "狂暴伤害",
 							"type": "item",
 							"entries": [
-								"当你使用力量进行武器攻击或{@variantrule 徒手打击|XUA2023玩家手册P5}且对目标造成伤害时，你会获得一个伤害加值，该加值会随着你作为野蛮人的等级提升而增加，如野蛮人表格中的狂暴伤害栏所示。"
+								"当你使用力量进行武器攻击或{@variantrule 徒手打击|XUA2023PlayersHandbookP5}且对目标造成伤害时，你会获得一个伤害加值，该加值会随着你作为野蛮人的等级提升而增加，如野蛮人表格中的狂暴伤害栏所示。"
 							]
 						},
 						{
@@ -2207,7 +2207,7 @@
 						}
 					]
 				},
-				"狂暴持续到你下一个回合结束，且如果你穿着重甲或处于{@condition 失能|XUA2023玩家手册P5}状态则会提前结束。如果你的狂暴在下个回合仍然有效，你可以通过执行以下一项或多项动作将狂暴延长一轮：",
+				"狂暴持续到你下一个回合结束，且如果你穿着重甲或处于{@condition 失能|XUA2023PlayersHandbookP5}状态则会提前结束。如果你的狂暴在下个回合仍然有效，你可以通过执行以下一项或多项动作将狂暴延长一轮：",
 				{
 					"type": "list",
 					"items": [
@@ -2217,7 +2217,7 @@
 					]
 				},
 				"每当狂暴被延长，都会持续到你的下一个回合结束。你可以维持狂暴至多10分钟。",
-				"你可以进入狂暴状态的次数如野蛮人表格的狂暴次数栏中对应你的野蛮人等级所示，且当你完成一次{@variantrule 长休|XUA2023玩家手册P5}时恢复所有已消耗的使用次数。"
+				"你可以进入狂暴状态的次数如野蛮人表格的狂暴次数栏中对应你的野蛮人等级所示，且当你完成一次{@variantrule 长休|XUA2023PlayersHandbookP5}时恢复所有已消耗的使用次数。"
 			]
 		},
 		{
@@ -2226,10 +2226,10 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 17,
 			"className": "野蛮人",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 1,
 			"entries": [
-				"你对武器的训练使你能够使用两种自选的简易或军用近战武器的精通词条，例如巨斧和手斧。每当你完成一次{@variantrule 长休|XUA2023玩家手册P5}时，你可以练习武器操演并改变你所选的近战武器种类。",
+				"你对武器的训练使你能够使用两种自选的简易或军用近战武器的精通词条，例如巨斧和手斧。每当你完成一次{@variantrule 长休|XUA2023PlayersHandbookP5}时，你可以练习武器操演并改变你所选的近战武器种类。",
 				"当你在此职业中达到特定等级时，你将获得使用更多种类武器的精通词条的能力，如野蛮人表格的武器精通栏所示。"
 			]
 		},
@@ -2239,10 +2239,10 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 17,
 			"className": "野蛮人",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 1,
 			"entries": [
-				"你对武器的训练使你能够使用两种自选的简易或军用近战武器的精通词条，例如巨斧和手斧。每当你完成一次{@variantrule 长休|XUA2023玩家手册P5}时，你可以练习武器操演并改变你所选的近战武器种类。"
+				"你对武器的训练使你能够使用两种自选的简易或军用近战武器的精通词条，例如巨斧和手斧。每当你完成一次{@variantrule 长休|XUA2023PlayersHandbookP5}时，你可以练习武器操演并改变你所选的近战武器种类。"
 			]
 		},
 		{
@@ -2251,7 +2251,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 17,
 			"className": "野蛮人",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 2,
 			"entries": [
 				"你从1级野蛮人可选的技能列表中，获得另一个自选技能的熟练项。",
@@ -2264,7 +2264,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 17,
 			"className": "野蛮人",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 2,
 			"entries": [
 				"你可以抛开所有防御的顾虑，以凶猛的绝望发动攻击。当你在你的回合进行第一次攻击检定时，你可以决定发动鲁莽攻击。这样做会使你在本回合内使用力量的攻击检定具有优势，但直到你的下个回合开始前，针对你的攻击检定也具有优势。"
@@ -2276,7 +2276,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 17,
 			"className": "野蛮人",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 3,
 			"entries": [
 				"你获得狂战子职或你选择的其他野蛮人子职。狂战士的详细内容在职业描述之后，其他子职将出现在未来的{@skill 奥秘}文章中。",
@@ -2289,7 +2289,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 17,
 			"className": "野蛮人",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 4,
 			"entries": [
 				"你获得{@feat 属性值提升|XUA2022ClericAndRevisedSpecies}专长或另一个你符合条件的自选专长。"
@@ -2301,10 +2301,10 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 17,
 			"className": "野蛮人",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 5,
 			"entries": [
-				"在你的回合中，每当你采取{@action 攻击|XUA2023玩家手册P5}动作时，你可以攻击两次，而非一次。"
+				"在你的回合中，每当你采取{@action 攻击|XUA2023PlayersHandbookP5}动作时，你可以攻击两次，而非一次。"
 			]
 		},
 		{
@@ -2313,7 +2313,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 17,
 			"className": "野蛮人",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 5,
 			"entries": [
 				"当你未着装重甲时，你的速度增加10尺。"
@@ -2325,7 +2325,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 18,
 			"className": "野蛮人",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 6,
 			"entries": [
 				"你获得了来自你野蛮人子职的特性。"
@@ -2337,7 +2337,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 18,
 			"className": "野蛮人",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 7,
 			"entries": [
 				"你的直觉如此敏锐，以至于在先攻检定和敏捷豁免上具有优势。"
@@ -2349,7 +2349,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 18,
 			"className": "野蛮人",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 8,
 			"entries": [
 				"你获得{@feat 属性值提升|XUA2022ClericAndRevisedSpecies}专长或另一个你符合条件的自选专长。"
@@ -2361,7 +2361,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 18,
 			"className": "野蛮人",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 9,
 			"entries": [
 				"如果你的力量检定总值小于你的力量值，你可以用该力量值代替总值。"
@@ -2373,7 +2373,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 18,
 			"className": "野蛮人",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 10,
 			"entries": [
 				"你获得了来自你野蛮人子职的特性。"
@@ -2385,10 +2385,10 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 18,
 			"className": "野蛮人",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 11,
 			"entries": [
-				"当你使用力量以武器或{@variantrule 徒手打击|XUA2023玩家手册P5}造成重击时，目标会受到等同于你野蛮人等级的额外伤害。该伤害类型与武器或{@variantrule 徒手打击|XUA2023玩家手册P5}造成的伤害类型相同。"
+				"当你使用力量以武器或{@variantrule 徒手打击|XUA2023PlayersHandbookP5}造成重击时，目标会受到等同于你野蛮人等级的额外伤害。该伤害类型与武器或{@variantrule 徒手打击|XUA2023PlayersHandbookP5}造成的伤害类型相同。"
 			]
 		},
 		{
@@ -2397,7 +2397,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 18,
 			"className": "野蛮人",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 12,
 			"entries": [
 				"你获得{@feat 属性值提升|XUA2022ClericAndRevisedSpecies}专长或另一个你符合条件的自选专长。"
@@ -2409,10 +2409,10 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 18,
 			"className": "野蛮人",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 13,
 			"entries": [
-				"你的狂暴如此凶猛，以至于现在持续10分钟，无需你每轮采取任何行动来延长它。如果你处于{@condition 失能|XUA2023玩家手册P5}状态或装着重甲，狂暴仍会结束。"
+				"你的狂暴如此凶猛，以至于现在持续10分钟，无需你每轮采取任何行动来延长它。如果你处于{@condition 失能|XUA2023PlayersHandbookP5}状态或装着重甲，狂暴仍会结束。"
 			]
 		},
 		{
@@ -2421,7 +2421,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 18,
 			"className": "野蛮人",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 14,
 			"entries": [
 				"你获得了来自你野蛮人子职的特性。"
@@ -2433,11 +2433,11 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 18,
 			"className": "野蛮人",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 15,
 			"entries": [
 				"你的狂暴可以让你在遭受重伤时仍能继续战斗。如果你在狂暴激活时生命值降至0且没有立即死亡，你可以进行一次{@dc 10}体质豁免检定。若成功，你的生命值将改为等于你野蛮人等级两倍的数值。",
-				"每次你在第一次之后使用此特性，DC增加5。当你完成一次{@variantrule 短休|XUA2023玩家手册P5}或{@variantrule 长休|XUA2023玩家手册P5}时，DC重置为10。"
+				"每次你在第一次之后使用此特性，DC增加5。当你完成一次{@variantrule 短休|XUA2023PlayersHandbookP5}或{@variantrule 长休|XUA2023PlayersHandbookP5}时，DC重置为10。"
 			]
 		},
 		{
@@ -2446,7 +2446,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 18,
 			"className": "野蛮人",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 16,
 			"entries": [
 				"你获得{@feat 属性值提升|XUA2022ClericAndRevisedSpecies}专长或另一个你符合条件的自选专长。"
@@ -2458,7 +2458,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 18,
 			"className": "野蛮人",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 17,
 			"entries": [
 				"每当你掷先攻时，你恢复一次已消耗的狂暴使用次数。"
@@ -2470,7 +2470,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 18,
 			"className": "野蛮人",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 18,
 			"entries": [
 				"你体现了原初法力。你的力量和体质属性值提升2点，且最大值现在为22。"
@@ -2482,7 +2482,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 18,
 			"className": "野蛮人",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 19,
 			"entries": [
 				"你获得{@feat 属性值提升|XUA2022ClericAndRevisedSpecies}专长或另一个你符合条件的自选专长。"
@@ -2494,7 +2494,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 18,
 			"className": "野蛮人",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 20,
 			"entries": [
 				"你获得以下增益效果：",
@@ -2528,7 +2528,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 21,
 			"className": "战士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 1,
 			"entries": [
 				"你磨练了军事实力并获得战斗风格：{@optfeature 防御}专长，或者你选择获得另一个{@filter 战斗风格|optionalfeatures|Feature Type=FS:F}专长。"
@@ -2540,11 +2540,11 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 21,
 			"className": "战士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 1,
 			"entries": [
 				"你拥有一个有限的耐力之井，可以用来从重伤中恢复。作为一个附赠动作，你可以恢复生命值，数值等于{@dice 1d10} + 你的战士等级。",
-				"你可以使用此特性两次，且当你完成一次{@variantrule 长休|XUA2023玩家手册P5}时恢复所有已消耗的使用次数。",
+				"你可以使用此特性两次，且当你完成一次{@variantrule 长休|XUA2023PlayersHandbookP5}时恢复所有已消耗的使用次数。",
 				"当你达到特定战士等级时，你将获得更多此特性的使用次数，如战士表格的回气栏所示。"
 			]
 		},
@@ -2554,10 +2554,10 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 22,
 			"className": "战士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 1,
 			"entries": [
-				"你对武器的训练使你能够使用三种自选的简易或军用武器的精通词条。每当你完成一次{@variantrule 长休|XUA2023玩家手册P5}，你可以练习武器操演且改变所选武器的种类。",
+				"你对武器的训练使你能够使用三种自选的简易或军用武器的精通词条。每当你完成一次{@variantrule 长休|XUA2023PlayersHandbookP5}，你可以练习武器操演且改变所选武器的种类。",
 				"当你达到特定战士等级时，你将获得使用更多种类武器的精通词条的能力，如战士表格的武器精通栏所示。"
 			]
 		},
@@ -2567,11 +2567,11 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 22,
 			"className": "战士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 2,
 			"entries": [
-				"你可以暂时突破自己的正常极限。在你的回合中，你可以从以下动作选用项中选择一个额外动作：{@action 攻击|XUA2023玩家手册P5}、疾走、{@action 撤离}或回避。",
-				"一旦你使用了此特性，你必须完成一次{@variantrule 短休|XUA2023玩家手册P5}或{@variantrule 长休|XUA2023玩家手册P5}后才能再次使用它。"
+				"你可以暂时突破自己的正常极限。在你的回合中，你可以从以下动作选用项中选择一个额外动作：{@action 攻击|XUA2023PlayersHandbookP5}、疾走、{@action 撤离}或回避。",
+				"一旦你使用了此特性，你必须完成一次{@variantrule 短休|XUA2023PlayersHandbookP5}或{@variantrule 长休|XUA2023PlayersHandbookP5}后才能再次使用它。"
 			]
 		},
 		{
@@ -2580,7 +2580,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 22,
 			"className": "战士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 3,
 			"entries": [
 				"你获得勇士子职或自选的另一个战士子职。勇士的详情在职业描述之后，其他子职将出现在未来的出土{@skill 奥秘}文章中。",
@@ -2593,7 +2593,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 22,
 			"className": "战士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 4,
 			"entries": [
 				"你获得{@feat 属性值提升|XUA2022ClericAndRevisedSpecies}专长或另一个你符合条件的自选专长。"
@@ -2605,10 +2605,10 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 22,
 			"className": "战士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 5,
 			"entries": [
-				"在你的回合中，每当你采取{@action 攻击|XUA2023玩家手册P5}动作时，你可以攻击两次，而非一次。"
+				"在你的回合中，每当你采取{@action 攻击|XUA2023PlayersHandbookP5}动作时，你可以攻击两次，而非一次。"
 			]
 		},
 		{
@@ -2617,7 +2617,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 22,
 			"className": "战士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 5,
 			"entries": [
 				"你获得{@feat 属性值提升|XUA2022ClericAndRevisedSpecies}专长或另一个你符合条件的自选专长。"
@@ -2629,7 +2629,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 22,
 			"className": "战士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 6,
 			"entries": [
 				"你获得一个战士子职特性。"
@@ -2641,11 +2641,11 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 22,
 			"className": "战士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 7,
 			"entries": [
-				"你将武器的使用磨练成了一门艺术。每当你完成一次{@variantrule 长休|XUA2023玩家手册P5}时，你可以选择一种你正在使用的精通武器类型，并将其精通词条替换为另一个精通词条。所选武器类型必须符合新词条的要求。例如，你可以将长剑的灵活词条替换为推离词条。",
-				"此属性变化仅适用于你，不适用于他人，且当你完成下一次{@variantrule 长休|XUA2023玩家手册P5}时，该变化对你结束。"
+				"你将武器的使用磨练成了一门艺术。每当你完成一次{@variantrule 长休|XUA2023PlayersHandbookP5}时，你可以选择一种你正在使用的精通武器类型，并将其精通词条替换为另一个精通词条。所选武器类型必须符合新词条的要求。例如，你可以将长剑的灵活词条替换为推离词条。",
+				"此属性变化仅适用于你，不适用于他人，且当你完成下一次{@variantrule 长休|XUA2023PlayersHandbookP5}时，该变化对你结束。"
 			]
 		},
 		{
@@ -2654,7 +2654,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 22,
 			"className": "战士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 8,
 			"entries": [
 				"你获得{@feat 属性值提升|XUA2022ClericAndRevisedSpecies}专长或另一个你符合条件的自选专长。"
@@ -2666,10 +2666,10 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 22,
 			"className": "战士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 9,
 			"entries": [
-				"若你豁免检定失败，你可以用等同于战士等级的加值重掷该检定。若你如此做，你必须使用新的掷骰结果，且在你完成一次{@variantrule 长休|XUA2023玩家手册P5}前无法再次使用此特性。"
+				"若你豁免检定失败，你可以用等同于战士等级的加值重掷该检定。若你如此做，你必须使用新的掷骰结果，且在你完成一次{@variantrule 长休|XUA2023PlayersHandbookP5}前无法再次使用此特性。"
 			]
 		},
 		{
@@ -2678,7 +2678,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 22,
 			"className": "战士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 10,
 			"entries": [
 				"你获得一个战士子职特性。"
@@ -2690,7 +2690,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 22,
 			"className": "战士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 11,
 			"entries": [
 				"你的额外攻击特性现在提供两次额外攻击而非一次。"
@@ -2702,7 +2702,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 22,
 			"className": "战士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 12,
 			"entries": [
 				"你获得{@feat 属性值提升|XUA2022ClericAndRevisedSpecies}专长或另一个你符合条件的自选专长。"
@@ -2714,7 +2714,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 22,
 			"className": "战士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 13,
 			"entries": [
 				"你是一位武器大师。当你对一种武器使用武器专家特性时，你可以赋予该类型武器两个词条而非一个，但你每次只能使用其中一个词条；每当你用该类型武器对目标进行攻击检定时，你可以决定这两个词条中的哪一个适用于该次攻击。你需要在攻击命中或未命中前做出这个决策。",
@@ -2727,7 +2727,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 22,
 			"className": "战士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 14,
 			"entries": [
 				"你获得一个战士子职特性。"
@@ -2739,7 +2739,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 23,
 			"className": "战士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 15,
 			"entries": [
 				"你可以在一次休息前使用两次动作如潮，但在你的回合中只能使用一次。"
@@ -2751,7 +2751,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 23,
 			"className": "战士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 16,
 			"entries": [
 				"你获得{@feat 属性值提升|XUA2022ClericAndRevisedSpecies}专长或另一个你符合条件的自选专长。"
@@ -2763,7 +2763,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 23,
 			"className": "战士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 17,
 			"entries": [
 				"当你处于极度危险时，可以激发体内地底井般的恢复力。若豁免检定失败且不屈特性已耗尽，可通过消耗一次回气来再次使用该特性，同时恢复生命值。"
@@ -2775,7 +2775,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 23,
 			"className": "战士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 18,
 			"entries": [
 				"你的额外攻击特性现在赋予三次额外攻击而非两次。"
@@ -2787,7 +2787,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 23,
 			"className": "战士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 19,
 			"entries": [
 				"你获得{@feat 属性值提升|XUA2022ClericAndRevisedSpecies}专长或另一个你符合条件的自选专长。"
@@ -2799,7 +2799,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 23,
 			"className": "战士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 20,
 			"entries": [
 				"你获得以下增益效果：",
@@ -2833,10 +2833,10 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 25,
 			"className": "术士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 1,
 			"entries": [
-				"你过去的一个事件在你身上留下了不可磨灭的标记，注入了有时难以控制的沸腾魔法。你总是准备了{@spell 术法爆发|XUA2023玩家手册P5}和{@spell 混乱箭|XUA2023玩家手册P5}法术。"
+				"你过去的一个事件在你身上留下了不可磨灭的标记，注入了有时难以控制的沸腾魔法。你总是准备了{@spell 术法爆发|XUA2023PlayersHandbookP5}和{@spell 混乱箭|XUA2023PlayersHandbookP5}法术。"
 			]
 		},
 		{
@@ -2845,7 +2845,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 25,
 			"className": "术士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 1,
 			"entries": [
 				"借助你的天生魔法，你可以施法。有关施法的规则请参阅玩家手册。下方的消息详细说明了你作为术士如何使用这些规则。",
@@ -2867,7 +2867,7 @@
 							"name": "法术位",
 							"type": "entries",
 							"entries": [
-								"术士表格显示了你拥有多少法术位来施放1环及更高级别的法术。要施放这些法术之一，你必须消耗一个等于或高于该法术等级的法术位。当你完成一次{@variantrule 长休|XUA2023玩家手册P5}时，你将恢复所有消耗的法术位。"
+								"术士表格显示了你拥有多少法术位来施放1环及更高级别的法术。要施放这些法术之一，你必须消耗一个等于或高于该法术等级的法术位。当你完成一次{@variantrule 长休|XUA2023PlayersHandbookP5}时，你将恢复所有消耗的法术位。"
 							]
 						},
 						{
@@ -2914,7 +2914,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 26,
 			"className": "术士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 2,
 			"entries": [
 				"你触及了自身内部一个深层的魔力泉涌。这个泉涌由术法点代表，它允许你创造各种魔法效应。",
@@ -2926,7 +2926,7 @@
 							"name": "术法点",
 							"type": "entries",
 							"entries": [
-								"你拥有2点术法点，且当你达到更高等级时，你将获得更多术法点，如术士表格中的术法点栏所示。你拥有的术法点永远不会超过表格中对应等级所示的数量。当你完成一次{@variantrule 长休|XUA2023玩家手册P5}时，你将恢复所有消耗的术法点。",
+								"你拥有2点术法点，且当你达到更高等级时，你将获得更多术法点，如术士表格中的术法点栏所示。你拥有的术法点永远不会超过表格中对应等级所示的数量。当你完成一次{@variantrule 长休|XUA2023PlayersHandbookP5}时，你将恢复所有消耗的术法点。",
 								"你可以使用你的术法点来获得额外的法术位，或者牺牲法术位来获得额外的术法点，如下所述。你会在其他术士特性中学习到使用术法点的其他方式，例如超魔法。"
 							]
 						},
@@ -2944,7 +2944,7 @@
 							"type": "entries",
 							"entries": [
 								"以一个附赠动作，你可以将未消耗的术法点转化为一个法术位。生成法术位表格显示了生成特定等级法术位的花费，且列出了你必须达到的最低术士等级才能生成该法术位。你生成的法术位等级不能高于5环。",
-								"你通过此特性生成的任何法术位将在完成一次{@variantrule 长休|XUA2023玩家手册P5}后消失。",
+								"你通过此特性生成的任何法术位将在完成一次{@variantrule 长休|XUA2023PlayersHandbookP5}后消失。",
 								"你法术列表中的法术数量也会随着术士等级提升而增加，如术士表格的准备法术栏所示。每当该数值增加时，从奥术法术列表中选择额外的法术，直到你列表中的法术数量与表格中的数值匹配。所选法术必须是你拥有法术位的等级。例如，如果你是一个3级术士，你的准备法术列表可以包括六个1环或2环的奥术法术，任意组合。",
 								"如果另一个术士特性，例如先天术法，提供了你总是准备好的法术，这些法术不会计入你用此施法特性准备的列表中的法术数量，但这些法术在其他方面遵循此特性中的规则。",
 								{
@@ -3000,12 +3000,12 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 26,
 			"className": "术士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 2,
 			"entries": [
 				"因为你的魔法源自内在，你可以根据需要改变你的法术；你从本职业描述后文的\"{@filter 超魔法选项|optionalfeatures|Feature Type=MM}\"部分中选择三个超魔法选项。",
 				"除非特别说明，否则对一个法术只能应用一种超魔法项。",
-				"每当你完成一次{@variantrule 长休|XUA2023玩家手册P5}时，你可以将你的一个超魔法选项替换为你不知道的一个。"
+				"每当你完成一次{@variantrule 长休|XUA2023PlayersHandbookP5}时，你可以将你的一个超魔法选项替换为你不知道的一个。"
 			]
 		},
 		{
@@ -3014,7 +3014,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 26,
 			"className": "术士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 3,
 			"entries": [
 				"你获得龙族术法子职或其他自选的术士子职。龙族术法子职详情见术士职业描述之后，其他子职将出现在未来的出土{@skill 奥秘}文章中。",
@@ -3027,7 +3027,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 27,
 			"className": "术士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 4,
 			"entries": [
 				"你获得{@feat 属性值提升|XUA2022ClericAndRevisedSpecies}专长或另一个你符合条件的自选专长。"
@@ -3039,10 +3039,10 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 27,
 			"className": "术士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 5,
 			"entries": [
-				"你可以使用你的天生魔法来治疗自己；你总是准备有{@spell 术法活力|XUA2023玩家手册P5}法术。"
+				"你可以使用你的天生魔法来治疗自己；你总是准备有{@spell 术法活力|XUA2023PlayersHandbookP5}法术。"
 			]
 		},
 		{
@@ -3051,7 +3051,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 27,
 			"className": "术士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 6,
 			"entries": [
 				"你获得一个来自术士子职的特性。"
@@ -3063,10 +3063,10 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 27,
 			"className": "术士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 7,
 			"entries": [
-				"你现在可以释放体内翻腾的魔法能量；你总是准备着{@spell 奥能迸发|XUA2023玩家手册P5}法术。"
+				"你现在可以释放体内翻腾的魔法能量；你总是准备着{@spell 奥能迸发|XUA2023PlayersHandbookP5}法术。"
 			]
 		},
 		{
@@ -3075,7 +3075,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 27,
 			"className": "术士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 8,
 			"entries": [
 				"你获得{@feat 属性值提升|XUA2022ClericAndRevisedSpecies}专长或另一个你符合条件的自选专长。"
@@ -3087,10 +3087,10 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 27,
 			"className": "术士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 9,
 			"entries": [
-				"由内在的奥术法力所驱动，你可以将自己转化为魔法能量；你总是准备着{@spell 术法化身|XUA2023玩家手册P5}法术。"
+				"由内在的奥术法力所驱动，你可以将自己转化为魔法能量；你总是准备着{@spell 术法化身|XUA2023PlayersHandbookP5}法术。"
 			]
 		},
 		{
@@ -3099,7 +3099,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 27,
 			"className": "术士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 10,
 			"entries": [
 				"你获得一个来自术士子职的特性。"
@@ -3111,7 +3111,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 27,
 			"className": "术士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 12,
 			"entries": [
 				"你获得{@feat 属性值提升|XUA2022ClericAndRevisedSpecies}专长或另一个你符合条件的自选专长。"
@@ -3123,7 +3123,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 27,
 			"className": "术士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 13,
 			"entries": [
 				"你从\"{@filter 超魔法选项|optionalfeatures|Feature Type=MM}\"部分中再选择三个超魔法选项。"
@@ -3135,7 +3135,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 27,
 			"className": "术士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 14,
 			"entries": [
 				"你获得一个来自术士子职的特性。"
@@ -3147,10 +3147,10 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 27,
 			"className": "术士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 15,
 			"entries": [
-				"每当你掷先攻或完成一次{@variantrule 短休|XUA2023玩家手册P5}时，你恢复4点已消耗的术法点。"
+				"每当你掷先攻或完成一次{@variantrule 短休|XUA2023PlayersHandbookP5}时，你恢复4点已消耗的术法点。"
 			]
 		},
 		{
@@ -3159,7 +3159,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 27,
 			"className": "术士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 16,
 			"entries": [
 				"你获得{@feat 属性值提升|XUA2022ClericAndRevisedSpecies}专长或另一个你符合条件的自选专长。"
@@ -3171,11 +3171,11 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 27,
 			"className": "术士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 18,
 			"entries": [
 				"你现在充满了魔法，以至于可以改变现实本身。你总是准备着{@spell 祈愿术}法术，且如果你承受该法术的施放压力，你将不会失去施放该法术的能力。",
-				"此外，你可以施放{@spell 祈愿术}来复制一个1级至8级的法术而无需消耗9级法术位。你改为消耗被复制法术等级的法术位。一旦你以这种方式使用祈愿术，在完成一次{@variantrule 长休|XUA2023玩家手册P5}前不能再次这样做。"
+				"此外，你可以施放{@spell 祈愿术}来复制一个1级至8级的法术而无需消耗9级法术位。你改为消耗被复制法术等级的法术位。一旦你以这种方式使用祈愿术，在完成一次{@variantrule 长休|XUA2023PlayersHandbookP5}前不能再次这样做。"
 			]
 		},
 		{
@@ -3184,7 +3184,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 27,
 			"className": "术士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 19,
 			"entries": [
 				"你获得{@feat 属性值提升|XUA2022ClericAndRevisedSpecies}专长或另一个你符合条件的自选专长。"
@@ -3196,7 +3196,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 27,
 			"className": "术士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 20,
 			"entries": [
 				"你获得以下增益效果：",
@@ -3230,10 +3230,10 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 33,
 			"className": "魔契师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 1,
 			"entries": [
-				"你与一个异界实体缔结了契约，它赐予了你魔法力量。你总是准备有{@spell 魔能爆|XUA2023玩家手册P5}和{@spell 脆弱诅咒|XUA2023玩家手册P5}法术，且你从下列恩泽中选择一项：刃之魔契、链之魔契或书之魔契，每种都在下方详述。你决定该实体的身份并选择其存在平面，例如妖精荒野、堕影冥界或某个外层位面。",
+				"你与一个异界实体缔结了契约，它赐予了你魔法力量。你总是准备有{@spell 魔能爆|XUA2023PlayersHandbookP5}和{@spell 脆弱诅咒|XUA2023PlayersHandbookP5}法术，且你从下列恩泽中选择一项：刃之魔契、链之魔契或书之魔契，每种都在下方详述。你决定该实体的身份并选择其存在平面，例如妖精荒野、堕影冥界或某个外层位面。",
 				"每个恩惠都会让你选择用于施法特性的施法属性，且它会给予你一个始终准备就绪的契约法术。",
 				{
 					"ENG_name": "Pact of the Blade",
@@ -3271,7 +3271,7 @@
 							"ENG_name": "Pact Spell:",
 							"name": "魔契法术：",
 							"type": "item",
-							"entry": "{@spell 契约魔宠|XUA2023玩家手册P5}"
+							"entry": "{@spell 契约魔宠|XUA2023PlayersHandbookP5}"
 						}
 					]
 				},
@@ -3291,7 +3291,7 @@
 							"ENG_name": "Pact Spell:",
 							"name": "魔契法术：",
 							"type": "item",
-							"entry": "{@spell 幽影之书|XUA2023玩家手册P5}"
+							"entry": "{@spell 幽影之书|XUA2023PlayersHandbookP5}"
 						}
 					]
 				}
@@ -3303,7 +3303,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 33,
 			"className": "魔契师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 1,
 			"entries": [
 				"钻研神秘秘密，你已学会如何施法。有关施法的规则请参阅玩家手册。下方的消息详细说明了你作为魔契师如何使用这些规则。",
@@ -3323,7 +3323,7 @@
 							"name": "法术位",
 							"type": "entries",
 							"entries": [
-								"魔契师表格显示你有多少法术位可用于施放1环及更高等级的法术。要施放这些法术之一，你必须消耗一个等于或高于该法术等级的法术位。当你完成一次{@variantrule 长休|XUA2023玩家手册P5}时，你将恢复所有消耗的法术位。"
+								"魔契师表格显示你有多少法术位可用于施放1环及更高等级的法术。要施放这些法术之一，你必须消耗一个等于或高于该法术等级的法术位。当你完成一次{@variantrule 长休|XUA2023PlayersHandbookP5}时，你将恢复所有消耗的法术位。"
 							]
 						},
 						{
@@ -3370,7 +3370,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 33,
 			"className": "魔契师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 2,
 			"entries": [
 				"在你对秘传学识的研究中，你发掘了魔能祈唤，这些禁忌学识的碎片赋予你持久的魔法能力或其他知识。",
@@ -3386,7 +3386,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 34,
 			"className": "魔契师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 3,
 			"entries": [
 				"你获得邪魔宗主子职或一个你选择的其他魔契师子职。邪魔宗主子职详情见魔契师职业描述之后，其他子职将出现在未来的《出土{@skill 奥秘}》文章中。",
@@ -3399,7 +3399,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 34,
 			"className": "魔契师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 4,
 			"entries": [
 				"你获得{@feat 属性值提升|XUA2022ClericAndRevisedSpecies}专长或另一个你符合条件的自选专长。"
@@ -3411,7 +3411,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 34,
 			"className": "魔契师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 5,
 			"entries": [
 				"你获得另一个你符合条件的{@filter 魔能祈唤|optionalfeatures|Feature Type=EI}。"
@@ -3423,7 +3423,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 34,
 			"className": "魔契师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 6,
 			"entries": [
 				"你获得一个来自魔契师子职的特性。"
@@ -3435,7 +3435,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 34,
 			"className": "魔契师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 7,
 			"entries": [
 				"你获得另一个你符合条件的{@filter 魔能祈唤|optionalfeatures|Feature Type=EI}。"
@@ -3447,7 +3447,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 34,
 			"className": "魔契师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 8,
 			"entries": [
 				"你获得{@feat 属性值提升|XUA2022ClericAndRevisedSpecies}专长或另一个你符合条件的自选专长。"
@@ -3459,7 +3459,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 34,
 			"className": "魔契师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 9,
 			"entries": [
 				"你获得另一个你符合条件的{@filter 魔能祈唤|optionalfeatures|Feature Type=EI}。"
@@ -3471,7 +3471,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 34,
 			"className": "魔契师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 10,
 			"entries": [
 				"你获得一个来自魔契师子职的特性。"
@@ -3483,11 +3483,11 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 34,
 			"className": "魔契师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 11,
 			"entries": [
 				"过去，你通常通过中介联络你的宗主。现在你可以直接沟通；你总是准备着{@spell 异界探知}法术。通过此特性，你可以不消耗法术位施放该法术来联系你的宗主，且你自动通过该法术的豁免检定。",
-				"一旦你使用此特性施放该法术，在完成一次{@variantrule 长休|XUA2023玩家手册P5}前不能再次施放。"
+				"一旦你使用此特性施放该法术，在完成一次{@variantrule 长休|XUA2023PlayersHandbookP5}前不能再次施放。"
 			]
 		},
 		{
@@ -3496,7 +3496,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 34,
 			"className": "魔契师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 11,
 			"entries": [
 				"你获得另一个你符合条件的{@filter 魔能祈唤|optionalfeatures|Feature Type=EI}。"
@@ -3508,7 +3508,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 34,
 			"className": "魔契师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 12,
 			"entries": [
 				"你获得{@feat 属性值提升|XUA2022ClericAndRevisedSpecies}专长或另一个你符合条件的自选专长。"
@@ -3520,7 +3520,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 34,
 			"className": "魔契师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 13,
 			"entries": [
 				"你获得另一个你符合条件的{@filter 魔能祈唤|optionalfeatures|Feature Type=EI}。"
@@ -3532,7 +3532,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 34,
 			"className": "魔契师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 14,
 			"entries": [
 				"你获得一个来自魔契师子职的特性。"
@@ -3544,7 +3544,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 34,
 			"className": "魔契师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 15,
 			"entries": [
 				"你获得另一个你符合条件的{@filter 魔能祈唤|optionalfeatures|Feature Type=EI}。"
@@ -3556,7 +3556,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 34,
 			"className": "魔契师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 16,
 			"entries": [
 				"你获得{@feat 属性值提升|XUA2022ClericAndRevisedSpecies}专长或另一个你符合条件的自选专长。"
@@ -3568,7 +3568,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 34,
 			"className": "魔契师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 17,
 			"entries": [
 				"你获得另一个你符合条件的{@filter 魔能祈唤|optionalfeatures|Feature Type=EI}。"
@@ -3580,10 +3580,10 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 34,
 			"className": "魔契师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 18,
 			"entries": [
-				"你已精通脆弱诅咒的恐惧应用，允许你无需消耗法术位即可施放{@spell 脆弱诅咒|XUA2023玩家手册P5}法术。"
+				"你已精通脆弱诅咒的恐惧应用，允许你无需消耗法术位即可施放{@spell 脆弱诅咒|XUA2023PlayersHandbookP5}法术。"
 			]
 		},
 		{
@@ -3592,7 +3592,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 34,
 			"className": "魔契师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 19,
 			"entries": [
 				"你获得{@feat 属性值提升|XUA2022ClericAndRevisedSpecies}专长或另一个你符合条件的自选专长。"
@@ -3604,7 +3604,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 34,
 			"className": "魔契师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 20,
 			"entries": [
 				"你获得以下增益效果：",
@@ -3638,7 +3638,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 40,
 			"className": "法师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 1,
 			"entries": [
 				"作为一名奥术魔法的学生，你已经学会了施法。有关施法的规则，请参阅玩家手册。下方的消息详细说明了作为法师如何使用这些规则。",
@@ -3659,7 +3659,7 @@
 							"name": "法术位",
 							"type": "entries",
 							"entries": [
-								"法师表格显示你拥有多少法术位来施放1环及更高级别的法术。要施放这些法术之一，你必须消耗一个等于或高于该法术等级的法术位。当你完成一次{@variantrule 长休|XUA2023玩家手册P5}时，你将恢复所有消耗的法术位。"
+								"法师表格显示你拥有多少法术位来施放1环及更高级别的法术。要施放这些法术之一，你必须消耗一个等于或高于该法术等级的法术位。当你完成一次{@variantrule 长休|XUA2023PlayersHandbookP5}时，你将恢复所有消耗的法术位。"
 							]
 						},
 						{
@@ -3677,7 +3677,7 @@
 							"name": "改变你的准备法术",
 							"type": "entries",
 							"entries": [
-								"每当你完成一次{@variantrule 长休|XUA2023玩家手册P5}时，你可以改变你的准备法术列表，替换其中的一个或多个法术。准备一个新列表需要花费时间研究你的法术书并记忆你必须做出的咒语和手势来施法：为你添加到列表中的每个法术至少花费每法术环阶1分钟。"
+								"每当你完成一次{@variantrule 长休|XUA2023PlayersHandbookP5}时，你可以改变你的准备法术列表，替换其中的一个或多个法术。准备一个新列表需要花费时间研究你的法术书并记忆你必须做出的咒语和手势来施法：为你添加到列表中的每个法术至少花费每法术环阶1分钟。"
 							]
 						},
 						{
@@ -3706,11 +3706,11 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 41,
 			"className": "法师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 1,
 			"entries": [
 				"你的法师学徒生涯以一本独特书籍的创造为巅峰：你的法术书。它是一个重3磅的微型物件，包含100页，每页可容纳一个法术。",
-				"这本魔法书籍保存了你所知的法师法术，并且是你奥术发现的储藏库。使用法术{@spell 抄写员法术|XUA2023玩家手册P5}以魔法密码书写，你已确保没有魔法的人无法阅读此书。",
+				"这本魔法书籍保存了你所知的法师法术，并且是你奥术发现的储藏库。使用法术{@spell 抄写员法术|XUA2023PlayersHandbookP5}以魔法密码书写，你已确保没有魔法的人无法阅读此书。",
 				"这本书对你的施法特性至关重要，如那里所述。",
 				{
 					"type": "entries",
@@ -3720,9 +3720,9 @@
 							"name": "已知法术",
 							"type": "entries",
 							"entries": [
-								"你的法术书包含你已知的1环及更高级别的法术。它开始时包含以下法术：{@spell 抄写员法术|XUA2023玩家手册P5}，以及从奥术法术列表中选择的六个其他1环法术。你也可以选择让你的法术书包含以下法术：{@spell 燃烧之手}、{@spell 侦测魔法}、{@spell 羽落术}、{@spell 法师护甲}、{@spell 魔法飞弹}、{@spell 抄写员法术|XUA2023玩家手册P5}和{@spell 睡眠术}。",
-								"在你的冒险中，你可能会发现其他可以添加到你的法术书中的法术，使用{@spell 抄写员法术|XUA2023玩家手册P5}。",
-								"每当你在1级之后获得一个法师等级时，你可以将两个自选的奥术法术添加到你的法术书中，而无需施放{@spell 抄写员法术|XUA2023玩家手册P5}。这些法术必须是你拥有法术位的等级，如法师表格所示。这些法术是你定期进行的秘法研究的成果。",
+								"你的法术书包含你已知的1环及更高级别的法术。它开始时包含以下法术：{@spell 抄写员法术|XUA2023PlayersHandbookP5}，以及从奥术法术列表中选择的六个其他1环法术。你也可以选择让你的法术书包含以下法术：{@spell 燃烧之手}、{@spell 侦测魔法}、{@spell 羽落术}、{@spell 法师护甲}、{@spell 魔法飞弹}、{@spell 抄写员法术|XUA2023PlayersHandbookP5}和{@spell 睡眠术}。",
+								"在你的冒险中，你可能会发现其他可以添加到你的法术书中的法术，使用{@spell 抄写员法术|XUA2023PlayersHandbookP5}。",
+								"每当你在1级之后获得一个法师等级时，你可以将两个自选的奥术法术添加到你的法术书中，而无需施放{@spell 抄写员法术|XUA2023PlayersHandbookP5}。这些法术必须是你拥有法术位的等级，如法师表格所示。这些法术是你定期进行的秘法研究的成果。",
 								"其他法师特性也会将法术添加到你的法术书中。"
 							]
 						},
@@ -3739,7 +3739,7 @@
 							"name": "制作另一本法术书",
 							"type": "entries",
 							"entries": [
-								"你可以拥有不止一本法术书。你可以通过在一本空白书上施放{@spell 抄写员法术|XUA2023玩家手册P5}来创建另一本\u2014\u2014可能是作为备份或替代品。这样做会正常添加一个法术并使该书成为你的法术书。"
+								"你可以拥有不止一本法术书。你可以通过在一本空白书上施放{@spell 抄写员法术|XUA2023PlayersHandbookP5}来创建另一本\u2014\u2014可能是作为备份或替代品。这样做会正常添加一个法术并使该书成为你的法术书。"
 							]
 						},
 						{
@@ -3760,10 +3760,10 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 41,
 			"className": "法师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 2,
 			"entries": [
-				"你作为学者的经历使你能够回忆起广泛的逸闻。当你采取{@action 研究|XUA2023玩家手册P5}动作时，你在该动作中进行的任何智力检定都具有优势。"
+				"你作为学者的经历使你能够回忆起广泛的逸闻。当你采取{@action 研究|XUA2023PlayersHandbookP5}动作时，你在该动作中进行的任何智力检定都具有优势。"
 			]
 		},
 		{
@@ -3772,12 +3772,12 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 42,
 			"className": "法师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 2,
 			"entries": [
-				"你已学会通过研究你的法术书来恢复部分魔法能量。当你完成一次{@variantrule 短休|XUA2023玩家手册P5}时，你可以选择恢复已消耗的法术位。这些法术位的总等级可以等于或小于你法师等级的一半（向上取整），且不能有6环或更高级别的法术位。",
+				"你已学会通过研究你的法术书来恢复部分魔法能量。当你完成一次{@variantrule 短休|XUA2023PlayersHandbookP5}时，你可以选择恢复已消耗的法术位。这些法术位的总等级可以等于或小于你法师等级的一半（向上取整），且不能有6环或更高级别的法术位。",
 				"例如，作为一名4级法师时，你可恢复环阶总数最多为2的法术位。你可以选择恢复一枚2环法术位或两枚1环法术位。",
-				"一旦你使用了此特性，在完成一次{@variantrule 长休|XUA2023玩家手册P5}前无法再次使用。"
+				"一旦你使用了此特性，在完成一次{@variantrule 长休|XUA2023PlayersHandbookP5}前无法再次使用。"
 			]
 		},
 		{
@@ -3786,7 +3786,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 42,
 			"className": "法师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 3,
 			"entries": [
 				"你获得塑能师子职或其他自选的法师子职。塑能师子职详情见法师职业描述之后，其他子职将出现在未来的《出土{@skill 奥秘}》文章中。",
@@ -3799,7 +3799,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 42,
 			"className": "法师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 4,
 			"entries": [
 				"你获得{@feat 属性值提升|XUA2022ClericAndRevisedSpecies}专长或另一个你符合条件的自选专长。"
@@ -3811,10 +3811,10 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 42,
 			"className": "法师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 5,
 			"entries": [
-				"在你的魔法研究中，你已解锁了{@spell 记忆法术|XUA2023玩家手册P5}的秘密并将该法术添加到你的法术书中。"
+				"在你的魔法研究中，你已解锁了{@spell 记忆法术|XUA2023PlayersHandbookP5}的秘密并将该法术添加到你的法术书中。"
 			]
 		},
 		{
@@ -3823,7 +3823,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 42,
 			"className": "法师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 6,
 			"entries": [
 				"你获得一个来自法师子职的特性。"
@@ -3835,10 +3835,10 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 42,
 			"className": "法师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 7,
 			"entries": [
-				"在你的魔法研究中，你已解锁了{@spell 法术修正|XUA2023玩家手册P5}的秘密且将该法术添加到你的法术书中。"
+				"在你的魔法研究中，你已解锁了{@spell 法术修正|XUA2023PlayersHandbookP5}的秘密且将该法术添加到你的法术书中。"
 			]
 		},
 		{
@@ -3847,7 +3847,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 42,
 			"className": "法师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 8,
 			"entries": [
 				"你获得{@feat 属性值提升|XUA2022ClericAndRevisedSpecies}专长或另一个你符合条件的自选专长。"
@@ -3859,10 +3859,10 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 42,
 			"className": "法师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 9,
 			"entries": [
-				"在你的魔法研究中，你已解锁了{@spell 创造法术|XUA2023玩家手册P5}的秘密且将该法术添加到你的法术书中。该法术会在{@spell 法术修正|XUA2023玩家手册P5}后立即施放，并紧接着{@spell 抄写员法术|XUA2023玩家手册P5}。如果你完成了这三个法术的组合，你将创造一个属于你自己的法术。"
+				"在你的魔法研究中，你已解锁了{@spell 创造法术|XUA2023PlayersHandbookP5}的秘密且将该法术添加到你的法术书中。该法术会在{@spell 法术修正|XUA2023PlayersHandbookP5}后立即施放，并紧接着{@spell 抄写员法术|XUA2023PlayersHandbookP5}。如果你完成了这三个法术的组合，你将创造一个属于你自己的法术。"
 			]
 		},
 		{
@@ -3871,7 +3871,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 42,
 			"className": "法师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 10,
 			"entries": [
 				"你获得一个来自法师子职的特性。"
@@ -3883,7 +3883,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 42,
 			"className": "法师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 12,
 			"entries": [
 				"你获得{@feat 属性值提升|XUA2022ClericAndRevisedSpecies}专长或另一个你符合条件的自选专长。"
@@ -3895,7 +3895,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 42,
 			"className": "法师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 14,
 			"entries": [
 				"你获得一个来自法师子职的特性。"
@@ -3907,7 +3907,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 42,
 			"className": "法师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 15,
 			"entries": [
 				"你对某些法术的精通已达到可以随意施放它们的程度。从你的法术书中选择一个1环法术和一个2环法术。当你准备这些法术时，可以无需消耗法术位以最低环阶施放它们。若要以更高环阶施放其中任一法术，则必须如常消耗法术位。",
@@ -3920,7 +3920,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 42,
 			"className": "法师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 16,
 			"entries": [
 				"你获得{@feat 属性值提升|XUA2022ClericAndRevisedSpecies}专长或另一个你符合条件的自选专长。"
@@ -3932,10 +3932,10 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 42,
 			"className": "法师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 18,
 			"entries": [
-				"你精通两项强大的法术且能不费吹灰之力施放它们。在你的法术书中选择两项3环法术作为你的招牌法术。你总是准备着这些法术，并且你可以不消耗法术位以3环等级施放每个法术一次。当你这样做时，直到完成一次{@variantrule 短休|XUA2023玩家手册P5}或{@variantrule 长休|XUA2023玩家手册P5}前你不能再这样做。",
+				"你精通两项强大的法术且能不费吹灰之力施放它们。在你的法术书中选择两项3环法术作为你的招牌法术。你总是准备着这些法术，并且你可以不消耗法术位以3环等级施放每个法术一次。当你这样做时，直到完成一次{@variantrule 短休|XUA2023PlayersHandbookP5}或{@variantrule 长休|XUA2023PlayersHandbookP5}前你不能再这样做。",
 				"你也可以消耗法术位施展这两个法术的更高环阶版本。"
 			]
 		},
@@ -3945,7 +3945,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 42,
 			"className": "法师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 19,
 			"entries": [
 				"你获得{@feat 属性值提升|XUA2022ClericAndRevisedSpecies}专长或另一个你符合条件的自选专长。"
@@ -3957,7 +3957,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 42,
 			"className": "法师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"level": 20,
 			"entries": [
 				"你获得以下增益效果：",
@@ -3993,16 +3993,16 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 18,
 			"className": "野蛮人",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"subclassShortName": "狂战士",
-			"subclassSource": "XUA2023玩家手册P5",
+			"subclassSource": "XUA2023PlayersHandbookP5",
 			"level": 3,
 			"header": 1,
 			"entries": [
 				"对一些野蛮人而言，狂暴只是达成目的的手段\u2014\u2014而这个目的就是暴力。狂战士道途是一条不受约束的狂怒之路。当你进入狂战士的狂暴时，你会在战斗的混乱中感到兴奋。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "狂怒|野蛮人|XUA2023玩家手册P5|狂战士|XUA2023玩家手册P5|3"
+					"subclassFeature": "狂怒|野蛮人|XUA2023PlayersHandbookP5|狂战士|XUA2023PlayersHandbookP5|3"
 				}
 			]
 		},
@@ -4012,13 +4012,13 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 19,
 			"className": "野蛮人",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"subclassShortName": "狂战士",
-			"subclassSource": "XUA2023玩家手册P5",
+			"subclassSource": "XUA2023PlayersHandbookP5",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"你可以在战斗中进入狂怒状态。如果你在狂暴激活时使用鲁莽{@action 攻击|XUA2023玩家手册P5}，你会在回合中对第一个命中的目标造成基于力量的攻击的额外伤害。要确定额外伤害，掷骰数量等于你的狂暴伤害加值的d6，并将它们相加。伤害类型与用于攻击的武器或{@variantrule 徒手打击|XUA2023玩家手册P5}相同。"
+				"你可以在战斗中进入狂怒状态。如果你在狂暴激活时使用鲁莽{@action 攻击|XUA2023PlayersHandbookP5}，你会在回合中对第一个命中的目标造成基于力量的攻击的额外伤害。要确定额外伤害，掷骰数量等于你的狂暴伤害加值的d6，并将它们相加。伤害类型与用于攻击的武器或{@variantrule 徒手打击|XUA2023PlayersHandbookP5}相同。"
 			]
 		},
 		{
@@ -4027,9 +4027,9 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 19,
 			"className": "野蛮人",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"subclassShortName": "狂战士",
-			"subclassSource": "XUA2023玩家手册P5",
+			"subclassSource": "XUA2023PlayersHandbookP5",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -4042,13 +4042,13 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 19,
 			"className": "野蛮人",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"subclassShortName": "狂战士",
-			"subclassSource": "XUA2023玩家手册P5",
+			"subclassSource": "XUA2023PlayersHandbookP5",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"当你受到5尺内一个生物的伤害时，你可以使用你的反应对该生物进行一次近战攻击，使用武器或{@variantrule 徒手打击|XUA2023玩家手册P5}。"
+				"当你受到5尺内一个生物的伤害时，你可以使用你的反应对该生物进行一次近战攻击，使用武器或{@variantrule 徒手打击|XUA2023PlayersHandbookP5}。"
 			]
 		},
 		{
@@ -4057,14 +4057,14 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 19,
 			"className": "野蛮人",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"subclassShortName": "狂战士",
-			"subclassSource": "XUA2023玩家手册P5",
+			"subclassSource": "XUA2023PlayersHandbookP5",
 			"level": 14,
 			"header": 2,
 			"entries": [
 				"作为一个动作，你可以用你凶恶的姿态激发他人的恐惧，因为你充满了原始法力。当你这样做时，你选择的30尺内的每个生物\u2014\u2014如果你的狂暴处于激活状态则为60尺\u2014\u2014必须进行一次感知豁免检定（DC等于8 + 你的熟练加值 + 你的力量调整值），前提是该生物不在全身掩护之后。豁免失败时，该生物将陷入恐慌状态1分钟。在每个恐慌生物的回合结束时，该生物重复豁免检定，成功时终止效应。",
-				"一旦你使用了此特性，在完成一次{@variantrule 长休|XUA2023玩家手册P5}前无法再次使用。若你已耗尽此特性的使用次数，可以消耗一次狂暴使用次数，选择不激活狂暴而是激活威慑之姿。"
+				"一旦你使用了此特性，在完成一次{@variantrule 长休|XUA2023PlayersHandbookP5}前无法再次使用。若你已耗尽此特性的使用次数，可以消耗一次狂暴使用次数，选择不激活狂暴而是激活威慑之姿。"
 			]
 		},
 		{
@@ -4073,20 +4073,20 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 23,
 			"className": "战士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"subclassShortName": "勇士",
-			"subclassSource": "XUA2023玩家手册P5",
+			"subclassSource": "XUA2023PlayersHandbookP5",
 			"level": 3,
 			"header": 1,
 			"entries": [
 				"勇士专注于发展磨练至致命完美的军事实力。勇士将严格的训练与卓越的体能相结合，以造成毁灭性打击、抵御危险且赢得荣耀。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "适应者维克托|战士|XUA2023玩家手册P5|勇士|XUA2023玩家手册P5|3"
+					"subclassFeature": "适应者维克托|战士|XUA2023PlayersHandbookP5|勇士|XUA2023PlayersHandbookP5|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "精通重击|战士|XUA2023玩家手册P5|勇士|XUA2023玩家手册P5|3"
+					"subclassFeature": "精通重击|战士|XUA2023PlayersHandbookP5|勇士|XUA2023PlayersHandbookP5|3"
 				}
 			]
 		},
@@ -4096,13 +4096,13 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 23,
 			"className": "战士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"subclassShortName": "勇士",
-			"subclassSource": "XUA2023玩家手册P5",
+			"subclassSource": "XUA2023PlayersHandbookP5",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"你研究了你的盟友与敌人且了解到胜利依赖于适应性。每当你完成一次{@variantrule 长休|XUA2023玩家手册P5}时，你可以从该职业1级可用的技能中获得一项熟练项，因为你提醒自己过去的教训。该熟练项持续到你下一次{@variantrule 长休|XUA2023玩家手册P5}结束为止。"
+				"你研究了你的盟友与敌人且了解到胜利依赖于适应性。每当你完成一次{@variantrule 长休|XUA2023PlayersHandbookP5}时，你可以从该职业1级可用的技能中获得一项熟练项，因为你提醒自己过去的教训。该熟练项持续到你下一次{@variantrule 长休|XUA2023PlayersHandbookP5}结束为止。"
 			]
 		},
 		{
@@ -4111,13 +4111,13 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 23,
 			"className": "战士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"subclassShortName": "勇士",
-			"subclassSource": "XUA2023玩家手册P5",
+			"subclassSource": "XUA2023PlayersHandbookP5",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"你使用武器和{@variantrule 徒手打击|XUA2023玩家手册P5}的攻击检定可以在掷骰结果为19或20时造成重击。"
+				"你使用武器和{@variantrule 徒手打击|XUA2023PlayersHandbookP5}的攻击检定可以在掷骰结果为19或20时造成重击。"
 			]
 		},
 		{
@@ -4126,9 +4126,9 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 23,
 			"className": "战士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"subclassShortName": "勇士",
-			"subclassSource": "XUA2023玩家手册P5",
+			"subclassSource": "XUA2023PlayersHandbookP5",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -4141,9 +4141,9 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 23,
 			"className": "战士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"subclassShortName": "勇士",
-			"subclassSource": "XUA2023玩家手册P5",
+			"subclassSource": "XUA2023PlayersHandbookP5",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -4156,13 +4156,13 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 23,
 			"className": "战士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"subclassShortName": "勇士",
-			"subclassSource": "XUA2023玩家手册P5",
+			"subclassSource": "XUA2023PlayersHandbookP5",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"你使用武器和{@variantrule 徒手打击|XUA2023玩家手册P5|徒手打击}的攻击检定现在可以在掷出18-20时造成重击。"
+				"你使用武器和{@variantrule 徒手打击|XUA2023PlayersHandbookP5|徒手打击}的攻击检定现在可以在掷出18-20时造成重击。"
 			]
 		},
 		{
@@ -4171,9 +4171,9 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 23,
 			"className": "战士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"subclassShortName": "勇士",
-			"subclassSource": "XUA2023玩家手册P5",
+			"subclassSource": "XUA2023PlayersHandbookP5",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -4187,7 +4187,7 @@
 							"name": "悍不畏死",
 							"type": "item",
 							"entries": [
-								"你在{@variantrule 死亡豁免检定|XUA2023玩家手册P5}上具有优势。此外，当你在死亡豁免检定上掷出18-20时，你将获得掷出20的增益。"
+								"你在{@variantrule 死亡豁免检定|XUA2023PlayersHandbookP5}上具有优势。此外，当你在死亡豁免检定上掷出18-20时，你将获得掷出20的增益。"
 							]
 						},
 						{
@@ -4208,20 +4208,20 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 29,
 			"className": "术士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"subclassShortName": "龙语",
-			"subclassSource": "XUA2023玩家手册P5",
+			"subclassSource": "XUA2023PlayersHandbookP5",
 			"level": 3,
 			"header": 1,
 			"entries": [
 				"你的天生魔法来自一条龙的赠礼。也许是一条濒死的远古龙将其部分法力赠予了你或你的先祖。你可能从一个充满龙之力量的地点吸收了魔法，也许是一条伟大巨龙被击杀的位置。又或者你接触过从龙之宝藏中取出的某件珍贵物品，那是一件注入了龙族血脉力量的物品。又或者你甚至声称一条龙是你的先祖，或是凭借你的龙裔血统施展龙魔法。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "龙族体魄|术士|XUA2023玩家手册P5|龙语|XUA2023玩家手册P5|3"
+					"subclassFeature": "龙族体魄|术士|XUA2023PlayersHandbookP5|龙语|XUA2023PlayersHandbookP5|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "龙口语|术士|XUA2023玩家手册P5|龙语|XUA2023玩家手册P5|3"
+					"subclassFeature": "龙口语|术士|XUA2023PlayersHandbookP5|龙语|XUA2023PlayersHandbookP5|3"
 				}
 			]
 		},
@@ -4231,9 +4231,9 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 29,
 			"className": "术士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"subclassShortName": "龙语",
-			"subclassSource": "XUA2023玩家手册P5",
+			"subclassSource": "XUA2023PlayersHandbookP5",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -4247,9 +4247,9 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 29,
 			"className": "术士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"subclassShortName": "龙语",
-			"subclassSource": "XUA2023玩家手册P5",
+			"subclassSource": "XUA2023PlayersHandbookP5",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -4262,9 +4262,9 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 29,
 			"className": "术士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"subclassShortName": "龙语",
-			"subclassSource": "XUA2023玩家手册P5",
+			"subclassSource": "XUA2023PlayersHandbookP5",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -4278,13 +4278,13 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 29,
 			"className": "术士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"subclassShortName": "龙语",
-			"subclassSource": "XUA2023玩家手册P5",
+			"subclassSource": "XUA2023PlayersHandbookP5",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"每回合当你施放{@spell 术法爆发|XUA2023玩家手册P5}时，你可以将其以15尺锥形区域吐息而非选择范围内的目标。以此方式施放该法术时，你必须选择与你元素亲和特性相关联的伤害类型。当你如此做时，你需要对该法术锥状区域内的每个生物分别进行攻击且伤害掷骰。"
+				"每回合当你施放{@spell 术法爆发|XUA2023PlayersHandbookP5}时，你可以将其以15尺锥形区域吐息而非选择范围内的目标。以此方式施放该法术时，你必须选择与你元素亲和特性相关联的伤害类型。当你如此做时，你需要对该法术锥状区域内的每个生物分别进行攻击且伤害掷骰。"
 			]
 		},
 		{
@@ -4293,13 +4293,13 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 30,
 			"className": "术士",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"subclassShortName": "龙语",
-			"subclassSource": "XUA2023玩家手册P5",
+			"subclassSource": "XUA2023PlayersHandbookP5",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"你的天生魔法现在可以显现为背上的灵体龙翼。当你的{@spell 术法化身|XUA2023玩家手册P5}法术激活时，你长出这些飞翼，获得等于你速度的飞行速度，且可以悬浮。此外，在你的每个回合结束时，你可以拍打飞翼释放魔法能量，对你选择的15尺内的每个生物造成伤害。伤害等于你的魅力调整值，且伤害类型为你的元素亲和特性。"
+				"你的天生魔法现在可以显现为背上的灵体龙翼。当你的{@spell 术法化身|XUA2023PlayersHandbookP5}法术激活时，你长出这些飞翼，获得等于你速度的飞行速度，且可以悬浮。此外，在你的每个回合结束时，你可以拍打飞翼释放魔法能量，对你选择的15尺内的每个生物造成伤害。伤害等于你的魅力调整值，且伤害类型为你的元素亲和特性。"
 			]
 		},
 		{
@@ -4308,20 +4308,20 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 37,
 			"className": "魔契师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"subclassShortName": "邪魔",
-			"subclassSource": "XUA2023玩家手册P5",
+			"subclassSource": "XUA2023PlayersHandbookP5",
 			"level": 3,
 			"header": 1,
 			"entries": [
 				"你的契约汲取了下层位面的力量\u2014\u2014恶魔、魔鬼、尤格罗斯魔和其他邪魔的家园。当你选择这个子职时，你可能会与恶魔领主如狄摩高根、奥喀斯、弗拉兹·厄布-卢或巴弗灭之祝福；大魔鬼如阿斯蒙蒂斯、迪斯帕特、墨菲斯托费利斯或贝利亚；特别强大的深狱炼魔或巴洛炎魔；或超等罗斯魔或其他尤格罗斯魔领主达成交易。或者，你也可以召唤各种邪魔而不将自己束缚于单一邪魔的服务。无论如何，你的雇主的目标是邪恶的\u2014\u2014腐化或毁灭万物，最终也包括你\u2014\u2014而你的路途将由你对抗这些目标的程度来定义。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "宗主法术|魔契师|XUA2023玩家手册P5|邪魔|XUA2023玩家手册P5|3"
+					"subclassFeature": "宗主法术|魔契师|XUA2023PlayersHandbookP5|邪魔|XUA2023PlayersHandbookP5|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "黑暗赐福|魔契师|XUA2023玩家手册P5|邪魔|XUA2023玩家手册P5|3"
+					"subclassFeature": "黑暗赐福|魔契师|XUA2023PlayersHandbookP5|邪魔|XUA2023PlayersHandbookP5|3"
 				}
 			]
 		},
@@ -4331,9 +4331,9 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 38,
 			"className": "魔契师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"subclassShortName": "邪魔",
-			"subclassSource": "XUA2023玩家手册P5",
+			"subclassSource": "XUA2023PlayersHandbookP5",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -4346,9 +4346,9 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 38,
 			"className": "魔契师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"subclassShortName": "邪魔",
-			"subclassSource": "XUA2023玩家手册P5",
+			"subclassSource": "XUA2023PlayersHandbookP5",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -4370,7 +4370,7 @@
 							"name": "免费施法",
 							"type": "item",
 							"entries": [
-								"你可以从该特性中免费施放一个准备法术而不消耗法术位，且你必须完成一次{@variantrule 长休|XUA2023玩家手册P5}才能再次使用此增益。"
+								"你可以从该特性中免费施放一个准备法术而不消耗法术位，且你必须完成一次{@variantrule 长休|XUA2023PlayersHandbookP5}才能再次使用此增益。"
 							]
 						}
 					]
@@ -4417,14 +4417,14 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 38,
 			"className": "魔契师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"subclassShortName": "邪魔",
-			"subclassSource": "XUA2023玩家手册P5",
+			"subclassSource": "XUA2023PlayersHandbookP5",
 			"level": 6,
 			"header": 2,
 			"entries": [
 				"你可以呼唤你的邪魔雇主来改变命运以偏向于你。当你进行属性检定或豁免检定时，你可以使用此特性在你的掷骰上添加一个{@dice d10}。你可以在看到初始掷骰后但在掷骰的任何效应发生前这样做。",
-				"你可以使用此特性的次数等同于你的施法属性调整值（至少一次），且当你完成一次{@variantrule 长休|XUA2023玩家手册P5}时恢复所有使用次数。"
+				"你可以使用此特性的次数等同于你的施法属性调整值（至少一次），且当你完成一次{@variantrule 长休|XUA2023PlayersHandbookP5}时恢复所有使用次数。"
 			]
 		},
 		{
@@ -4433,13 +4433,13 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 38,
 			"className": "魔契师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"subclassShortName": "邪魔",
-			"subclassSource": "XUA2023玩家手册P5",
+			"subclassSource": "XUA2023PlayersHandbookP5",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"通过引导邪魔的超自然体魄，你可以在完成一次{@variantrule 短休|XUA2023玩家手册P5}或{@variantrule 长休|XUA2023玩家手册P5}时选择一种伤害类型（力场除外）。你将获得对该伤害类型的抗性，直到你使用此特性选择另一种伤害类型为止。"
+				"通过引导邪魔的超自然体魄，你可以在完成一次{@variantrule 短休|XUA2023PlayersHandbookP5}或{@variantrule 长休|XUA2023PlayersHandbookP5}时选择一种伤害类型（力场除外）。你将获得对该伤害类型的抗性，直到你使用此特性选择另一种伤害类型为止。"
 			]
 		},
 		{
@@ -4448,15 +4448,15 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 38,
 			"className": "魔契师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"subclassShortName": "邪魔",
-			"subclassSource": "XUA2023玩家手册P5",
+			"subclassSource": "XUA2023PlayersHandbookP5",
 			"level": 14,
 			"header": 2,
 			"entries": [
 				"当你以攻击检定命中一个生物时，你可以使用此特性立即将目标传送通过下层位面。该生物消失且直坠穿过一个梦魇地景。",
 				"在你的下一个回合结束时，目标返回它之前占据的空间或最近的未占据空间。如果目标不是邪魔，它必须在返回时对你的法术豁免DC进行一次感知豁免检定。豁免失败时，目标受到{@damage 10d10}心灵伤害。豁免成功时，它只受到一半伤害。",
-				"一旦你使用了此特性，除非你在再次使用时消耗至少一个4环法术位，否则直到完成一次{@variantrule 长休|XUA2023玩家手册P5}前都无法再次使用它。你每回合只能使用此特性一次。"
+				"一旦你使用了此特性，除非你在再次使用时消耗至少一个4环法术位，否则直到完成一次{@variantrule 长休|XUA2023PlayersHandbookP5}前都无法再次使用它。你每回合只能使用此特性一次。"
 			]
 		},
 		{
@@ -4465,20 +4465,20 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 43,
 			"className": "法师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"subclassShortName": "塑能师",
-			"subclassSource": "XUA2023玩家手册P5",
+			"subclassSource": "XUA2023PlayersHandbookP5",
 			"level": 3,
 			"header": 1,
 			"entries": [
 				"你将研究专注于创造强大元素效应的魔法，例如苦痛寒冷、灼热火焰、滚滚雷鸣、噼啪闪电和燃烧强酸。一些塑能师在军队中任职，作为炮击手从远处轰炸仇敌军队。其他人则用他们壮观的法力来保护虚弱者，而有些人则作为冒险者寻求自己的利益。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "塑能学者|法师|XUA2023玩家手册P5|塑能师|XUA2023玩家手册P5|3"
+					"subclassFeature": "塑能学者|法师|XUA2023PlayersHandbookP5|塑能师|XUA2023PlayersHandbookP5|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "法术塑形|法师|XUA2023玩家手册P5|塑能师|XUA2023玩家手册P5|3"
+					"subclassFeature": "法术塑形|法师|XUA2023PlayersHandbookP5|塑能师|XUA2023PlayersHandbookP5|3"
 				}
 			]
 		},
@@ -4488,14 +4488,14 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 43,
 			"className": "法师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"subclassShortName": "塑能师",
-			"subclassSource": "XUA2023玩家手册P5",
+			"subclassSource": "XUA2023PlayersHandbookP5",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"从奥术法术列表中选择两项塑能法术，每项法术不得超过2环。你可以将这些法术添加到你的法术书中，而无需施放{@spell 抄写员法术|XUA2023玩家手册P5}。",
-				"此外，每当你施放{@spell 抄写员法术|XUA2023玩家手册P5}来将一个法术添加到你的法术书时，你必须花费的金币和施法时间来将一个塑能法术添加到你的法术书将被减半。"
+				"从奥术法术列表中选择两项塑能法术，每项法术不得超过2环。你可以将这些法术添加到你的法术书中，而无需施放{@spell 抄写员法术|XUA2023PlayersHandbookP5}。",
+				"此外，每当你施放{@spell 抄写员法术|XUA2023PlayersHandbookP5}来将一个法术添加到你的法术书时，你必须花费的金币和施法时间来将一个塑能法术添加到你的法术书将被减半。"
 			]
 		},
 		{
@@ -4504,9 +4504,9 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 43,
 			"className": "法师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"subclassShortName": "塑能师",
-			"subclassSource": "XUA2023玩家手册P5",
+			"subclassSource": "XUA2023PlayersHandbookP5",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -4519,9 +4519,9 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 43,
 			"className": "法师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"subclassShortName": "塑能师",
-			"subclassSource": "XUA2023玩家手册P5",
+			"subclassSource": "XUA2023PlayersHandbookP5",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -4534,9 +4534,9 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 43,
 			"className": "法师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"subclassShortName": "塑能师",
-			"subclassSource": "XUA2023玩家手册P5",
+			"subclassSource": "XUA2023PlayersHandbookP5",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -4549,13 +4549,13 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 43,
 			"className": "法师",
-			"classSource": "XUA2023玩家手册P5",
+			"classSource": "XUA2023PlayersHandbookP5",
 			"subclassShortName": "塑能师",
-			"subclassSource": "XUA2023玩家手册P5",
+			"subclassSource": "XUA2023PlayersHandbookP5",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"你可以增强法术的威力。当你施放一个1环至5环的奥术或法师法术且该法术造成伤害时，你可以使该法术造成最大伤害。第一次这样做时，你不会遭受负面效应。若你在完成一次{@variantrule 长休|XUA2023玩家手册P5}前再次使用此特性，则在你施放该法术后立即受到等同于法术环阶的{@damage 2d12}暗蚀伤害。在完成一次{@variantrule 长休|XUA2023玩家手册P5}前每再次使用此特性一次，每法术环阶的暗蚀伤害增加{@dice 1d12}。此伤害忽略抗性且免疫。"
+				"你可以增强法术的威力。当你施放一个1环至5环的奥术或法师法术且该法术造成伤害时，你可以使该法术造成最大伤害。第一次这样做时，你不会遭受负面效应。若你在完成一次{@variantrule 长休|XUA2023PlayersHandbookP5}前再次使用此特性，则在你施放该法术后立即受到等同于法术环阶的{@damage 2d12}暗蚀伤害。在完成一次{@variantrule 长休|XUA2023PlayersHandbookP5}前每再次使用此特性一次，每法术环阶的暗蚀伤害增加{@dice 1d12}。此伤害忽略抗性且免疫。"
 			]
 		}
 	],
@@ -4569,7 +4569,7 @@
 				"EI"
 			],
 			"entries": [
-				"每当你施放{@spell 魔能爆|XUA2023玩家手册P5}时，你可以将你的施法属性调整值添加到该法术的伤害掷骰上。"
+				"每当你施放{@spell 魔能爆|XUA2023PlayersHandbookP5}时，你可以将你的施法属性调整值添加到该法术的伤害掷骰上。"
 			]
 		},
 		{
@@ -4686,7 +4686,7 @@
 				"EI"
 			],
 			"entries": [
-				"当你施放{@spell 魔能爆|XUA2023玩家手册P5}时，其射程为300尺。"
+				"当你施放{@spell 魔能爆|XUA2023PlayersHandbookP5}时，其射程为300尺。"
 			]
 		},
 		{
@@ -4759,7 +4759,7 @@
 				}
 			],
 			"entries": [
-				"你与通过{@spell 契约魔宠|XUA2023玩家手册P5}法术召唤的魔宠之间的羁绊变得更加强大。每当该魔宠用其奥法打击命中时，目标会受到与该魔宠的{@variantrule 生物类型|XUA2023玩家手册P5}相关的以下效应：",
+				"你与通过{@spell 契约魔宠|XUA2023PlayersHandbookP5}法术召唤的魔宠之间的羁绊变得更加强大。每当该魔宠用其奥法打击命中时，目标会受到与该魔宠的{@variantrule 生物类型|XUA2023PlayersHandbookP5}相关的以下效应：",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -4777,7 +4777,7 @@
 							"name": "天界语：明光道标",
 							"type": "item",
 							"entries": [
-								"在下一次你的回合结束前，下一次对目标进行的攻击检定具有优势，且如果目标具有{@condition 隐形|XUA2023玩家手册P5}状态，则该状态在持续时间内被压制。"
+								"在下一次你的回合结束前，下一次对目标进行的攻击检定具有优势，且如果目标具有{@condition 隐形|XUA2023PlayersHandbookP5}状态，则该状态在持续时间内被压制。"
 							]
 						},
 						{
@@ -4869,9 +4869,9 @@
 				}
 			],
 			"entries": [
-				"当你召唤你的{@spell 幽影之书|XUA2023玩家手册P5}时，书中会出现一个新页面。在你的允许下，一个生物可以用它的动作在该页面上写下它的名字，该页面可以包含的名字数量等于你的熟练加值。",
-				"当页面上列有名称的任何生物的生命值降至0点但未被直接杀死时，该生物会魔法般地降至1点生命值。一旦触发此魔法，没有生物能再获得该增益，直到你完成一次{@variantrule 长休|XUA2023玩家手册P5}。",
-				"以一个{@action 魔法|XUA2023玩家手册P5}动作，你可以通过触摸来擦除页面上的一个名称。"
+				"当你召唤你的{@spell 幽影之书|XUA2023PlayersHandbookP5}时，书中会出现一个新页面。在你的允许下，一个生物可以用它的动作在该页面上写下它的名字，该页面可以包含的名字数量等于你的熟练加值。",
+				"当页面上列有名称的任何生物的生命值降至0点但未被直接杀死时，该生物会魔法般地降至1点生命值。一旦触发此魔法，没有生物能再获得该增益，直到你完成一次{@variantrule 长休|XUA2023PlayersHandbookP5}。",
+				"以一个{@action 魔法|XUA2023PlayersHandbookP5}动作，你可以通过触摸来擦除页面上的一个名称。"
 			]
 		},
 		{
@@ -4900,7 +4900,7 @@
 				"EI"
 			],
 			"entries": [
-				"当你施放{@spell 脆弱诅咒|XUA2023玩家手册P5}时，其射程为600尺，且你在为维持该法术的专注而进行的任何体质豁免检定上具有优势。"
+				"当你施放{@spell 脆弱诅咒|XUA2023PlayersHandbookP5}时，其射程为600尺，且你在为维持该法术的专注而进行的任何体质豁免检定上具有优势。"
 			]
 		},
 		{
@@ -4939,7 +4939,7 @@
 				}
 			],
 			"entries": [
-				"当你用你的{@spell 契约武器|XUA2023玩家手册P5}法术的武器命中一个生物时，该生物会受到额外的{@damage 1d6}暗蚀伤害。此外，在你的每个回合中，你第一次用此契术造成暗蚀伤害时，你会恢复等同于造成的暗蚀伤害数值的生命值。"
+				"当你用你的{@spell 契约武器|XUA2023PlayersHandbookP5}法术的武器命中一个生物时，该生物会受到额外的{@damage 1d6}暗蚀伤害。此外，在你的每个回合中，你第一次用此契术造成暗蚀伤害时，你会恢复等同于造成的暗蚀伤害数值的生命值。"
 			]
 		},
 		{
@@ -5000,7 +5000,7 @@
 			],
 			"entries": [
 				"你对奥术的探索解锁了体内的魔法。从奥术法术列表中选择一个你有资格施放的等级的法术，如玄奥秘法表格所示。在表格中查找你的魔契师等级，以确定该法术的最大等级。",
-				"你可以施放选民法术一次而不消耗法术位，且你必须完成一次{@variantrule 长休|XUA2023玩家手册P5}后才能再次施放。",
+				"你可以施放选民法术一次而不消耗法术位，且你必须完成一次{@variantrule 长休|XUA2023PlayersHandbookP5}后才能再次施放。",
 				{
 					"type": "entries",
 					"entries": [
@@ -5079,7 +5079,7 @@
 				}
 			],
 			"entries": [
-				"当你在{@quickref 视野与光照||2||微光光照}或黑暗术的区域时，你可以使用你的动作获得{@condition 隐形|XUA2023玩家手册P5}状态，直到你移动或执行一个动作、附赠动作或反应。"
+				"当你在{@quickref 视野与光照||2||微光光照}或黑暗术的区域时，你可以使用你的动作获得{@condition 隐形|XUA2023PlayersHandbookP5}状态，直到你移动或执行一个动作、附赠动作或反应。"
 			]
 		},
 		{
@@ -5132,7 +5132,7 @@
 				"EI"
 			],
 			"entries": [
-				"每当你用{@spell 魔能爆|XUA2023玩家手册P5}命中一个大型或更小的生物时，你可以将该生物水平推离你最多10尺。"
+				"每当你用{@spell 魔能爆|XUA2023PlayersHandbookP5}命中一个大型或更小的生物时，你可以将该生物水平推离你最多10尺。"
 			]
 		},
 		{
@@ -5272,7 +5272,7 @@
 				}
 			],
 			"entries": [
-				"你拥有{@variantrule 真实视觉|XUA2023玩家手册P5}，范围为30尺。"
+				"你拥有{@variantrule 真实视觉|XUA2023PlayersHandbookP5}，范围为30尺。"
 			]
 		}
 	],
@@ -5315,7 +5315,7 @@
 							"name": "闪烁步",
 							"type": "item",
 							"entries": [
-								"在你执行{@action 攻击|XUA2023玩家手册P5}动作或{@action 魔法|XUA2023玩家手册P5}动作后，你可以立即传送至多30尺至一个你能看见的未占据空间。"
+								"在你执行{@action 攻击|XUA2023PlayersHandbookP5}动作或{@action 魔法|XUA2023PlayersHandbookP5}动作后，你可以立即传送至多30尺至一个你能看见的未占据空间。"
 							]
 						}
 					]
@@ -5379,7 +5379,7 @@
 							"name": "能量抗性",
 							"type": "item",
 							"entries": [
-								"你获得对以下两种伤害类型的抗性（自选）：强酸、寒冷、火焰、闪电、暗蚀、毒素、心灵、光耀或雷鸣。每当你完成一次{@variantrule 长休|XUA2023玩家手册P5}时，你可以冥想并改变这些选择。"
+								"你获得对以下两种伤害类型的抗性（自选）：强酸、寒冷、火焰、闪电、暗蚀、毒素、心灵、光耀或雷鸣。每当你完成一次{@variantrule 长休|XUA2023PlayersHandbookP5}时，你可以冥想并改变这些选择。"
 							]
 						},
 						{
@@ -5472,7 +5472,7 @@
 							"name": "背水一战",
 							"type": "item",
 							"entries": [
-								"当你将被缩小至0生命值时，你可以放下至1生命值且恢复数值等于你生命值上限一半的生命值。一旦你使用此增益，你将无法再次使用它，直到你完成一次{@variantrule 长休|XUA2023玩家手册P5}。"
+								"当你将被缩小至0生命值时，你可以放下至1生命值且恢复数值等于你生命值上限一半的生命值。一旦你使用此增益，你将无法再次使用它，直到你完成一次{@variantrule 长休|XUA2023PlayersHandbookP5}。"
 							]
 						},
 						{
@@ -5480,7 +5480,7 @@
 							"name": "死亡蔑视",
 							"type": "item",
 							"entries": [
-								"当你生命值为0时受到伤害，你可以进行一次{@variantrule 死亡豁免检定|XUA2023玩家手册P5|死亡豁免检定}而非承受一次{@variantrule 死亡豁免检定|XUA2023玩家手册P5|死亡豁免检定}失败。"
+								"当你生命值为0时受到伤害，你可以进行一次{@variantrule 死亡豁免检定|XUA2023PlayersHandbookP5|死亡豁免检定}而非承受一次{@variantrule 死亡豁免检定|XUA2023PlayersHandbookP5|死亡豁免检定}失败。"
 							]
 						}
 					]
@@ -5518,7 +5518,7 @@
 							"name": "逃脱大师",
 							"type": "item",
 							"entries": [
-								"作为附赠动作，你可以执行{@action 撤离}动作，同时解除你身上的{@condition 受擒|XUA2023玩家手册P5}和束缚状态。"
+								"作为附赠动作，你可以执行{@action 撤离}动作，同时解除你身上的{@condition 受擒|XUA2023PlayersHandbookP5}和束缚状态。"
 							]
 						},
 						{
@@ -5589,7 +5589,7 @@
 							"name": "融身入影",
 							"type": "item",
 							"entries": [
-								"当你完全处于{@quickref 视野与光照||2||微光光照}或黑暗术中时，你可以用一个{@action 魔法|XUA2023玩家手册P5}动作给予自己隐形状态。该状态会在你执行一个动作、附赠动作或反应后立即结束。"
+								"当你完全处于{@quickref 视野与光照||2||微光光照}或黑暗术中时，你可以用一个{@action 魔法|XUA2023PlayersHandbookP5}动作给予自己隐形状态。该状态会在你执行一个动作、附赠动作或反应后立即结束。"
 							]
 						},
 						{
@@ -5635,7 +5635,7 @@
 							"name": "精通词条",
 							"type": "item",
 							"entries": [
-								"你对武器的训练使你能够使用一种自选的简易或军用武器的精通词条，前提是你擅长该武器。每当你完成一次{@variantrule 长休|XUA2023玩家手册P5}，你可以将所选武器类型变更为另一种符合条件的类型。"
+								"你对武器的训练使你能够使用一种自选的简易或军用武器的精通词条，前提是你擅长该武器。每当你完成一次{@variantrule 长休|XUA2023PlayersHandbookP5}，你可以将所选武器类型变更为另一种符合条件的类型。"
 							]
 						}
 					]
@@ -5696,7 +5696,7 @@
 					"rows": [
 						[
 							"1",
-							"{@condition 失能|XUA2023玩家手册P5}"
+							"{@condition 失能|XUA2023PlayersHandbookP5}"
 						],
 						[
 							"2",
@@ -5925,7 +5925,7 @@
 				{
 					"number": 1,
 					"unit": "反应",
-					"condition": "作为你施放{@spell 法术修正|XUA2023玩家手册P5}的回应"
+					"condition": "作为你施放{@spell 法术修正|XUA2023PlayersHandbookP5}的回应"
 				}
 			],
 			"range": {
@@ -5938,7 +5938,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "一个奥术法器，该法术会消耗它，其价值至少为法术修正{@spell 法术修正|XUA2023玩家手册P5}异变者的法术等级每级1000GP",
+					"text": "一个奥术法器，该法术会消耗它，其价值至少为法术修正{@spell 法术修正|XUA2023PlayersHandbookP5}异变者的法术等级每级1000GP",
 					"cost": 100000,
 					"consume": true
 				}
@@ -5954,7 +5954,7 @@
 				}
 			],
 			"entries": [
-				"综合你的奥术知识与力量，你努力创造一个新法术。要成功，你必须集中精神1小时并冥想你刚刚用{@spell 法术修正|XUA2023玩家手册P5}修改过的法术，否则该法术失败。如果成功，你必须在接下来的10分钟内开始施放{@spell 抄写员法术|XUA2023玩家手册P5}并将修改后的法术添加到你的法术书中。一旦该法术进入你的法术书，它将成为你的已知法术之一，它将获得法师来源标签而非奥术标签，并且你可以为它命名。"
+				"综合你的奥术知识与力量，你努力创造一个新法术。要成功，你必须集中精神1小时并冥想你刚刚用{@spell 法术修正|XUA2023PlayersHandbookP5}修改过的法术，否则该法术失败。如果成功，你必须在接下来的10分钟内开始施放{@spell 抄写员法术|XUA2023PlayersHandbookP5}并将修改后的法术添加到你的法术书中。一旦该法术进入你的法术书，它将成为你的已知法术之一，它将获得法师来源标签而非奥术标签，并且你可以为它命名。"
 			]
 		},
 		{
@@ -6118,7 +6118,7 @@
 			},
 			"entries": [
 				"你从你的法术书中选择一项你没有准备的法术，且你选择另一个你已经准备的法术。未准备的法术会替换你准备法术列表中的已准备法术。",
-				"这个替换效果持续到你再次施放{@spell 记忆法术|XUA2023玩家手册P5}或完成一次{@variantrule 长休|XUA2023玩家手册P5}为止。"
+				"这个替换效果持续到你再次施放{@spell 记忆法术|XUA2023PlayersHandbookP5}或完成一次{@variantrule 长休|XUA2023PlayersHandbookP5}为止。"
 			],
 			"entriesHigherLevel": [
 				{
@@ -6223,12 +6223,12 @@
 							"name": "目标",
 							"type": "item",
 							"entries": [
-								"如果该法术影响一个或多个生物且射程不为自身，则现在它仅影响你的盟友或敌人（当你施放{@spell 法术修正|XUA2023玩家手册P5}时选择）。"
+								"如果该法术影响一个或多个生物且射程不为自身，则现在它仅影响你的盟友或敌人（当你施放{@spell 法术修正|XUA2023PlayersHandbookP5}时选择）。"
 							]
 						}
 					]
 				},
-				"选民异变持续到你再次施放法术修正或完成一次{@variantrule 长休|XUA2023玩家手册P5}。这个异变版本的法术无法被添加到法术书或法术卷轴中，除非先施放{@spell 创造法术|XUA2023玩家手册P5}。"
+				"选民异变持续到你再次施放法术修正或完成一次{@variantrule 长休|XUA2023PlayersHandbookP5}。这个异变版本的法术无法被添加到法术书或法术卷轴中，除非先施放{@spell 创造法术|XUA2023PlayersHandbookP5}。"
 			],
 			"entriesHigherLevel": [
 				{
@@ -6279,14 +6279,14 @@
 			],
 			"entries": [
 				"你召唤一个超凡实体为你服务。它会在你选择的射程内未占据空间显现。该生物使用契约",
-				"魔宠资料卡。如果你已通过该法术拥有一个魔宠，该魔宠会转变为新的魔宠但保留其记忆；你不会获得第二个{@creature 契约魔宠|XUA2023玩家手册P5}。",
-				"每当你施放该法术时，选择魔宠的{@variantrule 生物类型|XUA2023玩家手册P5}：异怪（{@creature 呋噜}或触须团）、天界生物（{@creature 猫头鹰}、{@creature 渡鸦}或其他鸟类）、龙（{@creature 伪龙}或类似的微龙）、妖精（{@creature 皮克精}或{@creature 小仙灵}）、邪魔（{@creature 小魔鬼}或{@creature 小恶魔}）或亡灵（{@creature 幽影}或骷髅）。此选择会影响魔宠的默认外貌（如括号内所述），并决定其资料卡中的某些特质。你可以在每次召唤时调整该生物外貌的细节。",
+				"魔宠资料卡。如果你已通过该法术拥有一个魔宠，该魔宠会转变为新的魔宠但保留其记忆；你不会获得第二个{@creature 契约魔宠|XUA2023PlayersHandbookP5}。",
+				"每当你施放该法术时，选择魔宠的{@variantrule 生物类型|XUA2023PlayersHandbookP5}：异怪（{@creature 呋噜}或触须团）、天界生物（{@creature 猫头鹰}、{@creature 渡鸦}或其他鸟类）、龙（{@creature 伪龙}或类似的微龙）、妖精（{@creature 皮克精}或{@creature 小仙灵}）、邪魔（{@creature 小魔鬼}或{@creature 小恶魔}）或亡灵（{@creature 幽影}或骷髅）。此选择会影响魔宠的默认外貌（如括号内所述），并决定其资料卡中的某些特质。你可以在每次召唤时调整该生物外貌的细节。",
 				{
 					"ENG_name": "Combat",
 					"name": "战斗",
 					"type": "entries",
 					"entries": [
-						"该魔宠是你和你的盟友的盟友，且它服从于你。在战斗中，它共享你的先攻值，但它在你的回合后立即行动。在它的回合中，魔宠会采取{@action 回避}动作并使用其{@variantrule 移动|XUA2023玩家手册P5}来避免危险，除非你使用你的反应命令它攻击。"
+						"该魔宠是你和你的盟友的盟友，且它服从于你。在战斗中，它共享你的先攻值，但它在你的回合后立即行动。在它的回合中，魔宠会采取{@action 回避}动作并使用其{@variantrule 移动|XUA2023PlayersHandbookP5}来避免危险，除非你使用你的反应命令它攻击。"
 					]
 				},
 				{
@@ -6302,7 +6302,7 @@
 					"name": "遥远视野",
 					"type": "entries",
 					"entries": [
-						"作为一个{@action 魔法|XUA2023玩家手册P5}动作，你可以看到你的魔宠所见且听到它所闻，直到你的下一个回合结束。"
+						"作为一个{@action 魔法|XUA2023PlayersHandbookP5}动作，你可以看到你的魔宠所见且听到它所闻，直到你的下一个回合结束。"
 					]
 				}
 			],
@@ -6402,7 +6402,7 @@
 					"name": "戏法强化",
 					"type": "entries",
 					"entries": [
-						"当你作为魔契师达到5级时，你仅为召唤或魔化的武器获得额外攻击特性。拥有该特性后，在你的回合中采取{@action 攻击|XUA2023玩家手册P5}动作时，你可以用该武器攻击两次而非一次。"
+						"当你作为魔契师达到5级时，你仅为召唤或魔化的武器获得额外攻击特性。拥有该特性后，在你的回合中采取{@action 攻击|XUA2023PlayersHandbookP5}动作时，你可以用该武器攻击两次而非一次。"
 					]
 				}
 			],
@@ -6456,7 +6456,7 @@
 			"entries": [
 				"通过羽毛笔和墨水引导魔法，你在你的法术书或一本价值至少50GP的空白书中抄写一个奥术法术。抄写的法术必须是你有法术位的等级，且书中必须没有该法术。",
 				"当你以魔法抄写法术时，你必须从另一本法术书或一个法术卷轴上复制它，或者你必须已准备该法术。如果你从法术卷轴上复制它，该卷轴会被销毁。如果你已准备该法术，施法时间且成分花费减半。",
-				"当抄写完成后，该法术会成为书中你的已知法术之一，如果书页已用完则会出现在自己的页面上。该法术以只有你或施放{@spell 鉴定术}或{@spell 抄写员法术|XUA2023玩家手册P5}的人才能理解的密码形式出现，如果在抄写前书本是空白的，那么该书现在就是你的法术书。"
+				"当抄写完成后，该法术会成为书中你的已知法术之一，如果书页已用完则会出现在自己的页面上。该法术以只有你或施放{@spell 鉴定术}或{@spell 抄写员法术|XUA2023PlayersHandbookP5}的人才能理解的密码形式出现，如果在抄写前书本是空白的，那么该书现在就是你的法术书。"
 			]
 		},
 		{
@@ -6863,7 +6863,7 @@
 				"V"
 			],
 			"mastery": [
-				"失衡|XUA2023玩家手册P5"
+				"失衡|XUA2023PlayersHandbookP5"
 			],
 			"dmg1": "1d8",
 			"dmgType": "S",
@@ -6886,7 +6886,7 @@
 				"LD"
 			],
 			"mastery": [
-				"侵扰|XUA2023玩家手册P5"
+				"侵扰|XUA2023PlayersHandbookP5"
 			],
 			"range": "25/100",
 			"dmg1": "1",
@@ -6904,10 +6904,10 @@
 			"value": 10,
 			"weaponCategory": "简易",
 			"property": [
-				"XUA2023玩家手册P5-L"
+				"XUA2023PlayersHandbookP5-L"
 			],
 			"mastery": [
-				"缓慢术|XUA2023玩家手册P5"
+				"缓慢术|XUA2023PlayersHandbookP5"
 			],
 			"dmg1": "1d4",
 			"dmgType": "B",
@@ -6926,11 +6926,11 @@
 			"weaponCategory": "简易",
 			"property": [
 				"F",
-				"XUA2023玩家手册P5-L",
+				"XUA2023PlayersHandbookP5-L",
 				"T"
 			],
 			"mastery": [
-				"迅击|XUA2023玩家手册P5"
+				"迅击|XUA2023PlayersHandbookP5"
 			],
 			"range": "20/60",
 			"dmg1": "1d4",
@@ -6953,7 +6953,7 @@
 				"T"
 			],
 			"mastery": [
-				"侵扰|XUA2023玩家手册P5"
+				"侵扰|XUA2023PlayersHandbookP5"
 			],
 			"range": "20/60",
 			"dmg1": "1d4",
@@ -6971,7 +6971,7 @@
 			"value": 1000,
 			"weaponCategory": "军用",
 			"mastery": [
-				"削弱|XUA2023玩家手册P5"
+				"削弱|XUA2023PlayersHandbookP5"
 			],
 			"dmg1": "1d8",
 			"dmgType": "B",
@@ -6993,7 +6993,7 @@
 				"2H"
 			],
 			"mastery": [
-				"擦掠|XUA2023玩家手册P5"
+				"擦掠|XUA2023PlayersHandbookP5"
 			],
 			"dmg1": "1d10",
 			"dmgType": "S",
@@ -7014,7 +7014,7 @@
 				"2H"
 			],
 			"mastery": [
-				"横扫|XUA2023玩家手册P5"
+				"横扫|XUA2023PlayersHandbookP5"
 			],
 			"dmg1": "1d12",
 			"dmgType": "S",
@@ -7035,7 +7035,7 @@
 				"2H"
 			],
 			"mastery": [
-				"推离|XUA2023玩家手册P5"
+				"推离|XUA2023PlayersHandbookP5"
 			],
 			"dmg1": "1d8",
 			"dmgType": "B",
@@ -7057,7 +7057,7 @@
 				"2H"
 			],
 			"mastery": [
-				"擦掠|XUA2023玩家手册P5"
+				"擦掠|XUA2023PlayersHandbookP5"
 			],
 			"dmg1": "2d6",
 			"dmgType": "S",
@@ -7080,7 +7080,7 @@
 				"2H"
 			],
 			"mastery": [
-				"横扫|XUA2023玩家手册P5"
+				"横扫|XUA2023PlayersHandbookP5"
 			],
 			"dmg1": "1d10",
 			"dmgType": "S",
@@ -7098,11 +7098,11 @@
 			"weaponCategory": "军用",
 			"property": [
 				"A",
-				"XUA2023玩家手册P5-L",
+				"XUA2023PlayersHandbookP5-L",
 				"LD"
 			],
 			"mastery": [
-				"侵扰|XUA2023玩家手册P5"
+				"侵扰|XUA2023PlayersHandbookP5"
 			],
 			"range": "30/120",
 			"dmg1": "1d6",
@@ -7122,10 +7122,10 @@
 			"weaponCategory": "简易",
 			"property": [
 				"T",
-				"XUA2023玩家手册P5-L"
+				"XUA2023PlayersHandbookP5-L"
 			],
 			"mastery": [
-				"侵扰|XUA2023玩家手册P5"
+				"侵扰|XUA2023PlayersHandbookP5"
 			],
 			"range": "20/60",
 			"dmg1": "1d6",
@@ -7150,7 +7150,7 @@
 				"2H"
 			],
 			"mastery": [
-				"推离|XUA2023玩家手册P5"
+				"推离|XUA2023PlayersHandbookP5"
 			],
 			"range": "100/400",
 			"dmg1": "1d10",
@@ -7172,7 +7172,7 @@
 				"T"
 			],
 			"mastery": [
-				"缓慢术|XUA2023玩家手册P5"
+				"缓慢术|XUA2023PlayersHandbookP5"
 			],
 			"range": "30/120",
 			"dmg1": "1d6",
@@ -7196,7 +7196,7 @@
 				"2H"
 			],
 			"mastery": [
-				"失衡|XUA2023玩家手册P5"
+				"失衡|XUA2023PlayersHandbookP5"
 			],
 			"dmg1": "1d10",
 			"dmgType": "P",
@@ -7218,7 +7218,7 @@
 				"2H"
 			],
 			"mastery": [
-				"缓慢术|XUA2023玩家手册P5"
+				"缓慢术|XUA2023PlayersHandbookP5"
 			],
 			"range": "80/320",
 			"dmg1": "1d8",
@@ -7238,10 +7238,10 @@
 			"weaponCategory": "简易",
 			"property": [
 				"T",
-				"XUA2023玩家手册P5-L"
+				"XUA2023PlayersHandbookP5-L"
 			],
 			"mastery": [
-				"迅击|XUA2023玩家手册P5"
+				"迅击|XUA2023PlayersHandbookP5"
 			],
 			"range": "20/60",
 			"dmg1": "1d4",
@@ -7265,7 +7265,7 @@
 				"2H"
 			],
 			"mastery": [
-				"缓慢术|XUA2023玩家手册P5"
+				"缓慢术|XUA2023PlayersHandbookP5"
 			],
 			"range": "150/600)",
 			"dmg1": "1d8",
@@ -7287,7 +7287,7 @@
 				"V"
 			],
 			"mastery": [
-				"灵活|XUA2023玩家手册P5"
+				"灵活|XUA2023PlayersHandbookP5"
 			],
 			"dmg1": "1d8",
 			"dmgType": "S",
@@ -7309,7 +7309,7 @@
 				"T"
 			],
 			"mastery": [
-				"削弱|XUA2023玩家手册P5"
+				"削弱|XUA2023PlayersHandbookP5"
 			],
 			"dmg1": "1d6",
 			"dmgType": "B",
@@ -7331,7 +7331,7 @@
 				"2H"
 			],
 			"mastery": [
-				"失衡|XUA2023玩家手册P5"
+				"失衡|XUA2023PlayersHandbookP5"
 			],
 			"dmg1": "2d6",
 			"dmgType": "S",
@@ -7349,7 +7349,7 @@
 			"value": 1500,
 			"weaponCategory": "军用",
 			"mastery": [
-				"削弱|XUA2023玩家手册P5"
+				"削弱|XUA2023PlayersHandbookP5"
 			],
 			"dmg1": "1d8",
 			"dmgType": "P",
@@ -7372,7 +7372,7 @@
 				"2H"
 			],
 			"mastery": [
-				"缓慢术|XUA2023玩家手册P5"
+				"缓慢术|XUA2023PlayersHandbookP5"
 			],
 			"range": "40/120",
 			"dmg1": "1d12",
@@ -7396,7 +7396,7 @@
 				"2H"
 			],
 			"mastery": [
-				"推离|XUA2023玩家手册P5"
+				"推离|XUA2023PlayersHandbookP5"
 			],
 			"dmg1": "1d10",
 			"dmgType": "P",
@@ -7417,7 +7417,7 @@
 				"LD"
 			],
 			"mastery": [
-				"侵扰|XUA2023玩家手册P5"
+				"侵扰|XUA2023PlayersHandbookP5"
 			],
 			"range": "30/90",
 			"dmg1": "1d10",
@@ -7439,7 +7439,7 @@
 				"V"
 			],
 			"mastery": [
-				"灵活|XUA2023玩家手册P5"
+				"灵活|XUA2023PlayersHandbookP5"
 			],
 			"dmg1": "1d6",
 			"dmgType": "B",
@@ -7461,7 +7461,7 @@
 				"F"
 			],
 			"mastery": [
-				"侵扰|XUA2023玩家手册P5"
+				"侵扰|XUA2023PlayersHandbookP5"
 			],
 			"dmg1": "1d8",
 			"dmgType": "P",
@@ -7480,10 +7480,10 @@
 			"weaponCategory": "军用",
 			"property": [
 				"F",
-				"XUA2023玩家手册P5-L"
+				"XUA2023PlayersHandbookP5-L"
 			],
 			"mastery": [
-				"迅击|XUA2023玩家手册P5"
+				"迅击|XUA2023PlayersHandbookP5"
 			],
 			"dmg1": "1d6",
 			"dmgType": "S",
@@ -7505,7 +7505,7 @@
 				"2H"
 			],
 			"mastery": [
-				"侵扰|XUA2023玩家手册P5"
+				"侵扰|XUA2023PlayersHandbookP5"
 			],
 			"range": "80/320",
 			"dmg1": "1d4",
@@ -7525,10 +7525,10 @@
 			"weaponCategory": "军用",
 			"property": [
 				"F",
-				"XUA2023玩家手册P5-L"
+				"XUA2023PlayersHandbookP5-L"
 			],
 			"mastery": [
-				"侵扰|XUA2023玩家手册P5"
+				"侵扰|XUA2023PlayersHandbookP5"
 			],
 			"dmg1": "1d6",
 			"dmgType": "P",
@@ -7546,10 +7546,10 @@
 			"value": 100,
 			"weaponCategory": "简易",
 			"property": [
-				"XUA2023玩家手册P5-L"
+				"XUA2023PlayersHandbookP5-L"
 			],
 			"mastery": [
-				"迅击|XUA2023玩家手册P5"
+				"迅击|XUA2023PlayersHandbookP5"
 			],
 			"dmg1": "1d4",
 			"dmgType": "S",
@@ -7569,7 +7569,7 @@
 				"A"
 			],
 			"mastery": [
-				"缓慢术|XUA2023玩家手册P5"
+				"缓慢术|XUA2023PlayersHandbookP5"
 			],
 			"range": "30/120",
 			"dmg1": "1d4",
@@ -7591,7 +7591,7 @@
 				"T"
 			],
 			"mastery": [
-				"灵活|XUA2023玩家手册P5"
+				"灵活|XUA2023PlayersHandbookP5"
 			],
 			"range": "20/60",
 			"dmg1": "1d6",
@@ -7615,7 +7615,7 @@
 				"V"
 			],
 			"mastery": [
-				"失衡|XUA2023玩家手册P5"
+				"失衡|XUA2023PlayersHandbookP5"
 			],
 			"range": "20/60",
 			"dmg1": "1d8",
@@ -7637,7 +7637,7 @@
 				"V"
 			],
 			"mastery": [
-				"灵活|XUA2023玩家手册P5"
+				"灵活|XUA2023PlayersHandbookP5"
 			],
 			"dmg1": "1d8",
 			"dmgType": "P",
@@ -7658,7 +7658,7 @@
 				"V"
 			],
 			"mastery": [
-				"灵活|XUA2023玩家手册P5"
+				"灵活|XUA2023PlayersHandbookP5"
 			],
 			"dmg1": "1d8",
 			"dmgType": "B",
@@ -7681,7 +7681,7 @@
 				"R"
 			],
 			"mastery": [
-				"缓慢术|XUA2023玩家手册P5"
+				"缓慢术|XUA2023PlayersHandbookP5"
 			],
 			"dmg1": "1d4",
 			"dmgType": "S",
@@ -7706,7 +7706,7 @@
 					"name": "特殊",
 					"type": "entries",
 					"entries": [
-						"当你在你的回合中采取{@action 攻击|XUA2023玩家手册P5}动作时，你可以用一次15尺内对生物的捕网投掷来替代你的一次攻击。目标必须成功通过一个DC等于8+你的熟练加值+你的敏捷调整值的敏捷豁免检定。如果目标是巨型或更大体型，则自动成功。",
+						"当你在你的回合中采取{@action 攻击|XUA2023PlayersHandbookP5}动作时，你可以用一次15尺内对生物的捕网投掷来替代你的一次攻击。目标必须成功通过一个DC等于8+你的熟练加值+你的敏捷调整值的敏捷豁免检定。如果目标是巨型或更大体型，则自动成功。",
 						"豁免失败时，目标将处于束缚状态直到逃脱捕网。要逃脱，目标必须使用其动作进行一次{@dc 10}力量（{@skill 运动}）检定，成功则逃脱。目标5尺内的生物可以使用其动作尝试相同操作。破坏捕网（AC 10；5 HP；免疫钝击、毒素且心灵伤害）同样会释放目标，终止该效果。"
 					]
 				}
@@ -7761,8 +7761,8 @@
 					"name": "光亮术",
 					"type": "entries",
 					"entries": [
-						"当你在你的回合中采取{@action 攻击|XUA2023玩家手册P5}动作且一只手使用轻型武器攻击且另一只手持有轻型武器时，你可以作为同一动作的一部分进行一次额外攻击。该额外攻击必须使用另一只手的轻型武器进行，且你不将属性调整值添加到额外攻击的伤害上。你只能在每个回合中进行一次这种额外攻击。",
-						"例如，如果你在你的回合中采取{@action 攻击|XUA2023玩家手册P5}动作且一手持短剑另一手持匕首\u2014\u2014两者都具有轻型属性\u2014\u2014你可以用每把武器各进行一次攻击，但你不将力量或敏捷调整值加到第二把武器的伤害掷骰上。"
+						"当你在你的回合中采取{@action 攻击|XUA2023PlayersHandbookP5}动作且一只手使用轻型武器攻击且另一只手持有轻型武器时，你可以作为同一动作的一部分进行一次额外攻击。该额外攻击必须使用另一只手的轻型武器进行，且你不将属性调整值添加到额外攻击的伤害上。你只能在每个回合中进行一次这种额外攻击。",
+						"例如，如果你在你的回合中采取{@action 攻击|XUA2023PlayersHandbookP5}动作且一手持短剑另一手持匕首\u2014\u2014两者都具有轻型属性\u2014\u2014你可以用每把武器各进行一次攻击，但你不将力量或敏捷调整值加到第二把武器的伤害掷骰上。"
 					]
 				}
 			]
@@ -7827,12 +7827,12 @@
 			"prerequisite": [
 				{
 					"itemProperty": [
-						"XUA2023玩家手册P5-L"
+						"XUA2023PlayersHandbookP5-L"
 					]
 				}
 			],
 			"entries": [
-				"当你使用轻型属性的额外攻击时，你可以将其作为{@action 攻击|XUA2023玩家手册P5}动作的一部分，而不是作为附赠动作。你仍然每回合只能使用一次这个额外攻击。"
+				"当你使用轻型属性的额外攻击时，你可以将其作为{@action 攻击|XUA2023PlayersHandbookP5}动作的一部分，而不是作为附赠动作。你仍然每回合只能使用一次这个额外攻击。"
 			]
 		},
 		{
@@ -7938,7 +7938,7 @@
 			"name": "契约魔宠",
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 10,
-			"summonedByClass": "魔契师|XUA2023玩家手册P5",
+			"summonedByClass": "魔契师|XUA2023PlayersHandbookP5",
 			"size": [
 				"T"
 			],
@@ -7988,7 +7988,7 @@
 				"力竭"
 			],
 			"languages": [
-				"{@variantrule 心灵感应|XUA2023玩家手册P5} 120尺（仅限你与魔宠之间）"
+				"{@variantrule 心灵感应|XUA2023PlayersHandbookP5} 120尺（仅限你与魔宠之间）"
 			],
 			"pbNote": "等于你的加值",
 			"trait": [
@@ -8012,7 +8012,7 @@
 					"ENG_name": "Invisibility",
 					"name": "隐形术",
 					"entries": [
-						"该魔宠获得{@condition 隐形|XUA2023玩家手册P5}状态直到其下个回合结束。"
+						"该魔宠获得{@condition 隐形|XUA2023PlayersHandbookP5}状态直到其下个回合结束。"
 					]
 				}
 			],
@@ -8110,7 +8110,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 45,
 			"entries": [
-				"在你第三次成功的死亡豁免检定后，你恢复1点生命值，但你处于{@condition 昏迷|XUA2023玩家手册P5}状态且开始一次{@variantrule 短休|XUA2023玩家手册P5}。你将保持{@condition 昏迷|XUA2023玩家手册P5}状态，直到你恢复更多生命值或有另一个生物用一个动作对你进行急救，这需要通过一次{@dc 10}感知（{@skill 医药}）检定。",
+				"在你第三次成功的死亡豁免检定后，你恢复1点生命值，但你处于{@condition 昏迷|XUA2023PlayersHandbookP5}状态且开始一次{@variantrule 短休|XUA2023PlayersHandbookP5}。你将保持{@condition 昏迷|XUA2023PlayersHandbookP5}状态，直到你恢复更多生命值或有另一个生物用一个动作对你进行急救，这需要通过一次{@dc 10}感知（{@skill 医药}）检定。",
 				"此测试规则移除了生命值为0时伤势稳定的概念，且移除了玩家手册第197页的\"稳定伤势\"规则。"
 			]
 		},
@@ -8158,7 +8158,7 @@
 			"page": 45,
 			"entries": [
 				"飞行速度可用于在风中移动。当你拥有飞行速度时，你可以保持在空中直到你落地、坠落或死亡。",
-				"飞行时，若你没有悬浮特质且处于{@condition 失能|XUA2023玩家手册P5}或倒地状态，或你的飞行速度降至0，你会坠落。"
+				"飞行时，若你没有悬浮特质且处于{@condition 失能|XUA2023PlayersHandbookP5}或倒地状态，或你的飞行速度降至0，你会坠落。"
 			]
 		},
 		{
@@ -8167,7 +8167,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 46,
 			"entries": [
-				"当你拥有英雄优势（也称为激励）时，你可以消耗它来让自己在{@variantrule D20 检定|XUA2023玩家手册P5|D20 检定}上获得优势。你可以在掷出{@dice d20}后立即决定这样做。",
+				"当你拥有英雄优势（也称为激励）时，你可以消耗它来让自己在{@variantrule D20 检定|XUA2023PlayersHandbookP5|D20 检定}上获得优势。你可以在掷出{@dice d20}后立即决定这样做。",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -8199,8 +8199,8 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 47,
 			"entries": [
-				"有时攻击手想要击昏一个敌人而非造成致命伤害。当攻击手通过近战{@action 攻击|XUA2023玩家手册P5}将生物的生命值降至0时，攻击手可以改为将其生命值降至1。该生物随后获得{@condition 昏迷|XUA2023玩家手册P5}状态并开始一次{@variantrule 短休|XUA2023玩家手册P5}。",
-				"该生物保持{@condition 昏迷|XUA2023玩家手册P5}状态，直到它恢复任何生命值或有人用一个动作对它进行急救，这需要一个成功的{@dc 10}感知（{@skill 医药}）检定。"
+				"有时攻击手想要击昏一个敌人而非造成致命伤害。当攻击手通过近战{@action 攻击|XUA2023PlayersHandbookP5}将生物的生命值降至0时，攻击手可以改为将其生命值降至1。该生物随后获得{@condition 昏迷|XUA2023PlayersHandbookP5}状态并开始一次{@variantrule 短休|XUA2023PlayersHandbookP5}。",
+				"该生物保持{@condition 昏迷|XUA2023PlayersHandbookP5}状态，直到它恢复任何生命值或有人用一个动作对它进行急救，这需要一个成功的{@dc 10}感知（{@skill 医药}）检定。"
 			]
 		},
 		{
@@ -8210,7 +8210,7 @@
 			"page": 47,
 			"entries": [
 				"长休是一段延长的休整期\u2014\u2014至少8小时长\u2014\u2014任何生物都可以进行。在长休期间，你需要进行至少6小时的睡眠术且不超过2小时的轻型活动，例如阅读、交谈、进食或守卫。",
-				"在睡眠术期间，你处于{@condition 昏迷|XUA2023玩家手册P5}状态。",
+				"在睡眠术期间，你处于{@condition 昏迷|XUA2023PlayersHandbookP5}状态。",
 				{
 					"ENG_name": "Benefits of the Rest",
 					"name": "休息的增益",
@@ -8287,7 +8287,7 @@
 					"items": [
 						"投掷先攻",
 						"施放0等级以外的法术 • 受到任何伤害",
-						"1小时的步行或其他体力消耗。如果休息在中断前至少持续了1小时，你将获得{@variantrule 短休|XUA2023玩家手册P5}的增益。"
+						"1小时的步行或其他体力消耗。如果休息在中断前至少持续了1小时，你将获得{@variantrule 短休|XUA2023PlayersHandbookP5}的增益。"
 					]
 				},
 				"你可以在被打断后立即恢复长休。如果这样做，每次打断需要额外1小时来完成休息。"
@@ -8299,7 +8299,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 48,
 			"entries": [
-				"当你移动时，你可以移动一段等于或小于你速度的距离。例如，如果你的速度为30尺，你可以在移动时移动最多30尺。{@variantrule 困难地形|XUA2023玩家手册P5}可能会使你减速。",
+				"当你移动时，你可以移动一段等于或小于你速度的距离。例如，如果你的速度为30尺，你可以在移动时移动最多30尺。{@variantrule 困难地形|XUA2023PlayersHandbookP5}可能会使你减速。",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -8317,9 +8317,9 @@
 							"name": "绕过其他生物",
 							"type": "item",
 							"entries": [
-								"在你的移动期间，你可以穿过一个盟友、一个{@condition 失能|XUA2023玩家手册P5}的生物、一个微型生物或一个体型比你大两号或小两号的生物的空间。",
-								"另一个生物的空间对你来说是{@variantrule 困难地形|XUA2023玩家手册P5}，除非该生物是微型。",
-								"你不能自愿在另一个生物占据的空间内结束你的{@variantrule 移动|XUA2023玩家手册P5}。"
+								"在你的移动期间，你可以穿过一个盟友、一个{@condition 失能|XUA2023PlayersHandbookP5}的生物、一个微型生物或一个体型比你大两号或小两号的生物的空间。",
+								"另一个生物的空间对你来说是{@variantrule 困难地形|XUA2023PlayersHandbookP5}，除非该生物是微型。",
+								"你不能自愿在另一个生物占据的空间内结束你的{@variantrule 移动|XUA2023PlayersHandbookP5}。"
 							]
 						},
 						{
@@ -8327,7 +8327,7 @@
 							"name": "速度上的变化",
 							"type": "item",
 							"entries": [
-								"如果一个效应在一段时间内增加或减少了你的速度，你所拥有的任何特殊速度也会在相同持续时间内增加或减少相同的数量。例如，如果你的速度被缩小到0且你拥有一个{@variantrule 攀爬速度|XUA2023玩家手册P5}，你的{@variantrule 攀爬速度|XUA2023玩家手册P5}也会被缩小到0。类似地，如果你的速度减半且你拥有一个{@variantrule 飞行速度|XUA2023玩家手册P5}，你的{@variantrule 飞行速度|XUA2023玩家手册P5}也会减半。"
+								"如果一个效应在一段时间内增加或减少了你的速度，你所拥有的任何特殊速度也会在相同持续时间内增加或减少相同的数量。例如，如果你的速度被缩小到0且你拥有一个{@variantrule 攀爬速度|XUA2023PlayersHandbookP5}，你的{@variantrule 攀爬速度|XUA2023PlayersHandbookP5}也会被缩小到0。类似地，如果你的速度减半且你拥有一个{@variantrule 飞行速度|XUA2023PlayersHandbookP5}，你的{@variantrule 飞行速度|XUA2023PlayersHandbookP5}也会减半。"
 							]
 						}
 					]
@@ -8349,46 +8349,46 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 44,
 			"entries": [
-				"本术语汇编包含了在本测试文档中具有新含义的游戏术语，以及诸如{@variantrule 生物类型|XUA2023玩家手册P5}等在2014版玩家手册中未定义的术语。这些术语按字母顺序排列。",
+				"本术语汇编包含了在本测试文档中具有新含义的游戏术语，以及诸如{@variantrule 生物类型|XUA2023PlayersHandbookP5}等在2014版玩家手册中未定义的术语。这些术语按字母顺序排列。",
 				"如果一个术语没有出现在这里，使用2014年《玩家手册》中的定义，且在试玩本文件时，不要使用任何其他《破解奥秘》文章的术语汇编。",
 				{
 					"type": "list",
 					"columns": 3,
 					"items": [
-						"{@variantrule 护甲受训|XUA2023玩家手册P5}",
-						"{@action 攻击|XUA2023玩家手册P5}",
-						"{@variantrule 盲视|XUA2023玩家手册P5}",
-						"{@variantrule 攀爬速度|XUA2023玩家手册P5}",
-						"{@variantrule 生物类型|XUA2023玩家手册P5}",
-						"{@variantrule D20 检定|XUA2023玩家手册P5}",
-						"{@condition 晕眩|XUA2023玩家手册P5}",
-						"{@variantrule 死亡豁免检定|XUA2023玩家手册P5}",
-						"{@variantrule 困难地形|XUA2023玩家手册P5}",
-						"{@variantrule 专精|XUA2023玩家手册P5}",
-						"{@variantrule 飞行速度|XUA2023玩家手册P5}",
-						"{@condition 受擒|XUA2023玩家手册P5}",
-						"{@action 协助|XUA2023玩家手册P5}",
-						"{@variantrule 英雄优势|XUA2023玩家手册P5}",
-						"{@action 躲藏|XUA2023玩家手册P5}",
-						"{@condition 失能|XUA2023玩家手册P5}",
-						"{@action 影响|XUA2023玩家手册P5}",
-						"{@condition 隐形|XUA2023玩家手册P5}",
-						"{@variantrule 击晕生物|XUA2023玩家手册P5}",
-						"{@variantrule 长休|XUA2023玩家手册P5}",
-						"{@action 魔法|XUA2023玩家手册P5}",
-						"{@variantrule 移动|XUA2023玩家手册P5}",
-						"{@variantrule 仪式施法|XUA2023玩家手册P5}",
-						"{@action 搜索|XUA2023玩家手册P5}",
-						"{@variantrule 短休|XUA2023玩家手册P5}",
-						"{@action 研究|XUA2023玩家手册P5}",
-						"{@variantrule 游泳速度|XUA2023玩家手册P5}",
-						"{@variantrule 心灵感应|XUA2023玩家手册P5}",
-						"{@variantrule 传送|XUA2023玩家手册P5}",
-						"{@variantrule 工具熟练|XUA2023玩家手册P5}",
-						"{@variantrule 震颤感知|XUA2023玩家手册P5}",
-						"{@variantrule 真实视觉|XUA2023玩家手册P5}",
-						"{@variantrule 徒手打击|XUA2023玩家手册P5}",
-						"{@condition 昏迷|XUA2023玩家手册P5}"
+						"{@variantrule 护甲受训|XUA2023PlayersHandbookP5}",
+						"{@action 攻击|XUA2023PlayersHandbookP5}",
+						"{@variantrule 盲视|XUA2023PlayersHandbookP5}",
+						"{@variantrule 攀爬速度|XUA2023PlayersHandbookP5}",
+						"{@variantrule 生物类型|XUA2023PlayersHandbookP5}",
+						"{@variantrule D20 检定|XUA2023PlayersHandbookP5}",
+						"{@condition 晕眩|XUA2023PlayersHandbookP5}",
+						"{@variantrule 死亡豁免检定|XUA2023PlayersHandbookP5}",
+						"{@variantrule 困难地形|XUA2023PlayersHandbookP5}",
+						"{@variantrule 专精|XUA2023PlayersHandbookP5}",
+						"{@variantrule 飞行速度|XUA2023PlayersHandbookP5}",
+						"{@condition 受擒|XUA2023PlayersHandbookP5}",
+						"{@action 协助|XUA2023PlayersHandbookP5}",
+						"{@variantrule 英雄优势|XUA2023PlayersHandbookP5}",
+						"{@action 躲藏|XUA2023PlayersHandbookP5}",
+						"{@condition 失能|XUA2023PlayersHandbookP5}",
+						"{@action 影响|XUA2023PlayersHandbookP5}",
+						"{@condition 隐形|XUA2023PlayersHandbookP5}",
+						"{@variantrule 击晕生物|XUA2023PlayersHandbookP5}",
+						"{@variantrule 长休|XUA2023PlayersHandbookP5}",
+						"{@action 魔法|XUA2023PlayersHandbookP5}",
+						"{@variantrule 移动|XUA2023PlayersHandbookP5}",
+						"{@variantrule 仪式施法|XUA2023PlayersHandbookP5}",
+						"{@action 搜索|XUA2023PlayersHandbookP5}",
+						"{@variantrule 短休|XUA2023PlayersHandbookP5}",
+						"{@action 研究|XUA2023PlayersHandbookP5}",
+						"{@variantrule 游泳速度|XUA2023PlayersHandbookP5}",
+						"{@variantrule 心灵感应|XUA2023PlayersHandbookP5}",
+						"{@variantrule 传送|XUA2023PlayersHandbookP5}",
+						"{@variantrule 工具熟练|XUA2023PlayersHandbookP5}",
+						"{@variantrule 震颤感知|XUA2023PlayersHandbookP5}",
+						"{@variantrule 真实视觉|XUA2023PlayersHandbookP5}",
+						"{@variantrule 徒手打击|XUA2023PlayersHandbookP5}",
+						"{@condition 昏迷|XUA2023PlayersHandbookP5}"
 					]
 				}
 			]
@@ -8678,7 +8678,7 @@
 								],
 								[
 									"1",
-									"{@spell 脆弱诅咒|XUA2023玩家手册P5}",
+									"{@spell 脆弱诅咒|XUA2023PlayersHandbookP5}",
 									"惑控",
 									"No"
 								],
@@ -9832,7 +9832,7 @@
 			"page": 49,
 			"entries": [
 				"心灵感应是一种魔法属性，允许一个生物在指定范围内与另一个生物进行心灵沟通。被联系的生物不需要与心灵感应者共享语言来理解这种沟通方式，但被联系的生物必须能够理解至少一种语言或自身具有心灵感应能力才能理解。",
-				"心灵感应者不需要看到被联系的生物，且心灵感应者可以随时开始或结束传心接触（无需动作）。当被联系的生物不再处于心灵感应的范围内，或心灵感应者联系了范围内的另一个生物，或心灵感应者处于{@condition 失能|XUA2023玩家手册P5}状态时，传心接触立即中断。",
+				"心灵感应者不需要看到被联系的生物，且心灵感应者可以随时开始或结束传心接触（无需动作）。当被联系的生物不再处于心灵感应的范围内，或心灵感应者联系了范围内的另一个生物，或心灵感应者处于{@condition 失能|XUA2023PlayersHandbookP5}状态时，传心接触立即中断。",
 				"一个不具备心灵感应的生物可以接收心灵感应传讯术但无法发起心灵感应对话。一旦心灵感应对话开始，非心灵感应者可以心灵感应传讯术给心灵感应者，直到心灵连接结束。"
 			]
 		},
@@ -9864,7 +9864,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 50,
 			"entries": [
-				"徒手打击是一种近战{@action 攻击|XUA2023玩家手册P5}，涉及你使用自己的身体对5尺内的目标造成伤害、擒抱或推撞。",
+				"徒手打击是一种近战{@action 攻击|XUA2023PlayersHandbookP5}，涉及你使用自己的身体对5尺内的目标造成伤害、擒抱或推撞。",
 				"每当你使用徒手打击时，从下列效应中选择一项：",
 				{
 					"type": "list",
@@ -9883,7 +9883,7 @@
 							"name": "擒抱",
 							"type": "item",
 							"entries": [
-								"目标必须成功通过力量或敏捷豁免检定（由其选择），否则将陷入{@condition 受擒|XUA2023玩家手册P5}状态。该豁免检定和任何逃脱尝试的DC等于8 + 你的力量调整值 + 你的熟练加值。此擒抱仅在目标体型不超过你一级且你有一只手空闲可用于擒拿时生效。"
+								"目标必须成功通过力量或敏捷豁免检定（由其选择），否则将陷入{@condition 受擒|XUA2023PlayersHandbookP5}状态。该豁免检定和任何逃脱尝试的DC等于8 + 你的力量调整值 + 你的熟练加值。此擒抱仅在目标体型不超过你一级且你有一只手空闲可用于擒拿时生效。"
 							]
 						},
 						{
@@ -9923,146 +9923,146 @@
 			],
 			"rows": [
 				[
-					"{@item 战斧|XUA2023玩家手册P5}",
+					"{@item 战斧|XUA2023PlayersHandbookP5}",
 					"{@dice 1d8} 挥砍",
 					"多用{@dice 1d10}",
-					"{@itemMastery 失衡|XUA2023玩家手册P5}",
+					"{@itemMastery 失衡|XUA2023PlayersHandbookP5}",
 					"4 磅",
 					"10GP"
 				],
 				[
-					"{@item 链枷|XUA2023玩家手册P5}",
+					"{@item 链枷|XUA2023PlayersHandbookP5}",
 					"{@dice 1d8} 钝击",
 					"-",
-					"{@itemMastery 削弱|XUA2023玩家手册P5}",
+					"{@itemMastery 削弱|XUA2023PlayersHandbookP5}",
 					"2 磅",
 					"10GP"
 				],
 				[
-					"{@item 长柄刀|XUA2023玩家手册P5}",
+					"{@item 长柄刀|XUA2023PlayersHandbookP5}",
 					"{@dice 1d10} 挥砍",
 					"重型，触及，双手",
-					"{@itemMastery 擦掠|XUA2023玩家手册P5}",
+					"{@itemMastery 擦掠|XUA2023PlayersHandbookP5}",
 					"6 磅",
 					"20 GP"
 				],
 				[
-					"{@item 巨斧|XUA2023玩家手册P5}",
+					"{@item 巨斧|XUA2023PlayersHandbookP5}",
 					"{@dice 1d12} 挥砍",
 					"重型，双手",
-					"{@itemMastery 横扫|XUA2023玩家手册P5}",
+					"{@itemMastery 横扫|XUA2023PlayersHandbookP5}",
 					"7 磅",
 					"30 GP"
 				],
 				[
-					"{@item 巨剑|XUA2023玩家手册P5}",
+					"{@item 巨剑|XUA2023PlayersHandbookP5}",
 					"{@dice 2d6} 挥砍",
 					"重型，双手",
-					"{@itemMastery 擦掠|XUA2023玩家手册P5}",
+					"{@itemMastery 擦掠|XUA2023PlayersHandbookP5}",
 					"6 磅",
 					"50GP"
 				],
 				[
-					"{@item 长戟|XUA2023玩家手册P5}",
+					"{@item 长戟|XUA2023PlayersHandbookP5}",
 					"{@dice 1d10} 挥砍",
 					"重型，触及，双手",
-					"{@itemMastery 横扫|XUA2023玩家手册P5}",
+					"{@itemMastery 横扫|XUA2023PlayersHandbookP5}",
 					"6 磅",
 					"20 GP"
 				],
 				[
-					"{@item 骑枪|XUA2023玩家手册P5}",
+					"{@item 骑枪|XUA2023PlayersHandbookP5}",
 					"{@dice 1d10} 穿刺",
 					"重型，触及，双手（非骑乘状态）",
-					"{@itemMastery 失衡|XUA2023玩家手册P5}",
+					"{@itemMastery 失衡|XUA2023PlayersHandbookP5}",
 					"6 磅",
 					"10GP"
 				],
 				[
-					"{@item 长剑|XUA2023玩家手册P5}",
+					"{@item 长剑|XUA2023PlayersHandbookP5}",
 					"{@dice 1d8} 挥砍",
 					"多用{@dice 1d10}",
-					"{@itemMastery 灵活|XUA2023玩家手册P5}",
+					"{@itemMastery 灵活|XUA2023PlayersHandbookP5}",
 					"3 磅",
 					"15GP"
 				],
 				[
-					"{@item 巨锤|XUA2023玩家手册P5}",
+					"{@item 巨锤|XUA2023PlayersHandbookP5}",
 					"{@dice 2d6} 挥砍",
 					"重型，双手",
-					"{@itemMastery 失衡|XUA2023玩家手册P5}",
+					"{@itemMastery 失衡|XUA2023PlayersHandbookP5}",
 					"10 磅",
 					"10GP"
 				],
 				[
-					"{@item 钉头锤|XUA2023玩家手册P5}",
+					"{@item 钉头锤|XUA2023PlayersHandbookP5}",
 					"{@dice 1d8} 穿刺",
 					"-",
-					"{@itemMastery 削弱|XUA2023玩家手册P5}",
+					"{@itemMastery 削弱|XUA2023PlayersHandbookP5}",
 					"4 磅",
 					"15GP"
 				],
 				[
-					"{@item 长矛|XUA2023玩家手册P5}",
+					"{@item 长矛|XUA2023PlayersHandbookP5}",
 					"{@dice 1d10} 穿刺",
 					"重型，触及，双手",
-					"{@itemMastery 推离|XUA2023玩家手册P5}",
+					"{@itemMastery 推离|XUA2023PlayersHandbookP5}",
 					"18 磅",
 					"5GP"
 				],
 				[
-					"{@item 刺剑|XUA2023玩家手册P5}",
+					"{@item 刺剑|XUA2023PlayersHandbookP5}",
 					"{@dice 1d8} 穿刺",
 					"灵巧",
-					"{@itemMastery 侵扰|XUA2023玩家手册P5}",
+					"{@itemMastery 侵扰|XUA2023PlayersHandbookP5}",
 					"2 磅",
 					"25GP"
 				],
 				[
-					"{@item 弯刀|XUA2023玩家手册P5}",
+					"{@item 弯刀|XUA2023PlayersHandbookP5}",
 					"{@dice 1d6} 挥砍",
 					"灵巧，轻型",
-					"{@itemMastery 迅击|XUA2023玩家手册P5}",
+					"{@itemMastery 迅击|XUA2023PlayersHandbookP5}",
 					"3 磅",
 					"25GP"
 				],
 				[
-					"{@item 短剑|XUA2023玩家手册P5}",
+					"{@item 短剑|XUA2023PlayersHandbookP5}",
 					"{@dice 1d6} 穿刺",
 					"灵巧，轻型",
-					"{@itemMastery 侵扰|XUA2023玩家手册P5}",
+					"{@itemMastery 侵扰|XUA2023PlayersHandbookP5}",
 					"2 磅",
 					"10GP"
 				],
 				[
-					"{@item 三叉戟|XUA2023玩家手册P5}",
+					"{@item 三叉戟|XUA2023PlayersHandbookP5}",
 					"{@dice 1d8} 穿刺",
 					"投掷（射程 20/60），多用 {@dice 1d10}",
-					"{@itemMastery 失衡|XUA2023玩家手册P5}",
+					"{@itemMastery 失衡|XUA2023PlayersHandbookP5}",
 					"4 磅",
 					"5GP"
 				],
 				[
-					"{@item 战镐|XUA2023玩家手册P5}",
+					"{@item 战镐|XUA2023PlayersHandbookP5}",
 					"{@dice 1d8} 穿刺",
 					"多用{@dice 1d10}",
-					"{@itemMastery 灵活|XUA2023玩家手册P5}",
+					"{@itemMastery 灵活|XUA2023PlayersHandbookP5}",
 					"2 磅",
 					"5GP"
 				],
 				[
-					"{@item 战锤|XUA2023玩家手册P5}",
+					"{@item 战锤|XUA2023PlayersHandbookP5}",
 					"{@dice 1d8} 钝击",
 					"多用{@dice 1d10}",
-					"{@itemMastery 灵活|XUA2023玩家手册P5}",
+					"{@itemMastery 灵活|XUA2023PlayersHandbookP5}",
 					"2 磅",
 					"15GP"
 				],
 				[
-					"{@item 鞭击|XUA2023玩家手册P5}",
+					"{@item 鞭击|XUA2023PlayersHandbookP5}",
 					"{@dice 1d4} 挥砍",
 					"灵巧，触及",
-					"{@itemMastery 缓慢术|XUA2023玩家手册P5}",
+					"{@itemMastery 缓慢术|XUA2023PlayersHandbookP5}",
 					"3 磅",
 					"2GP"
 				]
@@ -10091,42 +10091,42 @@
 			],
 			"rows": [
 				[
-					"{@item 吹箭筒|XUA2023玩家手册P5}",
+					"{@item 吹箭筒|XUA2023PlayersHandbookP5}",
 					"1 穿刺",
 					"弹药（射程25/100）装填",
-					"{@itemMastery 侵扰|XUA2023玩家手册P5}",
+					"{@itemMastery 侵扰|XUA2023PlayersHandbookP5}",
 					"1 磅",
 					"10GP"
 				],
 				[
-					"{@item 手弩|XUA2023玩家手册P5|手弩}",
+					"{@item 手弩|XUA2023PlayersHandbookP5|手弩}",
 					"{@dice 1d6} 穿刺",
 					"弹药（射程30/120），轻型，装填",
-					"{@itemMastery 侵扰|XUA2023玩家手册P5}",
+					"{@itemMastery 侵扰|XUA2023PlayersHandbookP5}",
 					"3 磅",
 					"75 GP"
 				],
 				[
-					"{@item 长弓|XUA2023玩家手册P5}",
+					"{@item 长弓|XUA2023PlayersHandbookP5}",
 					"{@dice 1d8} 穿刺",
 					"弹药（射程150/600），重型，双手",
-					"{@itemMastery 缓慢术|XUA2023玩家手册P5}",
+					"{@itemMastery 缓慢术|XUA2023PlayersHandbookP5}",
 					"2 磅",
 					"50GP"
 				],
 				[
-					"{@item 滑膛枪|XUA2023玩家手册P5}",
+					"{@item 滑膛枪|XUA2023PlayersHandbookP5}",
 					"{@dice 1d12} 穿刺",
 					"弹药（范围 40/120），装填，双手",
-					"{@itemMastery 缓慢术|XUA2023玩家手册P5}",
+					"{@itemMastery 缓慢术|XUA2023PlayersHandbookP5}",
 					"10 磅",
 					"500GP"
 				],
 				[
-					"{@item 手枪|XUA2023玩家手册P5}",
+					"{@item 手枪|XUA2023PlayersHandbookP5}",
 					"{@dice 1d10} 穿刺",
 					"弹药（范围30/90），装填",
-					"{@itemMastery 侵扰|XUA2023玩家手册P5}",
+					"{@itemMastery 侵扰|XUA2023PlayersHandbookP5}",
 					"3 磅",
 					"250 GP"
 				]
@@ -10155,82 +10155,82 @@
 			],
 			"rows": [
 				[
-					"{@item 短棒|XUA2023玩家手册P5}",
+					"{@item 短棒|XUA2023PlayersHandbookP5}",
 					"{@dice 1d4} 钝击",
 					"光亮术",
-					"{@itemMastery 缓慢术|XUA2023玩家手册P5}",
+					"{@itemMastery 缓慢术|XUA2023PlayersHandbookP5}",
 					"2 磅",
 					"1SP"
 				],
 				[
-					"{@item 匕首|XUA2023玩家手册P5}",
+					"{@item 匕首|XUA2023PlayersHandbookP5}",
 					"{@dice 1d4} 穿刺",
 					"灵巧，轻型，投掷（射程20/60）",
-					"{@itemMastery 迅击|XUA2023玩家手册P5}",
+					"{@itemMastery 迅击|XUA2023PlayersHandbookP5}",
 					"1 磅",
 					"2GP"
 				],
 				[
-					"{@item 巨棒|XUA2023玩家手册P5}",
+					"{@item 巨棒|XUA2023PlayersHandbookP5}",
 					"{@dice 1d8} 钝击",
 					"双手",
-					"{@itemMastery 推离|XUA2023玩家手册P5}",
+					"{@itemMastery 推离|XUA2023PlayersHandbookP5}",
 					"10 磅",
 					"2 SP"
 				],
 				[
-					"{@item 手斧|XUA2023玩家手册P5}",
+					"{@item 手斧|XUA2023PlayersHandbookP5}",
 					"{@dice 1d6} 挥砍",
 					"轻型，投掷（射程20/60）",
-					"{@itemMastery 侵扰|XUA2023玩家手册P5}",
+					"{@itemMastery 侵扰|XUA2023PlayersHandbookP5}",
 					"2 磅",
 					"5GP"
 				],
 				[
-					"{@item 标枪|XUA2023玩家手册P5}",
+					"{@item 标枪|XUA2023PlayersHandbookP5}",
 					"{@dice 1d6} 穿刺",
 					"投掷（射程30/120）",
-					"{@itemMastery 缓慢术|XUA2023玩家手册P5}",
+					"{@itemMastery 缓慢术|XUA2023PlayersHandbookP5}",
 					"2 磅",
 					"5SP"
 				],
 				[
-					"{@item 轻锤|XUA2023玩家手册P5}",
+					"{@item 轻锤|XUA2023PlayersHandbookP5}",
 					"{@dice 1d4} 钝击",
 					"轻型，投掷（射程20/60）",
-					"{@itemMastery 迅击|XUA2023玩家手册P5}",
+					"{@itemMastery 迅击|XUA2023PlayersHandbookP5}",
 					"2 磅",
 					"2GP"
 				],
 				[
-					"{@item 硬头锤|XUA2023玩家手册P5}",
+					"{@item 硬头锤|XUA2023PlayersHandbookP5}",
 					"{@dice 1d6} 钝击",
 					"-",
-					"{@itemMastery 削弱|XUA2023玩家手册P5}",
+					"{@itemMastery 削弱|XUA2023PlayersHandbookP5}",
 					"4 磅",
 					"5GP"
 				],
 				[
-					"{@item 长棍|XUA2023玩家手册P5}",
+					"{@item 长棍|XUA2023PlayersHandbookP5}",
 					"{@dice 1d6} 钝击",
 					"两用（1d8）",
-					"{@itemMastery 灵活|XUA2023玩家手册P5}",
+					"{@itemMastery 灵活|XUA2023PlayersHandbookP5}",
 					"4 磅",
 					"2GP"
 				],
 				[
-					"{@item 镰刀|XUA2023玩家手册P5}",
+					"{@item 镰刀|XUA2023PlayersHandbookP5}",
 					"{@dice 1d4} 挥砍",
 					"光亮术",
-					"{@itemMastery 迅击|XUA2023玩家手册P5}",
+					"{@itemMastery 迅击|XUA2023PlayersHandbookP5}",
 					"2 磅",
 					"1GP"
 				],
 				[
-					"{@item 矛|XUA2023玩家手册P5}",
+					"{@item 矛|XUA2023PlayersHandbookP5}",
 					"{@dice 1d6} 穿刺",
 					"投掷（射程 20/60），多用 {@dice 1d8}",
-					"{@itemMastery 灵活|XUA2023玩家手册P5}",
+					"{@itemMastery 灵活|XUA2023PlayersHandbookP5}",
 					"3 磅",
 					"1GP"
 				]
@@ -10259,34 +10259,34 @@
 			],
 			"rows": [
 				[
-					"{@item 轻弩|XUA2023玩家手册P5|轻弩}",
+					"{@item 轻弩|XUA2023PlayersHandbookP5|轻弩}",
 					"{@dice 1d8} 穿刺",
 					"弹药（射程80/320），装填，双手",
-					"{@itemMastery 缓慢术|XUA2023玩家手册P5}",
+					"{@itemMastery 缓慢术|XUA2023PlayersHandbookP5}",
 					"5 磅",
 					"25GP"
 				],
 				[
-					"{@item 飞镖|XUA2023玩家手册P5}",
+					"{@item 飞镖|XUA2023PlayersHandbookP5}",
 					"{@dice 1d4} 穿刺",
 					"灵巧，投掷（射程20/60）",
-					"{@itemMastery 侵扰|XUA2023玩家手册P5}",
+					"{@itemMastery 侵扰|XUA2023PlayersHandbookP5}",
 					"0.25 磅",
 					"5CP"
 				],
 				[
-					"{@item 短弓|XUA2023玩家手册P5}",
+					"{@item 短弓|XUA2023PlayersHandbookP5}",
 					"{@dice 1d6} 穿刺",
 					"弹药（射程80/320），双手",
-					"{@itemMastery 侵扰|XUA2023玩家手册P5}",
+					"{@itemMastery 侵扰|XUA2023PlayersHandbookP5}",
 					"2 磅",
 					"25GP"
 				],
 				[
-					"{@item 投石索|XUA2023玩家手册P5}",
+					"{@item 投石索|XUA2023PlayersHandbookP5}",
 					"{@dice 1d4} 钝击",
 					"弹药（射程30/120）",
-					"{@itemMastery 缓慢术|XUA2023玩家手册P5}",
+					"{@itemMastery 缓慢术|XUA2023PlayersHandbookP5}",
 					"-",
 					"1SP"
 				]
@@ -10310,7 +10310,7 @@
 							"name": "受限用途",
 							"type": "item",
 							"entries": [
-								"你可以在你的回合中{@variantrule 移动|XUA2023玩家手册P5}或执行一个动作，但不能同时进行。你也不能执行附赠动作或反应。"
+								"你可以在你的回合中{@variantrule 移动|XUA2023PlayersHandbookP5}或执行一个动作，但不能同时进行。你也不能执行附赠动作或反应。"
 							]
 						}
 					]
@@ -10357,7 +10357,7 @@
 							"name": "逃脱",
 							"type": "item",
 							"entries": [
-								"处于受擒状态时，你可以使用动作进行一次力量（{@skill 运动}）或敏捷（{@skill 特技}）检定对抗擒抱者的逃脱DC，成功时解除自身的该状态。若擒抱者处于{@condition 失能|XUA2023玩家手册P5}状态，或你与擒抱者之间的距离超过擒抱范围，该状态也会结束。"
+								"处于受擒状态时，你可以使用动作进行一次力量（{@skill 运动}）或敏捷（{@skill 特技}）检定对抗擒抱者的逃脱DC，成功时解除自身的该状态。若擒抱者处于{@condition 失能|XUA2023PlayersHandbookP5}状态，或你与擒抱者之间的距离超过擒抱范围，该状态也会结束。"
 							]
 						}
 					]
@@ -10451,7 +10451,7 @@
 							"name": "攻击影响",
 							"type": "item",
 							"entries": [
-								"{@action 攻击|XUA2023玩家手册P5}检定对你具有劣势，且你的攻击检定具有优势。如果一个生物能以某种方式看见你，例如通过魔法或{@variantrule 盲视|XUA2023玩家手册P5}，你不会对该生物获得此增益。"
+								"{@action 攻击|XUA2023PlayersHandbookP5}检定对你具有劣势，且你的攻击检定具有优势。如果一个生物能以某种方式看见你，例如通过魔法或{@variantrule 盲视|XUA2023PlayersHandbookP5}，你不会对该生物获得此增益。"
 							]
 						}
 					]
@@ -10474,7 +10474,7 @@
 							"name": "迟钝",
 							"type": "item",
 							"entries": [
-								"你处于{@condition 失能|XUA2023玩家手册P5}且倒地的状态，并且你会放下手中持有的任何物品。当此状态结束时，你仍然处于倒地状态。"
+								"你处于{@condition 失能|XUA2023PlayersHandbookP5}且倒地的状态，并且你会放下手中持有的任何物品。当此状态结束时，你仍然处于倒地状态。"
 							]
 						},
 						{
@@ -10482,7 +10482,7 @@
 							"name": "速度归零",
 							"type": "item",
 							"entries": [
-								"你的速度归零且无法变化。攻击影响。{@action 攻击|XUA2023玩家手册P5}对你进行的攻击检定具有优势。"
+								"你的速度归零且无法变化。攻击影响。{@action 攻击|XUA2023PlayersHandbookP5}对你进行的攻击检定具有优势。"
 							]
 						},
 						{
@@ -10527,7 +10527,7 @@
 				}
 			],
 			"entries": [
-				"当你进行攻击动作时，你可以用武器或进行一次{@variantrule 徒手打击|XUA2023玩家手册P5}。",
+				"当你进行攻击动作时，你可以用武器或进行一次{@variantrule 徒手打击|XUA2023PlayersHandbookP5}。",
 				{
 					"ENG_name": "Equipping and Unequipping Weapons",
 					"name": "装备武器与卸下武器",
@@ -10542,7 +10542,7 @@
 					"name": "攻击间移动",
 					"type": "entries",
 					"entries": [
-						"如果你在你的回合中{@variantrule 移动|XUA2023玩家手册P5}，你可以使用部分或全部的移动力在此动作的攻击间移动，前提是你拥有一个特性（例如额外攻击），该特性使你在攻击动作中获得多次攻击。"
+						"如果你在你的回合中{@variantrule 移动|XUA2023PlayersHandbookP5}，你可以使用部分或全部的移动力在此动作的攻击间移动，前提是你拥有一个特性（例如额外攻击），该特性使你在攻击动作中获得多次攻击。"
 					]
 				}
 			]
@@ -10597,7 +10597,7 @@
 			],
 			"entries": [
 				"使用躲藏动作时，你试图隐藏自己。为此，你必须在你处于重度遮蔽或四分之三掩护或全身掩护时进行一次{@dc 15}敏捷检定（{@skill 隐匿}），且你必须处于任何可见敌人的视线之外；如果你能看到一个生物，你可以辨别它是否能看见你。",
-				"检定成功后，你将处于{@condition 隐藏|XUA2023玩家手册P5}状态。记下你的检定总值，该值将成为其他生物通过感知检定（{@skill 察觉}）发现你的DC。",
+				"检定成功后，你将处于{@condition 隐藏|XUA2023PlayersHandbookP5}状态。记下你的检定总值，该值将成为其他生物通过感知检定（{@skill 察觉}）发现你的DC。",
 				"该状态会在以下任一情况发生后立即结束：你发出比低语更大的声音、仇敌发现你、你进行攻击检定、或你施放一个带有言语成分的法术。"
 			]
 		},
@@ -10846,7 +10846,7 @@
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 44,
 			"entries": [
-				"如果你拥有盲视，你可以在特定范围内不依赖物理视觉进行观察。在该范围内，你可以有效地看到任何不在全身掩护后的东西，即使你处于目盲状态或处于黑暗术中。此外，在该范围内，你可以有效地看到具有{@condition 隐形|XUA2023玩家手册P5}状态的生物。"
+				"如果你拥有盲视，你可以在特定范围内不依赖物理视觉进行观察。在该范围内，你可以有效地看到任何不在全身掩护后的东西，即使你处于目盲状态或处于黑暗术中。此外，在该范围内，你可以有效地看到具有{@condition 隐形|XUA2023PlayersHandbookP5}状态的生物。"
 			]
 		},
 		{
@@ -10883,7 +10883,7 @@
 							"name": "隐形术",
 							"type": "item",
 							"entries": [
-								"该生物可以看到具有{@condition 隐形|XUA2023玩家手册P5}状态的生物且被魔法遮蔽的物件。"
+								"该生物可以看到具有{@condition 隐形|XUA2023PlayersHandbookP5}状态的生物且被魔法遮蔽的物件。"
 							]
 						},
 						{

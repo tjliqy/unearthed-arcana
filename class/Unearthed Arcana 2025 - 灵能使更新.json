@@ -5414,7 +5414,7 @@
 							"type": "section",
 							"page": 11,
 							"entries": [
-								"法术按字母顺序排列。如果一个法术在其魔法学派后的括号中包含{@class 奇械师|XUA2025艾伯伦更新}，则该法术会被添加到奇械师的法术列表中（使用{@class 奇械师|XUA2025艾伯伦更新}在破解奥秘中最新出现的版本）。",
+								"法术按字母顺序排列。如果一个法术在其魔法学派后的括号中包含{@class 奇械师|XUA2025EberronUpdates}，则该法术会被添加到奇械师的法术列表中（使用{@class 奇械师|XUA2025EberronUpdates}在破解奥秘中最新出现的版本）。",
 								{
 									"ENG_name": "Design Note: Spell Updates",
 									"name": "设计笔记：法术更新",

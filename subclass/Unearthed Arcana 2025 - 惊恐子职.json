@@ -271,7 +271,7 @@
 			"shortName": "复活者",
 			"source": "XUA2025HorrorSubclasses",
 			"className": "奇械师",
-			"classSource": "XUA2025艾伯伦更新",
+			"classSource": "XUA2025EberronUpdates",
 			"page": 1,
 			"additionalSpells": [
 				{
@@ -314,10 +314,10 @@
 				"巫术箭|XPHB"
 			],
 			"subclassFeatures": [
-				"复活者|奇械师|XUA2025艾伯伦更新|复活者|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses",
-				"奇异改造|奇械师|XUA2025艾伯伦更新|复活者|XUA2025HorrorSubclasses|5|XUA2025HorrorSubclasses",
-				"强化复生|奇械师|XUA2025艾伯伦更新|复活者|XUA2025HorrorSubclasses|9|XUA2025HorrorSubclasses",
-				"普罗米修斯式复生|奇械师|XUA2025艾伯伦更新|复活者|XUA2025HorrorSubclasses|15|XUA2025HorrorSubclasses"
+				"复活者|奇械师|XUA2025EberronUpdates|复活者|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses",
+				"奇异改造|奇械师|XUA2025EberronUpdates|复活者|XUA2025HorrorSubclasses|5|XUA2025HorrorSubclasses",
+				"强化复生|奇械师|XUA2025EberronUpdates|复活者|XUA2025HorrorSubclasses|9|XUA2025HorrorSubclasses",
+				"普罗米修斯式复生|奇械师|XUA2025EberronUpdates|复活者|XUA2025HorrorSubclasses|15|XUA2025HorrorSubclasses"
 			],
 			"hasFluff": true
 		},
@@ -709,7 +709,7 @@
 			"shortName": "复活者",
 			"source": "XUA2025HorrorSubclasses",
 			"className": "奇械师",
-			"classSource": "XUA2025艾伯伦更新",
+			"classSource": "XUA2025EberronUpdates",
 			"entries": [
 				"{@i 损伤管制尸体以复活死亡}"
 			]
@@ -2016,7 +2016,7 @@
 			"source": "XUA2025HorrorSubclasses",
 			"page": 1,
 			"className": "奇械师",
-			"classSource": "XUA2025艾伯伦更新",
+			"classSource": "XUA2025EberronUpdates",
 			"subclassShortName": "复活者",
 			"subclassSource": "XUA2025HorrorSubclasses",
 			"level": 3,
@@ -2025,15 +2025,15 @@
 				"复苏者违背自然法则进行可怕的实验。这些噩兆奇械师将不同尸体缝合为仆人，使用污秽魔法强化生者，并将死灵艺术转变为恐怖科学。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "复活者法术|奇械师|XUA2025艾伯伦更新|复活者|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses"
+					"subclassFeature": "复活者法术|奇械师|XUA2025EberronUpdates|复活者|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "电击术赋予生命|奇械师|XUA2025艾伯伦更新|复活者|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses"
+					"subclassFeature": "电击术赋予生命|奇械师|XUA2025EberronUpdates|复活者|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "再起伴兵|奇械师|XUA2025艾伯伦更新|复活者|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses"
+					"subclassFeature": "再起伴兵|奇械师|XUA2025EberronUpdates|复活者|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses"
 				}
 			]
 		},
@@ -2043,7 +2043,7 @@
 			"source": "XUA2025HorrorSubclasses",
 			"page": 1,
 			"className": "奇械师",
-			"classSource": "XUA2025艾伯伦更新",
+			"classSource": "XUA2025EberronUpdates",
 			"subclassShortName": "复活者",
 			"subclassSource": "XUA2025HorrorSubclasses",
 			"level": 3,
@@ -2059,7 +2059,7 @@
 			"source": "XUA2025HorrorSubclasses",
 			"page": 1,
 			"className": "奇械师",
-			"classSource": "XUA2025艾伯伦更新",
+			"classSource": "XUA2025EberronUpdates",
 			"subclassShortName": "复活者",
 			"subclassSource": "XUA2025HorrorSubclasses",
 			"level": 3,
@@ -2094,7 +2094,7 @@
 			"source": "XUA2025HorrorSubclasses",
 			"page": 1,
 			"className": "奇械师",
-			"classSource": "XUA2025艾伯伦更新",
+			"classSource": "XUA2025EberronUpdates",
 			"subclassShortName": "复活者",
 			"subclassSource": "XUA2025HorrorSubclasses",
 			"level": 3,
@@ -2117,7 +2117,7 @@
 			"source": "XUA2025HorrorSubclasses",
 			"page": 2,
 			"className": "奇械师",
-			"classSource": "XUA2025艾伯伦更新",
+			"classSource": "XUA2025EberronUpdates",
 			"subclassShortName": "复活者",
 			"subclassSource": "XUA2025HorrorSubclasses",
 			"level": 5,
@@ -2148,7 +2148,7 @@
 			"source": "XUA2025HorrorSubclasses",
 			"page": 2,
 			"className": "奇械师",
-			"classSource": "XUA2025艾伯伦更新",
+			"classSource": "XUA2025EberronUpdates",
 			"subclassShortName": "复活者",
 			"subclassSource": "XUA2025HorrorSubclasses",
 			"level": 9,
@@ -2187,7 +2187,7 @@
 			"source": "XUA2025HorrorSubclasses",
 			"page": 2,
 			"className": "奇械师",
-			"classSource": "XUA2025艾伯伦更新",
+			"classSource": "XUA2025EberronUpdates",
 			"subclassShortName": "复活者",
 			"subclassSource": "XUA2025HorrorSubclasses",
 			"level": 15,
@@ -2921,7 +2921,7 @@
 											"prop": "subclass",
 											"source": "XUA2025HorrorSubclasses",
 											"className": "奇械师",
-											"classSource": "XUA2025艾伯伦更新",
+											"classSource": "XUA2025EberronUpdates",
 											"page": 1
 										},
 										{
