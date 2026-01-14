@@ -27,15 +27,15 @@
 			"name": "剑圣之道（UA）",
 			"shortName": "剑圣（UA）",
 			"source": "UAMonk",
-			"className": "{!@ {!@ #UA}}",
+			"className": "武僧",
 			"classSource": "PHB",
 			"page": 1,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"剑圣宗|{!@ {!@ #UA}}||剑圣（UA）|UAMonk|3",
-				"人剑合一|{!@ {!@ #UA}}||剑圣（UA）|UAMonk|6",
-				"锋锐剑影|{!@ {!@ #UA}}||剑圣（UA）|UAMonk|11",
-				"精妙剑法|{!@ {!@ #UA}}||剑圣（UA）|UAMonk|17"
+				"剑圣宗|武僧||剑圣（UA）|UAMonk|3",
+				"人剑合一|武僧||剑圣（UA）|UAMonk|6",
+				"锋锐剑影|武僧||剑圣（UA）|UAMonk|11",
+				"精妙剑法|武僧||剑圣（UA）|UAMonk|17"
 			]
 		},
 		{
@@ -43,7 +43,7 @@
 			"name": "宁神境之道（UA）",
 			"shortName": "宁神境（UA）",
 			"source": "UAMonk",
-			"className": "{!@ {!@ #UA}}",
+			"className": "武僧",
 			"classSource": "PHB",
 			"page": 1,
 			"additionalSpells": [
@@ -59,10 +59,10 @@
 				}
 			],
 			"subclassFeatures": [
-				"宁神境|{!@ {!@ #UA}}||宁神境（UA）|UAMonk|3",
-				"和平使节|{!@ {!@ #UA}}||宁神境（UA）|UAMonk|6",
-				"熄灭战争之火|{!@ {!@ #UA}}||宁神境（UA）|UAMonk|11",
-				"温柔灵魂之怒|{!@ {!@ #UA}}||宁神境（UA）|UAMonk|17"
+				"宁神境|武僧||宁神境（UA）|UAMonk|3",
+				"和平使节|武僧||宁神境（UA）|UAMonk|6",
+				"熄灭战争之火|武僧||宁神境（UA）|UAMonk|11",
+				"温柔灵魂之怒|武僧||宁神境（UA）|UAMonk|17"
 			]
 		}
 	],
@@ -72,7 +72,7 @@
 			"name": "剑圣宗",
 			"source": "UAMonk",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "武僧",
 			"classSource": "PHB",
 			"subclassShortName": "剑圣（UA）",
 			"subclassSource": "UAMonk",
@@ -81,7 +81,7 @@
 				"剑圣宗的武僧们不懈地训练他们的武器，以至于武器成为身体的延伸。剑圣看待武器的方式，就像画家看待画笔或作者看待羊皮纸、墨水和羽毛笔一样。剑或弓是用来表达武艺之美与优雅的工具。这种精通使剑圣成为无与伦比的武者，而这只是强烈奉献、练习和研究的附带效应。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "剑圣之途|{!@ {!@ #UA}}||剑圣（UA）|UAMonk|3"
+					"subclassFeature": "剑圣之途|武僧||剑圣（UA）|UAMonk|3"
 				}
 			]
 		},
@@ -90,7 +90,7 @@
 			"name": "剑圣之途",
 			"source": "UAMonk",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "武僧",
 			"classSource": "PHB",
 			"subclassShortName": "剑圣（UA）",
 			"subclassSource": "UAMonk",
@@ -115,7 +115,7 @@
 			"name": "人剑合一",
 			"source": "UAMonk",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "武僧",
 			"classSource": "PHB",
 			"subclassShortName": "剑圣（UA）",
 			"subclassSource": "UAMonk",
@@ -156,7 +156,7 @@
 			"name": "锋锐剑影",
 			"source": "UAMonk",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "武僧",
 			"classSource": "PHB",
 			"subclassShortName": "剑圣（UA）",
 			"subclassSource": "UAMonk",
@@ -176,7 +176,7 @@
 			"name": "精妙剑法",
 			"source": "UAMonk",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "武僧",
 			"classSource": "PHB",
 			"subclassShortName": "剑圣（UA）",
 			"subclassSource": "UAMonk",
@@ -191,7 +191,7 @@
 			"name": "宁神境",
 			"source": "UAMonk",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "武僧",
 			"classSource": "PHB",
 			"subclassShortName": "宁神境（UA）",
 			"subclassSource": "UAMonk",
@@ -200,11 +200,11 @@
 				"宁神境的武僧将暴力视为绝境反扑。他们使用交涉、命流且理解来解决冲突。但如果被逼迫，他们是能够结束那些拒绝聆听原因的残忍或不义之徒的武者。冒险时，这些武僧是出色的外交官。他们也熟习治疗艺术，并能在令人生畏的敌人面前保护盟友。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "宁神境之路|{!@ {!@ #UA}}||宁神境（UA）|UAMonk|3"
+					"subclassFeature": "宁神境之路|武僧||宁神境（UA）|UAMonk|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "治愈之手|{!@ {!@ #UA}}||宁神境（UA）|UAMonk|3"
+					"subclassFeature": "治愈之手|武僧||宁神境（UA）|UAMonk|3"
 				}
 			]
 		},
@@ -213,7 +213,7 @@
 			"name": "治愈之手",
 			"source": "UAMonk",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "武僧",
 			"classSource": "PHB",
 			"subclassShortName": "宁神境（UA）",
 			"subclassSource": "UAMonk",
@@ -232,7 +232,7 @@
 			"name": "宁神境之路",
 			"source": "UAMonk",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "武僧",
 			"classSource": "PHB",
 			"subclassShortName": "宁神境（UA）",
 			"subclassSource": "UAMonk",
@@ -248,7 +248,7 @@
 			"name": "和平使节",
 			"source": "UAMonk",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "武僧",
 			"classSource": "PHB",
 			"subclassShortName": "宁神境（UA）",
 			"subclassSource": "UAMonk",
@@ -264,7 +264,7 @@
 			"name": "熄灭战争之火",
 			"source": "UAMonk",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "武僧",
 			"classSource": "PHB",
 			"subclassShortName": "宁神境（UA）",
 			"subclassSource": "UAMonk",
@@ -280,7 +280,7 @@
 			"name": "温柔灵魂之怒",
 			"source": "UAMonk",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "武僧",
 			"classSource": "PHB",
 			"subclassShortName": "宁神境（UA）",
 			"subclassSource": "UAMonk",

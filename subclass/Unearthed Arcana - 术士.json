@@ -27,7 +27,7 @@
 			"name": "受眷之魂v2(UA)",
 			"shortName": "受眷之魂v2(UA)",
 			"source": "UASorcerer",
-			"className": "{!@ {!@ #UA}}",
+			"className": "术士",
 			"classSource": "PHB",
 			"page": 1,
 			"isReprinted": true,
@@ -86,10 +86,10 @@
 				}
 			],
 			"subclassFeatures": [
-				"青睐灵魂 v2|{!@ {!@ #UA}}||受眷之魂v2(UA)|UASorcerer|1",
-				"受祝福面容|{!@ {!@ #UA}}||受眷之魂v2(UA)|UASorcerer|6",
-				"神圣纯净|{!@ {!@ #UA}}||受眷之魂v2(UA)|UASorcerer|14",
-				"神赐痊愈|{!@ {!@ #UA}}||受眷之魂v2(UA)|UASorcerer|18"
+				"青睐灵魂 v2|术士||受眷之魂v2(UA)|UASorcerer|1",
+				"受祝福面容|术士||受眷之魂v2(UA)|UASorcerer|6",
+				"神圣纯净|术士||受眷之魂v2(UA)|UASorcerer|14",
+				"神赐痊愈|术士||受眷之魂v2(UA)|UASorcerer|18"
 			]
 		},
 		{
@@ -97,14 +97,14 @@
 			"name": "菲涅克斯巫术（UA）",
 			"shortName": "菲涅克斯 (UA)",
 			"source": "UASorcerer",
-			"className": "{!@ {!@ #UA}}",
+			"className": "术士",
 			"classSource": "PHB",
 			"page": 1,
 			"subclassFeatures": [
-				"菲涅克斯巫术（UA）|{!@ {!@ #UA}}||菲涅克斯 (UA)|UASorcerer|1",
-				"菲涅克斯火花|{!@ {!@ #UA}}||菲涅克斯 (UA)|UASorcerer|6",
-				"滋养之火|{!@ {!@ #UA}}||菲涅克斯 (UA)|UASorcerer|14",
-				"菲涅克斯形态|{!@ {!@ #UA}}||菲涅克斯 (UA)|UASorcerer|18"
+				"菲涅克斯巫术（UA）|术士||菲涅克斯 (UA)|UASorcerer|1",
+				"菲涅克斯火花|术士||菲涅克斯 (UA)|UASorcerer|6",
+				"滋养之火|术士||菲涅克斯 (UA)|UASorcerer|14",
+				"菲涅克斯形态|术士||菲涅克斯 (UA)|UASorcerer|18"
 			]
 		},
 		{
@@ -112,14 +112,14 @@
 			"name": "海洋巫术（UA）",
 			"shortName": "海洋 (UA)",
 			"source": "UASorcerer",
-			"className": "{!@ {!@ #UA}}",
+			"className": "术士",
 			"classSource": "PHB",
 			"page": 2,
 			"subclassFeatures": [
-				"海洋巫术（UA）|{!@ {!@ #UA}}||海洋 (UA)|UASorcerer|1",
-				"水之防御|{!@ {!@ #UA}}||海洋 (UA)|UASorcerer|6",
-				"化形形态|{!@ {!@ #UA}}||海洋 (UA)|UASorcerer|14",
-				"水之魂|{!@ {!@ #UA}}||海洋 (UA)|UASorcerer|18"
+				"海洋巫术（UA）|术士||海洋 (UA)|UASorcerer|1",
+				"水之防御|术士||海洋 (UA)|UASorcerer|6",
+				"化形形态|术士||海洋 (UA)|UASorcerer|14",
+				"水之魂|术士||海洋 (UA)|UASorcerer|18"
 			]
 		},
 		{
@@ -127,7 +127,7 @@
 			"name": "岩石法术（UA）",
 			"shortName": "岩石 (UA)",
 			"source": "UASorcerer",
-			"className": "{!@ {!@ #UA}}",
+			"className": "术士",
 			"classSource": "PHB",
 			"page": 3,
 			"additionalSpells": [
@@ -154,10 +154,10 @@
 				}
 			],
 			"subclassFeatures": [
-				"岩石法术（UA）|{!@ {!@ #UA}}||岩石 (UA)|UASorcerer|1",
-				"岩石护盾|{!@ {!@ #UA}}||岩石 (UA)|UASorcerer|6",
-				"岩石之锋|{!@ {!@ #UA}}||岩石 (UA)|UASorcerer|14",
-				"土大师的庇护|{!@ {!@ #UA}}||岩石 (UA)|UASorcerer|18"
+				"岩石法术（UA）|术士||岩石 (UA)|UASorcerer|1",
+				"岩石护盾|术士||岩石 (UA)|UASorcerer|6",
+				"岩石之锋|术士||岩石 (UA)|UASorcerer|14",
+				"土大师的庇护|术士||岩石 (UA)|UASorcerer|18"
 			]
 		}
 	],
@@ -167,7 +167,7 @@
 			"name": "青睐灵魂 v2",
 			"source": "UASorcerer",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "术士",
 			"classSource": "PHB",
 			"subclassShortName": "受眷之魂v2(UA)",
 			"subclassSource": "UASorcerer",
@@ -178,15 +178,15 @@
 				"在某些文化中，只有那些能够宣称拥有青睐灵魂法力的人才可以命令宗教权力。在这些土地上，教会职位被少数血统支配且世代相传。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "神圣魔法|{!@ {!@ #UA}}||受眷之魂v2(UA)|UASorcerer|1"
+					"subclassFeature": "神圣魔法|术士||受眷之魂v2(UA)|UASorcerer|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "超自然恢复力|{!@ {!@ #UA}}||受眷之魂v2(UA)|UASorcerer|1"
+					"subclassFeature": "超自然恢复力|术士||受眷之魂v2(UA)|UASorcerer|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "众神眷恩|{!@ {!@ #UA}}||受眷之魂v2(UA)|UASorcerer|1"
+					"subclassFeature": "众神眷恩|术士||受眷之魂v2(UA)|UASorcerer|1"
 				}
 			]
 		},
@@ -195,7 +195,7 @@
 			"name": "神圣魔法",
 			"source": "UASorcerer",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "术士",
 			"classSource": "PHB",
 			"subclassShortName": "受眷之魂v2(UA)",
 			"subclassSource": "UASorcerer",
@@ -210,7 +210,7 @@
 			"name": "众神眷恩",
 			"source": "UASorcerer",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "术士",
 			"classSource": "PHB",
 			"subclassShortName": "受眷之魂v2(UA)",
 			"subclassSource": "UASorcerer",
@@ -226,7 +226,7 @@
 			"name": "超自然恢复力",
 			"source": "UASorcerer",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "术士",
 			"classSource": "PHB",
 			"subclassShortName": "受眷之魂v2(UA)",
 			"subclassSource": "UASorcerer",
@@ -241,7 +241,7 @@
 			"name": "受祝福面容",
 			"source": "UASorcerer",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "术士",
 			"classSource": "PHB",
 			"subclassShortName": "受眷之魂v2(UA)",
 			"subclassSource": "UASorcerer",
@@ -257,7 +257,7 @@
 			"name": "神圣纯净",
 			"source": "UASorcerer",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "术士",
 			"classSource": "PHB",
 			"subclassShortName": "受眷之魂v2(UA)",
 			"subclassSource": "UASorcerer",
@@ -272,7 +272,7 @@
 			"name": "神赐痊愈",
 			"source": "UASorcerer",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "术士",
 			"classSource": "PHB",
 			"subclassShortName": "受眷之魂v2(UA)",
 			"subclassSource": "UASorcerer",
@@ -288,7 +288,7 @@
 			"name": "菲涅克斯巫术（UA）",
 			"source": "UASorcerer",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "术士",
 			"classSource": "PHB",
 			"subclassShortName": "菲涅克斯 (UA)",
 			"subclassSource": "UASorcerer",
@@ -338,11 +338,11 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "点燃|{!@ {!@ #UA}}||菲涅克斯 (UA)|UASorcerer|1"
+					"subclassFeature": "点燃|术士||菲涅克斯 (UA)|UASorcerer|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "火焰之袍|{!@ {!@ #UA}}||菲涅克斯 (UA)|UASorcerer|1"
+					"subclassFeature": "火焰之袍|术士||菲涅克斯 (UA)|UASorcerer|1"
 				}
 			]
 		},
@@ -351,7 +351,7 @@
 			"name": "点燃",
 			"source": "UASorcerer",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "术士",
 			"classSource": "PHB",
 			"subclassShortName": "菲涅克斯 (UA)",
 			"subclassSource": "UASorcerer",
@@ -366,7 +366,7 @@
 			"name": "火焰之袍",
 			"source": "UASorcerer",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "术士",
 			"classSource": "PHB",
 			"subclassShortName": "菲涅克斯 (UA)",
 			"subclassSource": "UASorcerer",
@@ -391,7 +391,7 @@
 			"name": "菲涅克斯火花",
 			"source": "UASorcerer",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "术士",
 			"classSource": "PHB",
 			"subclassShortName": "菲涅克斯 (UA)",
 			"subclassSource": "UASorcerer",
@@ -409,7 +409,7 @@
 			"name": "滋养之火",
 			"source": "UASorcerer",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "术士",
 			"classSource": "PHB",
 			"subclassShortName": "菲涅克斯 (UA)",
 			"subclassSource": "UASorcerer",
@@ -424,7 +424,7 @@
 			"name": "菲涅克斯形态",
 			"source": "UASorcerer",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "术士",
 			"classSource": "PHB",
 			"subclassShortName": "菲涅克斯 (UA)",
 			"subclassSource": "UASorcerer",
@@ -447,7 +447,7 @@
 			"name": "海洋巫术（UA）",
 			"source": "UASorcerer",
 			"page": 2,
-			"className": "{!@ {!@ #UA}}",
+			"className": "术士",
 			"classSource": "PHB",
 			"subclassShortName": "海洋 (UA)",
 			"subclassSource": "UASorcerer",
@@ -457,11 +457,11 @@
 				"你的血统与海洋中的强大生物相连，例如涅瑞伊得斯、人鱼领主和元素生物的力量。如同河流一般，你能感受到海洋的召唤。这种召唤永远存在于你的心脏中，且除非你靠近海洋，否则永远不会完全感到和平。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "海洋之魂|{!@ {!@ #UA}}||海洋 (UA)|UASorcerer|1"
+					"subclassFeature": "海洋之魂|术士||海洋 (UA)|UASorcerer|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "海洋诅咒|{!@ {!@ #UA}}||海洋 (UA)|UASorcerer|1"
+					"subclassFeature": "海洋诅咒|术士||海洋 (UA)|UASorcerer|1"
 				}
 			]
 		},
@@ -470,7 +470,7 @@
 			"name": "海洋诅咒",
 			"source": "UASorcerer",
 			"page": 2,
-			"className": "{!@ {!@ #UA}}",
+			"className": "术士",
 			"classSource": "PHB",
 			"subclassShortName": "海洋 (UA)",
 			"subclassSource": "UASorcerer",
@@ -516,7 +516,7 @@
 			"name": "海洋之魂",
 			"source": "UASorcerer",
 			"page": 2,
-			"className": "{!@ {!@ #UA}}",
+			"className": "术士",
 			"classSource": "PHB",
 			"subclassShortName": "海洋 (UA)",
 			"subclassSource": "UASorcerer",
@@ -531,7 +531,7 @@
 			"name": "水之防御",
 			"source": "UASorcerer",
 			"page": 2,
-			"className": "{!@ {!@ #UA}}",
+			"className": "术士",
 			"classSource": "PHB",
 			"subclassShortName": "海洋 (UA)",
 			"subclassSource": "UASorcerer",
@@ -547,7 +547,7 @@
 			"name": "化形形态",
 			"source": "UASorcerer",
 			"page": 2,
-			"className": "{!@ {!@ #UA}}",
+			"className": "术士",
 			"classSource": "PHB",
 			"subclassShortName": "海洋 (UA)",
 			"subclassSource": "UASorcerer",
@@ -564,7 +564,7 @@
 			"name": "水之魂",
 			"source": "UASorcerer",
 			"page": 2,
-			"className": "{!@ {!@ #UA}}",
+			"className": "术士",
 			"classSource": "PHB",
 			"subclassShortName": "海洋 (UA)",
 			"subclassSource": "UASorcerer",
@@ -587,7 +587,7 @@
 			"name": "岩石法术（UA）",
 			"source": "UASorcerer",
 			"page": 3,
-			"className": "{!@ {!@ #UA}}",
+			"className": "术士",
 			"classSource": "PHB",
 			"subclassShortName": "岩石 (UA)",
 			"subclassSource": "UASorcerer",
@@ -597,15 +597,15 @@
 				"你与土系魔法的联系赋予了你非凡的恢复力，且岩石术士对战斗有着天然的亲和。锻钢剑刃对你而言如同身体的自然延伸，拥有此起源的术士天生擅长使用盾牌与武器。战斗中你的位置永远处于混战中心。你依靠元素本质来护盾自己免受重伤术，并用魔法与金属武器击溃敌人。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "附赠熟练|{!@ {!@ #UA}}||岩石 (UA)|UASorcerer|1"
+					"subclassFeature": "附赠熟练|术士||岩石 (UA)|UASorcerer|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "岩石：金属魔法|{!@ {!@ #UA}}||岩石 (UA)|UASorcerer|1"
+					"subclassFeature": "岩石：金属魔法|术士||岩石 (UA)|UASorcerer|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "岩石之坚韧|{!@ {!@ #UA}}||岩石 (UA)|UASorcerer|1"
+					"subclassFeature": "岩石之坚韧|术士||岩石 (UA)|UASorcerer|1"
 				}
 			]
 		},
@@ -614,7 +614,7 @@
 			"name": "附赠熟练",
 			"source": "UASorcerer",
 			"page": 3,
-			"className": "{!@ {!@ #UA}}",
+			"className": "术士",
 			"classSource": "PHB",
 			"subclassShortName": "岩石 (UA)",
 			"subclassSource": "UASorcerer",
@@ -629,7 +629,7 @@
 			"name": "岩石之坚韧",
 			"source": "UASorcerer",
 			"page": 3,
-			"className": "{!@ {!@ #UA}}",
+			"className": "术士",
 			"classSource": "PHB",
 			"subclassShortName": "岩石 (UA)",
 			"subclassSource": "UASorcerer",
@@ -645,7 +645,7 @@
 			"name": "岩石：金属魔法",
 			"source": "UASorcerer",
 			"page": 3,
-			"className": "{!@ {!@ #UA}}",
+			"className": "术士",
 			"classSource": "PHB",
 			"subclassShortName": "岩石 (UA)",
 			"subclassSource": "UASorcerer",
@@ -690,7 +690,7 @@
 			"name": "岩石护盾",
 			"source": "UASorcerer",
 			"page": 3,
-			"className": "{!@ {!@ #UA}}",
+			"className": "术士",
 			"classSource": "PHB",
 			"subclassShortName": "岩石 (UA)",
 			"subclassSource": "UASorcerer",
@@ -707,7 +707,7 @@
 			"name": "岩石之锋",
 			"source": "UASorcerer",
 			"page": 3,
-			"className": "{!@ {!@ #UA}}",
+			"className": "术士",
 			"classSource": "PHB",
 			"subclassShortName": "岩石 (UA)",
 			"subclassSource": "UASorcerer",
@@ -722,7 +722,7 @@
 			"name": "土大师的庇护",
 			"source": "UASorcerer",
 			"page": 3,
-			"className": "{!@ {!@ #UA}}",
+			"className": "术士",
 			"classSource": "PHB",
 			"subclassShortName": "岩石 (UA)",
 			"subclassSource": "UASorcerer",

@@ -399,7 +399,7 @@
 				"工具专精|奇械师|UAArtificer|2",
 				"神奇发明|奇械师|UAArtificer|2",
 				{
-					"classFeature": "大师杰作特性|奇械师|UAArtificer|3",
+					"classFeature": "杰作特性|奇械师|UAArtificer|3",
 					"gainSubclassFeature": true
 				},
 				"施法|奇械师|UAArtificer|3",
@@ -412,14 +412,14 @@
 				"属性值提升|奇械师|UAArtificer|8",
 				"熟练多变|奇械师|UAArtificer|8|UAClassFeatureVariants",
 				{
-					"classFeature": "大师杰作特性|奇械师|UAArtificer|9",
+					"classFeature": "杰作特性|奇械师|UAArtificer|9",
 					"gainSubclassFeature": true
 				},
 				"神奇发明|奇械师|UAArtificer|10",
 				"属性值提升|奇械师|UAArtificer|12",
 				"熟练多变|奇械师|UAArtificer|12|UAClassFeatureVariants",
 				{
-					"classFeature": "大师杰作特性|奇械师|UAArtificer|14",
+					"classFeature": "杰作特性|奇械师|UAArtificer|14",
 					"gainSubclassFeature": true
 				},
 				"高端同调|奇械师|UAArtificer|15",
@@ -427,7 +427,7 @@
 				"属性值提升|奇械师|UAArtificer|16",
 				"熟练多变|奇械师|UAArtificer|16|UAClassFeatureVariants",
 				{
-					"classFeature": "大师杰作特性|奇械师|UAArtificer|17",
+					"classFeature": "杰作特性|奇械师|UAArtificer|17",
 					"gainSubclassFeature": true
 				},
 				"属性值提升|奇械师|UAArtificer|18",
@@ -443,7 +443,7 @@
 			"name": "炼金师",
 			"shortName": "炼金师",
 			"source": "UAArtificer",
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"page": 5,
 			"optionalfeatureProgression": [
@@ -463,11 +463,11 @@
 				}
 			],
 			"subclassFeatures": [
-				"炼金师|{!@ {!@ #UA}}|UAArtificer|炼金师|UAArtificer|1",
-				"额外炼金配方|{!@ {!@ #UA}}|UAArtificer|炼金师|UAArtificer|3",
-				"额外炼金配方|{!@ {!@ #UA}}|UAArtificer|炼金师|UAArtificer|9",
-				"额外炼金配方|{!@ {!@ #UA}}|UAArtificer|炼金师|UAArtificer|14",
-				"额外炼金配方|{!@ {!@ #UA}}|UAArtificer|炼金师|UAArtificer|17"
+				"炼金师|奇械师|UAArtificer|炼金师|UAArtificer|1",
+				"额外炼金配方|奇械师|UAArtificer|炼金师|UAArtificer|3",
+				"额外炼金配方|奇械师|UAArtificer|炼金师|UAArtificer|9",
+				"额外炼金配方|奇械师|UAArtificer|炼金师|UAArtificer|14",
+				"额外炼金配方|奇械师|UAArtificer|炼金师|UAArtificer|17"
 			]
 		},
 		{
@@ -475,15 +475,15 @@
 			"name": "枪匠",
 			"shortName": "枪匠",
 			"source": "UAArtificer",
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"page": 6,
 			"subclassFeatures": [
-				"枪匠|{!@ {!@ #UA}}|UAArtificer|枪匠|UAArtificer|1",
-				"雷鸣暴徒|{!@ {!@ #UA}}|UAArtificer|枪匠|UAArtificer|3",
-				"冲击波|{!@ {!@ #UA}}|UAArtificer|枪匠|UAArtificer|9",
-				"穿刺轮|{!@ {!@ #UA}}|UAArtificer|枪匠|UAArtificer|14",
-				"爆炸物轮|{!@ {!@ #UA}}|UAArtificer|枪匠|UAArtificer|17"
+				"枪匠|奇械师|UAArtificer|枪匠|UAArtificer|1",
+				"雷鸣暴徒|奇械师|UAArtificer|枪匠|UAArtificer|3",
+				"冲击波|奇械师|UAArtificer|枪匠|UAArtificer|9",
+				"穿刺轮|奇械师|UAArtificer|枪匠|UAArtificer|14",
+				"爆炸物轮|奇械师|UAArtificer|枪匠|UAArtificer|17"
 			]
 		}
 	],
@@ -493,7 +493,7 @@
 			"name": "奇械师专业",
 			"source": "UAArtificer",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"level": 1,
 			"entries": [
@@ -505,7 +505,7 @@
 			"name": "魔法物品分析",
 			"source": "UAArtificer",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"level": 1,
 			"entries": [
@@ -517,7 +517,7 @@
 			"name": "工具专精",
 			"source": "UAArtificer",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"level": 2,
 			"entries": [
@@ -529,7 +529,7 @@
 			"name": "神奇发明",
 			"source": "UAArtificer",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"level": 2,
 			"entries": [
@@ -578,10 +578,10 @@
 		},
 		{
 			"ENG_name": "Masterwork Feature",
-			"name": "大师杰作特性",
+			"name": "杰作特性",
 			"source": "UAArtificer",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"level": 3,
 			"entries": [
@@ -593,7 +593,7 @@
 			"name": "施法",
 			"source": "UAArtificer",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"level": 3,
 			"entries": [
@@ -653,7 +653,7 @@
 			"name": "属性值提升",
 			"source": "UAArtificer",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"level": 4,
 			"entries": [
@@ -665,7 +665,7 @@
 			"name": "灌注魔法",
 			"source": "UAArtificer",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"level": 4,
 			"entries": [
@@ -679,7 +679,7 @@
 			"name": "高端同调",
 			"source": "UAArtificer",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"level": 5,
 			"entries": [
@@ -691,7 +691,7 @@
 			"name": "神奇发明",
 			"source": "UAArtificer",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"level": 5,
 			"entries": [
@@ -703,7 +703,7 @@
 			"name": "机械仆役",
 			"source": "UAArtificer",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"level": 6,
 			"entries": [
@@ -729,7 +729,7 @@
 			"name": "属性值提升",
 			"source": "UAArtificer",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"level": 8,
 			"entries": [
@@ -738,10 +738,10 @@
 		},
 		{
 			"ENG_name": "Masterwork Feature",
-			"name": "大师杰作特性",
+			"name": "杰作特性",
 			"source": "UAArtificer",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"level": 9,
 			"entries": [
@@ -753,7 +753,7 @@
 			"name": "神奇发明",
 			"source": "UAArtificer",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"level": 10,
 			"entries": [
@@ -765,7 +765,7 @@
 			"name": "属性值提升",
 			"source": "UAArtificer",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"level": 12,
 			"entries": [
@@ -774,10 +774,10 @@
 		},
 		{
 			"ENG_name": "Masterwork Feature",
-			"name": "大师杰作特性",
+			"name": "杰作特性",
 			"source": "UAArtificer",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"level": 14,
 			"entries": [
@@ -789,7 +789,7 @@
 			"name": "高端同调",
 			"source": "UAArtificer",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"level": 15,
 			"entries": [
@@ -801,7 +801,7 @@
 			"name": "神奇发明",
 			"source": "UAArtificer",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"level": 15,
 			"entries": [
@@ -813,7 +813,7 @@
 			"name": "属性值提升",
 			"source": "UAArtificer",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"level": 16,
 			"entries": [
@@ -822,10 +822,10 @@
 		},
 		{
 			"ENG_name": "Masterwork Feature",
-			"name": "大师杰作特性",
+			"name": "杰作特性",
 			"source": "UAArtificer",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"level": 17,
 			"entries": [
@@ -837,7 +837,7 @@
 			"name": "属性值提升",
 			"source": "UAArtificer",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"level": 18,
 			"entries": [
@@ -849,7 +849,7 @@
 			"name": "奇械之魂",
 			"source": "UAArtificer",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"level": 20,
 			"entries": [
@@ -863,7 +863,7 @@
 			"name": "炼金师",
 			"source": "UAArtificer",
 			"page": 5,
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"subclassShortName": "炼金师",
 			"subclassSource": "UAArtificer",
@@ -872,11 +872,11 @@
 				"炼金师是结合特制试剂来生产各种材质的专家，从能在瞬间治愈伤口的治疗饮剂到能减缓生物速度的粘稠胶体。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "炼金师的包|{!@ {!@ #UA}}|UAArtificer|炼金师|UAArtificer|1"
+					"subclassFeature": "炼金师的包|奇械师|UAArtificer|炼金师|UAArtificer|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "炼金配方|{!@ {!@ #UA}}|UAArtificer|炼金师|UAArtificer|1"
+					"subclassFeature": "炼金配方|奇械师|UAArtificer|炼金师|UAArtificer|1"
 				}
 			]
 		},
@@ -885,7 +885,7 @@
 			"name": "炼金配方",
 			"source": "UAArtificer",
 			"page": 5,
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"subclassShortName": "炼金师",
 			"subclassSource": "UAArtificer",
@@ -936,7 +936,7 @@
 			"name": "炼金师的包",
 			"source": "UAArtificer",
 			"page": 5,
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"subclassShortName": "炼金师",
 			"subclassSource": "UAArtificer",
@@ -952,7 +952,7 @@
 			"name": "额外炼金配方",
 			"source": "UAArtificer",
 			"page": 5,
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"subclassShortName": "炼金师",
 			"subclassSource": "UAArtificer",
@@ -967,7 +967,7 @@
 			"name": "额外炼金配方",
 			"source": "UAArtificer",
 			"page": 5,
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"subclassShortName": "炼金师",
 			"subclassSource": "UAArtificer",
@@ -982,7 +982,7 @@
 			"name": "额外炼金配方",
 			"source": "UAArtificer",
 			"page": 5,
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"subclassShortName": "炼金师",
 			"subclassSource": "UAArtificer",
@@ -997,7 +997,7 @@
 			"name": "额外炼金配方",
 			"source": "UAArtificer",
 			"page": 5,
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"subclassShortName": "炼金师",
 			"subclassSource": "UAArtificer",
@@ -1012,7 +1012,7 @@
 			"name": "枪匠",
 			"source": "UAArtificer",
 			"page": 6,
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"subclassShortName": "枪匠",
 			"subclassSource": "UAArtificer",
@@ -1021,15 +1021,15 @@
 				"工程学的大师，你锻造了一把由科学与魔法共同驱动的枪械。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "大师枪匠|{!@ {!@ #UA}}|UAArtificer|枪匠|UAArtificer|1"
+					"subclassFeature": "大师枪匠|奇械师|UAArtificer|枪匠|UAArtificer|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "雷霆炮|{!@ {!@ #UA}}|UAArtificer|枪匠|UAArtificer|1"
+					"subclassFeature": "雷霆炮|奇械师|UAArtificer|枪匠|UAArtificer|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "奥术弹匣|{!@ {!@ #UA}}|UAArtificer|枪匠|UAArtificer|1"
+					"subclassFeature": "奥术弹匣|奇械师|UAArtificer|枪匠|UAArtificer|1"
 				}
 			]
 		},
@@ -1038,7 +1038,7 @@
 			"name": "奥术弹匣",
 			"source": "UAArtificer",
 			"page": 6,
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"subclassShortName": "枪匠",
 			"subclassSource": "UAArtificer",
@@ -1055,7 +1055,7 @@
 			"name": "大师枪匠",
 			"source": "UAArtificer",
 			"page": 6,
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"subclassShortName": "枪匠",
 			"subclassSource": "UAArtificer",
@@ -1070,7 +1070,7 @@
 			"name": "雷霆炮",
 			"source": "UAArtificer",
 			"page": 6,
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"subclassShortName": "枪匠",
 			"subclassSource": "UAArtificer",
@@ -1087,7 +1087,7 @@
 			"name": "雷鸣暴徒",
 			"source": "UAArtificer",
 			"page": 6,
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"subclassShortName": "枪匠",
 			"subclassSource": "UAArtificer",
@@ -1103,7 +1103,7 @@
 			"name": "冲击波",
 			"source": "UAArtificer",
 			"page": 6,
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"subclassShortName": "枪匠",
 			"subclassSource": "UAArtificer",
@@ -1119,7 +1119,7 @@
 			"name": "穿刺轮",
 			"source": "UAArtificer",
 			"page": 6,
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"subclassShortName": "枪匠",
 			"subclassSource": "UAArtificer",
@@ -1134,7 +1134,7 @@
 			"name": "爆炸物轮",
 			"source": "UAArtificer",
 			"page": 6,
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"subclassShortName": "枪匠",
 			"subclassSource": "UAArtificer",
@@ -1150,7 +1150,7 @@
 			"ENG_name": "Alchemical Formula",
 			"name": "炼金配方",
 			"source": "UAArtificer",
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"subclassShortName": "炼金师",
 			"subclassSource": "UAArtificer",
@@ -1161,7 +1161,7 @@
 			"ENG_name": "Extra Alchemical Formula",
 			"name": "额外炼金配方",
 			"source": "UAArtificer",
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"subclassShortName": "炼金师",
 			"subclassSource": "UAArtificer",
@@ -1172,7 +1172,7 @@
 			"ENG_name": "Extra Alchemical Formula",
 			"name": "额外炼金配方",
 			"source": "UAArtificer",
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"subclassShortName": "炼金师",
 			"subclassSource": "UAArtificer",
@@ -1183,7 +1183,7 @@
 			"ENG_name": "Extra Alchemical Formula",
 			"name": "额外炼金配方",
 			"source": "UAArtificer",
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"subclassShortName": "炼金师",
 			"subclassSource": "UAArtificer",
@@ -1194,7 +1194,7 @@
 			"ENG_name": "Extra Alchemical Formula",
 			"name": "额外炼金配方",
 			"source": "UAArtificer",
-			"className": "{!@ {!@ #UA}}",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"subclassShortName": "炼金师",
 			"subclassSource": "UAArtificer",

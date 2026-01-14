@@ -27,7 +27,7 @@
 			"name": "魔射手（UA）",
 			"shortName": "魔射手（UA）",
 			"source": "UAFighter",
-			"className": "{!@ {!@ #UA}}",
+			"className": "战士",
 			"classSource": "PHB",
 			"page": 1,
 			"isReprinted": true,
@@ -48,14 +48,14 @@
 				}
 			],
 			"subclassFeatures": [
-				"魔射手|{!@ {!@ #UA}}||魔射手（UA）|UAFighter|3",
-				"召唤箭矢|{!@ {!@ #UA}}||魔射手（UA）|UAFighter|7",
-				"额外奥术射击|{!@ {!@ #UA}}||魔射手（UA）|UAFighter|7",
-				"额外奥术射击|{!@ {!@ #UA}}||魔射手（UA）|UAFighter|10",
-				"常备之箭|{!@ {!@ #UA}}||魔射手（UA）|UAFighter|15",
-				"额外奥术射击|{!@ {!@ #UA}}||魔射手（UA）|UAFighter|15",
-				"致命箭|{!@ {!@ #UA}}||魔射手（UA）|UAFighter|18",
-				"额外奥术射击|{!@ {!@ #UA}}||魔射手（UA）|UAFighter|18"
+				"魔射手|战士||魔射手（UA）|UAFighter|3",
+				"召唤箭矢|战士||魔射手（UA）|UAFighter|7",
+				"额外奥术射击|战士||魔射手（UA）|UAFighter|7",
+				"额外奥术射击|战士||魔射手（UA）|UAFighter|10",
+				"常备之箭|战士||魔射手（UA）|UAFighter|15",
+				"额外奥术射击|战士||魔射手（UA）|UAFighter|15",
+				"致命箭|战士||魔射手（UA）|UAFighter|18",
+				"额外奥术射击|战士||魔射手（UA）|UAFighter|18"
 			]
 		},
 		{
@@ -63,15 +63,15 @@
 			"name": "骑士（UA）",
 			"shortName": "骑士（UA）",
 			"source": "UAFighter",
-			"className": "{!@ {!@ #UA}}",
+			"className": "战士",
 			"classSource": "PHB",
 			"page": 2,
 			"subclassFeatures": [
-				"骑士|{!@ {!@ #UA}}||骑士（UA）|UAFighter|3",
-				"贵族骑兵|{!@ {!@ #UA}}||骑士（UA）|UAFighter|7",
-				"坚守战线|{!@ {!@ #UA}}||骑士（UA）|UAFighter|10",
-				"燕返|{!@ {!@ #UA}}||骑士（UA）|UAFighter|15",
-				"防御者之刃|{!@ {!@ #UA}}||骑士（UA）|UAFighter|18"
+				"骑士|战士||骑士（UA）|UAFighter|3",
+				"贵族骑兵|战士||骑士（UA）|UAFighter|7",
+				"坚守战线|战士||骑士（UA）|UAFighter|10",
+				"燕返|战士||骑士（UA）|UAFighter|15",
+				"防御者之刃|战士||骑士（UA）|UAFighter|18"
 			]
 		},
 		{
@@ -79,16 +79,16 @@
 			"name": "武士（UA）",
 			"shortName": "武士（UA）",
 			"source": "UAFighter",
-			"className": "{!@ {!@ #UA}}",
+			"className": "战士",
 			"classSource": "PHB",
 			"page": 3,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"武士|{!@ {!@ #UA}}||武士（UA）|UAFighter|3",
-				"雅臣|{!@ {!@ #UA}}||武士（UA）|UAFighter|7",
-				"不破意志|{!@ {!@ #UA}}||武士（UA）|UAFighter|10",
-				"燕返|{!@ {!@ #UA}}||武士（UA）|UAFighter|15",
-				"生死流转|{!@ {!@ #UA}}||武士（UA）|UAFighter|18"
+				"武士|战士||武士（UA）|UAFighter|3",
+				"雅臣|战士||武士（UA）|UAFighter|7",
+				"不破意志|战士||武士（UA）|UAFighter|10",
+				"燕返|战士||武士（UA）|UAFighter|15",
+				"生死流转|战士||武士（UA）|UAFighter|18"
 			]
 		},
 		{
@@ -96,15 +96,15 @@
 			"name": "神射手（UA）",
 			"shortName": "神射手（UA）",
 			"source": "UAFighter",
-			"className": "{!@ {!@ #UA}}",
+			"className": "战士",
 			"classSource": "PHB",
 			"page": 3,
 			"subclassFeatures": [
-				"神射手|{!@ {!@ #UA}}||神射手（UA）|UAFighter|3",
-				"锐利目光|{!@ {!@ #UA}}||神射手（UA）|UAFighter|7",
-				"近距射击|{!@ {!@ #UA}}||神射手（UA）|UAFighter|10",
-				"燕返|{!@ {!@ #UA}}||神射手（UA）|UAFighter|15",
-				"快速射击|{!@ {!@ #UA}}||神射手（UA）|UAFighter|18"
+				"神射手|战士||神射手（UA）|UAFighter|3",
+				"锐利目光|战士||神射手（UA）|UAFighter|7",
+				"近距射击|战士||神射手（UA）|UAFighter|10",
+				"燕返|战士||神射手（UA）|UAFighter|15",
+				"快速射击|战士||神射手（UA）|UAFighter|18"
 			]
 		}
 	],
@@ -114,7 +114,7 @@
 			"name": "魔射手",
 			"source": "UAFighter",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "战士",
 			"classSource": "PHB",
 			"subclassShortName": "魔射手（UA）",
 			"subclassSource": "UAFighter",
@@ -123,15 +123,15 @@
 				"魔射手研究一种独特的精灵箭术方法，将魔法编织入攻击中以产生超自然效应。在精灵中，魔射手是他们最精锐的武者之一。这些射手守卫着精灵领域的边缘，敏锐地监视着入侵者，并使用魔法灌注的箭矢在怪物和侵略者触及精灵聚居地前将其击败。几个世纪以来，这些精灵射手的方法已被其他种族的成员所学习，他们也能平衡奥术天赋与箭术。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "奥术箭|{!@ {!@ #UA}}||魔射手（UA）|UAFighter|3"
+					"subclassFeature": "奥术箭|战士||魔射手（UA）|UAFighter|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "弓箭手逸闻|{!@ {!@ #UA}}||魔射手（UA）|UAFighter|3"
+					"subclassFeature": "弓箭手逸闻|战士||魔射手（UA）|UAFighter|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "奥术射击|{!@ {!@ #UA}}||魔射手（UA）|UAFighter|3"
+					"subclassFeature": "奥术射击|战士||魔射手（UA）|UAFighter|3"
 				}
 			]
 		},
@@ -140,7 +140,7 @@
 			"name": "奥术箭",
 			"source": "UAFighter",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "战士",
 			"classSource": "PHB",
 			"subclassShortName": "魔射手（UA）",
 			"subclassSource": "UAFighter",
@@ -183,7 +183,7 @@
 			"name": "奥术射击",
 			"source": "UAFighter",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "战士",
 			"classSource": "PHB",
 			"subclassShortName": "魔射手（UA）",
 			"subclassSource": "UAFighter",
@@ -236,7 +236,7 @@
 			"name": "弓箭手逸闻",
 			"source": "UAFighter",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "战士",
 			"classSource": "PHB",
 			"subclassShortName": "魔射手（UA）",
 			"subclassSource": "UAFighter",
@@ -252,7 +252,7 @@
 			"name": "召唤箭矢",
 			"source": "UAFighter",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "战士",
 			"classSource": "PHB",
 			"subclassShortName": "魔射手（UA）",
 			"subclassSource": "UAFighter",
@@ -267,7 +267,7 @@
 			"name": "额外奥术射击",
 			"source": "UAFighter",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "战士",
 			"classSource": "PHB",
 			"subclassShortName": "魔射手（UA）",
 			"subclassSource": "UAFighter",
@@ -282,7 +282,7 @@
 			"name": "额外奥术射击",
 			"source": "UAFighter",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "战士",
 			"classSource": "PHB",
 			"subclassShortName": "魔射手（UA）",
 			"subclassSource": "UAFighter",
@@ -297,7 +297,7 @@
 			"name": "常备之箭",
 			"source": "UAFighter",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "战士",
 			"classSource": "PHB",
 			"subclassShortName": "魔射手（UA）",
 			"subclassSource": "UAFighter",
@@ -312,7 +312,7 @@
 			"name": "额外奥术射击",
 			"source": "UAFighter",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "战士",
 			"classSource": "PHB",
 			"subclassShortName": "魔射手（UA）",
 			"subclassSource": "UAFighter",
@@ -327,7 +327,7 @@
 			"name": "致命箭",
 			"source": "UAFighter",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "战士",
 			"classSource": "PHB",
 			"subclassShortName": "魔射手（UA）",
 			"subclassSource": "UAFighter",
@@ -342,7 +342,7 @@
 			"name": "额外奥术射击",
 			"source": "UAFighter",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "战士",
 			"classSource": "PHB",
 			"subclassShortName": "魔射手（UA）",
 			"subclassSource": "UAFighter",
@@ -357,7 +357,7 @@
 			"name": "骑士",
 			"source": "UAFighter",
 			"page": 2,
-			"className": "{!@ {!@ #UA}}",
+			"className": "战士",
 			"classSource": "PHB",
 			"subclassShortName": "骑士（UA）",
 			"subclassSource": "UAFighter",
@@ -366,11 +366,11 @@
 				"骑士是战场上的巨像，能够无视攻击并保护盟友免受重伤术。骑士们尽可能在鞍座上战斗，在战斗中他们被期望寻找并枷锁住仇敌最强大的力量。在冒险中，他们是身披重甲的意志壁垒，努力保护队伍其余成员的安全。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "生而为骑|{!@ {!@ #UA}}||骑士（UA）|UAFighter|3"
+					"subclassFeature": "生而为骑|战士||骑士（UA）|UAFighter|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "不屈标记|{!@ {!@ #UA}}||骑士（UA）|UAFighter|3"
+					"subclassFeature": "不屈标记|战士||骑士（UA）|UAFighter|3"
 				}
 			]
 		},
@@ -379,7 +379,7 @@
 			"name": "生而为骑",
 			"source": "UAFighter",
 			"page": 2,
-			"className": "{!@ {!@ #UA}}",
+			"className": "战士",
 			"classSource": "PHB",
 			"subclassShortName": "骑士（UA）",
 			"subclassSource": "UAFighter",
@@ -394,7 +394,7 @@
 			"name": "不屈标记",
 			"source": "UAFighter",
 			"page": 2,
-			"className": "{!@ {!@ #UA}}",
+			"className": "战士",
 			"classSource": "PHB",
 			"subclassShortName": "骑士（UA）",
 			"subclassSource": "UAFighter",
@@ -412,7 +412,7 @@
 			"name": "贵族骑兵",
 			"source": "UAFighter",
 			"page": 2,
-			"className": "{!@ {!@ #UA}}",
+			"className": "战士",
 			"classSource": "PHB",
 			"subclassShortName": "骑士（UA）",
 			"subclassSource": "UAFighter",
@@ -427,7 +427,7 @@
 			"name": "坚守战线",
 			"source": "UAFighter",
 			"page": 2,
-			"className": "{!@ {!@ #UA}}",
+			"className": "战士",
 			"classSource": "PHB",
 			"subclassShortName": "骑士（UA）",
 			"subclassSource": "UAFighter",
@@ -442,7 +442,7 @@
 			"name": "燕返",
 			"source": "UAFighter",
 			"page": 2,
-			"className": "{!@ {!@ #UA}}",
+			"className": "战士",
 			"classSource": "PHB",
 			"subclassShortName": "骑士（UA）",
 			"subclassSource": "UAFighter",
@@ -457,7 +457,7 @@
 			"name": "防御者之刃",
 			"source": "UAFighter",
 			"page": 2,
-			"className": "{!@ {!@ #UA}}",
+			"className": "战士",
 			"classSource": "PHB",
 			"subclassShortName": "骑士（UA）",
 			"subclassSource": "UAFighter",
@@ -473,7 +473,7 @@
 			"name": "武士",
 			"source": "UAFighter",
 			"page": 3,
-			"className": "{!@ {!@ #UA}}",
+			"className": "战士",
 			"classSource": "PHB",
 			"subclassShortName": "武士（UA）",
 			"subclassSource": "UAFighter",
@@ -482,7 +482,7 @@
 				"武士是一名战士，他依靠不屈的战意来战胜敌人。武士的意志力几乎不可摧毁，且在武士路途上的敌人只有两个选择：屈服或战死。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "战意|{!@ {!@ #UA}}||武士（UA）|UAFighter|3"
+					"subclassFeature": "战意|战士||武士（UA）|UAFighter|3"
 				}
 			]
 		},
@@ -491,7 +491,7 @@
 			"name": "战意",
 			"source": "UAFighter",
 			"page": 3,
-			"className": "{!@ {!@ #UA}}",
+			"className": "战士",
 			"classSource": "PHB",
 			"subclassShortName": "武士（UA）",
 			"subclassSource": "UAFighter",
@@ -507,7 +507,7 @@
 			"name": "雅臣",
 			"source": "UAFighter",
 			"page": 3,
-			"className": "{!@ {!@ #UA}}",
+			"className": "战士",
 			"classSource": "PHB",
 			"subclassShortName": "武士（UA）",
 			"subclassSource": "UAFighter",
@@ -523,7 +523,7 @@
 			"name": "不破意志",
 			"source": "UAFighter",
 			"page": 3,
-			"className": "{!@ {!@ #UA}}",
+			"className": "战士",
 			"classSource": "PHB",
 			"subclassShortName": "武士（UA）",
 			"subclassSource": "UAFighter",
@@ -538,7 +538,7 @@
 			"name": "燕返",
 			"source": "UAFighter",
 			"page": 3,
-			"className": "{!@ {!@ #UA}}",
+			"className": "战士",
 			"classSource": "PHB",
 			"subclassShortName": "武士（UA）",
 			"subclassSource": "UAFighter",
@@ -553,7 +553,7 @@
 			"name": "生死流转",
 			"source": "UAFighter",
 			"page": 3,
-			"className": "{!@ {!@ #UA}}",
+			"className": "战士",
 			"classSource": "PHB",
 			"subclassShortName": "武士（UA）",
 			"subclassSource": "UAFighter",
@@ -569,7 +569,7 @@
 			"name": "神射手",
 			"source": "UAFighter",
 			"page": 3,
-			"className": "{!@ {!@ #UA}}",
+			"className": "战士",
 			"classSource": "PHB",
 			"subclassShortName": "神射手（UA）",
 			"subclassSource": "UAFighter",
@@ -578,7 +578,7 @@
 				"神射手是远程战斗的大师。作为出色的狙击手和鹰眼斥候，这名战士是危险的敌人，只要将他们保持在射程范围内，就能击败整个战争小队。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "稳定瞄准|{!@ {!@ #UA}}||神射手（UA）|UAFighter|3"
+					"subclassFeature": "稳定瞄准|战士||神射手（UA）|UAFighter|3"
 				}
 			]
 		},
@@ -587,7 +587,7 @@
 			"name": "稳定瞄准",
 			"source": "UAFighter",
 			"page": 3,
-			"className": "{!@ {!@ #UA}}",
+			"className": "战士",
 			"classSource": "PHB",
 			"subclassShortName": "神射手（UA）",
 			"subclassSource": "UAFighter",
@@ -610,7 +610,7 @@
 			"name": "锐利目光",
 			"source": "UAFighter",
 			"page": 3,
-			"className": "{!@ {!@ #UA}}",
+			"className": "战士",
 			"classSource": "PHB",
 			"subclassShortName": "神射手（UA）",
 			"subclassSource": "UAFighter",
@@ -626,7 +626,7 @@
 			"name": "近距射击",
 			"source": "UAFighter",
 			"page": 3,
-			"className": "{!@ {!@ #UA}}",
+			"className": "战士",
 			"classSource": "PHB",
 			"subclassShortName": "神射手（UA）",
 			"subclassSource": "UAFighter",
@@ -642,7 +642,7 @@
 			"name": "燕返",
 			"source": "UAFighter",
 			"page": 3,
-			"className": "{!@ {!@ #UA}}",
+			"className": "战士",
 			"classSource": "PHB",
 			"subclassShortName": "神射手（UA）",
 			"subclassSource": "UAFighter",
@@ -657,7 +657,7 @@
 			"name": "快速射击",
 			"source": "UAFighter",
 			"page": 3,
-			"className": "{!@ {!@ #UA}}",
+			"className": "战士",
 			"classSource": "PHB",
 			"subclassShortName": "神射手（UA）",
 			"subclassSource": "UAFighter",

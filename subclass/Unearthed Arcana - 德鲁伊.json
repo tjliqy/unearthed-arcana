@@ -27,15 +27,15 @@
 			"name": "梦境结社（UA）",
 			"shortName": "梦境（UA）",
 			"source": "UADruid",
-			"className": "{!@ {!@ #UA}}",
+			"className": "德鲁伊",
 			"classSource": "PHB",
 			"page": 1,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"梦境结社|{!@ {!@ #UA}}||梦境（UA）|UADruid|2",
-				"月光阴影的炉心|{!@ {!@ #UA}}||梦境（UA）|UADruid|6",
-				"隐匿通途|{!@ {!@ #UA}}||梦境（UA）|UADruid|10",
-				"净化之光|{!@ {!@ #UA}}||梦境（UA）|UADruid|14"
+				"梦境结社|德鲁伊||梦境（UA）|UADruid|2",
+				"月光阴影的炉心|德鲁伊||梦境（UA）|UADruid|6",
+				"隐匿通途|德鲁伊||梦境（UA）|UADruid|10",
+				"净化之光|德鲁伊||梦境（UA）|UADruid|14"
 			]
 		},
 		{
@@ -43,15 +43,15 @@
 			"name": "牧人结社 (UA)",
 			"shortName": "牧人 (UA)",
 			"source": "UADruid",
-			"className": "{!@ {!@ #UA}}",
+			"className": "德鲁伊",
 			"classSource": "PHB",
 			"page": 1,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"牧人结社|{!@ {!@ #UA}}||牧人 (UA)|UADruid|2",
-				"全能牧者|{!@ {!@ #UA}}||牧人 (UA)|UADruid|6",
-				"精魂守卫|{!@ {!@ #UA}}||牧人 (UA)|UADruid|10",
-				"忠诚牧畜|{!@ {!@ #UA}}||牧人 (UA)|UADruid|14"
+				"牧人结社|德鲁伊||牧人 (UA)|UADruid|2",
+				"全能牧者|德鲁伊||牧人 (UA)|UADruid|6",
+				"精魂守卫|德鲁伊||牧人 (UA)|UADruid|10",
+				"忠诚牧畜|德鲁伊||牧人 (UA)|UADruid|14"
 			]
 		},
 		{
@@ -59,7 +59,7 @@
 			"name": "暮光结社 (UA)",
 			"shortName": "暮光 (UA)",
 			"source": "UADruid",
-			"className": "{!@ {!@ #UA}}",
+			"className": "德鲁伊",
 			"classSource": "PHB",
 			"page": 2,
 			"additionalSpells": [
@@ -76,10 +76,10 @@
 				}
 			],
 			"subclassFeatures": [
-				"暮光之环|{!@ {!@ #UA}}||暮光 (UA)|UADruid|2",
-				"坟墓之外的口语|{!@ {!@ #UA}}||暮光 (UA)|UADruid|6",
-				"阈界守望者|{!@ {!@ #UA}}||暮光 (UA)|UADruid|10",
-				"亡者之路|{!@ {!@ #UA}}||暮光 (UA)|UADruid|14"
+				"暮光之环|德鲁伊||暮光 (UA)|UADruid|2",
+				"坟墓之外的口语|德鲁伊||暮光 (UA)|UADruid|6",
+				"阈界守望者|德鲁伊||暮光 (UA)|UADruid|10",
+				"亡者之路|德鲁伊||暮光 (UA)|UADruid|14"
 			]
 		}
 	],
@@ -89,7 +89,7 @@
 			"name": "梦境结社",
 			"source": "UADruid",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "德鲁伊",
 			"classSource": "PHB",
 			"subclassShortName": "梦境（UA）",
 			"subclassSource": "UADruid",
@@ -98,7 +98,7 @@
 				"德鲁伊中梦境结社的成员来自与妖精荒野有紧密联系的区域。德鲁伊对自然世界的守护使他们与善良阵营的精类形成了天然的联盟。这些德鲁伊试图用欢乐与光照填满世界。他们的魔法能治愈伤口并为沮丧的心灵带来喜悦，他们所保护的领域都是闪耀而丰饶之地。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "夏之王庭的芬馥|{!@ {!@ #UA}}||梦境（UA）|UADruid|2"
+					"subclassFeature": "夏之王庭的芬馥|德鲁伊||梦境（UA）|UADruid|2"
 				}
 			]
 		},
@@ -107,7 +107,7 @@
 			"name": "夏之王庭的芬馥",
 			"source": "UADruid",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "德鲁伊",
 			"classSource": "PHB",
 			"subclassShortName": "梦境（UA）",
 			"subclassSource": "UADruid",
@@ -124,7 +124,7 @@
 			"name": "月光阴影的炉心",
 			"source": "UADruid",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "德鲁伊",
 			"classSource": "PHB",
 			"subclassShortName": "梦境（UA）",
 			"subclassSource": "UADruid",
@@ -139,7 +139,7 @@
 			"name": "隐匿通途",
 			"source": "UADruid",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "德鲁伊",
 			"classSource": "PHB",
 			"subclassShortName": "梦境（UA）",
 			"subclassSource": "UADruid",
@@ -156,7 +156,7 @@
 			"name": "净化之光",
 			"source": "UADruid",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "德鲁伊",
 			"classSource": "PHB",
 			"subclassShortName": "梦境（UA）",
 			"subclassSource": "UADruid",
@@ -172,7 +172,7 @@
 			"name": "牧人结社",
 			"source": "UADruid",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "德鲁伊",
 			"classSource": "PHB",
 			"subclassShortName": "牧人 (UA)",
 			"subclassSource": "UADruid",
@@ -181,11 +181,11 @@
 				"牧人结社的德鲁伊与野兽精魂沟通。虽然这些德鲁伊认识到所有活体在自然世界中都扮演着职能，但他们专注于保护动物。被称为牧人的德鲁伊将野兽视为他们的守护对象。他们驱赶威胁自然生物的怪物，谴责那些猎杀超过必要数量的猎人，并防止文明侵占动物迁徙所需的栖息地和路径。许多这样的德鲁伊在远离城市和城镇的地方最为快乐，满足于与狂野动物为伴度过他们的天。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "精魄牵挂|{!@ {!@ #UA}}||牧人 (UA)|UADruid|2"
+					"subclassFeature": "精魄牵挂|德鲁伊||牧人 (UA)|UADruid|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "野兽之语|{!@ {!@ #UA}}||牧人 (UA)|UADruid|2"
+					"subclassFeature": "野兽之语|德鲁伊||牧人 (UA)|UADruid|2"
 				}
 			]
 		},
@@ -194,7 +194,7 @@
 			"name": "野兽之语",
 			"source": "UADruid",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "德鲁伊",
 			"classSource": "PHB",
 			"subclassShortName": "牧人 (UA)",
 			"subclassSource": "UADruid",
@@ -210,7 +210,7 @@
 			"name": "精魄牵挂",
 			"source": "UADruid",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "德鲁伊",
 			"classSource": "PHB",
 			"subclassShortName": "牧人 (UA)",
 			"subclassSource": "UADruid",
@@ -266,7 +266,7 @@
 			"name": "全能牧者",
 			"source": "UADruid",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "德鲁伊",
 			"classSource": "PHB",
 			"subclassShortName": "牧人 (UA)",
 			"subclassSource": "UADruid",
@@ -281,7 +281,7 @@
 			"name": "精魂守卫",
 			"source": "UADruid",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "德鲁伊",
 			"classSource": "PHB",
 			"subclassShortName": "牧人 (UA)",
 			"subclassSource": "UADruid",
@@ -296,7 +296,7 @@
 			"name": "忠诚牧畜",
 			"source": "UADruid",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "德鲁伊",
 			"classSource": "PHB",
 			"subclassShortName": "牧人 (UA)",
 			"subclassSource": "UADruid",
@@ -312,7 +312,7 @@
 			"name": "暮光之环",
 			"source": "UADruid",
 			"page": 2,
-			"className": "{!@ {!@ #UA}}",
+			"className": "德鲁伊",
 			"classSource": "PHB",
 			"subclassShortName": "暮光 (UA)",
 			"subclassSource": "UADruid",
@@ -322,7 +322,7 @@
 				"这些德鲁伊寻找被不死生物玷污的土地。这些地方阴森且不祥。曾经生机勃勃的森林变成了阴郁的、闹鬼的地方，没有动物，到处都是慢慢凋零的植物。暮光结社前往这些地方放逐不死生物并起死回生。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "收获巨镰|{!@ {!@ #UA}}||暮光 (UA)|UADruid|2"
+					"subclassFeature": "收获巨镰|德鲁伊||暮光 (UA)|UADruid|2"
 				}
 			]
 		},
@@ -331,7 +331,7 @@
 			"name": "收获巨镰",
 			"source": "UADruid",
 			"page": 2,
-			"className": "{!@ {!@ #UA}}",
+			"className": "德鲁伊",
 			"classSource": "PHB",
 			"subclassShortName": "暮光 (UA)",
 			"subclassSource": "UADruid",
@@ -348,7 +348,7 @@
 			"name": "坟墓之外的口语",
 			"source": "UADruid",
 			"page": 2,
-			"className": "{!@ {!@ #UA}}",
+			"className": "德鲁伊",
 			"classSource": "PHB",
 			"subclassShortName": "暮光 (UA)",
 			"subclassSource": "UADruid",
@@ -364,7 +364,7 @@
 			"name": "阈界守望者",
 			"source": "UADruid",
 			"page": 2,
-			"className": "{!@ {!@ #UA}}",
+			"className": "德鲁伊",
 			"classSource": "PHB",
 			"subclassShortName": "暮光 (UA)",
 			"subclassSource": "UADruid",
@@ -379,7 +379,7 @@
 			"name": "亡者之路",
 			"source": "UADruid",
 			"page": 2,
-			"className": "{!@ {!@ #UA}}",
+			"className": "德鲁伊",
 			"classSource": "PHB",
 			"subclassShortName": "暮光 (UA)",
 			"subclassSource": "UADruid",

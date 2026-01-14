@@ -27,7 +27,7 @@
 			"name": "征服之誓（UA）",
 			"shortName": "征服（UA）",
 			"source": "UAPaladin",
-			"className": "{!@ {!@ #UA}}",
+			"className": "圣武士",
 			"classSource": "PHB",
 			"page": 1,
 			"isReprinted": true,
@@ -58,10 +58,10 @@
 				}
 			],
 			"subclassFeatures": [
-				"征服之誓|{!@ {!@ #UA}}||征服（UA）|UAPaladin|3",
-				"征服灵光|{!@ {!@ #UA}}||征服（UA）|UAPaladin|7",
-				"不屈精魄|{!@ {!@ #UA}}||征服（UA）|UAPaladin|15",
-				"不移胜者|{!@ {!@ #UA}}||征服（UA）|UAPaladin|20"
+				"征服之誓|圣武士||征服（UA）|UAPaladin|3",
+				"征服灵光|圣武士||征服（UA）|UAPaladin|7",
+				"不屈精魄|圣武士||征服（UA）|UAPaladin|15",
+				"不移胜者|圣武士||征服（UA）|UAPaladin|20"
 			]
 		},
 		{
@@ -69,7 +69,7 @@
 			"name": "背信弃义之誓（UA）",
 			"shortName": "背信弃义（UA）",
 			"source": "UAPaladin",
-			"className": "{!@ {!@ #UA}}",
+			"className": "圣武士",
 			"classSource": "PHB",
 			"page": 2,
 			"additionalSpells": [
@@ -99,10 +99,10 @@
 				}
 			],
 			"subclassFeatures": [
-				"背信弃义之誓|{!@ {!@ #UA}}||背信弃义（UA）|UAPaladin|3",
-				"背信弃义光环|{!@ {!@ #UA}}||背信弃义（UA）|UAPaladin|7",
-				"黑暗卫士的逃脱|{!@ {!@ #UA}}||背信弃义（UA）|UAPaladin|15",
-				"欺诈图标|{!@ {!@ #UA}}||背信弃义（UA）|UAPaladin|20"
+				"背信弃义之誓|圣武士||背信弃义（UA）|UAPaladin|3",
+				"背信弃义光环|圣武士||背信弃义（UA）|UAPaladin|7",
+				"黑暗卫士的逃脱|圣武士||背信弃义（UA）|UAPaladin|15",
+				"欺诈图标|圣武士||背信弃义（UA）|UAPaladin|20"
 			]
 		}
 	],
@@ -112,7 +112,7 @@
 			"name": "征服之誓",
 			"source": "UAPaladin",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "圣武士",
 			"classSource": "PHB",
 			"subclassShortName": "征服（UA）",
 			"subclassSource": "UAPaladin",
@@ -121,15 +121,15 @@
 				"征服之誓召唤那些在战斗中寻求荣耀并渴望征服敌人的圣武士。对这些圣武士而言，仅仅建立秩序是不够的。他们必须镇压混乱的力量。这些被称为暴政骑士或铁腕者的誓约者们，会组成服务于战争之神或严苛力量哲学的噩兆骑士团。其中部分圣武士甚至与九层地狱的势力勾结\u2014\u2014阿弗纳斯的督军、大魔鬼贝尔就将许多被称为地狱骑士的征服誓约者视为最狂热的支持者。地狱骑士们用堕落敌人的战利品装饰护甲，作为对胆敢违抗他们及其领主法令者的严厉警告。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "征服之信条|{!@ {!@ #UA}}||征服（UA）|UAPaladin|3"
+					"subclassFeature": "征服之信条|圣武士||征服（UA）|UAPaladin|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "圣誓法术|{!@ {!@ #UA}}||征服（UA）|UAPaladin|3"
+					"subclassFeature": "圣誓法术|圣武士||征服（UA）|UAPaladin|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "引导神力|{!@ {!@ #UA}}||征服（UA）|UAPaladin|3"
+					"subclassFeature": "引导神力|圣武士||征服（UA）|UAPaladin|3"
 				}
 			]
 		},
@@ -138,7 +138,7 @@
 			"name": "引导神力",
 			"source": "UAPaladin",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "圣武士",
 			"classSource": "PHB",
 			"subclassShortName": "征服（UA）",
 			"subclassSource": "UAPaladin",
@@ -152,11 +152,11 @@
 				"在第3级选择本誓言时，你会获得以下两种引导神力选项。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "征服打击|{!@ {!@ #UA}}||征服（UA）|UAPaladin|3"
+					"subclassFeature": "征服打击|圣武士||征服（UA）|UAPaladin|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "导引打击|{!@ {!@ #UA}}||征服（UA）|UAPaladin|3"
+					"subclassFeature": "导引打击|圣武士||征服（UA）|UAPaladin|3"
 				}
 			]
 		},
@@ -165,7 +165,7 @@
 			"name": "征服打击",
 			"source": "UAPaladin",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "圣武士",
 			"classSource": "PHB",
 			"subclassShortName": "征服（UA）",
 			"subclassSource": "UAPaladin",
@@ -180,7 +180,7 @@
 			"name": "导引打击",
 			"source": "UAPaladin",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "圣武士",
 			"classSource": "PHB",
 			"subclassShortName": "征服（UA）",
 			"subclassSource": "UAPaladin",
@@ -195,7 +195,7 @@
 			"name": "圣誓法术",
 			"source": "UAPaladin",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "圣武士",
 			"classSource": "PHB",
 			"subclassShortName": "征服（UA）",
 			"subclassSource": "UAPaladin",
@@ -244,7 +244,7 @@
 			"name": "征服之信条",
 			"source": "UAPaladin",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "圣武士",
 			"classSource": "PHB",
 			"subclassShortName": "征服（UA）",
 			"subclassSource": "UAPaladin",
@@ -298,7 +298,7 @@
 			"name": "征服灵光",
 			"source": "UAPaladin",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "圣武士",
 			"classSource": "PHB",
 			"subclassShortName": "征服（UA）",
 			"subclassSource": "UAPaladin",
@@ -314,7 +314,7 @@
 			"name": "不屈精魄",
 			"source": "UAPaladin",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "圣武士",
 			"classSource": "PHB",
 			"subclassShortName": "征服（UA）",
 			"subclassSource": "UAPaladin",
@@ -329,7 +329,7 @@
 			"name": "不移胜者",
 			"source": "UAPaladin",
 			"page": 1,
-			"className": "{!@ {!@ #UA}}",
+			"className": "圣武士",
 			"classSource": "PHB",
 			"subclassShortName": "征服（UA）",
 			"subclassSource": "UAPaladin",
@@ -353,7 +353,7 @@
 			"name": "背信弃义之誓",
 			"source": "UAPaladin",
 			"page": 2,
-			"className": "{!@ {!@ #UA}}",
+			"className": "圣武士",
 			"classSource": "PHB",
 			"subclassShortName": "背信弃义（UA）",
 			"subclassSource": "UAPaladin",
@@ -362,15 +362,15 @@
 				"背信弃义之誓是那些背弃其他誓约或只关心自身法力与求生的圣武者所遵循的路途。这些渎神武者通常被称为黑暗卫士，他们只忠于自己。任何绝望到愿意追随这些圣武士的人之所以这么做，是因为尽管欺诈成性，这些圣武士却掌握着强大的命令术力量。那些追随他们却未沦为背信弃义牺牲品的人，希望能肆意施暴并积累巨额宝藏。许多这类圣武士会向恶魔领主致敬，尤其是格拉兹特和奥喀斯。即便是地狱领主也不愿与这些混沌的冠军结盟，但有时巴尔泽布和格莱西亚会在黑暗卫士的双重欺诈与背信弃义中找到志同道合的精魄。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "背信弃义教义|{!@ {!@ #UA}}||背信弃义（UA）|UAPaladin|3"
+					"subclassFeature": "背信弃义教义|圣武士||背信弃义（UA）|UAPaladin|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "圣誓法术|{!@ {!@ #UA}}||背信弃义（UA）|UAPaladin|3"
+					"subclassFeature": "圣誓法术|圣武士||背信弃义（UA）|UAPaladin|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "引导神力|{!@ {!@ #UA}}||背信弃义（UA）|UAPaladin|3"
+					"subclassFeature": "引导神力|圣武士||背信弃义（UA）|UAPaladin|3"
 				}
 			]
 		},
@@ -379,7 +379,7 @@
 			"name": "引导神力",
 			"source": "UAPaladin",
 			"page": 2,
-			"className": "{!@ {!@ #UA}}",
+			"className": "圣武士",
 			"classSource": "PHB",
 			"subclassShortName": "背信弃义（UA）",
 			"subclassSource": "UAPaladin",
@@ -393,11 +393,11 @@
 				"在第3级选择本誓言时，你会获得以下两种引导神力选项。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "召唤复制体|{!@ {!@ #UA}}||背信弃义（UA）|UAPaladin|3"
+					"subclassFeature": "召唤复制体|圣武士||背信弃义（UA）|UAPaladin|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "毒素打击|{!@ {!@ #UA}}||背信弃义（UA）|UAPaladin|3"
+					"subclassFeature": "毒素打击|圣武士||背信弃义（UA）|UAPaladin|3"
 				}
 			]
 		},
@@ -406,7 +406,7 @@
 			"name": "召唤复制体",
 			"source": "UAPaladin",
 			"page": 2,
-			"className": "{!@ {!@ #UA}}",
+			"className": "圣武士",
 			"classSource": "PHB",
 			"subclassShortName": "背信弃义（UA）",
 			"subclassSource": "UAPaladin",
@@ -422,7 +422,7 @@
 			"name": "圣誓法术",
 			"source": "UAPaladin",
 			"page": 2,
-			"className": "{!@ {!@ #UA}}",
+			"className": "圣武士",
 			"classSource": "PHB",
 			"subclassShortName": "背信弃义（UA）",
 			"subclassSource": "UAPaladin",
@@ -471,7 +471,7 @@
 			"name": "毒素打击",
 			"source": "UAPaladin",
 			"page": 2,
-			"className": "{!@ {!@ #UA}}",
+			"className": "圣武士",
 			"classSource": "PHB",
 			"subclassShortName": "背信弃义（UA）",
 			"subclassSource": "UAPaladin",
@@ -486,7 +486,7 @@
 			"name": "背信弃义教义",
 			"source": "UAPaladin",
 			"page": 2,
-			"className": "{!@ {!@ #UA}}",
+			"className": "圣武士",
 			"classSource": "PHB",
 			"subclassShortName": "背信弃义（UA）",
 			"subclassSource": "UAPaladin",
@@ -501,7 +501,7 @@
 			"name": "背信弃义光环",
 			"source": "UAPaladin",
 			"page": 2,
-			"className": "{!@ {!@ #UA}}",
+			"className": "圣武士",
 			"classSource": "PHB",
 			"subclassShortName": "背信弃义（UA）",
 			"subclassSource": "UAPaladin",
@@ -543,7 +543,7 @@
 			"name": "黑暗卫士的逃脱",
 			"source": "UAPaladin",
 			"page": 2,
-			"className": "{!@ {!@ #UA}}",
+			"className": "圣武士",
 			"classSource": "PHB",
 			"subclassShortName": "背信弃义（UA）",
 			"subclassSource": "UAPaladin",
@@ -558,7 +558,7 @@
 			"name": "欺诈图标",
 			"source": "UAPaladin",
 			"page": 2,
-			"className": "{!@ {!@ #UA}}",
+			"className": "圣武士",
 			"classSource": "PHB",
 			"subclassShortName": "背信弃义（UA）",
 			"subclassSource": "UAPaladin",
