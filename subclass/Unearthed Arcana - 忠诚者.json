@@ -1,0 +1,224 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UATheFaithful",
+				"abbreviation": "UATF",
+				"full": "破解奥秘：忠诚者",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2016/dnd/downloads/UA%20Non-Divine%20Faithful%20SFG.pdf",
+				"dateReleased": "2016-08-01"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1729637619,
+		"_dateLastModifiedHash": "4584f4423b"
+	},
+	"subclass": [
+		{
+			"ENG_name": "The Seeker (UA)",
+			"name": "探寻者（UA）",
+			"shortName": "寻者（UA）",
+			"source": "UATheFaithful",
+			"className": "魔契师",
+			"classSource": "PHB",
+			"page": 1,
+			"additionalSpells": [
+				{
+					"expanded": {
+						"s1": [
+							"羽落术",
+							"跳跃术"
+						],
+						"s2": [
+							"浮空术",
+							"物件定位术"
+						],
+						"s3": [
+							"鹰眼术",
+							"短讯术"
+						],
+						"s4": [
+							"秘法眼",
+							"生物定位术"
+						],
+						"s5": [
+							"通晓传奇",
+							"穿墙术"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"探索者|魔契师||寻者（UA）|UATheFaithful|1",
+				"星界庇护所|魔契师||寻者（UA）|UATheFaithful|6",
+				"远行者|魔契师||寻者（UA）|UATheFaithful|10",
+				"星界隔离|魔契师||寻者（UA）|UATheFaithful|14"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"ENG_name": "The Seeker",
+			"name": "探索者",
+			"source": "UATheFaithful",
+			"page": 1,
+			"className": "魔契师",
+			"classSource": "PHB",
+			"subclassShortName": "寻者（UA）",
+			"subclassSource": "UATheFaithful",
+			"level": 1,
+			"entries": [
+				"你的雇主是一个莫测者，他在星光位面漫游以寻找知识和秘密。作为对你雇主礼物的回报，你在世界漫游寻找可以与探索者分享的逸闻。",
+				"你的雇主可以是任何致力于知识或被遗忘逸闻的神或其他强大实体。塞莱斯汀是灰鹰战役的理想雇主，也是这个概念的激励来源。在被遗忘国度众神中，你的雇主可能是阿祖斯或欧格玛。奥林在艾伯伦中是绝佳的雇主，而在克莱恩和龙枪战役设定中，吉立安与探索者的职能十分匹配。",
+				{
+					"ENG_name": "Expanded Spell List",
+					"name": "扩展法术列表",
+					"type": "entries",
+					"entries": [
+						"探索者让你在学习魔契师法术时可以从扩展法术列表中选择。以下法术将被添加到你的魔契师法术列表中。",
+						{
+							"type": "table",
+							"caption": "探寻者扩展法术",
+							"colLabels": [
+								"法术环阶",
+								"法术"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1st",
+									"{@spell 羽落术}, {@spell 跳跃术}"
+								],
+								[
+									"2nd",
+									"{@spell 浮空术}, {@spell 物件定位术}"
+								],
+								[
+									"3rd",
+									"{@spell 鹰眼术}, {@spell 短讯术}"
+								],
+								[
+									"4th",
+									"{@spell 秘法眼}, {@spell 生物定位术}"
+								],
+								[
+									"5th",
+									"{@spell 通晓传奇}, {@spell 穿墙术}"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "护盾奥罗拉|魔契师||寻者（UA）|UATheFaithful|1"
+				}
+			]
+		},
+		{
+			"ENG_name": "Shielding Aurora",
+			"name": "护盾奥罗拉",
+			"source": "UATheFaithful",
+			"page": 1,
+			"className": "魔契师",
+			"classSource": "PHB",
+			"subclassShortName": "寻者（UA）",
+			"subclassSource": "UATheFaithful",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"从1环开始，你可以调用探寻者的法力来保护你免受重伤术。以一个附赠动作，你创造出一道围绕你旋转的辉煌能量奥罗拉。直到你的下一个回合结束，你获得对所有伤害的抗性，且如果一个敌对生物在其回合结束时处于你10尺内，它将受到等同于你的魔契师等级加上你的魅力调整值的光耀伤害。",
+				"你必须完成一次长休或短休后才能再次使用该特性。"
+			]
+		},
+		{
+			"ENG_name": "Astral Refuge",
+			"name": "星界庇护所",
+			"source": "UATheFaithful",
+			"page": 1,
+			"className": "魔契师",
+			"classSource": "PHB",
+			"subclassShortName": "寻者（UA）",
+			"subclassSource": "UATheFaithful",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"在6级时，你获得进入星界庇护所的能力。以一个动作，你从世界短暂消失并进入星光位面，利用其永恒本质。在你的星界庇护所中，你可以使用两个动作施法且仅以你为目标。在使用这两个动作后，你返回原本所在的空间且你的回合结束。"
+			]
+		},
+		{
+			"ENG_name": "Far Wanderer",
+			"name": "远行者",
+			"source": "UATheFaithful",
+			"page": 1,
+			"className": "魔契师",
+			"classSource": "PHB",
+			"subclassShortName": "寻者（UA）",
+			"subclassSource": "UATheFaithful",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"在10级时，你不再需要呼吸，且你获得火焰伤害和寒冷伤害的抗性。"
+			]
+		},
+		{
+			"ENG_name": "Astral Sequestration",
+			"name": "星界隔离",
+			"source": "UATheFaithful",
+			"page": 1,
+			"className": "魔契师",
+			"classSource": "PHB",
+			"subclassShortName": "寻者（UA）",
+			"subclassSource": "UATheFaithful",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"14级起，你获得将自身和盟友隔离在星光位面的能力。",
+				"通过表演一个特殊仪式持续5分钟，你将自身和最多十名你能看见的愿意生物转移到星光位面。你和这些生物在隔离于星光位面时获得短休的增益。然后你们全部返回到使用此能力时所占据的空间，且世界中没有任何时间流逝。",
+				"在此短休期间，你和你隔离的生物可以使用任何仅影响你和你隔离生物的休息选项。",
+				"一旦你使用了这个属性，在完成一次长休之前无法再次使用。"
+			]
+		}
+	],
+	"optionalfeature": [
+		{
+			"ENG_name": "Pact of the Star Chain",
+			"name": "星星契约",
+			"source": "UATheFaithful",
+			"page": 1,
+			"featureType": [
+				"PB"
+			],
+			"additionalSpells": [
+				{
+					"ability": "cha",
+					"innate": {
+						"_": {
+							"ritual": [
+								"卜筮术"
+							]
+						}
+					}
+				}
+			],
+			"entries": [
+				"在3级时，一个致力于{@class 魔契师|PHB|寻者|寻者（UA）|UATheFaithful}的角色可以选择此选项而非魔契师现有的魔契恩泽选项之一。",
+				"追寻者赐予你一条由星光锻造的链击，装饰着七颗闪耀的光点。当你携带这条链击时，你知晓{@spell 卜筮术}法术且可以仪式施放它。该法术不计入你的单次更换数量。",
+				"此外，你可以调用探寻者的法力来在携带此物品时获得智力检定的优势。一旦你使用了这个属性，在完成一次短休或长休前无法再次使用。",
+				"如果你丢失了星之链击，你可以进行一个1小时的典礼术来从探寻者处获得替代品。该典礼术可以在短休或长休期间进行，且它会摧毁之前的链击。当你死亡时，链击会在流光中消失。",
+				"该物品的形态可能因雇主不同而有所差异。星之链击的灵感来源于灰鹰之神塞莱斯汀。"
+			]
+		}
+	]
+}

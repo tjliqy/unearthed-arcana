@@ -1,0 +1,886 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UARacesOfEberron",
+				"abbreviation": "UARoE",
+				"full": "破解奥秘：艾伯伦的种族",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2018/dnd/downloads/723UA_EberronRaces7232018.pdf",
+				"dateReleased": "2018-07-23"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1759315511,
+		"_dateLastModifiedHash": "3e83cf557f"
+	},
+	"race": [
+		{
+			"ENG_name": "Changeling",
+			"name": "幻身灵",
+			"source": "UARacesOfEberron",
+			"page": 1,
+			"reprintedAs": [
+				"幻身灵|ERLW"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"cha": 2,
+					"choose": {
+						"from": [
+							"int",
+							"dex"
+						],
+						"count": 1
+					}
+				}
+			],
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"traitTags": [
+				"工具熟练"
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"欺瞒",
+							"洞悉",
+							"威吓",
+							"游说"
+						],
+						"count": 2
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 2
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Age",
+					"name": "年龄",
+					"entries": [
+						"幻身灵比人类成熟得稍快，但寿命相似\u2014\u2014通常为一个世纪或更短。虽然幻身灵可以变形来隐藏它们的年龄，但衰老的效应仍然会追上它们。"
+					],
+					"type": "entries"
+				},
+				{
+					"ENG_name": "Alignment",
+					"name": "阵营",
+					"type": "entries",
+					"entries": [
+						"幻身灵憎恨被以任何方式连接，且那些追随旅者路途的生物相信混乱和变化是生命的重要方面。大多数倾向于务实的中立，而非关注崇高的理想。很少有幻身灵拥抱邪恶。"
+					]
+				},
+				{
+					"ENG_name": "Size",
+					"name": "体型",
+					"type": "entries",
+					"entries": [
+						"幻身灵的自然形态平均身高在5到6英尺之间，体型纤细。你的体型为中等。"
+					]
+				},
+				{
+					"ENG_name": "Change Appearance",
+					"name": "改变外貌",
+					"type": "entries",
+					"entries": [
+						"以一个动作，你可以改变外貌或恢复你的自然形态。你不能复制你从未见过的生物的外貌，且如果你死亡，你会恢复自然形态。",
+						"你决定自己的外貌，包括身高、重量、面部特征、声音的音色、毛发长度、性别以及任何其他显著的性格特征。你可以使自己看起来像是另一个种族的成员，但你的游戏数据不会改变。你也不能使自己看起来像是体型不同的生物，且你的基本形态保持不变；例如，如果你是双足行走，你不能使用这个特质变成四足行走。你的装备和其他物品在外貌、体型或形状上不会改变以匹配你的新形态，因此你需要准备一些额外的服装以便进行最令人信服的伪装。",
+						"即使是最敏锐的观察者，通常也难以识破你的伪装。如果你引起了怀疑，或者一个警觉的生物察觉到异样，你在任何为避免侦测而进行的魅力（{@skill 欺瞒}）检定上具有优势。"
+					]
+				},
+				{
+					"ENG_name": "Changeling Instincts",
+					"name": "幻身灵本能",
+					"type": "entries",
+					"entries": [
+						"你从以下技能中选择两个获得熟练项：{@skill 欺瞒}、{@skill 洞悉}、{@skill 威吓}或{@skill 游说}"
+					]
+				},
+				{
+					"ENG_name": "Unsettling Visage",
+					"name": "不安面容",
+					"type": "entries",
+					"entries": [
+						"当一个你能看见的生物对你进行一次攻击检定时，你可以使用你的反应使该检定具有劣势。你必须在知道攻击是否命中前使用此特性。使用此特质会向30尺内能看见你的任何生物揭露你的化形本质。一旦你使用了此特质，直到你完成一次短休或长休前都不能再次使用它。"
+					]
+				},
+				{
+					"ENG_name": "Divergent Persona",
+					"name": "分歧人格",
+					"type": "entries",
+					"entries": [
+						"你获得一个自选的{@book 工具|phb|5|工具}的熟练。定义一个与该熟练相关的角色：确定名称、种族、性别、年龄和其他细节。当你处于该角色的形态时，相关熟练加值在使用该熟练进行的任何属性检定中翻倍。"
+					]
+				},
+				{
+					"ENG_name": "Languages",
+					"name": "语言",
+					"entries": [
+						"你能说、读、写通用语和其他两门你选择的语言。"
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"ENG_name": "Kalashtar",
+			"name": "离梦人",
+			"source": "UARacesOfEberron",
+			"page": 3,
+			"reprintedAs": [
+				"离梦人|ERLW"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"cha": 1,
+					"wis": 1,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 1
+					}
+				}
+			],
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"other": true,
+					"anyStandard": 1
+				}
+			],
+			"resist": [
+				"心灵"
+			],
+			"entries": [
+				{
+					"ENG_name": "Age",
+					"name": "年龄",
+					"entries": [
+						"离梦人与人类的身体发育速度相同且寿命相近。"
+					],
+					"type": "entries"
+				},
+				{
+					"ENG_name": "Alignment",
+					"name": "阵营",
+					"type": "entries",
+					"entries": [
+						"与离梦人相连的高贵精魄驱使他们趋向守序且善良的行为。大多数离梦人将自律与对所有有情众生的怜悯结合在一起，但有些离梦人抗拒其精魄的德性影响力。"
+					]
+				},
+				{
+					"ENG_name": "Size",
+					"name": "体型",
+					"type": "entries",
+					"entries": [
+						"离梦人在体型上与人类相似，尽管他们通常要高几英寸。你的体型是中等。"
+					]
+				},
+				{
+					"ENG_name": "Dual Mind",
+					"name": "双重思想",
+					"type": "entries",
+					"entries": [
+						"当你进行一次感知豁免检定时，你可以使用你的反应来获得该掷骰的优势。你可以在掷骰前或掷骰后立即使用此特质，但必须在掷骰的任何效应发生之前。"
+					]
+				},
+				{
+					"ENG_name": "Mental Discipline",
+					"name": "磨练心智",
+					"type": "entries",
+					"entries": [
+						"你对心灵伤害具有抗性。"
+					]
+				},
+				{
+					"ENG_name": "Mind Link",
+					"name": "心灵链接",
+					"type": "entries",
+					"entries": [
+						"你可以用心灵感应与60尺内你能看见的任何生物交谈。你不需要与该生物共享语言它也能理解你的心灵感应信息，但该生物必须能够理解至少一种语言或自身具有心灵感应能力。",
+						"当你正以心灵感应与一个生物交谈时，你可以用一个附赠动作赋予该生物与你心灵感应的能力，此效果持续到你下个回合开始。要使用此能力，该生物必须处于你60尺范围内且能看见你。"
+					]
+				},
+				{
+					"ENG_name": "Psychic Glamour",
+					"name": "心灵迷惑",
+					"type": "entries",
+					"entries": [
+						"选择下列技能之一：{@skill 洞悉}、{@skill 威吓}、{@skill 表演}或{@skill 游说}。你在使用该技能进行的所有属性检定上具有优势。"
+					]
+				},
+				{
+					"ENG_name": "Severed from Dreams",
+					"name": "梦境隔绝",
+					"type": "entries",
+					"entries": [
+						"离梦人会睡眠，但他们不像其他生物那样连接梦境位面。相反，他们的意识在睡眠时会从异界精魄的记忆中汲取能量。因此，你对需要做梦的法术和其他魔法效应免疫，例如托梦术，但对使你入睡的法术和效应不免疫，例如睡眠术。"
+					]
+				},
+				{
+					"ENG_name": "Languages",
+					"name": "语言",
+					"entries": [
+						"你能说、读、写通用语、梦族语与另一项你自选的语言。"
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"ENG_name": "Shifter",
+			"name": "化兽者",
+			"source": "UARacesOfEberron",
+			"page": 4,
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"dex": 1
+				}
+			],
+			"age": {
+				"mature": 10,
+				"max": 70
+			},
+			"darkvision": 60,
+			"skillProficiencies": [
+				{
+					"perception": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Age",
+					"name": "年龄",
+					"entries": [
+						"化兽者无论身心均成长迅速，在大约10岁左右就成年了。化兽者一般能活超过70岁。"
+					],
+					"type": "entries"
+				},
+				{
+					"ENG_name": "Alignment",
+					"name": "阵营",
+					"type": "entries",
+					"entries": [
+						"化兽者倾向于中立阵营，比起善恶他们更关注自己的生存。而对个人自由的热爱则可能让一位化兽者倾向混乱阵营。"
+					]
+				},
+				{
+					"ENG_name": "Size",
+					"name": "体型",
+					"type": "entries",
+					"entries": [
+						"化兽者的身高范围从5英尺到近7英尺不等，取决于其亚种。你的体型是中等。"
+					]
+				},
+				{
+					"ENG_name": "Darkvision",
+					"name": "黑暗视觉",
+					"entries": [
+						"你在黑暗与昏暗条件下有着特别的视力。在60尺内的微光条件下你能视物如同光照条件，在黑暗条件下你能视物如同微光条件。你在黑暗中无法分辨颜色，只能识别灰度。"
+					],
+					"type": "entries"
+				},
+				{
+					"ENG_name": "Keen Senses",
+					"name": "敏锐感官",
+					"type": "entries",
+					"entries": [
+						"你熟练于{@skill 察觉}技能。"
+					]
+				},
+				{
+					"ENG_name": "Shifting",
+					"name": "化形",
+					"type": "entries",
+					"entries": [
+						"以一个附赠动作，你可以展现出更为野兽化的姿态。这个变形持续一分钟，直到你死亡，抑或你以一附赠动作变回正常形态。当你化形时，你获得等同于你的角色等级+体质调整值（至少为1）的临时生命值。此外你也会依据你的亚种获得下列的其他好处。",
+						"当你使用化形特性后，你不能在一次短休或长休结束前再次使用该特性。"
+					]
+				},
+				{
+					"ENG_name": "Languages",
+					"name": "语言",
+					"entries": [
+						"你会说、读、写通用语。"
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"ENG_name": "Warforged",
+			"name": "战俑",
+			"source": "UARacesOfEberron",
+			"page": 7,
+			"reprintedAs": [
+				"战俑|ERLW"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"age": {
+				"mature": 2,
+				"max": 30
+			},
+			"traitTags": [
+				"修整强化",
+				"天生护甲"
+			],
+			"languageProficiencies": [
+				{
+					"common": true
+				}
+			],
+			"resist": [
+				"毒素"
+			],
+			"conditionImmune": [
+				"疾病"
+			],
+			"entries": [
+				{
+					"ENG_name": "Age",
+					"name": "年龄",
+					"entries": [
+						"一个典型的战俑年龄在二到三十岁之间。战俑的最大寿命仍是个谜；到目前为止，战俑尚未显示出因年龄而退化的迹象。"
+					],
+					"type": "entries"
+				},
+				{
+					"ENG_name": "Alignment",
+					"name": "阵营",
+					"type": "entries",
+					"entries": [
+						"大多数战俑在秩序和纪律中感到舒适，倾向于守序和中立，但有些战俑吸收了与他们共事的生物的道德观\u2014\u2014或缺乏道德观。"
+					]
+				},
+				{
+					"ENG_name": "Size",
+					"name": "体型",
+					"type": "entries",
+					"entries": [
+						"你的体型是中等。大多数战俑身高在5到6½英尺之间。体型受你的亚种影响。"
+					]
+				},
+				{
+					"ENG_name": "Warforged Resilience",
+					"name": "战俑坚毅",
+					"type": "entries",
+					"entries": [
+						"你被设计为拥有非凡的强韧，这表现在以下几个方面：",
+						{
+							"type": "list",
+							"items": [
+								"你在对抗{@condition 中毒}的豁免投骰中具有优势，并且你对毒素伤害具有抗性。",
+								"你对疾病免疫。",
+								"你不需要吃、喝和呼吸。",
+								"你不需要睡眠且不会因缺乏休息而遭受{@condition 力竭}的效应，魔法也无法使你陷入睡眠。"
+							]
+						}
+					]
+				},
+				{
+					"ENG_name": "Sentry's Rest",
+					"name": "哨兵式休息",
+					"type": "entries",
+					"entries": [
+						"当你进行长休时，你必须至少在其中六小时处于无法行动且静止的状态，而非沉睡。在此状态下，你呈现惰性，但这不会使你陷入{@condition 昏迷}，且你可以如常视物和听声。"
+					]
+				},
+				{
+					"ENG_name": "Integrated Protection",
+					"name": "集成防护",
+					"type": "entries",
+					"entries": [
+						"你的身体有内置的防护层级，这些层级决定了你的护甲等级。你从穿着护甲中得不到增益，但如果你使用护盾，你可以正常应用其附赠动作。",
+						"你可以改变身体以进入不同的防御模式；每次完成长休时，从集成防护表格中选择一项符合模式先决条件的模式来采用。",
+						{
+							"type": "table",
+							"caption": "集成防护",
+							"colLabels": [
+								"模式",
+								"先决",
+								"护甲等级"
+							],
+							"colStyles": [
+								"col-4",
+								"col-4",
+								"col-4"
+							],
+							"rows": [
+								[
+									"黑木核心（未着甲）",
+									"无",
+									"11 + 你的敏捷调整值（若熟练轻甲则添加熟练加值）"
+								],
+								[
+									"复合装甲（护甲）",
+									"中甲熟练",
+									"13 + 你的敏捷调整值（最高为2） + 你的熟练加值"
+								],
+								[
+									"重型护甲",
+									"重甲熟练",
+									"16 + 你的熟练加值；在敏捷（{@skill 隐匿}）检定上具有劣势"
+								]
+							]
+						}
+					]
+				},
+				{
+					"ENG_name": "Languages",
+					"name": "语言",
+					"entries": [
+						"你会说、读、写通用语。"
+					],
+					"type": "entries"
+				}
+			]
+		}
+	],
+	"subrace": [
+		{
+			"ENG_name": "Beasthide",
+			"name": "兽皮",
+			"source": "UARacesOfEberron",
+			"raceName": "化兽者",
+			"raceSource": "UARacesOfEberron",
+			"page": 6,
+			"reprintedAs": [
+				"化兽者 (兽皮)|ERLW"
+			],
+			"ability": [
+				{
+					"con": 2
+				}
+			],
+			"traitTags": [
+				"天生护甲"
+			],
+			"skillProficiencies": [
+				{
+					"athletics": true
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Tough",
+					"name": "健壮",
+					"type": "entries",
+					"entries": [
+						"你熟练于{@skill 运动}技能。"
+					]
+				},
+				{
+					"ENG_name": "Shifting Feature",
+					"name": "化形特性",
+					"type": "entries",
+					"entries": [
+						"每当你化形时，你获得{@dice 1d6}点额外临时生命值，且化形期间你的AC获得+1加值。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Longtooth",
+			"name": "长牙",
+			"source": "UARacesOfEberron",
+			"raceName": "化兽者",
+			"raceSource": "UARacesOfEberron",
+			"page": 6,
+			"reprintedAs": [
+				"化兽者 (长牙)|ERLW"
+			],
+			"ability": [
+				{
+					"str": 2
+				}
+			],
+			"traitTags": [
+				"天生武器"
+			],
+			"skillProficiencies": [
+				{
+					"intimidation": true
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Fierce",
+					"name": "凶猛",
+					"type": "entries",
+					"entries": [
+						"你熟练于{@skill 威吓}技能。"
+					]
+				},
+				{
+					"ENG_name": "Shifting Feature",
+					"name": "化形特性",
+					"type": "entries",
+					"entries": [
+						"在变形状态下，你可以使用你伸长的獠牙作为附赠动作进行徒手攻击。如果你用獠牙击中目标，你可以造成等于{@dice 1d6} + 你的体质调整值的穿刺伤害，而不是徒手攻击通常的钝击伤害。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Swiftstride",
+			"name": "疾驰",
+			"source": "UARacesOfEberron",
+			"raceName": "化兽者",
+			"raceSource": "UARacesOfEberron",
+			"page": 6,
+			"reprintedAs": [
+				"化兽者 (疾驰)|ERLW"
+			],
+			"speed": 35,
+			"ability": [
+				{
+					"dex": 2,
+					"cha": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"acrobatics": true
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Graceful",
+					"name": "优雅",
+					"type": "entries",
+					"entries": [
+						"你熟练于{@skill 特技}技能。"
+					]
+				},
+				{
+					"ENG_name": "Swift Stride",
+					"name": "迅捷疾驰",
+					"type": "entries",
+					"entries": [
+						"你的步行速度增加5尺。"
+					]
+				},
+				{
+					"ENG_name": "Shifting Feature",
+					"name": "化形特性",
+					"type": "entries",
+					"entries": [
+						"处于化形状态时，你的步行速度增加5尺。此外，当一个敌人在你5尺范围内结束其回合时，你可以用一个反应移动最多10尺。此移动不会引发借机攻击。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Wildhunt",
+			"name": "狩猎",
+			"source": "UARacesOfEberron",
+			"raceName": "化兽者",
+			"raceSource": "UARacesOfEberron",
+			"page": 6,
+			"reprintedAs": [
+				"化兽者 (狩猎)|ERLW"
+			],
+			"ability": [
+				{
+					"wis": 2
+				}
+			],
+			"skillProficiencies": [
+				{
+					"survival": true
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Natural Tracker",
+					"name": "自然追踪者",
+					"type": "entries",
+					"entries": [
+						"你熟练掌握了{@skill 求生}求生技能。"
+					]
+				},
+				{
+					"ENG_name": "Mark the Scent",
+					"name": "标记气味",
+					"type": "entries",
+					"entries": [
+						"作为一个附赠动作，你可以标记一个你能看见的10尺内的生物。直到你的下一次长休结束，你在寻找被标记生物时进行的任何属性检定的熟练加值翻倍，且如果该生物在60尺内，你总是知道它的位置。在你完成一次短休或长休前，你不能再次使用这个特质。"
+					]
+				},
+				{
+					"ENG_name": "Shifting Feature",
+					"name": "化形特性",
+					"type": "entries",
+					"entries": [
+						"化形时，你在感知检定上具有优势。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Envoy",
+			"name": "特使",
+			"source": "UARacesOfEberron",
+			"raceName": "战俑",
+			"raceSource": "UARacesOfEberron",
+			"page": 69,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 2
+					}
+				}
+			],
+			"traitTags": [
+				"工具熟练"
+			],
+			"skillProficiencies": [
+				{
+					"any": 1
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Specialized Design",
+					"name": "专业设计",
+					"type": "entries",
+					"entries": [
+						"你获得一项自选的技能熟练，一项自选的{@book 工具|phb|5|工具}熟练，且一门自选的语言流利。"
+					]
+				},
+				{
+					"ENG_name": "Integrated Tool",
+					"name": "集成工具",
+					"type": "entries",
+					"entries": [
+						"选择一项你熟练的工具。该工具集成在你的身体中，且你使用它进行属性检定时熟练加值翻倍。你必须双手空闲才能使用此集成工具。"
+					]
+				},
+				{
+					"ENG_name": "Envoys: Specialized Design",
+					"name": "特使：专业设计",
+					"type": "inset",
+					"entries": [
+						"顾名思义，大多数战俑是为终末战争而打造的。绝大多数战俑是巨像或散兵战术\u2014\u2014在五国旗帜下战斗的士兵和斥候。然而，战俑特使被设计用于执行其他功能。作为特使，你拥有一项技能、一项工具熟练和一个作为身体部分的工具。当你创建一个特使角色时，考虑以下问题：你的目的是什么？你的技能和工具如何反映这一目的？你的集成工具采取何种形态？例如，如果你嵌入了盗贼工具，你的手指实际上是撬锁工具，还是你能从身体的各个部分产生钥匙？以下角色是拥有集成工具的战俑示例。",
+						"{@b 鲁特琴}是一位拥有艺人背景的吟游诗人；他同名的乐器从他的左臂展开。",
+						"{@b 罗盘}是一位拥有化外之民背景的法师。作为一名敏锐的探险家，她使用内置的{@item 制图工具|phb}来记录她走过的路径。",
+						"{@b 假面}是一个渗透者。作为拥有骗子背景且内置{@item 易容工具|phb}的游荡者，她被设计用来融入环境并进行暗杀。卡尼斯建造了六具她这种设计的战俑，而假面已发誓要搜寻并摧毁其他五具。",
+						"在开发你的集成工具时，请记住你必须双手自由才能使用它。上面提到的渗透者假面不会像幻身灵那样变形；她必须手动调整外貌。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Juggernaut",
+			"name": "巨像",
+			"source": "UARacesOfEberron",
+			"raceName": "战俑",
+			"raceSource": "UARacesOfEberron",
+			"page": 70,
+			"ability": [
+				{
+					"str": 2
+				}
+			],
+			"traitTags": [
+				"天生武器",
+				"强力构筑"
+			],
+			"entries": [
+				{
+					"ENG_name": "Iron Fists",
+					"name": "铁拳击",
+					"type": "entries",
+					"entries": [
+						"当你以徒手打击命中时，你可以造成{@dice 1d4} + 你的力量调整值的钝击伤害，而非徒手打击的正常伤害。"
+					]
+				},
+				{
+					"ENG_name": "Powerful Build",
+					"name": "强力构筑",
+					"type": "entries",
+					"entries": [
+						"在决定你的载重、和你可以推、拉及抬的重量时，你视作为体型大一级的生物。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Skirmisher",
+			"name": "散兵战术",
+			"source": "UARacesOfEberron",
+			"raceName": "战俑",
+			"raceSource": "UARacesOfEberron",
+			"page": 70,
+			"speed": 35,
+			"ability": [
+				{
+					"dex": 2
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Swift",
+					"name": "迅捷",
+					"type": "entries",
+					"entries": [
+						"你的步行速度增加5尺。"
+					]
+				},
+				{
+					"ENG_name": "Light Step",
+					"name": "轻快步伐",
+					"type": "entries",
+					"entries": [
+						"当你独自旅行较长时间（一小时或更久）时，你可以以正常步调隐匿移动。（关于旅行步调的详细信息，请参阅《玩家手册》{@book 第八章|phb|8|旅行步调}。）"
+					]
+				}
+			]
+		}
+	],
+	"foundryRaceFeature": [
+		{
+			"ENG_name": "Integrated Protection",
+			"name": "集成防护",
+			"source": "UARacesOfEberron",
+			"raceName": "战俑",
+			"raceSource": "UARacesOfEberron",
+			"effects": [
+				{
+					"ENG_name": "Darkwood Core",
+					"name": "黑木核心",
+					"disabled": true,
+					"transfer": true,
+					"changes": [
+						{
+							"key": "data.attributes.ac.calc",
+							"mode": "OVERRIDE",
+							"value": "custom"
+						},
+						{
+							"key": "data.attributes.ac.formula",
+							"mode": "OVERRIDE",
+							"value": "11 + @abilities.dex.mod + @attributes.prof"
+						}
+					]
+				},
+				{
+					"ENG_name": "Composite Plating",
+					"name": "复合装甲",
+					"disabled": true,
+					"transfer": true,
+					"changes": [
+						{
+							"key": "data.attributes.ac.calc",
+							"mode": "OVERRIDE",
+							"value": "custom"
+						},
+						{
+							"key": "data.attributes.ac.formula",
+							"mode": "OVERRIDE",
+							"value": "13 + {2, @abilities.dex.mod}kl + @attributes.prof"
+						}
+					]
+				},
+				{
+					"ENG_name": "Heavy Plating",
+					"name": "重型护甲",
+					"disabled": true,
+					"transfer": true,
+					"changes": [
+						{
+							"key": "data.attributes.ac.calc",
+							"mode": "OVERRIDE",
+							"value": "custom"
+						},
+						{
+							"key": "data.attributes.ac.formula",
+							"mode": "OVERRIDE",
+							"value": "16 + @attributes.prof"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Shifting Feature",
+			"name": "化形特性",
+			"source": "UARacesOfEberron",
+			"raceName": "化兽者 (兽皮)",
+			"raceSource": "UARacesOfEberron",
+			"effects": [
+				{
+					"ENG_name": "Natural Armor",
+					"name": "天生护甲",
+					"disabled": true,
+					"transfer": true,
+					"changes": [
+						{
+							"key": "data.attributes.ac.bonus",
+							"mode": "ADD",
+							"value": "+ 1"
+						}
+					]
+				}
+			]
+		}
+	]
+}

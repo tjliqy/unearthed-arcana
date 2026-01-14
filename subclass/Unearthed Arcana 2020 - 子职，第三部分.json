@@ -1,0 +1,905 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UA2020SubclassesPt3",
+				"abbreviation": "UA20S3",
+				"full": "破解奥秘：2020子职，第三部分",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2020/dnd/downloads/UA2020-Subclasses03_0224.pdf",
+				"dateReleased": "2020-02-24"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1729637619,
+		"_dateLastModifiedHash": "b96772d01b"
+	},
+	"subclass": [
+		{
+			"ENG_name": "Armorer (UA)",
+			"name": "装甲师（UA）",
+			"shortName": "装甲师（UA）",
+			"source": "UA2020SubclassesPt3",
+			"className": "奇械师",
+			"classSource": "TCE",
+			"page": 1,
+			"isReprinted": true,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"魔法飞弹",
+							"护盾术"
+						],
+						"5": [
+							"镜影术",
+							"粉碎音波"
+						],
+						"9": [
+							"催眠图纹",
+							"闪电束"
+						],
+						"13": [
+							"火焰护盾",
+							"高等隐形术"
+						],
+						"17": [
+							"穿墙术",
+							"力场墙"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"装甲师|奇械师|TCE|装甲师（UA）|UA2020SubclassesPt3|3",
+				"额外攻击|奇械师|TCE|装甲师（UA）|UA2020SubclassesPt3|5",
+				"装甲改造|奇械师|TCE|装甲师（UA）|UA2020SubclassesPt3|9",
+				"完美装甲|奇械师|TCE|装甲师（UA）|UA2020SubclassesPt3|15"
+			]
+		},
+		{
+			"ENG_name": "Circle of the Stars (UA)",
+			"name": "星辰结社（UA）",
+			"shortName": "星辰（UA）",
+			"source": "UA2020SubclassesPt3",
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"page": 3,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"星辰结社|德鲁伊||星辰（UA）|UA2020SubclassesPt3|2",
+				"宇宙预兆|德鲁伊||星辰（UA）|UA2020SubclassesPt3|6",
+				"灿若繁星|德鲁伊||星辰（UA）|UA2020SubclassesPt3|10",
+				"星星耀斑效应|德鲁伊||星辰（UA）|UA2020SubclassesPt3|14"
+			]
+		},
+		{
+			"ENG_name": "Fey Wanderer (UA)",
+			"name": "妖精漫游者（UA）",
+			"shortName": "妖精漫游者（UA）",
+			"source": "UA2020SubclassesPt3",
+			"className": "游侠",
+			"classSource": "PHB",
+			"page": 5,
+			"isReprinted": true,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"魅惑类人"
+						],
+						"5": [
+							"迷踪步"
+						],
+						"9": [
+							"解除魔法"
+						],
+						"13": [
+							"放逐术"
+						],
+						"17": [
+							"假象术"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"妖精漫游者|游侠||妖精漫游者（UA）|UA2020SubclassesPt3|3",
+				"法庭的祝福|游侠||妖精漫游者（UA）|UA2020SubclassesPt3|7",
+				"妖思魅缕|游侠||妖精漫游者（UA）|UA2020SubclassesPt3|11",
+				"雾蒙蒙存在|游侠||妖精漫游者（UA）|UA2020SubclassesPt3|15"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"ENG_name": "Circle of the Stars",
+			"name": "星辰结社",
+			"source": "UA2020SubclassesPt3",
+			"page": 3,
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"subclassShortName": "星辰（UA）",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 2,
+			"entries": [
+				"一个远古血统，星辰结社允许德鲁伊们汲取星辰的法力。这些德鲁伊自远古以来便追踪天体模式，发现隐藏在星座中的秘密。通过揭示且理解这些秘密，星辰结社试图驾驭宇宙的力量。",
+				"许多星辰结社的德鲁伊会详细记录星辰及其对世界的效应。一些结伙会在巨石地点记录这些观察，这些地点充当神秘的逸闻图书馆。这些储藏处可能采取岩石圆形、金字塔、岩画和地下神庙的形式\u2014\u2014任何足够耐性以保护结社神圣知识的建筑，即使面对大灾难。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "星图|德鲁伊||星辰（UA）|UA2020SubclassesPt3|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "星耀形态|德鲁伊||星辰（UA）|UA2020SubclassesPt3|2"
+				}
+			]
+		},
+		{
+			"ENG_name": "Star Map",
+			"name": "星图",
+			"source": "UA2020SubclassesPt3",
+			"page": 3,
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"subclassShortName": "星辰（UA）",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"{@i 2级星辰结社特性}",
+				"你创造了一张星图作为研究天象的一部分。这张地图是一个微型物件且可以作为你德鲁伊法术的法器。你可以决定该物件的形态，或者通过投掷星图表格来决定它是什么。",
+				{
+					"type": "table",
+					"caption": "星图",
+					"colLabels": [
+						"d6",
+						"星图形态"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"一张与天体对齐的活体木卷轴"
+						],
+						[
+							"2",
+							"钻有细孔的石板"
+						],
+						[
+							"3",
+							"斑点枭熊皮，标有凸痕记号"
+						],
+						[
+							"4",
+							"一套黑檀木封皮的星图集"
+						],
+						[
+							"5",
+							"遇光会投射出星辰轨迹的水晶"
+						],
+						[
+							"6",
+							"经过调制的玻璃圆盘，排列以描绘星座"
+						]
+					]
+				},
+				"如果你丢失了星图，你可以进行一个1小时的典礼术来魔法般地创造一个替代品。这个典礼术可以在短休或长休期间进行，且它会摧毁之前的星图。",
+				"你可以使用星图作为法器施放{@spell 卜筮术}和{@spell 光导箭}法术而无需消耗法术位且无需准备该法术。你可以通过这种方式从地图施法的次数等于你的感知调整值（至少一次），且完成一次长休后恢复所有已消耗的使用次数。"
+			]
+		},
+		{
+			"ENG_name": "Starry Form",
+			"name": "星耀形态",
+			"source": "UA2020SubclassesPt3",
+			"page": 3,
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"subclassShortName": "星辰（UA）",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 2,
+			"header": 1,
+			"consumes": {
+				"ENG_name": "Wild Shape",
+				"name": "荒野形态"
+			},
+			"entries": [
+				"{@i 2级星辰结社特性}",
+				"你获得利用星座的法力来改变形态的能力。以一个动作，你可以消耗一次荒野形态特性来进入星耀形态，而非变身为野兽。",
+				"当你处于星耀形态时，你保留游戏数据，但你的身体呈现出一种发光、星辰般的质量；你的关节像星星一样闪烁，发光的线状物将它们连接起来，如同星图一般。此形态会散发出10尺半径的明亮光照和额外10尺的微光光照。该形态持续10分钟或直到你处于{@condition 失能}状态。",
+				"每当你化身星耀形态时，你选择以下在你身上闪耀的星座旨意；你的选择将为你在形态中提供特定的增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Chalice",
+							"name": "圣杯座",
+							"type": "item",
+							"entry": "一个赋予生命的圣杯星座出现在你身上。每当你使用法术位施法来为一个生物恢复生命值时，你或30尺内的另一个生物可以恢复等于{@dice 1d8} + 你该职业等级一半的生命值。"
+						},
+						{
+							"ENG_name": "Archer",
+							"name": "射手座",
+							"type": "item",
+							"entry": "一个射手座的星座显现在你身上。你获得一个附赠动作，可以用来进行一次远程法术攻击，猛投一支发光的箭，目标为你60尺内能看见的一个生物。命中时，该攻击造成等于{@dice 1d8} + 你的感知调整值的光耀伤害。"
+						},
+						{
+							"ENG_name": "Dragon",
+							"name": "龙",
+							"type": "item",
+							"entry": "一个智慧远古龙的星座显现在你身上。当你进行智力或感知检定或体质豁免检定以{@status 专注}于法术时，你可以将{@dice d20}掷骰结果小于等于9视为10。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Cosmic Omen",
+			"name": "宇宙预兆",
+			"source": "UA2020SubclassesPt3",
+			"page": 3,
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"subclassShortName": "星辰（UA）",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6级星辰结社特性}",
+				"你学会使用你的星图来占卜宇宙的意志。每当你完成一次长休时，你可以查阅星图获取预兆。当你这样做时，掷一枚{@dice d6}。根据你在{@dice d6}上掷出的是偶数还是奇数，你将获得以下可能的预兆之一：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Weal (even)",
+							"name": "吉兆（偶数）",
+							"type": "item",
+							"entry": "每当你30尺内一个你能看见的生物进行攻击检定、豁免检定或属性检定时，你可以使用你的反应掷一枚{@dice d6}且将掷出的数值添加到全部。"
+						},
+						{
+							"ENG_name": "Woe (odd)",
+							"name": "凶兆（奇数）",
+							"type": "item",
+							"entry": "每当你30尺内一个你能看见的生物进行攻击检定、豁免检定或属性检定时，你可以使用你的反应掷一枚{@dice d6}并从总值中减去掷出的数值。"
+						}
+					]
+				},
+				"你可以使用此反应次数等同于你的感知调整值，且完成一次长休后恢复所有已消耗的使用次数。"
+			]
+		},
+		{
+			"ENG_name": "Full of Stars",
+			"name": "灿若繁星",
+			"source": "UA2020SubclassesPt3",
+			"page": 3,
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"subclassShortName": "星辰（UA）",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"{@i 10级星辰结社特性}",
+				"当你的星耀形态特性处于激活状态时，你会获得有限虚体，使你获得对钝击、穿刺且挥砍伤害的抗性。"
+			]
+		},
+		{
+			"ENG_name": "Star Flare",
+			"name": "星星耀斑效应",
+			"source": "UA2020SubclassesPt3",
+			"page": 3,
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"subclassShortName": "星辰（UA）",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"{@i 14级星辰结社特性}",
+				"你与宇宙的联系使你能够召唤璀璨星光。以一个动作，你在你能看见的120尺范围内的一点召唤出一团半径30尺的球状耀光爆发。你可以立即将球状区域内的每个愿意的生物传送到其30尺内的一个未占据空间。每个仍留在球状区域内的生物必须成功通过对抗你法术豁免DC的体质豁免检定，否则受到{@damage 4d10}光耀伤害且陷入{@condition 目盲}状态直到你的下个回合结束。",
+				"一旦你使用了这个动作，在完成一次长休或消耗一个5环或更高的法术位之前，你无法再次使用它。"
+			]
+		},
+		{
+			"ENG_name": "Fey Wanderer",
+			"name": "妖精漫游者",
+			"source": "UA2020SubclassesPt3",
+			"page": 5,
+			"className": "游侠",
+			"classSource": "PHB",
+			"subclassShortName": "妖精漫游者（UA）",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 3,
+			"entries": [
+				"作为妖精漫游者，你守护着妖精荒野与物质位面之间的边界，引导失落者离开妖精荒野，并防止危险的妖精破坏物质位面。你对这两个领域的体验使你成为这些世界居民之间出色的谈判者，因为你既理解类人生物的思维方式，也了解妖精法庭的诡计。",
+				"妖精漫游者拥有来自精类盟友或精类法力地点的超自然祝福。从精野之赐表格中选择你的赠礼或随机决定。",
+				{
+					"type": "table",
+					"caption": "精野之赐",
+					"colLabels": [
+						"d6",
+						"赠礼"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"在你进行长休或短休时，缥缈的蝴蝶在你周身振翅。"
+						],
+						[
+							"2",
+							"每天黎明，新鲜的、当季的花朵将在你的头发中生长。"
+						],
+						[
+							"3",
+							"你身上有淡淡的肉桂、薰衣草或肉豆蔻，或另一种令人舒适的药草或香料的香味。"
+						],
+						[
+							"4",
+							"你的影子会在没人直视它时起舞。"
+						],
+						[
+							"5",
+							"精致的角击或鹿角从你的头部长出。"
+						],
+						[
+							"6",
+							"每天黎明，你的肤色和发色会随当前季节的变化而变化。"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "妖精漫游者魔法|游侠||妖精漫游者（UA）|UA2020SubclassesPt3|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "狡黠随意|游侠||妖精漫游者（UA）|UA2020SubclassesPt3|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "哀惧灵袭|游侠||妖精漫游者（UA）|UA2020SubclassesPt3|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Cunning Will",
+			"name": "狡黠随意",
+			"source": "UA2020SubclassesPt3",
+			"page": 5,
+			"className": "游侠",
+			"classSource": "PHB",
+			"subclassShortName": "妖精漫游者（UA）",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3级妖精漫游者特性}",
+				"你与妖精的体验守护了你的心智并磨砺了你的舌卷。你在对抗{@condition 魅惑}或{@condition 恐慌}的豁免检定上具有优势。",
+				"另外，你获得下列技能之一的熟练项（由你选择）：{@skill 欺瞒}、{@skill 表演}、或{@skill 游说}。"
+			]
+		},
+		{
+			"ENG_name": "Dreadful Strikes",
+			"name": "哀惧灵袭",
+			"source": "UA2020SubclassesPt3",
+			"page": 5,
+			"className": "游侠",
+			"classSource": "PHB",
+			"subclassShortName": "妖精漫游者（UA）",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3级妖精漫游者特性}",
+				"你以源自非善良精类阴郁空洞的心灵创伤魔法增强你的攻击。你获得一个附赠动作，可用于为你当前持有的武器注入魔法。直到回合结束，这些武器变为魔法武器，且它们在命中时造成额外{@damage 1d6}心灵伤害。一个生物每回合只能承受此额外伤害一次。",
+				"当你进行双武器战斗时，你可以在使用附赠动作发动攻击的同时为武器充能。"
+			]
+		},
+		{
+			"ENG_name": "Fey Wanderer Magic",
+			"name": "妖精漫游者魔法",
+			"source": "UA2020SubclassesPt3",
+			"page": 5,
+			"className": "游侠",
+			"classSource": "PHB",
+			"subclassShortName": "妖精漫游者（UA）",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3级妖精漫游者特性}",
+				"当你在此职业中达到特定等级时，你将学习一个额外的法术，如妖精漫游者法术表格所示。该法术对你而言视为游侠法术，但它不计入你所知的游侠法术数量。",
+				{
+					"type": "table",
+					"caption": "妖精漫游者法术",
+					"colLabels": [
+						"游侠等级",
+						"法术"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell 魅惑类人}"
+						],
+						[
+							"5th",
+							"{@spell 迷踪步}"
+						],
+						[
+							"9th",
+							"{@spell 解除魔法}"
+						],
+						[
+							"13th",
+							"{@spell 放逐术}"
+						],
+						[
+							"17th",
+							"{@spell 假象术}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Blessings of the Courts",
+			"name": "法庭的祝福",
+			"source": "UA2020SubclassesPt3",
+			"page": 5,
+			"className": "游侠",
+			"classSource": "PHB",
+			"subclassShortName": "妖精漫游者（UA）",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"{@i 7级妖精漫游者特性}",
+				"你已从黄昏林地庭院和妖精荒野的夏之王庭学会了诡异的技巧。在你的每个回合中一次，当你用武器攻击命中一个生物时，你可以消耗一个法术位来造成额外心灵伤害。额外伤害是{@damage 3d6}心灵伤害且该生物必须成功通过对抗你法术豁免DC的感知豁免检定否则会陷入对你{@condition 恐慌}的状态直到你的下个回合结束。",
+				"此外，每当你进行魅力检定时，你获得等同于你感知调整值的检定加值。"
+			]
+		},
+		{
+			"ENG_name": "Beguiling Twist",
+			"name": "妖思魅缕",
+			"source": "UA2020SubclassesPt3",
+			"page": 5,
+			"className": "游侠",
+			"classSource": "PHB",
+			"subclassShortName": "妖精漫游者（UA）",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"{@i 11级妖精漫游者特性}",
+				"你学会如何操纵改变心智的魔法，将其从你的盟友引导向他人。每当你120尺内一个你能看见的生物成功通过对抗{@condition 魅惑}或{@condition 恐慌}的豁免检定时，你可以使用你的反应迫使120尺内另一个你能看见的生物对抗你的法术豁免DC进行一次感知豁免检定，若失败则遭受你选择的以下效应之一：",
+				{
+					"type": "list",
+					"items": [
+						"该生物被你{@condition 魅惑}或{@condition 恐慌}（由你选择）1分钟。该生物可以在其每个回合结束时重复豁免检定，若豁免成功则终止对其自身的效应。",
+						"该生物受到{@damage 3d10}心灵伤害。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Misty Presence",
+			"name": "雾蒙蒙存在",
+			"source": "UA2020SubclassesPt3",
+			"page": 5,
+			"className": "游侠",
+			"classSource": "PHB",
+			"subclassShortName": "妖精漫游者（UA）",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"{@i 15级妖精漫游者特性}",
+				"你可以魔法般地从一个生物的察觉中移除自己：你获得一个附赠动作，可以用它来强迫一个你能看见的30尺内的生物进行一次对抗你法术豁免DC的感知豁免检定。豁免失败时，目标在24小时内看不见也听不见你。目标可以在你以攻击检定命中它、强迫它进行豁免检定或对它造成伤害的任何回合结束时重复豁免检定。如果你再次使用这个附赠动作，效应提前结束。豁免成功时，目标在7天内对此特性免疫。",
+				"一旦你使用了这个附赠动作，在完成一次长休或消耗一个4环或更高环位的法术位之前，你无法再次使用它。"
+			]
+		},
+		{
+			"ENG_name": "Armorer",
+			"name": "装甲师",
+			"source": "UA2020SubclassesPt3",
+			"page": 1,
+			"className": "奇械师",
+			"classSource": "TCE",
+			"subclassShortName": "装甲师（UA）",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 3,
+			"entries": [
+				"对于装甲师专业的奇械师来说，装甲就像是第二层皮肤。这一装甲能够增强奇械师的魔法，释放强力的攻击，产生绝佳的防护。这些奇械师与他们的装甲之间有着强力的纽带，在他们经过实验并改进装甲的魔法性能后，甚至能够合二为一。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "行业工具|奇械师|TCE|装甲师（UA）|UA2020SubclassesPt3|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "装甲师法术|奇械师|TCE|装甲师（UA）|UA2020SubclassesPt3|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "法力护甲|奇械师|TCE|装甲师（UA）|UA2020SubclassesPt3|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "装甲型号|奇械师|TCE|装甲师（UA）|UA2020SubclassesPt3|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Armor Model",
+			"name": "装甲型号",
+			"source": "UA2020SubclassesPt3",
+			"page": 1,
+			"className": "奇械师",
+			"classSource": "TCE",
+			"subclassShortName": "装甲师（UA）",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3级装甲师特性}",
+				"你可以定制你的法力护甲。当你这样做时，从以下装甲型号中选择一项：守护者或渗透者。你选择的型号会在你穿戴时给予你特殊增益。",
+				"每个装甲型号包含一件特殊武器。当你使用该武器攻击时，你可以使用智力调整值，而非力量或敏捷，来进行攻击且伤害掷骰。",
+				"你可以在完成短休或长休时改变你的法力护甲型号，前提是你手上有{@item 铁匠工具|PHB}。",
+				{
+					"ENG_name": "Guardian",
+					"name": "守护者",
+					"type": "entries",
+					"entries": [
+						"你将装甲设计为冲突的前线。它具有以下特性：",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"ENG_name": "Thunder Gauntlets",
+									"name": "雷霆战拳",
+									"type": "item",
+									"entry": "你的装甲双拳各自视为简易近战武器，且每次命中时造成{@damage 1d8}雷鸣伤害。被战拳命中的生物在对其他目标进行攻击检定时具有劣势，直至你的下个回合开始，因为当该生物攻击其他目标时护甲会魔法般地发出涣散脉冲。"
+								},
+								{
+									"ENG_name": "Defensive Field",
+									"name": "防护场",
+									"type": "item",
+									"entry": "你获得一个可以在每个回合使用的附赠动作，以获得等同于你该职业等级的临时生命值，取代你已有的任何临时生命值。如果你卸除该护甲，你将失去这些临时生命值。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ENG_name": "Infiltrator",
+					"name": "渗透者",
+					"type": "entries",
+					"entries": [
+						"你出于某些特殊需要对你的装甲进行了定制。它拥有下列特性：",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"ENG_name": "Lightning Launcher",
+									"name": "闪电发射器",
+									"type": "item",
+									"entry": "你在胸部或覆盖装甲的拳头（根据你的选择）上安装了一个宝石状的节点。它被视为一件简易远程武器，它拥有90尺的常规射程和300尺的最大射程，在命中后会造成{@damage 1d6}闪电伤害。每个你的回合一次，你在通过闪电发射器命中一个生物时，能够额外造成{@damage 1d6}闪电伤害。"
+								},
+								{
+									"ENG_name": "Powered Steps",
+									"name": "动力步伐",
+									"type": "item",
+									"entry": "你的步行速度增加5尺。"
+								},
+								{
+									"ENG_name": "Second Skin",
+									"name": "第二形态",
+									"type": "item",
+									"entry": "该装甲的重量可以忽略不计，且能变得贴身并可在衣物下穿戴。若该护甲通常会对敏捷（{@skill 隐匿}）检定施加劣势，此法力护甲则不会。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Armorer Spells",
+			"name": "装甲师法术",
+			"source": "UA2020SubclassesPt3",
+			"page": 1,
+			"className": "奇械师",
+			"classSource": "TCE",
+			"subclassShortName": "装甲师（UA）",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3级装甲师特性}",
+				"只要你达到相应的职业等级，装甲师法术表格中的法术总是被视为已准备。这些法术对你来说是奇械师法术，且不会计入你可准备法术的总数。",
+				{
+					"type": "table",
+					"caption": "装甲师法术",
+					"colLabels": [
+						"奇械师等级",
+						"法术"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell 魔法飞弹}, {@spell 护盾术}"
+						],
+						[
+							"5th",
+							"{@spell 镜影术}, {@spell 粉碎音波}"
+						],
+						[
+							"9th",
+							"{@spell 催眠图纹}, {@spell 闪电束}"
+						],
+						[
+							"13th",
+							"{@spell 火焰护盾}, {@spell 高等隐形术}"
+						],
+						[
+							"17th",
+							"{@spell 穿墙术}, {@spell 力场墙}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Power Armor",
+			"name": "法力护甲",
+			"source": "UA2020SubclassesPt3",
+			"page": 1,
+			"className": "奇械师",
+			"classSource": "TCE",
+			"subclassShortName": "装甲师（UA）",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3级装甲师特性}",
+				"你的冶金研究使你能够将护甲作为奇械师魔法的导管。以一个动作，你可以将你穿着的一套重甲转化为法力护甲，前提是你手中有{@item 铁匠工具|PHB}。",
+				"当你穿着法力护甲时，获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"如果护甲通常有力量要求，法力护甲对你则无此要求。",
+						"你可以将法力护甲作为奇械师法术的法器使用。",
+						"法力护甲附着于你且无法违背你的意愿被移除。它还会扩展以掩护你的整个身体，且会替换任何缺失的肢体，功能与被替换的身体部分完全相同。"
+					]
+				},
+				"该护甲会持续保持为法力护甲，直到你卸除它、装着另一套盔甲套装或死亡。"
+			]
+		},
+		{
+			"ENG_name": "Tools of the Trade",
+			"name": "行业工具",
+			"source": "UA2020SubclassesPt3",
+			"page": 1,
+			"className": "奇械师",
+			"classSource": "TCE",
+			"subclassShortName": "装甲师（UA）",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3级装甲师特性}",
+				"你获得重甲的熟练。你同时获得{@item 铁匠工具|PHB}的熟练，如果你已经熟练于此工具，作为代替，你能获得另一种{@item 工匠工具|PHB}的熟练。"
+			]
+		},
+		{
+			"ENG_name": "Extra Attack",
+			"name": "额外攻击",
+			"source": "UA2020SubclassesPt3",
+			"page": 1,
+			"className": "奇械师",
+			"classSource": "TCE",
+			"subclassShortName": "装甲师（UA）",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 5,
+			"header": 2,
+			"entries": [
+				"{@i 5级装甲师特性}",
+				"你在自己回合内执行{@action 攻击}动作时可以发动两次攻击而非一次。"
+			]
+		},
+		{
+			"ENG_name": "Armor Modifications",
+			"name": "装甲改造",
+			"source": "UA2020SubclassesPt3",
+			"page": 1,
+			"className": "奇械师",
+			"classSource": "TCE",
+			"subclassShortName": "装甲师（UA）",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"{@i 9级装甲师特性}",
+				"你学会了如何利用奇械师注法来特殊改造由你的法力护甲特性增强的护甲。该护甲现在对你的注法物品特性而言视为独立的物品：护甲（胸甲部分）、靴子、护腕和武器。这些物品每件都可以承载你的一个注法。此外，你同时能注法的物品最大数量增加2，但这些额外物品必须是你的法力护甲的一部分。"
+			]
+		},
+		{
+			"ENG_name": "Perfected Armor",
+			"name": "完美装甲",
+			"source": "UA2020SubclassesPt3",
+			"page": 1,
+			"className": "奇械师",
+			"classSource": "TCE",
+			"subclassShortName": "装甲师（UA）",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"{@i 15级装甲师特性}",
+				"你的法力护甲根据其模型获得额外增益，如下方所示。",
+				{
+					"ENG_name": "Guardian",
+					"name": "守护者",
+					"type": "entries",
+					"entries": [
+						"你摆弄装甲的能量系统时发现了一种强大的拉拽力场。当一个你能看见的生物在你30尺内结束其回合时，你可以使用你的反应迫使该生物进行一次对抗你法术豁免DC的力量豁免检定，若失败则被拉拽至多30尺向你移动到一个未占据空间。如果你将目标拉拽至你5尺内的空间，你可以作为此反应的一部分对其发动一次近战武器攻击。",
+						"你可以使用此反应的次数等同于你的智力调整值（至少1次）。完成一次长休后，你将恢复所有已消耗的使用次数。"
+					]
+				},
+				{
+					"ENG_name": "Infiltrator",
+					"name": "渗透者",
+					"type": "entries",
+					"entries": [
+						"任何生物若受到你的闪电发射器造成的闪电伤害，将在你的下个回合开始前发出微光。发光的生物会在5尺半径内散发出微光光照，且其他生物对其进行的下一次攻击检定具有优势。如果该攻击命中，将额外造成{@damage 1d6}闪电伤害。"
+					]
+				}
+			]
+		}
+	],
+	"optionalfeature": [
+		{
+			"ENG_name": "Armor of Magical Strength",
+			"name": "魔法力量护甲",
+			"source": "UA2020SubclassesPt3",
+			"page": 3,
+			"featureType": [
+				"AI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 10,
+						"class": {
+							"ENG_name": "Artificer",
+							"name": "奇械师"
+						}
+					},
+					"item": [
+						"一套盔甲（需要同调）"
+					]
+				}
+			],
+			"entries": [
+				"当穿着这件护甲时，生物在进行力量检定和力量豁免检定时可以用其智力调整值代替力量调整值。",
+				"该护甲有4充能。当穿戴者将被击倒{@condition 倒地}时，可消耗1充能以反应动作避免被击倒{@condition 倒地}。护甲每日拂晓时恢复{@dice 1d4}已消耗的充能。"
+			]
+		},
+		{
+			"ENG_name": "Armor of Tools",
+			"name": "工具护甲",
+			"source": "UA2020SubclassesPt3",
+			"page": 3,
+			"featureType": [
+				"AI"
+			],
+			"prerequisite": [
+				{
+					"item": [
+						"盔甲套装"
+					]
+				}
+			],
+			"entries": [
+				"作为一个动作，穿着这件灌注护甲的生物可以将{@filter 工匠工具|items|source=phb|miscellaneous=寻常|type=工匠工具}或{@item 盗贼工具|PHB}整合到护甲中。这些工具会在护甲中保持整合状态8小时，或穿戴者以一个动作移除工具为止。护甲一次只能整合一个工具。",
+				"穿戴者可以将其智力调整值添加到使用集成工具进行的任何属性检定中。穿戴者必须有一只手空闲才能使用该工具。"
+			]
+		},
+		{
+			"ENG_name": "Helm of Awareness",
+			"name": "警觉之盔",
+			"source": "UA2020SubclassesPt3",
+			"page": 3,
+			"featureType": [
+				"AI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 10,
+						"class": {
+							"ENG_name": "Artificer",
+							"name": "奇械师"
+						}
+					},
+					"item": [
+						"一件头盔（需要同调）"
+					]
+				}
+			],
+			"entries": [
+				"穿戴这顶头盔时，生物在先攻检定上具有优势。此外，只要穿戴者未处于{@condition 失能}状态，就不会被{@quickref 突袭|PHB|3|0|突袭}。"
+			]
+		},
+		{
+			"ENG_name": "Mind Sharpener",
+			"name": "思维砥石",
+			"source": "UA2020SubclassesPt3",
+			"page": 3,
+			"featureType": [
+				"AI"
+			],
+			"prerequisite": [
+				{
+					"item": [
+						"一套盔甲或法袍"
+					]
+				}
+			],
+			"entries": [
+				"这件灌注物品可以向穿戴者发出一道电击以重新集中其注意力。穿戴此灌注物品时，每当该生物在维持法术的{@status 专注}状态时进行体质豁免检定失败，它可以改为使用反应来成功通过检定。"
+			]
+		},
+		{
+			"ENG_name": "Spell-Refueling Ring",
+			"name": "法力恢复戒指",
+			"source": "UA2020SubclassesPt3",
+			"page": 3,
+			"featureType": [
+				"AI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 6,
+						"class": {
+							"ENG_name": "Artificer",
+							"name": "奇械师"
+						}
+					},
+					"item": [
+						"一枚戒指（需要同调）"
+					]
+				}
+			],
+			"entries": [
+				"佩戴这枚戒指时，该生物可以以一个动作恢复一个已消耗的法术位。恢复的法术位最高等级等于佩戴者当前同调的魔法物品数量。一旦使用，该戒指在下次拂晓前无法再次使用。"
+			]
+		}
+	]
+}

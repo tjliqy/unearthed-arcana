@@ -1,0 +1,1250 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAStarterSpells",
+				"abbreviation": "UASS",
+				"full": "破解奥秘：初始法术",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2017/dnd/downloads/UA-Starter-Spells.pdf",
+				"dateReleased": "2017-04-03"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1729637619,
+		"_dateLastModifiedHash": "528447cfc0"
+	},
+	"spell": [
+		{
+			"ENG_name": "Cause Fear (UA)",
+			"name": "造成恐惧 (UA)",
+			"source": "UAStarterSpells",
+			"page": 2,
+			"level": 1,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"你唤醒射程内一个你能看到的生物对死亡的感知。目标必须成功通过一次智力豁免检定，否则在法术持续期间变得{@condition 恐慌}。生命值25点或更少的目标在豁免检定中处于劣势。该法术对构装生物或不死生物无效。"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Warlock",
+						"name": "魔契师",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Wizard",
+						"name": "法师",
+						"source": "PHB"
+					}
+				]
+			},
+			"conditionInflict": [
+				"恐慌"
+			],
+			"savingThrow": [
+				"感知"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"ENG_name": "Ceremony (UA)",
+			"name": "仪式（UA）",
+			"source": "UAStarterSpells",
+			"page": 2,
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "小时"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "价值25金币的银粉",
+					"cost": 2500
+				}
+			},
+			"duration": [
+				{
+					"type": "instant",
+					"condition": "查看文本"
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"你执行几种宗教仪式中的一个。当你施放这个法术时，选择以下仪式之一，其目标在整个施法过程中必须在你10英尺范围内。",
+				{
+					"ENG_name": "Atonement",
+					"name": "赎罪",
+					"type": "entries",
+					"entries": [
+						"你触摸一个愿意的生物，其阵营已经发生了变化，并且你进行一次DC 20的智力（{@skill 洞悉}）检定。如果成功，你将目标恢复到其原始阵营。"
+					]
+				},
+				{
+					"ENG_name": "Bless Water",
+					"name": "祝福圣水",
+					"type": "entries",
+					"entries": [
+						"你接触一个{@item 小瓶|phb}装的水，并将它转变为{@item 圣水(扁瓶装)|phb|圣水}。"
+					]
+				},
+				{
+					"ENG_name": "Coming of Age",
+					"name": "成人礼",
+					"type": "entries",
+					"entries": [
+						"你触摸一个年龄足以成为年轻成年人的类人生物。在接下来的24小时内，每当目标进行属性检定时，它可以掷一个{@dice d4}并将掷出的数字加到属性检定上。一个生物只能从这个仪式中受益一次。"
+					]
+				},
+				{
+					"ENG_name": "Dedication",
+					"name": "献身",
+					"type": "entries",
+					"entries": [
+						"你触摸一个愿意转换为你的宗教信仰或希望奉献给你的神服务的类人生物。在接下来的24小时内，每当目标进行豁免检定时，它可以掷一个{@dice d4}并将掷出的数字加到豁免检定上。一个生物只能从这个仪式中受益一次。"
+					]
+				},
+				{
+					"ENG_name": "Funeral Rite",
+					"name": "葬礼",
+					"type": "entries",
+					"entries": [
+						"你祝福在你5英尺范围内的一具尸体。在接下来的24小时内，目标无法通过任何手段变成不死生物，除非使用{@spell 祈愿术}法术。"
+					]
+				},
+				{
+					"ENG_name": "Investiture",
+					"name": "临终遗赠",
+					"type": "entries",
+					"entries": [
+						"你触摸一个愿意的类人生物。选择一个你已准备的1环法术，并消耗一个法术位和任何材料成分，就好像你正在施放那个法术一样。这个法术没有效果。相反，目标可以施放这个法术一次，而不需要消耗法术位或使用材料成分。如果目标在1小时内不施放这个法术，投入的法术就会失效。"
+					]
+				},
+				{
+					"ENG_name": "Marriage",
+					"name": "婚姻",
+					"type": "entries",
+					"entries": [
+						"你触摸愿意结合成婚的成年类人生物。在接下来的24小时内，只要他们彼此在30英尺范围内，每个目标在AC和豁免检定上获得+2的加值。一个生物只能从这个仪式中受益一次。"
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Cleric",
+						"name": "牧师",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Paladin",
+						"name": "圣武士",
+						"source": "PHB"
+					}
+				]
+			},
+			"affectsCreatureType": [
+				"类人生物"
+			],
+			"miscTags": [
+				"MAC"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"ENG_name": "Chaos Bolt (UA)",
+			"name": "混沌之箭（UA）",
+			"source": "UAStarterSpells",
+			"page": 2,
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"你对射程内的一个生物投掷一团波动的、颤动的混沌能量。对目标进行远程法术攻击。击中时，目标受到{@damage 2d8}点伤害。选择一个{@dice d8}。它掷出的数字决定了伤害的类型，如下所示。",
+				{
+					"type": "table",
+					"caption": "混乱箭",
+					"colLabels": [
+						"{@dice d8}",
+						"伤害类型"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 1
+								}
+							},
+							"强酸"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 2
+								}
+							},
+							"寒冷"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 3
+								}
+							},
+							"火焰"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 4
+								}
+							},
+							"力场"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 5
+								}
+							},
+							"闪电"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 6
+								}
+							},
+							"毒素"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 7
+								}
+							},
+							"心灵"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 8
+								}
+							},
+							"雷鸣"
+						]
+					]
+				},
+				"如果你掷出的两个{@dice d8}的数字相同，混乱能量就会从目标跳到它30英尺范围内你选择的另一个生物上。对新目标重新进行攻击掷骰，并进行新的伤害掷骰，这可能会导致混乱能量再次跳跃。一个生物只能被这团混乱能量目标化一次。"
+			],
+			"entriesHigherLevel": [
+				{
+					"ENG_name": "At Higher Levels",
+					"name": "升环施法效应",
+					"type": "entries",
+					"entries": [
+						"当你使用2级或更高级别的法术位施放这个法术时，每个目标会额外受到与掷骰类型相对应的伤害。额外伤害等于每超过1级的法术位增加{@scaledamage 2d8|1-9|1d6}点。"
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Sorcerer",
+						"name": "术士",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"强酸",
+				"寒冷",
+				"火焰",
+				"力场",
+				"闪电",
+				"毒素",
+				"心灵",
+				"雷鸣"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"miscTags": [
+				"RO"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"ENG_name": "Guiding Hand (UA)",
+			"name": "指引之手（UA）",
+			"source": "UAStarterSpells",
+			"page": 3,
+			"level": 1,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "分钟"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					},
+					"concentration": true
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"你在射程内能看到的未被占据的空间中创造出一个微小的、由闪烁的光组成的无形之手。这只手在法术持续时间内存在，但如果你传送或前往不同的存在层面，它会消失。",
+				"当这只手出现时，你指定一个主要地标，比如城市、山脉、城堡或战场，它必须和你处于同一存在平面上。历史上必须有人访问过这个地点并绘制了地图。如果这个地标在任何现存的地图上都没有出现，法术就会失败。否则，每当你向手移动时，它会以你移动的相同速度远离你，并且朝地标的方向移动，始终与你保持5英尺的距离。",
+				"如果你不向手移动，它会保持在原地，直到你移动，并在每{@dice 1d4}分钟召唤你一次，让你跟随。"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Bard",
+						"name": "吟游诗人",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Cleric",
+						"name": "牧师",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Druid",
+						"name": "德鲁伊",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Wizard",
+						"name": "法师",
+						"source": "PHB"
+					}
+				]
+			},
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"ENG_name": "Hand of Radiance (UA)",
+			"name": "光辉之手（UA）",
+			"source": "UAStarterSpells",
+			"page": 3,
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"你举起手，炽热的光辉从你的手中爆发出来。你可以选择范围内5英尺内你能看到的每个生物，他们必须成功进行一次体质豁免检定，否则会受到{@damage 1d6}点光耀伤害。",
+				"你到达5级时，该法术的伤害增加{@dice 1d6}（变为{@damage 2d6}）。11 级时再加 1d6（变为 {@damage 3d6}），17 级时再加 1d6（变为 {@damage 4d6}）。"
+			],
+			"scalingLevelDice": {
+				"label": "光耀伤害",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Cleric",
+						"name": "牧师",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"光耀"
+			],
+			"savingThrow": [
+				"体质"
+			],
+			"miscTags": [
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"S"
+			]
+		},
+		{
+			"ENG_name": "Healing Elixir (UA)",
+			"name": "治疗药水（UA）",
+			"source": "UAStarterSpells",
+			"page": 3,
+			"level": 1,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "分钟"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "炼金工具"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 24
+					}
+				}
+			],
+			"entries": [
+				"你在手中创造出一个简单的小瓶，里面装有治疗药水。药水在持续时间内或直到被消耗时保持其效力，之后小瓶会消失。",
+				"作为一个动作，一个生物可以喝下这个药剂，或者将其给予另一个生物。喝下药剂的生物恢复{@dice 2d4 + 2}点生命值。"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Warlock",
+						"name": "魔契师",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Wizard",
+						"name": "法师",
+						"source": "PHB"
+					}
+				]
+			},
+			"miscTags": [
+				"HL"
+			]
+		},
+		{
+			"ENG_name": "Infestation (UA)",
+			"name": "寄生（UA）",
+			"source": "UAStarterSpells",
+			"page": 3,
+			"level": 0,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "一只活跳蚤"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"你让一只在你范围内你能看到的生物身上瞬间出现螨虫、跳蚤和其他寄生虫。目标必须成功进行一次体质豁免检定，否则受到{@damage 1d6}点穿刺伤害。如果目标受到了该伤害，它将随机移动5英尺。掷一个{@dice d8}来决定方向：1，北；2，东北；3，东；4，东南；5，南；6，西南；7，西；或8，西北。",
+				"你到达5级时，该法术的伤害增加{@dice 1d6}（变为{@damage 2d6}）。11 级时再加 1d6（变为 {@damage 3d6}），17 级时再加 1d6（变为 {@damage 4d6}）。"
+			],
+			"scalingLevelDice": {
+				"label": "穿刺伤害",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Druid",
+						"name": "德鲁伊",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Sorcerer",
+						"name": "术士",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Warlock",
+						"name": "魔契师",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Wizard",
+						"name": "法师",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"穿刺"
+			],
+			"savingThrow": [
+				"体质"
+			],
+			"miscTags": [
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"ENG_name": "Primal Savagery (UA)",
+			"name": "原始野性（UA）",
+			"source": "UAStarterSpells",
+			"page": 3,
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"你的牙齿或指甲变长并变得锋利。你可以选择其一。对5英尺范围内的一个生物进行一次近战法术攻击。击中时，目标受到{@damage 1d10}点穿刺或挥砍伤害（由你选择）。攻击完成后，你的牙齿或指甲恢复原状。",
+				"你到达5级时，该法术的伤害增加{@dice 1d10}（变为{@damage 2d10}）。11 级时再加 1d10（变为 {@damage 3d10}），17 级时再加 1d10（变为 {@damage 4d10}）。"
+			],
+			"scalingLevelDice": {
+				"label": "穿刺伤害",
+				"scaling": {
+					"1": "1d10",
+					"5": "2d10",
+					"11": "3d10",
+					"17": "4d10"
+				}
+			},
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Druid",
+						"name": "德鲁伊",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"穿刺",
+				"挥砍"
+			],
+			"spellAttack": [
+				"M"
+			],
+			"miscTags": [
+				"SCL"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"ENG_name": "Puppet (UA)",
+			"name": "傀儡术（UA）",
+			"source": "UAStarterSpells",
+			"page": 3,
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"你的手势迫使范围内你能看到的一个类人生物进行一次体质豁免检定。如果豁免失败，目标必须按照你选择的方向移动，距离最多为其速度值。此外，你可以让目标放下它所持有的任何物品。这个法术对免疫{@condition 魅惑}状态的类人生物无效。"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Bard",
+						"name": "吟游诗人",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Warlock",
+						"name": "魔契师",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Wizard",
+						"name": "法师",
+						"source": "PHB"
+					}
+				]
+			},
+			"savingThrow": [
+				"体质"
+			],
+			"affectsCreatureType": [
+				"类人生物"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"ENG_name": "Sense Emotion (UA)",
+			"name": "感知情感 (UA)",
+			"source": "UAStarterSpells",
+			"page": 4,
+			"level": 1,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"在法术持续时间内，你调整自己的感知来捕捉他人的情绪。当你施放法术时，以及在法术结束前的每一回合，你可以将感知集中在你能看到的30英尺范围内的一个类人生物上。你会立即了解目标的主要情绪，无论是爱、愤怒、痛苦、恐惧、平静还是其他情绪。如果目标实际上不是类人生物，或者它对{@condition 魅惑}免疫，你会感觉到它是平静的。"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Warlock",
+						"name": "魔契师",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Wizard",
+						"name": "法师",
+						"source": "PHB"
+					}
+				]
+			},
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"ENG_name": "Snare (UA)",
+			"name": "圈套术 (UA)",
+			"source": "UAStarterSpells",
+			"page": 4,
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "分钟"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "30英尺长的绳索或绳线，被法术消耗",
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "permanent",
+					"ends": [
+						"解除",
+						"触发"
+					]
+				}
+			],
+			"entries": [
+				"当你施放这个法术时，你使用绳索或绳子在你触及范围内的平坦表面上创建一个5英尺半径的圆圈。当你完成施法时，绳索或绳子消失，变成一个魔法陷阱。",
+				"这个陷阱几乎看不见，需要进行一次成功的智力（{@skill 调查}）检定，对抗你的法术豁免DC，才能被发现。当一个小型或更大的生物移动到受法术保护的区域时，陷阱就会触发。",
+				"触发的生物必须成功通过一次敏捷豁免检定，否则陷入{@condition 倒地}状态并被吊起到空中，直到它倒挂在被保护表面上方的3英尺处，在那里它被{@condition 束缚}。",
+				"处于{@condition 束缚}状态的生物可以在其每个回合结束时进行一次劣势敏捷豁免检定，成功则结束{@condition 束缚}效果。或者，另一个能够触及处于{@condition 束缚}状态的生物可以使用一个动作来进行一次智力（{@skill 奥秘}）检定，对抗你的法术豁免DC。成功则同样结束{@condition 束缚}效果。"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Druid",
+						"name": "德鲁伊",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Ranger",
+						"name": "游侠",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Wizard",
+						"name": "法师",
+						"source": "PHB"
+					}
+				]
+			},
+			"conditionInflict": [
+				"倒地",
+				"束缚"
+			],
+			"savingThrow": [
+				"敏捷"
+			],
+			"abilityCheck": [
+				"智力"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"ENG_name": "Sudden Awakening (UA)",
+			"name": "惊醒 (UA)",
+			"source": "UAStarterSpells",
+			"page": 4,
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "附赠动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"范围内你选择的每个熟睡生物都会醒来，然后范围内每个处于{@condition 倒地}状态的生物可以不消耗任何移动来站立起来。"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Bard",
+						"name": "吟游诗人",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Ranger",
+						"name": "游侠",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Sorcerer",
+						"name": "术士",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Wizard",
+						"name": "法师",
+						"source": "PHB"
+					}
+				]
+			},
+			"areaTags": [
+				"MT"
+			]
+		},
+		{
+			"ENG_name": "Toll the Dead (UA)",
+			"name": "召唤死者（UA）",
+			"source": "UAStarterSpells",
+			"page": 4,
+			"level": 0,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"你指向一个处于距离内、你能看见的生物，一阵哀痛的铃声在空中鸣响。目标必须通过一次感知豁免检定，否则受到{@damage 1d8}点暗蚀伤害。若目标失去了任何量的生命值，它改为受到{@damage 1d12}点暗蚀伤害。",
+				"此法术的伤害在你达到 5 级（{@damage 2d8} 或 {@damage 2d12}），11 级（{@damage 3d8} 或 {@damage 3d12}），和 17 级（{@damage 4d8} 或 {@damage 4d12}）时提高一个伤害骰。"
+			],
+			"scalingLevelDice": [
+				{
+					"label": "暗蚀伤害",
+					"scaling": {
+						"1": "1d8",
+						"5": "2d8",
+						"11": "3d8",
+						"17": "4d8"
+					}
+				},
+				{
+					"label": "对受伤生物的暗蚀伤害",
+					"scaling": {
+						"1": "1d12",
+						"5": "2d12",
+						"11": "3d12",
+						"17": "4d12"
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Cleric",
+						"name": "牧师",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Warlock",
+						"name": "魔契师",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"暗蚀"
+			],
+			"savingThrow": [
+				"感知"
+			],
+			"miscTags": [
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"ENG_name": "Unearthly Chorus (UA)",
+			"name": "超凡合唱（UA）",
+			"source": "UAStarterSpells",
+			"page": 4,
+			"level": 1,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"你选择风格的音乐在你周围30英尺范围内弥漫开来。音乐可以绕过角落，并且可以在100英尺外的地方被听到。音乐随着你的移动而移动，在整个持续时间内以你为中心。",
+				"直到法术结束，你在进行魅力（{@skill 表演}）检定时具有优势。此外，你可以在每个回合使用一个额外动作来迷惑你选择的30英尺范围内能看到你并听到音乐的一个生物。该生物必须进行一次魅力豁免检定。如果你或你的同伴正在攻击它，该生物自动成功豁免。如果失败，该生物在能听到音乐的期间以及此后1小时内对你变得友好。你对通过这个法术变得友好的生物进行魅力（{@skill 欺瞒}）检定和魅力（{@skill 游说}）检定时具有优势。"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Bard",
+						"name": "吟游诗人",
+						"source": "PHB"
+					}
+				]
+			},
+			"savingThrow": [
+				"魅力"
+			],
+			"miscTags": [
+				"UBA"
+			],
+			"areaTags": [
+				"S"
+			]
+		},
+		{
+			"ENG_name": "Virtue (UA)",
+			"name": "美德（UA）",
+			"source": "UAStarterSpells",
+			"page": 5,
+			"level": 0,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你触摸一个生物，赋予它活力。如果目标至少有1点生命值，它将获得等于{@dice 1d4} + 你的法术施放能力调整值的临时生命值。当法术结束时，这些临时生命值会消失。"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Cleric",
+						"name": "牧师",
+						"source": "PHB"
+					}
+				]
+			},
+			"miscTags": [
+				"THP"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"ENG_name": "Wild Cunning (UA)",
+			"name": "野外智慧（UA）",
+			"source": "UAStarterSpells",
+			"page": 5,
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"你呼唤自然之灵来帮助你。当你施放这个法术时，选择以下效果之一：",
+				{
+					"type": "list",
+					"items": [
+						"如果在射程范围内的地面上有任何足迹，你会知道它们的位置，并且在接下来的1小时或直到你再次施放这个法术之前，你进行智力（{@skill 求生}）检定时具有优势。",
+						"如果范围内有可食用的野生食物，你知道它是什么以及在哪里找到它。",
+						"如果在射程范围内有清洁的饮用水，你会知道它的存在以及在哪里可以找到它。",
+						"如果在范围内有适合你和你的同伴的避难所，你会知道它的位置并能找到它。",
+						"派遣精灵去收集木材生火，并使用你的物资在该区域搭建营地。精灵们会在石头圈中生火，搭建帐篷，铺开睡袋，并摆放出任何食物和水供食用。",
+						"让精灵立即拆除营地，包括扑灭火堆、拆除帐篷、打包行李以及埋葬任何垃圾。"
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Druid",
+						"name": "德鲁伊",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Ranger",
+						"name": "游侠",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"ENG_name": "Zephyr Strike (UA)",
+			"name": "和风打击（UA）",
+			"source": "UAStarterSpells",
+			"page": 5,
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "附赠动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"你像风一样移动。在持续时间内，你的移动不会引发机会攻击。",
+				"此外，在法术结束前，你在自己回合第一次进行武器攻击时，攻击检定具有优势，并且你的速度在该回合结束前增加30英尺。"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Ranger",
+						"name": "游侠",
+						"source": "PHB"
+					}
+				]
+			}
+		}
+	]
+}

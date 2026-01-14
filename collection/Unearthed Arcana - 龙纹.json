@@ -1,0 +1,2114 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UADragonmarks",
+				"abbreviation": "UADrgM",
+				"full": "破解奥秘：龙纹",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Lyra [he/him]"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2018/dnd/downloads/UA_Dragonmarks.pdf",
+				"dateReleased": "2018-09-10"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1732050258,
+		"dateLastModified": 1733837795,
+		"_dateLastModifiedHash": "85192d3dc9"
+	},
+	"subrace": [
+		{
+			"ENG_name": "Mark of Warding",
+			"name": "警戒龙纹",
+			"source": "UADragonmarks",
+			"raceName": "矮人",
+			"raceSource": "PHB",
+			"page": 7,
+			"reprintedAs": [
+				"矮人 (警戒龙纹)|ERLW"
+			],
+			"ability": [
+				{
+					"dex": 1,
+					"int": 1
+				}
+			],
+			"traitTags": [
+				"龙纹",
+				"技能加值骰",
+				"工具加值骰"
+			],
+			"additionalSpells": [
+				{
+					"ability": "int",
+					"known": {
+						"1": {
+							"ritual": [
+								"警报术"
+							]
+						},
+						"3": {
+							"daily": {
+								"1": [
+									"秘法锁"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Master of Locks",
+					"name": "锁之大师",
+					"type": "entries",
+					"entries": [
+						"当你进行涉及枷锁和陷阱机制的智力（{@skill 历史}）、智力（{@skill 调查}）或{@item 盗贼工具|PHB}检定时，你可以掷一颗直觉骰，即{@dice d4}，并将掷出的数值添加到属性检定中。"
+					]
+				},
+				{
+					"ENG_name": "Wards and Seals",
+					"name": "警卫封印",
+					"type": "entries",
+					"entries": [
+						"你可以使用你的龙纹以仪式施放{@spell 警报术}。从3级开始，你可以使用此特质施放一次{@spell 秘法锁}，且完成一次长休后恢复该能力。智力是你施放这些法术的施法属性。"
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Mark of Shadow",
+			"name": "阴影龙纹",
+			"source": "UADragonmarks",
+			"raceName": "精灵",
+			"raceSource": "PHB",
+			"page": 6,
+			"reprintedAs": [
+				"精灵 (阴影龙纹)|ERLW"
+			],
+			"ability": [
+				{
+					"cha": 1
+				}
+			],
+			"traitTags": [
+				"龙纹",
+				"技能加值骰",
+				"技能熟练",
+				"工具熟练"
+			],
+			"skillToolLanguageProficiencies": [
+				{
+					"anyMusicalInstrument": 1
+				},
+				{
+					"performance": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "cha",
+					"known": {
+						"1": [
+							"次级幻象#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Natural Talent",
+					"name": "天赋",
+					"type": "entries",
+					"entries": [
+						"你获得一个{@filter 乐器|items|source=|type=乐器|category=|miscellaneous=}或{@skill 表演}技能的熟练项。"
+					]
+				},
+				{
+					"ENG_name": "Gift of the Shadows",
+					"name": "幽影赠礼",
+					"type": "entries",
+					"entries": [
+						"当你进行魅力（{@skill 表演}）或敏捷（{@skill 隐匿}）检定时，你可以掷一颗直觉骰，即{@dice d4}，并将掷出的数值添加到该属性检定上。"
+					]
+				},
+				{
+					"ENG_name": "Shape Shadows",
+					"name": "阴影塑形",
+					"type": "entries",
+					"entries": [
+						"你知晓{@spell 次级幻象}戏法。魅力是你此项特质的施法属性。"
+					]
+				},
+				{
+					"ENG_name": "Slip Into Shadow",
+					"name": "遁入幽影",
+					"type": "entries",
+					"entries": [
+						"你可以使用{@action 躲藏}动作作为附赠动作，即使你没有掩护或处于被观察状态。无论成功与否，一旦使用此能力，在完成一次短休或长休前无法再次使用。"
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Mark of Scribing",
+			"name": "抄录龙纹",
+			"source": "UADragonmarks",
+			"raceName": "侏儒",
+			"raceSource": "PHB",
+			"page": 5,
+			"reprintedAs": [
+				"侏儒 (抄录龙纹)|ERLW"
+			],
+			"ability": [
+				{
+					"cha": 1
+				}
+			],
+			"traitTags": [
+				"龙纹",
+				"工具加值骰",
+				"工具熟练"
+			],
+			"languageProficiencies": [
+				{
+					"any": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"calligrapher's supplies": true,
+					"forgery kit": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"1": {
+							"daily": {
+								"1": [
+									"通晓语言"
+								]
+							}
+						}
+					},
+					"ability": "int",
+					"known": {
+						"1": [
+							"传讯术#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Gifted Scribe",
+					"name": "天才文员",
+					"type": "entries",
+					"entries": [
+						"你熟练使用{@item 书法工具|PHB}和{@item 文书伪造工具|PHB|文书伪造工具}。当你使用其中一种工具进行属性检定时，你可以掷一颗直觉骰，即{@dice d4}，并将掷骰结果添加到属性检定中。"
+					]
+				},
+				{
+					"ENG_name": "Scribe's Insight",
+					"name": "文员领悟",
+					"type": "entries",
+					"entries": [
+						"你可以通过此特质施放一次{@spell 通晓语言}，且完成一次长休后恢复该能力。智力是其施法属性。"
+					]
+				},
+				{
+					"ENG_name": "Whispering Wind",
+					"name": "风语",
+					"type": "entries",
+					"entries": [
+						"你知晓{@spell 传讯术}戏法。智力是你的施法属性。"
+					]
+				},
+				{
+					"ENG_name": "Extra Language",
+					"name": "额外语言",
+					"type": "entries",
+					"entries": [
+						"你能说、读且写一门自选的额外语言。"
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Variant; Mark of Detection",
+			"name": "变体; 侦测龙纹",
+			"source": "UADragonmarks",
+			"raceName": "半精灵",
+			"raceSource": "PHB",
+			"page": 2,
+			"reprintedAs": [
+				"半精灵 (变体; 侦测龙纹)|ERLW"
+			],
+			"ability": [
+				{
+					"int": 1,
+					"cha": 1,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 1
+					}
+				}
+			],
+			"traitTags": [
+				"龙纹",
+				"语言熟练项",
+				"技能加值骰"
+			],
+			"skillProficiencies": null,
+			"languageProficiencies": [
+				{
+					"common": true,
+					"elvish": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"1": {
+							"ritual": [
+								"侦测魔法",
+								"侦测毒性和疾病"
+							]
+						}
+					},
+					"ability": "int"
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Deductive Intuition",
+					"name": "推理直觉",
+					"type": "entries",
+					"entries": [
+						"当你进行智力（{@skill 调查}）或感知（{@skill 洞悉}）检定时，你可以掷一颗直觉骰，即{@dice d4}，并将掷骰结果添加到属性检定中。"
+					],
+					"data": {
+						"overwrite": "多才多艺"
+					}
+				},
+				{
+					"ENG_name": "Sense Threats",
+					"name": "感知威胁",
+					"type": "entries",
+					"entries": [
+						"你可以施放{@spell 侦测魔法}和{@spell 侦测毒性和疾病}法术，但仅限作为仪式。智力是你施放这些法术的施法属性。"
+					]
+				},
+				{
+					"ENG_name": "Languages",
+					"name": "语言",
+					"type": "entries",
+					"entries": [
+						"你可以说、读且写{@language 通用语}和{@language 精灵语}。"
+					],
+					"data": {
+						"overwrite": "语言"
+					}
+				}
+			],
+			"overwrite": {
+				"ability": true,
+				"languageProficiencies": true
+			},
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Variant; Mark of Storm",
+			"name": "变体; 暴风龙纹",
+			"source": "UADragonmarks",
+			"raceName": "半精灵",
+			"raceSource": "PHB",
+			"page": 6,
+			"reprintedAs": [
+				"半精灵 (变体; 暴风龙纹)|ERLW"
+			],
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"ability": [
+				{
+					"cha": 1,
+					"dex": 1,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 1
+					}
+				}
+			],
+			"traitTags": [
+				"龙纹",
+				"技能加值骰",
+				"工具加值骰"
+			],
+			"skillProficiencies": null,
+			"languageProficiencies": [
+				{
+					"common": true,
+					"elvish": true
+				}
+			],
+			"resist": [
+				"闪电"
+			],
+			"additionalSpells": [
+				{
+					"ability": "cha",
+					"known": {
+						"1": [
+							"舞风术|XGE#c"
+						],
+						"3": {
+							"daily": {
+								"1": [
+									"造风术"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Sea Monkey",
+					"name": "海洋猴",
+					"type": "entries",
+					"entries": [
+						"你的基础步行速度为30尺，且你拥有30尺的游泳速度。"
+					]
+				},
+				{
+					"ENG_name": "Windwright's Intuition",
+					"name": "驭风者直觉",
+					"type": "entries",
+					"entries": [
+						"当你进行敏捷（{@skill 特技}）检定或任何涉及操作或维护{@filter 水或空中载具|items|source=phb;dmg|miscellaneous=寻常|type=载具（风）；载具（水）}的属性检定时，你可以掷一颗直觉骰，即{@dice d4}，并将掷出的数值添加到该属性检定上。"
+					],
+					"data": {
+						"overwrite": "多才多艺"
+					}
+				},
+				{
+					"ENG_name": "Storm's Blessing",
+					"name": "风暴祝福",
+					"type": "entries",
+					"entries": [
+						"你获得闪电伤害的抗性。"
+					]
+				},
+				{
+					"ENG_name": "Headwinds",
+					"name": "逆风行事",
+					"type": "entries",
+					"entries": [
+						"你知晓{@spell 舞风术|XGE}戏法。当你达到3级时，你可以用此特质施放一次{@spell 造风术}法术，并在完成一次长休后重新获得该能力。"
+					]
+				},
+				{
+					"ENG_name": "Languages",
+					"name": "语言",
+					"type": "entries",
+					"entries": [
+						"你可以说、读且写{@language 通用语}和{@language 精灵语}。"
+					],
+					"data": {
+						"overwrite": "语言"
+					}
+				}
+			],
+			"overwrite": {
+				"ability": true
+			},
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Variant; Mark of Finding",
+			"name": "变体; 探索龙纹",
+			"source": "UADragonmarks",
+			"raceName": "半兽人",
+			"raceSource": "PHB",
+			"page": 2,
+			"reprintedAs": [
+				"半兽人 (变体; 探索龙纹)|ERLW",
+				"人类 (变体; 探索龙纹)|ERLW"
+			],
+			"ability": [
+				{
+					"str": 1,
+					"wis": 1,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 1
+					}
+				}
+			],
+			"traitTags": [
+				"龙纹",
+				"技能加值骰"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"ritual": [
+								"动植物定位术"
+							]
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Hunter's Intuition",
+					"name": "猎人直觉",
+					"type": "entries",
+					"entries": [
+						"你的龙纹增强了你的感官且帮助你找到猎物。当你进行一次感知（{@skill 察觉}）或感知（{@skill 求生}）检定时，你可以掷一颗直觉骰，一枚{@dice d4}，并将掷出的数值添加到该属性检定上。"
+					],
+					"data": {
+						"overwrite": "凶恶"
+					}
+				},
+				{
+					"ENG_name": "Imprint Prey",
+					"name": "猎物印记",
+					"type": "entries",
+					"entries": [
+						"以一个附赠动作，选择你能看见的30尺内的一个生物。该目标会被印记在你的脑海中，直到它死亡或你再次使用此特质。或者，当你成功通过一次感知（{@skill 求生}）检定来追踪一个生物时，你可以将其印记为你的猎物。",
+						"当你追踪你的猎物时，你的直觉骰结果翻倍。当你的猎物在你60尺范围内时，你会对其位置有大致感知。你对它的攻击忽略半身掩护。当你攻击看不见的目标时，看不见目标不会使你的攻击检定处于劣势。同样地，你的猎物也不会因为处于隐藏或{@condition 隐形}状态而在对你进行攻击检定时获得优势。使用此特质后，直到你完成一次短休或长休前都无法再次使用。"
+					],
+					"data": {
+						"overwrite": "坚韧不屈"
+					}
+				},
+				{
+					"ENG_name": "Nature's Voice",
+					"name": "自然之声",
+					"type": "entries",
+					"entries": [
+						"当你达到3级时，你获得施放{@spell 动植物定位术}的能力，但只能作为仪式。"
+					],
+					"data": {
+						"overwrite": "凶蛮攻击"
+					}
+				}
+			],
+			"overwrite": {
+				"ability": true
+			},
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Mark of Healing",
+			"name": "医疗龙纹",
+			"source": "UADragonmarks",
+			"raceName": "半身人语",
+			"raceSource": "PHB",
+			"page": 3,
+			"reprintedAs": [
+				"半身人 (医疗龙纹)|ERLW"
+			],
+			"ability": [
+				{
+					"wis": 1
+				}
+			],
+			"traitTags": [
+				"龙纹",
+				"技能加值骰",
+				"工具加值骰"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"1": [
+							"维生术#c"
+						]
+					},
+					"ability": "wis"
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Medical Intuition",
+					"name": "医疗直觉",
+					"type": "entries",
+					"entries": [
+						"当你进行感知（{@skill 医药}）检定时，你可以掷一颗直觉骰，即{@dice d4}，且将掷出的数值添加到该属性检定上。"
+					]
+				},
+				{
+					"ENG_name": "Healing Touch",
+					"name": "治愈之触",
+					"type": "entries",
+					"entries": [
+						"作为一个动作，你可以从你的龙纹中汲取法力来掷一颗生命骰并复苏你自己或一个你接触的生物。掷骰，添加你的感知调整值，且该生物恢复等于该数值的生命值。一旦你使用了这个特质，直到你完成一次短休或长休前都不能再次使用它。"
+					]
+				},
+				{
+					"ENG_name": "Jorasco's Blessing",
+					"name": "乔拉斯克的祝福",
+					"type": "entries",
+					"entries": [
+						"你知晓戏法{@spell 维生术}。感知是你的施法属性。"
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Mark of Hospitality",
+			"name": "招待龙纹",
+			"source": "UADragonmarks",
+			"raceName": "半身人语",
+			"raceSource": "PHB",
+			"page": 4,
+			"reprintedAs": [
+				"半身人 (招待龙纹)|ERLW"
+			],
+			"ability": [
+				{
+					"cha": 1
+				}
+			],
+			"traitTags": [
+				"龙纹",
+				"技能加值骰",
+				"工具加值骰"
+			],
+			"additionalSpells": [
+				{
+					"ability": "cha",
+					"known": {
+						"1": [
+							"交友术#c",
+							"魔法伎俩#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Innkeeper's Charms",
+					"name": "旅店老板的护咒",
+					"type": "entries",
+					"entries": [
+						"你知晓戏法{@spell 交友术}和{@spell 魔法伎俩}。魅力是你施展它们的施法属性。"
+					]
+				},
+				{
+					"ENG_name": "Ever Hospitable",
+					"name": "永恒款待",
+					"type": "entries",
+					"entries": [
+						"当你进行魅力（{@skill 游说}）检定或涉及{@item 酿酒工具|PHB}或{@item 厨师工具|PHB}的属性检定时，你可以掷一颗直觉骰（一枚{@dice d4}）并将掷骰数值添加到属性检定中。"
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Mark of Handling",
+			"name": "畜牧龙纹",
+			"source": "UADragonmarks",
+			"raceName": "人类",
+			"raceSource": "PHB",
+			"page": 3,
+			"reprintedAs": [
+				"人类 (畜牧龙纹)|ERLW"
+			],
+			"ability": [
+				{
+					"dex": 1,
+					"wis": 1,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 1
+					}
+				}
+			],
+			"traitTags": [
+				"龙纹",
+				"技能加值骰"
+			],
+			"additionalSpells": [
+				{
+					"ability": "wis",
+					"known": {
+						"1": {
+							"rest": {
+								"1": [
+									"化兽为友"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Wild Intuition",
+					"name": "野性直觉",
+					"type": "entries",
+					"entries": [
+						"当你进行感知（{@skill 驯兽}）或智力（{@skill 自然}）检定时，你可以掷一颗直觉骰，即{@dice d4}，并将掷骰结果添加到属性检定数值上。"
+					]
+				},
+				{
+					"ENG_name": "Expert Handling",
+					"name": "畜牧专家",
+					"type": "entries",
+					"entries": [
+						"你可以使用{@action 协助}动作来协助30尺内的盟友动物同伴或乘骑，而非5尺内的目标。"
+					]
+				},
+				{
+					"ENG_name": "Primal Connection",
+					"name": "原初联结",
+					"type": "entries",
+					"entries": [
+						"你可以使用此特质施放一次{@spell 化兽为友}，并在完成一次短休或长休后恢复该能力。感知是你施放该法术的施法属性。"
+					]
+				},
+				{
+					"ENG_name": "The Bigger They Are",
+					"name": "大点而已",
+					"type": "entries",
+					"entries": [
+						"当你施法一个仅影响野兽的法术时，它也会影响{@filter 智力值为3或更低的怪兽|bestiary|source=|Challenge Rating=[&0;&3]|type=monstrosity|miscellaneous=}。"
+					]
+				}
+			],
+			"overwrite": {
+				"ability": true
+			},
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Mark of Making",
+			"name": "创造龙纹",
+			"source": "UADragonmarks",
+			"raceName": "人类",
+			"raceSource": "PHB",
+			"page": 4,
+			"reprintedAs": [
+				"人类 (创造龙纹)|ERLW"
+			],
+			"ability": [
+				{
+					"int": 1,
+					"dex": 1,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 1
+					}
+				}
+			],
+			"traitTags": [
+				"龙纹",
+				"技能加值骰",
+				"工具加值骰",
+				"工具熟练"
+			],
+			"toolProficiencies": [
+				{
+					"anyArtisansTool": 1
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "int",
+					"known": {
+						"1": [
+							"修复术#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Artisan's Intuition",
+					"name": "工匠直觉",
+					"type": "entries",
+					"entries": [
+						"当你使用{@filter 工匠工具|items|source=phb|miscellaneous=寻常|type=工匠工具}进行属性检定时，掷{@dice 1d4}并将结果添加到检定结果上。"
+					]
+				},
+				{
+					"ENG_name": "Maker's Gift",
+					"name": "匠师天赋",
+					"type": "entries",
+					"entries": [
+						"你知晓戏法{@spell 修复术}。你获得一种工匠工具的熟练。"
+					]
+				},
+				{
+					"ENG_name": "Magecraft",
+					"name": "法术技艺",
+					"type": "entries",
+					"entries": [
+						"你可以用普通材质创造一个临时的魔法物品。从{@filter 法师法术列表中的戏法|spells|source=|level=0|class=法师|components & miscellaneous=}。描述与之相关的物品。只要你拥有该物品，你就知道那个戏法。在一次长休结束时，你可以用一个新的物品替换它，并从法师法术列表中选择一个新的戏法。智力是这些戏法的施法属性。"
+					]
+				},
+				{
+					"ENG_name": "Spellsmith",
+					"name": "魔力制造",
+					"type": "entries",
+					"entries": [
+						"你可以花费1分钟将临时惑控效果编织进一件非魔法的盔甲套装或武器。在接下来的1小时内，该物件变为魔法物品，若是护甲则AC获得+1加值，若是武器则命中和伤害获得+1加值。使用此特质后，直至完成一次长休前无法再次使用。"
+					]
+				}
+			],
+			"overwrite": {
+				"ability": true
+			},
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Mark of Passage",
+			"name": "通行龙纹",
+			"source": "UADragonmarks",
+			"raceName": "人类",
+			"raceSource": "PHB",
+			"page": 4,
+			"reprintedAs": [
+				"人类 (通行龙纹)|ERLW"
+			],
+			"speed": 40,
+			"ability": [
+				{
+					"dex": 2,
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 1
+					}
+				}
+			],
+			"traitTags": [
+				"龙纹"
+			],
+			"entries": [
+				{
+					"ENG_name": "Courier's Speed",
+					"name": "信使极速",
+					"type": "entries",
+					"entries": [
+						"你的基础步行速度提升至40尺。"
+					]
+				},
+				{
+					"ENG_name": "Intuitive Motion",
+					"name": "直觉行动",
+					"type": "entries",
+					"entries": [
+						"当你进行一次力量（{@skill 运动}）检定或任何操作或维护{@filter 陆地载具|items|source=phb;dmg|miscellaneous=寻常|type=载具(陆地)}的属性检定时，你可以掷一颗直觉骰，即{@dice d4}，并将掷骰结果加到该属性检定上。"
+					]
+				},
+				{
+					"ENG_name": "Orien's Grace",
+					"name": "欧瑞恩的恩典",
+					"type": "entries",
+					"entries": [
+						"在你的回合中，你可以消耗等于你速度一半的移动力来激活此特质。一旦你激活欧瑞恩的恩典，你在该回合的剩余时间内不会引发{@action 借机攻击|PHB|借机攻击}。"
+					]
+				},
+				{
+					"ENG_name": "Shared Passage",
+					"name": "共享通行",
+					"type": "entries",
+					"entries": [
+						"你可以使用你的附赠动作传送至多你的速度距离到一个你能看见的未占据空间。你可以携带一个愿意的体型与你相同或更小的生物，该生物可以携带不超过其载重的装备。该生物必须在你5尺范围内。一旦你使用了这个特质，你必须完成一次长休才能再次使用它。"
+					]
+				}
+			],
+			"overwrite": {
+				"ability": true
+			},
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Mark of Sentinel",
+			"name": "守护龙纹",
+			"source": "UADragonmarks",
+			"raceName": "人类",
+			"raceSource": "PHB",
+			"page": 5,
+			"reprintedAs": [
+				"人类 (守护龙纹)|ERLW"
+			],
+			"ability": [
+				{
+					"str": 1,
+					"wis": 1,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 1
+					}
+				}
+			],
+			"traitTags": [
+				"龙纹",
+				"技能加值骰"
+			],
+			"additionalSpells": [
+				{
+					"ability": "wis",
+					"innate": {
+						"1": [
+							"剑刃防护#c"
+						]
+					},
+					"known": {
+						"1": {
+							"rest": {
+								"1": [
+									"护盾术"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Sentinel's Intuition",
+					"name": "守卫直觉",
+					"type": "entries",
+					"entries": [
+						"当你为先攻掷骰或进行感知（{@skill 察觉}）检定以发现威胁时，你可以掷一个直觉骰，即{@dice d4}，并将掷出的数值添加到属性检定中。"
+					]
+				},
+				{
+					"ENG_name": "Sentinel's Shield",
+					"name": "哨兵护盾",
+					"type": "entries",
+					"entries": [
+						"你知晓{@spell 剑刃防护}戏法。你可以用此特质施放一次{@spell 护盾术}法术，且完成一次短休或长休后恢复该能力。"
+					]
+				},
+				{
+					"ENG_name": "Vigilant Guardian",
+					"name": "警醒护卫",
+					"type": "entries",
+					"entries": [
+						"以一个动作，你可以指定一个你能看见的盟友作为你的护卫目标。你在感知（{@skill 洞悉}）和感知（{@skill 察觉}）检定上有优势，用于侦察对你的护卫目标的威胁。此外，当你距离你的护卫目标5尺内，且该生物成为你能看见的攻击目标时，你可以使用你的反应与你的护卫目标交换位置。当你这样做时，你将成为该攻击的目标。"
+					]
+				}
+			],
+			"overwrite": {
+				"ability": true
+			},
+			"hasFluff": true
+		}
+	],
+	"raceFluff": [
+		{
+			"ENG_name": "Dwarf (Mark of Warding)",
+			"name": "矮人 (警戒龙纹)",
+			"source": "UADragonmarks",
+			"entries": [
+				"警戒龙纹协助其持有者保护有价值的事物。使用该龙纹，矮人可以用秘术师的力场编织大区并封印传送门。它还赋予持有者对用于保护和封印的锁和机构的直观理解。每个继承人必须做出的决定是他们将使用这种法力来确保事物安全，还是他们对打开锁并获取里面的东西更感兴趣。",
+				"警戒龙纹仅在矮人身上显现。如果你的角色拥有警戒龙纹，这就是你的矮人亚种。"
+			]
+		},
+		{
+			"ENG_name": "Elf (Mark of Shadow)",
+			"name": "精灵 (阴影龙纹)",
+			"source": "UADragonmarks",
+			"entries": [
+				"阴影龙纹让精灵能够从幽影中编织幻象，创造声响和图像来干扰或取悦他人。该龙纹还允许其持有者利用幽影，使其容易避免侦测甚至在众目睽睽下消失。这对{@background 艺人}、{@background 间谍}或刺客来说都是宝贵的工具；每个拥有它的精灵都必须决定要追随哪条路途。",
+				"阴影龙纹仅显现在精灵身上。如果你的角色拥有阴影龙纹，这就是你的精灵亚种。"
+			]
+		},
+		{
+			"ENG_name": "Gnome (Mark of Scribing)",
+			"name": "侏儒 (抄录龙纹)",
+			"source": "UADragonmarks",
+			"entries": [
+				"抄录龙纹涉及沟通方式\u2014\u2014包括书面语和口语。携带该龙纹的侏儒可以感知文字如同它们是活体生物，努力表达它们的含义。该龙纹提供一系列能力。它不仅能翻译语言，还能让携带者远距离与他人交谈并将他们的文字刻在任何他们祈愿术的地方。",
+				"抄录龙纹仅在侏儒身上显现。如果你的角色拥有抄录龙纹，这就是你的侏儒亚种。"
+			]
+		},
+		{
+			"ENG_name": "Half-Elf (Variant; Mark of Detection)",
+			"name": "半精灵 (变体; 侦测龙纹)",
+			"source": "UADragonmarks",
+			"entries": [
+				"侦测龙纹是调查员梦寐以求的东西。它会提升观察能力和直觉，让持有者找出别人可能会忽略的潜在联系和线索。通过积极利用它的力量，持有者可以侦测毒素和研究魔法的能量。",
+				"侦测龙纹仅在半精灵身上显现。如果你的角色拥有侦测龙纹，这些特质将取代《{@book 玩家手册|PHB}》中半精灵的属性值加成、多才多艺和语言特质。"
+			]
+		},
+		{
+			"ENG_name": "Half-Elf (Variant; Mark of Storm)",
+			"name": "半精灵 (变体; 暴风龙纹)",
+			"source": "UADragonmarks",
+			"entries": [
+				"风势且饮水欢迎携带风暴龙纹的半精灵。风会在他们坠落时接住他们，且他们能以惊人的速度游泳。那些拥有高等龙纹和龙晶专注物品者能召唤更强大的力量，塑造天气并呼唤暴风法力。",
+				"暴风龙纹仅在半精灵身上显现。如果你的角色拥有侦测龙纹，这些特质将取代《{@book 玩家手册|PHB}》中半精灵的属性值加成、多才多艺和语言特质。"
+			]
+		},
+		{
+			"ENG_name": "Half-Orc (Variant; Mark of Finding)",
+			"name": "半兽人 (变体; 探索龙纹)",
+			"source": "UADragonmarks",
+			"entries": [
+				"探索龙纹强化了载有者的感官，指引追猎者找到他们的猎物。在艾伯伦，它最初出现在幽影沼泽，那里的氏族追猎者用它来寻找猎物。这个标记协助联合了沼泽中的人类和兽人，并将萨拉释克家族带入了五国。",
+				"探索龙纹仅在半兽人身上显现。如果你的角色拥有探索龙纹，这些特质将取代{@book 玩家手册|PHB}中提供的属性值加成、凶恶、坚韧不屈和凶蛮攻击。尽管有着兽人血统，探索龙纹的继承者在外貌和性情上往往更像他们的人类双亲。当你创建你的角色时，决定你的兽人血统特征是明显还是精妙。"
+			]
+		},
+		{
+			"ENG_name": "Halfling (Mark of Healing)",
+			"name": "半身人 (医疗龙纹)",
+			"source": "UADragonmarks",
+			"entries": [
+				"一个拥有医疗龙纹的半身人可以通过接触挽救生命，恢复活力与生存意志。在处理寻常医药时，龙纹能帮助持有者感知疾病和痛苦的本质并找到最佳解决方案。当通过龙晶专注物品增强时，龙纹甚至能将死者复生。",
+				"医疗龙纹仅在半身人身上显现。如果你的角色拥有医疗龙纹，这就是你的半身人亚种。"
+			]
+		},
+		{
+			"ENG_name": "Halfling (Mark of Hospitality)",
+			"name": "半身人 (招待龙纹)",
+			"source": "UADragonmarks",
+			"entries": [
+				"他们可能并不总是拥有金，但一个拥有招待龙纹的半身人必定交友术丰富。龙纹的魔法使持有者能够保持地点清洁，且能够高温、彻骨冻寒和调味进食。但它也协助持有者与他人建立联系，设定困扰的心灵得以放松\u2014\u2014这是一个强大的工具，但如果滥用可能会引起愤怒。",
+				"招待龙纹仅在半身人身上显现。如果你的角色拥有招待龙纹，这就是你的半身人亚种。"
+			]
+		},
+		{
+			"ENG_name": "Human (Mark of Handling)",
+			"name": "人类 (畜牧龙纹)",
+			"source": "UADragonmarks",
+			"entries": [
+				"畜牧龙纹赋予其持有者与野兽和自然世界的原初联结，授予安抚和劝诱的法力。这不仅限于纯粹的天然动物；该标记允许其持有者引导一只{@creature 鹫马}如同引导一匹{@creature 乘用马||马}一样容易。",
+				"畜牧龙纹仅显现在人类身上。如果你的角色拥有畜牧龙纹，这些特质将取代《{@book 玩家手册|PHB}》中人类属性值加成的特质。"
+			]
+		},
+		{
+			"ENG_name": "Human (Mark of Making)",
+			"name": "人类 (创造龙纹)",
+			"source": "UADragonmarks",
+			"entries": [
+				"创造龙纹能够在任何制造活动中引导持有者。持有者能够通过触碰修复破损的物品，同时还能长期保有一个他们一直在制作的弱效魔法物品。奇械师或法师能从龙纹中获得最大收益，但任何人都能发现附魔过的武器的用处。",
+				"创造龙纹仅显现在人类身上。如果你的角色拥有创造龙纹，这些特质将取代{@book 玩家手册|PHB}中人类属性值加成的特质。"
+			]
+		},
+		{
+			"ENG_name": "Human (Mark of Passage)",
+			"name": "人类 (通行龙纹)",
+			"source": "UADragonmarks",
+			"entries": [
+				"通行龙纹掌控运动，使其持有者能以惊人的速度和精准移动。奔跑、跳跃、攀爬\u2014\u2014通行龙纹增强所有形态的移动力。该龙纹的持有者甚至能滑过空间，在眨眼间从一点闪现到另一点。",
+				"通行龙纹仅显现在人类身上。如果你的角色拥有通行龙纹，这些特质将取代{@book 玩家手册|PHB}中人类属性值加成的特质。"
+			]
+		},
+		{
+			"ENG_name": "Human (Mark of Sentinel)",
+			"name": "人类 (守护龙纹)",
+			"source": "UADragonmarks",
+			"entries": [
+				"守护龙纹会警告并保护其持有者。它能增强感官和反应能力，让继承人能以不可思议的速度应对威胁。它可以保护持有者免受伤害。无论是在战场还是舞厅，携带守护龙纹的人都时刻准备应对危险。",
+				"守护龙纹仅显现在人类身上。如果你的角色拥有守护龙纹，这些特质将取代人类在{@book 玩家手册|PHB}中给出的属性值加成的特质。"
+			]
+		}
+	],
+	"feat": [
+		{
+			"ENG_name": "Aberrant Dragonmark",
+			"name": "异种龙纹",
+			"source": "UADragonmarks",
+			"page": 9,
+			"reprintedAs": [
+				"异种龙纹|ERLW"
+			],
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "无现有龙纹",
+						"entrySummary": "无龙纹"
+					}
+				}
+			],
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "con",
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|class=术士"
+									}
+								]
+							}
+						}
+					},
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=术士"
+							}
+						]
+					}
+				}
+			],
+			"entries": [
+				"你已显现出一个异种龙纹。决定其外貌及与之相关的缺点。你获得以下增益。",
+				{
+					"type": "list",
+					"items": [
+						"你从{@filter 来自术士法术列表的戏法|spells|level=0|class=术士}中习得一个戏法。此外，从{@filter 来自术士法术列表的1环法术|spells|level=1|class=术士}中选择一个一环法术。你习得该法术并能以其最低等级施放。一旦施放该法术，你必须完成一次长休后才能再次施放。这些法术的施法属性为体质。",
+						"你可以以自身生命力为风险来增强异种龙纹法术的法力。当你用异种龙纹标记施放法术时，你可以使用一个生命骰来使法术等级提升1级。施放法术后立即掷骰，你受到等同于掷骰数值的伤害。"
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Greater Dragonmark",
+			"name": "高等龙纹",
+			"source": "UADragonmarks",
+			"page": 7,
+			"prerequisite": [
+				{
+					"level": 8,
+					"otherSummary": {
+						"entry": "角色必须拥有一个龙纹",
+						"entrySummary": "龙纹"
+					}
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"cha",
+							"int"
+						],
+						"amount": 1
+					},
+					"hidden": true
+				},
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"str",
+							"wis"
+						],
+						"amount": 1
+					},
+					"hidden": true
+				},
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"wis"
+						],
+						"amount": 1
+					},
+					"hidden": true
+				},
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"wis"
+						],
+						"amount": 1
+					},
+					"hidden": true
+				},
+				{
+					"choose": {
+						"from": [
+							"cha",
+							"dex"
+						],
+						"amount": 1
+					},
+					"hidden": true
+				},
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"int"
+						],
+						"amount": 1
+					},
+					"hidden": true
+				},
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"con"
+						],
+						"amount": 1
+					},
+					"hidden": true
+				},
+				{
+					"choose": {
+						"from": [
+							"int",
+							"cha"
+						],
+						"amount": 1
+					},
+					"hidden": true
+				},
+				{
+					"choose": {
+						"from": [
+							"str",
+							"wis"
+						],
+						"amount": 1
+					},
+					"hidden": true
+				},
+				{
+					"choose": {
+						"from": [
+							"cha",
+							"dex"
+						],
+						"amount": 1
+					},
+					"hidden": true
+				},
+				{
+					"choose": {
+						"from": [
+							"cha",
+							"dex"
+						],
+						"amount": 1
+					},
+					"hidden": true
+				},
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"int"
+						],
+						"amount": 1
+					},
+					"hidden": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"ENG_name": "Detection",
+					"name": "侦测",
+					"ability": "int",
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"识破隐形",
+									"真知术"
+								]
+							}
+						}
+					}
+				},
+				{
+					"ENG_name": "Finding",
+					"name": "发现",
+					"ability": "wis",
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"寻路术",
+									"生物定位术"
+								]
+							}
+						}
+					}
+				},
+				{
+					"ENG_name": "Handling",
+					"name": "操控",
+					"ability": "wis",
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"野兽感官",
+									"支配野兽"
+								]
+							}
+						}
+					}
+				},
+				{
+					"ENG_name": "Healing",
+					"name": "治疗",
+					"ability": "wis",
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"高等复原术",
+									"群体治愈真言"
+								]
+							}
+						}
+					}
+				},
+				{
+					"ENG_name": "Hospitality",
+					"name": "好客",
+					"ability": "cha",
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"魔邓肯豪宅术",
+									"庇护术"
+								]
+							}
+						}
+					}
+				},
+				{
+					"ENG_name": "Making",
+					"name": "创造",
+					"ability": "int",
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"造物术",
+									"鬼斧神工"
+								]
+							}
+						}
+					}
+				},
+				{
+					"ENG_name": "Passage",
+					"name": "通行",
+					"ability": "con",
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"闪现术",
+									"传送法阵"
+								]
+							}
+						}
+					}
+				},
+				{
+					"ENG_name": "Scribing",
+					"name": "抄写",
+					"ability": "int",
+					"innate": {
+						"_": {
+							"rest": {
+								"1e": [
+									"短讯术",
+									"巧言术"
+								]
+							}
+						}
+					}
+				},
+				{
+					"ENG_name": "Sentinel",
+					"name": "哨兵",
+					"ability": "wis",
+					"innate": {
+						"_": {
+							"rest": {
+								"1e": [
+									"强令对决",
+									"守护之链"
+								]
+							}
+						}
+					}
+				},
+				{
+					"ENG_name": "Shadow",
+					"name": "幽影",
+					"ability": "cha",
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"回避侦测",
+									"假象术"
+								]
+							}
+						}
+					}
+				},
+				{
+					"ENG_name": "Storm",
+					"name": "风暴",
+					"ability": "cha",
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"操控水体",
+									"操控风力|XGE"
+								]
+							}
+						}
+					}
+				},
+				{
+					"ENG_name": "Warding",
+					"name": "守卫",
+					"ability": "int",
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"守卫刻文",
+									"敲击术",
+									"李欧蒙秘藏箱"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"你的龙纹在体型和法力上有所增长。这会增强你现有的龙纹，且增益基于你已拥有的标记。高等龙纹提供以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你的龙纹直觉骰的骰子类型增加一个。",
+						"将一个属性值提高1点，最高不超过20。你可用的属性基于你的标记，如{@table 高等龙纹增益|UADragonmarks}表格所示。",
+						"你学会一组法术，每个法术可以施放一次而不消耗法术位或使用材料成分。这些法术的列表、施法属性以及你必须完成的休息类型以重新获得这些法术的使用权，均显示在{@table 高等龙纹增益|UADragonmarks}表格上。"
+					]
+				},
+				{
+					"ENG_name": "Greater Dragonmark Benefits",
+					"name": "高等龙纹增益",
+					"type": "statblock",
+					"tag": "table",
+					"source": "UADragonmarks",
+					"page": 7
+				}
+			],
+			"hasFluff": true
+		}
+	],
+	"featFluff": [
+		{
+			"ENG_name": "Aberrant Dragonmark",
+			"name": "异种龙纹",
+			"source": "UADragonmarks",
+			"entries": [
+				"十二学会的龙纹与特定血统绑定并通过家族传承。它们可靠且可预测，其力量具有建设性。它们创造；它们医疗；它们保护。",
+				"但还有另一种龙纹：这种标记既不可预测又对持有者和周围的人都很危险。拥有这种标记的人可以通过接触杀人或用一瞥控制心智。异种龙纹通常出现在来自不同龙纹家族的人生育的孩子身上，因此十二学会绝对禁止这种结合。但异种龙纹可以出现在任何种族、任何年龄的成员身上，与血统无关。没有两个异种龙纹是完全相同的；即使它们赋予相同的法力，它们也可能以不同的方式显现和表现。如果两个异种标记可能都赋予{@spell 火焰箭}，一个标记可能由疤痕组织形成，而另一个则以寒冷火焰的线状出现在皮肤上。",
+				"虽然异种龙纹可能令人不安，但表面上异种龙纹似乎并不比术士的力量更危险或更具威胁性。那么，是什么使它们变得重要？异种龙纹总是有缺陷。这些缺陷可能不会主动伤害角色，但它们总是以某种方式成为一种咒缚\u2014\u2014这种咒缚可能会驱使意志薄弱的人陷入疯狂。如果你发展出一个异种龙纹，你可以从这个列表中选择一个缺点，或者你和DM可以共同创造一个独特的缺点。",
+				{
+					"ENG_name": "Aberrant Mark Flaw",
+					"name": "异种龙纹缺点",
+					"type": "statblock",
+					"tag": "table",
+					"source": "UADragonmarks",
+					"page": 8
+				}
+			]
+		},
+		{
+			"ENG_name": "Greater Dragonmark",
+			"name": "高等龙纹",
+			"source": "UADragonmarks",
+			"entries": [
+				"该{@feat 高等龙纹|UADragonmarks}专长代表龙纹的进化\u2014\u2014龙纹的体型和赋予的力量都呈指数级增长。",
+				"只有一小部分龙纹继承者能发展出{@feat 高等龙纹|UADragonmarks}。他们所拥有的力量比作为魔法经济基础的广泛魔法更强大。传送、跨越庞大距离的立即沟通方式\u2014\u2014这些服务都是珍稀、非凡且主要专属于龙纹家族的。"
+			]
+		}
+	],
+	"table": [
+		{
+			"ENG_name": "Aberrant Mark Flaw",
+			"name": "异种龙纹缺点",
+			"source": "UADragonmarks",
+			"page": 8,
+			"colLabels": [
+				"1d8",
+				"异种龙纹缺点"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"你的标记是持续苦痛的来源。"
+				],
+				[
+					"2",
+					"你的标记向你低语，尽管你可能不理解它在说什么。"
+				],
+				[
+					"3",
+					"在压力状态下，你的标记可能会无意间触发一个戏法效应。"
+				],
+				[
+					"4",
+					"你标记周围的皮肤有着不寻常的外貌：烧伤、鳞状、枯萎等。"
+				],
+				[
+					"5",
+					"寻常动物在你周围会变得不安。"
+				],
+				[
+					"6",
+					"每当你使用你的标记时，你都会有剧烈的情绪波动。"
+				],
+				[
+					"7",
+					"每次使用标记时，你的外貌都会发生一些细微的变化。"
+				],
+				[
+					"8",
+					"你使用龙纹后会做可怕的噩梦。"
+				]
+			]
+		},
+		{
+			"ENG_name": "Dragonmark Quirks",
+			"name": "龙纹的外观",
+			"source": "UADragonmarks",
+			"page": 2,
+			"colLabels": [
+				"1d6",
+				"怪癖"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"你的龙纹异常小型或显著大型。"
+				],
+				[
+					"2",
+					"你的龙纹在你的身体上缓慢移动。"
+				],
+				[
+					"3",
+					"你的龙纹在使用时会发出耀眼的光芒。"
+				],
+				[
+					"4",
+					"当你靠近拥有相同龙纹的人时，你的龙纹会感到刺痛。"
+				],
+				[
+					"5",
+					"你的龙纹在使用时会发痒。"
+				],
+				[
+					"6",
+					"你的龙纹颜色异常但形状正常。"
+				]
+			]
+		},
+		{
+			"ENG_name": "Greater Dragonmark Benefits",
+			"name": "高等龙纹增益",
+			"source": "UADragonmarks",
+			"page": 7,
+			"colLabels": [
+				"龙纹",
+				"属性值加成",
+				"法术",
+				"施法属性",
+				"需要休息"
+			],
+			"colStyles": [
+				"col-2",
+				"col-3",
+				"col-3",
+				"col-2",
+				"col-2"
+			],
+			"rows": [
+				[
+					"{@race 半精灵 (变体; 侦测龙纹)|UADragonmarks|侦测}",
+					"魅力或智力",
+					"{@spell 识破隐形}, {@spell 真知术}",
+					"智力",
+					"长"
+				],
+				[
+					"{@race 半兽人 (变体; 探索龙纹)|UADragonmarks|发现}",
+					"敏捷、力量或感知",
+					"{@spell 寻路术}, {@spell 生物定位术}",
+					"感知",
+					"长"
+				],
+				[
+					"{@race 人类 (畜牧龙纹)|UADragonmarks|操控}",
+					"敏捷或感知",
+					"{@spell 野兽感官}, {@spell 支配野兽}",
+					"感知",
+					"长"
+				],
+				[
+					"{@race 半身人 (医疗龙纹)|UADragonmarks|治疗}",
+					"敏捷或感知",
+					"{@spell 高等复原术}, {@spell 群体治愈真言}",
+					"感知",
+					"长"
+				],
+				[
+					"{@race 半身人 (招待龙纹)|UADragonmarks|好客}",
+					"魅力或敏捷",
+					"{@spell 魔邓肯豪宅术}, {@spell 庇护术}",
+					"魅力",
+					"长"
+				],
+				[
+					"{@race 人类 (创造龙纹)|UADragonmarks|创造}",
+					"敏捷或智力",
+					"{@spell 造物术}, {@spell 鬼斧神工}",
+					"智力",
+					"长"
+				],
+				[
+					"{@race 人类 (通行龙纹)|UADragonmarks|通行}",
+					"敏捷或体质",
+					"{@spell 闪现术}, {@spell 传送法阵}",
+					"体质",
+					"长"
+				],
+				[
+					"{@race 侏儒 (抄录龙纹)|UADragonmarks|抄写}",
+					"智力或魅力",
+					"{@spell 短讯术}, {@spell 巧言术}",
+					"智力",
+					"长或短"
+				],
+				[
+					"{@race 人类 (守护龙纹)|UADragonmarks|哨兵}",
+					"力量或感知",
+					"{@spell 强令对决}, {@spell 守护之链}",
+					"感知",
+					"长或短"
+				],
+				[
+					"{@race 精灵 (阴影龙纹)|UADragonmarks|幽影}",
+					"魅力或敏捷",
+					"{@spell 回避侦测}, {@spell 假象术}",
+					"魅力",
+					"长"
+				],
+				[
+					"{@race 半精灵 (变体; 暴风龙纹)|UADragonmarks|风暴}",
+					"魅力或敏捷",
+					"{@spell 操控水体}, {@spell 操控风力|XGE}",
+					"魅力",
+					"长"
+				],
+				[
+					"{@race 矮人 (警戒龙纹)|UADragonmarks|守卫}",
+					"敏捷或智力",
+					"{@spell 守卫刻文}, {@spell 敲击术}, {@spell 李欧蒙秘藏箱}*",
+					"智力",
+					"长"
+				]
+			],
+			"footnotes": [
+				"* 要使用此专长和{@race 矮人 (警戒龙纹)|UADragonmarks|警戒龙纹}施放{@spell 李欧蒙秘藏箱}，你必须拥有一颗价值至少100GP的 Siberys龙晶。当你手持这颗龙晶时，它可以作为该法术的专注物品，并且你可以用它来召唤和遣散箱子。"
+			]
+		}
+	],
+	"book": [
+		{
+			"ENG_name": "Unearthed Arcana: Dragonmarks",
+			"name": "破解奥秘：龙纹",
+			"id": "UADragonmarks",
+			"source": "UADragonmarks",
+			"group": "prerelease",
+			"cover": {
+				"type": "internal",
+				"path": "covers/blank.webp"
+			},
+			"published": "2018-09-10",
+			"author": "威世智",
+			"contents": [
+				{
+					"ENG_name": "Unearthed Arcana: Dragonmarks",
+					"name": "破解奥秘：龙纹",
+					"headers": [
+						"创建一个龙纹角色",
+						"龙纹的外观",
+						"侦测龙纹",
+						"探索龙纹",
+						"畜牧龙纹",
+						"医疗龙纹",
+						"招待龙纹",
+						"创造龙纹",
+						"通行龙纹",
+						"抄录龙纹",
+						"守护龙纹",
+						"阴影龙纹",
+						"暴风龙纹",
+						"警戒龙纹",
+						"新专长：高等龙纹",
+						"异种龙纹"
+					]
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "UADragonmarks",
+			"source": "UADragonmarks",
+			"data": [
+				{
+					"ENG_name": "Unearthed Arcana: Dragonmarks",
+					"name": "破解奥秘：龙纹",
+					"type": "section",
+					"page": 1,
+					"entries": [
+						"本文档介绍了龙纹，这是来自艾伯伦D&D世界的一个试玩选项，可以在选择角色种族时加入。有关艾伯伦的更多消息，请参阅《艾伯伦寻路者向导》（{@loader 艾伯伦探路者手册|collection/Wayfinder's Guide to Eberron.json|预发布}），可在Dungeon Master's Guild（{@link dmsguild.com|https://www.dmsguild.com/product/247882/Wayfinders-Guide-to-Eberron-5e}）上获取。",
+						{
+							"ENG_name": "This Is Playtest Content",
+							"name": "此为测试内容",
+							"type": "inset",
+							"page": 1,
+							"entries": [
+								"这里的材质是为游戏测试和激发你的想象力而呈现的。这些游戏机制处于征募形态，可用于你的战役但未经最终游戏设计和编辑的完善。他们不是游戏的正式部分且不允许在D&D冒险者联盟活动中使用。",
+								"如果我们决定将此材质官员化，它将根据您的反馈进行细化，且随后会出现在一本D&D书中。"
+							],
+							"id": "001"
+						},
+						"龙纹是一种出现在皮肤上的神秘印记。这个标记是神秘法力的来源，并能增强持有者执行特定任务的能力。在艾伯伦，每个龙纹都与特定的血统相关联。携带这些龙纹的家族联合起来形成了龙纹家族，这些强大的势力主导着不同的行业。并非每个家族成员都拥有龙纹；反之，仅仅拥有龙纹也不会在家族中获得特殊地位。在创建一个龙纹角色时，你的背景可以帮助确立你与家族的关系。一个龙纹{@background 贵族}可能是统治家族的一部分。一个{@background 公会工匠}或{@background 艺人}可以在家族的公会中工作。一个{@background 罪犯}可能已被逐出家族，而一个{@background 流浪儿}可能是一个孤儿，从未知道自己与某个龙纹家族有联系。",
+						{
+							"ENG_name": "Creating a Dragonmarked Character",
+							"name": "创建一个龙纹角色",
+							"type": "section",
+							"page": 1,
+							"entries": [
+								"龙纹与种族相关联，并由变体种族和亚种的组合所代表。",
+								{
+									"type": "list",
+									"items": [
+										"对于人类来说，龙纹是一种变体种族，它取代了与这些种族相关的正常特质。",
+										"对于半精灵和半兽人来说，龙纹是一种变体种族。你保留一些标准的半精灵特质，并用与你标记相关的特质替换其他特质。",
+										"对于矮人、精灵、侏儒和半身人而言，龙纹会取代你的亚种。因此，如果你正在创造一个精灵角色，你可以选择获得阴影龙纹而非成为{@race 精灵 (木)|PHB|木精灵}或{@race 精灵 (高等)|PHB|高等精灵}。"
+									]
+								},
+								"还有两个与龙纹相关的额外选项。当你的龙纹角色等级提升时，你可以选择{@feat 高等龙纹|UADragonmarks}专长来反映你龙纹日益增长的法力。或者，{@feat 异种龙纹|UADragonmarks}专长会赋予有限但危险的魔法属性。异种龙纹不与龙纹家族绑定，且任何角色都可以选择。",
+								{
+									"ENG_name": "Intuition Dice",
+									"name": "直觉骰",
+									"type": "entries",
+									"page": 1,
+									"entries": [
+										"龙纹能提升你执行特定类型任务的能力。探索龙纹能锐化你的感官并提升你的{@skill 察觉}，而创造龙纹能在你使用工匠工具工作时引导你的双手。",
+										"每个龙纹都有一个特质，允许你在使用特定技能或工具进行属性检定时掷一个{@b 直觉骰}，即一个{@dice d4}。你将掷出的数值添加到属性检定中。你不必精通该技能或工具即可获得此增益。",
+										"专长、魔法物品且其他特性可能会提升你的直觉骰。这将使你掷骰的骰子类型提升一级（{@dice d6}，{@dice d8}，{@dice d10}），最高为{@dice d10}。你每次检定只能掷一个直觉骰；若你从多个来源获得直觉骰，则将其中一个骰子类型提升一级并掷该骰子。",
+										"范例：如果一个龙纹特质和专长都授予了敏捷（{@skill 隐匿}）检定相关的直觉骰，你将掷一枚{@dice d6}，而非{@dice d4}。三个实例会将你的直觉骰提升至{@dice d8}，以此类推。"
+									],
+									"id": "003"
+								}
+							],
+							"id": "002"
+						},
+						{
+							"ENG_name": "Dragonmark Appearance",
+							"name": "龙纹的外观",
+							"type": "section",
+							"page": 2,
+							"entries": [
+								"龙纹是一种出现在皮肤上的独特徽记。已知有十二种龙纹，每种在设计上和法力上都是独一无二的。龙纹可以出现在身体的任何部位。一个半精灵可能在眼睛上拥有侦测龙纹，而另一个则可能将其握在掌心。龙纹以鲜艳的蓝色和紫色绘制，似乎会微微闪烁甚至移动。使用时，它们会变得暖和且可能发光（尽管这不会产生有用的照明）。龙纹无法被移除\u2014\u2014即使带有龙纹的肢体被切断，标记最终也会在持有者的身体其他部位显现。所有龙纹最初的外貌相同，但如果角色选择了{@feat 高等龙纹|UADragonmarks}专长或龙纹与职业属性相关，龙纹的体型和复杂度可能会增长。",
+								"虽然龙纹有着相同的外貌，但你的龙纹可能有独特的质量。如果你想探索这一点，可以在{@table 龙纹的外观|UADragonmarks}表格上掷骰。",
+								{
+									"ENG_name": "Dragonmark Quirks",
+									"name": "龙纹的外观",
+									"type": "statblock",
+									"tag": "table",
+									"source": "UADragonmarks",
+									"page": 2
+								}
+							],
+							"id": "004"
+						},
+						{
+							"ENG_name": "The Mark of Detection",
+							"name": "侦测龙纹",
+							"type": "section",
+							"page": 2,
+							"entries": [
+								"侦测龙纹是调查员梦寐以求的东西。它会提升观察能力和直觉，让持有者找出别人可能会忽略的潜在联系和线索。通过积极利用它的力量，持有者可以侦测毒素和研究魔法的能量。",
+								"侦测龙纹仅在半精灵身上显现。如果你的角色拥有侦测龙纹，这些特质将取代《{@book 玩家手册|PHB}》中半精灵的属性值加成、多才多艺和语言特质。",
+								{
+									"ENG_name": "Half-Elf (Variant; Mark of Detection)",
+									"name": "半精灵 (变体; 侦测龙纹)",
+									"type": "statblock",
+									"tag": "race",
+									"source": "UADragonmarks",
+									"page": 2
+								}
+							],
+							"id": "005"
+						},
+						{
+							"ENG_name": "The Mark of Finding",
+							"name": "探索龙纹",
+							"type": "section",
+							"page": 2,
+							"entries": [
+								"探索龙纹强化了载有者的感官，指引追猎者找到他们的猎物。在艾伯伦，它最初出现在幽影沼泽，那里的氏族追猎者用它来寻找猎物。这个标记协助联合了沼泽中的人类和兽人，并将萨拉释克家族带入了五国。",
+								"探索龙纹仅在半兽人身上显现。如果你的角色拥有探索龙纹，这些特质将取代{@book 玩家手册|PHB}中提供的属性值加成、凶恶、坚韧不屈和凶蛮攻击。尽管有着兽人血统，探索龙纹的继承者在外貌和性情上往往更像他们的人类双亲。当你创建你的角色时，决定你的兽人血统特征是明显还是精妙。",
+								{
+									"ENG_name": "Half-Orc (Variant; Mark of Finding)",
+									"name": "半兽人 (变体; 探索龙纹)",
+									"type": "statblock",
+									"tag": "race",
+									"source": "UADragonmarks",
+									"page": 2
+								}
+							],
+							"id": "006"
+						},
+						{
+							"ENG_name": "The Mark of Handling",
+							"name": "畜牧龙纹",
+							"type": "section",
+							"page": 3,
+							"entries": [
+								"畜牧龙纹赋予其持有者与野兽和自然世界的原初联结，授予安抚和劝诱的法力。这不仅限于纯粹的天然动物；该标记允许其持有者引导一只{@creature 鹫马}如同引导一匹{@creature 乘用马||马}一样容易。",
+								"畜牧龙纹仅显现在人类身上。如果你的角色拥有畜牧龙纹，这些特质将取代《{@book 玩家手册|PHB}》中人类属性值加成的特质。",
+								{
+									"ENG_name": "Human (Mark of Handling)",
+									"name": "人类 (畜牧龙纹)",
+									"type": "statblock",
+									"tag": "race",
+									"source": "UADragonmarks",
+									"page": 3
+								}
+							],
+							"id": "007"
+						},
+						{
+							"ENG_name": "The Mark of Healing",
+							"name": "医疗龙纹",
+							"type": "section",
+							"page": 3,
+							"entries": [
+								"一个拥有医疗龙纹的半身人可以通过接触挽救生命，恢复活力与生存意志。在处理寻常医药时，龙纹能帮助持有者感知疾病和痛苦的本质并找到最佳解决方案。当通过龙晶专注物品增强时，龙纹甚至能将死者复生。",
+								"医疗龙纹仅在半身人身上显现。如果你的角色拥有医疗龙纹，这就是你的半身人亚种。",
+								{
+									"ENG_name": "Halfling (Mark of Healing)",
+									"name": "半身人 (医疗龙纹)",
+									"type": "statblock",
+									"tag": "race",
+									"source": "UADragonmarks",
+									"page": 3
+								}
+							],
+							"id": "008"
+						},
+						{
+							"ENG_name": "The Mark of Hospitality",
+							"name": "招待龙纹",
+							"type": "section",
+							"page": 4,
+							"entries": [
+								"他们可能并不总是拥有金，但一个拥有招待龙纹的半身人必定交友术丰富。龙纹的魔法使持有者能够保持地点清洁，且能够高温、彻骨冻寒和调味进食。但它也协助持有者与他人建立联系，设定困扰的心灵得以放松\u2014\u2014这是一个强大的工具，但如果滥用可能会引起愤怒。",
+								"招待龙纹仅在半身人身上显现。如果你的角色拥有招待龙纹，这就是你的半身人亚种。",
+								{
+									"ENG_name": "Halfling (Mark of Hospitality)",
+									"name": "半身人 (招待龙纹)",
+									"type": "statblock",
+									"tag": "race",
+									"source": "UADragonmarks",
+									"page": 4
+								}
+							],
+							"id": "009"
+						},
+						{
+							"ENG_name": "The Mark of Making",
+							"name": "创造龙纹",
+							"type": "section",
+							"page": 4,
+							"entries": [
+								"创造龙纹能够在任何制造活动中引导持有者。持有者能够通过触碰修复破损的物品，同时还能长期保有一个他们一直在制作的弱效魔法物品。奇械师或法师能从龙纹中获得最大收益，但任何人都能发现附魔过的武器的用处。",
+								"创造龙纹仅显现在人类身上。如果你的角色拥有创造龙纹，这些特质将取代{@book 玩家手册|PHB}中人类属性值加成的特质。",
+								{
+									"ENG_name": "Human (Mark of Making)",
+									"name": "人类 (创造龙纹)",
+									"type": "statblock",
+									"tag": "race",
+									"source": "UADragonmarks",
+									"page": 4
+								}
+							],
+							"id": "00a"
+						},
+						{
+							"ENG_name": "The Mark of Passage",
+							"name": "通行龙纹",
+							"type": "section",
+							"page": 4,
+							"entries": [
+								"通行龙纹掌控运动，使其持有者能以惊人的速度和精准移动。奔跑、跳跃、攀爬\u2014\u2014通行龙纹增强所有形态的移动力。该龙纹的持有者甚至能滑过空间，在眨眼间从一点闪现到另一点。",
+								"通行龙纹仅显现在人类身上。如果你的角色拥有通行龙纹，这些特质将取代{@book 玩家手册|PHB}中人类属性值加成的特质。",
+								{
+									"ENG_name": "Human (Mark of Passage)",
+									"name": "人类 (通行龙纹)",
+									"type": "statblock",
+									"tag": "race",
+									"source": "UADragonmarks",
+									"page": 4
+								}
+							],
+							"id": "00b"
+						},
+						{
+							"ENG_name": "The Mark of Scribing",
+							"name": "抄录龙纹",
+							"type": "section",
+							"page": 5,
+							"entries": [
+								"抄录龙纹涉及沟通方式\u2014\u2014包括书面语和口语。携带该龙纹的侏儒可以感知文字如同它们是活体生物，努力表达它们的含义。该龙纹提供一系列能力。它不仅能翻译语言，还能让携带者远距离与他人交谈并将他们的文字刻在任何他们祈愿术的地方。",
+								"抄录龙纹仅在侏儒身上显现。如果你的角色拥有抄录龙纹，这就是你的侏儒亚种。",
+								{
+									"ENG_name": "Gnome (Mark of Scribing)",
+									"name": "侏儒 (抄录龙纹)",
+									"type": "statblock",
+									"tag": "race",
+									"source": "UADragonmarks",
+									"page": 5
+								}
+							],
+							"id": "00c"
+						},
+						{
+							"ENG_name": "The Mark of Sentinel",
+							"name": "守护龙纹",
+							"type": "section",
+							"page": 5,
+							"entries": [
+								"守护龙纹会警告并保护其持有者。它能增强感官和反应能力，让继承人能以不可思议的速度应对威胁。它可以保护持有者免受伤害。无论是在战场还是舞厅，携带守护龙纹的人都时刻准备应对危险。",
+								"守护龙纹仅显现在人类身上。如果你的角色拥有守护龙纹，这些特质将取代人类在{@book 玩家手册|PHB}中给出的属性值加成的特质。",
+								{
+									"ENG_name": "Human (Mark of Sentinel)",
+									"name": "人类 (守护龙纹)",
+									"type": "statblock",
+									"tag": "race",
+									"source": "UADragonmarks",
+									"page": 5
+								}
+							],
+							"id": "00d"
+						},
+						{
+							"ENG_name": "The Mark of Shadow",
+							"name": "阴影龙纹",
+							"type": "section",
+							"page": 5,
+							"entries": [
+								"阴影龙纹让精灵能够从幽影中编织幻象，创造声响和图像来干扰或取悦他人。该龙纹还允许其持有者利用幽影，使其容易避免侦测甚至在众目睽睽下消失。这对{@background 艺人}、{@background 间谍}或刺客来说都是宝贵的工具；每个拥有它的精灵都必须决定要追随哪条路途。",
+								"阴影龙纹仅显现在精灵身上。如果你的角色拥有阴影龙纹，这就是你的精灵亚种。",
+								{
+									"ENG_name": "Elf (Mark of Shadow)",
+									"name": "精灵 (阴影龙纹)",
+									"type": "statblock",
+									"tag": "race",
+									"source": "UADragonmarks",
+									"page": 6
+								}
+							],
+							"id": "00e"
+						},
+						{
+							"ENG_name": "The Mark of Storm",
+							"name": "暴风龙纹",
+							"type": "section",
+							"page": 5,
+							"entries": [
+								"风势且饮水欢迎携带风暴龙纹的半精灵。风会在他们坠落时接住他们，且他们能以惊人的速度游泳。那些拥有高等龙纹和龙晶专注物品者能召唤更强大的力量，塑造天气并呼唤暴风法力。",
+								"暴风龙纹仅在半精灵身上显现。如果你的角色拥有侦测龙纹，这些特质将取代《{@book 玩家手册|PHB}》中半精灵的属性值加成、多才多艺和语言特质。",
+								{
+									"ENG_name": "Half-Elf (Variant; Mark of Storm)",
+									"name": "半精灵 (变体; 暴风龙纹)",
+									"type": "statblock",
+									"tag": "race",
+									"source": "UADragonmarks",
+									"page": 6
+								},
+								{
+									"ENG_name": "Gust",
+									"name": "舞风术",
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XGE",
+									"page": 6
+								}
+							],
+							"id": "00f"
+						},
+						{
+							"ENG_name": "The Mark of Warding",
+							"name": "警戒龙纹",
+							"type": "section",
+							"page": 6,
+							"entries": [
+								"警戒龙纹协助其持有者保护有价值的事物。使用该龙纹，矮人可以用秘术师的力场编织大区并封印传送门。它还赋予持有者对用于保护和封印的锁和机构的直观理解。每个继承人必须做出的决定是他们将使用这种法力来确保事物安全，还是他们对打开锁并获取里面的东西更感兴趣。",
+								"警戒龙纹仅在矮人身上显现。如果你的角色拥有警戒龙纹，这就是你的矮人亚种。",
+								{
+									"ENG_name": "Dwarf (Mark of Warding)",
+									"name": "矮人 (警戒龙纹)",
+									"type": "statblock",
+									"tag": "race",
+									"source": "UADragonmarks",
+									"page": 7
+								}
+							],
+							"id": "010"
+						},
+						{
+							"ENG_name": "New Feat: Greater Dragonmarks",
+							"name": "新专长：高等龙纹",
+							"type": "section",
+							"page": 7,
+							"entries": [
+								"该{@feat 高等龙纹|UADragonmarks}专长代表龙纹的进化\u2014\u2014龙纹的体型和赋予的力量都呈指数级增长。",
+								"只有一小部分龙纹继承者能发展出{@feat 高等龙纹|UADragonmarks}。他们所拥有的力量比作为魔法经济基础的广泛魔法更强大。传送、跨越庞大距离的立即沟通方式\u2014\u2014这些服务都是珍稀、非凡且主要专属于龙纹家族的。",
+								{
+									"ENG_name": "Greater Dragonmark",
+									"name": "高等龙纹",
+									"type": "statblock",
+									"tag": "feat",
+									"source": "UADragonmarks",
+									"page": 7
+								},
+								{
+									"ENG_name": "Control Winds",
+									"name": "操控风力",
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XGE",
+									"page": 8
+								}
+							],
+							"id": "011"
+						},
+						{
+							"ENG_name": "Aberrant Dragonmarks",
+							"name": "异种龙纹",
+							"type": "section",
+							"page": 8,
+							"entries": [
+								"十二学会的龙纹与特定血统绑定并通过家族传承。它们可靠且可预测，其力量具有建设性。它们创造；它们医疗；它们保护。",
+								"但还有另一种龙纹：这种标记既不可预测又对持有者和周围的人都很危险。拥有这种标记的人可以通过接触杀人或用一瞥控制心智。异种龙纹通常出现在来自不同龙纹家族的人生育的孩子身上，因此十二学会绝对禁止这种结合。但异种龙纹可以出现在任何种族、任何年龄的成员身上，与血统无关。没有两个异种龙纹是完全相同的；即使它们赋予相同的法力，它们也可能以不同的方式显现和表现。如果两个异种标记可能都赋予{@spell 火焰箭}，一个标记可能由疤痕组织形成，而另一个则以寒冷火焰的线状出现在皮肤上。",
+								"虽然异种龙纹可能令人不安，但表面上异种龙纹似乎并不比术士的力量更危险或更具威胁性。那么，是什么使它们变得重要？异种龙纹总是有缺陷。这些缺陷可能不会主动伤害角色，但它们总是以某种方式成为一种咒缚\u2014\u2014这种咒缚可能会驱使意志薄弱的人陷入疯狂。如果你发展出一个异种龙纹，你可以从这个列表中选择一个缺点，或者你和DM可以共同创造一个独特的缺点。",
+								{
+									"ENG_name": "Aberrant Mark Flaw",
+									"name": "异种龙纹缺点",
+									"type": "statblock",
+									"tag": "table",
+									"source": "UADragonmarks",
+									"page": 8
+								},
+								{
+									"ENG_name": "Aberrant Dragonmark",
+									"name": "异种龙纹",
+									"type": "statblock",
+									"tag": "feat",
+									"source": "UADragonmarks",
+									"page": 9
+								}
+							],
+							"id": "012"
+						}
+					],
+					"id": "000"
+				}
+			]
+		}
+	]
+}

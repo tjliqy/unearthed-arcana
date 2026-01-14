@@ -1,0 +1,630 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAATrioOfSubclasses",
+				"abbreviation": "UAATOSC",
+				"full": "破解奥秘：三个子职",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2017/dnd/downloads/UAThreeSubclasses.pdf",
+				"dateReleased": "2017-03-27"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1729637619,
+		"_dateLastModifiedHash": "2796847ce2"
+	},
+	"subclass": [
+		{
+			"ENG_name": "Monster Slayer (UA)",
+			"name": "怪物杀手（UA）",
+			"shortName": "怪物杀手（UA）",
+			"source": "UAATrioOfSubclasses",
+			"className": "游侠",
+			"classSource": "PHB",
+			"page": 3,
+			"isReprinted": true,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"防护善恶"
+						],
+						"5": [
+							"诚实之域"
+						],
+						"9": [
+							"防护法阵"
+						],
+						"13": [
+							"放逐术"
+						],
+						"17": [
+							"异界誓缚"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"怪物杀手|游侠||怪物杀手（UA）|UAATrioOfSubclasses|3",
+				"异能防护|游侠||怪物杀手（UA）|UAATrioOfSubclasses|7",
+				"坚韧杀手|游侠||怪物杀手（UA）|UAATrioOfSubclasses|11",
+				"杀手反制|游侠||怪物杀手（UA）|UAATrioOfSubclasses|15"
+			]
+		},
+		{
+			"ENG_name": "Oath of Redemption (UA)",
+			"name": "救赎之誓（UA）",
+			"shortName": "救赎（UA）",
+			"source": "UAATrioOfSubclasses",
+			"className": "圣武士",
+			"classSource": "PHB",
+			"page": 1,
+			"isReprinted": true,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"护盾术",
+							"睡眠术"
+						],
+						"5": [
+							"定身类人",
+							"衰弱射线"
+						],
+						"9": [
+							"法术反制",
+							"催眠图纹"
+						],
+						"13": [
+							"欧提路克弹力法球",
+							"石肤术"
+						],
+						"17": [
+							"定身怪物",
+							"力场墙"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"救赎之誓|圣武士||救赎（UA）|UAATrioOfSubclasses|3",
+				"护卫灵光|圣武士||救赎（UA）|UAATrioOfSubclasses|7",
+				"守护之魂|圣武士||救赎（UA）|UAATrioOfSubclasses|15",
+				"救赎使节|圣武士||救赎（UA）|UAATrioOfSubclasses|20"
+			]
+		},
+		{
+			"ENG_name": "Way of the Drunken Master (UA)",
+			"name": "醉拳之道（UA）",
+			"shortName": "醉拳（UA）",
+			"source": "UAATrioOfSubclasses",
+			"className": "武僧",
+			"classSource": "PHB",
+			"page": 1,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"醉拳宗|武僧||醉拳（UA）|UAATrioOfSubclasses|3",
+				"酣醉若狂|武僧||醉拳（UA）|UAATrioOfSubclasses|6",
+				"醉汉机运|武僧||醉拳（UA）|UAATrioOfSubclasses|11",
+				"酣醉若狂|武僧||醉拳（UA）|UAATrioOfSubclasses|17"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"ENG_name": "Way of the Drunken Master",
+			"name": "醉拳宗",
+			"source": "UAATrioOfSubclasses",
+			"page": 1,
+			"className": "武僧",
+			"classSource": "PHB",
+			"subclassShortName": "醉拳（UA）",
+			"subclassSource": "UAATrioOfSubclasses",
+			"level": 3,
+			"entries": [
+				"醉拳宗教导其学生以醉汉般抽搐、不可预测的动作移动。醉拳大师摇摇晃晃，步履不稳，看似无能战斗员却令人难以对付。醉拳大师不规则的蹒跚隐藏着精心执行的格挡、招架、前进、攻击和撤退的舞蹈。狡黠的武者能看穿醉拳大师表面的无能，认识到其所运用的高超技巧。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "醉拳技巧|武僧||醉拳（UA）|UAATrioOfSubclasses|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Drunken Technique",
+			"name": "醉拳技巧",
+			"source": "UAATrioOfSubclasses",
+			"page": 1,
+			"className": "武僧",
+			"classSource": "PHB",
+			"subclassShortName": "醉拳（UA）",
+			"subclassSource": "UAATrioOfSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"当你在3级选择此传统时，若尚未拥有则获得{@skill 表演}技能的熟练；你的武艺技巧将战争训练与舞者的精准和小丑的表演动作相结合。",
+				"你还学会了如何作为疾风连击的一部分快速转折和转向。每当你使用疾风连击时，你将获得{@action 撤离}动作的增益，且你的步行速度增加10尺直到当前回合结束。"
+			]
+		},
+		{
+			"ENG_name": "Tipsy Sway",
+			"name": "酣醉若狂",
+			"source": "UAATrioOfSubclasses",
+			"page": 1,
+			"className": "武僧",
+			"classSource": "PHB",
+			"subclassShortName": "醉拳（UA）",
+			"subclassSource": "UAATrioOfSubclasses",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"在6级时，你在战斗中的摇摆变得疯狂地不可预测。当一个敌人用近战攻击掷骰未命中你时，你可以用一个反应使该攻击命中你能看见的5尺内的一个你选择的生物（攻击手除外）。一旦你使用了这个特性，直到你完成一次短休或长休前都不能再次使用它。"
+			]
+		},
+		{
+			"ENG_name": "Drunkard's Luck",
+			"name": "醉汉机运",
+			"source": "UAATrioOfSubclasses",
+			"page": 1,
+			"className": "武僧",
+			"classSource": "PHB",
+			"subclassShortName": "醉拳（UA）",
+			"subclassSource": "UAATrioOfSubclasses",
+			"level": 11,
+			"header": 2,
+			"consumes": {
+				"ENG_name": "Ki",
+				"name": "Ki"
+			},
+			"entries": [
+				"从11级开始，你似乎总能在关键时刻获得幸运的反弹，使你免于末日。当你进行豁免检定时，你可以消耗1点气来使自己在该掷骰上获得优势。你必须在掷骰前决定使用此特性。"
+			]
+		},
+		{
+			"ENG_name": "Intoxicated Frenzy",
+			"name": "酣醉若狂",
+			"source": "UAATrioOfSubclasses",
+			"page": 1,
+			"className": "武僧",
+			"classSource": "PHB",
+			"subclassShortName": "醉拳（UA）",
+			"subclassSource": "UAATrioOfSubclasses",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"在17级时，你获得对一群敌人发动压倒性数量攻击的能力。当你使用疾风连击时，可以额外进行最多三次攻击（总计五次攻击），前提是本回合中每次疾风连击攻击的目标都是不同的生物。"
+			]
+		},
+		{
+			"ENG_name": "Oath of Redemption",
+			"name": "救赎之誓",
+			"source": "UAATrioOfSubclasses",
+			"page": 1,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"subclassShortName": "救赎（UA）",
+			"subclassSource": "UAATrioOfSubclasses",
+			"level": 3,
+			"entries": [
+				"救赎之誓将圣武士置于一条艰难的路途，这条道路要求神圣武者仅将暴力作为绝境反扑。致力于此信条的圣武士相信任何人都可被救赎，且仁慈与正义之路人人皆可行走。这些圣武士面对邪恶生物时心怀将其引向光照的希望，唯有当此举能明确拯救其他生命时才会剿灭它们。追随此道的圣武士被称为救赎者。",
+				"尽管救赎者是理想主义者，但他们并非愚人。救赎者知道亡灵、恶魔、魔鬼及其他超自然威胁可能是与生俱来的邪恶。面对这些敌人时，圣武士们会倾泻其武器与法术的全部怒火。然而救赎者仍祈祷着，终有一日，甚至不义的生物也会主动寻求救赎。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "救赎之信条|圣武士||救赎（UA）|UAATrioOfSubclasses|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "圣誓法术|圣武士||救赎（UA）|UAATrioOfSubclasses|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "和平护甲|圣武士||救赎（UA）|UAATrioOfSubclasses|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "和解武者|圣武士||救赎（UA）|UAATrioOfSubclasses|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "引导神力|圣武士||救赎（UA）|UAATrioOfSubclasses|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Armor of Peace",
+			"name": "和平护甲",
+			"source": "UAATrioOfSubclasses",
+			"page": 1,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"subclassShortName": "救赎（UA）",
+			"subclassSource": "UAATrioOfSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"从3级开始，你对和平的承诺使你能够不穿护甲走入最危险的境地。当你未穿戴护甲或持用护盾时，你的基础AC为16 + 你的敏捷调整值。"
+			]
+		},
+		{
+			"ENG_name": "Channel Divinity",
+			"name": "引导神力",
+			"source": "UAATrioOfSubclasses",
+			"page": 1,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"subclassShortName": "救赎（UA）",
+			"subclassSource": "UAATrioOfSubclasses",
+			"level": 3,
+			"header": 1,
+			"consumes": {
+				"ENG_name": "Channel Divinity",
+				"name": "引导神力"
+			},
+			"entries": [
+				"在第3级选择本誓言时，你会获得以下两种引导神力选项。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "和平使节|圣武士||救赎（UA）|UAATrioOfSubclasses|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "叱喝暴力|圣武士||救赎（UA）|UAATrioOfSubclasses|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Emissary of Peace",
+			"name": "和平使节",
+			"source": "UAATrioOfSubclasses",
+			"page": 1,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"subclassShortName": "救赎（UA）",
+			"subclassSource": "UAATrioOfSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"你可以使用引导神力以神圣法力增强你的存在。作为一个附赠动作，你在接下来的1分钟内为自己下一次魅力（{@skill 游说}）检定获得+5加值。"
+			]
+		},
+		{
+			"ENG_name": "Oath Spells",
+			"name": "圣誓法术",
+			"source": "UAATrioOfSubclasses",
+			"page": 1,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"subclassShortName": "救赎（UA）",
+			"subclassSource": "UAATrioOfSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"你会获得以下对应级别的圣誓法术。",
+				{
+					"type": "table",
+					"caption": "救赎之誓法术",
+					"colLabels": [
+						"圣武士等级",
+						"法术"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell 护盾术}, {@spell 睡眠术}"
+						],
+						[
+							"5th",
+							"{@spell 定身类人}, {@spell 衰弱射线}"
+						],
+						[
+							"9th",
+							"{@spell 法术反制}, {@spell 催眠图纹}"
+						],
+						[
+							"13th",
+							"{@spell 欧提路克弹力法球}, {@spell 石肤术}"
+						],
+						[
+							"17th",
+							"{@spell 定身怪物}, {@spell 力场墙}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Rebuke the Violent",
+			"name": "叱喝暴力",
+			"source": "UAATrioOfSubclasses",
+			"page": 1,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"subclassShortName": "救赎（UA）",
+			"subclassSource": "UAATrioOfSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"你可以使用引导神力来叱喝那些使用暴力的存在。当一个10尺内的仇敌以近战攻击对除你之外的一个生物造成伤害时，你可以用反应迫使该攻击手进行一次感知豁免检定。豁免失败时，攻击手受到等同于其所造成伤害的光耀伤害。豁免成功时，它只受到一半伤害。"
+			]
+		},
+		{
+			"ENG_name": "Tenets of Redemption",
+			"name": "救赎之信条",
+			"source": "UAATrioOfSubclasses",
+			"page": 1,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"subclassShortName": "救赎（UA）",
+			"subclassSource": "UAATrioOfSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"救赎之誓的信条要求圣武士高标准地保持和平与正义。",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Peace",
+							"name": "和平",
+							"type": "entries",
+							"entries": [
+								"暴力是最后的手段，交流和理解才是持久和平的正解。"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Innocence",
+							"name": "无辜",
+							"type": "entries",
+							"entries": [
+								"所有人生来都是无辜的，他们走向邪恶往往是环境或某些黑暗力量的影响。通过树立正确的榜样，治愈这个残缺世界的创伤，你可以令任何人走上正确的道路。"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Patience",
+							"name": "耐心",
+							"type": "entries",
+							"entries": [
+								"变化需要时间。那些曾走过恶意路途的生物必须被给予提醒以保持它们诚实且真实。一旦你在一个生物心中种下正义的种子，你必须日复一日地工作以让它存活并最终虚张声势。"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Wisdom",
+							"name": "感知",
+							"type": "entries",
+							"entries": [
+								"你的心灵必须时刻保持清醒，而你最终也许会被迫承认失败。既然所有人都可以得到救赎，那么自然也会有人选择步入邪恶之巅。你别无选择，为了大义只能将其剿灭。任何这样的行动都应当经过仔细权衡并考虑清楚其后果，但你一旦做出决定，那么就做到最后。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Warrior of Reconciliation",
+			"name": "和解武者",
+			"source": "UAATrioOfSubclasses",
+			"page": 1,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"subclassShortName": "救赎（UA）",
+			"subclassSource": "UAATrioOfSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"在3级时，你放弃战争武器转而使用简易工具。当你使用一把造成钝击伤害的简易武器将一个生物的生命值降至0且决定饶恕该生物的生命时，你将获得一个特殊增益。该生物不会陷入{@condition 昏迷}，而是被你{@condition 失能}1分钟。在此期间，被{@condition 魅惑}的生物保持和平与温顺，拒绝移动或采取动作或反应，除非你命令它。你不能命令该生物攻击、强迫某人进行豁免检定或对自身或他人造成伤害。如果你陷入{@condition 魅惑}，或你或你的同伴攻击该生物、对其造成伤害或强迫它进行豁免检定，则此{@condition 魅惑}效应提前结束。当效应结束时，如果该生物的生命值仍为0，则陷入{@condition 昏迷}。"
+			]
+		},
+		{
+			"ENG_name": "Aura of the Guardian",
+			"name": "护卫灵光",
+			"source": "UAATrioOfSubclasses",
+			"page": 1,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"subclassShortName": "救赎（UA）",
+			"subclassSource": "UAATrioOfSubclasses",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"从7环开始，你可以以自身健康为代价保护盟友免受伤害。当一个10尺内的盟友受到伤害时，你可以使用反应改为由你魔法性地承受该伤害。此特性不会转移伴随伤害的任何其他效应。"
+			]
+		},
+		{
+			"ENG_name": "Protective Spirit",
+			"name": "守护之魂",
+			"source": "UAATrioOfSubclasses",
+			"page": 1,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"subclassShortName": "救赎（UA）",
+			"subclassSource": "UAATrioOfSubclasses",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"从15级开始，神圣存在会在战斗中治愈你的伤口。如果你在回合结束时生命值少于一半且未处于{@condition 失能}状态，你将恢复等同于{@dice 1d6} + 你圣武士等级一半的生命值。"
+			]
+		},
+		{
+			"ENG_name": "Emissary of Redemption",
+			"name": "救赎使节",
+			"source": "UAATrioOfSubclasses",
+			"page": 1,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"subclassShortName": "救赎（UA）",
+			"subclassSource": "UAATrioOfSubclasses",
+			"level": 20,
+			"header": 2,
+			"entries": [
+				"在20级时，你成为了和平的化身，使你获得下述两条增益：",
+				{
+					"type": "list",
+					"items": [
+						"你具有其他生物造成的所有伤害的抗性（包括它们的攻击、法术、及其他效果）。",
+						"每当一个生物对你造成伤害时，它受到等同于对你造成伤害数量一半的伤害。"
+					]
+				},
+				"如果你攻击一个生物、对其造成伤害或强迫其进行豁免检定，则在你完成一次长休前，这两个增益都不会对该生物生效。"
+			]
+		},
+		{
+			"ENG_name": "Monster Slayer",
+			"name": "怪物杀手",
+			"source": "UAATrioOfSubclasses",
+			"page": 3,
+			"className": "游侠",
+			"classSource": "PHB",
+			"subclassShortName": "怪物杀手（UA）",
+			"subclassSource": "UAATrioOfSubclasses",
+			"level": 3,
+			"entries": [
+				"游侠中的杀戮者法师议会成员专门猎杀吸血鬼、龙、邪恶精类、邪魔以及其他强大的魔法威胁。这些杀手经过各种奥术和神术训练来对付此类怪物，是发掘并击败强大敌人的专家。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "杀手的秘术|游侠||怪物杀手（UA）|UAATrioOfSubclasses|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "杀手之眼|游侠||怪物杀手（UA）|UAATrioOfSubclasses|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Slayer's Eye",
+			"name": "杀手之眼",
+			"source": "UAATrioOfSubclasses",
+			"page": 3,
+			"className": "游侠",
+			"classSource": "PHB",
+			"subclassShortName": "怪物杀手（UA）",
+			"subclassSource": "UAATrioOfSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"从3级开始，你获得研究并解析生物防御设施的能力。以一个附赠动作，选择你能看见的120尺内的一个生物。你立即得知目标的易伤、免疫和抗性。你还得知目标受到伤害时触发的任何特殊效应，例如火焰伤害会中止其再生。",
+				"此外，每个回合你第一次用武器攻击命中目标时，目标会从该武器受到额外的{@damage 1d6}伤害。",
+				"此增益持续到你以此特性选择另一个生物为目标或直到你完成一次短休或长休。"
+			]
+		},
+		{
+			"ENG_name": "Slayer's Mysticism",
+			"name": "杀手的秘术",
+			"source": "UAATrioOfSubclasses",
+			"page": 3,
+			"className": "游侠",
+			"classSource": "PHB",
+			"subclassShortName": "怪物杀手（UA）",
+			"subclassSource": "UAATrioOfSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"当你在此职业中达到特定等级时，你将学会一个额外的法术，如杀手法术表格所示。该法术对你而言视为游侠法术，但不计入你所知的游侠法术数量。",
+				{
+					"type": "table",
+					"caption": "怪物杀手法术",
+					"colLabels": [
+						"游侠等级",
+						"法术"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell 防护善恶}"
+						],
+						[
+							"5th",
+							"{@spell 诚实之域}"
+						],
+						[
+							"9th",
+							"{@spell 防护法阵}"
+						],
+						[
+							"13th",
+							"{@spell 放逐术}"
+						],
+						[
+							"17th",
+							"{@spell 异界誓缚}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Supernatural Defense",
+			"name": "异能防护",
+			"source": "UAATrioOfSubclasses",
+			"page": 3,
+			"className": "游侠",
+			"classSource": "PHB",
+			"subclassShortName": "怪物杀手（UA）",
+			"subclassSource": "UAATrioOfSubclasses",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"7级时，你对猎物针对你心灵和身体的攻击获得额外的恢复力。每当你的杀手之眼的目标迫使你进行豁免检定时，在你的掷骰上添加{@dice 1d6}。"
+			]
+		},
+		{
+			"ENG_name": "Relentless Slayer",
+			"name": "坚韧杀手",
+			"source": "UAATrioOfSubclasses",
+			"page": 3,
+			"className": "游侠",
+			"classSource": "PHB",
+			"subclassShortName": "怪物杀手（UA）",
+			"subclassSource": "UAATrioOfSubclasses",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"在11级时，你获得阻止敌人逃脱的能力。你对民俗和奥术知识的研究让你掌握了关键洞悉，使你的猎物无处可逃。如果你的杀手之眼目标试图施展传送术、改变形态、前往另一个存在平面或变成气态，你可以使用反应进行一次感知检定，与目标的感知检定对抗。使用此能力时，你必须能看到目标且需要在30尺范围内。若你成功，你将阻止其尝试，使其浪费所使用的动作、附赠动作或反应。"
+			]
+		},
+		{
+			"ENG_name": "Slayer's Counter",
+			"name": "杀手反制",
+			"source": "UAATrioOfSubclasses",
+			"page": 3,
+			"className": "游侠",
+			"classSource": "PHB",
+			"subclassShortName": "怪物杀手（UA）",
+			"subclassSource": "UAATrioOfSubclasses",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"在15级时，你获得当猎物试图破坏你时进行反制攻击的能力。如果你的杀手之眼目标迫使你进行一次豁免检定，你可以使用你的反应对它进行一次武器攻击。你在进行豁免检定前立即发动这次攻击。如果攻击命中，你的豁免自动成功，此外还有攻击的正常效应。"
+			]
+		}
+	]
+}

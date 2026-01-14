@@ -1,0 +1,1081 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UA2020PsionicOptionsRevisited",
+				"abbreviation": "UA20POR",
+				"full": "破解奥秘：2020灵能选项重审",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2020/dnd/downloads/UA2020_PsionicOptions.pdf",
+				"dateReleased": "2020-04-14"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1729637619,
+		"_dateLastModifiedHash": "d5b196889f"
+	},
+	"subclass": [
+		{
+			"ENG_name": "Psi Knight (UA)",
+			"name": "灵能骑士（UA）",
+			"shortName": "灵能骑士（UA）",
+			"source": "UA2020PsionicOptionsRevisited",
+			"className": "战士",
+			"classSource": "PHB",
+			"page": 2,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"灵能骑士|战士||灵能骑士（UA）|UA2020PsionicOptionsRevisited|3",
+				"念力精通|战士||灵能骑士（UA）|UA2020PsionicOptionsRevisited|7",
+				"灵能强化代谢|战士||灵能骑士（UA）|UA2020PsionicOptionsRevisited|10",
+				"力场壁垒|战士||灵能骑士（UA）|UA2020PsionicOptionsRevisited|15",
+				"念力宗师|战士||灵能骑士（UA）|UA2020PsionicOptionsRevisited|18"
+			]
+		},
+		{
+			"ENG_name": "Psionic Soul (UA)",
+			"name": "灵能灵魂（UA）",
+			"shortName": "灵能灵魂（UA）",
+			"source": "UA2020PsionicOptionsRevisited",
+			"className": "术士",
+			"classSource": "PHB",
+			"page": 5,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"灵能灵魂|术士||灵能灵魂（UA）|UA2020PsionicOptionsRevisited|1",
+				"心灵打击|术士||灵能灵魂（UA）|UA2020PsionicOptionsRevisited|6",
+				"心灵凌驾身体|术士||灵能灵魂（UA）|UA2020PsionicOptionsRevisited|14",
+				"心灵光环|术士||灵能灵魂（UA）|UA2020PsionicOptionsRevisited|18"
+			]
+		},
+		{
+			"ENG_name": "Soulknife (UA)",
+			"name": "魂刃（UA）",
+			"shortName": "魂刃（UA）",
+			"source": "UA2020PsionicOptionsRevisited",
+			"className": "游荡者",
+			"classSource": "PHB",
+			"page": 3,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"魂刃|游荡者||魂刃（UA）|UA2020PsionicOptionsRevisited|3",
+				"灵魂之刃|游荡者||魂刃（UA）|UA2020PsionicOptionsRevisited|9",
+				"灵能面纱|游荡者||魂刃（UA）|UA2020PsionicOptionsRevisited|13",
+				"撕裂心智|游荡者||魂刃（UA）|UA2020PsionicOptionsRevisited|17"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"ENG_name": "Psi Knight",
+			"name": "灵能骑士",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "灵能骑士（UA）",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 3,
+			"entries": [
+				"觉醒体内的灵能力量，灵能骑士是一种战士，他们通过灵能灌注的武器打击、念动力鞭笞和精神力场屏障来增强自己的体魄强度。许多吉斯洋基人训练成为这样的骑士，一些最有纪律的高等精灵也是如此。在阿塔斯世界，索尔-国王竞技场中著名的角斗士通常是灵能骑士，而在艾伯伦，灵能的离梦人将加入这一骑士团视为特殊的荣誉。",
+				"作为灵能骑士，你可能通过独自修炼磨练了灵能属性，在一位大师的指导下解锁了它，或是在致力于将心灵法力同时作为武器和护盾的学术机构中精进了它。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "灵能天赋|战士||灵能骑士（UA）|UA2020PsionicOptionsRevisited|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "灵能天赋选项|战士||灵能骑士（UA）|UA2020PsionicOptionsRevisited|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "改变骰子的体型|战士||灵能骑士（UA）|UA2020PsionicOptionsRevisited|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "灵能补充|战士||灵能骑士（UA）|UA2020PsionicOptionsRevisited|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Changing the Die's Size",
+			"name": "改变骰子的体型",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "灵能骑士（UA）",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"如果你在你的灵能天赋骰上掷出了最高数值，它在掷骰后会减少一个骰子大小。这代表你消耗了你的灵能能量。例如，如果骰子是{@dice d6}且你掷出了6，它会变成{@dice d4}。如果它是{@dice d4}且你掷出了4，它会变得无法使用直到你完成一次长休。",
+				"反之，如果你在你的灵能天赋骰上掷出1点，它在掷骰后会增加一个骰子大小，直至其初始大小。这代表你为后文使用保存了灵能能量。例如，如果你在{@dice d4}上掷出1点，骰子随后会变为{@dice d6}。",
+				"每当你完成一次长休，你的灵能天赋骰会重置为其初始体型。当你在此职业中达到特定等级时，你的灵能天赋骰的初始体型会增加：5级（{@dice d8}）、11级（{@dice d10}）且17级（{@dice d12}）。"
+			]
+		},
+		{
+			"ENG_name": "Psi Replenishment",
+			"name": "灵能补充",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "灵能骑士（UA）",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"作为一个附赠动作，你可以暂时平静心灵并将你的灵能天赋骰复原至初始体型。之后直到完成一次长休前你都无法再次使用灵能补充。"
+			]
+		},
+		{
+			"ENG_name": "Psionic Talent",
+			"name": "灵能天赋",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "灵能骑士（UA）",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3级灵能骑士特性}",
+				"你体内蕴藏着一股灵能力量的源泉，这种能量会随着你以各种方式引导它而起伏流动。这种力量由你的灵能天赋骰代表，其初始大小为{@dice d6}。"
+			]
+		},
+		{
+			"ENG_name": "Psionic Talent Options",
+			"name": "灵能天赋选项",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "灵能骑士（UA）",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"你可以用以下方式使用你的灵能天赋骰：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Protective Field",
+							"name": "庇护力场",
+							"type": "item",
+							"entry": "当你或另一个你能看见的30尺内的生物受到伤害时，你可以使用你的反应掷你的灵能天赋骰，并将受到的伤害缩小掷骰结果加上你的智力调整值的数值（最小缩小1点），如同你创造了一个瞬时的念动力场护盾。"
+						},
+						{
+							"ENG_name": "Psi-Powered Leap",
+							"name": "灵力跃动",
+							"type": "item",
+							"entry": "当你进行高等或跳远时，你可以掷你的灵能天赋骰并延长跳跃的距离，最多等于掷骰数值的两倍加上你智力调整值的两倍（至少额外1尺）。这段额外距离仅消耗你1尺移动力。"
+						},
+						{
+							"ENG_name": "Telekinetic Strike",
+							"name": "念力打击",
+							"type": "item",
+							"entry": "你可以用念动力推进你的攻击。在你的每个回合中一次，当你用武器攻击对一个30尺内的目标造成伤害后，你可以掷你的灵能天赋骰且对目标造成等同于掷骰数值的力场伤害。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Telekinetic Adept",
+			"name": "念力精通",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "灵能骑士（UA）",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"{@i 7级灵能骑士特性}",
+				"你已精通使用心灵遥控的新方法：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Psionic Thrust",
+							"name": "灵能推力",
+							"type": "item",
+							"entry": "当你用灵能天赋的念力打击对目标造成伤害时，你可以强迫目标进行一次力量豁免检定，DC等于8 + 你的熟练加值 + 你的智力调整值。除非豁免成功，否则你可以使目标{@condition 倒地}或将其水平移动最多10尺。"
+						},
+						{
+							"ENG_name": "Telekinetic Movement",
+							"name": "念力控物",
+							"type": "item",
+							"entry": "如果你的灵能天赋骰可用，你可以用念力移动一个物件或生物。以一个动作，你指定一个大型或更小的松散物件或一个愿意的生物（不能是你自己）。如果你能看到目标且它在你的30尺内，你可以将它移动最多30尺至一个你能看到的未占据空间。或者，如果它是一个微型物件，你可以将它移动至你的手中或从手中移出。无论哪种方式，你都可以水平、垂直或同时移动目标。当你执行此动作时，你的灵能天赋骰减少一个骰子大小。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Psi-Enhanced Metabolism",
+			"name": "灵能强化代谢",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "灵能骑士（UA）",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"{@i 10级灵能骑士特性}",
+				"流经你的灵能能量增强了你的心灵和身体。你对毒素和心灵伤害具有抗性，并且免疫{@condition 中毒}状态。"
+			]
+		},
+		{
+			"ENG_name": "Bulwark of Force",
+			"name": "力场壁垒",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "灵能骑士（UA）",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"{@i 15级灵能骑士特性}",
+				"你可以用念动力力场保护自己和他人。以一个附赠动作，你可以选择你能看见的30尺内的生物（数量不超过你的智力调整值，至少一个生物），这些生物可以包括你自己。每个被选中的生物获得半身掩护，持续1分钟或直到你处于{@condition 失能}状态。一旦你使用了这个特性，直到完成一次长休前不能再次使用，除非你将灵能天赋骰子大小降低一级来再次使用此特性。"
+			]
+		},
+		{
+			"ENG_name": "Telekinetic Master",
+			"name": "念力宗师",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "灵能骑士（UA）",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"{@i 18级灵能骑士特性}",
+				"你以心灵移动生物和物件的能力鲜有人能及。如果你的灵能天赋骰可用，你可以施放{@spell 心灵遥控}法术，无需任何成分。该法术的施法属性为智力。当你施放此法术后，你的灵能天赋骰会减少一个骰子大小。"
+			]
+		},
+		{
+			"ENG_name": "Soulknife",
+			"name": "魂刃",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 3,
+			"className": "游荡者",
+			"classSource": "PHB",
+			"subclassShortName": "魂刃（UA）",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 3,
+			"entries": [
+				"大多数刺客使用物理武器打击，且许多窃贼和间谍们使用{@item 盗贼工具|PHB}潜入安全地点，而魂刃则用心灵打击和渗透，突破物理和心灵的障碍。这些游荡者在自身发现了灵能力量并引导它来完成他们的游荡者工作。他们作为窃贼公会成员很容易找到工作，尽管他们经常被那些对使用奇怪心灵力量进行商业活动的人持怀疑态度的游荡者所不信任，而且大多数政府会乐意雇佣魂刃作为间谍。",
+				"在物质位面和妖精荒野的远古森林树木间，一些木精灵走着魂刃之路，作为他们森林沉默而致命的护卫。在吉斯人之间无休止的战争中，当需要对抗吉斯洋基仇敌的隐匿行动时，吉斯泽莱人会被鼓励成为魂刃；而在阿塔斯世界，术士国王常常依靠魂刃来消灭敌人，正如反叛的魂刃试图破坏那位术士国王的统治一样。",
+				"作为魂刃，你的灵能属性可能自童年起就一直困扰着你，直到你经历了冒险的压力才展现出它们的潜力。或者你可能寻找了一个隐居的灵能行家秩序，并花费数年时间学习如何显现你的法力。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "灵能天赋|游荡者||魂刃（UA）|UA2020PsionicOptionsRevisited|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "心灵之刃|游荡者||魂刃（UA）|UA2020PsionicOptionsRevisited|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Psionic Talent",
+			"name": "灵能天赋",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 3,
+			"className": "游荡者",
+			"classSource": "PHB",
+			"subclassShortName": "魂刃（UA）",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3级魂刃特性}",
+				"你体内蕴藏着一股灵能力量的源泉，这种能量会随着你以各种方式引导它而起伏流动。这种力量由你的灵能天赋骰代表，其初始大小为{@dice d6}。",
+				{
+					"ENG_name": "Psionic Talent Options",
+					"name": "灵能天赋选项",
+					"type": "entries",
+					"entries": [
+						"你可以用以下方式使用你的灵能天赋骰：",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"ENG_name": "Psi-Bolstered Knack",
+									"name": "灵振诀窍",
+									"type": "item",
+									"entry": "当你的非灵能训练无法满足需求时，你可以借助灵能力量来协助：若你在使用具备熟练项的技能或工具进行属性检定时失败，可以投掷你的灵能天赋骰并将骰值加到检定结果上，可能将失败转为成功。"
+								},
+								{
+									"ENG_name": "Psychic Whispers",
+									"name": "心灵低语",
+									"type": "item",
+									"entry": "你可以使用你的心灵能力在你与他人之间建立心灵感应沟通方式\u2014\u2014非常适合安静的渗透。作为一个动作，你给予自己和至少一个其他生物彼此心灵感应交谈的能力。当你这样做时，掷你的灵能天赋骰，并选择你能看见的生物，数量最多等于掷骰结果。在1小时内，选民生物可以与你心灵感应交谈，你也可以与它们心灵感应交谈。要发送或接收消息（无需动作），你和其他生物必须彼此在1英里内。如果一个生物不会说任何语言，它就不能使用这种心灵感应，并且一个生物可以随时结束心灵连接（无需动作）。你和该生物不需要说通用语来理解彼此。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ENG_name": "Changing the Die's Size",
+					"name": "改变骰子的体型",
+					"type": "entries",
+					"entries": [
+						"如果你在你的灵能天赋骰上掷出了最高数值，它在掷骰后会减少一个骰子大小。这代表你消耗了你的灵能能量。例如，如果骰子是{@dice d6}且你掷出了6，它会变成{@dice d4}。如果它是{@dice d4}且你掷出了4，它会变得无法使用直到你完成一次长休。",
+						"反之，如果你在你的灵能天赋骰上掷出1点，它在掷骰后会增加一个骰子大小，直至其初始大小。这代表你为后文使用保存了灵能能量。例如，如果你在{@dice d4}上掷出1点，骰子随后会变为{@dice d6}。",
+						"每当你完成一次长休，你的灵能天赋骰会重置为其初始体型。当你在此职业中达到特定等级时，你的灵能天赋骰的初始体型会增加：5级（{@dice d8}）、11级（{@dice d10}）且17级（{@dice d12}）。"
+					]
+				},
+				{
+					"ENG_name": "Psi Replenishment",
+					"name": "灵能补充",
+					"type": "entries",
+					"entries": [
+						"作为一个附赠动作，你可以暂时平静心灵并将你的灵能天赋骰复原至初始体型。之后直到完成一次长休前你都无法再次使用灵能补充。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Psychic Blades",
+			"name": "心灵之刃",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 3,
+			"className": "游荡者",
+			"classSource": "PHB",
+			"subclassShortName": "魂刃（UA）",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3级魂刃特性}",
+				"你可以将你的灵能力量具现化为闪烁的心灵能量之刃。当你准备对一个生物进行近战或远程武器攻击时，你可以从空闲的手具现出一把心灵之刃并用其进行攻击。这把魔法刀刃是一把具有灵巧和投掷词条的简易近战武器。它的正常范围为60尺且没有最大距离，命中时造成等于{@dice 1d6}加上用于攻击检定的属性调整值的心灵伤害。这把刀刃在命中或未命中目标后立即消失，若造成伤害则不会在目标上留下任何标记。",
+				"当你使用心灵之刃发动攻击后的同一回合中，只要你的另一只手空闲，就能以一个附赠动作在那只手中塑造第二把心灵之刃，并再进行一次近战武器攻击或是远程武器攻击。此附赠攻击的伤害骰为{@dice 1d4}，而非 {@dice 1d6}。"
+			]
+		},
+		{
+			"ENG_name": "Soul Blades",
+			"name": "灵魂之刃",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 3,
+			"className": "游荡者",
+			"classSource": "PHB",
+			"subclassShortName": "魂刃（UA）",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"{@i 9级魂刃特性}",
+				"你的心灵之刃现在是你充满灵能的灵魂的表现，使你能以以下方式更精细地控制它们：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Homing Strikes",
+							"name": "寻的攻击",
+							"type": "item",
+							"entry": "若你使用心灵之刃进行攻击检定且未命中目标，你可以掷你的灵能天赋骰并将掷出的数值添加到攻击检定上。若此举导致攻击命中，则无论掷出何值，你的灵能天赋骰都会减少一个骰子大小。"
+						},
+						{
+							"ENG_name": "Psychic Teleportation",
+							"name": "心灵传送",
+							"type": "item",
+							"entry": "如果你的灵能天赋骰可用，你可以猛投你的心灵之刃来魔法传送自己到另一个位置。作为一个附赠动作，你显现出你的一把心灵之刃并将其投掷到你能看见的一个未占据空间，距离最多为你的灵能天赋骰最高数值的5倍。然后你传送到该空间，刀刃消失，且你的灵能天赋骰减少一个骰子大小。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Psionic Veil",
+			"name": "灵能面纱",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 3,
+			"className": "游荡者",
+			"classSource": "PHB",
+			"subclassShortName": "魂刃（UA）",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"{@i 13级魂刃特性}",
+				"你可以编织一层心灵静电的面纱来掩盖自己。作为一个动作，你可以魔法般地变为{@condition 隐形}状态，连同你穿戴或携带的任何东西，持续10分钟或直到你解除这个效应（无需动作）。如果你对一个生物造成伤害或迫使一个生物进行豁免检定，这个隐形术就会结束。",
+				"一旦你使用了此特性，在完成一次长休前无法再次使用，除非你将灵能天赋骰减少一个骰子大小以再次使用此特性。"
+			]
+		},
+		{
+			"ENG_name": "Rend Mind",
+			"name": "撕裂心智",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 3,
+			"className": "游荡者",
+			"classSource": "PHB",
+			"subclassShortName": "魂刃（UA）",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"{@i 17级魂刃特性}",
+				"你可以将心灵之刃直接扫过生物的心智。当你使用心灵之刃对生物造成偷袭伤害时，你可以强迫目标进行一次感知豁免检定（DC等于8 + 你的熟练加值 + 你的敏捷调整值）。除非豁免成功，否则目标将处于{@condition 震慑}状态直到你的下一个回合结束。",
+				"一旦你使用了此特性，在完成一次长休前无法再次使用，除非你将灵能天赋骰减少一个骰子大小以再次使用此特性。"
+			]
+		},
+		{
+			"ENG_name": "Psionic Soul",
+			"name": "灵能灵魂",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 5,
+			"className": "术士",
+			"classSource": "PHB",
+			"subclassShortName": "灵能灵魂（UA）",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 1,
+			"entries": [
+				"有一天一道光照在你体内迸发\u2014\u2014那是灵能力量的照明。你的心智如今因这股力量而沸腾，而这力量的完整程度你将在未来数年内都无法完全攫取。你可以用它接触其他心智，并通过使用它来控制多元宇宙的魔法能量来改变周围的世界。这股力量会像满怀希望的信标一样从你身上闪耀吗？还是你会成为那些感受到你心智猛刺并见证你力量奇怪显迹者的恐惧来源？",
+				"在吉斯洋基人且吉斯泽莱人中，灵能灵魂术士的力量受到崇敬，并在吉斯人战争的两边集结。在艾伯伦，许多离梦人梦想着在自己体内发现这一起源的属性，而在阿塔斯，更多术士天生拥有灵能灵魂而非其他来源的法力。在被妖精荒野触及的原始森林空地上，孩子们有时会启蒙术灵能力量的奇迹。而在遥远国度入侵中幸存的社区中，一些人变异成可怕的异怪，而幸运的少数不仅保持自我，还发现灵能能量现在充满了他们的思想。",
+				"作为一名灵能灵魂术士，你决定如何获得你的力量。你是天生拥有它们，且它们在整个童年时期显现？还是后文生命中的非凡事件让你闪耀着灵能警觉？请查阅灵能起源表格以了解你法力的可能起源。",
+				{
+					"type": "table",
+					"caption": "灵能起源",
+					"colLabels": [
+						"d10",
+						"起源"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							1,
+							"你曾暴露于遥远国度的扭曲影响。你现在能以从未想过的方式使用你的心智，且你确信有一根卷须正在你身上生长。"
+						],
+						[
+							2,
+							"来自星光位面的心灵风暴将灵能能量注入你的体内。当你现在使用能力时，微弱的光点在你周围闪烁。"
+						],
+						[
+							3,
+							"你或你的先祖曾接受过吉斯泽莱武僧的训练，以解锁自身的灵能潜力。"
+						],
+						[
+							4,
+							"一个精魄萦绕在你的脑海中，为你的思想提供不可思议的法力。当你施放睡眠术时，精魄的记忆会侵入你的梦境。"
+						],
+						[
+							5,
+							"在妖精荒野所触及的森林深处，你饮下了闪烁溪流的水，现在你的心灵闪耀着法力。野兽和精类生物现在常常对你友好，仿佛他们能感知到你内在的光亮。"
+						],
+						[
+							6,
+							"在从濒临致命的伤口中恢复后，你发现自己拥有了灵能力量。每当你使用它们时，你的旧伤就会刺痛。"
+						],
+						[
+							7,
+							"你被植入了一只夺心魔蝌蚪，但蜕变从未完成。现在灵能力量是你的了。当你使用它时，你的血肉会闪耀着一种奇怪的黏液。"
+						],
+						[
+							8,
+							"小时候，你有一个看起来像呋噜或奇怪鸭嘴兽般生物的假想朋友。有一天，它赐予了你灵能力量，结果这些力量并非那么虚幻。"
+						],
+						[
+							9,
+							"你的梦魇向你低语真相：你的灵能力量并不属于你自己。你从你的残留双胞胎中汲取它们！"
+						],
+						[
+							10,
+							"你在一条蓝宝石龙的巢穴附近长大，现在当你使用新获得的力量时，你的眼睛会发出蓝宝石般的光芒。"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "灵能天赋|术士||灵能灵魂（UA）|UA2020PsionicOptionsRevisited|1"
+				}
+			]
+		},
+		{
+			"ENG_name": "Psionic Talent",
+			"name": "灵能天赋",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 5,
+			"className": "术士",
+			"classSource": "PHB",
+			"subclassShortName": "灵能灵魂（UA）",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"{@i 1级灵能灵魂特性}",
+				"你体内蕴藏着一股灵能力量的源泉，这种能量会随着你以各种方式引导它而起伏流动。这种力量由你的灵能天赋骰代表，其初始大小为{@dice d6}。",
+				{
+					"ENG_name": "Psionic Talent Options",
+					"name": "灵能天赋选项",
+					"type": "entries",
+					"entries": [
+						"你可以用以下方式使用你的灵能天赋骰：",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"ENG_name": "Psionic Discovery",
+									"name": "灵能发现",
+									"type": "item",
+									"entry": "你可以解锁施放一个你还不知道的以心灵为导向的术士法术的能力。冥想10分钟（可在休息时进行）后，掷你的灵能天赋骰，并选择一个你有法术位且属于预言学派或惑控学派的术士法术。你知道所选法术的持续小时数等于你掷出的数值。"
+								},
+								{
+									"ENG_name": "Psychic Sorcery",
+									"name": "心灵法术",
+									"type": "item",
+									"entry": "当你施法时，你可以用心灵塑造法术，而非依赖言语、姿势和材质。为此，掷你的灵能天赋骰。该法术将不需要言语成分，且如果你掷出的结果等于或高于法术等级，则该法术也不需要姿势或材料成分。"
+								},
+								{
+									"ENG_name": "Telepathic Speech",
+									"name": "传心谈话",
+									"type": "item",
+									"entry": "你可以在你的心灵与另一个心灵之间形成心灵连接。以一个附赠动作，选择一个你能看见的生物，并掷你的灵能天赋骰。在等于你所掷数值的小时数内，你和所选生物可以在彼此相距等于你所掷数值的英里范围内进行心灵感应交谈。为了理解彼此，你们各自必须用一种对方知晓的语言进行心灵交流。如果你使用此能力与另一个生物形成联系，则心灵连接提前结束。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ENG_name": "Changing the Die's Size",
+					"name": "改变骰子的体型",
+					"type": "entries",
+					"entries": [
+						"如果你在你的灵能天赋骰上掷出了最高数值，它在掷骰后会减少一个骰子大小。这代表你消耗了你的灵能能量。例如，如果骰子是{@dice d6}且你掷出了6，它会变成{@dice d4}。如果它是{@dice d4}且你掷出了4，它会变得无法使用直到你完成一次长休。",
+						"反之，如果你在你的灵能天赋骰上掷出1点，它在掷骰后会增加一个骰子大小，直至其初始大小。这代表你为后文使用保存了灵能能量。例如，如果你在{@dice d4}上掷出1点，骰子随后会变为{@dice d6}。",
+						"每当你完成一次长休，你的灵能天赋骰会重置为其初始体型。当你在此职业中达到特定等级时，你的灵能天赋骰的初始体型会增加：5级（{@dice d8}）、11级（{@dice d10}）且17级（{@dice d12}）。"
+					]
+				},
+				{
+					"ENG_name": "Psi Replenishment",
+					"name": "灵能补充",
+					"type": "entries",
+					"entries": [
+						"作为一个附赠动作，你可以暂时平静心灵并将你的灵能天赋骰复原至初始体型。之后直到完成一次长休前你都无法再次使用灵能补充。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Psychic Strike",
+			"name": "心灵打击",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 5,
+			"className": "术士",
+			"classSource": "PHB",
+			"subclassShortName": "灵能灵魂（UA）",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6级灵能灵魂特性}",
+				"你已学会将额外的灵能能量引导至你的法术中。当你用一个消耗法术位的术士法术对生物造成伤害后，你可以立即掷你的灵能天赋骰，并对该生物造成等同于掷骰数值的心灵伤害。你每回合只能造成一次这种额外伤害。"
+			]
+		},
+		{
+			"ENG_name": "Mind Over Body",
+			"name": "心灵凌驾身体",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 5,
+			"className": "术士",
+			"classSource": "PHB",
+			"subclassShortName": "灵能灵魂（UA）",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"{@i 14级灵能灵魂特性}",
+				"你现在可以使用流经你的灵能赋予身体非凡能力。以一个附赠动作，你可以掷你的灵能天赋骰并消耗1点或更多术法点来魔法变形自己，持续小时数等于掷骰结果。直到变形结束，你为每点消耗的术法点获得以下一项自选增益（每点选择不同增益）：",
+				{
+					"type": "list",
+					"items": [
+						"你可以看见60尺内任何{@condition 隐形}的生物，只要它没有处于全身掩护。",
+						"你获得等同于步行速度的飞行速度，且可以悬浮。",
+						"你获得等于两倍步行速度的游泳速度，且可以在水下呼吸。",
+						"你的身体以及你所穿戴或携带的任何装备变得柔软。你可以穿过窄至1英寸的空间而无需挤过，且你可以花费5英尺的移动力来逃脱非魔法的束缚或{@condition 受擒}状态。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Psychic Aura",
+			"name": "心灵光环",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 5,
+			"className": "术士",
+			"classSource": "PHB",
+			"subclassShortName": "灵能灵魂（UA）",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"{@i 18级灵能灵魂特性}",
+				"如果你的灵能天赋骰可用，你可以释放灵能力量，形成一道噼啪作响的心灵能量灵光；作为一个附赠动作，你可以魔法般地辐射出这个透明的、半径30尺的灵光，持续1分钟或直到你{@condition 失能}或失去使用灵能天赋骰的能力。",
+				"每当一个生物在其回合开始时处于灵能光环内或首次在回合内进入光环时，你可以掷你的灵能天赋骰并对该生物造成心灵伤害，伤害数值等于掷骰结果加上你的魅力调整值。如果该生物受到此伤害，其速度减半直到其下个回合开始。"
+			]
+		}
+	],
+	"feat": [
+		{
+			"ENG_name": "Metabolic Control",
+			"name": "代谢控制",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 8,
+			"prerequisite": [
+				{
+					"psionics": true
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你已精炼出对身体功能的灵能控制。",
+				{
+					"type": "list",
+					"items": [
+						"如果你的灵能天赋骰可用，你可以消耗一个动作来引导你的灵能力量，在接下来的24小时内滋养自己，就像你消耗了一天的粮食与水。当你使用此动作时，你的灵能天赋骰减少一个骰子大小。",
+						"如果你的灵能天赋骰可用，你可以冥想1分钟，结束时你将获得完成一次短休的增益，且你的灵能天赋骰减少一个骰子大小。在你完成一次长休前，你无法再次以这种方式冥想。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Telekinetic",
+			"name": "念动力",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 8,
+			"prerequisite": [
+				{
+					"psionics": true
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "继承",
+					"known": {
+						"_": [
+							"法师之手#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你学会了用念动力移动物体。你获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你习得{@spell 法师之手}戏法，你施展它无需语言成分或材料成分，并且你可以让该幽灵手{@condition 隐形}。如果你已经习得该戏法，你施展该戏法时其施法距离提升30尺。该戏法的施法属性是你由此专长提升的属性。",
+						"作为附赠动作，你可以尝试用念动力推撞一个你能看见的30尺内的生物。当你这样做时，掷你的灵能天赋骰，且目标必须成功通过一次力量豁免检定（DC 8 + 你的熟练加值 + 由该专长提升的属性值的属性调整值）否则被你拉近或推远5倍于你所掷数值的尺数。生物可以自愿豁免失败。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Telepathic",
+			"name": "心灵感应",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 8,
+			"prerequisite": [
+				{
+					"psionics": true
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "继承",
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									"侦测思想"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"你觉醒了与他人心灵连接的能力。你获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你可以与你30尺内能看见的任何生物进行心灵感应交流。你的心灵感应话语使用一种你所知的语言，且只有当该生物也懂这种语言时才能理解你。这种沟通方式不会赋予该生物以心灵感应回应你的能力。",
+						"如果你的灵能天赋骰可用，你可以施放{@spell 侦测思想}法术，且无需任何成分。当你开始施放该法术时，你的灵能天赋骰会减少一个骰子大小。该法术的施法属性是由此专长提升的属性。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Tower of Iron Will",
+			"name": "铁之意志塔楼",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 9,
+			"prerequisite": [
+				{
+					"psionics": true
+				}
+			],
+			"entries": [
+				"你的心灵防御设施坚不可摧。当你或30尺内你能看见的另一个生物豁免检定失败后，你可以使用你的反应掷你的灵能天赋骰并添加掷出的数值到豁免检定上，可能使其成功。"
+			]
+		},
+		{
+			"ENG_name": "Wild Talent",
+			"name": "天赋异禀",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 9,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					},
+					"hidden": true
+				}
+			],
+			"entries": [
+				"你觉醒了自身的灵能潜力，这强化了你的心智或身体。选择一项属性值提升1点，最高不超过20点，以代表这种强化。",
+				"你体内还蕴藏着一股灵能力量的源泉，当你以各种方式引导它时，这股能量会潮起潮落。这种力量由你的灵能天赋骰子代表，其初始大小为{@dice d6}。",
+				{
+					"ENG_name": "Psionic Talent Options",
+					"name": "灵能天赋选项",
+					"type": "entries",
+					"entries": [
+						"你可以用以下方式使用你的灵能天赋骰：",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"ENG_name": "Psi-Boosted Ability",
+									"name": "灵能强化属性",
+									"type": "item",
+									"entry": "当你使用该专长提升的属性进行属性检定时，你可以掷你的灵能天赋骰并将掷出的数值添加到检定中。你可以在掷{@dice d20}之前或之后选择这样做，但在你知道检定是否成功之前。"
+								},
+								{
+									"ENG_name": "Psi-Guided Strike",
+									"name": "灵能导引打击",
+									"type": "item",
+									"entry": "每回合一次，当你使用本专长提升的属性进行攻击检定并命中时，你可以在进行伤害掷骰后掷一次灵能天赋骰，然后将其中一个伤害骰子的数值替换为灵能天赋骰的掷骰结果。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ENG_name": "Changing the Die's Size",
+					"name": "改变骰子的体型",
+					"type": "entries",
+					"entries": [
+						"如果你在你的灵能天赋骰上掷出了最高数值，它在掷骰后会减少一个骰子大小。这代表你消耗了你的灵能能量。例如，如果骰子是{@dice d6}且你掷出了6，它会变成{@dice d4}。如果它是{@dice d4}且你掷出了4，它会变得无法使用直到你完成一次长休。",
+						"反之，如果你在你的灵能天赋骰上掷出1点，它在掷骰后会增加一个骰子大小，直至其初始大小。这代表你为后文使用保存了灵能能量。例如，如果你在{@dice d4}上掷出1点，骰子随后会变为{@dice d6}。",
+						"每当你完成一次长休，你的灵能天赋骰会重置为初始体型。当你达到特定等级时，灵能天赋骰的初始体型会增加：5级（{@dice d8}）、11级（{@dice d10}）且17级（{@dice d12}）。如果你从其他来源获得灵能天赋骰，例如职业特性，你不会获得超过一个骰子；仅使用初始体型最大的那个。"
+					]
+				},
+				{
+					"ENG_name": "Psi Replenishment",
+					"name": "灵能补充",
+					"type": "entries",
+					"entries": [
+						"作为一个附赠动作，你可以暂时平静心灵并将你的灵能天赋骰复原至初始体型。之后直到完成一次长休前你都无法再次使用灵能补充。"
+					]
+				}
+			]
+		}
+	],
+	"spell": [
+		{
+			"ENG_name": "Intellect Fortress",
+			"name": "智能壁垒",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 7,
+			"level": 4,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"在法术持续时间内，你或一个施法距离内的可见生物获得对心灵伤害的抗性，同时在智力、感知和魅力豁免检定上具有优势。"
+			],
+			"entriesHigherLevel": [
+				{
+					"ENG_name": "At Higher Levels",
+					"name": "升环施法效应",
+					"type": "entries",
+					"entries": [
+						"当你使用五环或更高的法术位施放该法术时，使用的法术位每高一环，你就可以多指定一个额外生物作为目标。每个被你指定的生物相互之间的距离必须在 30 尺内。"
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Bard",
+						"name": "吟游诗人",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Sorcerer",
+						"name": "术士",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Wizard",
+						"name": "法师",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageResist": [
+				"心灵"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"ENG_name": "Mind Sliver",
+			"name": "心灵之楔",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 7,
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你将一股令人迷失方向的心灵能量钉子打入射程内可见的一只生物的心智中。目标必须进行一次智力豁免。除非豁免成功，否则目标受到{@damage 1d6}点心灵伤害，并且在你的下一回合结束前，它进行的第一次豁免检定时，必须掷一个{@dice d4}，并从豁免结果中减去掷出的数字。",
+				"当你到达特定等级后，此法术的伤害将增加{@dice 1d6}点：5级（变为{@dice 2d6}）、11 级（{@dice 3d6}）、17 级（{@dice 4d6}）。"
+			],
+			"scalingLevelDice": {
+				"label": "心灵伤害",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Sorcerer",
+						"name": "术士",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Warlock",
+						"name": "魔契师",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Wizard",
+						"name": "法师",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"心灵"
+			],
+			"savingThrow": [
+				"智力"
+			],
+			"miscTags": [
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"ENG_name": "Mind Thrust",
+			"name": "心灵戳刺",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 7,
+			"level": 2,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你在射程内可见的一只生物的心智中刺入一道心灵干扰的长矛。目标必须进行一次智力豁免。若豁免失败，目标受到{@damage 3d6}点心灵伤害，并且直到其下一回合结束前不能进行反应。此外，在它的下一回合，它必须选择它获得移动、动作或额外动作中的一个；它只能获得三者之一。若豁免成功，目标受到的伤害减半，并且不会遭受法术的其他效果。"
+			],
+			"entriesHigherLevel": [
+				{
+					"ENG_name": "At Higher Levels",
+					"name": "升环施法效应",
+					"type": "entries",
+					"entries": [
+						"使用三环或更高的法术位施展该法术时，你使用的法术位每比二环高 1 环就可以额外指定一个生物。被你选为目标的生物互相之间的距离不能超过 30 尺。"
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Sorcerer",
+						"name": "术士",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Wizard",
+						"name": "法师",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"心灵"
+			],
+			"savingThrow": [
+				"智力"
+			],
+			"miscTags": [
+				"SGT",
+				"UBA"
+			],
+			"areaTags": [
+				"ST"
+			]
+		}
+	]
+}

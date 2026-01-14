@@ -1,0 +1,1586 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAModernMagic",
+				"abbreviation": "UAMM",
+				"full": "破解奥秘：现代魔法",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2015/downloads/dnd/UA_ModernMagic.pdf",
+				"dateReleased": "2015-08-03"
+			}
+		],
+		"dependencies": {
+			"subclassFeature": [
+				"UAClassFeatureVariants"
+			]
+		},
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1735770386,
+		"_dateLastModifiedHash": "bec5001844"
+	},
+	"subclass": [
+		{
+			"ENG_name": "City Domain (UA)",
+			"name": "城市领域(UA)",
+			"shortName": "城市（UA）",
+			"source": "UAModernMagic",
+			"className": "牧师",
+			"classSource": "PHB",
+			"page": 1,
+			"additionalSpells": [
+				{
+					"known": {
+						"1": [
+							"开/关|UAModernMagic#c"
+						]
+					},
+					"prepared": {
+						"1": [
+							"通晓语言",
+							"远程访问（UA）|UAModernMagic"
+						],
+						"3": [
+							"寻找交通工具（UA）|UAModernMagic",
+							"灼热金属"
+						],
+						"5": [
+							"闪电束",
+							"守护防弹（UA）|UAModernMagic"
+						],
+						"7": [
+							"生物定位术",
+							"同步性（UA）|UAModernMagic"
+						],
+						"9": [
+							"通神术（UA）|UAModernMagic",
+							"关闭（UA）|UAModernMagic"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"城市领域(UA)|牧师||城市（UA）|UAModernMagic|1",
+				"引导神力：城市精魂|牧师||城市（UA）|UAModernMagic|2",
+				"街区守卫|牧师||城市（UA）|UAModernMagic|6",
+				"神圣打击|牧师||城市（UA）|UAModernMagic|8",
+				"受祝击|牧师||城市（UA）|UAModernMagic|8|UAClassFeatureVariants",
+				"快速运输|牧师||城市（UA）|UAModernMagic|17"
+			]
+		},
+		{
+			"ENG_name": "Ghost in the Machine (UA)",
+			"name": "机械幽魂（UA）",
+			"shortName": "机械幽魂（UA）",
+			"source": "UAModernMagic",
+			"className": "魔契师",
+			"classSource": "PHB",
+			"page": 2,
+			"additionalSpells": [
+				{
+					"known": {
+						"1": [
+							"开/关|UAModernMagic#c"
+						]
+					},
+					"expanded": {
+						"s1": [
+							"绝对可靠传输（UA）|UAModernMagic",
+							"远程访问（UA）|UAModernMagic"
+						],
+						"s2": [
+							"奥术黑客（UA）|UAModernMagic",
+							"数字幽灵（UA）|UAModernMagic"
+						],
+						"s3": [
+							"电子设备出现故障（UA）|UAModernMagic",
+							"对摄像机的隐形术（UA）|UAModernMagic"
+						],
+						"s4": [
+							"召唤智机（UA）|UAModernMagic",
+							"系统后门（UA）|UAModernMagic"
+						],
+						"s5": [
+							"关闭（UA）|UAModernMagic",
+							"同步性（UA）|UAModernMagic"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"械中幽灵|魔契师||机械幽魂（UA）|UAModernMagic|1",
+				"金属丝行走|魔契师||机械幽魂（UA）|UAModernMagic|6",
+				"个人加密|魔契师||机械幽魂（UA）|UAModernMagic|10",
+				"技术病毒|魔契师||机械幽魂（UA）|UAModernMagic|14"
+			]
+		},
+		{
+			"ENG_name": "Technomancy (UA)",
+			"name": "技术魔法（UA）",
+			"shortName": "技术魔法（UA）",
+			"source": "UAModernMagic",
+			"className": "法师",
+			"classSource": "PHB",
+			"page": 3,
+			"subclassFeatures": [
+				"技术魔法|法师||技术魔法（UA）|UAModernMagic|2",
+				"程序法术|法师||技术魔法（UA）|UAModernMagic|6",
+				"在线施法|法师||技术魔法（UA）|UAModernMagic|10",
+				"链式装置|法师||技术魔法（UA）|UAModernMagic|14"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"ENG_name": "City Domain (UA)",
+			"name": "城市领域(UA)",
+			"source": "UAModernMagic",
+			"page": 1,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "城市（UA）",
+			"subclassSource": "UAModernMagic",
+			"level": 1,
+			"entries": [
+				"城市领域关注现代文明中的市民、商业、交通乃至建筑。在城市牧师眼中，现代生活的核心是团队的精魄，而城市最严重的敌人是那些试图伤害市民普通吉兆的人。",
+				"在每个指定的牧师等级，将列出的法术添加到你已准备法术中。它们不计入你的准备法术数量限制。",
+				"标有星号的法术可以在破解奥秘：现代魔法中找到。",
+				{
+					"type": "table",
+					"caption": "城市领域法术",
+					"colLabels": [
+						"牧师等级",
+						"法术"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell 通晓语言}, {@spell 远程访问（UA）|UAModernMagic|远程访问}*"
+						],
+						[
+							"3rd",
+							"{@spell 寻找交通工具（UA）|UAModernMagic|寻找载具}*, {@spell 灼热金属}"
+						],
+						[
+							"5th",
+							"{@spell 闪电束}, {@spell 守护防弹（UA）|UAModernMagic|守护弹道}*"
+						],
+						[
+							"7th",
+							"{@spell 生物定位术}, {@spell 同步性（UA）|UAModernMagic|同步性}*"
+						],
+						[
+							"9th",
+							"{@spell 通神术（UA）|UAModernMagic|城市通神术}*, {@spell 关闭（UA）|UAModernMagic|关机}*"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "附赠戏法|牧师||城市（UA）|UAModernMagic|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "附赠熟练|牧师||城市（UA）|UAModernMagic|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "城市之心|牧师||城市（UA）|UAModernMagic|1"
+				}
+			]
+		},
+		{
+			"ENG_name": "Bonus Cantrip",
+			"name": "附赠戏法",
+			"source": "UAModernMagic",
+			"page": 1,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "城市（UA）",
+			"subclassSource": "UAModernMagic",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"当你在1级选择这个领域时，除了你已选的戏法外，你还将获得{@spell 开启/关闭（UA）|UAModernMagic|开/关}戏法。"
+			]
+		},
+		{
+			"ENG_name": "Bonus Proficiencies",
+			"name": "附赠熟练",
+			"source": "UAModernMagic",
+			"page": 1,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "城市（UA）",
+			"subclassSource": "UAModernMagic",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"同样从1环开始，你获得副手武器熟练且载具（大地）熟练。"
+			]
+		},
+		{
+			"ENG_name": "Heart of the City",
+			"name": "城市之心",
+			"source": "UAModernMagic",
+			"page": 1,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "城市（UA）",
+			"subclassSource": "UAModernMagic",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"从1级开始，你能够利用城市中发现的团队精魄。当你在任何城市中时，可以在一次魅力（{@skill 欺瞒}、{@skill 威吓}或{@skill 游说}）检定中获得优势，且视为熟练于该技能。你可以使用此特性的次数等于你的感知调整值（至少一次）。完成一次长休后恢复所有已消耗的使用次数。"
+			]
+		},
+		{
+			"ENG_name": "Channel Divinity: Spirits of the City",
+			"name": "引导神力：城市精魂",
+			"source": "UAModernMagic",
+			"page": 1,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "城市（UA）",
+			"subclassSource": "UAModernMagic",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"ENG_name": "Channel Divinity",
+				"name": "引导神力"
+			},
+			"entries": [
+				"从2级开始，你可以使用引导神力来呼唤城市寻求援助。以一个动作，你展示你的圣徽，且30尺内的任何城市实用性设施要么完美运作，要么完全关闭1分钟（由你选择）。",
+				"此外，你周围30尺内的每个敌对生物必须进行一次魅力豁免检定。若豁免失败，该生物将被诸如缠绕的线缆、消防栓喷出的高压水、路面塌陷形成的隐蔽坑洞等危害击倒{@condition 倒地}或束缚{@condition 束缚}（由你选择）。一个被{@condition 束缚}的生物可以通过对你的法术豁免DC进行一次成功的力量（{@skill 运动}）或敏捷（{@skill 特技}）检定来逃脱。",
+				"此效应完全为局部效应且仅影响你30尺范围内的公共设施。范围内可用的公共设施及其物理效应的具体表现由DM决定。"
+			]
+		},
+		{
+			"ENG_name": "Block Watch",
+			"name": "街区守卫",
+			"source": "UAModernMagic",
+			"page": 1,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "城市（UA）",
+			"subclassSource": "UAModernMagic",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"从6级开始，你在城市中的警觉会超自然地延伸。在城市环境中，你被视为熟练于{@skill 洞悉}和{@skill 察觉}技能，并且你在感知（{@skill 洞悉}）和感知（{@skill 察觉}）检定上添加双倍的熟练加值，而非正常的熟练加值。"
+			]
+		},
+		{
+			"ENG_name": "Divine Strike",
+			"name": "神圣打击",
+			"source": "UAModernMagic",
+			"page": 1,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "城市（UA）",
+			"subclassSource": "UAModernMagic",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"在8级时，你获得从城市居民那里借来的心灵能量注入武器攻击的能力。在你的每个回合中，当你用武器攻击命中一个生物时，你可以使该攻击对目标造成额外的{@damage 1d8}心灵伤害。当你达到14级时，额外的心灵伤害增加到{@dice 2d8}。"
+			]
+		},
+		{
+			"ENG_name": "Express Transit",
+			"name": "快速运输",
+			"source": "UAModernMagic",
+			"page": 1,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "城市（UA）",
+			"subclassSource": "UAModernMagic",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"在17级时，你可以使用公共交通路线瞬间传送到城市中的其他地点。从城市内的公交站、火车站、地铁站或其他合适的公共交通站点出发，你可以传送到城市内的任何其他类似交通站点，就像你施放了一个{@spell 传送术}法术，其目的地是你已知的一个永久{@spell 传送法阵}。一旦你使用了此特性，你必须完成一次短休或长休才能再次使用它。"
+			]
+		},
+		{
+			"ENG_name": "Ghost in the Machine",
+			"name": "械中幽灵",
+			"source": "UAModernMagic",
+			"page": 2,
+			"className": "魔契师",
+			"classSource": "PHB",
+			"subclassShortName": "机械幽魂（UA）",
+			"subclassSource": "UAModernMagic",
+			"level": 1,
+			"entries": [
+				"你与一个你认为完全是数字化的实体达成了获取法力的交易。无论它是一个失控的人工智能还是一位已故黑客的精魄，械中幽灵都能完成一些无法解释的专长。",
+				{
+					"ENG_name": "Expanded Spell List",
+					"name": "扩展法术列表",
+					"type": "entries",
+					"entries": [
+						"械中幽灵允许你在学习魔契师法术时从扩展法术列表中选择。你获得开/关戏法，且以下新法术被添加到你的魔契师法术列表中。",
+						"标有星号的法术可以在破解奥秘：现代魔法中找到。",
+						{
+							"type": "table",
+							"caption": "械中幽灵扩展法术",
+							"colLabels": [
+								"法术环阶",
+								"法术"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1st",
+									"{@spell 绝对可靠传输（UA）|UAModernMagic|无误中继}*, {@spell 远程访问（UA）|UAModernMagic|远程访问}*"
+								],
+								[
+									"2nd",
+									"{@spell 奥术黑客（UA）|UAModernMagic|奥术骇入}*, {@spell 数字幽灵（UA）|UAModernMagic|数字鬼魅}*"
+								],
+								[
+									"3rd",
+									"{@spell 电子设备出现故障（UA）|UAModernMagic|失控}*, {@spell 对摄像机的隐形术（UA）|UAModernMagic|对摄像机的隐形术}*"
+								],
+								[
+									"4th",
+									"{@spell 召唤智机（UA）|UAModernMagic|召唤知识机器人}*, {@spell 系统后门（UA）|UAModernMagic|系统后门}*"
+								],
+								[
+									"5th",
+									"{@spell 关闭（UA）|UAModernMagic|关机}*, {@spell 同步性（UA）|UAModernMagic|同步性}*"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "附赠熟练项|魔契师||机械幽魂（UA）|UAModernMagic|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "消息浪涌|魔契师||机械幽魂（UA）|UAModernMagic|1"
+				}
+			]
+		},
+		{
+			"ENG_name": "Bonus Proficiency",
+			"name": "附赠熟练项",
+			"source": "UAModernMagic",
+			"page": 2,
+			"className": "魔契师",
+			"classSource": "PHB",
+			"subclassShortName": "机械幽魂（UA）",
+			"subclassSource": "UAModernMagic",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"在1级时，你获得黑客工具的熟练。"
+			]
+		},
+		{
+			"ENG_name": "Information Surge",
+			"name": "消息浪涌",
+			"source": "UAModernMagic",
+			"page": 2,
+			"className": "魔契师",
+			"classSource": "PHB",
+			"subclassShortName": "机械幽魂（UA）",
+			"subclassSource": "UAModernMagic",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"在1级时，你获得暂时使计算机设备失效的能力。以一个动作，你可以指定30尺内的一个计算机设备为目标。如果目标设备被活体生物持有或主动使用，该生物必须进行一次对抗你法术豁免DC的智力豁免检定。豁免失败时，目标设备将停止运作直到你的下个回合结束。如果目标设备未被生物持有或使用，DM将为该设备进行一次具有劣势且+0调整值的特殊豁免检定。某些受庇护的设备可能抵消该劣势，由DM决定。",
+				"你必须完成一次长休或短休后才能再次使用该特性。"
+			]
+		},
+		{
+			"ENG_name": "Wire Walk",
+			"name": "金属丝行走",
+			"source": "UAModernMagic",
+			"page": 2,
+			"className": "魔契师",
+			"classSource": "PHB",
+			"subclassShortName": "机械幽魂（UA）",
+			"subclassSource": "UAModernMagic",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"从6级开始，你获得在电线、数据线或电话线上短距离旅行的能力。以一个附赠动作，你可以接触连接到有线网络的设备或插座，并沿着该网络传送到你视线范围内的另一个设备或插座。一旦你使用了该特性，直到完成一次短休或长休前都无法再次使用。"
+			]
+		},
+		{
+			"ENG_name": "Personal Encryption",
+			"name": "个人加密",
+			"source": "UAModernMagic",
+			"page": 2,
+			"className": "魔契师",
+			"classSource": "PHB",
+			"subclassShortName": "机械幽魂（UA）",
+			"subclassSource": "UAModernMagic",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"从10级开始，你已学会将自身对加密的先天知识应用于思想、记忆和存在感。你在对抗{@spell 探知术}、思想侦测或任何其他魔法手段学习你的行踪或阅读你的思想时，豁免检定具有优势。对于任何此类不给予你豁免检定但要求针对你的生物进行属性检定的效应，该检定具有劣势。"
+			]
+		},
+		{
+			"ENG_name": "Technovirus",
+			"name": "技术病毒",
+			"source": "UAModernMagic",
+			"page": 2,
+			"className": "魔契师",
+			"classSource": "PHB",
+			"subclassShortName": "机械幽魂（UA）",
+			"subclassSource": "UAModernMagic",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"在14级时，你获得用活体电路感染类人生物身体的能力。你可以使用一个动作以你的法术攻击调整值对一个类人生物发动近战攻击。目标必须进行一次对抗你法术豁免DC的体质豁免检定，因为一种技术有机病毒会迅速在其体内扩散。豁免失败时，目标受到{@damage 8d10}心灵伤害，豁免成功则只受一半伤害。",
+				"此外，如果目标未能通过豁免检定，你可以使用一个动作对它下达一个单一命令，如同你正在施放{@spell 命令术}法术。目标对你的{@spell 命令术}进行豁免检定时具有劣势。只要目标仍被感染，你可以在任何时间下达这个{@spell 命令术}。",
+				"一旦你使用了这个特性，在完成一次长休前无法再次使用，届时目标的技术病毒将被治愈。感染也可以通过{@spell 次级复原术}法术移除。"
+			]
+		},
+		{
+			"ENG_name": "Technomancy",
+			"name": "技术魔法",
+			"source": "UAModernMagic",
+			"page": 3,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "技术魔法（UA）",
+			"subclassSource": "UAModernMagic",
+			"level": 2,
+			"entries": [
+				"与基于魔法学派的更常见的奥术传统不同，科技魔法的传统并不专注于单一类型的法术工艺或魔法能量。相反，科技魔法的学生们关注的是他们的法术如何与现代技术互动。",
+				"技术法师可以将技术作为魔法的导管和储藏空间使用。在使用魔法物品创造选用规则的战役中（参见地下城主指南），技术法师可以制造一次性电子设备和智能手机应用来代替药水和卷轴。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "附赠熟练|法师||技术魔法（UA）|UAModernMagic|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "科技专家|法师||技术魔法（UA）|UAModernMagic|2"
+				}
+			]
+		},
+		{
+			"ENG_name": "Bonus Proficiencies",
+			"name": "附赠熟练",
+			"source": "UAModernMagic",
+			"page": 3,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "技术魔法（UA）",
+			"subclassSource": "UAModernMagic",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"从2级选择此奥术传承开始，你获得手枪和黑客工具的熟练。"
+			]
+		},
+		{
+			"ENG_name": "Technological Savant",
+			"name": "科技专家",
+			"source": "UAModernMagic",
+			"page": 3,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "技术魔法（UA）",
+			"subclassSource": "UAModernMagic",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"同样在2级时，你可以将你的法术书替换为一个你选择的特别调谐的存储设备，该设备能够记录魔法数据。此设备的计算能力必须等于或大于平板电脑。在任何时候，只能有一个存储设备与你调谐。将法术复制到此设备的花费是将法术复制到法术书的一半。"
+			]
+		},
+		{
+			"ENG_name": "Program Spell",
+			"name": "程序法术",
+			"source": "UAModernMagic",
+			"page": 3,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "技术魔法（UA）",
+			"subclassSource": "UAModernMagic",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"在6级时，你可以将一个法术插入到你选择的电子设备中，这样通过使用一个动作触摸按键或拨动开关，法术就会激活。法术的所有变量都在施法时设定。该设备的计算能力必须等于或大于一部移动电话。",
+				"一个程序化法术会在其装置中保留48小时，且一旦释放就会消失。你只能使用此特性在同一时间将一个程序化法术放置于一个装置中，且一个装置只能容纳一个程序化法术。只有你能激活装置中的程序化法术。如果装置被摧毁，程序化法术将迷失。",
+				"放置在设备中的{@status 专注}法术在你{@status 专注||专注于}另一个法术时无法激活。一旦你使用此特性，直到完成一次长休前都无法再次使用。"
+			]
+		},
+		{
+			"ENG_name": "Online Casting",
+			"name": "在线施法",
+			"source": "UAModernMagic",
+			"page": 3,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "技术魔法（UA）",
+			"subclassSource": "UAModernMagic",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"在10级时，你可以通过网络连接的电子设备施法，包括摄像头、移动电话和电脑。例如，如果一个生物处于安全摄像头的观察下，并且你能在电脑上看到该摄像头的视频画面，你可以将法术施放到电脑中并通过安全摄像头以该生物为目标施法。",
+				"如果法术要求施法者被看见，目标必须看见你或你的实时图像。如果法术要求施法者被听见，目标必须能够听见你或你的实时音频传播。法术的范围通过从你到你的设备的距离，再从目标到其设备的距离来确定。你必须能够看见或以其他方式确定目标的位置。此特性只能用于施放以特定生物为目标的法术。影响区域的法术不受在线施法影响。",
+				"此特性每日可使用次数等于你的智力调整值（至少一次）。"
+			]
+		},
+		{
+			"ENG_name": "Chained Device",
+			"name": "链式装置",
+			"source": "UAModernMagic",
+			"page": 3,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "技术魔法（UA）",
+			"subclassSource": "UAModernMagic",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"到14级时，你学会了将自己的意识印记刻印在具有显著计算能力的电子设备上。当你施放一个{@status 专注}法术时，你可以使用计算能力等于或大于平板电脑的设备来代表你维护该法术的{@status 专注}。该设备必须被你持有或佩戴才能维持此效应。如果设备被摧毁、从你身上拿走、掉落或关闭，{@status 专注}将结束。一旦你使用了此特性，在完成一次长休前不能再次使用。"
+			]
+		}
+	],
+	"optionalfeature": [
+		{
+			"ENG_name": "Arcane Gunslinger",
+			"name": "奥术铳士",
+			"source": "UAModernMagic",
+			"page": 3,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"pact": "刃之魔契"
+				}
+			],
+			"entries": [
+				"你可以创建一个作为随身武器或长枪的契约武器，且你可以将一个魔法随身武器或长枪转化为你的契约武器。"
+			]
+		}
+	],
+	"spell": [
+		{
+			"ENG_name": "Arcane Hacking (UA)",
+			"name": "奥术黑客（UA）",
+			"source": "UAModernMagic",
+			"page": 5,
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "黑客工具"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"meta": {
+				"technomagic": true
+			},
+			"entries": [
+				"当你使用外部系统时，你在所有使用黑客工具破解软件加密或在线安全的智慧检查上获得优势。这个法术还允许你通过使用黑客工具进行智慧检查，对抗施法者法术豁免DC，来破解2级及以下保护法术，如奥术锁或警戒符文。"
+			],
+			"entriesHigherLevel": [
+				{
+					"ENG_name": "At Higher Levels",
+					"name": "升环施法效应",
+					"type": "entries",
+					"entries": [
+						"当你使用3级或更高等级的法术位施放这个法术时，如果对方的法术等级等于或低于你使用的法术位等级，你可以尝试解除对方设置在外部系统上的法术。"
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Warlock",
+						"name": "魔契师",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Sorcerer",
+						"name": "术士",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Wizard",
+						"name": "法师",
+						"source": "PHB"
+					}
+				]
+			},
+			"abilityCheck": [
+				"智力"
+			],
+			"miscTags": [
+				"ADV"
+			]
+		},
+		{
+			"ENG_name": "Commune with City (UA)",
+			"name": "通神术（UA）",
+			"source": "UAModernMagic",
+			"page": 5,
+			"level": 5,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "分钟"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"你短暂地与城市融为一体，并获得周围区域的知识。在地面上，这个法术让你了解你周围1英里内的区域。在下水道和其他地下环境中，你获得你周围600英尺内区域的知识。",
+				"你立即获得的自然资讯至多与该地域三个方面的主题相关，在以下项目中进行选择：",
+				{
+					"type": "list",
+					"items": [
+						"地形和水体",
+						"常见的建筑、植物、动物或智能生物",
+						"强大的（挑战等级1或更高）天界生物、仙界生物、魔界生物、元素生物或亡灵",
+						"来自其他存在层面的影响",
+						"电流、无线信号以及活跃的交通线路和轨道"
+					]
+				},
+				"例如，你可以确定该地区强大的不死生物的位置，主要的电力来源或干扰源的位置，以及附近公园的位置。"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Warlock",
+						"name": "魔契师",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Sorcerer",
+						"name": "术士",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Wizard",
+						"name": "法师",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"ENG_name": "Conjure Knowbot (UA)",
+			"name": "召唤智机（UA）",
+			"source": "UAModernMagic",
+			"page": 5,
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					}
+				}
+			],
+			"meta": {
+				"technomagic": true
+			},
+			"entries": [
+				"你触摸一个电脑化的设备或计算机系统来召唤一个知识机器人\u2014\u2014一个部分有感知能力的软件片段，印有你自己的技能和计算机能力的残余。在法术持续期间，你可以使用一个奖励动作让知识机器人执行一个通常需要动作的与计算机相关的任务。知识机器人使用你的能力分数和熟练度加值（包括你使用黑客工具的熟练度，如果适用）来进行智力属性检定。",
+				"你与知识机器人之间存在有限的心灵感应联系，范围为从召唤知识机器人的设备或系统处500英尺内。如果你超出这个范围，知识机器人将在{@dice 2d4}回合内消失，就像法术的持续时间到了一样。再次进入范围内会立即重新建立联系。",
+				"知识机器人被绑定到它被创建的系统中，并且它会一直停留在那里，直到被解散或法术持续时间结束。"
+			],
+			"entriesHigherLevel": [
+				{
+					"ENG_name": "At Higher Levels",
+					"name": "升环施法效应",
+					"type": "entries",
+					"entries": [
+						"当你使用5级或更高等级的法术位施放这个法术时，法术的持续时间增加到1小时。此外，你与知识机器人的心灵感应联系的有效范围增加到1000英尺，如果你离开了联系的范围，知识机器人会继续执行它的最后一项被指派的任务，直到法术结束。"
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Warlock",
+						"name": "魔契师",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Sorcerer",
+						"name": "术士",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Wizard",
+						"name": "法师",
+						"source": "PHB"
+					}
+				]
+			},
+			"miscTags": [
+				"SMN",
+				"UBA"
+			]
+		},
+		{
+			"ENG_name": "Digital Phantom (UA)",
+			"name": "数字幽灵（UA）",
+			"source": "UAModernMagic",
+			"page": 6,
+			"level": 2,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "一小段铜线"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"meta": {
+				"technomagic": true
+			},
+			"entries": [
+				"这个法术用于在计算机系统中积极隐藏你的存在。在法术持续期间，你和你在本地网络上选择的任何其他用户在智力检查中获得+10的加值，以避免被管理员、知识机器人、跟踪软件等检测到。当你们在法术生效期间离开任何正在工作的计算机系统时，你们在该系统中之前存在的痕迹将被全部抹除。"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Warlock",
+						"name": "魔契师",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Sorcerer",
+						"name": "术士",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Wizard",
+						"name": "法师",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"ENG_name": "Find Vehicle (UA)",
+			"name": "寻找交通工具（UA）",
+			"source": "UAModernMagic",
+			"page": 6,
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 10,
+					"unit": "分钟"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"entries": [
+				"你召唤一个精灵，它呈现出你选择的非军事陆地交通工具的形状，出现在射程内的未占用空间中。该交通工具具有其同类普通交通工具的统计数据，尽管它是天界、仙界或魔界（你选择的起源）的。交通工具的物理特征在一定程度上反映了它的起源。例如，一个魔界的SUV可能是纯黑色的，有深色窗户和一个看起来邪恶的前格栅。",
+				"你与召唤出的车辆之间有一种超自然的联系，这使你能够超越你的正常能力驾驶它。在驾驶召唤出的车辆时，你被视为对其类型的车辆熟练，并在与驾驶该车辆相关的属性检定中加上你熟练加值的两倍。在驾驶车辆时，你可以使你施放的任何只针对你的法术也针对该车辆。",
+				"如果载具降至0生命值，它将消失，不留下任何物理形态。你也可以随时作为动作解散载具，使其消失。",
+				"你不能同时通过这个法术绑定多于一辆交通工具。作为一项动作，你可以随时解除交通工具的绑定，使其消失。"
+			],
+			"entriesHigherLevel": [
+				{
+					"ENG_name": "At Higher Levels",
+					"name": "升环施法效应",
+					"type": "entries",
+					"entries": [
+						"当你使用3级或更高级别的法术位施放这个法术时，你可以召唤一个足够大的非军事用途的水运载工具，能够承载六种中等体型的生物。当你使用5级或更高级别的法术位施放这个法术时，你可以召唤一个足够大的非军事用途的空运载工具，能够承载十种中等体型的生物。当你使用7级或更高级别的法术位施放这个法术时，你可以召唤任何类型的运载工具，但需得到地下城主的批准。"
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Warlock",
+						"name": "魔契师",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Sorcerer",
+						"name": "术士",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Wizard",
+						"name": "法师",
+						"source": "PHB"
+					}
+				]
+			},
+			"miscTags": [
+				"SMN"
+			]
+		},
+		{
+			"ENG_name": "Haywire (UA)",
+			"name": "电子设备出现故障（UA）",
+			"source": "UAModernMagic",
+			"page": 7,
+			"level": 3,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"meta": {
+				"technomagic": true
+			},
+			"entries": [
+				"这个法术会对电子设备造成严重干扰，使得使用这些设备几乎不可能。在你选择的范围内的一个点为中心，10英尺半径范围内的每个电子设备都会受到随机行为的影响，只要它保持在该区域内。未被生物持有的设备会自动受到影响。如果电子设备被生物持有，那么该生物必须成功进行一次智力豁免检定，否则设备将受到法术的影响。",
+				"在你的每个回合开始时，为每个受影响的装置投掷一个{@dice d6}骰子，以确定其行为。除非另有说明，该行为将持续到这个法术生效期间你的下一个回合开始。",
+				{
+					"type": "table",
+					"colLabels": [
+						"{@dice d6}",
+						"效应"
+					],
+					"colStyles": [
+						"col-1 text-center no-wrap",
+						"col-11"
+					],
+					"rows": [
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 1
+								}
+							},
+							"该设备已关闭，必须重新启动。在设备重新启动之前，不要再次为此设备掷骰。"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 2,
+									"max": 4
+								}
+							},
+							"该设备无法正常工作。"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 5
+								}
+							},
+							"该设备经历了一次电力激增，导致持有者（如果有的话）和设备周围5英尺内的一个随机生物受到电击。每个受影响的生物必须进行一次敏捷豁免检定，对抗你的法术豁免DC，如果失败则受到{@damage 6d6}点闪电伤害，成功则受到一半的伤害。"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 6
+								}
+							},
+							"该设备可以正常使用。"
+						]
+					]
+				}
+			],
+			"entriesHigherLevel": [
+				{
+					"ENG_name": "At Higher Levels",
+					"name": "升环施法效应",
+					"type": "entries",
+					"entries": [
+						"当你使用4级或更高等级的法术位施放这个法术时，受法术影响的球体半径每超过3级增加5英尺。"
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Warlock",
+						"name": "魔契师",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Sorcerer",
+						"name": "术士",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Wizard",
+						"name": "法师",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"闪电"
+			],
+			"savingThrow": [
+				"感知",
+				"敏捷"
+			],
+			"miscTags": [
+				"RO"
+			],
+			"areaTags": [
+				"S"
+			]
+		},
+		{
+			"ENG_name": "Infallible Relay (UA)",
+			"name": "绝对可靠传输（UA）",
+			"source": "UAModernMagic",
+			"page": 7,
+			"level": 1,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "分钟"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "一部移动电话"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"meta": {
+				"technomagic": true
+			},
+			"entries": [
+				"通过这个法术，你可以针对任何你之前与之交谈过的生物，只要你们处在同一个存在层面上。当你施放法术时，目标100英尺范围内最近的正在工作的电话或类似的通讯设备开始响起。如果目标附近没有足够近的合适设备，法术就会失败。",
+				"目标必须成功进行一次魅力豁免检定，否则将被迫回应你的召唤。一旦连接建立，通话将非常清晰，除非对话结束或法术持续时间结束，否则不会中断。你可以随时结束对话，但目标必须成功进行一次魅力豁免检定才能结束对话。"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Warlock",
+						"name": "魔契师",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Sorcerer",
+						"name": "术士",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Wizard",
+						"name": "法师",
+						"source": "PHB"
+					}
+				]
+			},
+			"savingThrow": [
+				"魅力"
+			]
+		},
+		{
+			"ENG_name": "Invisibility to Cameras (UA)",
+			"name": "对摄像机的隐形术（UA）",
+			"source": "UAModernMagic",
+			"page": 7,
+			"level": 3,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "一片黑色纸屑"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"meta": {
+				"technomagic": true
+			},
+			"entries": [
+				"在法术持续时间内，你选择的四个生物范围内对电子传感器和摄像头变得不可检测。目标穿戴或携带的任何物品，只要在目标身上，也同样不可检测。目标对视觉仍然可见。"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Warlock",
+						"name": "魔契师",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Sorcerer",
+						"name": "术士",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Wizard",
+						"name": "法师",
+						"source": "PHB"
+					}
+				]
+			},
+			"areaTags": [
+				"MT"
+			]
+		},
+		{
+			"ENG_name": "On/Off (UA)",
+			"name": "开启/关闭（UA）",
+			"source": "UAModernMagic",
+			"page": 7,
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"meta": {
+				"technomagic": true
+			},
+			"entries": [
+				"这个戏法允许你激活或停用范围内的任何电子设备，只要该设备有一个明确定义的开启或关闭功能，并且可以从设备的外部轻松访问。任何需要基于软件的关闭序列来激活或停用的设备都不能被开/关法术影响。"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Warlock",
+						"name": "魔契师",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Sorcerer",
+						"name": "术士",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Wizard",
+						"name": "法师",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"ENG_name": "Protection from Ballistics (UA)",
+			"name": "守护防弹（UA）",
+			"source": "UAModernMagic",
+			"page": 8,
+			"level": 3,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "一个弹壳"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"这个法术使目标的肉体对子弹的冲击产生抗性。直到法术结束，目标对非魔法弹道伤害有抗性。"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Warlock",
+						"name": "魔契师",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Sorcerer",
+						"name": "术士",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Wizard",
+						"name": "法师",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"ENG_name": "Remote Access (UA)",
+			"name": "远程访问（UA）",
+			"source": "UAModernMagic",
+			"page": 8,
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					}
+				}
+			],
+			"meta": {
+				"technomagic": true
+			},
+			"entries": [
+				"你可以将范围内的任何电子设备当作在你手中一样使用。这不是心灵感应的效果。相反，这个法术允许你通过电子方式模拟设备的机械功能。你只能访问手动使用设备的人能够访问的功能。你一次只能与一个设备远程连接。"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Warlock",
+						"name": "魔契师",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Sorcerer",
+						"name": "术士",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Wizard",
+						"name": "法师",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"ENG_name": "Shutdown (UA)",
+			"name": "关闭（UA）",
+			"source": "UAModernMagic",
+			"page": 8,
+			"level": 5,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"meta": {
+				"technomagic": true
+			},
+			"entries": [
+				"这个法术使范围内所有未被生物持有或直接控制的电子设备失效。如果范围内的电子设备被生物使用，该生物必须成功进行一次体质豁免检定，以防止设备失效。在法术持续期间，范围内的任何电子设备都无法启动或重新启动。"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Warlock",
+						"name": "魔契师",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Sorcerer",
+						"name": "术士",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Wizard",
+						"name": "法师",
+						"source": "PHB"
+					}
+				]
+			},
+			"savingThrow": [
+				"体质"
+			]
+		},
+		{
+			"ENG_name": "Synchronicity (UA)",
+			"name": "同步性（UA）",
+			"source": "UAModernMagic",
+			"page": 8,
+			"level": 4,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"在你触摸的生物身上，现实微妙地向它有利的方向转变，只要这个法术生效。目标不会受到任何平凡延误的困扰。交通灯总是绿色的，总有等待中的电梯，出租车总是在街角。目标可以在密集的人群中全速奔跑，因目标移动而引发的攻击机会攻击处于劣势。",
+				"同步性赋予目标在敏捷（{@skill 隐匿}）检定上的优势，因为目标总是能找到一个方便的掩体。此外，目标在所有驾驶载具的属性检定上也有优势。",
+				"如果两个或更多受到同步效应影响的生物试图避免彼此造成不便，每当这些法术的效果相互对立时，这些生物就会进行魅力的较量。"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Warlock",
+						"name": "魔契师",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Sorcerer",
+						"name": "术士",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Wizard",
+						"name": "法师",
+						"source": "PHB"
+					}
+				]
+			},
+			"miscTags": [
+				"ADV"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"ENG_name": "System Backdoor (UA)",
+			"name": "系统后门（UA）",
+			"source": "UAModernMagic",
+			"page": 8,
+			"level": 4,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "分钟"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "黑客工具"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"meta": {
+				"technomagic": true
+			},
+			"entries": [
+				"这个法术允许你绕过系统安全，以便在外部系统上创建一个安全的登录。你创建的登录允许你在任何未经技术魔法增强的计算机系统中拥有管理员级别的权限。该登录能够击败任何3级或更低级别的技术魔法法术。",
+				"一旦法术的持续时间结束，登录和所有权限将从系统中清除。系统日志仍然显示用户的活动，但无法找到或追踪用户的身份识别。"
+			],
+			"entriesHigherLevel": [
+				{
+					"ENG_name": "At Higher Levels",
+					"name": "升环施法效应",
+					"type": "entries",
+					"entries": [
+						"当你使用5级或更高等级的法术位施放这个法术时，你能够绕过等级等于或低于你所使用的法术位等级的技术魔法法术。"
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Warlock",
+						"name": "魔契师",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Sorcerer",
+						"name": "术士",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Wizard",
+						"name": "法师",
+						"source": "PHB"
+					}
+				]
+			}
+		}
+	],
+	"foundrySpell": [
+		{
+			"ENG_name": "Haywire (UA)",
+			"name": "电子设备出现故障（UA）",
+			"source": "UAModernMagic",
+			"system": {
+				"target.value": 10,
+				"target.units": "ft",
+				"target.type": "sphere"
+			}
+		}
+	],
+	"item": [
+		{
+			"ENG_name": "Hacking Tools",
+			"name": "黑客工具",
+			"source": "UAModernMagic",
+			"page": 4,
+			"type": "T",
+			"rarity": "none",
+			"age": "现代",
+			"entries": [
+				"这套工具包含允许访问大多数计算机系统和电子设备所需的硬件和软件。熟练使用黑客工具可让你在连接或使用计算机系统或电子设备时，将熟练加值添加到任何智力检定上。这套工具可以紧密地放入背包或工具箱中。"
+			]
+		}
+	]
+}

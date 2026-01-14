@@ -1,0 +1,350 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAGiantSoulSorcerer",
+				"abbreviation": "UAGSS",
+				"full": "破解奥秘：巨人灵魂术士",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2018/dnd/downloads/UA_GiantSoul.pdf",
+				"dateReleased": "2018-06-11"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1729637619,
+		"_dateLastModifiedHash": "03c2bcd80c"
+	},
+	"subclass": [
+		{
+			"ENG_name": "Giant Soul (UA)",
+			"name": "巨人灵魂 (UA)",
+			"shortName": "巨人灵魂 (UA)",
+			"source": "UAGiantSoulSorcerer",
+			"className": "术士",
+			"classSource": "PHB",
+			"page": 1,
+			"additionalSpells": [
+				{
+					"ENG_name": "Cloud",
+					"name": "云雾",
+					"known": {
+						"1": [
+							"云雾术",
+							"次级幻象"
+						],
+						"3": [
+							"隐形术"
+						]
+					}
+				},
+				{
+					"ENG_name": "Fire",
+					"name": "火焰",
+					"known": {
+						"1": [
+							"燃烧之手",
+							"火焰箭"
+						],
+						"3": [
+							"炽焰法球"
+						]
+					}
+				},
+				{
+					"ENG_name": "Frost",
+					"name": "寒霜",
+					"known": {
+						"1": [
+							"黯冰狱铠",
+							"冷冻射线"
+						],
+						"3": [
+							"定身类人"
+						]
+					}
+				},
+				{
+					"ENG_name": "Hill",
+					"name": "丘陵",
+					"known": {
+						"1": [
+							"英雄气概",
+							"橡棍术"
+						],
+						"3": [
+							"变巨/缩小术"
+						]
+					}
+				},
+				{
+					"ENG_name": "Stone",
+					"name": "岩石",
+					"known": {
+						"1": [
+							"纠缠术",
+							"抵抗术"
+						],
+						"3": [
+							"荆棘丛生"
+						]
+					}
+				},
+				{
+					"ENG_name": "Storm",
+					"name": "风暴",
+					"known": {
+						"1": [
+							"电爪",
+							"雷鸣波"
+						],
+						"3": [
+							"造风术"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"巨人灵魂 (UA)|术士||巨人灵魂 (UA)|UAGiantSoulSorcerer|1",
+				"迷失奥斯特里亚的灵魂|术士||巨人灵魂 (UA)|UAGiantSoulSorcerer|6",
+				"堕落奥斯特利亚之狂暴|术士||巨人灵魂 (UA)|UAGiantSoulSorcerer|14",
+				"众父神的祝福|术士||巨人灵魂 (UA)|UAGiantSoulSorcerer|18"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"ENG_name": "Giant Soul (UA)",
+			"name": "巨人灵魂 (UA)",
+			"source": "UAGiantSoulSorcerer",
+			"page": 1,
+			"className": "术士",
+			"classSource": "PHB",
+			"subclassShortName": "巨人灵魂 (UA)",
+			"subclassSource": "UAGiantSoulSorcerer",
+			"level": 1,
+			"entries": [
+				"巨人曾居住在一个名为奥斯特里亚的传说之境，那是他们族群的乐园，反映了他们对凡界的精通。随着时间的推移，奥斯特里亚陨落，巨人四散且破碎。在那个神话时代，巨人赐予了一些小型族群中的选民一小部分他们伟大的法力。这些受青睐的人卷入了导致奥斯特里亚破势猛击的同一场悲剧。自那时起，他们便散布在多元宇宙的无常者世界中。偶尔，他们的后代会显现出巨人赋予的天赋，获得允许他们命令术元素并获得巨人力量的魔法。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "约顿恢复力|术士||巨人灵魂 (UA)|UAGiantSoulSorcerer|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "阶级序位之标记|术士||巨人灵魂 (UA)|UAGiantSoulSorcerer|1"
+				}
+			]
+		},
+		{
+			"ENG_name": "Jotun Resilience",
+			"name": "约顿恢复力",
+			"source": "UAGiantSoulSorcerer",
+			"page": 1,
+			"className": "术士",
+			"classSource": "PHB",
+			"subclassShortName": "巨人灵魂 (UA)",
+			"subclassSource": "UAGiantSoulSorcerer",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"巨人的恢复力流经你的身体。在1级时，你的生命值上限增加1点，且每当你在此职业中升级时，生命值上限再次增加1点。"
+			]
+		},
+		{
+			"ENG_name": "Mark of the Ordning",
+			"name": "阶级序位之标记",
+			"source": "UAGiantSoulSorcerer",
+			"page": 1,
+			"className": "术士",
+			"classSource": "PHB",
+			"subclassShortName": "巨人灵魂 (UA)",
+			"subclassSource": "UAGiantSoulSorcerer",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"在1级时，你发现自身基于巨人血统的先天魔法能力。从阶级序位表格中选择一种巨人类型。在1级和3级时，你将学会与你选择相关的法术，如表格所示。这些法术对你而言视为术士法术，但它们不计入你已知的术士法术数量。",
+				{
+					"type": "table",
+					"colLabels": [
+						"巨人类型",
+						"1环法术",
+						"3环法术"
+					],
+					"colStyles": [
+						"col-3",
+						"col-3",
+						"col-3"
+					],
+					"rows": [
+						[
+							"{@creature 云巨人}",
+							"{@spell 云雾术}, {@spell 次级幻象}",
+							"{@spell 隐形术}"
+						],
+						[
+							"{@creature 火巨人}",
+							"{@spell 燃烧之手}, {@spell 火焰箭}",
+							"{@spell 炽焰法球}"
+						],
+						[
+							"{@creature 霜巨人}",
+							"{@spell 黯冰狱铠}, {@spell 冷冻射线}",
+							"{@spell 定身类人}"
+						],
+						[
+							"{@creature 山丘巨人}",
+							"{@spell 英雄气概}, {@spell 橡棍术}",
+							"{@spell 变巨/缩小术}"
+						],
+						[
+							"{@creature 石巨人}",
+							"{@spell 纠缠术}, {@spell 抵抗术}",
+							"{@spell 荆棘丛生}"
+						],
+						[
+							"{@creature 风暴巨人}",
+							"{@spell 电爪}, {@spell 雷鸣波}",
+							"{@spell 造风术}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Soul of Lost Ostoria",
+			"name": "迷失奥斯特里亚的灵魂",
+			"source": "UAGiantSoulSorcerer",
+			"page": 1,
+			"className": "术士",
+			"classSource": "PHB",
+			"subclassShortName": "巨人灵魂 (UA)",
+			"subclassSource": "UAGiantSoulSorcerer",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"从6级开始，每当你施放由你的阶级序位特性标记授予的法术之一时，你将获得一个增益。",
+				{
+					"ENG_name": "Cloud Giant",
+					"name": "云巨人",
+					"type": "entries",
+					"entries": [
+						"在你施放任何你的阶级序位标记法术之后，你可以立即以一个附赠动作进行魔法传送。你会传送到一个你能看见的未占据空间，距离不超过10 + 你的体质调整值的尺数。"
+					]
+				},
+				{
+					"ENG_name": "Fire Giant",
+					"name": "火巨人",
+					"type": "entries",
+					"entries": [
+						"你获得一个对你阶级序位法术伤害掷骰的加值。该加值等于你的体质调整值（最低为+1）。"
+					]
+				},
+				{
+					"ENG_name": "Frost Giant",
+					"name": "霜巨人",
+					"type": "entries",
+					"entries": [
+						"在你施放任何阶级序位标记法术之后，你立即获得等于你体质调整值的临时生命值（至少为1）。但如果该法术是{@spell 黯冰狱铠}，则改为使其临时生命值增加等于你体质调整值的数量（至少为1）。"
+					]
+				},
+				{
+					"ENG_name": "Hill Giant",
+					"name": "山丘巨人",
+					"type": "entries",
+					"entries": [
+						"在你施放任何你的阶级序位标记法术之后，你可以立即以你能看见的5尺内的至多二个生物为目标。每个目标必须进行一次对抗你法术豁免DC的力量豁免检定，否则被推离你5尺加上你体质调整值的距离（最小为+1）。目标可以选择此次豁免检定失败。"
+					]
+				},
+				{
+					"ENG_name": "Stone Giant",
+					"name": "石巨人",
+					"type": "entries",
+					"entries": [
+						"在你施放任何你的阶级序位标记法术之后，你立即获得等同于你体质调整值的AC加值（至少为+1），直到你的下一个回合结束。"
+					]
+				},
+				{
+					"ENG_name": "Storm Giant",
+					"name": "风暴巨人",
+					"type": "entries",
+					"entries": [
+						"在你施放任何你的阶级序位标记法术之后，你可以选择至多三个你能看见的30尺内的生物，它们受到等同于你体质调整值的闪电伤害（至少为1点）。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Rage of Fallen Ostoria",
+			"name": "堕落奥斯特利亚之狂暴",
+			"source": "UAGiantSoulSorcerer",
+			"page": 1,
+			"className": "术士",
+			"classSource": "PHB",
+			"subclassShortName": "巨人灵魂 (UA)",
+			"subclassSource": "UAGiantSoulSorcerer",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"从14级开始，你获得将祖先灵魂注入自身物理形态的能力。当你在回合开始时施展一个术士法术且消耗一个法术位时，你可以将自己的体型增大一个类别\u2014\u2014例如从中等变为大型。",
+				"这个增益持续1分钟。如果你死亡或处于{@condition 失能}状态，它会提前结束。在增益结束前，你将获得以下效果：",
+				{
+					"type": "list",
+					"items": [
+						"你的当前生命值且你的生命值上限均每术士等级增加1。",
+						"你的触及范围增加5尺。",
+						"你的步行速度增加5尺。",
+						"你进行力量检定和力量豁免时具有优势。",
+						"你获得一个近战武器攻击伤害掷骰的加值；加值等于你的体质调整值（最低为+1）。"
+					]
+				},
+				"你必须完成一次长休或短休后才能再次使用该特性。"
+			]
+		},
+		{
+			"ENG_name": "Blessing of the All Father",
+			"name": "众父神的祝福",
+			"source": "UAGiantSoulSorcerer",
+			"page": 1,
+			"className": "术士",
+			"classSource": "PHB",
+			"subclassShortName": "巨人灵魂 (UA)",
+			"subclassSource": "UAGiantSoulSorcerer",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"在18级时，你的体质值增加2，最高不超过22。",
+				"此外，你现在可以在两次休息之间使用两次堕落奥斯托利亚的狂暴，但每回合不超过一次。如果你在该效应下使用该特性，它对体型、生命值、触及范围和行走速度的提升会叠加。"
+			]
+		}
+	],
+	"foundrySubclassFeature": [
+		{
+			"ENG_name": "Blessing of the All Father",
+			"name": "众父神的祝福",
+			"source": "UAGiantSoulSorcerer",
+			"className": "术士",
+			"classSource": "PHB",
+			"subclassShortName": "巨人灵魂 (UA)",
+			"subclassSource": "UAGiantSoulSorcerer",
+			"level": 18,
+			"effects": [
+				{
+					"transfer": true,
+					"changes": [
+						{
+							"key": "data.abilities.con.value",
+							"mode": "ADD",
+							"value": "+ 2"
+						}
+					]
+				}
+			]
+		}
+	]
+}

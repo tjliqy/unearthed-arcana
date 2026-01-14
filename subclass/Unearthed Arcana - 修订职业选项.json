@@ -1,0 +1,1380 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UARevisedClassOptions",
+				"abbreviation": "UARCO",
+				"full": "破解奥秘：修订职业选项",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2017/dnd/downloads/June5UA_RevisedClassOptv1.pdf",
+				"dateReleased": "2017-06-05"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1729637619,
+		"_dateLastModifiedHash": "b91dbcf758"
+	},
+	"subclass": [
+		{
+			"ENG_name": "Cavalier v2 (UA)",
+			"name": "骁骑士 v2 (UA)",
+			"shortName": "骁骑士 v2 (UA)",
+			"source": "UARevisedClassOptions",
+			"className": "战士",
+			"classSource": "PHB",
+			"page": 2,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"骁骑士 v2|战士||骁骑士 v2 (UA)|UARevisedClassOptions|3",
+				"冲锋陷阵|战士||骁骑士 v2 (UA)|UARevisedClassOptions|7",
+				"精通卓越战技|战士||骁骑士 v2 (UA)|UARevisedClassOptions|10",
+				"坚韧|战士||骁骑士 v2 (UA)|UARevisedClassOptions|15",
+				"精通卓越战技|战士||骁骑士 v2 (UA)|UARevisedClassOptions|18"
+			]
+		},
+		{
+			"ENG_name": "Circle of the Shepherd v2 (UA)",
+			"name": "牧人 v2 (UA)",
+			"shortName": "牧人 v2 (UA)",
+			"source": "UARevisedClassOptions",
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"page": 1,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"牧人结社 v2|德鲁伊||牧人 v2 (UA)|UARevisedClassOptions|2",
+				"全能牧者|德鲁伊||牧人 v2 (UA)|UARevisedClassOptions|6",
+				"精魂守卫|德鲁伊||牧人 v2 (UA)|UARevisedClassOptions|10",
+				"忠诚牧畜|德鲁伊||牧人 v2 (UA)|UARevisedClassOptions|14"
+			]
+		},
+		{
+			"ENG_name": "Oath of Conquest v2 (UA)",
+			"name": "征服之誓 v2 (UA)",
+			"shortName": "征服 v2 (UA)",
+			"source": "UARevisedClassOptions",
+			"className": "圣武士",
+			"classSource": "PHB",
+			"page": 3,
+			"isReprinted": true,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"黯冰狱铠",
+							"命令术"
+						],
+						"5": [
+							"定身类人",
+							"灵体武器"
+						],
+						"9": [
+							"降咒",
+							"恐惧术"
+						],
+						"13": [
+							"支配野兽",
+							"石肤术"
+						],
+						"17": [
+							"死云术",
+							"支配类人"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"征服之誓v2|圣武士||征服 v2 (UA)|UARevisedClassOptions|3",
+				"征服灵光|圣武士||征服 v2 (UA)|UARevisedClassOptions|7",
+				"轻蔑呵斥|圣武士||征服 v2 (UA)|UARevisedClassOptions|15",
+				"不移胜者|圣武士||征服 v2 (UA)|UARevisedClassOptions|20"
+			]
+		},
+		{
+			"ENG_name": "The Celestial (UA)",
+			"name": "天界宗主 (UA)",
+			"shortName": "天界生物 (UA)",
+			"source": "UARevisedClassOptions",
+			"className": "魔契师",
+			"classSource": "PHB",
+			"page": 4,
+			"isReprinted": true,
+			"additionalSpells": [
+				{
+					"expanded": {
+						"s1": [
+							"燃烧之手",
+							"疗伤术"
+						],
+						"s2": [
+							"炽焰法球",
+							"次级复原术"
+						],
+						"s3": [
+							"昼明术",
+							"回生术"
+						],
+						"s4": [
+							"信仰守卫",
+							"火墙术"
+						],
+						"s5": [
+							"焰击术",
+							"高等复原术"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"天界宗主|魔契师||天界生物 (UA)|UARevisedClassOptions|1",
+				"光耀之魂|魔契师||天界生物 (UA)|UARevisedClassOptions|6",
+				"天界韧性|魔契师||天界生物 (UA)|UARevisedClassOptions|10",
+				"治愈之光|魔契师||天界生物 (UA)|UARevisedClassOptions|14"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"ENG_name": "Circle of the Shepherd v2",
+			"name": "牧人结社 v2",
+			"source": "UARevisedClassOptions",
+			"page": 1,
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"subclassShortName": "牧人 v2 (UA)",
+			"subclassSource": "UARevisedClassOptions",
+			"level": 2,
+			"entries": [
+				"牧人结社的德鲁伊通晓如何与自然的精魂进行沟通，尤其是野兽之魂与妖精，他们也常常呼唤这些精魂援助自己。这些德鲁伊认为所有的活物都在自然界中发挥作用，因此他们致力于对动物的保护。游牧者们，会在已知范围内尽他们所能地聆听野兽的控诉。他们监视威胁到自然的怪物，斥退进行不必要杀戮的猎人，预防文明侵犯动物栖息地和迁徙所需路径。许多游牧之环的德鲁伊乐意远离城镇，为将时间花费于管理荒野生物而感到充实。",
+				"牧人结社的成员通常会因为以下理由进行冒险：对抗那些威胁到他们管理的势力，或者是寻找有助于自己护卫职责的知识和力量。无论这些德鲁伊走到哪里，荒野的精魂都会与他们同行。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "林地之语|德鲁伊||牧人 v2 (UA)|UARevisedClassOptions|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "精魂图腾|德鲁伊||牧人 v2 (UA)|UARevisedClassOptions|2"
+				}
+			]
+		},
+		{
+			"ENG_name": "Speech of the Woods",
+			"name": "林地之语",
+			"source": "UARevisedClassOptions",
+			"page": 1,
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"subclassShortName": "牧人 v2 (UA)",
+			"subclassSource": "UARevisedClassOptions",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"2级时，你获得了和野兽以及许多精类进行交流的能力。",
+				"你学会说、读和写{@language 木族语}。此外，野兽能理解你的口语，且你获得解读它们响声和动作的能力。大多数野兽缺乏传达或理解复杂概念的智力，但一只友好的野兽可以转述它在最近过去所见所闻之事。此能力不会赋予你与野兽的任何特殊友谊，不过你可以将此能力与恩赐结合，如同对待任何非玩家角色那样讨好它们。"
+			]
+		},
+		{
+			"ENG_name": "Spirit Totem",
+			"name": "精魂图腾",
+			"source": "UARevisedClassOptions",
+			"page": 1,
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"subclassShortName": "牧人 v2 (UA)",
+			"subclassSource": "UARevisedClassOptions",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"从2级开始，你获得召唤自然之灵并使用它们影响周围世界的能力。以一个附赠动作，你可以魔法般地召唤一个无形精魄到你视线内60尺范围内的一点。该精魄会在该点周围30尺半径内创造一个光环。它既不算生物也不算物件，尽管它具有它所代表生物的灵体外貌。",
+				"以一个附赠动作，你可以移动精魂至多60尺，到你能看到的另一点处。",
+				"精魄持续1分钟。一旦你使用此特性，在完成一次短休或长休前无法再次使用。",
+				"精魂光环的效果取决于你召唤出的精魂的类别，如下面的选项所示。",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Bear Spirit",
+							"name": "熊精魂",
+							"type": "entries",
+							"entries": [
+								"熊精魂授予你和你的伙伴它的力量和坚韧。在精魂出现时，每个处于此光环中、由你选择的生物，获得等同于 5+你的德鲁伊等级 点的临时生命值。此外，只要身处于光环之内，你和你的盟友进行的力量检定和力量豁免将具有优势。"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Hawk Spirit",
+							"name": "鹰精魂",
+							"type": "entries",
+							"entries": [
+								"鹰精魂是一位完美的猎人，用其敏锐视觉标记你的敌人。当一个生物对精魂光环内的目标进行攻击检定时，你可以使用你的反应来给予该攻击检定优势。"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Unicorn Spirit",
+							"name": "独角兽精魂",
+							"type": "entries",
+							"entries": [
+								"独角兽精魂将其守护之力赐予附近的生物。你和你的盟友在侦查精魄光环内的生物时，所有属性检定获得优势。此外，如果你使用法术位施放一个恢复生命值的法术，无论目标在光环内外，光环内每个你选择的生物也将恢复等同于你德鲁伊等级的生命值。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Mighty Summoner",
+			"name": "全能牧者",
+			"source": "UARevisedClassOptions",
+			"page": 1,
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"subclassShortName": "牧人 v2 (UA)",
+			"subclassSource": "UARevisedClassOptions",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"在6级时，你获得召唤强大野兽和妖精的能力。由你的法术召唤或创造的任何野兽或妖精获得二项增益：",
+				{
+					"type": "list",
+					"items": [
+						"该生物出现时具有比正常情况下更多的生命值：它每有一颗生命骰就会获得2点额外的生命值。",
+						"在克服对于非魔法攻击和伤害的免疫和抗性时，来自该生物天生武器的伤害被视为是魔法的。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Guardian Spirit",
+			"name": "精魂守卫",
+			"source": "UARevisedClassOptions",
+			"page": 1,
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"subclassShortName": "牧人 v2 (UA)",
+			"subclassSource": "UARevisedClassOptions",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"在10级时，你的精魂图腾会保护你用魔法召唤的野兽和精类。当一个你用法术召唤或创造的野兽或精类在你的精魂图腾光环内结束其回合时，该生物恢复等同于你德鲁伊等级一半的生命值。"
+			]
+		},
+		{
+			"ENG_name": "Faithful Summons",
+			"name": "忠诚牧畜",
+			"source": "UARevisedClassOptions",
+			"page": 1,
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"subclassShortName": "牧人 v2 (UA)",
+			"subclassSource": "UARevisedClassOptions",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"从14级开始，与你通神的自然之灵会在你最无防备时保护你。如果你的生命值被缩小到0或非自愿地处于{@condition 失能}状态，你可以立即获得{@spell 咒唤兽群}的增益，如同用9环法术位施放。它会召唤四只你选择的挑战等级2或更低的野兽。被召唤的野兽出现在你20尺范围内。如果他们未收到你的命令，他们会保护你免受伤害且攻击你的敌人。该法术持续1小时，不需要{@status 专注}，或直到你解消它（不需要动作）。",
+				"必须完成一次长休才能再次使用该特性。"
+			]
+		},
+		{
+			"ENG_name": "Cavalier v2",
+			"name": "骁骑士 v2",
+			"source": "UARevisedClassOptions",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "骁骑士 v2 (UA)",
+			"subclassSource": "UARevisedClassOptions",
+			"level": 3,
+			"entries": [
+				"典型的骁骑士擅长骑乘战斗。通常出身贵族并在庭院中长大，骁骑士既能领导骑兵冲锋，也能在国宴上妙语连珠。骁骑士还学会如何保护他们负责的人免受伤害，经常作为上级和弱者的保护者。为了匡扶正义或赢得声望，许多这些战士离开舒适的生活，踏上光荣的冒险。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "附赠熟练|战士||骁骑士 v2 (UA)|UARevisedClassOptions|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "生而为骑|战士||骁骑士 v2 (UA)|UARevisedClassOptions|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "卓越战技|战士||骁骑士 v2 (UA)|UARevisedClassOptions|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "战技|战士||骁骑士 v2 (UA)|UARevisedClassOptions|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Bonus Proficiencies",
+			"name": "附赠熟练",
+			"source": "UARevisedClassOptions",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "骁骑士 v2 (UA)",
+			"subclassSource": "UARevisedClassOptions",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"当你在3级选择此范型时，选择以下技能之一，你获得其熟练项：{@skill 驯兽}、{@skill 历史}、{@skill 洞悉}、{@skill 表演}、或{@skill 游说}。或者作为代替，你可以改为学会一门由你自选的语言。"
+			]
+		},
+		{
+			"ENG_name": "Born to the Saddle",
+			"name": "生而为骑",
+			"source": "UARevisedClassOptions",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "骁骑士 v2 (UA)",
+			"subclassSource": "UARevisedClassOptions",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"3级起，你无时不刻透露着你作为骑手的精湛技艺。你为进行避免从坐骑上摔下所进行的豁免检定具有优势。只要你未{@condition 失能}，当你从你的坐骑上摔落且摔落高度不超过10尺时，你能够双脚着陆。",
+				"此外，骑上一个生物或从骑乘生物身上下来只需要花费你5尺的移动力，而非你速度的一半。"
+			]
+		},
+		{
+			"ENG_name": "Combat Superiority",
+			"name": "卓越战技",
+			"source": "UARevisedClassOptions",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "骁骑士 v2 (UA)",
+			"subclassSource": "UARevisedClassOptions",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"在3级时，你获得一组战斗属性，称为战技，由一种称为卓越骰的特殊骰子驱动。",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Superiority Dice",
+							"name": "卓越骰",
+							"type": "entries",
+							"entries": [
+								"你有四个卓越骰，它们是{@dice d8}。当你使用卓越骰时会消耗它。你在完成短休或长休后恢复所有已消耗的卓越骰。",
+								"你的卓越骰在第7和第15级时各增加一粒。"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Maneuvers",
+							"name": "战技",
+							"type": "entries",
+							"entries": [
+								"你将卓越骰用于战技。每回合可以使用多个战技，但每次攻击只能使用一个战技。你知晓下方\"战技\"中详述的战技。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Maneuvers",
+			"name": "战技",
+			"source": "UARevisedClassOptions",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "骁骑士 v2 (UA)",
+			"subclassSource": "UARevisedClassOptions",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"以下战技按名称首字母顺序排列。",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "控制乘骑|UARevisedClassOptions"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "精准攻击|UARevisedClassOptions"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "摔绊攻击|UARevisedClassOptions"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "守护战技|UARevisedClassOptions"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Ferocious Charger",
+			"name": "冲锋陷阵",
+			"source": "UARevisedClassOptions",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "骁骑士 v2 (UA)",
+			"subclassSource": "UARevisedClassOptions",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"在7环时，当你使用摔绊攻击战技时获得额外增益。你可以消耗最多二个卓越骰，将两个骰子都加到伤害掷骰上。当你以这种方式消耗两个骰子时，目标在进行力量豁免检定时具有劣势以避免被击倒为{@condition 倒地}状态。"
+			]
+		},
+		{
+			"ENG_name": "Improved Combat Superiority",
+			"name": "精通卓越战技",
+			"source": "UARevisedClassOptions",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "骁骑士 v2 (UA)",
+			"subclassSource": "UARevisedClassOptions",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"在10级时，你的卓越骰变为{@dice d10}。在18级时，它们变为{@dice d12}。"
+			]
+		},
+		{
+			"ENG_name": "Relentless",
+			"name": "坚韧",
+			"source": "UARevisedClassOptions",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "骁骑士 v2 (UA)",
+			"subclassSource": "UARevisedClassOptions",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"15级起，当你掷先攻且没有剩余卓越骰时，你恢复一个卓越骰。"
+			]
+		},
+		{
+			"ENG_name": "Improved Combat Superiority",
+			"name": "精通卓越战技",
+			"source": "UARevisedClassOptions",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "骁骑士 v2 (UA)",
+			"subclassSource": "UARevisedClassOptions",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"第18级时，你的卓越骰变为{@dice d12}。"
+			]
+		},
+		{
+			"ENG_name": "Oath of Conquest v2",
+			"name": "征服之誓v2",
+			"source": "UARevisedClassOptions",
+			"page": 3,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"subclassShortName": "征服 v2 (UA)",
+			"subclassSource": "UARevisedClassOptions",
+			"level": 3,
+			"entries": [
+				"征服的誓言吸引着在战斗中寻求荣耀与征服的圣武士。对他们来说，简单地建立秩序是不够的，混乱的势力必须被粉碎。有些征服圣武士会被称为暴君骑士或战争贩子，他们聚集成严酷的军队或组织，来为秩序与战争的神明或哲学服务。",
+				"有些这样的圣武士走得太远，甚至会与九狱合流，他们的眼中法治凌驾于仁慈。大魔鬼 拜尔Bel ，阿弗纳斯的战争领主，统领着许多这样的骑士\u2014\u2014他们被称为地狱骑士--视为他最热诚的追随者。地狱骑士用倒下的敌人身上的战利品来装饰他们的盔甲，警告着任何敢于反抗他们乃至他们领主的法令的人的可怕下场。这些骑士往往会受到其他征服圣武士的抵制\u2014\u2014他们认为地狱骑士在黑暗中走得太远了。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "征服之信条|圣武士||征服 v2 (UA)|UARevisedClassOptions|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "圣誓法术|圣武士||征服 v2 (UA)|UARevisedClassOptions|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "引导神力|圣武士||征服 v2 (UA)|UARevisedClassOptions|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Channel Divinity",
+			"name": "引导神力",
+			"source": "UARevisedClassOptions",
+			"page": 3,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"subclassShortName": "征服 v2 (UA)",
+			"subclassSource": "UARevisedClassOptions",
+			"level": 3,
+			"header": 1,
+			"consumes": {
+				"ENG_name": "Channel Divinity",
+				"name": "引导神力"
+			},
+			"entries": [
+				"在第3级选择本誓言时，你会获得以下两种引导神力选项。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "征服威压|圣武士||征服 v2 (UA)|UARevisedClassOptions|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "导引打击|圣武士||征服 v2 (UA)|UARevisedClassOptions|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Conquering Presence",
+			"name": "征服威压",
+			"source": "UARevisedClassOptions",
+			"page": 3,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"subclassShortName": "征服 v2 (UA)",
+			"subclassSource": "UARevisedClassOptions",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"你可以使用你的引导神力来发出一阵可怕的威压。以一个动作，你强迫每个处于你周围30尺范围内、你可见的、由你选择的生物各进行一次感知豁免。若豁免失败，目标将陷入对你的{@condition 恐慌}，持续1分钟。因此{@condition 恐慌}的生物可以在其每个回合的结束时重复此豁免，成功则结束其身上的效应。"
+			]
+		},
+		{
+			"ENG_name": "Guided Strike",
+			"name": "导引打击",
+			"source": "UARevisedClassOptions",
+			"page": 3,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"subclassShortName": "征服 v2 (UA)",
+			"subclassSource": "UARevisedClassOptions",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"你在进行攻击检定时，可以使用引导神力令该次检定获得+10加值。你可以在看到掷骰结果后DM公布是否命中前，决定是否使用该特性。"
+			]
+		},
+		{
+			"ENG_name": "Oath Spells",
+			"name": "圣誓法术",
+			"source": "UARevisedClassOptions",
+			"page": 3,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"subclassShortName": "征服 v2 (UA)",
+			"subclassSource": "UARevisedClassOptions",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"你会获得以下对应级别的圣誓法术。",
+				{
+					"type": "table",
+					"caption": "征服之誓法术",
+					"colLabels": [
+						"圣武士等级",
+						"法术"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell 黯冰狱铠}, {@spell 命令术}"
+						],
+						[
+							"5th",
+							"{@spell 定身类人}, {@spell 灵体武器}"
+						],
+						[
+							"9th",
+							"{@spell 降咒}, {@spell 恐惧术}"
+						],
+						[
+							"13th",
+							"{@spell 支配野兽}, {@spell 石肤术}"
+						],
+						[
+							"17th",
+							"{@spell 死云术}, {@spell 支配类人}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Tenets of Conquest",
+			"name": "征服之信条",
+			"source": "UARevisedClassOptions",
+			"page": 3,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"subclassShortName": "征服 v2 (UA)",
+			"subclassSource": "UARevisedClassOptions",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"立下此誓言的圣武士会将征服之信条烧灼在上臂。地狱骑士的誓言以{@language 炼狱语}符文显现，这是对九狱领主誓言的残酷提醒。",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Douse the Flame of Hope",
+							"name": "掐灭希望",
+							"type": "entries",
+							"entries": [
+								"仅仅在战斗中击败敌人是不够的。你的胜利必须显著到彻底击碎敌人的战斗意志。刀剑只能结束生命。恐惧却能终结国家。"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Rule with an Iron Fist",
+							"name": "铁腕统治",
+							"type": "entries",
+							"entries": [
+								"一旦你完成了征服，不要容忍任何异议。你说出的话就是法律。遵循的人会被偏爱。不服从的人则会受到惩罚，以儆效尤。"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Strength Above All",
+							"name": "力量至上",
+							"type": "entries",
+							"entries": [
+								"你会一直统治下去，直到更强的势力兴起。到那时，你必须变得更强并面对挑战，否则就迎来自己的毁灭。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Aura of Conquest",
+			"name": "征服灵光",
+			"source": "UARevisedClassOptions",
+			"page": 3,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"subclassShortName": "征服 v2 (UA)",
+			"subclassSource": "UARevisedClassOptions",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"从7环开始，当你未处于{@condition 失能}状态时，你会持续散发出一股凶恶灵光。该灵光包括你的空间，从你向各个方向延伸10尺，且会被全身掩护阻挡。",
+				"如果一个生物对你处于{@condition 恐慌}状态，它在灵光范围内的速度将缩小至0，且如果它在该处开始回合，将受到等同于你圣武士等级一半的心灵伤害。在18级时，此灵光的范围增加至30尺。"
+			]
+		},
+		{
+			"ENG_name": "Scornful Rebuke",
+			"name": "轻蔑呵斥",
+			"source": "UARevisedClassOptions",
+			"page": 3,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"subclassShortName": "征服 v2 (UA)",
+			"subclassSource": "UARevisedClassOptions",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"从15级开始，那些胆敢攻击你的人将因其鲁莽而受到心灵惩罚。每当一个生物用攻击命中你时，若你未处于{@condition 失能}状态，该生物将受到等同于你魅力调整值（最低为0）的心灵伤害。"
+			]
+		},
+		{
+			"ENG_name": "Invincible Conqueror",
+			"name": "不移胜者",
+			"source": "UARevisedClassOptions",
+			"page": 3,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"subclassShortName": "征服 v2 (UA)",
+			"subclassSource": "UARevisedClassOptions",
+			"level": 20,
+			"header": 2,
+			"entries": [
+				"第20级时，你得到驾驭特异武艺的能力。以一个动作，你可以魔法性的变成征服的化身，获得下述的增益，持续1分钟：",
+				{
+					"type": "list",
+					"items": [
+						"你具有所有伤害的抗性。",
+						"当你在你的回合进行{@action 攻击}动作时，你可以进行一次额外的攻击，作为该动作的一部分。",
+						"你的近战武器攻击在{@dice d20}掷出19或20时即可形成一次重击。"
+					]
+				},
+				"必须完成一次长休才能再次使用该特性。"
+			]
+		},
+		{
+			"ENG_name": "The Celestial",
+			"name": "天界宗主",
+			"source": "UARevisedClassOptions",
+			"page": 4,
+			"className": "魔契师",
+			"classSource": "PHB",
+			"subclassShortName": "天界生物 (UA)",
+			"subclassSource": "UARevisedClassOptions",
+			"level": 1,
+			"entries": [
+				"你的宗主是一位来自上层位面的强大存在。你与一位远古至高天、炽天神侍、麒麟或独角兽，或居住在永恒极乐位面的其他实体建立了连接。这份契约让你得以体验那照亮多元宇宙的圣光的微弱接触。",
+				"与如此力量相连可能会改变你的行为和信仰。你可能会发现自己被驱使去消灭死灵宗主、击败邪魔并保护无辜者。有时，你的心脏也可能充满对天界宗主所在天堂的渴望，渴望在那里漫游度过余生。但你知道你的任务目前仍在凡人之中，而你的契约约束着你为世界的黑暗之地带来光亮术。",
+				{
+					"ENG_name": "Expanded Spell List",
+					"name": "扩展法术列表",
+					"type": "entries",
+					"entries": [
+						"学习魔契师法术时，你的天界宗主赐予你将以下列表加入魔契师法术列表进行选择的权力。",
+						{
+							"type": "table",
+							"caption": "天界宗主扩展法术",
+							"colLabels": [
+								"法术环阶",
+								"法术"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1st",
+									"{@spell 燃烧之手}, {@spell 疗伤术}"
+								],
+								[
+									"2nd",
+									"{@spell 炽焰法球}, {@spell 次级复原术}"
+								],
+								[
+									"3rd",
+									"{@spell 昼明术}, {@spell 回生术}"
+								],
+								[
+									"4th",
+									"{@spell 信仰守卫}, {@spell 火墙术}"
+								],
+								[
+									"5th",
+									"{@spell 焰击术}, {@spell 高等复原术}"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "额外戏法|魔契师||天界生物 (UA)|UARevisedClassOptions|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "治愈之光|魔契师||天界生物 (UA)|UARevisedClassOptions|1"
+				}
+			]
+		},
+		{
+			"ENG_name": "Bonus Cantrips",
+			"name": "额外戏法",
+			"source": "UARevisedClassOptions",
+			"page": 4,
+			"className": "魔契师",
+			"classSource": "PHB",
+			"subclassShortName": "天界生物 (UA)",
+			"subclassSource": "UARevisedClassOptions",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"在1级时，你习得 {@spell 圣火术}和{@spell 光亮术} 两个戏法。他们对你而言是魔契师戏法，且不计入你的魔契师可知戏法总数中。"
+			]
+		},
+		{
+			"ENG_name": "Healing Light",
+			"name": "治愈之光",
+			"source": "UARevisedClassOptions",
+			"page": 4,
+			"className": "魔契师",
+			"classSource": "PHB",
+			"subclassShortName": "天界生物 (UA)",
+			"subclassSource": "UARevisedClassOptions",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"在1级时，你获得了引导天界能量以治愈伤口的能力。它是一个有着 1+你的魔契师等级 枚的{@dice d6}骰的骰池，用以施展你的治愈能力。",
+				"作为附赠动作，你可以接触一个生物并对其施展医疗术，消耗水池中的骰子。你一次可以消耗的骰子最大数值等于你的魅力调整值（至少一个骰子）。掷出你消耗的骰子，将它们相加，并复原等于全部数值的生命值。",
+				"当你完成一次长休后，你的骰池将重获所有已消耗的骰子。"
+			]
+		},
+		{
+			"ENG_name": "Radiant Soul",
+			"name": "光耀之魂",
+			"source": "UARevisedClassOptions",
+			"page": 4,
+			"className": "魔契师",
+			"classSource": "PHB",
+			"subclassShortName": "天界生物 (UA)",
+			"subclassSource": "UARevisedClassOptions",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"从6级开始，你与天界宗主的联系使你成为光耀能量的导管。你对光耀伤害具有抗性，且当你施放一个造成光耀或火焰伤害的法术时，你可以为所选单一目标添加你的魅力调整值到该伤害上。"
+			]
+		},
+		{
+			"ENG_name": "Celestial Resilience",
+			"name": "天界韧性",
+			"source": "UARevisedClassOptions",
+			"page": 4,
+			"className": "魔契师",
+			"classSource": "PHB",
+			"subclassShortName": "天界生物 (UA)",
+			"subclassSource": "UARevisedClassOptions",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"从10级开始，每当你完成一次长休或短休后，你都会得到一定数额的临时生命值。其数额等同于 你的魔契师等级+你的魅力调整值。此外，在你完成休息时，你还可以选择最多五个可见的生物。这些生物各自获得等同于 你的魔契师等级的一半+你的魅力调整值 点的临时生命值。"
+			]
+		},
+		{
+			"ENG_name": "Healing Light",
+			"name": "治愈之光",
+			"source": "UARevisedClassOptions",
+			"page": 4,
+			"className": "魔契师",
+			"classSource": "PHB",
+			"subclassShortName": "天界生物 (UA)",
+			"subclassSource": "UARevisedClassOptions",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"14级起，你所引导的光耀能量使你能够克服严重的伤患。当你在你的回合开始时需要进行死亡豁免检定时，你可以转而爆发出一阵光耀能量并重新站起。你恢复等同于你生命值上限一半的生命值，然后若你选择，你可以站起来。你选择的每个在你30尺内的生物受到等同于{@dice 2d8} + 你的魅力调整值的光耀伤害，且它陷入{@condition 目盲}状态直到当前回合结束。",
+				"必须完成一次长休才能再次使用该特性。"
+			]
+		}
+	],
+	"optionalfeature": [
+		{
+			"ENG_name": "Aspect of the Moon",
+			"name": "月之仪态",
+			"source": "UARevisedClassOptions",
+			"page": 5,
+			"previousVersion": {
+				"ENG_name": "Aspect of the Moon",
+				"name": "月之仪态",
+				"source": "UAWarlockAndWizard"
+			},
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"pact": "书之魔契"
+				}
+			],
+			"entries": [
+				"你不再需要睡眠，同样不能以任何方式被强迫睡眠。为了获得长休的益处，你可以在8小时内执行一些轻度活动，像是阅读你的影之书或是放哨之类的。"
+			]
+		},
+		{
+			"ENG_name": "Cloak of Flies",
+			"name": "飞蝇斗篷",
+			"source": "UARevisedClassOptions",
+			"page": 5,
+			"previousVersion": {
+				"ENG_name": "Cloak of Baalzebul",
+				"name": "巴尔泽布斗篷",
+				"source": "UAWarlockAndWizard"
+			},
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"ENG_name": "Warlock",
+							"name": "魔契师"
+						}
+					}
+				}
+			],
+			"entries": [
+				"以一个附赠动作，你可以用看起来像嗡嗡作响的苍蝇的魔法灵光环绕自己。该灵光包括你的空间，从你向各个方向延伸5尺，且会被全身掩护阻挡。它会持续到你处于{@condition 失能}状态或用一个附赠动作解消它为止。",
+				"这一灵光会使你在魅力（{@skill 威吓}）检定具有优势，但你进行的其他任何魅力检定都将具有劣势。任何在灵光内开始其回合的生物，会受到等同于你魅力调整值点的毒素伤害（最低0点伤害）。",
+				"使用本祈唤后，直到你完成一次短休或长休前，你都无法再次使用它。"
+			]
+		},
+		{
+			"ENG_name": "Control Mount",
+			"name": "控制乘骑",
+			"source": "UARevisedClassOptions",
+			"page": 3,
+			"featureType": [
+				"MV:C2-UA"
+			],
+			"consumes": {
+				"ENG_name": "Superiority Die",
+				"name": "卓越骰"
+			},
+			"entries": [
+				"当你进行感知（{@skill 驯兽}）检定以影响你或盟友骑乘的生物时，你可以消耗一个卓越骰，掷骰并将掷出的数值添加到检定中。你可以在掷{@dice d20}之前或之后进行此操作，但必须在应用检定结果之前。"
+			]
+		},
+		{
+			"ENG_name": "Eldritch Smite",
+			"name": "魔能斩",
+			"source": "UARevisedClassOptions",
+			"page": 6,
+			"previousVersion": {
+				"ENG_name": "Mace of Dispater",
+				"name": "迪斯帕特之硬头锤",
+				"source": "UAWarlockAndWizard"
+			},
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"pact": "刃之魔契",
+					"level": {
+						"level": 5,
+						"class": {
+							"ENG_name": "Warlock",
+							"name": "魔契师"
+						}
+					}
+				}
+			],
+			"entries": [
+				"每回合一次，当你用契约武器命中一个生物时，你可以消耗一个魔契师法术位来对目标造成额外{@damage 1d8}力场伤害，法术位每等级再加{@damage 1d8}。如果目标受到此伤害，你可以将巨型或更小的目标击倒{@condition 倒地}。"
+			]
+		},
+		{
+			"ENG_name": "Frost Lance",
+			"name": "寒霜锐矛",
+			"source": "UARevisedClassOptions",
+			"page": 6,
+			"previousVersion": {
+				"ENG_name": "Frost Lance",
+				"name": "寒霜锐矛",
+				"source": "UAWarlockAndWizard"
+			},
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"spell": [
+						"魔能爆#c"
+					]
+				}
+			],
+			"entries": [
+				"每个你的回合一次，当你用{@spell 魔能爆}击中一个生物时，你可以让此生物直线向你移动10尺。"
+			]
+		},
+		{
+			"ENG_name": "Ghostly Gaze",
+			"name": "幽魂凝视",
+			"source": "UARevisedClassOptions",
+			"page": 6,
+			"previousVersion": {
+				"ENG_name": "Gaze of Khirad",
+				"name": "基拉德的凝视",
+				"source": "UAWarlockAndWizard"
+			},
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 7,
+						"class": {
+							"ENG_name": "Warlock",
+							"name": "魔契师"
+						}
+					}
+				}
+			],
+			"entries": [
+				"以一个动作，你获得看穿30尺范围内固体物件的能力。在该范围内，如果你没有{@sense 黑暗视觉}则获得它。这种特殊预见持续到当前回合结束。在此期间，你将物件视为幽体透明的影像。一旦你使用了这个异能，直到完成一次短休或长休前都不能再次使用。"
+			]
+		},
+		{
+			"ENG_name": "Gift of the Depths",
+			"name": "深海赠礼",
+			"source": "UARevisedClassOptions",
+			"page": 6,
+			"previousVersion": {
+				"ENG_name": "Sea Twins' Gift",
+				"name": "海洋双子的赠礼",
+				"source": "UAWarlockAndWizard"
+			},
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"ENG_name": "Warlock",
+							"name": "魔契师"
+						}
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"水下呼吸"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"你可以在水下呼吸，且获得等同于你步行速度的游泳速度。你也可以不消耗法术位施放{@spell 水下呼吸}。一旦你使用此祈唤施放该法术，直到完成一次长休前你都无法再次施放。"
+			]
+		},
+		{
+			"ENG_name": "Gift of the Ever-Living Ones",
+			"name": "永生者赠礼",
+			"source": "UARevisedClassOptions",
+			"page": 6,
+			"previousVersion": {
+				"ENG_name": "Green Lord's Gift",
+				"name": "绿主赠礼",
+				"source": "UAWarlockAndWizard"
+			},
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"pact": "链之魔契"
+				}
+			],
+			"entries": [
+				"当你被恢复生命值时，只要此时你的魔宠与你之间的距离不超过100尺，所有决定你恢复生命值点数的骰，都被视为骰出了最大值。"
+			]
+		},
+		{
+			"ENG_name": "Grasp of Hadar",
+			"name": "哈达之攫",
+			"source": "UARevisedClassOptions",
+			"page": 6,
+			"previousVersion": {
+				"ENG_name": "Grasp of Hadar",
+				"name": "哈达之攫",
+				"source": "UAWarlockAndWizard"
+			},
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"spell": [
+						"魔能爆#c"
+					]
+				}
+			],
+			"entries": [
+				"每回合一次，当你用你的{@spell 魔能爆}戏法命中一个生物时，你可以使该生物沿直线朝你的方向移动10尺。"
+			]
+		},
+		{
+			"ENG_name": "Improved Pact Weapon",
+			"name": "进阶契约武器",
+			"source": "UARevisedClassOptions",
+			"page": 6,
+			"previousVersion": {
+				"ENG_name": "Improved Pact Weapon",
+				"name": "进阶契约武器",
+				"source": "UAWarlockAndWizard"
+			},
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"pact": "刃之魔契"
+				}
+			],
+			"entries": [
+				"你可以将使用刃之魔契特性召唤的任何武器作为魔契师法术的法器。此外，该武器视为+1魔化武器，其攻击和伤害掷骰获得+1加值，除非它已经是魔化武器且被你转化为契约武器。"
+			]
+		},
+		{
+			"ENG_name": "Kiss of Mephistopheles",
+			"name": "墨菲斯托费利斯的致命之吻",
+			"source": "UARevisedClassOptions",
+			"page": 6,
+			"previousVersion": {
+				"ENG_name": "Kiss of Mephistopheles",
+				"name": "墨菲斯托费利斯的致命之吻",
+				"source": "UAWarlockAndWizard"
+			},
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"ENG_name": "Warlock",
+							"name": "魔契师"
+						}
+					},
+					"spell": [
+						"魔能爆#c"
+					]
+				}
+			],
+			"entries": [
+				"当你用{@spell 魔能爆}命中一个生物时，你可以使用魔契师法术位以附赠动作施放{@spell 火球术}。该法术必须以你用{@spell 魔能爆}命中的生物为中心。"
+			]
+		},
+		{
+			"ENG_name": "Maddening Hex",
+			"name": "癫狂巫咒",
+			"source": "UARevisedClassOptions",
+			"page": 6,
+			"previousVersion": {
+				"ENG_name": "Chilling Hex",
+				"name": "寒霜巫咒",
+				"source": "UAWarlockAndWizard"
+			},
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"ENG_name": "Warlock",
+							"name": "魔契师"
+						}
+					}
+				}
+			],
+			"entries": [
+				"以一个附赠动作，你可以在被你{@spell 脆弱诅咒}法术或你的魔契师特性（例如咒剑诅咒和凶兆标志）诅咒的目标周围制造心灵扰动。当你这样做时，你对目标和每个你选择的5尺内的生物造成心灵伤害。心灵伤害等于你的魅力调整值（最低为0伤害）。"
+			]
+		},
+		{
+			"ENG_name": "Precision Attack",
+			"name": "精准攻击",
+			"source": "UARevisedClassOptions",
+			"page": 3,
+			"featureType": [
+				"MV:C2-UA"
+			],
+			"consumes": {
+				"ENG_name": "Superiority Die",
+				"name": "卓越骰"
+			},
+			"entries": [
+				"当你对生物进行一次武器攻击时，你可以消耗一个卓越骰，掷骰并将其添加到攻击检定中。你可以在掷出{@dice d20}之前或之后使用此属性，但必须在攻击的任何效应生效之前。"
+			]
+		},
+		{
+			"ENG_name": "Relentless Hex",
+			"name": "残酷巫咒",
+			"source": "UARevisedClassOptions",
+			"page": 6,
+			"previousVersion": {
+				"ENG_name": "Relentless Hex",
+				"name": "残酷巫咒",
+				"source": "UAWarlockAndWizard"
+			},
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 7,
+						"class": {
+							"ENG_name": "Warlock",
+							"name": "魔契师"
+						}
+					}
+				}
+			],
+			"entries": [
+				"你的诅咒在你和目标之间建立了暂时的牵挂。以一个附赠动作，你可以魔法般地传送至多30尺到一个你能看见的、距离被你{@spell 脆弱诅咒}法术或你的魔契师特性（如咒剑诅咒和凶兆标志）诅咒的目标5尺内的未占据空间。要以此方式传送，你必须能看见被诅咒的目标。"
+			]
+		},
+		{
+			"ENG_name": "Shroud of Shadow",
+			"name": "暗影寿衣",
+			"source": "UARevisedClassOptions",
+			"page": 6,
+			"previousVersion": {
+				"ENG_name": "Shroud of Ulban",
+				"name": "乌拉班的暗影寿衣",
+				"source": "UAWarlockAndWizard"
+			},
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 15,
+						"class": {
+							"ENG_name": "Warlock",
+							"name": "魔契师"
+						}
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": [
+							"隐形术"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你可以随意施展{@spell 隐形术}法术，且无需消耗法术位。"
+			]
+		},
+		{
+			"ENG_name": "Tomb of Levistus",
+			"name": "莱维斯图斯之墓",
+			"source": "UARevisedClassOptions",
+			"page": 6,
+			"previousVersion": {
+				"ENG_name": "Tomb of Levistus",
+				"name": "莱维斯图斯之墓",
+				"source": "UAWarlockAndWizard"
+			},
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"ENG_name": "Warlock",
+							"name": "魔契师"
+						}
+					}
+				}
+			],
+			"entries": [
+				"当你受到伤害时，你可以用一个反应将自己封入冰中，这些冰会在你的下个回合结束时融化。你获得每魔契师等级10点的临时生命值，这些生命值会尽可能吸收触发此效应的伤害。你同时获得对火焰伤害的易伤，你的速度缩小至0，且你处于{@condition 失能}状态。这些效应都会在冰融化时结束。",
+				"使用本祈唤后，直到你完成一次短休或长休前，你都无法再次使用它。"
+			]
+		},
+		{
+			"ENG_name": "Trickster's Escape",
+			"name": "诡术师的逃脱术",
+			"source": "UARevisedClassOptions",
+			"page": 7,
+			"previousVersion": {
+				"ENG_name": "Path of the Seeker",
+				"name": "寻路者的路途",
+				"source": "UAWarlockAndWizard"
+			},
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 7,
+						"class": {
+							"ENG_name": "Warlock",
+							"name": "魔契师"
+						}
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"行动自如"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"你可以以自己为目标施展一次{@spell 行动自如}法术，且无需消耗法术位。完成一次长休后，你重获如此施展该法术的权利。"
+			]
+		},
+		{
+			"ENG_name": "Trip Attack",
+			"name": "摔绊攻击",
+			"source": "UARevisedClassOptions",
+			"page": 3,
+			"featureType": [
+				"MV:C2-UA"
+			],
+			"consumes": {
+				"ENG_name": "Superiority Die",
+				"name": "卓越骰"
+			},
+			"entries": [
+				"当你以武器攻击命中一个生物时，你可以消耗一个卓越骰来尝试击倒目标。掷骰并将结果添加到攻击的伤害掷骰中。如果目标是大型或更小，它还必须成功通过一次力量豁免检定（DC=8+你的熟练加值+你的力量调整值）否则被击倒{@condition 倒地}。"
+			]
+		},
+		{
+			"ENG_name": "Warding Maneuver",
+			"name": "守护战技",
+			"source": "UARevisedClassOptions",
+			"page": 3,
+			"featureType": [
+				"MV:C2-UA"
+			],
+			"consumes": {
+				"ENG_name": "Superiority Die",
+				"name": "卓越骰"
+			},
+			"entries": [
+				"若你或5尺内的一个生物被一次攻击命中，且你正持握一件武器或一面盾牌，则你可以消耗一颗卓越骰作为反应。掷该骰子，并将掷骰结果添加到目标的AC上以对抗该次攻击。若攻击仍命中，则目标对该次攻击的伤害具有抗性。"
+			]
+		}
+	]
+}

@@ -1,0 +1,1184 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UA2021DraconicOptions",
+				"abbreviation": "UA21DO",
+				"full": "破解奥秘：2021龙语选项",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2021/downloads/Unearthed-Arcana-2021-Draconic-Options.pdf",
+				"dateReleased": "2021-04-14"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1729637619,
+		"_dateLastModifiedHash": "54786abad3"
+	},
+	"race": [
+		{
+			"ENG_name": "Dragonborn (Chromatic)",
+			"name": "龙裔 (色彩)",
+			"source": "UA2021DraconicOptions",
+			"page": 2,
+			"reprintedAs": [
+				"龙裔 (色彩)|FTD"
+			],
+			"lineage": "VRGR",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"resist": [
+				{
+					"choose": {
+						"from": [
+							"强酸",
+							"闪电",
+							"毒素",
+							"火焰",
+							"寒冷"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Chromatic Ancestry",
+					"name": "色彩血统",
+					"type": "entries",
+					"entries": [
+						"你追溯自己的血统至一条色彩龙，这赋予了你一种特殊的魔法亲和力。从色彩血统表格中选择一种龙类。这将决定你其他特质的伤害类型，如表格所示。",
+						{
+							"type": "table",
+							"caption": "色彩血统",
+							"colLabels": [
+								"龙",
+								"伤害类型"
+							],
+							"colStyles": [
+								"col-6 text-center",
+								"col-6 text-center"
+							],
+							"rows": [
+								[
+									"黑",
+									"强酸"
+								],
+								[
+									"蓝",
+									"闪电"
+								],
+								[
+									"绿",
+									"毒素"
+								],
+								[
+									"红",
+									"火焰"
+								],
+								[
+									"白",
+									"寒冷"
+								]
+							]
+						}
+					]
+				},
+				{
+					"ENG_name": "Breath Weapon",
+					"name": "吐息武器",
+					"type": "entries",
+					"entries": [
+						"当你进行{@action 攻击}动作时，你可以将其中一次攻击替换为在30尺长、5尺宽的线状区域内呼出一道魔法能量。区域内的每个生物必须进行一次敏捷豁免检定，DC等于8 + 你的体质调整值 + 你的熟练加值。豁免失败的生物会受到与你色彩血统相关的{@dice 2d8}点伤害，豁免成功则只受一半伤害。当你达到5级（{@dice 5d8}）、11级（{@dice 3d8}）和17级（{@dice 4d8}）时，此伤害会增加{@dice 1d8}点。",
+						"你可以使用此特质的次数等于你的熟练加值，当你完成一次长休后，你重新获得所有消耗的次数。"
+					]
+				},
+				{
+					"ENG_name": "Draconic Resistance",
+					"name": "龙族抗性",
+					"type": "entries",
+					"entries": [
+						"你获得与你的色彩龙祖相关的伤害类型的抗性。"
+					]
+				},
+				{
+					"ENG_name": "Chromatic Warding",
+					"name": "色彩守护",
+					"type": "entries",
+					"entries": [
+						"从3级开始，你可以用一个动作引导你的龙族能量来保护自己。在10分钟内，你将免疫与你色彩血统相关的伤害类型。一旦你使用了这个特质，你必须完成一次长休才能再次使用。"
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Dragonborn (Gem)",
+			"name": "龙裔 (宝石)",
+			"source": "UA2021DraconicOptions",
+			"page": 3,
+			"reprintedAs": [
+				"龙裔 (宝石)|FTD"
+			],
+			"lineage": "VRGR",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"resist": [
+				{
+					"choose": {
+						"from": [
+							"力场",
+							"光耀",
+							"心灵",
+							"雷鸣",
+							"暗蚀"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Gem Ancestry",
+					"name": "宝石血统",
+					"type": "entries",
+					"entries": [
+						"你的血统可追溯至宝石龙，这赋予了你一种特殊的魔法亲和力。从宝石血统表格中选择一种龙类。这将决定你其他特质的伤害类型，如表格所示。",
+						{
+							"type": "table",
+							"caption": "宝石血统",
+							"colLabels": [
+								"龙",
+								"伤害类型"
+							],
+							"colStyles": [
+								"col-6 text-center",
+								"col-6 text-center"
+							],
+							"rows": [
+								[
+									"紫水晶",
+									"力场"
+								],
+								[
+									"水晶",
+									"光耀"
+								],
+								[
+									"翡翠",
+									"心灵"
+								],
+								[
+									"蓝宝石",
+									"雷鸣"
+								],
+								[
+									"黄玉",
+									"暗蚀"
+								]
+							]
+						}
+					]
+				},
+				{
+					"ENG_name": "Breath Weapon",
+					"name": "吐息武器",
+					"type": "entries",
+					"entries": [
+						"当你执行{@action 攻击}动作时，你可以将其中一次攻击替换为在15尺锥形区域内呼出魔法能量。区域内的每个生物必须进行一次敏捷豁免检定，DC等于8 + 你的体质调整值 + 你的熟练加值。豁免失败时，生物会受到与你宝石血统相关的{@dice 2d8}点伤害，成功时则受到一半伤害。当你达到5级（{@dice 5d8}）、11级（{@dice 3d8}）和17级（{@dice 4d8}）时，此伤害增加{@dice 1d8}。",
+						"你可以使用此特质的次数等于你的熟练加值，当你完成一次长休后，你重新获得所有消耗的次数。"
+					]
+				},
+				{
+					"ENG_name": "Draconic Resistance",
+					"name": "龙族抗性",
+					"type": "entries",
+					"entries": [
+						"你获得与你的宝石龙族精粹伤害类型相关的伤害抗性。"
+					]
+				},
+				{
+					"ENG_name": "Psionic Mind",
+					"name": "灵能心智",
+					"type": "entries",
+					"entries": [
+						"你可以用心灵感应与你30尺内能看见的任何生物交谈。你不需要与该生物共享语言，但该生物必须能够理解至少一种语言。你的沟通方式不会赋予该生物用心灵感应回应你的能力。"
+					]
+				},
+				{
+					"ENG_name": "Gem Flight",
+					"name": "宝石之翼",
+					"type": "entries",
+					"entries": [
+						"从3级开始，你可以使用附赠动作暂时召唤一组与你宝石血统相匹配的灵体宝石阵列，形成飞翼形态，持续1分钟。在此期间，你获得等于你步行速度的飞行速度且可以悬浮。一旦你使用了这个特质，直到完成一次长休前都无法再次使用。"
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Dragonborn (Metallic)",
+			"name": "龙裔 (金属)",
+			"source": "UA2021DraconicOptions",
+			"page": 2,
+			"reprintedAs": [
+				"龙裔 (金属)|FTD"
+			],
+			"lineage": "VRGR",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"resist": [
+				{
+					"choose": {
+						"from": [
+							"火焰",
+							"闪电",
+							"强酸",
+							"寒冷"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Metallic Ancestry",
+					"name": "金属血统",
+					"type": "entries",
+					"entries": [
+						"你追溯你的血统至一只金属龙，这赋予你一种特殊的魔法亲和力。从金属血统表格中选择一种龙类。这将决定你其他特质的伤害类型，如表格所示。",
+						{
+							"type": "table",
+							"caption": "金属血统",
+							"colLabels": [
+								"龙",
+								"伤害类型"
+							],
+							"colStyles": [
+								"col-6 text-center",
+								"col-6 text-center"
+							],
+							"rows": [
+								[
+									"黄铜",
+									"火焰"
+								],
+								[
+									"青铜",
+									"闪电"
+								],
+								[
+									"赤铜",
+									"强酸"
+								],
+								[
+									"金",
+									"火焰"
+								],
+								[
+									"银",
+									"寒冷"
+								]
+							]
+						}
+					]
+				},
+				{
+					"ENG_name": "Breath Weapon",
+					"name": "吐息武器",
+					"type": "entries",
+					"entries": [
+						"当你进行{@action 攻击}动作时，你可以将其中一次攻击替换为在15尺锥形区域内呼出魔法能量。区域内的每个生物必须进行一次敏捷豁免检定，DC等于8 + 你的体质调整值 + 你的熟练加值。豁免失败的生物会受到与你金属血统相关的{@dice 2d8}点伤害，豁免成功则只受一半伤害。当你达到5级（{@dice 5d8}）、11级（{@dice 3d8}）和17级（{@dice 4d8}）时，此伤害增加{@dice 1d8}。",
+						"你可以使用此特质的次数等于你的熟练加值，当你完成一次长休后，你重新获得所有消耗的次数。"
+					]
+				},
+				{
+					"ENG_name": "Draconic Resistance",
+					"name": "龙族抗性",
+					"type": "entries",
+					"entries": [
+						"你获得与你的金属龙祖先相关的伤害类型的抗性。"
+					]
+				},
+				{
+					"ENG_name": "Metallic Breath Weapon",
+					"name": "金属吐息武器",
+					"type": "entries",
+					"entries": [
+						"在3级时，你获得第二个吐息武器。当你执行{@action 攻击}动作时，你可以将其中一次攻击替换为喷吐出15尺锥形区域的魔法气体。该吐息的豁免DC为8 + 你的体质调整值 + 你的熟练加值。当你使用此能力时，选择一项：",
+						{
+							"type": "list",
+							"items": [
+								"区域内的每个生物必须成功通过一次力量豁免检定，否则被推离你20尺且陷入{@condition 倒地}状态。",
+								"区域内的每个生物必须成功通过一次体质豁免检定，否则将陷入{@condition 失能}状态，直到你的下一个回合开始。"
+							]
+						},
+						"一旦你使用你的金属吐息武器，直到你完成一次长休前都无法再这么做。"
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Kobold",
+			"name": "狗头人",
+			"source": "UA2021DraconicOptions",
+			"page": 3,
+			"reprintedAs": [
+				"狗头人|MPMM"
+			],
+			"lineage": "VRGR",
+			"size": [
+				"S"
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"entries": [
+				{
+					"ENG_name": "Darkvision",
+					"name": "黑暗视觉",
+					"type": "entries",
+					"entries": [
+						"在微光光照下，你身边60尺内可以视为等同于明亮光照。而在黑暗中，该范围内可视为等同于微光光照。你无法在黑暗中分辨颜色，只能看到有灰度的黑白画面。"
+					]
+				},
+				{
+					"ENG_name": "Draconic Legacy",
+					"name": "龙语遗赠",
+					"type": "entries",
+					"entries": [
+						"狗头人与龙的联系可能在个体狗头人中以不可预测的方式显现。当你选择这个种族时，从以下遗赠选项中选择一项：",
+						{
+							"type": "list",
+							"items": [
+								"你在为你自己避免或结束{@condition 恐慌}状态的豁免检定时具有优势。",
+								"你知晓一项你从术士法术列表中选择的{@filter 从术士法术列表中选择的戏法|spells|level=0|class=术士}。智力，感知或魅力是你的施展该戏法的施法属性（当你选择该种族时进行决定）。",
+								"你可以用尾击进行徒手打击。当你用尾击命中时，该打击造成{@dice 1d6} + 你的力量调整值的钝击伤害，而非徒手打击的正常钝击伤害。"
+							]
+						}
+					]
+				},
+				{
+					"ENG_name": "Draconic Roar",
+					"name": "龙语咆哮",
+					"type": "entries",
+					"entries": [
+						"以一个附赠动作，你可以对10尺内的敌人发出一声龙语咆哮。直到你的下一个回合结束，你和你的盟友对这些能听到咆哮的敌人进行的攻击检定具有优势。你可以使用此特质的次数等于你的熟练加值，且完成一次长休后恢复所有已消耗的使用次数。"
+					]
+				}
+			],
+			"hasFluff": true
+		}
+	],
+	"raceFluff": [
+		{
+			"ENG_name": "Dragonborn (Chromatic)",
+			"name": "龙裔 (色彩)",
+			"source": "UA2021DraconicOptions",
+			"entries": [
+				"拥有色彩血统的龙裔宣称继承了色彩龙的原始元素力量。色彩龙鲜艳的颜色\u2014\u2014黑、蓝、绿、红且白\u2014\u2014在他们鳞状的皮肤和他们吐息武器的致命能量中闪耀。他们拥有火山的原始元素之怒、刺骨极地大风和狂暴闪电风暴的力量；他们也拥有沼泽和森林的精妙低语，具有腐蚀性和毒性。"
+			]
+		},
+		{
+			"ENG_name": "Dragonborn (Gem)",
+			"name": "龙裔 (宝石)",
+			"source": "UA2021DraconicOptions",
+			"entries": [
+				"拥有宝石血统的龙裔继承了所有宝石龙的血脉，他们声称自己是红宝石龙萨迪奥的后裔\u2014\u2014萨迪奥是所有造物术中的长子，由巴哈姆特和提亚马特在第一世界的最初几天创造。宝石龙的颜色和神秘力量\u2014\u2014紫水晶、水晶、翡翠、蓝宝石和黄玉\u2014\u2014在他们鳞片覆盖的皮肤上闪烁，并在他们的血管中流淌。他们拥有心灵奇迹、意志力场、洞悉的明亮光照、发现的回响和绝望的枯竭。"
+			]
+		},
+		{
+			"ENG_name": "Dragonborn (Metallic)",
+			"name": "龙裔 (金属)",
+			"source": "UA2021DraconicOptions",
+			"entries": [
+				"拥有金属血统的龙裔继承了金属龙\u2014\u2014黄铜、青铜、赤铜、金和银\u2014\u2014那不屈不挠的坚韧品质，这些金属的色彩在他们的鳞片上闪烁。他们拥有壁炉和锻造厂的火焰，高山寒风的冰冷，激励的火花，以及净化万物的强酸之触。"
+			]
+		},
+		{
+			"ENG_name": "Kobold",
+			"name": "狗头人",
+			"source": "UA2021DraconicOptions",
+			"entries": [
+				"诸位面中最小的龙族生物之一，狗头人通过它们鳞片的光泽和吼叫声展现其龙族血统。传说讲述第一批狗头人从最早期的龙巢穴附近的幽暗地域中出现。在某些地区，狗头人侍奉多彩龙或金属龙\u2014\u2014甚至将它们作为神圣存在来崇拜。在其他地方，狗头人非常清楚那些龙有多危险，并协助他人抵御龙族的毁灭。",
+				"无论狗头人与龙的关系如何，它们的鳞片往往是锈红色的，尽管偶尔会有狗头人拥有更类似于多彩龙或金属龙的鳞片颜色。狗头人的咆哮可以表达一系列情感：愤怒、决心、兴奋、恐惧术等等。无论狗头人表达何种情感，咆哮都会与龙族血脉的法力产生共鸣。"
+			]
+		}
+	],
+	"feat": [
+		{
+			"ENG_name": "Gift of the Chromatic Dragon",
+			"name": "色彩龙赋礼",
+			"source": "UA2021DraconicOptions",
+			"page": 4,
+			"entries": [
+				"你掌握了一些色彩龙的力量，你获得以下好处：",
+				{
+					"type": "list",
+					"items": [
+						"作为附赠动作，你可以接触一个{@filter 简易或军用武器|items|source=phb|category=基础|type=军用武器;简易武器}并为其注入以下伤害类型之一：强酸、寒冷、火焰、闪电或毒素。在接下来的1分钟内，该武器命中时将造成额外{@dice 1d4}点所选类型的伤害。使用此能力后，直到完成一次长休前你都无法再次使用。",
+						"当你受到强酸，寒冷，火焰，闪电或毒素伤害时，你可以使用你的反应，使自己在当此伤害中获得对应伤害类型的抗性。你可以使用该特性等同于你熟练加值的次数，你在完成一次长休后重获所有已使用的次数。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Gift of the Gem Dragon",
+			"name": "宝石龙赋礼",
+			"source": "UA2021DraconicOptions",
+			"page": 5,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你掌握了一些宝石龙的力量，你获得以下好处：",
+				{
+					"type": "list",
+					"items": [
+						"当你受到10尺内一个生物的伤害时，你可以使用你的反应释放念动力能量。对你造成伤害的生物必须成功通过一次力量豁免检定（DC等于8 + 你的熟练加值 + 本专长提升的属性值的属性调整值）否则受到{@dice 2d8}力场伤害且被推开10尺。你可以使用这个反应的次数等于你的熟练加值数值，且完成一次长休后恢复所有已消耗的使用次数。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Gift of the Metallic Dragon",
+			"name": "金属龙赋礼",
+			"source": "UA2021DraconicOptions",
+			"page": 4,
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									"疗伤术"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"你掌握了一些金属龙的力量，你获得以下好处：",
+				{
+					"type": "list",
+					"items": [
+						"你学会了{@spell 疗伤术}法术。你可以不消耗法术位施放该法术。一旦你以此方式施放该法术，在完成一次长休前无法再次施放。你也可以使用你拥有的法术位来施放该法术。当你通过此专长施放该法术时，其施法属性为智力、感知或魅力（在获得此专长时选择）。",
+						"你可以显现庇护之翼来为你或他人抵挡攻击。当你或你能看见的5尺内的另一个生物被攻击检定时命中，你可以使用你的反应从背后瞬间显现灵体飞翼。掷一枚{@dice d4}骰子，并将掷出的数值作为目标的AC加值对抗该攻击检定，可能导致其未命中。你可以使用这个反应的次数等于你的熟练加值，且完成一次长休后恢复所有已消耗的使用次数。"
+					]
+				}
+			]
+		}
+	],
+	"spell": [
+		{
+			"ENG_name": "Draconic Transformation",
+			"name": "龙类变形",
+			"source": "UA2021DraconicOptions",
+			"page": 5,
+			"level": 7,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "附赠动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "一个龙形小雕像，价值至少500gp",
+					"cost": 50000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"随着一声怒吼，你借助龙族的魔法力量来转变自己，获得各种龙类特征。在法术结束前，你获得以下好处：",
+				{
+					"type": "list",
+					"items": [
+						"你获得30尺{@sense 盲视}。此范围内，任何不处于全身掩护后的东西对于你来说清晰可见，即使你处于{@condition 目盲}状态或黑暗中。此外，你可以看见{@condition 隐形}的生物，除非该生物对你处于躲藏状态。",
+						"无形的翅膀从你的背部生长出来，赋予你40英尺的飞行速度。",
+						"当你施放这个法术时，以及在持续时间内随后的回合中作为额外动作，你可以在一个30英尺的锥形区域内呼出一道闪烁能量的呼吸。区域内的每个生物必须进行一次敏捷豁免检定，失败则受到{@damage 3d8}点力量伤害，成功则受到一半的伤害。"
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Druid",
+						"name": "德鲁伊",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Sorcerer",
+						"name": "术士",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Wizard",
+						"name": "法师",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"力场"
+			],
+			"conditionInflict": [
+				"目盲",
+				"隐形"
+			],
+			"savingThrow": [
+				"敏捷"
+			],
+			"miscTags": [
+				"SGT",
+				"UBA"
+			]
+		},
+		{
+			"ENG_name": "Fizban's Platinum Shield",
+			"name": "费资本铂金盾",
+			"source": "UA2021DraconicOptions",
+			"page": 5,
+			"level": 6,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "一枚镀上铂金的龙鳞，价值至少500gp",
+					"cost": 50000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"你在射程内选择一个生物周围创造一个银色光场（可以选择你自己）。该光场向外散发5英尺的微光。",
+				"在之后的回合内以一个附赠动作，你可以将该力场移动至力场周围60尺内的另一个生物身上。",
+				"受力场保护的生物获得以下好处：",
+				{
+					"type": "list",
+					"items": [
+						"该生物具有半身掩护。",
+						"该生物获得对强酸，冷冻，火焰，闪电以及毒素伤害的抗性。",
+						"如果该生物受到可以由成功通过敏捷豁免来使伤害减半的效应影响，该生物在成功通过豁免时改为不受任何伤害，失败则受到一半伤害。"
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Sorcerer",
+						"name": "术士",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Wizard",
+						"name": "法师",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageResist": [
+				"强酸",
+				"寒冷",
+				"火焰",
+				"闪电",
+				"毒素"
+			],
+			"savingThrow": [
+				"敏捷"
+			],
+			"miscTags": [
+				"UBA"
+			]
+		},
+		{
+			"ENG_name": "Flame Stride",
+			"name": "焰步术",
+			"source": "UA2021DraconicOptions",
+			"page": 6,
+			"level": 3,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "附赠动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"巨龙翻腾的火焰覆盖你的双脚，赋予你爆炸性的速度。在持续时间内，你的速度增加20英尺，移动不会引发机会攻击。",
+				"当你移动到一个未被穿戴或携带的生物或物体5英尺范围内时，它会受到来自你热量轨迹的{@damage 1d6}火焰伤害。一个生物或物体在一轮中只能受到这一次伤害。"
+			],
+			"entriesHigherLevel": [
+				{
+					"ENG_name": "At Higher Levels",
+					"name": "升环施法效应",
+					"type": "entries",
+					"entries": [
+						"当你使用4级或更高等级的法术位施放这个法术时，每超过3级，你的速度增加5英尺。此外，该法术每超过3级，额外造成{@damage 1d6}点火焰伤害。"
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Artificer",
+						"name": "奇械师",
+						"source": "TCE"
+					},
+					{
+						"ENG_name": "Ranger",
+						"name": "游侠",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Sorcerer",
+						"name": "术士",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Wizard",
+						"name": "法师",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"火焰"
+			],
+			"miscTags": [
+				"OBJ"
+			]
+		},
+		{
+			"ENG_name": "Icingdeath's Frost",
+			"name": "你释放出一道闪烁的精神力量之矛，从你的前额射向射程内你能看到的一个生物。或者，你可以呼喊该生物的名字。如果被呼喊的目标在射程内，它不会因掩体或隐形而获得任何优势，因为力量之矛会锁定它。如果被呼喊的目标不在射程内，力量之矛会消散，且法术位不会被消耗。",
+			"source": "UA2021DraconicOptions",
+			"page": 6,
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "cone",
+				"distance": {
+					"type": "feet",
+					"amount": 15
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "一瓶冰雪融化而成的水"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"一股冰冷的能量从你身上以30英尺的锥形区域爆发出来。该区域内的每个生物都必须进行一次体质豁免检定。如果失败，生物受到{@damage 3d8}点寒冷伤害，并在1分钟内或直到一个生物使用其动作来打破自己身上或其他生物身上的冰。被冰覆盖的生物其速度降低到0。如果成功，生物受到一半的伤害，没有额外效果。"
+			],
+			"entriesHigherLevel": [
+				{
+					"ENG_name": "At Higher Levels",
+					"name": "升环施法效应",
+					"type": "entries",
+					"entries": [
+						"当你使用3级或更高等级的法术位施放这个法术时，每超过2级，增加{@dice 1d8}点寒冷伤害。"
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Sorcerer",
+						"name": "术士",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Wizard",
+						"name": "法师",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"寒冷"
+			],
+			"savingThrow": [
+				"体质"
+			]
+		},
+		{
+			"ENG_name": "Nathair's Mischief",
+			"name": "纳撒尔恶作剧",
+			"source": "UA2021DraconicOptions",
+			"page": 6,
+			"level": 2,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "一块面包皮，来自一个苹果派"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"你在射程内的一点为中心，填充一个20英尺的立方体，用仙灵和龙族魔法。根据顽皮涌动表掷骰以确定产生的魔法效果。在你的每个回合开始时，你可以将立方体移动最多10英尺，并重新掷骰。",
+				{
+					"type": "table",
+					"caption": "恶作剧之涌",
+					"colLabels": [
+						"d4",
+						"效应"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-12"
+					],
+					"rows": [
+						[
+							"1",
+							"空气中弥漫着苹果派的香味，立方体内的每个生物都必须成功通过一次感知豁免检定，否则在你下一个回合开始之前会被你{@condition 魅惑}。"
+						],
+						[
+							"2",
+							"一束束鲜花出现在四周，范围内的生物必须成功通过一次敏捷豁免，否则鲜花将往他们脸上喷水，使他们陷入{@condition 目盲}，直至你的下回合开始。"
+						],
+						[
+							"3",
+							"范围内的每个生物必须成功通过一次感知豁免，否则将开始咯咯笑，直至你的下回合开始。一个正在咯咯笑的生物陷入{@condition 失能}，并使用他的所有移动力向一个随机方向移动。"
+						],
+						[
+							"4",
+							"一些糖浆滴出现并悬浮在立方体中，直到你的下一个回合开始，将其变成 {@quickref 困难地形||3}。"
+						]
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Bard",
+						"name": "吟游诗人",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Sorcerer",
+						"name": "术士",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Wizard",
+						"name": "法师",
+						"source": "PHB"
+					}
+				]
+			},
+			"conditionInflict": [
+				"目盲",
+				"魅惑",
+				"失能"
+			],
+			"savingThrow": [
+				"敏捷",
+				"感知"
+			],
+			"miscTags": [
+				"RO"
+			]
+		},
+		{
+			"ENG_name": "Raulothim's Psychic Lance",
+			"name": "劳洛希姆心灵长枪",
+			"source": "UA2021DraconicOptions",
+			"page": 6,
+			"level": 4,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"你从你的前额释放出一道闪耀的精神力量之矛，瞄准你视野范围内的一个生物。或者，你可以说出该生物的名字。如果被命名的目标在范围内，它不会因掩体或隐形而获得任何优势，因为矛会锁定它。如果被命名的目标不在范围内，矛就会消散，法术位不会被消耗。",
+				"目标必须成功通过一次智力豁免检定，否则将受到{@damage 10d6}点心灵伤害，并在直到你下一个回合开始时处于{@condition 失能}状态。"
+			],
+			"entriesHigherLevel": [
+				{
+					"ENG_name": "At Higher Levels",
+					"name": "升环施法效应",
+					"type": "entries",
+					"entries": [
+						"当你使用5级或更高级别的法术位施放这个法术时，每超过4级一个法术位，伤害增加{@dice 1d6}。"
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Bard",
+						"name": "吟游诗人",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Sorcerer",
+						"name": "术士",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Wizard",
+						"name": "法师",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Warlock",
+						"name": "魔契师",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"心灵"
+			],
+			"conditionInflict": [
+				"失能"
+			],
+			"savingThrow": [
+				"智力"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"ENG_name": "Summon Draconic Spirit",
+			"name": "龙类灵魄召唤术",
+			"source": "UA2021DraconicOptions",
+			"page": 7,
+			"level": 5,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "一件来自龙穴的艺术品，价值至少500金币",
+					"cost": 50000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"你召唤出一个龙族之灵。它在你射程内可以看到的未被占据的空间中显现。",
+				"这个实体形态使用{@creature 龙类灵魄|UA2021DraconicOptions}的统计数据块。当你施放这个法术时，选择一个龙族：彩龙、宝石龙或金属龙。这个生物类似于所选家族的龙，这决定了它统计数据块中的某些特征。当这个生物的生命值降至0点或法术结束时，它会消失。",
+				"该生物对你和你的同伴友善。在战斗中，该生物与你共享先攻，它在你的回合结束后行动。它听从你的口头命令（无需动作）。如果你不发出指令，该生物执行{@action 回避}动作，并用自己的移动力来回避危险。"
+			],
+			"entriesHigherLevel": [
+				{
+					"ENG_name": "At Higher Levels",
+					"name": "升环施法效应",
+					"type": "entries",
+					"entries": [
+						"当你用6环或更高的法术位施展此法术时，用对应的环数决定数据栏中与法术环数有关的数据。"
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"ENG_name": "Druid",
+						"name": "德鲁伊",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Sorcerer",
+						"name": "术士",
+						"source": "PHB"
+					},
+					{
+						"ENG_name": "Wizard",
+						"name": "法师",
+						"source": "PHB"
+					}
+				]
+			},
+			"miscTags": [
+				"SGT",
+				"SMN"
+			]
+		}
+	],
+	"monster": [
+		{
+			"ENG_name": "Draconic Spirit",
+			"name": "龙类灵魄",
+			"source": "UA2021DraconicOptions",
+			"page": 7,
+			"summonedBySpell": "龙类灵魄召唤术|UA2021DraconicOptions",
+			"summonedBySpellLevel": 5,
+			"size": [
+				"L"
+			],
+			"type": "dragon",
+			"ac": [
+				{
+					"special": "14+法术环数（天生护甲）"
+				}
+			],
+			"hp": {
+				"special": "50 +10×每比5环高的法术等级"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 80,
+				"swim": 30
+			},
+			"str": 19,
+			"dex": 14,
+			"con": 17,
+			"int": 10,
+			"wis": 14,
+			"cha": 14,
+			"senses": [
+				"盲视 30 尺",
+				"黑暗视觉 60 尺"
+			],
+			"passive": 12,
+			"resist": [
+				{
+					"resist": [
+						"强酸",
+						"寒冷",
+						"火焰",
+						"闪电",
+						"毒素"
+					],
+					"cond": true,
+					"note": "（仅限繁彩和金属龙）"
+				},
+				{
+					"resist": [
+						"力场",
+						"暗蚀",
+						"心灵",
+						"光耀",
+						"雷鸣"
+					],
+					"cond": true,
+					"note": "（仅宝石龙）"
+				}
+			],
+			"conditionImmune": [
+				"魅惑",
+				"恐慌",
+				"中毒"
+			],
+			"languages": [
+				"龙语",
+				"理解你所说的语言"
+			],
+			"pbNote": "等于你的加值",
+			"trait": [
+				{
+					"ENG_name": "Shared Resistances",
+					"name": "分享抗性",
+					"entries": [
+						"当你召唤龙时，选择一种它具有的伤害抗性。你获得所选伤害类型的抗性直至法术结束。"
+					]
+				}
+			],
+			"action": [
+				{
+					"ENG_name": "Multiattack",
+					"name": "多重攻击",
+					"entries": [
+						"龙使用其吐息武器，并进行相当于法术等级一半（向下取整）的撕咬和爪击攻击次数。"
+					]
+				},
+				{
+					"ENG_name": "Bite and Claw",
+					"name": "撕咬和爪击",
+					"entries": [
+						"{@atk mw} 你的法术攻击调整值命中，触及10尺，单一目标。{@h}{@damage 1d6 + 4 + summonSpellLevel} 穿刺伤害。"
+					]
+				},
+				{
+					"ENG_name": "Breath Weapon",
+					"name": "吐息武器",
+					"entries": [
+						"龙在30英尺的锥形区域内呼出一股多彩能量流。该区域内的每个生物必须进行一次敏捷豁免检定，若失败，则受到你选择的这种龙具有抗性的某种伤害类型的{@damage 2d6}点伤害，若成功，则受到一半的伤害。"
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/UA2021DraconicOptions/tokens/Draconic Spirit.webp"
+			},
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"actionTags": [
+				"吐息武器",
+				"多重攻击"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			]
+		}
+	]
+}

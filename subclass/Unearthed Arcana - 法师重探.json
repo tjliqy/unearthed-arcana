@@ -1,0 +1,301 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAWizardRevisited",
+				"abbreviation": "UAWR",
+				"full": "破解奥秘：法师修订版",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2017/dnd/downloads/MJ320UAWizardVF2017.pdf",
+				"dateReleased": "2017-03-20"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1729637619,
+		"_dateLastModifiedHash": "0d8a20787b"
+	},
+	"subclass": [
+		{
+			"ENG_name": "Theurgy (UA)",
+			"name": "神学（UA）",
+			"shortName": "神学（UA）",
+			"source": "UAWizardRevisited",
+			"className": "法师",
+			"classSource": "PHB",
+			"page": 1,
+			"subclassFeatures": [
+				"神术|法师||神学（UA）|UAWizardRevisited|2",
+				"奥术侍僧|法师||神学（UA）|UAWizardRevisited|6",
+				"奥术祭司|法师||神学（UA）|UAWizardRevisited|10",
+				"高等奥术祭司|法师||神学（UA）|UAWizardRevisited|14"
+			]
+		},
+		{
+			"ENG_name": "War Magic (UA)",
+			"name": "战争魔法（UA）",
+			"shortName": "战争 (UA)",
+			"source": "UAWizardRevisited",
+			"className": "法师",
+			"classSource": "PHB",
+			"page": 2,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"战争魔法|法师||战争 (UA)|UAWizardRevisited|2",
+				"魔力潮涌|法师||战争 (UA)|UAWizardRevisited|6",
+				"耐久魔法|法师||战争 (UA)|UAWizardRevisited|10",
+				"耐久魔法|法师||战争 (UA)|UAWizardRevisited|14"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"ENG_name": "Theurgy",
+			"name": "神术",
+			"source": "UAWizardRevisited",
+			"page": 1,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "神学（UA）",
+			"subclassSource": "UAWizardRevisited",
+			"level": 2,
+			"entries": [
+				"许多神明将奥术魔法视为他们的领域，因为魔法如同风势、火焰、闪电以及其他所有原始力量一样，是宇宙结构的一部分。正如有海洋之神和战争之神一样，奥术艺术也有其神圣的赞助人。",
+				"这些神明通常拥有牧师，但许多魔法之神会命令他们的追随者研究法师学。这些宗教魔法使遵循神术的奥术传承，通常被称为神学家。这些施法者与其他法师一样专注且博学，但他们将奥术研究室与宗教奉献相结合。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "神圣激励|法师||神学（UA）|UAWizardRevisited|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "奥术传承|法师||神学（UA）|UAWizardRevisited|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "引导奥秘|法师||神学（UA）|UAWizardRevisited|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "引导奥秘：神圣奥秘|法师||神学（UA）|UAWizardRevisited|2"
+				}
+			]
+		},
+		{
+			"ENG_name": "Arcane Initiate",
+			"name": "奥术传承",
+			"source": "UAWizardRevisited",
+			"page": 1,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "神学（UA）",
+			"subclassSource": "UAWizardRevisited",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"从2级选择此传统开始，每当你提升一个法师等级时，你可以将一个添加到你的法术书中的法师法术替换为一个你所选领域的牧师领域法术。该法术必须是你拥有法术位的等级。",
+				"如果你将所有的领域法术添加到你的法术书中，之后你可以添加牧师法术列表中的任何法术。该法术必须仍然是你拥有法术位的等级。",
+				"你从该特性获得的任何牧师法术对你而言视为法师法术，但其他法师无法将牧师法术从你的法术书复制到他们自己的法术书中。"
+			]
+		},
+		{
+			"ENG_name": "Channel Arcana",
+			"name": "引导奥秘",
+			"source": "UAWizardRevisited",
+			"page": 1,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "神学（UA）",
+			"subclassSource": "UAWizardRevisited",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"在2级时，你获得直接从你的神引导奥术能量的能力，使用该能量作为魔法效应的燃料。你开始时拥有两种此类效应：神圣奥秘和你的选民领域在2级时授予的引导神力选项。你通过使用你的引导奥秘能力来运用该引导神力选项。",
+				"当你使用引导奥秘时，你可以选择创造的效应。你必须完成一次短休或长休后才能再次使用引导奥秘。",
+				"某些引导奥秘效应需要进行豁免检定。当你使用此类效应时，豁免DC等同于你的法师法术豁免DC。",
+				"从6级开始，你可以在两次休息之间使用两次引导奥秘，且从18级开始，你可以在休息之间使用三次。当你完成一次短休或长休时，恢复所有已消耗的使用次数。",
+				"如果你从你的领域获得了额外的引导神力选项，你可以通过使用你的引导奥秘特性来运用它们。"
+			]
+		},
+		{
+			"ENG_name": "Channel Arcana: Divine Arcana",
+			"name": "引导奥秘：神圣奥秘",
+			"source": "UAWizardRevisited",
+			"page": 1,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "神学（UA）",
+			"subclassSource": "UAWizardRevisited",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"作为一个附赠动作，你念出祷文来控制周围的魔法流动。你施放的下一个法术在攻击检定上获得+2加值，或在其豁免DC上获得+2加值，视情况而定。"
+			]
+		},
+		{
+			"ENG_name": "Divine Inspiration",
+			"name": "神圣激励",
+			"source": "UAWizardRevisited",
+			"page": 1,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "神学（UA）",
+			"subclassSource": "UAWizardRevisited",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"当你在2级选择这个传统时，从你的选民神的合格领域列表中选择一个领域（示例请参阅玩家手册中的附录B\"多元宇宙的神\"）。知识和光照领域对神学家来说是特别合适的选择。"
+			]
+		},
+		{
+			"ENG_name": "Arcane Acolyte",
+			"name": "奥术侍僧",
+			"source": "UAWizardRevisited",
+			"page": 1,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "神学（UA）",
+			"subclassSource": "UAWizardRevisited",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"在6级时，你获得所选领域的1级增益。但是，你不会从该领域获得任何武器或护甲熟练项。"
+			]
+		},
+		{
+			"ENG_name": "Arcane Priest",
+			"name": "奥术祭司",
+			"source": "UAWizardRevisited",
+			"page": 1,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "神学（UA）",
+			"subclassSource": "UAWizardRevisited",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"在10级时，你获得所选领域的6级增益。你的信仰和对魔法的理解使你能够深入探究神的秘密。"
+			]
+		},
+		{
+			"ENG_name": "Arcane High Priest",
+			"name": "高等奥术祭司",
+			"source": "UAWizardRevisited",
+			"page": 1,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "神学（UA）",
+			"subclassSource": "UAWizardRevisited",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"在14级时，你获得所选领域的17级增益。你的学术天性以及对魔法和教义的理解使你比同领域的牧师更早掌握这个能力。"
+			]
+		},
+		{
+			"ENG_name": "War Magic",
+			"name": "战争魔法",
+			"source": "UAWizardRevisited",
+			"page": 2,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "战争 (UA)",
+			"subclassSource": "UAWizardRevisited",
+			"level": 2,
+			"entries": [
+				"多种奥术学院专门训练法师参与战争。战争魔法传统融合了塑能且防护的原则。它教授增强施法者法术的技巧，同时也为法师提供鼓舞自身防御设施的方法。",
+				"该传统的追随者被称为战争魔法师们。他们将魔法视为武器且护甲，一种比任何脆弱的锻钢碎片都高端的资源。战争魔法师们在战斗中快速打击，使用法术攫取战术控制情景。他们的法术打击困难，同时防御技能反制攻击对手的企图。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "奥术偏斜|法师||战争 (UA)|UAWizardRevisited|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "战术之智|法师||战争 (UA)|UAWizardRevisited|2"
+				}
+			]
+		},
+		{
+			"ENG_name": "Arcane Deflection",
+			"name": "奥术偏斜",
+			"source": "UAWizardRevisited",
+			"page": 2,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "战争 (UA)",
+			"subclassSource": "UAWizardRevisited",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"在2级时，你学会了编织魔网以加固自身抵御伤害。当你被攻击命中或未能通过体质豁免检定时，你可以使用反应来获得对该攻击的AC+2加值或对该豁免检定的+4加值。",
+				"当你使用此特性后，直到你的下个回合结束为止你都不能施展戏法之外的法术。"
+			]
+		},
+		{
+			"ENG_name": "Tactical Wit",
+			"name": "战术之智",
+			"source": "UAWizardRevisited",
+			"page": 2,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "战争 (UA)",
+			"subclassSource": "UAWizardRevisited",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"从2级开始，你快速评估战术局势的能力使你能在战斗中迅速行动。你在先攻检定中获得等同于你智力调整值的加值。"
+			]
+		},
+		{
+			"ENG_name": "Power Surge",
+			"name": "魔力潮涌",
+			"source": "UAWizardRevisited",
+			"page": 2,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "战争 (UA)",
+			"subclassSource": "UAWizardRevisited",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"从6级开始，你可以增强那些对敌人群体造成伤害的法术。当你迫使多个生物对你的某个法术的伤害进行豁免检定时，你可以通过额外投掷两个伤害骰子来增加该法术的伤害。这个增加只在你施放该法术的回合生效。",
+				"你必须完成一次长休或短休后才能再次使用该特性。"
+			]
+		},
+		{
+			"ENG_name": "Durable Magic",
+			"name": "耐久魔法",
+			"source": "UAWizardRevisited",
+			"page": 2,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "战争 (UA)",
+			"subclassSource": "UAWizardRevisited",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"从10级起，你引导的魔法也能帮你阻绝伤害。在你{@status 专注}于一个法术期间，你的AC与你所进行的任何豁免检定具有+2加值。"
+			]
+		},
+		{
+			"ENG_name": "Durable Magic",
+			"name": "耐久魔法",
+			"source": "UAWizardRevisited",
+			"page": 2,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "战争 (UA)",
+			"subclassSource": "UAWizardRevisited",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"在14级时，你的奥术偏斜会注入致命魔法。当你使用奥术偏斜特性时，魔法能量会从你身上迸发；你周围10尺内每个你选择的生物会受到等同于你法师等级一半的力场伤害。"
+			]
+		}
+	]
+}

@@ -1,0 +1,1010 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UA2022GiantOptions",
+				"abbreviation": "UA22GO",
+				"full": "破解奥秘：2022巨人选项",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2022/dnd/downloads/UA2022-drjwf73f8n.pdf",
+				"dateReleased": "2022-05-26"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1729637619,
+		"_dateLastModifiedHash": "ad427d82fd"
+	},
+	"subclass": [
+		{
+			"ENG_name": " Circle of the Primeval (UA)",
+			"name": "远古结社 (UA)",
+			"shortName": "远古结社 (UA)",
+			"source": "UA2022GiantOptions",
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"page": 2,
+			"subclassFeatures": [
+				"远古结社|德鲁伊||远古结社 (UA)|UA2022GiantOptions|2",
+				"史前导管|德鲁伊||远古结社 (UA)|UA2022GiantOptions|6",
+				"泰坦牵挂|德鲁伊||远古结社 (UA)|UA2022GiantOptions|10",
+				"远古灾祸|德鲁伊||远古结社 (UA)|UA2022GiantOptions|14"
+			]
+		},
+		{
+			"ENG_name": "Path of the Giant (UA)",
+			"name": "巨人之路途（UA）",
+			"shortName": "巨人 (UA)",
+			"source": "UA2022GiantOptions",
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"page": 1,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"巨人道途|野蛮人||巨人 (UA)|UA2022GiantOptions|3",
+				"元素战刃|野蛮人||巨人 (UA)|UA2022GiantOptions|6",
+				"伟力推动|野蛮人||巨人 (UA)|UA2022GiantOptions|10",
+				"创世巨像|野蛮人||巨人 (UA)|UA2022GiantOptions|14"
+			]
+		},
+		{
+			"ENG_name": "Runecrafter (UA)",
+			"name": "符文匠（UA）",
+			"shortName": "符文匠（UA）",
+			"source": "UA2022GiantOptions",
+			"className": "法师",
+			"classSource": "PHB",
+			"page": 3,
+			"subclassFeatures": [
+				"符文匠|法师||符文匠（UA）|UA2022GiantOptions|2",
+				"守卫符文|法师||符文匠（UA）|UA2022GiantOptions|6",
+				"符文大师|法师||符文匠（UA）|UA2022GiantOptions|10",
+				"铭刻敌意|法师||符文匠（UA）|UA2022GiantOptions|14"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"ENG_name": "Giant Power",
+			"name": "巨人之力",
+			"source": "UA2022GiantOptions",
+			"page": 1,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"subclassShortName": "巨人 (UA)",
+			"subclassSource": "UA2022GiantOptions",
+			"level": 3,
+			"entries": [
+				"{@i 3级巨人道途特性}",
+				"当你选择此路途时，你学会说、读和写巨人语或一种你选择的其他语言（如果你已懂巨人语）。此外，你学会德鲁伊伎俩或{@spell 奇术}戏法（任选其一）。感知是你施放该法术的施法属性。"
+			]
+		},
+		{
+			"ENG_name": "Giant's Havoc",
+			"name": "巨人之灾",
+			"source": "UA2022GiantOptions",
+			"page": 1,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"subclassShortName": "巨人 (UA)",
+			"subclassSource": "UA2022GiantOptions",
+			"level": 3,
+			"entries": [
+				"{@i 3级巨人道途特性}",
+				"你的狂暴从巨人的原初之力中汲取力量，使你成为强大破坏力的化身。狂暴期间，你获得以下的增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Crushing Hurl",
+							"name": "猛投碾压",
+							"type": "item",
+							"entries": [
+								"当你用力量且用投掷武器发动远程武器攻击，并成功命中时，你可以将你的狂暴伤害加值加到这次攻击的伤害掷骰中。"
+							]
+						},
+						{
+							"ENG_name": "Giant Stature",
+							"name": "巨人体型",
+							"type": "item",
+							"entries": [
+								"你的触及范围增加5尺，且如果你体型小于大型，你和你穿戴的任何东西都会变为大型。如果没有足够的空间让你变为大型，你的体型不会变化。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Path of the Giant",
+			"name": "巨人道途",
+			"source": "UA2022GiantOptions",
+			"page": 1,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"subclassShortName": "巨人 (UA)",
+			"subclassSource": "UA2022GiantOptions",
+			"level": 3,
+			"entries": [
+				"行走巨人道途的野蛮人从巨人及其元素同类的原始力量中汲取力量。他们的狂暴伴随着元素法力的浪涌，并使这些野蛮人体型增长，将它们转变为原初语力量的化身。",
+				"在狂暴期间，野蛮人可能模仿传说风暴巨人的样子，毛发变白且眼睛闪烁着闪电。其他人则采用末日泰坦的怪物特性，撕裂周围的世界以便其得以重生。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "巨人之力|野蛮人||巨人 (UA)|UA2022GiantOptions|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "巨人之灾|野蛮人||巨人 (UA)|UA2022GiantOptions|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Elemental Cleaver",
+			"name": "元素战刃",
+			"source": "UA2022GiantOptions",
+			"page": 1,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"subclassShortName": "巨人 (UA)",
+			"subclassSource": "UA2022GiantOptions",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6级巨人道途特性}",
+				"你与巨人及其同类的元素之力的牵挂加深，并且你学会了将原初语能量注入武器。",
+				"当你进入狂暴时，你可以为你所持的一把自选武器注入以下伤害类型之一：强酸、寒冷、火焰、雷鸣或闪电。当你在狂暴期间挥舞被注入的武器时，武器的伤害类型变为所选类型，命中时额外造成{@damage 1d6}点所选类型的伤害，并获得投掷属性，正常范围为20尺，最大范围为60尺。如果你投掷该武器，它会在命中或未命中目标后立即重新出现在你手中。当生物而非你持有该武器时，被注入武器的增益效果将被抑制。",
+				"当你处于狂暴状态且持有这把灌注武器时，你可以使用一个附赠动作将灌注武器的当前伤害类型变为上述伤害类型中的另一种。"
+			]
+		},
+		{
+			"ENG_name": "Mighty Impel",
+			"name": "伟力推动",
+			"source": "UA2022GiantOptions",
+			"page": 1,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"subclassShortName": "巨人 (UA)",
+			"subclassSource": "UA2022GiantOptions",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"{@i 10级巨人道途特性}",
+				"你与巨人力量的关联现在允许你在战场上猛投盟友且敌人。当你处于狂暴状态时，你可以用一个附赠动作选择触及范围内一个中等或更小的生物，并将其移动至你30尺内一个你能看见的未占据空间。一个不愿意的生物必须成功通过一次力量豁免检定（DC等于8+你的熟练加值+你的力量调整值）以避免该效应。",
+				"若在这次移动结束时，被投掷的生物并未站在一个可以支撑他的固体表面或液体中，该生物将坠落，正常承受摔落伤害并在落地时陷入{@condition 倒地}。"
+			]
+		},
+		{
+			"ENG_name": "Demiurgic Colossus",
+			"name": "创世巨像",
+			"source": "UA2022GiantOptions",
+			"page": 1,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"subclassShortName": "巨人 (UA)",
+			"subclassSource": "UA2022GiantOptions",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"{@i 14级巨人道途特性}",
+				"你狂暴的原初语法力加剧。当你狂暴时，你的触及范围现在增加10尺，你的体型可以增加到巨型，且你现在可以使用你的伟力推动来移动大型或更小的生物。",
+				"此外，你的 元素战刃Elemental Cleaver 特性造成的额外伤害提升至{@dice 2d6}。"
+			]
+		},
+		{
+			"ENG_name": "Circle of the Primeval",
+			"name": "远古结社",
+			"source": "UA2022GiantOptions",
+			"page": 3,
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"subclassShortName": "远古结社 (UA)",
+			"subclassSource": "UA2022GiantOptions",
+			"level": 2,
+			"entries": [
+				"远古结社教导我们，虽然大地可能随时间变化，但它永远不会真正遗忘。通过连接大地的古老记忆，这些德鲁伊召唤并与远古巨兽的精魂建立联结\u2014\u2014这些庞然大物曾与巨人一同统治远古世界。最著名的远古巨兽是恐龙，但与远古结社成员联结的精魂也会化身为现今普通野兽的远古祖先或其他奇幻的泰坦生物。",
+				"与他们的同伴精魄一起工作，大多数远古结社的德鲁伊将生命投入到探索被遗忘之地并保存过往时代的残存者中。随着德鲁伊法力的增长，他们的同伴也会成长，这头野兽开始时体型与其德鲁伊伙伴相近，随后逐渐增大直到它也高耸于大地之上。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "老守护者|德鲁伊||远古结社 (UA)|UA2022GiantOptions|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "原始伙伴|德鲁伊||远古结社 (UA)|UA2022GiantOptions|2"
+				}
+			]
+		},
+		{
+			"ENG_name": "Keeper of Old",
+			"name": "老守护者",
+			"source": "UA2022GiantOptions",
+			"page": 3,
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"subclassShortName": "远古结社 (UA)",
+			"subclassSource": "UA2022GiantOptions",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"{@i 2级远古结社特性}",
+				"你与强大的远古结社巨兽的联系使你对远古世界有了新的洞悉。你获得{@skill 历史}技能的熟练。当你进行智力（{@skill 历史}）检定时，你可以掷一枚{@dice d4}并将掷出的数值添加到该属性检定中。"
+			]
+		},
+		{
+			"ENG_name": "Primeval Companion",
+			"name": "原始伙伴",
+			"source": "UA2022GiantOptions",
+			"page": 3,
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"subclassShortName": "远古结社 (UA)",
+			"subclassSource": "UA2022GiantOptions",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"{@i 2级远古结社特性}",
+				"从你选择这个结社开始，你可以召唤与你连接的原始生物精魄。以一个动作，你可以消耗一次荒野形态特性来召唤你的原始伙伴，而非变形成野兽形态。同伴会出现在你30尺内一个你选择的未占据空间。",
+				"原始伙伴对你和你的同伴友好，且它会服从你的命令。该生物的游戏数据见{@creature 原始伙伴|UA2022GiantOptions}资料卡，其中多处使用你的熟练加值（PB）。你可以决定同伴的外貌；例如，你的同伴可能唤起远古掠食者如迅猛龙或剑齿虎，或者它可能更倾向于防御，表现为装甲甲龙或毛犀牛。这些选择对同伴的游戏数据无效果。",
+				"在战斗中，同伴共享你的先攻值，但它在你的回合后立即行动。它可以自行移动和使用反应，但在它的回合中唯一能采取的动作是{@action 回避}动作，除非你在你的回合中用一个附赠动作命令它采取另一个动作。该动作可以是其资料卡中的一个动作或其他动作。如果你处于{@condition 失能}状态，同伴可以选择采取任何动作，而不仅仅是{@action 回避}。",
+				"同伴会一直存在，直到它的生命值降至0或你死亡，此时同伴会消失。如果你再次使用此特性召唤同伴且你已有一个同伴在场，第一个同伴会立即消失。同伴消失时，它所穿戴或携带的任何东西都会被留下。"
+			]
+		},
+		{
+			"ENG_name": "Prehistoric Conduit",
+			"name": "史前导管",
+			"source": "UA2022GiantOptions",
+			"page": 3,
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"subclassShortName": "远古结社 (UA)",
+			"subclassSource": "UA2022GiantOptions",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6级远古结社特性}",
+				"你学会如何通过你的原始伙伴引导魔法。当你施放一个范围不是自身的法术时，法术可以从你或你的原始伙伴处发出。",
+				"此外，若原始伙伴受到你施放的法术影响，且该法术允许生物对其效应进行豁免检定，则原始伙伴在豁免检定上具有优势。若原始伙伴通常在成功豁免该法术时受到伤害减半，则改为在成功豁免时不受到伤害，且在豁免失败时受到伤害减半且无额外效应。"
+			]
+		},
+		{
+			"ENG_name": "Titanic Bond",
+			"name": "泰坦牵挂",
+			"source": "UA2022GiantOptions",
+			"page": 3,
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"subclassShortName": "远古结社 (UA)",
+			"subclassSource": "UA2022GiantOptions",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"{@i 10级远古结社特性}",
+				"原始伙伴成长为大型体型，且当你召唤它时，你可以赋予它等于其步行速度的攀爬速度或游泳速度。",
+				"在你的回合中，原始伙伴会借给你一些它那恐怖的力量。在你的原始伙伴被召唤时，每回合一次，当你用攻击命中一个生物或对你可见的生物施放的法术造成伤害时，你可以迫使该生物进行一次对抗你法术豁免DC的感知豁免检定；若失败，该生物会对你处于{@condition 恐慌}状态，直到你的下一个回合结束。"
+			]
+		},
+		{
+			"ENG_name": "Scourge of the Ancients",
+			"name": "远古灾祸",
+			"source": "UA2022GiantOptions",
+			"page": 3,
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"subclassShortName": "远古结社 (UA)",
+			"subclassSource": "UA2022GiantOptions",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"{@i 14级远古结社特性}",
+				"你已学会完全驾驭同伴的泰坦遗赠。作为命令同伴的附赠动作的一部分，你可以消耗任意等级的法术位来增强原始伙伴的力量，赋予其以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Hulking Behemoth",
+							"name": "巨型巨兽",
+							"type": "item",
+							"entries": [
+								"同伴变为巨型且获得临时生命值，数值等于消耗的法术位等级的10倍。如果没有足够的空间让同伴变为巨型，它将在可用空间内达到最大可能的体型。"
+							]
+						},
+						{
+							"ENG_name": "Mauler",
+							"name": "粉碎者",
+							"type": "item",
+							"entries": [
+								"命中时，同伴的打击造成额外伤害，等于{@dice 1d8}加上消耗的法术位等级。"
+							]
+						},
+						{
+							"ENG_name": "Titanic Stride",
+							"name": "泰坦步伐",
+							"type": "item",
+							"entries": [
+								"同伴的步行速度增加相当于消耗法术位等级5倍的尺数。"
+							]
+						}
+					]
+				},
+				"这些增益持续1小时，直到同伴消失，或者你再次为这个特性消耗一个法术位。"
+			]
+		},
+		{
+			"ENG_name": "Runecrafter",
+			"name": "符文匠",
+			"source": "UA2022GiantOptions",
+			"page": 3,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "符文匠（UA）",
+			"subclassSource": "UA2022GiantOptions",
+			"level": 2,
+			"entries": [
+				"符文工匠法师通过远古符文法力增强他们的施法。虽然这一传统起源于古老的巨人符文施法者，但符文工艺魔法已经扩展到包含不同世界的无数语言和实践者。",
+				"对许多符文工匠而言，他们掌握的符文就像他们的法术书一样独特且个人化。一些人努力尊崇这项技艺在巨人中的起源，将符文雕刻在装饰性岩石上作为施法器具的装饰，而其他人则在纸片上潦草地涂写符文。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "理解符文|法师||符文匠（UA）|UA2022GiantOptions|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "符文强化|法师||符文匠（UA）|UA2022GiantOptions|2"
+				}
+			]
+		},
+		{
+			"ENG_name": "Runes of Understanding",
+			"name": "理解符文",
+			"source": "UA2022GiantOptions",
+			"page": 3,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "符文匠（UA）",
+			"subclassSource": "UA2022GiantOptions",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"{@i 2级符文工匠特性}",
+				"你对符文工艺的研究解锁了解码符文和语言的能力，无论其起源如何；你总是准备了通晓语言，你可以不消耗法术位施放它，且该法术不计入你已准备的法术数量。"
+			]
+		},
+		{
+			"ENG_name": "Runic Empowerment",
+			"name": "符文强化",
+			"source": "UA2022GiantOptions",
+			"page": 3,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "符文匠（UA）",
+			"subclassSource": "UA2022GiantOptions",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"{@i 2级符文工匠特性}",
+				"当你选择该子职时，你将学会如何通过各种符文的应用来增强你的魔法。你对这些符文的了解存储在你的法术书中，尽管你决定了符文的外貌。例如，你的符文可以被刻在你的法术书的封面上，每当你施法时发光，或者你可以直接将符文的形状和含义融入法术的姿势和言语成分中。当你使用法术位施法时，你可以调用以下符文之一：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Life Rune",
+							"name": "生命符文",
+							"type": "item",
+							"entries": [
+								"当你激活此符文时，选择你能看见的30尺内的一个生物（你可以选择自己）。选民获得等于消耗法术位等级5倍的临时生命值。"
+							]
+						},
+						{
+							"ENG_name": "War Rune",
+							"name": "战争符文",
+							"type": "item",
+							"entries": [
+								"当你激发此符文时，选择30尺内你能看见的一个生物。直到你的下个回合结束，针对该选民生物的攻击检定获得等同于消耗法术位等级一半的加值（向上取整，最小为+1）。"
+							]
+						},
+						{
+							"ENG_name": "Wind Rune",
+							"name": "风势符文",
+							"type": "item",
+							"entries": [
+								"当你激发此符文时，你的速度增加相当于所消耗法术位等级5倍的尺数，且你的移动不会引发借机攻击。这些增益持续到你下个回合开始。"
+							]
+						}
+					]
+				},
+				"你每法术只能激活一个符文。你可以使用此特性的次数等于你的熟练加值，且完成一次长休后恢复所有已消耗的使用次数。"
+			]
+		},
+		{
+			"ENG_name": "Sigils of Warding",
+			"name": "守卫符文",
+			"source": "UA2022GiantOptions",
+			"page": 3,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "符文匠（UA）",
+			"subclassSource": "UA2022GiantOptions",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6级符文工匠特性}",
+				"你可以召唤一个守护符文来保护自己免受威胁。当你未能通过力量、敏捷或体质豁免检定时，你可以使用你的反应来消耗一次符文强化，并改为成功通过该豁免检定。"
+			]
+		},
+		{
+			"ENG_name": "Rune Maven",
+			"name": "符文大师",
+			"source": "UA2022GiantOptions",
+			"page": 3,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "符文匠（UA）",
+			"subclassSource": "UA2022GiantOptions",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"{@i 10级符文工匠特性}",
+				"你对符文工艺的理解有了极大的提升。每当你使用奥术回想特性时，你还会恢复一定数量的已消耗符文强化使用次数。你恢复的使用次数最多为智力调整值的一半，向上取整（至少为1）。"
+			]
+		},
+		{
+			"ENG_name": "Engraved Enmity",
+			"name": "铭刻敌意",
+			"source": "UA2022GiantOptions",
+			"page": 3,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "符文匠（UA）",
+			"subclassSource": "UA2022GiantOptions",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"{@i 14级符文工匠特性}",
+				"你已精通直接使用符文对抗敌人的技艺。以一个附赠动作，你可以指定一个你能看见的60尺内的生物为目标。该生物必须成功通过对抗你法术豁免DC的感知豁免检定，否则会被敌意符文魔法标记。",
+				"敌意符文显现为一颗微弱发光的能量微粒，悬浮在被标记的生物上方，该生物遭受以下效应：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Runecraft's Bane",
+							"name": "符文工艺的灾祸术",
+							"type": "item",
+							"entries": [
+								"该生物对抗你施放的法术时，豁免检定具有劣势。"
+							]
+						},
+						{
+							"ENG_name": "Unveiled Enemy",
+							"name": "揭露仇敌",
+							"type": "item",
+							"entries": [
+								"发光符文的光辉使生物在{@condition 隐形}状态下可见，且符文持续期间该生物不能变为{@condition 隐形}。"
+							]
+						},
+						{
+							"ENG_name": "Woeful Curse",
+							"name": "悲惨诅咒",
+							"type": "item",
+							"entries": [
+								"当你标记该生物时，且在持续时间内作为后续回合的附赠动作，你可以激活敌意符文以诅咒该生物直至你的下个回合开始。下一次你的盟友用攻击检定命中该被诅咒生物时，目标还会受到{@damage 1d8}力场伤害，且诅咒结束。"
+							]
+						}
+					]
+				},
+				"敌意符文持续1分钟或直到你失去{@status 专注}（如同你正{@status 专注||专注于}一个法术）。一旦你以这种方式标记了一个生物，在完成一次长休前不能再次使用，除非你消耗一个3环或更高等级的法术位来再次使用此特性。"
+			]
+		}
+	],
+	"feat": [
+		{
+			"ENG_name": "Elemental Touched",
+			"name": "元素生物神经兮兮",
+			"source": "UA2022GiantOptions",
+			"page": 4,
+			"entries": [
+				"你曾接触过元素位面的原初魔法，这赋予了你对周围自然世界的一定控制力。你学会德鲁伊伎俩或{@spell 奇术}戏法，使用智力、感知或魅力作为施法属性（获得此专长时选择）。",
+				"每当你完成一次长休时，你可以选择与哪种元素共鸣：风、土、火焰或水。根据你的选择，你可以使用一个附赠动作来引发以下效应之一：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Air",
+							"name": "空气",
+							"type": "item",
+							"entries": [
+								"你获得等于你步行速度的飞行速度直到你的回合结束。如果你在使用此移动力后回合结束时仍在空中且没有被其他方式托起，你会坠落。"
+							]
+						},
+						{
+							"ENG_name": "Earth",
+							"name": "土",
+							"type": "item",
+							"entries": [
+								"你使你周围30尺内的地面变为{@quickref 困难地形||3}，持续1分钟或直到你再次创造此效应。在此期间，你可以穿过{@quickref 困难地形||3}而无需消耗额外移动力。"
+							]
+						},
+						{
+							"ENG_name": "Fire",
+							"name": "火焰",
+							"type": "item",
+							"entries": [
+								"你被一团灰烬和烟的云雾所包围。直到你的回合结束，你的移动力不会引发借机攻击。"
+							]
+						},
+						{
+							"ENG_name": "Water",
+							"name": "饮水",
+							"type": "item",
+							"entries": [
+								"你可以制造一股强力水浪涌向你15尺内能看见的一个生物。该生物必须进行一次力量豁免检定（可选择自动失败），对抗DC等于8+你的施法属性调整值+你的熟练加值，否则被推离你最多10尺。饮水在生物成功或失败后立即消失。"
+							]
+						}
+					]
+				},
+				"你可以创造此效应的次数等同于你的熟练加值，且完成一次长休后恢复所有已消耗的使用次数。"
+			]
+		},
+		{
+			"ENG_name": "Ember of the Fire Giant",
+			"name": "火巨人之余烬",
+			"source": "UA2022GiantOptions",
+			"page": 5,
+			"prerequisite": [
+				{
+					"level": 8
+				}
+			],
+			"resist": [
+				"火焰"
+			],
+			"entries": [
+				"你展现出象征着火巨人的炽烈战斗方式，使得你获得下列增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Born of Flame",
+							"name": "生于烈焰",
+							"type": "item",
+							"entries": [
+								"你对火焰伤害具有抗性。"
+							]
+						},
+						{
+							"ENG_name": "Searing Ignition",
+							"name": "炽热灼烧",
+							"type": "item",
+							"entries": [
+								"当你在你的回合采取{@action 攻击}动作时，你可以用一次魔法火焰爆发替换你的一次攻击。你选择的15尺内能看见你的每个生物必须进行一次敏捷豁免检定（DC等于8 + 你的熟练加值 + 你的体质调整值）。豁免失败时，生物受到等于{@dice 2d6} + 你的熟练加值的火焰伤害且陷入{@condition 目盲}状态直到你的下个回合开始；豁免成功时，该生物只受到一半伤害且没有额外效应。你可以使用炽热灼烧的次数等于你的熟练加值，且完成一次长休后恢复所有已消耗的使用次数。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Fury of the Frost Giant",
+			"name": "霜巨人之狂怒",
+			"source": "UA2022GiantOptions",
+			"page": 4,
+			"prerequisite": [
+				{
+					"level": 4
+				}
+			],
+			"resist": [
+				"寒冷"
+			],
+			"entries": [
+				"你展现出象征着霜巨人的冰冷力量，使得你获得下列增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Born of Ice",
+							"name": "生于冰霜",
+							"type": "item",
+							"entries": [
+								"你获得寒冷伤害的抗性。"
+							]
+						},
+						{
+							"ENG_name": "Frigid Vengeance",
+							"name": "霜寒复仇",
+							"type": "item",
+							"entries": [
+								"当一个生物以攻击检定命中你时，你可以使用你的反应以魔法愤怒爆发进行反击。该生物必须成功通过一次感知豁免检定（DC等于8+你的熟练加值+你的体质调整值）否则将对你处于{@condition 恐慌}状态直到其下一回合开始。你可以以这种方式使用反应的次数等于你的熟练加值数值，且你在完成一次长休后恢复所有已消耗的使用次数。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Guile of the Cloud Giant",
+			"name": "云巨人之诡诈",
+			"source": "UA2022GiantOptions",
+			"page": 4,
+			"prerequisite": [
+				{
+					"level": 8
+				}
+			],
+			"entries": [
+				"你已显现出云巨人特有的空灵口语和魔法标志，获得以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Misty Form",
+							"name": "迷雾形态",
+							"type": "item",
+							"entries": [
+								"你可以无需使用法术位或材料成分施放{@spell 朦胧术}法术。当你以此方式施放该法术时，该法术不需要你保持{@status 专注}。一旦你以此方式施放了该法术，在完成一次长休前你不能再这样做。你也可以使用你拥有的适当等级的法术位以正常方式施放该法术。智力、感知或魅力是你此特性的施法属性（获得此专长时选择）。"
+							]
+						},
+						{
+							"ENG_name": "Silver Tongue",
+							"name": "巧舌如簧",
+							"type": "item",
+							"entries": [
+								"你获得{@skill 欺瞒}或{@skill 游说}技能的熟练项。你在使用该技能进行属性检定时，熟练加值翻倍。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Keenness of the Stone Giant",
+			"name": "石巨人之敏锐",
+			"source": "UA2022GiantOptions",
+			"page": 5,
+			"prerequisite": [
+				{
+					"level": 4
+				}
+			],
+			"entries": [
+				"你已显现出石巨人特有的守护和施法能力，获得以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Dreamer's Magic",
+							"name": "石巨人之敏锐",
+							"type": "item",
+							"entries": [
+								"你习得法术{@spell 侦测思想}和一个自选的{@filter 一环法术|spells|level=1|school=A;D}。该一环法术必须来自防护或预言术魔法学派。你可以不消耗法术位施放这些法术。以此法施放其中任一法术后，直至完成一次长休前都无法再次以此法施放该法术。你也可以使用对应等级的法术位施放这些法术。智力、感知或魅力作为此特性的施法属性（获得此专长时选择）。"
+							]
+						},
+						{
+							"ENG_name": "Mountain Sight",
+							"name": "山地预见",
+							"type": "item",
+							"entries": [
+								"你获得{@sense 黑暗视觉}，范围为60尺。如果你已从其他来源获得{@sense 黑暗视觉}，其范围增加30尺。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Outsized Might",
+			"name": "超凡力量",
+			"source": "UA2022GiantOptions",
+			"page": 5,
+			"entries": [
+				"你吸收了远古结社的魔法，使你尽管体型相对较小，却能体现泰坦生物的力量。这赋予你以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Little but Mighty",
+							"name": "小而强大",
+							"type": "item",
+							"entries": [
+								"你获得{@skill 运动}或{@skill 特技}技能的熟练项。"
+							]
+						},
+						{
+							"ENG_name": "Powerful Build",
+							"name": "强力构筑",
+							"type": "item",
+							"entries": [
+								"你在确定载重和可推离、拖拽或抬起的数量时，体型视为大一级。"
+							]
+						},
+						{
+							"ENG_name": "Stalwart",
+							"name": "坚定",
+							"type": "item",
+							"entries": [
+								"你在对抗被移动或击倒{@condition 倒地}的豁免检定上具有优势。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Rune Carver Adept",
+			"name": "符文雕刻者专家",
+			"source": "UA2022GiantOptions",
+			"page": 5,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"符文雕刻学徒|UA2022GiantOptions"
+					]
+				}
+			],
+			"entries": [
+				"你的符文工艺技能提升了。",
+				"每当你完成一次长休时，你现在可以标记等同于你熟练加值数量的物件，并为其刻上符文雕刻学徒专长的符文。一个物件同一时间只能拥有一个符文，且你必须在每个物件上刻写不同的符文。"
+			]
+		},
+		{
+			"ENG_name": "Rune Carver Apprentice",
+			"name": "符文雕刻学徒",
+			"source": "UA2022GiantOptions",
+			"page": 5,
+			"entries": [
+				"你已开始学习符文工艺的艺术，这使你能够暂时标记你的物品并为它们注入魔法。",
+				"每当你完成一次长休时，你可以用一个你选择的符文标记一件你能接触到的非魔法武器、护甲、衣物碎片或其他物件。你临时学会一个基于所选符文的一环法术，如符文法术表格中所指定，且你知晓该法术直到你完成一次长休，此时符文会消退。",
+				{
+					"type": "table",
+					"caption": "符文法术",
+					"colLabels": [
+						"符文",
+						"法术"
+					],
+					"colStyles": [
+						"col-2",
+						"col-10"
+					],
+					"rows": [
+						[
+							"鲜血",
+							"{@spell 虚假生命}"
+						],
+						[
+							"云雾",
+							"{@spell 云雾术}"
+						],
+						[
+							"死亡",
+							"{@spell 致病射线}"
+						],
+						[
+							"龙",
+							"{@spell 繁彩球}"
+						],
+						[
+							"仇敌",
+							"{@spell 灾祸术}"
+						],
+						[
+							"火焰",
+							"{@spell 燃烧之手}"
+						],
+						[
+							"友谊",
+							"{@spell 祝福术}"
+						],
+						[
+							"寒霜",
+							"{@spell 黯冰狱铠}"
+						],
+						[
+							"丘陵",
+							"{@spell 神莓术}"
+						],
+						[
+							"旅途",
+							"{@spell 大步奔行}"
+						],
+						[
+							"君王",
+							"{@spell 命令术}"
+						],
+						[
+							"光亮术",
+							"{@spell 光导箭}"
+						],
+						[
+							"生命",
+							"{@spell 疗伤术}"
+						],
+						[
+							"山地",
+							"{@spell 跳跃术}"
+						],
+						[
+							"护盾术",
+							"{@spell 护盾术}"
+						],
+						[
+							"岩石",
+							"{@spell 庇护术}"
+						],
+						[
+							"风暴",
+							"{@spell 雷鸣波}"
+						],
+						[
+							"战争",
+							"{@spell 英雄气概}"
+						],
+						[
+							"风势",
+							"{@spell 羽落术}"
+						]
+					]
+				},
+				"当你佩戴或携带该符文标记的物件时，你可以无需使用法术位或材料成分施放与该符文关联的选定法术一次，且你也可以使用你拥有的任何法术位来施放该法术。",
+				"此专长的施法属性为智力、感知或魅力（获得此专长时选择）"
+			]
+		},
+		{
+			"ENG_name": "Soul of the Storm Giant",
+			"name": "风暴巨人之灵魂",
+			"source": "UA2022GiantOptions",
+			"page": 5,
+			"prerequisite": [
+				{
+					"level": 8
+				}
+			],
+			"entries": [
+				"你已显现出风暴巨人特有的预言术能力和风暴魔法，获得以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Maelstrom Aura",
+							"name": "旋涡灵光",
+							"type": "item",
+							"entries": [
+								"以一个附赠动作，你将自己包围在魔法风势和闪电的灵光中，该灵光从你向各个方向延伸10尺，但不会穿过全身掩护。灵光持续1分钟或直到你处于{@condition 失能}状态。当灵光激活时，对你的攻击检定具有劣势，且每当一个生物在其回合开始时处于该球状区域内，你可以迫使该生物的速度减半，直到其下一个回合开始。一旦你使用这个附赠动作，直到完成一次长休前不能再次使用。"
+							]
+						},
+						{
+							"ENG_name": "Storm's Oracle",
+							"name": "风暴先知",
+							"type": "item",
+							"entries": [
+								"你可以以仪式施放{@spell 预言术}法术，无需材料成分。智力、感知或魅力是你使用此特性时的施法属性（获得此专长时选择）。以此方式施放该法术后，直到完成一次长休前你无法再次施放。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Vigor of the Hill Giant",
+			"name": "山丘巨人之健强",
+			"source": "UA2022GiantOptions",
+			"page": 5,
+			"prerequisite": [
+				{
+					"level": 4
+				}
+			],
+			"entries": [
+				"你展现出象征着山丘巨人的强韧性，使得你获得下列增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Bulwark",
+							"name": "意志壁垒",
+							"type": "item",
+							"entries": [
+								"当你受到一个会使你至少移动5尺或使你{@condition 倒地}的效应时，你可以使用你的反应来稳固自身。随后你既不会被移动也不会被{@condition 倒地}。"
+							]
+						},
+						{
+							"ENG_name": "Hearty Health",
+							"name": "精神饱满健康",
+							"type": "item",
+							"entries": [
+								"当你受到一个恢复生命值的法术影响时，你可以恢复等同于你体质调整值的额外生命值。你可以恢复这些额外生命值的次数等同于你的熟练加值，且完成一次长休后恢复所有已消耗的使用次数。"
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"monster": [
+		{
+			"ENG_name": "Primeval Companion",
+			"name": "原始伙伴",
+			"source": "UA2022GiantOptions",
+			"page": 2,
+			"size": [
+				"M"
+			],
+			"type": "beast",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"special": "13+PB（天生护甲）"
+				}
+			],
+			"hp": {
+				"special": "10 加上你的德鲁伊等级的五倍（伙伴拥有等于你的德鲁伊等级的命中骰数量[d10]）"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 15,
+			"con": 17,
+			"int": 6,
+			"wis": 12,
+			"cha": 8,
+			"save": {
+				"dex": "+2 + PB",
+				"con": "+3 + PB（个人加成）"
+			},
+			"senses": [
+				"黑暗视觉 60 尺"
+			],
+			"passive": 11,
+			"languages": [
+				"理解你所说的语言"
+			],
+			"pbNote": "等于你的加值",
+			"action": [
+				{
+					"ENG_name": "Strike",
+					"name": "打击",
+					"entries": [
+						"{@atk mw} 攻击加值 +2 加上PB，触及范围5英尺，一个目标。{@h}{@dice 1d8} 加上PB的钝击、穿刺或挥砍伤害（由你选择）。"
+					]
+				}
+			],
+			"reaction": [
+				{
+					"ENG_name": "Intercept Attack",
+					"name": "攻击拦截",
+					"entries": [
+						"当伙伴可以看到的生物用攻击击中一个目标，并且该目标在伙伴5英尺范围内时，目标只受到一半的伤害。伙伴承担剩余的伤害。"
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/UA2022GiantOptions/tokens/Primeval Companion.webp"
+			},
+			"senseTags": [
+				"D"
+			],
+			"miscTags": [
+				"MW"
+			]
+		}
+	]
+}

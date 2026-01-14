@@ -1,0 +1,407 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UABarbarianPrimalPaths",
+				"abbreviation": "UABPP",
+				"full": "破解奥秘：野蛮人原初道途",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2016/dnd/downloads/UA_Barbarian.pdf",
+				"dateReleased": "2016-11-07"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1729637619,
+		"_dateLastModifiedHash": "086a15ba14"
+	},
+	"subclass": [
+		{
+			"ENG_name": "Path of the Ancestral Guardian (UA)",
+			"name": "先祖守卫（UA）之路",
+			"shortName": "先祖守卫（UA）",
+			"source": "UABarbarianPrimalPaths",
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"page": 1,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"先祖守卫道途|野蛮人||先祖守卫（UA）|UABarbarianPrimalPaths|3",
+				"先祖护盾|野蛮人||先祖守卫（UA）|UABarbarianPrimalPaths|6",
+				"问道精魂|野蛮人||先祖守卫（UA）|UABarbarianPrimalPaths|10",
+				"仇魂先祖|野蛮人||先祖守卫（UA）|UABarbarianPrimalPaths|14"
+			]
+		},
+		{
+			"ENG_name": "Path of the Storm Herald (UA)",
+			"name": "风暴先声 (UA)之路",
+			"shortName": "风暴先声 (UA)",
+			"source": "UABarbarianPrimalPaths",
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"page": 1,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"风暴先驱道途|野蛮人||风暴先声 (UA)|UABarbarianPrimalPaths|3",
+				"风暴之魂|野蛮人||风暴先声 (UA)|UABarbarianPrimalPaths|6",
+				"暴风护盾|野蛮人||风暴先声 (UA)|UABarbarianPrimalPaths|10",
+				"狂怒风暴|野蛮人||风暴先声 (UA)|UABarbarianPrimalPaths|14"
+			]
+		},
+		{
+			"ENG_name": "Path of the Zealot (UA)",
+			"name": "狂热者路途（UA）",
+			"shortName": "狂热者 (UA)",
+			"source": "UABarbarianPrimalPaths",
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"page": 2,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"狂热者道途|野蛮人||狂热者 (UA)|UABarbarianPrimalPaths|3",
+				"热情专注|野蛮人||狂热者 (UA)|UABarbarianPrimalPaths|6",
+				"狂热威仪|野蛮人||狂热者 (UA)|UABarbarianPrimalPaths|10",
+				"怒不畏死|野蛮人||狂热者 (UA)|UABarbarianPrimalPaths|14"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"ENG_name": "Path of the Ancestral Guardian",
+			"name": "先祖守卫道途",
+			"source": "UABarbarianPrimalPaths",
+			"page": 1,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"subclassShortName": "先祖守卫（UA）",
+			"subclassSource": "UABarbarianPrimalPaths",
+			"level": 3,
+			"entries": [
+				"一些野蛮人来自崇尚祖先的文化。这些部族教导说，过去的武者会以强大精魂的形式在世界中徘徊，能够引导且保护生者。遵循此道途的野蛮人狂暴时，会跨越屏障进入精魄世界，并召唤这些守护精魂施以援助术。",
+				"野蛮人谁召唤先祖守卫道途的精魂战斗以保护他们的部族和盟友。在精魂的协助下，他们可以在对敌人造成强力打击的同时阻碍它们。",
+				"为了巩固与先祖守卫的联系，遵循此道途的野蛮人会用精美的纹身覆盖自己，以颂扬祖先的功绩。这些纹身讲述了对抗可怕怪物和其他可怖竞争对手的史诗传奇。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "先祖护卫|野蛮人||先祖守卫（UA）|UABarbarianPrimalPaths|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Ancestral Protectors",
+			"name": "先祖护卫",
+			"source": "UABarbarianPrimalPaths",
+			"page": 1,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"subclassShortName": "先祖守卫（UA）",
+			"subclassSource": "UABarbarianPrimalPaths",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"从3级选择此路途开始，当你狂暴时会出现灵体武者。这些武者会干扰你指定的敌人并阻碍其试图躲避你的行为。当你处于狂暴状态时，可以在你的回合使用一个附赠动作选择你能看见的5尺内的一个生物。直到你的下个回合开始或你的狂暴结束前，该选民生物对你以外的目标进行攻击检定时具有劣势，且如果该生物在你5尺内采取{@action 撤离}动作，其速度减半直到其回合结束。"
+			]
+		},
+		{
+			"ENG_name": "Ancestral Shield",
+			"name": "先祖护盾",
+			"source": "UABarbarianPrimalPaths",
+			"page": 1,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"subclassShortName": "先祖守卫（UA）",
+			"subclassSource": "UABarbarianPrimalPaths",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"从6级开始，援助你的守护精魂能为盟友提供保护。若你处于狂暴状态且你能看见的30尺内盟友受到钝击、穿刺或挥砍伤害，你可以使用反应将你对这些伤害类型的抗性转移给该盟友。此抗性适用于即将受到的伤害。直到你的下个回合开始前，该盟友保持此抗性而你失去它，除非你从狂暴以外的来源也获得此抗性。"
+			]
+		},
+		{
+			"ENG_name": "Consult the Spirits",
+			"name": "问道精魂",
+			"source": "UABarbarianPrimalPaths",
+			"page": 1,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"subclassShortName": "先祖守卫（UA）",
+			"subclassSource": "UABarbarianPrimalPaths",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"在10级时，你获得问道精魂的能力。在你进行一次智力或感知检定前，你可以使该检定具有优势。你可以使用此特性三次，且完成一次长休后恢复所有使用次数。"
+			]
+		},
+		{
+			"ENG_name": "Vengeful Ancestors",
+			"name": "仇魂先祖",
+			"source": "UABarbarianPrimalPaths",
+			"page": 1,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"subclassShortName": "先祖守卫（UA）",
+			"subclassSource": "UABarbarianPrimalPaths",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"在14级时，你的先祖精魂强大到足以打击敌人。当你或30尺内可见的盟友在狂暴状态下受到近战攻击伤害时，你可以使用反应使攻击手受到精魂造成的{@damage 2d8}力场伤害。"
+			]
+		},
+		{
+			"ENG_name": "Path of the Storm Herald",
+			"name": "风暴先驱道途",
+			"source": "UABarbarianPrimalPaths",
+			"page": 1,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"subclassShortName": "风暴先声 (UA)",
+			"subclassSource": "UABarbarianPrimalPaths",
+			"level": 3,
+			"entries": [
+				"典型的野蛮人内心怀有狂怒。他们的狂暴赋予它们高端的力量、耐久性且速度。遵循风暴先驱道途的野蛮人转而学会将他们的狂暴转化为围绕它们的原始魔法斗篷。在狂怒时，此道途的野蛮人会利用自然来创造强大的魔法效应。",
+				"风暴先驱通常是精英战士，他们与德鲁伊、游侠及其他誓约保护自然领域的盟友一同训练。其他风暴先驱则在风暴肆虐的区域、世界尽头的冰冻地带或最炎热的荒漠深处建立的精英营地中磨练技艺。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "暴风狂怒|野蛮人||风暴先声 (UA)|UABarbarianPrimalPaths|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Storm of Fury",
+			"name": "暴风狂怒",
+			"source": "UABarbarianPrimalPaths",
+			"page": 1,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"subclassShortName": "风暴先声 (UA)",
+			"subclassSource": "UABarbarianPrimalPaths",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"当你在3级选择此路途时，从下列选项中选择一项：荒漠、海洋或冻原。你选择的环境将塑造你狂暴时召唤的暴风性质。狂暴时，你会在10尺半径内散发一个光环。此光环的效应取决于你所选的环境。",
+				{
+					"ENG_name": "Desert",
+					"name": "荒漠",
+					"type": "entries",
+					"entries": [
+						"任何在其回合结束时处于你光环内的仇敌将受到等于2加你野蛮人等级除以4的火焰伤害。"
+					]
+				},
+				{
+					"ENG_name": "Sea",
+					"name": "海洋",
+					"type": "entries",
+					"entries": [
+						"在你的每个回合结束时，你可以选择光环中除你之外的一个生物。目标必须进行一次敏捷豁免检定，DC等于8 + 你的熟练加值 + 你的体质调整值。目标豁免失败时受到{@damage 2d6}闪电伤害，豁免成功时则受到一半伤害。此伤害在10级时提升至{@dice 3d6}，在15级时提升至{@dice 4d6}。"
+					]
+				},
+				{
+					"ENG_name": "Tundra",
+					"name": "冻原",
+					"type": "entries",
+					"entries": [
+						"任何在你的光环内结束其回合的敌人将受到等于2 + 你的野蛮人等级除以4的寒冷伤害。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Storm Soul",
+			"name": "风暴之魂",
+			"source": "UABarbarianPrimalPaths",
+			"page": 1,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"subclassShortName": "风暴先声 (UA)",
+			"subclassSource": "UABarbarianPrimalPaths",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"在6级时，你与暴风法力的联系会根据你在3级时选择的环境赋予你额外的属性。",
+				{
+					"ENG_name": "Desert",
+					"name": "荒漠",
+					"type": "entries",
+					"entries": [
+						"你获得火焰伤害抗性且不受极度高温效应影响。"
+					]
+				},
+				{
+					"ENG_name": "Sea",
+					"name": "海洋",
+					"type": "entries",
+					"entries": [
+						"你获得闪电伤害抗性且能在水下呼吸。"
+					]
+				},
+				{
+					"ENG_name": "Tundra",
+					"name": "冻原",
+					"type": "entries",
+					"entries": [
+						"冻原。你获得寒冷伤害抗性且不受极度寒冷效应的影响。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Shield of the Storm",
+			"name": "暴风护盾",
+			"source": "UABarbarianPrimalPaths",
+			"page": 1,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"subclassShortName": "风暴先声 (UA)",
+			"subclassSource": "UABarbarianPrimalPaths",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"在10级时，你学会利用对暴风的精通来保护盟友。当你处于狂暴状态时，光环内的盟友将获得你的风暴之魂特性的增益。"
+			]
+		},
+		{
+			"ENG_name": "Raging Storm",
+			"name": "狂怒风暴",
+			"source": "UABarbarianPrimalPaths",
+			"page": 1,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"subclassShortName": "风暴先声 (UA)",
+			"subclassSource": "UABarbarianPrimalPaths",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"在14级时，你所引导的暴风法力变得更加强大。",
+				{
+					"ENG_name": "Desert",
+					"name": "荒漠",
+					"type": "entries",
+					"entries": [
+						"你周围的地面变得如同化形的沙子。任何在你的光环范围内试图在地面上每回合移动超过5尺的仇敌必须进行一次力量豁免检定（DC 8 + 你的熟练加值 + 你的体质调整值）。豁免失败时，该生物的速度降至0，直到其下个回合开始。"
+					]
+				},
+				{
+					"ENG_name": "Sea",
+					"name": "海洋",
+					"type": "entries",
+					"entries": [
+						"咆哮的大风撕裂你周围的区域。你光环内任何被你攻击命中的生物必须进行一次力量豁免检定（DC 8 + 你的熟练加值 + 你的力量调整值），否则将被击倒{@condition 倒地}。"
+					]
+				},
+				{
+					"ENG_name": "Tundra",
+					"name": "冻原",
+					"type": "entries",
+					"entries": [
+						"你周围的寒风减缓了敌人的速度。你的光环范围内的区域对你的敌人来说是{@quickref 困难地形||3}。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Path of the Zealot",
+			"name": "狂热者道途",
+			"source": "UABarbarianPrimalPaths",
+			"page": 2,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"subclassShortName": "狂热者 (UA)",
+			"subclassSource": "UABarbarianPrimalPaths",
+			"level": 3,
+			"entries": [
+				"一些神灵鼓励的追随者们投身于残酷的战斗狂怒中。这些野蛮人是狂热的战士，他们引导自己的愤怒转化为强大的神赐力量。",
+				"在D&D世界中有许多神都会鼓励自己的追随者寻求狂热者道途。最著名的是费伦的 坦帕斯Tempus ，以及灰鹰的 海克斯托Hextor 和 厄瑞斯努Erythnul 。一般来说，那些培养狂热者的神往往是偏向于战斗、破坏和暴力等神职。当然，它们不一定全是邪恶的，还是有少数例外是善良的。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "神性之怒|野蛮人||狂热者 (UA)|UABarbarianPrimalPaths|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "神之勇者|野蛮人||狂热者 (UA)|UABarbarianPrimalPaths|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Divine Fury",
+			"name": "神性之怒",
+			"source": "UABarbarianPrimalPaths",
+			"page": 2,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"subclassShortName": "狂热者 (UA)",
+			"subclassSource": "UABarbarianPrimalPaths",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"从你在3级选择此路途时开始，你可以在开始狂暴时引导神性之怒。如果你这样做，你会被一层神圣力量的灵光所笼罩，直到狂暴结束。在那段持续时间的每个你的回合结束时，每个距离你5尺内的生物会受到等于{@dice 1d6} + 你野蛮人等级一半的伤害。该伤害为暗蚀或光耀；你在获得此特性时选择伤害类型。"
+			]
+		},
+		{
+			"ENG_name": "Warrior of the Gods",
+			"name": "神之勇者",
+			"source": "UABarbarianPrimalPaths",
+			"page": 2,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"subclassShortName": "狂热者 (UA)",
+			"subclassSource": "UABarbarianPrimalPaths",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"在3级时，你的灵魂被标记为无尽战斗。如果一个法术的唯一效应是将你恢复到生命（但不包括不死状态），施法者不需要材料成分即可对你施放该法术。"
+			]
+		},
+		{
+			"ENG_name": "Zealous Focus",
+			"name": "热情专注",
+			"source": "UABarbarianPrimalPaths",
+			"page": 2,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"subclassShortName": "狂热者 (UA)",
+			"subclassSource": "UABarbarianPrimalPaths",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"在6级时，驱动你狂暴的神圣法力可以保护你免受伤害。若你在狂暴时豁免检定失败，你可以改为以一个反应成功通过该豁免检定。然而，这样做会立即结束你的狂暴，且你在完成一次短休或长休前无法再次狂暴。"
+			]
+		},
+		{
+			"ENG_name": "Zealous Presence",
+			"name": "狂热威仪",
+			"source": "UABarbarianPrimalPaths",
+			"page": 2,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"subclassShortName": "狂热者 (UA)",
+			"subclassSource": "UABarbarianPrimalPaths",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"在10级时，你学会引导神圣力量激励他人的狂热。作为一个动作，你狂怒地嚎叫并释放出灌注神圣能量的战吼。60尺内的每个盟友在攻击检定和豁免检定上获得优势，直到你的下个回合开始。",
+				"必须完成一次长休才能再次使用该特性。"
+			]
+		},
+		{
+			"ENG_name": "Rage Beyond Death",
+			"name": "怒不畏死",
+			"source": "UABarbarianPrimalPaths",
+			"page": 2,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"subclassShortName": "狂热者 (UA)",
+			"subclassSource": "UABarbarianPrimalPaths",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"从14级开始，驱使你狂暴的神力允许你忽视致命的打击。",
+				"处于狂暴时，拥有0点生命值不会使你陷入{@condition 昏迷}状态。你仍然必须进行死亡豁免检定，且在0点生命值时受到伤害会承受正常效应。然而，若你因死亡豁免检定失败而死亡，你的死亡会延迟至狂暴结束。"
+			]
+		}
+	]
+}

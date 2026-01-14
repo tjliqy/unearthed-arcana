@@ -1,0 +1,505 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UA2020Feats",
+				"abbreviation": "UA20F",
+				"full": "破解奥秘：2020专长",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2020/dnd/downloads/UA2020_Feats.pdf",
+				"dateReleased": "2020-07-13"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1729637619,
+		"_dateLastModifiedHash": "9dae0e5425"
+	},
+	"feat": [
+		{
+			"ENG_name": "Artificer Initiate",
+			"name": "奇械学徒",
+			"source": "UA2020Feats",
+			"page": 1,
+			"toolProficiencies": [
+				{
+					"anyArtisansTool": 1
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "int",
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|class=奇械师"
+									}
+								]
+							}
+						}
+					},
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=奇械师"
+							}
+						]
+					}
+				}
+			],
+			"entries": [
+				"你学会了奇械师的一些创造力，获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你从{@filter 奇械师法术列表|spells|level=0;1|class=奇械师}中选择一个戏法，并且从{@filter 那个列表|spells|level=0;1|class=奇械师}中选择一个一环法术。智力是你施展这些法术的施法属性。每当你升级时，你可以将这些法术中的一个替换为奇械师法术列表中同等级的其他法术。",
+						"你可以在不消耗法术位的情况下施展一次来自此专长的一环法术。你必须在完成一次长休后才能再次这样做。你也可以正常消耗法术位来施展该法术。",
+						"你获得一种自选的{@filter 工匠工具|items|type=工匠工具}的熟练项，且你可以使用该类型的工具作为任何施法属性为智力的法术的法器"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Chef",
+			"name": "大厨",
+			"source": "UA2020Feats",
+			"page": 1,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"wis"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"toolProficiencies": [
+				{
+					"cook's utensils": true
+				}
+			],
+			"entries": [
+				"花费时间和精力掌握烹饪艺术已见成效。你获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你获得{@item 厨师工具|phb}的熟练项，如果你还没有的话。",
+						"作为短休的一部分，只要你手上有原料和{@item 厨师工具|phb}，你便可以烹饪特制料理。你可以为特定数量的生物准备这种食物，其数量等同于4+你的熟练加值。在本次短休结束时，任何食用了料理并且花费了一个或更多生命骰来恢复生命值的生物恢复额外{@dice 1d8}点生命值。",
+						"在花费一小时精心制作后，或者在完成一次长休时，你可以制作等同于你熟练加值个数的餐点。这些餐点在制作完成后持续八小时。任何食用餐点的生物都能获得等同于你熟练加值的临时生命值。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Crusher",
+			"name": "粉碎者",
+			"source": "UA2020Feats",
+			"page": 1,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你擅长于碾碎敌人的技艺，你获得了以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"每回合一次，当你用造成钝击伤害的攻击命中一个生物时，只要目标的体型并未比你大一级以上，你就可以将目标移动五尺至一个未被占据的空间。",
+						"当你对一个生物造成钝击伤害的重击时，对该生物的攻击检定具有优势直到你的下个回合结束。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Eldritch Adept",
+			"name": "魔能导师",
+			"source": "UA2020Feats",
+			"page": 1,
+			"prerequisite": [
+				{
+					"spellcasting2020": true
+				}
+			],
+			"entries": [
+				"研习秘传学识，你已解锁体内的魔能之力：你从魔契师职业中选择一个{@filter 魔能祈唤|optionalfeatures|Feature Type=EI}选项。若该祈唤有先决条件，则你必须是魔契师且满足该先决条件才能选择该祈唤。",
+				"当你升级时，你可以将该祈唤更换为魔契师职业中的另一个魔能祈唤。"
+			]
+		},
+		{
+			"ENG_name": "Fey Touched",
+			"name": "精类之触",
+			"source": "UA2020Feats",
+			"page": 2,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "继承",
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"迷踪步",
+									{
+										"choose": "level=1|school=E;D"
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"你接触妖精荒野或其居民的经历在你身上留下了魔法标记。你获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你习得{@spell 迷踪步}以及一个{@filter 一环法术|spells|level=1|school=E;D}。该{@filter 一环法术|spells|level=1|school=E;D}必须是预言系或者惑控系法术。你可以在不消耗法术位的情况下施展这些法术各一次。当你以此法施展某个法术后，你不能再次以此法施展该法术，直至你完成一次长休。你也可以消耗合适的法术位来施展这些法术。这些法术的施法属性是你由此专长提升的属性。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Fighting Initiate",
+			"name": "战斗学徒",
+			"source": "UA2020Feats",
+			"page": 2,
+			"prerequisite": [
+				{
+					"proficiency": [
+						{
+							"weapon": "军用"
+						}
+					]
+				}
+			],
+			"entries": [
+				"你的军事训练帮助你养成了一种特定的战术风格。因此，你可以从战士职业中选择并习得一项{@filter 战斗风格|optionalfeatures|Feature Type=FS:F}。如果你已经有一项战斗风格，你不能选择相同的战斗风格。",
+				"每当你升级时，你可以将此专长的战斗风格替换为你尚未拥有的战士职业的另一个战斗风格。"
+			]
+		},
+		{
+			"ENG_name": "Gunner",
+			"name": "枪手",
+			"source": "UA2020Feats",
+			"page": 2,
+			"ability": [
+				{
+					"dex": 1
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"firearms": true
+				}
+			],
+			"entries": [
+				"你持枪时的手快眼明使你获得了以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你获得枪械的熟练项（见城主指南的{@variantrule 枪械|DMG}栏目）。",
+						"你忽略枪械的装填属性。",
+						"你在敌对生物５尺范围内发动远程攻击检定时，不会因此而具有劣势。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Metamagic Adept",
+			"name": "超魔导师",
+			"source": "UA2020Feats",
+			"page": 2,
+			"prerequisite": [
+				{
+					"spellcasting2020": true
+				}
+			],
+			"entries": [
+				"你学会了如何施加意志来改变法术的功能。你获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你从术士职业中选择两个{@filter 超魔法|optionalfeatures|Feature Type=MM}选项。施放法术时你只能使用一个超魔法选项，除非该选项另有说明。每当你升级时，你可以将你的一个超魔法选项替换为术士职业中的另一个选项。",
+						"你获得2点术法点，用于施展超魔法（这些术法点和任何其他来源的术法点叠加，但只能用于超魔法）。你在完成长休后重获所有已消耗的术法点。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Piercer",
+			"name": "石锥怪",
+			"source": "UA2020Feats",
+			"page": 2,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你已经可以在战斗中造成精准的穿刺。你获得以下好处：",
+				{
+					"type": "list",
+					"items": [
+						"每回合一次，当你用造成穿刺伤害的攻击命中一个生物时，你可以重骰这次攻击伤害的其中一枚伤害骰。但你必须采用新的掷骰结果。",
+						"当你用造成穿刺伤害的攻击命中一个生物并且造成重击时，你可以在计算穿刺伤害时投一个额外的伤害骰。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Poisoner",
+			"name": "毒师",
+			"source": "UA2020Feats",
+			"page": 2,
+			"toolProficiencies": [
+				{
+					"poisoner's kit": true
+				}
+			],
+			"entries": [
+				"你可以准备且投递致命毒药，获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"当你进行伤害掷骰时，可以无视对毒素伤害的抗性。",
+						"你可以用一个附赠动作而非动作将武器涂上毒素。",
+						"你获得{@item 毒药工具|phb}的熟练项（若尚未拥有）。通过使用{@item 毒药工具|phb}工作1小时且消耗价值50GP的材质，你可以制造等同于熟练加值数量的强效毒素剂量。一旦涂抹，毒素将保持1分钟潜能，或直到你用武器命中。当涂有此毒素的武器对生物造成伤害时，该生物必须成功通过DC14的体质豁免检定，否则受到{@damage 2d8}毒素伤害并陷入{@condition 中毒}状态直到你的下个回合结束。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Practiced Expert",
+			"name": "专家实践",
+			"source": "UA2020Feats",
+			"page": 3,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"skillToolLanguageProficiencies": [
+				{
+					"choose": [
+						{
+							"from": [
+								"任意技能",
+								"任意工具"
+							]
+						}
+					]
+				}
+			],
+			"entries": [
+				"你已磨练了对特定技能或工具的熟练度，获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你获得一个自选的{@table 技能|phb|技能}或{@filter 工具|items|type=工具;工匠工具}的熟练项。",
+						"选择一项你的技能或工具熟练项。你所选熟练项的属性检定获得双倍熟练加值。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Shadow Touched",
+			"name": "影界之触",
+			"source": "UA2020Feats",
+			"page": 3,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "继承",
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"隐形术",
+									{
+										"choose": "level=1|school=I;N"
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"你学会了如何从堕影冥界的体验中操纵幽影。你获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你习得法术{@spell 黑暗术}和一个自选的{@filter 一环法术|spells|level=1|school=I;N}。该{@filter 一环法术|spells|level=1|school=I;N}必须来自幻觉或死灵魔法学派。你可以不消耗法术位施放这些法术。以此法施放其中任一法术后，在完成一次长休前无法再次以此法施放该法术。你也可以使用对应等级的法术位来施放这些法术。这些法术的施法属性是由此专长提升的属性。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Shield Training",
+			"name": "盾牌训练",
+			"source": "UA2020Feats",
+			"page": 3,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"armorProficiencies": [
+				{
+					"shield": true
+				}
+			],
+			"entries": [
+				"你已接受过盾牌的有效使用训练。你获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你获得{@item 盾牌|phb|盾牌}的熟练。",
+						"在战斗中，你可以在回合中自由互动物件来装着或卸除盾牌。",
+						"如果你拥有施法或契约魔法特性，你可以使用盾牌作为法器。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Slasher",
+			"name": "劈砍者",
+			"source": "UA2020Feats",
+			"page": 3,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你已熟知该砍向何处以造成最重的伤害。你获得以下好处：",
+				{
+					"type": "list",
+					"items": [
+						"每回合一次，当你用造成挥砍伤害的攻击命中一个生物时，你可以使其速度降低10尺，直到你的下回合开始。",
+						"当你用造成挥砍伤害的攻击命中一个生物并造成重击时，你将其重伤，使其所作的攻击检定具有劣势，直至你的下回合开始。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Tandem Tactician",
+			"name": "双人战术家",
+			"source": "UA2020Feats",
+			"page": 3,
+			"entries": [
+				"你在战斗中的存在往往会提升你的同伴。你获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你可以将{@action 协助}动作作为附赠动作使用。",
+						"当你使用{@action 协助}动作来帮助盟友攻击一个生物时，将{@action 协助}动作的范围增加10尺。此外，当你以这种方式使用{@action 协助}动作时，你可以帮助两个盟友瞄准范围内的同一个生物。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Tracker",
+			"name": "追迹者",
+			"source": "UA2020Feats",
+			"page": 3,
+			"ability": [
+				{
+					"wis": 1
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "wis",
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									"猎人印记"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"你花费时间狩猎生物并磨练了技能，获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你习得{@spell 猎人印记}法术。你可以施放它一次而不消耗法术位，且你必须完成一次长休后才能再次以这种方式施放它。你也可以使用你拥有的任何法术位来施放该法术。感知是你施放该法术的施法属性。",
+						"你在感知（{@skill 求生}）技能检定上具有优势来追踪生物"
+					]
+				}
+			]
+		}
+	]
+}

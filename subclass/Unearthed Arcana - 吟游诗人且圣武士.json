@@ -1,0 +1,404 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UABardAndPaladin",
+				"abbreviation": "UABAP",
+				"full": "破解奥秘：吟游诗人且圣武士",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2019/dnd/downloads/UA-EloquentHeroics.pdf",
+				"dateReleased": "2019-09-18"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1729637619,
+		"_dateLastModifiedHash": "783a8c95f2"
+	},
+	"subclass": [
+		{
+			"ENG_name": "College of Eloquence (UA)",
+			"name": "雄辩学院（UA）",
+			"shortName": "雄辩 (UA)",
+			"source": "UABardAndPaladin",
+			"className": "吟游诗人",
+			"classSource": "PHB",
+			"page": 1,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"雄辩学院|吟游诗人||雄辩 (UA)|UABardAndPaladin|3",
+				"无可辩驳的逻辑|吟游诗人||雄辩 (UA)|UABardAndPaladin|6",
+				"传播鼓舞|吟游诗人||雄辩 (UA)|UABardAndPaladin|14"
+			]
+		},
+		{
+			"ENG_name": "Oath of Heroism (UA)",
+			"name": "英雄气概之誓（UA）",
+			"shortName": "英雄气概（UA）",
+			"source": "UABardAndPaladin",
+			"className": "圣武士",
+			"classSource": "PHB",
+			"page": 2,
+			"isReprinted": true,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"脚底抹油",
+							"光导箭"
+						],
+						"5": [
+							"强化属性",
+							"注目术"
+						],
+						"9": [
+							"加速术",
+							"防护能量"
+						],
+						"13": [
+							"强迫术",
+							"行动自如"
+						],
+						"17": [
+							"通神术",
+							"万箭齐发"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"英雄气概之誓|圣武士||英雄气概（UA）|UABardAndPaladin|3",
+				"英勇事迹|圣武士||英雄气概（UA）|UABardAndPaladin|7",
+				"辉煌防御|圣武士||英雄气概（UA）|UABardAndPaladin|15",
+				"活体神话|圣武士||英雄气概（UA）|UABardAndPaladin|20"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"ENG_name": "College of Eloquence",
+			"name": "雄辩学院",
+			"source": "UABardAndPaladin",
+			"page": 1,
+			"className": "吟游诗人",
+			"classSource": "PHB",
+			"subclassShortName": "雄辩 (UA)",
+			"subclassSource": "UABardAndPaladin",
+			"level": 3,
+			"entries": [
+				"雄辩学院的追随者精通演说艺术。游说被视为一种高等艺术，且一个理由充分、表达清晰的论点往往比客观事实更具说服力。这些吟游诗人运用逻辑与戏剧性言辞的结合，用逻辑性强的论点赢得怀疑者和批评者的认同，并拨动心弦以打动全场观众的情感。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "统一言说|吟游诗人||雄辩 (UA)|UABardAndPaladin|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "抚慰之词|吟游诗人||雄辩 (UA)|UABardAndPaladin|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Soothing Words",
+			"name": "抚慰之词",
+			"source": "UABardAndPaladin",
+			"page": 1,
+			"className": "吟游诗人",
+			"classSource": "PHB",
+			"subclassShortName": "雄辩 (UA)",
+			"subclassSource": "UABardAndPaladin",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3级雄辩学院特性}",
+				"你现在可以无需消耗法术位施放安定心神。你可以使用此特性的次数等于你的魅力调整值。完成一次长休后，你将恢复此特性的所有已消耗使用次数。"
+			]
+		},
+		{
+			"ENG_name": "Universal Speech",
+			"name": "统一言说",
+			"source": "UABardAndPaladin",
+			"page": 1,
+			"className": "吟游诗人",
+			"classSource": "PHB",
+			"subclassShortName": "雄辩 (UA)",
+			"subclassSource": "UABardAndPaladin",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3级雄辩学院特性}",
+				"你获得了与任何生物交谈且推理的能力。以一个附赠动作，你可以消耗一次诗人激励的使用次数。当你这样做时，掷你的诗人激励骰，并选择等于掷骰数值的60尺内你能看见的生物数量。在10分钟内，选民生物可以魔法般地理解你，无论你说何种语言，且你在影响它们的魅力检定上具有优势。此特性甚至对不会说任何语言的生物也有效。"
+			]
+		},
+		{
+			"ENG_name": "Undeniable Logic",
+			"name": "无可辩驳的逻辑",
+			"source": "UABardAndPaladin",
+			"page": 1,
+			"className": "吟游诗人",
+			"classSource": "PHB",
+			"subclassShortName": "雄辩 (UA)",
+			"subclassSource": "UABardAndPaladin",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 第6级雄辩学院特性}",
+				"你可以将充满魔法的话语编织成一个鼓励性或难以理解的逻辑之结。",
+				"作为一个附赠动作，你可以消耗一次诗人激励的使用次数。当你这样做时，选择一个你能看见且在60尺内能听到你的生物，然后掷你的诗人激励骰并选择以下一项：",
+				{
+					"type": "list",
+					"items": [
+						"该生物受到的心灵伤害等于你在诗人激励骰上掷出的数值，且该生物必须成功通过对抗你法术豁免DC的智力豁免检定，否则在你下个回合结束前进行的下一次豁免检定中具有劣势。",
+						"该生物恢复等同于你在诗人激励骰上掷出的数值的生命值，且该生物在你的下一个回合结束前进行的下一次豁免检定具有优势。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Infectious Inspiration",
+			"name": "传播鼓舞",
+			"source": "UABardAndPaladin",
+			"page": 1,
+			"className": "吟游诗人",
+			"classSource": "PHB",
+			"subclassShortName": "雄辩 (UA)",
+			"subclassSource": "UABardAndPaladin",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"{@i 第14级雄辩学院特性}",
+				"当一个生物将你的一个诗人激励骰子添加到其属性检定、攻击检定或豁免检定且掷骰失败时，该生物可以保留该诗人激励骰子。",
+				"此外，当一个生物将你的诗人激励骰子添加到其属性检定、攻击检定或豁免检定且掷骰成功时，你可以使用你的反应鼓舞一个你能听见且在你60尺内的其他生物（除你自身外），给予其一个诗人激励骰子而不消耗任何你的诗人激励使用次数。你可以使用此反应的次数等于你的魅力调整值（至少一次），且当你完成一次长休时恢复所有已消耗的使用次数。"
+			]
+		},
+		{
+			"ENG_name": "Oath of Heroism",
+			"name": "英雄气概之誓",
+			"source": "UABardAndPaladin",
+			"page": 2,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"subclassShortName": "英雄气概（UA）",
+			"subclassSource": "UABardAndPaladin",
+			"level": 3,
+			"entries": [
+				"英雄气概之誓是对宿命之路的肯定，这条路由神之手为你铺就。无论出于何种原因，一位神或一群神已将你纳入他们的计划中。你不是一个不情愿的英雄，而是一个完全接受伟大事迹将由你完成这一理念的人。你勤奋训练，塑造身体并磨练技能，以便在宿命召唤时做好准备。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "英雄气概教义|圣武士||英雄气概（UA）|UABardAndPaladin|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "圣誓法术|圣武士||英雄气概（UA）|UABardAndPaladin|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "引导神力|圣武士||英雄气概（UA）|UABardAndPaladin|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Channel Divinity",
+			"name": "引导神力",
+			"source": "UABardAndPaladin",
+			"page": 2,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"subclassShortName": "英雄气概（UA）",
+			"subclassSource": "UABardAndPaladin",
+			"level": 3,
+			"header": 1,
+			"consumes": {
+				"ENG_name": "Channel Divinity",
+				"name": "引导神力"
+			},
+			"entries": [
+				"{@i 3级英雄气概之誓特性}",
+				"你获得以下两个引导神力选项。",
+				{
+					"ENG_name": "Peerless Athlete",
+					"name": "绝伦健将",
+					"type": "entries",
+					"entries": [
+						"你可以使用引导神力以神恩增强你的运动能力。作为一个附赠动作，你在接下来的10分钟内对所有力量（{@skill 运动}）和敏捷（{@skill 特技}）检定具有优势。"
+					]
+				},
+				{
+					"ENG_name": "Legendary Strike",
+					"name": "传说打击",
+					"type": "entries",
+					"entries": [
+						"你可以使用引导神力作为附赠动作来引导你的攻击：在1分钟内，你的武器攻击在掷出{@dice d20}的19或20时造成重击。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Oath Spells",
+			"name": "圣誓法术",
+			"source": "UABardAndPaladin",
+			"page": 2,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"subclassShortName": "英雄气概（UA）",
+			"subclassSource": "UABardAndPaladin",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3级英雄气概之誓特性}",
+				"你在圣武士等级表中列出的英雄气概之誓等级获得圣誓法术。",
+				{
+					"type": "table",
+					"caption": "英雄气概之誓法术",
+					"colLabels": [
+						"圣武士等级",
+						"法术"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell 脚底抹油}, {@spell 光导箭}"
+						],
+						[
+							"5th",
+							"{@spell 强化属性}, {@spell 注目术}"
+						],
+						[
+							"9th",
+							"{@spell 加速术}, {@spell 防护能量}"
+						],
+						[
+							"13th",
+							"{@spell 强迫术}, {@spell 行动自如}"
+						],
+						[
+							"17th",
+							"{@spell 通神术}, {@spell 万箭齐发}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Tenets of Heroism",
+			"name": "英雄气概教义",
+			"source": "UABardAndPaladin",
+			"page": 2,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"subclassShortName": "英雄气概（UA）",
+			"subclassSource": "UABardAndPaladin",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"英雄气概之誓的教义反映了圣武士作为值得传颂的英雄履行天职的承诺。",
+				{
+					"ENG_name": "Actions over Words",
+					"name": "行胜于言",
+					"type": "entries",
+					"entries": [
+						"以行践言，而非空谈。"
+					]
+				},
+				{
+					"ENG_name": "Challenges Are but Tests",
+					"name": "无惧挑战",
+					"type": "entries",
+					"entries": [
+						"每一次困苦都是为了挑战你的属性且硬化你的决心。"
+					]
+				},
+				{
+					"ENG_name": "Embrace Destiny",
+					"name": "拥抱宿命",
+					"type": "entries",
+					"entries": [
+						"你并未选择这条路途，但它归你行走。且它将载重你进入传说。"
+					]
+				},
+				{
+					"ENG_name": "Hone the Body",
+					"name": "磨练其身",
+					"type": "entries",
+					"entries": [
+						"犹如原石荒料，潜能只在你的身体得到磨炼时展现。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Mighty Deed",
+			"name": "英勇事迹",
+			"source": "UABardAndPaladin",
+			"page": 2,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"subclassShortName": "英雄气概（UA）",
+			"subclassSource": "UABardAndPaladin",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"{@i 7级英雄气概之誓特性}",
+				"你在战场上的动作可以超自然地鼓舞你的盟友且震慑你的敌人。每当你造成重击或将一个生物的生命值降为0时，你可以选择你能看见的30尺内的一个或多个生物，数量最多等于你的魅力调整值（至少一个生物）。所有选民会受到你选择的以下效应之一影响：",
+				{
+					"type": "list",
+					"items": [
+						"该生物获得等于{@dice 1d6} + 你的魅力调整值的临时生命值（至少1点临时生命值）。",
+						"该生物必须成功通过对抗你法术豁免DC的感知豁免检定，否则将对你处于{@condition 恐慌}状态，直到你的下一个回合开始。"
+					]
+				},
+				"一旦你使用了这个特性，直到你的下一个回合开始前都不能再次使用。"
+			]
+		},
+		{
+			"ENG_name": "Glorious Defense",
+			"name": "辉煌防御",
+			"source": "UABardAndPaladin",
+			"page": 2,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"subclassShortName": "英雄气概（UA）",
+			"subclassSource": "UABardAndPaladin",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"{@i 15级英雄气概之誓特性}",
+				"你在战场上受祝福的荣耀可以转向一次攻击。当一个你能看见的生物用攻击检定命中你时，你可以使用你的反应获得对该攻击的AC加值，可能导致其未命中你。该加值等于你的魅力调整值（至少为+1）。如果攻击未命中，你可以作为该反应的一部分对攻击手进行一次武器攻击。"
+			]
+		},
+		{
+			"ENG_name": "Living Myth",
+			"name": "活体神话",
+			"source": "UABardAndPaladin",
+			"page": 2,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"subclassShortName": "英雄气概（UA）",
+			"subclassSource": "UABardAndPaladin",
+			"level": 20,
+			"header": 2,
+			"entries": [
+				"{@i 20级英雄气概之誓特性}",
+				"你现在可以用关于你伟大事迹的传说\u2014\u2014无论是真实的还是夸张的\u2014\u2014来增强自己。以一个附赠动作，你获得以下增益，持续10分钟：",
+				{
+					"type": "list",
+					"items": [
+						"你受祝福拥有超凡的美丽，在所有魅力检定上获得优势。",
+						"每个你自己的回合一次，当你发动武器攻击但失手，你可以使其改为击中。",
+						"若你豁免检定失败，你可以使用你的反应来改为成功。"
+					]
+				},
+				"必须完成一次长休才能再次使用该特性。"
+			]
+		}
+	]
+}

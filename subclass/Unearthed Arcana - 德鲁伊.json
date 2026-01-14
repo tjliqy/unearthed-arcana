@@ -1,0 +1,543 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UADruid",
+				"abbreviation": "UADrui",
+				"full": "破解奥秘：德鲁伊",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2016/dnd/downloads/UA_Druid11272016_CAWS.pdf",
+				"dateReleased": "2016-11-28"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1732566410,
+		"_dateLastModifiedHash": "1f9eeb1d2d"
+	},
+	"subclass": [
+		{
+			"ENG_name": "Circle of Dreams (UA)",
+			"name": "梦境结社（UA）",
+			"shortName": "梦境（UA）",
+			"source": "UADruid",
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"page": 1,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"梦境结社|{!@ {!@ #UA}}||梦境（UA）|UADruid|2",
+				"月光阴影的炉心|{!@ {!@ #UA}}||梦境（UA）|UADruid|6",
+				"隐匿通途|{!@ {!@ #UA}}||梦境（UA）|UADruid|10",
+				"净化之光|{!@ {!@ #UA}}||梦境（UA）|UADruid|14"
+			]
+		},
+		{
+			"ENG_name": "Circle of the Shepherd (UA)",
+			"name": "牧人结社 (UA)",
+			"shortName": "牧人 (UA)",
+			"source": "UADruid",
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"page": 1,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"牧人结社|{!@ {!@ #UA}}||牧人 (UA)|UADruid|2",
+				"全能牧者|{!@ {!@ #UA}}||牧人 (UA)|UADruid|6",
+				"精魂守卫|{!@ {!@ #UA}}||牧人 (UA)|UADruid|10",
+				"忠诚牧畜|{!@ {!@ #UA}}||牧人 (UA)|UADruid|14"
+			]
+		},
+		{
+			"ENG_name": "Circle of Twilight (UA)",
+			"name": "暮光结社 (UA)",
+			"shortName": "暮光 (UA)",
+			"source": "UADruid",
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"page": 2,
+			"additionalSpells": [
+				{
+					"innate": {
+						"14": {
+							"daily": {
+								"1e": [
+									"以太化"
+								]
+							}
+						}
+					}
+				}
+			],
+			"subclassFeatures": [
+				"暮光之环|{!@ {!@ #UA}}||暮光 (UA)|UADruid|2",
+				"坟墓之外的口语|{!@ {!@ #UA}}||暮光 (UA)|UADruid|6",
+				"阈界守望者|{!@ {!@ #UA}}||暮光 (UA)|UADruid|10",
+				"亡者之路|{!@ {!@ #UA}}||暮光 (UA)|UADruid|14"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"ENG_name": "Circle of Dreams",
+			"name": "梦境结社",
+			"source": "UADruid",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "梦境（UA）",
+			"subclassSource": "UADruid",
+			"level": 2,
+			"entries": [
+				"德鲁伊中梦境结社的成员来自与妖精荒野有紧密联系的区域。德鲁伊对自然世界的守护使他们与善良阵营的精类形成了天然的联盟。这些德鲁伊试图用欢乐与光照填满世界。他们的魔法能治愈伤口并为沮丧的心灵带来喜悦，他们所保护的领域都是闪耀而丰饶之地。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "夏之王庭的芬馥|{!@ {!@ #UA}}||梦境（UA）|UADruid|2"
+				}
+			]
+		},
+		{
+			"ENG_name": "Balm of the Summer Court",
+			"name": "夏之王庭的芬馥",
+			"source": "UADruid",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "梦境（UA）",
+			"subclassSource": "UADruid",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"在2级时，你被夏之王庭的祝福所浸染。你是一个能量洗盆，能为疲惫的双脚带来舒缓且从伤患中回春。你拥有一个妖精能量水池，其数值等于你的德鲁伊等级的{@dice d6}骰子数。",
+				"以一个附赠动作，你可以选择120尺内一个你能看见的盟友并消耗数值等于你德鲁伊等级一半或更少的那些骰子。掷出消耗的骰子并将它们相加。目标恢复等于全部数值的生命值。目标还会获得每消耗一个骰子1点临时生命值，且它的速度每消耗一个骰子提升5尺。该速度提升持续1分钟。",
+				"你完成一次长休后恢复消耗的骰子。"
+			]
+		},
+		{
+			"ENG_name": "Hearth of Moonlight and Shadow",
+			"name": "月光阴影的炉心",
+			"source": "UADruid",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "梦境（UA）",
+			"subclassSource": "UADruid",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"在6级时，家就是你扎营的地方。在短休或长休期间，你可以唤起黄昏林地庭院的阴影之力来保护你的营地免受入侵者侵扰。在休息开始时，你创造一个30尺半径的区域。在此区域内，你和你的盟友在感知（{@skill 察觉}）检定上获得+5加值来侦查生物，且任何来自开放火焰（篝火、火把等）的光照在区域外不可见。这些效应在休息结束或你离开区域时终止。"
+			]
+		},
+		{
+			"ENG_name": "Hidden Paths",
+			"name": "隐匿通途",
+			"source": "UADruid",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "梦境（UA）",
+			"subclassSource": "UADruid",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"在10级时，你可以利用某些妖精用来在眨眼间穿越空间的隐匿、不可预测的魔法通路。在你的回合中，你可以传送至多30尺到一个你能看见的位置。每传送1尺消耗1尺的移动力。",
+				"你也可以使用此特性来传送他人。以一个动作，你可以传送一个你接触到的愿意的盟友至多30尺到一个你能看见的点。",
+				"一旦你使用了任一选项\u2014\u2014传送自己或盟友\u2014\u2014你在{@dice 1d4}回合内无法再次使用该选项。"
+			]
+		},
+		{
+			"ENG_name": "Purifying Light",
+			"name": "净化之光",
+			"source": "UADruid",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "梦境（UA）",
+			"subclassSource": "UADruid",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"在14级时，夏之王庭的恩赐允许你结束妨碍你和盟友的法术。当你使用法术位施放一个法术且它在本回合内为你或盟友恢复生命值时，你可以同时以被治愈的生物为目标施放解除魔法，使用的法术位等级需与施放治疗法术时使用的法术位等级相同。",
+				"你可以使用此特性三次，且完成一次长休后恢复所有使用次数。如果治疗法术的目标超过一个生物，你可以同时对多个生物使用此特性，每个生物消耗一次使用次数。"
+			]
+		},
+		{
+			"ENG_name": "Circle of the Shepherd",
+			"name": "牧人结社",
+			"source": "UADruid",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "牧人 (UA)",
+			"subclassSource": "UADruid",
+			"level": 2,
+			"entries": [
+				"牧人结社的德鲁伊与野兽精魂沟通。虽然这些德鲁伊认识到所有活体在自然世界中都扮演着职能，但他们专注于保护动物。被称为牧人的德鲁伊将野兽视为他们的守护对象。他们驱赶威胁自然生物的怪物，谴责那些猎杀超过必要数量的猎人，并防止文明侵占动物迁徙所需的栖息地和路径。许多这样的德鲁伊在远离城市和城镇的地方最为快乐，满足于与狂野动物为伴度过他们的天。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "精魄牵挂|{!@ {!@ #UA}}||牧人 (UA)|UADruid|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "野兽之语|{!@ {!@ #UA}}||牧人 (UA)|UADruid|2"
+				}
+			]
+		},
+		{
+			"ENG_name": "Beast Speech",
+			"name": "野兽之语",
+			"source": "UADruid",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "牧人 (UA)",
+			"subclassSource": "UADruid",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"在2级时，你获得与野兽交谈的能力。野兽能理解你的口语，且你获得将它们的声音和动作解读为可识别词语和短语的能力。大多数野兽缺乏传达或理解复杂概念的智力，但一只友好的野兽可以转述它在最近过去所见所闻。",
+				"该属性不会赋予你与野兽的任何特殊友谊，尽管你可以将此属性与恩赐和其他好处结合，如同对待任何其他非玩家角色一样来讨好它们。"
+			]
+		},
+		{
+			"ENG_name": "Spirit Bond",
+			"name": "精魄牵挂",
+			"source": "UADruid",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "牧人 (UA)",
+			"subclassSource": "UADruid",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"从2级开始，你获得召唤动物精魂并用它们影响周围世界的能力。以一个附赠动作，你可以魔法般地召唤一个中等精魄到你60尺内可见的一个未占据空间。该精魄在其周围30尺半径内创造一个光环，它不占据空间，无法移动，且既不算作生物也不算作物件。",
+				"精魄持续1分钟。一旦你使用此特性，在完成一次短休或长休前无法再次使用。",
+				"光环的性质取决于你从下方选项中选择召唤的精魄类型。",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Bear",
+							"name": "熊",
+							"type": "entries",
+							"entries": [
+								"熊精魂赋予你及你的盟友力量与忍耐。当精魂出现时，身处光环内的你及盟友各获得5+德鲁伊等级的临时生命值。此外，身处光环内的你及盟友在力量检定和力量豁免上具有优势。"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Hawk",
+							"name": "隼",
+							"type": "entries",
+							"entries": [
+								"隼精魄是一个完美的猎人，用其敏锐视觉标记你的敌人。你和你的盟友对精魄光环内的目标进行远程攻击检定时获得优势。"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Wolf",
+							"name": "狼",
+							"type": "entries",
+							"entries": [
+								"狼之精魄为你和你的盟友提供其精确的感官，同时你的魔法会为你的驮役成员提供增益。你和你的盟友在侦查精魄光环内生物的所有属性检定上获得优势。此外，如果你使用法术位施放一个恢复生命值的法术，无论目标在光环内外，光环内的每个盟友也会恢复等同于你德鲁伊等级的生命值。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Mighty Summoner",
+			"name": "全能牧者",
+			"source": "UADruid",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "牧人 (UA)",
+			"subclassSource": "UADruid",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"在6级时，你获得召唤强大动物的能力。任何由你的法术召唤或创造的野兽获得两项增益。它的生命值上限每生命骰增加2点，且其天生武器的伤害被视为魔法伤害，用于克服对非魔法攻击和伤害的免疫与抗性。"
+			]
+		},
+		{
+			"ENG_name": "Guardian Spirit",
+			"name": "精魂守卫",
+			"source": "UADruid",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "牧人 (UA)",
+			"subclassSource": "UADruid",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"在10级时，你获得一个监视并保护你免受伤害的精魄服务。每当你完成一次长休时，你将获得{@spell 防死结界}法术的增益。该法术的持续时间延长至24小时。"
+			]
+		},
+		{
+			"ENG_name": "Faithful Summons",
+			"name": "忠诚牧畜",
+			"source": "UADruid",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "牧人 (UA)",
+			"subclassSource": "UADruid",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"从14级开始，与你通神的野兽精魂会在你脆弱时保护你。如果你的生命值被缩小到0或你非自愿地陷入{@condition 失能}状态，你可以立即获得{@spell 咒唤兽群}的增益效果，如同使用9环法术位施放。它会召唤四只你选择的挑战等级2或更低的野兽。被召唤的野兽出现在你周围20尺内。如果他们未收到你的命令，他们会保护你免受重伤术且攻击你的敌人。该法术持续1小时。",
+				"必须完成一次长休才能再次使用该特性。"
+			]
+		},
+		{
+			"ENG_name": "Circle of Twilight",
+			"name": "暮光之环",
+			"source": "UADruid",
+			"page": 2,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "暮光 (UA)",
+			"subclassSource": "UADruid",
+			"level": 2,
+			"entries": [
+				"暮光之环致力于消灭亡灵生物并维护支配宇宙的生死自然循环。它们的魔法使它们能够操纵生死之间的界限，将敌人送往最终的安息，同时保护盟友免于那种命运。",
+				"这些德鲁伊寻找被不死生物玷污的土地。这些地方阴森且不祥。曾经生机勃勃的森林变成了阴郁的、闹鬼的地方，没有动物，到处都是慢慢凋零的植物。暮光结社前往这些地方放逐不死生物并起死回生。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "收获巨镰|{!@ {!@ #UA}}||暮光 (UA)|UADruid|2"
+				}
+			]
+		},
+		{
+			"ENG_name": "Harvest's Scythe",
+			"name": "收获巨镰",
+			"source": "UADruid",
+			"page": 2,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "暮光 (UA)",
+			"subclassSource": "UADruid",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"从2级开始，你学会解开且收获其他生物的生命能量。你可以极距你的法术来从生物身上吸取生命力量。你有一个由数值等于你德鲁伊等级的{@dice d10}骰子所代表的能量水池。",
+				"当你为法术掷骰伤害时，你可以通过消耗水池中的骰子来增加伤害。你可以消耗数值等于你德鲁伊等级一半或更少的骰子。掷出消耗的骰子且将它们添加到伤害中作为暗蚀伤害。如果你用这种方式增强的法术杀死了一个或多个敌对生物，你或一个你能看见的30尺内的盟友每消耗一个骰子恢复2点生命值，如果被杀死的生物中至少有一个是亡灵则每骰恢复5点生命值。",
+				"你完成一次长休后恢复消耗的骰子。"
+			]
+		},
+		{
+			"ENG_name": "Speech Beyond the Grave",
+			"name": "坟墓之外的口语",
+			"source": "UADruid",
+			"page": 2,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "暮光 (UA)",
+			"subclassSource": "UADruid",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"在6级时，你获得超越死亡面纱以搜索知识的能力。使用此特性，你可以无需材料成分施放{@spell 死者交谈}，并且你能理解此次施放的目标所说的话。它能理解你的问题，即使你们不共享语言或它不够聪明到能说话。",
+				"你必须完成一次长休或短休后才能再次使用该特性。"
+			]
+		},
+		{
+			"ENG_name": "Watcher at the Threshold",
+			"name": "阈界守望者",
+			"source": "UADruid",
+			"page": 2,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "暮光 (UA)",
+			"subclassSource": "UADruid",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"在10级时，你获得对暗蚀和光耀伤害的抗性。此外，当你未处于{@condition 失能}状态时，任何30尺内的盟友在死亡豁免检定上具有优势。"
+			]
+		},
+		{
+			"ENG_name": "Paths of the Dead",
+			"name": "亡者之路",
+			"source": "UADruid",
+			"page": 2,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "暮光 (UA)",
+			"subclassSource": "UADruid",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"在14级时，你对生死的掌握允许你踏足幽魂和其他精魂使用的路径。使用此特性，你可以施放{@spell 以太化}。一旦该法术结束，直到你完成一次短休或长休前，你无法再次使用此特性施放该法术。"
+			]
+		}
+	],
+	"variantrule": [
+		{
+			"ENG_name": "Wild Shape Forms",
+			"name": "荒野形态",
+			"source": "UADruid",
+			"page": 3,
+			"ruleType": "O",
+			"type": "section",
+			"entries": [
+				"在{@book 玩家手册|PHB}中的{@classFeature 荒野形态|德鲁伊||2}特性允许你变形为你曾见过的野兽。该规则为你提供了极大的灵活性，使你能够轻松为自己积累大量野兽形态选项，前提是你遵守该书中野兽形态表格的限制。",
+				"这里提供的可选规则是为那些希望用一些灵活性换取易用性的玩家和DM设计的。这里的规则还创造了一个清晰的世界内方法来学习新的野兽形态。",
+				{
+					"ENG_name": "Known Beast Shapes",
+					"name": "已知野兽形态",
+					"type": "entries",
+					"entries": [
+						"当你获得2级的{@classFeature 荒野形态|德鲁伊||2}特性时，你对自选的三只野兽非常熟悉并能变形为它们。",
+						"要选择三种野兽形态，你首先需要确定你的德鲁伊是在温带还是热带区域成长，并与你的DM协商。然后参考与你所选区域对应的通用野兽形态表格。该表格列出了你可以根据德鲁伊等级选择的野兽。表格展示了德鲁伊作为新手时最可能见过的动物、通过秘术师研究了解到的动物或具有特殊亲和力的动物。",
+						"每当你后文获得德鲁伊等级时，你可以从你在2级时使用的相同表格中选择一个额外的野兽形态。",
+						{
+							"type": "table",
+							"caption": "通用野兽形态\u2014温带",
+							"colLabels": [
+								"德鲁伊等级 先决",
+								"野兽"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"2nd",
+									"獾、野猪、猫、鹿、驮用马、赤鹿、山羊、豺狗、蜥蜴、獒犬、骡子、黑豹、矮种马、老鼠、乘用马、蝎子、蜘蛛、鼬鼠、狼"
+								],
+								[
+									"4th",
+									"黑熊、蟹、青蛙、章鱼、毒蛇、礁鲨、海马、战马"
+								],
+								[
+									"8th",
+									"蝙蝠、棕熊、*鹰、隼、猫头鹰、渡鸦、秃鹫"
+								]
+							],
+							"footnotes": [
+								"* 月亮结社的成员可以在2级时选择这只野兽。"
+							]
+						},
+						{
+							"type": "table",
+							"caption": "通用野兽形态\u2014热带",
+							"colLabels": [
+								"德鲁伊等级 先决",
+								"野兽"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"2nd",
+									"狒狒、獾、野猪、骆驼、猫、鹿、驮用马、山羊、鬣狗、豺狗、蜥蜴、骡子、黑豹、矮种马、老鼠、乘用马、蝎子、蜘蛛、鼬鼠"
+								],
+								[
+									"4th",
+									"猿,* 蟹, 鳄鱼, 蟒蛇, 青蛙, 章鱼, 毒蛇, 礁鲨, 海马, 战马*"
+								],
+								[
+									"8th",
+									"蝙蝠、鹰、隼、狮子、*猫头鹰、渡鸦、老虎、*秃鹫"
+								]
+							],
+							"footnotes": [
+								"* 月亮结社的成员可以在2级时选择这只野兽。"
+							]
+						},
+						{
+							"ENG_name": "Starting Beast Shapes",
+							"name": "初始野兽形态",
+							"type": "inset",
+							"source": "UADruid",
+							"page": 4,
+							"entries": [
+								"为了在2级时快速开始使用荒野形态，选择以下初始套装之一，每个套装都为你提供战斗、攀爬、隐匿和作为乘骑的选项。",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"ENG_name": "Temperate:",
+											"name": "温带：",
+											"type": "item",
+											"entry": "猫, 赤鹿, 狼"
+										},
+										{
+											"ENG_name": "Tropical:",
+											"name": "热带：",
+											"type": "item",
+											"entry": "黑豹, 乘用马, 蜘蛛"
+										},
+										{
+											"ENG_name": "Temperate (Circle of the Moon):",
+											"name": "温带（月亮结社）：",
+											"type": "item",
+											"entry": "棕熊, 猫, 战马"
+										},
+										{
+											"ENG_name": "Tropical (Circle of the Moon):",
+											"name": "热带（月亮结社）：",
+											"type": "item",
+											"entry": "猿、老虎、战马"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ENG_name": "Gaining Extra Beast Shapes",
+					"name": "获得额外野兽形态",
+					"type": "entries",
+					"entries": [
+						"除了你在升级时免费获得的野兽形态外，你还可以在冒险中获得新的形态。你是否看到了一只恐龙、一只剑齿虎、一只巨鹰或其他一些你想变成的特制生物？这条规则为你提供了一种学习如何做到这一点的方法。它要求你遵守{@classFeature 荒野形态|德鲁伊||2}特性中的限制（参见{@book 玩家手册|PHB}第66页的野兽形态表格）。",
+						"当你看到一只你想学习其形态的野兽时，你有两个选项：",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"ENG_name": "Observation",
+									"name": "观察",
+									"type": "item",
+									"entry": "你在观察野兽行为至少1小时且成功通过一次智力（{@skill 自然}）检定时学会该野兽的形态，检定DC等于10 + 野兽的挑战等级。在此观察期间，你的观察点\u2014\u2014无论是物理还是魔法方式\u2014\u2014必须位于野兽150尺范围内。若你此前花费至少1小时阅读过关于该生物的学术著作，则此次检定具有优势。"
+								},
+								{
+									"ENG_name": "Interaction",
+									"name": "互动",
+									"type": "item",
+									"entry": "你通过与野兽和平互动10分钟且成功通过一个DC等于10+野兽挑战等级的感知（{@skill 驯兽}）检定后学会该野兽的形态。在此互动期间，你必须处于野兽15尺范围内，且如果你至少花费1分钟抚摸它，你在该检定上具有优势。"
+								}
+							]
+						},
+						"这两种方式都可以借助魔法来辅助。例如，预言法术可用于安全地观察危险动物，而像{@spell 化兽为友}这样的法术可以为和平互动奠定基础。"
+					]
+				}
+			]
+		}
+	]
+}

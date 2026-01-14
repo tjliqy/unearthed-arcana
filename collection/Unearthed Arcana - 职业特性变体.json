@@ -1,0 +1,3624 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAClassFeatureVariants",
+				"abbreviation": "UACFV",
+				"full": "破解奥秘：职业特性变体",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf",
+				"dateReleased": "2019-11-04"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1729637619,
+		"_dateLastModifiedHash": "32bba364c6"
+	},
+	"classFeature": [
+		{
+			"ENG_name": "Survival Instincts",
+			"name": "求生本能",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"level": 2,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 2级野蛮人特性（取代危机感应）}",
+				"你从以下技能中选择两项获得熟练项：{@skill 驯兽}、{@skill 医药}、{@skill 自然}、{@skill 察觉}或{@skill 求生}。",
+				"你进行关于所选两项技能的属性检定时，可以加上双倍的熟练加值。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"level": 4,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 4级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Instinctive Pounce",
+			"name": "莽驰",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"level": 5,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 5级野蛮人特性（替代快速移动）}",
+				"当一个生物在你15尺内结束其回合时，你可以使用你的反应移动至多一半速度到一个更靠近该生物的空间。此移动不会引发借机攻击。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 8级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"level": 12,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 12级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"level": 16,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 16级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"level": 19,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 19级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Magical Inspiration",
+			"name": "魔法激励",
+			"source": "UAClassFeatureVariants",
+			"page": 3,
+			"className": "吟游诗人",
+			"classSource": "PHB",
+			"level": 1,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 1级吟游诗人特性（强化诗人激励）}",
+				"如果一个生物拥有你给予的诗人激励骰且施放了一个法术，该生物可以掷该骰并将掷出的数值添加到该法术的一个伤害或治疗骰上。该诗人激励骰随后将迷失。"
+			]
+		},
+		{
+			"ENG_name": "Spell Versatility",
+			"name": "法术多才",
+			"source": "UAClassFeatureVariants",
+			"page": 3,
+			"className": "吟游诗人",
+			"classSource": "PHB",
+			"level": 1,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 1级吟游诗人特性（增强施法）}",
+				"每当你完成一次长休时，你可以将从这个施法特性中学到的一个法术替换为吟游诗人法术列表中的另一个法术。新法术必须与你替换的法术等级相同。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "吟游诗人",
+			"classSource": "PHB",
+			"level": 4,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 4级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "吟游诗人",
+			"classSource": "PHB",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 8级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "吟游诗人",
+			"classSource": "PHB",
+			"level": 12,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 12级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "吟游诗人",
+			"classSource": "PHB",
+			"level": 16,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 16级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "吟游诗人",
+			"classSource": "PHB",
+			"level": 19,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 19级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Cantrip Versatility",
+			"name": "替换戏法",
+			"source": "UAClassFeatureVariants",
+			"page": 3,
+			"className": "牧师",
+			"classSource": "PHB",
+			"level": 1,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 1级牧师特性（增强施法）}",
+				"每当你在该职业升级时，你可以将从这个施法特性中学到的一个戏法替换为牧师法术列表中的另一个戏法。"
+			]
+		},
+		{
+			"ENG_name": "Channel Divinity: Harness Divine Power",
+			"name": "引导神力：神力掌控",
+			"source": "UAClassFeatureVariants",
+			"page": 4,
+			"className": "牧师",
+			"classSource": "PHB",
+			"level": 2,
+			"isClassFeatureVariant": true,
+			"consumes": {
+				"ENG_name": "Channel Divinity",
+				"name": "引导神力"
+			},
+			"entries": [
+				"{@i 2级牧师特性（增强引导神力）}",
+				"你可以消耗一次引导神力使用次数来为你的法术提供燃料。作为一个附赠动作，你接触你的圣徽，念出祷言，且恢复一个已消耗的一环法术位。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "牧师",
+			"classSource": "PHB",
+			"level": 4,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 4级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "牧师",
+			"classSource": "PHB",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 8级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "牧师",
+			"classSource": "PHB",
+			"level": 12,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 12级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "牧师",
+			"classSource": "PHB",
+			"level": 16,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 16级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "牧师",
+			"classSource": "PHB",
+			"level": 19,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 19级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Cantrip Versatility",
+			"name": "替换戏法",
+			"source": "UAClassFeatureVariants",
+			"page": 4,
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"level": 1,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 1级德鲁伊特性（增强施法）}",
+				"每当你在该职业升级时，你可以将你从该施法特性中学到的一个戏法替换为德鲁伊法术列表中的另一个戏法。"
+			]
+		},
+		{
+			"ENG_name": "Wild Companion",
+			"name": "荒野伙伴",
+			"source": "UAClassFeatureVariants",
+			"page": 4,
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"level": 2,
+			"isClassFeatureVariant": true,
+			"consumes": {
+				"ENG_name": "Wild Shape",
+				"name": "荒野形态"
+			},
+			"entries": [
+				"{@i 2级德鲁伊特性（增强荒野形态）}",
+				"你获得召唤呈现动物形态的精魂的能力，以一个动作，你能够消耗一次荒野变形使用次数来施放一次无需材料的{@spell 寻获魔宠}法术。",
+				"当你以此方法施放该法术时，魔宠的类型是精类而不是野兽，魔宠会在等同于你德鲁伊等级一半的小时数后消失。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"level": 4,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 4级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 8级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"level": 12,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 12级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"level": 16,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 16级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"level": 19,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 19级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Maneuver Versatility",
+			"name": "战技多变",
+			"source": "UAClassFeatureVariants",
+			"page": 5,
+			"className": "战士",
+			"classSource": "PHB",
+			"level": 1,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 1级特性（增强战技）}",
+				"若你知晓战士战斗大师范型的任何战技，你可以在完成一次长休时将已知的一个战技替换为另一个不同的战技。此变化反映了你为即将到来的白昼所做的身心预备。"
+			]
+		},
+		{
+			"ENG_name": "Martial Versatility",
+			"name": "替换武术",
+			"source": "UAClassFeatureVariants",
+			"page": 12,
+			"className": "战士",
+			"classSource": "PHB",
+			"level": 1,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 1级特性（增强战斗风格）}",
+				"每当你在该职业升级时，你可以将一个已知的战斗风格替换为你的职业可用的另一个风格。这种变化代表你在战争训练和实践中的专注转移，导致你失去一个风格的增益且获得另一个风格的增益。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "战士",
+			"classSource": "PHB",
+			"level": 4,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 4级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "战士",
+			"classSource": "PHB",
+			"level": 6,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 6级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "战士",
+			"classSource": "PHB",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 8级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "战士",
+			"classSource": "PHB",
+			"level": 12,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 12级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "战士",
+			"classSource": "PHB",
+			"level": 14,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 14级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "战士",
+			"classSource": "PHB",
+			"level": 16,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 16级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "战士",
+			"classSource": "PHB",
+			"level": 19,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 19级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Monk Weapons",
+			"name": "武僧武器",
+			"source": "UAClassFeatureVariants",
+			"page": 6,
+			"className": "武僧",
+			"classSource": "PHB",
+			"level": 1,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 1级武僧特性（增强武艺）}",
+				"你可以使用此特性来定义你的武僧武器，而非使用武艺中的定义。",
+				"你使用特别选定的武器练习武艺，这些武器将成为你的武僧武器。你可以选择数量等于5 + 你的感知调整值（至少五件武器）的武器作为你的武僧武器。选定的武器必须各自满足以下条件：",
+				{
+					"type": "list",
+					"items": [
+						"该武器必须是一个{@filter 简易或军用武器|items|source=phb|category=基础|type=军用武器;简易武器|property=!重型;!双手;!特殊}。",
+						"你必须擅长该武器。",
+						"该武器必须缺少以下词条：重型、特殊或双手。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Ki Features",
+			"name": "气特性",
+			"source": "UAClassFeatureVariants",
+			"page": 6,
+			"className": "武僧",
+			"classSource": "PHB",
+			"level": 2,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 2级武僧特性（强化气）}",
+				"当你获得2级的真气特性时，你将获得以下特性。",
+				{
+					"ENG_name": "Distant Eye",
+					"name": "遥远之眼",
+					"type": "entries",
+					"entries": [
+						"当你进行远程武器攻击时，你可以消耗1点气来防止在远距离攻击时对你的攻击检定施加劣势，直到当前回合结束。"
+					]
+				},
+				{
+					"ENG_name": "Quickened Healing",
+					"name": "加速愈合",
+					"type": "entries",
+					"entries": [
+						"作为一个动作，你可以消耗2气点且掷一次武艺骰。你恢复等同于掷骰数值的生命值。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Ki-Fueled Strike",
+			"name": "气力打击",
+			"source": "UAClassFeatureVariants",
+			"page": 6,
+			"className": "武僧",
+			"classSource": "PHB",
+			"level": 2,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 2级武僧特性（强化气）}",
+				"如果你在你的回合中作为动作的一部分消耗1点或更多气，你可以立即以一个附赠动作进行一次徒手打击。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "武僧",
+			"classSource": "PHB",
+			"level": 4,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 4级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "武僧",
+			"classSource": "PHB",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 8级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "武僧",
+			"classSource": "PHB",
+			"level": 12,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 12级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "武僧",
+			"classSource": "PHB",
+			"level": 16,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 16级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "武僧",
+			"classSource": "PHB",
+			"level": 19,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 19级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Martial Versatility",
+			"name": "替换武术",
+			"source": "UAClassFeatureVariants",
+			"page": 12,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"level": 2,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 2级特性（增强战斗风格）}",
+				"每当你在该职业升级时，你可以将一个已知的战斗风格替换为你的职业可用的另一个风格。这种变化代表你在战争训练和实践中的专注转移，导致你失去一个风格的增益且获得另一个风格的增益。"
+			]
+		},
+		{
+			"ENG_name": "Channel Divinity: Harness Divine Power",
+			"name": "引导神力：神力掌控",
+			"source": "UAClassFeatureVariants",
+			"page": 6,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"level": 3,
+			"isClassFeatureVariant": true,
+			"consumes": {
+				"ENG_name": "Channel Divinity",
+				"name": "引导神力"
+			},
+			"entries": [
+				"{@i 3级圣武士特性（强化引导神力）}",
+				"你可以消耗一次引导神力使用次数来为你的法术提供燃料。作为一个附赠动作，你接触你的圣徽，念出祷言，且恢复一个已消耗的一环法术位。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"level": 4,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 4级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 8级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"level": 12,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 12级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"level": 16,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 16级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "圣武士",
+			"classSource": "PHB",
+			"level": 19,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 19级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Canny",
+			"name": "精明",
+			"source": "UAClassFeatureVariants",
+			"page": 7,
+			"className": "游侠",
+			"classSource": "PHB",
+			"level": 1,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"选择一项技能：{@skill 驯兽}、{@skill 运动}、{@skill 历史}、{@skill 洞悉}、{@skill 调查}、{@skill 医药}、{@skill 自然}、{@skill 察觉}、{@skill 隐匿}或{@skill 求生}。若你尚未获得该技能的熟练项，则获得之，且你可以将双倍的熟练加值添加到使用该技能的属性检定上。",
+				"此外，得益于你广泛的游历，你能够说、读且写两种你选择的语言。"
+			]
+		},
+		{
+			"ENG_name": "Deft Explorer",
+			"name": "熟练探险家",
+			"source": "UAClassFeatureVariants",
+			"page": 7,
+			"className": "游侠",
+			"classSource": "PHB",
+			"level": 1,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 1级游侠特性（替代自然探索者）}",
+				"你是一位无与伦比的探险家且生还者。选择下列一项增益，然后在6级和10级时选择另一项。",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refClassFeature",
+							"classFeature": "精明|游侠|PHB|1|UAClassFeatureVariants"
+						},
+						{
+							"type": "refClassFeature",
+							"classFeature": "越野|游侠|PHB|1|UAClassFeatureVariants"
+						},
+						{
+							"type": "refClassFeature",
+							"classFeature": "不知疲倦|游侠|PHB|1|UAClassFeatureVariants"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Favored Foe",
+			"name": "夙敌",
+			"source": "UAClassFeatureVariants",
+			"page": 7,
+			"className": "游侠",
+			"classSource": "PHB",
+			"level": 1,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 1级游侠特性（替代宿敌）}",
+				"你可以呼唤与自然的牵挂来标记一个生物作为你的夙敌一段时间：你知晓{@spell 猎人印记}法术，且感知是你使用它的施法属性。你可以不消耗法术位且不需要{@status 专注}地使用它一定次数\u2014\u2014次数等于你的感知调整值（至少一次）。你完成一次长休后恢复所有已消耗的使用次数。",
+				"当你获得2级的施法特性时，猎人印记不计入你所知的游侠法术数量。"
+			]
+		},
+		{
+			"ENG_name": "Roving",
+			"name": "越野",
+			"source": "UAClassFeatureVariants",
+			"page": 7,
+			"className": "游侠",
+			"classSource": "PHB",
+			"level": 1,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"你的步行速度增加5。同时，你获得等于你步行速度的攀爬速度和游泳速度。"
+			]
+		},
+		{
+			"ENG_name": "Tireless",
+			"name": "不知疲倦",
+			"source": "UAClassFeatureVariants",
+			"page": 7,
+			"className": "游侠",
+			"classSource": "PHB",
+			"level": 1,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"作为一个动作，你可以给予自己等于{@dice 1d10} + 你的感知调整值的临时生命值。你可以使用这个特殊动作的次数等于你的感知调整值（至少一次），且你在完成一次长休后恢复所有已消耗的使用次数。",
+				"此外，当你完成一次短休时，你的{@condition 力竭}等级减少1级（若有）。"
+			]
+		},
+		{
+			"ENG_name": "Martial Versatility",
+			"name": "替换武术",
+			"source": "UAClassFeatureVariants",
+			"page": 12,
+			"className": "游侠",
+			"classSource": "PHB",
+			"level": 2,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 2级特性（增强战斗风格）}",
+				"每当你在该职业升级时，你可以将一个已知的战斗风格替换为你的职业可用的另一个风格。这种变化代表你在战争训练和实践中的专注转移，导致你失去一个风格的增益且获得另一个风格的增益。"
+			]
+		},
+		{
+			"ENG_name": "Spell Versatility",
+			"name": "法术多才",
+			"source": "UAClassFeatureVariants",
+			"page": 8,
+			"className": "游侠",
+			"classSource": "PHB",
+			"level": 2,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 2级游侠特性（增强施法）}",
+				"每当你完成一次长休时，你可以将从这个施法特性中学到的一个法术替换为游侠法术列表中的另一个法术。新法术必须与你替换的法术等级相同。"
+			]
+		},
+		{
+			"ENG_name": "Spellcasting Focus",
+			"name": "法器",
+			"source": "UAClassFeatureVariants",
+			"page": 8,
+			"className": "游侠",
+			"classSource": "PHB",
+			"level": 2,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 2级游侠特性（增强施法）}",
+				"你可以使用一个{@item 德鲁伊法器|PHB}作为你游侠法术的法器。请参阅玩家手册第五章\"装备\"中关于德鲁伊法器的列表。"
+			]
+		},
+		{
+			"ENG_name": "Primal Awareness",
+			"name": "原始意识",
+			"source": "UAClassFeatureVariants",
+			"page": 8,
+			"className": "游侠",
+			"classSource": "PHB",
+			"level": 3,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 3级游侠特性（取代原初意识）}",
+				"你可以通过与自然的共鸣而集中你的意识:若你尚未习得下方表格种的法术，那么你在抵达对应等级时学会下方原始意识法术表格中的法术。这些法术不占用你的游侠已知法术。",
+				{
+					"type": "table",
+					"caption": "原始意识法术",
+					"colLabels": [
+						"游侠等级",
+						"法术"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell 侦测魔法}, {@spell 动物交谈}"
+						],
+						[
+							"5th",
+							"{@spell 野兽感官}, {@spell 动植物定位术}"
+						],
+						[
+							"9th",
+							"{@spell 植物交谈}"
+						],
+						[
+							"13th",
+							"{@spell 生物定位术}"
+						],
+						[
+							"17th",
+							"{@spell 问道自然}"
+						]
+					]
+				},
+				"你可以不消耗法术位的施展这些法术每个一次。一旦你用这种方式施展了那个法术，直到你完成一次长休前你都不能再次以此施展它。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "游侠",
+			"classSource": "PHB",
+			"level": 4,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 4级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "游侠",
+			"classSource": "PHB",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 8级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Fade Away",
+			"name": "匿影无踪",
+			"source": "UAClassFeatureVariants",
+			"page": 8,
+			"className": "游侠",
+			"classSource": "PHB",
+			"level": 10,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 10级游侠特性（替代蔽于平野）}",
+				"你可以使用一个附赠动作魔法般地变为{@condition 隐形}，连同你所穿戴或携带的任何装备，直到你的下一个回合开始。",
+				"你必须完成一次长休或短休后才能再次使用该特性。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "游侠",
+			"classSource": "PHB",
+			"level": 12,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 12级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "游侠",
+			"classSource": "PHB",
+			"level": 16,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 16级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "游侠",
+			"classSource": "PHB",
+			"level": 19,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 19级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Cunning Action: Aim",
+			"name": "灵巧动作：瞄准",
+			"source": "UAClassFeatureVariants",
+			"page": 9,
+			"className": "游荡者",
+			"classSource": "PHB",
+			"level": 2,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 2级游荡者特性（增强灵巧动作）}",
+				"你获得使用灵巧动作的额外方式：仔细瞄准你的下一次攻击。以一个附赠动作，你在当前回合的下一次攻击检定中获得优势。你只能在本回合未移动的情况下使用此附赠动作，且在你使用此附赠动作后，你的速度变为0直到当前回合结束。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "游荡者",
+			"classSource": "PHB",
+			"level": 4,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 4级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "游荡者",
+			"classSource": "PHB",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 8级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "游荡者",
+			"classSource": "PHB",
+			"level": 10,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 10级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "游荡者",
+			"classSource": "PHB",
+			"level": 12,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 12级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "游荡者",
+			"classSource": "PHB",
+			"level": 16,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 16级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "游荡者",
+			"classSource": "PHB",
+			"level": 19,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 19级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Spell Versatility",
+			"name": "法术多才",
+			"source": "UAClassFeatureVariants",
+			"page": 10,
+			"className": "术士",
+			"classSource": "PHB",
+			"level": 1,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 1级术士特性（增强施法）}",
+				"每当你完成一次长休时，你可以将从这个施法特性中学到的一个法术替换为术士法术列表中的另一个法术。新法术必须与你替换的法术等级相同。"
+			]
+		},
+		{
+			"ENG_name": "Font of Magic Options",
+			"name": "魔力泉涌选项",
+			"source": "UAClassFeatureVariants",
+			"page": 10,
+			"className": "术士",
+			"classSource": "PHB",
+			"level": 2,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 2级术士特性（增强魔力泉涌）}",
+				"当你获得魔力泉涌特性时，你将获得以下消耗术法点的方式。",
+				{
+					"type": "refClassFeature",
+					"classFeature": "能量储备|术士|UAClassFeatureVariants|2"
+				},
+				{
+					"type": "refClassFeature",
+					"classFeature": "注入接触|术士|UAClassFeatureVariants|2"
+				},
+				{
+					"type": "refClassFeature",
+					"classFeature": "术士坚韧|术士|UAClassFeatureVariants|2"
+				}
+			]
+		},
+		{
+			"ENG_name": "Metamagic Options",
+			"name": "超魔法选项",
+			"source": "UAClassFeatureVariants",
+			"page": 10,
+			"className": "术士",
+			"classSource": "PHB",
+			"level": 3,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 3级术士特性（增强超魔法）}",
+				"当你选择超魔法选项时，你能够选择以下额外的超魔法选项。",
+				{
+					"type": "options",
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "元素法术|UAClassFeatureVariants"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "追踪法术|UAClassFeatureVariants"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "绝不偏航法术|UAClassFeatureVariants"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "术士",
+			"classSource": "PHB",
+			"level": 4,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 4级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "术士",
+			"classSource": "PHB",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 8级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "术士",
+			"classSource": "PHB",
+			"level": 12,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 12级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "术士",
+			"classSource": "PHB",
+			"level": 16,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 16级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "术士",
+			"classSource": "PHB",
+			"level": 19,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 19级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Spell Versatility",
+			"name": "法术多才",
+			"source": "UAClassFeatureVariants",
+			"page": 10,
+			"className": "魔契师",
+			"classSource": "PHB",
+			"level": 1,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 1级魔契师特性（强化契约魔法）}",
+				"每当你完成一次长休时，你可以将从这个契约魔法特性中学到的一个法术替换为魔契师法术列表中的另一个法术。新法术必须与你替换的法术等级相同。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "魔契师",
+			"classSource": "PHB",
+			"level": 4,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 4级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "魔契师",
+			"classSource": "PHB",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 8级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "魔契师",
+			"classSource": "PHB",
+			"level": 12,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 12级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "魔契师",
+			"classSource": "PHB",
+			"level": 16,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 16级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "魔契师",
+			"classSource": "PHB",
+			"level": 19,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 19级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Cantrip Versatility",
+			"name": "替换戏法",
+			"source": "UAClassFeatureVariants",
+			"page": 12,
+			"className": "法师",
+			"classSource": "PHB",
+			"level": 1,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 1级法师特性（增强施法）}",
+				"每当你在该职业升级时，你可以将你从该施法特性中学到的一个戏法替换为法师法术列表中的另一个戏法。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "法师",
+			"classSource": "PHB",
+			"level": 4,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 4级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "法师",
+			"classSource": "PHB",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 8级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "法师",
+			"classSource": "PHB",
+			"level": 12,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 12级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "法师",
+			"classSource": "PHB",
+			"level": 16,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 16级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "法师",
+			"classSource": "PHB",
+			"level": 19,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 19级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "奇械师",
+			"classSource": "TCE",
+			"level": 4,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 4级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "奇械师",
+			"classSource": "TCE",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 8级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "奇械师",
+			"classSource": "TCE",
+			"level": 12,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 12级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "奇械师",
+			"classSource": "TCE",
+			"level": 16,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 16级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "奇械师",
+			"classSource": "TCE",
+			"level": 19,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 19级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "奇械师",
+			"classSource": "UAArtificer",
+			"level": 4,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 4级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "奇械师",
+			"classSource": "UAArtificer",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 8级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "奇械师",
+			"classSource": "UAArtificer",
+			"level": 12,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 12级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "奇械师",
+			"classSource": "UAArtificer",
+			"level": 16,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 16级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "奇械师",
+			"classSource": "UAArtificer",
+			"level": 18,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 18级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "奇械师（重置版）",
+			"classSource": "UAArtificerRevisited",
+			"level": 4,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 4级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "奇械师（重置版）",
+			"classSource": "UAArtificerRevisited",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 8级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "奇械师（重置版）",
+			"classSource": "UAArtificerRevisited",
+			"level": 12,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 12级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "奇械师（重置版）",
+			"classSource": "UAArtificerRevisited",
+			"level": 16,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 16级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "奇械师（重置版）",
+			"classSource": "UAArtificerRevisited",
+			"level": 19,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 19级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Empowering Reserves",
+			"name": "能量储备",
+			"source": "UAClassFeatureVariants",
+			"page": 10,
+			"className": "术士",
+			"classSource": "UAClassFeatureVariants",
+			"level": 2,
+			"isClassFeatureVariant": true,
+			"consumes": {
+				"ENG_name": "Sorcery Point",
+				"name": "术法点",
+				"amount": 2
+			},
+			"entries": [
+				"当你在你的回合进行属性检定时，你可以消耗2点术法点来获得该检定的优势。"
+			]
+		},
+		{
+			"ENG_name": "Imbuing Touch",
+			"name": "注入接触",
+			"source": "UAClassFeatureVariants",
+			"page": 10,
+			"className": "术士",
+			"classSource": "UAClassFeatureVariants",
+			"level": 2,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"作为一个动作，你可以接触一件非魔法武器并消耗2点术法点来为其注入魔法，持续1分钟。在此期间，该武器被视为魔法武器，用于克服对非魔法攻击的免疫和抗性。"
+			]
+		},
+		{
+			"ENG_name": "Sorcerous Fortitude",
+			"name": "术士坚韧",
+			"source": "UAClassFeatureVariants",
+			"page": 10,
+			"className": "术士",
+			"classSource": "UAClassFeatureVariants",
+			"level": 2,
+			"isClassFeatureVariant": true,
+			"consumes": {
+				"ENG_name": "Sorcery Point",
+				"name": "术法点"
+			},
+			"entries": [
+				"以一个动作，你可以消耗任意数值的术法点来为每点消耗掷骰一个{@dice d4}。你获得等同于全部掷骰结果的临时生命值。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "专家协力者",
+			"classSource": "UASidekicks",
+			"level": 4,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 4级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "专家协力者",
+			"classSource": "UASidekicks",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 8级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "专家协力者",
+			"classSource": "UASidekicks",
+			"level": 10,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 10级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "专家协力者",
+			"classSource": "UASidekicks",
+			"level": 12,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 12级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "专家协力者",
+			"classSource": "UASidekicks",
+			"level": 14,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 14级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "专家协力者",
+			"classSource": "UASidekicks",
+			"level": 16,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 16级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "专家协力者",
+			"classSource": "UASidekicks",
+			"level": 19,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 19级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "施法者协力者",
+			"classSource": "UASidekicks",
+			"level": 4,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 4级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "施法者协力者",
+			"classSource": "UASidekicks",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 8级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "施法者协力者",
+			"classSource": "UASidekicks",
+			"level": 12,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 12级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "施法者协力者",
+			"classSource": "UASidekicks",
+			"level": 16,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 16级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "施法者协力者",
+			"classSource": "UASidekicks",
+			"level": 18,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 18级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "武者协力者",
+			"classSource": "UASidekicks",
+			"level": 4,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 4级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "武者协力者",
+			"classSource": "UASidekicks",
+			"level": 6,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 6级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "武者协力者",
+			"classSource": "UASidekicks",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 8级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "武者协力者",
+			"classSource": "UASidekicks",
+			"level": 12,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 12级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "武者协力者",
+			"classSource": "UASidekicks",
+			"level": 14,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 14级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "武者协力者",
+			"classSource": "UASidekicks",
+			"level": 16,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 16级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "武者协力者",
+			"classSource": "UASidekicks",
+			"level": 19,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 19级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "秘术师",
+			"classSource": "UATheMysticClass",
+			"level": 4,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 4级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "秘术师",
+			"classSource": "UATheMysticClass",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 8级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "秘术师",
+			"classSource": "UATheMysticClass",
+			"level": 12,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 12级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "秘术师",
+			"classSource": "UATheMysticClass",
+			"level": 16,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 16级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		},
+		{
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "秘术师",
+			"classSource": "UATheMysticClass",
+			"level": 19,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 19级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
+			]
+		}
+	],
+	"foundryClassFeature": [
+		{
+			"ENG_name": "Metamagic Options",
+			"name": "超魔法选项",
+			"source": "UAClassFeatureVariants",
+			"className": "术士",
+			"classSource": "PHB",
+			"level": 3,
+			"isIgnored": true
+		}
+	],
+	"subclassFeature": [
+		{
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
+			"source": "UAClassFeatureVariants",
+			"page": 4,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "死亡",
+			"subclassSource": "DMG",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8级牧师领域特性（取代神圣打击）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
+			]
+		},
+		{
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
+			"source": "UAClassFeatureVariants",
+			"page": 4,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "了解",
+			"subclassSource": "PHB",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8级牧师领域特性（取代强力施法）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
+			]
+		},
+		{
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
+			"source": "UAClassFeatureVariants",
+			"page": 4,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "生命",
+			"subclassSource": "PHB",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8级牧师领域特性（取代神圣打击）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
+			]
+		},
+		{
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
+			"source": "UAClassFeatureVariants",
+			"page": 4,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "光亮术",
+			"subclassSource": "PHB",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8级牧师领域特性（取代强力施法）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
+			]
+		},
+		{
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
+			"source": "UAClassFeatureVariants",
+			"page": 4,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "自然",
+			"subclassSource": "PHB",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8级牧师领域特性（取代神圣打击）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
+			]
+		},
+		{
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
+			"source": "UAClassFeatureVariants",
+			"page": 4,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "风暴",
+			"subclassSource": "PHB",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8级牧师领域特性（取代神圣打击）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
+			]
+		},
+		{
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
+			"source": "UAClassFeatureVariants",
+			"page": 4,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "诡术",
+			"subclassSource": "PHB",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8级牧师领域特性（取代神圣打击）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
+			]
+		},
+		{
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
+			"source": "UAClassFeatureVariants",
+			"page": 4,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "战争",
+			"subclassSource": "PHB",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8级牧师领域特性（取代神圣打击）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
+			]
+		},
+		{
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
+			"source": "UAClassFeatureVariants",
+			"page": 4,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "野心(PSA)",
+			"subclassSource": "PSA",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8级牧师领域特性（取代强力施法）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
+			]
+		},
+		{
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
+			"source": "UAClassFeatureVariants",
+			"page": 4,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "团结(PSA)",
+			"subclassSource": "PSA",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8级牧师领域特性（取代神圣打击）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
+			]
+		},
+		{
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
+			"source": "UAClassFeatureVariants",
+			"page": 4,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "力量(PSA)",
+			"subclassSource": "PSA",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8级牧师领域特性（取代神圣打击）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
+			]
+		},
+		{
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
+			"source": "UAClassFeatureVariants",
+			"page": 4,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "热忱(PSA)",
+			"subclassSource": "PSA",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8级牧师领域特性（取代神圣打击）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
+			]
+		},
+		{
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
+			"source": "UAClassFeatureVariants",
+			"page": 4,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "奥秘",
+			"subclassSource": "SCAG",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8级牧师领域特性（取代强力施法）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
+			]
+		},
+		{
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
+			"source": "UAClassFeatureVariants",
+			"page": 31,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "秩序",
+			"subclassSource": "TCE",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8级牧师领域特性（取代神圣打击）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
+			]
+		},
+		{
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
+			"source": "UAClassFeatureVariants",
+			"page": 4,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "嘲笑 (UA)",
+			"subclassSource": "UA2020SubclassesPt2",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8级牧师领域特性（取代强力施法）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
+			]
+		},
+		{
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
+			"source": "UAClassFeatureVariants",
+			"page": 4,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "团结（UA）",
+			"subclassSource": "UA2020SubclassesPt2",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8级牧师领域特性（取代强力施法）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
+			]
+		},
+		{
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
+			"source": "UAClassFeatureVariants",
+			"page": 4,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "命运（UA）",
+			"subclassSource": "UA2022WondersOfTheMultiverse",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8级牧师领域特性（取代强力施法）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
+			]
+		},
+		{
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
+			"source": "UAClassFeatureVariants",
+			"page": 4,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "锻造（UA）",
+			"subclassSource": "UAClericDivineDomains",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8级牧师领域特性（取代神圣打击）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
+			]
+		},
+		{
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
+			"source": "UAClassFeatureVariants",
+			"page": 4,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "坟墓 (UA)",
+			"subclassSource": "UAClericDivineDomains",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8级牧师领域特性（取代神圣打击）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
+			]
+		},
+		{
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
+			"source": "UAClassFeatureVariants",
+			"page": 4,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "守护 (UA)",
+			"subclassSource": "UAClericDivineDomains",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8级牧师领域特性（取代神圣打击）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
+			]
+		},
+		{
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
+			"source": "UAClassFeatureVariants",
+			"page": 4,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "暮光 (UA)",
+			"subclassSource": "UAClericDruidWizard",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8级牧师领域特性（取代神圣打击）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
+			]
+		},
+		{
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
+			"source": "UAClassFeatureVariants",
+			"page": 4,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "城市（UA）",
+			"subclassSource": "UAModernMagic",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8级牧师领域特性（取代神圣打击）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
+			]
+		},
+		{
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
+			"source": "UAClassFeatureVariants",
+			"page": 4,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "秩序 (UA)",
+			"subclassSource": "UAOrderDomain",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8级牧师领域特性（取代神圣打击）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
+			]
+		},
+		{
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
+			"source": "UAClassFeatureVariants",
+			"page": 4,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "锻造",
+			"subclassSource": "XGE",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8级牧师领域特性（取代神圣打击）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
+			]
+		},
+		{
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
+			"source": "UAClassFeatureVariants",
+			"page": 4,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "坟墓",
+			"subclassSource": "XGE",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8级牧师领域特性（取代强力施法）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
+			]
+		},
+		{
+			"ENG_name": "Maneuver Options",
+			"name": "战技选项",
+			"source": "UAClassFeatureVariants",
+			"page": 5,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "战斗大师",
+			"subclassSource": "PHB",
+			"level": 3,
+			"isClassFeatureVariant": true,
+			"header": 1,
+			"entries": [
+				"{@i 1级特性（增强战技）}",
+				"如果你可以使用战技，以下战技将被添加到你可选的列表中。战技可供战斗大师和拥有{@optfeature 卓越技巧|TCE}战斗风格或{@feat 战技专家}专长的角色使用。",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "options",
+							"entries": [
+								{
+									"type": "refOptionalfeature",
+									"optionalfeature": "伏击|UAClassFeatureVariants"
+								},
+								{
+									"type": "refOptionalfeature",
+									"optionalfeature": "换位诈术|UAClassFeatureVariants"
+								},
+								{
+									"type": "refOptionalfeature",
+									"optionalfeature": "警戒|UAClassFeatureVariants"
+								},
+								{
+									"type": "refOptionalfeature",
+									"optionalfeature": "束缚打击|UAClassFeatureVariants"
+								},
+								{
+									"type": "refOptionalfeature",
+									"optionalfeature": "巧舌如簧|UAClassFeatureVariants"
+								},
+								{
+									"type": "refOptionalfeature",
+									"optionalfeature": "狙击|UAClassFeatureVariants"
+								},
+								{
+									"type": "refOptionalfeature",
+									"optionalfeature": "专注之眼|UAClassFeatureVariants"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Ranger Companion Options",
+			"name": "游侠同伴选项",
+			"source": "UAClassFeatureVariants",
+			"page": 8,
+			"className": "游侠",
+			"classSource": "PHB",
+			"subclassShortName": "驯兽师",
+			"subclassSource": "PHB",
+			"level": 3,
+			"isClassFeatureVariant": true,
+			"header": 1,
+			"entries": [
+				"{@i 3级驯兽师特性（增强游侠伴侣）}",
+				"游侠在荒野中漫游时会遇到许多种类的动物，其中一些可能会与游侠成为朋友。这种友谊可能源于成功使用{@skill 驯兽}技能或{@spell 化兽为友}法术。如果由此产生的牵挂足够强烈，该动物可能会加入游侠的冒险。",
+				"拥有驯兽师原型的游侠可以形成更强大的牵挂，感觉几乎像是动物的兄弟姐妹。一种特殊的生物类型在荒野中等待着驯兽师，这种生物的祖先血统可以追溯到世界之初：一种被称为{@creature 风之野兽|UAClassFeatureVariants}或{@creature 土之野兽|UAClassFeatureVariants}的原始猛兽。这样的生物寻求驯兽师所提供的陪伴，预备它们二者共同对抗自然界的不平衡。",
+				"原始猛兽是一种特殊生物，驯兽师可以选择它作为游侠伴侣特性。选择这种生物时，你需要决定它是风之野兽还是土之野兽，并确定它的外貌。故事中描述的原始猛兽会神秘地改变形态以与其同伴的精魄保持一致。",
+				"当原始猛兽与驯兽师分开时，该生物会变成一只挑战等级1/4或更低的普通野兽，具体由DM决定。"
+			]
+		}
+	],
+	"foundrySubclassFeature": [
+		{
+			"ENG_name": "Maneuver Options",
+			"name": "战技选项",
+			"source": "UAClassFeatureVariants",
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "战斗大师",
+			"subclassSource": "PHB",
+			"level": 3,
+			"isIgnored": true
+		}
+	],
+	"optionalfeature": [
+		{
+			"ENG_name": "Ambush",
+			"name": "伏击",
+			"source": "UAClassFeatureVariants",
+			"page": 5,
+			"isClassFeatureVariant": true,
+			"featureType": [
+				"MV:B"
+			],
+			"consumes": {
+				"ENG_name": "Superiority Die",
+				"name": "卓越骰"
+			},
+			"entries": [
+				"当你进行一次敏捷（{@skill 隐匿}）检定或先攻掷骰时，你可以消耗一个卓越骰并将该骰子添加到掷骰中。"
+			]
+		},
+		{
+			"ENG_name": "Bait and Switch",
+			"name": "换位诈术",
+			"source": "UAClassFeatureVariants",
+			"page": 5,
+			"isClassFeatureVariant": true,
+			"featureType": [
+				"MV:B"
+			],
+			"consumes": {
+				"ENG_name": "Superiority Die",
+				"name": "卓越骰"
+			},
+			"entries": [
+				"当你在你的回合内位于一个盟友5尺范围内时，你可以消耗一个卓越骰且与该盟友交换位置，前提是你消耗至少5尺移动力。此移动不会引发借机攻击。",
+				"掷卓越骰。直到你的下个回合开始，该盟友获得等同于掷骰数值的AC加值。"
+			]
+		},
+		{
+			"ENG_name": "Blessed Warrior",
+			"name": "受祝福的勇士",
+			"source": "UAClassFeatureVariants",
+			"page": 6,
+			"isClassFeatureVariant": true,
+			"featureType": [
+				"FS:P"
+			],
+			"additionalSpells": [
+				{
+					"ability": "cha",
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=牧师",
+								"count": 2
+							}
+						]
+					}
+				}
+			],
+			"entries": [
+				"从{@filter 牧师法术列表|spells|level=0|class=牧师}中选择两种戏法。你习得这些作为圣武士法术的戏法，这些戏法的施法属性是魅力。当你提升此职业的等级时，你能够将一个已知戏法替换为牧师法术列表中的另一个戏法。"
+			]
+		},
+		{
+			"ENG_name": "Blind Fighting",
+			"name": "盲斗",
+			"source": "UAClassFeatureVariants",
+			"page": 12,
+			"isClassFeatureVariant": true,
+			"featureType": [
+				"FS:F",
+				"FS:P",
+				"FS:R"
+			],
+			"entries": [
+				"无法看见一个生物不会使你对它的攻击检定处于劣势，前提是该生物没有对你隐藏。"
+			]
+		},
+		{
+			"ENG_name": "Bond of the Talisman",
+			"name": "护符牵绊",
+			"source": "UAClassFeatureVariants",
+			"page": 11,
+			"isClassFeatureVariant": true,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 12,
+						"class": {
+							"ENG_name": "Warlock",
+							"name": "魔契师"
+						}
+					},
+					"pact": "符之魔契"
+				}
+			],
+			"entries": [
+				"当其他生物佩戴你的符之魔契时，你可以使用你的动作传送到距离它们最近的未占据空间，前提是你们二者处于同一存在平面。符之魔契的佩戴者也可以做同样的事，使用它们的动作传送到你身边。"
+			]
+		},
+		{
+			"ENG_name": "Brace",
+			"name": "警戒",
+			"source": "UAClassFeatureVariants",
+			"page": 5,
+			"isClassFeatureVariant": true,
+			"featureType": [
+				"MV:B"
+			],
+			"consumes": {
+				"ENG_name": "Superiority Die",
+				"name": "卓越骰"
+			},
+			"entries": [
+				"当你能看见的敌人移动至你5尺内时，你可以使用你的反应消耗一个卓越骰并对该生物进行一次武器攻击。若攻击命中，将卓越骰添加到攻击的伤害掷骰上。"
+			]
+		},
+		{
+			"ENG_name": "Chain Master's Fury",
+			"name": "链之魔契大师的狂怒",
+			"source": "UAClassFeatureVariants",
+			"page": 11,
+			"isClassFeatureVariant": true,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"ENG_name": "Warlock",
+							"name": "魔契师"
+						}
+					},
+					"pact": "链之魔契"
+				}
+			],
+			"entries": [
+				"以一个附赠动作，你可以命令你的魔宠进行一次攻击。"
+			]
+		},
+		{
+			"ENG_name": "Druidic Warrior",
+			"name": "德鲁伊教战士",
+			"source": "UAClassFeatureVariants",
+			"page": 7,
+			"isClassFeatureVariant": true,
+			"featureType": [
+				"FS:R"
+			],
+			"additionalSpells": [
+				{
+					"ability": "wis",
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=德鲁伊",
+								"count": 2
+							}
+						]
+					}
+				}
+			],
+			"entries": [
+				"你从{@filter 德鲁伊法术列表|spells|level=0|class=德鲁伊}中选择两道戏法。它们对你而言视为德鲁伊法术，且感知是你的施法属性。每当你在此职业中升级时，你可以将这些戏法中的一道替换为德鲁伊法术列表中的另一道戏法。"
+			]
+		},
+		{
+			"ENG_name": "Eldritch Armor",
+			"name": "邪术护甲",
+			"source": "UAClassFeatureVariants",
+			"page": 11,
+			"isClassFeatureVariant": true,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"pact": "刃之魔契"
+				}
+			],
+			"entries": [
+				"以一个动作，你可以接触一件未被任何人穿着或携带的盔甲套装并立即装着它，前提是你当前未穿着护甲。你对该盔甲套装熟练直到它被移除。"
+			]
+		},
+		{
+			"ENG_name": "Eldritch Mind",
+			"name": "魔能意志",
+			"source": "UAClassFeatureVariants",
+			"page": 11,
+			"isClassFeatureVariant": true,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"pact": "书之魔契"
+				}
+			],
+			"entries": [
+				"你为保持法术的{@status 专注}所进行的体质豁免具有优势。"
+			]
+		},
+		{
+			"ENG_name": "Elemental Spell",
+			"name": "元素法术",
+			"source": "UAClassFeatureVariants",
+			"page": 10,
+			"isClassFeatureVariant": true,
+			"featureType": [
+				"MM"
+			],
+			"consumes": {
+				"ENG_name": "Sorcery Point",
+				"name": "术法点"
+			},
+			"entries": [
+				"当你施放一个造成以下列表中一种伤害类型的法术时，你可以消耗1点术法点将该伤害类型更改为列表中其他类型之一：强酸、寒冷、火焰、闪电、雷鸣。"
+			]
+		},
+		{
+			"ENG_name": "Far Scribe",
+			"name": "遥远音讯",
+			"source": "UAClassFeatureVariants",
+			"page": 11,
+			"isClassFeatureVariant": true,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"ENG_name": "Warlock",
+							"name": "魔契师"
+						}
+					},
+					"pact": "书之魔契"
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": [
+							"短讯术"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你的幽影之书中出现了一页新的内容。在你的允许下，一个生物可以用它的动作在那页上写下它的名字，该页可以容纳的名字数量等于你的魅力调整值（至少为1）。",
+				"你可以以一个名字在这一页上的生物为目标，施展法术{@spell 短讯术}，无需法术位与法术的材料成分。不过，你必须将传讯写在这一页上来施展它。目标将在他们的意识中听到这个传讯，且如果目标回复了传讯，他们的回复将会出现在书页上而不是在你的意识中。这些文字会在一分钟后消失。",
+				"作为一个动作，你可以通过触摸页面上的名称来魔法般地擦除该名称。"
+			]
+		},
+		{
+			"ENG_name": "Gift of the Protectors",
+			"name": "守护馈赠",
+			"source": "UAClassFeatureVariants",
+			"page": 11,
+			"isClassFeatureVariant": true,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"ENG_name": "Warlock",
+							"name": "魔契师"
+						}
+					},
+					"pact": "书之魔契"
+				}
+			],
+			"entries": [
+				"你的幽影之书中出现了一页新的内容。在你的允许下，一个生物可以用它的动作在那页上写下它的名字，该页可以容纳的名字数量等于你的魅力调整值（至少为1）。",
+				"当一个名字在这一页上的生物生命值降为0，但是没有立刻死亡时，这个生物的生命值魔法性的变为1点。当这个魔法效应被触发后，该效应无法再被任何生物触发，直到你完成一次长休。",
+				"作为一个动作，你可以通过触摸页面上的名称来魔法般地擦除该名称。"
+			]
+		},
+		{
+			"ENG_name": "Interception",
+			"name": "拦截",
+			"source": "UAClassFeatureVariants",
+			"page": 12,
+			"isClassFeatureVariant": true,
+			"featureType": [
+				"FS:F",
+				"FS:P",
+				"FS:R"
+			],
+			"entries": [
+				"当你看见的一个生物以攻击命中你5尺内的一个目标时，你可以使用你的反应来缩小目标受到的伤害，减少量为{@dice 1d10} + 你的熟练加值（最小为0伤害）。你必须持用一面盾牌或一件{@filter 简易或军用武器|items|source=phb|category=基础|type=军用武器;简易武器}才能使用此反应。"
+			]
+		},
+		{
+			"ENG_name": "Investment of the Chain Master",
+			"name": "链主赋能",
+			"source": "UAClassFeatureVariants",
+			"page": 11,
+			"isClassFeatureVariant": true,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"pact": "链之魔契"
+				}
+			],
+			"entries": [
+				"当你施放寻获魔宠时，你会将一部分魔能之力注入召唤的魔宠中，赋予该生物以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"该魔宠获得40尺的飞行速度、或40尺的游泳速度（由你选择）。",
+						"该魔宠不再需要呼吸。",
+						"该魔宠的武器攻击被视为魔法性的，用于克服对于非魔法攻击的免疫和抗性。",
+						"若该魔宠强迫一个生物进行豁免检定，它使用你的法术豁免DC。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Pact of the Talisman",
+			"name": "符之魔契",
+			"source": "UAClassFeatureVariants",
+			"page": 11,
+			"isClassFeatureVariant": true,
+			"featureType": [
+				"PB"
+			],
+			"entries": [
+				"你的雇主给予你一个特殊的护符，一个能在危急时刻援助你或其他佩戴者的符之魔契。当佩戴者进行一项他们不熟练的技能的属性检定时，他们可以添加一个{@dice d4}到掷骰中。",
+				"如果你丢失了符之魔契，你可以进行一个1小时的典礼术从你的雇主处获得一个替代品。这个典礼术可以在短休或长休期间进行，且它会摧毁先前的护符。",
+				"符之魔契会在你死亡时化为灰烬。"
+			]
+		},
+		{
+			"ENG_name": "Protection of the Talisman",
+			"name": "护符庇佑",
+			"source": "UAClassFeatureVariants",
+			"page": 12,
+			"isClassFeatureVariant": true,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"ENG_name": "Warlock",
+							"name": "魔契师"
+						}
+					},
+					"pact": "符之魔契"
+				}
+			],
+			"entries": [
+				"当你护符的佩戴者进行一项他们不熟练的豁免检定时，他们可以添加一个{@dice d4}到掷骰中。"
+			]
+		},
+		{
+			"ENG_name": "Rebuke of the Talisman",
+			"name": "符令责斥",
+			"source": "UAClassFeatureVariants",
+			"page": 12,
+			"isClassFeatureVariant": true,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"pact": "符之魔契"
+				}
+			],
+			"entries": [
+				"当你的符之魔契佩戴者被一个你能看见且位于你30尺内的攻击手命中时，你可以使用你的反应对该攻击手造成等同于你魅力调整值（至少1点伤害）的心灵伤害且将其推离符之魔契佩戴者至多10尺。"
+			]
+		},
+		{
+			"ENG_name": "Restraining Strike",
+			"name": "束缚打击",
+			"source": "UAClassFeatureVariants",
+			"page": 5,
+			"isClassFeatureVariant": true,
+			"featureType": [
+				"MV:B"
+			],
+			"consumes": {
+				"ENG_name": "Superiority Die",
+				"name": "卓越骰"
+			},
+			"entries": [
+				"在你回合内以近战武器攻击命中一个生物后，你可以消耗一个卓越骰并使用附赠动作擒抱目标（擒抱规则详见《玩家手册》第九章）。将该卓越骰添加到你的力量（{@skill 运动}）检定中。目标以此方式被{@condition 受擒}时还会处于{@condition 束缚}状态。"
+			]
+		},
+		{
+			"ENG_name": "Seeking Spell",
+			"name": "追踪法术",
+			"source": "UAClassFeatureVariants",
+			"page": 10,
+			"isClassFeatureVariant": true,
+			"featureType": [
+				"MM"
+			],
+			"consumes": {
+				"ENG_name": "Sorcery Point",
+				"name": "术法点"
+			},
+			"entries": [
+				"当你施放一个需要你进行法术攻击掷骰或迫使目标进行敏捷豁免检定的法术时，你可以消耗1点术法点来忽略该法术目标所受的一半且四分之三掩护效应。"
+			]
+		},
+		{
+			"ENG_name": "Silver Tongue",
+			"name": "巧舌如簧",
+			"source": "UAClassFeatureVariants",
+			"page": 5,
+			"isClassFeatureVariant": true,
+			"featureType": [
+				"MV:B"
+			],
+			"consumes": {
+				"ENG_name": "Superiority Die",
+				"name": "卓越骰"
+			},
+			"entries": [
+				"当你进行一次魅力（{@skill 欺瞒}）检定或魅力（{@skill 游说}）检定时，你可以消耗一个卓越骰，并将卓越骰添加到属性检定上。"
+			]
+		},
+		{
+			"ENG_name": "Snipe",
+			"name": "狙击",
+			"source": "UAClassFeatureVariants",
+			"page": 5,
+			"isClassFeatureVariant": true,
+			"featureType": [
+				"MV:B"
+			],
+			"consumes": {
+				"ENG_name": "Superiority Die",
+				"name": "卓越骰"
+			},
+			"entries": [
+				"作为附赠动作，你可以消耗一个卓越骰并进行一次远程武器攻击。你可以在此次攻击中抽取一把投掷武器作为创造攻击的一部分。若命中，将卓越骰添加到攻击的伤害掷骰中。"
+			]
+		},
+		{
+			"ENG_name": "Studious Eye",
+			"name": "专注之眼",
+			"source": "UAClassFeatureVariants",
+			"page": 5,
+			"isClassFeatureVariant": true,
+			"featureType": [
+				"MV:B"
+			],
+			"consumes": {
+				"ENG_name": "Superiority Die",
+				"name": "卓越骰"
+			},
+			"entries": [
+				"当你进行一次感知（{@skill 洞悉}）检定或智力（{@skill 调查}）检定时，你可以消耗一个卓越骰，并将卓越骰添加到属性检定中。"
+			]
+		},
+		{
+			"ENG_name": "Superior Technique",
+			"name": "卓越技巧",
+			"source": "UAClassFeatureVariants",
+			"page": 5,
+			"isClassFeatureVariant": true,
+			"featureType": [
+				"FS:F"
+			],
+			"optionalfeatureProgression": [
+				{
+					"ENG_name": "Maneuvers",
+					"name": "战技",
+					"featureType": [
+						"MV:B"
+					],
+					"progression": {
+						"*": 1
+					}
+				}
+			],
+			"entries": [
+				"你从战斗大师原型可用的战技中选择学习一个{@filter 战技|optionalfeatures|feature type=MV:B}。如果你使用的战技需要目标进行豁免检定以抵抗战技的效应，则豁免检定DC等于8 + 你的熟练加值 + 你的力量或敏捷调整值（任选其一）。",
+				"你获得一枚{@dice d6}的卓越骰（或在你以任何其他方式获得的卓越骰池中增加一颗卓越骰）。此卓越骰可用于启动你的战技。此卓越骰一经使用即消耗，并在完成短休或长休后恢复。"
+			]
+		},
+		{
+			"ENG_name": "Thrown Weapon Fighting",
+			"name": "投掷武器战斗",
+			"source": "UAClassFeatureVariants",
+			"page": 13,
+			"isClassFeatureVariant": true,
+			"featureType": [
+				"FS:F",
+				"FS:P",
+				"FS:R"
+			],
+			"entries": [
+				"你可以在使用一件带有投掷属性武器进行攻击时，将那件武器作为攻击的一部分而拔出。",
+				"此外，当你使用投掷武器命中远程攻击时，你的伤害掷骰获得+1加值。"
+			]
+		},
+		{
+			"ENG_name": "Unarmed Fighting",
+			"name": "徒手战斗",
+			"source": "UAClassFeatureVariants",
+			"page": 13,
+			"isClassFeatureVariant": true,
+			"featureType": [
+				"FS:F",
+				"FS:P",
+				"FS:R"
+			],
+			"entries": [
+				"你的徒手打击可以造成等于{@damage 1d6} + 你的力量调整值的钝击伤害。如果你用两只自由手进行打击，则{@damage d6}变为{@damage d8}。",
+				"当你成功开始擒抱时，你可以对{@condition 受擒}的生物造成{@damage 1d4}钝击伤害。直到擒抱结束，你还可以在每次用近战攻击命中该生物时造成此伤害。"
+			]
+		},
+		{
+			"ENG_name": "Unerring Spell",
+			"name": "绝不偏航法术",
+			"source": "UAClassFeatureVariants",
+			"page": 10,
+			"isClassFeatureVariant": true,
+			"featureType": [
+				"MM"
+			],
+			"consumes": {
+				"ENG_name": "Sorcery Point",
+				"name": "术法点",
+				"amount": 2
+			},
+			"entries": [
+				"如果你为一个法术进行攻击检定且未命中，你可以花费2点术法点来重掷攻击检定。你必须使用第二次掷骰的结果。",
+				"你可以使用绝不偏航法术，即使你在施放该法术时已经使用了不同的超魔法选项。"
+			]
+		}
+	],
+	"spellList": [
+		{
+			"ENG_name": "Bard",
+			"name": "吟游诗人",
+			"source": "UAClassFeatureVariants",
+			"spellListType": "变体职业",
+			"className": "吟游诗人",
+			"classSource": "PHB",
+			"spells": [
+				"援助术|PHB",
+				"嫌恶术/关怀术|PHB",
+				"七彩喷射|PHB",
+				"命令术|PHB",
+				"异界探知|PHB",
+				"变巨/缩小术|PHB",
+				"英雄宴|PHB",
+				"群体治愈真言|PHB",
+				"迷宫术|PHB",
+				"镜影术|PHB",
+				"魅影杀手|PHB",
+				"虹光喷射|PHB",
+				"虹光法墙|PHB",
+				"拉瑞心灵联结|PHB",
+				"缓慢术|PHB",
+				"造成恐惧|XGE",
+				"精神监狱|XGE",
+				"心灵尖刺|XGE",
+				"律令痛苦|XGE",
+				"散射术|XGE",
+				"谭森变形术|XGE",
+				"迷你仆役|XGE"
+			]
+		},
+		{
+			"ENG_name": "Cleric",
+			"name": "牧师",
+			"source": "UAClassFeatureVariants",
+			"spellListType": "变体职业",
+			"className": "牧师",
+			"classSource": "PHB",
+			"spells": [
+				"生命灵光|PHB",
+				"净化灵光|PHB",
+				"活力灵光|PHB",
+				"印记斩|PHB",
+				"律令医疗|PHB",
+				"激愤斩|PHB",
+				"造成恐惧|XGE",
+				"授予技能|XGE",
+				"光墙术|XGE"
+			]
+		},
+		{
+			"ENG_name": "Druid",
+			"name": "德鲁伊",
+			"source": "UAClassFeatureVariants",
+			"spellListType": "变体职业",
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"spells": [
+				"酸液飞溅|PHB",
+				"卜筮术|PHB",
+				"活力灵光|PHB",
+				"寒冰锥|PHB",
+				"不灭明焰|PHB",
+				"预言术|PHB",
+				"元素武器|PHB",
+				"变巨/缩小术|PHB",
+				"火焰护盾|PHB",
+				"石化术|PHB",
+				"焚云术|PHB",
+				"律令医疗|PHB",
+				"防护善恶|PHB",
+				"回生术|PHB",
+				"徽记术|PHB",
+				"典礼术|XGE",
+				"拂晓|XGE",
+				"焚烧术|XGE",
+				"群体变形术|XGE",
+				"雷霆步|XGE",
+				"沙墙术|XGE"
+			]
+		},
+		{
+			"ENG_name": "Paladin",
+			"name": "圣武士",
+			"source": "UAClassFeatureVariants",
+			"spellListType": "变体职业",
+			"className": "圣武士",
+			"classSource": "PHB",
+			"spells": [
+				"焰击术|PHB",
+				"遗体防腐|PHB",
+				"治疗祷言|PHB",
+				"灵体卫士|PHB",
+				"守护之链|PHB",
+				"拂晓|XGE",
+				"生命转换|XGE"
+			]
+		},
+		{
+			"ENG_name": "Ranger",
+			"name": "游侠",
+			"source": "UAClassFeatureVariants",
+			"spellListType": "变体职业",
+			"className": "游侠",
+			"classSource": "PHB",
+			"spells": [
+				"援助术|PHB",
+				"启蒙术|PHB",
+				"致盲斩|PHB",
+				"防死结界|PHB",
+				"支配野兽|PHB",
+				"强化属性|PHB",
+				"纠缠术|PHB",
+				"高等复原术|PHB",
+				"造风术|PHB",
+				"魔化武器|PHB",
+				"融身入石|PHB",
+				"回生术|PHB",
+				"炽焰斩|PHB",
+				"巧言术|PHB",
+				"守护之链|PHB"
+			]
+		},
+		{
+			"ENG_name": "Sorcerer",
+			"name": "术士",
+			"source": "UAClassFeatureVariants",
+			"spellListType": "变体职业",
+			"className": "术士",
+			"classSource": "PHB",
+			"spells": [
+				"半位面|PHB",
+				"火焰护盾|PHB",
+				"火焰刀|PHB",
+				"炽焰法球|PHB",
+				"石化术|PHB",
+				"预见术|PHB",
+				"油腻术|PHB",
+				"防护善恶|PHB",
+				"吸血鬼之触|PHB",
+				"原初蛮击|XGE"
+			]
+		},
+		{
+			"ENG_name": "Warlock",
+			"name": "魔契师",
+			"source": "UAClassFeatureVariants",
+			"spellListType": "变体职业",
+			"className": "魔契师",
+			"classSource": "PHB",
+			"spells": [
+				"活化死尸|PHB",
+				"异界之门|PHB",
+				"敲击术|PHB",
+				"魔魂壶|PHB",
+				"假象术|PHB",
+				"篡改记忆|PHB",
+				"异界誓缚|PHB",
+				"投影术|PHB",
+				"形体变化|PHB",
+				"传送法阵|PHB",
+				"雷鸣波|PHB",
+				"怪影杀手|PHB",
+				"亚比达奇凋死术|XGE",
+				"创造人工生命体|XGE",
+				"生命转换|XGE"
+			]
+		},
+		{
+			"ENG_name": "Wizard",
+			"name": "法师",
+			"source": "UAClassFeatureVariants",
+			"spellListType": "变体职业",
+			"className": "法师",
+			"classSource": "PHB",
+			"spells": [
+				"卜筮术|PHB",
+				"预言术|PHB",
+				"强化属性|PHB",
+				"死者交谈|PHB"
+			]
+		}
+	],
+	"monster": [
+		{
+			"ENG_name": "Beast of the Air",
+			"name": "风之野兽",
+			"source": "UAClassFeatureVariants",
+			"page": 8,
+			"summonedByClass": "游侠|PHB",
+			"size": [
+				"S"
+			],
+			"type": "beast",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"special": "等于野兽的体质调整值 + 你的感知调整值 + 你的游侠等级的五倍（野兽的生命骰数量等于你的游侠等级）"
+			},
+			"speed": {
+				"walk": 10,
+				"fly": 60
+			},
+			"str": 6,
+			"dex": 16,
+			"con": 13,
+			"int": 8,
+			"wis": 14,
+			"cha": 11,
+			"save": {
+				"dex": "+5",
+				"con": "+3",
+				"wis": "+4"
+			},
+			"skill": {
+				"perception": "+4",
+				"stealth": "+5"
+			},
+			"senses": [
+				"黑暗视觉 60 尺"
+			],
+			"passive": 14,
+			"languages": [
+				"理解你所说的语言"
+			],
+			"trait": [
+				{
+					"ENG_name": "Flyby",
+					"name": "飞掠",
+					"entries": [
+						"野兽以飞行离开敌人的触及范围时不会引发对方的借机攻击。"
+					]
+				},
+				{
+					"ENG_name": "Primal Rebirth",
+					"name": "原始重生",
+					"entries": [
+						"如果野兽死亡不超过一小时，你能使用你的动作触碰它，并消耗一个一环或更高的法术位使它复活。它会在一分钟后死而复生并获得所有生命值。"
+					]
+				},
+				{
+					"ENG_name": "Ready Companion",
+					"name": "忠诚伙伴",
+					"entries": [
+						"作为bonus action，你可以命令这只野兽进行撕扯攻击或者使用隐匿。"
+					]
+				}
+			],
+			"action": [
+				{
+					"ENG_name": "Shred",
+					"name": "撕扯",
+					"entries": [
+						"{@atk mw} {@hit 5} 攻击，触及范围 5 英尺，一个目标。{@h}{@damage 1d6 + 3} 挥砍伤害。"
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/UAClassFeatureVariants/tokens/Beast of the Air.webp"
+			},
+			"traitTags": [
+				"飞掠"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"ENG_name": "Beast of the Earth",
+			"name": "土之野兽",
+			"source": "UAClassFeatureVariants",
+			"page": 9,
+			"summonedByClass": "游侠|PHB",
+			"size": [
+				"M"
+			],
+			"type": "beast",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"special": "等于该魔兽的体质调整值加上你感知调整值加上你的游侠等级的五倍（该魔兽的生命骰数量[d8]等于你的游侠等级）"
+			},
+			"speed": {
+				"walk": 40,
+				"choose": {
+					"from": [
+						"攀爬",
+						"游泳"
+					],
+					"amount": 40,
+					"note": "（当你与野兽建立联系时由你选择）"
+				}
+			},
+			"str": 14,
+			"dex": 14,
+			"con": 15,
+			"int": 8,
+			"wis": 14,
+			"cha": 11,
+			"save": {
+				"dex": "+4",
+				"con": "+4",
+				"wis": "+4"
+			},
+			"skill": {
+				"perception": "+4",
+				"stealth": "+4"
+			},
+			"senses": [
+				"黑暗视觉 60 尺"
+			],
+			"passive": 14,
+			"languages": [
+				"理解你所说的语言"
+			],
+			"trait": [
+				{
+					"ENG_name": "Charge",
+					"name": "冲锋",
+					"entries": [
+						"如果该生物在同一回合内至少直线移动20英尺朝向一个目标，然后使用钉头锤攻击击中该目标，目标将额外受到{@dice 1d6}点挥砍伤害。该豁免难度等于你的法术豁免DC。如果目标是一个生物，它必须通过一次力量豁免对抗你的法术豁免DC，否则会被击倒{@condition 倒地}。"
+					]
+				},
+				{
+					"ENG_name": "Primal Rebirth",
+					"name": "原始重生",
+					"entries": [
+						"如果野兽死亡不超过一小时，你能使用你的动作触碰它，并消耗一个一环或更高的法术位使它复活。它会在一分钟后死而复生并获得所有生命值。"
+					]
+				},
+				{
+					"ENG_name": "Ready Companion",
+					"name": "忠诚伙伴",
+					"entries": [
+						"作为附赠动作，你可以命令这只魔兽进行其钉头锤攻击或进行隐藏。"
+					]
+				}
+			],
+			"action": [
+				{
+					"ENG_name": "Maul",
+					"name": "巨锤",
+					"entries": [
+						"{@atk mw} 命中{@hit 4}，触及5尺，单一目标。{@h}{@damage 1d6 + 2} 挥砍伤害。"
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/UAClassFeatureVariants/tokens/Beast of the Earth.webp"
+			},
+			"attachedItems": [
+				"巨锤|PHB"
+			],
+			"traitTags": [
+				"冲锋"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"conditionInflict": [
+				"倒地"
+			]
+		}
+	]
+}

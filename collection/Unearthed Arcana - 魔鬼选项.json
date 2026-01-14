@@ -1,0 +1,1065 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAFiendishOptions",
+				"abbreviation": "UAFO",
+				"full": "破解奥秘：恶魔选项",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2017/dnd/downloads/UA_FiendishOptions.pdf",
+				"dateReleased": "2017-10-09"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1758308491,
+		"_dateLastModifiedHash": "7af1209c15"
+	},
+	"subrace": [
+		{
+			"ENG_name": "Asmodeus",
+			"name": "阿斯蒙蒂斯",
+			"source": "UAFiendishOptions",
+			"raceName": "提夫林",
+			"raceSource": "PHB",
+			"page": 1,
+			"reprintedAs": [
+				"提夫林 (阿斯蒙蒂斯)|MTF"
+			]
+		},
+		{
+			"ENG_name": "Baalzebul",
+			"name": "巴尔泽布",
+			"source": "UAFiendishOptions",
+			"raceName": "提夫林",
+			"raceSource": "PHB",
+			"page": 1,
+			"reprintedAs": [
+				"提夫林 (巴尔泽布)|MTF"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"致病射线#2"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"疯狂冠冕"
+								]
+							}
+						}
+					},
+					"ability": "cha",
+					"known": {
+						"1": [
+							"奇术#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Legacy of Maladomini",
+					"name": "马拉多米尼之遗赠",
+					"entries": [
+						"你知晓{@spell 奇术}戏法。当你达到3级时，你可以通过此特性施放一次{@spell 致病射线}作为2环法术，并在完成一次长休后恢复该能力。当你达到5级时，你可以通过此特性施放一次{@spell 疯狂冠冕}法术，并在完成一次长休后恢复该能力。魅力是你施放这些法术的施法属性。"
+					],
+					"type": "entries",
+					"data": {
+						"overwrite": "地狱遗赠"
+					}
+				}
+			]
+		},
+		{
+			"ENG_name": "Dispater",
+			"name": "迪斯帕特",
+			"source": "UAFiendishOptions",
+			"raceName": "提夫林",
+			"raceSource": "PHB",
+			"page": 1,
+			"reprintedAs": [
+				"提夫林 (迪斯帕特)|MTF"
+			],
+			"ability": [
+				{
+					"cha": 2,
+					"dex": 1
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"易容术"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"隐形术"
+								]
+							}
+						}
+					},
+					"ability": "cha",
+					"known": {
+						"1": [
+							"奇术#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Legacy of Dis",
+					"name": "迪斯之遗赠",
+					"entries": [
+						"你知晓{@spell 奇术}戏法。当你达到3级时，你可以利用此特质施放{@spell 易容术}法术一次，并在完成一次长休后恢复该能力。当你达到5级时，你可以利用此特质施放{@spell 隐形术}法术一次，并在完成一次长休后恢复该能力。魅力是你施放这些法术的施法属性。"
+					],
+					"type": "entries",
+					"data": {
+						"overwrite": "地狱遗赠"
+					}
+				}
+			],
+			"overwrite": {
+				"ability": true
+			}
+		},
+		{
+			"ENG_name": "Fierna",
+			"name": "菲尔娜",
+			"source": "UAFiendishOptions",
+			"raceName": "提夫林",
+			"raceSource": "PHB",
+			"page": 1,
+			"reprintedAs": [
+				"提夫林 (菲尔娜)|MTF"
+			],
+			"ability": [
+				{
+					"cha": 2,
+					"wis": 1
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"魅惑类人#2"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"暗示术"
+								]
+							}
+						}
+					},
+					"ability": "cha",
+					"known": {
+						"1": [
+							"交友术#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Legacy of Phlegethos",
+					"name": "弗莱格索斯之遗赠",
+					"entries": [
+						"你知晓{@spell 交友术}戏法。当你达到3级时，你可以通过此特性施放一次{@spell 魅惑类人}作为2环法术，并在完成一次长休后恢复该能力。当你达到5级时，你可以通过此特性施放一次{@spell 暗示术}法术，并在完成一次长休后恢复该能力。魅力是这些法术的施法属性。"
+					],
+					"type": "entries",
+					"data": {
+						"overwrite": "地狱遗赠"
+					}
+				}
+			],
+			"overwrite": {
+				"ability": true
+			}
+		},
+		{
+			"ENG_name": "Glasya",
+			"name": "格莱西亚",
+			"source": "UAFiendishOptions",
+			"raceName": "提夫林",
+			"raceSource": "PHB",
+			"page": 2,
+			"reprintedAs": [
+				"提夫林 (格莱西亚)|MTF"
+			],
+			"ability": [
+				{
+					"cha": 2,
+					"dex": 1
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"易容术"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"隐形术"
+								]
+							}
+						}
+					},
+					"ability": "cha",
+					"known": {
+						"1": [
+							"次级幻象#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Legacy of Malbolge",
+					"name": "马尔伯吉之遗赠",
+					"entries": [
+						"你知晓{@spell 次级幻象}戏法。当你达到3级时，你可以通过此特性施放{@spell 易容术}法术一次，并在完成一次长休后恢复该能力。当你达到5级时，你可以通过此特性施放{@spell 隐形术}法术一次，并在完成一次长休后恢复该能力。魅力是你施放这些法术的施法属性。"
+					],
+					"type": "entries",
+					"data": {
+						"overwrite": "地狱遗赠"
+					}
+				}
+			],
+			"overwrite": {
+				"ability": true
+			}
+		},
+		{
+			"ENG_name": "Levistus",
+			"name": "莱维斯图斯",
+			"source": "UAFiendishOptions",
+			"raceName": "提夫林",
+			"raceSource": "PHB",
+			"page": 2,
+			"reprintedAs": [
+				"提夫林 (莱维斯图斯)|MTF"
+			],
+			"ability": [
+				{
+					"cha": 2,
+					"con": 1
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"黯冰狱铠#2"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"黑暗术"
+								]
+							}
+						}
+					},
+					"ability": "cha",
+					"known": {
+						"1": [
+							"冷冻射线#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Legacy of Stygia",
+					"name": "斯泰吉亚之遗赠",
+					"entries": [
+						"你知晓{@spell 冷冻射线}戏法。当你达到3级时，你可以通过此特性施放一次{@spell 黯冰狱铠}作为2环法术，并在完成一次长休后恢复该能力。当你达到5级时，你可以通过此特性施放一次{@spell 黑暗术}，并在完成一次长休后恢复该能力。魅力是这些法术的施法属性。"
+					],
+					"type": "entries",
+					"data": {
+						"overwrite": "地狱遗赠"
+					}
+				}
+			],
+			"overwrite": {
+				"ability": true
+			}
+		},
+		{
+			"ENG_name": "Mammon",
+			"name": "玛门",
+			"source": "UAFiendishOptions",
+			"raceName": "提夫林",
+			"raceSource": "PHB",
+			"page": 2,
+			"reprintedAs": [
+				"提夫林 (玛门)|MTF"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"谭森浮碟术"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"秘法锁"
+								]
+							}
+						}
+					},
+					"ability": "cha",
+					"known": {
+						"1": [
+							"法师之手#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Legacy of Minauros",
+					"name": "弥瑙洛斯之遗赠",
+					"entries": [
+						"你知晓{@spell 法师之手}戏法。当你达到3级时，你可以通过此特性施放{@spell 谭森浮碟术}法术一次，并在完成短休或长休后恢复该能力。当你达到5级时，你可以使用这个特性施放一次{@spell 秘法锁}法术，不需要材料组件，并在完成一次长休后恢复这种能力。魅力是你的施法能力。"
+					],
+					"type": "entries",
+					"data": {
+						"overwrite": "地狱遗赠"
+					}
+				}
+			]
+		},
+		{
+			"ENG_name": "Mephistopheles",
+			"name": "墨菲斯托费利斯",
+			"source": "UAFiendishOptions",
+			"raceName": "提夫林",
+			"raceSource": "PHB",
+			"page": 2,
+			"reprintedAs": [
+				"提夫林 (墨菲斯托费利斯)|MTF"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"魔法飞弹#2"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"蛛网术"
+								]
+							}
+						}
+					},
+					"ability": "cha",
+					"known": {
+						"1": [
+							"法师之手#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Legacy of Cania",
+					"name": "卡尼亚之遗赠",
+					"entries": [
+						"你知晓{@spell 法师之手}戏法。当你达到3级时，你可以用此特质施放一次{@spell 魔法飞弹}作为2环法术，并在完成一次长休后恢复该能力。当你达到5级时，你可以用此特质施放一次{@spell 蛛网术}，并在完成一次长休后恢复该能力。魅力是你施放这些法术的施法属性。"
+					],
+					"type": "entries",
+					"data": {
+						"overwrite": "地狱遗赠"
+					}
+				}
+			]
+		},
+		{
+			"ENG_name": "Zariel",
+			"name": "扎瑞尔",
+			"source": "UAFiendishOptions",
+			"raceName": "提夫林",
+			"raceSource": "PHB",
+			"page": 2,
+			"reprintedAs": [
+				"提夫林 (扎瑞尔)|MTF"
+			],
+			"ability": [
+				{
+					"cha": 2,
+					"str": 1
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"炽焰斩#2"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"印记斩"
+								]
+							}
+						}
+					},
+					"ability": "cha",
+					"known": {
+						"1": [
+							"奇术#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Legacy of Avernus",
+					"name": "阿弗纳斯之遗赠",
+					"entries": [
+						"你知道{@spell 奇术}这个戏法。当你达到3级时，你可以使用这个特性施放一次{@spell 炽焰斩}法术，将其视为2环法术，并在完成一次长休后重新获得这样做的能力。当你达到5级时，你可以使用这个特性施放一次{@spell 印记斩}法术，并在完成一次长休后重新充能。魅力是你施放这些法术的施法属性。"
+					],
+					"type": "entries",
+					"data": {
+						"overwrite": "地狱遗赠"
+					}
+				}
+			],
+			"overwrite": {
+				"ability": true
+			}
+		}
+	],
+	"cult": [
+		{
+			"ENG_name": "Cult of Asmodeus",
+			"name": "阿斯蒙蒂斯教派",
+			"source": "UAFiendishOptions",
+			"page": 3,
+			"type": "Diabolical",
+			"entries": [
+				"{@deity 阿斯蒙蒂斯|费伦|SCAG}要求所有在九邪教中获得法力和领导层的邪教徒保持忠诚。他的邪教统御着所有其他邪教。",
+				"任何领导魔鬼邪教的NPC也必须承认阿斯蒙蒂斯的法力。作为回报，那些邪教领袖中最熟习且最值得的人将获得奈瑟斯的要求特质。",
+				{
+					"ENG_name": "Demands of Nessus",
+					"name": "奈瑟斯的要求",
+					"type": "entries",
+					"entries": [
+						"在这只生物的每个回合开始时，这只生物可以选择一个它能看到的、距离它30尺以内的盟友。被选择的盟友失去10点生命值，而这只生物恢复相同数量的生命值。如果生物处于{@condition 失能}，它不会做出选择；相反，距离它30尺以内最近的盟友将成为被选择的盟友。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Cult of Baalzebul",
+			"name": "巴尔泽布教派",
+			"source": "UAFiendishOptions",
+			"page": 3,
+			"type": "Diabolical",
+			"goal": {
+				"entry": "以那些窃取荣誉和尊重者的代价，恢复荣誉和尊重"
+			},
+			"cultists": {
+				"entry": "任何遭受失宠的NPC或怪物"
+			},
+			"signatureSpells": {
+				"entry": "{@spell 次级幻象}（戏法）, {@spell 易容术}（1环法术）, {@spell 魅影之力}（2环法术）, {@spell 高等幻影}（3环法术）"
+			},
+			"entries": [
+				"巴尔泽布尔通常招募个人而非邪教。他向那些因失败而寻求救赎的人提供希望。",
+				"巴尔泽布有时会增加追随他的那些人的魅力。他还赐予一个恩惠，即巴尔泽布之道特质，使受青睐的邪教徒能在盟友的失败中显得出色。",
+				{
+					"ENG_name": "Path of Baalzebul",
+					"name": "巴尔泽布之道",
+					"type": "entries",
+					"entries": [
+						"在这个生物的回合上，作为一个附赠动作，它可以选择一个它能看到的30尺范围内的盟友。直到这个生物下一回合开始，它在所有属性检定和攻击骰上获得优势，而所选的盟友在所有属性检定、攻击骰和豁免检定上遭受劣势。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Cult of Dispater",
+			"name": "迪斯帕特教派",
+			"source": "UAFiendishOptions",
+			"page": 3,
+			"type": "Diabolical",
+			"goal": {
+				"entry": "秘密获得并使用的力量，通过勒索施加影响，通过了解人们的弱点和羞耻来控制人和组织"
+			},
+			"cultists": {
+				"entry": "{@creature 侍僧}, {@creature 匪徒}, {@creature 匪徒首领}, {@creature 邪教狂信者}, {@creature 邪教徒}, {@creature 魔法师}, {@creature 贵族}, {@creature 间谍}"
+			},
+			"signatureSpells": {
+				"entry": "{@spell 神导术} (戏法), {@spell 鉴定术} (1级), {@spell 识破隐形} (2级), {@spell 鹰眼术} (3级)"
+			},
+			"entries": [
+				"迪斯帕特以秘密为交易，用它们换取生物的灵魂。他的邪教通常用秘密与恶魔交换其他信息。他们经常策划阴谋，旨在推翻并取代政府或宗教秩序。",
+				"反叛的{@creature 夺心魔||夺心魔们}有时会与迪斯帕特缔结契约，寻求永远摆脱{@creature 主脑|VGM}统治所需的秘密。",
+				"信徒可以获得地狱洞察特质。教派领袖还可能拥有困扰逃脱特质。",
+				{
+					"ENG_name": "Infernal Insight (Recharges after a Short or Long Rest)",
+					"name": "地狱洞察（短休或长休后充能）",
+					"type": "entries",
+					"entries": [
+						"作为附赠动作，这个生物在当前回合结束前进行的所有属性检定和攻击骰上获得优势。"
+					]
+				},
+				{
+					"ENG_name": "Vexing Escape (1/Day)",
+					"name": "恼人逃脱（1/日）",
+					"type": "entries",
+					"entries": [
+						"当这个生物受到伤害时，作为反应，它将该伤害减少到0，并传送至它能看到的未被占据的空间，最多60尺。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Cult of Fierna",
+			"name": "菲尔娜教派",
+			"source": "UAFiendishOptions",
+			"page": 3,
+			"type": "Diabolical",
+			"goal": {
+				"entry": "控制他人的情感，将他们变成傀儡和玩物"
+			},
+			"cultists": {
+				"entry": "{@creature 侍僧}, {@creature 大法师}, {@creature 匪徒首领}, {@creature 邪教狂信者}, {@creature 邪教徒}, {@creature 骑士}, {@creature 贵族}, {@creature 祭司}, {@creature 间谍}"
+			},
+			"signatureSpells": {
+				"entry": "{@spell 交友术} (戏法), {@spell 魅惑类人} (1级), {@spell 暗示术} (2级), {@spell 催眠图纹} (3级)"
+			},
+			"entries": [
+				"费尔纳是一位擅长操纵的大师。渴望在爱情中取得成功或希望成为一群狂热者领袖的凡人，被吸引着与她达成交易。",
+				"菲尔娜赐予她的邪教徒们能够操纵情感的礼物；他们获得魅力提升，以及诸如{@skill 游说}和{@skill 威吓}等技能的熟练。此外，邪教徒可以获得地狱忠诚特质。邪教领袖还可以获得超越死亡忠诚特质。",
+				{
+					"ENG_name": "Infernal Loyalty",
+					"name": "地狱忠诚",
+					"type": "entries",
+					"entries": [
+						"当这个生物能看到30尺范围内具有死后忠诚特质的生物时，在豁免检定上有优势。"
+					]
+				},
+				{
+					"ENG_name": "Loyalty beyond Death (Recharges after a Short or Long Rest)",
+					"name": "超越死亡的忠诚（短休或长休后充能）",
+					"type": "entries",
+					"entries": [
+						"当这个生物可以看到的盟友生命值降至0时，作为反应，该盟友的生命值改为降至1点，并获得等于这个生物魅力值加上其生命骰数量一半的临时生命值。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Cult of Geryon",
+			"name": "格殷永教派",
+			"source": "UAFiendishOptions",
+			"page": 4,
+			"type": "Diabolical",
+			"goal": {
+				"entry": "身体力量，通过力量支配他人，摧毁所有反对力量"
+			},
+			"cultists": {
+				"entry": "{@creature 匪徒}, {@creature 匪徒首领}, {@creature 狂战士}, {@creature 邪教狂信者}, {@creature 邪教徒}, {@creature 角斗士}, {@creature 暴徒}, {@creature 部族武者}, {@creature 老兵||老兵}"
+			},
+			"signatureSpells": {
+				"entry": "{@spell 橡棍术} (戏法), {@spell 激愤斩} (1级), {@spell 强化属性} (2级), {@spell 活力灵光} (3级)"
+			},
+			"entries": [
+				"尽管被废黜，杰里昂仍然有能力进行交易。他特别与那些寻求野蛮力量的人打交道。任何好战的怪物\u2014\u2014比如{@creature 兽人||兽人}、{@creature 食人魔||食人魔们}和{@creature 巨魔||巨魔}\u2014\u2014都可以被诱入杰里昂的邪教。",
+				"格殷永的邪教徒通常组成战斗连队且匪徒帮派，通过在战斗中击败他人并夺取他们想要的东西作为战利品来证明他们的力量。",
+				"格殷永赐予力量与体质的提升。此外，邪教徒可获得粉碎打击特质。邪教领袖还可获得不屈力量特质。",
+				{
+					"ENG_name": "Crushing Blow (Recharges after a Short or Long Rest)",
+					"name": "粉碎打击（短休或长休后充能）",
+					"type": "entries",
+					"entries": [
+						"作为一个附赠动作，该生物获得一个加值，使其下一次近战武器攻击的伤害掷骰获得等同于其力量调整值的加值（至少为+1）。"
+					]
+				},
+				{
+					"ENG_name": "Indomitable Strength {@recharge 5}",
+					"name": "不屈力量 {@recharge 5}",
+					"type": "entries",
+					"entries": [
+						"该生物受到伤害时，它可以用反应掷一个{@dice d10}，并从伤害中减去掷骰结果。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Cult of Glasya",
+			"name": "格莱西雅教派",
+			"source": "UAFiendishOptions",
+			"page": 4,
+			"type": "Diabolical",
+			"goal": {
+				"entry": "通过让系统自我对抗而获得的法力，这种法力不仅在文化且法律基础上是绝对的而且是合法的"
+			},
+			"cultists": {
+				"entry": "{@creature 匪徒}, {@creature 匪徒首领}, {@creature 邪教狂信者}, {@creature 邪教徒}, {@creature 骑士}, {@creature 贵族}, {@creature 间谍}, {@creature 暴徒}"
+			},
+			"signatureSpells": {
+				"entry": "{@spell 交友术} （戏法）, {@spell 魅惑类人} （1环法术）, {@spell 隐形术} （2环法术）, {@spell 加速术} （3环法术）"
+			},
+			"entries": [
+				"格拉西亚擅长发现法律漏洞并为自己谋利，她是小偷和其他罪犯的守护神，特别是腐败贵族。她的影响本应加强家庭纽带，但她对这一点有着自由的解释，并提供可以反过来对付家庭成员的礼物。",
+				"{@creature 地精||地精}冒险反抗他们的{@creature 大地精}主人与格拉西亚结盟，同样结盟的还有组成犯罪团伙的{@creature 天狗}。",
+				"格莱西亚授予魅力与敏捷的提升。此外，邪教徒可以获得步入幽影特质。邪教领袖还可以获得地狱领袖特质。",
+				{
+					"ENG_name": "Step into Shadows (Recharges after a Short or Long Rest)",
+					"name": "步入阴影（短休或长休后充能）",
+					"type": "entries",
+					"entries": [
+						"作为动作，这个生物以及它穿戴和携带的所有物品都会神奇地变得{@condition 隐形}，直到它下一个回合结束。"
+					]
+				},
+				{
+					"ENG_name": "Infernal Ring Leader",
+					"name": "地狱领袖",
+					"type": "entries",
+					"entries": [
+						"当此生物被攻击检定额外命中时，它可以作为一个反应选择5尺内一个可见的盟友且使该盟友成为该攻击检定的目标。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Cult of Levistus",
+			"name": "莱维思图斯教派",
+			"source": "UAFiendishOptions",
+			"page": 4,
+			"type": "Diabolical",
+			"goal": {
+				"entry": "生存以及对那些冤枉他们的人最终进行报复"
+			},
+			"cultists": {
+				"entry": "{@creature 刺客}, {@creature 匪徒首领}, {@creature 邪教狂信者}, {@creature 邪教徒}, {@creature 魔法师}, {@creature 贵族}, {@creature 间谍}, {@creature 暴徒}"
+			},
+			"signatureSpells": {
+				"entry": "{@spell 剑刃防护} (戏法), {@spell 脚底抹油} (1级), {@spell 蛛行术} (2级), {@spell 气化形体} (3级)"
+			},
+			"entries": [
+				"莱维斯图斯没有传统意义上的邪教。",
+				"相反，他向那些绝望地想要逃脱看似既定命运的人提供帮助。",
+				"{@creature 卓尔}有时是莱维斯塔斯的信徒，因为他们残酷的社会经常将他们推入他们感觉无法逃脱的境地。",
+				"莱维斯塔斯通常会给予那些向他献出灵魂的人一次逃脱危险的单次机会，但一些狡猾的人与莱维斯塔斯达成交易，承诺在将来的某个日期以他们的灵魂作为交换来逃脱。这种恩惠以莱维斯塔斯之路特质的形式出现。",
+				{
+					"ENG_name": "Path of Levistus",
+					"name": "莱维思图斯之道",
+					"type": "entries",
+					"entries": [
+						"该生物会魔法般地传送到莱维斯图斯指定的1英里范围内的位置。此属性还会恢复该生物的所有生命值。它可以由该生物作为动作使用，或在该生物即将死亡时触发。一旦该生物使用了它，就无法再次使用。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Cult of Mammon",
+			"name": "马曼教派",
+			"source": "UAFiendishOptions",
+			"page": 5,
+			"type": "Diabolical",
+			"goal": {
+				"entry": "财富，不仅确保个人舒适和权力，而且拒绝他人拥有财富及其利益。"
+			},
+			"cultists": {
+				"entry": "{@creature 匪徒}, {@creature 匪徒首领}, {@creature 邪教狂信者}, {@creature 邪教徒}, {@creature 贵族}, {@creature 间谍}, {@creature 暴徒}"
+			},
+			"signatureSpells": {
+				"entry": "{@spell 修复术} (戏法), {@spell 谭森浮碟术} (1级), {@spell 秘法锁} (2级), {@spell 守卫刻文} (3级)"
+			},
+			"entries": [
+				"玛门的贪婪压倒一切。",
+				"他与渴望物质财富的凡人打交道，并赋予他们像感染一样传播这种贪婪的能力。",
+				"贪婪的矮人族（{@creature 灰矮人}）甚至一些龙容易成为玛门的诱惑的牺牲品，商人和贸易行会也容易受到他的交易的诱惑。",
+				"玛蒙的信徒可以获得贪婪之手特质。教派领袖还可以获得财富承诺特质。",
+				{
+					"ENG_name": "Grasping Hands (Recharges after a Short or Long Rest)",
+					"name": "擒拿掌（短休或长休后充能）",
+					"type": "entries",
+					"entries": [
+						"作为附赠动作，该生物进行一次敏捷（巧手）检定，与15尺内它能看见的一个生物的感知（洞悉）检定对抗。若该生物成功，它将目标身上一个它能看见的手持物品魔法传送到它的散打手中。该物品不能是目标正持有的物品，且重量不得超过10磅。"
+					]
+				},
+				{
+					"ENG_name": "Promise of Wealth (Recharges after a Short or Long Rest)",
+					"name": "财富承诺（短休或长休后充能）",
+					"type": "entries",
+					"entries": [
+						"作为附赠动作，这个生物选择一个它能看到的生物。多达五个它选择的盟友变得确信目标携带着巨大的财富。在这个生物的下一个回合结束之前，这些盟友对目标的所有攻击骰获得优势。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Cult of Mephistopheles",
+			"name": "墨菲斯托费利斯教派",
+			"source": "UAFiendishOptions",
+			"page": 5,
+			"type": "Diabolical",
+			"goal": {
+				"entry": "魔法技能和力量，加上用它来压倒对手的意志"
+			},
+			"cultists": {
+				"entry": "{@creature 大法师}, {@creature 邪教狂信者}, {@creature 邪教徒}, {@creature 魔法师}, {@creature 祭司}"
+			},
+			"signatureSpells": {
+				"entry": "{@spell 火焰箭} (戏法), {@spell 燃烧之手} (1级), {@spell 炽焰法球} (2级), {@spell 火球术} (3级)"
+			},
+			"entries": [
+				"作为奥术艺术的大师，墨菲斯托费利斯在研究魔法的生物中找到了热切的追随者。任何使用法术的怪物，例如{@creature 风暴巨人||风暴巨人}和{@creature 恶鬼}恶鬼，都可能追随他，而法师公会和贤者会议最有可能受到他的影响。",
+				"墨菲斯托费利斯赋予他的许多追随者施法能力。此外，邪教徒可以获得法术护盾特质。邪教领袖还可以获得法术吸取特质。",
+				{
+					"ENG_name": "Spell Shield",
+					"name": "法术护盾",
+					"type": "entries",
+					"entries": [
+						"这个生物在对法术的豁免检定上获得优势。如果它成功通过这样的豁免检定，它将获得等于法术等级的临时生命值。"
+					]
+				},
+				{
+					"ENG_name": "Spell Leech",
+					"name": "法术吸取",
+					"type": "entries",
+					"entries": [
+						"作为附赠动作，这个生物选择一个它能看到的30尺范围内的盟友。目标失去其最低等级的法术位，而这个生物获得它。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Cult of Zariel",
+			"name": "扎瑞尔教派",
+			"source": "UAFiendishOptions",
+			"page": 5,
+			"type": "Diabolical",
+			"goal": {
+				"entry": "征服、战斗中的荣耀、源自军事征服的名声且命运"
+			},
+			"cultists": {
+				"entry": "{@creature 狂战士}, {@creature 邪教狂信者}, {@creature 邪教徒}, {@creature 角斗士}, {@creature 警卫}, {@creature 骑士}, {@creature 老兵}"
+			},
+			"signatureSpells": {
+				"entry": "{@spell 克敌先击}（戏法）, {@spell 英雄气概}（1环法术）, {@spell 灵体武器}（2环法术）, {@spell 十字军披风}（3环法术）"
+			},
+			"entries": [
+				"扎瑞尔的教派提供军事训练和天赋。它在饱受战争蹂躏的地区蓬勃发展。有战斗意志但缺乏经验的难民被扎瑞尔吸引，因为她可以提供他们生存所需的技能。寻求优势的资深战士是她最常见的招募对象。",
+				"骑士团、战士公会和佣兵公司最有可能受到她的影响。{@creature 大地精||大地精}有时会转向她，但前提是他们已经摆脱了马格鲁比耶特及其祭司的影响。",
+				"扎瑞尔赐予她的追随者们军事实力。例如，一个普通的农民可能获得老兵的属性。此外，邪教徒可以获得凶猛浪涌特质。邪教领袖还可以获得地狱战术特质。",
+				{
+					"ENG_name": "Ferocious Surge (Recharges after a Short or Long Rest)",
+					"name": "凶猛浪涌（短休或长休后充能）",
+					"type": "entries",
+					"entries": [
+						"当这个生物在非重击的攻击中命中时，它可以将这次命中转化为重击。"
+					]
+				},
+				{
+					"ENG_name": "Infernal Tactics",
+					"name": "地狱战术",
+					"type": "entries",
+					"entries": [
+						"这个生物具有敏锐的洞察力，能够抓住战术优势。在投掷先攻骰之后，如果它没有处于{@condition 失能}状态，它可以选择自己和最多三个它能看到的盟友。它可以在选定的生物之间交换先攻结果。"
+					]
+				}
+			]
+		}
+	],
+	"boon": [
+		{
+			"ENG_name": "Demonic Boon of Baphomet",
+			"name": "巴弗灭的恶魔恩惠",
+			"source": "UAFiendishOptions",
+			"page": 6,
+			"type": "Demonic",
+			"ability": {
+				"entry": "力量或感知属性，或两者都获得最多+4的加值"
+			},
+			"signatureSpells": {
+				"entry": "{@spell 猎人印记} (1环法术), {@spell 野兽感官} (2环法术), {@spell 缓慢术} (3环法术)"
+			},
+			"entries": [
+				"巴弗灭赐予狡黠与肉体力量的天赋。他赐予他的等级追随者精准追猎特质，且邪教领袖获得煽动猎手特质。所有他的信徒还获得迷宫追忆特质。",
+				{
+					"ENG_name": "Unerring Tracker",
+					"name": "精准追猎",
+					"type": "entries",
+					"entries": [
+						"以一个附赠动作，该生物与一个它可见的生物魔法地建立一道心灵链接。在接下来的一小时内，以一个附赠动作，如果与目标存在于同一位面，该生物得知目标当前的距离和方位。链接结束如果该生物{@condition 失能}或如果它对另一目标使用该能力。"
+					]
+				},
+				{
+					"ENG_name": "Incite the Hunters (Recharges after a Short or Long Rest)",
+					"name": "煽动猎手（短休或长休后充能）",
+					"type": "entries",
+					"entries": [
+						"以一个动作，该生物允许30尺内每个具有绝对追迹者特质的盟友以反应对该盟友的绝对追迹者目标发动一次武器攻击。"
+					]
+				},
+				{
+					"ENG_name": "Labyrinthine Recall",
+					"name": "迷宫追忆",
+					"type": "entries",
+					"entries": [
+						"该生物可以完整的回忆起曾经走过的任何路径。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Demonic Boon of Demogorgon",
+			"name": "迪摩高根的恶魔恩惠",
+			"source": "UAFiendishOptions",
+			"page": 6,
+			"type": "Demonic",
+			"ability": {
+				"entry": "力量或魅力属性，或两者都获得最多+4的加值"
+			},
+			"signatureSpells": {
+				"entry": "{@spell 魅惑类人} (1级), {@spell 变巨/缩小术} (2级), {@spell 吸血鬼之触} (3级)"
+			},
+			"entries": [
+				"德摩戈贡的追随者通常是被他们主人的低语驱使的孤独杀手。他最被祝福的追随者获得了疯狂双心特性。",
+				{
+					"ENG_name": "Two Minds of Madness",
+					"name": "疯狂双心",
+					"type": "entries",
+					"entries": [
+						"该生物对所有的智力、感知、魅力豁免检定具有优势。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Demonic Boon of Fraz-Urb'luu",
+			"name": "弗拉兹厄鲁的恶魔恩惠",
+			"source": "UAFiendishOptions",
+			"page": 6,
+			"type": "Demonic",
+			"ability": {
+				"entry": "感知或魅力属性，或两者都获得最多+4的加值"
+			},
+			"signatureSpells": {
+				"entry": "{@spell 次级幻象} (戏法), {@spell 易容术} (1级), {@spell 隐形术} (2级), {@spell 催眠图纹} (3级)"
+			},
+			"entries": [
+				"作为欺骗的大师，弗拉兹厄鲁教授他的入门者谎言和幻觉的秘密。他们还可以获得说谎者之眼特性。",
+				{
+					"ENG_name": "Liar's Eye",
+					"name": "欺诈者之眼",
+					"type": "entries",
+					"entries": [
+						"该生物在感知（{@skill 洞悉}或{@skill 察觉}）检定上具有优势。",
+						"作为附赠动作，它自动检测到其周围15尺内所有幻象和隐藏生物的位置。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Demonic Boon of Graz'zt",
+			"name": "格拉兹特的恶魔恩惠",
+			"source": "UAFiendishOptions",
+			"page": 6,
+			"type": "Demonic",
+			"ability": {
+				"entry": "对体质或魅力，或两者的加值最多可达到+4"
+			},
+			"signatureSpells": {
+				"entry": "{@spell 虚假生命} (1级), {@spell 定身类人} (2级), {@spell 恐惧术} (3级)"
+			},
+			"entries": [
+				"禁忌乐趣之主赋予他的教徒将最丑陋的痛苦转化为乐趣的能力。他的教徒获得了从痛苦中获得喜悦的特性，而他的教派领袖获得了乐趣大师的特性。",
+				{
+					"ENG_name": "Joy from Pain",
+					"name": "由痛生乐",
+					"type": "entries",
+					"entries": [
+						"每当该生物受到重击时，它可以发动一次近战武器攻击作为反应。"
+					]
+				},
+				{
+					"ENG_name": "Master of Pleasures",
+					"name": "主宰愉悦",
+					"type": "entries",
+					"entries": [
+						"以一个反应，当该生物受到伤害时，它可以魔法地获得5临时生命值并授予30尺内至多3个盟友。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Demonic Boon of Juiblex",
+			"name": "朱庇莱克斯的恶魔恩惠",
+			"source": "UAFiendishOptions",
+			"page": 7,
+			"type": "Demonic",
+			"ability": {
+				"entry": "体质属性最多获得+8的加值，感知、感知和魅力属性受到相等的减值"
+			},
+			"entries": [
+				"无面领主的追随者是一些古怪的独行者，他们更喜欢与粘液和软泥生物为伍，而不是与其他生物。他们以心智为代价获得了软泥的坚韧。较低级别的追随者获得了液态移动特性。最虔诚的软泥信徒还获得了黏滑器官特性。",
+				{
+					"ENG_name": "Liquid Movement",
+					"name": "液体移动",
+					"type": "entries",
+					"entries": [
+						"以一个动作，该生物可以通过直径不超过一英寸的空间移动至多20尺。它必须在可以容纳其全部体积的空间结束该移动，否则将受到5点力场伤害并返回它开始该移动的空间。"
+					]
+				},
+				{
+					"ENG_name": "Slimy Organs",
+					"name": "软泥器官",
+					"type": "entries",
+					"entries": [
+						"该生物具有来自非魔法攻击的钝击、穿刺、挥砍伤害抗性。",
+						"每当它遭受重击或被缩小至0生命值时，其5尺范围内的所有生物将受到等同于其生命骰数值的强酸伤害。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Demonic Boon of Orcus",
+			"name": "奥喀斯的恶魔恩惠",
+			"source": "UAFiendishOptions",
+			"page": 7,
+			"type": "Demonic",
+			"ability": {
+				"entry": "感知或感知属性，或两者都获得最多+4的加值"
+			},
+			"signatureSpells": {
+				"entry": "{@spell 虚假生命} (1级), {@spell 衰弱射线} (2级), {@spell 活化死尸} (3级)"
+			},
+			"entries": [
+				"在大多数情况下，奥喀斯会将他的追随者转变为亡灵生物，例如食尸鬼们和尸妖。有时他需要追随者保留凡人的形态，以便更容易渗透王国或城市。他赋予普通邪教徒不朽者宗主的灵魂特质，而他的邪教领袖则获得死亡灵光特质。",
+				{
+					"ENG_name": "Undying Soul (Recharges after a Short or Long Rest)",
+					"name": "不灭灵魂（短休或长休后充能）",
+					"type": "entries",
+					"entries": [
+						"如果这个生物的生命值降至0点，它立即进行一次DC 10的体质豁免检定。如果成功，它的生命值改为降至1点。"
+					]
+				},
+				{
+					"ENG_name": "Aura of Death",
+					"name": "死亡灵光",
+					"type": "entries",
+					"entries": [
+						"当这个生物没有处于{@condition 失能}状态时，它会在其空间周围30尺范围内的每个方向发出死亡光环。该光环被完全覆盖阻挡。在光环内，生物和任何友方不死生物对{@condition 恐慌}状态免疫，并对光耀伤害具有抗性。敌人在光环内进行死亡豁免检定时处于不利状态。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Demonic Boon of Yeenoghu",
+			"name": "耶诺古的恶魔恩惠",
+			"source": "UAFiendishOptions",
+			"page": 7,
+			"type": "Demonic",
+			"ability": {
+				"entry": "力量和敏捷属性最多获得+4的加值，智力和魅力属性受到相等的减值"
+			},
+			"signatureSpells": {
+				"entry": "{@spell 塔莎狂笑术} (1级), {@spell 疯狂冠冕} (2级), {@spell 恐惧术} (3级)"
+			},
+			"entries": [
+				"耶诺古的追随者形成游荡的食人掠夺者群体。他们随着每一天的过去，在性情和行为上变得越来越像{@creature 鬣狗人||鬣狗人}。他最虔诚的追随者获得咬牙切齿动作选项和横行特质，而邪教领袖则获得渴血灵光特质。",
+				{
+					"ENG_name": "Gnashing Jaws",
+					"name": "咬牙切齿",
+					"type": "entries",
+					"entries": [
+						"{@i 近战武器攻击}: 命中加值等于这个生物的熟练加值加上其力量调整值，触及范围5尺，单一目标。命中：{@dice 1d4} + 这个生物的力量调整值穿刺伤害。"
+					]
+				},
+				{
+					"ENG_name": "Rampage",
+					"name": "横行",
+					"type": "entries",
+					"entries": [
+						"当这个生物在其回合用近战攻击将另一个生物的生命值降至0点时，它可以作为附赠动作移动至多其移动速度的一半，并进行一次撕咬攻击。"
+					]
+				},
+				{
+					"ENG_name": "Aura of Bloodthirst",
+					"name": "渴血灵光",
+					"type": "entries",
+					"entries": [
+						"如果这个生物没有处于{@condition 失能}状态，任何具有狂暴特性的生物在距离这个生物10尺范围内时，都可以作为附赠动作进行其撕咬攻击。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Demonic Boon of Zuggtmoy",
+			"name": "祖格莫伊的恶魔恩惠",
+			"source": "UAFiendishOptions",
+			"page": 7,
+			"type": "Demonic",
+			"ability": {
+				"entry": "体质属性最多获得+4的加值，感知、感知和魅力属性受到相等的减值"
+			},
+			"entries": [
+				"祖格莫伊的追随者主要是她孩子们奇异孢子的无意识受害者。这些孢子会钻入受害者的大脑，将其变成狂热的仆从。他们会获得孢子之吻特质。",
+				{
+					"ENG_name": "Spore Kissed",
+					"name": "孢子之吻",
+					"type": "entries",
+					"entries": [
+						"这个生物对{@condition 魅惑}和{@condition 恐慌}状态免疫。此外，如果它的生命值降至0点，它周围10尺内的所有生物将受到等同于其生命骰数量的毒素伤害。"
+					]
+				}
+			]
+		}
+	]
+}

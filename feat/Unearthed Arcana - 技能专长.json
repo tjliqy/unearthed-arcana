@@ -1,0 +1,561 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAFeatsForSkills",
+				"abbreviation": "UAFFS",
+				"full": "破解奥秘：技能专长",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2017/dnd/downloads/UA-SkillFeats.pdf",
+				"dateReleased": "2017-04-17"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1729637619,
+		"_dateLastModifiedHash": "1f79c4f8e1"
+	},
+	"feat": [
+		{
+			"ENG_name": "Acrobat",
+			"name": "杂技演员",
+			"source": "UAFeatsForSkills",
+			"page": 1,
+			"ability": [
+				{
+					"dex": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"acrobatics": true
+				}
+			],
+			"entries": [
+				"你变得更加迅捷，获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你获得{@skill 特技}技能的熟练。如果你已经熟练该技能，你在使用它进行检定时添加双倍的熟练加值。",
+						"作为附赠动作，你可以进行一次DC 15敏捷（{@skill 特技}）检定。若成功，{@quickref 困难地形||3}不会消耗你额外的移动力直到当前回合结束。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Animal Handler",
+			"name": "驯兽师",
+			"source": "UAFeatsForSkills",
+			"page": 1,
+			"ability": [
+				{
+					"wis": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"animal handling": true
+				}
+			],
+			"entries": [
+				"你掌握了训练和驾驭动物所需的技巧。你获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你获得{@skill 驯兽}技能的熟练。如果你已经熟练该技能，你在使用该技能进行检定时可以添加双倍的熟练加值。",
+						"你可以在你的回合使用一个附赠动作来命令一个你能听见且60尺内未跟随他人命令的友好野兽。你现在决定该野兽在其下个回合将采取什么动作和移动到何处，或者你发布一个持续1分钟的通用命令，例如守卫特定区域。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Arcanist",
+			"name": "奥术师",
+			"source": "UAFeatsForSkills",
+			"page": 1,
+			"ability": [
+				{
+					"int": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"arcana": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									"侦测魔法"
+								]
+							}
+						}
+					},
+					"known": {
+						"_": [
+							"魔法伎俩#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你研究奥术技艺，获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你获得{@skill 奥秘}技能的熟练。如果你已经熟练该技能，你在使用它进行检定时可以添加双倍的熟练加值。",
+						"你习得法术{@spell 魔法伎俩}和{@spell 侦测魔法}。你可以不消耗法术位施放一次{@spell 侦测魔法}，且完成一次长休后恢复该能力。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Brawny",
+			"name": "强壮",
+			"source": "UAFeatsForSkills",
+			"page": 1,
+			"ability": [
+				{
+					"str": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"athletics": true
+				}
+			],
+			"entries": [
+				"你变得更加强壮，获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你获得{@skill 运动}技能的熟练。如果你已经熟练该技能，你在使用该技能进行检定时添加双倍的熟练加值。",
+						"在确定你的载重时，你被视为体型大一级。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Diplomat",
+			"name": "外交官",
+			"source": "UAFeatsForSkills",
+			"page": 2,
+			"ability": [
+				{
+					"cha": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"persuasion": true
+				}
+			],
+			"entries": [
+				"你精通交涉艺术，获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你获得{@skill 游说}技能的熟练。如果你已经熟练该技能，你在使用它时添加双倍的熟练加值。",
+						"如果你花费1分钟与一个能听懂你说话的人交谈，你可以进行一次魅力（{@skill 游说}）检定，与目标的感知（{@skill 洞悉}）检定对抗。如果你或你的同伴正在与该生物战斗，你的检定自动失败。如果你的检定成功，目标会被你{@condition 魅惑}，只要它保持在距离你60尺内，且此后持续1分钟。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Empathic",
+			"name": "感同身受",
+			"source": "UAFeatsForSkills",
+			"page": 2,
+			"ability": [
+				{
+					"wis": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"insight": true
+				}
+			],
+			"entries": [
+				"你对其他人的思维和感官拥有敏锐的洞悉。你获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你获得{@skill 洞悉}技能的熟练。如果你已经熟练该技能，你在使用它进行检定时添加双倍的熟练加值。",
+						"你可以使用你的动作尝试对你30尺内能看见的一个类人生物获得不可思议的洞悉。进行一次感知（{@skill 洞悉}）检定，与目标的魅力（{@skill 欺瞒}）检定对抗。如果你的检定成功，你在对抗目标的攻击检定和属性检定上具有优势，直到你的下个回合结束。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Historian",
+			"name": "历史学家",
+			"source": "UAFeatsForSkills",
+			"page": 2,
+			"ability": [
+				{
+					"int": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"history": true
+				}
+			],
+			"entries": [
+				"你对历史的研究为你带来以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你获得{@skill 历史}技能的熟练。如果你已经熟练该技能，你在使用该技能进行检定时添加双倍的熟练加值。",
+						"当你使用{@action 协助}动作来协助另一个生物进行属性检定时，你可以进行一次DC 15的智力（{@skill 历史}）检定。若成功，该生物的检定将获得等同于你熟练加值的加值，因为你分享了相关的建议和历史示例。要获得此加值，该生物必须能够理解你所说的话。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Investigator",
+			"name": "调查员",
+			"source": "UAFeatsForSkills",
+			"page": 2,
+			"ability": [
+				{
+					"int": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"investigation": true
+				}
+			],
+			"entries": [
+				"你拥有鉴识之眼且能发现最细微的线索。你获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你获得{@skill 调查}技能的熟练。如果你已经熟练该技能，你在使用该技能进行检定时可以添加双倍的熟练加值。",
+						"你可以以一个附赠动作执行{@action 搜索}动作。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Medic",
+			"name": "医疗兵",
+			"source": "UAFeatsForSkills",
+			"page": 2,
+			"ability": [
+				{
+					"wis": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"medicine": true
+				}
+			],
+			"entries": [
+				"你精通医师的艺术，获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你获得{@skill 医药}技能的熟练。如果你已经熟练该技能，你在使用它进行检定时添加双倍的熟练加值。",
+						"在短休期间，你可以为最多六只愿意的野兽和类人生物清理并包扎伤口。为每个生物进行一次DC 15感知（{@skill 医药}）检定。若成功，若该生物在此次休息期间花费了一个生命骰，则该生物可以放弃掷骰，改为恢复该骰能复原的最大生命值数值。无论花费多少生命骰，每个生物每次休息只能如此做一次。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Menacing",
+			"name": "凶恶",
+			"source": "UAFeatsForSkills",
+			"page": 2,
+			"ability": [
+				{
+					"cha": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"intimidation": true
+				}
+			],
+			"entries": [
+				"你变得令人生畏，获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你获得{@skill 威吓}技能的熟练。如果你已经熟练该技能，你在使用该技能进行检定时添加双倍的熟练加值。",
+						"当你在你的回合采取{@action 攻击}动作时，你可以用一次尝试恐吓替换一次攻击，目标是你能看见且能看见和听到你的30尺内的一个类人生物。进行一次魅力（{@skill 威吓}）检定，与目标的感知（{@skill 洞悉}）检定对抗。如果你的检定成功，目标将处于{@condition 恐慌}状态直到你的下一个回合结束。如果你的检定失败，目标在1小时内无法被你以这种方式{@condition 恐慌}。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Naturalist",
+			"name": "自然学家",
+			"source": "UAFeatsForSkills",
+			"page": 3,
+			"ability": [
+				{
+					"int": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"nature": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									"侦测毒性和疾病"
+								]
+							}
+						}
+					},
+					"known": {
+						"_": [
+							"德鲁伊伎俩#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你对自然的广泛研究为你带来以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你获得{@skill 自然}技能的熟练。如果你已经熟练该技能，你在使用该技能进行检定时可以添加双倍的熟练加值。",
+						"你习得法术{@spell 德鲁伊伎俩}和{@spell 侦测毒性和疾病}。你可以不消耗法术位施放一次{@spell 侦测毒性和疾病}，且完成一次长休后恢复该能力。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Perceptive",
+			"name": "感知敏锐",
+			"source": "UAFeatsForSkills",
+			"page": 3,
+			"ability": [
+				{
+					"wis": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"perception": true
+				}
+			],
+			"entries": [
+				"你磨练自己的感官直到它们变得如剃刀般锋利。你获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你获得{@skill 察觉}技能的熟练。如果你已经熟练该技能，你可以在使用该技能时添加双倍的熟练加值。",
+						"处于轻度遮蔽区域不会对你的感知（{@skill 察觉}）检定施加劣势，前提是你能同时看见且听见。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Performer",
+			"name": "演艺者",
+			"source": "UAFeatsForSkills",
+			"page": 3,
+			"ability": [
+				{
+					"cha": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"performance": true
+				}
+			],
+			"entries": [
+				"你精通表演，因此能够掌控任何舞台。你获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你获得{@skill 表演}技能的熟练。如果你已经熟练该技能，你在使用该技能进行检定时可以添加双倍的熟练加值。",
+						"表演时，你可以尝试干扰一个你能看见且能看见和听见你的类人生物。进行一次魅力（{@skill 表演}）检定，与目标的感知（{@skill 洞悉}）检定对抗。若你成功，你将充分吸引该生物的注意力，使其在进行感知（{@skill 察觉}）和智力（{@skill 调查}）检定时具有劣势，直到你停止表演。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Quick-Fingered",
+			"name": "灵巧手指",
+			"source": "UAFeatsForSkills",
+			"page": 3,
+			"ability": [
+				{
+					"dex": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"sleight of hand": true
+				}
+			],
+			"entries": [
+				"你迅捷的手指且敏捷让你能够施展巧手。你获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你获得{@skill 巧手}技能的熟练。如果你已经熟练该技能，你在使用它进行检定时可以添加双倍的熟练加值。",
+						"作为附赠动作，你可以进行一次敏捷（{@skill 巧手}）检定以在他人身上放置某物、在生物身上隐藏物件、扒窃钱包或从口袋中取走某物。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Silver-Tongued",
+			"name": "银舌",
+			"source": "UAFeatsForSkills",
+			"page": 3,
+			"ability": [
+				{
+					"cha": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"deception": true
+				}
+			],
+			"entries": [
+				"你提升了交谈技能以更好地欺骗他人。你获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你获得{@skill 欺瞒}技能的熟练。如果你已经熟练该技能，你在使用该技能进行检定时可以添加双倍的熟练加值。",
+						"当你在你的回合采取{@action 攻击}动作时，你可以用一次欺骗尝试替换一次攻击，目标是你能看见且能看见和听到你的30尺内的一个类人生物。进行一次魅力（{@skill 欺瞒}）检定，与目标的感知（{@skill 洞悉}）检定对抗。如果你的检定成功，你的移动不会引发目标的借机攻击且你对它的攻击检定具有优势；这两个增益持续到你的下一个回合结束或你对另一个目标使用此能力为止。如果你的检定失败，目标在1小时内无法被你以此方式欺骗。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Stealthy",
+			"name": "隐匿",
+			"source": "UAFeatsForSkills",
+			"page": 4,
+			"ability": [
+				{
+					"dex": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"stealth": true
+				}
+			],
+			"entries": [
+				"你深知如何最好地躲藏。你获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你获得{@skill 隐匿}技能的熟练。如果你已经熟练该技能，你在使用该技能进行检定时可以添加双倍的熟练加值。",
+						"如果你处于隐藏状态，你可以在开放区域移动最多10尺而不暴露自己，前提是你结束移动时处于不显眼的位置。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Survivalist",
+			"name": "生存专家",
+			"source": "UAFeatsForSkills",
+			"page": 4,
+			"ability": [
+				{
+					"wis": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"survival": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									"警报术"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"你精通野外逸闻，获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你获得{@skill 求生}技能的熟练。如果你已经熟练该技能，你在使用该技能进行检定时可以添加双倍的熟练加值。",
+						"你学会{@spell 警报术}法术。你可以不消耗法术位施放它一次，且当你完成一次长休后恢复该能力。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Theologian",
+			"name": "神学家",
+			"source": "UAFeatsForSkills",
+			"page": 4,
+			"ability": [
+				{
+					"int": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"religion": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									"侦测善恶"
+								]
+							}
+						}
+					},
+					"known": {
+						"_": [
+							"奇术#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你对宗教的深入研究为你带来以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你获得{@skill 宗教}技能的熟练。如果你已经熟练该技能，你在使用它进行检定时添加双倍的熟练加值。",
+						"你习得法术{@spell 奇术}和{@spell 侦测善恶}。你可以不消耗法术位施放一次{@spell 侦测善恶}，且完成一次长休后恢复该能力。"
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,1508 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "XUA2025ApocalypticSubclasses",
+				"abbreviation": "XUA25ApS",
+				"full": "破解奥秘2025：末日子职",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Lyra [he/him]"
+				],
+				"version": "1.0.0",
+				"url": "https://media.dndbeyond.com/compendium-images/ua/apocalyptic-subclasses/KKvJvHGmsJiNaafX/UA2025-ApocalypticSubclasses.pdf",
+				"dateReleased": "2025-08-21"
+			}
+		],
+		"edition": "one",
+		"status": "ready",
+		"dateAdded": 1755803795,
+		"dateLastModified": 1755803795,
+		"_dateLastModifiedHash": "7da7bb7ab2"
+	},
+	"subclass": [
+		{
+			"ENG_name": "Circle of Preservation",
+			"name": "存护之环",
+			"shortName": "存护",
+			"source": "XUA2025ApocalypticSubclasses",
+			"className": "德鲁伊",
+			"classSource": "XPHB",
+			"page": 2,
+			"edition": "one",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"祝福术|XPHB",
+							"次级复原术|XPHB",
+							"防护毒素|XPHB",
+							"庇护术|XPHB"
+						],
+						"5": [
+							"希望信标|XPHB",
+							"植物滋长|XPHB"
+						],
+						"7": [
+							"生命灵光|XPHB",
+							"防死结界|XPHB"
+						],
+						"9": [
+							"高等复原术|XPHB",
+							"圣居|XPHB"
+						]
+					},
+					"innate": {
+						"10": {
+							"daily": {
+								"wis": [
+									"次级复原术|XPHB",
+									"高等复原术|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"subclassSpells": [
+				"祝福术|XPHB",
+				"次级复原术|XPHB",
+				"防护毒素|XPHB",
+				"庇护术|XPHB",
+				"希望信标|XPHB",
+				"植物滋长|XPHB",
+				"生命灵光|XPHB",
+				"防死结界|XPHB",
+				"高等复原术|XPHB",
+				"圣居|XPHB"
+			],
+			"subclassFeatures": [
+				"存护之环|德鲁伊|XPHB|存护|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses",
+				"强化存护|德鲁伊|XPHB|存护|XUA2025ApocalypticSubclasses|6|XUA2025ApocalypticSubclasses",
+				"便利复原|德鲁伊|XPHB|存护|XUA2025ApocalypticSubclasses|10|XUA2025ApocalypticSubclasses",
+				"神圣大地|德鲁伊|XPHB|存护|XUA2025ApocalypticSubclasses|14|XUA2025ApocalypticSubclasses"
+			],
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Defiled Sorcery",
+			"name": "亵渎法术",
+			"shortName": "亵渎者",
+			"source": "XUA2025ApocalypticSubclasses",
+			"className": "术士",
+			"classSource": "XPHB",
+			"page": 4,
+			"edition": "one",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"目盲术/耳聋术|XPHB",
+							"致伤术|XPHB",
+							"衰弱射线|XPHB",
+							"致病射线|XPHB"
+						],
+						"5": [
+							"降咒|XPHB",
+							"吸血鬼之触|XPHB"
+						],
+						"7": [
+							"枯萎术|XPHB",
+							"幻景|XPHB"
+						],
+						"9": [
+							"防活物护罩|XPHB",
+							"疫病术|XPHB"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"致伤术|XPHB",
+				"衰弱射线|XPHB",
+				"致病射线|XPHB",
+				"降咒|XPHB",
+				"吸血鬼之触|XPHB",
+				"枯萎术|XPHB",
+				"幻景|XPHB",
+				"防活物护罩|XPHB",
+				"疫病术|XPHB"
+			],
+			"subclassFeatures": [
+				"亵渎法术|术士|XPHB|亵渎者|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses",
+				"腐化施法者|术士|XPHB|亵渎者|XUA2025ApocalypticSubclasses|6|XUA2025ApocalypticSubclasses",
+				"枯萎灵气|术士|XPHB|亵渎者|XUA2025ApocalypticSubclasses|14|XUA2025ApocalypticSubclasses",
+				"高阶亵渎者|术士|XPHB|亵渎者|XUA2025ApocalypticSubclasses|18|XUA2025ApocalypticSubclasses"
+			],
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Gladiator",
+			"name": "角斗士",
+			"shortName": "角斗士",
+			"source": "XUA2025ApocalypticSubclasses",
+			"className": "战士",
+			"classSource": "XPHB",
+			"page": 3,
+			"edition": "one",
+			"subclassFeatures": [
+				"角斗士|战士|XPHB|角斗士|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses",
+				"虚张声势 招架|战士|XPHB|角斗士|XUA2025ApocalypticSubclasses|7|XUA2025ApocalypticSubclasses",
+				"无畏暴行|战士|XPHB|角斗士|XUA2025ApocalypticSubclasses|10|XUA2025ApocalypticSubclasses",
+				"野蛮复苏|战士|XPHB|角斗士|XUA2025ApocalypticSubclasses|15|XUA2025ApocalypticSubclasses",
+				"致残|战士|XPHB|角斗士|XUA2025ApocalypticSubclasses|18|XUA2025ApocalypticSubclasses"
+			],
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Sorcerer-King Patron",
+			"name": "术士-国王宗主",
+			"shortName": "术士-国王短刃",
+			"source": "XUA2025ApocalypticSubclasses",
+			"className": "魔契师",
+			"classSource": "XPHB",
+			"page": 5,
+			"edition": "one",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"命令术|XPHB",
+							"强令对决|XPHB",
+							"定身类人|XPHB",
+							"心灵尖刺|XPHB",
+							"激愤斩|XPHB"
+						],
+						"5": [
+							"恐惧术|XPHB",
+							"短讯术|XPHB"
+						],
+						"7": [
+							"强迫术|XPHB",
+							"惊惧斩|XPHB"
+						],
+						"9": [
+							"支配类人|XPHB",
+							"突触静止|XPHB"
+						]
+					},
+					"innate": {
+						"3": {
+							"daily": {
+								"cha": [
+									"命令术|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"subclassSpells": [
+				"命令术|XPHB",
+				"强令对决|XPHB",
+				"定身类人|XPHB",
+				"心灵尖刺|XPHB",
+				"激愤斩|XPHB",
+				"恐惧术|XPHB",
+				"短讯术|XPHB",
+				"强迫术|XPHB",
+				"惊惧斩|XPHB",
+				"支配类人|XPHB",
+				"突触静止|XPHB"
+			],
+			"subclassFeatures": [
+				"术士-国王宗主|魔契师|XPHB|术士-国王短刃|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses",
+				"果断法令|魔契师|XPHB|术士-国王短刃|XUA2025ApocalypticSubclasses|6|XUA2025ApocalypticSubclasses",
+				"复仇斥责|魔契师|XPHB|术士-国王短刃|XUA2025ApocalypticSubclasses|10|XUA2025ApocalypticSubclasses",
+				"绝对暴政|魔契师|XPHB|术士-国王短刃|XUA2025ApocalypticSubclasses|14|XUA2025ApocalypticSubclasses"
+			],
+			"hasFluff": true
+		}
+	],
+	"subclassFluff": [
+		{
+			"ENG_name": "Circle of Preservation",
+			"name": "存护之环",
+			"shortName": "存护",
+			"source": "XUA2025ApocalypticSubclasses",
+			"className": "德鲁伊",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i 佑护自然且医疗术世界}"
+			]
+		},
+		{
+			"ENG_name": "Defiled Sorcery",
+			"name": "亵渎法术",
+			"shortName": "亵渎者",
+			"source": "XUA2025ApocalypticSubclasses",
+			"className": "术士",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i 生命虹吸转化为灾祸法术}",
+				{
+					"ENG_name": "Design Note: Hit Point Dice",
+					"name": "设计笔记：生命值骰",
+					"type": "inset",
+					"page": 4,
+					"entries": [
+						"{@variantrule 怪物|XPHB|怪物}，如同{@variantrule 玩家角色|XPHB|玩家角色}，拥有{@variantrule 生命值骰|XPHB}。怪物的{@variantrule 生命值骰|XPHB|生命骰}的体型和数值通常会在怪物的{@variantrule 数据卡|XPHB}中作为怪物中等{@variantrule 生命值|XPHB}后的括号内容标注。任何生物\u2014\u2014包括{@variantrule 玩家角色|XPHB|角色}和{@variantrule 怪物|XPHB|怪物}\u2014\u2014都可以在{@variantrule 生命值骰|XPHB|生命骰}期间消耗{@variantrule 短休|XPHB}来恢复{@variantrule 生命值|XPHB}。",
+						"当首次遭遇一个{@variantrule 怪物|XPHB}时，假设它尚未消耗任何{@variantrule 生命值骰|XPHB|生命骰}。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Gladiator",
+			"name": "角斗士",
+			"shortName": "角斗士",
+			"source": "XUA2025ApocalypticSubclasses",
+			"className": "战士",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i 大师残暴且鲜血运动}"
+			]
+		},
+		{
+			"ENG_name": "Sorcerer-King Patron",
+			"name": "术士-国王宗主",
+			"shortName": "术士-国王短刃",
+			"source": "XUA2025ApocalypticSubclasses",
+			"className": "魔契师",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i 统治者先驱魔斧的暴政力量}"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"ENG_name": "Circle of Preservation",
+			"name": "存护之环",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 2,
+			"className": "德鲁伊",
+			"classSource": "XPHB",
+			"subclassShortName": "存护",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"存护之环的德鲁伊们不懈地工作以保护自然资源并复原那些曾被贪婪和剥削摧残的地方。通过结合保护与复原魔法，这些德鲁伊们用护盾术在大地上守护并传播生命。该教团最强大的成员甚至能让贫瘠农田重获生机，再次将荒地变为繁荣的荒野。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "存护法术环|德鲁伊|XPHB|存护|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "保留地|德鲁伊|XPHB|存护|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "存护学生|德鲁伊|XPHB|存护|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses"
+				}
+			]
+		},
+		{
+			"ENG_name": "Circle of Preservation Spells",
+			"name": "存护法术环",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 2,
+			"className": "德鲁伊",
+			"classSource": "XPHB",
+			"subclassShortName": "存护",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"当你达到{@class 德鲁伊|XPHB}职业等级中{@table 存护法术环|XUA2025ApocalypticSubclasses}表格所指定的等级时，你将始终准备所列出的法术。",
+				{
+					"ENG_name": "Circle of Preservation Spells",
+					"name": "存护法术环",
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2025ApocalypticSubclasses",
+					"page": 2
+				}
+			]
+		},
+		{
+			"ENG_name": "Preserved Land",
+			"name": "保留地",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 2,
+			"className": "德鲁伊",
+			"classSource": "XPHB",
+			"subclassShortName": "存护",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"作为{@variantrule 附赠动作|XPHB}，你可以消耗一次{@classFeature 荒野形态|德鲁伊|XPHB|2|XPHB}的使用次数，在你可见的120尺范围内的地面上某一点创造一个15尺的{@variantrule 立方 [效应区域]|XPHB|立方}，并充满复苏能量。该效应持续1分钟，或直到你处于{@condition 失能}状态、距离{@variantrule 立方 [效应区域]|XPHB|立方}超过120尺，或死亡。",
+				"每当一个生物（包括你自己）在其回合结束时位于{@variantrule 立方 [效应区域]|XPHB|立方}内，你可以给予该生物以下一个增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 2,
+					"items": [
+						{
+							"ENG_name": "Bolster",
+							"name": "鼓舞",
+							"type": "item",
+							"entries": [
+								"该生物获得等于{@dice 1d4}加上你的德鲁伊等级的{@variantrule 临时生命值|XPHB}。"
+							]
+						},
+						{
+							"ENG_name": "Purify",
+							"name": "净化",
+							"type": "item",
+							"entries": [
+								"你结束生物身上的一个效应，使其不再处于{@condition 恐慌}或{@condition 中毒}状态。"
+							]
+						}
+					]
+				},
+				"此外，该区域原生的非魔法植被会在{@variantrule 立方 [效应区域]|XPHB|立方}范围内的地面上生长。当效应结束时，这些植被会消失。",
+				"作为后续回合的{@variantrule 附赠动作|XPHB}，你可以将这个{@variantrule 立方 [效应区域]|XPHB|立方}移动至你自身120尺范围内的另一处地面区域，最多30尺。"
+			]
+		},
+		{
+			"ENG_name": "Student of Preservation",
+			"name": "存护学生",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 2,
+			"className": "德鲁伊",
+			"classSource": "XPHB",
+			"subclassShortName": "存护",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"你的研究提升了你对自然秩序和恢复力的理解，赋予你以下增益。",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 2,
+					"items": [
+						{
+							"ENG_name": "Frugal Casting",
+							"name": "节俭施法",
+							"type": "item",
+							"entries": [
+								"当你施放一个{@class 德鲁伊|XPHB}法术时，你可以不消耗材料成分施放它，除非该法术消耗材料成分或法术中指定了材料成分的花费。",
+								"此外，每当你施放一个需要消耗材料成分的{@class 德鲁伊|XPHB}法术时，有{@chance 10}的几率该成分不会作为施放的一部分被消耗。"
+							]
+						},
+						{
+							"ENG_name": "Tool Proficiency",
+							"name": "工具熟练",
+							"type": "item",
+							"entries": [
+								"你获得一种自选的{@item 工匠工具|XPHB}的{@variantrule 熟练|XPHB}。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Improved Preservation",
+			"name": "强化存护",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 2,
+			"className": "德鲁伊",
+			"classSource": "XPHB",
+			"subclassShortName": "存护",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"你的{@subclassFeature 保留地|德鲁伊|XPHB|存护|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses}在以下方面变得更加强大。",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 2,
+					"items": [
+						{
+							"ENG_name": "Fortify Protectors",
+							"name": "加固保护者",
+							"type": "item",
+							"entries": [
+								"当你和你的盟友处于由你的{@subclassFeature 保留地|德鲁伊|XPHB|存护|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses}创造的{@variantrule 立方 [效应区域]|XPHB|立方}内时，你和你的盟友获得等同于你感知调整值的体质豁免检定加值（至少为+1）。"
+							]
+						},
+						{
+							"ENG_name": "Reject Desecrators",
+							"name": "拒绝亵渎者",
+							"type": "item",
+							"entries": [
+								"每当你由{@subclassFeature 保留地|德鲁伊|XPHB|存护|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses}创造的{@variantrule 立方 [效应区域]|XPHB|立方}进入一个敌人的空间，或每当一个敌人进入{@variantrule 立方 [效应区域]|XPHB|立方}或在其内结束回合时，该敌人需进行一次对抗你法术豁免DC的感知豁免检定。豁免失败时，敌人受到{@damage 2d10}光耀伤害，且其{@variantrule 速度|XPHB}减半直至其下个回合结束，新生的繁花滋长会阻碍它。豁免成功时，敌人仅受到一半伤害。敌人每回合仅需进行一次此豁免。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Facilitated Restoration",
+			"name": "便利复原",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 2,
+			"className": "德鲁伊",
+			"classSource": "XPHB",
+			"subclassShortName": "存护",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"你可以不消耗法术位或需要法术成分施放{@spell 次级复原术|XPHB}或{@spell 高等复原术|XPHB}。你可以使用此特性以这种方式施法的次数等于你的感知调整值（至少一次），且完成一次{@variantrule 长休|XPHB}后恢复所有已消耗的使用次数。"
+			]
+		},
+		{
+			"ENG_name": "Sacrosanct Land",
+			"name": "神圣大地",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 2,
+			"className": "德鲁伊",
+			"classSource": "XPHB",
+			"subclassShortName": "存护",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"由你的{@subclassFeature 保留地|德鲁伊|XPHB|存护|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses}创造的{@variantrule 立方 [效应区域]|XPHB|立方}的体型增加到30尺{@variantrule 立方 [效应区域]|XPHB|立方}。",
+				"此外，当你在你的{@subclassFeature 保留地|德鲁伊|XPHB|存护|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses}区域内能看见的一个生物被攻击检定命中时，你可以采取一个{@variantrule 反应|XPHB}来使该攻击对该生物造成的伤害减半。"
+			]
+		},
+		{
+			"ENG_name": "Gladiator",
+			"name": "角斗士",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 3,
+			"className": "战士",
+			"classSource": "XPHB",
+			"subclassShortName": "角斗士",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"角斗士既是武者也是演艺者们。无论在地下战斗戒指中搏斗还是在血迹斑斑的竞技场中求生，角斗士都将军用技能与戏剧效果相结合，以震慑观众。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "残暴|战士|XPHB|角斗士|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "战斗表演|战士|XPHB|角斗士|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses"
+				}
+			]
+		},
+		{
+			"ENG_name": "Brutality",
+			"name": "残暴",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 3,
+			"className": "战士",
+			"classSource": "XPHB",
+			"subclassShortName": "角斗士",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"在竞技场的激烈环境中磨练，你学会了执行残暴的军用招式。每回合一次，当你用近战武器的攻击检定命中一个生物时，你可以选择添加以下一种残暴效应。你可以这样做的次数等于你的魅力调整值（至少一次），且当你完成一次{@variantrule 短休|XPHB|短}或{@variantrule 长休|XPHB}时恢复所有已消耗的使用次数。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "流血|战士|XPHB|角斗士|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "诈巧|战士|XPHB|角斗士|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "踉跄|战士|XPHB|角斗士|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses"
+				}
+			]
+		},
+		{
+			"ENG_name": "Combat Theatrics",
+			"name": "战斗表演",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 3,
+			"className": "战士",
+			"classSource": "XPHB",
+			"subclassShortName": "角斗士",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"你磨练了战斗技能以娱乐大众，既能击溃对手又能让观众眼花缭乱。你获得以下增益。",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 3,
+					"items": [
+						{
+							"ENG_name": "Athletic Flair",
+							"name": "运动天赋",
+							"type": "item",
+							"entries": [
+								"每当你进行一次敏捷（{@skill 特技}）或力量（{@skill 运动}）检定时，你获得等同于你魅力调整值的加值（至少为+1）。"
+							]
+						},
+						{
+							"ENG_name": "Bonus Proficiency",
+							"name": "附赠熟练项",
+							"type": "item",
+							"entries": [
+								"你获得以下技能中一项的{@variantrule 熟练|XPHB}：{@skill 特技}、{@skill 运动}、{@skill 欺瞒}、{@skill 威吓}或{@skill 表演}。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Bleed",
+			"name": "流血",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 3,
+			"className": "战士",
+			"classSource": "XPHB",
+			"subclassShortName": "角斗士",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 3,
+			"header": 3,
+			"entries": [
+				"你可以激活该武器的{@itemMastery 削弱|XPHB}精通词条，且目标受到等同于你魅力调整值的额外伤害（至少1点伤害）。额外伤害的类型与武器类型相同"
+			]
+		},
+		{
+			"ENG_name": "Bluff",
+			"name": "诈巧",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 3,
+			"className": "战士",
+			"classSource": "XPHB",
+			"subclassShortName": "角斗士",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 3,
+			"header": 3,
+			"entries": [
+				"你可以激活该武器的{@itemMastery 侵扰|XPHB}精通词条且同时使用另一个精通词条，并且在你的下一个回合结束前，你在下一次豁免检定上具有{@variantrule 优势|XPHB}。"
+			]
+		},
+		{
+			"ENG_name": "Stumble",
+			"name": "踉跄",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 3,
+			"className": "战士",
+			"classSource": "XPHB",
+			"subclassShortName": "角斗士",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 3,
+			"header": 3,
+			"entries": [
+				"你可以激活该武器的{@itemMastery 失衡|XPHB}精通词条，且同时使用另一个精通词条，目标在其下一回合只能执行一个{@variantrule 动作|XPHB}或一个{@variantrule 附赠动作|XPHB}，不能同时执行两者。"
+			]
+		},
+		{
+			"ENG_name": "Flourish Parry",
+			"name": "虚张声势 招架",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 3,
+			"className": "战士",
+			"classSource": "XPHB",
+			"subclassShortName": "角斗士",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"你学会了优雅地反击敌人的攻击。当一个敌人用近战攻击掷骰命中你时，你可以使用一个{@variantrule 反应|XPHB}来为你的AC添加你的魅力调整值（至少+1），可能导致该攻击未命中。",
+				{
+					"ENG_name": "Flourish Counter",
+					"name": "虚张声势反击",
+					"type": "entries",
+					"page": 3,
+					"entries": [
+						"如果此{@variantrule 反应|XPHB}导致攻击未命中，你可以作为同一{@variantrule 反应|XPHB}的一部分进行强力的反制攻击。用一把近战武器对触发生物进行一次攻击检定。如果此次攻击命中，你可以对目标使用一个你的{@subclassFeature 残暴|战士|XPHB|角斗士|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses}效应而不消耗该特性的使用次数。",
+						"一旦这次反制攻击命中，你在完成一次{@variantrule 长休|XPHB}前无法再次使用该特性进行反制攻击。你也可以通过消耗一次{@classFeature 回气|战士|XPHB|1|XPHB}的使用次数来复原这次反制攻击的使用权（无需动作）。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Bolder Brutalities",
+			"name": "无畏暴行",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 3,
+			"className": "战士",
+			"classSource": "XPHB",
+			"subclassShortName": "角斗士",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"你残暴的军事实力已提升。以下效应被添加到你的{@subclassFeature 残暴|战士|XPHB|角斗士|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses}选项中。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "撕裂|战士|XPHB|角斗士|XUA2025ApocalypticSubclasses|10|XUA2025ApocalypticSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "突进|战士|XPHB|角斗士|XUA2025ApocalypticSubclasses|10|XUA2025ApocalypticSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "踉跄|战士|XPHB|角斗士|XUA2025ApocalypticSubclasses|10|XUA2025ApocalypticSubclasses"
+				}
+			]
+		},
+		{
+			"ENG_name": "Rive",
+			"name": "撕裂",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 3,
+			"className": "战士",
+			"classSource": "XPHB",
+			"subclassShortName": "角斗士",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 10,
+			"header": 3,
+			"entries": [
+				"你可以激活{@itemMastery 横扫|XPHB}精通词条，且在使用该武器的另一个精通词条时，可以为你作为该属性激活效应一部分进行的额外攻击添加你的属性调整值到伤害上。"
+			]
+		},
+		{
+			"ENG_name": "Rush",
+			"name": "突进",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 3,
+			"className": "战士",
+			"classSource": "XPHB",
+			"subclassShortName": "角斗士",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 10,
+			"header": 3,
+			"entries": [
+				"你可以激活该武器的{@itemMastery 推离|XPHB}精通词条且同时使用另一个精通词条，并且可以立即移动至多你的{@variantrule 速度|XPHB}而不引发{@action 借机攻击|XPHB|借机攻击}。"
+			]
+		},
+		{
+			"ENG_name": "Stagger",
+			"name": "踉跄",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 3,
+			"className": "战士",
+			"classSource": "XPHB",
+			"subclassShortName": "角斗士",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 10,
+			"header": 3,
+			"entries": [
+				"你可以激活该武器的{@itemMastery 缓速|XPHB}精通词条，同时使用另一个精通词条，且目标在你下个回合结束前进行的下一次豁免检定具有{@variantrule 劣势|XPHB}。"
+			]
+		},
+		{
+			"ENG_name": "Brutal Resurgence",
+			"name": "野蛮复苏",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 3,
+			"className": "战士",
+			"classSource": "XPHB",
+			"subclassShortName": "角斗士",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"每当你使用你的{@classFeature 回气|战士|XPHB|1|XPHB}来恢复{@variantrule 生命值|XPHB}时，你恢复一个消耗的{@subclassFeature 残暴|战士|XPHB|角斗士|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses}使用次数。每当你使用你的{@classFeature 动作如潮|战士|XPHB|2|XPHB}时，你也恢复一个消耗的{@subclassFeature 残暴|战士|XPHB|角斗士|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses}使用次数。"
+			]
+		},
+		{
+			"ENG_name": "Mutilate",
+			"name": "致残",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 3,
+			"className": "战士",
+			"classSource": "XPHB",
+			"subclassShortName": "角斗士",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"当你用攻击检定命中一个{@status 浴血|XPHB}生物时，你可以尝试对其造成致命伤害。目标需进行一次体质豁免检定（{@dc 8}加上你的魅力调整值和{@table 熟练加值|XPHB}）。若豁免失败，目标将遭受以下效应：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 3,
+					"items": [
+						{
+							"ENG_name": "Maimed",
+							"name": "致残",
+							"type": "item",
+							"entries": [
+								"如果目标采取{@action 攻击|XPHB}动作，它只能进行一次攻击。"
+							]
+						},
+						{
+							"ENG_name": "Sluggish",
+							"name": "迟滞",
+							"type": "item",
+							"entries": [
+								"目标的{@variantrule 速度|XPHB}减半，且其{@variantrule 护甲等级|XPHB}有-2减值。"
+							]
+						}
+					]
+				},
+				"这些效应持续到目标恢复{@variantrule 生命值|XPHB}为止。",
+				"一旦目标对此特性的豁免检定失败，你无法再次使用它，直到你完成一次{@variantrule 长休|XPHB}。"
+			]
+		},
+		{
+			"ENG_name": "Defiled Sorcery",
+			"name": "亵渎法术",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 4,
+			"className": "术士",
+			"classSource": "XPHB",
+			"subclassShortName": "亵渎者",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"你的内在法力从周围世界汲取生命精华。在你的命令术下，生物会生病且植物会枯萎成空壳。你从生命本身的腐化中汲取力量，消耗生命力来为破坏性魔法提供燃料。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "污染且增强|术士|XPHB|亵渎者|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "亵渎者法术|术士|XPHB|亵渎者|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses"
+				}
+			]
+		},
+		{
+			"ENG_name": "Defile and Empower",
+			"name": "污染且增强",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 4,
+			"className": "术士",
+			"classSource": "XPHB",
+			"subclassShortName": "亵渎者",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 3,
+			"header": 2,
+			"consumes": {
+				"ENG_name": "Sorcery Point",
+				"name": "术法点",
+				"amount": 3
+			},
+			"entries": [
+				"每回合一次，当你施放使用法术位法术并掷骰伤害时，你可以将生命能量注入法术并增强它。掷骰若干你未消耗的{@variantrule 生命值骰|XPHB}，数量最多等于消耗法术位等级的一半（向上取整，至少一个骰子），并将掷骰总数添加到法术的一个伤害掷骰中。这些{@variantrule 生命值骰|XPHB}随后被消耗。",
+				{
+					"ENG_name": "Life Steal",
+					"name": "生命窃取",
+					"type": "entries",
+					"page": 4,
+					"entries": [
+						"当你使用此特性时，可以不消耗自身的生命力量，而是尝试从30尺内你能看见的另一个生物那里窃取生命。该生物需进行一次对抗你法术豁免DC的体质豁免检定；对{@variantrule 免疫|XPHB}于{@condition 力竭|XPHB}状态的生物自动通过豁免。若豁免失败，代替掷你的{@variantrule 生命值骰|XPHB}，掷该生物未消耗的{@variantrule 生命值骰|XPHB}，数量不超过消耗法术位等级的一半（向下取整，至少一个骰子）；然后将掷骰总数添加到该法术的一个伤害掷骰中，且这些{@variantrule 生命值骰|XPHB}将被该生物消耗。",
+						"一旦生物对抗生命窃取的豁免失败，你将无法再次使用生命窃取，除非你消耗3个术法点（无需动作）来复原其使用次数，直到你完成一次{@variantrule 长休|XPHB}。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Defiler Spells",
+			"name": "亵渎者法术",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 4,
+			"className": "术士",
+			"classSource": "XPHB",
+			"subclassShortName": "亵渎者",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"每当你达到{@class 术士|XPHB}表格中{@table 亵渎者法术|XUA2025ApocalypticSubclasses}指定的等级时，你此后始终准备着列出的法术。",
+				{
+					"ENG_name": "Defiler Spells",
+					"name": "亵渎者法术",
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2025ApocalypticSubclasses",
+					"page": 4
+				}
+			]
+		},
+		{
+			"ENG_name": "Corrupted Caster",
+			"name": "腐化施法者",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 4,
+			"className": "术士",
+			"classSource": "XPHB",
+			"subclassShortName": "亵渎者",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"你学会了进一步利用自身内部腐蚀魔法的方法，获得以下增益。",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 4,
+					"items": [
+						{
+							"ENG_name": "Defiler's Ward",
+							"name": "亵渎者之护",
+							"type": "item",
+							"entries": [
+								"当你使用一个{@variantrule 附赠动作|XPHB}将术法点转化为法术位时，你可以用污化能量编织一个具有安全感的蛛网术环绕你的身体。掷骰等同于所创造法术位等级的{@dice d6|d6s}数量。你获得等同于全部掷骰结果的{@variantrule 临时生命值|XPHB}。",
+								"如果一个生物在你拥有{@variantrule 临时生命值|XPHB}时以近战攻击掷骰命中你，该生物将受到等同于你魅力调整值的暗蚀或毒素伤害（由你选择）。"
+							]
+						},
+						{
+							"ENG_name": "Strengthened Rot",
+							"name": "强化腐朽",
+							"type": "item",
+							"entries": [
+								"你的术士法术和术士特性造成的伤害无视对暗蚀和毒素伤害的{@variantrule 抗性|XPHB}。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Withering Aura",
+			"name": "枯萎灵气",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 4,
+			"className": "术士",
+			"classSource": "XPHB",
+			"subclassShortName": "亵渎者",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"当你使用你的{@classFeature 先天术法|术士|XPHB|1|XPHB}时，一股污化魔法的光环会充满以你为中心的15尺{@variantrule 光环 [效应区域]|XPHB|光环}，当你的{@classFeature 先天术法|术士|XPHB|1|XPHB}处于激活状态时，为你提供以下额外增益。",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 4,
+					"items": [
+						{
+							"ENG_name": "Defiling Shroud",
+							"name": "污化环绕",
+							"type": "item",
+							"entries": [
+								"当光环内的仇敌以攻击检定命中你时，你可以缩小该攻击对你造成的全部伤害。缩小值等于你的魅力调整值。"
+							]
+						},
+						{
+							"ENG_name": "Essence Siphon",
+							"name": "精华虹吸",
+							"type": "item",
+							"entries": [
+								"当一名仇敌在光环内死亡时，你将重获{@dice 1d4}术法点。一旦你使用了这个增益，在你再次使用{@classFeature 先天术法|术士|XPHB|1|XPHB}之前，你将无法以这种方式重获术法点。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Superior Defiler",
+			"name": "高阶亵渎者",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 4,
+			"className": "术士",
+			"classSource": "XPHB",
+			"subclassShortName": "亵渎者",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"你已完善了控制且引导污化魔法的能力，获得以下增益。",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 4,
+					"items": [
+						{
+							"ENG_name": "Fouled Soul",
+							"name": "腐化灵魂",
+							"type": "item",
+							"entries": [
+								"你对{@condition 中毒}和{@condition 力竭}状态具有{@variantrule 免疫|XPHB}。"
+							]
+						},
+						{
+							"ENG_name": "Furthered Defilement",
+							"name": "深度亵渎",
+							"type": "item",
+							"entries": [
+								"你的{@subclassFeature 枯萎灵气|术士|XPHB|亵渎者|XUA2025ApocalypticSubclasses|14|XUA2025ApocalypticSubclasses}的体型增加到30尺{@variantrule 光环 [效应区域]|XPHB|光环}。此外，敌人在你的灵气范围内无法恢复{@variantrule 生命值|XPHB}。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Sorcerer-King Patron",
+			"name": "术士-国王宗主",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 5,
+			"className": "魔契师",
+			"classSource": "XPHB",
+			"subclassShortName": "术士-国王短刃",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"你的契约源自一种类似半神或极其强大的魔法使用者的怪物般的暴君力量。通过你的契约，你作为这位暴君在世界中的先驱魔斧，引导他们的影响力和心灵扭曲的灵能力量。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "术士-国王法术|魔契师|XPHB|术士-国王短刃|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "暴君的先驱魔斧|魔契师|XPHB|术士-国王短刃|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses"
+				}
+			]
+		},
+		{
+			"ENG_name": "Sorcerer-King Spells",
+			"name": "术士-国王法术",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 5,
+			"className": "魔契师",
+			"classSource": "XPHB",
+			"subclassShortName": "术士-国王短刃",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"你雇主的魔法确保你总是预备着某些法术；每当你达到{@class 魔契师|XPHB}职业表格中指定的{@table 术士-国王法术|XUA2025ApocalypticSubclasses}等级时，你此后总是准备着列出的法术。",
+				{
+					"ENG_name": "Psionic Casting",
+					"name": "灵能施法",
+					"type": "entries",
+					"page": 5,
+					"entries": [
+						"当你从{@table 术士-国王法术|XUA2025ApocalypticSubclasses}表格中施放一个法术时，你可以无需言语或材料成分来施法，除非该法术会消耗材料成分或法术中指定了材料成分的花费。"
+					]
+				},
+				{
+					"ENG_name": "Sorcerer-King Spells",
+					"name": "术士-国王法术",
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2025ApocalypticSubclasses",
+					"page": 5
+				}
+			]
+		},
+		{
+			"ENG_name": "Tyrant's Herald",
+			"name": "暴君的先驱魔斧",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 5,
+			"className": "魔契师",
+			"classSource": "XPHB",
+			"subclassShortName": "术士-国王短刃",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"你获得以下增益。",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 5,
+					"items": [
+						{
+							"ENG_name": "Intimidating Presence",
+							"name": "威慑之姿",
+							"type": "item",
+							"entries": [
+								"如果你尚未获得{@skill 威吓|XPHB}技能的{@variantrule 熟练|XPHB}，则你将获得它。你还拥有{@skill 威吓|XPHB}的{@variantrule 专精|XPHB}。"
+							]
+						},
+						{
+							"ENG_name": "Voice of Tyranny",
+							"name": "暴君之声",
+							"type": "item",
+							"entries": [
+								"你可以不消耗法术位以{@variantrule 附赠动作|XPHB}施放{@spell 命令术|XPHB}。你可以如此做的次数等于你的魅力调整值（至少一次），且完成一次{@variantrule 长休|XPHB}后恢复所有已消耗的使用次数。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Decisive Edict",
+			"name": "果断法令",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 5,
+			"className": "魔契师",
+			"classSource": "XPHB",
+			"subclassShortName": "术士-国王短刃",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"你雇主的力量在你体内涌动，允许你重整旗鼓你的盟友且征服你的敌人。当你使用一个{@classFeature 契约魔法|魔契师|XPHB|1|XPHB}法术位施法时，你可以使亵渎之力在你周围30尺的{@variantrule 光环 [效应区域]|XPHB|光环}中爆发。对于你能在{@variantrule 光环 [效应区域]|XPHB|光环}中看见的每个生物，选择以下效应之一：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 5,
+					"items": [
+						{
+							"ENG_name": "Marshal",
+							"name": "执法官",
+							"type": "item",
+							"entries": [
+								"该生物在其下个回合结束前在攻击检定上具有{@variantrule 优势|XPHB}。"
+							]
+						},
+						{
+							"ENG_name": "Oppress",
+							"name": "压迫",
+							"type": "item",
+							"entries": [
+								"该生物必须成功通过对抗你法术豁免DC的感知豁免检定，否则将获得{@condition 恐慌|XPHB}状态直到其下一回合结束。"
+							]
+						}
+					]
+				},
+				"一旦你使用了此特性，在完成一次{@variantrule 短休|XPHB|短}或{@variantrule 长休|XPHB}前无法再次使用。当你使用{@classFeature 秘法回流|魔契师|XPHB|2|XPHB}时也会重获此特性的使用。"
+			]
+		},
+		{
+			"ENG_name": "Vindictive Rebuke",
+			"name": "复仇斥责",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 5,
+			"className": "魔契师",
+			"classSource": "XPHB",
+			"subclassShortName": "术士-国王短刃",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"你学会反击那些挑战你或你雇主力量的仇敌。当一个敌人用攻击检定命中你时，你可以采取一个{@variantrule 反应|XPHB}来迫使敌人重掷{@dice d20}，且敌人必须使用新的掷骰结果。如果这个{@variantrule 反应|XPHB}将攻击检定变为未命中，触发此效果的生物将受到等同于你{@class 魔契师|XPHB}等级的心灵伤害。",
+				"你能使用此特性的次数等同于你的魅力调整值（最少 1 次），你在完成一次{@variantrule 长休|XPHB}后重获所有消耗的次数。"
+			]
+		},
+		{
+			"ENG_name": "Absolute Tyranny",
+			"name": "绝对暴政",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 5,
+			"className": "魔契师",
+			"classSource": "XPHB",
+			"subclassShortName": "术士-国王短刃",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"你以绝对的信念挥舞着雇主的暴政力量。每当你施放{@spell 命令术|XPHB}时，你可以额外指定一个在该法术范围内的生物作为目标。此外，被你{@condition 恐慌|XPHB}的生物在对抗你施放的任何{@spell 命令术|XPHB}时自动豁免检定失败。"
+			]
+		}
+	],
+	"foundrySubclassFeature": [
+		{
+			"ENG_name": "Student of Preservation",
+			"name": "存护学生",
+			"source": "XUA2025ApocalypticSubclasses",
+			"className": "德鲁伊",
+			"classSource": "XPHB",
+			"subclassShortName": "存护",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 3,
+			"entryData": {
+				"toolProficiencies": [
+					{
+						"anyArtisansTool": 1
+					}
+				]
+			}
+		},
+		{
+			"ENG_name": "Combat Theatrics",
+			"name": "战斗表演",
+			"source": "XUA2025ApocalypticSubclasses",
+			"className": "战士",
+			"classSource": "XPHB",
+			"subclassShortName": "角斗士",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 3,
+			"entryData": {
+				"skillProficiencies": [
+					{
+						"choose": {
+							"from": [
+								"特技",
+								"运动",
+								"欺瞒",
+								"威吓",
+								"表演"
+							],
+							"count": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"ENG_name": "Superior Defiler",
+			"name": "高阶亵渎者",
+			"source": "XUA2025ApocalypticSubclasses",
+			"className": "术士",
+			"classSource": "XPHB",
+			"subclassShortName": "亵渎者",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 18,
+			"entryData": {
+				"conditionImmune": [
+					"中毒",
+					"力竭"
+				]
+			}
+		},
+		{
+			"ENG_name": "Tyrant's Herald",
+			"name": "暴君的先驱魔斧",
+			"source": "XUA2025ApocalypticSubclasses",
+			"className": "魔契师",
+			"classSource": "XPHB",
+			"subclassShortName": "术士-国王短刃",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 3,
+			"entryData": {
+				"skillProficiencies": [
+					{
+						"intimidation": true
+					}
+				],
+				"expertise": [
+					{
+						"intimidation": true
+					}
+				]
+			}
+		}
+	],
+	"table": [
+		{
+			"ENG_name": "Circle of Preservation Spells",
+			"name": "存护法术环",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 2,
+			"type": "table",
+			"colLabels": [
+				"德鲁伊等级",
+				"法术"
+			],
+			"colStyles": [
+				"col-3 text-center",
+				"col-9"
+			],
+			"rows": [
+				[
+					"3",
+					"{@spell 祝福术|XPHB}, {@spell 次级复原术|XPHB}, {@spell 防护毒素|XPHB}, {@spell 庇护术|XPHB}"
+				],
+				[
+					"5",
+					"{@spell 希望信标|XPHB}, {@spell 植物滋长|XPHB}"
+				],
+				[
+					"7",
+					"{@spell 生命灵光|XPHB}, {@spell 防死结界|XPHB}"
+				],
+				[
+					"9",
+					"{@spell 高等复原术|XPHB}, {@spell 圣居|XPHB}"
+				]
+			]
+		},
+		{
+			"ENG_name": "Defiler Spells",
+			"name": "亵渎者法术",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 4,
+			"type": "table",
+			"colLabels": [
+				"术士等级",
+				"法术"
+			],
+			"colStyles": [
+				"col-3 text-center",
+				"col-9"
+			],
+			"rows": [
+				[
+					"3",
+					"{@spell 目盲术/耳聋术|XPHB}, {@spell 致伤术|XPHB}, {@spell 衰弱射线|XPHB}, {@spell 致病射线|XPHB}"
+				],
+				[
+					"5",
+					"{@spell 降咒|XPHB}, {@spell 吸血鬼之触|XPHB}"
+				],
+				[
+					"7",
+					"{@spell 枯萎术|XPHB}, {@spell 幻景|XPHB}"
+				],
+				[
+					"9",
+					"{@spell 防活物护罩|XPHB}, {@spell 疫病术|XPHB}"
+				]
+			]
+		},
+		{
+			"ENG_name": "Sorcerer-King Spells",
+			"name": "术士-国王法术",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 5,
+			"type": "table",
+			"colLabels": [
+				"魔契师等级",
+				"法术"
+			],
+			"colStyles": [
+				"col-3 text-center",
+				"col-9"
+			],
+			"rows": [
+				[
+					"3",
+					"{@spell 命令术|XPHB}, {@spell 强令对决|XPHB}, {@spell 定身类人|XPHB}, {@spell 心灵尖刺|XPHB}, {@spell 激愤斩|XPHB}"
+				],
+				[
+					"5",
+					"{@spell 恐惧术|XPHB}, {@spell 短讯术|XPHB}"
+				],
+				[
+					"7",
+					"{@spell 强迫术|XPHB}, {@spell 惊惧斩|XPHB}"
+				],
+				[
+					"9",
+					"{@spell 支配类人|XPHB}, {@spell 突触静止|XPHB}"
+				]
+			]
+		}
+	],
+	"book": [
+		{
+			"ENG_name": "Unearthed Arcana 2025: Apocalyptic Subclasses",
+			"name": "破解奥秘2025：末日子职",
+			"id": "XUA2025ApocalypticSubclasses",
+			"source": "XUA2025ApocalypticSubclasses",
+			"group": "prerelease",
+			"cover": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/refs/heads/master/_img/XUA2025ApocalypticSubclasses/cover.webp"
+			},
+			"published": "2025-08-21",
+			"author": "威世智",
+			"contents": [
+				{
+					"ENG_name": "Unearthed Arcana 2025: Apocalyptic Subclasses",
+					"name": "破解奥秘2025：末日子职",
+					"headers": [
+						"这里有什么",
+						"子职",
+						{
+							"header": "存护之环（德鲁伊）",
+							"depth": 1
+						},
+						{
+							"header": "角斗士（战士）",
+							"depth": 1
+						},
+						{
+							"header": "亵渎法术（术士）",
+							"depth": 1
+						},
+						{
+							"header": "术士-国王宗主（魔契师）",
+							"depth": 1
+						}
+					]
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "XUA2025ApocalypticSubclasses",
+			"source": "XUA2025ApocalypticSubclasses",
+			"data": [
+				{
+					"ENG_name": "Unearthed Arcana 2025: Apocalyptic Subclasses",
+					"name": "破解奥秘2025：末日子职",
+					"type": "section",
+					"page": 1,
+					"entries": [
+						"本测试文档是系列{@i 破解奥秘}文章的一部分，这些文章展示了为即将推出的产品设计的素材。这里的素材使用了{@book 2024玩家手册|XPHB}中的规则。",
+						{
+							"ENG_name": "What's Inside",
+							"name": "这里有什么",
+							"type": "section",
+							"page": 1,
+							"entries": [
+								"本文档为{@class 德鲁伊|XPHB}（{@class 德鲁伊|XPHB|存护之环|存护|XUA2025ApocalypticSubclasses}）、{@class 战士|XPHB}（{@class 战士|XPHB|角斗士|角斗士|XUA2025ApocalypticSubclasses}）、{@class 术士|XPHB}（{@class 术士|XPHB|亵渎法术|亵渎|XUA2025ApocalypticSubclasses}）和{@class 魔契师|XPHB}（{@class 魔契师|XPHB|术士-国王宗主|术士-国王短刃|XUA2025ApocalypticSubclasses}）提供了四个新的子职。",
+								{
+									"ENG_name": "This Is Playtest Material",
+									"name": "本材料为游玩测试内容",
+									"type": "inset",
+									"page": 1,
+									"entries": [
+										"本文旨在进行游戏测试和反馈。这里的选项是实验性的且处于草稿形态。它们并非游戏的官方部分。您的反馈将协助我们决定是否将其采纳为官方。",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"page": 1,
+											"items": [
+												{
+													"ENG_name": "How to Playtest This UA",
+													"name": "如何游玩测试本破解奥秘",
+													"type": "item",
+													"entries": [
+														"我们邀请您在游戏中尝试这些材质。要使用这些材质，您可以将它们融入您的战役中，或者进行一次或多次特殊的试玩测试会话。对于这样的会话，您可以创建自己的冒险，或者使用来自类似{@adventure 来自无尽阶梯的委托集|QftIS}这样的来源的短冒险。"
+													]
+												},
+												{
+													"ENG_name": "Power Level",
+													"name": "威力水平",
+													"type": "item",
+													"entries": [
+														"你在这里阅读的角色选项可能比{@book 2024玩家手册|XPHB}中的选项威力更强或更弱。如果一个设计在游戏测试中存活下来，我们会在发布前将其威力调整到理想水平。这意味着一个选项在其最终形态中可能威力更强或更弱。"
+													]
+												},
+												{
+													"ENG_name": "Feedback",
+													"name": "反馈",
+													"type": "item",
+													"entries": [
+														"您就这份材质向我们提供反馈的最佳方式是通过我们将在D&D Beyond上发布的调查。如果我们使这份材质成为官方版本，它将根据您的反馈进行完善，然后会出现在一本D&D书中。",
+														"对本文件提供反馈是您协助塑造D&D未来的一种方式！"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ENG_name": "Subclasses",
+							"name": "子职",
+							"type": "section",
+							"page": 1,
+							"entries": [
+								"以下部分展示以下子职：{@class 德鲁伊|XPHB|存护之环|存护|XUA2025ApocalypticSubclasses}（德鲁伊：存护之环）、{@class 战士|XPHB|角斗士|角斗士|XUA2025ApocalypticSubclasses}（战士：角斗士）、{@class 术士|XPHB|亵渎法术|亵渎|XUA2025ApocalypticSubclasses}（术士：亵渎法术），以及{@class 魔契师|XPHB|术士-国王宗主|术士-国王短刃|XUA2025ApocalypticSubclasses}（魔契师：术士-国王宗主）。",
+								"这些子职从下一页开始呈现。",
+								{
+									"ENG_name": "Circle of Preservation (Druid)",
+									"name": "存护之环（德鲁伊）",
+									"type": "entries",
+									"page": 2,
+									"entries": [
+										"{@i 佑护自然且医疗术世界}",
+										{
+											"ENG_name": "Preservation",
+											"name": "存护",
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025ApocalypticSubclasses",
+											"className": "德鲁伊",
+											"classSource": "XPHB",
+											"page": 2
+										}
+									]
+								},
+								{
+									"ENG_name": "Gladiator (Fighter)",
+									"name": "角斗士（战士）",
+									"type": "entries",
+									"page": 3,
+									"entries": [
+										"{@i 大师残暴且鲜血运动}",
+										{
+											"ENG_name": "Gladiator",
+											"name": "角斗士",
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025ApocalypticSubclasses",
+											"className": "战士",
+											"classSource": "XPHB",
+											"page": 3
+										}
+									]
+								},
+								{
+									"ENG_name": "Defiled Sorcery (Sorcerer)",
+									"name": "亵渎法术（术士）",
+									"type": "entries",
+									"page": 4,
+									"entries": [
+										"{@i 生命虹吸转化为灾祸法术}",
+										{
+											"ENG_name": "Design Note: Hit Point Dice",
+											"name": "设计笔记：生命值骰",
+											"type": "inset",
+											"page": 4,
+											"entries": [
+												"{@variantrule 怪物|XPHB|怪物}，如同{@variantrule 玩家角色|XPHB|玩家角色}，拥有{@variantrule 生命值骰|XPHB}。怪物的{@variantrule 生命值骰|XPHB|生命骰}的体型和数值通常会在怪物的{@variantrule 数据卡|XPHB}中作为怪物中等{@variantrule 生命值|XPHB}后的括号内容标注。任何生物\u2014\u2014包括{@variantrule 玩家角色|XPHB|角色}和{@variantrule 怪物|XPHB|怪物}\u2014\u2014都可以在{@variantrule 生命值骰|XPHB|生命骰}期间消耗{@variantrule 短休|XPHB}来恢复{@variantrule 生命值|XPHB}。",
+												"当首次遭遇一个{@variantrule 怪物|XPHB}时，假设它尚未消耗任何{@variantrule 生命值骰|XPHB|生命骰}。"
+											]
+										},
+										{
+											"ENG_name": "Defiled",
+											"name": "亵渎者",
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025ApocalypticSubclasses",
+											"className": "术士",
+											"classSource": "XPHB",
+											"page": 4
+										}
+									]
+								},
+								{
+									"ENG_name": "Sorcerer-King Patron (Warlock)",
+									"name": "术士-国王宗主（魔契师）",
+									"type": "entries",
+									"page": 5,
+									"entries": [
+										"{@i 统治者先驱魔斧的暴政力量}",
+										{
+											"ENG_name": "Sorcerer-King",
+											"name": "术士-国王短刃",
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025ApocalypticSubclasses",
+											"className": "魔契师",
+											"classSource": "XPHB",
+											"page": 5
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

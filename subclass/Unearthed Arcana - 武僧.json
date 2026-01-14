@@ -1,0 +1,295 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAMonk",
+				"abbreviation": "UAMk",
+				"full": "破解奥秘：武僧",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2016/dnd/downloads/M_2016_UAMonk1_12_12WKWT.pdf",
+				"dateReleased": "2016-12-12"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1729637619,
+		"_dateLastModifiedHash": "bda5689154"
+	},
+	"subclass": [
+		{
+			"ENG_name": "Way of the Kensei (UA)",
+			"name": "剑圣之道（UA）",
+			"shortName": "剑圣（UA）",
+			"source": "UAMonk",
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"page": 1,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"剑圣宗|{!@ {!@ #UA}}||剑圣（UA）|UAMonk|3",
+				"人剑合一|{!@ {!@ #UA}}||剑圣（UA）|UAMonk|6",
+				"锋锐剑影|{!@ {!@ #UA}}||剑圣（UA）|UAMonk|11",
+				"精妙剑法|{!@ {!@ #UA}}||剑圣（UA）|UAMonk|17"
+			]
+		},
+		{
+			"ENG_name": "Way of Tranquility (UA)",
+			"name": "宁神境之道（UA）",
+			"shortName": "宁神境（UA）",
+			"source": "UAMonk",
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"page": 1,
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"_": [
+								"庇护术"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"subclassFeatures": [
+				"宁神境|{!@ {!@ #UA}}||宁神境（UA）|UAMonk|3",
+				"和平使节|{!@ {!@ #UA}}||宁神境（UA）|UAMonk|6",
+				"熄灭战争之火|{!@ {!@ #UA}}||宁神境（UA）|UAMonk|11",
+				"温柔灵魂之怒|{!@ {!@ #UA}}||宁神境（UA）|UAMonk|17"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"ENG_name": "Way of the Kensei",
+			"name": "剑圣宗",
+			"source": "UAMonk",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "剑圣（UA）",
+			"subclassSource": "UAMonk",
+			"level": 3,
+			"entries": [
+				"剑圣宗的武僧们不懈地训练他们的武器，以至于武器成为身体的延伸。剑圣看待武器的方式，就像画家看待画笔或作者看待羊皮纸、墨水和羽毛笔一样。剑或弓是用来表达武艺之美与优雅的工具。这种精通使剑圣成为无与伦比的武者，而这只是强烈奉献、练习和研究的附带效应。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "剑圣之途|{!@ {!@ #UA}}||剑圣（UA）|UAMonk|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Path of the Kensei",
+			"name": "剑圣之途",
+			"source": "UAMonk",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "剑圣（UA）",
+			"subclassSource": "UAMonk",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"当你在3级选择此传统时，你将学会将武艺知识扩展到武僧的标准数列武器之外。",
+				"你获得以下增益效果：",
+				{
+					"type": "list",
+					"items": [
+						"你获得自选三种军用武器的熟练项。若你对某军用武器具有熟练项，则该武器对你而言视为剑圣武器。",
+						"每当你挥舞一件剑圣武器时，你可以选择使用敏捷或力量来进行该武器的攻击和伤害掷骰，且你可以选择用你的武艺伤害骰来替代该武器的伤害骰。",
+						"当你在你的回合使用{@action 攻击}动作且用剑圣武器命中一个目标时，你可以使用一个附赠动作狠揍该目标，对该目标以及你作为{@action 攻击}一部分用该武器命中的任何其他目标造成额外的{@damage 1d4}钝击伤害。",
+						"若你在回合内以{@action 攻击}动作的部分进行徒手打击且持有一把剑圣武器，你可以使用该武器防御自身。在你未处于{@condition 失能}状态且武器在手时，你获得+2的AC加值直到你的下个回合开始。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "One with the Blade",
+			"name": "人剑合一",
+			"source": "UAMonk",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "剑圣（UA）",
+			"subclassSource": "UAMonk",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"在6级时，你将气延伸到所持武器中，获得以下增益：",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Magic Weapons",
+							"name": "魔法武器",
+							"type": "entries",
+							"entries": [
+								"攻击对非魔法攻击或伤害具有抗性或免疫的目标时，你的剑圣武器攻击视为魔法攻击。"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Precise Strike",
+							"name": "精准打击",
+							"type": "entries",
+							"entries": [
+								"你可以专注于战斗中一个单一目标来理解并克服其防御设施。作为一个附赠动作，选择你能看见的30尺内的一个生物。你在当前回合内对该生物的下一次武器攻击检定将添加双倍的熟练加值，而非正常的熟练加值。一旦你使用了这个属性，直到你完成一次短休或长休前都无法再次使用。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Sharpen the Blade",
+			"name": "锋锐剑影",
+			"source": "UAMonk",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "剑圣（UA）",
+			"subclassSource": "UAMonk",
+			"level": 11,
+			"header": 2,
+			"consumes": {
+				"ENG_name": "Ki",
+				"name": "Ki",
+				"amount": 3
+			},
+			"entries": [
+				"在11级时，你获得用气强化武器的能力。以一个附赠动作，你可以消耗最多3点气点来为你接触的武器赋予攻击和伤害掷骰加值，当你持握该武器时生效。加值等于你消耗的气点数值。此加值持续1分钟。"
+			]
+		},
+		{
+			"ENG_name": "Unerring Accuracy",
+			"name": "精妙剑法",
+			"source": "UAMonk",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "剑圣（UA）",
+			"subclassSource": "UAMonk",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"在17级时，你对武器的精通赋予你非凡的准确性。在你的每个回合中，你可以重掷一次未命中的武器攻击掷骰。"
+			]
+		},
+		{
+			"ENG_name": "Way of Tranquility",
+			"name": "宁神境",
+			"source": "UAMonk",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "宁神境（UA）",
+			"subclassSource": "UAMonk",
+			"level": 3,
+			"entries": [
+				"宁神境的武僧将暴力视为绝境反扑。他们使用交涉、命流且理解来解决冲突。但如果被逼迫，他们是能够结束那些拒绝聆听原因的残忍或不义之徒的武者。冒险时，这些武僧是出色的外交官。他们也熟习治疗艺术，并能在令人生畏的敌人面前保护盟友。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "宁神境之路|{!@ {!@ #UA}}||宁神境（UA）|UAMonk|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "治愈之手|{!@ {!@ #UA}}||宁神境（UA）|UAMonk|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Healing Hands",
+			"name": "治愈之手",
+			"source": "UAMonk",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "宁神境（UA）",
+			"subclassSource": "UAMonk",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"你的神秘接触可以治愈伤口。从3级开始，你拥有一个魔法治疗法力池，在你进行长休时会恢复。通过这个法力池，你可以复原总计相当于武僧等级×10的生命值。",
+				"作为一个动作，你可以接触一个生物并从水池中汲取法力来为该生物复原一定数量的生命值，最多不超过水池中剩余的最大数量。",
+				"你可以不治疗该生物，而是从你的治愈水池中消耗5点生命值来治愈目标的一种疾病或中和影响它的一种毒素。你可以通过单次使用治愈之手来治愈多种疾病并中和多种毒药，为每一种分别消耗生命值。",
+				"当你使用疾风连击时，你可以将其中一次徒手打击替换为使用此特性。",
+				"该职业特性对不死生物和构装生物无效。"
+			]
+		},
+		{
+			"ENG_name": "Path of Tranquility",
+			"name": "宁神境之路",
+			"source": "UAMonk",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "宁神境（UA）",
+			"subclassSource": "UAMonk",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"当你在3级选择此传统时，你甚至能在最混乱的情况下成为一片无风之岛。通过此特性，你可以对自己施放{@spell 庇护术}法术，无需材料成分，且持续最多8小时。其豁免检定DC等于8 + 你的熟练加值 + 你的感知调整值。一个生物若豁免成功，则对此效应免疫1小时。",
+				"一旦你以这种方式施放该法术，你在1分钟内无法再次施放。"
+			]
+		},
+		{
+			"ENG_name": "Emissary of Peace",
+			"name": "和平使节",
+			"source": "UAMonk",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "宁神境（UA）",
+			"subclassSource": "UAMonk",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"在6级时，你获得平息暴力局势的能力。每当你进行魅力检定以平息暴力情绪或倡导和平时，你在掷骰时具有优势。你必须真诚地提出这一请求；如果你的检定适用于{@skill 欺瞒}或{@skill 威吓}技能的熟练项，则不适用此效果。",
+				"你还获得{@skill 表演}或{@skill 游说}技能的熟练项（选择一项）。"
+			]
+		},
+		{
+			"ENG_name": "Douse the Flames of War",
+			"name": "熄灭战争之火",
+			"source": "UAMonk",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "宁神境（UA）",
+			"subclassSource": "UAMonk",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"在11级时，你获得暂时熄灭一个生物的暴力冲动的能力。作为一个动作，你可以接触一个生物，且它必须进行一次DC等于8+你的熟练加值+你的感知调整值的感知豁免检定。如果目标失去任何生命值，则自动成功。如果目标豁免失败，它在1分钟内不能攻击。在那段时间内，它也不能施放造成伤害或迫使他人进行豁免检定的法术。",
+				"如果目标被攻击、受到伤害、被迫进行豁免检定或目睹其盟友发生上述任何情况，此效应结束。"
+			]
+		},
+		{
+			"ENG_name": "Anger of a Gentle Soul",
+			"name": "温柔灵魂之怒",
+			"source": "UAMonk",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "宁神境（UA）",
+			"subclassSource": "UAMonk",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"在17级时，你获得向击倒他人的目标复仇的能力。如果你看到一个生物将另一个生物的生命值降至0，你可以使用你的反应来获得对所有伤害掷骰对抗攻击者的附赠动作，直到你的下个回合结束。该加值等于你的武僧等级。",
+				"一旦你使用了这个属性，在完成一次短休或长休前无法再次使用。"
+			]
+		}
+	]
+}

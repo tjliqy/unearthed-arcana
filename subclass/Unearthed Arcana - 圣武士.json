@@ -1,0 +1,581 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAPaladin",
+				"abbreviation": "UAP",
+				"full": "破解奥秘：圣武士",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2016/dnd/downloads/UAPaladin_SO_20161219_1.pdf",
+				"dateReleased": "2016-12-19"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1729637619,
+		"_dateLastModifiedHash": "7f75e0bee9"
+	},
+	"subclass": [
+		{
+			"ENG_name": "Oath of Conquest (UA)",
+			"name": "征服之誓（UA）",
+			"shortName": "征服（UA）",
+			"source": "UAPaladin",
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"page": 1,
+			"isReprinted": true,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"黯冰狱铠",
+							"命令术"
+						],
+						"5": [
+							"定身类人",
+							"灵体武器"
+						],
+						"9": [
+							"降咒",
+							"恐惧术"
+						],
+						"13": [
+							"枯萎术",
+							"支配野兽"
+						],
+						"17": [
+							"支配类人",
+							"疫病虫群"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"征服之誓|{!@ {!@ #UA}}||征服（UA）|UAPaladin|3",
+				"征服灵光|{!@ {!@ #UA}}||征服（UA）|UAPaladin|7",
+				"不屈精魄|{!@ {!@ #UA}}||征服（UA）|UAPaladin|15",
+				"不移胜者|{!@ {!@ #UA}}||征服（UA）|UAPaladin|20"
+			]
+		},
+		{
+			"ENG_name": "Oath of Treachery (UA)",
+			"name": "背信弃义之誓（UA）",
+			"shortName": "背信弃义（UA）",
+			"source": "UAPaladin",
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"page": 2,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"魅惑类人",
+							"脚底抹油"
+						],
+						"5": [
+							"隐形术",
+							"镜影术"
+						],
+						"9": [
+							"气化形体",
+							"加速术"
+						],
+						"13": [
+							"困惑术",
+							"高等隐形术"
+						],
+						"17": [
+							"支配类人",
+							"穿墙术"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"背信弃义之誓|{!@ {!@ #UA}}||背信弃义（UA）|UAPaladin|3",
+				"背信弃义光环|{!@ {!@ #UA}}||背信弃义（UA）|UAPaladin|7",
+				"黑暗卫士的逃脱|{!@ {!@ #UA}}||背信弃义（UA）|UAPaladin|15",
+				"欺诈图标|{!@ {!@ #UA}}||背信弃义（UA）|UAPaladin|20"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"ENG_name": "Oath of Conquest",
+			"name": "征服之誓",
+			"source": "UAPaladin",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "征服（UA）",
+			"subclassSource": "UAPaladin",
+			"level": 3,
+			"entries": [
+				"征服之誓召唤那些在战斗中寻求荣耀并渴望征服敌人的圣武士。对这些圣武士而言，仅仅建立秩序是不够的。他们必须镇压混乱的力量。这些被称为暴政骑士或铁腕者的誓约者们，会组成服务于战争之神或严苛力量哲学的噩兆骑士团。其中部分圣武士甚至与九层地狱的势力勾结\u2014\u2014阿弗纳斯的督军、大魔鬼贝尔就将许多被称为地狱骑士的征服誓约者视为最狂热的支持者。地狱骑士们用堕落敌人的战利品装饰护甲，作为对胆敢违抗他们及其领主法令者的严厉警告。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "征服之信条|{!@ {!@ #UA}}||征服（UA）|UAPaladin|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "圣誓法术|{!@ {!@ #UA}}||征服（UA）|UAPaladin|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "引导神力|{!@ {!@ #UA}}||征服（UA）|UAPaladin|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Channel Divinity",
+			"name": "引导神力",
+			"source": "UAPaladin",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "征服（UA）",
+			"subclassSource": "UAPaladin",
+			"level": 3,
+			"header": 1,
+			"consumes": {
+				"ENG_name": "Channel Divinity",
+				"name": "引导神力"
+			},
+			"entries": [
+				"在第3级选择本誓言时，你会获得以下两种引导神力选项。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "征服打击|{!@ {!@ #UA}}||征服（UA）|UAPaladin|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "导引打击|{!@ {!@ #UA}}||征服（UA）|UAPaladin|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Conquering Strike",
+			"name": "征服打击",
+			"source": "UAPaladin",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "征服（UA）",
+			"subclassSource": "UAPaladin",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"你可以使用你的引导神力来粉碎敌人的意志。当你以近战武器攻击命中一个生物作为{@action 攻击}动作的一部分时，你也可以使用你的引导神力迫使目标进行一次感知豁免检定。豁免失败时，目标会对你陷入{@condition 恐慌}状态1分钟。该{@condition 恐慌}的生物可以在其每回合结束时重复此豁免检定，成功时终止对其自身的效应。"
+			]
+		},
+		{
+			"ENG_name": "Guided Strike",
+			"name": "导引打击",
+			"source": "UAPaladin",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "征服（UA）",
+			"subclassSource": "UAPaladin",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"你在进行攻击检定时，可以使用引导神力令该次检定获得+10加值。你可以在看到掷骰结果后DM公布是否命中前，决定是否使用该特性。"
+			]
+		},
+		{
+			"ENG_name": "Oath Spells",
+			"name": "圣誓法术",
+			"source": "UAPaladin",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "征服（UA）",
+			"subclassSource": "UAPaladin",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"你会获得以下对应级别的圣誓法术。",
+				{
+					"type": "table",
+					"caption": "征服之誓法术",
+					"colLabels": [
+						"圣武士等级",
+						"法术"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell 黯冰狱铠}, {@spell 命令术}"
+						],
+						[
+							"5th",
+							"{@spell 定身类人}, {@spell 灵体武器}"
+						],
+						[
+							"9th",
+							"{@spell 降咒}, {@spell 恐惧术}"
+						],
+						[
+							"13th",
+							"{@spell 枯萎术}, {@spell 支配野兽}"
+						],
+						[
+							"17th",
+							"{@spell 支配类人}, {@spell 疫病虫群}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Tenets of Conquest",
+			"name": "征服之信条",
+			"source": "UAPaladin",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "征服（UA）",
+			"subclassSource": "UAPaladin",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"立下此誓言的圣武士会将征服之信条烧灼在上臂。地狱骑士的誓言以{@language 炼狱语}符文显现，这是对九狱领主誓言的残酷提醒。",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Douse the Flame of Hope",
+							"name": "掐灭希望",
+							"type": "entries",
+							"entries": [
+								"仅仅在战斗中击败敌人是不够的。你的胜利必须如此压倒性，以至于敌人的战斗意志永远粉碎。一把剑可以终结生命。恐惧术可以终结一个帝国。"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Rule with an Iron Fist",
+							"name": "铁腕统治",
+							"type": "entries",
+							"entries": [
+								"一旦你完成了征服，不要容忍任何异议。你说出的话就是法律。遵循的人会被偏爱。不服从的人则会受到惩罚，以儆效尤。"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Strength Above All",
+							"name": "力量至上",
+							"type": "entries",
+							"entries": [
+								"你会一直统治下去，直到更强的势力兴起。到那时，你必须变得更强并面对挑战，否则就迎来自己的毁灭。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Aura of Conquest",
+			"name": "征服灵光",
+			"source": "UAPaladin",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "征服（UA）",
+			"subclassSource": "UAPaladin",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"从7级开始，当你未处于{@condition 失能}状态时，你会散发出一股凶恶灵光。该灵光包括你的空间，从你向各个方向延伸10尺，且会被全身掩护阻挡。灵光范围内的任何敌人对抗{@condition 恐慌}状态的豁免检定具有劣势。",
+				"第18级起，该灵光的作用范围扩展至30尺。"
+			]
+		},
+		{
+			"ENG_name": "Implacable Spirit",
+			"name": "不屈精魄",
+			"source": "UAPaladin",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "征服（UA）",
+			"subclassSource": "UAPaladin",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"当你达到15级时，你将不再会被{@condition 魅惑}。"
+			]
+		},
+		{
+			"ENG_name": "Invincible Conqueror",
+			"name": "不移胜者",
+			"source": "UAPaladin",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "征服（UA）",
+			"subclassSource": "UAPaladin",
+			"level": 20,
+			"header": 2,
+			"entries": [
+				"第20级时，你得到驾驭特异武艺的能力。以一个动作，你可以魔法性的变成征服的化身，获得下述的增益，持续1分钟：",
+				{
+					"type": "list",
+					"items": [
+						"你具有所有伤害的抗性。",
+						"当你在你的回合进行{@action 攻击}动作时，你可以进行一次额外的攻击，作为该动作的一部分。",
+						"你的近战武器攻击在掷骰19或20时造成重击。"
+					]
+				},
+				"必须完成一次长休才能再次使用该特性。"
+			]
+		},
+		{
+			"ENG_name": "Oath of Treachery",
+			"name": "背信弃义之誓",
+			"source": "UAPaladin",
+			"page": 2,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "背信弃义（UA）",
+			"subclassSource": "UAPaladin",
+			"level": 3,
+			"entries": [
+				"背信弃义之誓是那些背弃其他誓约或只关心自身法力与求生的圣武者所遵循的路途。这些渎神武者通常被称为黑暗卫士，他们只忠于自己。任何绝望到愿意追随这些圣武士的人之所以这么做，是因为尽管欺诈成性，这些圣武士却掌握着强大的命令术力量。那些追随他们却未沦为背信弃义牺牲品的人，希望能肆意施暴并积累巨额宝藏。许多这类圣武士会向恶魔领主致敬，尤其是格拉兹特和奥喀斯。即便是地狱领主也不愿与这些混沌的冠军结盟，但有时巴尔泽布和格莱西亚会在黑暗卫士的双重欺诈与背信弃义中找到志同道合的精魄。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "背信弃义教义|{!@ {!@ #UA}}||背信弃义（UA）|UAPaladin|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "圣誓法术|{!@ {!@ #UA}}||背信弃义（UA）|UAPaladin|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "引导神力|{!@ {!@ #UA}}||背信弃义（UA）|UAPaladin|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Channel Divinity",
+			"name": "引导神力",
+			"source": "UAPaladin",
+			"page": 2,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "背信弃义（UA）",
+			"subclassSource": "UAPaladin",
+			"level": 3,
+			"header": 1,
+			"consumes": {
+				"ENG_name": "Channel Divinity",
+				"name": "引导神力"
+			},
+			"entries": [
+				"在第3级选择本誓言时，你会获得以下两种引导神力选项。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "召唤复制体|{!@ {!@ #UA}}||背信弃义（UA）|UAPaladin|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "毒素打击|{!@ {!@ #UA}}||背信弃义（UA）|UAPaladin|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Conjure Duplicate",
+			"name": "召唤复制体",
+			"source": "UAPaladin",
+			"page": 2,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "背信弃义（UA）",
+			"subclassSource": "UAPaladin",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"以一个动作，你创造一个持续1分钟或直到你失去{@status 专注}（如同你正{@status 专注||专注于}一个法术）的自身视觉幻觉。该幻觉出现在你能看见的30尺内一个未占据空间中。该幻觉看起来与你完全相同；它是无声的；它是你的体型，无实质，不占据其空间；且它不受攻击和伤害影响。在你的回合以一个附赠动作，你可以将该幻觉移动至多30尺至一个你能看见的空间，但该幻觉必须保持在距离你120尺内。",
+				"在持续时间内，你可以如同身处幻觉的空间一般施法，但你必须使用自己的感官。此外，当你和你的幻觉都在一个能看到该幻觉的生物5尺范围内时，你对那个生物的攻击检定具有优势，因为该幻觉是如此诡异。"
+			]
+		},
+		{
+			"ENG_name": "Oath Spells",
+			"name": "圣誓法术",
+			"source": "UAPaladin",
+			"page": 2,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "背信弃义（UA）",
+			"subclassSource": "UAPaladin",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"你会获得以下对应级别的圣誓法术。",
+				{
+					"type": "table",
+					"caption": "背信弃义之誓法术",
+					"colLabels": [
+						"圣武士等级",
+						"法术"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell 魅惑类人}, {@spell 脚底抹油}"
+						],
+						[
+							"5th",
+							"{@spell 隐形术}, {@spell 镜影术}"
+						],
+						[
+							"9th",
+							"{@spell 气化形体}, {@spell 加速术}"
+						],
+						[
+							"13th",
+							"{@spell 困惑术}, {@spell 高等隐形术}"
+						],
+						[
+							"17th",
+							"{@spell 支配类人}, {@spell 穿墙术}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Poison Strike",
+			"name": "毒素打击",
+			"source": "UAPaladin",
+			"page": 2,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "背信弃义（UA）",
+			"subclassSource": "UAPaladin",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"你可以使用引导神力使一件武器更具致命性。以一个附赠动作，你接触一件武器或弹药碎片并在其上召唤一种特殊毒素。该毒素持续1分钟。下次你使用该武器或弹药命中目标时，目标会在攻击后立即受到毒素伤害。毒素伤害等于{@dice 2d10} + 你的圣武士等级，或20 + 你的圣武士等级（若你在攻击检定中具有优势）。"
+			]
+		},
+		{
+			"ENG_name": "Tenets of Treachery",
+			"name": "背信弃义教义",
+			"source": "UAPaladin",
+			"page": 2,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "背信弃义（UA）",
+			"subclassSource": "UAPaladin",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"一位信奉背信弃义之誓的圣武士不效忠于任何人。这一骑士信条没有教义，因为它缺乏任何实质内容。那些不幸与黑暗卫士有密切接触的人观察到，黑暗卫士最关心的是法力和安全，尤其是如果这两者都能以牺牲他人为代价获得的话。"
+			]
+		},
+		{
+			"ENG_name": "Aura of Treachery",
+			"name": "背信弃义光环",
+			"source": "UAPaladin",
+			"page": 2,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "背信弃义（UA）",
+			"subclassSource": "UAPaladin",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"从7环开始，你散发出一股争斗光环，为你提供以下增益。",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Cull the Herd",
+							"name": "剔除兽群",
+							"type": "entries",
+							"entries": [
+								"你对任何5尺内有至少一个盟友的生物进行近战攻击时具有优势。"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Treacherous Strike",
+							"name": "背叛打击",
+							"type": "entries",
+							"entries": [
+								"如果一个生物在距离你5尺范围内用近战攻击未命中你，你可以使用你的反应迫使攻击手重新掷骰该攻击，目标改为攻击手5尺范围内的另一个你选择的生物。如果攻击手免疫{@condition 魅惑}状态，则该能力失败并被浪费。",
+								"你可以使用此属性三次。完成短休或长休后恢复已消耗的使用次数。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Blackguard's Escape",
+			"name": "黑暗卫士的逃脱",
+			"source": "UAPaladin",
+			"page": 2,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "背信弃义（UA）",
+			"subclassSource": "UAPaladin",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"在15级时，你拥有从敌人面前开溜的能力。当你被攻击命中后，你可以立即使用你的反应变为{@condition 隐形}并传送至多60尺到你能看见的位置。你保持{@condition 隐形}状态直到你的下个回合结束或直到你攻击、造成伤害或迫使一个生物进行豁免检定。一旦你使用了这个特性，你必须完成一次短休或长休才能再次使用它。"
+			]
+		},
+		{
+			"ENG_name": "Icon of Deceit",
+			"name": "欺诈图标",
+			"source": "UAPaladin",
+			"page": 2,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "PHB",
+			"subclassShortName": "背信弃义（UA）",
+			"subclassSource": "UAPaladin",
+			"level": 20,
+			"header": 2,
+			"entries": [
+				"在20级时，你获得散发背信弃义情绪的能力。以一个动作，你可以魔法般地成为欺诈化身，获得以下增益1分钟：",
+				{
+					"type": "list",
+					"items": [
+						"你处于{@condition 隐形}状态。",
+						"如果一个生物在其回合对你造成伤害，它必须成功通过一次感知豁免检定（DC等同于你的法术豁免DC），否则你将控制它的下一个动作，前提是你在该动作发生时未处于{@condition 失能}状态。如果该生物免疫被{@condition 魅惑}，则自动通过豁免。",
+						"若你在攻击检定中具有优势，你将在伤害掷骰中获得等于你圣武士等级的加值。"
+					]
+				},
+				"必须完成一次长休才能再次使用该特性。"
+			]
+		}
+	]
+}

@@ -1,0 +1,1291 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAArtificer",
+				"abbreviation": "UAA",
+				"full": "破解奥秘：奇械师",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2016/dnd/downloads/1_UA_Artificer_20170109.pdf",
+				"dateReleased": "2017-01-09"
+			}
+		],
+		"dependencies": {
+			"classFeature": [
+				"UAClassFeatureVariants"
+			]
+		},
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1729637619,
+		"_dateLastModifiedHash": "664abb191a"
+	},
+	"class": [
+		{
+			"ENG_name": "Artificer",
+			"name": "奇械师",
+			"source": "UAArtificer",
+			"page": 1,
+			"isReprinted": true,
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"con",
+				"int"
+			],
+			"spellcastingAbility": "int",
+			"casterProgression": "1/3",
+			"spellsKnownProgression": [
+				0,
+				0,
+				3,
+				4,
+				4,
+				4,
+				5,
+				6,
+				6,
+				7,
+				8,
+				8,
+				9,
+				10,
+				10,
+				11,
+				11,
+				11,
+				12,
+				13
+			],
+			"classSpells": [
+				"援助术|phb",
+				"警报术|phb",
+				"变身术|phb",
+				"秘法眼|phb",
+				"秘法锁|phb",
+				"闪现术|phb",
+				"朦胧术|phb",
+				"不灭明焰|phb",
+				"疗伤术|phb",
+				"黑暗视觉|phb",
+				"防死结界|phb",
+				"易容术|phb",
+				"强化属性|phb",
+				"变巨/缩小术|phb",
+				"脚底抹油|phb",
+				"鬼斧神工|phb",
+				"虚假生命|phb",
+				"飞行术|phb",
+				"行动自如|phb",
+				"气化形体|phb",
+				"守卫刻文|phb",
+				"加速术|phb",
+				"隐形术|phb",
+				"跳跃术|phb",
+				"李欧蒙秘藏箱|phb",
+				"次级复原术|phb",
+				"大步奔行|phb",
+				"魔化武器|phb",
+				"魔邓肯忠犬|phb",
+				"魔邓肯私人密室|phb",
+				"欧提路克弹力法球|phb",
+				"防护能量|phb",
+				"防护毒素|phb",
+				"回生术|phb",
+				"魔绳术|phb",
+				"庇护术|phb",
+				"虔诚护盾|phb",
+				"蛛行术|phb",
+				"塑石术|phb",
+				"石肤术|phb",
+				"水下呼吸|phb",
+				"水上行走|phb"
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium"
+				],
+				"weapons": [
+					"简易"
+				],
+				"tools": [
+					"{@item 盗贼工具|phb}",
+					"{@item 修补工具|phb}",
+					"一种你自选的{@item 工匠工具|phb}"
+				],
+				"toolProficiencies": [
+					{
+						"thieves' tools": true,
+						"tinker's tools": true,
+						"anyArtisansTool": 1
+					}
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"arcana",
+								"deception",
+								"history",
+								"investigation",
+								"medicine",
+								"nature",
+								"religion",
+								"sleight of hand"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) 一把{@item 手斧|phb}和一把{@item 轻锤|phb}或 (b) 任意二件{@filter 简易武器|items|source=phb|category=基础|type=简易武器}",
+					"一把{@item 轻弩|phb}和{@item 弩矢(20)|phb|20支弩箭}",
+					"(a) {@item 鳞甲|phb} 或 (b) {@item 镶钉皮甲|phb}",
+					"{@item 盗贼工具|phb}和一个{@item 地城套组|phb}"
+				],
+				"defaultData": [
+					{
+						"a": [
+							"手斧|phb",
+							"轻锤|phb"
+						],
+						"b": [
+							{
+								"equipmentType": "简易武器",
+								"quantity": 2
+							}
+						]
+					},
+					{
+						"_": [
+							"轻弩|phb",
+							"弩矢(20)|phb"
+						]
+					},
+					{
+						"a": [
+							"鳞甲|phb"
+						],
+						"b": [
+							"镶钉皮甲|phb"
+						]
+					},
+					{
+						"_": [
+							"盗贼工具|phb",
+							"地城套组|phb"
+						]
+					}
+				]
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"{@filter 已知法术|spells|class=奇械师 (uaa)}"
+					],
+					"rows": [
+						[
+							0
+						],
+						[
+							0
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							5
+						],
+						[
+							6
+						],
+						[
+							6
+						],
+						[
+							7
+						],
+						[
+							8
+						],
+						[
+							8
+						],
+						[
+							9
+						],
+						[
+							10
+						],
+						[
+							10
+						],
+						[
+							11
+						],
+						[
+							11
+						],
+						[
+							11
+						],
+						[
+							12
+						],
+						[
+							13
+						]
+					]
+				},
+				{
+					"title": "每环法术位",
+					"colLabels": [
+						"{@filter 1st|spells|level=1|class=奇械师（UAA）}",
+						"{@filter 2nd|spells|level=2|class=奇械师（UAA）}",
+						"{@filter 3rd|spells|level=3|class=奇械师（UAA）}",
+						"{@filter 4th|spells|level=4|class=奇械师（UAA）}"
+					],
+					"rowsSpellProgression": [
+						[
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							1
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				{
+					"classFeature": "奇械师专业|奇械师|UAArtificer|1",
+					"gainSubclassFeature": true
+				},
+				"魔法物品分析|奇械师|UAArtificer|1",
+				"工具专精|奇械师|UAArtificer|2",
+				"神奇发明|奇械师|UAArtificer|2",
+				{
+					"classFeature": "大师杰作特性|奇械师|UAArtificer|3",
+					"gainSubclassFeature": true
+				},
+				"施法|奇械师|UAArtificer|3",
+				"灌注魔法|奇械师|UAArtificer|4",
+				"属性值提升|奇械师|UAArtificer|4",
+				"熟练多变|奇械师|UAArtificer|4|UAClassFeatureVariants",
+				"高端同调|奇械师|UAArtificer|5",
+				"神奇发明|奇械师|UAArtificer|5",
+				"机械仆役|奇械师|UAArtificer|6",
+				"属性值提升|奇械师|UAArtificer|8",
+				"熟练多变|奇械师|UAArtificer|8|UAClassFeatureVariants",
+				{
+					"classFeature": "大师杰作特性|奇械师|UAArtificer|9",
+					"gainSubclassFeature": true
+				},
+				"神奇发明|奇械师|UAArtificer|10",
+				"属性值提升|奇械师|UAArtificer|12",
+				"熟练多变|奇械师|UAArtificer|12|UAClassFeatureVariants",
+				{
+					"classFeature": "大师杰作特性|奇械师|UAArtificer|14",
+					"gainSubclassFeature": true
+				},
+				"高端同调|奇械师|UAArtificer|15",
+				"神奇发明|奇械师|UAArtificer|15",
+				"属性值提升|奇械师|UAArtificer|16",
+				"熟练多变|奇械师|UAArtificer|16|UAClassFeatureVariants",
+				{
+					"classFeature": "大师杰作特性|奇械师|UAArtificer|17",
+					"gainSubclassFeature": true
+				},
+				"属性值提升|奇械师|UAArtificer|18",
+				"熟练多变|奇械师|UAArtificer|18|UAClassFeatureVariants",
+				"奇械之魂|奇械师|UAArtificer|20"
+			],
+			"subclassTitle": "奇械师专业"
+		}
+	],
+	"subclass": [
+		{
+			"ENG_name": "Alchemist",
+			"name": "炼金师",
+			"shortName": "炼金师",
+			"source": "UAArtificer",
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"page": 5,
+			"optionalfeatureProgression": [
+				{
+					"ENG_name": "Alchemical Formula",
+					"name": "炼金配方",
+					"featureType": [
+						"AF"
+					],
+					"progression": {
+						"1": 3,
+						"3": 1,
+						"9": 1,
+						"14": 1,
+						"17": 1
+					}
+				}
+			],
+			"subclassFeatures": [
+				"炼金师|{!@ {!@ #UA}}|UAArtificer|炼金师|UAArtificer|1",
+				"额外炼金配方|{!@ {!@ #UA}}|UAArtificer|炼金师|UAArtificer|3",
+				"额外炼金配方|{!@ {!@ #UA}}|UAArtificer|炼金师|UAArtificer|9",
+				"额外炼金配方|{!@ {!@ #UA}}|UAArtificer|炼金师|UAArtificer|14",
+				"额外炼金配方|{!@ {!@ #UA}}|UAArtificer|炼金师|UAArtificer|17"
+			]
+		},
+		{
+			"ENG_name": "Gunsmith",
+			"name": "枪匠",
+			"shortName": "枪匠",
+			"source": "UAArtificer",
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"page": 6,
+			"subclassFeatures": [
+				"枪匠|{!@ {!@ #UA}}|UAArtificer|枪匠|UAArtificer|1",
+				"雷鸣暴徒|{!@ {!@ #UA}}|UAArtificer|枪匠|UAArtificer|3",
+				"冲击波|{!@ {!@ #UA}}|UAArtificer|枪匠|UAArtificer|9",
+				"穿刺轮|{!@ {!@ #UA}}|UAArtificer|枪匠|UAArtificer|14",
+				"爆炸物轮|{!@ {!@ #UA}}|UAArtificer|枪匠|UAArtificer|17"
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"ENG_name": "Artificer Specialist",
+			"name": "奇械师专业",
+			"source": "UAArtificer",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"level": 1,
+			"entries": [
+				"在1级时，你从可用的专业列表中选择你所属的奇械师专业类型。你的选择会赋予你1级的特性，并在3级、9级、14级和17级时再次获得特性。"
+			]
+		},
+		{
+			"ENG_name": "Magic Item Analysis",
+			"name": "魔法物品分析",
+			"source": "UAArtificer",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"level": 1,
+			"entries": [
+				"从1级开始，你对魔法物品的理解使你能够分析且理解它们的秘密。你知晓奇械师法术{@spell 侦测魔法}和{@spell 鉴定术}，并且可以将它们作为仪式施放。当你使用此职业特性施放{@spell 鉴定术}时，不需要提供材料成分。"
+			]
+		},
+		{
+			"ENG_name": "Tool Expertise",
+			"name": "工具专精",
+			"source": "UAArtificer",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"level": 2,
+			"entries": [
+				"从2级开始，你从该职业获得的工具熟练项所做的任何属性检定，熟练加值将翻倍。"
+			]
+		},
+		{
+			"ENG_name": "Wondrous Invention",
+			"name": "神奇发明",
+			"source": "UAArtificer",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"level": 2,
+			"entries": [
+				"在2级时，你获得一个你制作的魔法物品的使用权。从下方的2级物品列表中选择该物品。制作物品是一项困难的任务。当你从该特性获得一个魔法物品时，它反映了长时间的研究、修补和实验，使你最终完成了该物品。你被假定在闲暇时间研究这个物品，并在升级时完成它。当你达到该职业的特定等级时：5级、10级、15级和20级，你将完成另一个你选择的物品。你选择的物品必须在你当前奇械师等级或更低等级的列表中。这些魔法物品在地下城主指南中有详细说明。",
+				{
+					"ENG_name": "2nd Level",
+					"name": "2环",
+					"type": "entries",
+					"entries": [
+						"{@item 次元袋}, {@item 水下呼吸帽}, {@item 漂浮之球}, {@item 夜视镜}, {@item 短讯石}"
+					]
+				},
+				{
+					"ENG_name": "5th Level",
+					"name": "5环",
+					"type": "entries",
+					"entries": [
+						"{@item 炼金壶}, {@item 通晓语言头盔}, {@item 显像提灯}, {@item 善泳戒指}, {@item 杂货法袍}, {@item 攀爬绳}, {@item 搜魔魔杖}, {@item 探秘魔杖}"
+					]
+				},
+				{
+					"ENG_name": "10th Level",
+					"name": "10级",
+					"type": "entries",
+					"entries": [
+						"{@item 魔豆之袋}, {@item 开门钟琴}, {@item 无尽水瓶}, {@item 微视镜片}, {@item 折叠船}, {@item 霍华德便利袋}"
+					]
+				},
+				{
+					"ENG_name": "15th Level",
+					"name": "15环",
+					"type": "entries",
+					"entries": [
+						"{@item 跑跳之靴}, {@item 射手护腕}, {@item 护盾胸针}, {@item 飞天扫帚}, {@item 易容帽}, {@item 蛛行便鞋}"
+					]
+				},
+				{
+					"ENG_name": "20th Level",
+					"name": "20级",
+					"type": "entries",
+					"entries": [
+						"{@item 鹰眼镜片}, {@item 光彩夺目宝石}, {@item 辟矢夺箭手套}, {@item 攀泳手套}, {@item 跳跃戒指}, {@item 心灵护盾戒指}, {@item 飞翼斗篷}"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Masterwork Feature",
+			"name": "大师杰作特性",
+			"source": "UAArtificer",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"level": 3,
+			"entries": [
+				"在3级时，你获得一个来自奇械师专业的特性。"
+			]
+		},
+		{
+			"ENG_name": "Spellcasting",
+			"name": "施法",
+			"source": "UAArtificer",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"level": 3,
+			"entries": [
+				"作为你魔法研究的一部分，你获得了3环施法的能力。你所学的法术范围有限，主要涉及修改生物和物件或创造物品。",
+				{
+					"ENG_name": "Spell Slots",
+					"name": "法术位",
+					"type": "entries",
+					"entries": [
+						"奇械师表格显示你有多少法术位可以施放1环及更高级别的法术。要施放这些法术之一，你必须消耗一个等于或高于该法术等级的法术位。完成一次长休后，你将恢复所有消耗的法术位。"
+					]
+				},
+				{
+					"ENG_name": "Spells Known of 1st Level and Higher",
+					"name": "1环及更高等级已知法术",
+					"type": "entries",
+					"entries": [
+						"你从奇械师法术列表（见文档末尾）中选择三个1环法术。奇械师表格中的已知法术列显示了你何时可以从该特性中选择更多奇械师法术。这些法术必须是你当前在奇械师表格中拥有法术位的等级。此外，当你升级时，你可以从该特性中选择一个已知的奇械师法术，并将其替换为奇械师法术列表中的另一个法术。新法术也必须是你当前在奇械师表格中拥有法术位的等级。"
+					]
+				},
+				{
+					"ENG_name": "Spellcasting Ability",
+					"name": "施法属性",
+					"type": "entries",
+					"entries": [
+						"你对魔法理论的理解使你能够以更高超的技法来使用这些法术，因此智力是你的施法属性。每当你的法术需要施法属性时均指向你的智力值。而你奇械师法术的豁免DC和攻击检定，也使用你的智力调整值。",
+						{
+							"ENG_name": "Spell",
+							"name": "法术",
+							"type": "abilityDc",
+							"attributes": [
+								"int"
+							]
+						},
+						{
+							"ENG_name": "Spell",
+							"name": "法术",
+							"type": "abilityAttackMod",
+							"attributes": [
+								"int"
+							]
+						}
+					]
+				},
+				{
+					"ENG_name": "Spellcasting Focus",
+					"name": "法器",
+					"type": "entries",
+					"entries": [
+						"你可以使用一件{@item 奥术法器|phb}作为你奇械师法术的法器。详见《玩家手册》第五章\"装备\"中关于各种奥术法器的选项。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Ability Score Improvement",
+			"name": "属性值提升",
+			"source": "UAArtificer",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"level": 4,
+			"entries": [
+				"当你达到4级、8级、12级、16级和18级时，你可以将一个自选的属性值提升2点，或者将两个自选的属性值各提升1点。正常来说，你不能通过此特性将属性值提升至20以上。"
+			]
+		},
+		{
+			"ENG_name": "Infuse Magic",
+			"name": "灌注魔法",
+			"source": "UAArtificer",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"level": 4,
+			"entries": [
+				"从4级开始，你获得将奇械师法术引导至物件中供后文使用的能力。当你施放一个施法时间为1个动作的奇械师法术时，你可以将其施法时间增加至1分钟。若你如此做且在施法过程中持有一个非魔法的物品，你会消耗一个法术位，但该法术的效应均不发生。取而代之的是，该法术会转移至该物品中供后文使用，前提是该物品尚未包含来自此特性的法术。",
+				"此后持有该物品的任何生物都可以使用一个动作来激活该法术，前提是该生物的智力值至少为6。该法术使用你的施法属性施放，目标是激活该物品的生物。如果该法术的目标超过一个生物，则由激活该物品的生物选择额外目标。如果该法术具有效应区域，则以该物品为中心。如果该法术的范围是自身，则以激活该物品的生物为目标。",
+				"当你以这种方式灌注一个法术时，它必须在8小时内使用。在那之后，它的魔法会消退且被浪费。你可以同时拥有有限数量的灌注法术。该数值等于你的智力调整值。"
+			]
+		},
+		{
+			"ENG_name": "Superior Attunement",
+			"name": "高端同调",
+			"source": "UAArtificer",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"level": 5,
+			"entries": [
+				"在5环时，你对魔法物品的高端理解使你能够掌握它们的使用。你现在可以同时同调最多四个，而不是三个魔法物品。在15环时，这个限制增加到五个魔法物品。"
+			]
+		},
+		{
+			"ENG_name": "Wondrous Invention",
+			"name": "神奇发明",
+			"source": "UAArtificer",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"level": 5,
+			"entries": [
+				"在5级时，你可以从你的神奇发明特性中制造另一件物品。"
+			]
+		},
+		{
+			"ENG_name": "Mechanical Servant",
+			"name": "机械仆役",
+			"source": "UAArtificer",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"level": 6,
+			"entries": [
+				"在6级时，你的研究和工艺精通使你能够制造一个机械仆役。该仆役是一个构装体，它会毫不犹豫地服从你的命令并在战斗中保护你。虽然魔法驱动了它的创造，但仆役本身并非魔法造物。假定你已花费相当时间进行这项工作，最终在你达到6级后的短休或长休期间完成它。",
+				"选择一个挑战等级为2或更低的大型野兽。该仆役使用该野兽的游戏数据，但其外观可以随你喜好，只要其形态与其数据相符。它具有以下修改：",
+				{
+					"type": "list",
+					"items": [
+						"它是一个构装体而非野兽。",
+						"它不能被{@condition 魅惑}。",
+						"它免疫毒素伤害和{@condition 中毒}状态。",
+						"如果它还没有黑暗视觉，它将获得范围为60尺的{@sense 黑暗视觉}。",
+						"它理解你在创造它时能说的语言，但它不会说话。",
+						"如果你是一个近战攻击的目标且仆役在攻击手5尺内，你可以使用你的反应来命令仆役响应，使用它的反应对攻击手进行一次近战攻击。"
+					]
+				},
+				"该仆役会尽其所能服从你的命令。在战斗中，它会自行掷先攻且自主行动。",
+				"如果仆役被杀死，它可以通过正常手段复活，例如使用{@spell 回生术}法术。此外，在一次长休期间，如果你能接触到它的身体，你可以修复一个被杀的仆役。它在休息结束时以1点生命值复活。如果仆役无法康复，你可以用一周的工作（每天八小时）和1000GP的原料建造一个新的。"
+			]
+		},
+		{
+			"ENG_name": "Ability Score Improvement",
+			"name": "属性值提升",
+			"source": "UAArtificer",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"level": 8,
+			"entries": [
+				"在8级时，你获得另一个属性值提升。"
+			]
+		},
+		{
+			"ENG_name": "Masterwork Feature",
+			"name": "大师杰作特性",
+			"source": "UAArtificer",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"level": 9,
+			"entries": [
+				"在9级时，你获得一个来自奇械师专业的特性。"
+			]
+		},
+		{
+			"ENG_name": "Wondrous Invention",
+			"name": "神奇发明",
+			"source": "UAArtificer",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"level": 10,
+			"entries": [
+				"在10级时，你可以从你的神奇发明特性中制造另一件物品。"
+			]
+		},
+		{
+			"ENG_name": "Ability Score Improvement",
+			"name": "属性值提升",
+			"source": "UAArtificer",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"level": 12,
+			"entries": [
+				"在12级时，你获得另一个属性值提升。"
+			]
+		},
+		{
+			"ENG_name": "Masterwork Feature",
+			"name": "大师杰作特性",
+			"source": "UAArtificer",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"level": 14,
+			"entries": [
+				"在14级时，你获得一个来自奇械师专业的特性。"
+			]
+		},
+		{
+			"ENG_name": "Superior Attunement",
+			"name": "高端同调",
+			"source": "UAArtificer",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"level": 15,
+			"entries": [
+				"从15环开始，你可以同调至多五件魔法物品。"
+			]
+		},
+		{
+			"ENG_name": "Wondrous Invention",
+			"name": "神奇发明",
+			"source": "UAArtificer",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"level": 15,
+			"entries": [
+				"在15环时，你从你的神奇发明特性中制造另一个物品。"
+			]
+		},
+		{
+			"ENG_name": "Ability Score Improvement",
+			"name": "属性值提升",
+			"source": "UAArtificer",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"level": 16,
+			"entries": [
+				"在16级时，你获得另一个属性值提升。"
+			]
+		},
+		{
+			"ENG_name": "Masterwork Feature",
+			"name": "大师杰作特性",
+			"source": "UAArtificer",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"level": 17,
+			"entries": [
+				"在17级时，你获得一个来自奇械师专业的特性。"
+			]
+		},
+		{
+			"ENG_name": "Ability Score Improvement",
+			"name": "属性值提升",
+			"source": "UAArtificer",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"level": 18,
+			"entries": [
+				"在18级时，你获得另一个属性值提升。"
+			]
+		},
+		{
+			"ENG_name": "Soul of Artifice",
+			"name": "奇械之魂",
+			"source": "UAArtificer",
+			"page": 1,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"level": 20,
+			"entries": [
+				"在20级时，你对魔法物品的理解无与伦比，使你能够将自己的灵魂与你链接的物品融合。你可以同时与最多六件魔法物品同调。此外，你当前同调的每件魔法物品都会使你的所有豁免检定获得+1加值。"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"ENG_name": "Alchemist",
+			"name": "炼金师",
+			"source": "UAArtificer",
+			"page": 5,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"subclassShortName": "炼金师",
+			"subclassSource": "UAArtificer",
+			"level": 1,
+			"entries": [
+				"炼金师是结合特制试剂来生产各种材质的专家，从能在瞬间治愈伤口的治疗饮剂到能减缓生物速度的粘稠胶体。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "炼金师的包|{!@ {!@ #UA}}|UAArtificer|炼金师|UAArtificer|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "炼金配方|{!@ {!@ #UA}}|UAArtificer|炼金师|UAArtificer|1"
+				}
+			]
+		},
+		{
+			"ENG_name": "Alchemical Formula",
+			"name": "炼金配方",
+			"source": "UAArtificer",
+			"page": 5,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"subclassShortName": "炼金师",
+			"subclassSource": "UAArtificer",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"在1级时，你学会三个炼金配方选项：炼金火焰、炼金强酸，以及一个你选择的其他选项。你在3级、9级、14级和17级时各学会一个额外的自选配方。",
+				"要使用这些选项中的任何一个，你的炼金师的包必须在触及范围内。",
+				"如果一个炼金配方选项需要进行豁免检定，则DC为8 + 你的熟练加值 + 你的智力调整值。",
+				{
+					"type": "options",
+					"count": 3,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "炼金火焰|UAArtificer"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "炼金强酸|UAArtificer"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "治疗饮剂|UAArtificer"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "烟棒|UAArtificer"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "灵巧步伐药剂|UAArtificer"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "绊足包|UAArtificer"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "雷石|UAArtificer"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Alchemist's Satchel",
+			"name": "炼金师的包",
+			"source": "UAArtificer",
+			"page": 5,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"subclassShortName": "炼金师",
+			"subclassSource": "UAArtificer",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"在1级时，你制造一个炼金师的包，这是一个装有试剂的挎包，用于创造各种混合物。该包及其内容均为魔法物品，这种魔法允许你拉拽出炼金配方选项中所需的精确材质，如下方所述。使用其中一个选项后，包会回收这些材质。",
+				"如果你丢失了这个包，你可以通过消耗价值100GP的皮甲、玻璃和其他原料，在三天的劳动（每天八小时）中制作一个新的。"
+			]
+		},
+		{
+			"ENG_name": "Extra Alchemical Formula",
+			"name": "额外炼金配方",
+			"source": "UAArtificer",
+			"page": 5,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"subclassShortName": "炼金师",
+			"subclassSource": "UAArtificer",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"在3级时，你学会一个额外的炼金配方。"
+			]
+		},
+		{
+			"ENG_name": "Extra Alchemical Formula",
+			"name": "额外炼金配方",
+			"source": "UAArtificer",
+			"page": 5,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"subclassShortName": "炼金师",
+			"subclassSource": "UAArtificer",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"在9级时，你学会一个额外的炼金配方。"
+			]
+		},
+		{
+			"ENG_name": "Extra Alchemical Formula",
+			"name": "额外炼金配方",
+			"source": "UAArtificer",
+			"page": 5,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"subclassShortName": "炼金师",
+			"subclassSource": "UAArtificer",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"在14级时，你学会一个额外的炼金配方。"
+			]
+		},
+		{
+			"ENG_name": "Extra Alchemical Formula",
+			"name": "额外炼金配方",
+			"source": "UAArtificer",
+			"page": 5,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"subclassShortName": "炼金师",
+			"subclassSource": "UAArtificer",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"在17级时，你学会一个额外的炼金配方。"
+			]
+		},
+		{
+			"ENG_name": "Gunsmith",
+			"name": "枪匠",
+			"source": "UAArtificer",
+			"page": 6,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"subclassShortName": "枪匠",
+			"subclassSource": "UAArtificer",
+			"level": 1,
+			"entries": [
+				"工程学的大师，你锻造了一把由科学与魔法共同驱动的枪械。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "大师枪匠|{!@ {!@ #UA}}|UAArtificer|枪匠|UAArtificer|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "雷霆炮|{!@ {!@ #UA}}|UAArtificer|枪匠|UAArtificer|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "奥术弹匣|{!@ {!@ #UA}}|UAArtificer|枪匠|UAArtificer|1"
+				}
+			]
+		},
+		{
+			"ENG_name": "Arcane Magazine",
+			"name": "奥术弹匣",
+			"source": "UAArtificer",
+			"page": 6,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"subclassShortName": "枪匠",
+			"subclassSource": "UAArtificer",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"在1级时，你制造一个皮袋用于携带你的工具和雷霆炮的弹药。你的奥术弹匣包括火药、铅弹和其他保持该武器运作所需的材料。",
+				"你可以使用奥术弹匣为你的枪械生产弹药。在每次长休结束时，你可以用这个弹匣魔法般地生产40发弹药。每次短休后，你可以生产10发弹药。",
+				"如果你丢失了奥术弹匣，你可以作为长休的一部分，使用25GP的皮甲和其他原料创建一个新的。"
+			]
+		},
+		{
+			"ENG_name": "Master Smith",
+			"name": "大师枪匠",
+			"source": "UAArtificer",
+			"page": 6,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"subclassShortName": "枪匠",
+			"subclassSource": "UAArtificer",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"当你在1级选择此专长时，你获得{@item 铁匠工具|phb}的熟练项，且你学会修复术戏法。"
+			]
+		},
+		{
+			"ENG_name": "Thunder Cannon",
+			"name": "雷霆炮",
+			"source": "UAArtificer",
+			"page": 6,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"subclassShortName": "枪匠",
+			"subclassSource": "UAArtificer",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"在1级时，你使用奥术魔法和你对工程学和冶金学的知识锻造出一把致命枪械。这把枪械被称为雷霆炮。它是一种凶猛的武器，发射的铅弹可以轻易穿透护甲。",
+				"你熟练使用雷霆炮。该枪械是一种双手远程武器，可造成{@damage 2d6}穿刺伤害。其正常范围为150尺，最大范围为500尺。一旦发射，必须通过一个附赠动作重新装填。",
+				"如果你丢失了雷霆炮，你可以通过消耗价值100GP的金属和其他原料，经过三天的工作（每天八小时）来制造一个新的。"
+			]
+		},
+		{
+			"ENG_name": "Thunder Monger",
+			"name": "雷鸣暴徒",
+			"source": "UAArtificer",
+			"page": 6,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"subclassShortName": "枪匠",
+			"subclassSource": "UAArtificer",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"在3级时，你学会将雷鸣能量引导至雷霆炮中。作为一个动作，你可以用雷霆炮进行一次特殊攻击，命中时造成额外{@damage 1d6}雷鸣伤害。",
+				"此额外伤害会在你达到该职业的特定等级时增加{@damage 1d6}：5级（{@damage 2d6}）、7级（{@damage 3d6}）、9级（{@damage 4d6}）、11级（{@damage 5d6}）、13级（{@damage 6d6}）、15级（{@damage 7d6}）、17级（{@damage 8d6}）且19级（{@damage 9d6}）。"
+			]
+		},
+		{
+			"ENG_name": "Blast Wave",
+			"name": "冲击波",
+			"source": "UAArtificer",
+			"page": 6,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"subclassShortName": "枪匠",
+			"subclassSource": "UAArtificer",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"自9级起，你可以将力场能量引导至雷霆炮中。以一个动作，你可以用它发动一次特殊攻击。无需发动攻击掷骰，你会从枪械中释放出一股15尺锥形区域的力场能量。该区域内每个生物必须进行一次力量豁免检定，DC为8+你的熟练加值+你的智力调整值。豁免失败的目标将受到{@damage 2d6}点力场伤害且被推离你10尺远。",
+				"此伤害会在你达到该职业的特定等级时增加{@damage 1d6}：13级（{@damage 3d6}）且17级（{@damage 4d6}）。"
+			]
+		},
+		{
+			"ENG_name": "Piercing Round",
+			"name": "穿刺轮",
+			"source": "UAArtificer",
+			"page": 6,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"subclassShortName": "枪匠",
+			"subclassSource": "UAArtificer",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"从14级开始，你可以通过雷霆炮发射闪电能量。以一个动作，你可以用它发动一次特殊攻击。无需进行攻击检定，你使火炮释放出一道5尺宽、30尺长的闪电弩失。该区域内的每个生物必须进行一次DC为8+你的熟练加值+你的智力调整值的敏捷豁免检定。豁免失败的目标将受到{@damage 4d6}闪电伤害。当你在此职业达到19级时，此伤害提升至{@damage 6d6}。"
+			]
+		},
+		{
+			"ENG_name": "Explosive Round",
+			"name": "爆炸物轮",
+			"source": "UAArtificer",
+			"page": 6,
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"subclassShortName": "枪匠",
+			"subclassSource": "UAArtificer",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"从17级开始，你可以将炽热能量引导至雷霆炮中。以一个动作，你可以用它发动一次特殊攻击。无需进行攻击掷骰，你从火炮发射一枚爆炸物轮。该轮会在射程内某点引爆，形成30尺半径的球状区域。该区域内每个生物必须进行一次DC等于8 + 你的熟练加值 + 你的智力调整值的敏捷豁免检定。若豁免失败，目标将受到{@damage 4d8}火焰伤害。"
+			]
+		}
+	],
+	"foundrySubclassFeature": [
+		{
+			"ENG_name": "Alchemical Formula",
+			"name": "炼金配方",
+			"source": "UAArtificer",
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"subclassShortName": "炼金师",
+			"subclassSource": "UAArtificer",
+			"level": 1,
+			"isIgnored": true
+		},
+		{
+			"ENG_name": "Extra Alchemical Formula",
+			"name": "额外炼金配方",
+			"source": "UAArtificer",
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"subclassShortName": "炼金师",
+			"subclassSource": "UAArtificer",
+			"level": 3,
+			"isIgnored": true
+		},
+		{
+			"ENG_name": "Extra Alchemical Formula",
+			"name": "额外炼金配方",
+			"source": "UAArtificer",
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"subclassShortName": "炼金师",
+			"subclassSource": "UAArtificer",
+			"level": 9,
+			"isIgnored": true
+		},
+		{
+			"ENG_name": "Extra Alchemical Formula",
+			"name": "额外炼金配方",
+			"source": "UAArtificer",
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"subclassShortName": "炼金师",
+			"subclassSource": "UAArtificer",
+			"level": 14,
+			"isIgnored": true
+		},
+		{
+			"ENG_name": "Extra Alchemical Formula",
+			"name": "额外炼金配方",
+			"source": "UAArtificer",
+			"className": "{!@ {!@ #UA}}",
+			"classSource": "UAArtificer",
+			"subclassShortName": "炼金师",
+			"subclassSource": "UAArtificer",
+			"level": 17,
+			"isIgnored": true
+		}
+	],
+	"optionalfeature": [
+		{
+			"ENG_name": "Alchemical Acid",
+			"name": "炼金强酸",
+			"source": "UAArtificer",
+			"page": 5,
+			"featureType": [
+				"AF"
+			],
+			"entries": [
+				"作为一个动作，你可以伸手进入炼金师的包，取出一个小瓶强酸，并将小瓶猛投向30尺内的一个生物或物件（如果你在当前回合结束时没有投掷小瓶，小瓶及其内容会消失）。小瓶在撞击时破碎。生物必须成功通过一次敏捷豁免检定，否则受到{@damage 1d6}强酸伤害。物件自动受到该伤害，且伤害取最大值。当你达到该职业的特定等级时，此配方的伤害增加{@damage 1d6}：3级（{@damage 2d6}）、5级（{@damage 3d6}）、7级（{@damage 4d6}）、9级（{@damage 5d6}）、11级（{@damage 6d6}）、13级（{@damage 7d6}）、15级（{@damage 8d6}）、17级（{@damage 9d6}）和19级（{@damage 10d6}）。"
+			]
+		},
+		{
+			"ENG_name": "Alchemical Fire",
+			"name": "炼金火焰",
+			"source": "UAArtificer",
+			"page": 5,
+			"featureType": [
+				"AF"
+			],
+			"entries": [
+				"作为一个动作，你可以伸手进入你的炼金师的包，取出一瓶易挥发液体的小瓶，并将小瓶猛投向30尺内的一个生物、物件或表面（如果你在当前回合结束前没有投掷小瓶，小瓶及其内容会消失）。撞击时，小瓶会在5尺半径内爆炸。该区域内的任何生物必须成功通过一次敏捷豁免检定，否则受到{@damage 1d6}火焰伤害。当你达到该职业的特定等级时，此配方的伤害会增加{@damage 1d6}：4级（{@damage 2d6}）、7级（{@damage 3d6}）、10级（{@damage 4d6}）、13级（{@damage 5d6}）、16级（{@damage 6d6}）和19级（{@damage 7d6}）。"
+			]
+		},
+		{
+			"ENG_name": "Healing Draught",
+			"name": "治疗饮剂",
+			"source": "UAArtificer",
+			"page": 5,
+			"featureType": [
+				"AF"
+			],
+			"entries": [
+				"作为一个动作，你可以伸手进入你的炼金师的包并取出一小瓶治疗液体。一个生物可以将其作为动作饮用，以恢复{@dice 1d8}点生命值。随后小瓶消失。一旦一个生物通过此炼金配方恢复生命值，该生物在完成一次长休前无法再次这样做。如果未被使用，小瓶及其内容将在1小时后消失。当小瓶存在时，你无法使用此配方。此配方的治疗效果会在你达到此职业的特定等级时增加{@dice 1d8}：3环（{@dice 2d8}）、5环（{@dice 3d8}）、7环（{@dice 4d8}）、9环（{@dice 5d8}）、11环（{@dice 6d8}）、13环（{@dice 7d8}）、15环（{@dice 8d8}）、17环（{@dice 9d8}）和19环（{@dice 10d8}）。"
+			]
+		},
+		{
+			"ENG_name": "Smoke Stick",
+			"name": "烟棒",
+			"source": "UAArtificer",
+			"page": 5,
+			"featureType": [
+				"AF"
+			],
+			"entries": [
+				"作为一个动作，你可以伸手进入炼金师的包并拉出一根产生浓烟的棍子。你可以握住这根棍子或将其投掷至30尺远的点，作为产生它的动作的一部分。棍子周围10尺半径的区域会充满浓烟，阻挡视觉，包括{@sense 黑暗视觉}。这根棍子和烟雾持续1分钟然后消失。使用这个配方后，你在1分钟内不能再次使用。"
+			]
+		},
+		{
+			"ENG_name": "Swift Step Draught",
+			"name": "灵巧步伐药剂",
+			"source": "UAArtificer",
+			"page": 5,
+			"featureType": [
+				"AF"
+			],
+			"entries": [
+				"作为附赠动作，你可以伸手进入炼金师的包并取出一瓶充满气泡的棕色液体小瓶。作为一个动作，一个生物可以饮用它。这样做会使该生物的速度增加20尺，持续1分钟，且小瓶会消失。如果未被使用，小瓶及其内容会在1分钟后消失。使用此配方后，你在1分钟内不能再次使用。"
+			]
+		},
+		{
+			"ENG_name": "Tanglefoot",
+			"name": "绊足包",
+			"source": "UAArtificer",
+			"page": 6,
+			"featureType": [
+				"AF"
+			],
+			"entries": [
+				"以一个动作，你可以伸手进你的炼金师的包并拉出一个装满蠕动、粘稠的黑色焦油的袋子，并将其猛投到你30尺内的一个点上（如果你在当前回合结束前没有投掷这个袋子，袋子和其内容会消失）。袋子在撞击时破裂，并在5尺半径的地面上覆盖粘稠物质。该区域变为{@quickref 困难地形||3}持续1分钟，且任何在该区域地面上开始其回合的生物在该回合内速度减半。使用此配方后，你在1分钟内不能再次使用。"
+			]
+		},
+		{
+			"ENG_name": "Thunderstone",
+			"name": "雷石",
+			"source": "UAArtificer",
+			"page": 6,
+			"featureType": [
+				"AF"
+			],
+			"entries": [
+				"以一个动作，你可以伸手进入你的炼金师的包并取出一块水晶碎子，然后将其猛投向30尺内的一个生物、物件或表面（如果你在当前回合结束前没有投掷，碎子会消失）。碎子在撞击时会爆发出冲击能量。每个距离撞击点10尺内的生物必须成功通过一次体质豁免检定，否则被击倒{@condition 倒地}并被推离该点10尺。"
+			]
+		}
+	]
+}

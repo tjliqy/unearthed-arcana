@@ -1,0 +1,1026 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UARevisedSubclasses",
+				"abbreviation": "UARSC",
+				"full": "破解奥秘：修订子职",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2017/dnd/downloads/UA-RevisedSubclasses.pdf",
+				"dateReleased": "2017-05-01"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1729637619,
+		"_dateLastModifiedHash": "a7aa3f8bea"
+	},
+	"subclass": [
+		{
+			"ENG_name": "Arcane Archer v2 (UA)",
+			"name": "魔射手 v2 (UA)",
+			"shortName": "魔射手 v2 (UA)",
+			"source": "UARevisedSubclasses",
+			"className": "战士",
+			"classSource": "PHB",
+			"page": 2,
+			"isReprinted": true,
+			"optionalfeatureProgression": [
+				{
+					"ENG_name": "Arcane Shots",
+					"name": "奥术射击",
+					"featureType": [
+						"AS:V2-UA"
+					],
+					"progression": {
+						"3": 2,
+						"7": 3,
+						"10": 4,
+						"15": 5,
+						"18": 6
+					}
+				}
+			],
+			"subclassFeatures": [
+				"魔射手 v2|战士||魔射手 v2 (UA)|UARevisedSubclasses|3",
+				"曲线射击|战士||魔射手 v2 (UA)|UARevisedSubclasses|7",
+				"额外奥术射击|战士||魔射手 v2 (UA)|UARevisedSubclasses|7",
+				"额外奥术射击|战士||魔射手 v2 (UA)|UARevisedSubclasses|10",
+				"有箭无患|战士||魔射手 v2 (UA)|UARevisedSubclasses|15",
+				"额外奥术射击|战士||魔射手 v2 (UA)|UARevisedSubclasses|15",
+				"额外奥术射击|战士||魔射手 v2 (UA)|UARevisedSubclasses|18"
+			]
+		},
+		{
+			"ENG_name": "College of Swords v2 (UA)",
+			"name": "剑舞学院 v2 (UA)",
+			"shortName": "宝剑 v2 (UA)",
+			"source": "UARevisedSubclasses",
+			"className": "吟游诗人",
+			"classSource": "PHB",
+			"page": 1,
+			"isReprinted": true,
+			"optionalfeatureProgression": [
+				{
+					"ENG_name": "Fighting Style",
+					"name": "战斗风格",
+					"featureType": [
+						"FS:B"
+					],
+					"progression": {
+						"3": 1
+					}
+				}
+			],
+			"subclassFeatures": [
+				"剑舞学院 v2|吟游诗人||宝剑 v2 (UA)|UARevisedSubclasses|3",
+				"狡黠虚张声势|吟游诗人||宝剑 v2 (UA)|UARevisedSubclasses|6",
+				"剑舞大师|吟游诗人||宝剑 v2 (UA)|UARevisedSubclasses|14"
+			]
+		},
+		{
+			"ENG_name": "Favored Soul v3 (UA)",
+			"name": "青睐灵魂 v3 (UA)",
+			"shortName": "青睐灵魂 v3 (UA)",
+			"source": "UARevisedSubclasses",
+			"className": "术士",
+			"classSource": "PHB",
+			"page": 5,
+			"isReprinted": true,
+			"additionalSpells": [
+				{
+					"expanded": {
+						"1": [
+							{
+								"all": "level=0|class=牧师"
+							},
+							{
+								"all": "level=1|class=牧师"
+							}
+						],
+						"3": [
+							{
+								"all": "level=2|class=牧师"
+							}
+						],
+						"5": [
+							{
+								"all": "level=3|class=牧师"
+							}
+						],
+						"7": [
+							{
+								"all": "level=4|class=牧师"
+							}
+						],
+						"9": [
+							{
+								"all": "level=5|class=牧师"
+							}
+						],
+						"11": [
+							{
+								"all": "level=6|class=牧师"
+							}
+						],
+						"13": [
+							{
+								"all": "level=7|class=牧师"
+							}
+						],
+						"15": [
+							{
+								"all": "level=8|class=牧师"
+							}
+						],
+						"17": [
+							{
+								"all": "level=9|class=牧师"
+							}
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"青睐灵魂 v3|术士||青睐灵魂 v3 (UA)|UARevisedSubclasses|1",
+				"强效治疗|术士||青睐灵魂 v3 (UA)|UARevisedSubclasses|6",
+				"天使形态|术士||青睐灵魂 v3 (UA)|UARevisedSubclasses|14",
+				"神赐痊愈|术士||青睐灵魂 v3 (UA)|UARevisedSubclasses|18"
+			]
+		},
+		{
+			"ENG_name": "Path of the Ancestral Guardian v2 (UA)",
+			"name": "先祖守卫路途 v2 (UA)",
+			"shortName": "先祖守卫 v2 (UA)",
+			"source": "UARevisedSubclasses",
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"page": 1,
+			"isReprinted": true,
+			"spellcastingAbility": "wis",
+			"subclassFeatures": [
+				"先祖守卫之路v2|野蛮人||先祖守卫 v2 (UA)|UARevisedSubclasses|3",
+				"先祖护盾|野蛮人||先祖守卫 v2 (UA)|UARevisedSubclasses|6",
+				"问道精魂|野蛮人||先祖守卫 v2 (UA)|UARevisedSubclasses|10",
+				"仇魂先祖|野蛮人||先祖守卫 v2 (UA)|UARevisedSubclasses|14"
+			]
+		},
+		{
+			"ENG_name": "Way of the Kensei v2 (UA)",
+			"name": "剑圣 v2 (UA)之道",
+			"shortName": "剑圣 v2 (UA)",
+			"source": "UARevisedSubclasses",
+			"className": "武僧",
+			"classSource": "PHB",
+			"page": 4,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"剑圣之道 v2|武僧||剑圣 v2 (UA)|UARevisedSubclasses|3",
+				"人剑合一|武僧||剑圣 v2 (UA)|UARevisedSubclasses|6",
+				"锋锐剑影|武僧||剑圣 v2 (UA)|UARevisedSubclasses|11",
+				"精妙剑法|武僧||剑圣 v2 (UA)|UARevisedSubclasses|17"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"ENG_name": "Path of the Ancestral Guardian v2",
+			"name": "先祖守卫之路v2",
+			"source": "UARevisedSubclasses",
+			"page": 1,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"subclassShortName": "先祖守卫 v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 3,
+			"entries": [
+				"一些野蛮人来自崇尚祖先的文化。这些部族教导说，过去的武者会以强大精魂的形式在世界中徘徊，能够引导且保护生者。遵循此道途的野蛮人狂暴时，会跨越屏障进入精魄世界，并召唤这些守护精魂施以援助术。",
+				"野蛮人谁召唤先祖守卫道途的精魂战斗以保护他们的部族和盟友。在精魂的协助下，他们可以在对敌人造成强力打击的同时阻碍它们。",
+				"为了巩固与先祖守卫的联系，遵循此道途的野蛮人会用精美的纹身覆盖自己，以颂扬祖先的功绩。这些纹身讲述了对抗可怕怪物和其他可怖竞争对手的史诗传奇。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "先祖护卫|野蛮人||先祖守卫 v2 (UA)|UARevisedSubclasses|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Ancestral Protectors",
+			"name": "先祖护卫",
+			"source": "UARevisedSubclasses",
+			"page": 1,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"subclassShortName": "先祖守卫 v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"当你3级选择此路途时，灵体武者会在你狂暴时出现。这些武者会干扰你指定的敌人并阻碍其试图躲避你的行为。当你狂暴时，你回合中第一次命中攻击的生物会成为这些武者的目标。直到你的下个回合开始或你的狂暴结束前，该目标对任何不以你为目标的攻击检定具有劣势，且其他生物对该生物的攻击具有伤害抗性。"
+			]
+		},
+		{
+			"ENG_name": "Ancestral Shield",
+			"name": "先祖护盾",
+			"source": "UARevisedSubclasses",
+			"page": 1,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"subclassShortName": "先祖守卫 v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"从6级开始，援助你的守护精魂能为盟友提供保护。若你处于狂暴状态且一个你能看见的30尺内的生物受到伤害，你可以使用你的反应并将该伤害缩小{@dice 2d8}。当你在此职业达到特定等级时，你可以缩小更多伤害：10级时缩小{@dice 3d8}，14级时缩小{@dice 4d8}。"
+			]
+		},
+		{
+			"ENG_name": "Consult the Spirits",
+			"name": "问道精魂",
+			"source": "UARevisedSubclasses",
+			"page": 1,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"subclassShortName": "先祖守卫 v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"在10级时，你获得问道精魂的能力，并能使用它们侦察远方土地。当你这样做时，你施放{@spell 鹰眼术}法术，无需消耗法术位。该法术不会创造一个球形传感器，而是隐形地召唤一个你的精魂祖先到选定位置。感知是该法术的施法属性。当你以此方式施放该法术后，直到完成一次短休或长休前，你无法再次这样做。"
+			]
+		},
+		{
+			"ENG_name": "Vengeful Ancestors",
+			"name": "仇魂先祖",
+			"source": "UARevisedSubclasses",
+			"page": 1,
+			"className": "野蛮人",
+			"classSource": "PHB",
+			"subclassShortName": "先祖守卫 v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"在14级时，你的先祖精魂变得足够强大，可以打击那些胆敢伤害你所保护之人的敌人。当你使用精魂之盾属性来保护一个被攻击伤害的生物时，攻击手会受到与精魂之盾所防护的相同数量伤害。"
+			]
+		},
+		{
+			"ENG_name": "College of Swords v2",
+			"name": "剑舞学院 v2",
+			"source": "UARevisedSubclasses",
+			"page": 1,
+			"className": "吟游诗人",
+			"classSource": "PHB",
+			"subclassShortName": "宝剑 v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 3,
+			"entries": [
+				"剑舞学院的吟游诗人被称为刀刃，他们通过大胆的武器专长表演来娱乐。刀刃表演诸如吞剑、飞刀和杂耍，以及模拟战斗等特技。尽管他们用武器来娱乐，但他们本身也是训练有素且技艺精湛的武者。",
+				"他们对武器的天赋激励了许多刀刃过着双重生活。一把刀刃可能利用马戏团作为掩护，进行诸如暗杀、抢劫和敲诈等邪恶行径。其他刀刃则打击恶意之人，为残忍和权贵带来正义。大多数剧团乐于接受刀刃的天赋，因为它为表演增添了刺激，但很少有艺人完全信任它们。",
+				"放弃演艺者生活的刀刃们常常遇到麻烦，使他们无法维持秘密活动。一个被抓到偷窃或从事义警正义的刀刃对大多数演艺团体来说风险太大。凭借他们的武器技能作为最大资产，这些刀刃要么成为窃贼公会的打手，要么独自作为冒险者闯荡。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "附赠熟练|吟游诗人||宝剑 v2 (UA)|UARevisedSubclasses|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "战斗风格|吟游诗人||宝剑 v2 (UA)|UARevisedSubclasses|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "剑舞|吟游诗人||宝剑 v2 (UA)|UARevisedSubclasses|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Blade Flourish",
+			"name": "剑舞",
+			"source": "UARevisedSubclasses",
+			"page": 1,
+			"className": "吟游诗人",
+			"classSource": "PHB",
+			"subclassShortName": "宝剑 v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"在3级时，你学会用武器进行令人印象深刻的技能展示。作为一个标准动作，你可以进行一次标准近战攻击且将你的步行速度增加10尺直到当前回合结束。每当你使用此选项时，你还可以同时使用以下剑舞选项之一。",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Defensive Flourish",
+							"name": "守御剑舞",
+							"type": "entries",
+							"entries": [
+								"你以迅捷的圆形轨迹挥舞武器，创造出令人着迷的表演。你可以消耗一次诗人激励的使用次数，投掷一枚诗人激励骰，并将骰出的数值作为AC加值持续到你下个回合开始。"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Slashing Flourish",
+							"name": "乱击剑舞",
+							"type": "entries",
+							"entries": [
+								"如果攻击命中目标，你可以消耗一次诗人激励的使用次数，使该武器对你选择的每个生物（目标除外）造成伤害，这些生物必须在你5尺范围内且你能看见。伤害值等于你在诗人激励骰上掷出的数值。"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Mobile Flourish",
+							"name": "推击剑舞",
+							"type": "entries",
+							"entries": [
+								"如果攻击命中目标，你可以消耗一次诗人激励的使用次数，将目标推离你至多5尺，再加上等同于你在诗人激励骰上掷出的数值的尺数。然后你可以立即使用你的反应移动至多你的速度，到达目标5尺内的一个未占据空间。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Bonus Proficiencies",
+			"name": "附赠熟练",
+			"source": "UARevisedSubclasses",
+			"page": 1,
+			"className": "吟游诗人",
+			"classSource": "PHB",
+			"subclassShortName": "宝剑 v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"当你3级加入刀刃学院时，你获得中甲和弯刀的熟练。如果你已熟练于一种简易或军用近战武器，你可以将其作为吟游诗人法术的法器使用。"
+			]
+		},
+		{
+			"ENG_name": "Fighting Style",
+			"name": "战斗风格",
+			"source": "UARevisedSubclasses",
+			"page": 1,
+			"className": "吟游诗人",
+			"classSource": "PHB",
+			"subclassShortName": "宝剑 v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"刀刃学院强调对武器的精通，授予你选择对决或双武器战斗作为战斗风格职业特性的选项，具体如下。",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "对决"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "双武器战斗"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Cunning Flourish",
+			"name": "狡黠虚张声势",
+			"source": "UARevisedSubclasses",
+			"page": 1,
+			"className": "吟游诗人",
+			"classSource": "PHB",
+			"subclassShortName": "宝剑 v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"从6级开始，当你在回合中使用剑舞动作时，你可以攻击两次而非一次。然而，你在使用该动作时只能选择一个剑舞选项。"
+			]
+		},
+		{
+			"ENG_name": "Master's Flourish",
+			"name": "剑舞大师",
+			"source": "UARevisedSubclasses",
+			"page": 1,
+			"className": "吟游诗人",
+			"classSource": "PHB",
+			"subclassShortName": "宝剑 v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"从14级起，当你使用剑舞选项时，你可以不消耗诗人激励次数，并投掷{@dice d6}以代替选项中诗人激励骰使用。"
+			]
+		},
+		{
+			"ENG_name": "Arcane Archer v2",
+			"name": "魔射手 v2",
+			"source": "UARevisedSubclasses",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "魔射手 v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 3,
+			"entries": [
+				"魔射手研究一种独特的精灵箭术方法，将魔法编织入攻击中以产生超自然效应。在精灵中，魔射手是他们最精锐的武者之一。这些射手守卫着精灵领域的边缘，敏锐地监视着入侵者，并使用魔法灌注的箭矢在怪物和侵略者触及精灵聚居地前将其击败。几个世纪以来，这些精灵射手的方法已被其他种族的成员所学习，他们也能平衡奥术天赋与箭术。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "注魔箭矢|战士||魔射手 v2 (UA)|UARevisedSubclasses|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "奥术箭|战士||魔射手 v2 (UA)|UARevisedSubclasses|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "弓箭手逸闻|战士||魔射手 v2 (UA)|UARevisedSubclasses|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "奥术射击|战士||魔射手 v2 (UA)|UARevisedSubclasses|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Arcane Arrow",
+			"name": "奥术箭",
+			"source": "UARevisedSubclasses",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "魔射手 v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"在3级时，你学会用一些射击释放特殊魔法效应。当你获得此特性时，你学会两个自选的奥术射击选项（参见下方\"奥术射击选项\"部分）。",
+				"每回合一次，当你用短弓或长弓发射一枚注魔箭矢作为{@action 攻击}动作的一部分时，你可以对该箭矢应用一个奥术射击选项。除非该选项不涉及攻击检定，否则你将在箭矢命中时决定使用该选项。该能力有两次使用次数，且你在完成短休或长休时恢复所有已消耗的使用次数。",
+				"当你到达特定战士等级时，你可以习得一个额外的奥术射击选项：7级，10级，15级和18级。而所有的选项在你战士等级达到18级时将会获得强化。"
+			]
+		},
+		{
+			"ENG_name": "Arcane Shot",
+			"name": "奥术射击",
+			"source": "UARevisedSubclasses",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "魔射手 v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"奥术射击特性允许你在特定等级时选择数个选项。以下选项以首字母顺序排列。它们均为都是魔法性的效应，且每一个选项都对应着一个法术学派。",
+				"如果选项需要豁免检定，你的奥术射击豁免DC等于8 + 你的熟练加值 + 你的智力调整值。",
+				{
+					"type": "options",
+					"count": 2,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "放逐矢|UARevisedSubclasses"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "残暴班恩箭|UARevisedSubclasses"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "爆裂矢|UARevisedSubclasses"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "缠绕矢|UARevisedSubclasses"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "扰乱心智之箭|UARevisedSubclasses"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "穿梭矢|UARevisedSubclasses"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "追踪矢|UARevisedSubclasses"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "遮影矢|UARevisedSubclasses"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Archer's Lore",
+			"name": "弓箭手逸闻",
+			"source": "UARevisedSubclasses",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "魔射手 v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"在3级时，你学习了魔法理论或自然的一些秘密\u2014\u2014这是精灵军事传统的典型特征。你获得{@skill 奥秘}或{@skill 自然}技能的熟练项。"
+			]
+		},
+		{
+			"ENG_name": "Magic Arrow",
+			"name": "注魔箭矢",
+			"source": "UARevisedSubclasses",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "魔射手 v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"当你在3级选择此范型时，你获得为箭矢注入魔法的能力。每当你用短弓或长弓发射一支非魔法箭时，你可以将其变为注魔箭矢，使攻击和伤害掷骰获得+1加值。箭矢命中或未命中目标后，魔法效果立即消失。"
+			]
+		},
+		{
+			"ENG_name": "Curving Shot",
+			"name": "曲线射击",
+			"source": "UARevisedSubclasses",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "魔射手 v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"在7级时，你学会如何引导偏离的箭矢到新的目标上。当你使用魔法箭矢进行的攻击检定未命中时，你可以用附赠动作来指定距原本目标不超过60尺的另一目标，对其重骰本次攻击检定。"
+			]
+		},
+		{
+			"ENG_name": "Extra Arcane Shot",
+			"name": "额外奥术射击",
+			"source": "UARevisedSubclasses",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "魔射手 v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"在7级时，你学会一个额外的奥术射击选项。"
+			]
+		},
+		{
+			"ENG_name": "Extra Arcane Shot",
+			"name": "额外奥术射击",
+			"source": "UARevisedSubclasses",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "魔射手 v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"在10级时，你学会一个额外的奥术射击选项。"
+			]
+		},
+		{
+			"ENG_name": "Ever-Ready Shot",
+			"name": "有箭无患",
+			"source": "UARevisedSubclasses",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "魔射手 v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"15级起，当你最需要时，你的魔法箭术总能为你所用。若你掷先攻且没有剩余的奥术射击使用次数，你恢复一次使用次数。"
+			]
+		},
+		{
+			"ENG_name": "Extra Arcane Shot",
+			"name": "额外奥术射击",
+			"source": "UARevisedSubclasses",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "魔射手 v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"在15级时，你学会一个额外的奥术射击选项。"
+			]
+		},
+		{
+			"ENG_name": "Extra Arcane Shot",
+			"name": "额外奥术射击",
+			"source": "UARevisedSubclasses",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "魔射手 v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"在18级时，你学会一个额外的奥术射击选项。"
+			]
+		},
+		{
+			"ENG_name": "Way of the Kensei v2",
+			"name": "剑圣之道 v2",
+			"source": "UARevisedSubclasses",
+			"page": 4,
+			"className": "武僧",
+			"classSource": "PHB",
+			"subclassShortName": "剑圣 v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 3,
+			"entries": [
+				"剑圣之道的武僧们不懈地训练他们的武器，以至于武器变得如同身体的延伸。剑圣看待武器的方式，就像画家看待画笔或作者看待羊皮纸、墨水和羽毛笔一样。剑或弓是用来表达武艺之美与优雅的工具。这种精通使剑圣成为无与伦比的武者，但这只是强烈奉献、练习和研究的附带效应。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "剑圣之途|武僧||剑圣 v2 (UA)|UARevisedSubclasses|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Path of the Kensei",
+			"name": "剑圣之途",
+			"source": "UARevisedSubclasses",
+			"page": 4,
+			"className": "武僧",
+			"classSource": "PHB",
+			"subclassShortName": "剑圣 v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"当你在3级选择此传统时，你将学会将武艺知识扩展到武僧的标准数列武器之外。",
+				"你获得以下增益效果：",
+				{
+					"type": "list",
+					"items": [
+						"选择两种武器作为你的剑圣武器：一件近战武器和一件远程武器。这些武器可以是任何{@filter 简易或军用武器|items|source=phb|category=基础|type=军用武器;简易武器}，但不能具有重型和特殊词条。长弓也是一个有效选择。若你尚未获得这些武器的熟练项，则你将获得之。所选类型的武器对你而言视为武僧武器。该传统的许多特性仅在使用你的剑圣武器时生效。当你在该职业中达到6级、11级和17级时，你可以依照上述标准选择另一种类型的武器\u2014\u2014近战或远程\u2014\u2014作为你的剑圣武器。",
+						"如果你持握一件近战剑圣武器，并在你的回合中进行了一次徒手打击作为{@action 攻击}动作的一部分，则你可以用剑圣武器来保护自己。直到你的下回合开始之前你的AC获得+2加值，不过这一增益只有那把武器还在你的手中且你未陷入{@condition 失能}状态的情况下你才能享受到。",
+						"你可以在你的回合中使用一次附赠动作使你的剑圣武器远程攻击变得更为致命。当你这样做时，你用剑圣武器发动的远程攻击所命中的任何目标将会额外受到{@damage 1d4}点与该武器伤害类型相同的伤害。这一增益会一直持续到当前回合结束。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "One with the Blade",
+			"name": "人剑合一",
+			"source": "UARevisedSubclasses",
+			"page": 4,
+			"className": "武僧",
+			"classSource": "PHB",
+			"subclassShortName": "剑圣 v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"在6级时，你将气延伸到所持的武器中，获得以下增益。",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Magic Kensei Weapons",
+							"name": "剑气",
+							"type": "entries",
+							"entries": [
+								"攻击对非魔法攻击或伤害具有抗性或免疫的目标时，你的剑圣武器攻击视为魔法攻击。"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Precise Strike",
+							"name": "精准打击",
+							"type": "entries",
+							"entries": [
+								"每个你的回合一次，当你使用剑圣武器命中目标时，你可以消耗1点气使得该武器对该目标造成额外伤害，伤害数值等同于你的武艺骰 。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Sharpen the Blade",
+			"name": "锋锐剑影",
+			"source": "UARevisedSubclasses",
+			"page": 4,
+			"className": "武僧",
+			"classSource": "PHB",
+			"subclassShortName": "剑圣 v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 11,
+			"header": 2,
+			"consumes": {
+				"ENG_name": "Ki",
+				"name": "Ki",
+				"amount": 3
+			},
+			"entries": [
+				"在11级时，你获得用气强化武器的能力。以一个附赠动作，你可以消耗至多3点气来给予一把你接触的剑圣武器攻击和伤害掷骰加值，当你持握该武器时。加值等于你消耗的气点数。此加值持续1分钟或直到你再次使用此特性。"
+			]
+		},
+		{
+			"ENG_name": "Unerring Accuracy",
+			"name": "精妙剑法",
+			"source": "UARevisedSubclasses",
+			"page": 4,
+			"className": "武僧",
+			"classSource": "PHB",
+			"subclassShortName": "剑圣 v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"在17级时，你对武器的精通赋予你非凡的准确性。如果你用武僧武器进行攻击检定且未命中，你可以重掷该检定。你每回合只能使用此特性一次。"
+			]
+		},
+		{
+			"ENG_name": "Favored Soul v3",
+			"name": "青睐灵魂 v3",
+			"source": "UARevisedSubclasses",
+			"page": 5,
+			"className": "术士",
+			"classSource": "PHB",
+			"subclassShortName": "青睐灵魂 v3 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 1,
+			"entries": [
+				"有时，点燃术士体内魔法之火的火花来自灵魂深处闪耀的神性之源。拥有如此受青睐的灵魂，你的天生魔法可能源自与某个神性存在遥远但强大的血脉联系。也许你的先祖是一位天使，化身为凡人并被派遣以神之名而战。又或者你的出生与某个远古预言相吻合，将你标记为诸神的仆役或神圣魔法的选民器皿。",
+				"青睐灵魂，凭借其天生的魅力和强大的个性，常被传统宗教阶层视为威胁。作为指挥诸神法力的局外人，这些术士可以破坏现有秩序并声称与神圣有直爽联系。",
+				"在某些文化中，只有那些能够宣称拥有青睐灵魂法力的人才可以命令宗教权力。在这些土地上，教会职位被少数血统支配且世代相传。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "神圣魔法|术士||青睐灵魂 v3 (UA)|UARevisedSubclasses|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "众神眷恩|术士||青睐灵魂 v3 (UA)|UARevisedSubclasses|1"
+				}
+			]
+		},
+		{
+			"ENG_name": "Divine Magic",
+			"name": "神圣魔法",
+			"source": "UARevisedSubclasses",
+			"page": 5,
+			"className": "术士",
+			"classSource": "PHB",
+			"subclassShortName": "青睐灵魂 v3 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"你与神圣的联系使你能够学习通常与牧师职业相关的法术。当你的施法特性让你学习一个术士戏法或1环及更高环阶的术士法术时，除了术士法术列表外，你还可以从牧师法术列表中选择新法术。你必须遵守选择法术的所有其他限制，且该法术对你而言成为术士法术。",
+				"你还学会了{@spell 疗伤术}法术，这不计入你已知的术士法术数量。"
+			]
+		},
+		{
+			"ENG_name": "Favored by the Gods",
+			"name": "众神眷恩",
+			"source": "UARevisedSubclasses",
+			"page": 5,
+			"className": "术士",
+			"classSource": "PHB",
+			"subclassShortName": "青睐灵魂 v3 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"从1环开始，神圣法力守护你的宿命。如果你在一次豁免检定中失败或攻击检定未命中，你可以掷{@dice 2d4}并将其添加到结果中，可能改变结果。",
+				"你必须完成一次长休或短休后才能再次使用该特性。"
+			]
+		},
+		{
+			"ENG_name": "Empowered Healing",
+			"name": "强效治疗",
+			"source": "UARevisedSubclasses",
+			"page": 5,
+			"className": "术士",
+			"classSource": "PHB",
+			"subclassShortName": "青睐灵魂 v3 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 6,
+			"header": 2,
+			"consumes": {
+				"ENG_name": "Sorcery Point",
+				"name": "术法点"
+			},
+			"entries": [
+				"从6级开始，流经你的天界能量可以增强你的治疗魔法。每当你掷骰子来决定你的术士法术恢复的生命值数值时，你可以花费1个术法点来重掷其中任意数量的骰子一次。"
+			]
+		},
+		{
+			"ENG_name": "Angelic Form",
+			"name": "天使形态",
+			"source": "UARevisedSubclasses",
+			"page": 5,
+			"className": "术士",
+			"classSource": "PHB",
+			"subclassShortName": "青睐灵魂 v3 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"在14级时，你的神圣本质会使你经历一次次要的物理变形。你的外貌会呈现出以下其中一种超凡脱俗的特质（由你选择）：美丽、年轻、和善或威严满满。",
+				"此外，以一个附赠动作，你可以从背后显现出一对灵体飞翼。飞翼持续存在直到你处于{@condition 失能}状态或用一个附赠动作解消它们。当飞翼存在时，你拥有30尺的飞行速度。"
+			]
+		},
+		{
+			"ENG_name": "Unearthly Recovery",
+			"name": "神赐痊愈",
+			"source": "UARevisedSubclasses",
+			"page": 5,
+			"className": "术士",
+			"classSource": "PHB",
+			"subclassShortName": "青睐灵魂 v3 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"在18级时，你获得克服严重伤患的能力。当你生命值低于一半时，你可以使用一个附赠动作恢复等同于你生命值上限一半的数值的生命值。",
+				"必须完成一次长休才能再次使用该特性。"
+			]
+		}
+	],
+	"foundrySubclassFeature": [
+		{
+			"ENG_name": "Fighting Style",
+			"name": "战斗风格",
+			"source": "UARevisedSubclasses",
+			"className": "吟游诗人",
+			"classSource": "PHB",
+			"subclassShortName": "宝剑 v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 3,
+			"isIgnored": true
+		}
+	],
+	"optionalfeature": [
+		{
+			"ENG_name": "Banishing Arrow",
+			"name": "放逐矢",
+			"source": "UARevisedSubclasses",
+			"page": 3,
+			"featureType": [
+				"AS:V2-UA"
+			],
+			"consumes": {
+				"ENG_name": "Arcane Shot",
+				"name": "奥术射击"
+			},
+			"entries": [
+				"你使用防护魔法尝试将目标暂时放逐到妖精荒野的一个无害位置。如果箭矢命中一个生物，目标还必须成功通过魅力豁免检定否则被放逐。以此方式被放逐时，其速度为0，且处于{@condition 失能}状态。在其下一回合结束时，目标会重新出现在它离开的空间或最近的未占据空间（如果原空间被占据）。",
+				"当你在此职业上达到18级后，目标被箭攻击命中时还会额外受到{@damage 2d6}点力场伤害。"
+			]
+		},
+		{
+			"ENG_name": "Brute Bane Arrow",
+			"name": "残暴班恩箭",
+			"source": "UARevisedSubclasses",
+			"page": 3,
+			"featureType": [
+				"AS:V2-UA"
+			],
+			"consumes": {
+				"ENG_name": "Arcane Shot",
+				"name": "奥术射击"
+			},
+			"entries": [
+				"你将死灵魔法编织进你的箭中。如果你的箭命中一个生物，目标将受到额外{@damage 2d6}暗蚀伤害且必须进行一次体质豁免检定。若豁免失败，目标的攻击伤害将减半直到下一回合。",
+				"暗蚀伤害增加到{@damage 4d6}，当你用此职业达到18级时。"
+			]
+		},
+		{
+			"ENG_name": "Bursting Arrow",
+			"name": "爆裂矢",
+			"source": "UARevisedSubclasses",
+			"page": 3,
+			"featureType": [
+				"AS:V2-UA"
+			],
+			"consumes": {
+				"ENG_name": "Arcane Shot",
+				"name": "奥术射击"
+			},
+			"entries": [
+				"你为箭矢灌注了来自塑能学派的力场能量爆发。如果箭矢命中一个生物，目标及其10尺内的每个生物将受到{@damage 2d6}力场伤害。",
+				"力场伤害增加到{@damage 4d6}，当你达到该职业18级时。"
+			]
+		},
+		{
+			"ENG_name": "Grasping Arrow",
+			"name": "缠绕矢",
+			"source": "UARevisedSubclasses",
+			"page": 3,
+			"featureType": [
+				"AS:V2-UA"
+			],
+			"consumes": {
+				"ENG_name": "Arcane Shot",
+				"name": "奥术射击"
+			},
+			"entries": [
+				"当此箭矢命中目标时，咒法魔法会创造出缠绕目标的荆棘藤蔓。如果箭矢命中生物，目标会受到额外{@damage 2d6}毒素伤害，其速度缩小10尺，且在其每回合第一次移动1尺或更多（不通过传送）时会受到{@damage 2d6}挥砍伤害。目标或任何能触及它的生物可以用动作进行一次力量（{@skill 运动}）检定对抗你的奥术射击豁免DC来移除藤蔓。否则藤蔓将持续1分钟或直到你再次使用此选项。",
+				"毒素和挥砍伤害均提升至{@damage 4d6}当你在此职业达到18级时。"
+			]
+		},
+		{
+			"ENG_name": "Mind-Scrambling Arrow",
+			"name": "扰乱心智之箭",
+			"source": "UARevisedSubclasses",
+			"page": 4,
+			"featureType": [
+				"AS:V2-UA"
+			],
+			"consumes": {
+				"ENG_name": "Arcane Shot",
+				"name": "奥术射击"
+			},
+			"entries": [
+				"你的惑控魔法使这支箭暂时诱骗其目标。选择目标30尺内的一名盟友。如果箭命中一个生物，目标将受到额外{@damage 2d6}心灵伤害，且它必须成功通过感知豁免检定，否则直到你的下个回合开始前，它不能攻击所选盟友或将那名盟友包含在有害效应区域内。若所选盟友对目标造成任何伤害，此效应提前结束。",
+				"当你在此职业上达到18级后，箭矢的额外心灵伤害增加为{@damage 4d6}。"
+			]
+		},
+		{
+			"ENG_name": "Piercing Arrow",
+			"name": "穿梭矢",
+			"source": "UARevisedSubclasses",
+			"page": 4,
+			"featureType": [
+				"AS:V2-UA"
+			],
+			"consumes": {
+				"ENG_name": "Arcane Shot",
+				"name": "奥术射击"
+			},
+			"entries": [
+				"你使用变化魔法将你的箭转化为一枚以太飞镖，穿透其目标。你使用变化魔法赋予你的箭一种以太特性。当你使用此选项时，你不进行攻击检定。相反，箭向前发射成一条1尺宽且30尺长的线状，然后消失。箭无害地穿过物件，无视掩护。该线上的每个生物必须进行一次敏捷豁免检定。豁免失败时，目标受到如同被箭命中般的伤害，外加额外{@damage 1d6}穿刺伤害。豁免成功时，目标受到一半伤害。",
+				"当你在此职业上达到18级后，箭矢的额外穿刺伤害增加为{@damage 2d6}。"
+			]
+		},
+		{
+			"ENG_name": "Seeking Arrow",
+			"name": "追踪矢",
+			"source": "UARevisedSubclasses",
+			"page": 4,
+			"featureType": [
+				"AS:V2-UA"
+			],
+			"consumes": {
+				"ENG_name": "Arcane Shot",
+				"name": "奥术射击"
+			},
+			"entries": [
+				"使用预言魔法，你赋予你的箭矢追踪目标的能力，使箭矢能够弯曲并转折其路途以搜索猎物。当你使用此选项时，你不需为攻击进行攻击检定。取而代之的是，选择一项你在过去一分钟内见过的生物。箭矢飞向该生物，必要时绕过转角并忽略四分之三掩护和半身掩护。如果目标在武器的范围内且存在足够大的路径供箭矢旅行至目标，目标必须进行一次敏捷豁免检定。豁免失败时，它受到如同被箭矢命中般的伤害，外加额外{@damage 1d6}力场伤害，且你得知目标的当前位置。豁免成功时，目标受到一半伤害，且你不会得知其位置。",
+				"当你在此职业上达到18级后，箭矢的额外力场伤害增加为{@damage 2d6}。"
+			]
+		},
+		{
+			"ENG_name": "Shadow Arrow",
+			"name": "遮影矢",
+			"source": "UARevisedSubclasses",
+			"page": 4,
+			"featureType": [
+				"AS:V2-UA"
+			],
+			"consumes": {
+				"ENG_name": "Arcane Shot",
+				"name": "奥术射击"
+			},
+			"entries": [
+				"你将幻觉魔法编织进箭矢中，使其用抓握的幽影遮蔽敌人的视线。如果箭矢命中一个生物，目标将受到额外{@damage 2d6}心灵伤害，且它必须成功通过一次感知豁免检定，否则在你的下个回合开始前无法看到5尺外的任何东西。",
+				"当你在此职业上达到18级后，箭矢的额外心灵伤害增加为{@damage 4d6}。"
+			]
+		}
+	]
+}

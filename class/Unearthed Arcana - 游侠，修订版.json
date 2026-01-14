@@ -1,0 +1,1868 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UATheRangerRevised",
+				"abbreviation": "UATRR",
+				"full": "破解奥秘：游侠修订版",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2016/dnd/downloads/UA_RevisedRanger.pdf",
+				"dateReleased": "2016-09-12"
+			}
+		],
+		"dependencies": {
+			"optionalfeature": [
+				"UAClassFeatureVariants",
+				"UALightDarkUnderdark",
+				"UAWaterborneAdventures"
+			]
+		},
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1729637619,
+		"_dateLastModifiedHash": "cf6005a207"
+	},
+	"class": [
+		{
+			"ENG_name": "Ranger (Revised)",
+			"name": "游侠（修订版）",
+			"source": "UATheRangerRevised",
+			"page": 1,
+			"hd": {
+				"number": 1,
+				"faces": 10
+			},
+			"proficiency": [
+				"str",
+				"dex"
+			],
+			"spellcastingAbility": "wis",
+			"casterProgression": "1/2",
+			"spellsKnownProgression": [
+				0,
+				2,
+				3,
+				3,
+				4,
+				4,
+				5,
+				5,
+				6,
+				6,
+				7,
+				7,
+				8,
+				8,
+				9,
+				9,
+				10,
+				10,
+				11,
+				11
+			],
+			"optionalfeatureProgression": [
+				{
+					"ENG_name": "Fighting Style",
+					"name": "战斗风格",
+					"featureType": [
+						"FS:R"
+					],
+					"progression": {
+						"2": 1
+					}
+				}
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium",
+					"shield"
+				],
+				"weapons": [
+					"简易",
+					"军用"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"animal handling",
+								"athletics",
+								"insight",
+								"investigation",
+								"nature",
+								"perception",
+								"stealth",
+								"survival"
+							],
+							"count": 3
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) {@item 鳞甲|phb} 或 (b) {@item 皮甲|phb}",
+					"(a) 两把{@item 短剑|phb|短剑}或 (b) 两把{@filter 简易近战武器|items|source=phb|category=基础|type=简易武器;近战武器=u~u~sand}",
+					"(a) 一个{@item 地城套组|phb}或(b) 一个{@item 探索套组|phb}",
+					"一把{@item 长弓|phb}和一个{@item 箭袋|phb}（内含{@item 箭矢 (20)|phb|20支箭}）"
+				],
+				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|起始金币}",
+				"defaultData": [
+					{
+						"a": [
+							"鳞甲|phb"
+						],
+						"b": [
+							"皮甲|phb"
+						]
+					},
+					{
+						"a": [
+							{
+								"item": "短剑|phb",
+								"quantity": 2
+							}
+						],
+						"b": [
+							{
+								"equipmentType": "简易近战武器",
+								"quantity": 2
+							}
+						]
+					},
+					{
+						"a": [
+							"地城套组|phb"
+						],
+						"b": [
+							"探索套组|phb"
+						]
+					},
+					{
+						"_": [
+							"长弓|phb",
+							"箭矢 (20)|phb"
+						]
+					}
+				]
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"{@filter 已知法术|spells|class=游侠}"
+					],
+					"rows": [
+						[
+							0
+						],
+						[
+							2
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							6
+						],
+						[
+							6
+						],
+						[
+							7
+						],
+						[
+							7
+						],
+						[
+							8
+						],
+						[
+							8
+						],
+						[
+							9
+						],
+						[
+							9
+						],
+						[
+							10
+						],
+						[
+							10
+						],
+						[
+							11
+						],
+						[
+							11
+						]
+					]
+				},
+				{
+					"title": "每环法术位",
+					"colLabels": [
+						"{@filter 1st|spells|level=1|class=游侠}",
+						"{@filter 2nd|spells|level=2|class=游侠}",
+						"{@filter 3rd|spells|level=3|class=游侠}",
+						"{@filter 4th|spells|level=4|class=游侠}",
+						"{@filter 5th|spells|level=5|class=游侠}"
+					],
+					"rowsSpellProgression": [
+						[
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"宿敌|游侠（修订版）|UATheRangerRevised|1",
+				"自然探索者|游侠（修订版）|UATheRangerRevised|1",
+				"施法|游侠（修订版）|UATheRangerRevised|2",
+				"战斗风格|游侠（修订版）|UATheRangerRevised|2",
+				"原初意识|游侠（修订版）|UATheRangerRevised|3",
+				{
+					"classFeature": "游侠法师议会|游侠（修订版）|UATheRangerRevised|3",
+					"gainSubclassFeature": true
+				},
+				"属性值提升|游侠（修订版）|UATheRangerRevised|4",
+				{
+					"classFeature": "游侠法师议会特性|游侠（修订版）|UATheRangerRevised|5",
+					"gainSubclassFeature": true
+				},
+				"高等宿敌|游侠（修订版）|UATheRangerRevised|6",
+				{
+					"classFeature": "游侠法师议会特性|游侠（修订版）|UATheRangerRevised|7",
+					"gainSubclassFeature": true
+				},
+				"属性值提升|游侠（修订版）|UATheRangerRevised|8",
+				"轻捷步伐|游侠（修订版）|UATheRangerRevised|8",
+				"遁术|游侠（修订版）|UATheRangerRevised|10",
+				{
+					"classFeature": "游侠法师议会特性|游侠（修订版）|UATheRangerRevised|11",
+					"gainSubclassFeature": true
+				},
+				"属性值提升|游侠（修订版）|UATheRangerRevised|12",
+				"无踪步|游侠（修订版）|UATheRangerRevised|14",
+				{
+					"classFeature": "游侠法师议会特性|游侠（修订版）|UATheRangerRevised|15",
+					"gainSubclassFeature": true
+				},
+				"属性值提升|游侠（修订版）|UATheRangerRevised|16",
+				"野性感官|游侠（修订版）|UATheRangerRevised|18",
+				"属性值提升|游侠（修订版）|UATheRangerRevised|19",
+				"屠灭众敌|游侠（修订版）|UATheRangerRevised|20"
+			],
+			"subclassTitle": "游侠法师议会",
+			"hasFluff": true
+		}
+	],
+	"classFluff": [
+		{
+			"ENG_name": "Ranger (Revised)",
+			"name": "游侠（修订版）",
+			"source": "UATheRangerRevised",
+			"entries": [
+				{
+					"ENG_name": "Ranger",
+					"name": "游侠",
+					"type": "section",
+					"entries": [
+						"林中树影下穿行人影，正追捕一群计划袭击附近村庄的兽人。只见那男人外表粗野，双手各挥舞着一柄短剑，有如钢铁狂风一般将敌人接连斩杀。",
+						"避过一团霜冻气息后，精灵迅速站稳脚跟并拉弓射箭直取白龙。尽管身处巨龙散发的恐惧气息与吐息寒意中，她仍无所畏惧的将箭矢一支接一支地射入龙鳞的缝隙中。",
+						"半精灵高举手臂，发令将盘旋头顶的猎鹰召回身边。他指向那只追踪到的枭熊，并用精灵语指挥猎鹰前去扰敌，以为自己争取时间备好弓箭。",
+						"离开城镇的喧嚣，越过隔绝荒野危险的高墙后，即是茂密的森林和广袤的原野。也正是游侠们进行无尽守望之地。",
+						{
+							"ENG_name": "Deadly Hunters",
+							"name": "致命的猎人",
+							"type": "entries",
+							"entries": [
+								"类人生物侵略者、狂暴的野兽与怪兽、可怕的巨人、致命的龙。作为荒野勇士的游侠们，专注于狩猎这些徘徊在文明世界边缘的危害之物。他们向掠食者们学习如何追踪猎物，并借助荒野中的灌木丛和碎石在阴影中潜行。游侠们通过特殊的战斗训练，使其在针对最具威胁敌人时可以惊醒更有效的应对方案。",
+								"熟悉荒野的游侠们从中获得了利用大自然魔力施展法术的能力。他们的运作方式与德鲁伊类似，只是其法术与其实战能力相配，同样强调速度、隐匿以及狩猎。但每个游侠们的才能，却只能从死守边境的艰难险阻中磨练出来。"
+							]
+						},
+						{
+							"ENG_name": "Independent Adventurers",
+							"name": "孤独的冒险家",
+							"type": "entries",
+							"entries": [
+								"虽说游侠可以出任猎人，领路者或搜寻者等职，但其真正使命依然是抵御从荒野来袭的怪物和类人生物部落，以免文明遭受蹂躏。某些地区的游侠们会集体组建教团，或是与德鲁伊结社联合形成战力。但仍有许多游侠执着于独断独行，他们认为，在巨龙或兽人战团进犯时，保留下一名游侠就足以作为第一道（或是最后一道）坚固的防线。",
+								"游侠们强烈的独立性，以及远离温床热水澡的生活习性，使他们比那些在城里长大的同伴们更能适应冒险生活。当面对其他人对野外艰辛牢骚满腹时，游侠们既觉得好笑又只能心情复杂的表示无奈和同情。不过在面对文明之敌的战斗中，同伴们所体现的价值却也抵得过平时给游侠带来的负担。娇生惯养的城里人可能不知道如何在野外解决饮食问题，但他们还可以在其他方面帮上忙。"
+							]
+						},
+						{
+							"ENG_name": "Creating a Ranger",
+							"name": "创建游侠",
+							"type": "entries",
+							"entries": [
+								"创造一个游侠角色时，可以先考虑什么性质的训练给予了你特殊的能力。你是不是有某位导师单独训练，而你们一同在荒野中闯荡，直至你真正掌握游侠之道？你是完成学业出师，还是你的导师被某种怪物所杀，以致你将这种怪物选为宿敌？或许你是师从于某个德鲁伊结社下属的游侠分队，以荒野传说般神秘的形式接受训练。又或者你是无师自通，作为一个荒野隐居者，为求生存而学会了战斗技能和追踪技巧，并与大自然奇妙的产生了共鸣。",
+								"你对于特定敌人的仇恨源于何处？该怪物杀了你所爱之人，或是破坏了你的家乡？或是你见证太多由这些怪物造成的破坏，并决定挺身制止他们的掠夺？你的冒险生涯是延续你守卫边境的工作，还是发生了某种重大改变？是什么原因令你加入一队冒险队伍中？是因为觉得教导新盟友野外生存之道颇具挑战，还是因为他们将你从孤寂深处拯救出来？",
+								{
+									"ENG_name": "Quick Build",
+									"name": "快速建卡",
+									"type": "entries",
+									"entries": [
+										"你可以按以下建议快速创建一名游侠。首先，将你的最高属性分配给敏捷，次高分配给感知。（一些注重双持武器战斗的游侠其力量该高于敏捷。）其次选择{@background 化外之民}背景。"
+									]
+								}
+							]
+						}
+					],
+					"source": "PHB",
+					"page": 89
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "quote",
+							"entries": [
+								"我一生中的大部分时间都远离文明，守在它的边缘来保护它。不要以为因为我不向你们的国王下跪，就意味着我没有比他所有的骑士加起来还要多地保护他。"
+							],
+							"by": "索维里斯"
+						},
+						"游侠是自由思想的漫游者和探索者，他们在文明领土的边缘巡逻，将荒野之地的居民拒之门外。这是一份无人感激的工作，因为他们的努力很少被理解，几乎从未得到回报。然而，游侠坚持自己的职责，从不怀疑他们的工作使世界变得更安全。",
+						"与文明的关系塑造了每位游侠的个性和历史。有些游侠视自己为法律的执行者和文明边疆的正义使者，不向任何主权权力负责。另一些则是完全避开文明的生存主义者。他们击败怪物以确保自己的安全，同时在世界的危险荒野地区生活和旅行。如果他们的努力同时也造福了他们避开的王国和其他文明领域，那就这样吧。",
+						"如果你正在创建或扮演一个游侠角色，以下部分提供了一些想法，用于丰富角色和提升你的角色扮演体验。",
+						{
+							"ENG_name": "View of the World",
+							"name": "世界观",
+							"type": "entries",
+							"entries": [
+								"一个游侠对世界的看法始于（有时也终于）这个角色对文明人和他们所占据的地方的态度。有些游侠对文明有着根深蒂固的蔑视态度，而另一些则对他们誓言要保护的人表示同情\u2014\u2014尽管在战场上，一个游侠和另一个游侠之间的区别是看不出来的。事实上，对于那些见过他们行动并受益于他们的技艺的人来说，游侠为什么要做他们所做的事情几乎无关紧要。话虽如此，没有两个游侠可能会以相同的方式表达他们对任何问题的看法。",
+								"如果你还没有考虑过你角色的世界观的细节，可以考虑通过总结一个简短的陈述（如下面表格中的条目）来更精细地指出这种观点。这种感觉可能会如何影响你的行为方式？",
+								{
+									"type": "table",
+									"caption": "世界观",
+									"colLabels": [
+										"{@dice d6}",
+										"观念"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 1
+												}
+											},
+											"城镇和城市是那些无法独自生存的人的最佳去处。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 2
+												}
+											},
+											"文明的进步是挫败混乱的最佳方式，但其影响必须受到监控。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 3
+												}
+											},
+											"城镇和城市是必要的恶，但一旦荒野被清除了超自然的威胁，我们就不再需要它们了。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 4
+												}
+											},
+											"墙是给懦夫的，他们蜷缩在墙后，而其他人则在做让世界变得安全的工作。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 5
+												}
+											},
+											"你在一片古老的森林巡逻，这片森林因为多次通往影域的通道而变得黑暗和腐败。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 6
+												}
+											},
+											"城市通过将人们与荒野的严酷教训隔离开来，培养了软弱。"
+										]
+									]
+								}
+							]
+						},
+						{
+							"ENG_name": "Homelands",
+							"name": "家园",
+							"type": "entries",
+							"entries": [
+								"所有的游侠，无论他们是如何开始从事这个职业的，都与自然世界及其各种地形有着强烈的联系。对于一些游侠来说，荒野是他们成长的地方，无论是因为在那里出生还是年轻时就迁移到了那里。对于其他游侠来说，文明原本是他们的家园，但荒野成为了他们的第二故乡。",
+								"思考你的角色背景故事，决定哪种地形最像你的家，无论你是否在那里出生。这种地形对你的性格有何启示？它是否影响了你选择学习的法术？那里的经历是否塑造了你偏爱的敌人类型？",
+								{
+									"type": "table",
+									"caption": "家园",
+									"colLabels": [
+										"{@dice d6}",
+										"故乡"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 1
+												}
+											},
+											"您巡逻了一片古老的森林，这片森林因多次通往影域的通道而变得黑暗和腐败。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 2
+												}
+											},
+											"作为一群游牧民的一部分，你获得了在沙漠中生存的技能。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 3
+												}
+											},
+											"你在幽暗地域的早年生活为你应对其居民的挑战做好了准备。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 4
+												}
+											},
+											"你居住在沼泽的边缘，这个地区既受到陆地生物的威胁，也受到水生生物的威胁。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 5
+												}
+											},
+											"因为你在山峰中长大，找到穿越山脉的最佳路径对你来说是本能。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 6
+												}
+											},
+											"你在遥远的北方流浪，学习如何在被冰雪覆盖的领域中保护自己并繁荣发展。"
+										]
+									]
+								}
+							]
+						},
+						{
+							"ENG_name": "Sworn Enemy",
+							"name": "死敌",
+							"type": "entries",
+							"entries": [
+								"每位游侠开始时都有一个或两个偏爱的敌人。偏爱的敌人的确定可能与角色早期生活中的特定事件有关，或者完全是一个选择问题。",
+								"是什么促使你的角色选择特定的敌人？是因为传统、好奇心，还是因为你有仇要报？",
+								{
+									"type": "table",
+									"caption": "死敌",
+									"colLabels": [
+										"{@dice d6}",
+										"仇敌"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 1
+												}
+											},
+											"你的祖先或前任与这些生物战斗过，你也将这样做。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 2
+												}
+											},
+											"你对你的敌人没有敌意。你像猎人追踪野生动物一样追踪这些生物。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 3
+												}
+											},
+											"你对你的敌人没有敌意。你像猎人追踪野生动物一样追踪这些生物。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 4
+												}
+											},
+											"你对你的敌人感到着迷，并收集有关它的传说和历史书籍。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 5
+												}
+											},
+											"你收集你击败的敌人的信物，以提醒你每一次杀戮。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 6
+												}
+											},
+											"你尊重你选择的敌人，并且你将你的战斗视为各自技能的考验。"
+										]
+									]
+								}
+							]
+						}
+					],
+					"page": 40,
+					"source": "XGE"
+				}
+			]
+		}
+	],
+	"subclass": [
+		{
+			"ENG_name": "Beast Conclave",
+			"name": "野兽法师议会",
+			"shortName": "野兽法师议会",
+			"source": "UATheRangerRevised",
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"page": 5,
+			"subclassFeatures": [
+				"野兽法师议会 (UA)|游侠（修订版）|UATheRangerRevised|野兽法师议会|UATheRangerRevised|3",
+				"协同攻击|游侠（修订版）|UATheRangerRevised|野兽法师议会|UATheRangerRevised|5",
+				"野兽防御|游侠（修订版）|UATheRangerRevised|野兽法师议会|UATheRangerRevised|7",
+				"暴风爪抓与尖牙|游侠（修订版）|UATheRangerRevised|野兽法师议会|UATheRangerRevised|11",
+				"高端野兽防御|游侠（修订版）|UATheRangerRevised|野兽法师议会|UATheRangerRevised|15"
+			]
+		},
+		{
+			"ENG_name": "Deep Stalker Conclave",
+			"name": "深地潜行者法师议会",
+			"shortName": "深地潜行者法师议会",
+			"source": "UATheRangerRevised",
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"page": 7,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"易容术"
+						],
+						"5": [
+							"魔绳术"
+						],
+						"9": [
+							"守卫刻文"
+						],
+						"13": [
+							"高等隐形术"
+						],
+						"17": [
+							"伪装术"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"地底潜行者法师议会（UA）|游侠（修订版）|UATheRangerRevised|深地潜行者法师议会|UATheRangerRevised|3",
+				"额外攻击|游侠（修订版）|UATheRangerRevised|深地潜行者法师议会|UATheRangerRevised|5",
+				"钢铁意志|游侠（修订版）|UATheRangerRevised|深地潜行者法师议会|UATheRangerRevised|7",
+				"追猎如风|游侠（修订版）|UATheRangerRevised|深地潜行者法师议会|UATheRangerRevised|11",
+				"潜行者回避|游侠（修订版）|UATheRangerRevised|深地潜行者法师议会|UATheRangerRevised|15"
+			]
+		},
+		{
+			"ENG_name": "Hunter Conclave",
+			"name": "猎人法师议会",
+			"shortName": "猎人法师议会",
+			"source": "UATheRangerRevised",
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"page": 7,
+			"subclassFeatures": [
+				"猎人法师议会（UA）|游侠（修订版）|UATheRangerRevised|猎人法师议会|UATheRangerRevised|3",
+				"额外攻击|游侠（修订版）|UATheRangerRevised|猎人法师议会|UATheRangerRevised|5",
+				"防守战术|游侠（修订版）|UATheRangerRevised|猎人法师议会|UATheRangerRevised|7",
+				"多重攻击|游侠（修订版）|UATheRangerRevised|猎人法师议会|UATheRangerRevised|11",
+				"高效防守战术|游侠（修订版）|UATheRangerRevised|猎人法师议会|UATheRangerRevised|15"
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"ENG_name": "Favored Enemy",
+			"name": "宿敌",
+			"source": "UATheRangerRevised",
+			"page": 1,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"level": 1,
+			"entries": [
+				"从1级开始，你在研究、追踪、狩猎甚至与荒野中常见的某种生物类型交谈方面拥有丰富的体验。",
+				"选择一种宿敌类型：{@filter 野兽|bestiary|type=beast}、{@filter 妖精|bestiary|type=fey}、{@filter 类人生物|bestiary|type=humanoid}、{@filter 怪兽|bestiary|type=monstrosity}或{@filter 亡灵|bestiary|type=undead}。你对所选类型的生物进行武器攻击时，伤害掷骰获得+2加值。此外，你在追踪宿敌的感知（{@skill 求生}）检定和回忆关于它们的消息的智力检定上具有优势。",
+				"当你获得此特性时，你还可以学习一门自选语言，通常是你宿敌或相关生物所说的语言。不过，你可以自由选择任何你想学习的语言。"
+			]
+		},
+		{
+			"ENG_name": "Natural Explorer",
+			"name": "自然探索者",
+			"source": "UATheRangerRevised",
+			"page": 1,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"level": 1,
+			"entries": [
+				"你是自然世界导航的大师，且在受到攻击时能以迅捷果断的动作应对。这赋予你以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你忽略{@quickref 困难地形||3}。",
+						"在先攻检定中具有优势。",
+						"在你的第一个战斗回合中，你对尚未行动的生物进行的攻击检定具有优势。"
+					]
+				},
+				"此外，你熟习在野外导航。当你旅行一小时或更长时间时，获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你的队伍旅行时不会因困难地形而变慢",
+						"除非受魔法效应影响，否则你的队伍不会迷路",
+						"旅行时，即使你进行另一项活动（如觅食、导航或追踪），仍能对危险保持警觉。",
+						"独自旅行时，你能够保持隐匿状态以正常步调移动",
+						"觅食时，你会发现两倍的食物。",
+						"追踪其他生物时，你还能了解他们的确切数量、体型以及离开踪迹的时间。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Fighting Style",
+			"name": "战斗风格",
+			"source": "UATheRangerRevised",
+			"page": 1,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"level": 2,
+			"entries": [
+				"第2级起，你将精进于一种战斗风格，从下列选项中选择其一。另外，即使你有多次选择战斗风格的机会，也不能重复选择同一个战斗风格。",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "箭术"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "近距离射手住所|UALightDarkUnderdark"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "防御"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "对决"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "水手|UAWaterborneAdventures"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "隧道战士|UALightDarkUnderdark"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "双武器战斗"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "盲斗|UAClassFeatureVariants"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "拦截|UAClassFeatureVariants"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "投掷武器战斗|UAClassFeatureVariants"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "徒手战斗|UAClassFeatureVariants"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "德鲁伊教战士|UAClassFeatureVariants"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "盲斗|TCE"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "德鲁伊教战士|TCE"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "投掷武器战斗|TCE"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Spellcasting",
+			"name": "施法",
+			"source": "UATheRangerRevised",
+			"page": 1,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"level": 2,
+			"entries": [
+				"第2级起，你学会运用自然世界的魔法本源进行施法，你的施法方式与德鲁伊类似。参考{@book 第十章|phb|10}的施法基本规则以及{@book 第十一章|phb|11}的{@filter 游侠法术列表|spells|class=游侠}。",
+				{
+					"ENG_name": "Spell Slots",
+					"name": "法术位",
+					"type": "entries",
+					"entries": [
+						"\"游侠职业表\"中记录了你可用以施展你{@filter 游侠法术|spells|class=游侠}的1环及更高环阶法术位数量。施展某个游侠法术时，你必须同时消耗其对应环阶的法术位。而已消耗的法术位则可以通过完成一次长休进行恢复。",
+						"例如，如果你已经习得一环法术{@spell 化兽为友}，并且有一个一环和二环法术位可用，你可以使用任一法术位来施放{@spell 化兽为友}。"
+					]
+				},
+				{
+					"ENG_name": "Spells Known of 1st Level and Higher",
+					"name": "1环及更高等级已知法术",
+					"type": "entries",
+					"entries": [
+						"你从游侠法术列表里选两个1环法术作为自己的已知法术。",
+						"\"游侠职业表\"中\"已知法术\"一栏记录了你获得更多已知法术时的相应等级。你只能获取已有相应环阶法术位的法术。比如，当你达到第5级时，你将获得一个1环或2环法术。",
+						"另外，你每提升一个游侠等级，还可以从游侠法术列表里选择一个新法术来代替一个已知法术列表中的旧法术。但是，你必须拥有新法术的相应环阶法术位。"
+					]
+				},
+				{
+					"ENG_name": "Spellcasting Ability",
+					"name": "施法属性",
+					"type": "entries",
+					"entries": [
+						"你的魔法来自你与自然的同调，因此感知是你施展游侠法术的关键属性。每当你的游侠法术需要施法属性时均指向你的感知值。而你游侠法术的豁免DC和攻击检定，则使用你的感知调整值。",
+						{
+							"ENG_name": "Spell",
+							"name": "法术",
+							"type": "abilityDc",
+							"attributes": [
+								"wis"
+							]
+						},
+						{
+							"ENG_name": "Spell",
+							"name": "法术",
+							"type": "abilityAttackMod",
+							"attributes": [
+								"wis"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Primeval Awareness",
+			"name": "原初意识",
+			"source": "UATheRangerRevised",
+			"page": 1,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"level": 3,
+			"entries": [
+				"从3级开始，你对游侠逸闻的精通使你能够与野兽和你周围的大地建立强大的联系。",
+				"你拥有与野兽沟通的天赋能力，且它们视你为同类精魄。通过声响和手势，你可以用一个动作向野兽传达简易的意念，并能读懂它的基础情绪和意图。你将了解它的情感状态、是否受到任何魔法影响、它的短暂性需求（如进食或安全）、以及你能采取（若有）哪些动作说服它不发动攻击。",
+				"你无法在10分钟内对过去攻击过的生物使用该属性。",
+				"此外，你可以同调感官以确定是否有任何你青睐的敌人潜伏在附近。通过花费1分钟不间断的{@status 专注}（如同你正在{@status 专注||专注于}一个法术），你可以感知5英里内是否存在你青睐的敌人。此特性会揭示哪些青睐的敌人在场、它们的数量，以及这些生物的大致方向和与你相距的英里数。",
+				"如果在范围内有多组你青睐的敌人结伙，你会获得每组敌人的消息。"
+			]
+		},
+		{
+			"ENG_name": "Ranger Conclave",
+			"name": "游侠法师议会",
+			"source": "UATheRangerRevised",
+			"page": 1,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"level": 3,
+			"entries": [
+				"在3级时，你选择效仿可用法师议会列表中一个游侠法师议会的理想且训练。你的选择会授予你在3级时的特性，并在5级、7级、11级和15级时再次授予。"
+			]
+		},
+		{
+			"ENG_name": "Ability Score Improvement",
+			"name": "属性值提升",
+			"source": "UATheRangerRevised",
+			"page": 1,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"level": 4,
+			"entries": [
+				"当你达到4级时，你可以选择一项属性值提升2点，或选择两项属性各提升1点。不过你不能通过此特性让属性超过20。",
+				"如果你的DM允许使用专长，你也可以选择一个{@5etools 专长|feats.html}。"
+			]
+		},
+		{
+			"ENG_name": "Ranger Conclave feature",
+			"name": "游侠法师议会特性",
+			"source": "UATheRangerRevised",
+			"page": 1,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"level": 5,
+			"entries": [
+				"在5级时，你获得由你的游侠法师议会授予的特性。"
+			]
+		},
+		{
+			"ENG_name": "Greater Favored Enemy",
+			"name": "高等宿敌",
+			"source": "UATheRangerRevised",
+			"page": 1,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"level": 6,
+			"entries": [
+				"在6级时，你已准备好搜寻更致命的猎物。选择一种高等宿敌类型：{@filter 异怪|bestiary|type=aberration}、{@filter 天族|bestiary|type=celestial}、{@filter 构装|bestiary|type=construct}、{@filter 龙|bestiary|type=dragon}、{@filter 元素|bestiary|type=elemental}、{@filter 邪魔|bestiary|type=fiend}或{@filter 巨人|bestiary|type=giant}。你将获得对抗这种选定敌人的所有增益，包括对抗宿敌时通常获得的额外语言。你对所有宿敌的伤害掷骰加值提升至+4。",
+				"此外，你对高等宿敌使用的法术和属性具有豁免检定优势。"
+			]
+		},
+		{
+			"ENG_name": "Ranger Conclave feature",
+			"name": "游侠法师议会特性",
+			"source": "UATheRangerRevised",
+			"page": 1,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"level": 7,
+			"entries": [
+				"在7级时，你获得由你的游侠法师议会授予的特性。"
+			]
+		},
+		{
+			"ENG_name": "Ability Score Improvement",
+			"name": "属性值提升",
+			"source": "UATheRangerRevised",
+			"page": 1,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"level": 8,
+			"entries": [
+				"当你达到第8级时，你可以选择一项属性值提升2点，或选择两项属性各提升1点。不过你不能通过该特性让属性超过20。",
+				"如果你的DM允许使用专长，你也可以选择一个{@5etools 专长|feats.html}。"
+			]
+		},
+		{
+			"ENG_name": "Fleet of Foot",
+			"name": "轻捷步伐",
+			"source": "UATheRangerRevised",
+			"page": 1,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"level": 8,
+			"entries": [
+				"从8级开始，你可以在你的回合中使用{@action 疾走}动作作为附赠动作。"
+			]
+		},
+		{
+			"ENG_name": "Hide in Plain Sight",
+			"name": "遁术",
+			"source": "UATheRangerRevised",
+			"page": 1,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"level": 10,
+			"entries": [
+				"从10级开始，你可以长时间保持完全静止以设置伏击。",
+				"当你在你的回合尝试躲藏时，你可以选择在该回合不移动。如果你避免移动，试图侦查你的生物在感知（{@skill 察觉}）检定上承受-10减值，直到你的下一个回合开始。如果你移动或因自愿或外部效应而倒地{@condition 倒地}，你将失去此增益。如果任何效应或动作导致你不再处于躲藏状态，你仍会被自动发现。",
+				"若你在下个回合仍保持隐藏，你可以继续静止不动且获得此增益直至被发现。"
+			]
+		},
+		{
+			"ENG_name": "Ranger Conclave feature",
+			"name": "游侠法师议会特性",
+			"source": "UATheRangerRevised",
+			"page": 1,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"level": 11,
+			"entries": [
+				"在11级时，你获得由你的游侠法师议会授予的特性。"
+			]
+		},
+		{
+			"ENG_name": "Ability Score Improvement",
+			"name": "属性值提升",
+			"source": "UATheRangerRevised",
+			"page": 1,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"level": 12,
+			"entries": [
+				"当你达到第12级时，你可以选择一项属性值提升2点，或选择两项属性各提升1点。不过你不能通过该特性让属性超过20。",
+				"如果你的DM允许使用专长，你也可以选择一个{@5etools 专长|feats.html}。"
+			]
+		},
+		{
+			"ENG_name": "Vanish",
+			"name": "无踪步",
+			"source": "UATheRangerRevised",
+			"page": 1,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"level": 14,
+			"entries": [
+				"第14级起，你可以在自己回合以一个附赠动作的形式执行{@action 躲藏}动作。此时，你无法被非魔法手段追踪到，除非你主动留下踪迹。"
+			]
+		},
+		{
+			"ENG_name": "Ranger Conclave feature",
+			"name": "游侠法师议会特性",
+			"source": "UATheRangerRevised",
+			"page": 1,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"level": 15,
+			"entries": [
+				"在15级时，你获得由你的游侠法师议会授予的特性。"
+			]
+		},
+		{
+			"ENG_name": "Ability Score Improvement",
+			"name": "属性值提升",
+			"source": "UATheRangerRevised",
+			"page": 1,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"level": 16,
+			"entries": [
+				"当你达到16级时，你可以选择一项属性值提升2点，或选择两项属性各提升1点。不过你不能通过此特性让属性超过20。",
+				"如果你的DM允许使用专长，你也可以选择一个{@5etools 专长|feats.html}。"
+			]
+		},
+		{
+			"ENG_name": "Feral Senses",
+			"name": "野性感官",
+			"source": "UATheRangerRevised",
+			"page": 1,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"level": 18,
+			"entries": [
+				"第18级时，你获得超自然的感官以帮助你对抗看不到的生物。此后，你攻击一个看不到的生物时不会因此承受劣势。另外，你还能感测30尺内所有{@condition 隐形}敌人的位置，前提是该生物并没有针对你进行躲藏，而你也没有陷入{@condition 目盲}或{@condition 耳聋}。"
+			]
+		},
+		{
+			"ENG_name": "Ability Score Improvement",
+			"name": "属性值提升",
+			"source": "UATheRangerRevised",
+			"page": 1,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"level": 19,
+			"entries": [
+				"当你达到19级时，你可以选择一项属性值提升2点，或选择两项属性各提升1点。不过你不能通过此特性让属性超过20。",
+				"如果你的DM允许使用专长，你也可以选择一个{@5etools 专长|feats.html}。"
+			]
+		},
+		{
+			"ENG_name": "Foe Slayer",
+			"name": "屠灭众敌",
+			"source": "UATheRangerRevised",
+			"page": 1,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"level": 20,
+			"entries": [
+				"在20级时，你成为无与伦比的猎人。在你的每个回合一次，你可以将你的感知调整值添加到你所进行的攻击的攻击检定或伤害掷骰中。你可以在掷骰之前或之后选择使用此特性，但必须在掷骰的任何效应生效之前。"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"ENG_name": "Beast Conclave (UA)",
+			"name": "野兽法师议会 (UA)",
+			"source": "UATheRangerRevised",
+			"page": 5,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"subclassShortName": "野兽法师议会",
+			"subclassSource": "UATheRangerRevised",
+			"level": 3,
+			"entries": [
+				"许多游侠在荒野中比在文明社会中更自在，以至于动物将它们视为同类。野兽法师议会的游侠们与一只野兽建立了紧密的牵挂，然后通过魔法的使用进一步强化这种牵挂。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "动物同伴|游侠（修订版）|UATheRangerRevised|野兽法师议会|UATheRangerRevised|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "同伴的牵挂|游侠（修订版）|UATheRangerRevised|野兽法师议会|UATheRangerRevised|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Animal Companion",
+			"name": "动物同伴",
+			"source": "UATheRangerRevised",
+			"page": 5,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"subclassShortName": "野兽法师议会",
+			"subclassSource": "UATheRangerRevised",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"在3级时，你学会使用你的魔法与自然世界的生物建立强大的牵挂。",
+				"通过8小时的工作且消耗价值50GP的珍稀草药和优质食物，你从野外召唤一只动物作为你忠实的同伴。你通常从以下动物中选择你的同伴：一只{@creature 猿}、一只{@creature 黑熊}、一只{@creature 野猪}、一只{@creature 巨獾}、一只{@creature 巨鼬}、一只{@creature 骡子}、一只{@creature 黑豹}或一只{@creature 狼}。然而，你的DM可能会根据周围地形和该区域可能存在的生物类型为你选择其中一种动物。",
+				"在8小时结束时，你的动物同伴出现且获得你同伴的牵挂属性的所有增益。你一次只能有一个动物同伴。",
+				"如果你的动物同伴被杀死，你们之间的魔法牵挂允许你将其复活。通过8小时的工作且消耗价值25GP的珍稀药草和优质进食，你呼唤出同伴的精魄并用你的魔法为它创造一个新的身体。你可以用这种方式复活一个动物同伴，即使你不拥有其身体的任何部分。",
+				"如果你使用此属性让一个前动物同伴复活且你当前有一个动物同伴，你当前的同伴会离开你并被复活的同伴取代。"
+			]
+		},
+		{
+			"ENG_name": "Companion's Bond",
+			"name": "同伴的牵挂",
+			"source": "UATheRangerRevised",
+			"page": 5,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"subclassShortName": "野兽法师议会",
+			"subclassSource": "UATheRangerRevised",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"你的动物同伴在与你的链接中获得多种增益。",
+				"该动物同伴失去其多重攻击动作（如果它有的话）。",
+				"同伴会尽力服从你的命令。它像其他生物一样进行先攻检定，但由你决定它的动作、决策、态度等。如果你处于{@condition 失能}状态或不在场，同伴会自行行动。",
+				"当使用你的自然探索者特性时，你和你的动物同伴都可以以正常步调潜行移动。",
+				"你的动物同伴拥有部分由你的等级决定的属性和游戏数据。你的同伴使用你的熟练加值而非它自己的。除了通常使用其熟练加值的范围外，动物同伴还会将它的熟练加值加到它的AC和伤害掷骰上。",
+				"你的动物同伴获得你选择的两个技能的熟练项。它也会对所有豁免检定变得熟练。",
+				"3级之后每提升一个等级，你的动物同伴将获得一个额外的生命骰且其生命值相应提升。",
+				"每当你获得属性值提升职业特性时，你的同伴的属性也会提升。你的同伴可以选择将一个属性值提升2点，或将两个属性值各提升1点。正常情况下，除非特性描述中另有说明，否则你的同伴无法通过此特性将属性值提升至20以上。",
+				"你的同伴共享你的阵营，且有一个你可以掷骰或从下方表格中选择的特点和缺点。你的同伴共享你的理想，它的牵挂永远是\"与我同行的游侠是我愿意为之献出生命的挚爱同伴。\"",
+				"你的动物同伴获得你的宿敌特性和高等宿敌特性的增益，当你在6级获得该特性时。它使用你为这些特性选择的宿敌。",
+				{
+					"type": "table",
+					"caption": "同伴特质",
+					"colLabels": [
+						"d6",
+						"特质"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"面对逆境，我无所畏惧。"
+						],
+						[
+							"2",
+							"威胁我的朋友就是威胁我。"
+						],
+						[
+							"3",
+							"我保持警觉以便其他人可以休息。"
+						],
+						[
+							"4",
+							"人们看到一只动物且低估了我。"
+						],
+						[
+							"5",
+							"我有在关键时刻出现的本事。"
+						],
+						[
+							"6",
+							"我把交友术的需求置于所有事物之前。"
+						]
+					]
+				},
+				{
+					"type": "table",
+					"caption": "同伴缺点",
+					"colLabels": [
+						"d6",
+						"缺点"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"如果有食物无人看管，我会吃掉它。"
+						],
+						[
+							"2",
+							"我对陌生人咆哮，且除了我的游侠外所有人对我来说都是陌生人。"
+						],
+						[
+							"3",
+							"任何时间都是揉肚子的好时间。"
+						],
+						[
+							"4",
+							"我对水有着致命的恐惧。"
+						],
+						[
+							"5",
+							"我打招呼的方式就是一阵狂舔你的面。"
+						],
+						[
+							"6",
+							"我跳到生物身上告诉它们我有多嘲笑它们。"
+						]
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Coordinated Attack",
+			"name": "协同攻击",
+			"source": "UATheRangerRevised",
+			"page": 5,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"subclassShortName": "野兽法师议会",
+			"subclassSource": "UATheRangerRevised",
+			"level": 5,
+			"header": 2,
+			"entries": [
+				"从5级开始，你和你的动物同伴形成一个更强大的战斗力量。当你在你的回合使用{@action 攻击}动作时，如果你的同伴能看到你，它可以使用它的反应进行一次近战攻击。"
+			]
+		},
+		{
+			"ENG_name": "Beast's Defense",
+			"name": "野兽防御",
+			"source": "UATheRangerRevised",
+			"page": 5,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"subclassShortName": "野兽法师议会",
+			"subclassSource": "UATheRangerRevised",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"在7级时，只要你的同伴能看到你，它在所有豁免检定上具有优势。"
+			]
+		},
+		{
+			"ENG_name": "Storm of Claw and Fangs",
+			"name": "暴风爪抓与尖牙",
+			"source": "UATheRangerRevised",
+			"page": 5,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"subclassShortName": "野兽法师议会",
+			"subclassSource": "UATheRangerRevised",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"在11级时，你的同伴可以用它的动作对5尺内每个它选择的生物进行一次近战攻击，每个目标需单独进行攻击检定。"
+			]
+		},
+		{
+			"ENG_name": "Superior Beast's Defense",
+			"name": "高端野兽防御",
+			"source": "UATheRangerRevised",
+			"page": 5,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"subclassShortName": "野兽法师议会",
+			"subclassSource": "UATheRangerRevised",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"在15级时，每当你的同伴能看见的攻击手以攻击命中它时，它可以使用反应将该攻击对其造成的伤害减半。"
+			]
+		},
+		{
+			"ENG_name": "Deep Stalker Conclave (UA)",
+			"name": "地底潜行者法师议会（UA）",
+			"source": "UATheRangerRevised",
+			"page": 7,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"subclassShortName": "深地潜行者法师议会",
+			"subclassSource": "UATheRangerRevised",
+			"level": 3,
+			"entries": [
+				"大多数民众只有在最紧迫的状态下才会深入幽暗地域的深处，执行一些绝望的任务或追寻庞大财富的承诺。邪恶往往在土中滋生而不被察觉，深地潜行者法师议会的游侠们努力揭露并击败这些威胁，防止它们触及地表。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "地底潜行者魔法|游侠（修订版）|UATheRangerRevised|深地潜行者法师议会|UATheRangerRevised|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "幽暗地域斥候|游侠（修订版）|UATheRangerRevised|深地潜行者法师议会|UATheRangerRevised|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Deep Stalker Magic",
+			"name": "地底潜行者魔法",
+			"source": "UATheRangerRevised",
+			"page": 7,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"subclassShortName": "深地潜行者法师议会",
+			"subclassSource": "UATheRangerRevised",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"在3级时，你获得90尺范围内的{@sense 黑暗视觉}。如果你已有{@sense 黑暗视觉}，则其范围增加30尺。你还可在3级、5级、9级、13级和15级时获得额外法术。一旦你获得一个地底潜行者法术，它对你而言视为游侠法术，但不计入你所知的游侠法术数量。",
+				{
+					"type": "table",
+					"caption": "地底潜行者法术",
+					"colLabels": [
+						"游侠等级",
+						"法术"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell 易容术}"
+						],
+						[
+							"5th",
+							"{@spell 魔绳术}"
+						],
+						[
+							"9th",
+							"{@spell 守卫刻文}"
+						],
+						[
+							"13th",
+							"{@spell 高等隐形术}"
+						],
+						[
+							"17th",
+							"{@spell 伪装术}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Underdark Scout",
+			"name": "幽暗地域斥候",
+			"source": "UATheRangerRevised",
+			"page": 7,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"subclassShortName": "深地潜行者法师议会",
+			"subclassSource": "UATheRangerRevised",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"在3级时，你掌握了伏击的艺术。在你的战斗第一回合中，你的速度获得+10增益且如果你在该回合使用攻击动作，你可以进行一次额外攻击。你还擅长躲避依赖{@sense 黑暗视觉}的生物。这些生物在黑暗和昏暗状态下试图侦查你时不会获得增益。此外，当DM判定你是否能从生物躲藏时，该生物不会从其{@sense 黑暗视觉}中获得增益。"
+			]
+		},
+		{
+			"ENG_name": "Extra Attack",
+			"name": "额外攻击",
+			"source": "UATheRangerRevised",
+			"page": 7,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"subclassShortName": "深地潜行者法师议会",
+			"subclassSource": "UATheRangerRevised",
+			"level": 5,
+			"header": 2,
+			"entries": [
+				"第5级起，你在自己回合内执行{@action 攻击}动作时可以攻击两次而非一次。"
+			]
+		},
+		{
+			"ENG_name": "Iron Mind",
+			"name": "钢铁意志",
+			"source": "UATheRangerRevised",
+			"page": 7,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"subclassShortName": "深地潜行者法师议会",
+			"subclassSource": "UATheRangerRevised",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"在7级时，你获得感知豁免的熟练。"
+			]
+		},
+		{
+			"ENG_name": "Stalker's Flurry",
+			"name": "追猎如风",
+			"source": "UATheRangerRevised",
+			"page": 7,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"subclassShortName": "深地潜行者法师议会",
+			"subclassSource": "UATheRangerRevised",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"从11级开始，在你的每个回合中，当你未命中一次攻击时，你可以再进行一次攻击。你可以通过此属性在你的回合中获得一次额外的攻击。"
+			]
+		},
+		{
+			"ENG_name": "Stalker's Dodge",
+			"name": "潜行者回避",
+			"source": "UATheRangerRevised",
+			"page": 7,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"subclassShortName": "深地潜行者法师议会",
+			"subclassSource": "UATheRangerRevised",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"在15级时，每当一个生物攻击你且没有优势时，你可以使用你的反应使该生物对你的攻击检定具有劣势。你可以在攻击检定进行前或后进行此特性，但必须在掷骰结果确定前使用。"
+			]
+		},
+		{
+			"ENG_name": "Hunter Conclave (UA)",
+			"name": "猎人法师议会（UA）",
+			"source": "UATheRangerRevised",
+			"page": 7,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"subclassShortName": "猎人法师议会",
+			"subclassSource": "UATheRangerRevised",
+			"level": 3,
+			"entries": [
+				"一些游侠寻求精通武器以更好地保护文明免受野外恐怖的威胁。猎人法师议会的成员学习专门的战斗技巧，用于对抗最可怕的威胁，从狂暴的食人魔和成群的兽人到高耸的巨人和恐怖的龙。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "猎杀技艺|游侠（修订版）|UATheRangerRevised|猎人法师议会|UATheRangerRevised|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Horde Breaker",
+			"name": "灭族者",
+			"source": "UATheRangerRevised",
+			"page": 93,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"subclassShortName": "猎人法师议会",
+			"subclassSource": "UATheRangerRevised",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"进行武器攻击时，你可以用该武器对位于目标5尺内，且在你武器射程内的另一生物发动一次攻击。你在每个自己的回合里只能造成一次这种额外攻击。"
+			]
+		},
+		{
+			"ENG_name": "Hunter's Prey",
+			"name": "猎杀技艺",
+			"source": "UATheRangerRevised",
+			"page": 7,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"subclassShortName": "猎人法师议会",
+			"subclassSource": "UATheRangerRevised",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"第3级时，你选择获得以下特性之一。",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "巨像屠夫|游侠（修订版）|UATheRangerRevised|猎人法师议会|UATheRangerRevised|3"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "巨人杀手|游侠（修订版）|UATheRangerRevised|猎人法师议会|UATheRangerRevised|3"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "灭族者|游侠（修订版）|UATheRangerRevised|猎人法师议会|UATheRangerRevised|3"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Colossus Slayer",
+			"name": "巨像屠夫",
+			"source": "UATheRangerRevised",
+			"page": 93,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"subclassShortName": "猎人法师议会",
+			"subclassSource": "UATheRangerRevised",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"你强而有力的攻击可以击倒最强壮的对手。当你用武器攻击命中敌人时，如果该敌人当前生命值低于其上限，则其额外受到{@damage 1d8}点伤害。你每回合只能造成一次这种额外伤害。"
+			]
+		},
+		{
+			"ENG_name": "Giant Killer",
+			"name": "巨人杀手",
+			"source": "UATheRangerRevised",
+			"page": 93,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"subclassShortName": "猎人法师议会",
+			"subclassSource": "UATheRangerRevised",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"一个距离你5尺内的大型或更大体型生物对你发动攻击时，无论该次攻击是否命中，只要你能看见它就可以在该攻击结束后用一个反应对该生物发动攻击。"
+			]
+		},
+		{
+			"ENG_name": "Extra Attack",
+			"name": "额外攻击",
+			"source": "UATheRangerRevised",
+			"page": 7,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"subclassShortName": "猎人法师议会",
+			"subclassSource": "UATheRangerRevised",
+			"level": 5,
+			"header": 2,
+			"entries": [
+				"第5级起，你在自己回合内执行{@action 攻击}动作时可以攻击两次而非一次。"
+			]
+		},
+		{
+			"ENG_name": "Defensive Tactics",
+			"name": "防守战术",
+			"source": "UATheRangerRevised",
+			"page": 7,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"subclassShortName": "猎人法师议会",
+			"subclassSource": "UATheRangerRevised",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"第7级时，你选择获得以下特性之一。",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "冲出重围|游侠（修订版）|UATheRangerRevised|猎人法师议会|UATheRangerRevised|7"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "防御多重攻击|游侠（修订版）|UATheRangerRevised|猎人法师议会|UATheRangerRevised|7"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "钢铁意志|游侠（修订版）|UATheRangerRevised|猎人法师议会|UATheRangerRevised|7"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Escape the Horde",
+			"name": "冲出重围",
+			"source": "UATheRangerRevised",
+			"page": 93,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"subclassShortName": "猎人法师议会",
+			"subclassSource": "UATheRangerRevised",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"以你为目标的借机攻击具有劣势。"
+			]
+		},
+		{
+			"ENG_name": "Multiattack Defense",
+			"name": "防御多重攻击",
+			"source": "UATheRangerRevised",
+			"page": 93,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"subclassShortName": "猎人法师议会",
+			"subclassSource": "UATheRangerRevised",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"你被生物的攻击命中时，你在本回合内对抗该敌人所有后续攻击的AC获得 +4加值。"
+			]
+		},
+		{
+			"ENG_name": "Steel Will",
+			"name": "钢铁意志",
+			"source": "UATheRangerRevised",
+			"page": 93,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"subclassShortName": "猎人法师议会",
+			"subclassSource": "UATheRangerRevised",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"你进行对抗{@condition 恐慌}的豁免时具有优势。"
+			]
+		},
+		{
+			"ENG_name": "Multiattack",
+			"name": "多重攻击",
+			"source": "UATheRangerRevised",
+			"page": 7,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"subclassShortName": "猎人法师议会",
+			"subclassSource": "UATheRangerRevised",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"第11级时，你选择获得以下特性之一。",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "箭雨|游侠（修订版）|UATheRangerRevised|猎人法师议会|UATheRangerRevised|11"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "剑刃风暴|游侠（修订版）|UATheRangerRevised|猎人法师议会|UATheRangerRevised|11"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Volley",
+			"name": "箭雨",
+			"source": "UATheRangerRevised",
+			"page": 93,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"subclassShortName": "猎人法师议会",
+			"subclassSource": "UATheRangerRevised",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"你使用你的动作指定你的远程武器射程内你能看见的某点，并分别对该点周围10尺范围内任意数量的生物发动一次远程攻击。发动该特性时，你必须有足够的弹药用以攻击敌人，且要为每个目标进行独立的攻击检定。"
+			]
+		},
+		{
+			"ENG_name": "Whirlwind Attack",
+			"name": "剑刃风暴",
+			"source": "UATheRangerRevised",
+			"page": 93,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"subclassShortName": "猎人法师议会",
+			"subclassSource": "UATheRangerRevised",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"你使用你的动作指定你身边5尺内任意数量的生物，并分别对其发动一次近战攻击，每个受此攻击的目标必须进行独立的攻击检定。"
+			]
+		},
+		{
+			"ENG_name": "Evasion",
+			"name": "反射闪避",
+			"source": "UATheRangerRevised",
+			"page": 93,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"subclassShortName": "猎人法师议会",
+			"subclassSource": "UATheRangerRevised",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"你可以灵巧躲过某些特定的区域效应，比如红龙的火焰吐息或是法术{@spell 闪电束}。你在成为某一范围效应影响对象时，若该效应允许你通过成功的敏捷豁免来使伤害减半，则你在该豁免成功时不受伤害，而豁免失败时只受一半伤害。"
+			]
+		},
+		{
+			"ENG_name": "Stand Against the Tide",
+			"name": "逆潮而立",
+			"source": "UATheRangerRevised",
+			"page": 93,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"subclassShortName": "猎人法师议会",
+			"subclassSource": "UATheRangerRevised",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"当敌人对你的近战攻击未命中时，你可以用反应迫使敌人向你所指定的生物（除攻击者外）重新发动攻击。"
+			]
+		},
+		{
+			"ENG_name": "Superior Hunter's Defense",
+			"name": "高效防守战术",
+			"source": "UATheRangerRevised",
+			"page": 7,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"subclassShortName": "猎人法师议会",
+			"subclassSource": "UATheRangerRevised",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"第15级时，你选择获得以下特性之一。",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "反射闪避|游侠（修订版）|UATheRangerRevised|猎人法师议会|UATheRangerRevised|15"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "逆潮而立|游侠（修订版）|UATheRangerRevised|猎人法师议会|UATheRangerRevised|15"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "直觉闪避|游侠（修订版）|UATheRangerRevised|猎人法师议会|UATheRangerRevised|15"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Uncanny Dodge",
+			"name": "直觉闪避",
+			"source": "UATheRangerRevised",
+			"page": 93,
+			"className": "游侠（修订版）",
+			"classSource": "UATheRangerRevised",
+			"subclassShortName": "猎人法师议会",
+			"subclassSource": "UATheRangerRevised",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"当一个你能看见的敌人攻击命中你时，你可以用反应让此次攻击的伤害减半。"
+			]
+		}
+	]
+}

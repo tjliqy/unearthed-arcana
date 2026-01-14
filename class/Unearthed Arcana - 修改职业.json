@@ -1,0 +1,1186 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAModifyingClasses",
+				"abbreviation": "UAMC",
+				"full": "破解奥秘：修改职业",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2015/downloads/dnd/UA3_ClassDesignVariants.pdf",
+				"dateReleased": "2015-04-06"
+			}
+		],
+		"dependencies": {
+			"optionalfeature": [
+				"UAClassFeatureVariants",
+				"UALightDarkUnderdark",
+				"UAWaterborneAdventures"
+			]
+		},
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1729637619,
+		"_dateLastModifiedHash": "e5840bc030"
+	},
+	"class": [
+		{
+			"ENG_name": "Ranger (Spell-less)",
+			"name": "游侠（无法术）",
+			"source": "UAModifyingClasses",
+			"page": 5,
+			"hd": {
+				"number": 1,
+				"faces": 10
+			},
+			"proficiency": [
+				"str",
+				"dex"
+			],
+			"optionalfeatureProgression": [
+				{
+					"ENG_name": "Fighting Style",
+					"name": "战斗风格",
+					"featureType": [
+						"FS:R"
+					],
+					"progression": {
+						"2": 1
+					}
+				}
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium",
+					"shield"
+				],
+				"weapons": [
+					"简易",
+					"军用"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"animal handling",
+								"athletics",
+								"insight",
+								"investigation",
+								"nature",
+								"perception",
+								"stealth",
+								"survival"
+							],
+							"count": 3
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) {@item 鳞甲|phb} 或 (b) {@item 皮甲|phb}",
+					"(a) 两把{@item 短剑|phb|短剑}或 (b) 两把{@filter 简易近战武器|items|source=phb|category=基础|type=简易武器;近战武器=u~u~sand}",
+					"(a) 一个{@item 地城套组|phb}或(b) 一个{@item 探索套组|phb}",
+					"一把{@item 长弓|phb}和一个{@item 箭袋|phb}（内含{@item 箭矢 (20)|phb|20支箭}）"
+				],
+				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|起始金币}",
+				"defaultData": [
+					{
+						"a": [
+							"鳞甲|phb"
+						],
+						"b": [
+							"皮甲|phb"
+						]
+					},
+					{
+						"a": [
+							{
+								"item": "短剑|phb",
+								"quantity": 2
+							}
+						],
+						"b": [
+							{
+								"equipmentType": "简易近战武器",
+								"quantity": 2
+							}
+						]
+					},
+					{
+						"a": [
+							"地城套组|phb"
+						],
+						"b": [
+							"探索套组|phb"
+						]
+					},
+					{
+						"_": [
+							"长弓|phb",
+							"箭矢 (20)|phb"
+						]
+					}
+				]
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"已知战技"
+					],
+					"rows": [
+						[
+							0
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							6
+						],
+						[
+							6
+						],
+						[
+							6
+						],
+						[
+							6
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"宿敌|游侠（无法术）|UAModifyingClasses|1",
+				"自然探索者|游侠（无法术）|UAModifyingClasses|1",
+				"战斗风格|游侠（无法术）|UAModifyingClasses|2",
+				"卓越战技|游侠（无法术）|UAModifyingClasses|2",
+				{
+					"classFeature": "游侠范型|游侠（无法术）|UAModifyingClasses|3",
+					"gainSubclassFeature": true
+				},
+				"原初意识|游侠（无法术）|UAModifyingClasses|3",
+				"药膏|游侠（无法术）|UAModifyingClasses|3",
+				"属性值提升|游侠（无法术）|UAModifyingClasses|4",
+				"额外攻击|游侠（无法术）|UAModifyingClasses|5",
+				"额外战技|游侠（无法术）|UAModifyingClasses|5",
+				"增加宿敌及偏好环境|游侠（无法术）|UAModifyingClasses|6",
+				{
+					"classFeature": "范型特性|游侠（无法术）|UAModifyingClasses|7",
+					"gainSubclassFeature": true
+				},
+				"属性值提升|游侠（无法术）|UAModifyingClasses|8",
+				"大地行者|游侠（无法术）|UAModifyingClasses|8",
+				"天然解毒剂|游侠（无法术）|UAModifyingClasses|9",
+				"额外战技|游侠（无法术）|UAModifyingClasses|9",
+				"遁术|游侠（无法术）|UAModifyingClasses|10",
+				"增加偏好环境|游侠（无法术）|UAModifyingClasses|10",
+				{
+					"classFeature": "范型特性|游侠（无法术）|UAModifyingClasses|11",
+					"gainSubclassFeature": true
+				},
+				"属性值提升|游侠（无法术）|UAModifyingClasses|12",
+				"召唤自然盟友|游侠（无法术）|UAModifyingClasses|13",
+				"额外战技|游侠（无法术）|UAModifyingClasses|13",
+				"无踪步|游侠（无法术）|UAModifyingClasses|14",
+				"增加宿敌|游侠（无法术）|UAModifyingClasses|14",
+				{
+					"classFeature": "范型特性|游侠（无法术）|UAModifyingClasses|15",
+					"gainSubclassFeature": true
+				},
+				"属性值提升|游侠（无法术）|UAModifyingClasses|16",
+				"坚韧|游侠（无法术）|UAModifyingClasses|17",
+				"额外战技|游侠（无法术）|UAModifyingClasses|17",
+				"野性感官|游侠（无法术）|UAModifyingClasses|18",
+				"属性值提升|游侠（无法术）|UAModifyingClasses|19",
+				"屠灭众敌|游侠（无法术）|UAModifyingClasses|20"
+			],
+			"subclassTitle": "游侠范型",
+			"hasFluff": true
+		}
+	],
+	"classFluff": [
+		{
+			"ENG_name": "Ranger (Spell-less)",
+			"name": "游侠（无法术）",
+			"source": "UAModifyingClasses",
+			"entries": [
+				{
+					"ENG_name": "Ranger",
+					"name": "游侠",
+					"type": "section",
+					"entries": [
+						"林中树影下穿行人影，正追捕一群计划袭击附近村庄的兽人。只见那男人外表粗野，双手各挥舞着一柄短剑，有如钢铁狂风一般将敌人接连斩杀。",
+						"避过一团霜冻气息后，精灵迅速站稳脚跟并拉弓射箭直取白龙。尽管身处巨龙散发的恐惧气息与吐息寒意中，她仍无所畏惧的将箭矢一支接一支地射入龙鳞的缝隙中。",
+						"半精灵高举手臂，发令将盘旋头顶的猎鹰召回身边。他指向那只追踪到的枭熊，并用精灵语指挥猎鹰前去扰敌，以为自己争取时间备好弓箭。",
+						"离开城镇的喧嚣，越过隔绝荒野危险的高墙后，即是茂密的森林和广袤的原野。也正是游侠们进行无尽守望之地。",
+						{
+							"ENG_name": "Deadly Hunters",
+							"name": "致命的猎人",
+							"type": "entries",
+							"entries": [
+								"类人生物侵略者、狂暴的野兽与怪兽、可怕的巨人、致命的龙。作为荒野勇士的游侠们，专注于狩猎这些徘徊在文明世界边缘的危害之物。他们向掠食者们学习如何追踪猎物，并借助荒野中的灌木丛和碎石在阴影中潜行。游侠们通过特殊的战斗训练，使其在针对最具威胁敌人时可以惊醒更有效的应对方案。",
+								"熟悉荒野的游侠们从中获得了利用大自然魔力施展法术的能力。他们的运作方式与德鲁伊类似，只是其法术与其实战能力相配，同样强调速度、隐匿以及狩猎。但每个游侠们的才能，却只能从死守边境的艰难险阻中磨练出来。"
+							]
+						},
+						{
+							"ENG_name": "Independent Adventurers",
+							"name": "孤独的冒险家",
+							"type": "entries",
+							"entries": [
+								"虽说游侠可以出任猎人，领路者或搜寻者等职，但其真正使命依然是抵御从荒野来袭的怪物和类人生物部落，以免文明遭受蹂躏。某些地区的游侠们会集体组建教团，或是与德鲁伊结社联合形成战力。但仍有许多游侠执着于独断独行，他们认为，在巨龙或兽人战团进犯时，保留下一名游侠就足以作为第一道（或是最后一道）坚固的防线。",
+								"游侠们强烈的独立性，以及远离温床热水澡的生活习性，使他们比那些在城里长大的同伴们更能适应冒险生活。当面对其他人对野外艰辛牢骚满腹时，游侠们既觉得好笑又只能心情复杂的表示无奈和同情。不过在面对文明之敌的战斗中，同伴们所体现的价值却也抵得过平时给游侠带来的负担。娇生惯养的城里人可能不知道如何在野外解决饮食问题，但他们还可以在其他方面帮上忙。"
+							]
+						},
+						{
+							"ENG_name": "Creating a Ranger",
+							"name": "创建游侠",
+							"type": "entries",
+							"entries": [
+								"创造一个游侠角色时，可以先考虑什么性质的训练给予了你特殊的能力。你是不是有某位导师单独训练，而你们一同在荒野中闯荡，直至你真正掌握游侠之道？你是完成学业出师，还是你的导师被某种怪物所杀，以致你将这种怪物选为宿敌？或许你是师从于某个德鲁伊结社下属的游侠分队，以荒野传说般神秘的形式接受训练。又或者你是无师自通，作为一个荒野隐居者，为求生存而学会了战斗技能和追踪技巧，并与大自然奇妙的产生了共鸣。",
+								"你对于特定敌人的仇恨源于何处？该怪物杀了你所爱之人，或是破坏了你的家乡？或是你见证太多由这些怪物造成的破坏，并决定挺身制止他们的掠夺？你的冒险生涯是延续你守卫边境的工作，还是发生了某种重大改变？是什么原因令你加入一队冒险队伍中？是因为觉得教导新盟友野外生存之道颇具挑战，还是因为他们将你从孤寂深处拯救出来？",
+								{
+									"ENG_name": "Quick Build",
+									"name": "快速建卡",
+									"type": "entries",
+									"entries": [
+										"你可以按以下建议快速创建一名游侠。首先，将你的最高属性分配给敏捷，次高分配给感知。（一些注重双持武器战斗的游侠其力量该高于敏捷。）其次选择{@background 化外之民}背景。"
+									]
+								}
+							]
+						}
+					],
+					"source": "PHB",
+					"page": 89
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "quote",
+							"entries": [
+								"我一生中的大部分时间都远离文明，守在它的边缘来保护它。不要以为因为我不向你们的国王下跪，就意味着我没有比他所有的骑士加起来还要多地保护他。"
+							],
+							"by": "索维里斯"
+						},
+						"游侠是自由思想的漫游者和探索者，他们在文明领土的边缘巡逻，将荒野之地的居民拒之门外。这是一份无人感激的工作，因为他们的努力很少被理解，几乎从未得到回报。然而，游侠坚持自己的职责，从不怀疑他们的工作使世界变得更安全。",
+						"与文明的关系塑造了每位游侠的个性和历史。有些游侠视自己为法律的执行者和文明边疆的正义使者，不向任何主权权力负责。另一些则是完全避开文明的生存主义者。他们击败怪物以确保自己的安全，同时在世界的危险荒野地区生活和旅行。如果他们的努力同时也造福了他们避开的王国和其他文明领域，那就这样吧。",
+						"如果你正在创建或扮演一个游侠角色，以下部分提供了一些想法，用于丰富角色和提升你的角色扮演体验。",
+						{
+							"ENG_name": "View of the World",
+							"name": "世界观",
+							"type": "entries",
+							"entries": [
+								"一个游侠对世界的看法始于（有时也终于）这个角色对文明人和他们所占据的地方的态度。有些游侠对文明有着根深蒂固的蔑视态度，而另一些则对他们誓言要保护的人表示同情\u2014\u2014尽管在战场上，一个游侠和另一个游侠之间的区别是看不出来的。事实上，对于那些见过他们行动并受益于他们的技艺的人来说，游侠为什么要做他们所做的事情几乎无关紧要。话虽如此，没有两个游侠可能会以相同的方式表达他们对任何问题的看法。",
+								"如果你还没有考虑过你角色的世界观的细节，可以考虑通过总结一个简短的陈述（如下面表格中的条目）来更精细地指出这种观点。这种感觉可能会如何影响你的行为方式？",
+								{
+									"type": "table",
+									"caption": "世界观",
+									"colLabels": [
+										"{@dice d6}",
+										"观念"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 1
+												}
+											},
+											"城镇和城市是那些无法独自生存的人的最佳去处。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 2
+												}
+											},
+											"文明的进步是挫败混乱的最佳方式，但其影响必须受到监控。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 3
+												}
+											},
+											"城镇和城市是必要的恶，但一旦荒野被清除了超自然的威胁，我们就不再需要它们了。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 4
+												}
+											},
+											"墙是给懦夫的，他们蜷缩在墙后，而其他人则在做让世界变得安全的工作。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 5
+												}
+											},
+											"你在一片古老的森林巡逻，这片森林因为多次通往影域的通道而变得黑暗和腐败。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 6
+												}
+											},
+											"城市通过将人们与荒野的严酷教训隔离开来，培养了软弱。"
+										]
+									]
+								}
+							]
+						},
+						{
+							"ENG_name": "Homelands",
+							"name": "家园",
+							"type": "entries",
+							"entries": [
+								"所有的游侠，无论他们是如何开始从事这个职业的，都与自然世界及其各种地形有着强烈的联系。对于一些游侠来说，荒野是他们成长的地方，无论是因为在那里出生还是年轻时就迁移到了那里。对于其他游侠来说，文明原本是他们的家园，但荒野成为了他们的第二故乡。",
+								"思考你的角色背景故事，决定哪种地形最像你的家，无论你是否在那里出生。这种地形对你的性格有何启示？它是否影响了你选择学习的法术？那里的经历是否塑造了你偏爱的敌人类型？",
+								{
+									"type": "table",
+									"caption": "家园",
+									"colLabels": [
+										"{@dice d6}",
+										"故乡"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 1
+												}
+											},
+											"您巡逻了一片古老的森林，这片森林因多次通往影域的通道而变得黑暗和腐败。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 2
+												}
+											},
+											"作为一群游牧民的一部分，你获得了在沙漠中生存的技能。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 3
+												}
+											},
+											"你在幽暗地域的早年生活为你应对其居民的挑战做好了准备。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 4
+												}
+											},
+											"你居住在沼泽的边缘，这个地区既受到陆地生物的威胁，也受到水生生物的威胁。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 5
+												}
+											},
+											"因为你在山峰中长大，找到穿越山脉的最佳路径对你来说是本能。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 6
+												}
+											},
+											"你在遥远的北方流浪，学习如何在被冰雪覆盖的领域中保护自己并繁荣发展。"
+										]
+									]
+								}
+							]
+						},
+						{
+							"ENG_name": "Sworn Enemy",
+							"name": "死敌",
+							"type": "entries",
+							"entries": [
+								"每位游侠开始时都有一个或两个偏爱的敌人。偏爱的敌人的确定可能与角色早期生活中的特定事件有关，或者完全是一个选择问题。",
+								"是什么促使你的角色选择特定的敌人？是因为传统、好奇心，还是因为你有仇要报？",
+								{
+									"type": "table",
+									"caption": "死敌",
+									"colLabels": [
+										"{@dice d6}",
+										"仇敌"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 1
+												}
+											},
+											"你的祖先或前任与这些生物战斗过，你也将这样做。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 2
+												}
+											},
+											"你对你的敌人没有敌意。你像猎人追踪野生动物一样追踪这些生物。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 3
+												}
+											},
+											"你对你的敌人没有敌意。你像猎人追踪野生动物一样追踪这些生物。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 4
+												}
+											},
+											"你对你的敌人感到着迷，并收集有关它的传说和历史书籍。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 5
+												}
+											},
+											"你收集你击败的敌人的信物，以提醒你每一次杀戮。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 6
+												}
+											},
+											"你尊重你选择的敌人，并且你将你的战斗视为各自技能的考验。"
+										]
+									]
+								}
+							]
+						}
+					],
+					"page": 40,
+					"source": "XGE"
+				}
+			]
+		}
+	],
+	"subclass": [
+		{
+			"ENG_name": "Favored Soul (UA)",
+			"name": "青睐灵魂（UA）",
+			"shortName": "青睐灵魂（UA）",
+			"source": "UAModifyingClasses",
+			"className": "术士",
+			"classSource": "phb",
+			"page": 8,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"青睐灵魂|术士||青睐灵魂（UA）|UAModifyingClasses|1",
+				"额外攻击|术士||青睐灵魂（UA）|UAModifyingClasses|6",
+				"神圣飞翼|术士||青睐灵魂（UA）|UAModifyingClasses|14",
+				"选民之力|术士||青睐灵魂（UA）|UAModifyingClasses|18"
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"ENG_name": "Favored Enemy",
+			"name": "宿敌",
+			"source": "UAModifyingClasses",
+			"page": 5,
+			"className": "游侠（无法术）",
+			"classSource": "UAModifyingClasses",
+			"level": 1,
+			"entries": [
+				"第1级起，你针对一种特定类型敌人的研究令你有着充足的经验用以追踪、狩猎乃至与之交流。",
+				"从下列种类中选择其一作为宿敌： {@filter 异怪|bestiary|type=aberration}, {@filter 野兽|bestiary|type=beast}、{@filter 天族|bestiary|type=celestial}, {@filter 构装|bestiary|type=construct}、{@filter 龙|bestiary|type=dragon}、{@filter 元素|bestiary|type=elemental}、{@filter 妖精|bestiary|type=fey}、{@filter 邪魔|bestiary|type=fiend}、{@filter 巨人|bestiary|type=giant}、{@filter 怪兽|bestiary|type=monstrosity}、{@filter 泥怪|bestiary|type=ooze}、{@filter 植物|bestiary|type=plant}、{@filter 亡灵|bestiary|type=undead}。或者作为另一种方案，你也可以选择两个{@filter 类人生物|bestiary|type=humanoid}种族（例如{@creature 鬣狗人||鬣狗人}和{@creature 兽人||兽人}）作为宿敌。",
+				"追踪宿敌时，你的感知（{@skill 求生}）检定，以及回想关于宿敌信息时进行的智力检定具有优势。",
+				"获得该特性时，如果你选择的宿敌具有语言能力，则你还可以学会宿敌所知晓的一门语言。",
+				"第6和第14级时，你将分别获得一个额外的宿敌以及相关语言。另外，随着等级的提升，你所选择的宿敌应该与你在冒险中所遭遇怪物的种类层次相符。"
+			]
+		},
+		{
+			"ENG_name": "Natural Explorer",
+			"name": "自然探索者",
+			"source": "UAModifyingClasses",
+			"page": 5,
+			"className": "游侠（无法术）",
+			"classSource": "UAModifyingClasses",
+			"level": 1,
+			"entries": [
+				"你对某种自然环境特别熟悉，并适应了在其中行走及生存。从下列类别中选择一种偏爱地形：极地arctic、海岸coast、荒漠desert、丛林forest、草原grassland、山地mountain、沼泽swamp或幽暗地域Underdark。当你进行与偏好地形相关的智力或感知检定时，如果你拥有该技能的熟练项，则在检定时加入双倍熟练加值。",
+				"当你在偏好地形上移动一小时或更长时间时，你获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你的队伍旅行时不会因困难地形而变慢",
+						"除非受魔法效应影响，否则你的队伍不会迷路",
+						"旅行时，即使你进行另一项活动（如觅食、导航或追踪），仍能对危险保持警觉。",
+						"独自旅行时，你能够保持隐匿状态以正常步调移动",
+						"觅食时，你会发现两倍的食物。",
+						"追踪其他生物时，你还能了解他们的确切数量、体型以及离开踪迹的时间。"
+					]
+				},
+				"你在第6级和第10级时将分别获得一个额外的偏好地形。"
+			]
+		},
+		{
+			"ENG_name": "Combat Superiority",
+			"name": "卓越战技",
+			"source": "UAModifyingClasses",
+			"page": 5,
+			"className": "游侠（无法术）",
+			"classSource": "UAModifyingClasses",
+			"level": 2,
+			"entries": [
+				"在2级时，你学会由称为卓越骰的特殊骰子驱动的战技。",
+				{
+					"ENG_name": "Maneuvers",
+					"name": "战技",
+					"type": "entries",
+					"entries": [
+						"你学习两个自选的{@filter 战技|optionalfeatures|feature type=MV:B}，这些战技选自战斗大师原型的战士可用的战技列表。许多战技会以某种方式增强攻击。你每次攻击只能使用一个战技。",
+						"你在5级、9级、13级和17级时各学习一个自选的额外战技。每次学习新战技时，你还可以将一个已知战技替换为另一个不同的战技。"
+					]
+				},
+				{
+					"ENG_name": "Superiority Dice",
+					"name": "卓越骰",
+					"type": "entries",
+					"entries": [
+						"你拥有四个{@dice d8}卓越骰。卓越骰一经使用即消耗，完成短休或长休后恢复。",
+						"你在9级时获得一个额外的卓越骰，且在17级时再获得一个。"
+					]
+				},
+				{
+					"ENG_name": "Saving Throws",
+					"name": "豁免检定",
+					"type": "entries",
+					"entries": [
+						"某些战技需要目标进行豁免检定作抵抗。战技的豁免DC为：",
+						{
+							"ENG_name": "Maneuver",
+							"name": "战技",
+							"type": "abilityDc",
+							"attributes": [
+								"str",
+								"dex"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Fighting Style",
+			"name": "战斗风格",
+			"source": "UAModifyingClasses",
+			"page": 5,
+			"className": "游侠（无法术）",
+			"classSource": "UAModifyingClasses",
+			"level": 2,
+			"entries": [
+				"第2级起，你将精进于一种战斗风格，从下列选项中选择其一。另外，即使你有多次选择战斗风格的机会，也不能重复选择同一个战斗风格。",
+				{
+					"type": "options",
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "箭术"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "近距离射手住所|UALightDarkUnderdark"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "防御"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "对决"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "水手|UAWaterborneAdventures"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "隧道战士|UALightDarkUnderdark"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "双武器战斗"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "盲斗|UAClassFeatureVariants"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "拦截|UAClassFeatureVariants"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "投掷武器战斗|UAClassFeatureVariants"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "徒手战斗|UAClassFeatureVariants"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "德鲁伊教战士|UAClassFeatureVariants"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "盲斗|TCE"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "德鲁伊教战士|TCE"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "投掷武器战斗|TCE"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Poultices",
+			"name": "药膏",
+			"source": "UAModifyingClasses",
+			"page": 5,
+			"className": "游侠（无法术）",
+			"classSource": "UAModifyingClasses",
+			"level": 3,
+			"entries": [
+				"在3级时，你可以制作具有与某些药水相当治愈能力的特殊草药药膏。你可以花费1小时采集草药并使用处理过的绷带准备草药药膏，制作数量等于你感知调整值（至少1）的药膏。你可以同时携带数量等于你感知调整值（至少1）的药膏。你制作的药膏只能由你自己使用。24小时后，任何未使用的药膏将失去其潜能。",
+				"如果你花费1分钟将你的一个药膏应用于受伤的类人生物，从而消耗其使用次数，该生物将恢复相当于你每两个游侠等级{@dice 1d6}的生命值（向上取整）。"
+			]
+		},
+		{
+			"ENG_name": "Primeval Awareness",
+			"name": "原初意识",
+			"source": "UAModifyingClasses",
+			"page": 5,
+			"className": "游侠（无法术）",
+			"classSource": "UAModifyingClasses",
+			"level": 3,
+			"entries": [
+				"从3级开始，你可以使用动作将你的警觉集中在周围的区域。在接下来的1分钟内，你可以感知以下类型的生物是否存在于你1英里范围内（如果你处于青睐地形中，则范围可达6英里）：异怪、天族、龙、元素生物、妖精、邪魔和亡灵。此特性不会揭示生物的位置或数量。",
+				"一旦你使用了此特性，你必须完成一次短休或长休后才能再次使用它。"
+			]
+		},
+		{
+			"ENG_name": "Ranger Archetype",
+			"name": "游侠范型",
+			"source": "UAModifyingClasses",
+			"page": 5,
+			"className": "游侠（无法术）",
+			"classSource": "UAModifyingClasses",
+			"level": 3,
+			"entries": [
+				"第3级时，你选择学习一种特定的战斗范型。你可以从范型列表中进行选择。随后，你将在第3，第7，第11、第15级时获得所选范型的相应特性。"
+			]
+		},
+		{
+			"ENG_name": "Ability Score Improvement",
+			"name": "属性值提升",
+			"source": "UAModifyingClasses",
+			"page": 5,
+			"className": "游侠（无法术）",
+			"classSource": "UAModifyingClasses",
+			"level": 4,
+			"entries": [
+				"当你达到4级时，你可以选择一项属性值提升2点，或选择两项属性各提升1点。不过你不能通过此特性让属性超过20。",
+				"如果你的DM允许使用专长，你也可以选择一个{@5etools 专长|feats.html}。"
+			]
+		},
+		{
+			"ENG_name": "Additional Maneuvers",
+			"name": "额外战技",
+			"source": "UAModifyingClasses",
+			"page": 5,
+			"className": "游侠（无法术）",
+			"classSource": "UAModifyingClasses",
+			"level": 5,
+			"entries": [
+				"在5级时，你学习一个额外战技，该战技从战斗大师原型的战士可用战技列表中选择。"
+			]
+		},
+		{
+			"ENG_name": "Extra Attack",
+			"name": "额外攻击",
+			"source": "UAModifyingClasses",
+			"page": 5,
+			"className": "游侠（无法术）",
+			"classSource": "UAModifyingClasses",
+			"level": 5,
+			"entries": [
+				"第5级起，你在自己回合内执行{@action 攻击}动作时可以攻击两次而非一次。"
+			]
+		},
+		{
+			"ENG_name": "Favored Enemy and Natural Explorer improvements",
+			"name": "增加宿敌及偏好环境",
+			"source": "UAModifyingClasses",
+			"page": 5,
+			"className": "游侠（无法术）",
+			"classSource": "UAModifyingClasses",
+			"level": 6,
+			"entries": [
+				"第6级时，你获得一个额外的偏好地形。",
+				"第6级时，你将获得一个额外的宿敌以及相关语言。你所选择的宿敌应该与你在冒险中所遭遇怪物的种类层次相符。"
+			]
+		},
+		{
+			"ENG_name": "Ranger Archetype feature",
+			"name": "范型特性",
+			"source": "UAModifyingClasses",
+			"page": 5,
+			"className": "游侠（无法术）",
+			"classSource": "UAModifyingClasses",
+			"level": 7,
+			"entries": [
+				"第7级时，你获得所选范型的相应特性。"
+			]
+		},
+		{
+			"ENG_name": "Ability Score Improvement",
+			"name": "属性值提升",
+			"source": "UAModifyingClasses",
+			"page": 5,
+			"className": "游侠（无法术）",
+			"classSource": "UAModifyingClasses",
+			"level": 8,
+			"entries": [
+				"当你达到第8级时，你可以选择一项属性值提升2点，或选择两项属性各提升1点。不过你不能通过该特性让属性超过20。",
+				"如果你的DM允许使用专长，你也可以选择一个{@5etools 专长|feats.html}。"
+			]
+		},
+		{
+			"ENG_name": "Land's Stride",
+			"name": "大地行者",
+			"source": "UAModifyingClasses",
+			"page": 5,
+			"className": "游侠（无法术）",
+			"classSource": "UAModifyingClasses",
+			"level": 8,
+			"entries": [
+				"第8级起，你穿过非魔法的{@quickref 困难地形||3}时不会消耗额外移动力。你穿过非魔法的植物时不会消耗额外移动力，且这类植物的荆棘、毛刺或类似的危害物也无法对你造成伤害。",
+				"另外，在抵抗魔法制造或控制的植物造成的移动障碍效应时（例如{@spell 纠缠术}），你进行豁免检定时具有优势。"
+			]
+		},
+		{
+			"ENG_name": "Additional Maneuvers",
+			"name": "额外战技",
+			"source": "UAModifyingClasses",
+			"page": 5,
+			"className": "游侠（无法术）",
+			"classSource": "UAModifyingClasses",
+			"level": 9,
+			"entries": [
+				"在9级时，你学习一个额外战技，该战技从战斗大师原型的战士可用战技列表中选择。"
+			]
+		},
+		{
+			"ENG_name": "Natural Antivenom",
+			"name": "天然解毒剂",
+			"source": "UAModifyingClasses",
+			"page": 5,
+			"className": "游侠（无法术）",
+			"classSource": "UAModifyingClasses",
+			"level": 9,
+			"entries": [
+				"从9级开始，你在对抗毒素的豁免检定上具有优势，且对毒素伤害具有抗性。此外，你可以使用一份药膏来治愈你所施加的生物身上的一个毒素效应，同时恢复其生命值。"
+			]
+		},
+		{
+			"ENG_name": "Hide in Plain Sight",
+			"name": "遁术",
+			"source": "UAModifyingClasses",
+			"page": 5,
+			"className": "游侠（无法术）",
+			"classSource": "UAModifyingClasses",
+			"level": 10,
+			"entries": [
+				"第10级起，你可以花1分钟来为自己制作伪装。你需要取用新鲜的泥土、植物、煤烟、以及其他天然物料制作这套伪装。",
+				"伪装完成后，你可以将自己贴上至少跟自己等高等阔的实体表面（如树干或墙壁）并尝试躲藏。如果你留在原地不移动且不执行动作，则你的敏捷（{@skill 隐匿}）检定获得 +10加值。一旦移动、执行动作或执行反应，你都必须重新伪装以重获该增益。"
+			]
+		},
+		{
+			"ENG_name": "Natural Explorer improvement",
+			"name": "增加偏好环境",
+			"source": "UAModifyingClasses",
+			"page": 5,
+			"className": "游侠（无法术）",
+			"classSource": "UAModifyingClasses",
+			"level": 10,
+			"entries": [
+				"你获得了一个额外的偏好地形。"
+			]
+		},
+		{
+			"ENG_name": "Ranger Archetype feature",
+			"name": "范型特性",
+			"source": "UAModifyingClasses",
+			"page": 5,
+			"className": "游侠（无法术）",
+			"classSource": "UAModifyingClasses",
+			"level": 11,
+			"entries": [
+				"第11级时，你获得所选范型的相应特性。"
+			]
+		},
+		{
+			"ENG_name": "Ability Score Improvement",
+			"name": "属性值提升",
+			"source": "UAModifyingClasses",
+			"page": 5,
+			"className": "游侠（无法术）",
+			"classSource": "UAModifyingClasses",
+			"level": 12,
+			"entries": [
+				"当你达到第12级时，你可以选择一项属性值提升2点，或选择两项属性各提升1点。不过你不能通过该特性让属性超过20。",
+				"如果你的DM允许使用专长，你也可以选择一个{@5etools 专长|feats.html}。"
+			]
+		},
+		{
+			"ENG_name": "Additional Maneuvers",
+			"name": "额外战技",
+			"source": "UAModifyingClasses",
+			"page": 5,
+			"className": "游侠（无法术）",
+			"classSource": "UAModifyingClasses",
+			"level": 13,
+			"entries": [
+				"在13级时，你学习一个额外战技，该战技从战斗大师原型的战士可用战技列表中选择。"
+			]
+		},
+		{
+			"ENG_name": "Call Natural Allies",
+			"name": "召唤自然盟友",
+			"source": "UAModifyingClasses",
+			"page": 5,
+			"className": "游侠（无法术）",
+			"classSource": "UAModifyingClasses",
+			"level": 13,
+			"entries": [
+				"从13级开始，当你在青睐地形区域时，你可以召唤该地形的自然生物为你而战，使用你对自然世界的同调来说服它们援助你。DM从1英里内能听到你且适合该地形的野兽中选择以下结伙之一来援助你：",
+				{
+					"type": "list",
+					"items": [
+						"一只挑战等级2或更低的野兽",
+						"两只挑战等级1或更低的野兽",
+						"四只挑战等级1/2或更低的野兽",
+						"八只挑战等级1/4或更低的野兽"
+					]
+				},
+				"这些野兽从当前位置向你靠近，且会与你并肩作战，攻击任何对你敌对的生物。他们对你和你的同伴是友好的，且你为召唤的生物群体掷先攻，该群体拥有自己的回合。DM拥有这些生物的数据。",
+				"1小时后，这些野兽会返回它们之前的位置。一旦你使用了这个特性，你在24小时内无法在同一通用区域再次使用它，因为相同的动物不会重复响应你的召唤。"
+			]
+		},
+		{
+			"ENG_name": "Favored Enemy improvement",
+			"name": "增加宿敌",
+			"source": "UAModifyingClasses",
+			"page": 5,
+			"className": "游侠（无法术）",
+			"classSource": "UAModifyingClasses",
+			"level": 14,
+			"entries": [
+				"第14级时，你将获得一个额外的宿敌以及相关语言。你所选择的宿敌应该与你在冒险中所遭遇怪物的种类层次相符。"
+			]
+		},
+		{
+			"ENG_name": "Vanish",
+			"name": "无踪步",
+			"source": "UAModifyingClasses",
+			"page": 5,
+			"className": "游侠（无法术）",
+			"classSource": "UAModifyingClasses",
+			"level": 14,
+			"entries": [
+				"第14级起，你可以在自己回合以一个附赠动作的形式执行{@action 躲藏}动作。此时，你无法被非魔法手段追踪到，除非你主动留下踪迹。"
+			]
+		},
+		{
+			"ENG_name": "Ranger Archetype feature",
+			"name": "范型特性",
+			"source": "UAModifyingClasses",
+			"page": 5,
+			"className": "游侠（无法术）",
+			"classSource": "UAModifyingClasses",
+			"level": 15,
+			"entries": [
+				"第15级时，你获得所选范型的相应特性。"
+			]
+		},
+		{
+			"ENG_name": "Ability Score Improvement",
+			"name": "属性值提升",
+			"source": "UAModifyingClasses",
+			"page": 5,
+			"className": "游侠（无法术）",
+			"classSource": "UAModifyingClasses",
+			"level": 16,
+			"entries": [
+				"当你达到16级时，你可以选择一项属性值提升2点，或选择两项属性各提升1点。不过你不能通过此特性让属性超过20。",
+				"如果你的DM允许使用专长，你也可以选择一个{@5etools 专长|feats.html}。"
+			]
+		},
+		{
+			"ENG_name": "Additional Maneuvers",
+			"name": "额外战技",
+			"source": "UAModifyingClasses",
+			"page": 5,
+			"className": "游侠（无法术）",
+			"classSource": "UAModifyingClasses",
+			"level": 17,
+			"entries": [
+				"在17级时，你学习一个额外战技，该战技从战斗大师原型的战士可用战技列表中选择。"
+			]
+		},
+		{
+			"ENG_name": "Relentless",
+			"name": "坚韧",
+			"source": "UAModifyingClasses",
+			"page": 5,
+			"className": "游侠（无法术）",
+			"classSource": "UAModifyingClasses",
+			"level": 17,
+			"entries": [
+				"从17级开始，当你掷先攻且没有剩余的卓越骰时，你恢复1个卓越骰。"
+			]
+		},
+		{
+			"ENG_name": "Feral Senses",
+			"name": "野性感官",
+			"source": "UAModifyingClasses",
+			"page": 5,
+			"className": "游侠（无法术）",
+			"classSource": "UAModifyingClasses",
+			"level": 18,
+			"entries": [
+				"第18级时，你获得超自然的感官以帮助你对抗看不到的生物。此后，你攻击一个看不到的生物时不会因此承受劣势。另外，你还能感测30尺内所有{@condition 隐形}敌人的位置，前提是该生物并没有针对你进行躲藏，而你也没有陷入{@condition 目盲}或{@condition 耳聋}。"
+			]
+		},
+		{
+			"ENG_name": "Ability Score Improvement",
+			"name": "属性值提升",
+			"source": "UAModifyingClasses",
+			"page": 5,
+			"className": "游侠（无法术）",
+			"classSource": "UAModifyingClasses",
+			"level": 19,
+			"entries": [
+				"当你达到19级时，你可以选择一项属性值提升2点，或选择两项属性各提升1点。不过你不能通过此特性让属性超过20。",
+				"如果你的DM允许使用专长，你也可以选择一个{@5etools 专长|feats.html}。"
+			]
+		},
+		{
+			"ENG_name": "Foe Slayer",
+			"name": "屠灭众敌",
+			"source": "UAModifyingClasses",
+			"page": 5,
+			"className": "游侠（无法术）",
+			"classSource": "UAModifyingClasses",
+			"level": 20,
+			"entries": [
+				"第20级时，你成为了猎杀敌人的无双猎手。你在自己的每个回合内，都有一次机会将你的感知调整值加到你对宿敌进行的攻击检定或伤害掷骰上。你可以在掷骰之前或者之后决定使用该特性，但必须在该掷骰的相关效应被应用之前。"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"ENG_name": "Favored Soul",
+			"name": "青睐灵魂",
+			"source": "UAModifyingClasses",
+			"page": 8,
+			"className": "术士",
+			"classSource": "phb",
+			"subclassShortName": "青睐灵魂（UA）",
+			"subclassSource": "UAModifyingClasses",
+			"level": 1,
+			"entries": [
+				"你被一位神选中，并被赐予了其神圣力量的一部分。你因这位神的接触而发生了根本性的改变，这唤醒了你体内强大的魔法属性。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "附赠熟练项|术士||青睐灵魂（UA）|UAModifyingClasses|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "诸神选民|术士||青睐灵魂（UA）|UAModifyingClasses|1"
+				}
+			]
+		},
+		{
+			"ENG_name": "Bonus Proficiency",
+			"name": "附赠熟练项",
+			"source": "UAModifyingClasses",
+			"page": 8,
+			"className": "术士",
+			"classSource": "phb",
+			"subclassShortName": "青睐灵魂（UA）",
+			"subclassSource": "UAModifyingClasses",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"在1级时，你获得轻甲、中甲、盾牌和简易武器的熟练项。"
+			]
+		},
+		{
+			"ENG_name": "Chosen of the Gods",
+			"name": "诸神选民",
+			"source": "UAModifyingClasses",
+			"page": 8,
+			"className": "术士",
+			"classSource": "phb",
+			"subclassShortName": "青睐灵魂（UA）",
+			"subclassSource": "UAModifyingClasses",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"在1级时，你选择牧师职业的一个神圣领域。你将1环牧师领域法术添加到你的已知法术中。这些法术不计入你的已知法术数量限制，且对你而言视为术士法术。当你在术士职业达到3级、5级、7级和9级时，你同样会习得这些等级可用的领域法术。"
+			]
+		},
+		{
+			"ENG_name": "Extra Attack",
+			"name": "额外攻击",
+			"source": "UAModifyingClasses",
+			"page": 8,
+			"className": "术士",
+			"classSource": "phb",
+			"subclassShortName": "青睐灵魂（UA）",
+			"subclassSource": "UAModifyingClasses",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"从6级开始，你在自己的回合中执行{@action 攻击}动作时可以攻击两次而非一次。"
+			]
+		},
+		{
+			"ENG_name": "Divine Wings",
+			"name": "神圣飞翼",
+			"source": "UAModifyingClasses",
+			"page": 8,
+			"className": "术士",
+			"classSource": "phb",
+			"subclassShortName": "青睐灵魂（UA）",
+			"subclassSource": "UAModifyingClasses",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"在14级时，你获得从背部生出一对飞翼（羽毛状或蝙蝠状，任选其一）的能力，获得等同于你当前步行速度的飞行速度。你可以在你的回合中以一个附赠动作创造这些飞翼。它们持续存在直到你在你的回合中以一个附赠动作解散它们。",
+				"你不能在着装护甲时张开龙翼（除非该护甲经过特殊的设计）。而当你显现龙翼时，未经过特殊设计的衣服可能会毁坏。"
+			]
+		},
+		{
+			"ENG_name": "Power of the Chosen",
+			"name": "选民之力",
+			"source": "UAModifyingClasses",
+			"page": 8,
+			"className": "术士",
+			"classSource": "phb",
+			"subclassShortName": "青睐灵魂（UA）",
+			"subclassSource": "UAModifyingClasses",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"从18级开始，当你施放一个从你的诸神选民职业特性中学到的法术时，你恢复等同于你的魅力调整值（最低为+1）加上该法术等级的生命值。"
+			]
+		}
+	]
+}

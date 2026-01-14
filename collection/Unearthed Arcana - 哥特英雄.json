@@ -1,0 +1,444 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAGothicHeroes",
+				"abbreviation": "UAGH",
+				"full": "破解奥秘：哥特英雄",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.dnd.wizards.com/upload/articles/UA%20Gothic%20Characters.pdf",
+				"dateReleased": "2016-04-04"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1729637619,
+		"_dateLastModifiedHash": "8696612ef7"
+	},
+	"subclass": [
+		{
+			"ENG_name": "Inquisitive (UA)",
+			"name": "调查员（UA）",
+			"shortName": "调查员（UA）",
+			"source": "UAGothicHeroes",
+			"className": "游荡者",
+			"classSource": "PHB",
+			"page": 2,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"调查员|游荡者||调查员（UA）|UAGothicHeroes|3",
+				"目不转睛|游荡者||调查员（UA）|UAGothicHeroes|9",
+				"火眼金睛|游荡者||调查员（UA）|UAGothicHeroes|13",
+				"伺隙锐瞳|游荡者||调查员（UA）|UAGothicHeroes|17"
+			]
+		},
+		{
+			"ENG_name": "Monster Hunter (UA)",
+			"name": "怪物猎人（UA）",
+			"shortName": "怪物猎人（UA）",
+			"source": "UAGothicHeroes",
+			"className": "战士",
+			"classSource": "PHB",
+			"page": 2,
+			"spellcastingAbility": "wis",
+			"subclassFeatures": [
+				"怪物猎人|战士||怪物猎人（UA）|UAGothicHeroes|3",
+				"怪物杀手|战士||怪物猎人（UA）|UAGothicHeroes|7",
+				"精通卓越战技|战士||怪物猎人（UA）|UAGothicHeroes|10",
+				"坚韧|战士||怪物猎人（UA）|UAGothicHeroes|15",
+				"精通卓越战技|战士||怪物猎人（UA）|UAGothicHeroes|18"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"ENG_name": "Monster Hunter",
+			"name": "怪物猎人",
+			"source": "UAGothicHeroes",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "怪物猎人（UA）",
+			"subclassSource": "UAGothicHeroes",
+			"level": 3,
+			"entries": [
+				"作为典型的怪物猎人，你是击败超自然威胁的专家。通常由一位年长且经验丰富的怪物猎人指导，你学会克服各种非自然的防御设施和攻击，包括亡灵、兽化人和其他惊恐生物的攻击。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "附赠熟练|战士||怪物猎人（UA）|UAGothicHeroes|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "卓越战技|战士||怪物猎人（UA）|UAGothicHeroes|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "猎人的神秘主义|战士||怪物猎人（UA）|UAGothicHeroes|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Bonus Proficiencies",
+			"name": "附赠熟练",
+			"source": "UAGothicHeroes",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "怪物猎人（UA）",
+			"subclassSource": "UAGothicHeroes",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"当你在3级选择此原型时，你获得以下两个自选技能的熟练项：{@skill 奥秘}、{@skill 历史}、{@skill 洞悉}、{@skill 调查}、{@skill 自然}或{@skill 察觉}。你可以选择获得{@item 盗贼工具|PHB}的熟练项来代替一个技能选择。"
+			]
+		},
+		{
+			"ENG_name": "Combat Superiority",
+			"name": "卓越战技",
+			"source": "UAGothicHeroes",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "怪物猎人（UA）",
+			"subclassSource": "UAGothicHeroes",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"在3级时，你获得一组由名为卓越骰的特殊骰子驱动的属性。",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Superiority Dice",
+							"name": "卓越骰",
+							"type": "entries",
+							"entries": [
+								"你有四个卓越骰，它们是{@dice d8}。当你使用卓越骰时会消耗它。当你完成一次长休或短休时，恢复所有已消耗的卓越骰。你在7级时获得一个额外的卓越骰，且在15级时再获得一个。"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Using Superiority Dice",
+							"name": "使用卓越骰",
+							"type": "entries",
+							"entries": [
+								"你可以消耗卓越骰来获得多种不同的增益：",
+								{
+									"type": "list",
+									"items": [
+										"当你对生物进行一次武器攻击时，你可以消耗一个卓越骰将其添加到攻击检定中。你可以在进行攻击检定之前或之后使用此能力，但必须在攻击的任何效应生效之前。",
+										"当你以武器攻击对生物造成伤害时，你可以消耗一个卓越骰并将其添加到伤害掷骰中。你可以在掷出伤害后使用此属性。如果该攻击导致目标需要进行体质豁免检定以维持{@status 专注}，则其在该豁免上具有劣势。",
+										"当你进行一次智力、感知或魅力豁免检定时，你可以消耗一个卓越骰并将其添加到掷骰结果中。你只能在得知豁免是否成功前使用此特性。",
+										"当你进行一次感知（{@skill 察觉}）检定以侦查一个隐藏的生物或物件，或进行一次感知（{@skill 洞悉}）检定以判断某人是否对你撒谎时，你可以消耗一个卓越骰将其添加到掷骰中。你可以在看到全部结果后、但尚未得知是否成功前使用此特性。"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Hunter's Mysticism",
+			"name": "猎人的神秘主义",
+			"source": "UAGothicHeroes",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "怪物猎人（UA）",
+			"subclassSource": "UAGothicHeroes",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"在3级时，你对超自然的研究赋予你有限的使用魔法能力。你可以以仪式施放{@spell 侦测魔法}。你可以施放{@spell 防护善恶}，但在完成一次长休前无法再次通过此特性施放该法术。这些法术的施法属性是感知。",
+				"此外，你获得说以下一种你选择的语言的能力：{@language 深渊语}、{@language 天界语}或{@language 炼狱语}。"
+			]
+		},
+		{
+			"ENG_name": "Monster Slayer",
+			"name": "怪物杀手",
+			"source": "UAGothicHeroes",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "怪物猎人（UA）",
+			"subclassSource": "UAGothicHeroes",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"在7级时，每当你消耗卓越骰来添加到伤害掷骰时，你可以消耗最多二个骰子而非只是一个，将两者都添加到掷骰中。两个骰子都如常消耗。如果你的攻击目标是异怪、精类、邪魔或亡灵，你对两者都造成最大伤害，而非掷骰它们。"
+			]
+		},
+		{
+			"ENG_name": "Improved Combat Superiority",
+			"name": "精通卓越战技",
+			"source": "UAGothicHeroes",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "怪物猎人（UA）",
+			"subclassSource": "UAGothicHeroes",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"在10级时，你的卓越骰变为{@dice d10}。在18级时，它们变为{@dice d12}。"
+			]
+		},
+		{
+			"ENG_name": "Relentless",
+			"name": "坚韧",
+			"source": "UAGothicHeroes",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "怪物猎人（UA）",
+			"subclassSource": "UAGothicHeroes",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"第15级起，你骰先攻时若没可用的卓越骰，则你获得1枚卓越骰。"
+			]
+		},
+		{
+			"ENG_name": "Improved Combat Superiority",
+			"name": "精通卓越战技",
+			"source": "UAGothicHeroes",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "怪物猎人（UA）",
+			"subclassSource": "UAGothicHeroes",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"第18级时，你的卓越骰变为{@dice d12}。"
+			]
+		},
+		{
+			"ENG_name": "Inquisitive",
+			"name": "调查员",
+			"source": "UAGothicHeroes",
+			"page": 2,
+			"className": "游荡者",
+			"classSource": "PHB",
+			"subclassShortName": "调查员（UA）",
+			"subclassSource": "UAGothicHeroes",
+			"level": 3,
+			"entries": [
+				"作为典型的调查员，你擅长挖掘秘密和揭开神秘事件。你不仅依靠锐眼观察细节，还依靠精心磨练的属性来解读其他生物的言行以确定其真实意图。你擅长击败那些躲藏在普通民众中并捕食他们的生物，而你对逸闻的精通和锐眼使你能够很好地揭露并结束隐藏的邪恶。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "辨谎之耳|游荡者||调查员（UA）|UAGothicHeroes|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "鉴识之眼|游荡者||调查员（UA）|UAGothicHeroes|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "战术洞悉|游荡者||调查员（UA）|UAGothicHeroes|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Ear for Deceit",
+			"name": "辨谎之耳",
+			"source": "UAGothicHeroes",
+			"page": 2,
+			"className": "游荡者",
+			"classSource": "PHB",
+			"subclassShortName": "调查员（UA）",
+			"subclassSource": "UAGothicHeroes",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"当你在3级选择这个原型时，你培养出敏锐的耳朵来辨别谎言。每当你进行感知（{@skill 洞悉}）检定以察觉生物是否在说谎时，你可以使用检定结果或8 + 你的感知调整值中的较高者。如果你在{@skill 洞悉}上熟练，则将你的熟练加值添加到固定结果中。如果你选择{@skill 洞悉}作为受专精特性增强的技能，则添加双倍的熟练加值。"
+			]
+		},
+		{
+			"ENG_name": "Eye for Detail",
+			"name": "鉴识之眼",
+			"source": "UAGothicHeroes",
+			"page": 2,
+			"className": "游荡者",
+			"classSource": "PHB",
+			"subclassShortName": "调查员（UA）",
+			"subclassSource": "UAGothicHeroes",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"从3级开始，你可以使用灵巧动作特性提供的附赠动作进行一次感知（{@skill 察觉}）检定来侦察隐藏的生物或物件，进行一次智力（{@skill 调查}）检定来发现且解读线索，或使用战术洞悉。"
+			]
+		},
+		{
+			"ENG_name": "Insightful Fighting",
+			"name": "战术洞悉",
+			"source": "UAGothicHeroes",
+			"page": 2,
+			"className": "游荡者",
+			"classSource": "PHB",
+			"subclassShortName": "调查员（UA）",
+			"subclassSource": "UAGothicHeroes",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"在3级时，你获得解读对手战术并制定应对策略的能力。以一个动作（或使用Eye for Detail作为附赠动作），对你可见且未处于{@condition 失能}状态的生物进行一次Wisdom（{@skill 洞悉}）检定，与目标的Charisma（{@skill 欺瞒}）检定对抗。若成功，即使你没有对该生物的优势或其5尺内没有目标的仇敌，你也能对其使用Sneak Attack。即使你对目标处于劣势，仍可以此方式使用Sneak Attack。",
+				"该增益持续1分钟或直到你对另一个目标成功使用战术洞悉。"
+			]
+		},
+		{
+			"ENG_name": "Steady Eye",
+			"name": "目不转睛",
+			"source": "UAGothicHeroes",
+			"page": 2,
+			"className": "游荡者",
+			"classSource": "PHB",
+			"subclassShortName": "调查员（UA）",
+			"subclassSource": "UAGothicHeroes",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"在9级时，如果你在该回合内不移动，你在回合内为寻找隐藏生物或物件所做的感知（{@skill 察觉}）检定具有优势。如果你在移动前使用此属性，你在该回合内不能移动或预备移动力。"
+			]
+		},
+		{
+			"ENG_name": "Unerring Eye",
+			"name": "火眼金睛",
+			"source": "UAGothicHeroes",
+			"page": 2,
+			"className": "游荡者",
+			"classSource": "PHB",
+			"subclassShortName": "调查员（UA）",
+			"subclassSource": "UAGothicHeroes",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"在13级时，你获得侦查魔法欺瞒的能力。以一个动作，你能感知30尺内幻象、非真实形态的变形生物以及其他设计来欺骗感官的魔法的存在。尽管你能确定一个效应正试图欺骗你，但你无法获得关于隐藏内容或其真实本质的特殊洞悉。"
+			]
+		},
+		{
+			"ENG_name": "Eye for Weakness",
+			"name": "伺隙锐瞳",
+			"source": "UAGothicHeroes",
+			"page": 2,
+			"className": "游荡者",
+			"classSource": "PHB",
+			"subclassShortName": "调查员（UA）",
+			"subclassSource": "UAGothicHeroes",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"在17级时，你学会通过仔细研究生物战术和移动力来利用其弱点。当你的战术洞悉特性应用于一个生物时，你对该生物的偷袭伤害增加{@dice 2d6}。"
+			]
+		}
+	],
+	"race": [
+		{
+			"ENG_name": "Revenant",
+			"name": "还魂鬼",
+			"source": "UAGothicHeroes",
+			"page": 1,
+			"size": [
+				"V"
+			],
+			"speed": "多类",
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"resist": [
+				"暗蚀"
+			],
+			"entries": [
+				{
+					"ENG_name": "Revenant Subrace",
+					"name": "还魂鬼亚种",
+					"entries": [
+						"你遭遇了残忍且不公的结局，因此重返生者领域。作为还魂鬼，你渴望向生前亏待你的人复仇，或寻求完成一项未竟的关键任务。",
+						"还魂鬼亚种可应用于任何具有亚种的种族，且会替换该种族现有的亚种选项。或者，你可以使用下方提供的修改选项将此新亚种应用于没有亚种选项的种族。",
+						"你的DM可能也会允许你为一个已死亡的角色选择这个亚种。在这种情况下，你的角色会从死亡中复活，其原有的亚种被替换（或对其基础特质进行必要的修改），充满寻求复仇或完成任务的决心。"
+					],
+					"type": "entries"
+				},
+				{
+					"ENG_name": "Racial Adjustments",
+					"name": "种族调整",
+					"entries": [
+						"对于没有亚种选项的种族，选择还魂鬼亚种意味着需要对角色的基础特质进行如下修改。（本试玩文章仅提供人类和龙裔角色的选项。任何其他没有亚种选项的种族不应使用这些还魂鬼亚种规则。）",
+						{
+							"ENG_name": "Human Revenant",
+							"name": "人类还魂鬼",
+							"entries": [
+								"如果你想扮演一个人类还魂鬼，将人类的属性值加成的特质修改为以下内容：你选择的两个不同属性值各增加1。如果你使用人类变体的特质，移除技能特质和专长特质。"
+							],
+							"type": "entries"
+						},
+						{
+							"ENG_name": "Dragonborn Revenant",
+							"name": "龙裔还魂鬼",
+							"entries": [
+								"如果你想玩一个龙裔还魂鬼，将龙裔的属性值加成的特质修改为如下：你的力量值增加1，且你的魅力值增加1。此外，你的龙族血统特质使用暗蚀伤害作为其伤害类型，取代应用于你的吐息武器和伤害抗性的伤害类型。"
+							],
+							"type": "entries"
+						},
+						{
+							"ENG_name": "Tiefling Revenant",
+							"name": "提夫林还魂鬼",
+							"entries": [
+								"《破解奥秘》的先前版本（《老黑魔法》）概述了两种使用亚种的提夫林变体。使用该文章来创建一个提夫林还魂鬼，将亚种选项替换为还魂鬼亚种选项。文章中基础提夫林的特质如下：",
+								{
+									"type": "list",
+									"style": "list-hang",
+									"items": [
+										{
+											"ENG_name": "Ability Score Increase",
+											"name": "属性值加成",
+											"type": "item",
+											"entry": "你的魅力值增加2。"
+										},
+										{
+											"ENG_name": "Languages",
+											"name": "语言",
+											"type": "item",
+											"entry": "你会说、读、写通用语。"
+										}
+									]
+								}
+							],
+							"type": "entries"
+						}
+					],
+					"type": "entries"
+				},
+				{
+					"ENG_name": "Relentless Nature",
+					"name": "无情本性",
+					"entries": [
+						"你的DM会为你指定一个目标\u2014\u2014通常与你角色的死亡有关。该目标必须是你能够完成的特定任务，例如杀死一个仇敌或解放一个区域及其人民。在你完成该目标前，你将获得以下增益：",
+						{
+							"type": "list",
+							"items": [
+								"如果你在回合开始时生命值低于生命值上限的一半，你将恢复1点生命值。",
+								"如果你死亡，你会在死亡24小时后复活。如果你的身体被摧毁，你会在死亡地点1英里内由DM决定的地点重组。如果你的装备也被摧毁，你将无法恢复它。",
+								"你知道你与任何涉及你目标的生物之间的距离和方向，例如你寻求复仇的人或你誓死保护的人。如果该生物在另一个存在平面上，这种警觉将失效。"
+							]
+						},
+						"当你的目标完成时，你终于得以休息。你死去且无法被恢复生命。"
+					],
+					"type": "entries"
+				}
+			]
+		}
+	]
+}

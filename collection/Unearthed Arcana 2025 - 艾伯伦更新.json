@@ -1,0 +1,5527 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "XUA2025EberronUpdates",
+				"abbreviation": "XUA2025EU",
+				"full": "破解奥秘2025：艾伯伦更新",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Lyra [he/him]"
+				],
+				"version": "1.0.0",
+				"url": "https://media.dndbeyond.com/compendium-images/ua/eberron-updates/Lhg25Ggx5iY3rETH/UA2025-CartographerArtificer.pdf",
+				"dateReleased": "2025-02-27"
+			}
+		],
+		"dependencies": {
+			"class": [
+				"XUA2024Artificer"
+			],
+			"subclass": [
+				"XUA2024Artificer"
+			],
+			"subclassFluff": [
+				"XUA2024Artificer"
+			]
+		},
+		"edition": "one",
+		"status": "ready",
+		"dateAdded": 1740677812,
+		"dateLastModified": 1748976501,
+		"_dateLastModifiedHash": "fd0d990709"
+	},
+	"class": [
+		{
+			"ENG_name": "Artificer",
+			"name": "奇械师",
+			"source": "XUA2025EberronUpdates",
+			"page": 1,
+			"edition": "one",
+			"primaryAbility": [
+				{
+					"int": true
+				}
+			],
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"con",
+				"int"
+			],
+			"spellcastingAbility": "int",
+			"casterProgression": "artificer",
+			"preparedSpellsProgression": [
+				2,
+				3,
+				4,
+				5,
+				6,
+				6,
+				7,
+				7,
+				9,
+				9,
+				10,
+				10,
+				11,
+				11,
+				12,
+				12,
+				14,
+				14,
+				15,
+				15
+			],
+			"preparedSpellsChange": "restLong",
+			"cantripProgression": [
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				3,
+				3,
+				3,
+				3,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4
+			],
+			"additionalSpells": [
+				{
+					"known": {
+						"1": [
+							"修复术|XPHB#c"
+						]
+					}
+				}
+			],
+			"classSpells": [
+				"酸液飞溅|XPHB",
+				"舞光术|XPHB",
+				"四象法门|XPHB",
+				"火焰箭|XPHB",
+				"神导术|XPHB",
+				"光亮术|XPHB",
+				"法师之手|XPHB",
+				"修复术|XPHB",
+				"传讯术|XPHB",
+				"毒气喷涌|XPHB",
+				"魔法伎俩|XPHB",
+				"冷冻射线|XPHB",
+				"抗性|XPHB",
+				"电爪|XPHB",
+				"维生术|XPHB",
+				"荆棘之鞭|XPHB",
+				"鸣雷破|XPHB",
+				"克敌先击|XPHB",
+				"警报术|XPHB",
+				"疗伤术|XPHB",
+				"侦测魔法|XPHB",
+				"易容术|XPHB",
+				"脚底抹油|XPHB",
+				"妖火|XPHB",
+				"虚假生命|XPHB",
+				"羽落术|XPHB",
+				"油腻术|XPHB",
+				"鉴定术|XPHB",
+				"跳跃术|XPHB",
+				"大步奔行|XPHB",
+				"净化饮食|XPHB",
+				"庇护术|XPHB",
+				"援助术|XPHB",
+				"变身术|XPHB",
+				"秘法锁|XPHB",
+				"复苏秘法|XPHB",
+				"朦胧术|XPHB",
+				"不灭明焰|XPHB",
+				"黑暗视觉|XPHB",
+				"龙息术|XPHB",
+				"强化属性|XPHB",
+				"变巨/缩小术|XPHB",
+				"灼热金属|XPHB",
+				"人工生命仆从|XUA2024Artificer",
+				"隐形术|XPHB",
+				"次级复原术|XPHB",
+				"浮空术|XPHB",
+				"魔嘴术|XPHB",
+				"魔化武器|XPHB",
+				"防护毒素|XPHB",
+				"魔绳术|XPHB",
+				"识破隐形|XPHB",
+				"蛛行术|XPHB",
+				"蛛网术|XPHB",
+				"闪现术|XPHB",
+				"造粮术|XPHB",
+				"解除魔法|XPHB",
+				"元素武器|XPHB",
+				"飞行术|XPHB",
+				"守卫刻文|XPHB",
+				"加速术|XPHB",
+				"防护能量|XPHB",
+				"回生术|XPHB",
+				"水下呼吸|XPHB",
+				"水上行走|XPHB",
+				"秘法眼|XPHB",
+				"鬼斧神工|XPHB",
+				"行动自如|XPHB",
+				"李欧蒙秘藏箱|XPHB",
+				"魔邓肯忠犬|XPHB",
+				"魔邓肯私人密室|XPHB",
+				"欧提路克弹力法球|XPHB",
+				"塑石术|XPHB",
+				"石肤术|XPHB",
+				"构装召唤术|XPHB",
+				"活化物件|XPHB",
+				"毕格比之手|XPHB",
+				"原力法阵|XPHB",
+				"造物术|XPHB",
+				"高等复原术|XPHB",
+				"石墙术|XPHB",
+				"轰雷剑|TCE",
+				"翠炎剑|TCE",
+				"智能壁垒|TCE",
+				"闪电牵引|TCE",
+				"剑刃爆发|TCE",
+				"塔莎酸蚀酿|TCE"
+			],
+			"featProgression": [
+				{
+					"ENG_name": "Epic Boon",
+					"name": "传奇恩惠",
+					"category": [
+						"EB"
+					],
+					"progression": {
+						"19": 1
+					}
+				}
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium",
+					"shield"
+				],
+				"weapons": [
+					"简易"
+				],
+				"tools": [
+					"{@item 盗贼工具|XPHB}",
+					"{@item 修补工具|XPHB}",
+					"一种你选择的{@item 工匠工具|XPHB}类型"
+				],
+				"toolProficiencies": [
+					{
+						"thieves' tools": true,
+						"tinker's tools": true,
+						"anyArtisansTool": 1
+					}
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"arcana",
+								"history",
+								"investigation",
+								"medicine",
+								"nature",
+								"perception",
+								"sleight of hand"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"defaultData": [
+					{
+						"A": [
+							{
+								"item": "镶钉皮甲|XPHB"
+							},
+							{
+								"item": "匕首|XPHB"
+							},
+							{
+								"item": "盗贼工具|XPHB"
+							},
+							{
+								"item": "修补工具|XPHB"
+							},
+							{
+								"item": "地城套组|XPHB"
+							},
+							{
+								"value": 1600
+							}
+						],
+						"B": [
+							{
+								"value": 15000
+							}
+						]
+					}
+				],
+				"entries": [
+					"{@i 选择A或B：}（A）{@item 镶钉皮甲|XPHB}、{@item 匕首|XPHB}、{@item 盗贼工具|XPHB}、{@item 修补工具|XPHB}、{@item 地城套组|XPHB}和16 GP；或（B）150 GP"
+				]
+			},
+			"multiclassing": {
+				"proficienciesGained": {
+					"armor": [
+						"light",
+						"medium",
+						"shield"
+					],
+					"tools": [
+						"{@item 修补工具|PHB}"
+					],
+					"toolProficiencies": [
+						{
+							"tinker's tools": true
+						}
+					],
+					"skills": [
+						{
+							"choose": {
+								"from": [
+									"arcana",
+									"history",
+									"investigation",
+									"medicine",
+									"nature",
+									"perception",
+									"sleight of hand"
+								],
+								"count": 1
+							}
+						}
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"已知方案",
+						"魔法物品",
+						"{@filter 已知戏法|spells|source=|level=0|class=奇械师 (xua2025eu)}",
+						"准备法术"
+					],
+					"rows": [
+						[
+							"\u2014",
+							"\u2014",
+							2,
+							2
+						],
+						[
+							4,
+							2,
+							2,
+							3
+						],
+						[
+							4,
+							2,
+							2,
+							4
+						],
+						[
+							4,
+							2,
+							2,
+							5
+						],
+						[
+							4,
+							2,
+							2,
+							6
+						],
+						[
+							5,
+							3,
+							2,
+							6
+						],
+						[
+							5,
+							3,
+							2,
+							7
+						],
+						[
+							5,
+							3,
+							2,
+							7
+						],
+						[
+							5,
+							3,
+							2,
+							9
+						],
+						[
+							6,
+							4,
+							3,
+							9
+						],
+						[
+							6,
+							4,
+							3,
+							10
+						],
+						[
+							6,
+							4,
+							3,
+							10
+						],
+						[
+							6,
+							4,
+							3,
+							11
+						],
+						[
+							7,
+							5,
+							4,
+							11
+						],
+						[
+							7,
+							5,
+							4,
+							12
+						],
+						[
+							7,
+							5,
+							4,
+							12
+						],
+						[
+							7,
+							5,
+							4,
+							14
+						],
+						[
+							8,
+							6,
+							4,
+							14
+						],
+						[
+							8,
+							6,
+							4,
+							15
+						],
+						[
+							8,
+							6,
+							4,
+							15
+						]
+					]
+				},
+				{
+					"title": "每环法术位",
+					"colLabels": [
+						"{@filter 1st|spells|level=1|class=奇械师 (xua2025eu)}",
+						"{@filter 2nd|spells|level=2|class=奇械师 (xua2025eu)}",
+						"{@filter 3rd|spells|level=3|class=奇械师 (xua2025eu)}",
+						"{@filter 4th|spells|level=4|class=奇械师 (xua2025eu)}",
+						"{@filter 5th|spells|level=5|class=奇械师 (xua2025eu)}"
+					],
+					"rowsSpellProgression": [
+						[
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"施法|奇械师|XUA2024Artificer|1|XUA2024Artificer",
+				"修补匠的魔法|奇械师|XUA2025艾伯伦更新|1|XUA2025艾伯伦更新",
+				"仿制魔法物品|奇械师|XUA2025艾伯伦更新|2|XUA2025艾伯伦更新",
+				{
+					"classFeature": "奇械师子职|奇械师|XUA2025艾伯伦更新|3|XUA2025艾伯伦更新",
+					"gainSubclassFeature": true
+				},
+				"属性值提升|奇械师|XUA2024Artificer|4|XUA2024Artificer",
+				{
+					"classFeature": "子职特性|奇械师|XUA2024Artificer|5|XUA2024Artificer",
+					"gainSubclassFeature": true
+				},
+				"魔法物品工艺师|奇械师|XUA2025艾伯伦更新|6|XUA2025艾伯伦更新",
+				"灵光一闪|奇械师|XUA2024Artificer|7|XUA2024Artificer",
+				"属性值提升|奇械师|XUA2024Artificer|8|XUA2024Artificer",
+				{
+					"classFeature": "子职特性|奇械师|XUA2024Artificer|9|XUA2024Artificer",
+					"gainSubclassFeature": true
+				},
+				"魔法物品熟稔|奇械师|XUA2025艾伯伦更新|10|XUA2025艾伯伦更新",
+				"储法物品|奇械师|XUA2025艾伯伦更新|11|XUA2025艾伯伦更新",
+				"属性值提升|奇械师|XUA2024Artificer|12|XUA2024Artificer",
+				"魔法物品专家|奇械师|XUA2025艾伯伦更新|14|XUA2025艾伯伦更新",
+				{
+					"classFeature": "子职特性|奇械师|XUA2024Artificer|15|XUA2024Artificer",
+					"gainSubclassFeature": true
+				},
+				"属性值提升|奇械师|XUA2024Artificer|16|XUA2024Artificer",
+				"魔法物品大师|奇械师|XUA2024Artificer|18|XUA2024Artificer",
+				"传奇恩惠|奇械师|XUA2024Artificer|19|XUA2024Artificer",
+				"奇械之魂|奇械师|XUA2025艾伯伦更新|20|XUA2025艾伯伦更新"
+			],
+			"subclassTitle": "奇械师子职",
+			"hasFluff": true
+		}
+	],
+	"classFluff": [
+		{
+			"ENG_name": "Artificer",
+			"name": "奇械师",
+			"source": "XUA2025EberronUpdates",
+			"entries": [
+				{
+					"type": "section",
+					"page": 1,
+					"entries": [
+						"{@i 魔法工匠与奇迹发明家}",
+						"发明大师，奇械师运用巧思与魔法来解锁物件中的非凡能力。他们将魔法视为等待解码的复杂系统，然后将其运用在他们的法术和发明中。你可以在接下来的几个章节中找到扮演这些发明家所需的一切。"
+					]
+				}
+			]
+		}
+	],
+	"subclass": [
+		{
+			"ENG_name": "Alchemist",
+			"name": "炼金师",
+			"shortName": "炼金师",
+			"source": "XUA2025EberronUpdates",
+			"className": "奇械师",
+			"classSource": "XUA2025艾伯伦更新",
+			"_copy": {
+				"ENG_name": "Alchemist",
+				"name": "炼金师",
+				"source": "XUA2024Artificer",
+				"shortName": "炼金师",
+				"className": "奇械师",
+				"classSource": "XUA2024Artificer",
+				"_preserve": {
+					"hasFluff": true
+				}
+			}
+		},
+		{
+			"ENG_name": "Armorer",
+			"name": "装甲师",
+			"shortName": "装甲师",
+			"source": "XUA2025EberronUpdates",
+			"className": "奇械师",
+			"classSource": "XUA2025艾伯伦更新",
+			"_copy": {
+				"ENG_name": "Armorer",
+				"name": "装甲师",
+				"source": "XUA2024Artificer",
+				"shortName": "装甲师",
+				"className": "奇械师",
+				"classSource": "XUA2024Artificer",
+				"_preserve": {
+					"hasFluff": true
+				}
+			}
+		},
+		{
+			"ENG_name": "Artillerist",
+			"name": "魔炮师",
+			"shortName": "魔炮师",
+			"source": "XUA2025EberronUpdates",
+			"className": "奇械师",
+			"classSource": "XUA2025艾伯伦更新",
+			"_copy": {
+				"ENG_name": "Artillerist",
+				"name": "魔炮师",
+				"source": "XUA2024Artificer",
+				"shortName": "魔炮师",
+				"className": "奇械师",
+				"classSource": "XUA2024Artificer",
+				"_preserve": {
+					"hasFluff": true
+				}
+			}
+		},
+		{
+			"ENG_name": "Battle Smith",
+			"name": "战地匠师",
+			"shortName": "战地匠师",
+			"source": "XUA2025EberronUpdates",
+			"className": "奇械师",
+			"classSource": "XUA2025艾伯伦更新",
+			"_copy": {
+				"ENG_name": "Battle Smith",
+				"name": "战地匠师",
+				"source": "XUA2024Artificer",
+				"shortName": "战地匠师",
+				"className": "奇械师",
+				"classSource": "XUA2024Artificer",
+				"_preserve": {
+					"hasFluff": true
+				}
+			}
+		},
+		{
+			"ENG_name": "Cartographer",
+			"name": "制图师",
+			"shortName": "制图师",
+			"source": "XUA2025EberronUpdates",
+			"className": "奇械师",
+			"classSource": "XUA2025艾伯伦更新",
+			"page": 6,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"妖火|XPHB",
+							"光导箭|XPHB",
+							"治愈真言|XPHB"
+						],
+						"5": [
+							"物件定位术|XPHB",
+							"心灵尖刺|XPHB"
+						],
+						"9": [
+							"鹰眼术|XPHB",
+							"加速术|XPHB"
+						],
+						"13": [
+							"行动自如|XPHB",
+							"生物定位术|XPHB"
+						],
+						"17": [
+							"探知术|XPHB",
+							"传送法阵|XPHB"
+						]
+					},
+					"innate": {
+						"3": {
+							"daily": {
+								"int": [
+									"妖火|XPHB"
+								]
+							}
+						},
+						"15": {
+							"daily": {
+								"1": [
+									"寻路术|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"subclassSpells": [
+				"妖火|XPHB",
+				"光导箭|XPHB",
+				"治愈真言|XPHB",
+				"物件定位术|XPHB",
+				"心灵尖刺|XPHB",
+				"鹰眼术|XPHB",
+				"加速术|XPHB",
+				"行动自如|XPHB",
+				"生物定位术|XPHB",
+				"探知术|XPHB",
+				"传送法阵|XPHB",
+				"寻路术|XPHB"
+			],
+			"subclassFeatures": [
+				"制图师|奇械师|XUA2025艾伯伦更新|制图师|XUA2025艾伯伦更新|3|XUA2025艾伯伦更新",
+				"传送门跃|奇械师|XUA2025艾伯伦更新|制图师|XUA2025艾伯伦更新|5|XUA2025艾伯伦更新",
+				"灵机一动|奇械师|XUA2025艾伯伦更新|制图师|XUA2025艾伯伦更新|9|XUA2025艾伯伦更新",
+				"万能地图匣|奇械师|XUA2025艾伯伦更新|制图师|XUA2025艾伯伦更新|15|XUA2025艾伯伦更新"
+			],
+			"hasFluff": true
+		}
+	],
+	"subclassFluff": [
+		{
+			"ENG_name": "Alchemist",
+			"name": "炼金师",
+			"shortName": "炼金师",
+			"source": "XUA2025EberronUpdates",
+			"className": "奇械师",
+			"classSource": "XUA2025艾伯伦更新",
+			"_copy": {
+				"ENG_name": "Alchemist",
+				"name": "炼金师",
+				"source": "XUA2024Artificer",
+				"shortName": "炼金师",
+				"className": "奇械师",
+				"classSource": "XUA2024Artificer"
+			}
+		},
+		{
+			"ENG_name": "Armorer",
+			"name": "装甲师",
+			"shortName": "装甲师",
+			"source": "XUA2025EberronUpdates",
+			"className": "奇械师",
+			"classSource": "XUA2025艾伯伦更新",
+			"_copy": {
+				"ENG_name": "Armorer",
+				"name": "装甲师",
+				"source": "XUA2024Artificer",
+				"shortName": "装甲师",
+				"className": "奇械师",
+				"classSource": "XUA2024Artificer"
+			}
+		},
+		{
+			"ENG_name": "Artillerist",
+			"name": "魔炮师",
+			"shortName": "魔炮师",
+			"source": "XUA2025EberronUpdates",
+			"className": "奇械师",
+			"classSource": "XUA2025艾伯伦更新",
+			"_copy": {
+				"ENG_name": "Artillerist",
+				"name": "魔炮师",
+				"source": "XUA2024Artificer",
+				"shortName": "魔炮师",
+				"className": "奇械师",
+				"classSource": "XUA2024Artificer"
+			}
+		},
+		{
+			"ENG_name": "Battle Smith",
+			"name": "战地匠师",
+			"shortName": "战地匠师",
+			"source": "XUA2025EberronUpdates",
+			"className": "奇械师",
+			"classSource": "XUA2025艾伯伦更新",
+			"_copy": {
+				"ENG_name": "Battle Smith",
+				"name": "战地匠师",
+				"source": "XUA2024Artificer",
+				"shortName": "战地匠师",
+				"className": "奇械师",
+				"classSource": "XUA2024Artificer"
+			}
+		},
+		{
+			"ENG_name": "Cartographer",
+			"name": "制图师",
+			"shortName": "制图师",
+			"source": "XUA2025EberronUpdates",
+			"className": "奇械师",
+			"classSource": "XUA2025艾伯伦更新",
+			"entries": [
+				"{@i 绘制动荡中的优势航线}"
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"ENG_name": "Tinker's Magic",
+			"name": "修补匠的魔法",
+			"source": "XUA2025EberronUpdates",
+			"page": 3,
+			"className": "奇械师",
+			"classSource": "XUA2025艾伯伦更新",
+			"level": 1,
+			"entries": [
+				"你知晓{@spell 修复术|XPHB}戏法。",
+				"作为持有{@item 修补工具|XPHB}时的一个{@action 魔法|XPHB}动作，你可以在自身5尺内的一个未占据空间中创造一个物品，从以下列表中选择该物品：",
+				{
+					"type": "list",
+					"style": "list-hang",
+					"columns": 4,
+					"page": 2,
+					"items": [
+						"{@item 滚珠|XPHB}",
+						"{@item 篮子|XPHB}",
+						"{@item 铺盖|XPHB}",
+						"{@item 铃铛|XPHB}",
+						"{@item 毯子|XPHB}",
+						"{@item 滑轮组|XPHB}",
+						"{@item 吊桶|XPHB}",
+						"{@item 铁蒺藜|XPHB}",
+						"{@item 蜡烛|XPHB}",
+						"{@item 撬棍|XPHB}",
+						"{@item 扁瓶|XPHB}",
+						"{@item 壶|XPHB}",
+						"{@item 油灯|XPHB}",
+						"{@item 捕网|XPHB}",
+						"{@item 燃油|XPHB}",
+						"{@item 纸张|XPHB}",
+						"{@item 羊皮纸|XPHB}",
+						"{@item 长杆|XPHB}",
+						"{@item 小包|XPHB}",
+						"{@item 绳索|XPHB}",
+						"{@item 麻袋|XPHB}",
+						"{@item 铲子|XPHB}",
+						"{@item 细线|XPHB}",
+						"{@item 火绒盒|XPHB}",
+						"{@item 火把|XPHB}",
+						"{@item 小瓶|XPHB}"
+					]
+				},
+				"参见{@book 玩家手册|XPHB}中该物品的规则。该物品持续到你完成一次{@variantrule 长休|XPHB}为止，届时它会消失。",
+				"你可以使用此特性的次数等于你的智力调整值（至少一次），并且你在完成一次{@variantrule 长休|XPHB}后恢复所有已使用的次数。"
+			]
+		},
+		{
+			"ENG_name": "Replicate Magic Item",
+			"name": "仿制魔法物品",
+			"source": "XUA2025EberronUpdates",
+			"page": 3,
+			"className": "奇械师",
+			"classSource": "XUA2025艾伯伦更新",
+			"level": 2,
+			"entries": [
+				"你学会了用于制作魔法物品的奥术方案。",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Plans Known",
+							"name": "已知方案",
+							"type": "entries",
+							"page": 3,
+							"entries": [
+								"当你获得此特性时，从{@table 魔法物品方案（奇械师等级2+）|XUA2025艾伯伦更新}表格中选择四个计划学习（参见{@book 城主指南|XDMG}了解物品描述）。推荐{@item 次元袋|XDMG}、{@item 水下呼吸帽|XDMG}、{@item 短讯石|XDMG}和{@item +1 战法师魔杖|XDMG|战法师魔杖 +1}。每当你提升奇械师等级时，你可以将一个已知计划替换为你符合条件的新计划。",
+								"你在达到特定奇械师等级时学会另一个自选计划，如奇械师特性表格的计划已知栏所示。",
+								"当你选择一个计划来学习时，你可以从任何你符合资格的魔法物品方案表格中选择；你的资格基于你的奇械师等级。"
+							]
+						},
+						{
+							"ENG_name": "Creating an Item",
+							"name": "创造物品",
+							"type": "entries",
+							"page": 3,
+							"entries": [
+								"当你完成一次{@variantrule 长休|XPHB}时，如果你手上有{@item 修补工具|XPHB}，你可以创建一个或两个不同的魔法物品。每个物品都基于你为此特性所知的一个方案。",
+								"如果创造的物品需要{@variantrule 同调|XPHB}，你可以在创造它的瞬间立即同调。如果你决定稍后同调该物品，必须使用{@variantrule 同调|XPHB}的正常流程进行同调。",
+								"当你达到奇械师特性表格的魔法物品栏中指定的特定奇械师等级时，你在长休结束时可以创造的魔法物品数量增加。你创造的每个物品必须基于你知道的一个不同方案。",
+								"如果你尝试超过此特性的最大魔法物品数量，最旧的物品会消失，然后新物品出现。"
+							]
+						},
+						{
+							"ENG_name": "Duration",
+							"name": "持续时间",
+							"type": "entries",
+							"page": 3,
+							"entries": [
+								"由该特性创造的魔法物品功能与正常魔法物品相同，但其魔法并非永久性。当你死亡时，该魔法物品会在{@dice 1d4}天后消失。如果你用一个新方案替换已知方案，任何用被替换方案创造的魔法物品会立即消失。",
+								"如果你通过此特性创造的物品是一个容器，例如{@item 次元袋|XDMG}，并且它消失了，其内容物会无害地出现在其空间内及周围。"
+							]
+						},
+						{
+							"ENG_name": "Spellcasting Focus",
+							"name": "法器",
+							"type": "entries",
+							"page": 3,
+							"entries": [
+								"你可以使用任何由该特性创造的{@item 魔杖|XPHB}或武器作为{@variantrule 法器|XPHB}，以替代使用一套{@item 工匠工具|XPHB}。"
+							]
+						},
+						{
+							"ENG_name": "Magic Item Plans (Artificer Level 2+)",
+							"name": "魔法物品方案（奇械师等级2+）",
+							"type": "statblock",
+							"tag": "table",
+							"source": "XUA2025EberronUpdates",
+							"page": 4,
+							"collapsed": true
+						},
+						{
+							"ENG_name": "Magic Item Plans (Artificer Level 6+)",
+							"name": "魔法物品方案（奇械师等级6+）",
+							"type": "statblock",
+							"tag": "table",
+							"source": "XUA2025EberronUpdates",
+							"page": 4,
+							"collapsed": true
+						},
+						{
+							"ENG_name": "Magic Item Plans (Artificer Level 10+)",
+							"name": "魔法物品方案（奇械师等级10+）",
+							"type": "statblock",
+							"tag": "table",
+							"source": "XUA2025EberronUpdates",
+							"page": 4,
+							"collapsed": true
+						},
+						{
+							"ENG_name": "Magic Item Plans (Artificer Level 14+)",
+							"name": "魔法物品方案（奇械师等级14+）",
+							"type": "statblock",
+							"tag": "table",
+							"source": "XUA2025EberronUpdates",
+							"page": 4,
+							"collapsed": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Artificer Subclass",
+			"name": "奇械师子职",
+			"source": "XUA2025EberronUpdates",
+			"page": 4,
+			"className": "奇械师",
+			"classSource": "XUA2025艾伯伦更新",
+			"level": 3,
+			"entries": [
+				"你获得一个你选择的奇械师子职。{@subclass 制图师|奇械师|XUA2025艾伯伦更新|XUA2025艾伯伦更新}子职在此职业描述之后详述。子职是一种专精，在特定奇械师等级授予你特性。在你的剩余职业生涯中，你获得你的子职中等于或低于你奇械师等级的所有特性。"
+			]
+		},
+		{
+			"ENG_name": "Magic Item Tinker",
+			"name": "魔法物品工艺师",
+			"source": "XUA2025EberronUpdates",
+			"page": 4,
+			"className": "奇械师",
+			"classSource": "XUA2025艾伯伦更新",
+			"level": 6,
+			"entries": [
+				"你的{@classFeature 仿制魔法物品|奇械师|XUA2025艾伯伦更新|2|XUA2025艾伯伦更新}特性获得以下选项。",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Charge Magic Item",
+							"name": "冲锋魔法物品",
+							"type": "entries",
+							"page": 4,
+							"entries": [
+								"作为{@variantrule 附赠动作|XPHB}，你可以接触你5尺内一个你通过{@classFeature 仿制魔法物品|奇械师|XUA2025艾伯伦更新|2|XUA2025艾伯伦更新}创造的且使用充能的魔法物品。你为该物品充能并消耗一个1环或更高的法术位。物品恢复的充能数值等于所消耗法术位的等级。"
+							]
+						},
+						{
+							"ENG_name": "Drain Magic Item",
+							"name": "吸取魔法物品",
+							"type": "entries",
+							"page": 4,
+							"entries": [
+								"作为{@variantrule 附赠动作|XPHB}，你可以接触你5尺内一个你用{@classFeature 仿制魔法物品|奇械师|XUA2025艾伯伦更新|2|XUA2025艾伯伦更新}创造的魔法物品并使其消失，将其魔法能量转化为一个法术位。如果该物品是普通则法术位为1环，如果该物品是非普通或珍稀则为2环。一旦你使用此特性，在完成一次{@variantrule 长休|XPHB}前不能再使用。你用此特性创造的任何法术位在你完成一次{@variantrule 长休|XPHB}时消失。"
+							]
+						},
+						{
+							"ENG_name": "Transmute Magic Item",
+							"name": "转化魔法物品",
+							"type": "entries",
+							"page": 5,
+							"entries": [
+								"以一个{@action 魔法|XPHB}动作，你可以接触一个你5尺内用{@classFeature 仿制魔法物品|奇械师|XUA2025艾伯伦更新|2|XUA2025艾伯伦更新}创造的魔法物品并将其转化为不同的魔法物品。转化后的物品必须基于你已知的魔法物品方案。一旦你使用此特性，在完成一次{@variantrule 长休|XPHB}前不能再次使用。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Magic Item Adept",
+			"name": "魔法物品熟稔",
+			"source": "XUA2025EberronUpdates",
+			"page": 5,
+			"className": "奇械师",
+			"classSource": "XUA2025艾伯伦更新",
+			"level": 10,
+			"entries": [
+				"你可以同时与最多四件魔法物品同调，而非三件。"
+			]
+		},
+		{
+			"ENG_name": "Spell-Storing Item",
+			"name": "储法物品",
+			"source": "XUA2025EberronUpdates",
+			"page": 5,
+			"className": "奇械师",
+			"classSource": "XUA2025艾伯伦更新",
+			"level": 11,
+			"entries": [
+				"每当你完成一次{@variantrule 长休|XPHB}时，你可以接触一件简易或军用武器，或一件你能用作{@variantrule 法器|XPHB}的物品，并在其中储存一个法术，选择一个{@filter 1环、2环或3环奇械师法术，其施法时间为一个动作且不需要会被法术消耗的材料成分|spells|source=|level=1;2;3|class=奇械师 (xua2025eu)|components & miscellaneous=!材质被消耗|cast time=动作}（你无需准备该法术）。",
+				"当持握该物件时，一个生物可以消耗动作来从中产生该法术的效果，使用你的施法属性调整值。如果该法术需要{@status 专注|XPHB}，该生物必须{@status 专注|XPHB|专注}。一旦一个生物使用该物件产生了该法术的效果，该物件直到该生物的下个回合开始前都不能再以此方式使用。",
+				"该法术会留在该物件中，直到它被使用的次数等于你智力调整值的两倍（最低为两次）或直到你再次使用此特性将一个法术储存在一个物件中。"
+			]
+		},
+		{
+			"ENG_name": "Magic Item Savant",
+			"name": "魔法物品专家",
+			"source": "XUA2025EberronUpdates",
+			"page": 5,
+			"className": "奇械师",
+			"classSource": "XUA2025艾伯伦更新",
+			"level": 14,
+			"entries": [
+				"你现在可以同时与最多五件魔法物品同调，而不是三件。"
+			]
+		},
+		{
+			"ENG_name": "Soul of Artifice",
+			"name": "奇械之魂",
+			"source": "XUA2025EberronUpdates",
+			"page": 5,
+			"className": "奇械师",
+			"classSource": "XUA2025艾伯伦更新",
+			"level": 20,
+			"entries": [
+				"你已与你的魔法物品建立了神秘连接，可以从中汲取援助。你获得以下好处：",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Cheat Death",
+							"name": "幸免于难",
+							"type": "entries",
+							"page": 5,
+							"entries": [
+								"如果你被减少到0{@variantrule 生命值|XPHB}但未被直接杀死，你可以解离任意数量由你的{@classFeature 仿制魔法物品|奇械师|XUA2025艾伯伦更新|2|XUA2025艾伯伦更新}特性创造的非普通或珍稀魔法物品。如果你这样做，你反而会下降到等于20乘以被解离魔法物品数量的{@variantrule 生命值|XPHB}。"
+							]
+						},
+						{
+							"ENG_name": "Magical Guidance",
+							"name": "魔法指引",
+							"type": "entries",
+							"page": 5,
+							"entries": [
+								"每当你使用你的{@classFeature 灵光一闪|奇械师|XUA2024Artificer|7|XUA2024Artificer}且受影响的属性检定或豁免检定仍然失败时，如果你至少与一件魔法物品{@variantrule 同调|XPHB|同调}，则该次{@classFeature 灵光一闪|奇械师|XUA2024Artificer|7|XUA2024Artificer}的使用不会被消耗。"
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"ENG_name": "Adventurer's Atlas",
+			"name": "冒险者的地图匣",
+			"source": "XUA2025EberronUpdates",
+			"page": 7,
+			"className": "奇械师",
+			"classSource": "XUA2025艾伯伦更新",
+			"subclassShortName": "制图师",
+			"subclassSource": "XUA2025艾伯伦更新",
+			"level": 3,
+			"entries": [
+				"每当你持用{@item 制图工具|XPHB}完成一次{@variantrule 长休|XPHB}时，你可以使用该工具通过接触至少两个生物（其中一个可以是你自己）来创建一套魔法地图，最多生物数量等于1加上你的智力调整值（最少两个生物）。每个目标获得一张魔法地图，该地图对所有其他人都无法辨认。这些地图持续到你死亡或你再次使用此特性为止，此时任何由该特性创建的现有地图会立即消失。",
+				"当携带该地图时，目标获得以下好处。",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Awareness",
+							"name": "警觉",
+							"type": "entries",
+							"page": 7,
+							"entries": [
+								"目标在其{@variantrule 先攻|XPHB}检定上增加{@dice 1d4}。"
+							]
+						},
+						{
+							"ENG_name": "Positioning",
+							"name": "定位",
+							"type": "entries",
+							"page": 7,
+							"entries": [
+								"目标知晓与其处于同一存在位面的所有其他地图持有者的位置。当施放一个需要能够看见目标的法术或创造一个需要能够看见目标的效果时，地图持有者可以无视视线以另一个地图持有者为目标，只要该地图持有者仍处于法术或效果的射程内。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Cartographer",
+			"name": "制图师",
+			"source": "XUA2025EberronUpdates",
+			"page": 6,
+			"className": "奇械师",
+			"classSource": "XUA2025艾伯伦更新",
+			"subclassShortName": "制图师",
+			"subclassSource": "XUA2025艾伯伦更新",
+			"level": 3,
+			"entries": [
+				"制图师是顶级的导航员和侦察代理人。使用他们的造物术，制图师可以高亮威胁、佑护他们的盟友，并开辟通往遥远地点的传送门。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "工具熟练项|奇械师|XUA2025艾伯伦更新|制图师|XUA2025艾伯伦更新|3|XUA2025艾伯伦更新"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "制图师法术|奇械师|XUA2025艾伯伦更新|制图师|XUA2025艾伯伦更新|3|XUA2025艾伯伦更新"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "冒险者的地图匣|奇械师|XUA2025艾伯伦更新|制图师|XUA2025艾伯伦更新|3|XUA2025艾伯伦更新"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "探查部件|奇械师|XUA2025艾伯伦更新|制图师|XUA2025艾伯伦更新|3|XUA2025艾伯伦更新"
+				}
+			]
+		},
+		{
+			"ENG_name": "Cartographer Spells",
+			"name": "制图师法术",
+			"source": "XUA2025EberronUpdates",
+			"page": 6,
+			"className": "奇械师",
+			"classSource": "XUA2025艾伯伦更新",
+			"subclassShortName": "制图师",
+			"subclassSource": "XUA2025艾伯伦更新",
+			"level": 3,
+			"entries": [
+				"当你达到{@table 制图师法术|XUA2025艾伯伦更新}表格中指定的奇械师等级时，你此后始终准备所列出的法术。",
+				{
+					"ENG_name": "Cartographer Spells",
+					"name": "制图师法术",
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2025EberronUpdates",
+					"page": 7
+				}
+			]
+		},
+		{
+			"ENG_name": "Scouting Gadgets",
+			"name": "探查部件",
+			"source": "XUA2025EberronUpdates",
+			"page": 7,
+			"className": "奇械师",
+			"classSource": "XUA2025艾伯伦更新",
+			"subclassShortName": "制图师",
+			"subclassSource": "XUA2025艾伯伦更新",
+			"level": 3,
+			"entries": [
+				"你获得以下增益。",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Boost",
+							"name": "强冲",
+							"type": "entries",
+							"page": 7,
+							"entries": [
+								"在你的回合，你可以消耗一半的移动力传送到你能看见的10尺内一个未占据空间。如果你的{@variantrule 速度|XPHB}为0，则不能使用此增益。"
+							]
+						},
+						{
+							"ENG_name": "Radar",
+							"name": "雷达",
+							"type": "entries",
+							"page": 7,
+							"entries": [
+								"你可以施放{@spell 妖火|XPHB}而不消耗法术位。你可以这样做的次数等于你的智力调整值（至少一次），并且你在完成一次长休后恢复所有已使用的次数。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Tool Proficiencies",
+			"name": "工具熟练项",
+			"source": "XUA2025EberronUpdates",
+			"page": 6,
+			"className": "奇械师",
+			"classSource": "XUA2025艾伯伦更新",
+			"subclassShortName": "制图师",
+			"subclassSource": "XUA2025艾伯伦更新",
+			"level": 3,
+			"entries": [
+				"你获得{@item 书法工具|XPHB}和{@item 制图工具|XPHB}的熟练项。如果你已经拥有其中一种熟练项，则获得一种你选择的其他类型的{@item 工匠工具|XPHB}的熟练项。此外，当你使用{@book 玩家手册中的手作规则|XPHB|6|抄录法术卷轴}抄写{@item 法术卷轴|XDMG}时，制造所需的时间减半。"
+			]
+		},
+		{
+			"ENG_name": "Portal Jump",
+			"name": "传送门跃",
+			"source": "XUA2025EberronUpdates",
+			"page": 7,
+			"className": "奇械师",
+			"classSource": "XUA2025艾伯伦更新",
+			"subclassShortName": "制图师",
+			"subclassSource": "XUA2025艾伯伦更新",
+			"level": 5,
+			"entries": [
+				"作为{@variantrule 附赠动作|XPHB}，你可以传送至多60尺至一个你能看见的未占据空间。",
+				"你可以使用此特性的次数等于你的智力调整值（至少一次）。当你完成一次{@variantrule 长休|XPHB}时，你恢复所有已消耗的使用次数。",
+				"你也可以在不消耗使用次数的情况下使用此能力，如果目的地空间位于携带你使用{@subclassFeature 冒险者的地图匣|奇械师|XUA2025艾伯伦更新|制图师|XUA2025艾伯伦更新|3|XUA2025艾伯伦更新}创建的地图的生物5尺内。这样做会摧毁该生物携带的地图。"
+			]
+		},
+		{
+			"ENG_name": "Ingenious Movement",
+			"name": "灵机一动",
+			"source": "XUA2025EberronUpdates",
+			"page": 7,
+			"className": "奇械师",
+			"classSource": "XUA2025艾伯伦更新",
+			"subclassShortName": "制图师",
+			"subclassSource": "XUA2025艾伯伦更新",
+			"level": 9,
+			"entries": [
+				"当你使用你的{@classFeature 灵光一闪|奇械师|XUA2024Artificer|7|XUA2024Artificer}时，你或一个你选择的30尺内你能看见的愿意生物可以传送至多30尺至一个你能看见的未占据空间，作为同一个{@variantrule 反应|XPHB}的一部分。"
+			]
+		},
+		{
+			"ENG_name": "Superior Atlas",
+			"name": "万能地图匣",
+			"source": "XUA2025EberronUpdates",
+			"page": 7,
+			"className": "奇械师",
+			"classSource": "XUA2025艾伯伦更新",
+			"subclassShortName": "制图师",
+			"subclassSource": "XUA2025艾伯伦更新",
+			"level": 15,
+			"entries": [
+				"你的{@subclassFeature 冒险者的地图匣|奇械师|XUA2025艾伯伦更新|制图师|XUA2025艾伯伦更新|3|XUA2025艾伯伦更新}得到提升，获得以下好处。",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Safe Haven",
+							"name": "安全归处",
+							"type": "entries",
+							"page": 7,
+							"entries": [
+								"当地图持有者被缩小到0{@variantrule 生命值|XPHB}但未被直接杀死时，该生物可以摧毁其地图。该生物随后被传送到你或它选择的另一个地图持有者5尺内的一个未占据空间，并且{@variantrule 伤势稳定|XPHB}。"
+							]
+						},
+						{
+							"ENG_name": "Unerring Path",
+							"name": "径路悉晓",
+							"type": "entries",
+							"page": 7,
+							"entries": [
+								"如果你是你{@subclassFeature 冒险者的地图匣|奇械师|XUA2025艾伯伦更新|制图师|XUA2025艾伯伦更新|3|XUA2025艾伯伦更新}的地图持有者之一，你可以施放{@spell 寻路术|XPHB}而无需消耗法术位、无需准备该法术且不需要法术成分。一旦你使用了此特性，在完成一次{@variantrule 长休|XPHB}前你不能再次使用它。"
+							]
+						},
+						{
+							"ENG_name": "Unshakable Mind",
+							"name": "不可动摇之心",
+							"type": "entries",
+							"page": 7,
+							"entries": [
+								"当至少一张由你的{@subclassFeature 冒险者的地图匣|奇械师|XUA2025艾伯伦更新|制图师|XUA2025艾伯伦更新|3|XUA2025艾伯伦更新}创建的地图仍然存在时，受到伤害不会导致你失去对奇械师法术的{@status 专注|XPHB}。"
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"foundrySubclassFeature": [
+		{
+			"ENG_name": "Tool Proficiencies",
+			"name": "工具熟练项",
+			"source": "XUA2025EberronUpdates",
+			"className": "奇械师",
+			"classSource": "XUA2025艾伯伦更新",
+			"subclassShortName": "制图师",
+			"subclassSource": "XUA2025艾伯伦更新",
+			"level": 3,
+			"entryData": {
+				"toolProficiencies": [
+					{
+						"calligrapher's supplies": true,
+						"cartographer's tools": true
+					},
+					{
+						"calligrapher's supplies": true,
+						"anyArtisansTool": 1
+					},
+					{
+						"cartographer's tools": true,
+						"anyArtisansTool": 1
+					}
+				]
+			}
+		}
+	],
+	"feat": [
+		{
+			"ENG_name": "Aberrant Dragonmark",
+			"name": "异种龙纹",
+			"source": "XUA2025EberronUpdates",
+			"page": 9,
+			"category": "D",
+			"prerequisite": [
+				{
+					"campaign": [
+						"艾伯伦"
+					],
+					"otherSummary": {
+						"entry": "无法拥有另一个龙纹专长",
+						"entrySummary": "一个龙纹"
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "con",
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=术士"
+							}
+						]
+					},
+					"prepared": {
+						"_": {
+							"rest": {
+								"1": [
+									{
+										"choose": "level=1|class=术士"
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"你获得以下增益。",
+				{
+					"ENG_name": "Aberrant Fortitude",
+					"name": "异种坚韧",
+					"type": "entries",
+					"entries": [
+						"当你进行体质豁免检定时，你可以掷{@dice 1d4}并将骰出的数值添加到豁免检定中。你可以使用此增益的次数等于你的{@variantrule 熟练|XPHB|熟练加值}，并在完成一次{@variantrule 长休|XPHB}后恢复所有已使用的次数。"
+					]
+				},
+				{
+					"ENG_name": "Aberrant Magic",
+					"name": "异种魔法",
+					"type": "entries",
+					"entries": [
+						"你从术士法术列表中选择知晓一个{@filter 从术士法术列表中选择的戏法|spells|source=|level=0|class=术士|components & miscellaneous=}。此外，从该法术列表中选择{@filter 该法术列表中的一个1环法术|spells|source=|level=1|class=术士|components & miscellaneous=}。你总是准备着该法术。你可以无需法术位施放该法术一次，并在完成一次{@variantrule 短休|XPHB|短}或{@variantrule 长休|XPHB}后恢复以此方式施放该法术的能力。你也可以使用你拥有的任何法术位来施放该法术。体质是你施放该法术的施法属性。"
+					]
+				},
+				{
+					"ENG_name": "Aberrant Surge",
+					"name": "异种浪涌",
+					"type": "entries",
+					"entries": [
+						"当你施放此专长的1环法术时，你可以消耗一个你的{@variantrule 生命值骰|XPHB}并掷骰。如果你掷出偶数，你获得等于掷骰数值的{@variantrule 临时生命值|XPHB}。如果你掷出奇数，你30尺内的一个生物（不包括你）受到等于掷骰数值的力场伤害。如果射程内没有其他生物，你受到该伤害。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Boon of Siberys",
+			"name": "西伯瑞斯之恩惠",
+			"source": "XUA2025EberronUpdates",
+			"page": 15,
+			"category": "EB",
+			"prerequisite": [
+				{
+					"level": 19,
+					"campaign": [
+						"艾伯伦"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"max": 30
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"prepared": {
+						"_": {
+							"rest": {
+								"1e": [
+									{
+										"choose": {
+											"from": [
+												"真知术|XPHB",
+												"传送术|XPHB",
+												"动物形态|XPHB",
+												"再生术|XPHB",
+												"英雄宴|XPHB",
+												"半位面|XPHB",
+												"位面转移|XPHB",
+												"徽记术|XPHB",
+												"心灵屏障|XPHB",
+												"投影术|XPHB",
+												"操控天气|XPHB",
+												"迷宫术|XPHB"
+											]
+										}
+									},
+									{
+										"choose": "class=术士",
+										"count": 1
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"你获得以下增益。",
+				{
+					"ENG_name": "Aberrant Magic",
+					"name": "异种魔法",
+					"type": "entries",
+					"entries": [
+						"从术士法术列表中选择{@filter 一个来自术士法术列表的任意等级法术|spells|source=|class=术士|components & miscellaneous=}或从西伯瑞斯龙纹表中选择一个法术。你总是准备着该法术。你可以无需法术位施放它一次，并在完成一次{@variantrule 短休|XPHB|短}或{@variantrule 长休|XPHB}后恢复以此方式施放它的能力。你也可以使用你拥有的任何法术位来施放这个法术。智力、感知或魅力是你施放该法术的施法属性（在获得此专长时选择）。",
+						{
+							"type": "table",
+							"caption": "西伯瑞斯龙纹",
+							"page": 15,
+							"colLabels": [
+								"龙纹",
+								"法术"
+							],
+							"colStyles": [
+								"col-4",
+								"col-8"
+							],
+							"rows": [
+								[
+									"{@feat 侦测龙纹|XUA2025艾伯伦更新|侦测}",
+									"{@spell 真知术|XPHB}"
+								],
+								[
+									"{@feat 探索龙纹|XUA2025艾伯伦更新|发现}",
+									"{@spell 传送术|XPHB}"
+								],
+								[
+									"{@feat 畜牧龙纹|XUA2025艾伯伦更新|操控}",
+									"{@spell 动物形态|XPHB}"
+								],
+								[
+									"{@feat 医疗龙纹|XUA2025艾伯伦更新|治疗}",
+									"{@spell 再生术|XPHB}"
+								],
+								[
+									"{@feat 招待龙纹|XUA2025艾伯伦更新|好客}",
+									"{@spell 英雄宴|XPHB}"
+								],
+								[
+									"{@feat 创造龙纹|XUA2025艾伯伦更新|创造}",
+									"{@spell 半位面|XPHB}"
+								],
+								[
+									"{@feat 通行龙纹|XUA2025艾伯伦更新|通行}",
+									"{@spell 位面转移|XPHB}"
+								],
+								[
+									"{@feat 抄录龙纹|XUA2025艾伯伦更新|抄写}",
+									"{@spell 徽记术|XPHB}"
+								],
+								[
+									"{@feat 守护龙纹|XUA2025艾伯伦更新|哨兵}",
+									"{@spell 心灵屏障|XPHB}"
+								],
+								[
+									"{@feat 阴影龙纹|XUA2025艾伯伦更新|幽影}",
+									"{@spell 投影术|XPHB}"
+								],
+								[
+									"{@feat 暴风龙纹|XUA2025艾伯伦更新|风暴}",
+									"{@spell 操控天气|XPHB}"
+								],
+								[
+									"{@feat 警戒龙纹|XUA2025艾伯伦更新|守卫}",
+									"{@spell 迷宫术|XPHB}"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Greater Aberrant Mark",
+			"name": "高等异种纹",
+			"source": "XUA2025EberronUpdates",
+			"page": 13,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"异种龙纹|XUA2025艾伯伦更新"
+					]
+				}
+			],
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"entries": [
+				"你获得以下增益。",
+				{
+					"ENG_name": "Improved Intuition",
+					"name": "直觉锐化",
+					"type": "entries",
+					"entries": [
+						"当你使用你的{@feat 异种龙纹|XUA2025艾伯伦更新}专长的异种坚定增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
+					]
+				},
+				{
+					"ENG_name": "Mark of Inspiration",
+					"name": "灵感之纹",
+					"type": "entries",
+					"entries": [
+						"当你施放一个戏法时，你可以消耗一个你的{@variantrule 生命值骰|XPHB}并掷骰。你获得等同于掷骰数值的{@variantrule 临时生命值|XPHB}，并且你选择的30尺内一个生物（不包括你自己）受到等同于掷骰数值的力场伤害。",
+						"你可以使用此增益的次数等于你的体质调整值（至少一次），并且你在完成一次{@variantrule 长休|XPHB}后恢复所有已消耗的使用次数。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Greater Mark of Detection",
+			"name": "高等侦测之纹",
+			"source": "XUA2025EberronUpdates",
+			"page": 13,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"侦测龙纹|XUA2025艾伯伦更新"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你获得以下增益。",
+				{
+					"ENG_name": "Improved Intuition",
+					"name": "直觉锐化",
+					"type": "entries",
+					"entries": [
+						"当你使用你的{@feat 侦测龙纹|XUA2025艾伯伦更新}专长的推理直觉增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
+					]
+				},
+				{
+					"ENG_name": "Improved Detection",
+					"name": "广域侦测",
+					"type": "entries",
+					"entries": [
+						"当你施放{@spell 识破隐形|XPHB|识破隐形}时，你可以修改它使得在法术的持续时间内，你在{@variantrule 优势|XPHB}掷骰上具有{@variantrule 先攻|XPHB}，并且在距离你30尺内掷{@variantrule 先攻|XPHB}的敌人无法在掷骰中获得{@variantrule 优势|XPHB}。一旦你使用此增益修改了法术，直到你完成一次{@variantrule 长休|XPHB}前，你无法再次这样做。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Greater Mark of Finding",
+			"name": "高等探索之纹",
+			"source": "XUA2025EberronUpdates",
+			"page": 13,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"探索龙纹|XUA2025艾伯伦更新"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你获得以下增益。",
+				{
+					"ENG_name": "Improved Intuition",
+					"name": "直觉锐化",
+					"type": "entries",
+					"entries": [
+						"当你使用你的{@feat 探索龙纹|XUA2025艾伯伦更新}专长的猎人直觉增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
+					]
+				},
+				{
+					"ENG_name": "Improved Finding",
+					"name": "深度探索",
+					"type": "entries",
+					"entries": [
+						"当你施放{@spell 猎人印记|XPHB}时，你可以调整该法术使得目标在法术的持续时间内无法从{@condition 隐形|XPHB}状态中获益。一旦你通过此增益调整了该法术，直到你完成一次{@variantrule 长休|XPHB}前，你无法再次这样做。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Greater Mark of Handling",
+			"name": "高等畜牧之纹",
+			"source": "XUA2025EberronUpdates",
+			"page": 13,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"畜牧龙纹|XUA2025艾伯伦更新"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你获得以下增益。",
+				{
+					"ENG_name": "Improved Intuition",
+					"name": "直觉锐化",
+					"type": "entries",
+					"entries": [
+						"当你使用你的{@feat 畜牧龙纹|XUA2025艾伯伦更新}专长的野性直觉增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
+					]
+				},
+				{
+					"ENG_name": "Improved Handling",
+					"name": "万畜牧首",
+					"type": "entries",
+					"entries": [
+						"骑乘时，在你用近战攻击掷骰命中你乘骑5尺内的目标后，你的乘骑可以立即采取一个{@variantrule 反应|XPHB}来移动至多其{@variantrule 速度|XPHB}或采取{@action 攻击|XPHB}动作仅进行一次攻击（由你选择）。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Greater Mark of Healing",
+			"name": "高等医疗之纹",
+			"source": "XUA2025EberronUpdates",
+			"page": 14,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"医疗龙纹|XUA2025艾伯伦更新"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你获得以下增益。",
+				{
+					"ENG_name": "Improved Intuition",
+					"name": "直觉锐化",
+					"type": "entries",
+					"entries": [
+						"当你使用你的{@feat 医疗龙纹|XPHB}专长的医疗直觉增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
+					]
+				},
+				{
+					"ENG_name": "Improved Healing",
+					"name": "医疗妙手",
+					"type": "entries",
+					"entries": [
+						"当你施放{@spell 疗伤术|XPHB}并掷骰子以确定恢复的{@variantrule 生命值|XPHB}数值时，你可以将掷骰结果中的任何1或2视为3。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Greater Mark of Hospitality",
+			"name": "高等招待之纹",
+			"source": "XUA2025EberronUpdates",
+			"page": 14,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"招待龙纹|XUA2025艾伯伦更新"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你获得以下增益。",
+				{
+					"ENG_name": "Improved Intuition",
+					"name": "直觉锐化",
+					"type": "entries",
+					"entries": [
+						"当你使用你的{@feat 招待龙纹|XUA2025艾伯伦更新}专长的永恒款待增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
+					]
+				},
+				{
+					"ENG_name": "Inspired Hospitality",
+					"name": "宾至如归",
+					"type": "entries",
+					"entries": [
+						"当你施放{@spell 净化饮食|XPHB}时，你可以修改该法术，使你30尺内每个你选择的生物被魔法刷新。每个受影响生物的{@condition 力竭|XPHB}等级缩小1级，并且该生物获得等于你的{@variantrule 临时生命值|XPHB}加上你的智力、魅力或感知调整值（在你选择此专长时选择）的{@variantrule 熟练|XPHB|熟练加值}。一旦你使用此增益修改法术，直到你完成一次{@variantrule 长休|XPHB}前不能再这样做。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Greater Mark of Making",
+			"name": "高等创造之纹",
+			"source": "XUA2025EberronUpdates",
+			"page": 14,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"创造龙纹|XUA2025艾伯伦更新"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你获得以下增益。",
+				{
+					"ENG_name": "Improved Intuition",
+					"name": "直觉锐化",
+					"type": "entries",
+					"entries": [
+						"当你使用你的{@feat 创造龙纹|XUA2025艾伯伦更新}专长的工匠直觉增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
+					]
+				},
+				{
+					"ENG_name": "Improved Making",
+					"name": "鬼斧神造",
+					"type": "entries",
+					"entries": [
+						"当你施放{@spell 魔化武器|XPHB}时，你可以调整该法术，使得在你每个回合中第一次使用该武器攻击时，你可以将武器的部分或全部加值转移到你的{@variantrule 护甲等级|XPHB}上。例如，如果加值为+2，你可以将攻击检定和伤害掷骰的加值降低至+1，并获得+1的{@variantrule 护甲等级|XPHB}加值。调整后的加值持续到你下个回合开始，尽管你必须持有该武器才能从中获得AC加值。一旦你使用此增益调整了该法术，直到你完成一次{@variantrule 长休|XPHB}前，你不能再这样做。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Greater Mark of Passage",
+			"name": "高等通行之纹",
+			"source": "XUA2025EberronUpdates",
+			"page": 14,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"通行龙纹|XUA2025艾伯伦更新"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你获得以下增益。",
+				{
+					"ENG_name": "Improved Intuition",
+					"name": "直觉锐化",
+					"type": "entries",
+					"entries": [
+						"当你使用你的{@feat 通行龙纹|XUA2025艾伯伦更新}专长的直觉行动增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
+					]
+				},
+				{
+					"ENG_name": "Inspired Passage",
+					"name": "比翼生花",
+					"type": "entries",
+					"entries": [
+						"当你施放{@spell 迷踪步|XPHB}时，你可以调整该法术，使你能够携带一个你正接触的愿意生物与你同行。该生物传送到你目的地空间5尺内一个你选择的未占据空间。一旦你通过此增益调整了该法术，直到你完成一次{@variantrule 长休|XPHB}前，你无法再次这样做。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Greater Mark of Scribing",
+			"name": "高等抄录之纹",
+			"source": "XUA2025EberronUpdates",
+			"page": 14,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"抄录龙纹|XUA2025艾伯伦更新"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你获得以下增益。",
+				{
+					"ENG_name": "Improved Intuition",
+					"name": "直觉锐化",
+					"type": "entries",
+					"entries": [
+						"当你使用你的{@feat 抄录龙纹|XUA2025艾伯伦更新}专长的天才文员增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
+					]
+				},
+				{
+					"ENG_name": "Inspired Scribing",
+					"name": "章天录地",
+					"type": "entries",
+					"entries": [
+						"当你施放{@spell 通晓语言|XPHB}时，你可以修改该法术以在你自身30尺内能看见的一个生物上方空气中出现一个印记，该印记持续至法术的持续时间结束。当印记存在时，该生物30尺内的你的敌人必须每向该生物移动1尺就消耗2尺的移动力。如果该生物进行攻击检定、施放法术或造成伤害，印记就会消失。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Greater Mark of Sentinel",
+			"name": "高等守护之纹",
+			"source": "XUA2025EberronUpdates",
+			"page": 14,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"守护龙纹|XUA2025艾伯伦更新"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你获得以下增益。",
+				{
+					"ENG_name": "Improved Intuition",
+					"name": "直觉锐化",
+					"type": "entries",
+					"entries": [
+						"当你使用你的{@feat 守护龙纹|XUA2025艾伯伦更新}专长的守卫直觉增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
+					]
+				},
+				{
+					"ENG_name": "Improved Sentinel",
+					"name": "遥不可及",
+					"type": "entries",
+					"entries": [
+						"当你施放{@spell 护盾术|XPHB}时，你可以修改该法术使其魔法性地标记一个你30尺内能看见的生物，直到其下一回合结束。被标记时，目标必须花费2尺移动力来移动每1尺远离你。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Greater Mark of Shadow",
+			"name": "高等阴影之纹",
+			"source": "XUA2025EberronUpdates",
+			"page": 15,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"阴影龙纹|XUA2025艾伯伦更新"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你获得以下增益。",
+				{
+					"ENG_name": "Improved Intuition",
+					"name": "直觉锐化",
+					"type": "entries",
+					"entries": [
+						"当你使用你的{@feat 阴影龙纹|XUA2025艾伯伦更新}专长的狡诈直觉增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
+					]
+				},
+				{
+					"ENG_name": "Improved Shadow",
+					"name": "幽邃匿影",
+					"type": "entries",
+					"entries": [
+						"当你对自己施放{@spell 隐形术|XPHB}时，你可以修改该法术，使其同时影响你5尺内一个愿意的生物。受影响生物在进行攻击检定、造成伤害或施放法术后，{@condition 隐形|XPHB}状态立即结束。一旦你使用此增益修改了该法术，直到你完成{@variantrule 长休|XPHB}前，你无法再次这样做。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Greater Mark of Storm",
+			"name": "高等风暴之纹",
+			"source": "XUA2025EberronUpdates",
+			"page": 15,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"暴风龙纹|XUA2025艾伯伦更新"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你获得以下增益。",
+				{
+					"ENG_name": "Improved Intuition",
+					"name": "直觉锐化",
+					"type": "entries",
+					"entries": [
+						"当你使用你的{@feat 暴风龙纹|XUA2025艾伯伦更新}专长的驭风者直觉增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
+					]
+				},
+				{
+					"ENG_name": "Improved Storm",
+					"name": "长风化翼",
+					"type": "entries",
+					"entries": [
+						"当你施放{@spell 造风术|XPHB}时，你可以修改该法术，使你在法术持续时间内获得等于你{@variantrule 飞行速度|XPHB}一半（向下取整）的{@variantrule 速度|XPHB}。一旦你使用此增益修改了该法术，直到你完成一次{@variantrule 长休|XPHB}前，你无法再次这样做。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Greater Mark of Warding",
+			"name": "高等警戒之纹",
+			"source": "XUA2025EberronUpdates",
+			"page": 15,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"警戒龙纹|XUA2025艾伯伦更新"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你获得以下增益。",
+				{
+					"ENG_name": "Improved Intuition",
+					"name": "直觉锐化",
+					"type": "entries",
+					"entries": [
+						"当你使用你的{@feat 警戒龙纹|XUA2025艾伯伦更新}专长的守卫直觉增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
+					]
+				},
+				{
+					"ENG_name": "Improved Warding",
+					"name": "警心涤虑",
+					"type": "entries",
+					"entries": [
+						"当你对自己施放{@spell 法师护甲|XPHB}时，你可以修改该法术以同时影响一个你30尺内能看见的愿意生物。一旦你使用此增益修改了法术，直到你完成一次{@variantrule 长休|XPHB}前你不能再这样做。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Mark of Detection",
+			"name": "侦测龙纹",
+			"source": "XUA2025EberronUpdates",
+			"page": 9,
+			"category": "D",
+			"prerequisite": [
+				{
+					"campaign": [
+						"艾伯伦"
+					],
+					"otherSummary": {
+						"entry": "无法拥有另一个龙纹专长",
+						"entrySummary": "一个龙纹"
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"prepared": {
+						"3": {
+							"daily": {
+								"1e": [
+									"识破隐形|XPHB"
+								]
+							}
+						},
+						"_": {
+							"daily": {
+								"1e": [
+									"侦测魔法|XPHB",
+									"侦测毒性和疾病|XPHB"
+								]
+							}
+						}
+					},
+					"expanded": {
+						"s1": [
+							"侦测善恶|XPHB",
+							"鉴定术|XPHB"
+						],
+						"s2": [
+							"侦测思想|XPHB",
+							"寻找陷阱|XPHB"
+						],
+						"s3": [
+							"鹰眼术|XPHB",
+							"回避侦测|XPHB"
+						],
+						"s4": [
+							"秘法眼|XPHB",
+							"预言术|XPHB"
+						],
+						"s5": [
+							"通晓传奇|XPHB"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你获得以下增益。",
+				{
+					"ENG_name": "Deductive Intuition",
+					"name": "推理直觉",
+					"type": "entries",
+					"entries": [
+						"当你进行一次感知（{@skill 洞悉|XPHB}或{@skill 察觉|XPHB}）检定时，你可以投掷{@dice 1d4}并将掷骰结果添加到该属性检定中。"
+					]
+				},
+				{
+					"ENG_name": "Magical Detection",
+					"name": "魔法侦测",
+					"type": "entries",
+					"entries": [
+						"你总是准备了{@spell 侦测魔法|XPHB}和{@spell 侦测毒性和疾病|XPHB}法术。你可以无需法术位施放每个法术一次，并在完成一次{@variantrule 长休|XPHB}后恢复以此方式施放它的能力。你也可以使用你拥有的任何法术位来施放这些法术。智力、感知或魅力是这些法术的施法属性（在选择此专长时选择）。",
+						"当你达到角色等级3时，你还总是准备了{@spell 识破隐形|XPHB}法术并能以同样的方式施放它。"
+					]
+				},
+				{
+					"ENG_name": "Spells of the Mark",
+					"name": "龙纹法术",
+					"type": "entries",
+					"entries": [
+						"如果你拥有施法或契约魔法特性，侦测龙纹法术列表中的法术将被添加到该特性的法术列表中。",
+						{
+							"type": "table",
+							"caption": "侦测龙纹法术",
+							"page": 10,
+							"colLabels": [
+								"法术环阶",
+								"法术"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"1",
+									"{@spell 侦测善恶|XPHB}, {@spell 鉴定术|XPHB}"
+								],
+								[
+									"2",
+									"{@spell 侦测思想|XPHB}, {@spell 寻找陷阱|XPHB}"
+								],
+								[
+									"3",
+									"{@spell 鹰眼术|XPHB}, {@spell 回避侦测|XPHB}"
+								],
+								[
+									"4",
+									"{@spell 秘法眼|XPHB}, {@spell 预言术|XPHB}"
+								],
+								[
+									"5",
+									"{@spell 通晓传奇|XPHB}"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Mark of Finding",
+			"name": "探索龙纹",
+			"source": "XUA2025EberronUpdates",
+			"page": 10,
+			"category": "D",
+			"prerequisite": [
+				{
+					"campaign": [
+						"艾伯伦"
+					],
+					"otherSummary": {
+						"entry": "无法拥有另一个龙纹专长",
+						"entrySummary": "一个龙纹"
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"prepared": {
+						"3": {
+							"daily": {
+								"1e": [
+									"物件定位术|XPHB"
+								]
+							}
+						},
+						"_": {
+							"daily": {
+								"1e": [
+									"猎人印记|XPHB"
+								]
+							}
+						}
+					},
+					"expanded": {
+						"s1": [
+							"妖火|XPHB",
+							"大步奔行|XPHB"
+						],
+						"s2": [
+							"动植物定位术|XPHB",
+							"心灵尖刺|XPHB"
+						],
+						"s3": [
+							"鹰眼术|XPHB",
+							"植物交谈|XPHB"
+						],
+						"s4": [
+							"预言术|XPHB",
+							"生物定位术|XPHB"
+						],
+						"s5": [
+							"问道自然|XPHB"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你获得以下增益。",
+				{
+					"ENG_name": "Hunter's Intuition",
+					"name": "猎人直觉",
+					"type": "entries",
+					"entries": [
+						"当你进行一次感知（{@skill 察觉|XPHB}或{@skill 求生|XPHB}）检定时，你可以投掷{@dice 1d4}并将骰出的数值添加到该属性检定中。"
+					]
+				},
+				{
+					"ENG_name": "Finder's Magic",
+					"name": "寻者魔法",
+					"type": "entries",
+					"entries": [
+						"你总是准备了{@spell 猎人印记|XPHB}法术。你可以无需法术位施放该法术一次，并且当你完成一次{@variantrule 长休|XPHB}后恢复以此方式施放它的能力。你也可以使用你拥有的任何法术位来施放它。智力、感知或魅力是这些法术的施法属性（在选择此专长时选择）。",
+						"当你达到角色等级3时，你还总是准备了{@spell 物件定位术|XPHB}法术并能以同样的方式施放它。"
+					]
+				},
+				{
+					"ENG_name": "Spells of the Mark",
+					"name": "龙纹法术",
+					"type": "entries",
+					"entries": [
+						"如果你拥有施法或契约魔法特性，探索龙纹法术列表中的法术将被添加到该特性的法术列表中。",
+						{
+							"type": "table",
+							"caption": "探索龙纹法术",
+							"page": 10,
+							"colLabels": [
+								"法术环阶",
+								"法术"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"1",
+									"{@spell 妖火|XPHB}, {@spell 大步奔行|XPHB}"
+								],
+								[
+									"2",
+									"{@spell 动植物定位术|XPHB}, {@spell 心灵尖刺|XPHB}"
+								],
+								[
+									"3",
+									"{@spell 鹰眼术|XPHB}, {@spell 植物交谈|XPHB}"
+								],
+								[
+									"4",
+									"{@spell 预言术|XPHB}, {@spell 生物定位术|XPHB}"
+								],
+								[
+									"5",
+									"{@spell 问道自然|XPHB}"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Mark of Handling",
+			"name": "畜牧龙纹",
+			"source": "XUA2025EberronUpdates",
+			"page": 10,
+			"category": "D",
+			"prerequisite": [
+				{
+					"campaign": [
+						"艾伯伦"
+					],
+					"otherSummary": {
+						"entry": "无法拥有另一个龙纹专长",
+						"entrySummary": "一个龙纹"
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"prepared": {
+						"_": {
+							"daily": {
+								"1e": [
+									"化兽为友|XPHB",
+									"动物交谈|XPHB"
+								]
+							}
+						}
+					},
+					"expanded": {
+						"s1": [
+							"命令术|XPHB",
+							"寻获魔宠|XPHB"
+						],
+						"s2": [
+							"野兽感官|XPHB",
+							"安定心神|XPHB"
+						],
+						"s3": [
+							"希望信标|XPHB",
+							"咒唤兽群|XPHB"
+						],
+						"s4": [
+							"生命灵光|XPHB",
+							"支配野兽|XPHB"
+						],
+						"s5": [
+							"启蒙术|XPHB"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你获得以下增益。",
+				{
+					"ENG_name": "Wild Intuition",
+					"name": "野性直觉",
+					"type": "entries",
+					"entries": [
+						"当你进行一次智力（{@skill 自然|XPHB}）或感知（{@skill 驯兽|XPHB}）检定时，你可以投掷{@dice 1d4}并将掷出的数值添加到该属性检定中。"
+					]
+				},
+				{
+					"ENG_name": "Primal Connection",
+					"name": "原初联结",
+					"type": "entries",
+					"entries": [
+						"你总是已准备{@spell 化兽为友|XPHB}和{@spell 动物交谈|XPHB}法术。你可以无需法术位施放每个法术一次，并在完成一次{@variantrule 长休|XPHB}后恢复以此方式施放该法术的能力。你也可以使用你拥有的任何法术位来施放这些法术。智力、感知或魅力是这些法术的施法属性（在选择此专长时选择）。"
+					]
+				},
+				{
+					"ENG_name": "The Bigger They Are",
+					"name": "大点而已",
+					"type": "entries",
+					"entries": [
+						"当你达到角色等级3时，若生物的智力值为3或更低，你可以在施放{@spell 化兽为友|XPHB}或{@spell 动物交谈|XPHB}时以怪兽为目标。"
+					]
+				},
+				{
+					"ENG_name": "Spells of the Mark",
+					"name": "龙纹法术",
+					"type": "entries",
+					"entries": [
+						"如果你拥有施法或契约魔法特性，畜牧龙纹法术列表中的法术将被添加到该特性的法术列表中。",
+						{
+							"type": "table",
+							"caption": "畜牧龙纹法术",
+							"page": 10,
+							"colLabels": [
+								"法术环阶",
+								"法术"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"1",
+									"{@spell 命令术|XPHB}, {@spell 寻获魔宠|XPHB}"
+								],
+								[
+									"2",
+									"{@spell 野兽感官|XPHB}, {@spell 安定心神|XPHB}"
+								],
+								[
+									"3",
+									"{@spell 希望信标|XPHB}, {@spell 咒唤兽群|XPHB}"
+								],
+								[
+									"4",
+									"{@spell 生命灵光|XPHB}, {@spell 支配野兽|XPHB}"
+								],
+								[
+									"5",
+									"{@spell 启蒙术|XPHB}"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Mark of Healing",
+			"name": "医疗龙纹",
+			"source": "XUA2025EberronUpdates",
+			"page": 10,
+			"category": "D",
+			"prerequisite": [
+				{
+					"campaign": [
+						"艾伯伦"
+					],
+					"otherSummary": {
+						"entry": "无法拥有另一个龙纹专长",
+						"entrySummary": "一个龙纹"
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"prepared": {
+						"3": {
+							"daily": {
+								"1e": [
+									"次级复原术|XPHB"
+								]
+							}
+						},
+						"_": {
+							"daily": {
+								"1e": [
+									"疗伤术|XPHB"
+								]
+							}
+						}
+					},
+					"expanded": {
+						"s1": [
+							"虚假生命|XPHB",
+							"治愈真言|XPHB"
+						],
+						"s2": [
+							"复苏秘法|XPHB",
+							"治疗祷言|XPHB"
+						],
+						"s3": [
+							"活力灵光|XPHB",
+							"群体治愈真言|XPHB"
+						],
+						"s4": [
+							"生命灵光|XPHB",
+							"净化灵光|XPHB"
+						],
+						"s5": [
+							"高等复原术|XPHB"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你获得以下增益。",
+				{
+					"ENG_name": "Medical Intuition",
+					"name": "医疗直觉",
+					"type": "entries",
+					"entries": [
+						"当你进行智力（{@item 草药工具|XPHB}）或感知（{@skill 医药|XPHB}）检定时，你可以掷{@dice 1d4}并将掷骰结果添加到属性检定中。"
+					]
+				},
+				{
+					"ENG_name": "Healing Touch",
+					"name": "治愈之触",
+					"type": "entries",
+					"entries": [
+						"你总是准备了{@spell 疗伤术|XPHB}法术。你可以无需法术位施放该法术一次，并且当你完成一次{@variantrule 长休|XPHB}后恢复以此方式施放该法术的能力。你也可以使用你拥有的任何法术位来施放它。智力、感知或魅力是这些法术的施法属性（在选择此专长时选择）。",
+						"当你达到角色等级3时，你还总是准备了{@spell 次级复原术|XPHB}法术并能以同样的方式施放它。"
+					]
+				},
+				{
+					"ENG_name": "Spells of the Mark",
+					"name": "龙纹法术",
+					"type": "entries",
+					"entries": [
+						"如果你拥有施法或契约魔法特性，医疗龙纹法术列表中的法术将被添加到该特性的法术列表中。",
+						{
+							"type": "table",
+							"caption": "医疗龙纹法术",
+							"page": 10,
+							"colLabels": [
+								"法术环阶",
+								"法术"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"1",
+									"{@spell 虚假生命|XPHB}, {@spell 治愈真言|XPHB}"
+								],
+								[
+									"2",
+									"{@spell 复苏秘法|XPHB}, {@spell 治疗祷言|XPHB}"
+								],
+								[
+									"3",
+									"{@spell 活力灵光|XPHB}, {@spell 群体治愈真言|XPHB}"
+								],
+								[
+									"4",
+									"{@spell 生命灵光|XPHB}, {@spell 净化灵光|XPHB}"
+								],
+								[
+									"5",
+									"{@spell 高等复原术|XPHB}"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Mark of Hospitality",
+			"name": "招待龙纹",
+			"source": "XUA2025EberronUpdates",
+			"page": 11,
+			"category": "D",
+			"prerequisite": [
+				{
+					"campaign": [
+						"艾伯伦"
+					],
+					"otherSummary": {
+						"entry": "无法拥有另一个龙纹专长",
+						"entrySummary": "一个龙纹"
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							"魔法伎俩|XPHB#c"
+						]
+					},
+					"prepared": {
+						"_": {
+							"daily": {
+								"1e": [
+									"净化饮食|XPHB",
+									"隐形仆役|XPHB"
+								]
+							}
+						}
+					},
+					"expanded": {
+						"s1": [
+							"神莓术|XPHB",
+							"睡眠术|XPHB"
+						],
+						"s2": [
+							"援助术|XPHB",
+							"安定心神|XPHB"
+						],
+						"s3": [
+							"造粮术|XPHB",
+							"李欧蒙小屋|XPHB"
+						],
+						"s4": [
+							"净化灵光|XPHB",
+							"魔邓肯私人密室|XPHB"
+						],
+						"s5": [
+							"圣居|XPHB"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你获得以下增益。",
+				{
+					"ENG_name": "Ever Hospitable",
+					"name": "永恒款待",
+					"type": "entries",
+					"entries": [
+						"当你进行一次魅力（{@skill 游说|XPHB}）检定或使用{@item 酿酒工具|XPHB}或{@item 厨师工具|XPHB}进行属性检定时，你可以掷{@dice 1d4}并将掷骰结果添加到属性检定中。"
+					]
+				},
+				{
+					"ENG_name": "Innkeeper's Magic",
+					"name": "掌柜魔法",
+					"type": "entries",
+					"entries": [
+						"你知晓{@spell 魔法伎俩|XPHB}戏法。你还总是准备了{@spell 净化饮食|XPHB}和{@spell 隐形仆役|XPHB}法术。你可以无需法术位施放每个法术一次，并在完成一次{@variantrule 长休|XPHB}后恢复以此方式施放它的能力。你还可以使用你拥有的任何法术位施放这些法术。智力、感知或魅力是这些法术的施法属性（在选择此专长时选择）。"
+					]
+				},
+				{
+					"ENG_name": "Spells of the Mark",
+					"name": "龙纹法术",
+					"type": "entries",
+					"entries": [
+						"如果你拥有施法或契约魔法特性，招待龙纹法术列表中的法术将被添加到该特性的法术列表中。",
+						{
+							"type": "table",
+							"caption": "招待龙纹法术",
+							"page": 11,
+							"colLabels": [
+								"法术环阶",
+								"法术"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"1",
+									"{@spell 神莓术|XPHB}, {@spell 睡眠术|XPHB}"
+								],
+								[
+									"2",
+									"{@spell 援助术|XPHB}, {@spell 安定心神|XPHB}"
+								],
+								[
+									"3",
+									"{@spell 造粮术|XPHB}, {@spell 李欧蒙小屋|XPHB}"
+								],
+								[
+									"4",
+									"{@spell 净化灵光|XPHB}, {@spell 魔邓肯私人密室|XPHB}"
+								],
+								[
+									"5",
+									"{@spell 圣居|XPHB}"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Mark of Making",
+			"name": "创造龙纹",
+			"source": "XUA2025EberronUpdates",
+			"page": 11,
+			"category": "D",
+			"prerequisite": [
+				{
+					"campaign": [
+						"艾伯伦"
+					],
+					"otherSummary": {
+						"entry": "无法拥有另一个龙纹专长",
+						"entrySummary": "一个龙纹"
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							"修复术|XPHB#c"
+						]
+					},
+					"prepared": {
+						"_": {
+							"daily": {
+								"1e": [
+									"魔化武器|XPHB"
+								]
+							}
+						}
+					},
+					"expanded": {
+						"s1": [
+							"鉴定术|XPHB",
+							"谭森浮碟术|XPHB"
+						],
+						"s2": [
+							"不灭明焰|XPHB",
+							"灵体武器|XPHB"
+						],
+						"s3": [
+							"箭如雨下|XPHB",
+							"元素武器|XPHB"
+						],
+						"s4": [
+							"鬼斧神工|XPHB",
+							"塑石术|XPHB"
+						],
+						"s5": [
+							"造物术|XPHB"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你获得以下增益。",
+				{
+					"ENG_name": "Artisan's Intuition",
+					"name": "工匠直觉",
+					"type": "entries",
+					"entries": [
+						"当你进行一次智力（{@skill 奥秘|XPHB}）检定或使用{@item 工匠工具|XPHB}进行属性检定时，你可以掷{@dice 1d4}并将掷出的数值添加到属性检定中。"
+					]
+				},
+				{
+					"ENG_name": "Spellsmith",
+					"name": "魔力制造",
+					"type": "entries",
+					"entries": [
+						"你知晓{@spell 修复术|XPHB}戏法。你还总是准备了{@spell 魔化武器|XPHB}法术。你可以无需法术位施放该法术一次，并且当你完成一次{@variantrule 长休|XPHB}后恢复以此方式施放它的能力。你也可以使用你拥有的任何法术位来施放它。智力、感知或魅力是你施放这些法术的施法属性（在选择此专长时选择）。"
+					]
+				},
+				{
+					"ENG_name": "Spells of the Mark",
+					"name": "龙纹法术",
+					"type": "entries",
+					"entries": [
+						"如果你拥有施法或契约魔法特性，创造龙纹法术列表中的法术将被添加到该特性的法术列表中。",
+						{
+							"type": "table",
+							"caption": "创造龙纹法术",
+							"page": 11,
+							"colLabels": [
+								"法术环阶",
+								"法术"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"1",
+									"{@spell 鉴定术|XPHB}, {@spell 谭森浮碟术|XPHB}"
+								],
+								[
+									"2",
+									"{@spell 不灭明焰|XPHB}, {@spell 灵体武器|XPHB}"
+								],
+								[
+									"3",
+									"{@spell 箭如雨下|XPHB}, {@spell 元素武器|XPHB}"
+								],
+								[
+									"4",
+									"{@spell 鬼斧神工|XPHB}, {@spell 塑石术|XPHB}"
+								],
+								[
+									"5",
+									"{@spell 造物术|XPHB}"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Mark of Passage",
+			"name": "通行龙纹",
+			"source": "XUA2025EberronUpdates",
+			"page": 11,
+			"category": "D",
+			"prerequisite": [
+				{
+					"campaign": [
+						"艾伯伦"
+					],
+					"otherSummary": {
+						"entry": "无法拥有另一个龙纹专长",
+						"entrySummary": "一个龙纹"
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"prepared": {
+						"_": {
+							"daily": {
+								"1e": [
+									"迷踪步|XPHB"
+								]
+							}
+						}
+					},
+					"expanded": {
+						"s1": [
+							"脚底抹油|XPHB",
+							"跳跃术|XPHB"
+						],
+						"s2": [
+							"行动无踪|XPHB",
+							"寻获坐骑|XPHB"
+						],
+						"s3": [
+							"闪现术|XPHB",
+							"魅影驹|XPHB"
+						],
+						"s4": [
+							"任意门|XPHB",
+							"行动自如|XPHB"
+						],
+						"s5": [
+							"传送法阵|XPHB"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你获得以下增益。",
+				{
+					"ENG_name": "Courier's Speed",
+					"name": "信使极速",
+					"type": "entries",
+					"entries": [
+						"你的{@variantrule 速度|XPHB}增加5尺。"
+					]
+				},
+				{
+					"ENG_name": "Intuitive Motion",
+					"name": "直觉行动",
+					"type": "entries",
+					"entries": [
+						"当你进行力量（{@skill 运动|XPHB}）或敏捷（{@skill 特技|XPHB}）检定时，你可以掷{@dice 1d4}并将骰出的数值添加到属性检定中。"
+					]
+				},
+				{
+					"ENG_name": "Magical Passage",
+					"name": "魔法通行",
+					"type": "entries",
+					"entries": [
+						"你总是准备了{@spell 迷踪步|XPHB}法术。你可以无需法术位施放该法术一次，并且当你完成一次{@variantrule 长休|XPHB}后恢复以此方式施放它的能力。你也可以使用你拥有的任何法术位来施放它。智力、感知或魅力是你施放该法术的施法属性（在选择此专长时选择）。"
+					]
+				},
+				{
+					"ENG_name": "Spells of the Mark",
+					"name": "龙纹法术",
+					"type": "entries",
+					"entries": [
+						"如果你拥有施法或契约魔法特性，通行龙纹法术列表中的法术将被添加到该特性的法术列表中。",
+						{
+							"type": "table",
+							"caption": "通行龙纹法术",
+							"page": 11,
+							"colLabels": [
+								"法术环阶",
+								"法术"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"1",
+									"{@spell 脚底抹油|XPHB}, {@spell 跳跃术|XPHB}"
+								],
+								[
+									"2",
+									"{@spell 行动无踪|XPHB}, {@spell 寻获坐骑|XPHB}"
+								],
+								[
+									"3",
+									"{@spell 闪现术|XPHB}, {@spell 魅影驹|XPHB}"
+								],
+								[
+									"4",
+									"{@spell 任意门|XPHB}, {@spell 行动自如|XPHB}"
+								],
+								[
+									"5",
+									"{@spell 传送法阵|XPHB}"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Mark of Scribing",
+			"name": "抄录龙纹",
+			"source": "XUA2025EberronUpdates",
+			"page": 11,
+			"category": "D",
+			"prerequisite": [
+				{
+					"campaign": [
+						"艾伯伦"
+					],
+					"otherSummary": {
+						"entry": "无法拥有另一个龙纹专长",
+						"entrySummary": "一个龙纹"
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							"传讯术|XPHB#c"
+						]
+					},
+					"prepared": {
+						"3": {
+							"daily": {
+								"1e": [
+									"魔嘴术|XPHB"
+								]
+							}
+						},
+						"_": {
+							"daily": {
+								"1e": [
+									"通晓语言|XPHB"
+								]
+							}
+						}
+					},
+					"expanded": {
+						"s1": [
+							"命令术|XPHB",
+							"迷幻手稿|XPHB"
+						],
+						"s2": [
+							"动物信使|XPHB",
+							"沉默术|XPHB"
+						],
+						"s3": [
+							"短讯术|XPHB",
+							"巧言术|XPHB"
+						],
+						"s4": [
+							"秘法眼|XPHB",
+							"困惑术|XPHB"
+						],
+						"s5": [
+							"托梦术|XPHB"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你获得以下增益。",
+				{
+					"ENG_name": "Gifted Scribe",
+					"name": "天才文员",
+					"type": "entries",
+					"entries": [
+						"当你进行一次智力（{@skill 历史|XPHB}）检定或使用{@item 书法工具|XPHB}进行一次属性检定时，你可以投掷{@dice 1d4}并将掷出的数值添加到该属性检定中。"
+					]
+				},
+				{
+					"ENG_name": "Scribe's Insight",
+					"name": "文员领悟",
+					"type": "entries",
+					"entries": [
+						"你知晓戏法{@spell 传讯术|XPHB}。你还总是准备着法术{@spell 通晓语言|XPHB}。你可以无需法术位施放它一次，并且当你完成一次{@variantrule 长休|XPHB}后恢复以此方式施放它的能力。你也可以使用你拥有的任何法术位来施放它。智力、感知或魅力是这些法术的施法属性（当你选择此专长时选择）。",
+						"当你达到角色等级3时，你还总是准备着{@spell 魔嘴术|XPHB}法术并能以同样的方式施放它。"
+					]
+				},
+				{
+					"ENG_name": "Spells of the Mark",
+					"name": "龙纹法术",
+					"type": "entries",
+					"entries": [
+						"如果你拥有施法或契约魔法特性，抄录龙纹法术列表中的法术将被添加到该特性的法术列表中。",
+						{
+							"type": "table",
+							"caption": "抄录龙纹法术",
+							"page": 12,
+							"colLabels": [
+								"法术环阶",
+								"法术"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"1",
+									"{@spell 命令术|XPHB}, {@spell 迷幻手稿|XPHB}"
+								],
+								[
+									"2",
+									"{@spell 动物信使|XPHB}, {@spell 沉默术|XPHB}"
+								],
+								[
+									"3",
+									"{@spell 短讯术|XPHB}, {@spell 巧言术|XPHB}"
+								],
+								[
+									"4",
+									"{@spell 秘法眼|XPHB}, {@spell 困惑术|XPHB}"
+								],
+								[
+									"5",
+									"{@spell 托梦术|XPHB}"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Mark of Sentinel",
+			"name": "守护龙纹",
+			"source": "XUA2025EberronUpdates",
+			"page": 12,
+			"category": "D",
+			"prerequisite": [
+				{
+					"campaign": [
+						"艾伯伦"
+					],
+					"otherSummary": {
+						"entry": "无法拥有另一个龙纹专长",
+						"entrySummary": "一个龙纹"
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"prepared": {
+						"_": {
+							"daily": {
+								"1e": [
+									"护盾术|XPHB"
+								]
+							}
+						}
+					},
+					"expanded": {
+						"s1": [
+							"强令对决|XPHB",
+							"虔诚护盾|XPHB"
+						],
+						"s2": [
+							"守护之链|XPHB",
+							"诚实之域|XPHB"
+						],
+						"s3": [
+							"法术反制|XPHB",
+							"防护能量|XPHB"
+						],
+						"s4": [
+							"防死结界|XPHB",
+							"信仰守卫|XPHB"
+						],
+						"s5": [
+							"毕格比之手|XPHB"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你获得以下增益。",
+				{
+					"ENG_name": "Sentinel's Intuition",
+					"name": "守卫直觉",
+					"type": "entries",
+					"entries": [
+						"当你进行一次感知（{@skill 洞悉|XPHB}或{@skill 察觉|XPHB}）检定时，你可以投掷{@dice 1d4}并将掷骰结果添加到该属性检定中。"
+					]
+				},
+				{
+					"ENG_name": "Guardian's Shield",
+					"name": "卫护之盾",
+					"type": "entries",
+					"entries": [
+						"你总是准备了{@spell 护盾术|XPHB}法术。你可以无需法术位施放它一次，并且当你完成一次{@variantrule 长休|XPHB}后恢复以此方式施放它的能力。你也可以使用你拥有的任何法术位来施放它。智力、感知或魅力是这些法术的施法属性（在选择此专长时选择）。"
+					]
+				},
+				{
+					"ENG_name": "Vigilant Guardian",
+					"name": "警醒护卫",
+					"type": "entries",
+					"entries": [
+						"当一个你5尺内能看见的生物被攻击检定命中时，你可以使用一个{@variantrule 反应|XPHB}来与该生物交换位置，并由你承受该攻击。一旦你使用了此特性，直到你完成一次{@variantrule 长休|XPHB}前你无法再次使用。"
+					]
+				},
+				{
+					"ENG_name": "Spells of the Mark",
+					"name": "龙纹法术",
+					"type": "entries",
+					"entries": [
+						"如果你拥有施法或契约魔法特性，守护龙纹法术列表中的法术将被添加到该特性的法术列表中。",
+						{
+							"type": "table",
+							"caption": "守护龙纹法术",
+							"page": 12,
+							"colLabels": [
+								"法术环阶",
+								"法术"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"1",
+									"{@spell 强令对决|XPHB}, {@spell 虔诚护盾|XPHB}"
+								],
+								[
+									"2",
+									"{@spell 守护之链|XPHB}, {@spell 诚实之域|XPHB}"
+								],
+								[
+									"3",
+									"{@spell 法术反制|XPHB}, {@spell 防护能量|XPHB}"
+								],
+								[
+									"4",
+									"{@spell 防死结界|XPHB}, {@spell 信仰守卫|XPHB}"
+								],
+								[
+									"5",
+									"{@spell 毕格比之手|XPHB}"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Mark of Shadow",
+			"name": "阴影龙纹",
+			"source": "XUA2025EberronUpdates",
+			"page": 12,
+			"category": "D",
+			"prerequisite": [
+				{
+					"campaign": [
+						"艾伯伦"
+					],
+					"otherSummary": {
+						"entry": "无法拥有另一个龙纹专长",
+						"entrySummary": "一个龙纹"
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							"次级幻象|XPHB#c"
+						]
+					},
+					"prepared": {
+						"_": {
+							"daily": {
+								"1e": [
+									"隐形术|XPHB"
+								]
+							}
+						}
+					},
+					"expanded": {
+						"s1": [
+							"易容术|XPHB",
+							"无声幻影|XPHB"
+						],
+						"s2": [
+							"黑暗术|XPHB",
+							"行动无踪|XPHB"
+						],
+						"s3": [
+							"鹰眼术|XPHB",
+							"高等幻影|XPHB"
+						],
+						"s4": [
+							"高等隐形术|XPHB",
+							"幻景|XPHB"
+						],
+						"s5": [
+							"假象术|XPHB"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你获得以下增益。",
+				{
+					"ENG_name": "Cunning Intuition",
+					"name": "狡诈直觉",
+					"type": "entries",
+					"entries": [
+						"当你进行一次敏捷（{@skill 隐匿|XPHB}）或魅力（{@skill 表演|XPHB}）检定时，你可以投掷{@dice 1d4}并将骰出的数值添加到该属性检定中。"
+					]
+				},
+				{
+					"ENG_name": "Shape Shadows",
+					"name": "阴影塑形",
+					"type": "entries",
+					"entries": [
+						"你知晓{@spell 次级幻象|XPHB}戏法。你还始终准备了{@spell 隐形术|XPHB}法术。你可以无需法术位施放该法术一次，并且当你完成一次{@variantrule 长休|XPHB}后恢复以此方式施放它的能力。你也可以使用你所拥有的任何法术位来施放它。智力、感知或魅力是这些法术的施法属性（在选择此专长时选择）。"
+					]
+				},
+				{
+					"ENG_name": "Spells of the Mark",
+					"name": "龙纹法术",
+					"type": "entries",
+					"entries": [
+						"如果你拥有施法或契约魔法特性，阴影龙纹法术列表中的法术将被添加到该特性的法术列表中。",
+						{
+							"type": "table",
+							"caption": "阴影龙纹法术",
+							"page": 12,
+							"colLabels": [
+								"法术环阶",
+								"法术"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"1",
+									"{@spell 易容术|XPHB}, {@spell 无声幻影|XPHB}"
+								],
+								[
+									"2",
+									"{@spell 黑暗术|XPHB}, {@spell 行动无踪|XPHB}"
+								],
+								[
+									"3",
+									"{@spell 鹰眼术|XPHB}, {@spell 高等幻影|XPHB}"
+								],
+								[
+									"4",
+									"{@spell 高等隐形术|XPHB}, {@spell 幻景|XPHB}"
+								],
+								[
+									"5",
+									"{@spell 假象术|XPHB}"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Mark of Storm",
+			"name": "暴风龙纹",
+			"source": "XUA2025EberronUpdates",
+			"page": 12,
+			"category": "D",
+			"prerequisite": [
+				{
+					"campaign": [
+						"艾伯伦"
+					],
+					"otherSummary": {
+						"entry": "无法拥有另一个龙纹专长",
+						"entrySummary": "一个龙纹"
+					}
+				}
+			],
+			"resist": [
+				"闪电"
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							"鸣雷破|XPHB#c"
+						]
+					},
+					"prepared": {
+						"3": {
+							"daily": {
+								"1e": [
+									"造风术|XPHB"
+								]
+							}
+						}
+					},
+					"expanded": {
+						"s1": [
+							"羽落术|XPHB",
+							"云雾术|XPHB"
+						],
+						"s2": [
+							"浮空术|XPHB",
+							"粉碎音波|XPHB"
+						],
+						"s3": [
+							"雪雨暴|XPHB",
+							"风墙术|XPHB"
+						],
+						"s4": [
+							"咒唤微元素群|XPHB",
+							"操控水体|XPHB"
+						],
+						"s5": [
+							"咒唤元素|XPHB"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你获得以下增益。",
+				{
+					"ENG_name": "Windwright's Intuition",
+					"name": "驭风者直觉",
+					"type": "entries",
+					"entries": [
+						"当你进行一次敏捷（{@skill 特技|XPHB}）检定或使用{@item 领航工具|XPHB}进行一次属性检定时，你可以掷{@dice 1d4}并将掷出的数值加到该属性检定上。"
+					]
+				},
+				{
+					"ENG_name": "Storm's Boon",
+					"name": "暴风恩惠",
+					"type": "entries",
+					"entries": [
+						"你对闪电伤害具有{@variantrule 抗性|XPHB}。"
+					]
+				},
+				{
+					"ENG_name": "Storm Magic",
+					"name": "风暴魔法",
+					"type": "entries",
+					"entries": [
+						"你知晓{@spell 鸣雷破|XPHB}戏法。当你达到角色等级3时，你还总是准备了{@spell 造风术|XPHB}法术。你可以无需法术位施放该法术一次，并且当你完成一次{@variantrule 长休|XPHB}后恢复以此方式施放它的能力。你也可以使用你拥有的任何法术位来施放它。智力、感知或魅力是这些法术的施法属性（在选择此专长时选择）。"
+					]
+				},
+				{
+					"ENG_name": "Spells of the Mark",
+					"name": "龙纹法术",
+					"type": "entries",
+					"entries": [
+						"若你拥有施法或契约魔法特性，暴风龙纹法术列表中的法术将被添加至该特性的法术列表中。",
+						{
+							"type": "table",
+							"caption": "暴风龙纹法术",
+							"page": 12,
+							"colLabels": [
+								"法术环阶",
+								"法术"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"1",
+									"{@spell 羽落术|XPHB}, {@spell 云雾术|XPHB}"
+								],
+								[
+									"2",
+									"{@spell 浮空术|XPHB}, {@spell 粉碎音波|XPHB}"
+								],
+								[
+									"3",
+									"{@spell 雪雨暴|XPHB}, {@spell 风墙术|XPHB}"
+								],
+								[
+									"4",
+									"{@spell 咒唤微元素群|XPHB}, {@spell 操控水体|XPHB}"
+								],
+								[
+									"5",
+									"{@spell 咒唤元素|XPHB}"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Mark of Warding",
+			"name": "警戒龙纹",
+			"source": "XUA2025EberronUpdates",
+			"page": 13,
+			"category": "D",
+			"prerequisite": [
+				{
+					"campaign": [
+						"艾伯伦"
+					],
+					"otherSummary": {
+						"entry": "无法拥有另一个龙纹专长",
+						"entrySummary": "一个龙纹"
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"prepared": {
+						"3": {
+							"daily": {
+								"1e": [
+									"秘法锁|XPHB"
+								]
+							}
+						},
+						"_": {
+							"daily": {
+								"1e": [
+									"警报术|XPHB",
+									"法师护甲|XPHB"
+								]
+							}
+						}
+					},
+					"expanded": {
+						"s1": [
+							"黯冰狱铠|XPHB",
+							"庇护术|XPHB"
+						],
+						"s2": [
+							"敲击术|XPHB",
+							"涅斯图魔法灵光|XPHB"
+						],
+						"s3": [
+							"守卫刻文|XPHB",
+							"防护法阵|XPHB"
+						],
+						"s4": [
+							"李欧蒙秘藏箱|XPHB",
+							"魔邓肯忠犬|XPHB"
+						],
+						"s5": [
+							"防活物护罩|XPHB"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你获得以下增益。",
+				{
+					"ENG_name": "Warder's Intuition",
+					"name": "守卫直觉",
+					"type": "entries",
+					"entries": [
+						"当你进行一次智力（{@skill 调查|XPHB}）检定或使用{@item 盗贼工具|XPHB}的属性检定时，你可以掷{@dice 1d4}并将掷出的数值添加到该属性检定中。"
+					]
+				},
+				{
+					"ENG_name": "Wards and Seals",
+					"name": "警卫封印",
+					"type": "entries",
+					"entries": [
+						"你总是准备了{@spell 警报术|XPHB}和{@spell 法师护甲|XPHB}法术。你可以无需法术位施放每个法术一次，并在完成一次{@variantrule 长休|XPHB}后恢复以此方式施放它的能力。你也可以使用你拥有的任何法术位来施放这些法术。智力、感知或魅力是这些法术的施法属性（在选择此专长时选择）。",
+						"当你达到角色等级3时，你还会始终准备好{@spell 秘法锁|XPHB}法术并能以同样的方式施放它。"
+					]
+				},
+				{
+					"ENG_name": "Spells of the Mark",
+					"name": "龙纹法术",
+					"type": "entries",
+					"entries": [
+						"如果你拥有施法或契约魔法特性，警戒龙纹法术列表中的法术将被添加到该特性的法术列表中。",
+						{
+							"type": "table",
+							"caption": "警戒龙纹法术",
+							"page": 13,
+							"colLabels": [
+								"法术环阶",
+								"法术"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"1",
+									"{@spell 黯冰狱铠|XPHB}, {@spell 庇护术|XPHB}"
+								],
+								[
+									"2",
+									"{@spell 敲击术|XPHB}, {@spell 涅斯图魔法灵光|XPHB}"
+								],
+								[
+									"3",
+									"{@spell 守卫刻文|XPHB}, {@spell 防护法阵|XPHB}"
+								],
+								[
+									"4",
+									"{@spell 李欧蒙秘藏箱|XPHB}, {@spell 魔邓肯忠犬|XPHB}"
+								],
+								[
+									"5",
+									"{@spell 防活物护罩|XPHB}"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Potent Dragonmark",
+			"name": "强效龙纹",
+			"source": "XUA2025EberronUpdates",
+			"page": 15,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"otherSummary": {
+						"entry": "任何龙纹专长",
+						"entrySummary": "任何龙纹"
+					}
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1,
+						"entry": "将你的龙纹专长所使用的施法属性值提高1点，最高为20。"
+					}
+				}
+			],
+			"entries": [
+				"你获得以下增益。",
+				{
+					"ENG_name": "Dragonmark Preparation",
+					"name": "龙纹准备",
+					"type": "entries",
+					"entries": [
+						"你总是准备着你龙纹专长上的标记法术列表中的法术（如果有的话）。"
+					]
+				},
+				{
+					"ENG_name": "Dragonmark Spellcasting",
+					"name": "龙纹施法",
+					"type": "entries",
+					"entries": [
+						"你拥有一个法术位来施放由你的龙纹专长所授予的法术。该法术位的等级为你等级的一半（向上取整），最高为5环。当你完成一次{@variantrule 短休|XPHB|短}或{@variantrule 长休|XPHB}时，你恢复已消耗的法术位。你只能使用此法术位来施放因你的龙纹专长或此专长的龙纹预备增益而准备的法术。"
+					]
+				}
+			]
+		}
+	],
+	"item": [
+		{
+			"ENG_name": "Manifold Tool",
+			"name": "百变工具",
+			"source": "XUA2025EberronUpdates",
+			"page": 8,
+			"rarity": "common",
+			"reqAttune": true,
+			"wondrous": true,
+			"grantsProficiency": true,
+			"entries": [
+				"该工具以扳手、螺丝刀或其他基础工具的形态出现。作为一个{@action 魔法|XPHB}动作，你可以接触该物品并将其转化为你选择的{@item 工匠工具|XPHB}类型。无论该工具采取何种形态，你在使用它时都拥有熟练项。"
+			]
+		}
+	],
+	"table": [
+		{
+			"ENG_name": "Artificer Spell List",
+			"name": "奇械师法术列表",
+			"source": "XUA2025EberronUpdates",
+			"page": 5,
+			"type": "tableGroup",
+			"tables": [
+				{
+					"ENG_name": "Cantrips (Level 0 Artificer Spells)",
+					"name": "戏法（0级奇械师法术）",
+					"source": "XUA2025EberronUpdates",
+					"page": 5,
+					"type": "table",
+					"caption": "戏法（0级奇械师法术）",
+					"colLabels": [
+						"法术",
+						"学派",
+						"特殊"
+					],
+					"colStyles": [
+						"col-6",
+						"col-4",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"{@spell 酸液飞溅|XPHB}",
+							"塑能",
+							"\u2014"
+						],
+						[
+							"{@spell 舞光术|XPHB}",
+							"幻术",
+							"C"
+						],
+						[
+							"{@spell 四象法门|XPHB}",
+							"变化",
+							"\u2014"
+						],
+						[
+							"{@spell 火焰箭|XPHB}",
+							"塑能",
+							"\u2014"
+						],
+						[
+							"{@spell 神导术|XPHB}",
+							"预言术",
+							"C"
+						],
+						[
+							"{@spell 光亮术|XPHB}",
+							"塑能",
+							"\u2014"
+						],
+						[
+							"{@spell 法师之手|XPHB}",
+							"咒法",
+							"\u2014"
+						],
+						[
+							"{@spell 传讯术|XPHB}",
+							"变化",
+							"\u2014"
+						],
+						[
+							"{@spell 毒气喷涌|XPHB}",
+							"死灵",
+							"\u2014"
+						],
+						[
+							"{@spell 魔法伎俩|XPHB}",
+							"变化",
+							"\u2014"
+						],
+						[
+							"{@spell 冷冻射线|XPHB}",
+							"塑能",
+							"\u2014"
+						],
+						[
+							"{@spell 抗性|XPHB}",
+							"防护",
+							"C"
+						],
+						[
+							"{@spell 电爪|XPHB}",
+							"塑能",
+							"\u2014"
+						],
+						[
+							"{@spell 维生术|XPHB}",
+							"死灵",
+							"\u2014"
+						],
+						[
+							"{@spell 荆棘之鞭|XPHB}",
+							"变化",
+							"\u2014"
+						],
+						[
+							"{@spell 鸣雷破|XPHB}",
+							"塑能",
+							"\u2014"
+						],
+						[
+							"{@spell 克敌先击|XPHB}",
+							"预言术",
+							"M"
+						]
+					]
+				},
+				{
+					"ENG_name": "Level 1 Artificer Spells",
+					"name": "一环奇械师法术",
+					"source": "XUA2025EberronUpdates",
+					"page": 5,
+					"type": "table",
+					"caption": "一环奇械师法术",
+					"colLabels": [
+						"法术",
+						"学派",
+						"特殊"
+					],
+					"colStyles": [
+						"col-6",
+						"col-4",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"{@spell 警报术|XPHB}",
+							"防护",
+							"R"
+						],
+						[
+							"{@spell 疗伤术|XPHB}",
+							"防护",
+							"\u2014"
+						],
+						[
+							"{@spell 侦测魔法|XPHB}",
+							"预言术",
+							"C, R"
+						],
+						[
+							"{@spell 易容术|XPHB}",
+							"幻术",
+							"\u2014"
+						],
+						[
+							"{@spell 脚底抹油|XPHB}",
+							"变化",
+							"C"
+						],
+						[
+							"{@spell 妖火|XPHB}",
+							"塑能",
+							"C"
+						],
+						[
+							"{@spell 虚假生命|XPHB}",
+							"死灵",
+							"\u2014"
+						],
+						[
+							"{@spell 羽落术|XPHB}",
+							"变化",
+							"\u2014"
+						],
+						[
+							"{@spell 油腻术|XPHB}",
+							"咒法",
+							"\u2014"
+						],
+						[
+							"{@spell 鉴定术|XPHB}",
+							"预言术",
+							"R, M"
+						],
+						[
+							"{@spell 跳跃术|XPHB}",
+							"变化",
+							"\u2014"
+						],
+						[
+							"{@spell 大步奔行|XPHB}",
+							"变化",
+							"\u2014"
+						],
+						[
+							"{@spell 净化饮食|XPHB}",
+							"变化",
+							"R"
+						],
+						[
+							"{@spell 庇护术|XPHB}",
+							"防护",
+							"\u2014"
+						]
+					]
+				},
+				{
+					"ENG_name": "Level 2 Artificer Spells",
+					"name": "二环奇械师法术",
+					"source": "XUA2025EberronUpdates",
+					"page": 6,
+					"type": "table",
+					"caption": "二环奇械师法术",
+					"colLabels": [
+						"法术",
+						"学派",
+						"特殊"
+					],
+					"colStyles": [
+						"col-6",
+						"col-4",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"{@spell 援助术|XPHB}",
+							"防护",
+							"\u2014"
+						],
+						[
+							"{@spell 变身术|XPHB}",
+							"变化",
+							"C"
+						],
+						[
+							"{@spell 秘法锁|XPHB}",
+							"防护",
+							"M"
+						],
+						[
+							"{@spell 复苏秘法|XPHB}",
+							"防护",
+							"\u2014"
+						],
+						[
+							"{@spell 朦胧术|XPHB}",
+							"幻术",
+							"C"
+						],
+						[
+							"{@spell 不灭明焰|XPHB}",
+							"塑能",
+							"M"
+						],
+						[
+							"{@spell 黑暗视觉|XPHB}",
+							"变化",
+							"\u2014"
+						],
+						[
+							"{@spell 龙息术|XPHB}",
+							"变化",
+							"C"
+						],
+						[
+							"{@spell 强化属性|XPHB}",
+							"变化",
+							"C"
+						],
+						[
+							"{@spell 变巨/缩小术|XPHB}",
+							"变化",
+							"C"
+						],
+						[
+							"{@spell 灼热金属|XPHB}",
+							"变化",
+							"C"
+						],
+						[
+							"{@spell 人工生命仆从|XUA2024Artificer}（出现在此UA中）",
+							"咒法",
+							"R, M"
+						],
+						[
+							"{@spell 隐形术|XPHB}",
+							"幻术",
+							"C"
+						],
+						[
+							"{@spell 次级复原术|XPHB}",
+							"防护",
+							"\u2014"
+						],
+						[
+							"{@spell 浮空术|XPHB}",
+							"变化",
+							"C"
+						],
+						[
+							"{@spell 魔嘴术|XPHB}",
+							"幻术",
+							"R, M"
+						],
+						[
+							"{@spell 魔化武器|XPHB}",
+							"变化",
+							"\u2014"
+						],
+						[
+							"{@spell 防护毒素|XPHB}",
+							"防护",
+							"\u2014"
+						],
+						[
+							"{@spell 魔绳术|XPHB}",
+							"变化",
+							"\u2014"
+						],
+						[
+							"{@spell 识破隐形|XPHB}",
+							"预言术",
+							"\u2014"
+						],
+						[
+							"{@spell 蛛行术|XPHB}",
+							"变化",
+							"C"
+						],
+						[
+							"{@spell 蛛网术|XPHB}",
+							"咒法",
+							"C"
+						]
+					]
+				},
+				{
+					"ENG_name": "Level 3 Artificer Spells",
+					"name": "三环奇械师法术",
+					"source": "XUA2025EberronUpdates",
+					"page": 6,
+					"type": "table",
+					"caption": "三环奇械师法术",
+					"colLabels": [
+						"法术",
+						"学派",
+						"特殊"
+					],
+					"colStyles": [
+						"col-6",
+						"col-4",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"{@spell 闪现术|XPHB}",
+							"变化",
+							"\u2014"
+						],
+						[
+							"{@spell 造粮术|XPHB}",
+							"咒法",
+							"\u2014"
+						],
+						[
+							"{@spell 解除魔法|XPHB}",
+							"防护",
+							"\u2014"
+						],
+						[
+							"{@spell 元素武器|XPHB}",
+							"变化",
+							"C"
+						],
+						[
+							"{@spell 飞行术|XPHB}",
+							"变化",
+							"C"
+						],
+						[
+							"{@spell 守卫刻文|XPHB}",
+							"防护",
+							"M"
+						],
+						[
+							"{@spell 加速术|XPHB}",
+							"变化",
+							"C"
+						],
+						[
+							"{@spell 防护能量|XPHB}",
+							"防护",
+							"C"
+						],
+						[
+							"{@spell 回生术|XPHB}",
+							"死灵",
+							"M"
+						],
+						[
+							"{@spell 水下呼吸|XPHB}",
+							"变化",
+							"R"
+						],
+						[
+							"{@spell 水上行走|XPHB}",
+							"变化",
+							"R"
+						]
+					]
+				},
+				{
+					"ENG_name": "Level 4 Artificer Spells",
+					"name": "四环奇械师法术",
+					"source": "XUA2025EberronUpdates",
+					"page": 6,
+					"type": "table",
+					"caption": "四环奇械师法术",
+					"colLabels": [
+						"法术",
+						"学派",
+						"特殊"
+					],
+					"colStyles": [
+						"col-6",
+						"col-4",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"{@spell 秘法眼|XPHB}",
+							"预言术",
+							"C"
+						],
+						[
+							"{@spell 鬼斧神工|XPHB}",
+							"变化",
+							"\u2014"
+						],
+						[
+							"{@spell 行动自如|XPHB}",
+							"防护",
+							"\u2014"
+						],
+						[
+							"{@spell 李欧蒙秘藏箱|XPHB}",
+							"咒法",
+							"M"
+						],
+						[
+							"{@spell 魔邓肯忠犬|XPHB}",
+							"咒法",
+							"\u2014"
+						],
+						[
+							"{@spell 魔邓肯私人密室|XPHB}",
+							"防护",
+							"\u2014"
+						],
+						[
+							"{@spell 欧提路克弹力法球|XPHB}",
+							"防护",
+							"C"
+						],
+						[
+							"{@spell 塑石术|XPHB}",
+							"变化",
+							"\u2014"
+						],
+						[
+							"{@spell 石肤术|XPHB}",
+							"变化",
+							"C, M"
+						],
+						[
+							"{@spell 构装召唤术|XPHB}",
+							"咒法",
+							"C, M"
+						]
+					]
+				},
+				{
+					"ENG_name": "Level 5 Artificer Spells",
+					"name": "五环奇械师法术",
+					"source": "XUA2025EberronUpdates",
+					"page": 6,
+					"type": "table",
+					"caption": "五环奇械师法术",
+					"colLabels": [
+						"法术",
+						"学派",
+						"特殊"
+					],
+					"colStyles": [
+						"col-6",
+						"col-4",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"{@spell 活化物件|XPHB}",
+							"变化",
+							"C"
+						],
+						[
+							"{@spell 毕格比之手|XPHB}",
+							"塑能",
+							"C"
+						],
+						[
+							"{@spell 原力法阵|XPHB}",
+							"防护",
+							"C"
+						],
+						[
+							"{@spell 造物术|XPHB}",
+							"幻术",
+							"\u2014"
+						],
+						[
+							"{@spell 高等复原术|XPHB}",
+							"防护",
+							"M"
+						],
+						[
+							"{@spell 石墙术|XPHB}",
+							"塑能",
+							"C"
+						]
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Cartographer Spells",
+			"name": "制图师法术",
+			"source": "XUA2025EberronUpdates",
+			"page": 7,
+			"colLabels": [
+				"制图师等级",
+				"法术"
+			],
+			"colStyles": [
+				"col-3 text-center",
+				"col-9"
+			],
+			"rows": [
+				[
+					"3",
+					"{@spell 妖火|XPHB}, {@spell 光导箭|XPHB}, {@spell 治愈真言|XPHB}"
+				],
+				[
+					"5",
+					"{@spell 物件定位术|XPHB}, {@spell 心灵尖刺|XPHB}"
+				],
+				[
+					"9",
+					"{@spell 鹰眼术|XPHB}, {@spell 加速术|XPHB}"
+				],
+				[
+					"13",
+					"{@spell 行动自如|XPHB}, {@spell 生物定位术|XPHB}"
+				],
+				[
+					"17",
+					"{@spell 探知术|XPHB}, {@spell 传送法阵|XPHB}"
+				]
+			]
+		},
+		{
+			"ENG_name": "Feat List",
+			"name": "专长列表",
+			"source": "XUA2025EberronUpdates",
+			"page": 9,
+			"colLabels": [
+				"专长",
+				"类别"
+			],
+			"colStyles": [
+				"col-8",
+				"col-4"
+			],
+			"rows": [
+				[
+					"{@feat 异种龙纹|XUA2025艾伯伦更新}",
+					"龙纹"
+				],
+				[
+					"{@feat 西伯瑞斯之恩惠|XUA2025艾伯伦更新}",
+					"传奇恩惠"
+				],
+				[
+					"{@feat 高等异种纹|XUA2025艾伯伦更新}",
+					"通用"
+				],
+				[
+					"{@feat 高等侦测之纹|XUA2025艾伯伦更新}",
+					"通用"
+				],
+				[
+					"{@feat 高等探索之纹|XUA2025艾伯伦更新}",
+					"通用"
+				],
+				[
+					"{@feat 高等畜牧之纹|XUA2025艾伯伦更新}",
+					"通用"
+				],
+				[
+					"{@feat 高等医疗之纹|XUA2025艾伯伦更新}",
+					"通用"
+				],
+				[
+					"{@feat 高等招待之纹|XUA2025艾伯伦更新}",
+					"通用"
+				],
+				[
+					"{@feat 高等创造之纹|XUA2025艾伯伦更新}",
+					"通用"
+				],
+				[
+					"{@feat 高等通行之纹|XUA2025艾伯伦更新}",
+					"通用"
+				],
+				[
+					"{@feat 高等抄录之纹|XUA2025艾伯伦更新}",
+					"通用"
+				],
+				[
+					"{@feat 高等守护之纹|XUA2025艾伯伦更新}",
+					"通用"
+				],
+				[
+					"{@feat 高等阴影之纹|XUA2025艾伯伦更新}",
+					"通用"
+				],
+				[
+					"{@feat 高等风暴之纹|XUA2025艾伯伦更新}",
+					"通用"
+				],
+				[
+					"{@feat 高等警戒之纹|XUA2025艾伯伦更新}",
+					"通用"
+				],
+				[
+					"{@feat 侦测龙纹|XUA2025艾伯伦更新}",
+					"龙纹"
+				],
+				[
+					"{@feat 探索龙纹|XUA2025艾伯伦更新}",
+					"龙纹"
+				],
+				[
+					"{@feat 畜牧龙纹|XUA2025艾伯伦更新}",
+					"龙纹"
+				],
+				[
+					"{@feat 医疗龙纹|XUA2025艾伯伦更新}",
+					"龙纹"
+				],
+				[
+					"{@feat 招待龙纹|XUA2025艾伯伦更新}",
+					"龙纹"
+				],
+				[
+					"{@feat 创造龙纹|XUA2025艾伯伦更新}",
+					"龙纹"
+				],
+				[
+					"{@feat 通行龙纹|XUA2025艾伯伦更新}",
+					"龙纹"
+				],
+				[
+					"{@feat 抄录龙纹|XUA2025艾伯伦更新}",
+					"龙纹"
+				],
+				[
+					"{@feat 守护龙纹|XUA2025艾伯伦更新}",
+					"龙纹"
+				],
+				[
+					"{@feat 阴影龙纹|XUA2025艾伯伦更新}",
+					"龙纹"
+				],
+				[
+					"{@feat 暴风龙纹|XUA2025艾伯伦更新}",
+					"龙纹"
+				],
+				[
+					"{@feat 警戒龙纹|XUA2025艾伯伦更新}",
+					"龙纹"
+				],
+				[
+					"{@feat 强效龙纹|XUA2025艾伯伦更新}",
+					"通用"
+				]
+			]
+		},
+		{
+			"ENG_name": "Magic Item Plans (Artificer Level 10+)",
+			"name": "魔法物品方案（奇械师等级10+）",
+			"source": "XUA2025EberronUpdates",
+			"page": 4,
+			"colLabels": [
+				"魔法物品方案",
+				"同调"
+			],
+			"colStyles": [
+				"col-9",
+				"col-3 text-center"
+			],
+			"rows": [
+				[
+					"{@item 抗性护甲|XDMG}",
+					"是"
+				],
+				[
+					"{@item 淬毒匕首|XDMG}",
+					"No"
+				],
+				[
+					"{@item 精灵链甲|XDMG}",
+					"No"
+				],
+				[
+					"{@item 羽落戒指|XDMG}",
+					"是"
+				],
+				[
+					"{@item 跳跃戒指|XDMG}",
+					"是"
+				],
+				[
+					"{@item 心灵护盾戒指|XDMG}",
+					"是"
+				],
+				[
+					"{@item +2 盾牌|XDMG|盾牌 +2}",
+					"No"
+				],
+				[
+					"{@filter 非普通奇物，且未被诅咒|items|source=|type=奇物|rarity=uncommon|category=|miscellaneous=!诅咒}（你可以多次学习此选项，且每次必须选择不同的物品；每个选定的物品都算作不同的方案）",
+					"多类"
+				],
+				[
+					"{@item +2 战法师魔杖|XDMG|战法师魔杖 +2}",
+					"是"
+				],
+				[
+					"{@item +2 武器|XDMG|武器 +2}",
+					"No"
+				],
+				[
+					"{@item +2 神功绑带|XDMG|徒手威力裹布 +2}",
+					"No"
+				]
+			]
+		},
+		{
+			"ENG_name": "Magic Item Plans (Artificer Level 14+)",
+			"name": "魔法物品方案（奇械师等级14+）",
+			"source": "XUA2025EberronUpdates",
+			"page": 4,
+			"colLabels": [
+				"魔法物品方案",
+				"同调"
+			],
+			"colStyles": [
+				"col-9",
+				"col-3 text-center"
+			],
+			"rows": [
+				[
+					"{@item +2 护甲|XDMG|护甲 +2}",
+					"No"
+				],
+				[
+					"{@item 吸矢盾|XDMG}",
+					"是"
+				],
+				[
+					"{@item 焰舌|XDMG}",
+					"是"
+				],
+				[
+					"{@filter 珍稀奇物，非诅咒|items|source=|type=奇物|rarity=rare|category=|miscellaneous=!诅咒}（你可以多次学习此选项，且每次必须选择不同的物品；每个选定的物品都算作不同的方案）",
+					"多类"
+				],
+				[
+					"{@item 自由行动戒指|XDMG}",
+					"是"
+				],
+				[
+					"{@item 防护戒指|XDMG}",
+					"是"
+				],
+				[
+					"{@item 公羊戒指|XDMG}",
+					"是"
+				]
+			]
+		},
+		{
+			"ENG_name": "Magic Item Plans (Artificer Level 2+)",
+			"name": "魔法物品方案（奇械师等级2+）",
+			"source": "XUA2025EberronUpdates",
+			"page": 4,
+			"colLabels": [
+				"魔法物品方案",
+				"同调"
+			],
+			"colStyles": [
+				"col-9",
+				"col-3 text-center"
+			],
+			"rows": [
+				[
+					"{@item 炼金壶|XDMG}",
+					"No"
+				],
+				[
+					"{@item 次元袋|XDMG}",
+					"No"
+				],
+				[
+					"{@item 水下呼吸帽|XDMG}",
+					"No"
+				],
+				[
+					"{@filter 通用魔法物品，不是药水、卷轴或诅咒物品|items|source=|type=!potion;!scroll|rarity=common|category=|miscellaneous=!诅咒}（你可以多次学习此选项，且每次必须选择不同的物品；每个选定的物品都算作不同的方案）",
+					"多类"
+				],
+				[
+					"{@item 夜视镜|XDMG}",
+					"No"
+				],
+				[
+					"{@item 百变工具|XUA2025艾伯伦更新}（出现在此UA中）",
+					"是"
+				],
+				[
+					"{@item 连射武器|XUA2024Artificer}（出现在此UA中）",
+					"是"
+				],
+				[
+					"{@item 回力武器|XUA2024Artificer}（出现在此UA中）",
+					"No"
+				],
+				[
+					"{@item 攀爬绳|XDMG}",
+					"No"
+				],
+				[
+					"{@item 短讯石|XDMG}",
+					"No"
+				],
+				[
+					"{@item +1 盾牌|XDMG|盾牌 +1}",
+					"No"
+				],
+				[
+					"{@item 搜魔魔杖|XDMG}",
+					"No"
+				],
+				[
+					"{@item 探秘魔杖|XDMG}",
+					"No"
+				],
+				[
+					"{@item +1 战法师魔杖|XDMG|战法师魔杖 +1}",
+					"是"
+				],
+				[
+					"{@item +1 武器|XDMG|+1 武器}",
+					"No"
+				],
+				[
+					"{@item +1 神功绑带|XDMG|徒手威力裹布 +1}",
+					"No"
+				]
+			]
+		},
+		{
+			"ENG_name": "Magic Item Plans (Artificer Level 6+)",
+			"name": "魔法物品方案（奇械师等级6+）",
+			"source": "XUA2025EberronUpdates",
+			"page": 4,
+			"colLabels": [
+				"魔法物品方案",
+				"同调"
+			],
+			"colStyles": [
+				"col-9",
+				"col-3 text-center"
+			],
+			"rows": [
+				[
+					"{@item +1 护甲|XDMG|+1护甲}",
+					"No"
+				],
+				[
+					"{@item 精灵之靴|XDMG}",
+					"No"
+				],
+				[
+					"{@item 折返之靴|XUA2024Artificer}（出现在此UA中）",
+					"是"
+				],
+				[
+					"{@item 精灵斗篷|XDMG}",
+					"是"
+				],
+				[
+					"{@item 蝠鲼斗篷|XDMG}",
+					"No"
+				],
+				[
+					"{@item 魅惑镜片|XDMG}",
+					"是"
+				],
+				[
+					"{@item 微视镜片|XDMG}",
+					"No"
+				],
+				[
+					"{@item 窃贼手套|XDMG}",
+					"No"
+				],
+				[
+					"{@item 显像提灯|XDMG}",
+					"No"
+				],
+				[
+					"{@item 思维砥石|XUA2024Artificer}（出现在此UA中）",
+					"是"
+				],
+				[
+					"{@item 适应项链|XDMG}",
+					"是"
+				],
+				[
+					"{@item 颤栗乐笙|XDMG}",
+					"No"
+				],
+				[
+					"{@item 光耀武器|XUA2024Artificer}（出现在此UA中）",
+					"是"
+				],
+				[
+					"{@item 斥力之盾|XUA2024Artificer}（出现在此UA中）",
+					"No"
+				],
+				[
+					"{@item 善泳戒指|XDMG}",
+					"No"
+				],
+				[
+					"{@item 水上行走戒指|XDMG}",
+					"No"
+				],
+				[
+					"{@item 警戒之盾|XDMG}",
+					"No"
+				],
+				[
+					"{@item 法力恢复戒指|XUA2024Artificer}（出现在此UA中）",
+					"是"
+				],
+				[
+					"{@item 魔法飞弹魔杖|XDMG}",
+					"No"
+				],
+				[
+					"{@item 蛛网魔杖|XDMG}",
+					"是"
+				],
+				[
+					"{@item 警戒武器|XDMG}",
+					"是"
+				]
+			]
+		}
+	],
+	"book": [
+		{
+			"ENG_name": "Unearthed Arcana 2025: Eberron Updates",
+			"name": "破解奥秘2025：艾伯伦更新",
+			"id": "XUA2025EberronUpdates",
+			"source": "XUA2025EberronUpdates",
+			"group": "prerelease",
+			"cover": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/refs/heads/master/_img/XUA2025EberronUpdates/cover.webp"
+			},
+			"published": "2025-02-27",
+			"author": "威世智",
+			"contents": [
+				{
+					"ENG_name": "Unearthed Arcana 2025: Eberron Updates",
+					"name": "破解奥秘2025：艾伯伦更新",
+					"headers": [
+						"这里有什么",
+						"奇械师",
+						{
+							"header": "奇械师法术列表",
+							"depth": 1
+						},
+						"奇械师子职",
+						{
+							"header": "制图师",
+							"depth": 1
+						},
+						"法术",
+						"魔法物品",
+						"专长",
+						{
+							"header": "龙纹专长",
+							"depth": 1
+						},
+						{
+							"header": "通用专长",
+							"depth": 1
+						},
+						{
+							"header": "传奇恩惠专长",
+							"depth": 1
+						}
+					]
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "XUA2025EberronUpdates",
+			"source": "XUA2025EberronUpdates",
+			"data": [
+				{
+					"ENG_name": "Unearthed Arcana 2025: Eberron Updates",
+					"name": "破解奥秘2025：艾伯伦更新",
+					"type": "section",
+					"page": 1,
+					"entries": [
+						"本试玩文档是系列{@i 破解奥秘}文章的一部分，这些文章呈现了为即将出版的书籍设计的内容。此处的内容使用{@book 2024玩家手册|XPHB}中的规则。",
+						{
+							"ENG_name": "Learn More on YouTube",
+							"name": "在 YouTube 上了解更多",
+							"type": "inset",
+							"page": 1,
+							"entries": [
+								"要了解更多关于本文中的设计，我们邀请您在 YouTube 上观看相关视频（{@link www.youtube.com/DNDWizards}）。"
+							]
+						},
+						{
+							"ENG_name": "What's Inside",
+							"name": "这里有什么",
+							"type": "section",
+							"page": 1,
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"page": 1,
+									"items": [
+										{
+											"ENG_name": "Artificer",
+											"name": "奇械师",
+											"type": "item",
+											"entries": [
+												"奇械师职业再次出现，自其上次在破解奥秘中出现以来进行了一些更新。"
+											]
+										},
+										{
+											"ENG_name": "New Subclass: Cartographer",
+											"name": "新子职：制图师",
+											"type": "item",
+											"entries": [
+												"奇械师的一个新子职，制图师，为奇械师提供了展示其独创性的新方式。"
+											]
+										},
+										{
+											"ENG_name": "Additional Magic Options",
+											"name": "额外魔法选项",
+											"type": "item",
+											"entries": [
+												"与奇械师兼容的新法术和新魔法物品的更新版本在这里呈现。"
+											]
+										},
+										{
+											"ENG_name": "Dragonmarks",
+											"name": "龙纹",
+											"type": "item",
+											"entries": [
+												"还包括一系列专长，提供了一种加入艾伯伦龙纹家族的新方式。这些专长允许任何种族的角色获取并提升他们的龙纹。如果这些专长成为官方内容，代表角色联系的背景将在未来的书中与这些专长一同发布，但在此期间，选择房产代理背景的角色可以选择一个龙纹专长，任何角色在其职业通常允许选择专长时都可以选择这些专长之一。"
+											]
+										}
+									]
+								},
+								{
+									"ENG_name": "This Is Playtest Material",
+									"name": "本材料为游玩测试内容",
+									"type": "inset",
+									"page": 1,
+									"entries": [
+										"本文旨在进行游戏测试和反馈。这里的选项是实验性的且处于草稿形态。它们并非游戏的官方部分。您的反馈将协助我们决定是否将其采纳为官方。",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"page": 1,
+											"items": [
+												{
+													"ENG_name": "How to Playtest This UA",
+													"name": "如何游玩测试本破解奥秘",
+													"type": "item",
+													"entries": [
+														"我们邀请您在游戏中尝试这些材质。要使用这些材质，您可以将它们融入您的战役中，或者进行一次或多次特殊的试玩测试会话。对于这样的会话，您可以创建自己的冒险，或者使用来自类似{@adventure 来自无尽阶梯的委托集|QftIS}这样的来源的短冒险。"
+													]
+												},
+												{
+													"ENG_name": "Power Level",
+													"name": "威力水平",
+													"type": "item",
+													"entries": [
+														"你在这里阅读的角色选项可能比{@book 2024玩家手册|XPHB}中的选项威力更强或更弱。如果一个设计在游戏测试中存活下来，我们会在发布前将其威力调整到理想水平。这意味着一个选项在其最终形态中可能威力更强或更弱。"
+													]
+												},
+												{
+													"ENG_name": "Feedback",
+													"name": "反馈",
+													"type": "item",
+													"entries": [
+														"您就这份材质向我们提供反馈的最佳方式是通过我们将在D&D Beyond上发布的调查。如果我们使这份材质成为官方版本，它将根据您的反馈进行完善，然后会出现在一本D&D书中。",
+														"对本文件提供反馈是您协助塑造D&D未来的一种方式！"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ENG_name": "Artificer",
+							"name": "奇械师",
+							"type": "section",
+							"page": 1,
+							"entries": [
+								"{@i 魔法工匠与奇迹发明家}",
+								"发明大师，奇械师运用巧思与魔法来解锁物件中的非凡能力。他们将魔法视为等待解码的复杂系统，然后将其运用在他们的法术和发明中。你可以在接下来的几个章节中找到扮演这些发明家所需的一切。",
+								{
+									"ENG_name": "Core Artificer Traits",
+									"name": "奇械师核心特质",
+									"type": "statblock",
+									"tag": "table",
+									"source": "XUA2024Artificer",
+									"page": 1
+								},
+								{
+									"ENG_name": "Becoming an Artificer...",
+									"name": "成为奇械师...",
+									"type": "entries",
+									"page": 1,
+									"entries": [
+										{
+											"ENG_name": "As a Level 1 Character",
+											"name": "作为1级角色",
+											"type": "list",
+											"page": 1,
+											"items": [
+												"获得核心奇械师特质表格中的所有特质。",
+												"获得奇械师的1级特性，这些特性列于奇械师特性表格中。"
+											]
+										},
+										{
+											"ENG_name": "As a Multiclass Character",
+											"name": "作为兼职角色",
+											"type": "list",
+											"page": 1,
+											"items": [
+												"从{@table 奇械师核心特质|XUA2024Artificer}表格中获得以下特质：生命值骰、{@item 修补工具|XPHB}的熟练项、从奇械师技能列表中选择一个技能的熟练项，以及轻甲、中甲和盾牌的训练。",
+												"获得奇械师的1级特性，这些特性列于奇械师特性表格中。参阅{@book 玩家手册|XPHB|2|兼职}中的兼职规则以确定你的可用法术位，加上你奇械师等级的一半（向上取整）。"
+											]
+										}
+									]
+								},
+								{
+									"ENG_name": "Artificer Class Features",
+									"name": "奇械师职业特性",
+									"type": "entries",
+									"page": 2,
+									"entries": [
+										"作为一名奇械师，当达到指定的奇械师等级时，你将获得以下职业特性。这些特性列于奇械师特性表格中。",
+										{
+											"ENG_name": "Design Note: Artificer Updates",
+											"name": "设计笔记：奇械师更新",
+											"type": "inset",
+											"page": 2,
+											"entries": [
+												"以下是该职业自上次在{@book 破解奥秘|XUA2024Artificer}中出现以来的主要更新：",
+												{
+													"type": "list",
+													"page": 2,
+													"items": [
+														{
+															"ENG_name": "Tinker's Magic",
+															"name": "修补匠的魔法",
+															"type": "item",
+															"nameDot": false,
+															"entries": [
+																"（原为{@classFeature 魔法工艺|奇械师|XUA2024Artificer|1|XUA2024Artificer}）现在给予{@spell 修复术|XPHB}戏法，且使用此特性创造的物品持续至你完成一次长休。"
+															]
+														},
+														{
+															"ENG_name": "Replicate Magic Item",
+															"name": "仿制魔法物品",
+															"type": "item",
+															"nameDot": false,
+															"entries": [
+																"的表格已修订。你现在可以使用此特性创造的{@item 魔杖|XPHB}或武器作为{@variantrule 法器|XPHB}。"
+															]
+														},
+														{
+															"ENG_name": "Magic Item Tinker",
+															"name": "魔法物品工艺师",
+															"type": "item",
+															"nameDot": false,
+															"entries": [
+																"已扩展为允许你通过消耗法术位来为魔法物品充能，并将一个魔法物品转变为不同的物品。"
+															]
+														},
+														{
+															"ENG_name": "Soul of Artifice",
+															"name": "奇械之魂",
+															"type": "item",
+															"nameDot": false,
+															"entries": [
+																"现在允许你解离任意数量的物品来增加恢复的生命值数值，并使{@classFeature 灵光一闪|奇械师|XUA2024Artificer|7|XUA2024Artificer}的使用更加可靠。"
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"ENG_name": "Artificer",
+											"name": "奇械师",
+											"type": "statblock",
+											"tag": "class",
+											"source": "XUA2025EberronUpdates",
+											"page": 2
+										}
+									]
+								},
+								{
+									"ENG_name": "Artificer Spell List",
+									"name": "奇械师法术列表",
+									"type": "entries",
+									"page": 5,
+									"entries": [
+										"本节呈现奇械师法术列表。法术按法术环阶组织，然后按字母顺序排列，并列出每个法术的魔法学派。在特殊列中，{@i C} 表示该法术需要{@status 专注|XPHB}，{@i R} 表示它是一个{@variantrule 仪式|XPHB}，{@i M} 表示它需要特定的材料成分。",
+										{
+											"ENG_name": "Artificer Spell List",
+											"name": "奇械师法术列表",
+											"type": "statblock",
+											"tag": "table",
+											"source": "XUA2025EberronUpdates",
+											"page": 5
+										}
+									]
+								}
+							]
+						},
+						{
+							"ENG_name": "Artificer Subclass",
+							"name": "奇械师子职",
+							"type": "section",
+							"page": 6,
+							"entries": [
+								"奇械师子职是一种专业化，在特定奇械师等级授予你特性，如子职中所述。本节介绍一个新的子职：{@subclass 制图师|奇械师|XUA2025艾伯伦更新|XUA2025艾伯伦更新}。",
+								{
+									"ENG_name": "Cartographer",
+									"name": "制图师",
+									"type": "entries",
+									"page": 6,
+									"entries": [
+										"{@i 绘制动荡中的优势航线}",
+										{
+											"ENG_name": "Cartographer",
+											"name": "制图师",
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025EberronUpdates",
+											"className": "奇械师",
+											"classSource": "XUA2025艾伯伦更新",
+											"page": 6
+										}
+									]
+								}
+							]
+						},
+						{
+							"ENG_name": "Spells",
+							"name": "法术",
+							"type": "section",
+							"page": 7,
+							"entries": [
+								"法术按字母顺序排列。",
+								{
+									"ENG_name": "Homunculus Servant",
+									"name": "人工生命仆从",
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2024Artificer",
+									"page": 7
+								}
+							]
+						},
+						{
+							"ENG_name": "Magic Items",
+							"name": "魔法物品",
+							"type": "section",
+							"page": 8,
+							"entries": [
+								"魔法物品按字母顺序排列。",
+								{
+									"ENG_name": "Boots of the Winding Path",
+									"name": "折返之靴",
+									"type": "statblock",
+									"tag": "item",
+									"source": "XUA2024Artificer",
+									"page": 8
+								},
+								{
+									"ENG_name": "Helm of Awareness",
+									"name": "警觉之盔",
+									"type": "statblock",
+									"tag": "item",
+									"source": "XUA2024Artificer",
+									"page": 8
+								},
+								{
+									"ENG_name": "Manifold Tool",
+									"name": "百变工具",
+									"type": "statblock",
+									"tag": "item",
+									"source": "XUA2025EberronUpdates",
+									"page": 8
+								},
+								{
+									"ENG_name": "Mind Sharpener",
+									"name": "思维砥石",
+									"type": "statblock",
+									"tag": "item",
+									"source": "XUA2024Artificer",
+									"page": 8
+								},
+								{
+									"ENG_name": "Radiant Weapon",
+									"name": "光耀武器",
+									"type": "statblock",
+									"tag": "item",
+									"source": "XUA2024Artificer",
+									"page": 8
+								},
+								{
+									"ENG_name": "Repeating Shot",
+									"name": "连射武器",
+									"type": "statblock",
+									"tag": "item",
+									"source": "XUA2024Artificer",
+									"page": 8
+								},
+								{
+									"ENG_name": "Repulsion Shield",
+									"name": "斥力之盾",
+									"type": "statblock",
+									"tag": "item",
+									"source": "XUA2024Artificer",
+									"page": 8
+								},
+								{
+									"ENG_name": "Returning Weapon",
+									"name": "回力武器",
+									"type": "statblock",
+									"tag": "item",
+									"source": "XUA2024Artificer",
+									"page": 8
+								},
+								{
+									"ENG_name": "Spell-Refueling Ring",
+									"name": "法力恢复戒指",
+									"type": "statblock",
+									"tag": "item",
+									"source": "XUA2024Artificer",
+									"page": 8
+								}
+							]
+						},
+						{
+							"ENG_name": "Feats",
+							"name": "专长",
+							"type": "section",
+							"page": 9,
+							"entries": [
+								"本节介绍了二十八个新专长。",
+								{
+									"ENG_name": "Feat List",
+									"name": "专长列表",
+									"type": "statblock",
+									"tag": "table",
+									"source": "XUA2025EberronUpdates",
+									"page": 9
+								},
+								{
+									"ENG_name": "Dragonmark Feats",
+									"name": "龙纹专长",
+									"type": "entries",
+									"page": 9,
+									"entries": [
+										"这些专长属于龙纹类别。",
+										{
+											"ENG_name": "Aberrant Dragonmark",
+											"name": "异种龙纹",
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"page": 9
+										},
+										{
+											"ENG_name": "Mark of Detection",
+											"name": "侦测龙纹",
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"page": 9
+										},
+										{
+											"ENG_name": "Mark of Finding",
+											"name": "探索龙纹",
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"page": 10
+										},
+										{
+											"ENG_name": "Mark of Handling",
+											"name": "畜牧龙纹",
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"page": 10
+										},
+										{
+											"ENG_name": "Mark of Healing",
+											"name": "医疗龙纹",
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"page": 10
+										},
+										{
+											"ENG_name": "Mark of Hospitality",
+											"name": "招待龙纹",
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"page": 11
+										},
+										{
+											"ENG_name": "Mark of Making",
+											"name": "创造龙纹",
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"page": 11
+										},
+										{
+											"ENG_name": "Mark of Passage",
+											"name": "通行龙纹",
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"page": 11
+										},
+										{
+											"ENG_name": "Mark of Scribing",
+											"name": "抄录龙纹",
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"page": 11
+										},
+										{
+											"ENG_name": "Mark of Sentinel",
+											"name": "守护龙纹",
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"page": 12
+										},
+										{
+											"ENG_name": "Mark of Shadow",
+											"name": "阴影龙纹",
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"page": 12
+										},
+										{
+											"ENG_name": "Mark of Storm",
+											"name": "暴风龙纹",
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"page": 12
+										},
+										{
+											"ENG_name": "Mark of Warding",
+											"name": "警戒龙纹",
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"page": 13
+										}
+									]
+								},
+								{
+									"ENG_name": "General Feats",
+									"name": "通用专长",
+									"type": "entries",
+									"page": 13,
+									"entries": [
+										"这些新专长属于通用类别。",
+										{
+											"ENG_name": "Greater Aberrant Mark",
+											"name": "高等异种纹",
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"page": 13
+										},
+										{
+											"ENG_name": "Greater Mark of Detection",
+											"name": "高等侦测之纹",
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"page": 13
+										},
+										{
+											"ENG_name": "Greater Mark of Finding",
+											"name": "高等探索之纹",
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"page": 13
+										},
+										{
+											"ENG_name": "Greater Mark of Handling",
+											"name": "高等畜牧之纹",
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"page": 13
+										},
+										{
+											"ENG_name": "Greater Mark of Healing",
+											"name": "高等医疗之纹",
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"page": 14
+										},
+										{
+											"ENG_name": "Greater Mark of Hospitality",
+											"name": "高等招待之纹",
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"page": 14
+										},
+										{
+											"ENG_name": "Greater Mark of Making",
+											"name": "高等创造之纹",
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"page": 14
+										},
+										{
+											"ENG_name": "Greater Mark of Passage",
+											"name": "高等通行之纹",
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"page": 14
+										},
+										{
+											"ENG_name": "Greater Mark of Scribing",
+											"name": "高等抄录之纹",
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"page": 14
+										},
+										{
+											"ENG_name": "Greater Mark of Sentinel",
+											"name": "高等守护之纹",
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"page": 14
+										},
+										{
+											"ENG_name": "Greater Mark of Shadow",
+											"name": "高等阴影之纹",
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"page": 15
+										},
+										{
+											"ENG_name": "Greater Mark of Storm",
+											"name": "高等风暴之纹",
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"page": 15
+										},
+										{
+											"ENG_name": "Greater Mark of Warding",
+											"name": "高等警戒之纹",
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"page": 15
+										},
+										{
+											"ENG_name": "Potent Dragonmark",
+											"name": "强效龙纹",
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"page": 15
+										}
+									]
+								},
+								{
+									"ENG_name": "Epic Boon Feats",
+									"name": "传奇恩惠专长",
+									"type": "entries",
+									"page": 15,
+									"entries": [
+										"该专长属于传奇恩惠类别。",
+										{
+											"ENG_name": "Boon of Siberys",
+											"name": "西伯瑞斯之恩惠",
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"page": 15
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

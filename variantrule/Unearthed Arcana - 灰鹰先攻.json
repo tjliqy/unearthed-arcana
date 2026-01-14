@@ -1,0 +1,284 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAGreyhawkInitiative",
+				"abbreviation": "UAGHI",
+				"full": "破解奥秘：灰鹰先攻",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2017/dnd/downloads/UAGreyhawkInitiative.pdf",
+				"dateReleased": "2017-07-10"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1729637619,
+		"_dateLastModifiedHash": "ff918e7317"
+	},
+	"variantrule": [
+		{
+			"ENG_name": "Greyhawk Initiative",
+			"name": "灰鹰先攻",
+			"source": "UAGreyhawkInitiative",
+			"page": 1,
+			"ruleType": "VO",
+			"type": "section",
+			"entries": [
+				{
+					"ENG_name": "Overview",
+					"name": "概述",
+					"type": "entries",
+					"entries": [
+						"灰鹰先攻变体制定了以下规则，这些规则取代了标准先攻系统。",
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"ENG_name": "Rounds",
+									"name": "回合",
+									"type": "entries",
+									"entries": [
+										"战斗被组织成回合。每回合，参与战斗的每个人都有机会移动且采取动作，如同标准先攻。但效应的持续时间以回合计量，而非在特定生物的回合中结束。"
+									]
+								},
+								{
+									"ENG_name": "Variable Turn Order",
+									"name": "可变回合秩序",
+									"type": "entries",
+									"entries": [
+										"每轮，参与战斗的每个生物都需掷先攻。生物采取回合的顺序每轮都会变化，使得战斗中的事件发展难以预测。"
+									]
+								},
+								{
+									"ENG_name": "Initiative Dice",
+									"name": "先攻骰子",
+									"type": "entries",
+									"entries": [
+										"不同于创造{@dice d20}掷骰来决定先攻，角色和怪物可能会掷骰多种先攻骰子\u2014\u2014通常是{@dice d4}到{@dice d10}。如果你掷骰超过一个先攻骰子，你需要将结果相加来决定你的先攻。你所掷骰的先攻骰子的数量和生物类型取决于你希望你的角色在下一轮中进行的活动类型。"
+									]
+								},
+								{
+									"ENG_name": "Initiative Count",
+									"name": "先攻值",
+									"type": "entries",
+									"entries": [
+										"在标准系统中，先攻较高的生物每轮有机会在先攻较低的生物之前行动。在这个变体系统中，{@b 先攻现在从低到高等}。先攻掷骰较低的生物可以在战斗中先于先攻掷骰较高的生物行动。"
+									]
+								},
+								{
+									"ENG_name": "Order of Operations",
+									"name": "操作顺序",
+									"type": "entries",
+									"entries": [
+										"这些规则使得某些动作更有可能在一轮中较早发生，而其他动作则较晚发生。远程火力通常最先发生，近战攻击次之，施法最后。不过这只是总体模式，并非铁律。与标准先攻系统一样，骰子的吉兆总是决定战斗人员何时行动。"
+									]
+								}
+							]
+						},
+						{
+							"ENG_name": "Rounds",
+							"name": "回合",
+							"type": "entries",
+							"entries": [
+								"在此系统下的战斗被划分为回合，每个回合仍代表大约6秒的动作时间。",
+								{
+									"ENG_name": "Durations",
+									"name": "持续时间",
+									"type": "entries",
+									"entries": [
+										"任何通常持续到回合结束的效应改为持续到该回合所在轮的结束。同样地，任何通常持续到回合开始的效应现在持续到该回合所在轮的开始。如果效应结束的顺序因某些原因很重要，则为每个效应掷一个{@dice d20}（数值相同则重掷）。掷出最低数值的效应最先结束，其他效应按结果从低到高的顺序依次结束。"
+									]
+								}
+							]
+						},
+						{
+							"ENG_name": "Surprise",
+							"name": "突袭",
+							"type": "entries",
+							"entries": [
+								"一个{@quickref 突袭|PHB|3|0|突袭}的生物在其先攻结果上增加+10且在被{@quickref 突袭|PHB|3|0|突袭}时无法做出反应。一个生物被{@quickref 突袭|PHB|3|0|突袭}的状态会持续到其被{@quickref 突袭|PHB|3|0|突袭}的那一轮结束。"
+							]
+						},
+						{
+							"ENG_name": "Determine Action Order",
+							"name": "确定行动顺序",
+							"type": "entries",
+							"entries": [
+								"在一轮开始前，每个参与战斗的生物决定它想要做什么并掷先攻。你选择的动作决定了你掷哪些先攻骰子。",
+								"动作按速度分解。因为较低的先攻值允许生物更快行动，快速或简易动作使用较小的骰子且更复杂的动作使用较大的骰子。",
+								"当投掷先攻时，你掷出所有代表你动作的骰子，然后将结果相加。你不会在此掷骰上添加任何调整值（包括你的敏捷调整值）。",
+								{
+									"type": "table",
+									"caption": "先攻骰子",
+									"colLabels": [
+										"迪",
+										"动作"
+									],
+									"colStyles": [
+										"col-3",
+										"col-9"
+									],
+									"rows": [
+										[
+											"{@dice d4}",
+											"远程攻击"
+										],
+										[
+											"{@dice d6}",
+											"移动"
+										],
+										[
+											"",
+											"更换装备"
+										],
+										[
+											"",
+											"其他动作"
+										],
+										[
+											"{@dice d8}",
+											"近战攻击"
+										],
+										[
+											"{@dice d10}",
+											"施展法术"
+										]
+									]
+								},
+								{
+									"ENG_name": "Multiple Dice",
+									"name": "多个骰子",
+									"type": "entries",
+									"entries": [
+										"角色掷多个骰子决定先攻是常见情况。若你想向敌人移动并进行近战攻击，你需要掷{@dice 1d6}决定移动力并掷{@dice 1d8}决定攻击。最终结果即为你的先攻值。"
+									]
+								},
+								{
+									"ENG_name": "Variant: Weapon Speed",
+									"name": "变体：武器速度",
+									"type": "inset",
+									"entries": [
+										"如果你想在花费速度的情况下为武器添加更多区别，请将远程攻击掷{@dice d4}和近战攻击掷{@dice d8}替换为以下内容：",
+										"当决定先攻时，使用武器攻击的生物投掷等同于该武器伤害骰子数量的先攻骰子。使用{@table 武器|PHB}表格中列出的基础伤害（来自{@book 玩家手册|PHB}第五章），忽略法术、魔法效应、专长等提供的额外伤害。"
+									]
+								},
+								{
+									"ENG_name": "Bonus Actions",
+									"name": "附赠动作",
+									"type": "entries",
+									"entries": [
+										"如果你想在你的回合中使用一个附赠动作，你需要掷一个与你计划用附赠动作执行的动作类型相对应的额外骰子。该骰子会与你为移动力和正常动作所掷的任何骰子相加。"
+									]
+								},
+								{
+									"ENG_name": "Multiple Actions",
+									"name": "多重动作",
+									"type": "entries",
+									"entries": [
+										"如果一个效应授予你一个额外的动作而不需要使用附赠动作，你只需为你计划采取的动作之一掷一个先攻骰。使用与你计划采取的动作中任一动作对应的最大骰子。"
+									]
+								},
+								{
+									"ENG_name": "Reactions and Forced Activities",
+									"name": "反应与强制活动",
+									"type": "entries",
+									"entries": [
+										"先攻仅覆盖你在自己回合中采取的动作，因此使用反应对你的先攻无效果。除非有属性赋予你更多反应，否则你每轮可以如常采取一个反应。同样，任何你被迫在自己回合外（通常是响应另一个生物的动作）进行的活动对你的先攻无效果。"
+									]
+								},
+								{
+									"ENG_name": "Delaying",
+									"name": "延迟",
+									"type": "entries",
+									"entries": [
+										"你不能在这些规则下使用{@action 预备}动作，但你可以选择延迟你的回合。你不在你的先攻值上行动，而是在另一个先攻值上行动，在你选择的其他生物之前或之后。如果超过一个生物选择延迟，每个生物的原始先攻值需要被记录。每当一个延迟的生物决定行动时，另一个先攻值较低的延迟生物可以决定立即在它之前行动。"
+									]
+								},
+								{
+									"ENG_name": "Swapping Gear",
+									"name": "更换装备",
+									"type": "entries",
+									"entries": [
+										"如果你想收起或放下武器，你需要为你的先攻额外掷一个{@dice 1d6}。你可以在你的回合中任何时候决定交换装备。"
+									]
+								}
+							]
+						},
+						{
+							"ENG_name": "Creatures Unable to Act",
+							"name": "无法行动的生物",
+							"type": "entries",
+							"entries": [
+								"任何无法执行动作的生物（很可能是因为它处于{@condition 失能}状态）不需要掷先攻。此类生物必须解决的任何效应，例如死亡豁免检定，将在该轮结束时解决。"
+							]
+						},
+						{
+							"ENG_name": "Choosing Another Creature's Actions",
+							"name": "选择另一个生物的动作",
+							"type": "entries",
+							"entries": [
+								"如果你处于能够选择另一个生物在其回合中采取的动作的位置（例如，如果你已成功用{@spell 支配怪物}法术瞄准该生物），你需要为你计划让该生物采取的动作掷先攻，然后将该结果添加到你的先攻中。最终结果是该生物的先攻。",
+								"通用情况下，如果一个效应导致一个生物改变其动作且它尚未进行回合，该生物重新掷先攻并将结果加到触发变化的生物或效应的先攻上。"
+							]
+						},
+						{
+							"ENG_name": "Action Declaration and Resolution",
+							"name": "动作宣告与决议",
+							"type": "entries",
+							"entries": [
+								"在一轮开始时，每个战斗员为该轮选择动作。在此阶段，动作不需要比确定先攻掷骰所需的更多细节。一个角色可以计划施放法术，但尚不需要选择特定法术或目标。一个计划移动的角色不需要心中有目的地。",
+								"在其回合中，每个战斗员为其选定的动作选择特定的目标、法术等。唯一的限制是生物不能选择其先攻掷骰未涵盖的动作。因此，你可能会发现随着动作的展开，你需要改变计划的细节\u2014\u2014这意味着在选择掷骰动作时，通常需要给自己留出选择余地。"
+							]
+						},
+						{
+							"ENG_name": "Ties",
+							"name": "数值相同",
+							"type": "entries",
+							"entries": [
+								"如果两个生物的先攻数值相同，这些生物按敏捷秩序行动，敏捷最高的生物第一行动。如果两个生物的敏捷相同，随机掷骰决定哪个生物先行动。"
+							]
+						},
+						{
+							"ENG_name": "Variant: Spell Disruption",
+							"name": "变体：法术瓦解",
+							"type": "inset",
+							"entries": [
+								"为了增加AD&D风味，你可以引入法术瓦解规则。根据此规则，如果一个想要施展法术的生物在能够行动之前的一轮中受到伤害，则它在其回合中只能施展戏法。"
+							]
+						},
+						{
+							"ENG_name": "Special Rules",
+							"name": "特殊规则",
+							"type": "entries",
+							"entries": [
+								"某些效应可以改变游戏中的先攻掷骰。",
+								{
+									"ENG_name": "Initiative Bonuses or Penalties",
+									"name": "先攻加值或减值",
+									"type": "entries",
+									"entries": [
+										"虽然此系统不会将生物的敏捷调整值应用于其先攻掷骰，但其他效应可以改变先攻。如果一个效应在标准系统中会为你的先攻掷骰提供附赠动作，则改为缩小你为先攻掷的一个骰子的体型，使得{@dice d6}变为{@dice d4}，{@dice d4}变为{@dice d3}，以此类推。若为先攻惩罚，则应用相反过程，改为增大所掷一个骰子的体型。"
+									]
+								},
+								{
+									"ENG_name": "Advantage or Disadvantage",
+									"name": "优势或劣势",
+									"type": "entries",
+									"entries": [
+										"如果一个效应在标准系统中会给予你在先攻掷骰上的优势或劣势，你将其应用于你掷出的最大的先攻骰子（或者如果你掷出多个相同生物类型的骰子，则应用于其中一个先攻骰子）。掷两次先攻骰子，如果你有优势则使用较低的掷骰结果，如果你有劣势则使用较高的掷骰结果。"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

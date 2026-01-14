@@ -1,0 +1,1214 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UA2022HeroesOfKrynnRevisited",
+				"abbreviation": "UA22HoKR",
+				"full": "破解奥秘：2022克莱恩英雄重访",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2022/dnd/downloads/UA2022-HeroesofKrynnRevisited.pdf",
+				"dateReleased": "2022-04-25"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1729637619,
+		"_dateLastModifiedHash": "efed978fe3"
+	},
+	"background": [
+		{
+			"ENG_name": "Knight of Solamnia",
+			"name": "索兰尼亚骑士",
+			"source": "UA2022HeroesOfKrynnRevisited",
+			"page": 2,
+			"feats": [
+				{
+					"squire of solamnia|ua2022heroesofkrynnrevisited": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"athletics": true,
+					"survival": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 2
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"special": "构建索兰尼亚骑士"
+						},
+						{
+							"special": "一套卡牌"
+						},
+						"普通服装|phb",
+						{
+							"item": "小包|phb",
+							"containsValue": 1000
+						}
+					]
+				}
+			],
+			"fromFeature": {
+				"feats": true
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Skill Proficiencies:",
+							"name": "技能熟练项：",
+							"type": "item",
+							"entry": "{@skill 运动}, {@skill 求生}"
+						},
+						{
+							"ENG_name": "Languages:",
+							"name": "语言",
+							"type": "item",
+							"entry": "任选两项"
+						},
+						{
+							"ENG_name": "Equipment:",
+							"name": "装备：",
+							"type": "item",
+							"entry": "构建索兰尼亚骑士，一套卡牌，一套{@item 普通服装|phb}，以及一个{@item 小包|phb}，内装10GP"
+						}
+					]
+				},
+				{
+					"ENG_name": "Feature: Squire of Solamnia",
+					"name": "特性：索兰尼亚侍从",
+					"type": "entries",
+					"entries": [
+						"你获得{@feat 索拉尼亚侍从|UA2022HeroesOfKrynnRevisited}专长。",
+						"此外，你在索兰尼亚所属的任何堡垒或营地处都可以得到免费的食物和住宿。"
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"ENG_name": "Building a Knight of Solamnia Character",
+					"name": "构建索兰尼亚骑士",
+					"type": "entries",
+					"entries": [
+						"任何拥有军事实力的职业或子职都可以很好地融入索兰尼亚骑士团。战士和圣武士构成了骑士团的主力部队。牧师（通常选择战争领域）也可以在骑士们的行列中找到。",
+						"对于索兰尼亚骑士角色的一个更不寻常的演绎，可以考虑扮演一个勇气学院的吟游诗人（或来自姗娜萨的《万物指南》中的剑舞学院）或一个致力于自然神哈巴库克理想的野蛮人（或许采用来自姗娜萨的《万物指南》中的狂热者路途）。",
+						{
+							"ENG_name": "Suggested Characteristics",
+							"name": "建议人物特征",
+							"type": "entries",
+							"entries": [
+								"致力于保护无辜者且维护高尚美德的冒险者会受到索兰尼亚骑士团的欢迎。索兰尼亚骑士特点表格为你提供了角色可能采用的各种特质。",
+								{
+									"type": "table",
+									"caption": "索兰尼亚骑士个性特点",
+									"colLabels": [
+										"d6",
+										"特点"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											"1",
+											"我以剑立誓效忠大义。若我必须为追求善良而死，那就这样吧。"
+										],
+										[
+											"2",
+											"我的战友就是我的家人。我会不惜一切代价保护它们的安全。"
+										],
+										[
+											"3",
+											"保护无辜者第一。所有其他考虑第二。"
+										],
+										[
+											"4",
+											"我加入索兰尼亚骑士们是为了免费餐食，但他们的教诲随着时间的推移逐渐影响了我。"
+										],
+										[
+											"5",
+											"我希望我的事迹能成为传说\u2014\u2014就像骑士团英勇创始人的事迹一样。"
+										],
+										[
+											"6",
+											"一次不光彩的行为驱使我成为一名骑士。自那以后，我一直以荣誉行事。"
+										]
+									]
+								}
+							]
+						},
+						{
+							"ENG_name": "Knight of Solamnia Trinkets",
+							"name": "索兰尼亚骑士饰品",
+							"type": "entries",
+							"entries": [
+								"当你创建角色时，你可以掷骰一次索兰尼亚骑士饰品表，而不是玩家手册中的饰品表，来获取你的起始饰品。",
+								{
+									"type": "table",
+									"caption": "索兰尼亚骑士饰品",
+									"colLabels": [
+										"d6",
+										"饰品"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											"1",
+											"一个光滑的银盘，用于记录你的英雄事迹。"
+										],
+										[
+											"2",
+											"一小块牺牲战友留下的铠甲碎片。"
+										],
+										[
+											"3",
+											"一个饰有王冠、玫瑰、剑或三者组合的挂坠"
+										],
+										[
+											"4",
+											"一块柄头，来源于你导师的剑。"
+										],
+										[
+											"5",
+											"从被你保护者处收下的一件信物，可能是手帕或手套。"
+										],
+										[
+											"6",
+											"一个黄铜吊坠，里面有一幅银龙的素描"
+										]
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Mage of High Sorcery",
+			"name": "高等术法会法师",
+			"source": "UA2022HeroesOfKrynnRevisited",
+			"page": 3,
+			"feats": [
+				{
+					"initiate of high sorcery|ua2022heroesofkrynnrevisited": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"arcana": true,
+					"history": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 2
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						"墨水(1盎司/瓶)|phb",
+						"墨水笔|phb",
+						"普通服装|phb",
+						{
+							"item": "小包|phb",
+							"containsValue": 1000
+						}
+					]
+				}
+			],
+			"fromFeature": {
+				"feats": true
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Skill Proficiencies:",
+							"name": "技能熟练项：",
+							"type": "item",
+							"entry": "{@skill 奥秘}, {@skill 历史}"
+						},
+						{
+							"ENG_name": "Languages:",
+							"name": "语言",
+							"type": "item",
+							"entry": "任选两项"
+						},
+						{
+							"ENG_name": "Equipment:",
+							"name": "装备：",
+							"type": "item",
+							"entry": "一瓶 {@item 墨水(1盎司/瓶)|phb|一瓶彩色墨水}，一支{@item 墨水笔|phb}，一套{@item 普通服装|phb}，以及一个装有10 gp的 {@item 小包|phb}"
+						}
+					]
+				},
+				{
+					"ENG_name": "Feature: Initiate of High Sorcery",
+					"name": "特性：高等术法学徒",
+					"type": "entries",
+					"entries": [
+						"你获得{@feat 高等术法学徒|UA2022HeroesOfKrynnRevisited}专长。",
+						"大法师的成员可以在大法师塔得到免费的食物和住宿，也可以在其他大法师的家中借宿一宿。"
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"ENG_name": "Building a Mage of High Sorcery Character",
+					"name": "构建大法师塔的巫师",
+					"type": "entries",
+					"entries": [
+						"大法师通常欢迎吟游诗人，法师以及魔契师，任何子职都可以。通过奉献，或是天生就拥有魔法能力的施法者并不受传统的法师欢迎。但精明的大法师们也鲜少会错过这些拥有天赋的个体。即使是略通法术的战士们，也可能在大法师的三条道路中找到自己的位置。",
+						{
+							"ENG_name": "Suggested Characteristics",
+							"name": "建议人物特征",
+							"type": "entries",
+							"entries": [
+								"对魔法的研究驱使着高等术法会法师们。考虑一下你渴望加入该团体的三个命令中的哪一个。高等术法会法师个性特点表格为你提供了可能适用于角色的特质建议。",
+								{
+									"type": "table",
+									"caption": "高等术法会法师个性特点",
+									"colLabels": [
+										"d6",
+										"特点"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											"1",
+											"我希望能用我的魔法知识来改善人们的生活。"
+										],
+										[
+											"2",
+											"我对魔法的研究可能揭示所有种类的秘密。"
+										],
+										[
+											"3",
+											"魔法是通往法力的手段，且我将随意用它来追求我的野心。"
+										],
+										[
+											"4",
+											"我学习魔法是为了能够保护我所关心的人。"
+										],
+										[
+											"5",
+											"我使用我的魔法来维护所有事物之间的平衡。"
+										],
+										[
+											"6",
+											"无论是过去、现在还是未来，我都将成为有史以来最伟大的魔法师。"
+										]
+									]
+								}
+							]
+						},
+						{
+							"ENG_name": "Mage of High Sorcery Trinkets",
+							"name": "大法师塔的巫师饰品",
+							"type": "entries",
+							"entries": [
+								"当你创建角色时，你可以掷骰一次高等术法会法师饰品表，而不是玩家手册中的饰品表，来获取你的初始饰品。",
+								{
+									"type": "table",
+									"caption": "大法师塔的巫师饰品",
+									"colLabels": [
+										"d6",
+										"饰品"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											"1",
+											"一份未开封的信，来自你的启蒙导师。"
+										],
+										[
+											"2",
+											"一份未开封的信，来自你的启蒙导师。"
+										],
+										[
+											"3",
+											"一份卷轴，上面写有一个难解的魔法公式"
+										],
+										[
+											"4",
+											"一个镶有宝石的奇异装置，可以折叠出神秘的形状。"
+										],
+										[
+											"5",
+											"一个小包或法术书，上面饰有高等术法会魔法师们的三重月亮徽记"
+										],
+										[
+											"6",
+											"一块能洞见不可视黑月-努塔瑞Nuitari的镜片。"
+										]
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ENG_name": "Mages of Dragonlance",
+					"name": "龙枪魔法师们",
+					"type": "inset",
+					"entries": [
+						"在过去对龙枪设定的介绍中，地下城与龙的现代施法职业并不存在。为了适应这些职业，被称为高等术法会法师的团体已演变为高等术法会魔法师们。该团体的独特命令和招牌长袍依然存在，但该组织现在接受来自广泛施法传统范围的成员。"
+					]
+				}
+			],
+			"hasFluff": true
+		}
+	],
+	"backgroundFluff": [
+		{
+			"ENG_name": "Knight of Solamnia",
+			"name": "索兰尼亚骑士",
+			"source": "UA2022HeroesOfKrynnRevisited",
+			"entries": [
+				"你被训练成为一名勇敢的战士，被称为索兰尼亚骑士。严格的规则指导你的每一个行动，你在努力维护这些规则的同时，致力于保护弱者和反对邪恶。你的荣誉对你来说就像生命一样重要。"
+			]
+		},
+		{
+			"ENG_name": "Mage of High Sorcery",
+			"name": "高等术法会法师",
+			"source": "UA2022HeroesOfKrynnRevisited",
+			"entries": [
+				"你的魔法天赋引起了高等术法会法师们的注意，这是一个研究魔法且防止其被滥用的施法者组织。你曾在高等术法会法师中接受训练，但你是否会面对成为该组织真正成员所需的危险测试仍有待确定。你对研究魔法的激情可能已经使你倾向于该组织的三个秩序之一：仁慈的白袍长袍秩序、追求平衡的红袍长袍秩序或无情的漆黑长袍秩序。",
+				"在克莱恩世界中，许多人将高阶魔法师称为高阶法师。然而，这个组织不仅仅接受法师，还包括了术师、魔契师以及其他施法者在他们的行列中。"
+			]
+		}
+	],
+	"race": [
+		{
+			"ENG_name": "Kender",
+			"name": "坎德人",
+			"source": "UA2022HeroesOfKrynnRevisited",
+			"page": 1,
+			"reprintedAs": [
+				"坎德人|DSotDQ"
+			],
+			"lineage": "VRGR",
+			"size": [
+				"S"
+			],
+			"speed": 30,
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"洞悉",
+							"调查",
+							"巧手",
+							"隐匿",
+							"求生"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Fearless",
+					"name": "无畏",
+					"type": "entries",
+					"entries": [
+						"你对{@condition 恐慌}状态免疫。"
+					]
+				},
+				{
+					"ENG_name": "Kender Curiosity",
+					"name": "坎德好奇心",
+					"type": "entries",
+					"entries": [
+						"得益于你族人的神秘起源，你获得以下一项自选技能的熟练项：{@skill 洞悉}、{@skill 调查}、{@skill 巧手}、{@skill 隐匿}或{@skill 求生}。"
+					]
+				},
+				{
+					"ENG_name": "Taunt",
+					"name": "嘲讽",
+					"type": "entries",
+					"entries": [
+						"你拥有一种令生物慌乱的特殊能力。以一个附赠动作，你可以对60尺内能听到且理解你的生物说出一连串挑衅话语。目标必须成功通过一次感知豁免检定，否则在攻击除你以外的其他目标时，其攻击检定将具有劣势，直到你的下个回合开始。豁免DC等于8 + 你的熟练加值 + 你的智力、感知或魅力调整值（选择此种族时决定）。",
+						"你可以使用该附赠动作的次数等同于你的熟练加值，你在完成一次长休后恢复所有已消耗的使用次数。"
+					]
+				}
+			],
+			"hasFluff": true
+		}
+	],
+	"raceFluff": [
+		{
+			"ENG_name": "Kender",
+			"name": "坎德人",
+			"source": "UA2022HeroesOfKrynnRevisited",
+			"entries": [
+				"在克莱恩的神话起源时期，工艺之神李奥克斯沉浸在一个无拘无束的创造时代。许多种族从他的神圣锻造厂中诞生，但并非所有造物都保持着神的原始设计。一群侏儒被不受约束的魔法异变，被赋予了近乎超自然的好奇心和无畏精神。这些便是第一代坎德人。",
+				"起源于克莱恩世界的坎德人是体型较小的类人生物，看起来像人类但有尖耳朵和多样的外貌。坎德人有一种超自然的好奇心，驱使它们去冒险。由于这种好奇心，许多坎德人会发现自己坠入通往其他位面和世界的传送门。",
+				"有时，坎德人会因为好奇心而积累起令人印象深刻的收藏品，有些坎德人可能会收集一些普通的小玩意儿或者来自魔法遗迹的纪念物，还有一些可能会成为专业的窃贼。"
+			]
+		}
+	],
+	"feat": [
+		{
+			"ENG_name": "Adept of the Black Robes",
+			"name": "黑袍入道",
+			"source": "UA2022HeroesOfKrynnRevisited",
+			"page": 4,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"高等术法学徒|UA2022HeroesOfKrynnRevisited"
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									{
+										"choose": "level=2|school=E;N"
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"你选择了月亮努塔瑞来影响你的魔法，且你对漆黑长袍秩序的野心和忠诚已得到认可，授予你以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Ambitious Magic",
+							"name": "雄心魔法",
+							"type": "item",
+							"entries": [
+								"你习得一个自选的2环法术。该{@filter 2环法术|spells|level=2|school=E;N}必须属于惑控或死灵魔法学派。你可无需法术位施放此专长的2环法术，且必须完成一次长休才能再次以此方式施放。你也可使用对应等级的法术位施放此法術。该法术的施法属性为你获得{@feat 高等术法学徒|UA2022HeroesOfKrynnRevisited}专长时所选的属性。"
+							]
+						},
+						{
+							"ENG_name": "Life Channel",
+							"name": "生命引导",
+							"type": "item",
+							"entries": [
+								"你可以将你的生命力引导至你的魔法法力中。当你60尺内一个你能看见的生物在你施放的一个造成伤害的法术上豁免检定失败时，你可以消耗等同于该法术等级数量的生命骰。掷出这些消耗的生命骰且将它们相加。该生物受到的伤害增加等同于该全部数值的伤害。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Adept of the Red Robes",
+			"name": "红袍入道",
+			"source": "UA2022HeroesOfKrynnRevisited",
+			"page": 4,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"高等术法学徒|UA2022HeroesOfKrynnRevisited"
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									{
+										"choose": "level=2|school=I;T"
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"你选择让红月努林塔瑞影响你的魔法，并且你为维护万物均衡所做出的贡献使你得到了红袍法师会Order of the Red Robes的认可，你获得下列增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Insightful Magic",
+							"name": "洞见魔法",
+							"type": "item",
+							"entries": [
+								"你习得一个自选的2环法术。该{@filter 2环法术|spells|level=2|school=I;T}必须属于幻觉或变化魔法学派。你可不消耗法术位施放此专长的2环法术，且必须完成一次长休才能再次以此方式施放。你也可使用对应等级的法术位施放此法術。该法术的施法属性为你获得{@feat 高等术法学徒|UA2022HeroesOfKrynnRevisited}专长时所选属性。"
+							]
+						},
+						{
+							"ENG_name": "Magical Balance",
+							"name": "魔法均衡",
+							"type": "item",
+							"entries": [
+								"当你进行攻击检定或是属性检定时，若是{@dice d20}结果小于等于9，你可以平衡你的命运，将骰值视作10。你可以用此方法平衡命运的次数等同于你的熟练加值，在完成一次长休后会恢复所有已消耗的使用次数。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Adept of the White Robes",
+			"name": "白袍入道",
+			"source": "UA2022HeroesOfKrynnRevisited",
+			"page": 4,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"高等术法学徒|UA2022HeroesOfKrynnRevisited"
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									{
+										"choose": "level=2|school=A;D"
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"你选择让白月索林那瑞影响你的魔法，并且你要用魔法使世界变得更美好的誓言使你得到了白袍法师会Order of the White Robes的认可，你获得下列增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Protective Magic",
+							"name": "护身魔法",
+							"type": "item",
+							"entries": [
+								"你习得一个自选的2环法术。该{@filter 2环法术|spells|level=2|school=A;D}必须属于防护或预言魔法学派。你可以无需法术位施放此专长的2环法术，且必须完成一次长休后才能再次以此方式施放。你也可以使用相应等级的法术位来施放此法术。该法术的施法属性为你获得{@feat 高等术法学徒|UA2022HeroesOfKrynnRevisited}专长时所选的属性。"
+							]
+						},
+						{
+							"ENG_name": "Protective Ward",
+							"name": "防护结界",
+							"type": "item",
+							"entries": [
+								"当你或者一个你可见的距你30尺内的生物受到伤害时，你可以用你的反应来消耗一个法术位，在该目标周边织起防护性的魔法。投掷数量等同于消耗的法术位环阶的d6，并将该目标受到的伤害减少等同于那些骰子骰出的总值+你的施法属性调整值的数值。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Divinely Favored",
+			"name": "神圣恩赐",
+			"source": "UA2022HeroesOfKrynnRevisited",
+			"page": 4,
+			"additionalSpells": [
+				{
+					"ENG_name": "Evil",
+					"name": "邪恶",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=牧师",
+								"count": 1
+							}
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"卜筮术",
+									{
+										"choose": "level=1|class=魔契师"
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"ENG_name": "Good",
+					"name": "善良",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=牧师",
+								"count": 1
+							}
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"卜筮术",
+									{
+										"choose": "level=1|class=牧师"
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"ENG_name": "Neutral",
+					"name": "绝对中立",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=牧师",
+								"count": 1
+							}
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"卜筮术",
+									{
+										"choose": "level=1|class=德鲁伊"
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"一位神已选择你承载祂神圣法力的一丝火花。",
+				"你从牧师法术列表中选择一个戏法，并根据你角色的阵营从下方的阵营法术表格中选择一个一环法术。你还学会了{@spell 卜筮术}法术。",
+				"你可以不消耗法术位地施放所选的一环法术和{@spell 卜筮术}各一次，之后你必须完成一次长休才能再次以此方式施放这两个法术。你也可以用符合环阶的法术位来施放这些法术。",
+				"你施放本专长法术的施法属性为智力、感知、或魅力（在你选择本专长时选择）。",
+				{
+					"type": "table",
+					"caption": "阵营法术",
+					"colLabels": [
+						"阵营",
+						"一环法术"
+					],
+					"colStyles": [
+						"col-2",
+						"col-10"
+					],
+					"rows": [
+						[
+							"邪恶",
+							"选择一项 {@filter 1环魔契师法术|spells|level=1|class=魔契师}。"
+						],
+						[
+							"善良",
+							"选择一项 {@filter 1环牧师法术|spells|level=1|class=牧师}。"
+						],
+						[
+							"绝对中立",
+							"选择一项 {@filter 1环德鲁伊法术|spells|level=1|class=德鲁伊}。"
+						]
+					]
+				},
+				"此外，当你施放一道本专长所选施法属性的任意法术时，你可以将圣徽作为法器使用。"
+			]
+		},
+		{
+			"ENG_name": "Initiate of High Sorcery",
+			"name": "高等术法学徒",
+			"source": "UA2022HeroesOfKrynnRevisited",
+			"page": 4,
+			"prerequisite": [
+				{
+					"level": {
+						"level": 1,
+						"class": {
+							"ENG_name": "Sorcerer",
+							"name": "术士",
+							"visible": true
+						}
+					}
+				},
+				{
+					"level": {
+						"level": 1,
+						"class": {
+							"ENG_name": "Wizard",
+							"name": "法师",
+							"visible": true
+						}
+					}
+				},
+				{
+					"background": [
+						{
+							"ENG_name": "Mage of High Sorcery",
+							"name": "高等术法会法师",
+							"displayEntry": "{@background 高等术法会法师|UA2022HeroesOfKrynnRevisited}"
+						}
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"ENG_name": "Nuitari",
+					"name": "努塔瑞",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									{
+										"choose": {
+											"from": [
+												"不谐低语",
+												"虚假生命",
+												"脆弱诅咒",
+												"致病射线"
+											]
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"ENG_name": "Lunitari",
+					"name": "努林塔瑞",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									{
+										"choose": {
+											"from": [
+												"七彩喷射",
+												"易容术",
+												"羽落术",
+												"大步奔行"
+											]
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"ENG_name": "Solinari",
+					"name": "索林那瑞",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									{
+										"choose": {
+											"from": [
+												"通晓语言",
+												"侦测善恶",
+												"防护善恶",
+												"护盾术"
+											]
+										}
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"你已经受到了隶属于高等术法会的施法者的训练。",
+				"选择一项克莱恩的三轮月亮来影响你的魔法：漆黑月亮努塔瑞；红月努林塔瑞；或白月索林那瑞。你从法师法术列表中选择一个戏法，并根据你选择的月亮获得两个一环法术，如月之法术表中所指定。",
+				"你可以施放每个选定的1环法术而无需使用法术位，且你必须完成一次长休后才能再次以此方式施放该法术。你也可以使用你拥有的任何法术位来施放这些法术。",
+				"你施放本专长法术的施法属性为智力、感知、或魅力（在你选择本专长时选择）。",
+				{
+					"type": "table",
+					"caption": "月之法术表",
+					"colLabels": [
+						"月亮",
+						"一环法术"
+					],
+					"colStyles": [
+						"col-2",
+						"col-10"
+					],
+					"rows": [
+						[
+							"努塔瑞",
+							"从{@spell 不谐低语}、{@spell 虚假生命}、{@spell 脆弱诅咒}且{@spell 致病射线}中选择两项"
+						],
+						[
+							"努林塔瑞",
+							"从{@spell 七彩喷射}、{@spell 易容术}、{@spell 羽落术}和{@spell 大步奔行}中选择两项。"
+						],
+						[
+							"索林那瑞",
+							"从{@spell 通晓语言}、{@spell 侦测善恶}、{@spell 防护善恶}和{@spell 护盾术}中选择两项。"
+						]
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Knight of the Crown",
+			"name": "皇冠骑士",
+			"source": "UA2022HeroesOfKrynnRevisited",
+			"page": 5,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"索拉尼亚侍从|UA2022HeroesOfKrynnRevisited"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你是一名隶属于皇冠骑士团的索兰尼亚骑士，该骑士团颂扬合作、忠诚和服从的美德。你善于团体作战，并获得下列增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Crown Maneuvers",
+							"name": "王冠战技",
+							"type": "item",
+							"entries": [
+								"你从《玩家手册》中战士的战斗大师子职处习得战技{@optfeature 扰乱打击}或{@optfeature 挑衅攻击}（获得此专长时选择战技）。若战技需要豁免检定，其豁免DC等于8 + 你的熟练加值 + 你的力量或敏捷调整值（任选其一）。每当你完成一次长休，可将通过此专长习得的战技替换为该专长提供的另一项战技。"
+							]
+						},
+						{
+							"ENG_name": "Superiority Dice",
+							"name": "卓越骰",
+							"type": "item",
+							"entries": [
+								"你获得两个卓越骰，将其添加到来自索拉尼亚侍从专长的骰子中。所有骰子现在都是d8。"
+							]
+						}
+					]
+				},
+				{
+					"ENG_name": "Membership in Multiple Knightly Orders",
+					"name": "多个骑士团的成员",
+					"type": "inset",
+					"entries": [
+						"每个索兰尼亚骑士都是组织中一个骑士团中的成员。在训练过程中，大多数骑士会先加入皇冠骑士团作为起步，而后才转入其他骑士团。无论角色遵循哪条道路，都会保留在骑士团中所学，即便是已经加入了其他骑士团。角色可以更改其所属的骑士团，已获得的索兰尼亚骑士专长仍然生效。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Knight of the Rose",
+			"name": "蔷薇骑士",
+			"source": "UA2022HeroesOfKrynnRevisited",
+			"page": 5,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"索拉尼亚侍从|UA2022HeroesOfKrynnRevisited"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你是一名隶属于蔷薇骑士团的索兰尼亚骑士，该骑士团以领导力、正义和睿智闻名于世。你的决心使得你获得下列增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Rose Maneuvers",
+							"name": "玫瑰战技",
+							"type": "item",
+							"entries": [
+								"你从《玩家手册》中战士的战斗大师子职处习得{@optfeature 指挥官奇袭}或{@optfeature 重整旗鼓}战技（获得此专长时选择战技）。每当你完成一次长休，你可以将此专长提供的战技替换为另一个可选战技。"
+							]
+						},
+						{
+							"ENG_name": "Superiority Dice",
+							"name": "卓越骰",
+							"type": "item",
+							"entries": [
+								"你获得两个卓越骰，将其添加到来自索拉尼亚侍从专长的骰子中。所有骰子现在都是d8。"
+							]
+						}
+					]
+				},
+				{
+					"ENG_name": "Membership in Multiple Knightly Orders",
+					"name": "多个骑士团的成员",
+					"type": "inset",
+					"entries": [
+						"每个索兰尼亚骑士都是组织中一个骑士团中的成员。在训练过程中，大多数骑士会先加入皇冠骑士团作为起步，而后才转入其他骑士团。无论角色遵循哪条道路，都会保留在骑士团中所学，即便是已经加入了其他骑士团。角色可以更改其所属的骑士团，已获得的索兰尼亚骑士专长仍然生效。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Knight of the Sword",
+			"name": "圣剑骑士",
+			"source": "UA2022HeroesOfKrynnRevisited",
+			"page": 5,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"索拉尼亚侍从|UA2022HeroesOfKrynnRevisited"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"savingThrowProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你是一名隶属于圣剑骑士团的索兰尼亚骑士，该骑士团献身与于英勇和气概。勇气使你的精神如同钢铁，并使你获得下列增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Sword Maneuvers",
+							"name": "剑之战技",
+							"type": "item",
+							"entries": [
+								"你从《玩家手册》中战士的战斗大师子职处习得{@optfeature 灵动攻击}或{@optfeature 恐吓攻击}战技（获得此专长时选择战技）。若战技需要豁免检定，豁免DC等于8 + 你的熟练加值 + 你的力量或敏捷调整值（任选其一）。每当你完成一次长休，你可以将此专长提供的战技替换为另一个可选战技。"
+							]
+						},
+						{
+							"ENG_name": "Superiority Dice",
+							"name": "卓越骰",
+							"type": "item",
+							"entries": [
+								"你获得两个卓越骰，将其添加到来自索拉尼亚侍从专长的骰子中。所有骰子现在都是d8。"
+							]
+						}
+					]
+				},
+				{
+					"ENG_name": "Membership in Multiple Knightly Orders",
+					"name": "多个骑士团的成员",
+					"type": "inset",
+					"entries": [
+						"每个索兰尼亚骑士都是组织中一个骑士团中的成员。在训练过程中，大多数骑士会先加入皇冠骑士团作为起步，而后才转入其他骑士团。无论角色遵循哪条道路，都会保留在骑士团中所学，即便是已经加入了其他骑士团。角色可以更改其所属的骑士团，已获得的索兰尼亚骑士专长仍然生效。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Squire of Solamnia",
+			"name": "索拉尼亚侍从",
+			"source": "UA2022HeroesOfKrynnRevisited",
+			"page": 5,
+			"prerequisite": [
+				{
+					"level": {
+						"level": 1,
+						"class": {
+							"ENG_name": "Fighter",
+							"name": "战士",
+							"visible": true
+						}
+					}
+				},
+				{
+					"level": {
+						"level": 1,
+						"class": {
+							"ENG_name": "Paladin",
+							"name": "圣武士",
+							"visible": true
+						}
+					}
+				},
+				{
+					"background": [
+						{
+							"ENG_name": "Knight of Solamnia",
+							"name": "索兰尼亚骑士",
+							"displayEntry": "{@background 索兰尼亚骑士|UA2022HeroesOfKrynnRevisited}"
+						}
+					]
+				}
+			],
+			"entries": [
+				"索兰尼亚骑士式的训练使你获得了下列增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Mount Up",
+							"name": "快速骑乘",
+							"type": "item",
+							"entries": [
+								"你在开始和终止骑乘时只需要花费5尺移动力。"
+							]
+						},
+						{
+							"ENG_name": "Squire Maneuvers",
+							"name": "索拉尼亚侍从战技",
+							"type": "item",
+							"entries": [
+								"你从《玩家手册》中战士的「战斗大师」子职学会战技{@optfeature 突刺攻击}、{@optfeature 精准攻击}或{@optfeature 推撞攻击}（获得此专长时选择其一）。若战技需目标进行豁免检定，其DC等于8 + 你的熟练加值 + 自选的力量或敏捷调整值。每完成一次长休，你可将本专长授予的战技替换为上述列表中另一项。"
+							]
+						},
+						{
+							"ENG_name": "Superiority Dice",
+							"name": "卓越骰",
+							"type": "item",
+							"entries": [
+								"你获得等同于你熟练加值数量的卓越骰。这些骰子是d6，且你只能将它们用于本专长获得的战技和任何以本专长作为先决条件的专长所获得的战技。卓越骰在使用时消耗，且你在完成一次长休后恢复所有消耗的卓越骰。"
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

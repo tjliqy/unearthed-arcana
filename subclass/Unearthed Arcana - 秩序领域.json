@@ -1,0 +1,232 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAOrderDomain",
+				"abbreviation": "UAOD",
+				"full": "破解奥秘：秩序领域",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2018/dnd/downloads/UA_OrderDomain.pdf",
+				"dateReleased": "2018-04-09"
+			}
+		],
+		"dependencies": {
+			"subclassFeature": [
+				"UAClassFeatureVariants"
+			]
+		},
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1729637619,
+		"_dateLastModifiedHash": "863670f01b"
+	},
+	"subclass": [
+		{
+			"ENG_name": "Order Domain (UA)",
+			"name": "秩序领域（UA）",
+			"shortName": "秩序 (UA)",
+			"source": "UAOrderDomain",
+			"className": "牧师",
+			"classSource": "PHB",
+			"page": 1,
+			"isReprinted": true,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"命令术",
+							"英雄气概"
+						],
+						"3": [
+							"强化属性",
+							"定身类人"
+						],
+						"5": [
+							"群体治愈真言",
+							"缓慢术"
+						],
+						"7": [
+							"强迫术",
+							"生物定位术"
+						],
+						"9": [
+							"通神术",
+							"支配类人"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"秩序领域（UA）|牧师||秩序 (UA)|UAOrderDomain|1",
+				"引导神力：秩序之令|牧师||秩序 (UA)|UAOrderDomain|2",
+				"秩序统御|牧师||秩序 (UA)|UAOrderDomain|6",
+				"神圣打击|牧师||秩序 (UA)|UAOrderDomain|8",
+				"受祝击|牧师||秩序 (UA)|UAOrderDomain|8|UAClassFeatureVariants",
+				"秩序之怒|牧师||秩序 (UA)|UAOrderDomain|17"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"ENG_name": "Order Domain (UA)",
+			"name": "秩序领域（UA）",
+			"source": "UAOrderDomain",
+			"page": 1,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "秩序 (UA)",
+			"subclassSource": "UAOrderDomain",
+			"level": 1,
+			"entries": [
+				"秩序领域代表纪律，且服务于社会或机构，无论这种服务是服从法律还是执行法律\u2014\u2014民事、宗教或两者兼有。许多世界的神都授予这一领域的权限，包括{@deity 班恩}、{@deity 提尔}、{@deity 马哲里|龙枪}、{@deity 厄拉西斯|破晓战争|DMG}、{@deity 佛塔斯|灰鹰}、{@deity 维婕丝|灰鹰}、{@deity 奥林|艾伯伦}、{@deity 马格鲁比耶|非人类}、{@deity 努阿达|凯尔特}、{@deity 雅典娜|希腊}、{@deity 阿努比斯|埃及}、{@deity 凡赛堤|北欧}，以及{@deity 阿斯蒙蒂斯|破晓战争|DMG}。",
+				"秩序的理想是对法律的服从高于一切，而非对特定个体或情感及大众统治的短暂影响力。秩序牧师通常关心的是事情如何完成，而非一个动作的结果是否公正。遵循法律并服从其法令至关重要，尤其是当它对这些牧师及其神祇有益时。",
+				"更重要的是，法律建立了等级制度。那些被法律选中来领导的人必须被服从。那些服从的人必须尽其所能地做到这一点。通过这种方式，法律创造了一个错综复杂的义务网络，使社会能够在混乱的多元宇宙中锻造秩序和安全。",
+				"在每个指定的牧师等级，你可以将下表所述法术添加到你的准备法术中。",
+				{
+					"type": "table",
+					"caption": "秩序领域法术",
+					"colLabels": [
+						"牧师等级",
+						"法术"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell 命令术}, {@spell 英雄气概}"
+						],
+						[
+							"3rd",
+							"{@spell 强化属性}, {@spell 定身类人}"
+						],
+						[
+							"5th",
+							"{@spell 群体治愈真言}, {@spell 缓慢术}"
+						],
+						[
+							"7th",
+							"{@spell 强迫术}, {@spell 生物定位术}"
+						],
+						[
+							"9th",
+							"{@spell 通神术}, {@spell 支配类人}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "附赠熟练项|牧师||秩序 (UA)|UAOrderDomain|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "权威之音|牧师||秩序 (UA)|UAOrderDomain|1"
+				}
+			]
+		},
+		{
+			"ENG_name": "Bonus Proficiency",
+			"name": "附赠熟练项",
+			"source": "UAOrderDomain",
+			"page": 1,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "秩序 (UA)",
+			"subclassSource": "UAOrderDomain",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"在第1级选择该领域时，你获得重甲的熟练项。"
+			]
+		},
+		{
+			"ENG_name": "Voice of Authority",
+			"name": "权威之音",
+			"source": "UAOrderDomain",
+			"page": 1,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "秩序 (UA)",
+			"subclassSource": "UAOrderDomain",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"从1环开始，你可以调用守序之力驱使盟友攻击。当你使用1环或更高法术位对盟友施法后，该盟友可以立即使用反应对你可见的一个目标进行一次武器攻击。如果该法术以多个盟友为目标，你可以选择能进行攻击的盟友。"
+			]
+		},
+		{
+			"ENG_name": "Channel Divinity: Order's Demand",
+			"name": "引导神力：秩序之令",
+			"source": "UAOrderDomain",
+			"page": 1,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "秩序 (UA)",
+			"subclassSource": "UAOrderDomain",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"ENG_name": "Channel Divinity",
+				"name": "引导神力"
+			},
+			"entries": [
+				"从2级开始，你可以用引导神力来使自己令人生畏。",
+				"以一个动作，你展示你的圣徽，且每个你选择的30尺内能看见或听见你的生物必须成功通过一次感知豁免检定，否则被你{@condition 魅惑}直到你的下个回合结束或该{@condition 魅惑}生物受到任何伤害。你也可以使任何{@condition 魅惑}的生物在豁免检定失败时{@condition 倒地}。"
+			]
+		},
+		{
+			"ENG_name": "Order's Dominion",
+			"name": "秩序统御",
+			"source": "UAOrderDomain",
+			"page": 1,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "秩序 (UA)",
+			"subclassSource": "UAOrderDomain",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"在6级时，你变得异常擅长引导魔法能量来迫使他人。",
+				"当你使用2环或更高法术位施放惑控学派法术时，你恢复一个已消耗的法术位。你恢复的法术位必须比你施放的法术等级低且不能高于5环。"
+			]
+		},
+		{
+			"ENG_name": "Divine Strike",
+			"name": "神圣打击",
+			"source": "UAOrderDomain",
+			"page": 1,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "秩序 (UA)",
+			"subclassSource": "UAOrderDomain",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"在8级时，你获得将神圣能量注入武器攻击的能力。在你的每个回合中，当你用武器攻击命中一个生物时，你可以使该攻击对目标造成{@damage 1d8}的额外力场伤害。当你达到14级时，额外伤害增加到{@dice 2d8}。"
+			]
+		},
+		{
+			"ENG_name": "Order's Wrath",
+			"name": "秩序之怒",
+			"source": "UAOrderDomain",
+			"page": 1,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "秩序 (UA)",
+			"subclassSource": "UAOrderDomain",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"从17级开始，你指定的毁灭敌人将在你和盟友的共同努力下凋零。如果你对一个生物造成神圣打击伤害，该生物在每个回合第一次被你的任何盟友用武器攻击命中时，会受到额外的{@damage 2d8}力场伤害。此增益持续到你下个回合开始。"
+			]
+		}
+	]
+}

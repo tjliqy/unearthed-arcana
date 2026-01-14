@@ -1,0 +1,9469 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "XUA2022ExpertClasses",
+				"abbreviation": "XUA22EC",
+				"full": "破解奥秘2022：专家职业",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.dndbeyond.com/compendium-images/one-dnd/expert-classes/kpx0MvyfBGHe0XKk/UA2022-Expert-Classes.pdf",
+				"dateReleased": "2022-09-29"
+			}
+		],
+		"dependencies": {
+			"spell": [
+				"PHB"
+			]
+		},
+		"edition": "classic",
+		"dateAdded": 1672604449,
+		"dateLastModified": 1738152578,
+		"_dateLastModifiedHash": "6963bcb7c9"
+	},
+	"class": [
+		{
+			"ENG_name": "Bard",
+			"name": "吟游诗人",
+			"source": "XUA2022ExpertClasses",
+			"page": 3,
+			"classGroup": [
+				"专家"
+			],
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"dex",
+				"cha"
+			],
+			"spellcastingAbility": "cha",
+			"casterProgression": "full",
+			"cantripProgression": [
+				2,
+				2,
+				2,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4
+			],
+			"classSpells": [
+				{
+					"groupName": "奥术",
+					"groupSource": "XUA2022ExpertClasses",
+					"spellSchools": [
+						"D",
+						"E",
+						"I",
+						"T"
+					]
+				}
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light"
+				],
+				"weapons": [
+					"简易"
+				],
+				"tools": [
+					"三件你选择的{@variantrule 乐器|XUA2022ExpertClasses|乐器}"
+				],
+				"toolProficiencies": [
+					{
+						"anyMusicalInstrument": 3
+					}
+				],
+				"skills": [
+					{
+						"any": 3
+					}
+				]
+			},
+			"startingEquipment": {
+				"default": [
+					"{@item 匕首|phb}",
+					"{@item 艺人套组|phb}",
+					"{@item 皮甲|phb}",
+					"{@item 乐器|phb}",
+					"{@item 短剑|phb}",
+					"18 GP"
+				],
+				"goldAlternative": "100GP"
+			},
+			"multiclassing": {
+				"requirements": {
+					"cha": 13
+				},
+				"proficienciesGained": {
+					"armor": [
+						"light"
+					],
+					"tools": [
+						"一件你自己选择的{@item 乐器|phb}"
+					],
+					"toolProficiencies": [
+						{
+							"anyMusicalInstrument": 1
+						}
+					],
+					"skills": [
+						{
+							"choose": {
+								"from": [
+									"athletics",
+									"acrobatics",
+									"sleight of hand",
+									"stealth",
+									"arcana",
+									"history",
+									"investigation",
+									"nature",
+									"religion",
+									"animal handling",
+									"insight",
+									"medicine",
+									"perception",
+									"survival",
+									"deception",
+									"intimidation",
+									"performance",
+									"persuasion"
+								],
+								"count": 1
+							}
+						}
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"吟游诗人骰子",
+						"{@filter 戏法|spells|level=0|class=吟游诗人}"
+					],
+					"rows": [
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							2
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							2
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							2
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							3
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								],
+								"rollable": true
+							},
+							3
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								],
+								"rollable": true
+							},
+							3
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								],
+								"rollable": true
+							},
+							3
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								],
+								"rollable": true
+							},
+							3
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								],
+								"rollable": true
+							},
+							3
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								],
+								"rollable": true
+							},
+							4
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								],
+								"rollable": true
+							},
+							4
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								],
+								"rollable": true
+							},
+							4
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								],
+								"rollable": true
+							},
+							4
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								],
+								"rollable": true
+							},
+							4
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 12
+									}
+								],
+								"rollable": true
+							},
+							4
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 12
+									}
+								],
+								"rollable": true
+							},
+							4
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 12
+									}
+								],
+								"rollable": true
+							},
+							4
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 12
+									}
+								],
+								"rollable": true
+							},
+							4
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 12
+									}
+								],
+								"rollable": true
+							},
+							4
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 12
+									}
+								],
+								"rollable": true
+							},
+							4
+						]
+					]
+				},
+				{
+					"title": "每个法术环位的准备法术",
+					"colLabels": [
+						"{@filter 1st|spells|level=1|class=吟游诗人}",
+						"{@filter 2nd|spells|level=2|class=吟游诗人}",
+						"{@filter 3rd|spells|level=3|class=吟游诗人}",
+						"{@filter 4th|spells|level=4|class=吟游诗人}",
+						"{@filter 5th|spells|level=5|class=吟游诗人}",
+						"{@filter 6th|spells|level=6|class=吟游诗人}",
+						"{@filter 7th|spells|level=7|class=吟游诗人}",
+						"{@filter 8th|spells|level=8|class=吟游诗人}",
+						"{@filter 9th|spells|level=9|class=吟游诗人}"
+					],
+					"rowsSpellProgression": [
+						[
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							2,
+							1,
+							1
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"吟游诗人激励|吟游诗人|XUA2022ExpertClasses|1",
+				"施法|吟游诗人|XUA2022ExpertClasses|1",
+				"专精|吟游诗人|XUA2022ExpertClasses|2",
+				"复原之歌|吟游诗人|XUA2022ExpertClasses|2",
+				{
+					"classFeature": "吟游诗人子职|吟游诗人|XUA2022ExpertClasses|3",
+					"gainSubclassFeature": true
+				},
+				"专长|吟游诗人|XUA2022ExpertClasses|4",
+				"万事通|吟游诗人|XUA2022ExpertClasses|5",
+				{
+					"classFeature": "子职特性|吟游诗人|XUA2022ExpertClasses|6",
+					"gainSubclassFeature": true
+				},
+				"吟游诗人激励之洗盆|吟游诗人|XUA2022ExpertClasses|7",
+				"专长|吟游诗人|XUA2022ExpertClasses|8",
+				"专精|吟游诗人|XUA2022ExpertClasses|9",
+				"子职特性|吟游诗人|XUA2022ExpertClasses|10",
+				"魔法奥秘|吟游诗人|XUA2022ExpertClasses|11",
+				"专长|吟游诗人|XUA2022ExpertClasses|12",
+				{
+					"classFeature": "子职特性|吟游诗人|XUA2022ExpertClasses|14",
+					"gainSubclassFeature": true
+				},
+				"高等魔法奥秘|吟游诗人|XUA2022ExpertClasses|15",
+				"专长|吟游诗人|XUA2022ExpertClasses|16",
+				"高端吟游诗人激励|吟游诗人|XUA2022ExpertClasses|18",
+				"专长|吟游诗人|XUA2022ExpertClasses|19",
+				"传奇恩惠|吟游诗人|XUA2022ExpertClasses|20"
+			],
+			"subclassTitle": "吟游诗人子职",
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Ranger",
+			"name": "游侠",
+			"source": "XUA2022ExpertClasses",
+			"page": 8,
+			"classGroup": [
+				"专家"
+			],
+			"hd": {
+				"number": 1,
+				"faces": 10
+			},
+			"proficiency": [
+				"str",
+				"dex"
+			],
+			"spellcastingAbility": "wis",
+			"casterProgression": "full",
+			"cantripProgression": [
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3
+			],
+			"classSpells": [
+				{
+					"groupName": "原始",
+					"groupSource": "XUA2022ExpertClasses",
+					"spellSchools": [
+						"A",
+						"E",
+						"I",
+						"D",
+						"N",
+						"T",
+						"C",
+						"P"
+					]
+				}
+			],
+			"startingProficiencies": {
+				"armor": [
+					"medium",
+					"light"
+				],
+				"weapons": [
+					"简易",
+					"军用"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"animal handling",
+								"athletics",
+								"insight",
+								"investigation",
+								"nature",
+								"perception",
+								"stealth",
+								"survival"
+							],
+							"count": 3
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"default": [
+					"{@item 箭|phb|箭矢 (20)}",
+					"{@item 探索套组|phb}",
+					"{@item 长弓|phb}",
+					"{@item 箭袋|phb}",
+					"{@item 弯刀|phb}",
+					"{@item 短剑|phb}",
+					"{@item 镶钉皮甲|phb}",
+					"8 GP"
+				],
+				"goldAlternative": "150 GP"
+			},
+			"multiclassing": {
+				"requirements": {
+					"dex": 13,
+					"wis": 13
+				},
+				"proficienciesGained": {
+					"weapons": [
+						"军用"
+					],
+					"armor": [
+						"light",
+						"medium",
+						"shield"
+					],
+					"skills": [
+						{
+							"choose": {
+								"from": [
+									"athletics",
+									"acrobatics",
+									"sleight of hand",
+									"stealth",
+									"arcana",
+									"history",
+									"investigation",
+									"nature",
+									"religion",
+									"animal handling",
+									"insight",
+									"medicine",
+									"perception",
+									"survival",
+									"deception",
+									"intimidation",
+									"performance",
+									"persuasion"
+								],
+								"count": 1
+							}
+						}
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"{@filter 戏法|spells|level=0|class=游侠}"
+					],
+					"rows": [
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						]
+					]
+				},
+				{
+					"title": "每个法术环位的准备法术",
+					"colLabels": [
+						"{@filter 1st|spells|level=1|class=游侠}",
+						"{@filter 2nd|spells|level=2|class=游侠}",
+						"{@filter 3rd|spells|level=3|class=游侠}",
+						"{@filter 4th|spells|level=4|class=游侠}",
+						"{@filter 5th|spells|level=5|class=游侠}"
+					],
+					"rowsSpellProgression": [
+						[
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"专精|游侠|XUA2022ExpertClasses|1",
+				"宿敌|游侠|XUA2022ExpertClasses|1",
+				"施法|游侠|XUA2022ExpertClasses|1",
+				"战斗风格|游侠|XUA2022ExpertClasses|2",
+				{
+					"classFeature": "游侠子职|游侠|XUA2022ExpertClasses|3",
+					"gainSubclassFeature": true
+				},
+				"专长|游侠|XUA2022ExpertClasses|4",
+				"额外攻击|游侠|XUA2022ExpertClasses|5",
+				{
+					"classFeature": "子职特性|游侠|XUA2022ExpertClasses|6",
+					"gainSubclassFeature": true
+				},
+				"越野|游侠|XUA2022ExpertClasses|7",
+				"专长|游侠|XUA2022ExpertClasses|8",
+				"专精|游侠|XUA2022ExpertClasses|9",
+				{
+					"classFeature": "子职特性|游侠|XUA2022ExpertClasses|10",
+					"gainSubclassFeature": true
+				},
+				"不知疲倦|游侠|XUA2022ExpertClasses|11",
+				"专长|游侠|XUA2022ExpertClasses|12",
+				"自然面纱|游侠|XUA2022ExpertClasses|13",
+				{
+					"classFeature": "子职特性|游侠|XUA2022ExpertClasses|14",
+					"gainSubclassFeature": true
+				},
+				"野性感官|游侠|XUA2022ExpertClasses|15",
+				"专长|游侠|XUA2022ExpertClasses|16",
+				"屠灭众敌|游侠|XUA2022ExpertClasses|18",
+				"专长|游侠|XUA2022ExpertClasses|19",
+				"传奇恩惠|游侠|XUA2022ExpertClasses|20"
+			],
+			"subclassTitle": "游侠子职",
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Rogue",
+			"name": "游荡者",
+			"source": "XUA2022ExpertClasses",
+			"page": 12,
+			"classGroup": [
+				"专家"
+			],
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"dex",
+				"int"
+			],
+			"spellcastingAbility": "wis",
+			"casterProgression": "full",
+			"startingProficiencies": {
+				"armor": [
+					"light"
+				],
+				"weapons": [
+					"简易",
+					"军用"
+				],
+				"tools": [
+					"{@item 盗贼工具|phb}"
+				],
+				"toolProficiencies": [
+					{
+						"thieves' tools": true
+					}
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"acrobatics",
+								"athletics",
+								"deception",
+								"insight",
+								"intimidation",
+								"investigation",
+								"perception",
+								"persuasion",
+								"sleight of hand",
+								"stealth"
+							],
+							"count": 4
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"default": [
+					"{@item 箭|phb|箭矢 (20)}",
+					"{@item 窃贼套组|phb}",
+					"{@item 匕首|phb} (2)",
+					"{@item 皮甲|phb}",
+					"{@item 箭袋|phb}",
+					"{@item 短弓|phb}",
+					"{@item 短剑|phb}",
+					"{@item 盗贼工具|phb}",
+					"18 GP"
+				],
+				"goldAlternative": "110 GP"
+			},
+			"multiclassing": {
+				"requirements": {
+					"dex": 13
+				},
+				"proficienciesGained": {
+					"weapons": [
+						"军用"
+					],
+					"armor": [
+						"light"
+					],
+					"tools": [
+						"{@item 盗贼工具|phb}"
+					],
+					"toolProficiencies": [
+						{
+							"thieves' tools": true
+						}
+					],
+					"skills": [
+						{
+							"choose": {
+								"from": [
+									"acrobatics",
+									"athletics",
+									"deception",
+									"insight",
+									"intimidation",
+									"investigation",
+									"perception",
+									"persuasion",
+									"sleight of hand",
+									"stealth"
+								],
+								"count": 4
+							}
+						}
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"偷袭"
+					],
+					"rows": [
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 2,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 2,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 3,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 3,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 4,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 4,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 5,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 5,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 6,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 6,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 7,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 7,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 8,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 8,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 9,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 9,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 10,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 10,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							}
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"专精|游荡者|XUA2022ExpertClasses|1",
+				"偷袭|游荡者|XUA2022ExpertClasses|1",
+				"盗贼黑话|游荡者|XUA2022ExpertClasses|1",
+				"灵巧动作|游荡者|XUA2022ExpertClasses|2",
+				{
+					"classFeature": "游荡者子职|游荡者|XUA2022ExpertClasses|3",
+					"gainSubclassFeature": true
+				},
+				"专长|游荡者|XUA2022ExpertClasses|4",
+				"直觉闪避|游荡者|XUA2022ExpertClasses|5",
+				{
+					"classFeature": "子职特性|游荡者|XUA2022ExpertClasses|6",
+					"gainSubclassFeature": true
+				},
+				"专精|游荡者|XUA2022ExpertClasses|7",
+				"专长|游荡者|XUA2022ExpertClasses|8",
+				"反射闪避|游荡者|XUA2022ExpertClasses|9",
+				"专长|游荡者|XUA2022ExpertClasses|10",
+				{
+					"classFeature": "子职特性|游荡者|XUA2022ExpertClasses|10",
+					"gainSubclassFeature": true
+				},
+				"可靠才能|游荡者|XUA2022ExpertClasses|11",
+				"专长|游荡者|XUA2022ExpertClasses|12",
+				"精妙打击|游荡者|XUA2022ExpertClasses|13",
+				{
+					"classFeature": "子职特性|游荡者|XUA2022ExpertClasses|14",
+					"gainSubclassFeature": true
+				},
+				"圆滑心智|游荡者|XUA2022ExpertClasses|15",
+				"专长|游荡者|XUA2022ExpertClasses|16",
+				"飘忽不定|游荡者|XUA2022ExpertClasses|17",
+				"幸运一击|游荡者|XUA2022ExpertClasses|18",
+				"专长|游荡者|XUA2022ExpertClasses|19",
+				"传奇恩惠|游荡者|XUA2022ExpertClasses|20"
+			],
+			"subclassTitle": "游荡者子职",
+			"hasFluff": true
+		}
+	],
+	"classFluff": [
+		{
+			"ENG_name": "Bard",
+			"name": "吟游诗人",
+			"source": "XUA2022ExpertClasses",
+			"entries": [
+				{
+					"type": "section",
+					"source": "XUA2022ExpertClasses",
+					"entries": [
+						"通过音乐、舞蹈和诗句来施展魔法，吟游诗人是鼓舞他人、治愈伤痛、打击敌人和创造幻术的专家。",
+						"吟游诗人相信多元宇宙的创造者们通过言语和手势将其带入存在，而那些创生圣言的残存者仍在每个存在平面回响并闪烁。吟游诗人的魔法正是试图驾驭这些超越任何语言的圣言\u2014\u2014且直爽地将它们引导以创造新的奇迹。",
+						"几乎任何东西都能激发新的歌曲或故事，因此吟游诗人对几乎所有事物都着迷。他们对许多学科有广泛的了解，并且培养出做好几乎所有事情的能力。吟游诗人成为许多领域的大师，包括音乐表演、魔法的运作以及笑话的构思。",
+						"并非每个酒馆中的歌手或诗人，亦或皇家庭院中的小丑都是吟游诗人。驾驭创生圣言需要艰苦的工作和大多数吟游艺人所缺乏的某种天赋。尽管有时很难分辨这些演艺者们和吟游诗人之间的区别。吟游诗人的生命在漫游大地、收集逸闻、讲述故事和依靠观众的感激中度过，这与任何其他艺人颇为相似。但吟游诗人对知识的了解、音乐技能的等级和魔法的精通使它们与众不同。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Ranger",
+			"name": "游侠",
+			"source": "XUA2022ExpertClasses",
+			"entries": [
+				{
+					"type": "section",
+					"source": "XUA2022ExpertClasses",
+					"entries": [
+						"远离城市的喧嚣，在无边的森林树木间和广阔的平原上，游侠们保持着他们无尽的守卫。",
+						"野外漫游者，游侠专精于朝向威胁世界的怪物。游侠学习像捕食者一样追踪猎物，在荒野中隐匿移动且在灌木和瓦砾中躲藏自己。",
+						"得益于与自然的联系，游侠也能施放利用野外原始力量的法术。游侠的天赋和魔法经过致命专注的磨练，专注于保护世界免受怪物和暴君蹂躏的任务。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Rogue",
+			"name": "游荡者",
+			"source": "XUA2022ExpertClasses",
+			"entries": [
+				{
+					"type": "section",
+					"source": "XUA2022ExpertClasses",
+					"entries": [
+						"游荡者依靠狡黠、隐匿和敌人的易伤在任何情景中占据上风。他们有发现几乎所有问题解决方案的天赋，展现出作为任何成功冒险队伍基石的多样性。",
+						"游荡者投入大量精力掌握各种技能的使用，如同他们完善战斗能力一样，赋予他们少数其他角色能匹敌的广泛能力。许多游荡者专注于隐匿和欺瞒，而其他游荡者则精进那些在地下城环境中协助他们的技能，例如攀爬、发现和解除陷阱，以及开锁。",
+						"在战斗方面，游荡者优先考虑精妙打击而非残暴力量。游荡者宁愿进行一次精准打击，也不愿用一连串的攻击削弱对手。游荡者有一种近乎超自然的躲避危险的本领，且少数人会学习魔法唬人把戏来补充他们的其他属性。",
+						"有些游荡者以犯罪起家，而另一些利用自己的狡黠去打击犯罪。但不管一个游荡者与法律的关系究竟如何，没有哪个普通罪犯或执法者能够与那些最伟大的游荡者们的精妙才华相提并论。"
+					]
+				}
+			]
+		}
+	],
+	"subclass": [
+		{
+			"ENG_name": "College of Lore",
+			"name": "逸闻学院",
+			"shortName": "逸闻",
+			"source": "XUA2022ExpertClasses",
+			"className": "吟游诗人",
+			"classSource": "XUA2022ExpertClasses",
+			"page": 7,
+			"subclassFeatures": [
+				"逸闻学院|吟游诗人|XUA2022ExpertClasses|逸闻|XUA2022ExpertClasses|3",
+				"狡黠激励|吟游诗人|XUA2022ExpertClasses|逸闻|XUA2022ExpertClasses|6",
+				"强化语出惊人|吟游诗人|XUA2022ExpertClasses|逸闻|XUA2022ExpertClasses|10",
+				"超凡技艺|吟游诗人|XUA2022ExpertClasses|逸闻|XUA2022ExpertClasses|14"
+			]
+		},
+		{
+			"ENG_name": "Hunter",
+			"name": "猎人",
+			"shortName": "猎人",
+			"source": "XUA2022ExpertClasses",
+			"className": "游侠",
+			"classSource": "XUA2022ExpertClasses",
+			"page": 11,
+			"subclassFeatures": [
+				"猎人|游侠|XUA2022ExpertClasses|猎人|XUA2022ExpertClasses|3",
+				"猎人学识|游侠|XUA2022ExpertClasses|猎人|XUA2022ExpertClasses|6",
+				"多重攻击|游侠|XUA2022ExpertClasses|猎人|XUA2022ExpertClasses|10",
+				"高效防守战术|游侠|XUA2022ExpertClasses|猎人|XUA2022ExpertClasses|14"
+			]
+		},
+		{
+			"ENG_name": "Thief",
+			"name": "盗贼",
+			"shortName": "盗贼",
+			"source": "XUA2022ExpertClasses",
+			"className": "游荡者",
+			"classSource": "XUA2022ExpertClasses",
+			"page": 15,
+			"subclassFeatures": [
+				"盗贼|游荡者|XUA2022ExpertClasses|盗贼|XUA2022ExpertClasses|3",
+				"极效潜行|游荡者|XUA2022ExpertClasses|盗贼|XUA2022ExpertClasses|6",
+				"使用魔法装置|游荡者|XUA2022ExpertClasses|盗贼|XUA2022ExpertClasses|10",
+				"窃盗本能|游荡者|XUA2022ExpertClasses|盗贼|XUA2022ExpertClasses|14"
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"ENG_name": "Bardic Inspiration",
+			"name": "吟游诗人激励",
+			"source": "XUA2022ExpertClasses",
+			"page": 4,
+			"className": "吟游诗人",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 1,
+			"entries": [
+				"你可以用语言，音乐或舞蹈的形式对他人进行超自然的激励。这种激励的表现形式为数颗{@dice d6}骰，这些骰子被称为诗人激励骰。",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Using Bardic Inspiration",
+							"name": "使用诗人激励",
+							"type": "entries",
+							"entries": [
+								"你可以通过以下方式使用你的诗人激励骰：",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"ENG_name": "Boost a Dice Test",
+											"name": "强冲一个骰子检定",
+											"type": "item",
+											"entry": "当你60尺内能看见或听见的另一生物在{@dice d20}检定中失败时，你可以使用你的反应给予该生物一个吟游诗人激励骰。该生物投掷该骰子并将骰出的数值加到{@dice d20}上，可能将失败转变为成功。"
+										},
+										{
+											"ENG_name": "Heal",
+											"name": "医疗术",
+											"type": "item",
+											"entry": "当你60尺内能看见或听见的另一个生物受到伤害后，你可以立即使用你的反应掷你的吟游诗人激励骰，并为该生物复原等同于掷骰数值的生命值。"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ENG_name": "Number of Uses",
+							"name": "使用次数",
+							"type": "entries",
+							"entries": [
+								"吟游诗人激励骰在被掷出时消耗。你可以授予吟游诗人激励骰的次数等于你的熟练加值，且当你完成一次{@variantrule 长休|XUA2022ExpertClasses}时恢复所有已消耗的使用次数。"
+							]
+						},
+						{
+							"ENG_name": "At Higher Levels",
+							"name": "升环施法效应",
+							"type": "entries",
+							"entries": [
+								"你的吟游诗人激励骰子会随着你在此职业中达到特定等级而改变，如吟游诗人表格中的诗人骰栏所示。该骰子在5级时变为{@dice d8}，在10级时变为{@dice d10}，且在15级时变为{@dice d12}。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Spellcasting",
+			"name": "施法",
+			"source": "XUA2022ExpertClasses",
+			"page": 51,
+			"className": "吟游诗人",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 1,
+			"entries": [
+				"你已学会通过吟游诗人的艺术施法。有关施法的规则，请参阅玩家手册。下方的消息详细说明了你作为吟游诗人如何使用这些规则。",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Prepared Spells",
+							"name": "准备法术",
+							"type": "entries",
+							"entries": [
+								"你准备了以下法术：{@spell 七彩喷射}、{@spell 易容术}、{@spell 魔法伎俩}和{@spell 恶言相加}。",
+								"或者，你可以准备两个0环法术和两个1环法术（自选）。你为该职业准备的任何法术必须是{@variantrule 奥术法术|XUA2022ExpertClasses|奥术法术}，且必须来自以下魔法学派之一：预言术、惑控、幻术或变化系。",
+								"每当你完成一次{@variantrule 长休|XUA2022ExpertClasses}时，你可以练习你的吟游艺术并将为此职业准备的任何法术替换为另一个相同等级的{@variantrule 奥术法术|XUA2022ExpertClasses|奥术法术}，同时遵守上述的学派限制。",
+								"在此职业的更高等级时，你可以准备更多法术，如吟游诗人表格所示。那里的数值决定了你能准备的每个等级的不同法术数量。例如，作为一个3级吟游诗人，你可以准备二个不同的0环法术，四个不同的1环法术，且二个不同的2环法术。",
+								"参考\"准备吟游诗人法术\"章节获取关于在更高等级准备哪些法术的建议。在该章节中标有匕首（†）的法术总是被准备且在你准备法术时不能被替换。"
+							]
+						},
+						{
+							"ENG_name": "Spell Slots",
+							"name": "法术位",
+							"type": "entries",
+							"entries": [
+								"吟游诗人表格展示了你在每个等级拥有多少法术位来施放1环及更高等级的吟游诗人法术；你能准备的每个等级的不同法术数量等于你在该等级拥有的法术位数量。例如，作为一个5级吟游诗人，你拥有四个1环法术位，三个2环法术位和两个3环法术位。"
+							]
+						},
+						{
+							"ENG_name": "Spellcasting Ability",
+							"name": "施法属性",
+							"type": "entries",
+							"entries": [
+								"你吟游诗人法术的施法属性是魅力。"
+							]
+						},
+						{
+							"ENG_name": "Spellcasting Focus",
+							"name": "法器",
+							"type": "entries",
+							"entries": [
+								"你可以使用一件{@item 乐器|SCAG}作为你为该职业准备的法术的法器。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Expertise",
+			"name": "专精",
+			"source": "XUA2022ExpertClasses",
+			"page": 5,
+			"className": "吟游诗人",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 2,
+			"entries": [
+				"你可以在自选的两个技能熟练上获得{@variantrule 专精|XUA2022ExpertClasses}。",
+				"{@skill 表演}且{@skill 游说}是吟游诗人的标志性选择，如果你对它们有熟练。"
+			]
+		},
+		{
+			"ENG_name": "Songs of Restoration",
+			"name": "复原之歌",
+			"source": "XUA2022ExpertClasses",
+			"page": 5,
+			"className": "吟游诗人",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 2,
+			"entries": [
+				"你学会了如何用音乐、诗词和舞蹈来治疗伤口和疾病。当你在此职业达到特定等级时，你可以将一个特定法术添加到你的复原之歌曲目中，如复原之歌曲目表格所示。你总是准备着该法术，且它不计入你可准备的法术数量。",
+				{
+					"type": "table",
+					"caption": "复原之歌曲目",
+					"colLabels": [
+						"吟游诗人",
+						"等级法术"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"2nd",
+							"{@spell 治愈真言|XUA2022ExpertClasses}"
+						],
+						[
+							"4th",
+							"{@spell 次级复原术|XUA2022ExpertClasses}"
+						],
+						[
+							"6th",
+							"{@spell 群体治愈真言|XUA2022ExpertClasses}"
+						],
+						[
+							"8th",
+							"{@spell 行动自如|XUA2022ExpertClasses}"
+						],
+						[
+							"10th",
+							"{@spell 高等复原术|XUA2022ExpertClasses}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Bard Subclass",
+			"name": "吟游诗人子职",
+			"source": "XUA2022ExpertClasses",
+			"page": 5,
+			"className": "吟游诗人",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 3,
+			"entries": [
+				"你获得逸闻学院子职或一个你选择的其他吟游诗人子职。逸闻学院的详情在吟游诗人的职业描述之后，且其他子职将出现在未来的出土{@skill 奥秘}文章中。",
+				"子职是一种专精，可在特定吟游诗人等级时授予你特殊能力。在你的职业生涯剩余时间里，你将获得子职中等于或低于你吟游诗人等级的所有特性。该职业的描述会告诉你子职提供特性的等级。"
+			]
+		},
+		{
+			"ENG_name": "Feat",
+			"name": "专长",
+			"source": "XUA2022ExpertClasses",
+			"page": 5,
+			"className": "吟游诗人",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 4,
+			"entries": [
+				"你获得属性值提升专长或另一个你选择的{@5etools 专长|feats.html}专长。"
+			]
+		},
+		{
+			"ENG_name": "Jack of All Trades",
+			"name": "万事通",
+			"source": "XUA2022ExpertClasses",
+			"page": 5,
+			"className": "吟游诗人",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 5,
+			"entries": [
+				"你可以将熟练加值的一半（向下取整）添加到任何使用你缺乏技能熟练且不另外使用你熟练加值的{@variantrule 属性检定|XUA2022ExpertClasses}。例如，如果你进行一次力量检定（{@skill 运动}）且缺乏{@skill 运动}熟练，你可以将熟练加值的一半添加到检定中。"
+			]
+		},
+		{
+			"ENG_name": "Subclass Feature",
+			"name": "子职特性",
+			"source": "XUA2022ExpertClasses",
+			"page": 5,
+			"className": "吟游诗人",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 6,
+			"entries": [
+				"你从你的吟游诗人子职中获得一个特性。"
+			]
+		},
+		{
+			"ENG_name": "Font of Bardic Inspiration",
+			"name": "吟游诗人激励之洗盆",
+			"source": "XUA2022ExpertClasses",
+			"page": 51,
+			"className": "吟游诗人",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 7,
+			"entries": [
+				"你现在在完成一次短休或{@variantrule 长休|XUA2022ExpertClasses}后恢复所有已消耗的吟游诗人激励使用次数。",
+				"此外，如果一个生物掷出你的吟游诗人激励骰且结果为1（在你可能进行的任何重掷之后），该次吟游诗人激励的使用不会被消耗。"
+			]
+		},
+		{
+			"ENG_name": "Feat",
+			"name": "专长",
+			"source": "XUA2022ExpertClasses",
+			"page": 6,
+			"className": "吟游诗人",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 8,
+			"entries": [
+				"你获得属性值提升专长或另一个你选择的专长。"
+			]
+		},
+		{
+			"ENG_name": "Expertise",
+			"name": "专精",
+			"source": "XUA2022ExpertClasses",
+			"page": 6,
+			"className": "吟游诗人",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 9,
+			"entries": [
+				"你可以在自选的两个技能熟练上获得{@variantrule 专精|XUA2022ExpertClasses}。"
+			]
+		},
+		{
+			"ENG_name": "Subclass Feature",
+			"name": "子职特性",
+			"source": "XUA2022ExpertClasses",
+			"page": 6,
+			"className": "吟游诗人",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 10,
+			"entries": [
+				"你从你的吟游诗人子职中获得一个特性。"
+			]
+		},
+		{
+			"ENG_name": "Magical Secrets",
+			"name": "魔法奥秘",
+			"source": "XUA2022ExpertClasses",
+			"page": 6,
+			"className": "吟游诗人",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 11,
+			"entries": [
+				"你从广泛的灵术中收集了魔法奥秘。选择一个法术列表：{@variantrule 奥术法术|XUA2022ExpertClasses|奥术}、{@variantrule 神圣法术|XUA2022ExpertClasses|神圣}或{@variantrule 原始法术|XUA2022ExpertClasses|原始}。每当你为这个职业准备法术时，你准备的法术中最多可以有两个来自所选列表且属于任何魔法学派。准备的法术需遵循你吟游诗人施法特性的规则。"
+			]
+		},
+		{
+			"ENG_name": "Feat",
+			"name": "专长",
+			"source": "XUA2022ExpertClasses",
+			"page": 6,
+			"className": "吟游诗人",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 12,
+			"entries": [
+				"你获得属性值提升专长或另一个你选择的专长。"
+			]
+		},
+		{
+			"ENG_name": "Subclass Feature",
+			"name": "子职特性",
+			"source": "XUA2022ExpertClasses",
+			"page": 6,
+			"className": "吟游诗人",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 14,
+			"entries": [
+				"你从你的吟游诗人子职中获得一个特性。"
+			]
+		},
+		{
+			"ENG_name": "Further Magical Secrets",
+			"name": "高等魔法奥秘",
+			"source": "XUA2022ExpertClasses",
+			"page": 6,
+			"className": "吟游诗人",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 15,
+			"entries": [
+				"你对魔法的理解变得更加广泛。选择一个法术列表\u2014\u2014{@variantrule 奥术法术|XUA2022ExpertClasses|奥术}、{@variantrule 神圣法术|XUA2022ExpertClasses|神圣}和{@variantrule 原始法术|XUA2022ExpertClasses|原始}\u2014\u2014该列表不能是你为魔法奥秘特性选择的列表。每当你准备吟游诗人法术时，你可以从所选列表和任何魔法学派中准备两个法术。准备的法术需遵循你吟游诗人施法特性的规则。"
+			]
+		},
+		{
+			"ENG_name": "Feat",
+			"name": "专长",
+			"source": "XUA2022ExpertClasses",
+			"page": 6,
+			"className": "吟游诗人",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 16,
+			"entries": [
+				"你获得属性值提升专长或另一个你选择的专长。"
+			]
+		},
+		{
+			"ENG_name": "Superior Bardic Inspiration",
+			"name": "高端吟游诗人激励",
+			"source": "XUA2022ExpertClasses",
+			"page": 6,
+			"className": "吟游诗人",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 18,
+			"entries": [
+				"当你掷先攻时，你恢复两个已消耗的吟游诗人激励使用次数。"
+			]
+		},
+		{
+			"ENG_name": "Feat",
+			"name": "专长",
+			"source": "XUA2022ExpertClasses",
+			"page": 6,
+			"className": "吟游诗人",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 19,
+			"entries": [
+				"你获得属性值提升专长或另一个你选择的专长。"
+			]
+		},
+		{
+			"ENG_name": "Epic Boon",
+			"name": "传奇恩惠",
+			"source": "XUA2022ExpertClasses",
+			"page": 6,
+			"className": "吟游诗人",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 20,
+			"entries": [
+				"你获得{@feat 传奇恩惠：幸运|XUA2022ExpertClasses}专长或另一个你选择的传奇恩惠专长。"
+			]
+		},
+		{
+			"ENG_name": "Expertise",
+			"name": "专精",
+			"source": "XUA2022ExpertClasses",
+			"page": 9,
+			"className": "游侠",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 1,
+			"entries": [
+				"你可以在自选的两个技能熟练上获得{@variantrule 专精|XUA2022ExpertClasses}。",
+				"{@skill 隐匿}且{@skill 求生}是游侠的标志性选择，如果你对它们有熟练。"
+			]
+		},
+		{
+			"ENG_name": "Favored Enemy",
+			"name": "宿敌",
+			"source": "XUA2022ExpertClasses",
+			"page": 9,
+			"className": "游侠",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 1,
+			"entries": [
+				"你擅长将怒火集中在一个敌人身上。你总是准备着猎人印记法术，且它不计入你可准备的法术数量。此外，一旦施放该法术，你无需保持专注；它会持续至其完整的持续时间，直到你以一个附赠动作结束它，或直到你处于{@condition 失能|XUA2022ExpertClasses}状态。"
+			]
+		},
+		{
+			"ENG_name": "Spellcasting",
+			"name": "施法",
+			"source": "XUA2022ExpertClasses",
+			"page": 9,
+			"className": "游侠",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 1,
+			"entries": [
+				"你学会了引导自然的魔法本质来施法。有关施法的规则，请参阅玩家手册。下方的消息详细说明了你作为游侠如何使用这些规则。",
+				{
+					"ENG_name": "Spell Preparation",
+					"name": "法术预备",
+					"type": "entries",
+					"entries": [
+						"你准备了以下法术：{@spell 疗伤术}、{@spell 神导术|XUA2022ExpertClasses}、猎人印记和{@spell 荆棘之鞭}。或者，你可以准备两个0环法术和两个自选的1环法术。你为该职业准备的任何法术都必须是{@variantrule 原始法术|XUA2022ExpertClasses|原始法术}，且可以来自除塑能外的任何魔法学派。",
+						"每当你完成一次{@variantrule 长休|XUA2022ExpertClasses}，你可以问道自然且将此职业已准备的任何法术替换为同等级的非塑能系{@variantrule 原始法术|XUA2022ExpertClasses|原始法术}。",
+						"在此职业的更高等级时，你可以准备更多法术，如游侠表格所示。那里的数值决定了你可以准备的每个等级的不同法术数量。例如，作为一个3级游侠，你可以准备二个不同的0环法术且三个不同的1环法术。",
+						"参考\"预备游侠法术\"章节获取关于在更高等级时应准备哪些法术的建议。在该章节中标有匕首(†)的法术总是被准备且在你准备法术时不能被替换。"
+					]
+				},
+				{
+					"ENG_name": "Spell Slots",
+					"name": "法术位",
+					"type": "entries",
+					"entries": [
+						"游侠表格显示了你在每个等级有多少法术位可以施放1环及更高等级的游侠法术；你能准备的每个等级的不同法术数量等于你在该等级拥有的法术位数量。例如，作为一个5级游侠，你拥有四个1环法术位和两个2环法术位。"
+					]
+				},
+				{
+					"ENG_name": "Spellcasting Ability",
+					"name": "施法属性",
+					"type": "entries",
+					"entries": [
+						"感知是你游侠法术的施法属性。"
+					]
+				},
+				{
+					"ENG_name": "Spellcasting Focus",
+					"name": "法器",
+					"type": "entries",
+					"entries": [
+						"你可以使用德鲁伊法器作为你为该职业准备的法术的法器。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Fighting Style",
+			"name": "战斗风格",
+			"source": "XUA2022ExpertClasses",
+			"page": 10,
+			"className": "游侠",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 2,
+			"entries": [
+				"你磨练了自己的军事实力。你可以从以下战斗风格专长中选择其一：箭术、防御或双武器战斗。",
+				"每当你后文获得专长时，战斗风格专长也是你的可选选项，即使你不是武者组的成员。"
+			]
+		},
+		{
+			"ENG_name": "Ranger Subclass",
+			"name": "游侠子职",
+			"source": "XUA2022ExpertClasses",
+			"page": 10,
+			"className": "游侠",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 3,
+			"entries": [
+				"你获得猎人子职或自选的另一个游侠子职。猎人详情见游侠职业描述之后，其他子职将出现在未来的破解奥秘文章中。",
+				"子职是一种专精，可在特定游侠等级授予你特殊能力。在你的剩余职业生涯中，你将获得子职中等于或低于你游侠等级的所有特性。该职业的描述会告诉你子职提供特性的等级。"
+			]
+		},
+		{
+			"ENG_name": "Feat",
+			"name": "专长",
+			"source": "XUA2022ExpertClasses",
+			"page": 10,
+			"className": "游侠",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 4,
+			"entries": [
+				"你获得属性值提升专长或另一个你选择的专长。"
+			]
+		},
+		{
+			"ENG_name": "Extra Attack",
+			"name": "额外攻击",
+			"source": "XUA2022ExpertClasses",
+			"page": 10,
+			"className": "游侠",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 5,
+			"entries": [
+				"在你的回合中，每当你使用{@action 攻击|XUA2022ExpertClasses}时，你可以攻击两次而非一次。"
+			]
+		},
+		{
+			"ENG_name": "Subclass Feature",
+			"name": "子职特性",
+			"source": "XUA2022ExpertClasses",
+			"page": 10,
+			"className": "游侠",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 6,
+			"entries": [
+				"你获得一个来自你游侠子职的特性。"
+			]
+		},
+		{
+			"ENG_name": "Roving",
+			"name": "越野",
+			"source": "XUA2022ExpertClasses",
+			"page": 10,
+			"className": "游侠",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 7,
+			"entries": [
+				"当你未着装重甲时，你的速度增加10尺。",
+				"你还拥有等于你速度的{@variantrule 攀爬速度|XUA2022ExpertClasses}和{@variantrule 游泳速度|XUA2022ExpertClasses}。"
+			]
+		},
+		{
+			"ENG_name": "Feat",
+			"name": "专长",
+			"source": "XUA2022ExpertClasses",
+			"page": 10,
+			"className": "游侠",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 8,
+			"entries": [
+				"你获得属性值提升专长或另一个你选择的专长。"
+			]
+		},
+		{
+			"ENG_name": "Expertise",
+			"name": "专精",
+			"source": "XUA2022ExpertClasses",
+			"page": 9,
+			"className": "游侠",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 9,
+			"entries": [
+				"你可以在自选的两个技能熟练上获得{@variantrule 专精|XUA2022ExpertClasses}。"
+			]
+		},
+		{
+			"ENG_name": "Subclass Feature",
+			"name": "子职特性",
+			"source": "XUA2022ExpertClasses",
+			"page": 10,
+			"className": "游侠",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 10,
+			"entries": [
+				"你获得一个来自你游侠子职的特性。"
+			]
+		},
+		{
+			"ENG_name": "Tireless",
+			"name": "不知疲倦",
+			"source": "XUA2022ExpertClasses",
+			"page": 10,
+			"className": "游侠",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 11,
+			"entries": [
+				"原始力量现在协助为你的旅程提供燃料，赋予你以下增益：",
+				{
+					"ENG_name": "Temporary Hit Points",
+					"name": "临时生命值",
+					"type": "entries",
+					"entries": [
+						"每当你完成一次短休或长休时，你可以给予自己等于{@dice 1d8}加上你的熟练加值的临时生命值。"
+					]
+				},
+				{
+					"ENG_name": "Decrease Exhaustion",
+					"name": "减少力竭",
+					"type": "entries",
+					"entries": [
+						"如果你在完成一次短休时处于{@condition 力竭|XUA2022ExpertClasses}状态，你的{@condition 力竭}等级减少1。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Feat",
+			"name": "专长",
+			"source": "XUA2022ExpertClasses",
+			"page": 10,
+			"className": "游侠",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 12,
+			"entries": [
+				"你获得属性值提升专长或另一个你选择的专长。"
+			]
+		},
+		{
+			"ENG_name": "Nature's Veil",
+			"name": "自然面纱",
+			"source": "XUA2022ExpertClasses",
+			"page": 10,
+			"className": "游侠",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 13,
+			"entries": [
+				"你呼唤自然精魂以魔法方式躲藏自己。以一个附赠动作，你可以消耗一个法术位并变为{@condition 隐形|XUA2022ExpertClasses}状态，直到你的下个回合结束。"
+			]
+		},
+		{
+			"ENG_name": "Subclass Feature",
+			"name": "子职特性",
+			"source": "XUA2022ExpertClasses",
+			"page": 10,
+			"className": "游侠",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 14,
+			"entries": [
+				"你获得一个来自你游侠子职的特性。"
+			]
+		},
+		{
+			"ENG_name": "Feral Senses",
+			"name": "野性感官",
+			"source": "XUA2022ExpertClasses",
+			"page": 10,
+			"className": "游侠",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 15,
+			"entries": [
+				"你与自然力量的联系赋予你30尺{@feat 盲视|XUA2022ExpertClasses}的范围。"
+			]
+		},
+		{
+			"ENG_name": "Feat",
+			"name": "专长",
+			"source": "XUA2022ExpertClasses",
+			"page": 10,
+			"className": "游侠",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 16,
+			"entries": [
+				"你获得属性值提升专长或另一个你选择的专长。"
+			]
+		},
+		{
+			"ENG_name": "Foe Slayer",
+			"name": "屠灭众敌",
+			"source": "XUA2022ExpertClasses",
+			"page": 10,
+			"className": "游侠",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 18,
+			"entries": [
+				"你的猎人印记现在对其目标造成额外的{@damage 1d10}伤害，而不是额外的{@dice 1d6}。"
+			]
+		},
+		{
+			"ENG_name": "Feat",
+			"name": "专长",
+			"source": "XUA2022ExpertClasses",
+			"page": 10,
+			"className": "游侠",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 19,
+			"entries": [
+				"你获得属性值提升专长或另一个你选择的专长。"
+			]
+		},
+		{
+			"ENG_name": "Epic Boon",
+			"name": "传奇恩惠",
+			"source": "XUA2022ExpertClasses",
+			"page": 10,
+			"className": "游侠",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 20,
+			"entries": [
+				"你获得传奇恩惠坚韧专长或另一个你选择的传奇恩惠专长。"
+			]
+		},
+		{
+			"ENG_name": "Expertise",
+			"name": "专精",
+			"source": "XUA2022ExpertClasses",
+			"page": 13,
+			"className": "游荡者",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 1,
+			"entries": [
+				"你可以在自选的两个技能熟练上获得{@variantrule 专精|XUA2022ExpertClasses}。",
+				"{@skill 巧手}且{@skill 隐匿}是游荡者的标志性选择，如果你对它们有熟练。"
+			]
+		},
+		{
+			"ENG_name": "Sneak Attack",
+			"name": "偷袭",
+			"source": "XUA2022ExpertClasses",
+			"page": 13,
+			"className": "游荡者",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 1,
+			"entries": [
+				"你知道如何将精妙的攻击转化为致命一击。在你的每个回合中一次，当你进行{@action 攻击|XUA2022ExpertClasses}动作时，如果你使用灵巧武器或远程武器攻击，且满足以下至少一个要求，你可以对通过{@variantrule 攻击检定|XUA2022ExpertClasses}命中的一个生物造成额外伤害：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Advantage",
+							"name": "优势",
+							"type": "item",
+							"entries": [
+								"你在{@variantrule 攻击检定|XUA2022ExpertClasses}上具有优势。"
+							]
+						},
+						{
+							"ENG_name": "Ally Adjacent to Target",
+							"name": "与目标相邻的盟友",
+							"type": "item",
+							"entries": [
+								"至少有一个你的盟友在目标5尺范围内，该盟友未处于{@condition 失能|XUA2022ExpertClasses}状态，且你在{@action 攻击|XUA2022ExpertClasses|攻击检定}上没有劣势。"
+							]
+						}
+					]
+				},
+				"要确定额外伤害，掷骰等同于你游荡者等级一半的d6（向上取整），且将这些骰子相加（游荡者表格显示你在每个游荡者等级获得的偷袭骰子数量）。额外伤害的类型与武器的伤害类型相同。"
+			]
+		},
+		{
+			"ENG_name": "Thieves' Cant",
+			"name": "盗贼黑话",
+			"source": "XUA2022ExpertClasses",
+			"page": 13,
+			"className": "游荡者",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 1,
+			"entries": [
+				"你在施展盗贼才能的社区中学会了各种语言。你懂得盗贼黑话且可以选择一种其他语言，从标准语言和稀有语言表格中选择。"
+			]
+		},
+		{
+			"ENG_name": "Cunning Action",
+			"name": "灵巧动作",
+			"source": "XUA2022ExpertClasses",
+			"page": 13,
+			"className": "游荡者",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 2,
+			"entries": [
+				"你敏捷的思维和身手让你能快速移动和行动。在你的回合中，你可以将以下动作之一作为附赠动作执行：{@action 疾走|XUA2022ExpertClasses}、{@action 撤离}或{@action 躲藏|XUA2022ExpertClasses}。"
+			]
+		},
+		{
+			"ENG_name": "Rogue Subclass",
+			"name": "游荡者子职",
+			"source": "XUA2022ExpertClasses",
+			"page": 13,
+			"className": "游荡者",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 3,
+			"entries": [
+				"你获得盗贼子职或自选的另一个游荡者子职。盗贼详情见游荡者职业描述之后，其他子职将出现在未来的发掘{@skill 奥秘}文章中。",
+				"子职是一种专精，可在特定游荡者等级授予你特殊能力。在你的职业生涯剩余时间里，你将获得子职中等于或低于你游荡者等级的所有特性。该职业的描述会告诉你子职提供特性的等级。"
+			]
+		},
+		{
+			"ENG_name": "Feat",
+			"name": "专长",
+			"source": "XUA2022ExpertClasses",
+			"page": 14,
+			"className": "游荡者",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 4,
+			"entries": [
+				"你获得属性值提升专长或另一个你选择的专长。"
+			]
+		},
+		{
+			"ENG_name": "Uncanny Dodge",
+			"name": "直觉闪避",
+			"source": "XUA2022ExpertClasses",
+			"page": 14,
+			"className": "游荡者",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 5,
+			"entries": [
+				"当你看见的攻击手以{@action 攻击|XUA2022ExpertClasses|攻击检定}命中你时，你可以使用你的反应将该攻击对你造成的伤害减半（向下取整）。"
+			]
+		},
+		{
+			"ENG_name": "Subclass Feature",
+			"name": "子职特性",
+			"source": "XUA2022ExpertClasses",
+			"page": 14,
+			"className": "游荡者",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 6,
+			"entries": [
+				"你获得一个游荡者子职特性。"
+			]
+		},
+		{
+			"ENG_name": "Expertise",
+			"name": "专精",
+			"source": "XUA2022ExpertClasses",
+			"page": 14,
+			"className": "游荡者",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 7,
+			"entries": [
+				"你可以在自选的两个技能熟练上获得{@variantrule 专精|XUA2022ExpertClasses}。"
+			]
+		},
+		{
+			"ENG_name": "Feat",
+			"name": "专长",
+			"source": "XUA2022ExpertClasses",
+			"page": 14,
+			"className": "游荡者",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 8,
+			"entries": [
+				"你获得属性值提升专长或另一个你选择的专长。"
+			]
+		},
+		{
+			"ENG_name": "Evasion",
+			"name": "反射闪避",
+			"source": "XUA2022ExpertClasses",
+			"page": 14,
+			"className": "游荡者",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 9,
+			"entries": [
+				"你能灵巧地回避某些危险。当你受到一个允许你进行敏捷豁免检定以仅承受伤害减半的效应时，若豁免检定成功则你不受伤害，若失败则仅承受伤害减半。若你处于{@condition 失能|XUA2022ExpertClasses}状态则不能使用此特性。"
+			]
+		},
+		{
+			"ENG_name": "Feat",
+			"name": "专长",
+			"source": "XUA2022ExpertClasses",
+			"page": 14,
+			"className": "游荡者",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 10,
+			"entries": [
+				"你获得属性值提升专长或另一个你选择的专长。"
+			]
+		},
+		{
+			"ENG_name": "Subclass Feature",
+			"name": "子职特性",
+			"source": "XUA2022ExpertClasses",
+			"page": 14,
+			"className": "游荡者",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 10,
+			"entries": [
+				"你获得一个游荡者子职特性。"
+			]
+		},
+		{
+			"ENG_name": "Reliable Talent",
+			"name": "可靠才能",
+			"source": "XUA2022ExpertClasses",
+			"page": 14,
+			"className": "游荡者",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 11,
+			"entries": [
+				"你已经将自己的才能磨练至接近完美。每当你进行一个使用你的技能或工具熟练项的{@variantrule 属性检定|XUA2022ExpertClasses}时，你可以将{@dice d20}掷骰结果小于等于9视为10。"
+			]
+		},
+		{
+			"ENG_name": "Feat",
+			"name": "专长",
+			"source": "XUA2022ExpertClasses",
+			"page": 14,
+			"className": "游荡者",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 12,
+			"entries": [
+				"你获得属性值提升专长或另一个你选择的专长。"
+			]
+		},
+		{
+			"ENG_name": "Subtle Strikes",
+			"name": "精妙打击",
+			"source": "XUA2022ExpertClasses",
+			"page": 14,
+			"className": "游荡者",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 13,
+			"entries": [
+				"当你攻击时，你知道如何利用目标的纷扰。你对任何{@action 攻击|XUA2022ExpertClasses|攻击检定}具有优势，只要该攻击的目标是一个生物且该生物5尺范围内至少有一个未处于{@condition 失能|XUA2022ExpertClasses}状态的盟友。"
+			]
+		},
+		{
+			"ENG_name": "Subclass Feature",
+			"name": "子职特性",
+			"source": "XUA2022ExpertClasses",
+			"page": 14,
+			"className": "游荡者",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 14,
+			"entries": [
+				"你获得一个游荡者子职特性。"
+			]
+		},
+		{
+			"ENG_name": "Slippery Mind",
+			"name": "圆滑心智",
+			"source": "XUA2022ExpertClasses",
+			"page": 14,
+			"className": "游荡者",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 15,
+			"entries": [
+				"你狡猾的头脑很难被人控制。你获得感知豁免与魅力豁免的熟练。"
+			]
+		},
+		{
+			"ENG_name": "Feat",
+			"name": "专长",
+			"source": "XUA2022ExpertClasses",
+			"page": 14,
+			"className": "游荡者",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 16,
+			"entries": [
+				"你获得属性值提升专长或另一个你选择的专长。"
+			]
+		},
+		{
+			"ENG_name": "Elusive",
+			"name": "飘忽不定",
+			"source": "XUA2022ExpertClasses",
+			"page": 14,
+			"className": "游荡者",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 17,
+			"entries": [
+				"你如此飘忽不定以至于攻击者很少能对你取得优势。当你没有处于{@condition 失能|XUA2022ExpertClasses}状态时，任何{@action 攻击|XUA2022ExpertClasses|攻击检定}都不会对你具有优势。"
+			]
+		},
+		{
+			"ENG_name": "Stroke of Luck",
+			"name": "幸运一击",
+			"source": "XUA2022ExpertClasses",
+			"page": 14,
+			"className": "游荡者",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 18,
+			"entries": [
+				"你有一种不可思议的能力，能在需要时取得成功。如果你在{@variantrule D20 检定|XUA2022ExpertClasses|D20 检定}中失败，你可以将掷骰结果变为20。一旦你使用了这个特性，在完成一次短休或{@variantrule 长休|XUA2022ExpertClasses}之前，你不能再使用它。"
+			]
+		},
+		{
+			"ENG_name": "Feat",
+			"name": "专长",
+			"source": "XUA2022ExpertClasses",
+			"page": 14,
+			"className": "游荡者",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 19,
+			"entries": [
+				"你获得属性值提升专长或另一个你选择的专长。"
+			]
+		},
+		{
+			"ENG_name": "Epic Boon",
+			"name": "传奇恩惠",
+			"source": "XUA2022ExpertClasses",
+			"page": 14,
+			"className": "游荡者",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 20,
+			"entries": [
+				"你获得隐匿的史诗恩惠专长或另一个你选择的传奇恩惠专长。"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"ENG_name": "College of Lore",
+			"name": "逸闻学院",
+			"source": "XUA2022ExpertClasses",
+			"page": 7,
+			"className": "吟游诗人",
+			"classSource": "XUA2022ExpertClasses",
+			"subclassShortName": "逸闻",
+			"subclassSource": "XUA2022ExpertClasses",
+			"level": 3,
+			"entries": [
+				"逸闻学院的吟游诗人对大多数事物都有所了解，他们从各种来源收集知识碎片，无论是学术典籍还是农民故事。无论是在酒馆里唱民谣还是在皇家法庭上表演精心编排的作品，这些吟游诗人都用他们的天赋让观众着迷。",
+				"逸闻学院的成员聚集在图书馆，有时也在真正的学院里，配有教室和宿舍，彼此分享他们的逸闻。他们也会在节日或国家事务中碰面，在那里他们可以揭露腐败、拆穿谎言，并取笑那些自视甚高的权威人物。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "附赠熟练|吟游诗人|XUA2022ExpertClasses|逸闻|XUA2022ExpertClasses|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "语出惊人|吟游诗人|XUA2022ExpertClasses|逸闻|XUA2022ExpertClasses|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Bonus Proficiencies",
+			"name": "附赠熟练",
+			"source": "XUA2022ExpertClasses",
+			"page": 7,
+			"className": "吟游诗人",
+			"classSource": "XUA2022ExpertClasses",
+			"subclassShortName": "逸闻",
+			"subclassSource": "XUA2022ExpertClasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"你获得三个技能熟练：{@skill 奥秘}、{@skill 历史}且{@skill 自然}。若你已拥有其中任一熟练，则选择一个你未拥有的技能熟练并获得该熟练"
+			]
+		},
+		{
+			"ENG_name": "Cutting Words",
+			"name": "语出惊人",
+			"source": "XUA2022ExpertClasses",
+			"page": 7,
+			"className": "吟游诗人",
+			"classSource": "XUA2022ExpertClasses",
+			"subclassShortName": "逸闻",
+			"subclassSource": "XUA2022ExpertClasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"你学会如何用你的机智超自然地干扰、迷惑并削弱他人的信心和能力。当一个你能看见的60尺内的生物在{@variantrule 属性检定|XUA2022ExpertClasses}或{@variantrule 攻击检定|XUA2022ExpertClasses}中成功时，你可以用你的反应消耗一次吟游诗人激励的使用次数，掷一次吟游诗人激励骰并将掷出的数值从该生物的检定中减去，可能使其变为失败。"
+			]
+		},
+		{
+			"ENG_name": "Cunning Inspiration",
+			"name": "狡黠激励",
+			"source": "XUA2022ExpertClasses",
+			"page": 7,
+			"className": "吟游诗人",
+			"classSource": "XUA2022ExpertClasses",
+			"subclassShortName": "逸闻",
+			"subclassSource": "XUA2022ExpertClasses",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"通过你的研究和狡黠，你学会了如何特别出色地激励他人。当任何生物掷你的吟游诗人激励骰时，该生物可以掷两次骰子并使用两次中较高的结果。"
+			]
+		},
+		{
+			"ENG_name": "Improved Cutting Words",
+			"name": "强化语出惊人",
+			"source": "XUA2022ExpertClasses",
+			"page": 7,
+			"className": "吟游诗人",
+			"classSource": "XUA2022ExpertClasses",
+			"subclassShortName": "逸闻",
+			"subclassSource": "XUA2022ExpertClasses",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"每当你对生物使用语出惊人特性时，你可以对该生物造成心灵伤害，伤害数值等于吟游诗人激励骰的数值加上你的魅力调整值。"
+			]
+		},
+		{
+			"ENG_name": "Peerless Skill",
+			"name": "超凡技艺",
+			"source": "XUA2022ExpertClasses",
+			"page": 7,
+			"className": "吟游诗人",
+			"classSource": "XUA2022ExpertClasses",
+			"subclassShortName": "逸闻",
+			"subclassSource": "XUA2022ExpertClasses",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"当你进行一次{@variantrule 属性检定|XUA2022ExpertClasses}且失败时，你可以消耗一次吟游诗人激励的使用次数，掷一次吟游诗人激励骰，并将掷出的数值添加到{@variantrule 属性检定|XUA2022ExpertClasses}上，可能将其转变为成功。如果检定仍然失败，则不会消耗吟游诗人激励。"
+			]
+		},
+		{
+			"ENG_name": "Hunter",
+			"name": "猎人",
+			"source": "XUA2022ExpertClasses",
+			"page": 11,
+			"className": "游侠",
+			"classSource": "XUA2022ExpertClasses",
+			"subclassShortName": "猎人",
+			"subclassSource": "XUA2022ExpertClasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"你追逐猎物直到天涯海角，运用你的猎人的本领去保护自然与人民，使其不受灾祸的毁灭。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "猎杀技艺|游侠|XUA2022ExpertClasses|猎人|XUA2022ExpertClasses|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Hunter's Prey",
+			"name": "猎杀技艺",
+			"source": "XUA2022ExpertClasses",
+			"page": 11,
+			"className": "游侠",
+			"classSource": "XUA2022ExpertClasses",
+			"subclassShortName": "猎人",
+			"subclassSource": "XUA2022ExpertClasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"你的坚韧甚至可以拖垮最牢固的敌人。当你在回合内以武器或{@variantrule 徒手打击|XUA2022ExpertClasses}作为{@action 攻击|XUA2022ExpertClasses|攻击动作}的一部分命中一个生物时，如果目标失去任何生命值，该武器或{@variantrule 徒手打击|XUA2022ExpertClasses}会对目标造成额外{@damage 1d8}伤害。你每回合只能造成一次这种额外伤害。"
+			]
+		},
+		{
+			"ENG_name": "Hunter's Lore",
+			"name": "猎人学识",
+			"source": "XUA2022ExpertClasses",
+			"page": 11,
+			"className": "游侠",
+			"classSource": "XUA2022ExpertClasses",
+			"subclassShortName": "猎人",
+			"subclassSource": "XUA2022ExpertClasses",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"你可以呼唤自然之力来揭示猎物的某些强项与弱点。当一个生物被你的猎人印记标记时，你会知晓该生物是否具有任何免疫、抗性和易伤，若有，你还知晓具体是哪些。"
+			]
+		},
+		{
+			"ENG_name": "Multiattack",
+			"name": "多重攻击",
+			"source": "XUA2022ExpertClasses",
+			"page": 11,
+			"className": "游侠",
+			"classSource": "XUA2022ExpertClasses",
+			"subclassShortName": "猎人",
+			"subclassSource": "XUA2022ExpertClasses",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"你现在总是准备着箭如雨下，且它不计入你可准备的法术数量。",
+				"你也可以用1环和2环法术位施放该法术。当你这样做时，该法术的伤害会为每个低于3环的法术位环阶缩小{@dice 1d8}。"
+			]
+		},
+		{
+			"ENG_name": "Superior Hunter's Defense",
+			"name": "高效防守战术",
+			"source": "XUA2022ExpertClasses",
+			"page": 11,
+			"className": "游侠",
+			"classSource": "XUA2022ExpertClasses",
+			"subclassShortName": "猎人",
+			"subclassSource": "XUA2022ExpertClasses",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"当你被一次{@action 攻击|XUA2022ExpertClasses|攻击检定}命中时，你可以使用你的反应将该攻击对你造成的伤害减半，且你可以将另一半伤害重定向至一个你能看见的、距你5尺内的生物（攻击手以外的其他生物）。"
+			]
+		},
+		{
+			"ENG_name": "Fast Hands",
+			"name": "快手",
+			"source": "XUA2022ExpertClasses",
+			"page": 15,
+			"className": "游荡者",
+			"classSource": "XUA2022ExpertClasses",
+			"subclassShortName": "盗贼",
+			"subclassSource": "XUA2022ExpertClasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"你的灵巧动作有额外的附赠动作选项，你可以执行以下动作：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Search",
+							"name": "搜索",
+							"type": "item",
+							"entries": [
+								"进行{@action 搜索动作|XUA2022ExpertClasses|搜索动作}。"
+							]
+						},
+						{
+							"ENG_name": "Sleight of Hand",
+							"name": "巧手",
+							"type": "item",
+							"entries": [
+								"进行一次敏捷检定（{@skill 巧手}）来用盗贼工具开锁或解除陷阱，或进行一次扒窃"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Second-Story Work",
+			"name": "梁上君子",
+			"source": "XUA2022ExpertClasses",
+			"page": 15,
+			"className": "游荡者",
+			"classSource": "XUA2022ExpertClasses",
+			"subclassShortName": "盗贼",
+			"subclassSource": "XUA2022ExpertClasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"你经过训练能够触及特别难以触及的地方，获得以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Climb Speed",
+							"name": "攀爬速度",
+							"type": "item",
+							"entries": [
+								"你获得等同于你速度的{@variantrule 攀爬速度|XUA2022ExpertClasses}。"
+							]
+						},
+						{
+							"ENG_name": "Jump Distance",
+							"name": "跳跃距离",
+							"type": "item",
+							"entries": [
+								"当你使用{@action 跳跃术|XUA2022ExpertClasses|跳跃术动作}时，你可以进行一次敏捷检定，而非力量检定。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Thief",
+			"name": "盗贼",
+			"source": "XUA2022ExpertClasses",
+			"page": 15,
+			"className": "游荡者",
+			"classSource": "XUA2022ExpertClasses",
+			"subclassShortName": "盗贼",
+			"subclassSource": "XUA2022ExpertClasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"你已经磨练了你的盗窃艺术。窃贼、强盗、扒手和其他罪犯通常选择这个子职，但那些更喜欢将自己视为宝藏探索者、探险家、地城潜行者与调查者的游荡者也会选择它。",
+				"除了提升你的敏捷和隐匿能力外，你还获得了探索废墟并从那里找到的魔法物品中获得最大增益的有用属性。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "快手|游荡者|XUA2022ExpertClasses|盗贼|XUA2022ExpertClasses|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "梁上君子|游荡者|XUA2022ExpertClasses|盗贼|XUA2022ExpertClasses|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Supreme Sneak",
+			"name": "极效潜行",
+			"source": "XUA2022ExpertClasses",
+			"page": 15,
+			"className": "游荡者",
+			"classSource": "XUA2022ExpertClasses",
+			"subclassShortName": "盗贼",
+			"subclassSource": "XUA2022ExpertClasses",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"你在所有敏捷检定（{@skill 隐匿}）上具有优势，前提是你没有穿着中等或重甲。"
+			]
+		},
+		{
+			"ENG_name": "Use Magic Device",
+			"name": "使用魔法装置",
+			"source": "XUA2022ExpertClasses",
+			"page": 15,
+			"className": "游荡者",
+			"classSource": "XUA2022ExpertClasses",
+			"subclassShortName": "盗贼",
+			"subclassSource": "XUA2022ExpertClasses",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"在你的宝藏搜寻中，你已经学会了如何最大化利用魔法物品，获得以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Attunement",
+							"name": "同调",
+							"type": "item",
+							"entries": [
+								"你最多可以同时同调于四个魔法物品。"
+							]
+						},
+						{
+							"ENG_name": "Charges",
+							"name": "充能",
+							"type": "item",
+							"entries": [
+								"每当你使用一个会消耗充能的魔法物品属性时，掷一枚{@dice d6}。若掷出6点，你可以不消耗充能使用该属性。"
+							]
+						},
+						{
+							"ENG_name": "Scrolls",
+							"name": "卷轴",
+							"type": "item",
+							"entries": [
+								"你可以使用任何载有戏法或一环法术的{@item 法术卷轴}。你也可以尝试使用任何载有更高等级法术的{@item 法术卷轴}，但你必须先成功通过一个DC等于10+法术等级的智力（奥秘）检定。若检定成功，你从卷轴施放该法术，且此次施放使用智力作为你的施法属性。若检定失败，该卷轴解离。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Thief's Reflexes",
+			"name": "窃盗本能",
+			"source": "XUA2022ExpertClasses",
+			"page": 15,
+			"className": "游荡者",
+			"classSource": "XUA2022ExpertClasses",
+			"subclassShortName": "盗贼",
+			"subclassSource": "XUA2022ExpertClasses",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"你现在可以在你的回合中采取第二个附赠动作，前提是该附赠动作来自灵巧动作。你可以在等于你熟练加值数量的回合中使用此特性，且当你完成一次{@variantrule 长休|XUA2022ExpertClasses}时恢复所有已消耗的使用次数。"
+			]
+		}
+	],
+	"feat": [
+		{
+			"ENG_name": "Ability Score Improvement",
+			"name": "属性值提升",
+			"source": "XUA2022ExpertClasses",
+			"page": 16,
+			"prerequisite": [
+				{
+					"level": 4
+				}
+			],
+			"repeatable": true,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 2
+					},
+					"hidden": true
+				},
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 2
+					},
+					"hidden": true
+				}
+			],
+			"entries": [
+				"你选择一个属性值提升2点，或者选择两个属性值各提升1点。你不能将属性值提升至20以上。"
+			]
+		},
+		{
+			"ENG_name": "Actor",
+			"name": "演员",
+			"source": "XUA2022ExpertClasses",
+			"page": 16,
+			"prerequisite": [
+				{
+					"level": 4,
+					"ability": [
+						{
+							"cha": 13
+						}
+					]
+				}
+			],
+			"repeatable": false,
+			"ability": [
+				{
+					"cha": 1
+				}
+			],
+			"entries": [
+				"精通于模仿和演戏，让你获得下列增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Impersonation",
+							"name": "伪装",
+							"type": "item",
+							"entries": [
+								"当你伪装成一个虚构的人或除你自己以外的真实人物时，你在说服他人你就是那个人的魅力检定（{@skill 表演}）上具有优势。"
+							]
+						},
+						{
+							"ENG_name": "Mimicry",
+							"name": "拟声",
+							"type": "item",
+							"entries": [
+								"你可以模仿其他生物的声音，包括口语。要模仿一种声音或说话方式，你必须聆听它至少1分钟。此后任何时候，你可以进行一次{@dc 15}魅力检定（{@skill 表演}）来进行拟声；成功后，你能在最多1小时内令人信服地表演它。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Athlete",
+			"name": "运动员",
+			"source": "XUA2022ExpertClasses",
+			"page": 16,
+			"prerequisite": [
+				{
+					"level": 4,
+					"ability": [
+						{
+							"str": 13,
+							"dex": 13,
+							"con": 13
+						}
+					]
+				}
+			],
+			"repeatable": false,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你接受的全面肉体锻炼使你获得下列增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Climb Speed",
+							"name": "攀爬速度",
+							"type": "item",
+							"entry": "你获得等同于你速度的{@variantrule 攀爬速度|XUA2022ExpertClasses}。"
+						},
+						{
+							"ENG_name": "Hop Up",
+							"name": "鲤鱼打挺",
+							"type": "item",
+							"entry": "当你倒地时，你可以仅用5尺移动力使自己起身。跳跃术。你在进行{@variantrule 属性检定|XUA2022ExpertClasses}以获得{@action 跳跃术|XUA2022ExpertClasses}动作时具有优势。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Charger",
+			"name": "冲锋手",
+			"source": "XUA2022ExpertClasses",
+			"page": 16,
+			"prerequisite": [
+				{
+					"level": 4,
+					"proficiency": [
+						{
+							"weapon": "军用"
+						}
+					]
+				}
+			],
+			"repeatable": false,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你已训练过如何一头冲进战斗，获得以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Improved Dash",
+							"name": "进阶疾走",
+							"type": "item",
+							"entry": "当你执行{@action 疾走|XUA2022ExpertClasses|疾走动作}时，你的速度提升10尺直到该动作结束。"
+						},
+						{
+							"ENG_name": "Charge Attack",
+							"name": "冲锋攻击",
+							"type": "item",
+							"entry": "如果你在你的回合中作为{@action 攻击|XUA2022ExpertClasses|攻击动作}攻击动作的一部分，在命中攻击前直线移动至少10尺，选择以下一项效应：获得{@dice  + 1d8}的攻击伤害掷骰加值，或将目标推离最多10尺，前提是你想推离的目标体型不超过你一级。你每回合只能使用一次此增益。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Crossbow Expert",
+			"name": "强弩专家",
+			"source": "XUA2022ExpertClasses",
+			"page": 17,
+			"prerequisite": [
+				{
+					"level": 4,
+					"proficiency": [
+						{
+							"weapon": "军用"
+						}
+					]
+				}
+			],
+			"repeatable": false,
+			"ability": [
+				{
+					"dex": 1
+				}
+			],
+			"entries": [
+				"得益于对弩的广泛练习，你获得以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Ignore Loading",
+							"name": "无视装填",
+							"type": "item",
+							"entry": "你无视弩的装填属性。"
+						},
+						{
+							"ENG_name": "Firing in Melee",
+							"name": "抵近射击",
+							"type": "item",
+							"entry": "身处敌人5尺范围内不会对你的{@variantrule 攻击检定|XUA2022ExpertClasses}使用十字弩时造成劣势。"
+						},
+						{
+							"ENG_name": "Dual Wielding",
+							"name": "双持射击",
+							"type": "item",
+							"entry": "当你使用具有{@variantrule 光亮术|XUA2022ExpertClasses}武器属性的额外攻击时，如果该攻击使用的是具有{@variantrule 光亮术|XUA2022ExpertClasses}属性的弩，你可以将你的属性调整值添加到额外攻击的伤害上。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Defensive Duelist",
+			"name": "防御式决斗",
+			"source": "XUA2022ExpertClasses",
+			"page": 17,
+			"prerequisite": [
+				{
+					"level": 4,
+					"ability": [
+						{
+							"dex": 13
+						}
+					]
+				}
+			],
+			"repeatable": false,
+			"ability": [
+				{
+					"dex": 1
+				}
+			],
+			"entries": [
+				"你学会了灵巧地招架攻击，获得以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Parry",
+							"name": "格挡",
+							"type": "item",
+							"entry": "如果你持有一把灵巧武器且另一个生物以近战攻击命中你，你可以使用你的反应将你的熟练加值添加到你的护甲等级上，可能使该攻击未命中你。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Dual Wielder",
+			"name": "双持客",
+			"source": "XUA2022ExpertClasses",
+			"page": 17,
+			"prerequisite": [
+				{
+					"level": 4,
+					"proficiency": [
+						{
+							"weapon": "军用"
+						}
+					]
+				}
+			],
+			"repeatable": false,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你精通双持武器进行作战，并获得下列增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Enhanced Dual Wielding",
+							"name": "强化双持",
+							"type": "item",
+							"entry": "当你一只手持有具有轻型属性的武器时，若另一只手的武器不具有双手属性，你可以将该非轻型武器视为具有轻型属性。"
+						},
+						{
+							"ENG_name": "Quick Draw",
+							"name": "快速拔刀",
+							"type": "item",
+							"entry": "拔出或入鞘武器时，你可以同时拔出或入鞘两把不具有双手词条的武器，而非通常情况下的一把。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Durable",
+			"name": "耐性",
+			"source": "XUA2022ExpertClasses",
+			"page": 17,
+			"prerequisite": [
+				{
+					"level": 4,
+					"ability": [
+						{
+							"con": 13
+						}
+					]
+				}
+			],
+			"repeatable": false,
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"entries": [
+				"由于坚强而持久，你获得下列增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Defy Death",
+							"name": "悍不畏死",
+							"type": "item",
+							"entry": "你进行的死亡豁免具有优势。"
+						},
+						{
+							"ENG_name": "Speedy Recovery",
+							"name": "高速恢复",
+							"type": "item",
+							"entry": "以一个附赠动作，你可以消耗一个生命骰，掷骰，且恢复等同于掷骰数值的生命值。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Elemental Adept",
+			"name": "元素掌控",
+			"source": "XUA2022ExpertClasses",
+			"page": 17,
+			"prerequisite": [
+				{
+					"level": 4,
+					"spellcasting2020": true
+				}
+			],
+			"repeatable": true,
+			"repeatableNote": "是，但你每次必须为能量掌控选择不同的伤害类型",
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"在你的施法中，你可以驾驭一种特定形态的能量以达到致命精通，并获得以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Energy Mastery",
+							"name": "能量掌控",
+							"type": "item",
+							"entry": "选择以下伤害类型之一：强酸、寒冷、火焰、闪电、雷鸣。你施展的法术无视所选伤害类型的抗性。此外，当你为你施展的造成该类型伤害的法术投掷伤害时，你可以将伤害骰中骰出的1都视为2。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Epic Boon of Combat Prowess",
+			"name": "传奇恩惠：战斗精熟",
+			"source": "XUA2022ExpertClasses",
+			"page": 18,
+			"prerequisite": [
+				{
+					"level": 20,
+					"group": [
+						"expert",
+						"warrior"
+					]
+				}
+			],
+			"repeatable": false,
+			"entries": [
+				"当你未命中近战攻击时，你可以改为命中。一旦你使用此增益，直到你掷先攻前都无法再次使用。"
+			]
+		},
+		{
+			"ENG_name": "Epic Boon of Dimensional Travel",
+			"name": "传奇恩惠：次元旅行",
+			"source": "XUA2022ExpertClasses",
+			"page": 18,
+			"prerequisite": [
+				{
+					"level": 20,
+					"group": [
+						"expert",
+						"mage"
+					]
+				}
+			],
+			"repeatable": false,
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": {
+							"rest": {
+								"1": [
+									"迷踪步"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"你可以施放{@spell 迷踪步}法术而不消耗法术位。一旦你使用了这个增益，在掷先攻或完成一次短休或{@variantrule 长休|XUA2022ExpertClasses}之前，你无法再次使用它。"
+			]
+		},
+		{
+			"ENG_name": "Epic Boon of Energy Resistance",
+			"name": "传奇恩惠：能量抵抗术",
+			"source": "XUA2022ExpertClasses",
+			"page": 18,
+			"prerequisite": [
+				{
+					"level": 20,
+					"group": [
+						"expert",
+						"mage"
+					]
+				}
+			],
+			"repeatable": false,
+			"resist": [
+				{
+					"choose": {
+						"from": [
+							"强酸",
+							"寒冷",
+							"火焰",
+							"闪电",
+							"暗蚀",
+							"毒素",
+							"心灵",
+							"光耀",
+							"雷鸣"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你获得对以下一种自选伤害类型的抵抗术：强酸、寒冷、火焰、闪电、暗蚀、毒素、心灵、光耀或雷鸣。",
+				"每当你完成一次短休或{@variantrule 长休|XUA2022ExpertClasses}时，你可以冥想并改变该伤害类型选择。"
+			]
+		},
+		{
+			"ENG_name": "Epic Boon of Fortitude",
+			"name": "坚韧传奇恩惠",
+			"source": "XUA2022ExpertClasses",
+			"page": 18,
+			"prerequisite": [
+				{
+					"level": 20
+				}
+			],
+			"repeatable": false,
+			"entries": [
+				"你的生命值上限增加40",
+				"此外，每当你恢复生命值时，你额外恢复等同于你体质调整值的生命值。你每轮最多只能恢复这些额外生命值一次。"
+			]
+		},
+		{
+			"ENG_name": "Epic Boon of Irresistible Offense",
+			"name": "传奇恩惠：不可阻挡的进攻",
+			"source": "XUA2022ExpertClasses",
+			"page": 18,
+			"prerequisite": [
+				{
+					"level": 20,
+					"group": [
+						"expert",
+						"warrior"
+					]
+				}
+			],
+			"repeatable": false,
+			"entries": [
+				"你造成的伤害总是忽略抵抗术。"
+			]
+		},
+		{
+			"ENG_name": "Epic Boon of Luck",
+			"name": "传奇恩惠：幸运",
+			"source": "XUA2022ExpertClasses",
+			"page": 18,
+			"prerequisite": [
+				{
+					"level": 20,
+					"group": [
+						"expert"
+					]
+				}
+			],
+			"repeatable": false,
+			"entries": [
+				"在你为{@variantrule D20 检定|XUA2022ExpertClasses}掷出{@dice d20}后，你可以立即掷出{@dice d10}并将掷出的数值添加到检定中。一旦你使用了这个增益，在掷先攻或完成一次短休或{@variantrule 长休|XUA2022ExpertClasses}前，你无法再次使用它。"
+			]
+		},
+		{
+			"ENG_name": "Epic Boon of Peerless Aim",
+			"name": "传奇恩惠：无双锁定",
+			"source": "XUA2022ExpertClasses",
+			"page": 18,
+			"prerequisite": [
+				{
+					"level": 20,
+					"group": [
+						"expert",
+						"warrior"
+					]
+				}
+			],
+			"repeatable": false,
+			"entries": [
+				"如果你对范围内的目标进行远程攻击且未命中，你可以使该攻击改为命中。一旦你使用此增益，直到你掷先攻前都不能再次使用它。"
+			]
+		},
+		{
+			"ENG_name": "Epic Boon of Recovery",
+			"name": "传奇恩惠：康复",
+			"source": "XUA2022ExpertClasses",
+			"page": 18,
+			"prerequisite": [
+				{
+					"level": 20
+				}
+			],
+			"repeatable": false,
+			"entries": [
+				"你可以使用一个附赠动作来恢复相当于你生命值上限一半的生命值。一旦你使用了这个增益，在完成一次{@variantrule 长休|XUA2022ExpertClasses}前无法再次使用。",
+				"此外，你在每次死亡豁免检定中都会成功，除非掷骰结果为1。"
+			]
+		},
+		{
+			"ENG_name": "Epic Boon of Skill Proficiency",
+			"name": "技能熟练传奇恩惠",
+			"source": "XUA2022ExpertClasses",
+			"page": 19,
+			"prerequisite": [
+				{
+					"level": 20
+				}
+			],
+			"repeatable": false,
+			"skillProficiencies": [
+				{
+					"athletics": true,
+					"acrobatics": true,
+					"sleight of hand": true,
+					"stealth": true,
+					"arcana": true,
+					"history": true,
+					"investigation": true,
+					"nature": true,
+					"religion": true,
+					"animal handling": true,
+					"insight": true,
+					"medicine": true,
+					"perception": true,
+					"survival": true,
+					"deception": true,
+					"intimidation": true,
+					"performance": true,
+					"persuasion": true
+				}
+			],
+			"entries": [
+				"你获得所有技能的熟练。"
+			]
+		},
+		{
+			"ENG_name": "Epic Boon of Speed",
+			"name": "速度传奇恩惠",
+			"source": "XUA2022ExpertClasses",
+			"page": 19,
+			"prerequisite": [
+				{
+					"level": 20,
+					"group": [
+						"expert",
+						"warrior"
+					]
+				}
+			],
+			"repeatable": false,
+			"entries": [
+				"你的速度提升30尺。"
+			]
+		},
+		{
+			"ENG_name": "Epic Boon of the Night Spirit",
+			"name": "黑夜精魄的传奇恩惠",
+			"source": "XUA2022ExpertClasses",
+			"page": 18,
+			"prerequisite": [
+				{
+					"level": 20,
+					"group": [
+						"expert",
+						"mage"
+					]
+				}
+			],
+			"repeatable": false,
+			"entries": [
+				"在微光光照或黑暗术中，你可以以一个动作变为{@condition 隐形|XUA2022ExpertClasses}。你保持{@condition 隐形|XUA2022ExpertClasses}状态直到你执行一个动作或反应后立即结束。"
+			]
+		},
+		{
+			"ENG_name": "Epic Boon of the Unfettered",
+			"name": "传奇恩惠：无拘无束",
+			"source": "XUA2022ExpertClasses",
+			"page": 19,
+			"prerequisite": [
+				{
+					"level": 20,
+					"group": [
+						"expert",
+						"warrior"
+					]
+				}
+			],
+			"repeatable": false,
+			"entries": [
+				"作为附赠动作，你可以执行{@action 撤离}动作，同时解除你身上的{@condition 受擒|XUA2022ExpertClasses}和束缚状态。"
+			]
+		},
+		{
+			"ENG_name": "Epic Boon of Undetectability",
+			"name": "隐匿的史诗恩惠",
+			"source": "XUA2022ExpertClasses",
+			"page": 19,
+			"prerequisite": [
+				{
+					"level": 20,
+					"group": [
+						"expert"
+					]
+				}
+			],
+			"repeatable": false,
+			"entries": [
+				"当你处于{@condition 隐藏|XUA2022ExpertClasses}状态时，你无法被任何手段\u2014\u2014无论是魔法还是非魔法\u2014\u2014看到或听到。"
+			]
+		},
+		{
+			"ENG_name": "Fighting Style: Archery",
+			"name": "战斗风格：箭术",
+			"source": "XUA2022ExpertClasses",
+			"page": 19,
+			"prerequisite": [
+				{
+					"level": 1,
+					"group": [
+						"warrior"
+					]
+				}
+			],
+			"repeatable": false,
+			"entries": [
+				"你在使用远程武器进行{@variantrule 攻击检定|XUA2022ExpertClasses}时获得+2加值。"
+			]
+		},
+		{
+			"ENG_name": "Fighting Style: Defense",
+			"name": "战斗风格：防御",
+			"source": "XUA2022ExpertClasses",
+			"page": 19,
+			"prerequisite": [
+				{
+					"level": 1,
+					"group": [
+						"warrior"
+					]
+				}
+			],
+			"repeatable": false,
+			"entries": [
+				"当你穿着护甲时，你的护甲等级获得+1加值。"
+			]
+		},
+		{
+			"ENG_name": "Fighting Style: Dueling",
+			"name": "战斗风格：对决",
+			"source": "XUA2022ExpertClasses",
+			"page": 19,
+			"prerequisite": [
+				{
+					"level": 1,
+					"group": [
+						"warrior"
+					]
+				}
+			],
+			"repeatable": false,
+			"entries": [
+				"当你单手持握一把近战武器且没有其他武器时，你使用该近战武器进行伤害掷骰时获得+2加值。"
+			]
+		},
+		{
+			"ENG_name": "Fighting Style: Great Weapon Fighting",
+			"name": "战斗风格：巨武器战斗",
+			"source": "XUA2022ExpertClasses",
+			"page": 19,
+			"prerequisite": [
+				{
+					"level": 1,
+					"group": [
+						"warrior"
+					]
+				}
+			],
+			"repeatable": false,
+			"entries": [
+				"当你用双手持握的近战武器进行攻击时，若伤害骰掷出1或2，你可以重掷该骰，且必须使用新的结果。该武器必须具有双手或多用属性才能获得此增益。"
+			]
+		},
+		{
+			"ENG_name": "Fighting Style: Protection",
+			"name": "战斗风格：守护",
+			"source": "XUA2022ExpertClasses",
+			"page": 19,
+			"prerequisite": [
+				{
+					"level": 1,
+					"group": [
+						"warrior"
+					]
+				}
+			],
+			"repeatable": false,
+			"entries": [
+				"当你看见的一个生物进行{@variantrule 攻击检定|XUA2022ExpertClasses}并命中5尺内除你以外的目标时，你可以立即使用你的反应以化形你的护盾术并对该{@variantrule 攻击检定|XUA2022ExpertClasses}施加-2减值，可能使其未命中。你必须持用护盾术才能使用此反应。"
+			]
+		},
+		{
+			"ENG_name": "Fighting Style: Two-Weapon Fighting",
+			"name": "战斗风格：双武器战斗",
+			"source": "XUA2022ExpertClasses",
+			"page": 19,
+			"prerequisite": [
+				{
+					"level": 1,
+					"group": [
+						"warrior"
+					]
+				}
+			],
+			"repeatable": false,
+			"entries": [
+				"当你使用{@variantrule 光亮术|XUA2022ExpertClasses}武器属性进行额外攻击时，你可以将你的属性调整值添加到额外攻击的伤害上。"
+			]
+		},
+		{
+			"ENG_name": "Grappler",
+			"name": "擒抱者",
+			"source": "XUA2022ExpertClasses",
+			"page": 19,
+			"prerequisite": [
+				{
+					"level": 4,
+					"ability": [
+						{
+							"str": 13,
+							"dex": 13
+						}
+					]
+				}
+			],
+			"repeatable": false,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你是一个熟练的摔跤手，获得以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Attack Advantage",
+							"name": "优势攻击",
+							"type": "item",
+							"entry": "你对被你{@condition 受擒|XUA2022ExpertClasses}的生物进行的{@variantrule 攻击检定|XUA2022ExpertClasses|攻击检定}具有优势。"
+						},
+						{
+							"ENG_name": "Fast Wrestler",
+							"name": "高速拖行",
+							"type": "item",
+							"entry": "当你移动一个被你{@condition 受擒|XUA2022ExpertClasses}的生物时，只要该生物的体型与你相同或更小，你不会被{@variantrule 减速|XUA2022ExpertClasses}。"
+						},
+						{
+							"ENG_name": "Punch and Grab",
+							"name": "连擒带打",
+							"type": "item",
+							"entry": "当你回合内以{@variantrule 徒手打击|XUA2022ExpertClasses}作为{@action 攻击|XUA2022ExpertClasses|攻击动作}的一部分命中一个生物时，你可以对目标造成伤害且擒抱它。你每回合只能使用此增益一次。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Great Weapon Master",
+			"name": "巨武器大师",
+			"source": "XUA2022ExpertClasses",
+			"page": 20,
+			"prerequisite": [
+				{
+					"level": 4,
+					"proficiency": [
+						{
+							"weapon": "军用"
+						}
+					]
+				}
+			],
+			"repeatable": false,
+			"ability": [
+				{
+					"str": 1
+				}
+			],
+			"entries": [
+				"你学会了利用武器的重量来获得优势，让其动量增强你的攻击。你获得以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Cleave",
+							"name": "横扫",
+							"type": "item",
+							"entry": "当你使用近战武器掷出一次重击时，或当你用其将一个生物的生命值降低至0时，你可以立即使用你的附赠动作用同一把武器发动一次攻击。"
+						},
+						{
+							"ENG_name": "Heavy Weapon Mastery",
+							"name": "重武器掌握",
+							"type": "item",
+							"entry": "当你用一把重型武器命中一个生物作为你回合中{@action 攻击|XUA2022ExpertClasses|攻击动作}的一部分时，你可以使该武器对目标造成额外伤害。额外伤害等于你的熟练加值，且你每回合只能造成一次。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Heavily Armored",
+			"name": "重甲运用",
+			"source": "XUA2022ExpertClasses",
+			"page": 20,
+			"prerequisite": [
+				{
+					"level": 4
+				}
+			],
+			"repeatable": false,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"str"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"armorProficiencies": [
+				{
+					"heavy": true
+				}
+			],
+			"entries": [
+				"你已接受过重甲运用的有效训练，获得以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Armor Training",
+							"name": "护甲受训",
+							"type": "item",
+							"entry": "你获得重型{@variantrule 护甲受训|XUA2022ExpertClasses}。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Heavy Armor Master",
+			"name": "重甲大师",
+			"source": "XUA2022ExpertClasses",
+			"page": 20,
+			"prerequisite": [
+				{
+					"level": 4,
+					"proficiency": [
+						{
+							"armor": "heavy"
+						}
+					]
+				}
+			],
+			"repeatable": false,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"str"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你可以使用你的重甲来偏转攻击，获得以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Damage Reduction",
+							"name": "伤害减免",
+							"type": "item",
+							"entry": "当你穿着重甲时被攻击命中，该攻击对你造成的钝击、穿刺或挥砍伤害将缩小相当于你熟练加值的数量"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Inspiring Leader",
+			"name": "领袖之证",
+			"source": "XUA2022ExpertClasses",
+			"page": 20,
+			"prerequisite": [
+				{
+					"level": 4,
+					"ability": [
+						{
+							"wis": 13,
+							"cha": 13
+						}
+					]
+				}
+			],
+			"repeatable": false,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你擅长激励他人，获得以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Encouraging Performance",
+							"name": "鼓舞表演",
+							"type": "item",
+							"entry": "在短休或{@variantrule 长休|XUA2022ExpertClasses}结束时，你可以进行一场鼓舞人心的表演：口语、歌曲或舞蹈。当你这样做时，选择最多六个30尺内见证表演的友好生物（可以包括你自己）。被选中的生物各自获得等于{@dice 2d4} + 你的熟练加值的临时生命值。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Keen Mind",
+			"name": "敏锐心灵",
+			"source": "XUA2022ExpertClasses",
+			"page": 20,
+			"prerequisite": [
+				{
+					"level": 4,
+					"ability": [
+						{
+							"int": 13
+						}
+					]
+				}
+			],
+			"repeatable": false,
+			"ability": [
+				{
+					"int": 1
+				}
+			],
+			"entries": [
+				"你经过训练能够快速回忆或发现关键细节，获得以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Lore Knowledge",
+							"name": "轶闻知识",
+							"type": "item",
+							"entry": "从以下技能中选择一项：{@skill 奥秘}、{@skill 历史}、{@skill 调查}、{@skill 自然}或{@skill 宗教}。若你未在所选技能上获得熟练项，则你获得该技能的熟练项；若你已获得该技能的熟练项，则你获得{@variantrule 专精|XUA2022ExpertClasses}。"
+						},
+						{
+							"ENG_name": "Quick Study",
+							"name": "快速研究",
+							"type": "item",
+							"entry": "你可以将{@action 研究|XUA2022ExpertClasses|研究动作}作为附赠动作使用。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Lightly Armored",
+			"name": "轻甲运用",
+			"source": "XUA2022ExpertClasses",
+			"page": 21,
+			"prerequisite": [
+				{
+					"level": 1
+				}
+			],
+			"repeatable": false,
+			"armorProficiencies": [
+				{
+					"light": true,
+					"medium": true,
+					"shield": true
+				}
+			],
+			"entries": [
+				"你获得以下{@variantrule 护甲受训|XUA2022ExpertClasses}：轻甲、中甲和护盾术。"
+			]
+		},
+		{
+			"ENG_name": "Mage Slayer",
+			"name": "巫师杀手",
+			"source": "XUA2022ExpertClasses",
+			"page": 21,
+			"prerequisite": [
+				{
+					"level": 4,
+					"proficiency": [
+						{
+							"weapon": "军用"
+						}
+					]
+				}
+			],
+			"repeatable": false,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你已练习了对抗魔法使的有用技巧，获得以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Concentration Breaker",
+							"name": "专注中断手",
+							"type": "item",
+							"entry": "当你对一个正在专注的生物造成伤害时，它在进行维持专注的豁免检定时具有劣势。"
+						},
+						{
+							"ENG_name": "Guarded Mind",
+							"name": "审慎护心",
+							"type": "item",
+							"entry": "若你在智力、感知或魅力豁免检定中失败，你可以改为使自己成功。一旦你使用了这个增益，直到完成一次{@variantrule 长休|XUA2022ExpertClasses}前都无法再次使用。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Medium Armor Master",
+			"name": "中甲大师",
+			"source": "XUA2022ExpertClasses",
+			"page": 21,
+			"prerequisite": [
+				{
+					"level": 4,
+					"proficiency": [
+						{
+							"armor": "medium"
+						}
+					]
+				}
+			],
+			"repeatable": false,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你修习过如何在着装中甲时移动，并获得下列增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Dexterous Wearer",
+							"name": "灵敏着装",
+							"type": "item",
+							"entry": "当你穿着中甲时，如果你的敏捷值为16或更高，你可以为你的AC添加3点而非2点。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Mounted Combatant",
+			"name": "骑乘战斗",
+			"source": "XUA2022ExpertClasses",
+			"page": 21,
+			"prerequisite": [
+				{
+					"level": 4,
+					"proficiency": [
+						{
+							"weapon": "军用"
+						}
+					]
+				}
+			],
+			"repeatable": false,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"wis"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你已与你的坐骑建立了牵挂，获得以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Mount Handler",
+							"name": "乘骑操控者",
+							"type": "item",
+							"entry": "你在处理或训练用作坐骑的马匹及其他野兽时，进行感知检定（{@skill 驯兽}）具有优势"
+						},
+						{
+							"ENG_name": "Mounted Strike",
+							"name": "骑乘突击",
+							"type": "item",
+							"entry": "骑乘时，你对任何位于你乘骑5尺内且体型至少比它小一级的生物进行的{@variantrule 攻击检定|XUA2022ExpertClasses|攻击检定}具有优势。"
+						},
+						{
+							"ENG_name": "Leap Aside",
+							"name": "侧跃躲闪",
+							"type": "item",
+							"entry": "如果你的坐骑受到一个允许它进行敏捷豁免检定以仅承受伤害减半的效应影响，则当它豁免检定时成功时不承受任何伤害，且豁免检定时失败时仅承受伤害减半。要使你的坐骑获得此增益，你必须正在骑乘它，且你们双方都不能处于{@condition 失能|XUA2022ExpertClasses}状态。"
+						},
+						{
+							"ENG_name": "Veer",
+							"name": "我身作盾",
+							"type": "item",
+							"entry": "骑乘时，你可以使用你的反应迫使一次命中你坐骑的攻击改为命中你。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Observant",
+			"name": "观察力",
+			"source": "XUA2022ExpertClasses",
+			"page": 21,
+			"prerequisite": [
+				{
+					"level": 4,
+					"ability": [
+						{
+							"int": 13,
+							"wis": 13
+						}
+					]
+				}
+			],
+			"repeatable": false,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你善于注意到周围的细节，获得以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Keen Observer",
+							"name": "敏锐观察",
+							"type": "item",
+							"entry": "选择一项下列技能：{@skill 洞悉}、{@skill 调查}或{@skill 察觉}。如果你未具备所选技能的熟练项，则获得该技能的熟练项；若已具备熟练项，则获得{@variantrule 专精|XUA2022ExpertClasses}。"
+						},
+						{
+							"ENG_name": "Quick Search",
+							"name": "快速搜索",
+							"type": "item",
+							"entry": "你可以将{@action 搜索|XUA2022ExpertClasses|搜索动作}作为附赠动作使用。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Polearm Master",
+			"name": "长柄武器大师",
+			"source": "XUA2022ExpertClasses",
+			"page": 21,
+			"prerequisite": [
+				{
+					"level": 4,
+					"proficiency": [
+						{
+							"weapon": "军用"
+						}
+					]
+				}
+			],
+			"repeatable": false,
+			"ability": [
+				{
+					"str": 1
+				}
+			],
+			"entries": [
+				"你已接受过长杆武器的广泛训练，这些武器具有触及范围，赋予你以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Pole Strike",
+							"name": "长柄打击",
+							"type": "item",
+							"entry": "在你使用具有重型和触及词条的武器进行{@action 攻击|XUA2022ExpertClasses|攻击动作}且攻击后，你可以立即使用一个附赠动作以武器的另一端进行一次近战攻击。这次攻击的武器伤害骰为{@dice d4}，且造成钝击伤害。"
+						},
+						{
+							"ENG_name": "Reactive Strike",
+							"name": "反应打击",
+							"type": "item",
+							"entry": "当你持有一把具有重型和触及词条的武器时，你可以使用你的反应对进入该武器触及范围内的生物进行一次近战攻击。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Resilient",
+			"name": "牢固",
+			"source": "XUA2022ExpertClasses",
+			"page": 22,
+			"prerequisite": [
+				{
+					"level": 4
+				}
+			],
+			"repeatable": false,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1,
+						"entry": "选择你不具有其豁免熟练的一项属性，该属性提升1，至多提升至20。"
+					}
+				}
+			],
+			"savingThrowProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你已发展出更强的恢复力以更好地抵御某些危险，获得以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Saving Throw Proficiency",
+							"name": "豁免熟练",
+							"type": "item",
+							"entry": "你获得所选属性的豁免熟练。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Ritual Caster",
+			"name": "仪式施法者",
+			"source": "XUA2022ExpertClasses",
+			"page": 22,
+			"prerequisite": [
+				{
+					"level": 4,
+					"ability": [
+						{
+							"int": 13,
+							"wis": 13,
+							"cha": 13
+						}
+					]
+				}
+			],
+			"repeatable": false,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": {
+							"ritual": [
+								{
+									"choose": "level=1|list=奥术;神圣;原始",
+									"count": 2
+								}
+							]
+						}
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你已研习仪式魔法，获得以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Ritual Spells",
+							"name": "仪式魔法",
+							"type": "item",
+							"entry": "选择两项具有仪式标签的1环法术，从{@variantrule 奥术法术|XUA2022ExpertClasses|奥术}、{@variantrule 神圣法术|XUA2022ExpertClasses|神圣}和{@variantrule 原始法术|XUA2022ExpertClasses|原始}{@variantrule 法术列表|XUA2022ExpertClasses}中选取。你总是准备着这两项法术，且可以用你拥有的任何法术位施放它们。这些法术的施法属性是由此专长提升的属性。"
+						},
+						{
+							"ENG_name": "Quick Ritual",
+							"name": "快速仪式",
+							"type": "item",
+							"entry": "通过此增益，你可以使用常规施法时间而非延长的仪式时间来施放一个你已准备的仪式法术。这样做不需要消耗法术位。一旦你以这种方式施放该法术，在完成一次{@variantrule 长休|XUA2022ExpertClasses}前你将无法再次使用此增益。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Sentinel",
+			"name": "哨兵",
+			"source": "XUA2022ExpertClasses",
+			"page": 22,
+			"prerequisite": [
+				{
+					"level": 4,
+					"proficiency": [
+						{
+							"weapon": "军用"
+						}
+					]
+				}
+			],
+			"repeatable": false,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你的掌握的技术让你在击破敌人防御时占尽优势，并获得下列增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Guardian",
+							"name": "守护者",
+							"type": "item",
+							"entry": "当一个生物在你5尺范围内采取{@action 撤离}动作或以攻击命中你以外的目标时，你可以立即对该生物发动一次借机攻击。"
+						},
+						{
+							"ENG_name": "Halt",
+							"name": "阻拦",
+							"type": "item",
+							"entry": "你的借机攻击命中目标时，目标在本回合剩下时间内的移动速度降至0。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Sharpshooter",
+			"name": "神射手",
+			"source": "XUA2022ExpertClasses",
+			"page": 22,
+			"prerequisite": [
+				{
+					"level": 4,
+					"proficiency": [
+						{
+							"weapon": "军用"
+						}
+					]
+				}
+			],
+			"repeatable": false,
+			"ability": [
+				{
+					"dex": 1
+				}
+			],
+			"entries": [
+				"你可以进行他人认为不可能的射击，获得以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Bypass Cover",
+							"name": "绕过掩体",
+							"type": "item",
+							"entry": "你使用武器发动的远程攻击无视半身掩护和四分之三掩护。"
+						},
+						{
+							"ENG_name": "Firing in Melee",
+							"name": "抵近射击",
+							"type": "item",
+							"entry": "处于敌人5尺范围内不会对你的远程{@variantrule 攻击检定|XUA2022ExpertClasses|攻击检定}造成劣势。"
+						},
+						{
+							"ENG_name": "Long Shots",
+							"name": "百步穿杨",
+							"type": "item",
+							"entry": "在远距离攻击不会对你的远程{@variantrule 攻击检定|XUA2022ExpertClasses|攻击检定}造成劣势。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Shield Master",
+			"name": "盾牌大师",
+			"source": "XUA2022ExpertClasses",
+			"page": 22,
+			"prerequisite": [
+				{
+					"level": 4,
+					"proficiency": [
+						{
+							"weapon": "军用"
+						}
+					]
+				}
+			],
+			"repeatable": false,
+			"ability": [
+				{
+					"str": 1
+				}
+			],
+			"entries": [
+				"你训练使用盾牌不仅是为了守护，也是为了进攻，获得以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Shield Bash",
+							"name": "盾击",
+							"type": "item",
+							"entry": "若你作为{@action 攻击|XUA2022ExpertClasses|攻击动作}的一部分攻击5尺内的一个生物且用近战武器命中，你可以立即用你装备的盾牌痛击目标，迫使目标进行一次力量豁免检定，DC等于8 + 你的力量调整值 + 你的熟练加值。豁免失败时，你将目标击倒或推离5尺。你每回合只能使用此增益一次。"
+						},
+						{
+							"ENG_name": "Interpose Shield",
+							"name": "介入盾牌",
+							"type": "item",
+							"entry": "如果你受到一个允许你进行敏捷豁免检定以仅承受伤害减半的效应影响，你可以使用你的反应在豁免检定成功且正持用盾牌时，将你的护盾介入你和效应来源之间以不承受任何伤害。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Skulker",
+			"name": "隐伏者",
+			"source": "XUA2022ExpertClasses",
+			"page": 23,
+			"prerequisite": [
+				{
+					"level": 4,
+					"ability": [
+						{
+							"dex": 13
+						}
+					]
+				}
+			],
+			"repeatable": false,
+			"ability": [
+				{
+					"dex": 1
+				}
+			],
+			"entries": [
+				"你擅长潜行于幽影之中，获得以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Blindsight",
+							"name": "盲视",
+							"type": "item",
+							"entry": "你拥有{@variantrule 盲视|XUA2022ExpertClasses}，范围为10尺。"
+						},
+						{
+							"ENG_name": "Fog of War",
+							"name": "战争迷雾",
+							"type": "item",
+							"entry": "利用战斗中的分散注意力，你在战斗期间作为{@action 躲藏|XUA2022ExpertClasses|躲藏动作}的一部分进行的任何敏捷检定（{@skill 隐匿}）上具有优势。"
+						},
+						{
+							"ENG_name": "Sniper",
+							"name": "狙击手",
+							"type": "item",
+							"entry": "如果你在{@condition 隐藏|XUA2022ExpertClasses}状态下进行一次{@variantrule 攻击检定|XUA2022ExpertClasses}且掷骰未命中，创造该{@variantrule 攻击检定|XUA2022ExpertClasses}不会结束你身上的{@condition 隐藏|XUA2022ExpertClasses}状态。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Speedster",
+			"name": "速行者",
+			"source": "XUA2022ExpertClasses",
+			"page": 23,
+			"prerequisite": [
+				{
+					"level": 4,
+					"ability": [
+						{
+							"dex": 13,
+							"con": 13
+						}
+					]
+				}
+			],
+			"repeatable": false,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"con"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你拥有非凡的速度和耐力，获得以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Speed Increase",
+							"name": "速度提升",
+							"type": "item",
+							"entry": "当你未着装重甲时，你的速度增加10尺。"
+						},
+						{
+							"ENG_name": "Dash Over Difficult Terrain",
+							"name": "险地疾行",
+							"type": "item",
+							"entry": "当你在你的回合使用{@action 疾走|XUA2022ExpertClasses|疾走动作}时，{@variantrule 困难地形|XUA2022ExpertClasses}不会在该回合剩余时间内消耗你额外的移动力。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Spell Sniper",
+			"name": "法术射手",
+			"source": "XUA2022ExpertClasses",
+			"page": 23,
+			"prerequisite": [
+				{
+					"level": 4,
+					"spellcasting2020": true
+				}
+			],
+			"repeatable": false,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你学会如何操控特定的法术进行攻击，并获得下列增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Bypass Cover",
+							"name": "绕过掩体",
+							"type": "item",
+							"entry": "你的法术{@variantrule 攻击检定|XUA2022ExpertClasses|攻击检定}忽略半身掩护且四分之三掩护"
+						},
+						{
+							"ENG_name": "Casting in Melee",
+							"name": "抵近施法",
+							"type": "item",
+							"entry": "处于敌人5尺范围内不会使你的{@variantrule 攻击检定|XUA2022ExpertClasses|攻击检定}法术处于劣势。"
+						},
+						{
+							"ENG_name": "Increased Range",
+							"name": "法术增距",
+							"type": "item",
+							"entry": "当你施放一个范围至少为10尺且需要你进行{@variantrule 攻击检定|XUA2022ExpertClasses}的法术时，你可以将该法术的范围增加60尺。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "War Caster",
+			"name": "战地施法者",
+			"source": "XUA2022ExpertClasses",
+			"page": 23,
+			"prerequisite": [
+				{
+					"level": 4,
+					"spellcasting2020": true
+				}
+			],
+			"repeatable": false,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你已练习在战斗之中施展法术，获得以下增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Concentration",
+							"name": "专注",
+							"type": "item",
+							"entry": "你在为维持专注而进行的体质豁免检定上具有优势。"
+						},
+						{
+							"ENG_name": "Reactive Spell",
+							"name": "响应法术",
+							"type": "item",
+							"entry": "当一个生物通过移出你的触及范围来触发你的借机攻击时，你可以使用你的反应对该生物施放一个法术，而非创造一次借机攻击。该法术必须具有一个动作的施法时间且必须仅以该生物为目标。"
+						},
+						{
+							"ENG_name": "Somatic Components",
+							"name": "姿势成分",
+							"type": "item",
+							"entry": "即使你的一只手或双手上都有武器/盾牌，你也能满足法术的姿势成分要求。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Weapon Training",
+			"name": "武器训练",
+			"source": "XUA2022ExpertClasses",
+			"page": 24,
+			"prerequisite": [
+				{
+					"level": 4
+				}
+			],
+			"repeatable": false,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex"
+						]
+					}
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"martial": true
+				}
+			],
+			"entries": [
+				"经过大量练习后，你熟练的掌握了各种武器的使用方法，并获得下列增益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Weapon Proficiency",
+							"name": "武器熟练",
+							"type": "item",
+							"entry": "你获得军用武器熟练。"
+						}
+					]
+				}
+			]
+		}
+	],
+	"spell": [
+		{
+			"ENG_name": "Aura of Vitality",
+			"name": "活力灵光",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"ENG_name": "Aura of Vitality",
+				"name": "活力灵光",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"ENG_name": "Barkskin",
+			"name": "树肤术",
+			"source": "XUA2022ExpertClasses",
+			"page": 31,
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "附赠动作"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "一把树皮"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"你接触一个愿意的生物，用再生的树皮保护它。直到法术结束，目标的外貌会呈现树皮状，且在目标的每个回合开始时，目标获得等同于你的施法属性调整值加上熟练加值的临时生命值。"
+			],
+			"entriesHigherLevel": [
+				{
+					"ENG_name": "At Higher Levels",
+					"name": "升环施法效应",
+					"type": "entries",
+					"entries": [
+						"当你使用3环或更高法术位施放该法术时，每比2环高1环，你就可以多指定一个愿意的生物作为目标。"
+					]
+				}
+			],
+			"miscTags": [
+				"THP"
+			]
+		},
+		{
+			"ENG_name": "Blindness/Deafness",
+			"name": "目盲术/耳聋术",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"ENG_name": "Blindness/Deafness",
+				"name": "目盲术/耳聋术",
+				"source": "PHB"
+			},
+			"school": "T"
+		},
+		{
+			"ENG_name": "Contingency",
+			"name": "触发术",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"ENG_name": "Contingency",
+				"name": "触发术",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"ENG_name": "Cure Wounds",
+			"name": "疗伤术",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"ENG_name": "Cure Wounds",
+				"name": "疗伤术",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"ENG_name": "Earthquake",
+			"name": "地震术",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"ENG_name": "Earthquake",
+				"name": "地震术",
+				"source": "PHB"
+			},
+			"school": "T"
+		},
+		{
+			"ENG_name": "Flaming Sphere",
+			"name": "炽焰法球",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"ENG_name": "Flaming Sphere",
+				"name": "炽焰法球",
+				"source": "PHB"
+			},
+			"school": "V"
+		},
+		{
+			"ENG_name": "Glibness",
+			"name": "花言巧语",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"ENG_name": "Glibness",
+				"name": "花言巧语",
+				"source": "PHB"
+			},
+			"school": "E"
+		},
+		{
+			"ENG_name": "Guidance",
+			"name": "神导术",
+			"source": "XUA2022ExpertClasses",
+			"page": 32,
+			"level": 0,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "反应",
+					"condition": "当你或30尺内的盟友在{@variantrule 属性检定|XUA2022ExpertClasses}中失败时，你可以使用此反应"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"你向未能通过{@variantrule 属性检定|XUA2022ExpertClasses}的生物传递魔法洞悉。该生物可以掷一枚{@dice d4}且将掷骰结果添加到检定数值上，可能使其变为成功。",
+				"当一个生物投掷此法术的骰子后，该生物在完成一次{@variantrule 长休|XUA2022ExpertClasses}前无法再次从此法术获得增益。"
+			]
+		},
+		{
+			"ENG_name": "Hallow",
+			"name": "圣居",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"ENG_name": "Hallow",
+				"name": "圣居",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"ENG_name": "Healing Word",
+			"name": "治愈真言",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"ENG_name": "Healing Word",
+				"name": "治愈真言",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"ENG_name": "Mass Cure Wounds",
+			"name": "群体疗伤术",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"ENG_name": "Mass Cure Wounds",
+				"name": "群体疗伤术",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"ENG_name": "Mass Heal",
+			"name": "群体医疗术",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"ENG_name": "Mass Heal",
+				"name": "群体医疗术",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"ENG_name": "Mass Healing Word",
+			"name": "群体治愈真言",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"ENG_name": "Mass Healing Word",
+				"name": "群体治愈真言",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"ENG_name": "Power Word Heal",
+			"name": "律令医疗",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"ENG_name": "Power Word Heal",
+				"name": "律令医疗",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"ENG_name": "Prayer of Healing",
+			"name": "治疗祷言",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"ENG_name": "Prayer of Healing",
+				"name": "治疗祷言",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"ENG_name": "Produce Flame",
+			"name": "燃火术",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"ENG_name": "Produce Flame",
+				"name": "燃火术",
+				"source": "PHB"
+			},
+			"school": "V"
+		},
+		{
+			"ENG_name": "Reincarnate",
+			"name": "转生术",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"ENG_name": "Reincarnate",
+				"name": "转生术",
+				"source": "PHB"
+			},
+			"school": "N"
+		},
+		{
+			"ENG_name": "Sending",
+			"name": "短讯术",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"ENG_name": "Sending",
+				"name": "短讯术",
+				"source": "PHB"
+			},
+			"school": "D"
+		},
+		{
+			"ENG_name": "Shatter",
+			"name": "粉碎音波",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"ENG_name": "Shatter",
+				"name": "粉碎音波",
+				"source": "PHB"
+			},
+			"school": "T"
+		},
+		{
+			"ENG_name": "Stoneskin",
+			"name": "石肤术",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"ENG_name": "Stoneskin",
+				"name": "石肤术",
+				"source": "PHB"
+			},
+			"school": "T"
+		},
+		{
+			"ENG_name": "Telepathy",
+			"name": "心灵感应",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"ENG_name": "Telepathy",
+				"name": "心灵感应",
+				"source": "PHB"
+			},
+			"school": "D"
+		}
+	],
+	"spellList": [
+		{
+			"ENG_name": "Arcane",
+			"name": "奥术",
+			"source": "XUA2022ExpertClasses",
+			"spellListType": "结伙",
+			"spells": [
+				"酸液飞溅",
+				"剑刃防护",
+				"颤栗之触",
+				"舞光术",
+				"火焰箭",
+				"交友术",
+				"光亮术",
+				"法师之手",
+				"修复术",
+				"传讯术",
+				"次级幻象",
+				"毒气喷涌",
+				"魔法伎俩",
+				"冷冻射线",
+				"电爪",
+				"克敌先击",
+				"恶言相加",
+				"警报术",
+				"黯冰狱铠",
+				"哈达之臂",
+				"燃烧之手",
+				"魅惑类人",
+				"繁彩球",
+				"七彩喷射",
+				"通晓语言",
+				"侦测魔法",
+				"易容术",
+				"不谐低语",
+				"脚底抹油",
+				"虚假生命",
+				"羽落术",
+				"寻获魔宠",
+				"云雾术",
+				"油腻术",
+				"炼狱叱喝",
+				"脆弱诅咒",
+				"鉴定术",
+				"迷幻手稿",
+				"跳跃术",
+				"大步奔行",
+				"法师护甲",
+				"魔法飞弹",
+				"防护善恶",
+				"致病射线",
+				"护盾术",
+				"无声幻影",
+				"睡眠术",
+				"塔莎狂笑术",
+				"谭森浮碟术",
+				"雷鸣波",
+				"隐形仆役",
+				"巫术箭",
+				"变身术",
+				"秘法锁",
+				"目盲术/耳聋术",
+				"朦胧术",
+				"安定心神",
+				"匕首之云",
+				"不灭明焰",
+				"疯狂冠冕",
+				"黑暗术",
+				"黑暗视觉",
+				"侦测思想",
+				"变巨/缩小术",
+				"注目术",
+				"炽焰法球",
+				"造风术",
+				"定身类人",
+				"隐形术",
+				"敲击术",
+				"浮空术",
+				"物件定位术",
+				"涅斯图魔法灵光",
+				"魔嘴术",
+				"魔化武器",
+				"马友夫强酸箭",
+				"镜影术",
+				"迷踪步",
+				"魅影之力",
+				"衰弱射线",
+				"魔绳术",
+				"灼热射线",
+				"识破隐形",
+				"粉碎音波",
+				"蛛行术",
+				"暗示术",
+				"蛛网术",
+				"活化死尸",
+				"降咒",
+				"闪现术",
+				"鹰眼术",
+				"法术反制",
+				"解除魔法",
+				"恐惧术",
+				"火球术",
+				"飞行术",
+				"气化形体",
+				"守卫刻文",
+				"加速术",
+				"哈达之欲",
+				"催眠图纹",
+				"李欧蒙小屋",
+				"闪电束",
+				"防护法阵",
+				"高等幻影",
+				"回避侦测",
+				"魅影驹",
+				"防护能量",
+				"移除诅咒",
+				"短讯术",
+				"雪雨暴",
+				"缓慢术",
+				"臭云术",
+				"巧言术",
+				"吸血鬼之触",
+				"水下呼吸",
+				"秘法眼",
+				"放逐术",
+				"枯萎术",
+				"强迫术",
+				"困惑术",
+				"咒唤微元素群",
+				"操控水体",
+				"任意门",
+				"艾伐黑触手",
+				"鬼斧神工",
+				"火焰护盾",
+				"高等隐形术",
+				"幻景",
+				"冰风暴",
+				"李欧蒙秘藏箱",
+				"生物定位术",
+				"魔邓肯忠犬",
+				"魔邓肯私人密室",
+				"欧提路克弹力法球",
+				"魅影杀手",
+				"变形术",
+				"塑石术",
+				"石肤术",
+				"火墙术",
+				"活化物件",
+				"毕格比之手",
+				"死云术",
+				"寒冰锥",
+				"咒唤元素",
+				"异界探知",
+				"造物术",
+				"支配类人",
+				"托梦术",
+				"指使术",
+				"定身怪物",
+				"通晓传奇",
+				"假象术",
+				"篡改记忆",
+				"穿墙术",
+				"异界誓缚",
+				"拉瑞心灵联结",
+				"探知术",
+				"伪装术",
+				"心灵遥控",
+				"传送法阵",
+				"力场墙",
+				"石墙术",
+				"秘法门",
+				"连锁闪电",
+				"死亡法阵",
+				"触发术",
+				"唤起死灵",
+				"解离术",
+				"摄心目光",
+				"石化术",
+				"法术无效结界",
+				"铜墙铁壁",
+				"卓姆吉瞬间召唤",
+				"魔魂壶",
+				"群体暗示术",
+				"地动术",
+				"欧提路克冰封法球",
+				"奥图迷舞",
+				"预置幻影",
+				"阳炎射线",
+				"真知术",
+				"冰墙术",
+				"延迟爆裂火球",
+				"以太化",
+				"死亡一指",
+				"力场监牢",
+				"海市蜃楼",
+				"魔邓肯豪宅术",
+				"魔邓肯之剑",
+				"位面转移",
+				"虹光喷射",
+				"投影术",
+				"反转重力",
+				"隔离术",
+				"拟像术",
+				"徽记术",
+				"传送术",
+				"反魔法场",
+				"嫌恶术/关怀术",
+				"克隆术",
+				"操控天气",
+				"半位面",
+				"支配怪物",
+				"弱智术",
+				"花言巧语",
+				"焚云术",
+				"迷宫术",
+				"心灵屏障",
+				"律令震慑",
+				"阳炎爆",
+				"心灵感应",
+				"星界投影",
+				"预见术",
+				"异界之门",
+				"禁锢术",
+				"流星爆",
+				"律令死亡",
+				"虹光法墙",
+				"形体变化",
+				"时间停止",
+				"完全变形术",
+				"怪影杀手",
+				"祈愿术"
+			]
+		},
+		{
+			"ENG_name": "Divine",
+			"name": "神圣",
+			"source": "XUA2022ExpertClasses",
+			"spellListType": "结伙",
+			"spells": [
+				"神导术",
+				"光亮术",
+				"抵抗术",
+				"圣火术",
+				"维生术",
+				"奇术",
+				"灾祸术",
+				"祝福术",
+				"命令术",
+				"强令对决",
+				"疗伤术",
+				"侦测善恶",
+				"侦测魔法",
+				"侦测毒性和疾病",
+				"神恩",
+				"光导箭",
+				"治愈真言",
+				"英雄气概",
+				"致伤术",
+				"防护善恶",
+				"净化饮食",
+				"庇护术",
+				"炽焰斩",
+				"虔诚护盾",
+				"雷鸣斩",
+				"激愤斩",
+				"援助术",
+				"卜筮术",
+				"目盲术/耳聋术",
+				"印记斩",
+				"安定心神",
+				"寻获坐骑",
+				"寻找陷阱",
+				"遗体防腐",
+				"定身类人",
+				"次级复原术",
+				"物件定位术",
+				"魔化武器",
+				"治疗祷言",
+				"防护毒素",
+				"沉默术",
+				"灵体武器",
+				"守护之链",
+				"诚实之域",
+				"活力灵光",
+				"希望信标",
+				"致盲斩",
+				"鹰眼术",
+				"造粮术",
+				"十字军披风",
+				"昼明术",
+				"解除魔法",
+				"假死术",
+				"守卫刻文",
+				"防护法阵",
+				"群体治愈真言",
+				"移除诅咒",
+				"回生术",
+				"死者交谈",
+				"灵体卫士",
+				"巧言术",
+				"生命灵光",
+				"净化灵光",
+				"放逐术",
+				"防死结界",
+				"预言术",
+				"行动自如",
+				"信仰守卫",
+				"生物定位术",
+				"惊惧斩",
+				"放逐斩",
+				"原力法阵",
+				"通神术",
+				"疫病术",
+				"湮灭波",
+				"驱逐善恶",
+				"焰击术",
+				"指使术",
+				"高等复原术",
+				"圣居",
+				"通晓传奇",
+				"群体疗伤术",
+				"异界誓缚",
+				"死者复活",
+				"探知术",
+				"剑刃护壁",
+				"寻路术",
+				"禁制术",
+				"重伤术",
+				"医疗术",
+				"英雄宴",
+				"异界誓盟",
+				"阳炎射线",
+				"真知术",
+				"回返真言",
+				"咒唤圣光",
+				"圣言术",
+				"以太化",
+				"位面转移",
+				"再生术",
+				"复生术",
+				"徽记术",
+				"反魔法场",
+				"嫌恶术/关怀术",
+				"圣洁灵光",
+				"阳炎爆",
+				"星界投影",
+				"预见术",
+				"异界之门",
+				"群体医疗术",
+				"律令医疗",
+				"完全复生术"
+			]
+		},
+		{
+			"ENG_name": "Primal",
+			"name": "原始",
+			"source": "XUA2022ExpertClasses",
+			"spellListType": "结伙",
+			"spells": [
+				"德鲁伊伎俩",
+				"神导术",
+				"修复术",
+				"传讯术",
+				"毒气喷涌",
+				"燃火术",
+				"抵抗术",
+				"橡棍术",
+				"维生术",
+				"荆棘之鞭",
+				"化兽为友",
+				"造水术/枯水术",
+				"疗伤术",
+				"侦测魔法",
+				"侦测毒性和疾病",
+				"诱捕打击",
+				"纠缠术",
+				"妖火",
+				"云雾术",
+				"神莓术",
+				"棘雹术",
+				"治愈真言",
+				"猎人印记",
+				"跳跃术",
+				"大步奔行",
+				"净化饮食",
+				"动物交谈",
+				"雷鸣波",
+				"动物信使",
+				"卜筮术",
+				"树肤术",
+				"野兽感官",
+				"警戒箭阵",
+				"黑暗视觉",
+				"强化属性",
+				"变巨/缩小术",
+				"寻找陷阱",
+				"火焰刀",
+				"炽焰法球",
+				"遗体防腐",
+				"造风术",
+				"灼热金属",
+				"次级复原术",
+				"动植物定位术",
+				"物件定位术",
+				"月华之光",
+				"行动无踪",
+				"防护毒素",
+				"沉默术",
+				"荆棘丛生",
+				"召雷术",
+				"咒唤兽群",
+				"箭如雨下",
+				"昼明术",
+				"解除魔法",
+				"元素武器",
+				"假死术",
+				"闪电箭矢",
+				"融身入石",
+				"回避侦测",
+				"植物滋长",
+				"防护能量",
+				"回生术",
+				"雪雨暴",
+				"植物交谈",
+				"水下呼吸",
+				"水上行走",
+				"风墙术",
+				"咒唤微元素群",
+				"咒唤林地卫士",
+				"操控水体",
+				"支配野兽",
+				"行动自如",
+				"巨虫术",
+				"擒抱藤",
+				"冰风暴",
+				"生物定位术",
+				"变形术",
+				"塑石术",
+				"石肤术",
+				"火墙术",
+				"防活物护罩",
+				"启蒙术",
+				"问道自然",
+				"咒唤元素",
+				"万箭齐发",
+				"高等复原术",
+				"疫病虫群",
+				"群体疗伤术",
+				"转生术",
+				"探知术",
+				"迅捷箭袋",
+				"树跃术",
+				"石墙术",
+				"咒唤妖精",
+				"寻路术",
+				"医疗术",
+				"地动术",
+				"阳炎射线",
+				"木遁术",
+				"冰墙术",
+				"棘墙术",
+				"御风而行",
+				"火焰风暴",
+				"再生术",
+				"反转重力",
+				"动物形态",
+				"操控天气",
+				"地震术",
+				"阳炎爆",
+				"海啸术",
+				"律令医疗",
+				"形体变化",
+				"复仇风暴",
+				"完全复生术"
+			]
+		}
+	],
+	"baseitem": [
+		{
+			"ENG_name": "Shortsword",
+			"name": "短剑",
+			"source": "XUA2022ExpertClasses",
+			"page": 25,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 1000,
+			"weaponCategory": "简易",
+			"property": [
+				"F",
+				"XUA2022ClericAndRevisedSpecies-L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true
+		}
+	],
+	"itemProperty": [
+		{
+			"abbreviation": "XUA2022ClericAndRevisedSpecies-L",
+			"source": "XUA2022ExpertClasses",
+			"page": 21,
+			"entries": [
+				{
+					"ENG_name": "Light",
+					"name": "光亮术",
+					"type": "entries",
+					"entries": [
+						"当你在你的回合使用攻击动作且用一只手攻击轻型武器时，你可以作为同一动作的一部分进行一次额外攻击。该额外攻击必须用另一只手的另一把轻型武器进行，且你不将属性调整值加到额外攻击的伤害上。你每回合只能进行一次这种额外攻击。",
+						"例如，若你在回合中采取攻击动作且一手持短剑另一手持匕首\u2014\u2014两者皆有轻型属性\u2014\u2014你可以用每把武器各进行一次攻击，但你不将力量或敏捷调整值加到第二把武器的伤害掷骰上。"
+					]
+				}
+			]
+		}
+	],
+	"variantrule": [
+		{
+			"ENG_name": "Ability Check",
+			"name": "属性检定",
+			"source": "XUA2022ExpertClasses",
+			"entries": [
+				"属性检定是三种{@dice d20}检定之一。规则经常要求进行属性检定，且DM也可以要求进行属性检定，当生物尝试做某事（除了{@variantrule 攻击检定|XUA2022ExpertClasses}或豁免检定）且有有意义的失败可能时，决定使用哪种属性。当结果不确定且在叙事上有趣时，骰子将决定结果。",
+				"该属性检定有以下特殊规则。",
+				{
+					"ENG_name": "Skills",
+					"name": "技能",
+					"type": "entries",
+					"entries": [
+						"当你进行属性检定时，规则或DM会判定是否有相关技能熟练适用于该检定。如果你拥有相关技能熟练，你可以将熟练加值添加到掷骰中。例如，如果规则提到力量检定（{@skill 特技}或{@skill 运动}），当你拥有{@skill 特技}或{@skill 运动}熟练时，你可以将熟练加值添加到检定中。"
+					]
+				},
+				{
+					"ENG_name": "Action Required",
+					"name": "需要动作",
+					"type": "entries",
+					"entries": [
+						"创造属性检定需要你消耗一个动作，除非规则另有说明。几个命名的动作\u2014\u2014例如{@action 躲藏|XUA2022ExpertClasses}和{@action 影响|XUA2022ExpertClasses}\u2014\u2014包含属性检定。",
+						"DM可以覆盖此要求并允许将特定属性检定作为附赠动作的一部分或完全不消耗任何动作进行。"
+					]
+				},
+				{
+					"ENG_name": "Difficulty Class",
+					"name": "难度等级",
+					"type": "entries",
+					"entries": [
+						"DM决定属性检定的难度等级且可以覆盖规则中指定的DC。典型难度等级表格展示了最常见的DC。",
+						"检定的默认难度等级为15，且当难度等级低至5时，除非潜在的失败在叙事上很有趣，否则很少值得要求进行属性检定。"
+					]
+				},
+				{
+					"type": "table",
+					"caption": "典型难度等级",
+					"colLabels": [
+						"任务难度",
+						"DC"
+					],
+					"colStyles": [
+						"col-6",
+						"col-6"
+					],
+					"rows": [
+						[
+							"非常容易",
+							"5"
+						],
+						[
+							"容易",
+							"10"
+						],
+						[
+							"中等",
+							"15"
+						],
+						[
+							"困难",
+							"20"
+						],
+						[
+							"非常困难",
+							"25"
+						],
+						[
+							"近乎不可能",
+							"30"
+						]
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Arcane Spells",
+			"name": "奥术法术",
+			"source": "XUA2022ExpertClasses",
+			"entries": [
+				"奥术法术汲取多元宇宙中的环境魔法。吟游诗人、术士、魔契师和法师驾驭这种魔法，奇械师亦是如此。关于奥术法术的部分列表，请参阅本文档其他部分的\"{@variantrule 法术列表|XUA2022ExpertClasses}\"章节。"
+			]
+		},
+		{
+			"ENG_name": "Armor Training",
+			"name": "护甲受训",
+			"source": "XUA2022ExpertClasses",
+			"entries": [
+				"护甲受训是护甲熟练的新名称。任何涉及护甲熟练的现有规则现在都适用于护甲受训。",
+				"如果你穿着轻型、中等或重甲且不具备该类型护甲的护甲受训，你在任何涉及力量或敏捷的{@dice d20}检定上具有劣势，且不能施法。",
+				"如果你装备了护盾术且缺乏护盾术的护甲受训，你将无法获得护盾术的护甲等级附赠动作。"
+			]
+		},
+		{
+			"ENG_name": "Artisan's Tools",
+			"name": "工匠工具",
+			"source": "XUA2022ExpertClasses",
+			"entries": [
+				"工匠工具是一类工具，角色可以通过{@variantrule 工具熟练|XUA2022ExpertClasses}获得相关能力。有关工匠工具的列表，请参阅2014年的{@book 玩家手册|phb}，但忽略其中的价格；这些工具现在每件花费15GP。"
+			]
+		},
+		{
+			"ENG_name": "Attack Roll",
+			"name": "攻击检定",
+			"source": "XUA2022ExpertClasses",
+			"entries": [
+				"攻击检定是三种{@dice d20}检定之一。这篇破解奥秘文章使用了2014年{@book 玩家手册|phb|9|攻击检定}中关于攻击检定和重击的规则。"
+			]
+		},
+		{
+			"ENG_name": "Blindsight",
+			"name": "盲视",
+			"source": "XUA2022ExpertClasses",
+			"entries": [
+				"如果你拥有盲视，你可以在特定范围内不依赖物理视觉有效地看见东西。在该范围内，你可以有效地看见任何不在全身掩护后的东西，即使你处于目盲或黑暗术状态。此外，你可以有效地看见该范围内一个{@condition 隐藏|XUA2022ExpertClasses}或{@condition 隐形|XUA2022ExpertClasses}的生物。"
+			]
+		},
+		{
+			"ENG_name": "Climb Speed",
+			"name": "攀爬速度",
+			"source": "XUA2022ExpertClasses",
+			"entries": [
+				"攀爬速度可用于在垂直表面上移动，而无需消耗通常与攀爬相关的额外移动力。攀爬速度也可用于任何可使用速度的情景。",
+				"某些生物具有蛛行术特质，这使得它们的攀爬速度即使在布拉之岩底部的水平表面上也能工作。"
+			]
+		},
+		{
+			"ENG_name": "Creature Type",
+			"name": "生物类型",
+			"source": "XUA2022ExpertClasses",
+			"entries": [
+				"D&D中的所有生物，包括每个玩家角色，都有一个特殊标签在规则中标识他们的生物类型。大多数玩家角色是类人生物类型。",
+				"这里是按字母顺序排列的游戏生物类型列表：",
+				{
+					"type": "table",
+					"colStyles": [
+						"col-6 text-center",
+						"col-6 text-center"
+					],
+					"rows": [
+						[
+							"天界语",
+							"构装"
+						],
+						[
+							"龙",
+							"元素"
+						],
+						[
+							"妖精",
+							"邪魔"
+						],
+						[
+							"巨人语",
+							"类人"
+						],
+						[
+							"怪兽",
+							"泥怪"
+						],
+						[
+							"植物",
+							"亡灵"
+						]
+					]
+				},
+				"这些类型本身没有规则，但游戏中的一些规则会以不同方式影响特定类型的生物。例如，{@spell 疗伤术}法术的描述指定该治疗对构装无效。"
+			]
+		},
+		{
+			"ENG_name": "D20 Tests",
+			"name": "D20 检定",
+			"source": "XUA2022ExpertClasses",
+			"entries": [
+				"术语{@dice d20}检定包含游戏的三个主要{@dice d20}掷骰：{@variantrule 属性检定|XUA2022ExpertClasses}、{@variantrule 攻击检定|XUA2022ExpertClasses|攻击检定}和豁免检定。如果游戏中的某些内容影响{@dice d20}检定，它会影响所有这三种掷骰。",
+				"每当一名玩家角色在{@dice d20}检定中掷出1时，该角色获得{@variantrule 英雄激励|XUA2022ExpertClasses}。DM将决定在任何给定情况下是否需要进行{@dice d20}检定"
+			]
+		},
+		{
+			"ENG_name": "Difficult Terrain",
+			"name": "困难地形",
+			"source": "XUA2022ExpertClasses",
+			"entries": [
+				"如果一处空间是困难地形，那么在这个空间里进行的每尺移动都需要额外消耗 1 尺移动力。举个例子，移动穿过 5 尺的困难地形需要消耗你 10 尺的移动力。困难地形无法叠加，一处空间只可能\"是困难地形\"或\"不是困难地形\"。",
+				"一个空间对生物来说是困难地形，如果该空间包含以下任何情况：",
+				{
+					"type": "list",
+					"style": "list-no-bullets",
+					"items": [
+						"非微型生物",
+						"小型或更大体型的家具",
+						"重型雪",
+						"重型灌木丛",
+						"介于小腿和腰部之间的液体（更深则需要游泳）",
+						"一个适合生物大小的狭窄开口",
+						"体型较小",
+						"坑陷或另一个2-5英尺的缺口",
+						"瓦砾",
+						"20度或以上的斜坡"
+					]
+				},
+				"DM可以根据这里的示例确定其他事物是否算作困难地形。"
+			]
+		},
+		{
+			"ENG_name": "Divine Spells",
+			"name": "神圣法术",
+			"source": "XUA2022ExpertClasses",
+			"entries": [
+				"神圣法术汲取神且外层位面的法力。牧师和圣武士驾驭这种魔法。关于神圣法术的部分列表，请参阅本文档其他部分的\"{@variantrule 法术列表|XUA2022ExpertClasses}\"章节。"
+			]
+		},
+		{
+			"ENG_name": "Expertise",
+			"name": "专精",
+			"source": "XUA2022ExpertClasses",
+			"entries": [
+				"专精是一种特殊特性，能增强你对特定技能熟练的使用。如果你获得专精，你可以在一个你已具备熟练的技能中获得它。你永远不能在同一个技能熟练上获得超过一次的专精。",
+				"当你使用具有专精的技能熟练进行{@variantrule 属性检定|XUA2022ExpertClasses}时，你的熟练加值对该检定翻倍。"
+			]
+		},
+		{
+			"ENG_name": "Fly Speed",
+			"name": "飞行速度",
+			"source": "XUA2022ExpertClasses",
+			"entries": [
+				"飞行速度可用于在风中移动。当你拥有飞行速度时，你可以保持在空中直到你落地、坠落或死亡。",
+				"飞行时，如果你处于{@condition 失能|XUA2022ExpertClasses}或束缚状态，你会坠落。如果你拥有悬浮特质，即使处于失能或束缚状态也能保持在空中。"
+			]
+		},
+		{
+			"ENG_name": "Gaming Set",
+			"name": "赌具",
+			"source": "XUA2022ExpertClasses",
+			"entries": [
+				"赌具是一类工具，角色可以通过{@variantrule 工具熟练|XUA2022ExpertClasses}获得相关能力。有关赌具的列表，请参阅2014年的{@book 玩家手册|phb}，但忽略其中的价格；这些赌具现在每套花费1GP。"
+			]
+		},
+		{
+			"ENG_name": "Heroic Inspiration",
+			"name": "英雄激励",
+			"source": "XUA2022ExpertClasses",
+			"entries": [
+				"当你拥有英雄激励（也称为激励）时，你可以消耗它来让自己在{@dice d20}检定中获得优势。你可以在掷出{@dice d20}后立即决定这样做。",
+				"获得英雄激励",
+				"一名玩家角色获得英雄激励如果该角色在{@dice d20}检定中掷出1点。该1点必须是在用于检定全部的{@dice d20}上，而不是在重掷或弃用的{@dice d20}上。此英雄激励代表角色在失误后决心做得更好。",
+				"DM也可以将英雄激励授予一名玩家角色，该角色做了特别英勇或符合角色性格的事情。",
+				"一次只有一个",
+				"你永远不能拥有超过一个英雄激励的实例。如果某物给予你英雄激励且你已经拥有它，你可以将英雄激励给予你队伍中缺乏它的一名玩家角色。"
+			]
+		},
+		{
+			"ENG_name": "Long Rest",
+			"name": "长休",
+			"source": "XUA2022ExpertClasses",
+			"entries": [
+				"长休是一段延长的休整期\u2014\u2014至少8小时长\u2014\u2014任何生物都可以进行。在长休期间，你需要进行至少6小时的睡眠术且不超过2小时的轻型活动，例如阅读、交谈、进食或守卫。",
+				"休息的增益",
+				"当你完成一次长休时，你将获得以下增益：",
+				"恢复全部生命值。你恢复所有迷失的生命值。",
+				"恢复所有生命骰。你恢复所有已消耗的生命骰。",
+				"生命值上限恢复。如果你的生命值上限被缩小，它将恢复正常。",
+				{
+					"ENG_name": "Ability Scores Restored",
+					"name": "属性值恢复",
+					"type": "entries",
+					"entries": [
+						"如果你的某项属性值被减少了，那么其在此时会恢复原状。",
+						"你在24小时内不能从超过一次长休中获得增益，且你必须在休息开始时至少有1点生命值才能获得其增益。",
+						"打断休息",
+						"如果长休被战斗或1小时的行走、施展法术或类似用途打断，则此次休息不提供增益且必须重新开始；然而，如果在被打断前休息时间至少为1小时，你将获得短休的增益。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Move",
+			"name": "移动",
+			"source": "XUA2022ExpertClasses",
+			"entries": [
+				"当你移动时，你可以移动一段等于或小于你速度的距离。例如，如果你的速度为30尺，你可以在移动时移动最多30尺。{@variantrule 困难地形|XUA2022ExpertClasses}可能会使你减速。",
+				"拆分移动",
+				"你可以拆分你的移动，在同一个回合内使用部分移动力在你采取的任何动作之前和之后。例如，如果你的速度为30尺，你可以移动10尺，采取一个动作，然后再移动20尺。",
+				{
+					"ENG_name": "Moving Around Other Creatures",
+					"name": "绕过其他生物",
+					"type": "entries",
+					"entries": [
+						"在你的移动期间，你可以穿过一个盟友、一个{@condition 失能|XUA2022ExpertClasses}生物、一个微型生物或一个体型比你大两号或小两号的生物的空间。",
+						"另一个生物的空间对你来说是{@variantrule 困难地形|XUA2022ExpertClasses}，除非该生物是微型。你不能自愿在另一个生物占据的空间中结束你的移动。"
+					]
+				},
+				{
+					"ENG_name": "Climbing and Swimming",
+					"name": "攀爬和游泳",
+					"type": "entries",
+					"entries": [
+						"你可以使用你的速度来攀爬或游泳。一些生物还拥有{@variantrule 攀爬速度|XUA2022ExpertClasses}或{@variantrule 游泳速度|XUA2022ExpertClasses}。",
+						"如果你使用你的速度进行攀爬或游泳，每移动1尺需要额外消耗1尺移动力。例如，如果你游泳或攀爬5尺，你必须消耗10尺移动力才能做到。如果你在{@variantrule 困难地形|XUA2022ExpertClasses}中游泳或攀爬，那么5尺的移动将消耗15尺移动力！"
+					]
+				},
+				{
+					"ENG_name": "Special Speeds",
+					"name": "特殊速度",
+					"type": "entries",
+					"entries": [
+						"某些生物拥有特殊速度，例如{@variantrule 攀爬速度|XUA2022ExpertClasses}、{@variantrule 飞行速度|XUA2022ExpertClasses}或{@variantrule 游泳速度|XUA2022ExpertClasses}。如果你拥有多个速度，每次移动时必须选择使用其中一个。例如，如果你拥有速度和{@variantrule 攀爬速度|XUA2022ExpertClasses}，你可以在移动时使用其中一种速度，而不能在同一移动中同时使用两者。",
+						"如果你在一个回合内进行超过一次移动且拥有超过一种速度，每次移动可以使用相同或不同的速度。例如，如果你同时拥有速度和{@variantrule 飞行速度|XUA2022ExpertClasses}，并在你的回合中采取{@action 疾走|XUA2022ExpertClasses}动作，你可以使用你的速度进行移动，并使用你的{@variantrule 飞行速度|XUA2022ExpertClasses}进行{@action 疾走|XUA2022ExpertClasses}，反之亦然。"
+					]
+				},
+				{
+					"ENG_name": "Speed of 0",
+					"name": "速度为0",
+					"type": "entries",
+					"entries": [
+						"如果一个效应将你的速度归零一段时间，你所拥有的任何特殊速度也会在同一持续时间内归零。例如，如果你有速度和{@variantrule 攀爬速度|XUA2022ExpertClasses}，当你处于{@condition 受擒|XUA2022ExpertClasses}状态时，这两种速度都会被归零。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Musical Instrument",
+			"name": "乐器",
+			"source": "XUA2022ExpertClasses",
+			"entries": [
+				"乐器是一类工具，角色可以通过{@variantrule 工具熟练|XUA2022ExpertClasses}获得相关能力。有关乐器的列表，请参阅2014年的{@book 玩家手册|phb}，但忽略其中的价格；这些乐器现在每件花费20金币。"
+			]
+		},
+		{
+			"ENG_name": "Primal Spells",
+			"name": "原始法术",
+			"source": "XUA2022ExpertClasses",
+			"entries": [
+				"原始法术利用自然和内层位面的力量。德鲁伊和游侠驾驭这种魔法。关于原始法术的部分列表，请参阅本文档其他部分的\"{@variantrule 法术列表|XUA2022ExpertClasses}\"章节。"
+			]
+		},
+		{
+			"ENG_name": "Ritual Casting",
+			"name": "仪式施法",
+			"source": "XUA2022ExpertClasses",
+			"entries": [
+				"如果你准备了一个带有仪式标签的法术，你可以将该法术作为仪式施放。仪式施法不再需要特殊特性。2014年玩家手册中关于仪式的所有其他规则仍然适用。"
+			]
+		},
+		{
+			"ENG_name": "Rules Glossary",
+			"name": "术语汇编",
+			"source": "XUA2022ExpertClasses",
+			"entries": [
+				{
+					"type": "list",
+					"columns": 3,
+					"items": [
+						"{@variantrule 属性检定|XUA2022ExpertClasses}",
+						"{@variantrule 护甲受训|XUA2022ExpertClasses}",
+						"{@variantrule 工匠工具|XUA2022ExpertClasses}",
+						"{@variantrule 攻击检定|XUA2022ExpertClasses}",
+						"{@variantrule 奥术法术|XUA2022ExpertClasses}",
+						"{@variantrule 盲视|XUA2022ExpertClasses}",
+						"{@variantrule 攀爬速度|XUA2022ExpertClasses}",
+						"{@variantrule 生物类型|XUA2022ExpertClasses}",
+						"{@variantrule D20 检定|XUA2022ExpertClasses}",
+						"{@variantrule 困难地形|XUA2022ExpertClasses}",
+						"{@variantrule 神圣法术|XUA2022ExpertClasses}",
+						"{@variantrule 专精|XUA2022ExpertClasses}",
+						"{@variantrule 飞行速度|XUA2022ExpertClasses}",
+						"{@variantrule 赌具|XUA2022ExpertClasses}",
+						"{@variantrule 英雄激励|XUA2022ExpertClasses}",
+						"{@variantrule 长休|XUA2022ExpertClasses}",
+						"{@variantrule 移动|XUA2022ExpertClasses}",
+						"{@variantrule 乐器|XUA2022ExpertClasses}",
+						"{@variantrule 原始法术|XUA2022ExpertClasses}",
+						"{@variantrule 仪式施法|XUA2022ExpertClasses}",
+						"{@variantrule 游泳速度|XUA2022ExpertClasses}",
+						"{@variantrule 工具熟练|XUA2022ExpertClasses}",
+						"{@variantrule 传送|XUA2022ExpertClasses}",
+						"{@variantrule 震颤感知|XUA2022ExpertClasses}",
+						"{@variantrule 徒手打击|XUA2022ExpertClasses}"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Spell Lists",
+			"name": "法术列表",
+			"source": "XUA2022ExpertClasses",
+			"type": "entries",
+			"entries": [
+				{
+					"ENG_name": "Arcane Spells",
+					"name": "奥术法术",
+					"type": "entries",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"等级",
+								"法术",
+								"学派",
+								"仪式"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-5",
+								"col-4",
+								"col-2 text-center"
+							],
+							"rows": [
+								[
+									"0",
+									"{@spell 酸液飞溅}",
+									"咒法",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 剑刃防护}",
+									"防护",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 颤栗之触}",
+									"死灵",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 舞光术}",
+									"幻术*",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 火焰箭}",
+									"塑能",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 交友术}",
+									"惑控",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 光亮术}",
+									"塑能",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 法师之手}",
+									"咒法",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 修复术}",
+									"变化系",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 传讯术}",
+									"变化系",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 次级幻象}",
+									"幻术",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 毒气喷涌}",
+									"咒法",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 魔法伎俩}",
+									"变化系",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 冷冻射线}",
+									"塑能",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 电爪}",
+									"塑能",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 克敌先击}",
+									"预言术",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 恶言相加}",
+									"惑控",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 警报术}",
+									"防护",
+									"是"
+								],
+								[
+									"1",
+									"{@spell 黯冰狱铠}",
+									"防护",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 哈达之臂}",
+									"咒法",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 燃烧之手}",
+									"塑能",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 魅惑类人}",
+									"惑控",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 繁彩球}",
+									"塑能",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 七彩喷射}",
+									"幻术",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 通晓语言}",
+									"预言术",
+									"是"
+								],
+								[
+									"1",
+									"{@spell 侦测魔法}",
+									"预言术",
+									"是"
+								],
+								[
+									"1",
+									"{@spell 易容术}",
+									"幻术",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 不谐低语}",
+									"惑控",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 脚底抹油}",
+									"变化系",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 虚假生命}",
+									"死灵",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 羽落术}",
+									"变化系",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 寻获魔宠}",
+									"咒法",
+									"是"
+								],
+								[
+									"1",
+									"{@spell 云雾术}",
+									"咒法",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 油腻术}",
+									"咒法",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 炼狱叱喝}",
+									"塑能",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 脆弱诅咒}",
+									"惑控",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 鉴定术}",
+									"预言术",
+									"是"
+								],
+								[
+									"1",
+									"{@spell 迷幻手稿}",
+									"幻术",
+									"是"
+								],
+								[
+									"1",
+									"{@spell 跳跃术}",
+									"变化系",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 大步奔行}",
+									"变化系",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 法师护甲}",
+									"防护",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 魔法飞弹}",
+									"塑能",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 防护善恶}",
+									"防护",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 致病射线}",
+									"死灵",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 护盾术}",
+									"防护",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 无声幻影}",
+									"幻术",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 睡眠术}",
+									"惑控",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 塔莎狂笑术}",
+									"惑控",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 谭森浮碟术}",
+									"咒法",
+									"是"
+								],
+								[
+									"1",
+									"{@spell 雷鸣波}",
+									"变化系",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 隐形仆役}",
+									"咒法",
+									"是"
+								],
+								[
+									"1",
+									"{@spell 巫术箭}",
+									"塑能",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 变身术}",
+									"变化系",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 秘法锁}",
+									"防护",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 目盲术/耳聋术}",
+									"变化系",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 朦胧术}",
+									"幻术",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 安定心神}",
+									"惑控",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 匕首之云}",
+									"咒法",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 不灭明焰}",
+									"塑能",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 疯狂冠冕}",
+									"惑控",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 黑暗术}",
+									"塑能",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 黑暗视觉}",
+									"变化系",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 侦测思想}",
+									"预言术",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 变巨/缩小术}",
+									"变化系",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 注目术}",
+									"惑控",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 炽焰法球}",
+									"塑能*",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 造风术}",
+									"塑能",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 定身类人}",
+									"惑控",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 隐形术}",
+									"幻术",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 敲击术}",
+									"变化系",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 浮空术}",
+									"变化系",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 物件定位术}",
+									"预言术",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 涅斯图魔法灵光}",
+									"幻术",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 魔嘴术}",
+									"幻术",
+									"是"
+								],
+								[
+									"2",
+									"{@spell 魔化武器}",
+									"变化系",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 马友夫强酸箭}",
+									"塑能",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 镜影术}",
+									"幻术",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 迷踪步}",
+									"咒法",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 魅影之力}",
+									"幻术",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 衰弱射线}",
+									"死灵",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 魔绳术}",
+									"变化系",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 灼热射线}",
+									"塑能",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 识破隐形}",
+									"预言术",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 粉碎音波}",
+									"变化系",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 蛛行术}",
+									"变化系",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 暗示术}",
+									"惑控",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 蛛网术}",
+									"咒法",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 活化死尸}",
+									"死灵",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 降咒}",
+									"死灵",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 闪现术}",
+									"变化系",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 鹰眼术}",
+									"预言术",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 法术反制}",
+									"防护",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 解除魔法}",
+									"防护",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 恐惧术}",
+									"幻术",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 火球术}",
+									"塑能",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 飞行术}",
+									"变化系",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 气化形体}",
+									"变化系",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 守卫刻文}",
+									"防护",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 加速术}",
+									"变化系",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 哈达之欲}",
+									"咒法",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 催眠图纹}",
+									"幻术",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 李欧蒙小屋}",
+									"塑能",
+									"是"
+								],
+								[
+									"3",
+									"{@spell 闪电束}",
+									"塑能",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 防护法阵}",
+									"防护",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 高等幻影}",
+									"幻术",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 回避侦测}",
+									"防护",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 魅影驹}",
+									"幻术",
+									"是"
+								],
+								[
+									"3",
+									"{@spell 防护能量}",
+									"防护",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 移除诅咒}",
+									"防护",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 短讯术}",
+									"预言术*",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 雪雨暴}",
+									"咒法",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 缓慢术}",
+									"变化系",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 臭云术}",
+									"咒法",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 巧言术}",
+									"预言术",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 吸血鬼之触}",
+									"死灵",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 水下呼吸}",
+									"变化系",
+									"是"
+								],
+								[
+									"4",
+									"{@spell 秘法眼}",
+									"预言术",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 放逐术}",
+									"防护",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 枯萎术}",
+									"死灵",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 强迫术}",
+									"惑控",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 困惑术}",
+									"惑控",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 咒唤微元素群}",
+									"咒法",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 操控水体}",
+									"变化系",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 任意门}",
+									"咒法",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 艾伐黑触手}",
+									"咒法",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 鬼斧神工}",
+									"变化系",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 火焰护盾}",
+									"塑能",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 高等隐形术}",
+									"幻术",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 幻景}",
+									"幻术",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 冰风暴}",
+									"塑能",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 李欧蒙秘藏箱}",
+									"咒法",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 生物定位术}",
+									"预言术",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 魔邓肯忠犬}",
+									"咒法",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 魔邓肯私人密室}",
+									"防护",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 欧提路克弹力法球}",
+									"塑能",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 魅影杀手}",
+									"幻术",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 变形术}",
+									"变化系",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 塑石术}",
+									"变化系",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 石肤术}",
+									"变化系",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 火墙术}",
+									"塑能",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 活化物件}",
+									"变化系",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 毕格比之手}",
+									"塑能",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 死云术}",
+									"咒法",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 寒冰锥}",
+									"塑能",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 咒唤元素}",
+									"咒法",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 异界探知}",
+									"预言术",
+									"是"
+								],
+								[
+									"5",
+									"{@spell 造物术}",
+									"幻术",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 支配类人}",
+									"惑控",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 托梦术}",
+									"幻术",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 指使术}",
+									"惑控",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 定身怪物}",
+									"惑控",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 通晓传奇}",
+									"预言术",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 假象术}",
+									"幻术",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 篡改记忆}",
+									"惑控",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 穿墙术}",
+									"变化系",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 异界誓缚}",
+									"防护",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 拉瑞心灵联结}",
+									"预言术",
+									"是"
+								],
+								[
+									"5",
+									"{@spell 探知术}",
+									"预言术",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 伪装术}",
+									"幻术",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 心灵遥控}",
+									"变化系",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 传送法阵}",
+									"咒法",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 力场墙}",
+									"塑能",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 石墙术}",
+									"塑能",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 秘法门}",
+									"咒法",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 连锁闪电}",
+									"塑能",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 死亡法阵}",
+									"死灵",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 触发术}",
+									"防护*",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 唤起死灵}",
+									"死灵",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 解离术}",
+									"变化系",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 摄心目光}",
+									"死灵",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 石化术}",
+									"变化系",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 法术无效结界}",
+									"防护",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 铜墙铁壁}",
+									"防护",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 卓姆吉瞬间召唤}",
+									"咒法",
+									"是"
+								],
+								[
+									"6",
+									"{@spell 魔魂壶}",
+									"死灵",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 群体暗示术}",
+									"惑控",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 地动术}",
+									"变化系",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 欧提路克冰封法球}",
+									"塑能",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 奥图迷舞}",
+									"惑控",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 预置幻影}",
+									"幻术",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 阳炎射线}",
+									"塑能",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 真知术}",
+									"预言术",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 冰墙术}",
+									"塑能",
+									"No"
+								],
+								[
+									"7",
+									"{@spell 延迟爆裂火球}",
+									"塑能",
+									"No"
+								],
+								[
+									"7",
+									"{@spell 以太化}",
+									"变化系",
+									"No"
+								],
+								[
+									"7",
+									"{@spell 死亡一指}",
+									"死灵",
+									"No"
+								],
+								[
+									"7",
+									"{@spell 力场监牢}",
+									"塑能",
+									"No"
+								],
+								[
+									"7",
+									"{@spell 海市蜃楼}",
+									"幻术",
+									"No"
+								],
+								[
+									"7",
+									"{@spell 魔邓肯豪宅术}",
+									"咒法",
+									"No"
+								],
+								[
+									"7",
+									"{@spell 魔邓肯之剑}",
+									"塑能",
+									"No"
+								],
+								[
+									"7",
+									"{@spell 位面转移}",
+									"咒法",
+									"No"
+								],
+								[
+									"7",
+									"{@spell 虹光喷射}",
+									"塑能",
+									"No"
+								],
+								[
+									"7",
+									"{@spell 投影术}",
+									"幻术",
+									"No"
+								],
+								[
+									"7",
+									"{@spell 反转重力}",
+									"变化系",
+									"No"
+								],
+								[
+									"7",
+									"{@spell 隔离术}",
+									"变化系",
+									"No"
+								],
+								[
+									"7",
+									"{@spell 拟像术}",
+									"幻术",
+									"No"
+								],
+								[
+									"7",
+									"{@spell 徽记术}",
+									"防护",
+									"No"
+								],
+								[
+									"7",
+									"{@spell 传送术}",
+									"咒法",
+									"No"
+								],
+								[
+									"8",
+									"{@spell 反魔法场}",
+									"防护",
+									"No"
+								],
+								[
+									"8",
+									"{@spell 嫌恶术/关怀术}",
+									"惑控",
+									"No"
+								],
+								[
+									"8",
+									"{@spell 克隆术}",
+									"死灵",
+									"No"
+								],
+								[
+									"8",
+									"{@spell 操控天气}",
+									"变化系",
+									"No"
+								],
+								[
+									"8",
+									"{@spell 半位面}",
+									"咒法",
+									"No"
+								],
+								[
+									"8",
+									"{@spell 支配怪物}",
+									"惑控",
+									"No"
+								],
+								[
+									"8",
+									"{@spell 弱智术}",
+									"惑控",
+									"No"
+								],
+								[
+									"8",
+									"{@spell 花言巧语}",
+									"惑控*",
+									"No"
+								],
+								[
+									"8",
+									"{@spell 焚云术}",
+									"咒法",
+									"No"
+								],
+								[
+									"8",
+									"{@spell 迷宫术}",
+									"咒法",
+									"No"
+								],
+								[
+									"8",
+									"{@spell 心灵屏障}",
+									"防护",
+									"No"
+								],
+								[
+									"8",
+									"{@spell 律令震慑}",
+									"惑控",
+									"No"
+								],
+								[
+									"8",
+									"{@spell 阳炎爆}",
+									"塑能",
+									"No"
+								],
+								[
+									"8",
+									"{@spell 心灵感应}",
+									"预言术*",
+									"No"
+								],
+								[
+									"9",
+									"{@spell 星界投影}",
+									"死灵",
+									"No"
+								],
+								[
+									"9",
+									"{@spell 预见术}",
+									"预言术",
+									"No"
+								],
+								[
+									"9",
+									"{@spell 异界之门}",
+									"咒法",
+									"No"
+								],
+								[
+									"9",
+									"{@spell 禁锢术}",
+									"防护",
+									"No"
+								],
+								[
+									"9",
+									"{@spell 流星爆}",
+									"塑能",
+									"No"
+								],
+								[
+									"9",
+									"{@spell 律令死亡}",
+									"惑控",
+									"No"
+								],
+								[
+									"9",
+									"{@spell 虹光法墙}",
+									"防护",
+									"No"
+								],
+								[
+									"9",
+									"{@spell 形体变化}",
+									"变化系",
+									"No"
+								],
+								[
+									"9",
+									"{@spell 时间停止}",
+									"变化系",
+									"No"
+								],
+								[
+									"9",
+									"{@spell 完全变形术}",
+									"变化系",
+									"No"
+								],
+								[
+									"9",
+									"{@spell 怪影杀手}",
+									"幻术",
+									"No"
+								],
+								[
+									"9",
+									"{@spell 祈愿术}",
+									"咒法",
+									"No"
+								]
+							]
+						}
+					]
+				},
+				{
+					"ENG_name": "Divine Spells",
+					"name": "神圣法术",
+					"type": "entries",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"等级",
+								"法术",
+								"学派",
+								"仪式"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-5",
+								"col-4",
+								"col-2 text-center"
+							],
+							"rows": [
+								[
+									"0",
+									"{@spell 神导术|XUA2022ExpertClasses}",
+									"预言术",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 光亮术}",
+									"塑能",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 抵抗术}",
+									"防护",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 圣火术}",
+									"塑能",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 维生术}",
+									"死灵",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 奇术}",
+									"变化系",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 灾祸术}",
+									"惑控",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 祝福术}",
+									"惑控",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 命令术}",
+									"惑控",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 强令对决}",
+									"惑控",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 疗伤术}",
+									"防护*",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 侦测善恶}",
+									"预言术",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 侦测魔法}",
+									"预言术",
+									"是"
+								],
+								[
+									"1",
+									"{@spell 侦测毒性和疾病}",
+									"预言术",
+									"是"
+								],
+								[
+									"1",
+									"{@spell 神恩}",
+									"塑能",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 光导箭}",
+									"塑能",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 治愈真言}",
+									"防护*",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 英雄气概}",
+									"惑控",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 致伤术}",
+									"死灵",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 防护善恶}",
+									"防护",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 净化饮食}",
+									"变化系",
+									"是"
+								],
+								[
+									"1",
+									"{@spell 庇护术}",
+									"防护",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 炽焰斩}",
+									"塑能",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 虔诚护盾}",
+									"防护",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 雷鸣斩}",
+									"塑能",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 激愤斩}",
+									"塑能",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 援助术}",
+									"防护",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 卜筮术}",
+									"预言术",
+									"是"
+								],
+								[
+									"2",
+									"{@spell 目盲术/耳聋术}",
+									"变化系",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 印记斩}",
+									"塑能",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 安定心神}",
+									"惑控",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 寻获坐骑}",
+									"咒法",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 寻找陷阱}",
+									"预言术",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 遗体防腐}",
+									"死灵",
+									"是"
+								],
+								[
+									"2",
+									"{@spell 定身类人}",
+									"惑控",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 次级复原术}",
+									"防护",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 物件定位术}",
+									"预言术",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 魔化武器}",
+									"变化系",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 治疗祷言}",
+									"防护*",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 防护毒素}",
+									"防护",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 沉默术}",
+									"幻术",
+									"是"
+								],
+								[
+									"2",
+									"{@spell 灵体武器}",
+									"塑能",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 守护之链}",
+									"防护",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 诚实之域}",
+									"惑控",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 活力灵光}",
+									"防护*",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 希望信标}",
+									"防护",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 致盲斩}",
+									"塑能",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 鹰眼术}",
+									"预言术",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 造粮术}",
+									"咒法",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 十字军披风}",
+									"塑能",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 昼明术}",
+									"塑能",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 解除魔法}",
+									"防护",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 假死术}",
+									"死灵",
+									"是"
+								],
+								[
+									"3",
+									"{@spell 守卫刻文}",
+									"防护",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 防护法阵}",
+									"防护",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 群体治愈真言}",
+									"防护*",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 移除诅咒}",
+									"防护",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 回生术}",
+									"死灵",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 死者交谈}",
+									"死灵",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 灵体卫士}",
+									"咒法",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 巧言术}",
+									"预言术",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 生命灵光}",
+									"防护",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 净化灵光}",
+									"防护",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 放逐术}",
+									"防护",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 防死结界}",
+									"防护",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 预言术}",
+									"预言术",
+									"是"
+								],
+								[
+									"4",
+									"{@spell 行动自如}",
+									"防护",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 信仰守卫}",
+									"防护",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 生物定位术}",
+									"预言术",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 惊惧斩}",
+									"塑能",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 放逐斩}",
+									"防护",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 原力法阵}",
+									"防护",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 通神术}",
+									"预言术",
+									"是"
+								],
+								[
+									"5",
+									"{@spell 疫病术}",
+									"死灵",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 湮灭波}",
+									"塑能",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 驱逐善恶}",
+									"防护",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 焰击术}",
+									"塑能",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 指使术}",
+									"惑控",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 高等复原术}",
+									"防护",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 圣居}",
+									"防护*",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 通晓传奇}",
+									"预言术",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 群体疗伤术}",
+									"防护*",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 异界誓缚}",
+									"防护",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 死者复活}",
+									"死灵",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 探知术}",
+									"预言术",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 剑刃护壁}",
+									"塑能",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 寻路术}",
+									"预言术",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 禁制术}",
+									"防护",
+									"是"
+								],
+								[
+									"6",
+									"{@spell 重伤术}",
+									"死灵",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 医疗术}",
+									"防护",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 英雄宴}",
+									"咒法",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 异界誓盟}",
+									"咒法",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 阳炎射线}",
+									"塑能",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 真知术}",
+									"预言术",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 回返真言}",
+									"咒法",
+									"No"
+								],
+								[
+									"7",
+									"{@spell 咒唤圣光}",
+									"咒法",
+									"No"
+								],
+								[
+									"7",
+									"{@spell 圣言术}",
+									"塑能",
+									"No"
+								],
+								[
+									"7",
+									"{@spell 以太化}",
+									"变化系",
+									"No"
+								],
+								[
+									"7",
+									"{@spell 位面转移}",
+									"咒法",
+									"No"
+								],
+								[
+									"7",
+									"{@spell 再生术}",
+									"变化系",
+									"No"
+								],
+								[
+									"7",
+									"{@spell 复生术}",
+									"死灵",
+									"No"
+								],
+								[
+									"7",
+									"{@spell 徽记术}",
+									"防护",
+									"No"
+								],
+								[
+									"8",
+									"{@spell 反魔法场}",
+									"防护",
+									"No"
+								],
+								[
+									"8",
+									"{@spell 嫌恶术/关怀术}",
+									"惑控",
+									"No"
+								],
+								[
+									"8",
+									"{@spell 圣洁灵光}",
+									"防护",
+									"No"
+								],
+								[
+									"8",
+									"{@spell 阳炎爆}",
+									"塑能",
+									"No"
+								],
+								[
+									"9",
+									"{@spell 星界投影}",
+									"死灵",
+									"No"
+								],
+								[
+									"9",
+									"{@spell 预见术}",
+									"预言术",
+									"No"
+								],
+								[
+									"9",
+									"{@spell 异界之门}",
+									"咒法",
+									"No"
+								],
+								[
+									"9",
+									"{@spell 群体医疗术}",
+									"防护*",
+									"No"
+								],
+								[
+									"9",
+									"{@spell 律令医疗}",
+									"防护*",
+									"No"
+								],
+								[
+									"9",
+									"{@spell 完全复生术}",
+									"死灵",
+									"No"
+								]
+							]
+						}
+					]
+				},
+				{
+					"ENG_name": "Primal Spells",
+					"name": "原始法术",
+					"type": "entries",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"等级",
+								"法术",
+								"学派",
+								"仪式"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-5",
+								"col-4",
+								"col-2 text-center"
+							],
+							"rows": [
+								[
+									"0",
+									"{@spell 德鲁伊伎俩}",
+									"变化系",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 神导术|XUA2022ExpertClasses}",
+									"预言术",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 修复术}",
+									"变化系",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 传讯术}",
+									"变化系",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 毒气喷涌}",
+									"咒法",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 燃火术}",
+									"塑能*",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 抵抗术}",
+									"防护",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 橡棍术}",
+									"变化系",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 维生术}",
+									"死灵",
+									"No"
+								],
+								[
+									"0",
+									"{@spell 荆棘之鞭}",
+									"变化系",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 化兽为友}",
+									"惑控",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 造水术/枯水术}",
+									"变化系",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 疗伤术}",
+									"防护*",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 侦测魔法}",
+									"预言术",
+									"是"
+								],
+								[
+									"1",
+									"{@spell 侦测毒性和疾病}",
+									"预言术",
+									"是"
+								],
+								[
+									"1",
+									"{@spell 诱捕打击}",
+									"咒法",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 纠缠术}",
+									"咒法",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 妖火}",
+									"塑能",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 云雾术}",
+									"咒法",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 神莓术}",
+									"变化系",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 棘雹术}",
+									"咒法",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 治愈真言}",
+									"防护*",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 猎人印记}",
+									"预言术",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 跳跃术}",
+									"变化系",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 大步奔行}",
+									"变化系",
+									"No"
+								],
+								[
+									"1",
+									"{@spell 净化饮食}",
+									"变化系",
+									"是"
+								],
+								[
+									"1",
+									"{@spell 动物交谈}",
+									"预言术",
+									"是"
+								],
+								[
+									"1",
+									"{@spell 雷鸣波}",
+									"变化系",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 动物信使}",
+									"惑控",
+									"是"
+								],
+								[
+									"2",
+									"{@spell 卜筮术}",
+									"预言术",
+									"是"
+								],
+								[
+									"2",
+									"{@spell 树肤术|XUA2022ExpertClasses}",
+									"变化系",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 野兽感官}",
+									"预言术",
+									"是"
+								],
+								[
+									"2",
+									"{@spell 警戒箭阵}",
+									"变化系",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 黑暗视觉}",
+									"变化系",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 强化属性}",
+									"变化系",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 变巨/缩小术}",
+									"变化系",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 寻找陷阱}",
+									"预言术",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 火焰刀}",
+									"塑能",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 炽焰法球}",
+									"塑能*",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 遗体防腐}",
+									"死灵",
+									"是"
+								],
+								[
+									"2",
+									"{@spell 造风术}",
+									"塑能",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 灼热金属}",
+									"变化系",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 次级复原术}",
+									"防护",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 动植物定位术}",
+									"预言术",
+									"是"
+								],
+								[
+									"2",
+									"{@spell 物件定位术}",
+									"预言术",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 月华之光}",
+									"塑能",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 行动无踪}",
+									"防护",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 防护毒素}",
+									"防护",
+									"No"
+								],
+								[
+									"2",
+									"{@spell 沉默术}",
+									"幻术",
+									"是"
+								],
+								[
+									"2",
+									"{@spell 荆棘丛生}",
+									"变化系",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 召雷术}",
+									"咒法",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 咒唤兽群}",
+									"咒法",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 箭如雨下}",
+									"咒法",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 昼明术}",
+									"塑能",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 解除魔法}",
+									"防护",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 元素武器}",
+									"变化系",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 假死术}",
+									"死灵",
+									"是"
+								],
+								[
+									"3",
+									"{@spell 闪电箭矢}",
+									"变化系",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 融身入石}",
+									"变化系",
+									"是"
+								],
+								[
+									"3",
+									"{@spell 回避侦测}",
+									"防护",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 植物滋长}",
+									"变化系",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 防护能量}",
+									"防护",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 回生术}",
+									"死灵",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 雪雨暴}",
+									"咒法",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 植物交谈}",
+									"变化系",
+									"No"
+								],
+								[
+									"3",
+									"{@spell 水下呼吸}",
+									"变化系",
+									"是"
+								],
+								[
+									"3",
+									"{@spell 水上行走}",
+									"变化系",
+									"是"
+								],
+								[
+									"3",
+									"{@spell 风墙术}",
+									"塑能",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 咒唤微元素群}",
+									"咒法",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 咒唤林地卫士}",
+									"咒法",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 操控水体}",
+									"变化系",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 支配野兽}",
+									"惑控",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 行动自如}",
+									"防护",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 巨虫术}",
+									"变化系",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 擒抱藤}",
+									"咒法",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 冰风暴}",
+									"塑能",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 生物定位术}",
+									"预言术",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 变形术}",
+									"变化系",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 塑石术}",
+									"变化系",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 石肤术}",
+									"变化系",
+									"No"
+								],
+								[
+									"4",
+									"{@spell 火墙术}",
+									"塑能",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 防活物护罩}",
+									"防护",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 启蒙术}",
+									"变化系",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 问道自然}",
+									"预言术",
+									"是"
+								],
+								[
+									"5",
+									"{@spell 咒唤元素}",
+									"咒法",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 万箭齐发}",
+									"咒法",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 高等复原术}",
+									"防护",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 疫病虫群}",
+									"咒法",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 群体疗伤术}",
+									"防护*",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 转生术}",
+									"死灵*",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 探知术}",
+									"预言术",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 迅捷箭袋}",
+									"变化系",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 树跃术}",
+									"咒法",
+									"No"
+								],
+								[
+									"5",
+									"{@spell 石墙术}",
+									"塑能",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 咒唤妖精}",
+									"咒法",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 寻路术}",
+									"预言术",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 医疗术}",
+									"防护",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 地动术}",
+									"变化系",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 阳炎射线}",
+									"塑能",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 木遁术}",
+									"咒法",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 冰墙术}",
+									"塑能",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 棘墙术}",
+									"咒法",
+									"No"
+								],
+								[
+									"6",
+									"{@spell 御风而行}",
+									"变化系",
+									"No"
+								],
+								[
+									"7",
+									"{@spell 火焰风暴}",
+									"塑能",
+									"No"
+								],
+								[
+									"7",
+									"{@spell 再生术}",
+									"变化系",
+									"No"
+								],
+								[
+									"7",
+									"{@spell 反转重力}",
+									"变化系",
+									"No"
+								],
+								[
+									"8",
+									"{@spell 动物形态}",
+									"变化系",
+									"No"
+								],
+								[
+									"8",
+									"{@spell 操控天气}",
+									"变化系",
+									"No"
+								],
+								[
+									"8",
+									"{@spell 地震术}",
+									"变化系",
+									"No"
+								],
+								[
+									"8",
+									"{@spell 阳炎爆}",
+									"塑能",
+									"No"
+								],
+								[
+									"8",
+									"{@spell 海啸术}",
+									"咒法",
+									"No"
+								],
+								[
+									"9",
+									"{@spell 律令医疗}",
+									"防护*",
+									"No"
+								],
+								[
+									"9",
+									"{@spell 形体变化}",
+									"变化系",
+									"No"
+								],
+								[
+									"9",
+									"{@spell 复仇风暴}",
+									"咒法",
+									"No"
+								],
+								[
+									"9",
+									"{@spell 完全复生术}",
+									"死灵",
+									"No"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Swim Speed",
+			"name": "游泳速度",
+			"source": "XUA2022ExpertClasses",
+			"entries": [
+				"游泳速度可用于在液体中移动而无需消耗通常与游泳相关的额外移动力。"
+			]
+		},
+		{
+			"ENG_name": "Teleportation",
+			"name": "传送",
+			"source": "XUA2022ExpertClasses",
+			"entries": [
+				"传送是一种特殊的魔法运输方式。如果你使用传送术，你会立即消失并在别处重新出现，而不会穿过中间的空间。这种运输方式不会消耗移动力，除非有规则另行说明，且传送术永远不会引发借机攻击。",
+				"当你使用传送术时，所有你穿戴和携带的装备都会随你一同传送。如果你在传送时正触碰另一个生物，该生物不会随你一同传送，除非传送效应另有说明。",
+				"如果你的传送术的目的地空间被另一个生物占据或被固体障碍物阻挡，你将出现在你选择的最近未占据空间。传送效应的描述会告诉你是否必须看到传送术的目的地。"
+			]
+		},
+		{
+			"ENG_name": "Tool Proficiency",
+			"name": "工具熟练",
+			"source": "XUA2022ExpertClasses",
+			"entries": [
+				"如果你有工具熟练，你可以将你的熟练加值添加到任何使用该工具的{@variantrule 属性检定|XUA2022ExpertClasses}上。如果你在该检定中使用的技能也有熟练，你在该检定上还具有优势。这意味着你可以在同一个{@variantrule 属性检定|XUA2022ExpertClasses}上同时受益于技能熟练和工具熟练。"
+			]
+		},
+		{
+			"ENG_name": "Tremorsense",
+			"name": "震颤感知",
+			"source": "XUA2022ExpertClasses",
+			"entries": [
+				"拥有震颤感知的生物可以精确定位特定范围内生物和移动物件的位置，前提是该拥有震颤感知的生物和它正在探测的任何东西都接触相同的表面（如地面、墙壁或天花板）或相同的液体。",
+				"震颤感知无法侦查空中的生物或物件，且震颤感知不被视为一种预见形态。"
+			]
+		},
+		{
+			"ENG_name": "Unarmed Strike",
+			"name": "徒手打击",
+			"source": "XUA2022ExpertClasses",
+			"entries": [
+				"徒手打击是一种近战攻击，涉及你使用你的身体对触及范围内的目标造成伤害、擒抱或推撞。",
+				"你的徒手打击命中加值等于你的力量调整值加上你的熟练加值。命中时，你的徒手打击会造成以下你选择的一个效应：",
+				{
+					"ENG_name": "Damage",
+					"name": "伤害",
+					"type": "entries",
+					"entries": [
+						"目标受到等同于1 + 你的力量调整值的钝击伤害。"
+					]
+				},
+				{
+					"ENG_name": "Grapple",
+					"name": "擒抱",
+					"type": "entries",
+					"entries": [
+						"目标处于{@condition 受擒|XUA2022ExpertClasses}状态，且擒抱的逃脱DC等于8 + 你的力量调整值 + 你的熟练加值。此擒抱仅在目标体型不超过你一级且你有一只手空闲擒拿目标时可能生效。"
+					]
+				},
+				{
+					"ENG_name": "Shove",
+					"name": "推撞",
+					"type": "entries",
+					"entries": [
+						"你可以将目标推离5尺或使其倒地。只有当目标的体型不超过你一级时才能进行此推撞。"
+					]
+				}
+			]
+		}
+	],
+	"condition": [
+		{
+			"ENG_name": "Exhausted",
+			"name": "力竭",
+			"source": "XUA2022ExpertClasses",
+			"page": 32,
+			"entries": [
+				"当你受到力竭状态影响时（在旧书籍中称为力竭），你将体验到以下效应：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Levels of Exhaustion",
+							"name": "力竭等级",
+							"type": "item",
+							"entry": "该状态可叠加。每次获得此状态时，你增加1个{@condition 力竭}等级。若{@condition 力竭}等级超过10，你将死亡。"
+						},
+						{
+							"ENG_name": "d20 Rolls Affected",
+							"name": "受影响的d20掷骰",
+							"type": "item",
+							"entry": "当你进行{@dice d20}检定时，你从{@dice d20}掷骰中减去你的{@condition 力竭}等级。"
+						},
+						{
+							"ENG_name": "Spell Save DCs Affected",
+							"name": "法术豁免DC受影响",
+							"type": "item",
+							"entry": "从你施放的任何法术的豁免DC中减去你的{@condition 力竭}等级。"
+						},
+						{
+							"ENG_name": "Ending the Condition",
+							"name": "结束该状态",
+							"type": "item",
+							"entry": "完成一次{@variantrule 长休|XUA2022ExpertClasses}可移除1个你的{@condition 力竭}等级。当你的{@condition 力竭}等级降至0时，你将不再处于力竭状态。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Grappled",
+			"name": "受擒",
+			"source": "XUA2022ExpertClasses",
+			"page": 32,
+			"entries": [
+				"当你受擒时，你会体验到以下效应：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Speed 0",
+							"name": "速度归零",
+							"type": "item",
+							"entries": [
+								"你的速度为0且无法变化。"
+							]
+						},
+						{
+							"ENG_name": "Attacks Affected",
+							"name": "攻击影响",
+							"type": "item",
+							"entries": [
+								"你对擒抱者以外的任何目标进行的{@variantrule 攻击检定|XUA2022ExpertClasses|攻击检定}具有劣势。"
+							]
+						},
+						{
+							"ENG_name": "Movable",
+							"name": "带动",
+							"type": "item",
+							"entries": [
+								"擒抱者可以拖动或载重你，但擒抱者在移动时会受到{@condition 减速|XUA2022ExpertClasses}状态，除非你是微型或比擒抱者小二个或更多体型。"
+							]
+						},
+						{
+							"ENG_name": "Escape",
+							"name": "逃脱",
+							"type": "item",
+							"entries": [
+								"处于受擒状态时，你可以在每个回合结束时进行一次敏捷或力量豁免检定对抗擒抱的逃脱DC，成功则结束自身的该状态。如果擒抱者{@condition 失能|XUA2022ExpertClasses}，或者有东西在不使用你速度的情况下将你移出擒抱范围，该状态也会结束。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Hidden",
+			"name": "隐藏",
+			"source": "XUA2022ExpertClasses",
+			"page": 33,
+			"entries": [
+				"当你处于隐藏状态时，你会体验到以下效应：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Concealed",
+							"name": "隐蔽",
+							"type": "item",
+							"entries": [
+								"你不会受到任何需要看到目标的效应影响。"
+							]
+						},
+						{
+							"ENG_name": "Surprise",
+							"name": "突袭",
+							"type": "item",
+							"entries": [
+								"若你在掷先攻时处于隐藏状态，你在该掷骰上具有优势。"
+							]
+						},
+						{
+							"ENG_name": "Attacks Affected",
+							"name": "攻击影响",
+							"type": "item",
+							"entries": [
+								"针对你的{@variantrule 攻击检定|XUA2022ExpertClasses|攻击检定}具有劣势，且你的{@variantrule 攻击检定|XUA2022ExpertClasses|攻击检定}具有优势。"
+							]
+						},
+						{
+							"ENG_name": "Ending the Condition",
+							"name": "结束该状态",
+							"type": "item",
+							"entries": [
+								"该状态会在以下任一情况发生后立即结束：你发出比低语更大的声音、仇敌发现你、你进行一次{@variantrule 攻击检定|XUA2022ExpertClasses}、你施展带有言语成分的法术，或你不再处于重度遮蔽状态或任何掩护后方。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Incapacitated",
+			"name": "失能",
+			"source": "XUA2022ExpertClasses",
+			"page": 33,
+			"entries": [
+				"当你处于失能状态时，你会体验到以下效应：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Inactive",
+							"name": "无法行动",
+							"type": "item",
+							"entries": [
+								"你的专注被破碎。"
+							]
+						},
+						{
+							"ENG_name": "No Concentration",
+							"name": "无法专注",
+							"type": "item",
+							"entries": [
+								"你的专注被破碎。"
+							]
+						},
+						{
+							"ENG_name": "Speechless",
+							"name": "无法说话",
+							"type": "item",
+							"entries": [
+								"你无法说话。"
+							]
+						},
+						{
+							"ENG_name": "Surprised",
+							"name": "突袭",
+							"type": "item",
+							"entries": [
+								"若你在掷先攻时处于失能状态，则此次掷骰具有劣势。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Invisible",
+			"name": "隐形",
+			"source": "XUA2022ExpertClasses",
+			"page": 34,
+			"entries": [
+				"当你处于隐形状态时，你会体验到以下效应：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Unseeable",
+							"name": "不可见",
+							"type": "item",
+							"entries": [
+								"你无法被看见，因此不会受到任何需要看见目标的效应影响。你所穿戴或携带的任何装备也无法被看见。"
+							]
+						},
+						{
+							"ENG_name": "Surprise",
+							"name": "突袭",
+							"type": "item",
+							"entries": [
+								"若你在掷先攻时处于隐形状态，你在该掷骰上具有优势。攻击影响。针对你的{@variantrule 攻击检定|XUA2022ExpertClasses|攻击检定}具有劣势，且你的{@variantrule 攻击检定|XUA2022ExpertClasses|攻击检定}具有优势。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Slowed",
+			"name": "减速",
+			"source": "XUA2022ExpertClasses",
+			"page": 36,
+			"entries": [
+				"当你处于减速状态时，你会体验到以下效应：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Limited Movement",
+							"name": "移动力受限",
+							"type": "item",
+							"entries": [
+								"你必须为使用速度移动的每1尺额外消耗1尺移动力。"
+							]
+						},
+						{
+							"ENG_name": "Attacks Affected",
+							"name": "攻击影响",
+							"type": "item",
+							"entries": [
+								"对你进行的{@variantrule 攻击检定|XUA2022ExpertClasses|攻击检定}具有优势。"
+							]
+						},
+						{
+							"ENG_name": "Dexterity Saves Affected",
+							"name": "敏捷豁免受影响",
+							"type": "item",
+							"entries": [
+								"你在敏捷豁免检定上具有劣势。"
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"action": [
+		{
+			"ENG_name": "Attack",
+			"name": "攻击",
+			"source": "XUA2022ExpertClasses",
+			"page": 30,
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"entries": [
+				"当你执行攻击动作时，可以用武器或进行一次{@variantrule 徒手打击|XUA2022ExpertClasses}。",
+				{
+					"ENG_name": "Equipping Weapons",
+					"name": "装备武器",
+					"type": "entries",
+					"entries": [
+						"你可以在此动作的任何攻击前后装备或卸下一件武器，即使该攻击是使用{@variantrule 徒手打击|XUA2022ExpertClasses}。"
+					]
+				},
+				{
+					"ENG_name": "Moving Between Attacks",
+					"name": "攻击间移动",
+					"type": "entries",
+					"entries": [
+						"如果你在你的回合中{@variantrule 移动|XUA2022ExpertClasses}，你可以使用部分或全部移动力在此动作的攻击间移动，前提是你拥有一个特性（例如额外攻击），该特性作为攻击动作的一部分给予你多次攻击。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Dash",
+			"name": "疾走",
+			"source": "XUA2022ExpertClasses",
+			"page": 31,
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"entries": [
+				"采取疾走动作允许你在当前回合内进行一次附赠{@variantrule 移动|XUA2022ExpertClasses}"
+			]
+		},
+		{
+			"ENG_name": "Help",
+			"name": "协助",
+			"source": "XUA2022ExpertClasses",
+			"page": 33,
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"entries": [
+				"当你采取协助动作时，你可以执行以下一项：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Assist Ability Check",
+							"name": "协助属性检定",
+							"type": "item",
+							"entries": [
+								"选择一项你的技能熟练且一名能看见或听见你的盟友。你给予该盟友在下一次使用所选技能进行{@variantrule 属性检定|XUA2022ExpertClasses}时的优势。若该盟友在你的下个回合开始前未使用此增益，则效果失效。要提供此协助，你必须足够靠近该盟友以便在其进行检定时能口头或身体上协助。DM最终决定你的协助是否可行。"
+							]
+						},
+						{
+							"ENG_name": "Assist Attack Roll",
+							"name": "协助攻击检定",
+							"type": "item",
+							"entries": [
+								"你短暂干扰5尺内的一个敌人，为你的一名盟友对该敌人的下一次{@variantrule 攻击检定|XUA2022ExpertClasses}提供优势。此增益在你下个回合开始时失效。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Hide",
+			"name": "躲藏",
+			"source": "XUA2022ExpertClasses",
+			"page": 33,
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"entries": [
+				"使用躲藏动作时，你试图隐藏自己。为此，你必须在你处于重度遮蔽或四分之三掩护或全身掩护时进行一次{@dc 15}敏捷检定（{@skill 隐匿}），且你必须处于任何可见敌人的视线之外；如果你能看到一个生物，你可以辨别它是否能看见你。",
+				"检定成功时，你处于{@condition 隐藏|XUA2022ExpertClasses}状态。记下你的检定总值，该值将成为其他生物用感知检定（{@skill 察觉}）发现你的DC。"
+			]
+		},
+		{
+			"ENG_name": "Influence",
+			"name": "影响",
+			"source": "XUA2022ExpertClasses",
+			"page": 33,
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"entries": [
+				"使用影响动作，你可以尝试影响另一个生物去做你请求或要求的事情。这个动作只能用于由DM控制的生物，而且这不是心灵控制；它不能强迫一个生物去做与其阵营相悖或令其反感的事情。",
+				"此动作有三个主要部分：态度、互动且一个魅力检定。",
+				{
+					"ENG_name": "Attitude",
+					"name": "态度",
+					"type": "entries",
+					"entries": [
+						"一个生物的态度决定了角色如何影响该生物。每个由DM控制的生物对玩家角色有以下态度之一：",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"ENG_name": "Indifferent",
+									"name": "冷漠",
+									"type": "item",
+									"entries": [
+										"这是DM控制的生物的默认态度。一个冷漠的生物可能会协助或阻碍队伍，取决于该生物认为什么最有益。生物的冷漠并不一定意味着它冷淡或漠不关心。冷漠的生物可能礼貌且亲切，也可能乖戾且易怒，或介于两者之间的任何状态。当冒险者试图说服一个冷漠的生物做某事时，通常需要进行一次成功的魅力检定。"
+									]
+								},
+								{
+									"ENG_name": "Friendly",
+									"name": "友好",
+									"type": "item",
+									"entries": [
+										"一个友好的生物想要协助冒险者且希望它们成功。对于不需要特别风险、努力或花费的任务或动作，友好的生物通常会乐意协助。如果涉及个人风险元素，可能需要成功的魅力检定来说服一个友好的生物承担该风险。"
+									]
+								},
+								{
+									"ENG_name": "Hostile",
+									"name": "敌对",
+									"type": "item",
+									"entries": [
+										"一个敌对生物反对冒险者及其目标，但不一定会一见它们就攻击。冒险者需要通过一次或多次具有挑战性的魅力检定来说服敌对生物为队伍做任何事情；然而，DM可能判定敌对生物对角色的敌意如此之深，以至于任何魅力检定都无法动摇它，在这种情况下，第一次检定自动失败，除非其态度发生转变，否则无法对该生物进行进一步的影响尝试。"
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ENG_name": "Interaction",
+					"name": "互动",
+					"type": "entries",
+					"entries": [
+						"当你使用影响动作时，可以扮演你的角色如何与该生物互动，或描述你角色的行为\u2014\u2014重点在于你角色的请求或要求。如果这次互动特别符合该生物的欲望和观点，DM可能会给予你随后的检定优势，或可能暂时将敌对生物转变为冷漠，或将冷漠生物转变为友好。",
+						"同样地，如果互动让该生物特别恼怒，DM可能会让你随后的检定具有劣势，或者可能暂时将友好生物转为冷漠，或将冷漠生物转为敌对。"
+					]
+				},
+				{
+					"ENG_name": "Ability Check",
+					"name": "属性检定",
+					"type": "entries",
+					"entries": [
+						"要确定你的请求或要求是否成功，你需要进行一次魅力检定（{@skill 驯兽}、{@skill 欺瞒}、{@skill 威吓}或{@skill 游说}）；适用的技能取决于互动类型，其中{@skill 驯兽}仅适用于野兽和怪兽。此外，每个请求或要求都需要不同的检定。",
+						"该生物的态度决定了达成特定回应所需的DC，如影响回应表格所示。"
+					]
+				},
+				{
+					"ENG_name": "Influence Responses",
+					"name": "影响回应",
+					"type": "tableGroup",
+					"tables": [
+						{
+							"type": "table",
+							"caption": "影响回应",
+							"colLabels": [
+								"DC",
+								"冷漠生物的回应"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"10",
+									"该生物按要求行事，只要不涉及风险或牺牲。"
+								],
+								[
+									"20",
+									"该生物接受较小的风险或牺牲来按要求行事。"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"DC",
+								"友好生物的回应"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"10",
+									"该生物接受较小的风险或牺牲来按要求行事。"
+								],
+								[
+									"20",
+									"该生物接受重大的风险或牺牲来按要求行事。"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"DC",
+								"敌对生物的回应"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"10",
+									"该生物不提供帮助也不进行妨害。"
+								],
+								[
+									"20",
+									"该生物按要求行事，只要不涉及风险或牺牲。"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Jump",
+			"name": "跳跃术",
+			"source": "XUA2022ExpertClasses",
+			"page": 35,
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"entries": [
+				"使用跳跃术动作时，你尝试跳跃超过5尺（5尺或以下的跳跃被视为{@variantrule 困难地形|XUA2022ExpertClasses}）。当你执行此动作时，你的速度必须大于0，且你必须进行一次{@dc 10}力量检定（{@skill 特技}或{@skill 运动}）。如果你在执行此动作前没有{@variantrule 移动|XUA2022ExpertClasses}至少10尺，你在检定中具有劣势。",
+				"检定失败时，你水平或垂直跳跃5尺。",
+				"检定成功后，检定的总值决定了你能水平跳跃的距离（以英尺为单位），如果是垂直跳跃则为总值的一半（向下取整）。这次跳跃不会消耗你的移动力，但你跳跃的距离不能超过你的速度。"
+			]
+		},
+		{
+			"ENG_name": "Magic",
+			"name": "魔法",
+			"source": "XUA2022ExpertClasses",
+			"page": 35,
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"entries": [
+				"当你使用魔法动作时，你可以施放一个施法时间为动作的法术，或者使用一个需要动作来激活的魔法物品。",
+				"如果你施放一个施法时间为1分钟或更长的法术，你必须在施法的每个回合进行魔法动作，且你必须在此过程中保持专注。如果你的专注被打断，法术失败，但你不消耗法术位。"
+			]
+		},
+		{
+			"ENG_name": "Search",
+			"name": "搜索",
+			"source": "XUA2022ExpertClasses",
+			"page": 36,
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"entries": [
+				"当你执行搜索动作，你进行一次感知检定来搜索某个\"并不显眼\"的东西。根据你尝试搜索的具体内容，搜索表提供了你在执行此动作时可用技能的建议。",
+				{
+					"type": "table",
+					"caption": "搜索",
+					"colLabels": [
+						"技能",
+						"要搜索的东西"
+					],
+					"colStyles": [
+						"col-3",
+						"col-9"
+					],
+					"rows": [
+						[
+							"{@skill 洞悉}",
+							"生物的心理状态"
+						],
+						[
+							"{@skill 医药}",
+							"生物的疾病"
+						],
+						[
+							"{@skill 察觉}",
+							"被藏匿的生物或物件"
+						],
+						[
+							"{@skill 求生}",
+							"踪迹或食物"
+						]
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Study",
+			"name": "研究",
+			"source": "XUA2022ExpertClasses",
+			"page": 36,
+			"time": [
+				{
+					"number": 1,
+					"unit": "动作"
+				}
+			],
+			"entries": [
+				"当你进行研究动作时，需进行一次智力检定来研究你的记忆、一本书、一个生物、一个显迹术、一个物件或其他知识来源，并回想起关于它的一个重要消息。",
+				"知识范围表格建议了当你采取此动作时，根据智力检定所涉及的知识范围，哪些技能是适用的。",
+				{
+					"type": "table",
+					"caption": "知识范围",
+					"colLabels": [
+						"技能",
+						"范围"
+					],
+					"colStyles": [
+						"col-1",
+						"col-11"
+					],
+					"rows": [
+						[
+							"{@skill 奥秘}",
+							"法术、魔法物品、魔能符号、魔法传承、存在位面、特定生物（异怪、构装、元素、妖精、怪兽）"
+						],
+						[
+							"{@skill 历史}",
+							"历史事件和历史人物、古文明、战争、特定生物（巨人、类人）"
+						],
+						[
+							"{@skill 调查}",
+							"陷阱、密文、谜语、设备"
+						],
+						[
+							"{@skill 自然}",
+							"地形、植物、天气、特定生物（野兽、龙类、泥怪、植物）"
+						],
+						[
+							"{@skill 宗教}",
+							"神祇、宗教层级和仪式、圣徽、教团、特定生物（天族、邪魔、亡灵）"
+						]
+					]
+				}
+			]
+		}
+	]
+}

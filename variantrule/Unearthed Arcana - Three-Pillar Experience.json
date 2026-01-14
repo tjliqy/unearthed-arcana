@@ -1,0 +1,203 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAThreePillarExperience",
+				"abbreviation": "UA3PE",
+				"full": "破解奥秘：三支柱经验系统",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2017/dnd/downloads/UA-ThreePillarXP.pdf",
+				"dateReleased": "2017-08-07"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1729637619,
+		"_dateLastModifiedHash": "97c750d055"
+	},
+	"variantrule": [
+		{
+			"ENG_name": "Three-Pillar Experience",
+			"name": "三支柱体验",
+			"source": "UAThreePillarExperience",
+			"page": 1,
+			"type": "section",
+			"entries": [
+				{
+					"ENG_name": "Gaining Levels",
+					"name": "获得等级",
+					"type": "entries",
+					"entries": [
+						"在此系统中，每当你积累100 XP时即可升级。当你达到该阈值且提升角色等级时，你将当前全部XP缩小100。"
+					]
+				},
+				{
+					"ENG_name": "Dividing XP",
+					"name": "经验值分配",
+					"type": "entries",
+					"entries": [
+						"在这个系统中，经验值通常不会在队伍成员之间分配。冒险的奖励对所有队伍成员都是相同的。如果击败一个怪物奖励10点经验值，队伍的每个成员都会获得10点经验值。",
+						"如果队伍规模异常庞大，那么人多势众的安全感会让奖励更容易获得。如果有超过六名队伍成员有资格获得XP（包括玩家角色和NPC），则所有体验奖励减半。"
+					]
+				},
+				{
+					"ENG_name": "Earning Experience Points",
+					"name": "获得经验值",
+					"type": "entries",
+					"entries": [
+						"你通过代表冒险三大支柱的活动获得经验值：探索、交涉和战斗。每种游戏玩法奖励经验值的方式不同。",
+						{
+							"ENG_name": "Exploration",
+							"name": "探索",
+							"type": "entries",
+							"entries": [
+								"你因找回迷失的魔法物品、获取隐藏的宝藏且探索废弃地点或法力之地而获得经验值。你的角色可通过从龙的宝库中取回强力武器、从邪恶男爵处偷取钻石或发现迷失的邪恶庙宇位置来获得经验值。",
+								"一个位置或物品的价值与你的等级相比决定了它的XP价值。发现一个适合你等级的宝藏或探索一个适合你等级的位置可以获得10 XP，每高于你当前等级一个等级额外获得10 XP。你不会获得低于你等级的探索XP。",
+								{
+									"ENG_name": "Items",
+									"name": "物件",
+									"type": "entries",
+									"entries": [
+										"有价值的宝藏和魔法物品按以下层级分配：",
+										{
+											"type": "list",
+											"style": "list-hang",
+											"items": [
+												{
+													"ENG_name": "Tier 1:",
+													"name": "第一阶段(T1):",
+													"type": "item",
+													"entry": "一件价值100GP或更多的物品，或一件非消耗性的珍稀魔法物品"
+												},
+												{
+													"ENG_name": "Tier 2:",
+													"name": "第二阶段(T2):",
+													"type": "item",
+													"entry": "一件价值1000GP或更高的物品，或一件非消耗性的极珍稀魔法物品"
+												},
+												{
+													"ENG_name": "Tier 3:",
+													"name": "第三阶段(T3):",
+													"type": "item",
+													"entry": "价值5000金币或以上的单个物品，或非消耗性的传说魔法物品"
+												},
+												{
+													"ENG_name": "Tier 4:",
+													"name": "第四阶段(T4):",
+													"type": "item",
+													"entry": "价值50,000金币或以上的单个物品，或一件神器"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ENG_name": "Locations",
+									"name": "地点",
+									"type": "entries",
+									"entries": [
+										"被遗忘的地点和法力地点并不完全按照任何困难且快速的规则来划分等级。相反，一个地点的等级取决于它在你的战役中的重要性。你可以通过此类动作的影响范围来衡量一个迷失地点的发现，或一个地点从反派或怪物的掌控中解放出来：",
+										{
+											"type": "list",
+											"style": "list-hang",
+											"items": [
+												{
+													"ENG_name": "Tier 1:",
+													"name": "第一阶段(T1):",
+													"type": "item",
+													"entry": "一个小型城镇或村庄的重要地点"
+												},
+												{
+													"ENG_name": "Tier 2:",
+													"name": "第二阶段(T2):",
+													"type": "item",
+													"entry": "对一个王国至关重要的地点"
+												},
+												{
+													"ENG_name": "Tier 3:",
+													"name": "第三阶段(T3):",
+													"type": "item",
+													"entry": "一个在世界范围内都很重要的地点"
+												},
+												{
+													"ENG_name": "Tier 4:",
+													"name": "第四阶段(T4):",
+													"type": "item",
+													"entry": "一个具有宇宙重要性的地点"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ENG_name": "Social Interaction",
+							"name": "交涉",
+							"type": "entries",
+							"entries": [
+								"你将重要NPC转变为盟友、使其与你的目标一致或阻止它们成为敌人的资产时，可获得经验值。此时获得的经验值基于该NPC的法力及影响力。",
+								"你因说服一个与你等级相符的NPC获得10点经验值，每高一个等级额外获得10点经验值。影响一个比你低一个等级的NPC可获得5点经验值，但对更低等级的NPC则无法获得经验值。",
+								"NPC按以下层级划分：",
+								{
+									"type": "list",
+									"style": "list-hang",
+									"items": [
+										{
+											"ENG_name": "Tier 1:",
+											"name": "第一阶段(T1):",
+											"type": "item",
+											"entry": "一个对小型城镇或村庄（或同等规模地区）有影响力的NPC"
+										},
+										{
+											"ENG_name": "Tier 2:",
+											"name": "第二阶段(T2):",
+											"type": "item",
+											"entry": "一个对城市或同等区域有影响力的NPC"
+										},
+										{
+											"ENG_name": "Tier 3:",
+											"name": "第三阶段(T3):",
+											"type": "item",
+											"entry": "一个对王国、大陆或同等区域有影响力的NPC"
+										},
+										{
+											"ENG_name": "Tier 4:",
+											"name": "第四阶段(T4):",
+											"type": "item",
+											"entry": "一个具有宇宙意义或在多个世界有影响力的NPC（包括神）"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ENG_name": "Combat",
+							"name": "战斗",
+							"type": "entries",
+							"entries": [
+								"你通过击败战斗中的怪物获得经验值，无论是通过消灭它们还是让它们处于不再构成威胁的状态。例如，你可以将恶魔驱逐回无底深渊或将亡灵惊恐囚禁在密封的墓穴中。",
+								"击败怪物获得的XP由怪物的挑战等级与你的等级比较决定。大多数情况下，每击败一个怪物获得5 XP。如果怪物的挑战等级是你等级的两倍或更高，奖励增加到15 XP。如果其挑战等级是你等级的一半或更低，奖励降至2 XP。"
+							]
+						}
+					]
+				},
+				{
+					"ENG_name": "Focusing on Pillars",
+					"name": "聚焦支柱",
+					"type": "entries",
+					"entries": [
+						"作为DM，如果你的战役只关注三长老中的一或二个支柱，你将简单地授予这些支柱的经验值奖励。然而，如果你完全排除任何支柱，你需要确保玩家有大量机会在其他支柱的挑战中找到成功。或者，你可以考虑增加你所使用支柱的经验值奖励。",
+						"将剩余两个支柱的回报增加50%是弥补失去单一支柱的好方法。如果只使用一个支柱，考虑将其大功告成增加三倍。"
+					]
+				}
+			]
+		}
+	]
+}

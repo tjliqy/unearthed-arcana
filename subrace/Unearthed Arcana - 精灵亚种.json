@@ -1,0 +1,285 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAElfSubraces",
+				"abbreviation": "UAESR",
+				"full": "破解奥秘：精灵亚种",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2017/dnd/downloads/UA-ElfSubraces.pdf",
+				"dateReleased": "2017-11-13"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1729637619,
+		"_dateLastModifiedHash": "1a43236f25"
+	},
+	"subrace": [
+		{
+			"ENG_name": "Avariel",
+			"name": "翼精灵",
+			"source": "UAElfSubraces",
+			"raceName": "精灵",
+			"raceSource": "PHB",
+			"page": 1,
+			"speed": {
+				"walk": 30,
+				"fly": 30
+			},
+			"languageProficiencies": [
+				{
+					"auran": true
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Extra Language",
+					"name": "额外语言",
+					"entries": [
+						"你可以说、读、写气族语。"
+					],
+					"type": "entries"
+				},
+				{
+					"ENG_name": "Flight",
+					"name": "飞行",
+					"entries": [
+						"你拥有30尺的飞行速度。要使用此速度，你不能穿着中等或重甲。"
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"ENG_name": "Grugach",
+			"name": "格鲁加克",
+			"source": "UAElfSubraces",
+			"raceName": "精灵",
+			"raceSource": "PHB",
+			"page": 1,
+			"ability": [
+				{
+					"str": 1
+				}
+			],
+			"languageProficiencies": [
+				{
+					"sylvan": true,
+					"elvish": true,
+					"anyStandard": 1
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"spear|phb": true,
+					"shortbow|phb": true,
+					"longbow|phb": true,
+					"net|phb": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "wis",
+					"known": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=德鲁伊"
+								}
+							]
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Languages",
+					"name": "语言",
+					"entries": [
+						"你可以说、读和写木族语、精灵语以及一门你选择的额外语言。精灵语流畅，带有精妙的语调和复杂的语法。精灵文学丰富多样，他们的歌曲和诗歌在其他种族中享有盛名。许多吟游诗人学习他们的语言，以便能将精灵民谣添加到他们的曲目中。"
+					],
+					"data": {
+						"overwrite": "语言"
+					},
+					"type": "entries"
+				},
+				{
+					"ENG_name": "Grugach Weapon Training",
+					"name": "格鲁加赫武器训练",
+					"entries": [
+						"你熟练使用{@item 矛|PHB}、{@item 短弓|PHB}、{@item 长弓|PHB}和{@item 捕网|PHB}。"
+					],
+					"type": "entries"
+				},
+				{
+					"ENG_name": "Cantrip",
+					"name": "戏法",
+					"entries": [
+						"你从{@filter 德鲁伊法术列表|spells|class=德鲁伊|level=0}中选择一个戏法。感知是你的施法属性。"
+					],
+					"type": "entries"
+				}
+			],
+			"overwrite": {
+				"languageProficiencies": true
+			}
+		},
+		{
+			"ENG_name": "Sea",
+			"name": "海洋",
+			"source": "UAElfSubraces",
+			"raceName": "精灵",
+			"raceSource": "PHB",
+			"page": 1,
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"traitTags": [
+				"水陆两栖"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"elvish": true,
+					"aquan": true
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"spear|phb": true,
+					"trident|phb": true,
+					"light crossbow|phb": true,
+					"net|phb": true
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Extra Language",
+					"name": "额外语言",
+					"entries": [
+						"你可以说、读、写水族语。"
+					],
+					"type": "entries"
+				},
+				{
+					"ENG_name": "Sea Elf Weapon Training",
+					"name": "海精灵武器训练",
+					"entries": [
+						"你对{@item 矛|PHB}、{@item 三叉戟|PHB}、{@item 轻弩|PHB}和{@item 捕网|PHB}有熟练度。"
+					],
+					"type": "entries"
+				},
+				{
+					"ENG_name": "Child of the Sea",
+					"name": "海洋之子",
+					"entries": [
+						"你的游泳速度为30尺，你可以呼吸空气和水。"
+					],
+					"type": "entries"
+				},
+				{
+					"ENG_name": "Friend of the Sea",
+					"name": "海洋之友",
+					"entries": [
+						"使用手势和声响，你可以与天生具有游泳速度的小型或更小野兽交流简易的想法。"
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"ENG_name": "Shadar-kai",
+			"name": "影灵",
+			"source": "UAElfSubraces",
+			"raceName": "精灵",
+			"raceSource": "PHB",
+			"page": 2,
+			"reprintedAs": [
+				"精灵 (影灵)|MTF"
+			],
+			"ability": [
+				{
+					"cha": 1
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"elvish": true,
+					"anyStandard": 1
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "cha",
+					"known": {
+						"1": [
+							"颤栗之触#c"
+						]
+					}
+				},
+				{
+					"ability": "cha",
+					"known": {
+						"1": [
+							"维生术#c"
+						]
+					}
+				},
+				{
+					"ability": "cha",
+					"known": {
+						"1": [
+							"奇术#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"ENG_name": "Languages",
+					"name": "语言",
+					"entries": [
+						"你可以说、读和写通用语、精灵语和一门你选择的额外语言。精灵语流畅，带有精妙的语调和复杂的语法。精灵文学丰富多样，他们的歌曲和诗歌在其他种族中享有盛名。许多吟游诗人学习他们的语言，以便能将精灵民谣添加到他们的曲目中。"
+					],
+					"data": {
+						"overwrite": "语言"
+					},
+					"type": "entries"
+				},
+				{
+					"ENG_name": "Cantrip",
+					"name": "戏法",
+					"entries": [
+						"你从下列戏法中选择一个习得：{@spell 颤栗之触}、{@spell 维生术}或{@spell 奇术}。魅力是你的施法属性。"
+					],
+					"type": "entries"
+				},
+				{
+					"ENG_name": "Blessing of the Raven Queen",
+					"name": "鸦后祝福",
+					"entries": [
+						"作为附赠动作，你可以魔法传送至多15尺到一个你能看见的未占据空间，且你获得对所有伤害的抗性直到你的下个回合开始。在那段时间内，你呈现幽体半透明状态。一旦你使用此属性，直到你完成一次短休或长休前都无法再次使用。"
+					],
+					"type": "entries"
+				}
+			],
+			"overwrite": {
+				"languageProficiencies": true
+			}
+		}
+	]
+}

@@ -1,0 +1,350 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UARanger",
+				"abbreviation": "UAR",
+				"full": "破解奥秘：游侠",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2015/downloads/dnd/DX_0907_UA_RangerOptions.pdf",
+				"dateReleased": "2015-09-09"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1729637619,
+		"_dateLastModifiedHash": "6025781726"
+	},
+	"class": [
+		{
+			"ENG_name": "Ranger (Ambuscade)",
+			"name": "游侠（伏击）",
+			"source": "UARanger",
+			"page": 2,
+			"hd": {
+				"number": 2,
+				"faces": 6
+			},
+			"proficiency": [
+				"dex",
+				"wis"
+			],
+			"optionalfeatureProgression": [
+				{
+					"ENG_name": "Fighting Style",
+					"name": "战斗风格",
+					"featureType": [
+						"FS:R"
+					],
+					"progression": {
+						"2": 1
+					}
+				}
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"shield"
+				],
+				"weapons": [
+					"简易",
+					"军用"
+				],
+				"tools": [
+					"{@item 草药工具|PHB}"
+				],
+				"toolProficiencies": [
+					{
+						"herbalism kit": true
+					}
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"animal handling",
+								"athletics",
+								"insight",
+								"investigation",
+								"nature",
+								"perception",
+								"stealth",
+								"survival"
+							],
+							"count": 3
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"{@item 皮甲|PHB}",
+					"(a) 两把{@item 短剑|PHB|短剑}或 (b) 两把{@filter 军用近战武器|items|source=phb|category=基础|type=军用武器;近战武器=u~u~sand}或 (c) 一把{@filter 军用武器|items|source=phb|category=基础|type=军用武器}和一面{@item 盾牌|PHB}",
+					"(a) 一个{@item 地城套组|PHB}或(b) 一个{@item 探索套组|PHB}",
+					"(a) 一把{@item 长弓|PHB}和一个{@item 箭袋|PHB}的{@item 箭矢 (20)|PHB|20支箭}或 (b) 一把{@filter 军用武器|items|source=phb|category=基础|type=军用武器}"
+				],
+				"defaultData": [
+					{
+						"_": [
+							"皮甲|PHB"
+						]
+					},
+					{
+						"a": [
+							{
+								"item": "短剑|PHB",
+								"quantity": 2
+							}
+						],
+						"b": [
+							{
+								"equipmentType": "军用近战武器",
+								"quantity": 2
+							}
+						],
+						"c": [
+							{
+								"equipmentType": "军用武器"
+							},
+							"盾牌|PHB"
+						]
+					},
+					{
+						"a": [
+							"地城套组|PHB"
+						],
+						"b": [
+							"探索套组|PHB"
+						]
+					},
+					{
+						"a": [
+							"长弓|PHB",
+							"箭矢 (20)|PHB"
+						],
+						"b": [
+							{
+								"equipmentType": "军用武器"
+							}
+						]
+					}
+				]
+			},
+			"classFeatures": [
+				"伏击|游侠（伏击）|UARanger|1",
+				"自然探索者|游侠||1",
+				"战斗风格|游侠||2",
+				"散兵的隐匿|游侠（伏击）|UARanger|2",
+				"原初意识|游侠||3",
+				{
+					"classFeature": "精魄路途|游侠（伏击）|UARanger|3",
+					"gainSubclassFeature": true
+				},
+				"属性值提升|游侠||4",
+				"额外攻击|游侠||5"
+			],
+			"subclassTitle": "游侠路途"
+		}
+	],
+	"subclass": [
+		{
+			"ENG_name": "Guardian",
+			"name": "守护者",
+			"shortName": "守护者",
+			"source": "UARanger",
+			"className": "游侠（伏击）",
+			"classSource": "UARanger",
+			"page": 3,
+			"subclassFeatures": [
+				"守护者|游侠（伏击）|UARanger|守护者|UARanger|3"
+			]
+		},
+		{
+			"ENG_name": "Seeker",
+			"name": "寻者",
+			"shortName": "寻者",
+			"source": "UARanger",
+			"className": "游侠（伏击）",
+			"classSource": "UARanger",
+			"page": 4,
+			"subclassFeatures": [
+				"寻者|游侠（伏击）|UARanger|寻者|UARanger|3"
+			]
+		},
+		{
+			"ENG_name": "Stalker",
+			"name": "潜行者",
+			"shortName": "潜行者",
+			"source": "UARanger",
+			"className": "游侠（伏击）",
+			"classSource": "UARanger",
+			"page": 4,
+			"subclassFeatures": [
+				"潜行者|游侠（伏击）|UARanger|潜行者|UARanger|3"
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"ENG_name": "Ambuscade",
+			"name": "伏击",
+			"source": "UARanger",
+			"page": 2,
+			"className": "游侠（伏击）",
+			"classSource": "UARanger",
+			"level": 1,
+			"entries": [
+				"游侠先发制人且攻势凌厉。当你掷先攻时，你会获得一个特殊回合，在其他生物行动之前进行。在此回合中，你可以使用你的动作来执行{@action 攻击}或{@action 躲藏}动作。",
+				"如果遭遇中有多个生物拥有此特性，他们所有生物将按先攻顺序首先行动，然后常规先攻序列开始。",
+				"如果你在遭遇开始时通常会被{@quickref 突袭|PHB|3|0|突袭}，则你不会被{@quickref 突袭|PHB|3|0|突袭}，但也不会获得这个额外回合。"
+			]
+		},
+		{
+			"ENG_name": "Skirmisher's Stealth",
+			"name": "散兵的隐匿",
+			"source": "UARanger",
+			"page": 2,
+			"className": "游侠（伏击）",
+			"classSource": "UARanger",
+			"level": 2,
+			"entries": [
+				"从2级开始，你在战斗中结合速度与隐匿，使自己难以被锁定。即使你发动攻击或采取通常会暴露你存在的动作，你也难以被侦查到。",
+				"在你的回合开始时，选择一个你对其处于躲藏状态的生物。在你的回合期间，无论你或其他生物的动作如何，你对该生物保持躲藏状态。在你的回合结束时，你可以用一个附赠动作进行一次敏捷（{@skill 隐匿}）检定以重新躲藏，前提是你满足躲藏所需的条件。否则，在你的回合结束时，生物将察觉到你的存在。"
+			]
+		},
+		{
+			"ENG_name": "Spirit Path",
+			"name": "精魄路途",
+			"source": "UARanger",
+			"page": 2,
+			"className": "游侠（伏击）",
+			"classSource": "UARanger",
+			"level": 3,
+			"entries": [
+				"在3级时，你与一个自然精魄形成牵挂\u2014\u2014一个由你与狂野魔法的联系锻造而成的同伴。这个精魄同伴在你旅行时保护你并在战斗中监视你的背后。你选择一个塑造你精魄同伴及其魔法的游侠路途：守护者、寻者或潜行者。你的选择在3级、7级、11级和15级时赋予你特性。",
+				{
+					"ENG_name": "Spirit Companion",
+					"name": "精魄同伴",
+					"type": "entries",
+					"entries": [
+						"所有游侠获得一个精魄同伴且能调用其法力。（在此修订版游侠的测试版本中，你的精魄同伴授予你一个可调用的增益，随着等级提升将获得更多增益。）当你完成一次短休或长休时，将恢复以此方式调用精魄同伴的能力。",
+						"每日一次以一个附赠动作，你可以命令你的精魄同伴以活体生物的形式具现化，具体形态由你选择的游侠路途决定。你的精魄同伴以动物形态显现1分钟或直到你的{@status 专注}被打断（如同你正{@status 专注||专注于}一个法术）。你也可以用一个附赠动作解散它。",
+						"显化的生物在攻击检定和豁免检定上获得等同于你感知调整值的加值。它使用动物资料卡中的生命值或你生命值上限的一半，以较高者为准。",
+						"显现的生物在你的先攻回合行动，并立即在你之后行动。你控制它的动作，即使你处于{@condition 昏迷}状态或以其他方式无法行动。"
+					]
+				}
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"ENG_name": "Guardian",
+			"name": "守护者",
+			"source": "UARanger",
+			"page": 3,
+			"className": "游侠（伏击）",
+			"classSource": "UARanger",
+			"subclassShortName": "守护者",
+			"subclassSource": "UARanger",
+			"level": 3,
+			"entries": [
+				"通过遵循守护者的路途，你保护自然世界免受那些会掠夺它的生物侵扰，同时与依赖自然恩赐生存的普通民众互动。你巡逻荒野中的小径，确保它们不被强盗和肆虐的怪物侵扰，同时密切关注文明领域与野外的互动。那些索取超过其应得份额的人\u2014\u2014如滥伐森林或为娱乐而非生存而狩猎\u2014\u2014将面临你的愤怒。",
+				"当你的精魄同伴显现时，它会以{@creature 棕熊}的形态出现。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "守护者的环绕|游侠（伏击）|UARanger|守护者|UARanger|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Guardian's Shroud",
+			"name": "守护者的环绕",
+			"source": "UARanger",
+			"page": 3,
+			"className": "游侠（伏击）",
+			"classSource": "UARanger",
+			"subclassShortName": "守护者",
+			"subclassSource": "UARanger",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"你的精魄同伴帮助保护你和离你最近的生物。以一个附赠动作，你召唤你的精魄同伴并选择你自己或一个你能看见的盟友。该选民生物获得等于{@dice 2d6} + 你的感知调整值的临时生命值。"
+			]
+		},
+		{
+			"ENG_name": "Seeker",
+			"name": "寻者",
+			"source": "UARanger",
+			"page": 4,
+			"className": "游侠（伏击）",
+			"classSource": "UARanger",
+			"subclassShortName": "寻者",
+			"subclassSource": "UARanger",
+			"level": 3,
+			"entries": [
+				"通过踏上寻者之路，你被吸引到远离文明的未知荒野中，寻找失落的宝藏、被遗忘的邪恶以及原始魔法的地点。你明白无迹可寻的野外可能藏有许多秘密。其中一些秘密\u2014\u2014比如为荒漠国度提供饮水的孤独绿洲\u2014\u2014必须被保护。另一些\u2014\u2014比如灌注了制造它的恶魔崇拜者污秽魔法的远古神像\u2014\u2014必须在它们的邪恶再次苏醒前被摧毁。",
+				"当你的精魄同伴显现时，它会以{@creature 巨鹰}的形态出现。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "寻者之眼|游侠（伏击）|UARanger|寻者|UARanger|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Seeker's Eye",
+			"name": "寻者之眼",
+			"source": "UARanger",
+			"page": 4,
+			"className": "游侠（伏击）",
+			"classSource": "UARanger",
+			"subclassShortName": "寻者",
+			"subclassSource": "UARanger",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"你的精魄同伴将其敏锐的战斗感官借予你和你的同伴。以一个附赠动作，你召唤你的精魄同伴并选择一个你能看见的生物。直到你的下个回合结束，所有对该选民生物的攻击具有优势。"
+			]
+		},
+		{
+			"ENG_name": "Stalker",
+			"name": "潜行者",
+			"source": "UARanger",
+			"page": 4,
+			"className": "游侠（伏击）",
+			"classSource": "UARanger",
+			"subclassShortName": "潜行者",
+			"subclassSource": "UARanger",
+			"level": 3,
+			"entries": [
+				"作为一名潜行者路途的游侠，你在野外潜步搜寻异怪、邪魔和其他必须被消灭的怪物，以免它们对自然世界造成破坏。你是自然复仇之力的化身，任何对自然构成威胁的东西都是你的目标。当像龙这样的强大生物威胁一个区域时，潜行者路途的游侠会领导搜寻行动将其消灭。和其他同类型的人一样，你不会休息，直到你的猎物死亡且自然世界安全为止。",
+				"当你的精魄同伴显现时，它会以一只{@creature 恐狼}的形态出现。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "潜行者之牙|游侠（伏击）|UARanger|潜行者|UARanger|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Stalker's Fangs",
+			"name": "潜行者之牙",
+			"source": "UARanger",
+			"page": 4,
+			"className": "游侠（伏击）",
+			"classSource": "UARanger",
+			"subclassShortName": "潜行者",
+			"subclassSource": "UARanger",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"你的精魄同伴将其致命啃咬的力量借给你或你的一个同伴。以一个附赠动作，你召唤你的精魄同伴并选择你自己或一个你能看见的生物。选民生物下一次以武器攻击命中时，攻击的目标将额外受到等于{@dice 2d6} + 你的感知调整值的挥砍伤害。"
+			]
+		}
+	]
+}

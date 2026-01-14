@@ -1,0 +1,653 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAClericDivineDomains",
+				"abbreviation": "UACDD",
+				"full": "破解奥秘：牧师：神圣领域",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2016/dnd/downloads/UA_Cleric.pdf",
+				"dateReleased": "2016-11-12"
+			}
+		],
+		"dependencies": {
+			"subclassFeature": [
+				"UAClassFeatureVariants"
+			]
+		},
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1729637619,
+		"_dateLastModifiedHash": "b2ae703123"
+	},
+	"subclass": [
+		{
+			"ENG_name": "Forge Domain (UA)",
+			"name": "锻造领域（UA）",
+			"shortName": "锻造（UA）",
+			"source": "UAClericDivineDomains",
+			"className": "牧师",
+			"classSource": "PHB",
+			"page": 1,
+			"isReprinted": true,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"炽焰斩",
+							"护盾术"
+						],
+						"3": [
+							"灼热金属",
+							"魔化武器"
+						],
+						"5": [
+							"元素武器",
+							"防护能量"
+						],
+						"7": [
+							"鬼斧神工",
+							"火墙术"
+						],
+						"9": [
+							"活化物件",
+							"造物术"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"锻造领域（UA）|牧师||锻造（UA）|UAClericDivineDomains|1",
+				"引导神力：铁匠祝福|牧师||锻造（UA）|UAClericDivineDomains|2",
+				"锻造之魂|牧师||锻造（UA）|UAClericDivineDomains|6",
+				"神圣打击|牧师||锻造（UA）|UAClericDivineDomains|8",
+				"受祝击|牧师||锻造（UA）|UAClericDivineDomains|8|UAClassFeatureVariants",
+				"锻炉与烈焰的圣徒|牧师||锻造（UA）|UAClericDivineDomains|17"
+			]
+		},
+		{
+			"ENG_name": "Grave Domain (UA)",
+			"name": "坟墓领域（UA）",
+			"shortName": "坟墓 (UA)",
+			"source": "UAClericDivineDomains",
+			"className": "牧师",
+			"classSource": "PHB",
+			"page": 2,
+			"isReprinted": true,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"灾祸术",
+							"虚假生命"
+						],
+						"3": [
+							"遗体防腐",
+							"衰弱射线"
+						],
+						"5": [
+							"回生术",
+							"吸血鬼之触"
+						],
+						"7": [
+							"枯萎术",
+							"防死结界"
+						],
+						"9": [
+							"防活物护罩",
+							"死者复活"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"坟墓领域（UA）|牧师||坟墓 (UA)|UAClericDivineDomains|1",
+				"引导神力：往墓之途|牧师||坟墓 (UA)|UAClericDivineDomains|2",
+				"死之门的哨卫|牧师||坟墓 (UA)|UAClericDivineDomains|6",
+				"神圣打击|牧师||坟墓 (UA)|UAClericDivineDomains|8",
+				"受祝击|牧师||坟墓 (UA)|UAClericDivineDomains|8|UAClassFeatureVariants",
+				"引魂明灯|牧师||坟墓 (UA)|UAClericDivineDomains|17"
+			]
+		},
+		{
+			"ENG_name": "Protection Domain (UA)",
+			"name": "守护领域 (UA)",
+			"shortName": "守护 (UA)",
+			"source": "UAClericDivineDomains",
+			"className": "牧师",
+			"classSource": "PHB",
+			"page": 3,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"强令对决",
+							"防护善恶"
+						],
+						"3": [
+							"援助术",
+							"防护毒素"
+						],
+						"5": [
+							"防护能量",
+							"缓慢术"
+						],
+						"7": [
+							"信仰守卫",
+							"欧提路克弹力法球"
+						],
+						"9": [
+							"防活物护罩",
+							"力场墙"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"守护领域 (UA)|牧师||守护 (UA)|UAClericDivineDomains|1",
+				"引导神力：光耀防御|牧师||守护 (UA)|UAClericDivineDomains|2",
+				"神佑医者|牧师||守护 (UA)|UAClericDivineDomains|6",
+				"神圣打击|牧师||守护 (UA)|UAClericDivineDomains|8",
+				"受祝击|牧师||守护 (UA)|UAClericDivineDomains|8|UAClassFeatureVariants",
+				"不屈防御|牧师||守护 (UA)|UAClericDivineDomains|17"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"ENG_name": "Forge Domain (UA)",
+			"name": "锻造领域（UA）",
+			"source": "UAClericDivineDomains",
+			"page": 1,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "锻造（UA）",
+			"subclassSource": "UAClericDivineDomains",
+			"level": 1,
+			"entries": [
+				"锻造领域的诸神是工匠们的赞助人，他们与金属打交道，从为村庄打造马蹄铁和犁刃的卑微铁匠，到用秘银制成的钻石箭头射杀恶魔领主的强大精灵工匠。锻造之神教导人们，只要有耐心和辛勤工作，即使是最难处理的金属也能从一块矿石变成精美的物件。这些神祇的牧师们会执行任务，寻找被黑暗力量吞噬的物件，解放被兽人强占的矿区，并发现创造强大魔法物品所需的珍稀材料。这些神的追随者对自己的工作感到非常自豪，他们愿意制造并使用重甲和强力武器来保护它们。此领域的神祇包括{@deity 贡德}、{@deity 李奥克斯|龙枪}、{@deity 昂纳塔|艾伯伦}、{@deity 摩拉丁|非人类}、{@deity 赫斐斯托斯|希腊}和{@deity 戈伊布尼乌|凯尔特}。",
+				"在每个指定的牧师等级，你可以将下表所述法术添加到你的准备法术中。",
+				{
+					"type": "table",
+					"caption": "锻造领域法术",
+					"colLabels": [
+						"牧师等级",
+						"法术"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell 炽焰斩}, {@spell 护盾术}"
+						],
+						[
+							"3rd",
+							"{@spell 灼热金属}, {@spell 魔化武器}"
+						],
+						[
+							"5th",
+							"{@spell 元素武器}, {@spell 防护能量}"
+						],
+						[
+							"7th",
+							"{@spell 鬼斧神工}, {@spell 火墙术}"
+						],
+						[
+							"9th",
+							"{@spell 活化物件}, {@spell 造物术}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "附赠熟练项|牧师||锻造（UA）|UAClericDivineDomains|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "锻造祝福|牧师||锻造（UA）|UAClericDivineDomains|1"
+				}
+			]
+		},
+		{
+			"ENG_name": "Blessing of the Forge",
+			"name": "锻造祝福",
+			"source": "UAClericDivineDomains",
+			"page": 1,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "锻造（UA）",
+			"subclassSource": "UAClericDivineDomains",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"在1级时，你获得将魔法注入武器或护甲的能力。在一次长休结束时，接触一件非魔法的盔甲套装或{@filter 简易或军用武器|items|source=phb|category=基础|type=军用武器;简易武器}。直到你下一次长休结束前，该物件变为魔法物品，若为护甲则AC获得+1加值，若为武器则攻击和伤害掷骰获得+1加值。",
+				"必须完成一次长休才能再次使用该特性。"
+			]
+		},
+		{
+			"ENG_name": "Bonus Proficiency",
+			"name": "附赠熟练项",
+			"source": "UAClericDivineDomains",
+			"page": 1,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "锻造（UA）",
+			"subclassSource": "UAClericDivineDomains",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"在第1级选择该领域时，你获得重甲的熟练项。"
+			]
+		},
+		{
+			"ENG_name": "Channel Divinity: Artisan's Blessing",
+			"name": "引导神力：铁匠祝福",
+			"source": "UAClericDivineDomains",
+			"page": 1,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "锻造（UA）",
+			"subclassSource": "UAClericDivineDomains",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"ENG_name": "Channel Divinity",
+				"name": "引导神力"
+			},
+			"entries": [
+				"从2级开始，你可以用你的引导神力来创造出简易的物品。",
+				"从短休开始时，你向你的神进行一个仪式，该仪式赋予你制造至少部分由金属制成的成品物品的能力。物品在休息结束时完成。",
+				"该物件的价值不得超过100GP，且作为仪式的一部分，你必须消耗金属，例如钱币或其他成品物品，其价值需等同于你想要制作的物品。该物品可以是非魔法物品的精确复制品，例如钥匙的副本，前提是你在短休期间拥有原件。"
+			]
+		},
+		{
+			"ENG_name": "Soul of the Forge",
+			"name": "锻造之魂",
+			"source": "UAClericDivineDomains",
+			"page": 1,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "锻造（UA）",
+			"subclassSource": "UAClericDivineDomains",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"从6级开始，你对锻造的精通赋予你一些特殊能力：",
+				{
+					"type": "list",
+					"items": [
+						"当你穿着中等或重甲时，你获得+1的AC加值。",
+						"你获得火焰伤害的抗性。",
+						"当你用攻击命中一个构装体时，你对其造成等同于你牧师等级的额外力场伤害。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Divine Strike",
+			"name": "神圣打击",
+			"source": "UAClericDivineDomains",
+			"page": 1,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "锻造（UA）",
+			"subclassSource": "UAClericDivineDomains",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"第8级起，你拥有将你锻造的火热力量灌输到武器打击中的能力。每个你自己的回合一次，当你的武器攻击命中，你可以对目标额外造成{@damage 1d8}的火焰伤害。14级时，该伤害将提升至{@dice 2d8}。"
+			]
+		},
+		{
+			"ENG_name": "Saint of Forge and Fire",
+			"name": "锻炉与烈焰的圣徒",
+			"source": "UAClericDivineDomains",
+			"page": 1,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "锻造（UA）",
+			"subclassSource": "UAClericDivineDomains",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"在17级时，你对火焰和金属的亲和力因神的祝福而变得更加强大。你获得对火焰伤害的免疫，且当你穿着重甲时，你对来自非魔法攻击的钝击、穿刺和挥砍伤害具有抗性。"
+			]
+		},
+		{
+			"ENG_name": "Grave Domain (UA)",
+			"name": "坟墓领域（UA）",
+			"source": "UAClericDivineDomains",
+			"page": 2,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "坟墓 (UA)",
+			"subclassSource": "UAClericDivineDomains",
+			"level": 1,
+			"entries": [
+				"坟墓之神守卫着生死之间的界限。对这些神来说，死亡和死后归宿是多元宇宙运作的基础部分。抗拒死亡或亵渎亡者的安息是一种亵渎行为。坟墓之神包括{@deity 凯兰沃}、{@deity 维婕丝|灰鹰}、{@deity 不朽王庭|艾伯伦}的祖灵、{@deity 哈迪斯|希腊}、{@deity 阿努比斯|埃及}和{@deity 奥西里斯|埃及}。这些神教导他们的追随者尊重死者并向其致以应有的敬意。这些神的追随者寻求让不安的精魂安息，消灭他们发现的任何死灵宗主，并减轻垂死生物的苦难。他们的魔法也允许他们延缓生物的死亡，尽管他们拒绝使用这种魔法来延长生物超越其凡人寿命极限的生命。",
+				"在每个指定的牧师等级，你可以将下表所述法术添加到你的准备法术中。",
+				{
+					"type": "table",
+					"caption": "坟墓领域法术",
+					"colLabels": [
+						"牧师等级",
+						"法术"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell 灾祸术}, {@spell 虚假生命}"
+						],
+						[
+							"3rd",
+							"{@spell 遗体防腐}, {@spell 衰弱射线}"
+						],
+						[
+							"5th",
+							"{@spell 回生术}, {@spell 吸血鬼之触}"
+						],
+						[
+							"7th",
+							"{@spell 枯萎术}, {@spell 防死结界}"
+						],
+						[
+							"9th",
+							"{@spell 防活物护罩}, {@spell 死者复活}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "附赠熟练项|牧师||坟墓 (UA)|UAClericDivineDomains|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "生死轮回|牧师||坟墓 (UA)|UAClericDivineDomains|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "坟墓之眼|牧师||坟墓 (UA)|UAClericDivineDomains|1"
+				}
+			]
+		},
+		{
+			"ENG_name": "Bonus Proficiency",
+			"name": "附赠熟练项",
+			"source": "UAClericDivineDomains",
+			"page": 2,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "坟墓 (UA)",
+			"subclassSource": "UAClericDivineDomains",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"在第1级选择该领域时，你获得重甲的熟练项。"
+			]
+		},
+		{
+			"ENG_name": "Circle of Mortality",
+			"name": "生死轮回",
+			"source": "UAClericDivineDomains",
+			"page": 2,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "坟墓 (UA)",
+			"subclassSource": "UAClericDivineDomains",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"在1环时，你获得操纵生死轮回的能力。当你对一个当前生命值为0的活体生物施放恢复生命值的法术时，将决定该法术治疗量的所有骰子视为掷出了最大值。此外，如果你拥有{@spell 维生术}戏法，你可以以一个附赠动作施放它。"
+			]
+		},
+		{
+			"ENG_name": "Eyes of the Grave",
+			"name": "坟墓之眼",
+			"source": "UAClericDivineDomains",
+			"page": 2,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "坟墓 (UA)",
+			"subclassSource": "UAClericDivineDomains",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"从1环开始，你获得对那些存在亵渎生命自然循环的生物的先天感知。如果你花费1分钟进行不间断的沉思，可以侦测区域内亡灵生物的存在与性质。此侦测范围向所有方向延伸至1英里。你将知晓亡灵的数量、距离以及它们相对于你的方位。此外，你还能知晓该区域内具有最高挑战等级的亡灵生物类型。",
+				"必须完成一次长休才能再次使用该特性。"
+			]
+		},
+		{
+			"ENG_name": "Channel Divinity: Path to the Grave",
+			"name": "引导神力：往墓之途",
+			"source": "UAClericDivineDomains",
+			"page": 2,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "坟墓 (UA)",
+			"subclassSource": "UAClericDivineDomains",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"ENG_name": "Channel Divinity",
+				"name": "引导神力"
+			},
+			"entries": [
+				"从你2级开始，你可以使用你的引导神力来标记敌人，让他们的生命力走向衰亡。",
+				"作为一个动作，你接触一个生物。下一次该生物受到来自你或盟友的法术或攻击的伤害时，它对该法术或攻击的伤害具有易伤。如果伤害来源具有多种伤害类型，则该生物对所有伤害类型都具有易伤。该易伤仅适用于该来源第一次造成的伤害，然后结束。",
+				"如果该生物具有伤害抗性或免疫，当伤害首次生效时，它将失去对该法术或攻击的抗性或免疫。"
+			]
+		},
+		{
+			"ENG_name": "Sentinel at Death's Door",
+			"name": "死之门的哨卫",
+			"source": "UAClericDivineDomains",
+			"page": 2,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "坟墓 (UA)",
+			"subclassSource": "UAClericDivineDomains",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"从6级开始，你获得阻碍死亡进程的能力。当你或30尺内一个你能看见的盟友遭受重击时，你可以用一个反应将该攻击转为正常命中。任何由重击触发的效应都会被取消。",
+				"你必须完成一次长休或短休后才能再次使用该特性。"
+			]
+		},
+		{
+			"ENG_name": "Divine Strike",
+			"name": "神圣打击",
+			"source": "UAClericDivineDomains",
+			"page": 2,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "坟墓 (UA)",
+			"subclassSource": "UAClericDivineDomains",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"在8级时，你获得将神圣能量注入武器攻击的能力。在你的每个回合中，当你用武器攻击命中一个生物时，你可以使该攻击造成额外的{@damage 1d8}暗蚀伤害。当你达到14级时，额外伤害增加到{@dice 2d8}。"
+			]
+		},
+		{
+			"ENG_name": "Keeper of Souls",
+			"name": "引魂明灯",
+			"source": "UAClericDivineDomains",
+			"page": 2,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "坟墓 (UA)",
+			"subclassSource": "UAClericDivineDomains",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"在17级时，你获得操纵生死边界的能力。当一个你能看见的敌人在你30尺内死亡时，你或你选择的一个30尺内的盟友恢复等同于该敌人生命骰数值的生命值。只要你没有处于{@condition 失能}状态，就可以使用此特性，但每轮不超过一次。"
+			]
+		},
+		{
+			"ENG_name": "Protection Domain (UA)",
+			"name": "守护领域 (UA)",
+			"source": "UAClericDivineDomains",
+			"page": 3,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "守护 (UA)",
+			"subclassSource": "UAClericDivineDomains",
+			"level": 1,
+			"entries": [
+				"守护领域是那些命令其追随者保护弱者免受强者侵害的神祇的管辖范围。诸神的信徒居住在边陲之地的村庄和城镇中，在那里他们协助鼓舞防御设施并寻找邪恶予以击败。这些神祇认为坚固的护盾和盔甲套装是对抗邪恶的最佳防御，仅次于随时可用敦实的硬头锤以和善的方式回应任何攻击。授予此领域的神祇包括{@deity 海姆}、{@deity 伊尔梅特}、{@deity 托姆}、{@deity 提尔}、{@deity 海若尼斯|灰鹰}、{@deity 圣库斯伯特.|灰鹰}、{@deity 帕拉丁|龙枪}、{@deity 杜·顿恩|艾伯伦}、{@deity 银焰|艾伯伦}、{@deity 巴哈姆特|非人类}、{@deity 悠妲拉|非人类}、{@deity 雅典娜|希腊}以及{@deity 奥丁|北欧}。",
+				"在每个指定的牧师等级，你可以将下表所述法术添加到你的准备法术中。",
+				{
+					"type": "table",
+					"caption": "守护领域法术",
+					"colLabels": [
+						"牧师等级",
+						"法术"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell 强令对决}, {@spell 防护善恶}"
+						],
+						[
+							"3rd",
+							"{@spell 援助术}, {@spell 防护毒素}"
+						],
+						[
+							"5th",
+							"{@spell 防护能量}, {@spell 缓慢术}"
+						],
+						[
+							"7th",
+							"{@spell 信仰守卫}, {@spell 欧提路克弹力法球}"
+						],
+						[
+							"9th",
+							"{@spell 防活物护罩}, {@spell 力场墙}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "附赠熟练项|牧师||守护 (UA)|UAClericDivineDomains|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "信仰之盾|牧师||守护 (UA)|UAClericDivineDomains|1"
+				}
+			]
+		},
+		{
+			"ENG_name": "Bonus Proficiency",
+			"name": "附赠熟练项",
+			"source": "UAClericDivineDomains",
+			"page": 3,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "守护 (UA)",
+			"subclassSource": "UAClericDivineDomains",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"在第1级选择该领域时，你获得重甲的熟练项。"
+			]
+		},
+		{
+			"ENG_name": "Shield of the Faithful",
+			"name": "信仰之盾",
+			"source": "UAClericDivineDomains",
+			"page": 3,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "守护 (UA)",
+			"subclassSource": "UAClericDivineDomains",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"从1级开始，你获得阻碍针对他人攻击的能力。当一个生物攻击5尺内除你以外的目标时，你可以使用反应使该攻击检定具有劣势。为此，你必须能同时看见攻击手和目标。你可以化形出一条手臂、一面护盾或自身的其他部分来尝试使攻击偏离地点。"
+			]
+		},
+		{
+			"ENG_name": "Channel Divinity: Radiant Defense",
+			"name": "引导神力：光耀防御",
+			"source": "UAClericDivineDomains",
+			"page": 3,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "守护 (UA)",
+			"subclassSource": "UAClericDivineDomains",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"ENG_name": "Channel Divinity",
+				"name": "引导神力"
+			},
+			"entries": [
+				"从2级开始，你可以使用引导神力为你的盟友披上光耀护甲。",
+				"作为一个动作，你将受祝福的能量引导至30尺内一个你能看见的盟友。该盟友在接下来1分钟内首次被攻击命中时，攻击手将受到等于{@dice 2d10}加你牧师等级的光耀伤害。"
+			]
+		},
+		{
+			"ENG_name": "Blessed Healer",
+			"name": "神佑医者",
+			"source": "UAClericDivineDomains",
+			"page": 3,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "守护 (UA)",
+			"subclassSource": "UAClericDivineDomains",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"从6级开始，你对其他生物施放的治疗法术也能治疗你自己。当你用一个法术位施放法术且它在当前回合内为其他生物恢复生命值时，你恢复等同于2+法术等级的生命值。"
+			]
+		},
+		{
+			"ENG_name": "Divine Strike",
+			"name": "神圣打击",
+			"source": "UAClericDivineDomains",
+			"page": 3,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "守护 (UA)",
+			"subclassSource": "UAClericDivineDomains",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"第8级起，你可以使你的武器充满神圣能量。你在每个自己回合里有一次机会，可以在用武器攻击命中某生物时，使该攻击额外造成{@damage 1d8}的光耀伤害。14级时，该伤害提升到{@damage 2d8}。"
+			]
+		},
+		{
+			"ENG_name": "Indomitable Defense",
+			"name": "不屈防御",
+			"source": "UAClericDivineDomains",
+			"page": 3,
+			"className": "牧师",
+			"classSource": "PHB",
+			"subclassShortName": "守护 (UA)",
+			"subclassSource": "UAClericDivineDomains",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"在17级时，你获得两种自选伤害类型的抗性，可从钝击、暗蚀、穿刺、光耀和挥砍中选择。每当你完成一次短休或长休时，可以更换已选的伤害类型。",
+				"作为一个动作，你可以暂时放弃这个抗性并将其转移给你接触的一个生物。该生物保持这个抗性直到你的下一个短休或长休结束，或者直到你用一个附赠动作将其转移回自己。"
+			]
+		}
+	]
+}

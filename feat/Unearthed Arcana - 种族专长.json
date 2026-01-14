@@ -1,0 +1,952 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAFeatsForRaces",
+				"abbreviation": "UAFFR",
+				"full": "破解奥秘：种族专长",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2017/dnd/downloads/RJSJC2017_04UASkillFeats_24v10.pdf",
+				"dateReleased": "2017-04-24"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1729637619,
+		"_dateLastModifiedHash": "ad3322feb5"
+	},
+	"feat": [
+		{
+			"ENG_name": "Barbed Hide",
+			"name": "猬皮",
+			"source": "UAFeatsForRaces",
+			"page": 1,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"ENG_name": "tiefling",
+							"name": "提夫林"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"intimidation": true
+				}
+			],
+			"entries": [
+				"你的一个祖先是猬魔或其他带刺的邪魔。你的头部会突出棘刺。你获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"以一个附赠动作，你可以让小型棘刺遍布你的身体或让它们缩壳。在你的每个回合开始时，当棘刺外露时，你对任何擒抱你的生物或任何被你{@condition 受擒}的生物造成{@damage 1d6}穿刺伤害。",
+						"你获得{@skill 威吓}技能的熟练。如果你已经熟练该技能，你在使用该技能进行检定时添加双倍的熟练加值。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Bountiful Luck",
+			"name": "慷慨吉运",
+			"source": "UAFeatsForRaces",
+			"page": 1,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"ENG_name": "halfling",
+							"name": "半身人"
+						}
+					]
+				}
+			],
+			"entries": [
+				"每当你30尺内一个你能看见的盟友在攻击检定、属性检定或豁免检定中掷出{@dice d20}的1时，你可以使用你的反应让该盟友重掷骰子。该盟友必须使用新的掷骰结果。"
+			]
+		},
+		{
+			"ENG_name": "Critter Friend",
+			"name": "友谊之兽",
+			"source": "UAFeatsForRaces",
+			"page": 1,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"ENG_name": "gnome",
+							"name": "侏儒",
+							"subrace": "森林"
+						}
+					]
+				}
+			],
+			"skillProficiencies": [
+				{
+					"animal handling": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "int",
+					"innate": {
+						"_": {
+							"will": [
+								"动物交谈"
+							],
+							"daily": {
+								"1": [
+									"化兽为友"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"你与动物的友谊神秘地加深了。你获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你获得{@skill 驯兽}技能的熟练。如果你已经熟练该技能，你在使用该技能进行检定时可以添加双倍的熟练加值。",
+						"你习得法术{@spell 动物交谈}且能随意施放，无需消耗法术位。你还习得法术{@spell 化兽为友}，并能通过此专长施放一次，无需消耗法术位。完成一次长休后，你重获以此方式施放该法术的能力。智力是你施放这些法术的施法属性。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Dragon Fear",
+			"name": "龙之威怖",
+			"source": "UAFeatsForRaces",
+			"page": 2,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"ENG_name": "dragonborn",
+							"name": "龙裔"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"气愤之时，你能展露威慑之力。你获得下列增益：",
+				{
+					"type": "list",
+					"items": [
+						"你可以选择不喷吐毁灭能量，而是咆哮并消耗一次吐息武器使用次数，迫使30尺内你选择的每个生物进行一次感知豁免检定（DC=8+你的熟练加值+你的魅力调整值）。若目标听不见或看不见你则自动成功。豁免失败时，目标陷入{@condition 恐慌}状态1分钟。若该{@condition 恐慌}目标受到任何伤害，可重复进行豁免检定，成功时终止自身效应。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Dragon Hide",
+			"name": "龙之鳞爪",
+			"source": "UAFeatsForRaces",
+			"page": 2,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"ENG_name": "dragonborn",
+							"name": "龙裔"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你继承了龙族祖先的力量与威严。你获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你的指尖长出可伸缩的爪子。伸出或收回爪子不需要动作。这些爪子是天生的武器，你可以用来进行徒手打击。如果你用它们命中，你将造成等于{@dice 1d4} + 你的力量调整值的挥砍伤害，而不是徒手打击通常造成的钝击伤害。",
+						"你的鳞片硬化；当你不穿护甲时，AC获得+1加值。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Dragon Wings",
+			"name": "龙翼",
+			"source": "UAFeatsForRaces",
+			"page": 2,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"ENG_name": "dragonborn",
+							"name": "龙裔"
+						}
+					]
+				}
+			],
+			"entries": [
+				"你长出龙翼。凭借这对翅膀，如果你没有穿着重甲且没有超过载重，你将获得20尺的飞行速度。"
+			]
+		},
+		{
+			"ENG_name": "Drow High Magic",
+			"name": "高等卓尔魔法",
+			"source": "UAFeatsForRaces",
+			"page": 2,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"ENG_name": "elf",
+							"name": "精灵",
+							"subrace": "卓尔"
+						}
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "cha",
+					"innate": {
+						"_": {
+							"will": [
+								"侦测魔法"
+							],
+							"daily": {
+								"1e": [
+									"浮空术",
+									"解除魔法"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"你学习了更多你族人典型的法术。你学会了{@spell 侦测魔法}且可以随意施放，无需消耗法术位。你还学会了{@spell 浮空术}和{@spell 解除魔法}，每个法术都可以在不消耗法术位的情况下施放一次。完成一次长休后，你将恢复以此方式施放该法术的能力。魅力是你施放这些法术的施法属性。"
+			]
+		},
+		{
+			"ENG_name": "Dwarf Resilience",
+			"name": "矮人恢复力",
+			"source": "UAFeatsForRaces",
+			"page": 2,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"ENG_name": "dwarf",
+							"name": "矮人"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"entries": [
+				"你的血脉中流淌着矮人英雄的血液。你获得下列增益：",
+				{
+					"type": "list",
+					"items": [
+						"当你在战斗中执行{@action 回避}动作时，你可以消耗一颗生命骰来治愈自己。投掷那枚生命骰，你恢复其骰值外加上你的体质调整值点的生命值（恢复量最低为1点）。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Elven Accuracy",
+			"name": "精灵之准",
+			"source": "UAFeatsForRaces",
+			"page": 2,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"ENG_name": "elf",
+							"name": "精灵"
+						},
+						{
+							"ENG_name": "half-elf",
+							"name": "半精灵"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"dex": 1
+				}
+			],
+			"entries": [
+				"你拥有不可思议的瞄准能力。你获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"每当你进行攻击检定时具有优势，你可以重掷其中一个骰子一次。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Everybody's Friend",
+			"name": "众人之友",
+			"source": "UAFeatsForRaces",
+			"page": 2,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"ENG_name": "half-elf",
+							"name": "半精灵"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"cha": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"deception": true,
+					"persuasion": true
+				}
+			],
+			"entries": [
+				"你发展出富有魅力的个性以轻松应对这个世界。你获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你获得{@skill 欺瞒}和{@skill 游说}技能的熟练。如果你已经熟练其中任一技能，你在使用该技能进行检定时熟练加值翻倍。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Fade Away",
+			"name": "匿影无踪",
+			"source": "UAFeatsForRaces",
+			"page": 2,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"ENG_name": "gnome",
+							"name": "侏儒"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"int": 1
+				}
+			],
+			"entries": [
+				"你可以利用你的魔法传承来逃脱危险。你获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"当你受到伤害时，你可以用一个反应魔法般地进入{@condition 隐形}状态，直到你的下个回合结束或直到你攻击、造成伤害或迫使某人进行豁免检定。一旦你使用了这个能力，直到你完成一次短休或长休前都不能再次使用。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Fey Teleportation",
+			"name": "妖精传送",
+			"source": "UAFeatsForRaces",
+			"page": 3,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"ENG_name": "elf",
+							"name": "精灵",
+							"subrace": "高等"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"int": 1
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "int",
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									"迷踪步"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"借助你的妖精血统，你学会了如何施展传送术。你获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你习得法术 {@spell 迷踪步}，且你可以无需消耗法术位的施展它一次。而你在完成一次短休或长休后你重获以此免费施展这个法术的使用次数。智力是你施展这个法术的施法属性。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Flames of Phlegethos",
+			"name": "弗莱格索斯之焰",
+			"source": "UAFeatsForRaces",
+			"page": 3,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"ENG_name": "tiefling",
+							"name": "提夫林"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你学会了如何召唤地狱火，让它听从你的指挥为你而用，你获得下列增益：",
+				{
+					"type": "list",
+					"items": [
+						"当你为你施展的法术投掷火焰伤害时，你可以重骰其中任何骰值为1的火焰伤害骰，但你必须接受重骰后的结果，哪怕重骰后它依旧是1。",
+						"每当你施放一个造成火焰伤害的法术时，你可以让火焰环绕你，直到你的下一个回合结束。这些火焰不会伤害你或你的财物，它们在30尺内发出明亮的光，并在额外的30尺内发出微光。当火焰存在时，任何在5尺内用近战攻击击中你的生物将受到 {@damage 1d4}火焰伤害。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Grudge-Bearer",
+			"name": "怀恨者",
+			"source": "UAFeatsForRaces",
+			"page": 3,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"ENG_name": "dwarf",
+							"name": "矮人"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"wis"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你对特定类型的生物怀有深切的仇恨。选择你的敌人，一种生物类型来承受你的愤怒：异怪、野兽、天族、构装、龙、元素生物、妖精、邪魔、巨人、怪兽、泥怪、植物或亡灵。或者，你可以选择两类类人生物种族（例如鬣狗人且兽人）。你获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"在与你的选民敌人的任何战斗的第一轮中，你对它们进行的攻击检定具有优势。",
+						"当你的任一选民敌人对你发动借机攻击时，该攻击检定具有劣势。",
+						"每当你进行智力（{@skill 奥秘}、{@skill 历史}、{@skill 自然}或{@skill 宗教}）检定时，若检定是为了回忆关于你选民敌人的消息，你可以将熟练加值翻倍加到检定上，即使你通常不擅长该技能。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Human Determination",
+			"name": "人类决心",
+			"source": "UAFeatsForRaces",
+			"page": 3,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"ENG_name": "human",
+							"name": "人类"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你充满了一种能将不可触及之物拉入触及范围的决心。你获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"当你进行一次攻击检定、属性检定或豁免检定时，你可以具有优势。一旦你使用了这个能力，直到你完成一次短休或长休前，你都不能再次使用它。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Infernal Constitution",
+			"name": "炼狱体质",
+			"source": "UAFeatsForRaces",
+			"page": 3,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"ENG_name": "tiefling",
+							"name": "提夫林"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"resist": [
+				"寒冷",
+				"毒素"
+			],
+			"entries": [
+				"邪魔之血在你体内奔流不息。你获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你获得寒冷伤害和毒素伤害的抗性",
+						"你在对抗{@condition 中毒}时所做的豁免具有优势。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Orcish Aggression",
+			"name": "兽人侵略性",
+			"source": "UAFeatsForRaces",
+			"page": 3,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"ENG_name": "half-orc",
+							"name": "半兽人"
+						}
+					]
+				}
+			],
+			"entries": [
+				"作为附赠动作，你可以朝你能看见或听见的一个自选仇敌移动至多你的速度。你必须以比开始更靠近该敌人的位置结束此移动。"
+			]
+		},
+		{
+			"ENG_name": "Orcish Fury",
+			"name": "兽人狂怒",
+			"source": "UAFeatsForRaces",
+			"page": 4,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"ENG_name": "half-orc",
+							"name": "半兽人"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你内在的怒火在永无止境的燃烧着，你获得下列增益：",
+				{
+					"type": "list",
+					"items": [
+						"当你用{@filter 简易或军用武器|items|source=phb|category=基础|type=军用武器;简易武器}进行攻击并命中时，你可以额外掷一次该武器的伤害骰，并将其作为该武器伤害类型的额外伤害。一旦你使用了这个能力，直到你完成一次短休或长休前都不能再次使用。",
+						"使用坚韧不屈种族特质之后，你可以立即以反应进行一次武器攻击。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Prodigy",
+			"name": "天赋异禀",
+			"source": "UAFeatsForRaces",
+			"page": 4,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"ENG_name": "half-elf",
+							"name": "半精灵"
+						},
+						{
+							"ENG_name": "human",
+							"name": "人类"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"any": 1
+				}
+			],
+			"languageProficiencies": [
+				{
+					"any": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"any": 1
+				}
+			],
+			"entries": [
+				"你学习那些新鲜事物时总是有着极高的天赋，你获得下列增益：",
+				{
+					"type": "list",
+					"items": [
+						"你获得一项{@table 技能|phb|技能熟练}的熟练、一种{@filter 工具熟练项|items|type=工具;工匠工具}的熟练，且娴熟于一种自选的语言。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Second Chance",
+			"name": "花开二度",
+			"source": "UAFeatsForRaces",
+			"page": 4,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"ENG_name": "halfling",
+							"name": "半身人"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"con",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你学习那些新鲜事物时总是有着极高的天赋，你获得下列增益：",
+				{
+					"type": "list",
+					"items": [
+						"当你看见的生物以攻击检定命中你时，你可以使用你的反应迫使该生物重掷。一旦你使用此能力，直到你完成一次短休或长休前无法再次使用。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Squat Nimbleness",
+			"name": "低身机敏",
+			"source": "UAFeatsForRaces",
+			"page": 4,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"ENG_name": "dwarf",
+							"name": "矮人"
+						},
+						{
+							"ENG_name": "gnome",
+							"name": "侏儒"
+						},
+						{
+							"ENG_name": "halfling",
+							"name": "半身人"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"运动",
+							"特技"
+						]
+					}
+				}
+			],
+			"entries": [
+				"你有这在你族群中不寻常的机敏，你获得以下好处:",
+				{
+					"type": "list",
+					"items": [
+						"你的步行速度提升5尺。",
+						"你获得{@skill 特技}或{@skill 运动}技能的熟练。若你已熟练该技能，则你使用该技能进行检定时熟练加值翻倍。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Wonder Maker",
+			"name": "奇迹制造者",
+			"source": "UAFeatsForRaces",
+			"page": 4,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"ENG_name": "gnome",
+							"name": "侏儒",
+							"subrace": "掷石"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"int"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你掌握了你们族人的修补匠技术。你获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"当你使用{@item 修补工具|phb}的熟练进行检定时，你将双倍的熟练加值添加到检定中。",
+						"当你使用修补匠特质制造设备时，你有以下额外的制造选项：",
+						{
+							"ENG_name": "Alarm",
+							"name": "警报术",
+							"type": "entries",
+							"entries": [
+								"该装置会在生物移动到其15尺范围内且未说出创建时设定的密码时触发感应。生物进入范围1轮后，警报术会发出尖锐的铃声，持续1分钟且能在300尺外听到。"
+							]
+						},
+						{
+							"ENG_name": "Calculator",
+							"name": "计算器",
+							"type": "entries",
+							"entries": [
+								"这个设备使计算变得容易。"
+							]
+						},
+						{
+							"ENG_name": "Lifter",
+							"name": "搬运工",
+							"type": "entries",
+							"entries": [
+								"该装置可作为{@item 滑轮组|phb}使用，允许使用者吊起五倍于其正常能举起的重量。"
+							]
+						},
+						{
+							"ENG_name": "Timekeeper",
+							"name": "计时器",
+							"type": "entries",
+							"entries": [
+								"这块怀表保持准确的时间。"
+							]
+						},
+						{
+							"ENG_name": "Weather Sensor",
+							"name": "感知天气",
+							"type": "entries",
+							"entries": [
+								"当作为动作使用时，此装置可预测1英里半径内未来4小时的天气情况，每小时显示一个徽记（云、太阳/月亮、雨或雪）。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Wood Elf Magic",
+			"name": "木精灵魔法",
+			"source": "UAFeatsForRaces",
+			"page": 4,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"ENG_name": "elf",
+							"name": "精灵",
+							"subrace": "木"
+						}
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "wis",
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"大步奔行",
+									"行动无踪"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"你学会了原始森林的魔法。你选择一个德鲁伊戏法。你还学会了{@spell 大步奔行}和{@spell 行动无踪}，每个法术可以不消耗法术位施放一次。完成一次长休后，你恢复以此方式施放该法术的能力。感知是这些法术的施法属性。"
+			]
+		}
+	],
+	"foundryFeat": [
+		{
+			"ENG_name": "Dragon Wings",
+			"name": "龙翼",
+			"source": "UAFeatsForRaces",
+			"effects": [
+				{
+					"ENG_name": "Flying Speed",
+					"name": "飞行速度",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "data.attributes.movement.fly",
+							"mode": "UPGRADE",
+							"value": 20
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Squat Nimbleness",
+			"name": "低身机敏",
+			"source": "UAFeatsForRaces",
+			"effects": [
+				{
+					"ENG_name": "Movement Speed Increase",
+					"name": "移动速度增加",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "data.attributes.movement.walk",
+							"mode": "ADD",
+							"value": "+ 5"
+						}
+					]
+				}
+			]
+		}
+	]
+}

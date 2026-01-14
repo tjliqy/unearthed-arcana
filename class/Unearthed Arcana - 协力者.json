@@ -1,0 +1,1514 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UASidekicks",
+				"abbreviation": "UASIK",
+				"full": "破解奥秘：协力者",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2018/dnd/downloads/UA_Sidekicks.pdf",
+				"dateReleased": "2018-12-17"
+			}
+		],
+		"dependencies": {
+			"classFeature": [
+				"UAClassFeatureVariants"
+			]
+		},
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1729637619,
+		"_dateLastModifiedHash": "5657dc49d7"
+	},
+	"class": [
+		{
+			"ENG_name": "Expert Sidekick",
+			"name": "专家协力者",
+			"source": "UASidekicks",
+			"page": 3,
+			"isSidekick": true,
+			"classFeatures": [
+				"协力者职业|专家协力者|uasidekicks|1",
+				"附赠熟练|专家协力者|uasidekicks|1",
+				"专精|专家协力者|uasidekicks|1",
+				"乐于助人|专家协力者|uasidekicks|1",
+				"灵巧动作|专家协力者|uasidekicks|2",
+				"多才多艺的专家|专家协力者|uasidekicks|3",
+				"属性值提升|专家协力者|uasidekicks|4",
+				"熟练多变|专家协力者|uasidekicks|4|UAClassFeatureVariants",
+				"额外攻击|专家协力者|uasidekicks|5",
+				"专精|专家协力者|uasidekicks|6",
+				"反射闪避|专家协力者|uasidekicks|7",
+				"属性值提升|专家协力者|uasidekicks|8",
+				"熟练多变|专家协力者|uasidekicks|8|UAClassFeatureVariants",
+				"鼓舞协助（1d6）|专家协力者|uasidekicks|9",
+				"属性值提升|专家协力者|uasidekicks|10",
+				"熟练多变|专家协力者|uasidekicks|10|UAClassFeatureVariants",
+				"可靠才能|专家协力者|uasidekicks|11",
+				"属性值提升|专家协力者|uasidekicks|12",
+				"熟练多变|专家协力者|uasidekicks|12|UAClassFeatureVariants",
+				"附赠熟练|专家协力者|uasidekicks|13",
+				"属性值提升|专家协力者|uasidekicks|14",
+				"熟练多变|专家协力者|uasidekicks|14|UAClassFeatureVariants",
+				"明锐心智|专家协力者|uasidekicks|15",
+				"属性值提升|专家协力者|uasidekicks|16",
+				"熟练多变|专家协力者|uasidekicks|16|UAClassFeatureVariants",
+				"专精|专家协力者|uasidekicks|17",
+				"鼓舞协助（2d6）|专家协力者|uasidekicks|18",
+				"属性值提升|专家协力者|uasidekicks|19",
+				"熟练多变|专家协力者|uasidekicks|19|UAClassFeatureVariants",
+				"幸运一击|专家协力者|uasidekicks|20"
+			],
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Spellcaster Sidekick",
+			"name": "施法者协力者",
+			"source": "UASidekicks",
+			"page": 4,
+			"isSidekick": true,
+			"cantripProgression": [
+				3,
+				3,
+				3,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5
+			],
+			"spellsKnownProgression": [
+				3,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				12,
+				13,
+				13,
+				14,
+				14,
+				15,
+				15,
+				16,
+				16
+			],
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"{@filter 已知戏法|spells|level=0}"
+					],
+					"rows": [
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						]
+					]
+				},
+				{
+					"colLabels": [
+						"{@filter 已知法术|spells|level=!0}"
+					],
+					"rows": [
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							5
+						],
+						[
+							6
+						],
+						[
+							7
+						],
+						[
+							8
+						],
+						[
+							9
+						],
+						[
+							10
+						],
+						[
+							11
+						],
+						[
+							12
+						],
+						[
+							12
+						],
+						[
+							13
+						],
+						[
+							13
+						],
+						[
+							14
+						],
+						[
+							14
+						],
+						[
+							15
+						],
+						[
+							15
+						],
+						[
+							16
+						],
+						[
+							16
+						]
+					]
+				},
+				{
+					"title": "每环法术位",
+					"colLabels": [
+						"{@filter 1st|spells|level=1}",
+						"{@filter 2nd|spells|level=2}",
+						"{@filter 3rd|spells|level=3}",
+						"{@filter 4th|spells|level=4}",
+						"{@filter 5th|spells|level=5}",
+						"{@filter 6th|spells|level=6}",
+						"{@filter 7th|spells|level=7}",
+						"{@filter 8th|spells|level=8}",
+						"{@filter 9th|spells|level=9}"
+					],
+					"rows": [
+						[
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							2,
+							1,
+							1
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"协力者职业|施法者协力者|uasidekicks|1",
+				"附赠熟练|施法者协力者|uasidekicks|1",
+				"施法|施法者协力者|uasidekicks|1",
+				"魔法恢复|施法者协力者|uasidekicks|2",
+				"属性值提升|施法者协力者|uasidekicks|4",
+				"熟练多变|施法者协力者|uasidekicks|4|UAClassFeatureVariants",
+				"强力戏法|施法者协力者|uasidekicks|6",
+				"属性值提升|施法者协力者|uasidekicks|8",
+				"熟练多变|施法者协力者|uasidekicks|8|UAClassFeatureVariants",
+				"增强法术|施法者协力者|uasidekicks|10",
+				"属性值提升|施法者协力者|uasidekicks|12",
+				"熟练多变|施法者协力者|uasidekicks|12|UAClassFeatureVariants",
+				"专注施法|施法者协力者|uasidekicks|14",
+				"属性值提升|施法者协力者|uasidekicks|16",
+				"熟练多变|施法者协力者|uasidekicks|16|UAClassFeatureVariants",
+				"属性值提升|施法者协力者|uasidekicks|18",
+				"熟练多变|施法者协力者|uasidekicks|18|UAClassFeatureVariants",
+				"招牌法术|施法者协力者|uasidekicks|20"
+			],
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Warrior Sidekick",
+			"name": "武者协力者",
+			"source": "UASidekicks",
+			"page": 2,
+			"isSidekick": true,
+			"classFeatures": [
+				"协力者职业|武者协力者|uasidekicks|1",
+				"附赠熟练|武者协力者|uasidekicks|1",
+				"回气|武者协力者|uasidekicks|1",
+				"危机感应|武者协力者|uasidekicks|2",
+				"精通重击|武者协力者|uasidekicks|3",
+				"属性值提升|武者协力者|uasidekicks|4",
+				"熟练多变|武者协力者|uasidekicks|4|UAClassFeatureVariants",
+				"额外攻击（1次额外）|武者协力者|uasidekicks|5",
+				"属性值提升|武者协力者|uasidekicks|6",
+				"熟练多变|武者协力者|uasidekicks|6|UAClassFeatureVariants",
+				"备战|武者协力者|uasidekicks|7",
+				"属性值提升|武者协力者|uasidekicks|8",
+				"熟练多变|武者协力者|uasidekicks|8|UAClassFeatureVariants",
+				"不屈（1次使用）|武者协力者|uasidekicks|9",
+				"精通防御|武者协力者|uasidekicks|10",
+				"额外攻击（2次额外）|武者协力者|uasidekicks|11",
+				"属性值提升|武者协力者|uasidekicks|12",
+				"熟练多变|武者协力者|uasidekicks|12|UAClassFeatureVariants",
+				"不屈（2次使用）|武者协力者|uasidekicks|13",
+				"属性值提升|武者协力者|uasidekicks|14",
+				"熟练多变|武者协力者|uasidekicks|14|UAClassFeatureVariants",
+				"高效重击|武者协力者|uasidekicks|15",
+				"属性值提升|武者协力者|uasidekicks|16",
+				"熟练多变|武者协力者|uasidekicks|16|UAClassFeatureVariants",
+				"不屈（3次使用）|武者协力者|uasidekicks|17",
+				"回气（2次使用）|武者协力者|uasidekicks|18",
+				"属性值提升|武者协力者|uasidekicks|19",
+				"熟练多变|武者协力者|uasidekicks|19|UAClassFeatureVariants",
+				"额外攻击（额外3次）|武者协力者|uasidekicks|20"
+			],
+			"hasFluff": true
+		}
+	],
+	"classFluff": [
+		{
+			"ENG_name": "Expert Sidekick",
+			"name": "专家协力者",
+			"source": "UASidekicks",
+			"entries": [
+				{
+					"ENG_name": "Expert Sidekick",
+					"name": "专家协力者",
+					"type": "section",
+					"entries": [
+						"专家是某些任务或知识的大师。这个协力者选择的道路更倾向于狡黠而非力量或施法。它可能是一个斥候、音乐家、图书馆员、聪明的街头小孩、狡猾的商人或盗窃犯。"
+					],
+					"source": "UASidekicks",
+					"page": 3
+				}
+			]
+		},
+		{
+			"ENG_name": "Spellcaster Sidekick",
+			"name": "施法者协力者",
+			"source": "UASidekicks",
+			"entries": [
+				{
+					"ENG_name": "Spellcaster Sidekick",
+					"name": "施法者协力者",
+					"type": "section",
+					"entries": [
+						"一个成为施法者的协力者行走在魔法之路上。该协力者可能是一个猬族法师、祭司、预言者、使用法术的演艺者，或是一个血脉中流淌着魔法的人。"
+					],
+					"source": "UASidekicks",
+					"page": 4
+				}
+			]
+		},
+		{
+			"ENG_name": "Warrior Sidekick",
+			"name": "武者协力者",
+			"source": "UASidekicks",
+			"entries": [
+				{
+					"ENG_name": "Warrior Sidekick",
+					"name": "武者协力者",
+					"type": "section",
+					"entries": [
+						"一位武者协力者会在与你并肩作战时磨炼自己的武术技巧。它可能是一位士兵，一个城镇守卫，一只受过战斗训练的动物，或者任何其他在战斗中磨砺自身技艺的生物。"
+					],
+					"source": "UASidekicks",
+					"page": 2
+				}
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"ENG_name": "Bonus Proficiencies",
+			"name": "附赠熟练",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "专家协力者",
+			"classSource": "uasidekicks",
+			"level": 1,
+			"entries": [
+				"在1级时，随从获得你选择的一项豁免检定的熟练：敏捷、智力或体质。",
+				"此外，该随从获得五个自选技能的熟练项。如果该随从是类人生物，它还会获得轻甲、简易武器以及两个自选工具的熟练项。",
+				"在13级时，随从获得一个你选择的技能熟练项。如果随从是类人生物，它还会获得一个你选择的工具熟练项。"
+			]
+		},
+		{
+			"ENG_name": "Expertise",
+			"name": "专精",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "专家协力者",
+			"classSource": "uasidekicks",
+			"level": 1,
+			"entries": [
+				"在1级时，选择该随从的两项技能熟练。该随从在使用任一选择的熟练进行属性检定时，其熟练加值翻倍。",
+				"在6级时且在17级时，选择该随从的两项技能熟练以获取此增益。"
+			]
+		},
+		{
+			"ENG_name": "Helpful",
+			"name": "乐于助人",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "专家协力者",
+			"classSource": "uasidekicks",
+			"level": 1,
+			"entries": [
+				"协力者擅长提供恰到好处的帮助：专家能够以一个附赠动作进行{@action 协助}动作。"
+			]
+		},
+		{
+			"ENG_name": "Sidekick Class",
+			"name": "协力者职业",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "专家协力者",
+			"classSource": "uasidekicks",
+			"level": 1,
+			"type": "inset",
+			"entries": [
+				"要获得专家职业，一个生物的数据板中必须至少具有一门它能说的语言。",
+				"{@note 注：此职业适用于NPC {@variantrule 协力者|uasidekicks}。}"
+			]
+		},
+		{
+			"ENG_name": "Cunning Action",
+			"name": "灵巧动作",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "专家协力者",
+			"classSource": "uasidekicks",
+			"level": 2,
+			"entries": [
+				"从2级开始，随从的敏捷或快速思维使其能够迅速行动。在战斗中的回合里，它可以以一个附赠动作执行{@action 疾走}、{@action 撤离}或{@action 躲藏}动作。"
+			]
+		},
+		{
+			"ENG_name": "Jack of Many Trades",
+			"name": "多才多艺的专家",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "专家协力者",
+			"classSource": "uasidekicks",
+			"level": 3,
+			"entries": [
+				"从3级开始，随从可以将其熟练加值的一半添加到任何使用技能但不包括其熟练加值的属性检定上。"
+			]
+		},
+		{
+			"ENG_name": "Ability Score Improvement",
+			"name": "属性值提升",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "专家协力者",
+			"classSource": "uasidekicks",
+			"level": 4,
+			"entries": [
+				"当你达到4级时，以及在8级、10级、12级、14级、16级和19级时，随从可以将你选择的一个属性值提升2点，或将你选择的两个属性值各提升1点。随从无法使用此特性将属性值提升至20以上。"
+			]
+		},
+		{
+			"ENG_name": "Extra Attack",
+			"name": "额外攻击",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "专家协力者",
+			"classSource": "uasidekicks",
+			"level": 5,
+			"entries": [
+				"从5级开始，随从可以在其回合内使用{@action 攻击}动作时攻击两次，而非一次。"
+			]
+		},
+		{
+			"ENG_name": "Expertise",
+			"name": "专精",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "专家协力者",
+			"classSource": "uasidekicks",
+			"level": 6,
+			"entries": [
+				"在6级时，你获得另一个专精。"
+			]
+		},
+		{
+			"ENG_name": "Evasion",
+			"name": "反射闪避",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "专家协力者",
+			"classSource": "uasidekicks",
+			"level": 7,
+			"entries": [
+				"从7级开始，由于非凡的幸运，随从擅长避开某些危险。当随从受到一个允许其进行敏捷豁免检定以仅承受一半伤害的效应时，若豁免成功则不受伤害，若豁免失败则仅承受一半伤害。随从在{@condition 失能}状态下无法从此特性中获益。"
+			]
+		},
+		{
+			"ENG_name": "Ability Score Improvement",
+			"name": "属性值提升",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "专家协力者",
+			"classSource": "uasidekicks",
+			"level": 8,
+			"entries": [
+				"在8级时，你获得另一个属性值提升。"
+			]
+		},
+		{
+			"ENG_name": "Inspiring Help (1d6)",
+			"name": "鼓舞协助（1d6）",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "专家协力者",
+			"classSource": "uasidekicks",
+			"level": 9,
+			"entries": [
+				"从9级开始，随从的协助变得特别鼓舞人心。当随从使用其乐于助人的附赠动作时，接受协助的生物还会在{@dice d20}掷骰上获得{@dice 1d6}加值。如果该掷骰是攻击检定，生物可以选择不将此加值应用于攻击检定，然后如果攻击命中，生物可以将此加值添加到对单一目标的攻击伤害掷骰上。",
+				"在18级时，附赠动作增加到{@dice 2d6}。"
+			]
+		},
+		{
+			"ENG_name": "Ability Score Improvement",
+			"name": "属性值提升",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "专家协力者",
+			"classSource": "uasidekicks",
+			"level": 10,
+			"entries": [
+				"在10级时，你获得另一个属性值提升。"
+			]
+		},
+		{
+			"ENG_name": "Reliable Talent",
+			"name": "可靠才能",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "专家协力者",
+			"classSource": "uasidekicks",
+			"level": 11,
+			"entries": [
+				"到11级时，该随从已将其技能磨练至非凡程度。每当该随从进行包含其全部熟练加值的属性检定时，它可以将{@dice d20}掷骰结果小于等于9视为10。"
+			]
+		},
+		{
+			"ENG_name": "Ability Score Improvement",
+			"name": "属性值提升",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "专家协力者",
+			"classSource": "uasidekicks",
+			"level": 12,
+			"entries": [
+				"在12级时，你获得另一个属性值提升。"
+			]
+		},
+		{
+			"ENG_name": "Bonus Proficiencies",
+			"name": "附赠熟练",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "专家协力者",
+			"classSource": "uasidekicks",
+			"level": 13,
+			"entries": [
+				"在13级时，你获得更多附赠熟练。"
+			]
+		},
+		{
+			"ENG_name": "Ability Score Improvement",
+			"name": "属性值提升",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "专家协力者",
+			"classSource": "uasidekicks",
+			"level": 14,
+			"entries": [
+				"在14级时，你获得另一个属性值提升。"
+			]
+		},
+		{
+			"ENG_name": "Sharp Mind",
+			"name": "明锐心智",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "专家协力者",
+			"classSource": "uasidekicks",
+			"level": 15,
+			"entries": [
+				"在15级时，随从获得智力、感知或魅力豁免检定的熟练项（由你选择）。"
+			]
+		},
+		{
+			"ENG_name": "Ability Score Improvement",
+			"name": "属性值提升",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "专家协力者",
+			"classSource": "uasidekicks",
+			"level": 16,
+			"entries": [
+				"在16级时，你获得另一个属性值提升。"
+			]
+		},
+		{
+			"ENG_name": "Expertise",
+			"name": "专精",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "专家协力者",
+			"classSource": "uasidekicks",
+			"level": 17,
+			"entries": [
+				"在17级时，你获得另一个专精。"
+			]
+		},
+		{
+			"ENG_name": "Inspiring Help (2d6)",
+			"name": "鼓舞协助（2d6）",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "专家协力者",
+			"classSource": "uasidekicks",
+			"level": 18,
+			"entries": [
+				"在18级时，你的鼓舞协助附赠动作增加到{@dice 2d6}。"
+			]
+		},
+		{
+			"ENG_name": "Ability Score Improvement",
+			"name": "属性值提升",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "专家协力者",
+			"classSource": "uasidekicks",
+			"level": 19,
+			"entries": [
+				"在19级时，你获得另一个属性值提升。"
+			]
+		},
+		{
+			"ENG_name": "Stroke of Luck",
+			"name": "幸运一击",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "专家协力者",
+			"classSource": "uasidekicks",
+			"level": 20,
+			"entries": [
+				"在20级时，这位伙伴拥有将失败转化为成功的不可思议能力。如果伙伴的攻击在范围内未命中目标，它可以将未命中转化为命中。或者，如果它在一个属性检定中失败，它可以将{@dice d20}的掷骰视为20。",
+				"一旦使用了这个特性，随从在完成一次短休或长休前无法再次使用它。"
+			]
+		},
+		{
+			"ENG_name": "Bonus Proficiencies",
+			"name": "附赠熟练",
+			"source": "UASidekicks",
+			"page": 4,
+			"className": "施法者协力者",
+			"classSource": "uasidekicks",
+			"level": 1,
+			"entries": [
+				"当随从加入此职业时，随从将获得你选择的一项豁免检定熟练：感知、智力或魅力。",
+				"此外，该随从可从以下列表中选择三项技能获得熟练项：{@skill 奥秘}、{@skill 历史}、{@skill 洞悉}、{@skill 调查}、{@skill 医药}、{@skill 表演}、{@skill 游说}和{@skill 宗教}。若该随从为类人生物，则同时获得简易武器和轻甲的熟练项。"
+			]
+		},
+		{
+			"ENG_name": "Sidekick Class",
+			"name": "协力者职业",
+			"source": "UASidekicks",
+			"page": 4,
+			"className": "施法者协力者",
+			"classSource": "uasidekicks",
+			"level": 1,
+			"type": "inset",
+			"entries": [
+				"要获得施法者职业，一个生物的数据板中必须至少具有一门它能说的语言。",
+				"{@note 注：此职业适用于NPC {@variantrule 协力者|uasidekicks}。}"
+			]
+		},
+		{
+			"ENG_name": "Spellcasting",
+			"name": "施法",
+			"source": "UASidekicks",
+			"page": 4,
+			"className": "施法者协力者",
+			"classSource": "uasidekicks",
+			"level": 1,
+			"entries": [
+				"在1级时，随从获得施法能力。（如果该生物已有施法特质，此特性将取代该特质。）选择职业：吟游诗人、牧师、德鲁伊、术士、魔契师或法师。此选择决定随从使用的法术列表、施法属性及法器，如施法表格所示。",
+				{
+					"type": "table",
+					"caption": "施法",
+					"colLabels": [
+						"法术列表",
+						"属性",
+						"专注"
+					],
+					"colStyles": [
+						"col-4",
+						"col-4",
+						"col-4"
+					],
+					"rows": [
+						[
+							"{@filter 吟游诗人|spells|class=吟游诗人}",
+							"魅力",
+							"{@filter 乐器|items|type=乐器}"
+						],
+						[
+							"{@filter 牧师|spells|class=牧师}",
+							"感知",
+							"{@item 圣徽|PHB}"
+						],
+						[
+							"{@filter 德鲁伊|spells|class=德鲁伊}",
+							"感知",
+							"{@item 德鲁伊法器|PHB}"
+						],
+						[
+							"{@filter 术士|spells|class=术士}",
+							"魅力",
+							"{@item 奥术法器|PHB}"
+						],
+						[
+							"{@filter 魔契师|spells|class=魔契师}",
+							"魅力",
+							"{@item 奥术法器|PHB}"
+						],
+						[
+							"{@filter 法师|spells|class=法师}",
+							"智力",
+							"{@item 奥术法器|PHB}"
+						]
+					]
+				},
+				{
+					"ENG_name": "Cantrips",
+					"name": "戏法",
+					"type": "entries",
+					"entries": [
+						"在第一等级，随从可从其法术列表中选择三个戏法。随从在更高等级时会学习更多你选择的戏法，如施法者表格的已知戏法栏所示。"
+					]
+				},
+				{
+					"ENG_name": "Spell Slots",
+					"name": "法术位",
+					"type": "entries",
+					"entries": [
+						"施法者表格显示了随从拥有的1环及更高等级的法术位数量，用于施放其施法者法术。要施放这些法术之一，随从必须消耗一个等于或高于该法术等级的法术位。施法者在完成一次长休后恢复所有消耗的法术位。",
+						"例如，如果随从知道一环法术{@spell 疗伤术}且有一个1环和一个2环法术位可用，它可以施放该法术使用任一法术位。"
+					]
+				},
+				{
+					"ENG_name": "Spells Known",
+					"name": "已知法术",
+					"type": "entries",
+					"entries": [
+						"该随从从其法术列表中选择三个1环法术作为已知法术。",
+						"施法者表格的已知法术栏显示随从何时学会更多你选择的法术。这些法术中的每一个都必须是随从拥有法术位的等级，如表格所示。例如，当随从在此职业达到3级时，它可以学会一个1级或2级的新法术。",
+						"此外，当随从在此职业中升级时，你可以从该职业已知法术中选择一个法术，并用其法术列表中的另一个法术替换它，该法术也必须是其拥有法术位的等级。"
+					]
+				},
+				{
+					"ENG_name": "Spellcasting Ability",
+					"name": "施法属性",
+					"type": "entries",
+					"entries": [
+						"协力者法术的施法属性取决于你在协力者表格中的选择。",
+						"当法术提到其属性时，协力者使用其施法属性。此外，在确定法术豁免DC和以法术进行攻击时它会使用施法属性调整值。",
+						{
+							"ENG_name": "Spell",
+							"name": "法术",
+							"type": "abilityDc",
+							"attributes": [
+								"施法"
+							]
+						},
+						{
+							"ENG_name": "Spell",
+							"name": "法术",
+							"type": "abilityAttackMod",
+							"attributes": [
+								"施法"
+							]
+						}
+					]
+				},
+				{
+					"ENG_name": "Spellcasting Focus",
+					"name": "法器",
+					"type": "entries",
+					"entries": [
+						"该随从可以根据你在施法表格上做出的选择使用法器来施展法术。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Magical Recovery",
+			"name": "魔法恢复",
+			"source": "UASidekicks",
+			"page": 4,
+			"className": "施法者协力者",
+			"classSource": "uasidekicks",
+			"level": 2,
+			"entries": [
+				"从2级开始，当随从完成一次短休时，它可以恢复已消耗的法术位。这些法术位的总等级可以等于或小于该职业等级的一半（向上取整），且没有任何法术位可以是6环或更高。",
+				"一旦随从使用了此特性，它将无法再次使用该特性，直到完成一次长休。"
+			]
+		},
+		{
+			"ENG_name": "Ability Score Improvement",
+			"name": "属性值提升",
+			"source": "UASidekicks",
+			"page": 4,
+			"className": "施法者协力者",
+			"classSource": "uasidekicks",
+			"level": 4,
+			"entries": [
+				"当你达到4级时，以及8级、12级、16级和19级时，随从可以将你选择的一个属性值提升2点，或者将你选择的两个属性值各提升1点。随从无法使用此特性将属性值提升至20以上。"
+			]
+		},
+		{
+			"ENG_name": "Potent Cantrips",
+			"name": "强力戏法",
+			"source": "UASidekicks",
+			"page": 4,
+			"className": "施法者协力者",
+			"classSource": "uasidekicks",
+			"level": 6,
+			"entries": [
+				"从6级开始，随从可以将其施法属性调整值添加到它用任何戏法造成的伤害上。"
+			]
+		},
+		{
+			"ENG_name": "Ability Score Improvement",
+			"name": "属性值提升",
+			"source": "UASidekicks",
+			"page": 4,
+			"className": "施法者协力者",
+			"classSource": "uasidekicks",
+			"level": 8,
+			"entries": [
+				"在8级时，你获得另一个属性值提升。"
+			]
+		},
+		{
+			"ENG_name": "Empowered Spells",
+			"name": "增强法术",
+			"source": "UASidekicks",
+			"page": 4,
+			"className": "施法者协力者",
+			"classSource": "uasidekicks",
+			"level": 10,
+			"entries": [
+				"在10级时，选择一项魔法学派。每当随从通过消耗法术位施放该学派的法术时，随从可以将其施法属性调整值添加到法术的伤害掷骰或治疗掷骰上（如果有的话）。"
+			]
+		},
+		{
+			"ENG_name": "Ability Score Improvement",
+			"name": "属性值提升",
+			"source": "UASidekicks",
+			"page": 4,
+			"className": "施法者协力者",
+			"classSource": "uasidekicks",
+			"level": 12,
+			"entries": [
+				"在12级时，你获得另一个属性值提升。"
+			]
+		},
+		{
+			"ENG_name": "Focused Casting",
+			"name": "专注施法",
+			"source": "UASidekicks",
+			"page": 4,
+			"className": "施法者协力者",
+			"classSource": "uasidekicks",
+			"level": 14,
+			"entries": [
+				"从14级开始，随从在进行任何体质豁免检定时具有优势，以维持其对法术的{@status 专注}。"
+			]
+		},
+		{
+			"ENG_name": "Ability Score Improvement",
+			"name": "属性值提升",
+			"source": "UASidekicks",
+			"page": 4,
+			"className": "施法者协力者",
+			"classSource": "uasidekicks",
+			"level": 16,
+			"entries": [
+				"在16级时，你获得另一个属性值提升。"
+			]
+		},
+		{
+			"ENG_name": "Ability Score Improvement",
+			"name": "属性值提升",
+			"source": "UASidekicks",
+			"page": 4,
+			"className": "施法者协力者",
+			"classSource": "uasidekicks",
+			"level": 18,
+			"entries": [
+				"在18级时，你获得另一个属性值提升。"
+			]
+		},
+		{
+			"ENG_name": "Signature Spells",
+			"name": "招牌法术",
+			"source": "UASidekicks",
+			"page": 4,
+			"className": "施法者协力者",
+			"classSource": "uasidekicks",
+			"level": 20,
+			"entries": [
+				"在20级时，从该职业中选择两个随从已知的法术。满足条件的法术为1级、2级和3环。随从可以以3环施放每个选民法术一次而不消耗法术位。当随从以此方式施放一个法术后，随从在完成一次短休或长休后恢复通过此特性施放该法术的能力。"
+			]
+		},
+		{
+			"ENG_name": "Bonus Proficiencies",
+			"name": "附赠熟练",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "武者协力者",
+			"classSource": "uasidekicks",
+			"level": 1,
+			"entries": [
+				"在1级时，随从获得一个由你选择的豁免检定的熟练：力量、敏捷或体质。",
+				"此外，该随从可从以下列表中选择三项技能获得熟练项：{@skill 特技}、{@skill 驯兽}、{@skill 运动}、{@skill 威吓}、{@skill 自然}、{@skill 察觉}，以及{@skill 求生}。若该随从为类人生物，则其还将获得所有护甲、盾牌、简易武器和军用武器的熟练项。"
+			]
+		},
+		{
+			"ENG_name": "Second Wind",
+			"name": "回气",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "武者协力者",
+			"classSource": "uasidekicks",
+			"level": 1,
+			"entries": [
+				"从1级开始，随从可以在其回合使用一个附赠动作来恢复等于{@dice 1d10} + 其在该职业的等级的生命值。一旦使用了此特性，它必须完成一次短休或长休才能再次使用。",
+				"该随从可以在18级时使用此特性两次，之后需要休息。"
+			]
+		},
+		{
+			"ENG_name": "Sidekick Class",
+			"name": "协力者职业",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "武者协力者",
+			"classSource": "uasidekicks",
+			"level": 1,
+			"type": "inset",
+			"entries": [
+				"{@note 注：此职业适用于NPC {@variantrule 协力者|uasidekicks}。}"
+			]
+		},
+		{
+			"ENG_name": "Danger Sense",
+			"name": "危机感应",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "武者协力者",
+			"classSource": "uasidekicks",
+			"level": 2,
+			"entries": [
+				"从2级开始，随从对其可见的效应（例如陷阱和法术）进行敏捷豁免检定时具有优势。若随从处于{@condition 失能}状态，此特性不生效。"
+			]
+		},
+		{
+			"ENG_name": "Improved Critical",
+			"name": "精通重击",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "武者协力者",
+			"classSource": "uasidekicks",
+			"level": 3,
+			"entries": [
+				"从3级开始，随从的攻击检定在{@dice d20}掷出19或20时即视为重击。"
+			]
+		},
+		{
+			"ENG_name": "Ability Score Improvement",
+			"name": "属性值提升",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "武者协力者",
+			"classSource": "uasidekicks",
+			"level": 4,
+			"entries": [
+				"当你达到4级时，以及在6级、8级、12级、14级、16级和19级时，随从可以将你选择的一个属性值提升2点，或将你选择的两个属性值各提升1点。随从无法使用此特性将属性值提升至20以上。"
+			]
+		},
+		{
+			"ENG_name": "Extra Attack (1 extra)",
+			"name": "额外攻击（1次额外）",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "武者协力者",
+			"classSource": "uasidekicks",
+			"level": 5,
+			"entries": [
+				"从5级开始，随从可以在其回合内使用{@action 攻击}动作时攻击两次，而非一次。",
+				"当随从达到11级时攻击次数增加到三，且当它达到20级时增加到四。"
+			]
+		},
+		{
+			"ENG_name": "Ability Score Improvement",
+			"name": "属性值提升",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "武者协力者",
+			"classSource": "uasidekicks",
+			"level": 6,
+			"entries": [
+				"在6级时，你获得另一个属性值提升。"
+			]
+		},
+		{
+			"ENG_name": "Battle Readiness",
+			"name": "备战",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "武者协力者",
+			"classSource": "uasidekicks",
+			"level": 7,
+			"entries": [
+				"当随从达到7级时，它在先攻检定上具有优势。"
+			]
+		},
+		{
+			"ENG_name": "Ability Score Improvement",
+			"name": "属性值提升",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "武者协力者",
+			"classSource": "uasidekicks",
+			"level": 8,
+			"entries": [
+				"在8级时，你获得另一个属性值提升。"
+			]
+		},
+		{
+			"ENG_name": "Indomitable (1 use)",
+			"name": "不屈（1次使用）",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "武者协力者",
+			"classSource": "uasidekicks",
+			"level": 9,
+			"entries": [
+				"从9级开始，随从可以重掷一次失败的豁免检定，但必须使用新的掷骰结果。使用此特性后，除非完成一次长休，否则无法再次使用该特性。",
+				"该随从可以在13级时使用此特性两次，在17级时使用此特性三次，每次使用之间需进行长休。"
+			]
+		},
+		{
+			"ENG_name": "Improved Defense",
+			"name": "精通防御",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "武者协力者",
+			"classSource": "uasidekicks",
+			"level": 10,
+			"entries": [
+				"在10级时，随从的护甲等级增加1。"
+			]
+		},
+		{
+			"ENG_name": "Extra Attack (2 extra)",
+			"name": "额外攻击（2次额外）",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "武者协力者",
+			"classSource": "uasidekicks",
+			"level": 11,
+			"entries": [
+				"在11级时，你获得另一个额外攻击。"
+			]
+		},
+		{
+			"ENG_name": "Ability Score Improvement",
+			"name": "属性值提升",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "武者协力者",
+			"classSource": "uasidekicks",
+			"level": 12,
+			"entries": [
+				"在12级时，你获得另一个属性值提升。"
+			]
+		},
+		{
+			"ENG_name": "Indomitable (2 uses)",
+			"name": "不屈（2次使用）",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "武者协力者",
+			"classSource": "uasidekicks",
+			"level": 13,
+			"entries": [
+				"在13级时，你获得不屈的另一次使用机会。"
+			]
+		},
+		{
+			"ENG_name": "Ability Score Improvement",
+			"name": "属性值提升",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "武者协力者",
+			"classSource": "uasidekicks",
+			"level": 14,
+			"entries": [
+				"在14级时，你获得另一个属性值提升。"
+			]
+		},
+		{
+			"ENG_name": "Superior Critical",
+			"name": "高效重击",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "武者协力者",
+			"classSource": "uasidekicks",
+			"level": 15,
+			"entries": [
+				"从15级开始，随从的攻击检定在{@dice d20}掷出18-20时获得重击。"
+			]
+		},
+		{
+			"ENG_name": "Ability Score Improvement",
+			"name": "属性值提升",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "武者协力者",
+			"classSource": "uasidekicks",
+			"level": 16,
+			"entries": [
+				"在16级时，你获得另一个属性值提升。"
+			]
+		},
+		{
+			"ENG_name": "Indomitable (3 uses)",
+			"name": "不屈（3次使用）",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "武者协力者",
+			"classSource": "uasidekicks",
+			"level": 17,
+			"entries": [
+				"在17级时，你获得不屈的额外一次使用机会。"
+			]
+		},
+		{
+			"ENG_name": "Second Wind (2 uses)",
+			"name": "回气（2次使用）",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "武者协力者",
+			"classSource": "uasidekicks",
+			"level": 18,
+			"entries": [
+				"在18级时，你获得一次额外的回气使用次数。"
+			]
+		},
+		{
+			"ENG_name": "Ability Score Improvement",
+			"name": "属性值提升",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "武者协力者",
+			"classSource": "uasidekicks",
+			"level": 19,
+			"entries": [
+				"在19级时，你获得另一个属性值提升。"
+			]
+		},
+		{
+			"ENG_name": "Extra Attack (3 extra)",
+			"name": "额外攻击（额外3次）",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "武者协力者",
+			"classSource": "uasidekicks",
+			"level": 20,
+			"entries": [
+				"在20级时，你获得另一个额外攻击。"
+			]
+		}
+	],
+	"variantrule": [
+		{
+			"ENG_name": "Sidekicks",
+			"name": "协力者",
+			"source": "UASidekicks",
+			"page": 1,
+			"type": "section",
+			"entries": [
+				"这篇文章为你提供了一种直接的方式来玩且升级一个协力者在龙与地下城中。这里呈现的规则采用一个低挑战等级的生物并给予它等级当你获得等级时。",
+				"在你的冒险中，你有时会遇到一个镇民、一只动物或另一个生物且与之建立特殊关系。那个生物甚至可能加入你的冒险，这通常会引发这个问题：当你获得等级时，这个协力者如何变得更强？随着你变得更强大，你面对的敌人可能对警卫薇拉（{@creature 警卫}）、獒犬饼干（{@creature 獒犬}）或你在冒险生涯早期结识的其他同伴来说过于危险。本文回答了这个问题，为你的协力者提供了一条清晰的进阶路途。",
+				{
+					"ENG_name": "Sidekick Stats",
+					"name": "协力者属性",
+					"type": "section",
+					"entries": [
+						"在这些规则中，协力者是一个生物，它是你的朋友且伴随你冒险。这本质上是你打出的第二个角色。（DM可能决定代替你打出它，或者你可以与桌上的其他玩家共同打出它。）",
+						"协力者可以是怪物图鉴或其他D&D书籍中拥有资料卡的任意类型生物，但必须满足以下先决条件：",
+						{
+							"type": "list",
+							"items": [
+								"它的挑战等级必须为{@filter 1或更低|bestiary|challenge rating=[&0;&1]|miscellaneous=!swarm}。要获得{@class 专家协力者|uasidekicks|专家}或{@class 施法者协力者|uasidekicks|施法者}职业，该生物必须在其资料卡中拥有{@filter 资料卡中至少一种它能说的语言|bestiary|challenge rating=[&0;&1]|miscellaneous=!swarm|语言=ab;aq;au;c;ce;!cs;d;dr;ds;du;e;g;gi;go;gth;h;i;ig;o;oth;p;s;t;tc;tp;u;x;xx}。",
+								"你们二人必须成为朋友。"
+							]
+						},
+						{
+							"ENG_name": "Customization for Any CR",
+							"name": "适用于任意挑战等级的定制",
+							"type": "inset",
+							"entries": [
+								"《地下城主指南》提供了关于自定义怪物的指导，包括为其赋予职业等级。这种方法适用于游戏中的任何怪物，但由于需要重新计算怪物的挑战等级，可能会比较复杂。本文中关于协力者的方法专注于为低挑战等级的生物赋予等级，而无需重新计算其挑战等级。"
+							]
+						}
+					]
+				},
+				{
+					"ENG_name": "Gaining a Sidekick Class",
+					"name": "获得协力者职业",
+					"type": "section",
+					"entries": [
+						"当你的协力者加入你时，它会获得一个协力者职业。选择它将在其职业生涯中拥有的职业：{@class 武者协力者|uasidekicks|武者}、{@class 专家协力者|uasidekicks|专家}或{@class 施法者协力者|uasidekicks|施法者}。它们让人联想到玩家角色可用的职业，但更为简单。",
+						"要获得专家或施法者职业，一个生物必须在其资料卡中至少有一种可以说的语言。",
+						{
+							"ENG_name": "Leveling Up a Sidekick",
+							"name": "提升协力者等级",
+							"type": "entries",
+							"entries": [
+								"每当你升级时，你的协力者也同时升级。无论协力者参与了你最近的多少冒险；协力者升级是因为它与你共同经历的冒险及其自身训练的结合。"
+							]
+						},
+						{
+							"ENG_name": "Hit Points",
+							"name": "生命值",
+							"type": "entries",
+							"entries": [
+								"当协力者获得新等级时，它会获得一个生命骰，其生命值上限也会随之提升。投掷生命骰（见协力者资料板中的种类）并将骰值加上体质调整值作为其提升的生命值上限。它升级时最少会获得1生命值。"
+							]
+						},
+						{
+							"ENG_name": "Proficiency Bonus",
+							"name": "熟练加值",
+							"type": "entries",
+							"entries": [
+								"一旦你的同伴拥有协力者职业，该协力者的熟练加值由其在该职业中的等级决定，如职业表格所示。每当协力者的熟练加值增加1时，为其资料卡中所有攻击的命中调整值添加1，且将其资料卡中的DC提高1。"
+							]
+						},
+						{
+							"ENG_name": "Ability Score Increases",
+							"name": "属性值提升",
+							"type": "entries",
+							"entries": [
+								"每当协力者获得属性值提升职业特性时，记得调整其资料卡中任何依赖于你通过该特性提升的属性调整值的内容。例如，若协力者有一个使用力量的攻击，当其力量调整值提升时，增加该攻击的命中且伤害调整值。",
+								"如果不清楚协力者数据板中一项攻击究竟是使用力量还是敏捷，则两种都适用。"
+							]
+						},
+						{
+							"ENG_name": "Multiattack vs. Extra Attack",
+							"name": "多重攻击 vs. 额外攻击",
+							"type": "inset",
+							"entries": [
+								"你的协力者可能在资料卡中拥有多重攻击动作。如果确实如此且获得了额外攻击职业特性，请记住额外攻击作用于{@action 攻击}动作，而非多重攻击动作。简而言之，你不能将额外攻击与多重攻击结合使用。"
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

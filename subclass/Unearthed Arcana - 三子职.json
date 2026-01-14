@@ -1,0 +1,833 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAThreeSubclasses",
+				"abbreviation": "UATSC",
+				"full": "破解奥秘：三子职",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2018/dnd/downloads/UA-3Subclasses0108.pdf",
+				"dateReleased": "2018-01-08"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1729637619,
+		"_dateLastModifiedHash": "d554f87056"
+	},
+	"subclass": [
+		{
+			"ENG_name": "Brute (UA)",
+			"name": "残暴（UA）",
+			"shortName": "残暴（UA）",
+			"source": "UAThreeSubclasses",
+			"className": "战士",
+			"classSource": "PHB",
+			"page": 2,
+			"optionalfeatureProgression": [
+				{
+					"ENG_name": "Fighting Style",
+					"name": "战斗风格",
+					"featureType": [
+						"FS:F"
+					],
+					"progression": {
+						"10": 1
+					}
+				}
+			],
+			"subclassFeatures": [
+				"残暴|战士||残暴（UA）|UAThreeSubclasses|3",
+				"蛮力耐久|战士||残暴（UA）|UAThreeSubclasses|7",
+				"额外战斗风格|战士||残暴（UA）|UAThreeSubclasses|10",
+				"毁灭重击|战士||残暴（UA）|UAThreeSubclasses|15",
+				"生还者|战士||残暴（UA）|UAThreeSubclasses|18"
+			]
+		},
+		{
+			"ENG_name": "Circle of Spores (UA)",
+			"name": "孢子结社（UA）",
+			"shortName": "孢子（UA）",
+			"source": "UAThreeSubclasses",
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"page": 1,
+			"isReprinted": true,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"遗体防腐",
+							"衰弱射线"
+						],
+						"5": [
+							"活化死尸",
+							"气化形体"
+						],
+						"7": [
+							"枯萎术",
+							"困惑术"
+						],
+						"9": [
+							"死云术",
+							"疫病术"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"孢子结社（UA）|德鲁伊||孢子（UA）|UAThreeSubclasses|2",
+				"真菌感染|德鲁伊||孢子（UA）|UAThreeSubclasses|6",
+				"扩散孢子|德鲁伊||孢子（UA）|UAThreeSubclasses|10",
+				"真菌之躯|德鲁伊||孢子（UA）|UAThreeSubclasses|14"
+			]
+		},
+		{
+			"ENG_name": "School of Invention (UA)",
+			"name": "发明学派（UA）",
+			"shortName": "发明学派（UA）",
+			"source": "UAThreeSubclasses",
+			"className": "法师",
+			"classSource": "PHB",
+			"page": 2,
+			"subclassFeatures": [
+				"发明学派|法师||发明学派（UA）|UAThreeSubclasses|2",
+				"炼金施法|法师||发明学派（UA）|UAThreeSubclasses|6",
+				"非凡激励|法师||发明学派（UA）|UAThreeSubclasses|10",
+				"掌控混沌|法师||发明学派（UA）|UAThreeSubclasses|14"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"ENG_name": "Circle of Spores (UA)",
+			"name": "孢子结社（UA）",
+			"source": "UAThreeSubclasses",
+			"page": 1,
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"subclassShortName": "孢子（UA）",
+			"subclassSource": "UAThreeSubclasses",
+			"level": 2,
+			"entries": [
+				"孢子结社的德鲁伊们在衰竭中发现美丽。他们在霉菌和其他真菌中看到将无生命的材质转化为丰富（尽管有些奇怪）生命的能力。这些德鲁伊相信生死是宏大循环的一部分，彼此相生相续。死亡并非生命的终结，而是一种状态的转变，使生命进入新形态。这个结社的德鲁伊与亡灵有着复杂的关系。与大多数其他德鲁伊不同，他们认为不死本身并无过错，视其为生死循环的同伴。然而，这些德鲁伊相信当循环的每个环节都充满活力且不断变化时，自然循环才是最健康的。那些试图用不死取代所有生命，或逃避最终安息的亡灵，违背了循环，必须被阻止。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "结社法术|德鲁伊||孢子（UA）|UAThreeSubclasses|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "孢子环绕|德鲁伊||孢子（UA）|UAThreeSubclasses|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "一体共生|德鲁伊||孢子（UA）|UAThreeSubclasses|2"
+				}
+			]
+		},
+		{
+			"ENG_name": "Circle Spells",
+			"name": "结社法术",
+			"source": "UAThreeSubclasses",
+			"page": 1,
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"subclassShortName": "孢子（UA）",
+			"subclassSource": "UAThreeSubclasses",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"你与真菌的共生联系以及你利用生死循环的能力赋予了你某些法术。在1级时，你学会{@spell 颤栗之触}戏法。在3级、5级、7级和9级时，你可以获得孢子结社法术表格中对应等级的法术。",
+				"一旦你习得这些法术中任意一个，你就会一直准备着它，且不计入你的每日准备法术上限。如果你学会一个不在德鲁伊法术列表中的法术，该法术对你来说视作德鲁伊法术。",
+				{
+					"type": "table",
+					"caption": "孢子结社法术",
+					"colLabels": [
+						"德鲁伊等级",
+						"结社法术"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell 遗体防腐}, {@spell 衰弱射线}"
+						],
+						[
+							"5th",
+							"{@spell 活化死尸}, {@spell 气化形体}"
+						],
+						[
+							"7th",
+							"{@spell 枯萎术}, {@spell 困惑术}"
+						],
+						[
+							"9th",
+							"{@spell 死云术}, {@spell 疫病术}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Halo of Spores",
+			"name": "孢子环绕",
+			"source": "UAThreeSubclasses",
+			"page": 1,
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"subclassShortName": "孢子（UA）",
+			"subclassSource": "UAThreeSubclasses",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"从2级开始，你可以向其他生物发射毒性孢子。为此，你可以在你的回合使用反应对一个你能看见的10尺内的生物造成3点毒素伤害。此伤害在6级时提升至6点，10级时提升至9点，14级时提升至12点。"
+			]
+		},
+		{
+			"ENG_name": "Symbiotic Entity",
+			"name": "一体共生",
+			"source": "UAThreeSubclasses",
+			"page": 1,
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"subclassShortName": "孢子（UA）",
+			"subclassSource": "UAThreeSubclasses",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"在2级时，你获得将法术传递至注入你的孢子的属性。",
+				"当你使用荒野形态特性时，你可以唤醒那些孢子，而非变形。当你这样做时，你获得每职业等级3点临时生命值，你的孢子环绕特性伤害翻倍，且你的近战武器攻击对任何命中的目标额外造成{@damage 1d6}毒素伤害。这些增益持续10分钟或直到你再次使用荒野形态。"
+			]
+		},
+		{
+			"ENG_name": "Fungal Infestation",
+			"name": "真菌感染",
+			"source": "UAThreeSubclasses",
+			"page": 1,
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"subclassShortName": "孢子（UA）",
+			"subclassSource": "UAThreeSubclasses",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"在6级时，你的孢子获得感染类人生物尸体并使其活动的能力。",
+				"如果你用孢子环绕伤害剿灭一个类人生物，该生物会在你的回合结束时以{@creature 丧尸}的形式复活。它拥有1点生命值。在战斗中，它的回合紧随你的回合之后。它会服从你的精神命令，且它唯一能采取的动作是{@action 攻击}动作，进行一次近战攻击。它会保持活动状态1小时，之后时间一到便会倒下并死亡。"
+			]
+		},
+		{
+			"ENG_name": "Spreading Spores",
+			"name": "扩散孢子",
+			"source": "UAThreeSubclasses",
+			"page": 1,
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"subclassShortName": "孢子（UA）",
+			"subclassSource": "UAThreeSubclasses",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"在10级时，你获得在区域播种致命孢子的能力。以一个附赠动作，你可以将真菌孢子猛投至30尺远，在那里它们会在一个10尺立方中盘旋1分钟。当孢子方块持续时，你不能使用你的孢子环绕特性，但任何在方块中开始其回合的生物会受到你的孢子环绕伤害。如果你再次使用此特性，孢子方块会提前消失。"
+			]
+		},
+		{
+			"ENG_name": "Fungal Body",
+			"name": "真菌之躯",
+			"source": "UAThreeSubclasses",
+			"page": 1,
+			"className": "德鲁伊",
+			"classSource": "PHB",
+			"subclassShortName": "孢子（UA）",
+			"subclassSource": "UAThreeSubclasses",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"在14级时，你体内的真菌孢子会改变你：你不能陷入{@condition 目盲}、{@condition 耳聋}、{@condition 恐慌}或{@condition 中毒}状态，且如果攻击对你造成重击，它不会对你造成额外伤害。"
+			]
+		},
+		{
+			"ENG_name": "Brute",
+			"name": "残暴",
+			"source": "UAThreeSubclasses",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "残暴（UA）",
+			"subclassSource": "UAThreeSubclasses",
+			"level": 3,
+			"entries": [
+				"蛮兵是依靠强力攻击和自身耐久度来克服敌人的简易武者。一些蛮兵将这种体魄强度与战术智慧相结合。其他蛮兵只是不断攻击目标，直到目标停止反击。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "凶蛮之力|战士||残暴（UA）|UAThreeSubclasses|3"
+				}
+			]
+		},
+		{
+			"ENG_name": "Brute Force",
+			"name": "凶蛮之力",
+			"source": "UAThreeSubclasses",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "残暴（UA）",
+			"subclassSource": "UAThreeSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"从3级开始，你能够以特别凶蛮的力量用武器进行打击。每当你用熟练的武器命中且造成伤害时，该武器的伤害会根据你在此职业中的等级而提升，如凶蛮之力附赠伤害表格所示。",
+				{
+					"type": "table",
+					"caption": "凶蛮之力附赠伤害",
+					"colLabels": [
+						"战士等级",
+						"伤害提升"
+					],
+					"colStyles": [
+						"col-6 text-center",
+						"col-6 text-center"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@dice 1d4}"
+						],
+						[
+							"10th",
+							"{@dice 1d6}"
+						],
+						[
+							"16th",
+							"{@dice 1d8}"
+						],
+						[
+							"20th",
+							"{@dice 1d10}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Brutish Durability",
+			"name": "蛮力耐久",
+			"source": "UAThreeSubclasses",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "残暴（UA）",
+			"subclassSource": "UAThreeSubclasses",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"从7级开始，你的刚毅使你能抵御那些会摧毁他人的攻击。",
+				"每当你进行豁免检定时，掷{@dice 1d6}且将该骰子添加到你的豁免检定全部中。如果将此附赠动作应用于死亡豁免检定使全部增加到20或更高，你将获得在{@dice d20}上掷出20的增益。"
+			]
+		},
+		{
+			"ENG_name": "Additional Fighting Style",
+			"name": "额外战斗风格",
+			"source": "UAThreeSubclasses",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "残暴（UA）",
+			"subclassSource": "UAThreeSubclasses",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"在10级时，你可以从战斗风格特性中选择第二个选项。"
+			]
+		},
+		{
+			"ENG_name": "Devastating Critical",
+			"name": "毁灭重击",
+			"source": "UAThreeSubclasses",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "残暴（UA）",
+			"subclassSource": "UAThreeSubclasses",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"从15级开始，当你用武器攻击造成重击时，你获得一个等于你在此职业中等级的附赠动作加到该武器的伤害掷骰上。"
+			]
+		},
+		{
+			"ENG_name": "Survivor",
+			"name": "生还者",
+			"source": "UAThreeSubclasses",
+			"page": 2,
+			"className": "战士",
+			"classSource": "PHB",
+			"subclassShortName": "残暴（UA）",
+			"subclassSource": "UAThreeSubclasses",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"在18级时，你在战斗中达到了恢复力的巅峰。在你的每个战斗回合开始时，你恢复等同于5 + 你的体质调整值的生命值（至少1点生命值）。如果你有0点生命值或剩余生命值超过一半，则不会获得此增益。"
+			]
+		},
+		{
+			"ENG_name": "School of Invention",
+			"name": "发明学派",
+			"source": "UAThreeSubclasses",
+			"page": 2,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "发明学派（UA）",
+			"subclassSource": "UAThreeSubclasses",
+			"level": 2,
+			"entries": [
+				"发明学派声称是他们发明了其他魔法学派\u2014\u2014这一说法被其他法师认为是荒谬的。该学派的法师将魔法推至极限。他们扩展已知的奥术法则，并努力揭示关于多元宇宙本质的重要真相。",
+				"这个学派的信徒认为创新最好通过实验来实现。他们以先行动后思考而闻名。大多数法师是通过仔细研究、严格练习和无尽小时重复来精通其技艺的学者。这些法师更愿意将法术拼凑在一起，看看会发生什么。",
+				"许多该传统的法师是侏儒、炼金师或两者兼具，且他们以穿着魔法灌注的护甲为傲。这护甲不仅提供守护，还被设计来协助法师以不可预测的方式传递法术。",
+				"这一传统的法师们当面被尊为学者，但其他传统的法师们常常认为它们是疯子。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "发明者的工具|法师||发明学派（UA）|UAThreeSubclasses|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "奥术机械护甲|法师||发明学派（UA）|UAThreeSubclasses|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "鲁莽施法|法师||发明学派（UA）|UAThreeSubclasses|2"
+				}
+			]
+		},
+		{
+			"ENG_name": "Arcanomechanical Armor",
+			"name": "奥术机械护甲",
+			"source": "UAThreeSubclasses",
+			"page": 2,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "发明学派（UA）",
+			"subclassSource": "UAThreeSubclasses",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"创新是一项危险的实践，至少在这学派的成员看来是如此。作为对这种风险的防护，你开发了一套奥能装甲。",
+				"从2级开始，你获得轻甲熟练且获得一套奥术机械护甲\u2014\u2014一件只有你能同调的魔法物品。当你与其同调并穿戴时，它会赋予你力场伤害抗性。",
+				"该护甲是轻甲且提供12 + 你的敏捷调整值的护甲等级。它重8磅。",
+				"你可以在长休结束时通过触摸一件非魔法的镶钉皮甲来创造一套新的奥术机械护甲，这会将其魔法般地转化。这样做会移除你之前奥术机械护甲的魔法，将其变为非魔法的镶钉皮甲。"
+			]
+		},
+		{
+			"ENG_name": "Reckless Casting",
+			"name": "鲁莽施法",
+			"source": "UAThreeSubclasses",
+			"page": 2,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "发明学派（UA）",
+			"subclassSource": "UAThreeSubclasses",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"从2级开始，你可以尝试施放一个你没有准备的法术。当你使用此能力时，消耗一个动作且选择以下一项：",
+				{
+					"type": "list",
+					"items": [
+						"在鲁莽施法表格上掷骰以决定戏法且作为此动作的一部分施放结果法术。",
+						"消耗一个法术位并在鲁莽施法表格上掷骰两次（使用该法术位等级对应的表格，若法术位为6环或更高则使用5级表格）。从这两个结果中选择一个你想要的效果，并作为此动作的一部分施放该法术。"
+					]
+				},
+				"如果你施放的法术不是法师法术，当你使用此特性施放它时，对你而言它仍然是法师法术。",
+				{
+					"type": "table",
+					"caption": "鲁莽施法",
+					"colLabels": [
+						"d10",
+						"戏法"
+					],
+					"colStyles": [
+						"col-2",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"{@spell 酸液飞溅}"
+						],
+						[
+							"2",
+							"{@spell 颤栗之触}"
+						],
+						[
+							"3",
+							"{@spell 火焰箭}"
+						],
+						[
+							"4",
+							"{@spell 光亮术}"
+						],
+						[
+							"5",
+							"{@spell 毒气喷涌}"
+						],
+						[
+							"6",
+							"{@spell 冷冻射线}"
+						],
+						[
+							"7",
+							"{@spell 电爪}"
+						],
+						[
+							"8",
+							"{@spell 圣火术}"
+						],
+						[
+							"9",
+							"{@spell 荆棘之鞭}"
+						],
+						[
+							"10",
+							"掷骰两次且施放每个戏法，但如果你在任一骰子上掷出另一个10，你施放无，浪费你的动作。"
+						]
+					]
+				},
+				{
+					"type": "table",
+					"colLabels": [
+						"d10",
+						"一环法术"
+					],
+					"colStyles": [
+						"col-2",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"{@spell 燃烧之手}"
+						],
+						[
+							"2",
+							"{@spell 繁彩球}"
+						],
+						[
+							"3",
+							"{@spell 七彩喷射}"
+						],
+						[
+							"4",
+							"{@spell 妖火}"
+						],
+						[
+							"5",
+							"{@spell 虚假生命}"
+						],
+						[
+							"6",
+							"{@spell 云雾术}"
+						],
+						[
+							"7",
+							"{@spell 跳跃术}"
+						],
+						[
+							"8",
+							"{@spell 魔法飞弹}"
+						],
+						[
+							"9",
+							"{@spell 雷鸣波}"
+						],
+						[
+							"10",
+							"掷骰两次且施放每个法术，但如果你在任一骰子上掷出另一个10，你施放无，浪费你的动作但不浪费法术位。"
+						]
+					]
+				},
+				{
+					"type": "table",
+					"colLabels": [
+						"d10",
+						"2环法术"
+					],
+					"colStyles": [
+						"col-2",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"{@spell 朦胧术}"
+						],
+						[
+							"2",
+							"{@spell 黑暗术}"
+						],
+						[
+							"3",
+							"{@spell 变巨/缩小术}"
+						],
+						[
+							"4",
+							"{@spell 造风术}"
+						],
+						[
+							"5",
+							"{@spell 隐形术}"
+						],
+						[
+							"6",
+							"{@spell 浮空术}"
+						],
+						[
+							"7",
+							"{@spell 马友夫强酸箭}"
+						],
+						[
+							"8",
+							"{@spell 灼热射线}"
+						],
+						[
+							"9",
+							"{@spell 粉碎音波}"
+						],
+						[
+							"10",
+							"掷骰两次且施放每个法术，但如果你在任一骰子上掷出另一个10，你施放无，浪费你的动作但不浪费法术位。"
+						]
+					]
+				},
+				{
+					"type": "table",
+					"colLabels": [
+						"d10",
+						"3环法术"
+					],
+					"colStyles": [
+						"col-2",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"{@spell 闪现术}"
+						],
+						[
+							"2",
+							"{@spell 恐惧术}"
+						],
+						[
+							"3",
+							"{@spell 假死术}"
+						],
+						[
+							"4",
+							"{@spell 火球术}"
+						],
+						[
+							"5",
+							"{@spell 飞行术}"
+						],
+						[
+							"6",
+							"{@spell 气化形体}"
+						],
+						[
+							"7",
+							"{@spell 闪电束}"
+						],
+						[
+							"8",
+							"{@spell 雪雨暴}"
+						],
+						[
+							"9",
+							"{@spell 臭云术}"
+						],
+						[
+							"10",
+							"掷骰两次且施放每个法术，但如果你在任一骰子上掷出另一个10，你施放无，浪费你的动作但不浪费法术位。"
+						]
+					]
+				},
+				{
+					"type": "table",
+					"colLabels": [
+						"d10",
+						"4环法术"
+					],
+					"colStyles": [
+						"col-2",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"{@spell 枯萎术}"
+						],
+						[
+							"2",
+							"{@spell 困惑术}"
+						],
+						[
+							"3",
+							"{@spell 艾伐黑触手}"
+						],
+						[
+							"4",
+							"{@spell 火焰护盾}"
+						],
+						[
+							"5",
+							"{@spell 高等隐形术}"
+						],
+						[
+							"6",
+							"{@spell 冰风暴}"
+						],
+						[
+							"7",
+							"{@spell 魅影杀手}"
+						],
+						[
+							"8",
+							"{@spell 石肤术}"
+						],
+						[
+							"9",
+							"{@spell 火墙术}"
+						],
+						[
+							"10",
+							"掷骰两次且施放每个法术，但如果你在任一骰子上掷出另一个10，你施放无，浪费你的动作但不浪费法术位。"
+						]
+					]
+				},
+				{
+					"type": "table",
+					"colLabels": [
+						"d10",
+						"5环法术"
+					],
+					"colStyles": [
+						"col-2",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"{@spell 死云术}"
+						],
+						[
+							"2",
+							"{@spell 寒冰锥}"
+						],
+						[
+							"3",
+							"{@spell 湮灭波}"
+						],
+						[
+							"4",
+							"{@spell 焰击术}"
+						],
+						[
+							"5",
+							"{@spell 定身怪物}"
+						],
+						[
+							"6",
+							"{@spell 疫病虫群}"
+						],
+						[
+							"7",
+							"{@spell 群体疗伤术}"
+						],
+						[
+							"8",
+							"{@spell 力场墙}"
+						],
+						[
+							"9",
+							"{@spell 石墙术}"
+						],
+						[
+							"10",
+							"掷骰两次且施放每个法术，但如果你在任一骰子上掷出另一个10，你施放无，浪费你的动作但不浪费法术位。"
+						]
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Tools of the Inventor",
+			"name": "发明者的工具",
+			"source": "UAThreeSubclasses",
+			"page": 2,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "发明学派（UA）",
+			"subclassSource": "UAThreeSubclasses",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"在2级时，你获得自选两种工具的熟练。"
+			]
+		},
+		{
+			"ENG_name": "Alchemical Casting",
+			"name": "炼金施法",
+			"source": "UAThreeSubclasses",
+			"page": 2,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "发明学派（UA）",
+			"subclassSource": "UAThreeSubclasses",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"在6级时，你学会通过你的奥术机械护甲传递法术以多种方式极距法术。当你穿着该护甲且与其同调时施法，你可以消耗一个额外的1级或2级法术位来改变该法术。效应取决于你消耗的法术位。",
+				"1级法术位允许你操纵法术的能量。当你施放一个造成强酸、寒冷、火焰、闪电或雷鸣伤害的法术时，你可以将该伤害类型替换为那个列表中的另一种类型。",
+				"一个2环法术位会增加法术的原始力场。如果你在施放法术时掷骰伤害，则在本回合内对该法术的一个目标（由你选择）增加{@damage 2d10}力场伤害。"
+			]
+		},
+		{
+			"ENG_name": "Prodigious Inspiration",
+			"name": "非凡激励",
+			"source": "UAThreeSubclasses",
+			"page": 2,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "发明学派（UA）",
+			"subclassSource": "UAThreeSubclasses",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"在10级时，你获得了更高程度的法术预备精通。以一个附赠动作，你可以用你的法术书中的另一个法术替换你已预备的一个法术。直到你完成一次短休或长休前，你无法再次使用该属性。"
+			]
+		},
+		{
+			"ENG_name": "Controlled Chaos",
+			"name": "掌控混沌",
+			"source": "UAThreeSubclasses",
+			"page": 2,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "发明学派（UA）",
+			"subclassSource": "UAThreeSubclasses",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"在14级时，你即兴施展魔法的能力变得更强。每当你为戏法以外的法术在鲁莽施法表格上掷骰时，你可以掷比消耗法术位高一级的表格。"
+			]
+		}
+	]
+}

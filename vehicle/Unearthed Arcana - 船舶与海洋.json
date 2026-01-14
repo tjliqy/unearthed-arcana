@@ -1,0 +1,1430 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAOfShipsAndSea",
+				"abbreviation": "UAOSS",
+				"full": "破解奥秘：舰船与海洋",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2018/dnd/downloads/UA_ShipsSea.pdf",
+				"dateReleased": "2018-11-12"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1701616429,
+		"dateLastModified": 1729637619,
+		"_dateLastModifiedHash": "761a296a8f"
+	},
+	"vehicle": [
+		{
+			"ENG_name": "Airship",
+			"name": "飞艇",
+			"source": "UAOfShipsAndSea",
+			"page": 2,
+			"vehicleType": "SHIP",
+			"size": "G",
+			"dimensions": [
+				"80尺",
+				"20 尺"
+			],
+			"terrain": [
+				"风"
+			],
+			"capCrew": 20,
+			"capPassenger": 10,
+			"capCargo": 1,
+			"pace": 9,
+			"str": 14,
+			"dex": 14,
+			"con": 12,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"immune": [
+				"毒素",
+				"心灵"
+			],
+			"conditionImmune": [
+				"目盲",
+				"魅惑",
+				"耳聋",
+				"力竭",
+				"恐慌",
+				"失能",
+				"麻痹",
+				"石化",
+				"中毒",
+				"倒地",
+				"震慑",
+				"昏迷"
+			],
+			"hull": {
+				"ac": 13,
+				"hp": 300
+			},
+			"control": [
+				{
+					"ENG_name": "Helm",
+					"name": "海姆",
+					"ac": 16,
+					"hp": 50,
+					"entries": [
+						"移动距离最多为其元素引擎的速度，可进行一次90度的转向。如果海姆被摧毁，飞艇将无法转向。"
+					]
+				}
+			],
+			"movement": [
+				{
+					"ENG_name": "Elemental Engine",
+					"name": "元素引擎",
+					"ac": 18,
+					"hp": 100,
+					"hpNote": "-每受到25伤害速度减少20尺",
+					"locomotion": [
+						{
+							"mode": "air",
+							"entries": [
+								"元素生物法力，速度80尺。如果引擎被摧毁，飞艇会立即坠毁。"
+							]
+						}
+					]
+				}
+			],
+			"weapon": [
+				{
+					"ENG_name": "Ballistas",
+					"name": "弩炮",
+					"count": 4,
+					"ac": 15,
+					"hp": 50,
+					"entries": [
+						"{@atk rw} 命中{@hit 6}，射程 120/480 尺，单一目标。{@h}16 ({@damage 3d10}) 点穿刺伤害。"
+					]
+				}
+			],
+			"other": [
+				{
+					"ENG_name": "Actions",
+					"name": "动作",
+					"entries": [
+						"在它的回合，飞艇可以使用舵板通过元素引擎移动。它也可以发射弩炮。如果船员只剩一半或更少，它只能发射两门弩炮。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Galley",
+			"name": "桨帆船",
+			"source": "UAOfShipsAndSea",
+			"page": 2,
+			"vehicleType": "SHIP",
+			"size": "G",
+			"dimensions": [
+				"130尺",
+				"20 尺"
+			],
+			"terrain": [
+				"海洋"
+			],
+			"capCrew": 80,
+			"capPassenger": 40,
+			"capCargo": 150,
+			"pace": 4,
+			"str": 24,
+			"dex": 4,
+			"con": 20,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"immune": [
+				"毒素",
+				"心灵"
+			],
+			"conditionImmune": [
+				"目盲",
+				"魅惑",
+				"耳聋",
+				"力竭",
+				"恐慌",
+				"失能",
+				"麻痹",
+				"石化",
+				"中毒",
+				"倒地",
+				"震慑",
+				"昏迷"
+			],
+			"hull": {
+				"ac": 15,
+				"hp": 500,
+				"dt": 20
+			},
+			"control": [
+				{
+					"ENG_name": "Helm",
+					"name": "海姆",
+					"ac": 16,
+					"hp": 50,
+					"entries": [
+						"移动至其一个移动组件的速度，并进行一次90度转向。如果舵被摧毁，桨帆船无法转向。"
+					]
+				}
+			],
+			"movement": [
+				{
+					"ENG_name": "Sails",
+					"name": "帆",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "每受到25点伤害，速度减少10尺",
+					"locomotion": [
+						{
+							"mode": "water",
+							"entries": [
+								"帆，速度 35 尺；逆风航行时 15 尺；顺风航行时 50 尺。"
+							]
+						}
+					]
+				},
+				{
+					"ENG_name": "Oars",
+					"name": "桨",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "每受到25点伤害，速度减少5尺",
+					"locomotion": [
+						{
+							"mode": "water",
+							"entries": [
+								"桨，速度30尺。"
+							]
+						}
+					]
+				}
+			],
+			"weapon": [
+				{
+					"ENG_name": "Ballistas",
+					"name": "弩炮",
+					"count": 4,
+					"ac": 15,
+					"hp": 50,
+					"entries": [
+						"{@atk rw} 命中{@hit 6}，射程 120/480 尺，单一目标。{@h}16 ({@damage 3d10}) 点穿刺伤害。"
+					]
+				},
+				{
+					"ENG_name": "Mangonels",
+					"name": "投石机",
+					"count": 2,
+					"ac": 15,
+					"hp": 100,
+					"entries": [
+						"{@atk rw} 命中{@hit 5}，射程200/800尺（不能命中距离它60尺以内的目标），单一目标。{@h}27（{@damage 5d10}）点钝击伤害。"
+					]
+				},
+				{
+					"ENG_name": "Ram",
+					"name": "攻城槌",
+					"ac": 20,
+					"hp": 100,
+					"dt": 10,
+					"entries": [
+						"桨帆船在撞击生物或物件时，所有与撞击相关的豁免检定具有优势，且撞击造成的所有伤害将转而作用于攻城槌。若有载具撞击桨帆船，则这些增益不适用。"
+					]
+				}
+			],
+			"other": [
+				{
+					"ENG_name": "Actions",
+					"name": "动作",
+					"entries": [
+						"在它的回合中，桨帆船可以使用舵板移动。它也可以发射弩炮和投石机。如果船员只剩一半或更少，它以半速移动且只能发射一半的武器。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Keelboat",
+			"name": "龙骨船",
+			"source": "UAOfShipsAndSea",
+			"page": 3,
+			"vehicleType": "SHIP",
+			"size": "G",
+			"dimensions": [
+				"60尺",
+				"20 尺"
+			],
+			"terrain": [
+				"海洋"
+			],
+			"capCrew": 3,
+			"capPassenger": 4,
+			"capCargo": 0.5,
+			"pace": 3,
+			"str": 16,
+			"dex": 7,
+			"con": 13,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"immune": [
+				"毒素",
+				"心灵"
+			],
+			"conditionImmune": [
+				"目盲",
+				"魅惑",
+				"耳聋",
+				"力竭",
+				"恐慌",
+				"失能",
+				"麻痹",
+				"石化",
+				"中毒",
+				"倒地",
+				"震慑",
+				"昏迷"
+			],
+			"hull": {
+				"ac": 15,
+				"hp": 100,
+				"dt": 10
+			},
+			"control": [
+				{
+					"ENG_name": "Helm",
+					"name": "海姆",
+					"ac": 12,
+					"hp": 50,
+					"entries": [
+						"移动至其一个移动组件的速度，并进行一次90度转向。如果舵被摧毁，龙骨船将无法转向。"
+					]
+				}
+			],
+			"movement": [
+				{
+					"ENG_name": "Sails",
+					"name": "帆",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "每受到20点伤害，速度减少5尺",
+					"locomotion": [
+						{
+							"mode": "water",
+							"entries": [
+								"帆，速度 25 尺；逆风航行时 15 尺；顺风航行时 35 尺。"
+							]
+						}
+					]
+				},
+				{
+					"ENG_name": "Oars",
+					"name": "桨",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "每受到25点伤害，速度减少5尺",
+					"locomotion": [
+						{
+							"mode": "water",
+							"entries": [
+								"桨，速度 20 尺"
+							]
+						}
+					]
+				}
+			],
+			"weapon": [
+				{
+					"ENG_name": "Ballista",
+					"name": "弩炮",
+					"ac": 15,
+					"hp": 50,
+					"entries": [
+						"{@atk rw} {@hit 6} 命中，范围 120/480 尺，单一目标。{@h}16（{@damage 3d10}）穿刺伤害。龙骨船通常只在装备战斗时才包括弩炮。"
+					]
+				}
+			],
+			"other": [
+				{
+					"ENG_name": "Actions",
+					"name": "动作",
+					"entries": [
+						"在它的回合，龙骨船可以使用舵板移动。如果装备了弩炮，它也可以发射弩炮。如果船员只剩一半或更少，它以半速移动且不能使用弩炮。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Longship",
+			"name": "单帆长船",
+			"source": "UAOfShipsAndSea",
+			"page": 4,
+			"vehicleType": "SHIP",
+			"size": "G",
+			"dimensions": [
+				"70尺",
+				"20 尺"
+			],
+			"terrain": [
+				"海洋"
+			],
+			"capCrew": 40,
+			"capPassenger": 100,
+			"capCargo": 10,
+			"pace": 5,
+			"str": 20,
+			"dex": 6,
+			"con": 17,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"immune": [
+				"毒素",
+				"心灵"
+			],
+			"conditionImmune": [
+				"目盲",
+				"魅惑",
+				"耳聋",
+				"力竭",
+				"恐慌",
+				"失能",
+				"麻痹",
+				"石化",
+				"中毒",
+				"倒地",
+				"震慑",
+				"昏迷"
+			],
+			"hull": {
+				"ac": 15,
+				"hp": 300,
+				"dt": 15
+			},
+			"control": [
+				{
+					"ENG_name": "Helm",
+					"name": "海姆",
+					"ac": 16,
+					"hp": 50,
+					"entries": [
+						"移动至其一个移动组件的速度，并进行一次90度转向。若舵被摧毁，单帆长船无法转向。"
+					]
+				}
+			],
+			"movement": [
+				{
+					"ENG_name": "Sails",
+					"name": "帆",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "每受到25点伤害，速度减少10尺",
+					"locomotion": [
+						{
+							"mode": "water",
+							"entries": [
+								"帆，速度45尺；逆风航行时15尺；顺风航行时60尺。"
+							]
+						}
+					]
+				},
+				{
+					"ENG_name": "Oars",
+					"name": "桨",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "每受到25点伤害，速度减少5尺",
+					"locomotion": [
+						{
+							"mode": "water",
+							"entries": [
+								"桨，速度 20 尺"
+							]
+						}
+					]
+				}
+			],
+			"other": [
+				{
+					"ENG_name": "Actions",
+					"name": "动作",
+					"entries": [
+						"在它的回合，单帆长船可以使用舵板移动。如果单帆长船失去一半或更多的船员，它以半速移动。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Rowboat",
+			"name": "划艇",
+			"source": "UAOfShipsAndSea",
+			"page": 4,
+			"vehicleType": "SHIP",
+			"size": "L",
+			"dimensions": [
+				"10 尺",
+				"5 尺"
+			],
+			"terrain": [
+				"海洋"
+			],
+			"capCrew": 2,
+			"capPassenger": 2,
+			"capCargo": 0.25,
+			"pace": 3,
+			"str": 11,
+			"dex": 8,
+			"con": 11,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"immune": [
+				"毒素",
+				"心灵"
+			],
+			"conditionImmune": [
+				"目盲",
+				"魅惑",
+				"耳聋",
+				"力竭",
+				"恐慌",
+				"失能",
+				"麻痹",
+				"石化",
+				"中毒",
+				"倒地",
+				"震慑",
+				"昏迷"
+			],
+			"hull": {
+				"ac": 11,
+				"hp": 50,
+				"dt": 0
+			},
+			"movement": [
+				{
+					"ENG_name": "Oars",
+					"name": "桨",
+					"isControl": true,
+					"ac": 12,
+					"hp": 25,
+					"locomotion": [
+						{
+							"mode": "water",
+							"entries": [
+								"桨，速度15尺。移动最多等同于其速度，可进行一次90度转向。若无桨，划艇的速度为0。"
+							]
+						}
+					]
+				}
+			],
+			"other": [
+				{
+					"ENG_name": "Actions",
+					"name": "动作",
+					"entries": [
+						"在它的回合，划艇可以使用它的桨移动。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Sailing Ship",
+			"name": "帆船",
+			"source": "UAOfShipsAndSea",
+			"page": 4,
+			"vehicleType": "SHIP",
+			"size": "G",
+			"dimensions": [
+				"80尺",
+				"20 尺"
+			],
+			"terrain": [
+				"海洋"
+			],
+			"capCrew": 30,
+			"capPassenger": 20,
+			"capCargo": 100,
+			"pace": 5,
+			"str": 20,
+			"dex": 7,
+			"con": 17,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"immune": [
+				"毒素",
+				"心灵"
+			],
+			"conditionImmune": [
+				"目盲",
+				"魅惑",
+				"耳聋",
+				"力竭",
+				"恐慌",
+				"失能",
+				"麻痹",
+				"石化",
+				"中毒",
+				"倒地",
+				"震慑",
+				"昏迷"
+			],
+			"hull": {
+				"ac": 15,
+				"hp": 300,
+				"dt": 15
+			},
+			"control": [
+				{
+					"ENG_name": "Helm",
+					"name": "海姆",
+					"ac": 18,
+					"hp": 50,
+					"entries": [
+						"加速至多其帆的速度，进行一次90度的转向。如果舵被摧毁，船舶无法转向。"
+					]
+				}
+			],
+			"movement": [
+				{
+					"ENG_name": "Sails",
+					"name": "帆",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "每受到25点伤害，速度减少5尺",
+					"locomotion": [
+						{
+							"mode": "water",
+							"entries": [
+								"帆，速度45尺；逆风航行时15尺；顺风航行时60尺。"
+							]
+						}
+					]
+				}
+			],
+			"weapon": [
+				{
+					"ENG_name": "Ballista",
+					"name": "弩炮",
+					"ac": 15,
+					"hp": 50,
+					"entries": [
+						"{@atk rw} 命中{@hit 6}，射程 120/480 尺，单一目标。{@h}16 ({@damage 3d10}) 点穿刺伤害。"
+					]
+				},
+				{
+					"ENG_name": "Mangonel",
+					"name": "弹射投石机",
+					"ac": 15,
+					"hp": 100,
+					"entries": [
+						"{@atk rw} 命中{@hit 5}，射程200/800尺（不能命中距离它60尺以内的目标），单一目标。{@h}27（{@damage 5d10}）点钝击伤害。"
+					]
+				}
+			],
+			"other": [
+				{
+					"ENG_name": "Actions",
+					"name": "动作",
+					"entries": [
+						"在它的回合，帆船可以使用舵板移动。它也可以发射它的弩炮和弹射投石机。如果它只有一半或更少的船员，它以半速移动且只能发射它的弩炮或弹射投石机。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Warship",
+			"name": "战舰",
+			"source": "UAOfShipsAndSea",
+			"page": 5,
+			"vehicleType": "SHIP",
+			"size": "G",
+			"dimensions": [
+				"100 尺",
+				"20 尺"
+			],
+			"terrain": [
+				"海洋"
+			],
+			"capCrew": 40,
+			"capPassenger": 60,
+			"capCargo": 200,
+			"pace": 4,
+			"str": 20,
+			"dex": 4,
+			"con": 20,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"immune": [
+				"毒素",
+				"心灵"
+			],
+			"conditionImmune": [
+				"目盲",
+				"魅惑",
+				"耳聋",
+				"力竭",
+				"恐慌",
+				"失能",
+				"麻痹",
+				"石化",
+				"中毒",
+				"倒地",
+				"震慑",
+				"昏迷"
+			],
+			"hull": {
+				"ac": 15,
+				"hp": 500,
+				"dt": 20
+			},
+			"control": [
+				{
+					"ENG_name": "Helm",
+					"name": "海姆",
+					"ac": 18,
+					"hp": 50,
+					"entries": [
+						"加速至其一个移动组件的速度，并进行一次90度转向。如果舵被摧毁，战舰将无法转向。"
+					]
+				}
+			],
+			"movement": [
+				{
+					"ENG_name": "Sails",
+					"name": "帆",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "每受到25点伤害，速度减少10尺",
+					"locomotion": [
+						{
+							"mode": "water",
+							"entries": [
+								"帆，速度 35 尺；逆风航行时 15 尺；顺风航行时 50 尺。"
+							]
+						}
+					]
+				},
+				{
+					"ENG_name": "Oars",
+					"name": "桨",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "每受到25点伤害，速度减少5尺",
+					"locomotion": [
+						{
+							"mode": "water",
+							"entries": [
+								"桨，80名或更多桨手时速度20尺，40名或更多桨手时速度10尺，20名或更多桨手时速度5尺。"
+							]
+						}
+					]
+				}
+			],
+			"weapon": [
+				{
+					"ENG_name": "Ballistas",
+					"name": "弩炮",
+					"count": 2,
+					"ac": 15,
+					"hp": 50,
+					"entries": [
+						"{@atk rw} 命中{@hit 6}，射程 120/480 尺，单一目标。{@h}16 ({@damage 3d10}) 点穿刺伤害。"
+					]
+				},
+				{
+					"ENG_name": "Mangonels",
+					"name": "投石机",
+					"count": 2,
+					"ac": 15,
+					"hp": 100,
+					"entries": [
+						"{@atk rw} 命中{@hit 5}，射程200/800尺（不能命中距离它60尺以内的目标），单一目标。{@h}27（{@damage 5d10}）点钝击伤害。"
+					]
+				},
+				{
+					"ENG_name": "Ram",
+					"name": "攻城槌",
+					"ac": 20,
+					"hp": 100,
+					"dt": 10,
+					"entries": [
+						"战舰在撞击生物或物件时，所有与撞击相关的豁免检定具有优势。撞击造成的任何伤害将转而作用于攻城槌。若另一艘船只撞击该战舰，则这些增益不适用。"
+					]
+				}
+			],
+			"other": [
+				{
+					"ENG_name": "Actions",
+					"name": "动作",
+					"entries": [
+						"在它的回合中，战舰可以使用舵板移动。它也可以发射弩炮和投石机。如果船员只剩一半或更少，它将以半速移动且只能发射一半的武器。"
+					]
+				}
+			]
+		}
+	],
+	"variantrule": [
+		{
+			"ENG_name": "Crashing a Ship",
+			"name": "撞船",
+			"source": "UAOfShipsAndSea",
+			"page": 9,
+			"type": "section",
+			"entries": [
+				"如果一艘船舶移动到一个生物或物件占据的空间，它可能会撞击。如果该生物或物件比船舶至少小二个体型，船舶可以避免撞击。",
+				"当船舶发生碰撞时，它必须立即进行一次DC 10的体质豁免检定。若豁免失败，则根据其碰撞到的生物或物件的体型，如碰撞伤害表格所示，对其船体造成伤害。如果该物件或生物比船舶大或小一个体型等级，船舶还会停止移动。否则船舶继续移动，且该生物或物件移动到不在船舶移动路途上的最近未占据空间。根据DM的判断，被迫移动但固定不动的地点物件将被摧毁。",
+				"被击中的生物必须进行一次敏捷豁免检定，DC等于10加船舶的力量调整值。豁免失败则根据船舶的体型（如碰撞伤害表格所示）受到伤害，豁免成功则受到一半伤害。",
+				{
+					"type": "table",
+					"caption": "碰撞伤害",
+					"colLabels": [
+						"体型",
+						"钝击伤害"
+					],
+					"colStyles": [
+						"col-6",
+						"col-6 text-center"
+					],
+					"rows": [
+						[
+							"小型",
+							"{@dice 1d6}"
+						],
+						[
+							"中等",
+							"{@dice 1d10}"
+						],
+						[
+							"大型",
+							"{@dice 4d10}"
+						],
+						[
+							"巨型",
+							"{@dice 8d10}"
+						],
+						[
+							"超巨型",
+							"{@dice 16d10}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Owning a Ship",
+			"name": "拥有一艘船",
+			"source": "UAOfShipsAndSea",
+			"page": 9,
+			"type": "section",
+			"entries": [
+				"如果你购买一艘船舶，你将解锁一个激动人心的新冒险场所，并且要面对大量的后勤挑战。保持船舶运转需要大量的工作。",
+				"该规则使用一个休整期活动\u2014\u2014管理船舶\u2014\u2014来抽象地表示维持船舶运转、补给品充足且支付船员所需的努力。",
+				"更多关于休整期活动的信息，请参阅{@book 城主指南|DMG|1|休整期活动}和{@book 珊娜萨的万事指南|XGE|2|再谈休整期}。",
+				{
+					"ENG_name": "Downtime: Managing a Ship",
+					"name": "停工期：管理船舶",
+					"type": "entries",
+					"entries": [
+						"通过雇佣一名能干的船长和船员，并让它们工作运输货物或提供其它服务，你可以使一艘船舶保持良好的修复状态，甚至在冒险之余为你创造利润。",
+						"管理一艘船是一项需要时间和精力来招募军官和船员的休整期活动。船舶在需要时可随时使用。否则，船舶会运送乘客和货物以支付维护船舶和支付船员的成本。",
+						{
+							"ENG_name": "Resources",
+							"name": "资源",
+							"type": "entries",
+							"entries": [
+								"招募船员需要一周时间且需要花费{@dice 100 + 4d6}金币来支付招募和补给品的成本。一旦你支付了这些费用，你将拥有一名船长和船员来维护船舶。"
+							]
+						},
+						{
+							"ENG_name": "Resolution",
+							"name": "决议",
+							"type": "entries",
+							"entries": [
+								"一旦你拥有一艘可工作的船舶，它每个月会带来少量利润。每四周结束时，你会赚取{@dice 5d20}金币。"
+							]
+						},
+						{
+							"ENG_name": "Complications",
+							"name": "困境",
+							"type": "entries",
+							"entries": [
+								"船舶所有者面临着恶劣天气、糟糕的贸易协议或哗变的风险。当掷骰确定利润时，如果任何{@dice d20}掷出1点，则在船舶所有权困境表格上掷骰（或DM可以创造一个合适的困境）。",
+								{
+									"type": "table",
+									"caption": "船舶所有权困境",
+									"colLabels": [
+										"d6",
+										"困境"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1",
+											"你的船员做了一笔糟糕的交易。你这个月没有看到任何利润。"
+										],
+										[
+											"2",
+											"你的船舶且船员已被征召进行军事服务以搜寻海盗{@dice 1d4}个月。"
+										],
+										[
+											"3",
+											"一座与海洋或贸易相关的庙宇指控你的船员不敬诸神，且无人愿意与你的船舶和船员做生意。你每月损失{@dice 5d20}金币，持续{@dice 1d6}个月，直到庙宇平息怒火。"
+										],
+										[
+											"4",
+											"你的船舶且船员失踪，必须从俘虏者手中营救他们。"
+										],
+										[
+											"5",
+											"你的船员发动叛变且正在逃离你。"
+										],
+										[
+											"6",
+											"你的船员因走私非法商品被抓。他们蹲大牢，且你的船舶被扣押。"
+										]
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Ship Crew",
+			"name": "船舶船员",
+			"source": "UAOfShipsAndSea",
+			"page": 6,
+			"type": "section",
+			"entries": [
+				"一艘船舶需要一定数量的健壮船员来操作，具体数值在其资料卡中指定。船员的技能、体验、士气及健康状况由其品质调整值决定。船员初始品质调整值为+4，该属性值会随时间变化，最低可降至-10，最高可达+10。当船员出现伤员、遭遇困苦或健康状况穷困时，该值会下降；若船员士气高涨、享有善良的医疗条件且受到天晴公正的统御时，该值会上升。",
+				"一个典型的船员使用《怪物图鉴》中的平民资料卡。",
+				{
+					"ENG_name": "Loyalty and Quality",
+					"name": "忠诚与质量",
+					"type": "inset",
+					"entries": [
+						"当处理船员中的个体成员时，你可能会发现使用《城主指南》第四章中的可选忠诚规则很有用。要将品质调整值转换为个体的忠诚值，需在船员的品质调整值上添加10。"
+					]
+				},
+				{
+					"ENG_name": "Mutiny",
+					"name": "哗变",
+					"type": "entries",
+					"entries": [
+						"一支领导不善或遭受虐待的船员可能会反抗其军官。每日一次，如果船员的品质调整值低于0，首领必须进行一次魅力（{@skill 威吓}或{@skill 游说}）检定，并根据船员的品质调整值进行调整。如果检定点数总和在1到9之间，船员的品质调整值降低1。",
+						"如果检定点数总和为0或更低，船员会哗变。他们会对军官变得敌对且可能试图杀死它们、囚禁它们或将它们扔下船。船员可以通过暴力、战斗或提供宝藏和其他奖励来震慑使其服从。当DM结束哗变时，船员的品质调整值增加{@dice 1d4}。"
+					]
+				},
+				{
+					"ENG_name": "Shore Leave",
+					"name": " 岸边休假",
+					"type": "entries",
+					"entries": [
+						"船舶上的生活对船员来说是一种持续的消耗。在港口度过的时间能让船员放松并恢复镇定。",
+						"如果船员的品质调整值为3或更低，船员在港口或岸上每度过1天，该属性值增加1。"
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Ship Officers",
+			"name": "船舶军官",
+			"source": "UAOfShipsAndSea",
+			"page": 5,
+			"type": "section",
+			"entries": [
+				"如果你想探索如何运营一艘船舶，它需要军官来监督其运作\u2014\u2014这些军官需要履行六种不同的职能。一个人在同一时间只能担任一种职能，不过多人可以担任同一种职能。船舶上的一些职能反映了需要训练有素的专家来直爽船员们的努力。其他职能则专注维持船员的健康且士气秩序。",
+				"每个职能都在下方描述，以及帮助角色在该职能上表现出色的属性和熟练（但不是必需的）：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"ENG_name": "Captain",
+							"name": "船长",
+							"type": "item",
+							"entry": "船长发布命令。最好的船长拥有高智力和魅力值，且熟练于水上载具以及{@skill 威吓}和{@skill 游说}技能。"
+						},
+						{
+							"ENG_name": "First Mate",
+							"name": "大副",
+							"type": "item",
+							"entry": "这位专家通过密切监督、鼓励和纪律来维持船员的士气。大副受益于高魅力属性值，以及{@skill 威吓}和{@skill 游说}技能的熟练。"
+						},
+						{
+							"ENG_name": "Bosun",
+							"name": "水手长",
+							"type": "item",
+							"entry": "水手长（或船副）向船长和船员提供技术建议，并领导修复和维修工作。一名优秀的水手长拥有高力量属性值，且熟练于{@item 木匠工具|PHB}和{@skill 运动}技能。"
+						},
+						{
+							"ENG_name": "Quartermaster",
+							"name": "军需官",
+							"type": "item",
+							"entry": "军需官负责规划船舶的航线，依靠对航海图的了解以及对天气和海洋状态的研究。一个可靠的军需官往往具有高感知属性值，且熟练使用{@item 领航工具|PHB}和{@skill 自然}技能。"
+						},
+						{
+							"ENG_name": "Surgeon",
+							"name": "医生",
+							"type": "item",
+							"entry": "船舶的医生负责照料伤患，防止疾病在船上传播，并监督卫生情况。一位能干的医生可从高智力属性值中获益，且熟练使用草药工具和{@skill 医药}技能。"
+						},
+						{
+							"ENG_name": "Cook",
+							"name": "厨师",
+							"type": "item",
+							"entry": "船舶的厨师利用船上有限的食材制作餐点。一位熟习的厨师能将船员的士气保持在最佳状态，而一位穷困的厨师则会拖累整个船员的表演。一位有才华的厨师拥有高体质的属性值，且熟练使用{@item 酿酒工具|PHB}和{@item 厨师工具|PHB}。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Ship Stat Blocks",
+			"name": "船只数据板",
+			"source": "UAOfShipsAndSea",
+			"page": 1,
+			"type": "section",
+			"entries": [
+				"船舶的数据卡提供了游戏细节，用于当船舶参与战斗或其他需要其防御和进攻能力的情况时。数据卡有三个主要部分：基础资料、动作选用项和船舶的成分。",
+				"船舶无法自行采取任何动作。若船员不施加任何努力，船只可能会在水上漂流、停止或失控。",
+				{
+					"ENG_name": "Basic Statistics",
+					"name": "基础资料",
+					"type": "entries",
+					"entries": [
+						{
+							"ENG_name": "Size",
+							"name": "体型",
+							"type": "entries",
+							"entries": [
+								"大多数船舶是大型、巨型或超巨型。船舶的体型类别由其长度或宽度决定，以较长者为准。例如，一艘长10尺宽20尺的船只会使用20尺宽度对应的体型类别，这意味着该船舶属于超巨型。"
+							]
+						},
+						{
+							"ENG_name": "Space",
+							"name": "空间",
+							"type": "entries",
+							"entries": [
+								"除非船只的资料卡另有说明，否则船舶不占据方形空间。例如，一艘长20尺宽10尺的船只占据20尺乘10尺的空间。",
+								"船舶无法移动到一个空间不足以容纳它的区域。如果它试图这样做，将会发生撞击，如后文\"{@variantrule 撞船|uaofshipsandsea|撞击}\"章节所述。"
+							]
+						},
+						{
+							"ENG_name": "Capacity",
+							"name": "容量",
+							"type": "entries",
+							"entries": [
+								"船只的资料卡表明它能载重多少生物和多少货物。生物包括操作船只所需的船员和可能搭乘的任何乘客。乘客可能包括击退登船者并领导对怪物和敌船攻击的海军陆战队员。"
+							]
+						},
+						{
+							"ENG_name": "Travel Pace",
+							"name": "旅行步调",
+							"type": "entries",
+							"entries": [
+								"船舶的旅行步调决定了该器皿每小时和每日能移动多远。船舶的移动相关成分（在资料卡后文描述）决定了该器皿每轮能移动多远。"
+							]
+						},
+						{
+							"ENG_name": "Ability Scores",
+							"name": "属性值",
+							"type": "entries",
+							"entries": [
+								"一艘船舶拥有六大属性值（力量，敏捷，体质，智力，感知，且魅力）及相应的调整值。船舶的力量代表其体型和重量。敏捷代表船舶的操控难易度。船舶的体质涵盖其耐久度和建造质量。船舶通常在智力、感知和魅力上的属性值为0。",
+								"如果一艘船舶在某属性值为0，它会自动在使用该属性值的任何属性检定或豁免检定中失败。"
+							]
+						},
+						{
+							"ENG_name": "Vulnerabilities, Resistances, and Immunities",
+							"name": "易伤、抗性与免疫",
+							"type": "entries",
+							"entries": [
+								"船舶的易伤、抗性与免疫适用于其所有成分，除非资料卡中另有注明。"
+							]
+						},
+						{
+							"ENG_name": "Typical Ship Immunities",
+							"name": "典型船舶免疫",
+							"type": "inset",
+							"entries": [
+								"如果你在自创船只，它们通常对毒素和心灵伤害免疫。由金属或岩石制成的船只通常也对暗蚀伤害免疫。它们通常还对以下状态免疫：{@condition 目盲}、{@condition 魅惑}、{@condition 耳聋}、{@condition 力竭}、{@condition 恐慌}、{@condition 失能}、{@condition 麻痹}、{@condition 石化}、{@condition 中毒}、{@condition 倒地}、{@condition 震慑}和{@condition 昏迷}。"
+							]
+						}
+					]
+				},
+				{
+					"ENG_name": "Components",
+					"name": "成分",
+					"type": "entries",
+					"entries": [
+						"一艘船舶由不同成分组成：",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"ENG_name": "Hull",
+									"name": "船体",
+									"type": "item",
+									"entry": "船舶的船体是其基础框架，其他装备都骑乘在上面。"
+								},
+								{
+									"ENG_name": "Control",
+									"name": "控制",
+									"type": "item",
+									"entry": "一个控制成分用于操纵船舶。"
+								},
+								{
+									"ENG_name": "Movement",
+									"name": "移动",
+									"type": "item",
+									"entry": "移动成分是船舶能够移动的元素，例如一组帆或桨。"
+								},
+								{
+									"ENG_name": "Weapon",
+									"name": "武器",
+									"type": "item",
+									"entry": "一艘能够用于战斗的船舶拥有一个或多个武器成分，每个成分都是独立操作的。"
+								}
+							]
+						},
+						"船舶的成分可能有特殊规则，如资料卡中所述。",
+						{
+							"ENG_name": "Armor Class",
+							"name": "护甲等级",
+							"type": "entries",
+							"entries": [
+								"一个成分具有护甲等级。其AC旨在反映其体型、用于构装的材质以及任何用于增强其刚毅的防御性护板或护甲。"
+							]
+						},
+						{
+							"ENG_name": "Hit Points",
+							"name": "生命值",
+							"type": "entries",
+							"entries": [
+								"船只成分在生命值降至0时被摧毁且无法使用。若船体被摧毁，则船只失事。船只成分没有生命骰。"
+							]
+						},
+						{
+							"ENG_name": "Damage Threshold",
+							"name": "伤害阈值",
+							"type": "entries",
+							"entries": [
+								"如果船只成分具有伤害阈值，则该阈值显示在其生命值之后。成分对所有伤害具有免疫，除非它受到的伤害数量等于或超过其伤害阈值，在此情况下它将如常受到伤害。任何未能达到或超过伤害阈值的伤害都被视为表面伤害且不会减少该成分的生命值。"
+							]
+						}
+					]
+				},
+				{
+					"ENG_name": "Actions",
+					"name": "动作",
+					"type": "entries",
+					"entries": [
+						"这部分的数据卡指定了船舶在其回合中可以做什么，使用其特殊动作而非生物使用的动作。它甚至依赖其动作来移动；否则它没有移动方式。"
+					]
+				},
+				{
+					"ENG_name": "Sample Stat Blocks",
+					"name": "示例数据卡",
+					"type": "entries",
+					"entries": [
+						"这里是船只数据板的示例：",
+						{
+							"type": "list",
+							"items": [
+								"{@vehicle 飞艇|UAOfShipsAndSea}",
+								"{@vehicle 桨帆船|UAOfShipsAndSea}",
+								"{@vehicle 龙骨船|UAOfShipsAndSea}",
+								"{@vehicle 单帆长船|UAOfShipsAndSea}",
+								"{@vehicle 划艇|UAOfShipsAndSea}",
+								"{@vehicle 帆船|UAOfShipsAndSea}",
+								"{@vehicle 战舰|UAOfShipsAndSea}"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Ships in Combat",
+			"name": "船只在战斗中",
+			"source": "UAOfShipsAndSea",
+			"page": 8,
+			"type": "section",
+			"entries": [
+				"本节提供关于在战斗中使用船只的神导术。",
+				{
+					"ENG_name": "Ships and Initiative",
+					"name": "船只与先攻",
+					"type": "entries",
+					"entries": [
+						"船舶使用其敏捷进行先攻检定，并使用船员的品质调整值作为该检定的调整值。",
+						"在船舶的回合中，军士队长决定使用船舶的哪个动作。"
+					]
+				},
+				{
+					"ENG_name": "Special Officer Actions",
+					"name": "特殊长官的动作",
+					"type": "entries",
+					"entries": [
+						"在一次遭遇中，首领、大副且水手长各自有两个特殊动作选用项描述于下方：全速前进和随意火焰。",
+						{
+							"ENG_name": "Full Speed Ahead",
+							"name": "全速前进",
+							"type": "entries",
+							"entries": [
+								"作为甲板上的一个动作，船长、大副或水手长可以激励船员更努力地工作并驾驶船舶前进。掷一枚{@dice d6}并将结果乘以5。将该总数作为船舶速度的附赠动作，直到船舶的下一个回合结束。如果这个附赠动作应用于船舶速度时船舶已经比正常速度更快，则使用较高的结果。不要将两个附赠动作相加。"
+							]
+						},
+						{
+							"ENG_name": "Fire at Will",
+							"name": "随意火焰",
+							"type": "entries",
+							"entries": [
+								"作为一个动作，船长、大副或水手长协助船员瞄准船舶的一件武器。选择一件距离军官10尺内的船舶武器。它在船舶的下个回合结束前进行的下一次攻击检定中获得优势。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ENG_name": "Travel at Sea",
+			"name": "在海上旅行",
+			"source": "UAOfShipsAndSea",
+			"page": 6,
+			"type": "section",
+			"entries": [
+				"这里是帮助裁定在海上旅行的规则，特别是持续一小时或更长时间的旅行。此内容基于{@book 玩家手册|PHB|8|旅行步调}和{@book 城主指南|DMG|8|探索}中的旅行规则。",
+				{
+					"ENG_name": "Travel Pace",
+					"name": "旅行步调",
+					"type": "entries",
+					"entries": [
+						"船只以其数据卡中给出的速度旅行。与大地旅行不同，玩家不能选择以更快的步调移动，尽管他们可以选择更慢。",
+						"如果船舶的移动力受到伤害，它可能会减速。速度每减少10尺，船舶的步调就缩小每小时1英里且每日24里。"
+					]
+				},
+				{
+					"ENG_name": "Activity While Traveling",
+					"name": "旅途中活动",
+					"type": "entries",
+					"entries": [
+						"船员和乘客可进行的活动与陆地旅行中的队伍选择略有不同。有关下文讨论的一些主题的更多信息，请参阅{@book 旅途中活动|PHB|8|旅途中活动}第8章中的\"{@book 玩家手册|PHB}\"。",
+						"一些活动仅限于特定军官，除非DM另行规定。例如，吟游诗人可能被允许通过甲板上演奏欢快歌曲来提升船员士气的活动。",
+						"队伍的行进步调不影响他们在乘船旅行时可以从事的活动。",
+						{
+							"ENG_name": "Draw a Map",
+							"name": "绘制地图",
+							"type": "entries",
+							"entries": [
+								"船舶的船长通常会进行这项活动，绘制一张记录船舶进度的地图，并在船员迷失方向时帮助他们回到航线上。无需进行属性检定。"
+							]
+						},
+						{
+							"ENG_name": "Forage",
+							"name": "觅食",
+							"type": "entries",
+							"entries": [
+								"角色抛出钓鱼线，留意食物来源，当DM要求时进行一次感知（{@skill 求生}）检定。"
+							]
+						},
+						{
+							"ENG_name": "Raise Morale (First Mate Only)",
+							"name": "振奋士气（仅限大副）",
+							"type": "entries",
+							"entries": [
+								"大副可以管理船员的时间以延长休息时间、提供指导并提升士气。每日一次，如果船员的品质调整值为3或更低，大副可以进行一次DC 15魅力（{@skill 游说}）检定。检定成功时，船员的品质调整值增加1。"
+							]
+						},
+						{
+							"ENG_name": "Navigate (Quartermaster Only)",
+							"name": "导航（仅限舵手）",
+							"type": "entries",
+							"entries": [
+								"军需官可以尝试防止团队迷路，当地下城主要求时进行一次感知（{@skill 求生}）检定。（更多消息请参见城主指南第五章中的\"{@book 迷路|DMG|5|迷路}\"。）"
+							]
+						},
+						{
+							"ENG_name": "Noticing Threats",
+							"name": "发觉威胁",
+							"type": "entries",
+							"entries": [
+								"使用角色或船员的被动感知（{@skill 察觉}）属性值来确定船上是否有人发觉隐藏的威胁。船员的被动感知（{@skill 察觉}）属性值等于10 + 船员的品质调整值。DM可能决定只有位于船舶特定区域的角色才能发觉威胁。例如，只有位于甲板下方的角色才有机会听到或侦察到躲藏在船上的生物。"
+							]
+						},
+						{
+							"ENG_name": "Repair (Bosun Only)",
+							"name": "修理（仅限水手长）",
+							"type": "entries",
+							"entries": [
+								"船舶的水手长可以执行此用途。在白昼结束时，水手长可以使用{@item 木匠工具|PHB}进行一次力量检定。若结果为15或更高，每个受损成分恢复等于{@dice 1d6} + 船员品质调整值的生命值（最低1点生命值）。船体以外生命值为0的成分将恢复功能。"
+							]
+						},
+						{
+							"ENG_name": "Stealth (Captain Only)",
+							"name": "隐匿（仅限船长）",
+							"type": "entries",
+							"entries": [
+								"船舶的船长只有在天气状态限制能见度时（例如在重型雾中）才能进行此活动。船舶进行一次敏捷检定，加值等于船员的品质调整值，以确定是否能躲藏。"
+							]
+						}
+					]
+				},
+				{
+					"ENG_name": "Hazards",
+					"name": "危害",
+					"type": "entries",
+					"entries": [
+						"危害分为两种基本类型：环境灾害，例如风暴或湍急的水流，以及其他事件，例如船舶上的火焰或瘟疫爆发。",
+						{
+							"ENG_name": "Environmental Hazards",
+							"name": "环境灾害",
+							"type": "entries",
+							"entries": [
+								"冰山堵塞了雾蒙蒙的海洋。大风和滔天巨浪威胁着要掀翻船舶。暴风雪打击着那些在一年中太晚冒险北上的船只。这些都是可以持续数天且需要船员注意的环境灾害示例。",
+								"船舶每在危害中度过一天，军官们都需要各自进行一次特殊属性检定，如危害检定表格所示。该检定取代军官可能进行的其他活动，且代表军官为保持船舶漂浮所做的贡献。",
+								{
+									"type": "table",
+									"caption": "危害检定",
+									"colLabels": [
+										"军官",
+										"检定"
+									],
+									"colStyles": [
+										"col-4",
+										"col-8"
+									],
+									"rows": [
+										[
+											"船长",
+											"智力（水上载具）"
+										],
+										[
+											"大副",
+											"船员魅力（{@skill 威吓}）"
+										],
+										[
+											"水手长",
+											"力量（{@item 木匠工具|PHB}）"
+										],
+										[
+											"军需官",
+											"感知（{@skill 自然}）"
+										],
+										[
+											"医生",
+											"智力（{@skill 医药}）"
+										],
+										[
+											"厨师",
+											"体质（{@item 厨师工具|PHB}）"
+										]
+									]
+								},
+								"如果没有可用的人进行检定，则将结果视为0。",
+								"最后，为船员掷一个{@dice d20}，使用其品质调整值作为掷骰的调整值。将这些检定全部相加，然后参考危害检定结果表格。该表格显示船舶在那天的危害中是遭遇了灾难还是成功幸存。",
+								{
+									"type": "table",
+									"caption": "危害检定结果",
+									"colLabels": [
+										"检定点数总和",
+										"结果"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"140+",
+											"{@b 大成功。} 船员的品质调整值增加1点，持续{@dice 1d4}天。"
+										],
+										[
+											"105\u2013139",
+											"{@b 成功。} 船舶完好无损。"
+										],
+										[
+											"70\u2013104",
+											"{@b 部分灾难。}每个成分受到{@dice 4d10}钝击伤害。船员的品质调整值缩小1。船舶艰难前行，当天以半速移动。"
+										],
+										[
+											"0\u201369",
+											"{@b 灾难。} 船舶的每个成分受到{@dice 10d10}钝击伤害。船员的品质调整值下降2点，因为若干船员被冲下船而迷失。船舶偏离航线且难以恢复方向，当天未能前进任何距离。"
+										]
+									]
+								},
+								"如果你想为危害添加多样性，可以考虑加入一些有趣的困境。例如，一个漩涡可能在灾难结果中将一艘船舶拖拽到水之位面，而在其他结果中船舶会避开涡流。",
+								"你也可以在危害检定结果表格中添加或减去成功阈值以反映危害的危险程度。如果你决定这样做，将阈值增加或减少35。"
+							]
+						},
+						{
+							"ENG_name": "Other Events",
+							"name": "其他事件",
+							"type": "entries",
+							"entries": [
+								"除了汹涌的海洋和令人生畏的天气外，船舶还可能面临许多其他威胁。",
+								"下方的危害可作为船舶上可能出错的示例。每一种危害都需要一名军官花费一天时间处理该危害而非进行其他动作。根据经验法则，每天有{@chance 10|10%}的几率会发生以下事件之一。",
+								{
+									"ENG_name": "Emergency Maneuvers",
+									"name": "紧急战技",
+									"type": "entries",
+									"entries": [
+										"船员必须迅速反应以避免突发威胁。一只克拉肯从船舶下方经过，其尾流可能导致船舶倾覆，或者船舶即将撞上一处未知的暗礁。首领必须进行一次DC 15的智力（水上载具）检定。若检定失败，船体因碰撞受到{@dice 8d10}钝击伤害。若检定成功，首领的迅速指挥使船舶免于重伤术。"
+									]
+								},
+								{
+									"ENG_name": "Conflict",
+									"name": "冲突",
+									"type": "entries",
+									"entries": [
+										"海上生活是单调、艰苦工作与突然恐惧时刻的混合体。这种压力能磨损最坚强的水手。有时，这种压力会转化为船员间的冲突。如果不满情绪在队伍中蔓延，大副那天的用途必须用于进行一次DC 15魅力（{@skill 威吓}）检定来控制船员。若检定失败，船员的品质调整值减少{@dice 1d4}。"
+									]
+								},
+								{
+									"ENG_name": "Fire",
+									"name": "火焰",
+									"type": "entries",
+									"entries": [
+										"船舶在海上发生火灾可能导致其无法正常运作。随机选择一个部件。除非水手长成功通过DC 15力量（{@item 木匠工具|PHB}）检定，否则该部件将受到{@dice 4d10}火焰伤害。"
+									]
+								},
+								{
+									"ENG_name": "Plague",
+									"name": "瘟疫",
+									"type": "entries",
+									"entries": [
+										"一种疾病在船员中蔓延，可能是由混上船的老鼠或昆虫引起的。医生必须进行一次DC 15感知（{@skill 医药}）检定。若检定失败，船员的品质调整值将降低5点，持续{@dice 1d6}天。"
+									]
+								},
+								{
+									"ENG_name": "Infestation",
+									"name": "虫群孳生",
+									"type": "entries",
+									"entries": [
+										"甲虫、老鼠或其他害虫侵扰船舶，威胁其食物储备。厨师必须进行一次DC 15体质（{@item 酿酒工具|PHB}）检定以挽救他们能挽救的食物。若检定失败，船员在涉及品质调整值的任何检定中具有劣势，直到船舶有机会补充补给品。"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

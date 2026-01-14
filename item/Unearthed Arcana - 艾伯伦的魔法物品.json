@@ -1,0 +1,1775 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAMagicItemsofEberron",
+				"abbreviation": "UAMIoE",
+				"full": "破解奥秘：艾伯伦的魔法物品",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Lyra [he/him]"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2018/dnd/downloads/UA_Magic_Items_of_Eberron.pdf",
+				"dateReleased": "2018-10-08"
+			}
+		],
+		"internalCopies": [
+			"itemFluff"
+		],
+		"edition": "classic",
+		"dateAdded": 1732050258,
+		"dateLastModified": 1759315511,
+		"_dateLastModifiedHash": "ba4676ac82"
+	},
+	"item": [
+		{
+			"ENG_name": "Band of Loyalty",
+			"name": "忠诚戒指",
+			"source": "UAMagicItemsofEberron",
+			"page": 2,
+			"reprintedAs": [
+				"忠诚戒指|UAWayfindersGuideToEberron"
+			],
+			"type": "RG|DMG",
+			"rarity": "common",
+			"reqAttune": true,
+			"entries": [
+				"如果你在佩戴这枚戒指时生命值降至0，你会立即死亡。这些戒指深受那些不能落入仇敌之手的间谍们青睐。"
+			]
+		},
+		{
+			"ENG_name": "Cleansing Stone",
+			"name": "清洁石",
+			"source": "UAMagicItemsofEberron",
+			"page": 2,
+			"reprintedAs": [
+				"清洁石|ERLW"
+			],
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"清洁石是一个直径一英尺的球状岩石，上面刻有秘术师符文。当你触摸这块石头时，可以使用一个动作激活它，并从你的衣物和人身上移除污垢。清洁石通常嵌在安黛尔公共广场的基座中，或出现在伽兰达高等旅馆里。"
+			]
+		},
+		{
+			"ENG_name": "Docent",
+			"name": "指导附件",
+			"source": "UAMagicItemsofEberron",
+			"page": 3,
+			"reprintedAs": [
+				"指导附件|ERLW"
+			],
+			"rarity": "very rare",
+			"reqAttune": "由战俑",
+			"reqAttuneTags": [
+				{
+					"race": "战俑|ERLW"
+				}
+			],
+			"wondrous": true,
+			"sentient": true,
+			"entries": [
+				"指导附件是一个直径约2英寸的小型金属球状物，镶嵌着龙晶。尽管有强烈的魔法灵光，但它没有明显的属性。当你与指导附件同调时，这个球体会嵌入你的箱子并真正获得生命。",
+				{
+					"ENG_name": "Sentience",
+					"name": "智能",
+					"type": "entries",
+					"page": 3,
+					"entries": [
+						"指导附件是一个智力16、感知14且魅力14的任意阵营智能物品。它可以通过你的感官感知世界。",
+						"指导附件与其持有者心灵感应交流，且能说、读和理解{@language 通用语}和{@language 巨人语}。"
+					]
+				},
+				{
+					"ENG_name": "Personality",
+					"name": "个性",
+					"type": "entries",
+					"page": 3,
+					"entries": [
+						"指导附件旨在为它所依附的战俑提供建议和协助。指导附件的简易功能之一是充当翻译器。指导附件的词条由其控制，如果你与你的指导附件关系不佳，它可能会拒绝协助你......或者干脆对你获得的消息撒谎。然而，如果你善待你的指导附件，它可以成为一个有用的盟友。",
+						"指导附件的起源是一个巨大的神秘。卡尼斯家族在三十年前创造了第一台战俑。但这些指导附件来自遥远的希恩德瑞克大地，且似乎已有数千年的历史。它们是为了与某种其他形态的构装体对接而被创造的吗？还是现代战俑是对远古设计的新诠释？指导附件声称已忘记它们的创造者...但这仍是一个等待解开的谜团。虽然所有指导附件都来自希恩德瑞克，但有些已被探险者带到科瓦雷，在五国境内也可能遭遇它们。"
+					]
+				},
+				{
+					"ENG_name": "Languages",
+					"name": "语言",
+					"type": "entries",
+					"page": 3,
+					"entries": [
+						"所有指导附件理解{@language 通用语}和{@language 巨人语}，但一个指导附件最多知道四种额外的语言。{@language 精灵语}和{@language 龙语}是常见选项。如果一个指导附件知道的全部语言少于六种，它可以在接触后添加新语言到它的知识库中。因此一个在希恩德瑞克发现的指导附件可能从未接触过矮人...但在科瓦雷花些时间研究矮人后，它可以学会{@language 矮人语}。"
+					]
+				},
+				{
+					"ENG_name": "Properties",
+					"name": "词条",
+					"type": "entries",
+					"page": 4,
+					"entries": [
+						"一个指导附件拥有以下三个词条：",
+						{
+							"type": "list",
+							"items": [
+								"指导附件可以随意施放{@spell 侦测魔法}法术。",
+								"指导附件可以随意施放{@spell 侦测善恶}法术。",
+								"指导附件可以侦查任何针对它及其战俑宿主的预言术或探知术形态。",
+								"指导附件在智力（{@skill 奥秘}）检定上具有{@skillCheck 奥秘 +7}加值。",
+								"指导附件在进行智力（{@skill 历史}）检定时具有{@skillCheck 历史 +7}的加值。",
+								"指导附件在进行智力（{@skill 调查}）检定时具有{@skillCheck 调查 +7}的加值。",
+								"指导附件在智力（{@skill 自然}）检定上有{@skillCheck 自然 +7}的加值。",
+								"指导附件在感知（{@skill 洞悉}）检定上具有{@skillCheck 洞悉 +6}加值。",
+								"指导附件在进行感知（{@skill 察觉}）检定时有{@skillCheck 察觉 +6}的加值。",
+								"指导附件对其战俑宿主进行感知（{@skill 医药}）检定时具有{@skillCheck 医药 +6}的加值。如果宿主陷入{@condition 昏迷}状态，指导附件会每回合自动尝试稳定它们一次。"
+							]
+						}
+					]
+				},
+				"你可以在你的回合使用一个附赠动作来请求指导附件代表你使用它的一个词条。"
+			],
+			"attachedSpells": {
+				"will": [
+					"侦测善恶",
+					"侦测魔法"
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Everbright Lantern",
+			"name": "永明提灯",
+			"source": "UAMagicItemsofEberron",
+			"page": 2,
+			"reprintedAs": [
+				"永明提灯|ERLW"
+			],
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"一盏永明提灯包含一块注入了{@spell 不灭明焰}法术效应的艾伯伦龙晶。这种明亮光照被安装在正常的{@item 牛眼提灯|PHB}内，允许通过百叶窗关闭光源。永明提灯能提供60英尺锥状范围内的天晴照明和120英尺锥状范围内的昏暗照明，就像寻常的{@item 牛眼提灯|PHB}一样，但其火焰永不熄灭。"
+			]
+		},
+		{
+			"ENG_name": "Feather Token",
+			"name": "羽落硬币",
+			"source": "UAMagicItemsofEberron",
+			"page": 2,
+			"reprintedAs": [
+				"羽落硬币|ERLW"
+			],
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"这枚小型金属圆盘上刻有一根羽毛的图像。当你携带此硬币坠落时，你将以每轮60尺的速度下降且不会受到坠落伤害。硬币在你着陆后会变为非魔法物品。虽然这是一种昂贵的保险形式，但频繁乘坐飞艇的旅行者和萨恩的市民通常很欣赏它提供的安全保障。"
+			]
+		},
+		{
+			"ENG_name": "Glamerweave",
+			"name": "幻象织物",
+			"source": "UAMagicItemsofEberron",
+			"page": 2,
+			"reprintedAs": [
+				"幻象织物|ERLW"
+			],
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"幻象织物服装注入了装饰性幻象。传统上，这些图案被限制在布料内，但高端幻象织物可以产生更戏剧性的效应。你可以拥有一件看似被火焰环绕的长袍，或一顶被幻象蝴蝶环绕的帽子。无论设计如何，这些都是装饰性效应且对战斗没有影响。"
+			]
+		},
+		{
+			"ENG_name": "Shiftweave",
+			"name": "百变外套",
+			"source": "UAMagicItemsofEberron",
+			"page": 2,
+			"reprintedAs": [
+				"百变外套|ERLW"
+			],
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"变化魔法被编织进百变外套的布料中。当一件百变外套被制作时，最多五套不同的套装可以被嵌入布料中。穿着这套装时，你可以用一个动作说出命令语来将你的百变外套转变为其中包含的其他设计之一。要确定一件百变外套的价格，将其包含的所有套装的价值相加并在该数量上添加25GP。"
+			]
+		},
+		{
+			"ENG_name": "Spellshard",
+			"name": "法术晶格",
+			"source": "UAMagicItemsofEberron",
+			"page": 3,
+			"reprintedAs": [
+				"法术晶格|ERLW"
+			],
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"法术晶格是一块经过抛光的艾伯伦龙晶，大小适合握在手掌中。这块碎子被注能了一部特定的文学作品。通过握住碎子并专注于它，你可以在心灵之眼中看到它的页面。想到特定的短语或主题会将你引导至第一个涉及它的部分，且一个简易仪式允许你向碎子添加内容。",
+				"法师可以使用法术晶格代替{@item 法术书|PHB}；法术晶格每\"页\"的成本为1GP，且其他功能与寻常的{@item 法术书|PHB}相同。法术晶格也可用作日记或日志。更高级（且非普通）的碎子可能需要特定的心理口令才能访问碎子的内容。"
+			]
+		},
+		{
+			"ENG_name": "Wand Sheath",
+			"name": "魔杖插槽",
+			"source": "UAMagicItemsofEberron",
+			"page": 4,
+			"reprintedAs": [
+				"魔杖插槽|ERLW"
+			],
+			"rarity": "common",
+			"reqAttune": "由战俑",
+			"reqAttuneTags": [
+				{
+					"race": "战俑|ERLW"
+				}
+			],
+			"wondrous": true,
+			"entries": [
+				"魔杖插槽设计用于与{@race 战俑|ERLW}的前臂集成。如果你是{@race 战俑|ERLW}，可以通过同调来吸附魔杖插槽。当魔杖插槽被吸附时，它无法违背你的意愿被移除。你可以花费1分钟来结束同调且移除魔杖插槽。",
+				"你可以用一个动作将魔杖插入插槽中。当魔杖被插入时，你获得以下增益：",
+				{
+					"type": "list",
+					"items": [
+						"你可以用一个附赠动作将魔杖缩回前臂或从前臂伸出。当它缩回时，不会被损坏或移除。",
+						"当魔杖伸展时，你可以像手持它一样使用它，但你的手仍可自由进行其他动作。",
+						"如果插槽中的魔杖需要同调，你必须先同调该魔杖才能使用它。然而，魔杖插槽和附着的魔杖在计算你可同调物品的最大数量时只视为一件物品。如果你将魔杖从插槽中移除，你会立即失去对该魔杖的同调。"
+					]
+				}
+			],
+			"hasFluff": true
+		}
+	],
+	"itemGroup": [
+		{
+			"ENG_name": "Imbued Wood",
+			"name": "注能木",
+			"source": "UAMagicItemsofEberron",
+			"page": 1,
+			"reprintedAs": [
+				"蕴能木法器|ERLW"
+			],
+			"type": "SCF",
+			"scfType": "arcane",
+			"rarity": "common",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"强大的显能区域可以将位面能量注入当地的树木中。一位天赋异禀的奇械师可以利用这点创造出特别擅长引导特定类型能量的魔杖、法杖或权杖。",
+				"当你施法一个造成与你奥术法器材质相关联伤害类型的法术时，该法术的一个伤害掷骰获得+1加值。材质及其相关联的伤害类型列于下方。",
+				{
+					"type": "list",
+					"items": [
+						{
+							"ENG_name": "{@item Imbued Wood (Fernian Ash)|UAMagicItemsofEberron|Fernian Ash}:",
+							"type": "item",
+							"name": "{@item 蕴能木杖（费尼亚白蜡木）|UAMagicItemsofEberron|费尼亚白蜡木}:",
+							"style": "italic",
+							"entries": [
+								"火焰伤害。"
+							]
+						},
+						{
+							"ENG_name": "{@item Imbued Wood (Irian rosewood)|UAMagicItemsofEberron|Irian rosewood}:",
+							"type": "item",
+							"name": "{@item 蕴能木杖（伊瑞安红木）|UAMagicItemsofEberron|伊瑞安红木}:",
+							"style": "italic",
+							"entries": [
+								"光耀伤害。"
+							]
+						},
+						{
+							"ENG_name": "{@item Imbued Wood (Kythrian manchineel)|UAMagicItemsofEberron|Kythrian manchineel}:",
+							"type": "item",
+							"name": "{@item 蕴能木杖（奇斯瑞毒番石榴木）|UAMagicItemsofEberron|奇斯瑞毒番石榴木}:",
+							"style": "italic",
+							"entries": [
+								"强酸或毒素伤害。"
+							]
+						},
+						{
+							"ENG_name": "{@item Imbued Wood (Lamannian oak)|UAMagicItemsofEberron|Lamannian oak}:",
+							"type": "item",
+							"name": "{@item 蕴能木杖（拉玛尼亚橡木）|UAMagicItemsofEberron|拉玛尼亚橡木}:",
+							"style": "italic",
+							"entries": [
+								"闪电或雷鸣伤害。"
+							]
+						},
+						{
+							"ENG_name": "{@item Imbued Wood (Mabaran ebony)|UAMagicItemsofEberron|Mabaran ebony}:",
+							"type": "item",
+							"name": "{@item 蕴能木杖（玛伯尔乌木）|UAMagicItemsofEberron|玛伯尔乌木}:",
+							"style": "italic",
+							"entries": [
+								"暗蚀伤害。"
+							]
+						},
+						{
+							"ENG_name": "{@item Imbued Wood (Quori beech)|UAMagicItemsofEberron|Quori beech}, {@item Imbued Wood (Xorian wenge)|UAMagicItemsofEberron|Xorian wenge}:",
+							"type": "item",
+							"name": "{@item 注能木（梦灵山毛榉）|UAMagicItemsofEberron|梦灵山毛榉}, {@item 蕴能木杖（肖瑞安文格木）|UAMagicItemsofEberron|肖瑞安文格木}:",
+							"style": "italic",
+							"entries": [
+								"心灵伤害。"
+							]
+						},
+						{
+							"ENG_name": "{@item Imbued Wood (Risian pine)|UAMagicItemsofEberron|Risian pine}:",
+							"type": "item",
+							"name": "{@item 蕴能木杖（瑞西亚松木）|UAMagicItemsofEberron|瑞西亚松木}:",
+							"style": "italic",
+							"entries": [
+								"寒冷伤害。"
+							]
+						},
+						{
+							"ENG_name": "{@item Imbued Wood (Shavarran birch)|UAMagicItemsofEberron|Shavarran birch}:",
+							"type": "item",
+							"name": "{@item 蕴能木杖（撒法拉斯桦木）|UAMagicItemsofEberron|撒法拉斯桦木}:",
+							"style": "italic",
+							"entries": [
+								"力场伤害。"
+							]
+						}
+					]
+				}
+			],
+			"items": [
+				"蕴能木杖（费尼亚白蜡木）|UAMagicItemsofEberron",
+				"蕴能木杖（伊瑞安红木）|UAMagicItemsofEberron",
+				"蕴能木杖（奇斯瑞毒番石榴木）|UAMagicItemsofEberron",
+				"蕴能木杖（拉玛尼亚橡木）|UAMagicItemsofEberron",
+				"蕴能木杖（玛伯尔乌木）|UAMagicItemsofEberron",
+				"注能木（梦灵山毛榉）|UAMagicItemsofEberron",
+				"蕴能木杖（瑞西亚松木）|UAMagicItemsofEberron",
+				"蕴能木杖（撒法拉斯桦木）|UAMagicItemsofEberron",
+				"蕴能木杖（肖瑞安文格木）|UAMagicItemsofEberron"
+			],
+			"itemsHidden": true,
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Orb of Shielding",
+			"name": "防护法球",
+			"source": "UAMagicItemsofEberron",
+			"page": 1,
+			"reprintedAs": [
+				"防护法球|ERLW"
+			],
+			"type": "SCF",
+			"scfType": "arcane",
+			"rarity": "common",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"防护法球由与诸位面之一对齐的水晶或岩石制成。当你持有法球且受到与法球材质相关联的伤害类型时，你可以使用反应将伤害缩小{@dice 1d4}。材质及其相关联的伤害类型列于下方。",
+				{
+					"type": "list",
+					"items": [
+						{
+							"ENG_name": "{@item Orb of Shielding (Fernian Basalt)|UAMagicItemsofEberron|Fernian Basalt}:",
+							"type": "item",
+							"name": "{@item 防护法球（费尼亚玄武岩）|UAMagicItemsofEberron|费尼亚玄武岩}:",
+							"style": "italic",
+							"entries": [
+								"火焰伤害"
+							]
+						},
+						{
+							"ENG_name": "{@item Orb of Shielding (Irian Quartz)|UAMagicItemsofEberron|Irian Quartz}:",
+							"type": "item",
+							"name": "{@item 防护法球（伊瑞安石英）|UAMagicItemsofEberron|伊瑞安石英}:",
+							"style": "italic",
+							"entries": [
+								"光耀伤害"
+							]
+						},
+						{
+							"ENG_name": "{@item Orb of Shielding (Kythrian Skarn)|UAMagicItemsofEberron|Kythrian Skarn}:",
+							"type": "item",
+							"name": "{@item 防护法球（奇斯瑞矽卡岩）|UAMagicItemsofEberron|奇斯瑞矽卡岩}:",
+							"style": "italic",
+							"entries": [
+								"强酸或毒素伤害"
+							]
+						},
+						{
+							"ENG_name": "{@item Orb of Shielding (Lamannian Flint)|UAMagicItemsofEberron|Lamannian Flint}:",
+							"type": "item",
+							"name": "{@item 防护法球（拉玛尼亚燧石）|UAMagicItemsofEberron|拉玛尼亚燧石}:",
+							"style": "italic",
+							"entries": [
+								"闪电或雷鸣伤害"
+							]
+						},
+						{
+							"ENG_name": "{@item Orb of Shielding (Mabaran Obsidian)|UAMagicItemsofEberron|Mabaran Obsidian}:",
+							"type": "item",
+							"name": "{@item 防护法球（玛伯尔黑曜石）|UAMagicItemsofEberron|玛伯尔黑曜石}:",
+							"style": "italic",
+							"entries": [
+								"暗蚀伤害"
+							]
+						},
+						{
+							"ENG_name": "{@item Orb of Shielding (Quori Celestine)|UAMagicItemsofEberron|Quori Celestine}, {@item Orb of Shielding (Xorian Marble)|UAMagicItemsofEberron|Xorian Marble}:",
+							"type": "item",
+							"name": "{@item 防护法球（梦灵Celestine）|UAMagicItemsofEberron|梦灵Celestine}, {@item 防护宝珠（肖瑞安大理石）|UAMagicItemsofEberron|肖瑞安大理石}:",
+							"style": "italic",
+							"entries": [
+								"心灵伤害"
+							]
+						},
+						{
+							"ENG_name": "{@item Orb of Shielding (Risian Shale)|UAMagicItemsofEberron|Risian Shale}:",
+							"type": "item",
+							"name": "{@item 防护法球（瑞西亚页岩）|UAMagicItemsofEberron|瑞西亚页岩}:",
+							"style": "italic",
+							"entries": [
+								"寒冷伤害"
+							]
+						},
+						{
+							"ENG_name": "{@item Orb of Shielding (Shavaran Chert)|UAMagicItemsofEberron|Shavaran Chert}:",
+							"type": "item",
+							"name": "{@item 防护法球（沙瓦兰燧石）|UAMagicItemsofEberron|莎瓦兰燧石}:",
+							"style": "italic",
+							"entries": [
+								"力场伤害"
+							]
+						}
+					]
+				}
+			],
+			"items": [
+				"防护法球（费尼亚玄武岩）|UAMagicItemsofEberron",
+				"防护法球（伊瑞安石英）|UAMagicItemsofEberron",
+				"防护法球（奇斯瑞矽卡岩）|UAMagicItemsofEberron",
+				"防护法球（拉玛尼亚燧石）|UAMagicItemsofEberron",
+				"防护法球（玛伯尔黑曜石）|UAMagicItemsofEberron",
+				"防护法球（梦灵Celestine）|UAMagicItemsofEberron",
+				"防护法球（瑞西亚页岩）|UAMagicItemsofEberron",
+				"防护法球（沙瓦兰燧石）|UAMagicItemsofEberron",
+				"防护宝珠（肖瑞安大理石）|UAMagicItemsofEberron"
+			],
+			"itemsHidden": true,
+			"hasFluff": true
+		}
+	],
+	"magicvariant": [
+		{
+			"ENG_name": "Armblade",
+			"name": "臂刃",
+			"edition": "classic",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "M"
+				},
+				{
+					"type": "M|XPHB"
+				}
+			],
+			"excludes": {
+				"property": [
+					"2H",
+					"2H|XPHB"
+				]
+			},
+			"inherits": {
+				"namePrefix": "臂刃",
+				"source": "UAMagicItemsofEberron",
+				"page": 3,
+				"reprintedAs": [
+					"臂刃|ERLW"
+				],
+				"rarity": "common",
+				"reqAttune": "由战俑",
+				"reqAttuneTags": [
+					{
+						"race": "战俑|ERLW"
+					}
+				],
+				"entries": [
+					"臂刃是一种设计用于与战俑前臂整合的武器。如果你是战俑，你可以通过同调来吸附臂刃。吸附的臂刃不能被缴械或随意从你身上移除，但当武器吸附时，你不能用那只手进行其他动作。你可以花费一分钟来结束同调并移除臂刃。"
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Imbued Wood (Fernian Ash)",
+			"name": "蕴能木杖（费尼亚白蜡木）",
+			"edition": "classic",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				},
+				{
+					"type": "SCF|XPHB",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"水晶",
+					"法球"
+				]
+			},
+			"inherits": {
+				"namePrefix": "费尼亚白蜡木",
+				"source": "UAMagicItemsofEberron",
+				"page": 1,
+				"reprintedAs": [
+					"蕴能木杖（费尼亚白蜡木）|ERLW"
+				],
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"bonusSpellDamage": "+1",
+				"entries": [
+					"强大的显能区域可以将位面能量注入当地的树木中。一位天赋异禀的奇械师可以利用这点创造出特别擅长引导特定类型能量的魔杖、法杖或权杖。",
+					"当你施放一个造成火焰伤害的法术时，该法术在其中一个火焰伤害掷骰上获得+1加值。"
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Imbued Wood (Irian Rosewood)",
+			"name": "蕴能木杖（伊瑞安红木）",
+			"edition": "classic",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				},
+				{
+					"type": "SCF|XPHB",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"水晶",
+					"法球"
+				]
+			},
+			"inherits": {
+				"namePrefix": "伊瑞安红木",
+				"source": "UAMagicItemsofEberron",
+				"page": 1,
+				"reprintedAs": [
+					"蕴能木杖（伊瑞安红木）|ERLW"
+				],
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"bonusSpellDamage": "+1",
+				"entries": [
+					"强大的显能区域可以将位面能量注入当地的树木中。一位天赋异禀的奇械师可以利用这点创造出特别擅长引导特定类型能量的魔杖、法杖或权杖。",
+					"当你施放一个造成光耀伤害的法术时，该法术的光耀伤害掷骰获得+1加值。"
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Imbued Wood (Kythrian Manchineel)",
+			"name": "蕴能木杖（奇斯瑞毒番石榴木）",
+			"edition": "classic",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				},
+				{
+					"type": "SCF|XPHB",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"水晶",
+					"法球"
+				]
+			},
+			"inherits": {
+				"namePrefix": "奇斯瑞毒番石榴木",
+				"source": "UAMagicItemsofEberron",
+				"page": 1,
+				"reprintedAs": [
+					"蕴能木杖（奇斯瑞毒番石榴木）|ERLW"
+				],
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"bonusSpellDamage": "+1",
+				"entries": [
+					"强大的显能区域可以将位面能量注入当地的树木中。一位天赋异禀的奇械师可以利用这点创造出特别擅长引导特定类型能量的魔杖、法杖或权杖。",
+					"当你施放一个造成强酸或毒素伤害的法术时，该法术的一个强酸或毒素伤害掷骰获得+1加值。"
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Imbued Wood (Lamannian Oak)",
+			"name": "蕴能木杖（拉玛尼亚橡木）",
+			"edition": "classic",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				},
+				{
+					"type": "SCF|XPHB",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"水晶",
+					"法球"
+				]
+			},
+			"inherits": {
+				"namePrefix": "拉玛尼亚橡木",
+				"source": "UAMagicItemsofEberron",
+				"page": 1,
+				"reprintedAs": [
+					"蕴能木杖（拉玛尼亚橡木）|ERLW"
+				],
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"bonusSpellDamage": "+1",
+				"entries": [
+					"强大的显能区域可以将位面能量注入当地的树木中。一位天赋异禀的奇械师可以利用这点创造出特别擅长引导特定类型能量的魔杖、法杖或权杖。",
+					"当你施放一个造成闪电或雷鸣伤害的法术时，该法术的一个闪电或雷鸣伤害掷骰获得+1加值。"
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Imbued Wood (Mabaran Ebony)",
+			"name": "蕴能木杖（玛伯尔乌木）",
+			"edition": "classic",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				},
+				{
+					"type": "SCF|XPHB",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"水晶",
+					"法球"
+				]
+			},
+			"inherits": {
+				"namePrefix": "玛伯尔乌木",
+				"source": "UAMagicItemsofEberron",
+				"page": 1,
+				"reprintedAs": [
+					"蕴能木杖（玛伯尔乌木）|ERLW"
+				],
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"bonusSpellDamage": "+1",
+				"entries": [
+					"强大的显能区域可以将位面能量注入当地的树木中。一位天赋异禀的奇械师可以利用这点创造出特别擅长引导特定类型能量的魔杖、法杖或权杖。",
+					"当你施放一个造成暗蚀伤害的法术时，该法术的一个暗蚀伤害掷骰获得+1加值。"
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Imbued Wood (Quori Beech)",
+			"name": "注能木（梦灵山毛榉）",
+			"edition": "classic",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				},
+				{
+					"type": "SCF|XPHB",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"水晶",
+					"法球"
+				]
+			},
+			"inherits": {
+				"namePrefix": "梦灵山毛榉",
+				"source": "UAMagicItemsofEberron",
+				"page": 1,
+				"reprintedAs": [
+					"注能木（梦灵山毛榉）|ERLW"
+				],
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"bonusSpellDamage": "+1",
+				"entries": [
+					"强大的显能区域可以将位面能量注入当地的树木中。一位天赋异禀的奇械师可以利用这点创造出特别擅长引导特定类型能量的魔杖、法杖或权杖。",
+					"当你施放一个造成心灵伤害的法术时，该法术在其中一个心灵伤害掷骰上获得+1加值。"
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Imbued Wood (Risian Pine)",
+			"name": "蕴能木杖（瑞西亚松木）",
+			"edition": "classic",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				},
+				{
+					"type": "SCF|XPHB",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"水晶",
+					"法球"
+				]
+			},
+			"inherits": {
+				"namePrefix": "瑞西亚松木",
+				"source": "UAMagicItemsofEberron",
+				"page": 1,
+				"reprintedAs": [
+					"蕴能木杖（瑞西亚松木）|ERLW"
+				],
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"bonusSpellDamage": "+1",
+				"entries": [
+					"强大的显能区域可以将位面能量注入当地的树木中。一位天赋异禀的奇械师可以利用这点创造出特别擅长引导特定类型能量的魔杖、法杖或权杖。",
+					"当你施放一个造成寒冷伤害的法术时，该法术的其中一个寒冷伤害掷骰获得+1加值。"
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Imbued Wood (Shavarran Birch)",
+			"name": "蕴能木杖（撒法拉斯桦木）",
+			"edition": "classic",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				},
+				{
+					"type": "SCF|XPHB",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"水晶",
+					"法球"
+				]
+			},
+			"inherits": {
+				"namePrefix": "撒法拉斯桦木",
+				"source": "UAMagicItemsofEberron",
+				"page": 1,
+				"reprintedAs": [
+					"蕴能木杖（撒法拉斯桦木）|ERLW"
+				],
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"bonusSpellDamage": "+1",
+				"entries": [
+					"强大的显能区域可以将位面能量注入当地的树木中。一位天赋异禀的奇械师可以利用这点创造出特别擅长引导特定类型能量的魔杖、法杖或权杖。",
+					"当你施放一个造成力场伤害的法术时，该法术在其中一个力场伤害掷骰上获得+1加值。"
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Imbued Wood (Xorian Wenge)",
+			"name": "蕴能木杖（肖瑞安文格木）",
+			"edition": "classic",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				},
+				{
+					"type": "SCF|XPHB",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"水晶",
+					"法球"
+				]
+			},
+			"inherits": {
+				"namePrefix": "肖瑞安文格木",
+				"source": "UAMagicItemsofEberron",
+				"page": 1,
+				"reprintedAs": [
+					"蕴能木杖（肖瑞安文格木）|ERLW"
+				],
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"bonusSpellDamage": "+1",
+				"entries": [
+					"强大的显能区域可以将位面能量注入当地的树木中。一位天赋异禀的奇械师可以利用这点创造出特别擅长引导特定类型能量的魔杖、法杖或权杖。",
+					"当你施放一个造成心灵伤害的法术时，该法术在其中一个心灵伤害掷骰上获得+1加值。"
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Orb of Shielding (Fernian Basalt)",
+			"name": "防护法球（费尼亚玄武岩）",
+			"edition": "classic",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				},
+				{
+					"type": "SCF|XPHB",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"法杖",
+					"权杖",
+					"魔杖"
+				]
+			},
+			"inherits": {
+				"namePrefix": "费尼亚玄武岩",
+				"source": "UAMagicItemsofEberron",
+				"page": 1,
+				"reprintedAs": [
+					"防护法球（费尼亚玄武岩）|ERLW"
+				],
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"entries": [
+					"一个{@i 防护法球}由与诸位面之一对齐的水晶或岩石制成。当你持有该法球且受到火焰伤害时，你可以使用你的反应来将火焰伤害缩小{@dice 1d4}。"
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Orb of Shielding (Irian Quartz)",
+			"name": "防护法球（伊瑞安石英）",
+			"edition": "classic",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				},
+				{
+					"type": "SCF|XPHB",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"法杖",
+					"权杖",
+					"魔杖"
+				]
+			},
+			"inherits": {
+				"namePrefix": "伊瑞安石英",
+				"source": "UAMagicItemsofEberron",
+				"page": 1,
+				"reprintedAs": [
+					"防护法球（伊瑞安石英）|ERLW"
+				],
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"entries": [
+					"一个{@i 防护法球}由与诸位面之一对齐的水晶或岩石制成。当你持有该法球且受到光耀伤害时，你可以使用你的反应来将光耀伤害缩小{@dice 1d4}。"
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Orb of Shielding (Kythrian Skarn)",
+			"name": "防护法球（奇斯瑞矽卡岩）",
+			"edition": "classic",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				},
+				{
+					"type": "SCF|XPHB",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"法杖",
+					"权杖",
+					"魔杖"
+				]
+			},
+			"inherits": {
+				"namePrefix": "奇斯瑞矽卡岩",
+				"source": "UAMagicItemsofEberron",
+				"page": 1,
+				"reprintedAs": [
+					"防护法球（奇斯瑞矽卡岩）|ERLW"
+				],
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"entries": [
+					"一个{@i 防护法球}由与诸位面之一对齐的水晶或岩石制成。当你持有该法球且受到强酸或毒素伤害时，你可以使用反应将强酸或毒素伤害缩小{@dice 1d4}。"
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Orb of Shielding (Lamannian Flint)",
+			"name": "防护法球（拉玛尼亚燧石）",
+			"edition": "classic",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				},
+				{
+					"type": "SCF|XPHB",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"法杖",
+					"权杖",
+					"魔杖"
+				]
+			},
+			"inherits": {
+				"namePrefix": "拉玛尼亚燧石",
+				"source": "UAMagicItemsofEberron",
+				"page": 1,
+				"reprintedAs": [
+					"防护法球（拉玛尼亚燧石）|ERLW"
+				],
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"entries": [
+					"一个{@i 防护法球}由与诸位面之一对齐的水晶或岩石制成。当你持有该法球且受到闪电或雷鸣伤害时，你可以使用你的反应来将闪电或雷鸣伤害缩小{@dice 1d4}。"
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Orb of Shielding (Mabaran Obsidian)",
+			"name": "防护法球（玛伯尔黑曜石）",
+			"edition": "classic",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				},
+				{
+					"type": "SCF|XPHB",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"法杖",
+					"权杖",
+					"魔杖"
+				]
+			},
+			"inherits": {
+				"namePrefix": "玛伯尔黑曜石",
+				"source": "UAMagicItemsofEberron",
+				"page": 1,
+				"reprintedAs": [
+					"防护法球（玛伯尔黑曜石）|ERLW"
+				],
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"entries": [
+					"一个{@i 防护法球}由与诸位面之一对齐的水晶或岩石制成。当你持有该法球且受到暗蚀伤害时，你可以使用你的反应将暗蚀伤害缩小{@dice 1d4}。"
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Orb of Shielding (Quori Celestine)",
+			"name": "防护法球（梦灵Celestine）",
+			"edition": "classic",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				},
+				{
+					"type": "SCF|XPHB",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"法杖",
+					"权杖",
+					"魔杖"
+				]
+			},
+			"inherits": {
+				"namePrefix": "梦灵Celestine",
+				"source": "UAMagicItemsofEberron",
+				"page": 1,
+				"reprintedAs": [
+					"防护法球（梦灵Celestine）|ERLW"
+				],
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"entries": [
+					"一个{@i 防护法球}由与诸位面之一对齐的水晶或岩石制成。当你持有该法球且受到心灵伤害时，你可以使用你的反应将心灵伤害缩小{@dice 1d4}。"
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Orb of Shielding (Risian Shale)",
+			"name": "防护法球（瑞西亚页岩）",
+			"edition": "classic",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				},
+				{
+					"type": "SCF|XPHB",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"法杖",
+					"权杖",
+					"魔杖"
+				]
+			},
+			"inherits": {
+				"namePrefix": "瑞西亚页岩",
+				"source": "UAMagicItemsofEberron",
+				"page": 1,
+				"reprintedAs": [
+					"防护法球（瑞西亚页岩）|ERLW"
+				],
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"entries": [
+					"一个{@i 防护法球}由与诸位面之一对齐的水晶或岩石制成。当你持有该法球且受到寒冷伤害时，你可以使用你的反应将寒冷伤害缩小{@dice 1d4}。"
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Orb of Shielding (Shavaran Chert)",
+			"name": "防护法球（沙瓦兰燧石）",
+			"edition": "classic",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				},
+				{
+					"type": "SCF|XPHB",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"法杖",
+					"权杖",
+					"魔杖"
+				]
+			},
+			"inherits": {
+				"namePrefix": "沙瓦兰燧石",
+				"source": "UAMagicItemsofEberron",
+				"page": 1,
+				"reprintedAs": [
+					"防护法球（沙瓦兰燧石）|ERLW"
+				],
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"entries": [
+					"一个{@i 防护法球}由与诸位面之一对齐的水晶或岩石制成。当你持有该法球且受到力场伤害时，你可以使用你的反应来将力场伤害缩小{@dice 1d4}。"
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Orb of Shielding (Xorian Marble)",
+			"name": "防护宝珠（肖瑞安大理石）",
+			"edition": "classic",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				},
+				{
+					"type": "SCF|XPHB",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"法杖",
+					"权杖",
+					"魔杖"
+				]
+			},
+			"inherits": {
+				"namePrefix": "肖瑞安大理石",
+				"source": "UAMagicItemsofEberron",
+				"page": 1,
+				"reprintedAs": [
+					"防护宝珠（肖瑞安大理石）|ERLW"
+				],
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"entries": [
+					"一个{@i 防护法球}由与诸位面之一对齐的水晶或岩石制成。当你持有该法球且受到心灵伤害时，你可以使用你的反应将心灵伤害缩小{@dice 1d4}。"
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Vicious Armblade",
+			"name": "恶毒臂刃",
+			"edition": "classic",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "M"
+				},
+				{
+					"type": "M|XPHB"
+				}
+			],
+			"excludes": {
+				"property": [
+					"2H",
+					"2H|XPHB"
+				]
+			},
+			"entries": [
+				"臂刃是一种设计用于与战俑前臂整合的武器。如果你是战俑，你可以通过同调来吸附臂刃。吸附的臂刃不能被缴械或随意从你身上移除，但当武器吸附时，你不能用那只手进行其他动作。你可以花费一分钟来结束同调并移除臂刃。",
+				"当你使用这把魔法武器掷出20时，目标会额外受到7点该武器类型的损害。",
+				"{@note 注：根据SRD，这是额外的{@dice 2d6}伤害，尽管{@link 这是不正确的|https://rpg.stackexchange.com/a/174522/53884}。}"
+			],
+			"inherits": {
+				"namePrefix": "臂刃",
+				"source": "UAMagicItemsofEberron",
+				"page": 3,
+				"reprintedAs": [
+					"臂刃|ERLW"
+				],
+				"tier": "主要",
+				"rarity": "rare",
+				"reqAttune": "由战俑",
+				"reqAttuneTags": [
+					{
+						"race": "战俑|ERLW"
+					}
+				],
+				"entries": [
+					"臂刃是一种设计用于与战俑前臂整合的武器。如果你是战俑，你可以通过同调来吸附臂刃。吸附的臂刃不能被缴械或随意从你身上移除，但当武器吸附时，你不能用那只手进行其他动作。你可以花费一分钟来结束同调并移除臂刃。",
+					"当你使用这把魔法武器掷出20时，目标会额外受到7点{=dmgType}伤害。",
+					"{@note 注：根据SRD，这是一个额外的{@dice 2d6} {=dmgType}伤害，尽管{@link 这是不正确的|https://rpg.stackexchange.com/a/174522/53884}。}"
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"ENG_name": "Vorpal Armblade",
+			"name": "斩首臂刃",
+			"edition": "classic",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"sword": true,
+					"dmgType": "S",
+					"type": "M"
+				},
+				{
+					"sword": true,
+					"dmgType": "S",
+					"type": "M|XPHB"
+				}
+			],
+			"excludes": {
+				"property": [
+					"2H",
+					"2H|XPHB"
+				]
+			},
+			"inherits": {
+				"namePrefix": "臂刃",
+				"source": "UAMagicItemsofEberron",
+				"page": 3,
+				"reprintedAs": [
+					"臂刃|ERLW"
+				],
+				"tier": "主要",
+				"rarity": "legendary",
+				"reqAttune": "由战俑",
+				"reqAttuneTags": [
+					{
+						"race": "战俑|ERLW"
+					}
+				],
+				"bonusWeapon": "+3",
+				"entries": [
+					"臂刃是一种设计用于与战俑前臂整合的武器。如果你是战俑，你可以通过同调来吸附臂刃。吸附的臂刃不能被缴械或随意从你身上移除，但当武器吸附时，你不能用那只手进行其他动作。你可以花费一分钟来结束同调并移除臂刃。",
+					"你用此魔法武器进行的攻击检定和伤害掷骰获得 +3 加值。此外，此武器无视对挥砍伤害的抗性。",
+					"当你使用这件武器攻击至少有一个头的生物，并且在攻击骰上掷出20时，你将砍掉该生物的一个头。如果生物失去头颅后无法存活，则该生物死亡。如果生物对挥砍伤害免疫，没有或不需要头，具有传奇行动，或者DM决定该生物太大，无法用这件武器砍掉头颅，则该生物对这种效果免疫。这样的生物在被击中时反而会额外受到{@dice 6d8}点挥砍伤害。"
+				]
+			},
+			"hasFluff": true
+		}
+	],
+	"itemFluff": [
+		{
+			"ENG_name": "Armblade",
+			"name": "臂刃",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"ENG_name": "Docent",
+				"name": "指导附件",
+				"source": "UAMagicItemsofEberron",
+				"_mod": {
+					"entries": {
+						"mode": "appendArr",
+						"items": [
+							{
+								"ENG_name": "Magic Armblades",
+								"name": "魔法臂刃",
+								"type": "inset",
+								"page": 3,
+								"entries": [
+									"一把{@item 臂刃|UAMagicItemsofEberron}在克服伤害抗性时并不被视为魔化武器。然而，任何类型的魔法近战武器都可以被制成臂刃，因此你可以获得一把{@item 恶毒臂刃|UAMagicItemsofEberron}或一把{@item 斩首臂刃|UAMagicItemsofEberron}。"
+								]
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"ENG_name": "Docent",
+			"name": "指导附件",
+			"source": "UAMagicItemsofEberron",
+			"entries": [
+				"这些{@race 战俑|ERLW}是活体构装。卡尼斯家族设计了许多可以直接与{@race 战俑|ERLW}身体连接的魔法物品。一旦安装，除非{@race 战俑|ERLW}允许，否则无法移除组件。",
+				"{@item 臂刃|UAMagicItemsofEberron}是卡尼斯家族创造的物品范例。{@item 指导附件|UAMagicItemsofEberron|指挥官}是在希恩德瑞克发现的奇异奇物。这些只是你在艾伯伦可能遇到的其中一些成分。"
+			]
+		},
+		{
+			"ENG_name": "Imbued Wood",
+			"name": "注能木",
+			"source": "UAMagicItemsofEberron",
+			"entries": [
+				"前往萨恩的集市或卡尼斯家族的任一飞地，你会发现有各种各样的奥术法器可供选择。对于一个魔杖枪手来说，选择奥术法器的重量与决斗家选择刺剑或巨锤一样重要。你是使用{@item 费尼亚白蜡木魔杖|UAMagicItemsofEberron|费尼亚白蜡木魔杖}来专注你的{@spell 火焰箭}，还是利用{@item 防护法球（瑞西亚页岩）|UAMagicItemsofEberron|瑞西亚法球}来驾驭防御能量？",
+				"奥术法器是一种工具，且只有在你主动使用它时才会提供增益。",
+				"在科瓦雷，奥术法器物品被视为武器：如果警卫正在收缴宝剑和弓，他们也会要求你交出法杖。"
+			]
+		},
+		{
+			"ENG_name": "Imbued Wood (Fernian Ash)",
+			"name": "蕴能木杖（费尼亚白蜡木）",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"ENG_name": "Imbued Wood",
+				"name": "注能木",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"ENG_name": "Imbued Wood (Irian Rosewood)",
+			"name": "蕴能木杖（伊瑞安红木）",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"ENG_name": "Imbued Wood",
+				"name": "注能木",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"ENG_name": "Imbued Wood (Kythrian Manchineel)",
+			"name": "蕴能木杖（奇斯瑞毒番石榴木）",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"ENG_name": "Imbued Wood",
+				"name": "注能木",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"ENG_name": "Imbued Wood (Lamannian Oak)",
+			"name": "蕴能木杖（拉玛尼亚橡木）",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"ENG_name": "Imbued Wood",
+				"name": "注能木",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"ENG_name": "Imbued Wood (Mabaran Ebony)",
+			"name": "蕴能木杖（玛伯尔乌木）",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"ENG_name": "Imbued Wood",
+				"name": "注能木",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"ENG_name": "Imbued Wood (Quori Beech)",
+			"name": "注能木（梦灵山毛榉）",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"ENG_name": "Imbued Wood",
+				"name": "注能木",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"ENG_name": "Imbued Wood (Risian Pine)",
+			"name": "蕴能木杖（瑞西亚松木）",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"ENG_name": "Imbued Wood",
+				"name": "注能木",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"ENG_name": "Imbued Wood (Shavarran Birch)",
+			"name": "蕴能木杖（撒法拉斯桦木）",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"ENG_name": "Imbued Wood",
+				"name": "注能木",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"ENG_name": "Imbued Wood (Xorian Wenge)",
+			"name": "蕴能木杖（肖瑞安文格木）",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"ENG_name": "Imbued Wood",
+				"name": "注能木",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"ENG_name": "Orb of Shielding",
+			"name": "防护法球",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"ENG_name": "Imbued Wood",
+				"name": "注能木",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"ENG_name": "Orb of Shielding (Fernian Basalt)",
+			"name": "防护法球（费尼亚玄武岩）",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"ENG_name": "Imbued Wood",
+				"name": "注能木",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"ENG_name": "Orb of Shielding (Irian Quartz)",
+			"name": "防护法球（伊瑞安石英）",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"ENG_name": "Imbued Wood",
+				"name": "注能木",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"ENG_name": "Orb of Shielding (Kythrian Skarn)",
+			"name": "防护法球（奇斯瑞矽卡岩）",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"ENG_name": "Imbued Wood",
+				"name": "注能木",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"ENG_name": "Orb of Shielding (Lamannian Flint)",
+			"name": "防护法球（拉玛尼亚燧石）",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"ENG_name": "Imbued Wood",
+				"name": "注能木",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"ENG_name": "Orb of Shielding (Mabaran Obsidian)",
+			"name": "防护法球（玛伯尔黑曜石）",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"ENG_name": "Imbued Wood",
+				"name": "注能木",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"ENG_name": "Orb of Shielding (Quori Celestine)",
+			"name": "防护法球（梦灵Celestine）",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"ENG_name": "Imbued Wood",
+				"name": "注能木",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"ENG_name": "Orb of Shielding (Risian Shale)",
+			"name": "防护法球（瑞西亚页岩）",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"ENG_name": "Imbued Wood",
+				"name": "注能木",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"ENG_name": "Orb of Shielding (Shavaran Chert)",
+			"name": "防护法球（沙瓦兰燧石）",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"ENG_name": "Imbued Wood",
+				"name": "注能木",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"ENG_name": "Orb of Shielding (Xorian Marble)",
+			"name": "防护宝珠（肖瑞安大理石）",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"ENG_name": "Imbued Wood",
+				"name": "注能木",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"ENG_name": "Vicious Armblade",
+			"name": "恶毒臂刃",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"ENG_name": "Armblade",
+				"name": "臂刃",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"ENG_name": "Vorpal Armblade",
+			"name": "斩首臂刃",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"ENG_name": "Armblade",
+				"name": "臂刃",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"ENG_name": "Wand Sheath",
+			"name": "魔杖插槽",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"ENG_name": "Docent",
+				"name": "指导附件",
+				"source": "UAMagicItemsofEberron"
+			}
+		}
+	],
+	"variantrule": [
+		{
+			"ENG_name": "Two-Handed Arcane Focuses",
+			"name": "双手奥术法器",
+			"source": "UAMagicItemsofEberron",
+			"page": 2,
+			"reprintedAs": [
+				"双手奥术法器|UAWayfindersGuideToEberron"
+			],
+			"ruleType": "O",
+			"entries": [
+				"在艾伯伦，奥术法器是一种武器。因此，可以有趣地赋予法器一些与寻常武器相同的权衡：你是否会为了更强的法力而牺牲自由手？",
+				"如果你使用此可选规则，当施法者使用双手奥术法器施放攻击性戏法（需要豁免检定或攻击检定的戏法）时，该戏法的范围增加50%。",
+				"根据这条规则，法杖总是需要双手持握，而权杖可以用单手或双手使用。使用双手奥术法器可以满足法术的姿势成分要求。"
+			]
+		}
+	],
+	"book": [
+		{
+			"ENG_name": "Unearthed Arcana: Magic Items of Eberron",
+			"name": "破解奥秘：艾伯伦的魔法物品",
+			"id": "UAMagicItemsofEberron",
+			"source": "UAMagicItemsofEberron",
+			"group": "prerelease",
+			"cover": {
+				"type": "internal",
+				"path": "covers/blank.webp"
+			},
+			"published": "2018-10-08",
+			"author": "威世智",
+			"contents": [
+				{
+					"ENG_name": "Unearthed Arcana: Magic Items of Eberron",
+					"name": "破解奥秘：艾伯伦的魔法物品",
+					"headers": [
+						"奥术法器",
+						"普通魔法物件",
+						"战俑成分"
+					]
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "UAMagicItemsofEberron",
+			"source": "UAMagicItemsofEberron",
+			"data": [
+				{
+					"ENG_name": "Unearthed Arcana: Dragonmarks",
+					"name": "破解奥秘：龙纹",
+					"type": "section",
+					"page": 1,
+					"entries": [
+						"这份文档精选了来自D&D艾伯伦世界的魔法物品，可以融入你的战役中。有关艾伯伦的更多消息，请参阅{@loader 艾伯伦探路者手册|collection/Wayfinder's Guide to Eberron.json|预发布}，可在{@link dmsguild.com|https://www.dmsguild.com/product/247882/Wayfinders-Guide-to-Eberron-5e}获取。",
+						{
+							"ENG_name": "This Is Playtest Content",
+							"name": "此为测试内容",
+							"type": "inset",
+							"page": 1,
+							"entries": [
+								"这里的材质是为游戏测试和激发你的想象力而呈现的。这些游戏机制处于征募形态，可用于你的战役但未经最终游戏设计和编辑的完善。他们不是游戏的正式部分且不允许在D&D冒险者联盟活动中使用。",
+								"如果我们决定将此材质官员化，它将根据您的反馈进行细化，且随后会出现在一本D&D书中。"
+							],
+							"id": "001"
+						},
+						"奥术魔法在艾伯伦世界中扮演着至关重要的职能。普通魔法物件已成为日常生活的一部分。在安黛尔国家，魔杖使用者的人数正开始超过使用剑舞和弓箭的人。",
+						{
+							"ENG_name": "Arcane Focuses",
+							"name": "奥术法器",
+							"type": "section",
+							"page": 1,
+							"entries": [
+								"前往萨恩的集市或卡尼斯家族的任一飞地，你会发现有各种各样的奥术法器可供选择。对于一个魔杖枪手来说，选择奥术法器的重量与决斗家选择刺剑或巨锤相当。你是使用{@item 蕴能木杖（费尼亚白蜡木）|UAMagicItemsofEberron|费尼亚白蜡木魔杖}来专注你的{@spell 火焰箭}，还是利用{@item 防护法球（瑞西亚页岩）|UAMagicItemsofEberron|瑞西亚法球}来驾驭防御能量？",
+								"奥术法器是一种工具，且只有在你主动使用它时才会提供增益。",
+								"在科瓦雷，奥术法器物品被视为武器：如果警卫正在收缴宝剑和弓，他们也会要求你交出法杖。",
+								{
+									"ENG_name": "Imbued Wood",
+									"name": "注能木",
+									"type": "statblock",
+									"tag": "item",
+									"source": "UAMagicItemsofEberron",
+									"page": 1
+								},
+								{
+									"ENG_name": "Orb of Shielding",
+									"name": "防护法球",
+									"type": "statblock",
+									"tag": "item",
+									"source": "UAMagicItemsofEberron",
+									"page": 1
+								},
+								{
+									"ENG_name": "Two-Handed Arcane Focuses",
+									"name": "双手奥术法器",
+									"type": "statblock",
+									"tag": "variantrule",
+									"source": "UAMagicItemsofEberron",
+									"page": 2,
+									"style": "inset",
+									"displayName": "可选规则：双手奥术法器"
+								}
+							],
+							"id": "002"
+						},
+						{
+							"ENG_name": "Common Magic Items",
+							"name": "普通魔法物件",
+							"type": "section",
+							"page": 2,
+							"entries": [
+								"奥术魔法是科瓦雷五国日常生活的一部分。强大的魔法物品仍然珍稀且引人注目，但街道上点亮着永明提灯，贵族们炫耀着他们的财富，穿着优质的幻象织物服装。这些只是你在艾伯伦可能找到的普通物品的几个示例。",
+								{
+									"ENG_name": "Band of Loyalty",
+									"name": "忠诚戒指",
+									"type": "statblock",
+									"tag": "item",
+									"source": "UAMagicItemsofEberron",
+									"page": 2
+								},
+								{
+									"ENG_name": "Cleansing Stone",
+									"name": "清洁石",
+									"type": "statblock",
+									"tag": "item",
+									"source": "UAMagicItemsofEberron",
+									"page": 2
+								},
+								{
+									"ENG_name": "Everbright Lantern",
+									"name": "永明提灯",
+									"type": "statblock",
+									"tag": "item",
+									"source": "UAMagicItemsofEberron",
+									"page": 2
+								},
+								{
+									"ENG_name": "Feather Token",
+									"name": "羽落硬币",
+									"type": "statblock",
+									"tag": "item",
+									"source": "UAMagicItemsofEberron",
+									"page": 2
+								},
+								{
+									"ENG_name": "Glamerweave",
+									"name": "幻象织物",
+									"type": "statblock",
+									"tag": "item",
+									"source": "UAMagicItemsofEberron",
+									"page": 2
+								},
+								{
+									"ENG_name": "Shiftweave",
+									"name": "百变外套",
+									"type": "statblock",
+									"tag": "item",
+									"source": "UAMagicItemsofEberron",
+									"page": 2
+								},
+								{
+									"ENG_name": "Spellshard",
+									"name": "法术晶格",
+									"type": "statblock",
+									"tag": "item",
+									"source": "UAMagicItemsofEberron",
+									"page": 3
+								}
+							],
+							"id": "003"
+						},
+						{
+							"ENG_name": "Warforged Components",
+							"name": "战俑成分",
+							"type": "section",
+							"page": 3,
+							"entries": [
+								"这些{@race 战俑|ERLW}是活体构装。卡尼斯家族设计了许多可以直接与{@race 战俑|ERLW}身体连接的魔法物品。一旦安装，除非{@race 战俑|ERLW}允许，否则无法移除组件。",
+								"{@item 臂刃|UAMagicItemsofEberron}是卡尼斯家族创造的物品范例。{@item 指导附件|UAMagicItemsofEberron|指挥官}是在希恩德瑞克发现的奇异奇物。这些只是你在艾伯伦可能遇到的其中一些成分。",
+								{
+									"ENG_name": "Armblade",
+									"name": "臂刃",
+									"type": "statblock",
+									"tag": "item",
+									"source": "UAMagicItemsofEberron",
+									"page": 3
+								},
+								{
+									"ENG_name": "Magic Armblades",
+									"name": "魔法臂刃",
+									"type": "inset",
+									"page": 3,
+									"entries": [
+										"一把{@item 臂刃|UAMagicItemsofEberron}在克服伤害抗性时并不被视为魔化武器。然而，任何类型的魔法近战武器都可以被制成臂刃，因此你可以获得一把{@item 恶毒臂刃|UAMagicItemsofEberron}或一把{@item 斩首臂刃|UAMagicItemsofEberron}。"
+									],
+									"id": "005"
+								},
+								{
+									"ENG_name": "Docent",
+									"name": "指导附件",
+									"type": "statblock",
+									"tag": "item",
+									"source": "UAMagicItemsofEberron",
+									"page": 3
+								},
+								{
+									"ENG_name": "Wand Sheath",
+									"name": "魔杖插槽",
+									"type": "statblock",
+									"tag": "item",
+									"source": "UAMagicItemsofEberron",
+									"page": 4
+								}
+							],
+							"id": "004"
+						}
+					],
+					"id": "000"
+				}
+			]
+		}
+	]
+}
