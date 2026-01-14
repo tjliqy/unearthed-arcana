@@ -4,7 +4,7 @@
 			{
 				"json": "UAWaterborneAdventures",
 				"abbreviation": "UAWA",
-				"full": "出土奥秘：水上冒险",
+				"full": "破解奥秘：水上冒险",
 				"authors": [
 					"Wizards of the Coast"
 				],
@@ -809,7 +809,7 @@
 	"book": [
 		{
 			"ENG_name": "Unearthed Arcana: Waterborne Adventures",
-			"name": "出土奥秘：水上冒险",
+			"name": "破解奥秘：水上冒险",
 			"id": "UAWaterborneAdventures",
 			"source": "UAWaterborneAdventures",
 			"group": "prerelease",
@@ -822,7 +822,7 @@
 			"contents": [
 				{
 					"ENG_name": "Unearthed Arcana: Waterborne Adventures",
-					"name": "出土奥秘：水上冒险",
+					"name": "破解奥秘：水上冒险",
 					"headers": [
 						"牛头人（克莱恩）",
 						"战斗风格：水手",
@@ -840,7 +840,7 @@
 			"data": [
 				{
 					"ENG_name": "Unearthed Arcana: Waterborne Adventures",
-					"name": "出土奥秘：水上冒险",
+					"name": "破解奥秘：水上冒险",
 					"type": "section",
 					"page": 1,
 					"entries": [
