@@ -1,11 +1,10 @@
 {
-	"$schema": "https://raw.githack.com/TheGiddyLimit/5etools-utils/master/schema/ua-fast/homebrew.json",
 	"_meta": {
 		"sources": [
 			{
 				"json": "XUA2026UnderdarkOptions2",
 				"abbreviation": "XUA26UO2",
-				"full": "Unearthed Arcana 2026: Underdark Options 2",
+				"full": "破解奥秘 2026：幽暗地域选项 2",
 				"url": "https://media.dndbeyond.com/compendium-images/ua/underdark-options-2/6xI5tgR8tUaYviqj/UA2026-UnderdarkOptions02.pdf",
 				"version": "2",
 				"dateReleased": "2026-09-10",
@@ -20,87 +19,89 @@
 		"edition": "one",
 		"status": "ready",
 		"dateAdded": 1789065597,
-		"dateLastModified": 1789127852,
+		"dateLastModified": 1792466461,
 		"_dateLastModifiedHash": "a9753acc82"
 	},
 	"subclass": [
 		{
-			"name": "Circle of Spores",
-			"shortName": "Spores",
+			"ENG_name": "Circle of Spores",
+			"name": "孢子结社",
+			"shortName": "孢子",
 			"source": "XUA2026UnderdarkOptions2",
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "XPHB",
 			"page": 2,
 			"additionalSpells": [
 				{
 					"prepared": {
 						"3": [
-							"Blindness/Deafness|XPHB",
-							"Charm Person|XPHB",
-							"Chill Touch|XPHB"
+							"目盲术/耳聋术|XPHB",
+							"魅惑类人|XPHB",
+							"颤栗之触|XPHB"
 						],
 						"5": [
-							"Animate Dead|XPHB"
+							"活化死尸|XPHB"
 						],
 						"7": [
-							"Confusion|XPHB"
+							"困惑术|XPHB"
 						],
 						"9": [
-							"Contagion|XPHB"
+							"疫病术|XPHB"
 						]
 					}
 				}
 			],
 			"subclassSpells": [
-				"Blindness/Deafness|XPHB",
-				"Charm Person|XPHB",
-				"Chill Touch|XPHB",
-				"Animate Dead|XPHB",
-				"Confusion|XPHB",
-				"Contagion|XPHB"
+				"目盲术/耳聋术|XPHB",
+				"魅惑类人|XPHB",
+				"颤栗之触|XPHB",
+				"活化死尸|XPHB",
+				"困惑术|XPHB",
+				"疫病术|XPHB"
 			],
 			"subclassFeatures": [
-				"Circle of Spores|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2",
-				"Fungal Infestation|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|6|XUA2026UnderdarkOptions2",
-				"Explosive Burst|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|10|XUA2026UnderdarkOptions2",
-				"Fungal Body|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|14|XUA2026UnderdarkOptions2"
+				"孢子结社|德鲁伊|XPHB|孢子|XUA2026UnderdarkOptions2|3|XUA2026幽暗地域选项2",
+				"真菌感染|德鲁伊|XPHB|孢子|XUA2026UnderdarkOptions2|6|XUA2026幽暗地域选项2",
+				"爆炸爆发|德鲁伊|XPHB|孢子|XUA2026UnderdarkOptions2|10|XUA2026幽暗地域选项2",
+				"真菌之躯|德鲁伊|XPHB|孢子|XUA2026UnderdarkOptions2|14|XUA2026幽暗地域选项2"
 			],
 			"hasFluff": true
 		},
 		{
-			"name": "Faerzress Sorcery",
-			"shortName": "Faerzress",
+			"ENG_name": "Faerzress Sorcery",
+			"name": "费尔兹瑞斯魔法",
+			"shortName": "费尔兹瑞斯",
 			"source": "XUA2026UnderdarkOptions2",
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
 			"page": 4,
 			"additionalSpells": [
 				{
 					"prepared": {
 						"3": [
-							"Faerie Fire|XPHB",
-							"Magic Weapon|XPHB",
-							"Misty Step|XPHB",
-							"Witch Bolt|XPHB"
+							"妖火|XPHB",
+							"魔化武器|XPHB",
+							"迷踪步|XPHB",
+							"巫术箭|XPHB"
 						],
 						"5": [
-							"Nondetection|XPHB",
-							"Sending|XPHB"
+							"回避侦测|XPHB",
+							"短讯术|XPHB"
 						],
 						"7": [
-							"Arcane Eye|XPHB",
-							"Stone Shape|XPHB"
+							"秘法眼|XPHB",
+							"塑石术|XPHB"
 						],
 						"9": [
-							"Passwall|XPHB",
-							"Scrying|XPHB"
+							"穿墙术|XPHB",
+							"探知|XPHB"
 						]
 					},
 					"innate": {
 						"14": {
 							"daily": {
 								"1e": [
-									"Teleport|XPHB"
+									"传送术|XPHB"
 								]
 							}
 						}
@@ -108,131 +109,139 @@
 				}
 			],
 			"subclassSpells": [
-				"Faerie Fire|XPHB",
-				"Magic Weapon|XPHB",
-				"Misty Step|XPHB",
-				"Witch Bolt|XPHB",
-				"Nondetection|XPHB",
-				"Sending|XPHB",
-				"Arcane Eye|XPHB",
-				"Stone Shape|XPHB",
-				"Passwall|XPHB",
-				"Scrying|XPHB",
-				"Teleport|XPHB"
+				"妖火|XPHB",
+				"魔化武器|XPHB",
+				"迷踪步|XPHB",
+				"巫术箭|XPHB",
+				"回避侦测|XPHB",
+				"短讯术|XPHB",
+				"秘法眼|XPHB",
+				"塑石术|XPHB",
+				"穿墙术|XPHB",
+				"探知|XPHB",
+				"传送术|XPHB"
 			],
 			"subclassFeatures": [
-				"Faerzress Sorcery|Sorcerer|XPHB|Faerzress|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2",
-				"Faerzress Affinity|Sorcerer|XPHB|Faerzress|XUA2026UnderdarkOptions2|6|XUA2026UnderdarkOptions2",
-				"Faerzress Spell|Sorcerer|XPHB|Faerzress|XUA2026UnderdarkOptions2|14|XUA2026UnderdarkOptions2",
-				"Faerzress Step|Sorcerer|XPHB|Faerzress|XUA2026UnderdarkOptions2|14|XUA2026UnderdarkOptions2",
-				"Faerzress Form|Sorcerer|XPHB|Faerzress|XUA2026UnderdarkOptions2|18|XUA2026UnderdarkOptions2"
+				"费尔兹瑞斯魔法|术士|XPHB|费尔兹瑞斯|XUA2026UnderdarkOptions2|3|XUA2026幽暗地域选项2",
+				"费尔兹瑞斯亲和力|术士|XPHB|费尔兹瑞斯|XUA2026UnderdarkOptions2|6|XUA2026幽暗地域选项2",
+				"费尔兹瑞斯法术|术士|XPHB|费尔兹瑞斯|XUA2026UnderdarkOptions2|14|XUA2026幽暗地域选项2",
+				"费尔兹瑞斯步|术士|XPHB|费尔兹瑞斯|XUA2026UnderdarkOptions2|14|XUA2026幽暗地域选项2",
+				"费尔兹瑞斯形态|术士|XPHB|费尔兹瑞斯|XUA2026UnderdarkOptions2|18|XUA2026幽暗地域选项2"
 			],
 			"hasFluff": true
 		},
 		{
-			"name": "Freedom Domain",
-			"shortName": "Freedom",
+			"ENG_name": "Freedom Domain",
+			"name": "自由领域",
+			"shortName": "自由",
 			"source": "XUA2026UnderdarkOptions2",
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "XPHB",
 			"page": 1,
 			"additionalSpells": [
 				{
 					"prepared": {
 						"3": [
-							"Expeditious Retreat|XPHB",
-							"Jump|XPHB",
-							"Knock|XPHB",
-							"Misty Step|XPHB"
+							"脚底抹油|XPHB",
+							"跳跃术|XPHB",
+							"敲击术|XPHB",
+							"迷踪步|XPHB"
 						],
 						"5": [
-							"Fly|XPHB",
-							"Gaseous Form|XPHB"
+							"飞行术|XPHB",
+							"气化形体|XPHB"
 						],
 						"7": [
-							"Dimension Door|XPHB",
-							"Freedom of Movement|XPHB"
+							"任意门|XPHB",
+							"行动自如|XPHB"
 						],
 						"9": [
-							"Passwall|XPHB",
-							"Tree Stride|XPHB"
+							"穿墙术|XPHB",
+							"树跃术|XPHB"
 						]
 					}
 				}
 			],
 			"subclassSpells": [
-				"Expeditious Retreat|XPHB",
-				"Jump|XPHB",
-				"Knock|XPHB",
-				"Misty Step|XPHB",
-				"Fly|XPHB",
-				"Gaseous Form|XPHB",
-				"Dimension Door|XPHB",
-				"Freedom of Movement|XPHB",
-				"Passwall|XPHB",
-				"Tree Stride|XPHB"
+				"脚底抹油|XPHB",
+				"跳跃术|XPHB",
+				"敲击术|XPHB",
+				"迷踪步|XPHB",
+				"飞行术|XPHB",
+				"气化形体|XPHB",
+				"任意门|XPHB",
+				"行动自如|XPHB",
+				"穿墙术|XPHB",
+				"树跃术|XPHB"
 			],
 			"subclassFeatures": [
-				"Freedom Domain|Cleric|XPHB|Freedom|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2",
-				"Unstoppable|Cleric|XPHB|Freedom|XUA2026UnderdarkOptions2|6|XUA2026UnderdarkOptions2",
-				"Avatar of Freedom|Cleric|XPHB|Freedom|XUA2026UnderdarkOptions2|17|XUA2026UnderdarkOptions2"
+				"自由领域|牧师|XPHB|自由|XUA2026UnderdarkOptions2|3|XUA2026幽暗地域选项2",
+				"势不可挡|牧师|XPHB|自由|XUA2026UnderdarkOptions2|6|XUA2026幽暗地域选项2",
+				"自由化身|牧师|XPHB|自由|XUA2026UnderdarkOptions2|17|XUA2026幽暗地域选项2"
 			],
 			"hasFluff": true
 		}
 	],
 	"subclassFluff": [
 		{
-			"name": "Circle of Spores",
-			"shortName": "Spores",
+			"ENG_name": "Circle of Spores",
+			"name": "孢子结社",
+			"shortName": "孢子",
 			"source": "XUA2026UnderdarkOptions2",
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "XPHB",
 			"entries": [
-				"{@i Steward the Cycle of Life, Death, and Decay}",
+				"{@i 守护生命、死亡与腐朽的循环}",
 				{
+					"ENG_name": "Design Notes: Circle of Spores Updates",
+					"name": "设计说明：孢子结社更新",
 					"type": "inset",
-					"name": "Design Notes: Circle of Spores Updates",
 					"page": 2,
 					"entries": [
-						"Here are the main updates in this subclass since its appearance in {@subclass Spores|Druid|PHB|TCE|Tasha's Cauldron of Everything} (2020):",
+						"以下是该子职自2020年在{@subclass 孢子|德鲁伊|PHB|TCE|塔莎的万事坩埚}（塔莎的万事坩埚）中出现以来的主要更新：",
 						{
 							"type": "list",
 							"page": 2,
 							"style": "list-hang-notitle",
 							"items": [
 								{
+									"ENG_name": "Halo of Spores",
+									"name": "孢子环绕",
 									"type": "item",
-									"name": "Halo of Spores",
 									"entries": [
-										"{@subclassFeature Halo of Spores|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2} is an {@variantrule Emanation [Area of Effect]|XPHB|Emanation} that grants {@variantrule telepathy|XPHB}. It also has a lesser effect on creatures that succeed on their {@variantrule saving throw|XPHB|saving throws}, instead of having no effect."
+										"{@subclassFeature 孢子环绕|德鲁伊|XPHB|孢子|XUA2026幽暗地域选项2|3|XUA2026幽暗地域选项2}是一个{@variantrule 光环 [效应区域]|XPHB|光环}，它赋予{@variantrule 心灵感应|XPHB}。对于那些成功通过{@variantrule 豁免检定|XPHB|豁免检定}的生物，它也会产生一个较弱的效果，而非完全无效。"
 									]
 								},
 								{
+									"ENG_name": "Symbiotic Entity",
+									"name": "一体共生",
 									"type": "item",
-									"name": "Symbiotic Entity",
 									"entries": [
-										"Empowering your spores with {@subclassFeature Symbiotic Entity|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2} uses a {@variantrule Bonus Action|XPHB} (like {@classFeature Wild Shape|Druid|XPHB|2})."
+										"使用{@subclassFeature 一体共生|德鲁伊|XPHB|孢子|XUA2026幽暗地域选项2|3|XUA2026幽暗地域选项2}来强化你的孢子需要消耗一个{@variantrule 附赠动作|XPHB}（如同{@classFeature 荒野形态|德鲁伊|XPHB|2}）。"
 									]
 								},
 								{
+									"ENG_name": "Fungal Infestation",
+									"name": "真菌感染",
 									"type": "item",
-									"name": "Fungal Infestation",
 									"entries": [
-										"When you raise zombies with {@subclassFeature Fungal Infestation|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|6|XUA2026UnderdarkOptions2}, you can grant them some of your {@variantrule Temporary Hit Points|XPHB} (since you get a lot of those!)."
+										"当你使用{@subclassFeature 真菌感染|德鲁伊|XPHB|孢子|XUA2026幽暗地域选项2|6|XUA2026幽暗地域选项2}来唤起丧尸时，你可以授予它们一些你的{@variantrule 临时生命值|XPHB}（因为你有很多这些！）。"
 									]
 								},
 								{
+									"ENG_name": "Explosive Burst",
+									"name": "爆炸爆发",
 									"type": "item",
-									"name": "Explosive Burst",
 									"entries": [
-										"{@subclassFeature Explosive Burst|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|10|XUA2026UnderdarkOptions2} is a new feature (replacing {@subclassFeature Spreading Spores|Druid|PHB|Spores|TCE|10|TCE}) that causes your zombies to explode when they die, spreading spores around them and dealing damage to enemies."
+										"{@subclassFeature 爆裂迸发|德鲁伊|XPHB|孢子|XUA2026幽暗地域选项2|10|XUA2026幽暗地域选项2} 是一个新特性（取代 {@subclassFeature 扩散孢子|德鲁伊|PHB|孢子|TCE|10|TCE}），它会使你的丧尸在死亡时爆炸，向四周扩散孢子并对敌人造成伤害。"
 									]
 								},
 								{
+									"ENG_name": "Fungal Body",
+									"name": "真菌之躯",
 									"type": "item",
-									"name": "Fungal Body",
 									"entries": [
-										"{@subclassFeature Fungal Body|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|14|XUA2026UnderdarkOptions2} now allows you to tap into the mycelial network you've cultivated to control your body if you have the {@condition Unconscious|XPHB} condition."
+										"{@subclassFeature 真菌之躯|德鲁伊|XPHB|孢子|XUA2026幽暗地域选项2|14|XUA2026幽暗地域选项2} 现在允许你利用你所培育的菌丝网络，在你处于{@condition 昏迷|XPHB}状态时控制你的身体。"
 									]
 								}
 							]
@@ -242,74 +251,79 @@
 			]
 		},
 		{
-			"name": "Faerzress Sorcery",
-			"shortName": "Faerzress",
+			"ENG_name": "Faerzress Sorcery",
+			"name": "费尔兹瑞斯魔法",
+			"shortName": "费尔兹瑞斯",
 			"source": "XUA2026UnderdarkOptions2",
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
 			"entries": [
-				"{@i Wield the Weird Radiation of the Underdark.}"
+				"{@i 驾驭幽暗地域的怪异辐射。}"
 			]
 		},
 		{
-			"name": "Freedom Domain",
-			"shortName": "Freedom",
+			"ENG_name": "Freedom Domain",
+			"name": "自由领域",
+			"shortName": "自由",
 			"source": "XUA2026UnderdarkOptions2",
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "XPHB",
 			"entries": [
-				"{@i Spread Liberty and Break Chains}"
+				"{@i 传播自由，打破枷锁}"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Freedom Domain",
+			"ENG_name": "Freedom Domain",
+			"name": "自由领域",
 			"source": "XUA2026UnderdarkOptions2",
 			"page": 1,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "XPHB",
-			"subclassShortName": "Freedom",
+			"subclassShortName": "自由",
 			"subclassSource": "XUA2026UnderdarkOptions2",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"The Freedom Domain provides magic of liberation, movement, and free thought. Clerics use this magic to inspire hope among the oppressed, to help prisoners break free from their cages, and to lead revolutions in which toiling laborers throw off the chains of oppressive rule.",
-				"Gods of freedom embody free will, choice, and rebellion against tyrannical regimes or stifling traditions. These deities protect everyone's right to determine their own destiny. In the Underdark, {@deity Eilistraee|Faerûnian|FRHoF} and {@deity Sehanine Moonbow|Elven|SCAG} both stand for freedom. Surface dwellers devoted to the cause of freedom might worship {@deity Ilmater|Faerûnian|FRHoF} or {@deity Mielikki|Faerûnian|FRHoF|Meilikki} instead.",
+				"自由领域提供解放、移动与自由思想的魔法。牧师们运用这种魔法在受压迫者中点燃希望，协助囚犯挣脱牢笼，并领导劳苦大众摆脱压迫统治枷锁的革命。",
+				"自由之神体现自由意志、选择权以及对暴政或压抑传统的反抗。这些神祇保护每个人决定自己命运的权利。在幽暗地域，{@deity 伊莉丝翠|费伦|FRHoF}和{@deity 莎罕妮·月弓|精灵|SCAG}都代表着自由。地表居民若投身于自由事业，则可能崇拜{@deity 伊尔马特|费伦|FRHoF}或{@deity 梅丽凯|费伦|FRHoF|梅莉凯}。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "The Meaning of Freedom|Cleric|XPHB|Freedom|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2"
+					"subclassFeature": "自由的含义|牧师|XPHB|自由|XUA2026幽暗地域选项2|3|XUA2026幽暗地域选项2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Freedom Domain Spells|Cleric|XPHB|Freedom|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2"
+					"subclassFeature": "自由领域法术|牧师|XPHB|自由|XUA2026幽暗地域选项2|3|XUA2026幽暗地域选项2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Invoke Liberty|Cleric|XPHB|Freedom|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2"
+					"subclassFeature": "呼唤自由|牧师|XPHB|自由|XUA2026幽暗地域选项2|3|XUA2026幽暗地域选项2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Unencumbered Grace|Cleric|XPHB|Freedom|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2"
+					"subclassFeature": "无拘优雅|牧师|XPHB|自由|XUA2026幽暗地域选项2|3|XUA2026幽暗地域选项2"
 				}
 			]
 		},
 		{
-			"name": "Freedom Domain Spells",
+			"ENG_name": "Freedom Domain Spells",
+			"name": "自由领域法术",
 			"source": "XUA2026UnderdarkOptions2",
 			"page": 1,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "XPHB",
-			"subclassShortName": "Freedom",
+			"subclassShortName": "自由",
 			"subclassSource": "XUA2026UnderdarkOptions2",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the {@table Freedom Domain Spells|XUA2026UnderdarkOptions2} table, you thereafter always have the listed spells prepared.",
+				"你与这一神圣领域的联系确保你总是预备着某些法术。当你达到{@table 自由领域法术|XUA2026UnderdarkOptions2}表格中指定的牧师等级时，你此后将始终准备着所列出的法术。",
 				{
+					"ENG_name": "Freedom Domain Spells",
+					"name": "自由领域法术",
 					"type": "statblock",
 					"tag": "table",
-					"name": "Freedom Domain Spells",
 					"source": "XUA2026UnderdarkOptions2",
 					"page": 1,
 					"slotSize": "200"
@@ -317,36 +331,39 @@
 			]
 		},
 		{
-			"name": "Invoke Liberty",
+			"ENG_name": "Invoke Liberty",
+			"name": "呼唤自由",
 			"source": "XUA2026UnderdarkOptions2",
 			"page": 2,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "XPHB",
-			"subclassShortName": "Freedom",
+			"subclassShortName": "自由",
 			"subclassSource": "XUA2026UnderdarkOptions2",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"As a {@action Magic|XPHB} Action, you present your {@item Holy Symbol|XPHB} and expend a use of your {@classFeature Channel Divinity|Cleric|XPHB|2}. Each allied creature within a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you can end one of the following conditions on itself (its choice): {@condition Frightened|XPHB}, {@condition Grappled|XPHB}, {@condition Paralyzed|XPHB}, or {@condition Restrained|XPHB}. The creature can then use its {@variantrule Reaction|XPHB} to move up to its {@variantrule Speed|XPHB} without provoking {@action Opportunity Attack|XPHB|Opportunity Attacks}.",
-				"When you reach {@class Cleric|XPHB} level 9, the list of conditions your allies can choose to end expands to include {@condition Charmed|XPHB} and {@condition Petrified|XPHB}."
+				"以一个{@action 魔法|XPHB}动作，你展示你的{@item 圣徽|XPHB}并消耗一次{@classFeature 引导神力|牧师|XPHB|2}使用次数。每个位于以你为原点的30尺{@variantrule 光环 [效应区域]|XPHB|光环}内的盟友生物可以结束其自身的一个下列状态（由它选择）：{@condition 恐慌|XPHB}、{@condition 受擒|XPHB}、{@condition 麻痹|XPHB}或{@condition 束缚|XPHB}。该生物随后可以使用其{@variantrule 反应|XPHB}移动至多其{@variantrule 速度|XPHB}的距离，且不会引发{@action 借机攻击|XPHB|借机攻击}。",
+				"当你达到{@class 牧师|XPHB} 9环时，你的盟友可以选择结束的状态列表将扩展至包含{@condition 魅惑|XPHB}和{@condition 石化|XPHB}。"
 			]
 		},
 		{
-			"name": "The Meaning of Freedom",
+			"ENG_name": "The Meaning of Freedom",
+			"name": "自由的含义",
 			"source": "XUA2026UnderdarkOptions2",
 			"page": 1,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "XPHB",
-			"subclassShortName": "Freedom",
+			"subclassShortName": "自由",
 			"subclassSource": "XUA2026UnderdarkOptions2",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"\"Freedom\" means different things to different people; when Clerics of the Freedom Domain gather, they often debate which aspect of freedom is most important. You can roll on or choose a result from the {@table Foremost Freedom|XUA2026UnderdarkOptions2} table to inspire your character's stance toward freedom.",
+				"\"自由\"对不同的人意味着不同的事物；当自由领域的牧师们聚集在一起时，他们常常辩论自由的哪个方面最为重要。你可以从{@table 首要自由|XUA2026UnderdarkOptions2}表格中掷骰或选择一个结果，来激励你的角色对自由的立场。",
 				{
+					"ENG_name": "Foremost Freedom",
+					"name": "首要自由",
 					"type": "statblock",
 					"tag": "table",
-					"name": "Foremost Freedom",
 					"source": "XUA2026UnderdarkOptions2",
 					"page": 1,
 					"slotSize": "200"
@@ -354,105 +371,111 @@
 			]
 		},
 		{
-			"name": "Unencumbered Grace",
+			"ENG_name": "Unencumbered Grace",
+			"name": "无拘优雅",
 			"source": "XUA2026UnderdarkOptions2",
 			"page": 2,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "XPHB",
-			"subclassShortName": "Freedom",
+			"subclassShortName": "自由",
 			"subclassSource": "XUA2026UnderdarkOptions2",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"While you aren't wearing armor, your base {@variantrule Armor Class|XPHB} equals 10 plus your Dexterity and Wisdom modifiers. You can use a {@item Shield|XPHB} and still gain this benefit.",
-				"In addition, you gain {@variantrule Proficiency|XPHB} in {@skill Acrobatics|XPHB}. If you already have {@variantrule Proficiency|XPHB} in {@skill Acrobatics|XPHB}, you gain {@variantrule Expertise|XPHB} in it instead."
+				"当你未穿戴护甲时，你的基础{@variantrule 护甲等级|XPHB}等于10加上你的敏捷和感知调整值。你可以使用{@item 盾牌|XPHB}并仍然获得此增益。",
+				"此外，你获得{@skill 特技|XPHB}的{@variantrule 熟练|XPHB}。如果你在{@skill 特技|XPHB}上已有{@variantrule 熟练|XPHB}，则改为获得{@variantrule 专精|XPHB}。"
 			]
 		},
 		{
-			"name": "Unstoppable",
+			"ENG_name": "Unstoppable",
+			"name": "势不可挡",
 			"source": "XUA2026UnderdarkOptions2",
 			"page": 2,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "XPHB",
-			"subclassShortName": "Freedom",
+			"subclassShortName": "自由",
 			"subclassSource": "XUA2026UnderdarkOptions2",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Your mystical connection to freedom allows you to swiftly navigate obstacles. Your movement is unaffected by {@variantrule Difficult Terrain|XPHB}.",
-				"In addition, you gain proficiency in Dexterity saving throws. If you already have this proficiency, you instead gain proficiency with one saving throw in which you lack it."
+				"你与自由的神秘连接使你能够迅速穿越阻碍。你的移动力不受{@variantrule 困难地形|XPHB}影响。",
+				"此外，你获得敏捷豁免的熟练项。若你已拥有此熟练项，则改为获得一项你尚未拥有的豁免熟练项。"
 			]
 		},
 		{
-			"name": "Avatar of Freedom",
+			"ENG_name": "Avatar of Freedom",
+			"name": "自由化身",
 			"source": "XUA2026UnderdarkOptions2",
 			"page": 2,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "XPHB",
-			"subclassShortName": "Freedom",
+			"subclassShortName": "自由",
 			"subclassSource": "XUA2026UnderdarkOptions2",
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"As a {@variantrule Bonus Action|XPHB}, you can manifest a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} that surrounds you for 10 minutes. It ends early if you dismiss it (no action required) or have the {@condition Incapacitated|XPHB} condition. This {@variantrule Emanation [Area of Effect]|XPHB|Emanation} has the following effects:",
+				"以一个{@variantrule 附赠动作|XPHB}，你可以显现一个环绕你30尺的{@variantrule 光环 [效应区域]|XPHB|光环}，持续10分钟。如果你主动解除它（无需动作）或陷入{@condition 失能|XPHB}状态，它会提前结束。这个{@variantrule 光环 [效应区域]|XPHB|光环}具有以下效应：",
 				{
 					"type": "list",
 					"items": [
-						"Whenever an ally enters the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} for the first time on a turn or starts its turn there, the ally's {@variantrule Speed|XPHB} increases by 30 feet until the end of the ally's next turn.",
-						"The movement of allies within the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} is unaffected by {@variantrule Difficult Terrain|XPHB}.",
-						"Allies within the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} have {@variantrule Advantage|XPHB} on Dexterity checks."
+						"每当一个盟友在一个回合内首次进入{@variantrule 光环 [效应区域]|XPHB|光环}区域，或在其内开始其回合时，该盟友的{@variantrule 速度|XPHB}增加30尺，直到该盟友的下个回合结束。",
+						"盟友在{@variantrule 光环 [效应区域]|XPHB|光环}内的移动不受{@variantrule 困难地形|XPHB}影响。",
+						"位于该{@variantrule 光环 [效应区域]|XPHB|光环}内的盟友在敏捷检定上具有{@variantrule 优势|XPHB}。"
 					]
 				},
-				"Once you use this ability, you can't do so again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+				"一旦你使用了此能力，直到你完成一次{@variantrule 短休|XPHB|短}或{@variantrule 长休|XPHB}前，你无法再次使用它。"
 			]
 		},
 		{
-			"name": "Circle of Spores",
+			"ENG_name": "Circle of Spores",
+			"name": "孢子结社",
 			"source": "XUA2026UnderdarkOptions2",
 			"page": 2,
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "XPHB",
-			"subclassShortName": "Spores",
+			"subclassShortName": "孢子",
 			"subclassSource": "XUA2026UnderdarkOptions2",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Druids of the Circle of Spores find beauty in decay. They revere the ability of mold and other fungi to grow from and transform lifeless material. These Druids believe that life and death are parts of a grand cycle, where each stage feeds into the next.",
-				"Druids of the Circle of Spores also see undeath as a part of this grand cycle so long as it's temporary. But all things must eventually decompose to make room for new life. Undead that seek to replace all life with undeath or that try to avoid passing to a final rest violate the cycle and must be thwarted.",
+				"孢子结社的德鲁伊在衰竭中发现了美丽。他们崇敬霉菌和其他真菌从无生命材质中生长并转化它的能力。这些德鲁伊相信生死是宏大循环的一部分，每个等级都为下一个等级提供养分。",
+				"孢子结社的德鲁伊也将亡灵状态视为这个宏大循环的一部分，只要它是暂时的。但所有事物最终都必须分解，为新的生命腾出空间。那些试图用亡灵状态取代所有生命，或试图避免进入最终安息的亡灵，违背了这一循环，必须被阻止。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Fungal Symbiosis|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2"
+					"subclassFeature": "真菌共生|德鲁伊|XPHB|孢子|XUA2026幽暗地域选项2|3|XUA2026幽暗地域选项2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Circle Spells|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2"
+					"subclassFeature": "结社法术|德鲁伊|XPHB|孢子|XUA2026幽暗地域选项2|3|XUA2026幽暗地域选项2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Halo of Spores|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2"
+					"subclassFeature": "孢子环绕|德鲁伊|XPHB|孢子|XUA2026幽暗地域选项2|3|XUA2026幽暗地域选项2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Symbiotic Entity|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2"
+					"subclassFeature": "一体共生|德鲁伊|XPHB|孢子|XUA2026幽暗地域选项2|3|XUA2026幽暗地域选项2"
 				}
 			]
 		},
 		{
-			"name": "Circle Spells",
+			"ENG_name": "Circle Spells",
+			"name": "结社法术",
 			"source": "XUA2026UnderdarkOptions2",
 			"page": 3,
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "XPHB",
-			"subclassShortName": "Spores",
+			"subclassShortName": "孢子",
 			"subclassSource": "XUA2026UnderdarkOptions2",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"When you reach a Druid level specified in the {@table Circle of Spores Spells|XUA2026UnderdarkOptions2} table, you thereafter always have the listed spells prepared.",
+				"当你达到{@table 孢子结社法术|XUA2026UnderdarkOptions2}表格中指定的德鲁伊等级时，你将始终准备所列出的法术。",
 				{
+					"ENG_name": "Circle of Spores Spells",
+					"name": "孢子结社法术",
 					"type": "statblock",
 					"tag": "table",
-					"name": "Circle of Spores Spells",
 					"source": "XUA2026UnderdarkOptions2",
 					"page": 3,
 					"slotSize": "200"
@@ -460,21 +483,23 @@
 			]
 		},
 		{
-			"name": "Fungal Symbiosis",
+			"ENG_name": "Fungal Symbiosis",
+			"name": "真菌共生",
 			"source": "XUA2026UnderdarkOptions2",
 			"page": 2,
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "XPHB",
-			"subclassShortName": "Spores",
+			"subclassShortName": "孢子",
 			"subclassSource": "XUA2026UnderdarkOptions2",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Druids of this circle develop a symbiotic relationship with a special type of fungal spore. In exchange for the spores' propagation, they protect the druid and empower their magic. You can roll on or choose a result from the {@table Spore Druid Origins|XUA2026UnderdarkOptions2} table to inspire your first encounter with your spores.",
+				"此环的德鲁伊与一种特殊的真菌孢子发展出共生关系。作为孢子传播的交换，它们保护德鲁伊并增强其魔法。你可以从{@table 孢子德鲁伊起源|XUA2026UnderdarkOptions2}表格中掷骰或选择一个结果，来启发你与孢子的初次遭遇。",
 				{
+					"ENG_name": "Spore Druid Origins",
+					"name": "孢子德鲁伊起源",
 					"type": "statblock",
 					"tag": "table",
-					"name": "Spore Druid Origins",
 					"source": "XUA2026UnderdarkOptions2",
 					"page": 3,
 					"slotSize": "200"
@@ -482,50 +507,54 @@
 			]
 		},
 		{
-			"name": "Halo of Spores",
+			"ENG_name": "Halo of Spores",
+			"name": "孢子环绕",
 			"source": "XUA2026UnderdarkOptions2",
 			"page": 3,
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "XPHB",
-			"subclassShortName": "Spores",
+			"subclassShortName": "孢子",
 			"subclassSource": "XUA2026UnderdarkOptions2",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Invisible spores fill a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you, providing you with a telepathic link to those who step inside. You have {@variantrule telepathy|XPHB} with a range of 10 feet. If you already have {@variantrule telepathy|XPHB}, your range increases by 10 feet.",
-				"Additionally, when a creature you can see moves into your {@variantrule Emanation [Area of Effect]|XPHB|Emanation} or starts its turn there, you can use your {@variantrule Reaction|XPHB} to infect the creature with your spores. The target makes a Constitution saving throw against {@dcYourSpellSave}. On a failed save, the target takes {@damage 1d4} Necrotic damage. On a success, the target has {@variantrule Disadvantage|XPHB} on its next attack roll before the end of its turn.",
-				"The Necrotic damage increases to {@damage 1d6} at 6th level, {@damage 1d8} at 10th level, and {@damage 1d10} at 14th level."
+				"隐形孢子充满一个以你为原点、半径10尺的{@variantrule 光环 [效应区域]|XPHB|光环}，为你与踏入其中的生物建立心灵感应链接。你拥有范围10尺的{@variantrule 心灵感应|XPHB}。如果你已拥有{@variantrule 心灵感应|XPHB}，则其范围增加10尺。",
+				"此外，当一个你能够看见的生物移动进入你的{@variantrule 光环 [效应区域]|XPHB|光环}或在其内开始其回合时，你可以使用你的{@variantrule 反应|XPHB}用你的孢子感染该生物。目标进行一次对抗{@dcYourSpellSave}的体质豁免检定。豁免失败，目标受到{@damage 1d4}暗蚀伤害。豁免成功，目标在其回合结束前的下一次攻击检定具有{@variantrule 劣势|XPHB}。",
+				"暗蚀伤害在6级时提升至{@damage 1d6}，在10级时提升至{@damage 1d8}，在14级时提升至{@damage 1d10}。"
 			]
 		},
 		{
-			"name": "Symbiotic Entity",
+			"ENG_name": "Symbiotic Entity",
+			"name": "一体共生",
 			"source": "XUA2026UnderdarkOptions2",
 			"page": 3,
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "XPHB",
-			"subclassShortName": "Spores",
+			"subclassShortName": "孢子",
 			"subclassSource": "XUA2026UnderdarkOptions2",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"As a {@variantrule Bonus Action|XPHB}, you can expend a use of your {@classFeature Wild Shape|Druid|XPHB|2} feature to waken your spores, rather than for shape-shifting. When you waken your spores, you gain a number of {@variantrule Temporary Hit Points|XPHB} equal to four times your {@class Druid|XPHB} level. This awakening lasts for 10 minutes. It ends early if you dismiss it (no action required), have the {@condition Incapacitated|XPHB} condition, or use this feature again. While your spores are awakened, you gain the following benefits.",
+				"以一个{@variantrule 附赠动作|XPHB}，你可以消耗一次你的{@classFeature 荒野形态|德鲁伊|XPHB|2}特性使用次数来唤醒你的孢子，而非用于变形。当你唤醒孢子时，你获得等同于你{@class 德鲁伊|XPHB}等级四倍的{@variantrule 临时生命值|XPHB}。此觉醒状态持续10分钟。如果你主动解除它（无需动作）、陷入{@condition 失能|XPHB}状态或再次使用此特性，则提前结束。当你的孢子处于唤醒状态时，你获得以下增益。",
 				{
 					"type": "list",
 					"page": 3,
 					"style": "list-hang-notitle",
 					"items": [
 						{
+							"ENG_name": "Deadly Halo",
+							"name": "致命神光",
 							"type": "item",
-							"name": "Deadly Halo",
 							"entries": [
-								"When you deal your {@subclassFeature Halo of Spores|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2} damage, roll the damage die a second time and add the number rolled to the total."
+								"当你造成你的{@subclassFeature 孢子环绕|德鲁伊|XPHB|孢子|XUA2026幽暗地域选项2|3|XUA2026幽暗地域选项2}伤害时，再次掷伤害骰并将掷出的数值加到总伤害中。"
 							]
 						},
 						{
+							"ENG_name": "Entropic Empowerment",
+							"name": "熵能强化",
 							"type": "item",
-							"name": "Entropic Empowerment",
 							"entries": [
-								"Once per turn, you can deal an extra {@damage 1d6} Necrotic damage to a target you hit with a melee attack roll using a weapon or an {@variantrule Unarmed Strike|XPHB}."
+								"每回合一次，当你使用武器或{@variantrule 徒手打击|XPHB}进行近战攻击命中一个目标时，你可以对其造成额外的{@damage 1d6}点暗蚀伤害。"
 							]
 						}
 					]
@@ -533,124 +562,131 @@
 			]
 		},
 		{
-			"name": "Fungal Infestation",
+			"ENG_name": "Fungal Infestation",
+			"name": "真菌感染",
 			"source": "XUA2026UnderdarkOptions2",
 			"page": 3,
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "XPHB",
-			"subclassShortName": "Spores",
+			"subclassShortName": "孢子",
 			"subclassSource": "XUA2026UnderdarkOptions2",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Your spores can infest a corpse and animate it. If a Beast or Humanoid that is Small or Medium dies within 10 feet of you, you can take a {@variantrule Reaction|XPHB} to reanimate it, causing it to stand up immediately with 1 {@variantrule Hit Points|XPHB|Hit Point}. If your {@subclassFeature Symbiotic Entity|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2} feature is active, you can transfer any number of {@variantrule Temporary Hit Points|XPHB} you have to your reanimated creature as part of this {@variantrule Reaction|XPHB}.",
-				"The creature uses the {@creature Zombie|XMM} stat block in the {@book Player's Handbook|XPHB|9}. It remains animate for 1 hour, at which time it dies. The animation ends early if you end it as a {@variantrule Bonus Action|XPHB} or if the {@creature zombie|XMM} drops to 0 {@variantrule Hit Points|XPHB}.",
-				"The zombie is an ally to you and your allies. In combat, the zombie shares your {@variantrule Initiative|XPHB} count, but it takes its turn immediately after yours. It obeys your mental commands (no action required by you). If you don't issue any, it takes the {@action Dodge|XPHB} action and uses its movement to avoid danger.",
-				"You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a {@variantrule Long Rest|XPHB}."
+				"你的孢子可以侵染一具尸体并使其活化。如果一个小型或中型野兽或类人生物在你10尺内死亡，你可以采取一个{@variantrule 反应|XPHB}来复苏它，使其立即以1点{@variantrule 生命值|XPHB|生命值}站起。如果你的{@subclassFeature 一体共生|德鲁伊|XPHB|孢子|XUA2026幽暗地域选项2|3|XUA2026幽暗地域选项2}特性处于激活状态，你可以将任意数量的{@variantrule 临时生命值|XPHB}转移给你复苏的生物，作为此{@variantrule 反应|XPHB}的一部分。",
+				"该生物使用{@book 玩家手册|XPHB|9}中的{@creature 丧尸|XMM}资料卡。它会保持活化状态1小时，之后便会死亡。如果你以一个{@variantrule 附赠动作|XPHB}提前结束它，或者{@creature 丧尸|XMM}的{@variantrule 生命值|XPHB}降至0，则活化效果提前结束。",
+				"该丧尸是你的盟友，也是你所有盟友的盟友。在战斗中，丧尸共享你的{@variantrule 先攻|XPHB}，但它在你的回合结束后立即行动。它服从你的心灵指令（你无需为此花费动作）。如果你没有下达任何指令，它会采取{@action 回避|XPHB}动作，并使用其移动力来规避危险。",
+				"你可以使用此特性的次数等于你的感知调整值（至少一次），当你完成一次{@variantrule 长休|XPHB}后，你将恢复所有已消耗的使用次数。"
 			]
 		},
 		{
-			"name": "Explosive Burst",
+			"ENG_name": "Explosive Burst",
+			"name": "爆炸爆发",
 			"source": "XUA2026UnderdarkOptions2",
 			"page": 3,
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "XPHB",
-			"subclassShortName": "Spores",
+			"subclassShortName": "孢子",
 			"subclassSource": "XUA2026UnderdarkOptions2",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"When an Undead creature you created dies, it explodes in a burst of spores. Each creature you choose within 10 feet of the dead creature makes a Constitution saving throw against {@dcYourSpellSave}, taking {@damage 2d8} Necrotic damage on a failure or half as much on a success."
+				"当你创造的亡灵生物死亡时，它会爆发出一团孢子。你选择的死亡生物10尺范围内的每个生物需进行一次对抗{@dcYourSpellSave}的体质豁免检定，失败则受到{@damage 2d8}点暗蚀伤害，成功则只受一半伤害。"
 			]
 		},
 		{
-			"name": "Fungal Body",
+			"ENG_name": "Fungal Body",
+			"name": "真菌之躯",
 			"source": "XUA2026UnderdarkOptions2",
 			"page": 3,
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "XPHB",
-			"subclassShortName": "Spores",
+			"subclassShortName": "孢子",
 			"subclassSource": "XUA2026UnderdarkOptions2",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"You have {@variantrule Immunity|XPHB} to the {@condition Blinded|XPHB}, {@condition Deafened|XPHB}, {@condition Frightened|XPHB}, and {@condition Poisoned|XPHB} conditions. Any {@variantrule Critical Hit|XPHB} against you counts as a normal hit instead, unless you have the {@condition Incapacitated|XPHB} condition.",
-				"Additionally, if you have the {@condition Unconscious|XPHB} condition, your spores take over your body's motor functions to steer you to safety. The {@condition Unconscious|XPHB} condition doesn't make your {@variantrule Speed|XPHB} 0. On your turn, your spores direct your movement, keeping you near allies and away from danger."
+				"你对{@condition 目盲|XPHB}、{@condition 耳聋|XPHB}、{@condition 恐慌|XPHB}和{@condition 中毒|XPHB}状态具有{@variantrule 免疫|XPHB}。任何针对你的{@variantrule 重击|XPHB}均视为普通命中，除非你处于{@condition 失能|XPHB}状态。",
+				"此外，如果你处于{@condition 昏迷|XPHB}状态，你的孢子会接管你身体的运动功能，引导你前往安全地带。{@condition 昏迷|XPHB}状态不会使你的{@variantrule 速度|XPHB}变为0。在你的回合，你的孢子会引导你的移动，使你保持在盟友附近并远离危险。"
 			]
 		},
 		{
-			"name": "Faerzress Sorcery",
+			"ENG_name": "Faerzress Sorcery",
+			"name": "费尔兹瑞斯魔法",
 			"source": "XUA2026UnderdarkOptions2",
 			"page": 4,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "Faerzress",
+			"subclassShortName": "费尔兹瑞斯",
 			"subclassSource": "XUA2026UnderdarkOptions2",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"You have been mutated by faerzress, the uncanny radiation {@deity Lolth|Faerûnian|FRHoF} used to shape the Underdark eons ago. Perhaps you or one of your ancestors was born within a region of the Underdark saturated by faerzress, or you spent many years in such a place.",
-				"Regardless, your body has now adapted to faerzress, which sizzles within your body like fluid electricity. Your senses penetrate the magical static faerzress creates, and you can find pathways through faerzress that allow you to scry and teleport. You are unhindered by faerzress's detrimental effects, and you can throw faerzress at enemies or fill entire chambers with lingering radiation.",
+				"你已被费尔兹瑞斯所异变，这是{@deity 罗丝|费伦|FRHoF}在亿万年前用以塑造幽暗地域的奇异辐射。或许你或你的某位祖先诞生于一个被费尔兹瑞斯饱和的幽暗地域区域，又或者你曾在这样一个地点度过了许多年。",
+				"无论如何，你的身体现已适应了费尔兹瑞斯，它在你体内如流体高压电般滋滋作响。你的感官能穿透费尔兹瑞斯产生的魔法静电，并且你能在费尔兹瑞斯中找到允许你探知和传送术的路径。你不受费尔兹瑞斯减益效应阻碍，并且你能将费尔兹瑞斯掷向敌人或用缠留辐射填满整个房间。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Faerzress Effects|Sorcerer|XPHB|Faerzress|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2"
+					"subclassFeature": "费尔兹瑞斯效应|术士|XPHB|费尔兹瑞斯|XUA2026幽暗地域选项2|3|XUA2026幽暗地域选项2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Faerzress Side Effects|Sorcerer|XPHB|Faerzress|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2"
+					"subclassFeature": "费尔兹瑞斯副作用|术士|XPHB|费尔兹瑞斯|XUA2026幽暗地域选项2|3|XUA2026幽暗地域选项2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Faerzress Spells|Sorcerer|XPHB|Faerzress|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2"
+					"subclassFeature": "费尔兹瑞斯法术|术士|XPHB|费尔兹瑞斯|XUA2026幽暗地域选项2|3|XUA2026幽暗地域选项2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Faerzress Zone|Sorcerer|XPHB|Faerzress|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2"
+					"subclassFeature": "费尔兹瑞斯区域|术士|XPHB|费尔兹瑞斯|XUA2026幽暗地域选项2|3|XUA2026幽暗地域选项2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Immunity to Faerzress|Sorcerer|XPHB|Faerzress|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2"
+					"subclassFeature": "免疫费尔兹瑞斯|术士|XPHB|费尔兹瑞斯|XUA2026幽暗地域选项2|3|XUA2026幽暗地域选项2"
 				}
 			]
 		},
 		{
-			"name": "Faerzress Effects",
+			"ENG_name": "Faerzress Effects",
+			"name": "费尔兹瑞斯效应",
 			"source": "XUA2026UnderdarkOptions2",
 			"page": 4,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "Faerzress",
+			"subclassShortName": "费尔兹瑞斯",
 			"subclassSource": "XUA2026UnderdarkOptions2",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Faerzress is a magical radiation that shapes and protects the Underdark. Faerzress has a number of magical effects, including the following:",
+				"费尔兹瑞斯是一种塑造并保护幽暗地域的魔法辐射。费尔兹瑞斯具有多种魔法效应，包括以下：",
 				{
 					"type": "list",
 					"items": [
-						"Creatures within an area affected by faerzress automatically succeed on saving throws against {@filter Divination|spells|school=D} effects. Magical sensors and invisible eyes, such as those created by the {@spell Clairvoyance|XPHB} and {@spell Arcane Eye|XPHB} spells, can't enter an area affected by faerzress.",
-						"A creature teleporting a distance of 1 mile or more can't {@variantrule Teleportation|XPHB|teleport} into or out of an area affected by faerzress.",
-						"An area affected by faerzress is illuminated by {@variantrule Dim Light|XPHB}, but creatures using {@sense Darkvision|XPHB} within such an area see in color and have {@variantrule Advantage|XPHB} on Wisdom ({@skill Perception|XPHB}) checks relying on sight."
+						"处于费尔兹瑞斯效应区域内的生物，在对抗{@filter 预言术|spells|school=D}效应的豁免检定中自动成功。魔法传感器和隐形之眼，例如由{@spell 鹰眼术|XPHB}和{@spell 秘法眼|XPHB}法术创造的，无法进入受费尔兹瑞斯影响的区域。",
+						"一个生物若传送距离为1英里或更远，则无法通过{@variantrule 传送|XPHB|传送术}进入或离开受费尔兹瑞斯影响的区域。",
+						"受费尔兹瑞斯影响的区域被{@variantrule 微光光照|XPHB}照亮，但在该区域内使用{@sense 黑暗视觉|XPHB}的生物能够看到颜色，并且在依赖视觉的感知（{@skill 察觉|XPHB}）检定上具有{@variantrule 优势|XPHB}。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Faerzress Side Effects",
+			"ENG_name": "Faerzress Side Effects",
+			"name": "费尔兹瑞斯副作用",
 			"source": "XUA2026UnderdarkOptions2",
 			"page": 4,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "Faerzress",
+			"subclassShortName": "费尔兹瑞斯",
 			"subclassSource": "XUA2026UnderdarkOptions2",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Exposure to faerzress has mutated you, and you continue to emit trace amounts of this weird, invisible, magical radiation. This can have unpredictable effects on the environment or on creatures near you. You can roll on or choose a result from the {@table Faerzress Side Effects|XUA2026UnderdarkOptions2} table to inspire your character.",
+				"暴露于费尔兹瑞斯使你发生了变异，你持续散发出这种怪异、隐形、魔法的微量辐射。这可能对你周围的环境或生物产生不可预测的效应。你可以从{@table 费尔兹瑞斯副作用|XUA2026UnderdarkOptions2}表格中掷骰或选择一个结果来激励你的角色。",
 				{
+					"ENG_name": "Faerzress Side Effects",
+					"name": "费尔兹瑞斯副作用",
 					"type": "statblock",
 					"tag": "table",
-					"name": "Faerzress Side Effects",
 					"source": "XUA2026UnderdarkOptions2",
 					"page": 4,
 					"slotSize": "200"
@@ -658,21 +694,23 @@
 			]
 		},
 		{
-			"name": "Faerzress Spells",
+			"ENG_name": "Faerzress Spells",
+			"name": "费尔兹瑞斯法术",
 			"source": "XUA2026UnderdarkOptions2",
 			"page": 4,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "Faerzress",
+			"subclassShortName": "费尔兹瑞斯",
 			"subclassSource": "XUA2026UnderdarkOptions2",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"When you reach a {@class Sorcerer|XPHB} level specified in the {@table Faerzress Spells|XUA2026UnderdarkOptions2} table, you thereafter always have the listed spells prepared.",
+				"当你达到{@class 术士|XPHB}职业等级达到{@table 费尔兹瑞斯法术|XUA2026UnderdarkOptions2}表格中指定的等级时，你将始终准备所列出的法术。",
 				{
+					"ENG_name": "Faerzress Spells",
+					"name": "费尔兹瑞斯法术",
 					"type": "statblock",
 					"tag": "table",
-					"name": "Faerzress Spells",
 					"source": "XUA2026UnderdarkOptions2",
 					"page": 4,
 					"slotSize": "200"
@@ -680,152 +718,165 @@
 			]
 		},
 		{
-			"name": "Faerzress Zone",
+			"ENG_name": "Faerzress Zone",
+			"name": "费尔兹瑞斯区域",
 			"source": "XUA2026UnderdarkOptions2",
 			"page": 4,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "Faerzress",
+			"subclassShortName": "费尔兹瑞斯",
 			"subclassSource": "XUA2026UnderdarkOptions2",
 			"level": 3,
 			"header": 2,
 			"consumes": {
-				"name": "Sorcery Point",
+				"ENG_name": "Sorcery Point",
+				"name": "术法点",
 				"amount": 3
 			},
 			"entries": [
-				"As a {@action Magic|XPHB} action, you can spend 3 Sorcery Points to fill an area within 120 feet of you and no larger than a 40-foot {@variantrule Cube [Area of Effect]|XPHB|Cube} with faerzress. The faerzress lasts for 24 hours and has the effects in \"{@subclassFeature Faerzress Effects|Sorcerer|XPHB|Faerzress|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2}\" above. If you fill the same area with faerzress every day for 365 days, the faerzress becomes permanent."
+				"以一个{@action 魔法|XPHB}动作，你可以消耗3点术法点，在你周围120尺内且不大于40尺{@variantrule 立方 [效应区域]|XPHB|立方}的区域中充满费尔兹瑞斯。该费尔兹瑞斯持续24小时，并具有上文\"{@subclassFeature 费尔兹瑞斯效应|术士|XPHB|费尔兹瑞斯|XUA2026幽暗地域选项2|3|XUA2026幽暗地域选项2}\"中的效应。如果你连续365天每天在同一区域充满费尔兹瑞斯，该费尔兹瑞斯将变为永久存在。"
 			]
 		},
 		{
-			"name": "Immunity to Faerzress",
+			"ENG_name": "Immunity to Faerzress",
+			"name": "免疫费尔兹瑞斯",
 			"source": "XUA2026UnderdarkOptions2",
 			"page": 4,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "Faerzress",
+			"subclassShortName": "费尔兹瑞斯",
 			"subclassSource": "XUA2026UnderdarkOptions2",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"You ignore the detrimental effects of faerzress (see \"{@subclassFeature Faerzress Effects|Sorcerer|XPHB|Faerzress|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2}\").",
-				"Creatures within an area affected by faerzress don't automatically succeed on saving throws against your {@filter Divination spells|spells|school=D}. Magical sensors and invisible eyes created by spells you cast\u2014such as {@spell Clairvoyance|XPHB} and {@spell Arcane Eye|XPHB}\u2014can enter an area affected by faerzress.",
-				"When you {@variantrule Teleportation|XPHB|teleport} yourself or other creatures, the teleporting creatures can {@variantrule Teleportation|XPHB|teleport} into or out of an area affected by faerzress regardless of the distance teleported."
+				"你忽略费尔兹瑞斯的减益效应（参见\"{@subclassFeature 费尔兹瑞斯效应|术士|XPHB|费尔兹瑞斯|XUA2026幽暗地域选项2|3|XUA2026幽暗地域选项2}\"）。",
+				"处于费尔兹瑞斯影响区域内的生物不会自动通过对抗你施放的{@filter 预言系法术|spells|school=D}的豁免检定。由你施放的法术创造的魔法传感器和隐形眼睛\u2014\u2014例如{@spell 鹰眼术|XPHB}和{@spell 秘法眼|XPHB}\u2014\u2014可以进入受费尔兹瑞斯影响的区域。",
+				"当你使用{@variantrule 传送|XPHB|传送术}传送自己或其他生物时，无论传送距离如何，传送中的生物都可以{@variantrule 传送|XPHB|传送术}进入或离开受费尔兹瑞斯影响的区域。"
 			]
 		},
 		{
-			"name": "Faerzress Affinity",
+			"ENG_name": "Faerzress Affinity",
+			"name": "费尔兹瑞斯亲和力",
 			"source": "XUA2026UnderdarkOptions2",
 			"page": 4,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "Faerzress",
+			"subclassShortName": "费尔兹瑞斯",
 			"subclassSource": "XUA2026UnderdarkOptions2",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"You gain {@variantrule Resistance|XPHB} to Lightning damage. You also gain {@sense Darkvision|XPHB} with a range of 60 feet. If you already have {@sense Darkvision|XPHB}, its range increases by 30 feet. Unlike with ordinary {@sense Darkvision|XPHB}, you discern color in {@variantrule Darkness|XPHB}.",
-				"In addition, you have {@variantrule Advantage|XPHB} on Wisdom ({@skill Perception|XPHB}) checks to see in {@variantrule Dim Light|XPHB} or {@variantrule Darkness|XPHB}.",
-				"Finally, your {@subclassFeature Immunity to Faerzress|Sorcerer|XPHB|Faerzress|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2} feature also applies to allies within 30 feet of you."
+				"你获得对闪电伤害的{@variantrule 抗性|XPHB}。你还获得范围为60尺的{@sense 黑暗视觉|XPHB}。如果你已有{@sense 黑暗视觉|XPHB}，其范围增加30尺。与普通的{@sense 黑暗视觉|XPHB}不同，你可以在{@variantrule 黑暗|XPHB}中分辨颜色。",
+				"此外，你在{@variantrule 微光光照|XPHB}或{@variantrule 黑暗|XPHB}中进行的感知（{@skill 察觉|XPHB}）检定具有{@variantrule 优势|XPHB}。",
+				"最后，你的{@subclassFeature 免疫费尔兹瑞斯|术士|XPHB|费尔兹瑞斯|XUA2026幽暗地域选项2|3|XUA2026幽暗地域选项2}特性同样适用于你30尺内的盟友。"
 			]
 		},
 		{
-			"name": "Faerzress Spell",
+			"ENG_name": "Faerzress Spell",
+			"name": "费尔兹瑞斯法术",
 			"source": "XUA2026UnderdarkOptions2",
 			"page": 5,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "Faerzress",
+			"subclassShortName": "费尔兹瑞斯",
 			"subclassSource": "XUA2026UnderdarkOptions2",
 			"level": 14,
 			"header": 2,
 			"consumes": {
-				"name": "Sorcery Point",
+				"ENG_name": "Sorcery Point",
+				"name": "术法点",
 				"amount": 1
 			},
 			"entries": [
-				"When one or more creatures fails a saving throw against a spell you cast, you can spend 1 Sorcery Point to lace one target that failed the save with faerzress. The target is subject to the following effects for 1 minute:",
+				"当一个或多个生物对抗你施放的法术的豁免检定失败时，你可以消耗1点术法点，向一个豁免失败的目标注入费尔兹瑞斯。该目标在1分钟内受到以下效应影响：",
 				{
 					"type": "list",
 					"items": [
-						"The creature can't {@variantrule Teleportation|XPHB|teleport}.",
-						"The creature can't cast {@filter Divination spells|spells|school=D}.",
-						"The creature has {@variantrule Disadvantage|XPHB} on saving throws against {@filter Divination spells|spells|school=D}."
+						"该生物无法使用{@variantrule 传送|XPHB|传送术}。",
+						"该生物无法施放{@filter 预言系法术|spells|school=D}。",
+						"该生物对抗{@filter 预言系法术|spells|school=D}的豁免检定具有{@variantrule 劣势|XPHB}。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Faerzress Step",
+			"ENG_name": "Faerzress Step",
+			"name": "费尔兹瑞斯步",
 			"source": "XUA2026UnderdarkOptions2",
 			"page": 5,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "Faerzress",
+			"subclassShortName": "费尔兹瑞斯",
 			"subclassSource": "XUA2026UnderdarkOptions2",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"You always have the {@spell Teleport|XPHB} spell prepared and can cast it once without expending a spell slot. You regain the ability to cast the spell in this way when you finish a {@variantrule Long Rest|XPHB}.",
-				"In addition, whenever you roll on the {@spell Teleport|XPHB|Teleportation Outcome} table, you can choose any outcome available for your familiarity."
+				"你总是准备着{@spell 传送术|XPHB}法术，并且可以不消耗法术位施放一次。当你完成一次{@variantrule 长休|XPHB}后，你重新获得以此方式施放该法术的能力。",
+				"此外，每当你掷骰{@spell 传送术|XPHB|传送结果}表格时，你可以选择任意一个符合你熟悉程度的结果。"
 			]
 		},
 		{
-			"name": "Faerzress Form",
+			"ENG_name": "Faerzress Form",
+			"name": "费尔兹瑞斯形态",
 			"source": "XUA2026UnderdarkOptions2",
 			"page": 5,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "Faerzress",
+			"subclassShortName": "费尔兹瑞斯",
 			"subclassSource": "XUA2026UnderdarkOptions2",
 			"level": 18,
 			"header": 2,
 			"consumes": {
-				"name": "Sorcery Point",
+				"ENG_name": "Sorcery Point",
+				"name": "术法点",
 				"amount": 7
 			},
 			"entries": [
-				"When you use your {@classFeature Innate Sorcery|Sorcerer|XPHB|1|XPHB}, you can turn yourself into pure faerzress energy. While in this form, you retain your general shape, personality, and memories, as well as the ability to speak; any equipment you're wearing or carrying doesn't transform with you, but you can continue using that equipment while in this form. Your game statistics remain the same, apart from the following changes:",
+				"当你使用你的{@classFeature 先天术法|术士|XPHB|1|XPHB}时，你可以将自身转变为纯粹的费尔兹瑞斯能量。在此形态下，你保留你的大体外形、个性和记忆，以及说话的能力；你所穿戴或携带的任何装备不会随你一同转变，但在此形态下你仍可继续使用该装备。你的游戏数据保持不变，除了以下变化：",
 				{
 					"type": "list",
 					"page": 5,
 					"style": "list-hang-notitle",
 					"items": [
 						{
+							"ENG_name": "Condition Immunities",
+							"name": "状态免疫",
 							"type": "item",
-							"name": "Condition Immunities",
 							"entries": [
-								"You have {@variantrule Immunity|XPHB} to the {@condition Grappled|XPHB}, {@condition Paralyzed|XPHB}, {@condition Petrified|XPHB}, {@condition Poisoned|XPHB}, {@condition Prone|XPHB}, and {@condition Restrained|XPHB} conditions."
+								"你对{@condition 受擒|XPHB}、{@condition 麻痹|XPHB}、{@condition 石化|XPHB}、{@condition 中毒|XPHB}、{@condition 倒地|XPHB}和{@condition 束缚|XPHB}状态具有{@variantrule 免疫|XPHB}。"
 							]
 						},
 						{
+							"ENG_name": "Damage Resistances",
+							"name": "伤害抗性",
 							"type": "item",
-							"name": "Damage Resistances",
 							"entries": [
-								"You have {@variantrule Resistance|XPHB} to every damage type except Force and Psychic."
+								"你对除力场和心灵外的所有伤害类型具有{@variantrule 抗性|XPHB}。"
 							]
 						},
 						{
+							"ENG_name": "Movement",
+							"name": "移动",
 							"type": "item",
-							"name": "Movement",
 							"entries": [
-								"You have a {@variantrule Fly Speed|XPHB} equal to your {@variantrule Speed|XPHB} and can hover. You can move through other creatures and objects as if they were {@variantrule Difficult Terrain|XPHB}, but you take 5 ({@damage 1d10}) Force damage if you end your turn inside an object."
+								"你获得等于你{@variantrule 速度|XPHB}的{@variantrule 飞行速度|XPHB}，并且可以悬浮。你可以如同穿过{@variantrule 困难地形|XPHB}一样穿过其他生物和物件，但如果你在一个物件内部结束你的回合，你将受到5（{@damage 1d10}）点力场伤害。"
 							]
 						}
 					]
 				},
-				"You revert to your true form after 1 minute, if you choose to end the transformation (no action required), or if you die.",
-				"Once you have used this ability, you can't do so again until you finish a {@variantrule Long Rest|XPHB} or spend 7 Sorcery Points (no action required) to restore your use of it."
+				"你会在1分钟后恢复真实形态，如果你选择结束变形（无需动作），或者当你死亡时。",
+				"一旦你使用了此能力，直到完成一次{@variantrule 长休|XPHB}或花费7点术法点（无需动作）来恢复其使用次数前，你无法再次使用。"
 			]
 		}
 	],
 	"foundrySubclassFeature": [
 		{
-			"name": "Unstoppable",
+			"ENG_name": "Unstoppable",
+			"name": "势不可挡",
 			"source": "XUA2026UnderdarkOptions2",
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "XPHB",
-			"subclassShortName": "Freedom",
+			"subclassShortName": "自由",
 			"subclassSource": "XUA2026UnderdarkOptions2",
 			"level": 6,
 			"entryData": {
@@ -848,11 +899,12 @@
 			}
 		},
 		{
-			"name": "Fungal Body",
+			"ENG_name": "Fungal Body",
+			"name": "真菌之躯",
 			"source": "XUA2026UnderdarkOptions2",
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "XPHB",
-			"subclassShortName": "Spores",
+			"subclassShortName": "孢子",
 			"subclassSource": "XUA2026UnderdarkOptions2",
 			"level": 14,
 			"entryData": {
@@ -865,11 +917,12 @@
 			}
 		},
 		{
-			"name": "Faerzress Affinity",
+			"ENG_name": "Faerzress Affinity",
+			"name": "费尔兹瑞斯亲和力",
 			"source": "XUA2026UnderdarkOptions2",
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "Faerzress",
+			"subclassShortName": "费尔兹瑞斯",
 			"subclassSource": "XUA2026UnderdarkOptions2",
 			"level": 6,
 			"entryData": {
@@ -886,12 +939,13 @@
 	],
 	"race": [
 		{
-			"name": "Deep Imaskari",
+			"ENG_name": "Deep Imaskari",
+			"name": "深地伊玛斯卡",
 			"source": "XUA2026UnderdarkOptions2",
 			"page": 6,
 			"edition": "one",
 			"creatureTypes": [
-				"humanoid"
+				"类人生物"
 			],
 			"size": [
 				"S",
@@ -902,63 +956,71 @@
 				"radiant"
 			],
 			"sizeEntry": {
+				"ENG_name": "Size:",
+				"name": "体型：",
 				"type": "item",
-				"name": "Size:",
 				"entries": [
-					"Medium (about 4\u20136 feet tall) or Small (about 2\u20134 feet tall), chosen when you select this species"
+					"中型（约4-6英尺高）或小型（约2-4英尺高），在你选择此种族时决定"
 				]
 			},
 			"entries": [
 				{
+					"ENG_name": "Photoresistant",
+					"name": "光抗性",
 					"type": "entries",
-					"name": "Photoresistant",
 					"entries": [
-						"You have {@variantrule Resistance|XPHB} to Radiant damage."
+						"你拥有对光耀伤害的{@variantrule 抗性|XPHB}。"
 					]
 				},
 				{
+					"ENG_name": "Resourceful",
+					"name": "适应力",
 					"type": "entries",
-					"name": "Resourceful",
 					"entries": [
-						"You gain {@variantrule Heroic Inspiration|XPHB} whenever you finish a {@variantrule Long Rest|XPHB}."
+						"你获得{@variantrule 英雄激励|XPHB}（每当你完成{@variantrule 长休|XPHB}时）。"
 					]
 				},
 				{
+					"ENG_name": "Unluminescent",
+					"name": "无光",
 					"type": "entries",
-					"name": "Unluminescent",
 					"entries": [
-						"As an action, you can will the crystals protruding from your body to glow with Unlight. You shed {@variantrule Bright Light|XPHB} in a 5-foot radius until you use an action to stop the effect. Your crystals stop glowing if you die or have the {@condition Unconscious|XPHB} condition."
+						"以一个动作，你可以随意让你身体上突出的水晶发出无光。你散发出半径5尺的{@variantrule 明亮光照|XPHB}，直到你用一个动作停止此效应。如果你死亡或处于{@condition 昏迷|XPHB}状态，你的水晶将停止发光。"
 					]
 				},
 				{
+					"ENG_name": "Aura of Unlight",
+					"name": "无光灵光",
 					"type": "entries",
-					"name": "Aura of Unlight",
 					"entries": [
-						"When you reach character level 3, you can use a {@variantrule Bonus Action|XPHB} to create an Aura of Unlight that sheds {@variantrule Bright Light|XPHB} in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you.",
-						"Choose one of the options below each time you create the aura; the aura lasts for 1 minute or until you end it (no action required), and once you create this aura, you can't do so again until you finish a {@variantrule Long Rest|XPHB}:",
+						"当你达到角色等级3时，你可以使用一个{@variantrule 附赠动作|XPHB}来创造一个无光灵光，它会从你身上散发出一个10尺范围的{@variantrule 光环 [效应区域]|XPHB|光环}，提供{@variantrule 明亮光照|XPHB}。",
+						"每次你创造此灵光时，从下方选项中选择一项；灵光持续1分钟或直到你结束它（无需动作），并且一旦你创造了此灵光，直到你完成一次{@variantrule 长休|XPHB}前，你无法再次这样做：",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
 								{
+									"ENG_name": "Abjuring Unlight",
+									"name": "驱散无光",
 									"type": "item",
-									"name": "Abjuring Unlight",
 									"entries": [
-										"You and your allies in the aura gain a bonus to AC equal to half your {@variantrule Proficiency|XPHB|Proficiency Bonus} (round down)."
+										"你和在灵光内的盟友获得等同于你一半{@variantrule 熟练|XPHB|熟练加值}（向下取整）的AC加值。"
 									]
 								},
 								{
+									"ENG_name": "Brilliant Unlight",
+									"name": "璀璨无光",
 									"type": "item",
-									"name": "Brilliant Unlight",
 									"entries": [
-										"Creatures other than your allies that start their turn within the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} must succeed on a Constitution saving throw (DC 8 plus your Charisma modifier and {@variantrule Proficiency|XPHB|Proficiency Bonus}) or have the {@condition Blinded|XPHB} condition until the end of your next turn."
+										"除你盟友外的生物，若在其回合开始时处于该{@variantrule 光环 [效应区域]|XPHB|光环}内，则必须成功通过一次体质豁免检定（DC为8加上你的魅力调整值和{@variantrule 熟练|XPHB|熟练加值}），否则将获得{@condition 目盲|XPHB}状态，直到你的下一个回合结束。"
 									]
 								},
 								{
+									"ENG_name": "Corrupting Unlight",
+									"name": "腐蚀无光",
 									"type": "item",
-									"name": "Corrupting Unlight",
 									"entries": [
-										"When you deal damage to a creature with an attack or a spell, you can change the damage type to Radiant. Additionally, you can roll one of your unexpended {@variantrule Hit Point Dice|XPHB} and deal extra Radiant damage equal to the number rolled. That die is then expended."
+										"当你用一次攻击或一个法术对一个生物造成伤害时，你可以将伤害类型改为光耀。此外，你可以投掷一个你未消耗的{@variantrule 生命值骰|XPHB}，并造成等同于掷骰结果的额外光耀伤害。该骰子随后被消耗。"
 									]
 								}
 							]
@@ -969,12 +1031,13 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Drider",
+			"ENG_name": "Drider",
+			"name": "蛛化卓尔",
 			"source": "XUA2026UnderdarkOptions2",
 			"page": 6,
 			"edition": "one",
 			"creatureTypes": [
-				"monstrosity"
+				"怪兽"
 			],
 			"size": [
 				"M"
@@ -1000,7 +1063,7 @@
 					"known": {
 						"_": {
 							"_": [
-								"dancing lights|XPHB#c"
+								"舞光术|XPHB#c"
 							]
 						}
 					},
@@ -1008,14 +1071,14 @@
 						"3": {
 							"daily": {
 								"1e": [
-									"faerie fire|XPHB"
+									"妖火|XPHB"
 								]
 							}
 						},
 						"5": {
 							"daily": {
 								"1e": [
-									"web|XPHB"
+									"蛛网术|XPHB"
 								]
 							}
 						}
@@ -1023,59 +1086,66 @@
 				}
 			],
 			"sizeEntry": {
+				"ENG_name": "Size:",
+				"name": "体型：",
 				"type": "item",
-				"name": "Size:",
 				"entries": [
-					"Medium (about 6\u20138 feet tall)"
+					"中型（约6-8尺高）"
 				]
 			},
 			"entries": [
 				{
+					"ENG_name": "Arachnid Build",
+					"name": "蛛形构造",
 					"type": "entries",
-					"name": "Arachnid Build",
 					"entries": [
-						"You count as one size larger when determining your carrying capacity."
+						"在确定你的载重时，你的体型视为大一级。"
 					]
 				},
 				{
+					"ENG_name": "Darkvision",
+					"name": "黑暗视觉",
 					"type": "entries",
-					"name": "Darkvision",
 					"entries": [
-						"You have {@sense Darkvision|XPHB} with a range of 120 feet."
+						"你拥有 120 尺{@sense 黑暗视觉|XPHB}。"
 					]
 				},
 				{
+					"ENG_name": "Spells of the Spider Queen",
+					"name": "蜘蛛女王的法术",
 					"type": "entries",
-					"name": "Spells of the Spider Queen",
 					"entries": [
-						"You know the {@spell Dancing Lights|XPHB} cantrip. When you reach character level 3, you always have the {@spell Faerie Fire|XPHB} spell prepared. When you reach character level 5, you always have the {@spell Web|XPHB} spell prepared. You can cast each of these spells once without a spell slot. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a {@variantrule Long Rest|XPHB}. You can also cast these spells using any spell slots you have of the appropriate level.",
-						"Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select this species)."
+						"你知晓戏法{@spell 舞光术|XPHB}。当你达到3级时，你总是准备着法术{@spell 妖火|XPHB}。当你达到5级时，你总是准备着法术{@spell 蛛网术|XPHB}。你可以无需法术位施放这些法术各一次。当你以此特质施放了其中任一法术后，直到你完成一次{@variantrule 长休|XPHB}前，你无法再次以此特质施放该法术。你也可以使用你拥有的相应等级的任何法术位来施放这些法术。",
+						"智力、感知或魅力是你通过该特质施放这些法术时的施法属性（选择此种族时决定该属性）。"
 					]
 				},
 				{
+					"ENG_name": "Spider Climb",
+					"name": "蛛行术",
 					"type": "entries",
-					"name": "Spider Climb",
 					"entries": [
-						"You have a {@variantrule Climb Speed|XPHB} equal to your {@variantrule Speed|XPHB}. When you reach character level 3, you can move up, down, and across vertical surfaces and along ceilings while leaving your hands free."
+						"你拥有等于你{@variantrule 速度|XPHB}的{@variantrule 攀爬速度|XPHB}。当你到达3级后，你可以沿垂直表面上与天花板下移动（包括上下左右），且不需要为此借助你的双手。"
 					]
 				},
 				{
+					"ENG_name": "Web Walker",
+					"name": "蛛网行者",
 					"type": "entries",
-					"name": "Web Walker",
 					"entries": [
-						"You ignore movement restrictions caused by webs, and you know the location of any other creature in contact with the same web."
+						"你忽略蛛网造成的移动限制，并且知晓同一蛛网上任何其他生物的位置。"
 					]
 				}
 			],
 			"hasFluff": true
 		},
 		{
-			"name": "Illithidkin",
+			"ENG_name": "Illithidkin",
+			"name": "夺心魔裔",
 			"source": "XUA2026UnderdarkOptions2",
 			"page": 7,
 			"edition": "one",
 			"creatureTypes": [
-				"humanoid"
+				"类人生物"
 			],
 			"size": [
 				"S",
@@ -1098,7 +1168,7 @@
 					"known": {
 						"_": {
 							"_": [
-								"mage hand|XPHB#c"
+								"法师之手|XPHB#c"
 							]
 						}
 					},
@@ -1106,14 +1176,14 @@
 						"3": {
 							"daily": {
 								"1e": [
-									"command|XPHB"
+									"命令术|XPHB"
 								]
 							}
 						},
 						"5": {
 							"daily": {
 								"1e": [
-									"levitate|XPHB"
+									"浮空术|XPHB"
 								]
 							}
 						}
@@ -1121,52 +1191,58 @@
 				}
 			],
 			"sizeEntry": {
+				"ENG_name": "Size:",
+				"name": "体型：",
 				"type": "item",
-				"name": "Size:",
 				"entries": [
-					"Medium (about 5\u20136 feet tall) or Small (about 2\u20134 feet tall), chosen when you select this species"
+					"中型（约5-6英尺高）或小型（约2-4英尺高），在你选择此种族时决定"
 				]
 			},
 			"entries": [
 				{
+					"ENG_name": "Darkvision",
+					"name": "黑暗视觉",
 					"type": "entries",
-					"name": "Darkvision",
 					"entries": [
-						"You have {@sense Darkvision|XPHB} with a range of 120 feet."
+						"你拥有 120 尺{@sense 黑暗视觉|XPHB}。"
 					]
 				},
 				{
+					"ENG_name": "Psionic Aptitude",
+					"name": "灵能天赋",
 					"type": "entries",
-					"name": "Psionic Aptitude",
 					"entries": [
-						"You know the {@spell Mage Hand|XPHB} cantrip, and you can make the spectral hand {@condition Invisible|XPHB}. When you reach character level 3, you always have the {@spell Command|XPHB} spell prepared. When you reach character level 5, you always have the {@spell Levitate|XPHB} spell prepared. You can cast each of these spells once without a spell slot. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a {@variantrule Long Rest|XPHB}. You can also cast the spell using any spell slots you have of the appropriate level.",
-						"Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select this species)."
+						"你知晓戏法{@spell 法师之手|XPHB}，并且你可以使灵体之手{@condition 隐形|XPHB}。当你达到3级时，你总是准备着法术{@spell 命令术|XPHB}。当你达到5级时，你总是准备着法术{@spell 浮空术|XPHB}。你可以不使用法术位施放这些法术各一次。当你使用此特质施放了其中任一法术后，直到你完成一次{@variantrule 长休|XPHB}前，你无法再次使用此特质施放该法术。你也可以使用你拥有的相应等级的任意法术位来施放这些法术。",
+						"智力、感知或魅力是你通过该特质施放这些法术时的施法属性（选择此种族时决定该属性）。"
 					]
 				},
 				{
+					"ENG_name": "Sharpened Mind",
+					"name": "锐化心智",
 					"type": "entries",
-					"name": "Sharpened Mind",
 					"entries": [
-						"You have {@variantrule Resistance|XPHB} to Psychic damage. You also have {@variantrule Advantage|XPHB} on saving throws you make to avoid or end the {@condition Charmed|XPHB} condition."
+						"你对心灵伤害具有{@variantrule 抗性|XPHB}。你在为避免或结束{@condition 魅惑|XPHB}状态而进行的豁免检定上具有{@variantrule 优势|XPHB}。"
 					]
 				},
 				{
+					"ENG_name": "Telepathy",
+					"name": "心灵感应",
 					"type": "entries",
-					"name": "Telepathy",
 					"entries": [
-						"You have {@variantrule telepathy|XPHB} with a range of 30 feet."
+						"你拥有范围为30尺的{@variantrule 心灵感应|XPHB}。"
 					]
 				}
 			],
 			"hasFluff": true
 		},
 		{
-			"name": "Kuo-Toa",
+			"ENG_name": "Kuo-Toa",
+			"name": "寇涛",
 			"source": "XUA2026UnderdarkOptions2",
 			"page": 7,
 			"edition": "one",
 			"creatureTypes": [
-				"humanoid"
+				"类人生物"
 			],
 			"size": [
 				"M"
@@ -1184,7 +1260,7 @@
 						"_": {
 							"daily": {
 								"1e": [
-									"Find Familiar|XPHB"
+									"寻获魔宠|XPHB"
 								]
 							}
 						}
@@ -1192,45 +1268,50 @@
 				}
 			],
 			"sizeEntry": {
+				"ENG_name": "Size:",
+				"name": "体型：",
 				"type": "item",
-				"name": "Size:",
 				"entries": [
-					"Medium (about 5\u20136 feet tall)"
+					"中型（约5-6英尺高）"
 				]
 			},
 			"entries": [
 				{
+					"ENG_name": "Amphibious",
+					"name": "水陆两栖",
 					"type": "entries",
-					"name": "Amphibious",
 					"entries": [
-						"You can breathe both air and water. Additionally, you have a {@variantrule Swim Speed|XPHB} equal to your {@variantrule Speed|XPHB}."
+						"你可以呼吸空气和水。此外，你的{@variantrule 游泳速度|XPHB}等于你的{@variantrule 速度|XPHB}。"
 					]
 				},
 				{
+					"ENG_name": "Slippery",
+					"name": "滑溜",
 					"type": "entries",
-					"name": "Slippery",
 					"entries": [
-						"You have {@variantrule Advantage|XPHB} on saving throws to avoid or end the {@condition Grappled|XPHB} and {@condition Restrained|XPHB} conditions."
+						"你在避免或结束{@condition 受擒|XPHB}和{@condition 束缚|XPHB}状态的豁免检定上具有{@variantrule 优势|XPHB}。"
 					]
 				},
 				{
+					"ENG_name": "Deific Manifestation",
+					"name": "神性显迹",
 					"type": "entries",
-					"name": "Deific Manifestation",
 					"entries": [
-						"You always have the {@spell Find Familiar|XPHB} spell prepared and can cast it without material components. You can cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a {@variantrule Long Rest|XPHB}.",
-						"When you cast the spell, you choose one of the normal forms for your familiar or one of the following special forms: {@creature Homunculus|XMM} or {@creature Myconid Sprout|XMM}. The familiar's creature type is Celestial. Additionally, your familiar's form is a divine blend of multiple creatures. When you cast this spell, choose a second form from the available options. Your familiar gains one action, {@variantrule Reaction|XPHB}, or trait from that second form."
+						"你总是准备着{@spell 寻获魔宠|XPHB}法术，并且可以无需材料成分施放它。你可以无需法术位施放它一次，并且当你完成一次{@variantrule 长休|XPHB}后，你恢复以此方式施放它的能力。",
+						"当你施放该法术时，你可以为你的魔宠选择一种正常形态，或选择以下一种特殊形态：{@creature 人工生命体|XMM} 或 {@creature 蕈人幼体|XMM}。该魔宠的生物类型为天族。此外，你的魔宠形态是多种生物的融合。当你施放此法术时，从可用选项中选择一个第二形貌。你的魔宠获得该第二形貌的一个动作、{@variantrule 反应|XPHB}或特质。"
 					]
 				}
 			],
 			"hasFluff": true
 		},
 		{
-			"name": "Myconid",
+			"ENG_name": "Myconid",
+			"name": "蕈人",
 			"source": "XUA2026UnderdarkOptions2",
 			"page": 8,
 			"edition": "one",
 			"creatureTypes": [
-				"plant"
+				"植物"
 			],
 			"size": [
 				"S",
@@ -1242,39 +1323,44 @@
 				"Skill Proficiency"
 			],
 			"sizeEntry": {
+				"ENG_name": "Size:",
+				"name": "体型：",
 				"type": "item",
-				"name": "Size:",
 				"entries": [
-					"Medium (about 4\u20137 feet tall) or Small (about 2\u20134 feet tall), chosen when you select this species"
+					"中型（约4-7英尺高）或小型（约2-4英尺高），在你选择此种族时决定"
 				]
 			},
 			"entries": [
 				{
+					"ENG_name": "Darkvision",
+					"name": "黑暗视觉",
 					"type": "entries",
-					"name": "Darkvision",
 					"entries": [
-						"You have {@sense Darkvision|XPHB} with a range of 120 feet."
+						"你拥有 120 尺{@sense 黑暗视觉|XPHB}。"
 					]
 				},
 				{
+					"ENG_name": "Telepathy",
+					"name": "心灵感应",
 					"type": "entries",
-					"name": "Telepathy",
 					"entries": [
-						"You have {@variantrule telepathy|XPHB} with a range of 30 feet."
+						"你拥有范围为30尺的{@variantrule 心灵感应|XPHB}。"
 					]
 				},
 				{
+					"ENG_name": "Rapport Spores",
+					"name": "通念孢子",
 					"type": "entries",
-					"name": "Rapport Spores",
 					"entries": [
-						"As an action, you expel spores in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from yourself. Creatures in the area with an Intelligence score of 2 or higher that aren't Constructs, Elementals, or Undead gain {@variantrule telepathy|XPHB} within a range of 30 feet for 1 hour. Once you use this trait, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+						"以一个动作，你释放孢子，形成一个以你为源点的30尺{@variantrule 光环 [效应区域]|XPHB|光环}。区域内智力值为2或更高、且非构装体、元素生物或亡灵的生物，获得30尺范围内的{@variantrule 心灵感应|XPHB}，持续1小时。一旦你使用了此特质，直到你完成一次{@variantrule 长休|XPHB}前，你无法再次使用。"
 					]
 				},
 				{
+					"ENG_name": "Skill Meld",
+					"name": "技能融合",
 					"type": "entries",
-					"name": "Skill Meld",
 					"entries": [
-						"When you finish a {@variantrule Long Rest|XPHB}, you can perform a melding ritual to share knowledge and experiences. When you do so, choose up to six allies (which can include yourself) within 30 feet of yourself to partake in the ritual and a skill proficiency that at least one participant has proficiency in. The chosen creatures each have proficiency in that skill until they finish a {@variantrule Long Rest|XPHB}."
+						"当你完成一次{@variantrule 长休|XPHB}时，你可以进行一次融合仪式来分享知识与经验。当你这样做时，选择至多六名你30尺内的盟友（可以包括你自己）参与仪式，并选择一项至少一名参与者拥有熟练项的技能。被选中的生物在该技能上获得熟练项，直到他们完成一次{@variantrule 长休|XPHB}。"
 					]
 				}
 			],
@@ -1283,63 +1369,70 @@
 	],
 	"raceFluff": [
 		{
-			"name": "Deep Imaskari",
+			"ENG_name": "Deep Imaskari",
+			"name": "深地伊玛斯卡",
 			"source": "XUA2026UnderdarkOptions2",
 			"entries": [
-				"Millennia ago, remnants of the human empire of Imaskar fled into the bowels of the Underdark and sealed themselves away. To survive in total darkness, they harnessed the power of Unlight to create their Great Seal, which acts as a synthetic sun. Their descendants, the deep imaskari, have spent millennia basking in that sun's radiation and are now infused with its magic.",
-				"Deep imaskari's bodies have been warped by Unlight exposure. Colorless, glowing crystals protrude from their skin. Their eyes are a piercing golden-white, and their hair is often black, white, or gray. Deep imaskari live as long as humans do."
+				"数千年前，人类帝国伊玛斯卡帝国的残存者逃入了幽暗地域的深处并将自己封闭起来。为了在完全的黑暗中生存，他们驾驭无光之力创造了他们的伟大封印，它充当了一个人造太阳。他们的后代，深伊马斯卡人，数千年来一直沐浴在那太阳的辐射中，如今已浸透了它的魔法。",
+				"深伊马斯卡人的身体因暴露于无光而扭曲。无色、发光的晶体从他们的皮肤中突出。他们的眼睛是锐利的金白色，头发通常是黑色、白色或灰色。深伊马斯卡人的寿命与人类相当。"
 			]
 		},
 		{
-			"name": "Drider",
+			"ENG_name": "Drider",
+			"name": "蛛化卓尔",
 			"source": "XUA2026UnderdarkOptions2",
 			"entries": [
-				"Skulking through Underdark caverns on their eight legs, driders bear the Spider Queen's curse. Each has the head and torso of a drow but the body of a giant spider. Some driders have additional spider-like features, such as eight eyes or small fangs.",
-				"Driders are powerful hunters, capable of climbing along webs and walls, creating webs, and shooting caustic acid. Driders live as long as elves do, around 750 years."
+				"蛛化卓尔用它们的八条腿在幽暗地域的洞穴中潜行，背负着蜘蛛女王的诅咒。每个蛛化卓尔都拥有卓尔的头部和躯干，但身体却是巨蜘蛛的。一些蛛化卓尔还拥有额外的蜘蛛般特性，例如八只眼睛或小型毒牙。",
+				"蛛化卓尔是强大的追猎者，能够沿着蛛网和墙壁攀爬，制造蛛网，并喷射腐蚀性强酸。蛛化卓尔的寿命与精灵相当，大约750年。"
 			]
 		},
 		{
-			"name": "Illithidkin",
+			"ENG_name": "Illithidkin",
+			"name": "夺心魔裔",
 			"source": "XUA2026UnderdarkOptions2",
 			"entries": [
-				"Illithidkin are the wretched byproduct of mind flayer experimentation on humanoid test subjects. These hybrid creatures are bipedal and retain some of the features of their original form, but they also bear some features of a mind flayer\u2014purple skin, wriggling tentacles, and a fledgling psionic aptitude.",
-				"An illithidkin typically has the same life expectancy as their original species, but in some cases the transformation adds years or even decades to\u2014or subtracts as much from\u2014that life expectancy."
+				"夺心魔裔是夺心魔对类人生物实验对象进行实验所产生的悲惨副产品。这些杂交生物是双足行走的，并保留了其原始形态的一些特性，但他们也带有一些夺心魔的特征\u2014\u2014紫色的皮肤、蠕动的触须以及初生的灵能天赋。",
+				"夺心魔裔通常拥有与其原始种族相同的预期寿命，但在某些情况下，变形会为其预期寿命增加数年甚至数十年，或减少同样多的寿命。"
 			]
 		},
 		{
-			"name": "Kuo-Toa",
+			"ENG_name": "Kuo-Toa",
+			"name": "寇涛",
 			"source": "XUA2026UnderdarkOptions2",
 			"entries": [
-				"Kuo-toa's origins are hotly debated, even among kuo-toa themselves. They claim their empires once ruled both land and sea on multiple worlds, though they disagree on what brought their empires to their knees and drove many kuo-toa into the Underdark. Kuo-toa therefore resent all forces that could have ended this empire: civilizations that walk in the light, natural disasters, and any god that leaves their prayers unanswered.",
-				"Kuo-toa are fishlike humanoids with slimy bodies and scales that change color with extreme emotions, such as anger or terror. They often smell of rotting fish, an exquisite scent they magnify with fine perfumes of their own creation. They have a life expectancy of about 60 years.",
+				"寇涛的起源即使在寇涛内部也备受争议。他们声称自己的帝国曾统治过多个世界的陆地与海洋，尽管他们对是什么导致了帝国的覆灭以及是什么将许多寇涛驱赶至幽暗地域存在分歧。因此，寇涛憎恨所有可能终结了这个帝国的力量：行走于光明中的文明、自然灾害，以及任何对他们的祈祷置若罔闻的神祇。",
+				"寇涛是鱼形的类人生物，有着黏滑的身体和会随极端情绪（如愤怒或恐惧）而改变颜色的鳞片。他们身上常带有腐鱼的气味，这是一种他们用自己制造的优质香水加以放大的绝妙气味。他们的寿命约为60年。",
 				{
+					"ENG_name": "Mysterious Deities",
+					"name": "神秘神祇",
 					"type": "entries",
-					"name": "Mysterious Deities",
 					"page": 7,
 					"entries": [
-						"Most knowledge of the full kuo-toa pantheon has been lost to time. Kuo-toa can't agree on the names of these deities, what forms they take, or what these deities desire. Without a central religious authority, some archpriests invent new idols based on the omens they read. They often lead their villages to venerate krakens, aboleths, or demon lords as the avatars of deities or as deities in their own right. Devotion to such beings often results in the kuo-toa's prolonged servitude to a malevolent power or to their outright ruin.",
-						"To placate their deities, kuo-toa assemble bizarre idols with mismatched pieces inspired by crabs, eels, shrimp, or kuo-toa, often adorned with masses of writhing tentacles. Through a process only a few kuo-toa understand, these idols draw the attention of supernatural powers. Sometimes, they even come to life."
+						"关于完整的寇涛神系的大部分知识都已随时间流逝而湮没。寇涛鱼人无法就这些神祇的名字、祂们呈现的形态或这些神祇的欲求达成一致。由于缺乏中央宗教权威，一些大祭司会根据他们解读的预兆来创造新的偶像。他们常常带领自己的村庄去崇拜克拉肯、底栖魔鱼或恶魔领主，将其视为神祇的化身或本身就是神祇。对此类存在的奉献常常导致寇涛鱼人长期服务于某种邪恶力量，或是直接导致他们自身的毁灭。",
+						"为了安抚他们的神明，寇涛会组装由蟹、鳗鱼、虾或寇涛的错位部件启发而成的怪异偶像，这些偶像通常装饰着大量扭曲的触手。通过一个只有少数寇涛理解的过程，这些偶像会吸引超然力量的注意。有时，它们甚至会获得生命。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Myconid",
+			"ENG_name": "Myconid",
+			"name": "蕈人",
 			"source": "XUA2026UnderdarkOptions2",
 			"entries": [
-				"Myconids are bipedal fungal folk who live in close-knit, insular circles. Like mushrooms, they come in many different shapes, sizes, and colors. Some myconids whose circles have had contact with other civilizations have developed features resembling those of other species, such as mouths for speaking or bright-colored caps and ruffles that look like clothing.",
-				"Myconids have relatively short lifespans. They might live 25 years before returning to the soil to fertilize the next generation of their circle."
+				"蕈人是双足的真菌类生物，生活在紧密而封闭的圆形社群中。如同蘑菇一般，他们呈现出许多不同的形态、大小和颜色。一些其社群曾与其他文明有过接触的蕈人，发展出了类似其他种族的特征，例如用于说话的嘴巴，或是看起来像衣物的鲜艳菌盖和褶皱。",
+				"蕈人的寿命相对较短。他们可能活25年，然后回归土壤，为它们圈落的下一代提供养分。"
 			]
 		}
 	],
 	"table": [
 		{
-			"name": "Circle of Spores Spells",
+			"ENG_name": "Circle of Spores Spells",
+			"name": "孢子结社法术",
 			"source": "XUA2026UnderdarkOptions2",
 			"page": 3,
 			"colLabels": [
-				"Druid Level",
-				"Prepared Spells"
+				"德鲁伊等级",
+				"准备法术"
 			],
 			"colStyles": [
 				"col-2 text-center",
@@ -1348,29 +1441,30 @@
 			"rows": [
 				[
 					"3",
-					"{@spell Blindness/Deafness|XPHB}, {@spell Charm Person|XPHB}, {@spell Chill Touch|XPHB}"
+					"{@spell 目盲术/耳聋术|XPHB}, {@spell 魅惑类人|XPHB}, {@spell 颤栗之触|XPHB}"
 				],
 				[
 					"5",
-					"{@spell Animate Dead|XPHB}"
+					"{@spell 活化死尸|XPHB}"
 				],
 				[
 					"7",
-					"{@spell Confusion|XPHB}"
+					"{@spell 困惑术|XPHB}"
 				],
 				[
 					"9",
-					"{@spell Contagion|XPHB}"
+					"{@spell 疫病术|XPHB}"
 				]
 			]
 		},
 		{
-			"name": "Faerzress Side Effects",
+			"ENG_name": "Faerzress Side Effects",
+			"name": "费尔兹瑞斯副作用",
 			"source": "XUA2026UnderdarkOptions2",
 			"page": 4,
 			"colLabels": [
 				"1d6",
-				"You Emit Faerzress Radiation That..."
+				"你散发出费尔兹瑞斯辐射..."
 			],
 			"colStyles": [
 				"col-2 text-center",
@@ -1379,37 +1473,38 @@
 			"rows": [
 				[
 					"1",
-					"Curdles milk and sours wine."
+					"使牛奶凝结，红酒变酸。"
 				],
 				[
 					"2",
-					"Causes anxiety in animals."
+					"导致动物焦虑。"
 				],
 				[
 					"3",
-					"Stimulates the growth of Underdark plants."
+					"刺激幽暗地域植物的生长。"
 				],
 				[
 					"4",
-					"Tints colors toward blue and violet."
+					"将颜色染成蓝色和紫色。"
 				],
 				[
 					"5",
-					"Sometimes gives you a splitting headache."
+					"有时会让你头痛欲裂。"
 				],
 				[
 					"6",
-					"Can be heard as a faint, high-pitched buzzing noise."
+					"可以被听到为一种微弱、高音的嗡嗡响声。"
 				]
 			]
 		},
 		{
-			"name": "Faerzress Spells",
+			"ENG_name": "Faerzress Spells",
+			"name": "费尔兹瑞斯法术",
 			"source": "XUA2026UnderdarkOptions2",
 			"page": 4,
 			"colLabels": [
-				"Sorcerer Level",
-				"Prepared Spells"
+				"术士等级",
+				"准备法术"
 			],
 			"colStyles": [
 				"col-2 text-center",
@@ -1418,29 +1513,30 @@
 			"rows": [
 				[
 					"3",
-					"{@spell Faerie Fire|XPHB}, {@spell Magic Weapon|XPHB}, {@spell Misty Step|XPHB}, {@spell Witch Bolt|XPHB}"
+					"{@spell 妖火|XPHB}, {@spell 魔化武器|XPHB}, {@spell 迷踪步|XPHB}, {@spell 巫术箭|XPHB}"
 				],
 				[
 					"5",
-					"{@spell Nondetection|XPHB}, {@spell Sending|XPHB}"
+					"{@spell 回避侦测|XPHB}, {@spell 短讯术|XPHB}"
 				],
 				[
 					"7",
-					"{@spell Arcane Eye|XPHB}, {@spell Stone Shape|XPHB}"
+					"{@spell 秘法眼|XPHB}, {@spell 塑石术|XPHB}"
 				],
 				[
 					"9",
-					"{@spell Passwall|XPHB}, {@spell Scrying|XPHB}"
+					"{@spell 穿墙术|XPHB}, {@spell 探知术|XPHB}"
 				]
 			]
 		},
 		{
-			"name": "Foremost Freedom",
+			"ENG_name": "Foremost Freedom",
+			"name": "首要自由",
 			"source": "XUA2026UnderdarkOptions2",
 			"page": 1,
 			"colLabels": [
 				"1d6",
-				"The Most Important Freedom Is..."
+				"最重要的自由是..."
 			],
 			"colStyles": [
 				"col-2 text-center",
@@ -1449,37 +1545,38 @@
 			"rows": [
 				[
 					"1",
-					"Freedom from starvation and poverty."
+					"免于饥饿与贫困的自由。"
 				],
 				[
 					"2",
-					"Freedom to choose your own path in life."
+					"自由选择自己的人生道路。"
 				],
 				[
 					"3",
-					"Freedom from tyranny and oppression."
+					"免于暴政与压迫的自由。"
 				],
 				[
 					"4",
-					"Freedom to control your body and mind."
+					"自由地控制你的身体与心灵。"
 				],
 				[
 					"5",
-					"Freedom from nature's physical laws."
+					"从自然的物理法则中获得自由。"
 				],
 				[
 					"6",
-					"Freedom from all moral codes."
+					"摆脱所有道德准则的自由。"
 				]
 			]
 		},
 		{
-			"name": "Freedom Domain Spells",
+			"ENG_name": "Freedom Domain Spells",
+			"name": "自由领域法术",
 			"source": "XUA2026UnderdarkOptions2",
 			"page": 1,
 			"colLabels": [
-				"Cleric Level",
-				"Prepared Spells"
+				"牧师等级",
+				"准备法术"
 			],
 			"colStyles": [
 				"col-2 text-center",
@@ -1488,29 +1585,30 @@
 			"rows": [
 				[
 					"3",
-					"{@spell Expeditious Retreat|XPHB}, {@spell Jump|XPHB}, {@spell Knock|XPHB}, {@spell Misty Step|XPHB}"
+					"{@spell 脚底抹油|XPHB}, {@spell 跳跃术|XPHB}, {@spell 敲击术|XPHB}, {@spell 迷踪步|XPHB}"
 				],
 				[
 					"5",
-					"{@spell Fly|XPHB}, {@spell Gaseous Form|XPHB}"
+					"{@spell 飞行术|XPHB}, {@spell 气化形体|XPHB}"
 				],
 				[
 					"7",
-					"{@spell Dimension Door|XPHB}, {@spell Freedom of Movement|XPHB}"
+					"{@spell 任意门|XPHB}, {@spell 行动自如|XPHB}"
 				],
 				[
 					"9",
-					"{@spell Passwall|XPHB}, {@spell Tree Stride|XPHB}"
+					"{@spell 穿墙术|XPHB}, {@spell 树跃术|XPHB}"
 				]
 			]
 		},
 		{
-			"name": "Spore Druid Origins",
+			"ENG_name": "Spore Druid Origins",
+			"name": "孢子德鲁伊起源",
 			"source": "XUA2026UnderdarkOptions2",
 			"page": 3,
 			"colLabels": [
 				"1d6",
-				"You First Encountered Your Spores When..."
+				"你第一次遇到你的孢子是在......"
 			],
 			"colStyles": [
 				"col-2 text-center",
@@ -1519,34 +1617,35 @@
 			"rows": [
 				[
 					"1",
-					"You ingested a mushroom you definitely should not have."
+					"你服下了一个你绝对不该吃的蘑菇。"
 				],
 				[
 					"2",
-					"You searched a rotting corpse and inhaled the burst of gas spores that erupted from its chest."
+					"你搜查了一具腐烂的尸体，并吸入了从其胸腔中爆裂而出的气孢菌。"
 				],
 				[
 					"3",
-					"An aging archdruid passed their spores\u2014and their duty to propagate said spores\u2014on to you."
+					"一位年迈的大德鲁伊将他们的孢子\u2014\u2014以及传播这些孢子的责任\u2014\u2014托付给了你。"
 				],
 				[
 					"4",
-					"You participated in a myconid melding ceremony."
+					"你曾参与过一场蕈人融合典礼。"
 				],
 				[
 					"5",
-					"You died, and a powerful myconid sovereign took pity and reanimated you."
+					"你曾死去，一位强大的蕈人王心生怜悯，将你重新复活。"
 				],
 				[
 					"6",
-					"Psilofyr the Spore Lord visited your dreams to waken your abilities."
+					"孢子领主普西洛菲尔曾造访你的梦境，以唤醒你的能力。"
 				]
 			]
 		}
 	],
 	"book": [
 		{
-			"name": "Unearthed Arcana 2026: Underdark Options 2",
+			"ENG_name": "Unearthed Arcana 2026: Underdark Options 2",
+			"name": "破解奥秘 2026：幽暗地域选项 2",
 			"id": "XUA2026UnderdarkOptions2",
 			"source": "XUA2026UnderdarkOptions2",
 			"group": "prerelease",
@@ -1555,61 +1654,62 @@
 				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana-img/main/img/XUA2026UnderdarkOptions2/cover.webp"
 			},
 			"published": "2026-09-10",
-			"author": "Wizards of the Coast",
+			"author": "威世智",
 			"contents": [
 				{
-					"name": "Unearthed Arcana 2026: Underdark Options 2",
+					"ENG_name": "Unearthed Arcana 2026: Underdark Options 2",
+					"name": "破解奥秘 2026：幽暗地域选项 2",
 					"headers": [
-						"What's Inside",
+						"这里有什么",
 						{
-							"header": "Content Warning",
+							"header": "内容警告",
 							"depth": 1
 						},
-						"Subclasses",
+						"子职",
 						{
-							"header": "Freedom Domain (Cleric)",
+							"header": "自由领域（牧师）",
 							"depth": 1,
 							"statblock": true,
 							"tag": "subclass",
-							"uid": "freedom|cleric|xphb|xua2026underdarkoptions2"
+							"uid": "自由|牧师|xphb|XUA2026幽暗地域选项2"
 						},
 						{
-							"header": "Circle of Spores (Druid)",
+							"header": "孢子结社（德鲁伊）",
 							"depth": 1,
 							"statblock": true,
 							"tag": "subclass",
-							"uid": "spores|druid|xphb|xua2026underdarkoptions2"
+							"uid": "孢子|德鲁伊|xphb|XUA2026幽暗地域选项2"
 						},
 						{
-							"header": "Faerzress Sorcery (Sorcerer)",
+							"header": "费尔兹瑞斯魔法（术士）",
 							"depth": 1,
 							"statblock": true,
 							"tag": "subclass",
-							"uid": "faerzress|sorcerer|xphb|xua2026underdarkoptions2"
+							"uid": "费尔兹瑞斯|术士|xphb|XUA2026幽暗地域选项2"
 						},
-						"Species",
+						"种族",
 						{
-							"header": "Deep Imaskari",
+							"header": "深地伊玛斯卡",
 							"depth": 1,
 							"statblock": true
 						},
 						{
-							"header": "Drider",
+							"header": "蛛化卓尔",
 							"depth": 1,
 							"statblock": true
 						},
 						{
-							"header": "Illithidkin",
+							"header": "夺心魔裔",
 							"depth": 1,
 							"statblock": true
 						},
 						{
-							"header": "Kuo-Toa",
+							"header": "寇涛",
 							"depth": 1,
 							"statblock": true
 						},
 						{
-							"header": "Myconid",
+							"header": "蕈人",
 							"depth": 1,
 							"statblock": true
 						}
@@ -1624,69 +1724,76 @@
 			"source": "XUA2026UnderdarkOptions2",
 			"data": [
 				{
+					"ENG_name": "Unearthed Arcana 2026: Underdark Options 2",
+					"name": "破解奥秘 2026：幽暗地域选项 2",
 					"type": "section",
-					"name": "Unearthed Arcana 2026: Underdark Options 2",
 					"id": "000",
 					"page": 1,
 					"entries": [
-						"This playtest document is part of a series of {@i Unearthed Arcana} articles that present material designed for upcoming products. The material here uses the rules in the {@book Player's Handbook|XPHB}.",
+						"这份测试文档是系列{@i 破解奥秘}文章的一部分，这些文章展示了为即将推出的产品设计的素材。这里的素材使用{@book 玩家手册|XPHB}中的规则。",
 						{
+							"ENG_name": "What's Inside",
+							"name": "这里有什么",
 							"type": "section",
-							"name": "What's Inside",
 							"id": "001",
 							"page": 1,
 							"entries": [
-								"This document presents three new subclasses:",
+								"本文档介绍了三个新的子职：",
 								{
 									"type": "list",
 									"items": [
-										"{@class Cleric|XPHB} ({@class Cleric|XPHB|Freedom Domain|Freedom|XUA2026UnderdarkOptions2})",
-										"{@class Druid|XPHB} ({@class Druid|XPHB|Circle of Spores|Spores|XUA2026UnderdarkOptions2})",
-										"{@class Sorcerer|XPHB} ({@class Sorcerer|XPHB|Faerzress Sorcery|Faerzress|XUA2026UnderdarkOptions2})"
+										"{@class 牧师|XPHB} ({@class 牧师|XPHB|自由领域|自由|XUA2026UnderdarkOptions2})",
+										"{@class 德鲁伊|XPHB} ({@class 德鲁伊|XPHB|孢子结社|孢子|XUA2026UnderdarkOptions2})",
+										"{@class 术士|XPHB} ({@class 术士|XPHB|费尔兹瑞斯魔法|费尔兹瑞斯|XUA2026UnderdarkOptions2})"
 									]
 								},
-								"This document also includes five new species.",
+								"本文档还包含五个新种族。",
 								{
+									"ENG_name": "Content Warning",
+									"name": "内容警告",
 									"type": "entries",
-									"name": "Content Warning",
 									"id": "002",
 									"page": 1,
 									"entries": [
-										"This material contains descriptions of body horror and mind control that some readers might find disturbing."
+										"此材质包含对肉体恐怖和意识控制的描述，部分读者可能会感到不适。"
 									]
 								},
 								{
+									"ENG_name": "This Is Playtest Material",
+									"name": "本材料为游玩测试内容",
 									"type": "inset",
-									"name": "This Is Playtest Material",
 									"id": "003",
 									"page": 1,
 									"entries": [
-										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt it as official.",
+										"本文旨在进行游戏测试和反馈。这里的选项是实验性的且处于草稿形态。它们并非游戏的官方部分。您的反馈将协助我们决定是否将其采纳为官方。",
 										{
 											"type": "list",
 											"page": 1,
 											"style": "list-hang-notitle",
 											"items": [
 												{
+													"ENG_name": "How to Playtest This UA",
+													"name": "如何游玩测试本破解奥秘",
 													"type": "item",
-													"name": "How to Playtest This UA",
 													"entries": [
-														"We invite you to try out this material in play. To play with this material, you may either incorporate it into your campaign or run one or more special playtest sessions. For such a session, you may create an adventure of your own or use a short adventure from a source like {@adventure Dragon Delves|DrDe-BD}."
+														"我们邀请您在游玩中尝试本材料。要使用本材料进行游戏，您可以将其融入您的战役，或运行一个或多个特殊的游玩测试环节。对于这样的环节，您可以创建自己的冒险，或使用来自诸如{@adventure 巨龙迷城|DrDe-BD}等来源的短篇冒险。"
 													]
 												},
 												{
+													"ENG_name": "Power Level",
+													"name": "威力水平",
 													"type": "item",
-													"name": "Power Level",
 													"entries": [
-														"The character options you read here might be more or less powerful than options in the {@book Player's Handbook|XPHB}. If a design survives playtesting, we adjust its power to the desirable level before publication. This means an option could be more or less powerful in its final form."
+														"你在这里读到的角色选项，其威力可能比{@book 玩家手册|XPHB}中的选项更强或更弱。如果一个设计在游玩测试中得以保留，我们会在发布前将其威力调整到理想水平。这意味着一个选项在其最终形态中可能会更强或更弱。"
 													]
 												},
 												{
+													"ENG_name": "Feedback",
+													"name": "反馈",
 													"type": "item",
-													"name": "Feedback",
 													"entries": [
-														"The best way for you to give us feedback on this material is in the survey we'll release on D&D Beyond. If we make this material official, it will be refined based on your feedback, and then it will appear in a D&D book.",
-														"Providing feedback on this document is one way you can help shape the future of D&D!"
+														"您就这份材质向我们提供反馈的最佳方式是通过我们将在D&D Beyond上发布的调查。如果我们使这份材质成为官方版本，它将根据您的反馈进行完善，然后会出现在一本D&D书中。",
+														"对本文件提供反馈是您协助塑造D&D未来的一种方式！"
 													]
 												}
 											]
@@ -1696,25 +1803,28 @@
 							]
 						},
 						{
+							"ENG_name": "Subclasses",
+							"name": "子职",
 							"type": "section",
-							"name": "Subclasses",
 							"id": "004",
 							"page": 1,
 							"entries": [
-								"This section presents the following subclasses: {@class Cleric|XPHB|Freedom Domain|Freedom|XUA2026UnderdarkOptions2}, {@class Druid|XPHB|Circle of Spores|Spores|XUA2026UnderdarkOptions2}, and {@class Sorcerer|XPHB|Faerzress Sorcery|Faerzress|XUA2026UnderdarkOptions2}.",
+								"本节介绍以下子职：{@class 牧师|XPHB|自由领域|自由|XUA2026UnderdarkOptions2}、{@class 德鲁伊|XPHB|孢子结社|孢子|XUA2026UnderdarkOptions2}和{@class 术士|XPHB|费尔兹瑞斯魔法|费尔兹瑞斯|XUA2026UnderdarkOptions2}。",
 								{
+									"ENG_name": "Freedom Domain (Cleric)",
+									"name": "自由领域（牧师）",
 									"type": "entries",
-									"name": "Freedom Domain (Cleric)",
 									"id": "005",
 									"page": 1,
 									"entries": [
-										"{@i Spread Liberty and Break Chains}",
+										"{@i 传播自由，打破枷锁}",
 										{
+											"ENG_name": "Freedom Domain",
+											"name": "自由领域",
 											"type": "statblock",
 											"tag": "subclass",
-											"name": "Freedom Domain",
-											"shortName": "Freedom",
-											"className": "Cleric",
+											"shortName": "自由",
+											"className": "牧师",
 											"classSource": "XPHB",
 											"source": "XUA2026UnderdarkOptions2",
 											"page": 1,
@@ -1723,57 +1833,64 @@
 									]
 								},
 								{
+									"ENG_name": "Circle of Spores (Druid)",
+									"name": "孢子结社（德鲁伊）",
 									"type": "entries",
-									"name": "Circle of Spores (Druid)",
 									"id": "006",
 									"page": 2,
 									"entries": [
-										"{@i Steward the Cycle of Life, Death, and Decay}",
+										"{@i 守护生命、死亡与腐朽的循环}",
 										{
+											"ENG_name": "Design Notes: Circle of Spores Updates",
+											"name": "设计说明：孢子结社更新",
 											"type": "inset",
-											"name": "Design Notes: Circle of Spores Updates",
 											"id": "007",
 											"page": 2,
 											"entries": [
-												"Here are the main updates in this subclass since its appearance in {@subclass Spores|Druid|PHB|TCE|Tasha's Cauldron of Everything} (2020):",
+												"以下是该子职自2020年在{@subclass 孢子|德鲁伊|PHB|TCE|塔莎的万事坩埚}（塔莎的万事坩埚）中出现以来的主要更新：",
 												{
 													"type": "list",
 													"page": 2,
 													"style": "list-hang-notitle",
 													"items": [
 														{
+															"ENG_name": "Halo of Spores",
+															"name": "孢子环绕",
 															"type": "item",
-															"name": "Halo of Spores",
 															"entries": [
-																"{@subclassFeature Halo of Spores|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2} is an {@variantrule Emanation [Area of Effect]|XPHB|Emanation} that grants {@variantrule telepathy|XPHB}. It also has a lesser effect on creatures that succeed on their {@variantrule saving throw|XPHB|saving throws}, instead of having no effect."
+																"{@subclassFeature 孢子环绕|德鲁伊|XPHB|孢子|XUA2026幽暗地域选项2|3|XUA2026幽暗地域选项2}是一个{@variantrule 光环 [效应区域]|XPHB|光环}，它赋予{@variantrule 心灵感应|XPHB}。对于那些成功通过{@variantrule 豁免检定|XPHB|豁免检定}的生物，它也会产生一个较弱的效果，而非完全无效。"
 															]
 														},
 														{
+															"ENG_name": "Symbiotic Entity",
+															"name": "一体共生",
 															"type": "item",
-															"name": "Symbiotic Entity",
 															"entries": [
-																"Empowering your spores with {@subclassFeature Symbiotic Entity|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2} uses a {@variantrule Bonus Action|XPHB} (like {@classFeature Wild Shape|Druid|XPHB|2})."
+																"使用{@subclassFeature 一体共生|德鲁伊|XPHB|孢子|XUA2026幽暗地域选项2|3|XUA2026幽暗地域选项2}来强化你的孢子需要消耗一个{@variantrule 附赠动作|XPHB}（如同{@classFeature 荒野形态|德鲁伊|XPHB|2}）。"
 															]
 														},
 														{
+															"ENG_name": "Fungal Infestation",
+															"name": "真菌感染",
 															"type": "item",
-															"name": "Fungal Infestation",
 															"entries": [
-																"When you raise zombies with {@subclassFeature Fungal Infestation|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|6|XUA2026UnderdarkOptions2}, you can grant them some of your {@variantrule Temporary Hit Points|XPHB} (since you get a lot of those!)."
+																"当你使用{@subclassFeature 真菌感染|德鲁伊|XPHB|孢子|XUA2026幽暗地域选项2|6|XUA2026幽暗地域选项2}来唤起丧尸时，你可以授予它们一些你的{@variantrule 临时生命值|XPHB}（因为你有很多这些！）。"
 															]
 														},
 														{
+															"ENG_name": "Explosive Burst",
+															"name": "爆炸爆发",
 															"type": "item",
-															"name": "Explosive Burst",
 															"entries": [
-																"{@subclassFeature Explosive Burst|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|10|XUA2026UnderdarkOptions2} is a new feature (replacing {@subclassFeature Spreading Spores|Druid|PHB|Spores|TCE|10|TCE}) that causes your zombies to explode when they die, spreading spores around them and dealing damage to enemies."
+																"{@subclassFeature 爆裂迸发|德鲁伊|XPHB|孢子|XUA2026幽暗地域选项2|10|XUA2026幽暗地域选项2} 是一个新特性（取代 {@subclassFeature 扩散孢子|德鲁伊|PHB|孢子|TCE|10|TCE}），它会使你的丧尸在死亡时爆炸，向四周扩散孢子并对敌人造成伤害。"
 															]
 														},
 														{
+															"ENG_name": "Fungal Body",
+															"name": "真菌之躯",
 															"type": "item",
-															"name": "Fungal Body",
 															"entries": [
-																"{@subclassFeature Fungal Body|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|14|XUA2026UnderdarkOptions2} now allows you to tap into the mycelial network you've cultivated to control your body if you have the {@condition Unconscious|XPHB} condition."
+																"{@subclassFeature 真菌之躯|德鲁伊|XPHB|孢子|XUA2026幽暗地域选项2|14|XUA2026幽暗地域选项2} 现在允许你利用你所培育的菌丝网络，在你处于{@condition 昏迷|XPHB}状态时控制你的身体。"
 															]
 														}
 													]
@@ -1781,11 +1898,12 @@
 											]
 										},
 										{
+											"ENG_name": "Circle of Spores",
+											"name": "孢子结社",
 											"type": "statblock",
 											"tag": "subclass",
-											"name": "Circle of Spores",
-											"shortName": "Spores",
-											"className": "Druid",
+											"shortName": "孢子",
+											"className": "德鲁伊",
 											"classSource": "XPHB",
 											"source": "XUA2026UnderdarkOptions2",
 											"page": 2
@@ -1793,18 +1911,20 @@
 									]
 								},
 								{
+									"ENG_name": "Faerzress Sorcery (Sorcerer)",
+									"name": "费尔兹瑞斯魔法（术士）",
 									"type": "entries",
-									"name": "Faerzress Sorcery (Sorcerer)",
 									"id": "008",
 									"page": 4,
 									"entries": [
-										"{@i Wield the Weird Radiation of the Underdark.}",
+										"{@i 驾驭幽暗地域的怪异辐射。}",
 										{
+											"ENG_name": "Faerzress Sorcery",
+											"name": "费尔兹瑞斯魔法",
 											"type": "statblock",
 											"tag": "subclass",
-											"name": "Faerzress Sorcery",
-											"shortName": "Faerzress",
-											"className": "Sorcerer",
+											"shortName": "费尔兹瑞斯",
+											"className": "术士",
 											"classSource": "XPHB",
 											"source": "XUA2026UnderdarkOptions2",
 											"page": 4
@@ -1814,22 +1934,25 @@
 							]
 						},
 						{
+							"ENG_name": "Species",
+							"name": "种族",
 							"type": "section",
-							"name": "Species",
 							"id": "009",
 							"page": 6,
 							"entries": [
-								"This section presents five new species.",
+								"本节介绍了五个新种族。",
 								{
+									"ENG_name": "Deep Imaskari",
+									"name": "深地伊玛斯卡",
 									"type": "entries",
-									"name": "Deep Imaskari",
 									"id": "00a",
 									"page": 6,
 									"entries": [
 										{
+											"ENG_name": "Deep Imaskari",
+											"name": "深地伊玛斯卡",
 											"type": "statblock",
 											"prop": "raceFluff",
-											"name": "Deep Imaskari",
 											"source": "XUA2026UnderdarkOptions2",
 											"page": 6,
 											"slotSize": "200",
@@ -1840,9 +1963,10 @@
 											}
 										},
 										{
+											"ENG_name": "Deep Imaskari",
+											"name": "深地伊玛斯卡",
 											"type": "statblock",
 											"tag": "race",
-											"name": "Deep Imaskari",
 											"source": "XUA2026UnderdarkOptions2",
 											"page": 6,
 											"slotSize": "600"
@@ -1850,15 +1974,17 @@
 									]
 								},
 								{
+									"ENG_name": "Drider",
+									"name": "蛛化卓尔",
 									"type": "entries",
-									"name": "Drider",
 									"id": "00b",
 									"page": 6,
 									"entries": [
 										{
+											"ENG_name": "Drider",
+											"name": "蛛化卓尔",
 											"type": "statblock",
 											"prop": "raceFluff",
-											"name": "Drider",
 											"source": "XUA2026UnderdarkOptions2",
 											"page": 6,
 											"slotSize": "200",
@@ -1869,9 +1995,10 @@
 											}
 										},
 										{
+											"ENG_name": "Drider",
+											"name": "蛛化卓尔",
 											"type": "statblock",
 											"tag": "race",
-											"name": "Drider",
 											"source": "XUA2026UnderdarkOptions2",
 											"page": 6,
 											"slotSize": "600"
@@ -1879,15 +2006,17 @@
 									]
 								},
 								{
+									"ENG_name": "Illithidkin",
+									"name": "夺心魔裔",
 									"type": "entries",
-									"name": "Illithidkin",
 									"id": "00c",
 									"page": 7,
 									"entries": [
 										{
+											"ENG_name": "Illithidkin",
+											"name": "夺心魔裔",
 											"type": "statblock",
 											"prop": "raceFluff",
-											"name": "Illithidkin",
 											"source": "XUA2026UnderdarkOptions2",
 											"page": 7,
 											"slotSize": "200",
@@ -1898,9 +2027,10 @@
 											}
 										},
 										{
+											"ENG_name": "Illithidkin",
+											"name": "夺心魔裔",
 											"type": "statblock",
 											"tag": "race",
-											"name": "Illithidkin",
 											"source": "XUA2026UnderdarkOptions2",
 											"page": 7,
 											"slotSize": "600"
@@ -1908,15 +2038,17 @@
 									]
 								},
 								{
+									"ENG_name": "Kuo-Toa",
+									"name": "寇涛",
 									"type": "entries",
-									"name": "Kuo-Toa",
 									"id": "00d",
 									"page": 7,
 									"entries": [
 										{
+											"ENG_name": "Kuo-Toa",
+											"name": "寇涛",
 											"type": "statblock",
 											"prop": "raceFluff",
-											"name": "Kuo-Toa",
 											"source": "XUA2026UnderdarkOptions2",
 											"page": 7,
 											"slotSize": "600",
@@ -1927,24 +2059,27 @@
 											}
 										},
 										{
+											"ENG_name": "Kuo-Toa",
+											"name": "寇涛",
 											"type": "statblock",
 											"tag": "race",
-											"name": "Kuo-Toa",
 											"source": "XUA2026UnderdarkOptions2",
 											"page": 7
 										}
 									]
 								},
 								{
+									"ENG_name": "Myconid",
+									"name": "蕈人",
 									"type": "entries",
-									"name": "Myconid",
 									"id": "00e",
 									"page": 8,
 									"entries": [
 										{
+											"ENG_name": "Myconid",
+											"name": "蕈人",
 											"type": "statblock",
 											"prop": "raceFluff",
-											"name": "Myconid",
 											"source": "XUA2026UnderdarkOptions2",
 											"page": 8,
 											"slotSize": "200",
@@ -1955,9 +2090,10 @@
 											}
 										},
 										{
+											"ENG_name": "Myconid",
+											"name": "蕈人",
 											"type": "statblock",
 											"tag": "race",
-											"name": "Myconid",
 											"source": "XUA2026UnderdarkOptions2",
 											"page": 8,
 											"slotSize": "600"

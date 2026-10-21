@@ -4,7 +4,7 @@
 			{
 				"json": "UARangerAndRogue",
 				"abbreviation": "UARAR",
-				"full": "Unearthed Arcana: Ranger and Rogue",
+				"full": "破解奥秘：游侠与游荡者",
 				"url": "https://media.wizards.com/2016/dnd/downloads/2017_01_UA_RangerRogue_0117JCMM.pdf",
 				"version": "1.0.0",
 				"dateReleased": "2017-01-16",
@@ -18,15 +18,16 @@
 		],
 		"edition": "classic",
 		"dateAdded": 1701616429,
-		"dateLastModified": 1774092631,
+		"dateLastModified": 1792466080,
 		"_dateLastModifiedHash": "17f4aaf163"
 	},
 	"subclass": [
 		{
-			"name": "Horizon Walker (UA)",
-			"shortName": "Horizon Walker (UA)",
+			"ENG_name": "Horizon Walker (UA)",
+			"name": "边界行者（UA）",
+			"shortName": "边界行者（UA）",
 			"source": "UARangerAndRogue",
-			"className": "Ranger",
+			"className": "游侠",
 			"classSource": "PHB",
 			"page": 1,
 			"isReprinted": true,
@@ -34,125 +35,129 @@
 				{
 					"known": {
 						"3": [
-							"protection from evil and good"
+							"防护善恶"
 						],
 						"5": [
-							"alter self"
+							"变身术"
 						],
 						"9": [
-							"protection from energy"
+							"防护能量"
 						],
 						"13": [
-							"banishment"
+							"放逐术"
 						],
 						"17": [
-							"teleportation circle"
+							"传送法阵"
 						]
 					}
 				}
 			],
 			"subclassFeatures": [
-				"Horizon Walker|Ranger||Horizon Walker (UA)|UARangerAndRogue|3",
-				"Ethereal Step|Ranger||Horizon Walker (UA)|UARangerAndRogue|7",
-				"Distant Strike|Ranger||Horizon Walker (UA)|UARangerAndRogue|11",
-				"Spectral Defense|Ranger||Horizon Walker (UA)|UARangerAndRogue|15"
+				"边界行者|游侠||边界行者（UA）|UARangerAndRogue|3",
+				"以太漫步|游侠||边界行者（UA）|UARangerAndRogue|7",
+				"闪现打击|游侠||边界行者（UA）|UARangerAndRogue|11",
+				"灵体防御|游侠||边界行者（UA）|UARangerAndRogue|15"
 			]
 		},
 		{
-			"name": "Primeval Guardian (UA)",
-			"shortName": "Primeval Guardian (UA)",
+			"ENG_name": "Primeval Guardian (UA)",
+			"name": "远古守护者（UA）",
+			"shortName": "远古守护者（UA）",
 			"source": "UARangerAndRogue",
-			"className": "Ranger",
+			"className": "游侠",
 			"classSource": "PHB",
 			"page": 2,
 			"additionalSpells": [
 				{
 					"known": {
 						"3": [
-							"entangle"
+							"纠缠术"
 						],
 						"5": [
-							"enhance ability"
+							"强化属性"
 						],
 						"9": [
-							"conjure animals"
+							"咒唤兽群"
 						],
 						"13": [
-							"giant insect"
+							"巨虫术"
 						],
 						"17": [
-							"insect plague"
+							"疫病虫群"
 						]
 					}
 				}
 			],
 			"subclassFeatures": [
-				"Primeval Guardian|Ranger||Primeval Guardian (UA)|UARangerAndRogue|3",
-				"Ancient Fortitude|Ranger||Primeval Guardian (UA)|UARangerAndRogue|7",
-				"Rooted Defense|Ranger||Primeval Guardian (UA)|UARangerAndRogue|11",
-				"Guardian Aura|Ranger||Primeval Guardian (UA)|UARangerAndRogue|15"
+				"Primeval Guardian|游侠||远古守护者（UA）|UARangerAndRogue|3",
+				"先古坚韧|游侠||远古守护者（UA）|UARangerAndRogue|7",
+				"根植防御|游侠||远古守护者（UA）|UARangerAndRogue|11",
+				"护卫灵光|游侠||远古守护者（UA）|UARangerAndRogue|15"
 			]
 		},
 		{
-			"name": "Scout (UA)",
-			"shortName": "Scout (UA)",
+			"ENG_name": "Scout (UA)",
+			"name": "斥候（UA）",
+			"shortName": "斥候（UA）",
 			"source": "UARangerAndRogue",
-			"className": "Rogue",
+			"className": "游荡者",
 			"classSource": "PHB",
 			"page": 2,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"Scout|Rogue||Scout (UA)|UARangerAndRogue|3",
-				"Superior Mobility|Rogue||Scout (UA)|UARangerAndRogue|9",
-				"Ambush Master|Rogue||Scout (UA)|UARangerAndRogue|13",
-				"Sudden Strike|Rogue||Scout (UA)|UARangerAndRogue|17"
+				"斥候|游荡者||斥候（UA）|UARangerAndRogue|3",
+				"优异灵活|游荡者||斥候（UA）|UARangerAndRogue|9",
+				"伏击大师|游荡者||斥候（UA）|UARangerAndRogue|13",
+				"瞬息打击|游荡者||斥候（UA）|UARangerAndRogue|17"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Horizon Walker",
+			"ENG_name": "Horizon Walker",
+			"name": "边界行者",
 			"source": "UARangerAndRogue",
 			"page": 1,
-			"className": "Ranger",
+			"className": "游侠",
 			"classSource": "PHB",
-			"subclassShortName": "Horizon Walker (UA)",
+			"subclassShortName": "边界行者（UA）",
 			"subclassSource": "UARangerAndRogue",
 			"level": 3,
 			"entries": [
-				"Rangers of the Horizon Conclave guard the world against threats that originate from other planes. They seek out planar portals and keep watch over them, venturing to the outer and inner planes as needed to defeat threats.",
+				"边界行者法师议会的游侠们守卫世界免受来自其他位面的威胁。他们寻找位面传送门且守卫它们，根据需要前往外层和内层位面以击败威胁。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Planar Magic|Ranger||Horizon Walker (UA)|UARangerAndRogue|3"
+					"subclassFeature": "位面魔法|游侠||边界行者（UA）|UARangerAndRogue|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Planar Warrior|Ranger||Horizon Walker (UA)|UARangerAndRogue|3"
+					"subclassFeature": "位面战士|游侠||边界行者（UA）|UARangerAndRogue|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Portal Lore|Ranger||Horizon Walker (UA)|UARangerAndRogue|3"
+					"subclassFeature": "传送门逸闻|游侠||边界行者（UA）|UARangerAndRogue|3"
 				}
 			]
 		},
 		{
-			"name": "Planar Magic",
+			"ENG_name": "Planar Magic",
+			"name": "位面魔法",
 			"source": "UARangerAndRogue",
 			"page": 1,
-			"className": "Ranger",
+			"className": "游侠",
 			"classSource": "PHB",
-			"subclassShortName": "Horizon Walker (UA)",
+			"subclassShortName": "边界行者（UA）",
 			"subclassSource": "UARangerAndRogue",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Horizon Walker Spells table. The spell counts as a ranger spell for you, and it doesn't count against the number of ranger spells you know.",
+				"从3级开始，当你达到该职业的特定等级时，你将学会一个额外法术，如边界行者法术表格所示。该法术对你而言视为游侠法术，且不计入你所知的游侠法术数量。",
 				{
 					"type": "table",
-					"caption": "Horizon Walker Spells",
+					"caption": "边界行者法术",
 					"colLabels": [
-						"Ranger Level",
-						"Spells"
+						"游侠等级",
+						"法术"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -160,147 +165,154 @@
 					],
 					"rows": [
 						[
-							"3rd",
-							"{@spell protection from evil and good}"
+							"3环",
+							"{@spell 防护善恶}"
 						],
 						[
-							"5th",
-							"{@spell alter self}"
+							"5环",
+							"{@spell 变身术}"
 						],
 						[
 							"9th",
-							"{@spell protection from energy}"
+							"{@spell 防护能量}"
 						],
 						[
 							"13th",
-							"{@spell banishment}"
+							"{@spell 放逐术}"
 						],
 						[
 							"17th",
-							"{@spell teleportation circle}"
+							"{@spell 传送法阵}"
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "Planar Warrior",
+			"ENG_name": "Planar Warrior",
+			"name": "位面战士",
 			"source": "UARangerAndRogue",
 			"page": 1,
-			"className": "Ranger",
+			"className": "游侠",
 			"classSource": "PHB",
-			"subclassShortName": "Horizon Walker (UA)",
+			"subclassShortName": "边界行者（UA）",
 			"subclassSource": "UARangerAndRogue",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"At 3rd level, you learn to draw on the energy of the planes to augment your attacks.",
-				"As a bonus action, choose one creature you can see within 30 feet of you. Until the end of this turn, your attacks against that creature ignore its damage resistances, and the next time you hit it on this turn, it takes an additional {@damage 1d6} force damage."
+				"在3级时，你学会汲取诸位面的能量来极距你的攻击。",
+				"以一个附赠动作，选择你30尺内一个你能看见的生物。直到这个回合结束，你对那个生物的攻击无视其伤害抗性，且下一次你在本回合命中它时，它受到额外{@damage 1d6}的力场伤害。"
 			]
 		},
 		{
-			"name": "Portal Lore",
+			"ENG_name": "Portal Lore",
+			"name": "传送门逸闻",
 			"source": "UARangerAndRogue",
 			"page": 1,
-			"className": "Ranger",
+			"className": "游侠",
 			"classSource": "PHB",
-			"subclassShortName": "Horizon Walker (UA)",
+			"subclassShortName": "边界行者（UA）",
 			"subclassSource": "UARangerAndRogue",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"At 3rd level, you gain the ability to detect the presence of planar portals. As an action, you detect the distance and direction to any planar portals within 1,000 feet of you. You also sense which plane of existence each portal leads to. However, if magic obscures any details of a portal, this feature doesn't reveal them.",
-				"Once you use this feature, you can't use it again until you finish a short or long rest. Alternatively, you can use the feature again if you expend a spell slot of 2nd level or higher.",
-				"See the \"Planar Travel\" section in chapter 2 of the Dungeon Master's Guide for examples of planar portals."
+				"在3级时，你获得侦查位面传送门存在的能力。以一个动作，你可以侦查1000尺内任何位面传送门的距离和方向。你还能感知每个传送门通往的存在平面。然而，如果有魔法遮蔽了传送门的任何细节，此特性不会揭示它们。",
+				"一旦你使用了这个特性，在完成一次短休或长休前无法再次使用。或者，你可以消耗一个2环或更高环位的法术位来再次使用该特性。",
+				"详见《地下城主指南》第二章的\"位面旅行\"章节，以了解位面传送门的范例。"
 			]
 		},
 		{
-			"name": "Ethereal Step",
+			"ENG_name": "Ethereal Step",
+			"name": "以太漫步",
 			"source": "UARangerAndRogue",
 			"page": 1,
-			"className": "Ranger",
+			"className": "游侠",
 			"classSource": "PHB",
-			"subclassShortName": "Horizon Walker (UA)",
+			"subclassShortName": "边界行者（UA）",
 			"subclassSource": "UARangerAndRogue",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"At 7th level, you learn to step through the Ethereal Plane. As a bonus action on your turn, you can cast the {@spell etherealness} spell with this feature, but the spell ends at the end of the current turn. Once you use this feature, you can't use it again until you finish a short or long rest."
+				"在7级时，你学会穿越以太位面。在你的回合中，你可以用一个附赠动作通过此特性施放{@spell 以太化}法术，但该法术会在当前回合结束时结束。一旦你使用了此特性，直到你完成一次短休或长休前都无法再次使用。"
 			]
 		},
 		{
-			"name": "Distant Strike",
+			"ENG_name": "Distant Strike",
+			"name": "闪现打击",
 			"source": "UARangerAndRogue",
 			"page": 1,
-			"className": "Ranger",
+			"className": "游侠",
 			"classSource": "PHB",
-			"subclassShortName": "Horizon Walker (UA)",
+			"subclassShortName": "边界行者（UA）",
 			"subclassSource": "UARangerAndRogue",
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"At 11th level, you gain the ability to step between the planes in a blink of an eye. When you use the {@action Attack} action, you can teleport up to 10 feet before each attack. You must be able to see the destination of the teleportation.",
-				"If you attack at least two different creatures with the action, you can make one additional attack with it against a third creature."
+				"在11级时，你获得在诸位面间眨眼闪现的能力。当你使用{@action 攻击}动作时，你可以在每次攻击前传送最多10尺。你必须能够看见传送的目的地。",
+				"如果你在攻击动作中，攻击了至少两个不同的生物，则你可以额外发动一次攻击，以攻击第三个生物。"
 			]
 		},
 		{
-			"name": "Spectral Defense",
+			"ENG_name": "Spectral Defense",
+			"name": "灵体防御",
 			"source": "UARangerAndRogue",
 			"page": 1,
-			"className": "Ranger",
+			"className": "游侠",
 			"classSource": "PHB",
-			"subclassShortName": "Horizon Walker (UA)",
+			"subclassShortName": "边界行者（UA）",
 			"subclassSource": "UARangerAndRogue",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"At 15th level, your ability to move between planes becomes even more finely tuned. As a reaction when you take damage, you can halve that damage against you. For a moment, you slip into the planar boundary to lessen the harm."
+				"在15级时，你在位面间移动的能力变得更加精妙。当你受到伤害时，你可以用一个反应将该伤害减半。一瞬间，你滑入位面边界以减轻重伤术的效果。"
 			]
 		},
 		{
+			"ENG_name": "Primeval Guardian",
 			"name": "Primeval Guardian",
 			"source": "UARangerAndRogue",
 			"page": 2,
-			"className": "Ranger",
+			"className": "游侠",
 			"classSource": "PHB",
-			"subclassShortName": "Primeval Guardian (UA)",
+			"subclassShortName": "远古守护者（UA）",
 			"subclassSource": "UARangerAndRogue",
 			"level": 3,
 			"entries": [
-				"Rangers of the Primeval Guardian Conclave follow an ancient tradition rooted in powerful druidic magic. These rangers learn to become one with nature, allowing them to channel the aspects of various beasts and plants in order to overcome their foes.",
-				"These rangers dwell in the elder forests of the world. They venture out only rarely, as they consider it their sacred duty to protect the druidic groves and ancient trees that saw the earliest days of the world.",
+				"原始守护者法师议会的游侠遵循一种根植于强大德鲁伊魔法的远古传统。这些游侠学习与自然融为一体，使它们能够引导各种野兽和植物的特性以克服敌人。",
+				"这些游侠居住在世界的长者森林中。他们很少外出，因为他们认为保护德鲁伊语林地和见证世界最早天的远古树木是他们的神圣责任。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Guardian Magic|Ranger||Primeval Guardian (UA)|UARangerAndRogue|3"
+					"subclassFeature": "守护者魔法|游侠||远古守护者（UA）|UARangerAndRogue|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Guardian Soul|Ranger||Primeval Guardian (UA)|UARangerAndRogue|3"
+					"subclassFeature": "守护者灵魂|游侠||远古守护者（UA）|UARangerAndRogue|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Piercing Thorns|Ranger||Primeval Guardian (UA)|UARangerAndRogue|3"
+					"subclassFeature": "穿刺荆棘|游侠||远古守护者（UA）|UARangerAndRogue|3"
 				}
 			]
 		},
 		{
-			"name": "Guardian Magic",
+			"ENG_name": "Guardian Magic",
+			"name": "守护者魔法",
 			"source": "UARangerAndRogue",
 			"page": 2,
-			"className": "Ranger",
+			"className": "游侠",
 			"classSource": "PHB",
-			"subclassShortName": "Primeval Guardian (UA)",
+			"subclassShortName": "远古守护者（UA）",
 			"subclassSource": "UARangerAndRogue",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Primeval Guardian Spells table. The spell counts as a ranger spell for you, and it doesn't count against the number of ranger spells you know.",
+				"从3级开始，当你达到此职业的特定等级时，你将学习一个额外的法术，如原始守护者法术表格所示。该法术对你而言视为游侠法术，且不计入你所知的游侠法术数量上限。",
 				{
 					"type": "table",
-					"caption": "Primeval Guardian Spells",
+					"caption": "原始守护者法术",
 					"colLabels": [
-						"Ranger Level",
-						"Spells"
+						"游侠等级",
+						"法术"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -308,199 +320,210 @@
 					],
 					"rows": [
 						[
-							"3rd",
-							"{@spell entangle}"
+							"3环",
+							"{@spell 纠缠术}"
 						],
 						[
-							"5th",
-							"{@spell enhance ability}"
+							"5环",
+							"{@spell 强化属性}"
 						],
 						[
 							"9th",
-							"{@spell conjure animals}"
+							"{@spell 咒唤兽群}"
 						],
 						[
 							"13th",
-							"{@spell giant insect}"
+							"{@spell 巨虫术}"
 						],
 						[
 							"17th",
-							"{@spell insect plague}"
+							"{@spell 疫病虫群}"
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "Guardian Soul",
+			"ENG_name": "Guardian Soul",
+			"name": "守护者灵魂",
 			"source": "UARangerAndRogue",
 			"page": 2,
-			"className": "Ranger",
+			"className": "游侠",
 			"classSource": "PHB",
-			"subclassShortName": "Primeval Guardian (UA)",
+			"subclassShortName": "远古守护者（UA）",
 			"subclassSource": "UARangerAndRogue",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting at 3rd level, you gain the ability to temporarily grow and take on the appearance of a treelike person, covered with leaves and bark. As a bonus action, you assume this guardian form, which lasts until you end it as a bonus action or until you are {@condition incapacitated}.",
-				"You undergo the following changes while in your guardian form:",
+				"从3级开始，你获得暂时生长并呈现覆盖树叶和树皮的树人外貌的能力。以一个附赠动作，你可以进入这种守护者形态，该形态持续到你以一个附赠动作结束它或直到你处于{@condition 失能}状态为止。",
+				"你在守护者形态下会发生以下变化：",
 				{
 					"type": "list",
 					"items": [
-						"Your size becomes Large, unless you were larger.",
-						"Any speed you have becomes 5 feet, unless the speed was lower.",
-						"Your reach increases by 5 feet.",
-						"You gain a number of temporary hit points at the start of each of your turns. The number equals half your ranger level. When the form ends, you lose any temporary hit points you have from it."
+						"你的体型变为大型，除非你原本更大。",
+						"你的任何速度变为5尺，除非原本速度更低。",
+						"你的触及范围增加5尺。",
+						"你在每个回合开始时获得一定数值的临时生命值。该数值等于你游侠等级的一半。当形态结束时，你将失去由此获得的所有临时生命值。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Piercing Thorns",
+			"ENG_name": "Piercing Thorns",
+			"name": "穿刺荆棘",
 			"source": "UARangerAndRogue",
 			"page": 2,
-			"className": "Ranger",
+			"className": "游侠",
 			"classSource": "PHB",
-			"subclassShortName": "Primeval Guardian (UA)",
+			"subclassShortName": "远古守护者（UA）",
 			"subclassSource": "UARangerAndRogue",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"At 3rd level, your command of primal magic allows you to enhance your attacks with thorns. Once during each of your turns, you can deal an additional {@damage 1d6} piercing damage to one creature you hit with a weapon attack."
+				"在3级时，你对原始魔法的掌控使你能够用荆棘增强你的攻击。在你的每个回合中一次，你可以对一个你用武器攻击命中的生物造成额外的{@damage 1d6}穿刺伤害。"
 			]
 		},
 		{
-			"name": "Ancient Fortitude",
+			"ENG_name": "Ancient Fortitude",
+			"name": "先古坚韧",
 			"source": "UARangerAndRogue",
 			"page": 2,
-			"className": "Ranger",
+			"className": "游侠",
 			"classSource": "PHB",
-			"subclassShortName": "Primeval Guardian (UA)",
+			"subclassShortName": "远古守护者（UA）",
 			"subclassSource": "UARangerAndRogue",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"At 7th level, you gain the endurance of the ancient forests. Your hit point maximum and current hit points increase by 2 per ranger level when you assume your guardian form. This increase lasts until you leave the form; your hit point maximum then returns to normal, but your current hit points remain the same, unless they must decrease to abide by your hit point maximum."
+				"在7级时，你获得远古森林的忍耐力。当你进入守护者形态时，你的生命值上限和当前生命值每游侠等级增加2点。这个增加持续到你离开该形态；之后你的生命值上限会恢复正常，但当前生命值保持不变，除非它们必须减少以符合你的生命值上限。"
 			]
 		},
 		{
-			"name": "Rooted Defense",
+			"ENG_name": "Rooted Defense",
+			"name": "根植防御",
 			"source": "UARangerAndRogue",
 			"page": 2,
-			"className": "Ranger",
+			"className": "游侠",
 			"classSource": "PHB",
-			"subclassShortName": "Primeval Guardian (UA)",
+			"subclassShortName": "远古守护者（UA）",
 			"subclassSource": "UARangerAndRogue",
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"At 11th level, you gain the ability to twist and turn the ground beneath you. While you are in your guardian form, the ground within 30 feet of you is {@quickref difficult terrain||3} for your enemies."
+				"在11级时，你获得扭曲和翻转脚下地面的能力。当你处于守护者形态时，你周围30尺内的地面对你的敌人来说是{@quickref 困难地形||3}。"
 			]
 		},
 		{
-			"name": "Guardian Aura",
+			"ENG_name": "Guardian Aura",
+			"name": "护卫灵光",
 			"source": "UARangerAndRogue",
 			"page": 2,
-			"className": "Ranger",
+			"className": "游侠",
 			"classSource": "PHB",
-			"subclassShortName": "Primeval Guardian (UA)",
+			"subclassShortName": "远古守护者（UA）",
 			"subclassSource": "UARangerAndRogue",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Starting at 15th level, your guardian form emanates a magical aura that fortifies your injured allies. When any ally starts their turn within 30 feet of your guardian form, that ally regains a number of hit points equal to half your ranger level. This aura has no effect on a creature that has half or more of its hit points, and it has no effect on undead and constructs."
+				"从15级开始，你的守护者形态会散发出一股强化受伤盟友的魔法灵光。当任何盟友在你的守护者形态30尺内开始其回合时，该盟友会恢复等同于你游侠等级一半数值的生命值。此灵光对生命值剩一半或更多的生物无效果，且对亡灵和构装无效果。"
 			]
 		},
 		{
-			"name": "Scout",
+			"ENG_name": "Scout",
+			"name": "斥候",
 			"source": "UARangerAndRogue",
 			"page": 2,
-			"className": "Rogue",
+			"className": "游荡者",
 			"classSource": "PHB",
-			"subclassShortName": "Scout (UA)",
+			"subclassShortName": "斥候（UA）",
 			"subclassSource": "UARangerAndRogue",
 			"level": 3,
 			"entries": [
-				"You are skilled in woodcraft and stealth, allowing you to range ahead of your companions during expeditions. Rogues who embrace this archetype are at home in the wilderness and among barbarians and fighters, as they serve as the eyes and ears of war bands across the world. Compared to other rogues, you are skilled at surviving in the wilds.",
+				"你熟习木工工艺和隐匿，使你能在探险期间游荡在同伴前方。拥抱此原型的游荡者在野外和野蛮人与战士中如鱼得水，因为他们作为世界各处战团的耳目。与其他游荡者相比，你擅长在荒野中生存。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Survivalist|Rogue||Scout (UA)|UARangerAndRogue|3"
+					"subclassFeature": "生存专家|游荡者||斥候（UA）|UARangerAndRogue|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Skirmisher|Rogue||Scout (UA)|UARangerAndRogue|3"
+					"subclassFeature": "散兵战术|游荡者||斥候（UA）|UARangerAndRogue|3"
 				}
 			]
 		},
 		{
-			"name": "Skirmisher",
+			"ENG_name": "Skirmisher",
+			"name": "散兵战术",
 			"source": "UARangerAndRogue",
 			"page": 2,
-			"className": "Rogue",
+			"className": "游荡者",
 			"classSource": "PHB",
-			"subclassShortName": "Scout (UA)",
+			"subclassShortName": "斥候（UA）",
 			"subclassSource": "UARangerAndRogue",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting at 3rd level, you are difficult to pin down during a fight. You can move up to half your speed as a reaction when an enemy ends its turn within 5 feet of you. This movement doesn't provoke opportunity attacks."
+				"从3级起，你在战斗中变得难以被压制。当一个敌人在你周围5尺内结束其回合时，你可以以一个反应移动至多你速度一半的距离。此移动不会引发借机攻击。"
 			]
 		},
 		{
-			"name": "Survivalist",
+			"ENG_name": "Survivalist",
+			"name": "生存专家",
 			"source": "UARangerAndRogue",
 			"page": 2,
-			"className": "Rogue",
+			"className": "游荡者",
 			"classSource": "PHB",
-			"subclassShortName": "Scout (UA)",
+			"subclassShortName": "斥候（UA）",
 			"subclassSource": "UARangerAndRogue",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you choose this archetype at 3rd level, you gain proficiency in the {@skill Nature} and {@skill Survival} skills. Your proficiency bonus is doubled for any ability check you make that uses either of those proficiencies."
+				"当你在3级选择这个原型时，你获得{@skill 自然}和{@skill 求生}技能的熟练。你的熟练加值在任何使用这些熟练项的属性检定中翻倍。"
 			]
 		},
 		{
-			"name": "Superior Mobility",
+			"ENG_name": "Superior Mobility",
+			"name": "优异灵活",
 			"source": "UARangerAndRogue",
 			"page": 2,
-			"className": "Rogue",
+			"className": "游荡者",
 			"classSource": "PHB",
-			"subclassShortName": "Scout (UA)",
+			"subclassShortName": "斥候（UA）",
 			"subclassSource": "UARangerAndRogue",
 			"level": 9,
 			"header": 2,
 			"entries": [
-				"At 9th level, your walking speed increases by 10 feet. If you have a climbing or swimming speed, this increase applies to that speed as well."
+				"在9级时，你的步行速度获得10尺加值。若你具有攀爬速度或是游泳速度，这一加值同样会增加到这些速度上。"
 			]
 		},
 		{
-			"name": "Ambush Master",
+			"ENG_name": "Ambush Master",
+			"name": "伏击大师",
 			"source": "UARangerAndRogue",
 			"page": 2,
-			"className": "Rogue",
+			"className": "游荡者",
 			"classSource": "PHB",
-			"subclassShortName": "Scout (UA)",
+			"subclassShortName": "斥候（UA）",
 			"subclassSource": "UARangerAndRogue",
 			"level": 13,
 			"header": 2,
 			"entries": [
-				"Starting at 13th level, you excel at leading ambushes. If any of your foes are {@quickref Surprise|PHB|3|0|surprised}, you can use a bonus action on your turn in the first round of the combat to grant each ally who can see you a +5 bonus to initiative that lasts until the combat ends. If the initiative bonus would increase an ally's initiative above yours, the ally's initiative instead equals your initiative.",
-				"Each of the allies also receives a 10-foot increase to speed that lasts until the end of the ally's next turn."
+				"从13级开始，你擅长领导伏击。如果你的任何敌人处于{@quickref 突袭|PHB|3|0|突袭}状态，你可以在战斗第一轮的回合中使用一个附赠动作，给予每个能看到你的盟友+5先攻加值，该加值持续到战斗结束。如果该先攻加值会使盟友的先攻高于你，则盟友的先攻改为等于你的先攻。",
+				"每个盟友也会获得10尺的速度提升，持续到该盟友的下个回合结束。"
 			]
 		},
 		{
-			"name": "Sudden Strike",
+			"ENG_name": "Sudden Strike",
+			"name": "瞬息打击",
 			"source": "UARangerAndRogue",
 			"page": 2,
-			"className": "Rogue",
+			"className": "游荡者",
 			"classSource": "PHB",
-			"subclassShortName": "Scout (UA)",
+			"subclassShortName": "斥候（UA）",
 			"subclassSource": "UARangerAndRogue",
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"Starting at 17th level, you can strike with deadly speed. If you take the {@action Attack} action on your turn, you can make one additional attack as a bonus action. This attack can benefit from your Sneak Attack even if you have already used it this turn, but only if the attack is the only one you make against the target this turn."
+				"从17级开始，你可以以致命的速度进行打击。如果你在你的回合中采取{@action 攻击}动作，你可以以一个附赠动作进行一次额外的攻击。这次攻击可以从你的偷袭中受益，即使你已在本回合使用过它，但前提是这次攻击是你本回合对目标进行的唯一一次攻击。"
 			]
 		}
 	]

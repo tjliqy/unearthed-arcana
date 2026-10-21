@@ -4,7 +4,7 @@
 			{
 				"json": "UA2020SpellsAndMagicTattoos",
 				"abbreviation": "UA20SMT",
-				"full": "Unearthed Arcana: 2020 Spells and Magic Tattoos",
+				"full": "破解奥秘：2020法术和魔法文身",
 				"url": "https://media.wizards.com/2020/dnd/downloads/UA2020-SpellsTattoos.pdf",
 				"version": "1.0.0",
 				"dateReleased": "2020-03-26",
@@ -18,12 +18,13 @@
 		],
 		"edition": "classic",
 		"dateAdded": 1701616429,
-		"dateLastModified": 1774092631,
+		"dateLastModified": 1792466369,
 		"_dateLastModifiedHash": "cc52ff5719"
 	},
 	"spell": [
 		{
-			"name": "Acid Stream",
+			"ENG_name": "Acid Stream",
+			"name": "酸潮",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 2,
 			"level": 1,
@@ -44,7 +45,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a bit of rotten food"
+				"m": "一点腐烂的食物"
 			},
 			"duration": [
 				{
@@ -57,25 +58,28 @@
 				}
 			],
 			"entries": [
-				"A stream of acid emanates from you in a line 30 feet long and 5 feet wide in a direction you choose. Each creature in the line must succeed on a Dexterity saving throw or be covered in acid for the spell's duration or until a creature uses its action to scrape or wash the acid off itself or another creature. A creature covered in the acid takes {@damage 3d4} acid damage at start of each of its turns."
+				"一条酸流从你选择的方向发出，形成一条30英尺长、5英尺宽的直线。直线中的每个生物必须进行一次敏捷豁免检定，否则会被酸液覆盖，持续到法术结束，或者直到一个生物使用它的行动来刮掉或洗掉自身或其他生物上的酸液。被酸液覆盖的生物在每个回合开始时会受到{@damage 3d4}酸液伤害。"
 			],
 			"entriesHigherLevel": [
 				{
+					"ENG_name": "At Higher Levels",
+					"name": "升环施法",
 					"type": "entries",
-					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@scaledamage 3d4|1-9|1d4} for each slot level above 1st."
+						"当你使用2级或更高级别的法术位施放这个法术时，伤害会因为每个高于1级的法术位而增加{@scaledamage 3d4|1-9|1d4}。"
 					]
 				}
 			],
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Sorcerer",
+						"ENG_name": "Sorcerer",
+						"name": "术士",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"ENG_name": "Wizard",
+						"name": "法师",
 						"source": "PHB"
 					}
 				]
@@ -91,7 +95,8 @@
 			]
 		},
 		{
-			"name": "Otherworldly Form",
+			"ENG_name": "Otherworldly Form",
+			"name": "超凡形态",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 2,
 			"level": 6,
@@ -112,7 +117,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "an object engraved with a symbol of the Outer Planes, worth at least 500 gp",
+					"text": "一件的镶嵌有外层位面标记的物件，价值至少 500gp",
 					"cost": 50000
 				}
 			},
@@ -127,35 +132,39 @@
 				}
 			],
 			"entries": [
-				"Uttering an incantation, you draw on the magic of the Lower Planes or Upper Planes (your choice) to transform yourself. You gain the following benefits until the spell ends:",
+				"念动一段咒语，你吸收下层位面或上层位面的魔力（由你选择）并变化自身。法术持续时间内，你获得以下增益：",
 				{
 					"type": "list",
 					"items": [
-						"You are immune to fire and poison damage (Lower Planes) or radiant and necrotic damage (Upper Planes).",
-						"You are immune to the {@condition poisoned} condition (Lower Planes) or the {@condition charmed} condition (Upper Planes).",
-						"Spectral wings appear on your back, giving you a flying speed of 40 feet.",
-						"You have a +2 bonus to AC.",
-						"All your weapon attacks are magical, and when you make a weapon attack, you can use your spellcasting ability modifier, instead of Strength or Dexterity, for the attack and damage rolls.",
-						"You can attack twice, instead of once, when you take the Attack action on your turn. You ignore this benefit if you already have a feature, like Extra Attack, that gives you extra attacks."
+						"你免疫火焰和毒素伤害（下层位面）或光耀和暗蚀伤害（上层位面）。",
+						"你免疫{@condition 中毒}状态（下层位面）或{@condition 魅惑}状态（上层位面）。",
+						"你背后出现灵体翅膀，赋予你 40 尺飞行速度。",
+						"你的 AC 获得+2 加值。",
+						"你进行的所有武器攻击都带有魔法，且当你进行一次武器攻击时，你可以用你的施法属性代替力量或敏捷来进行攻击检定与伤害掷骰。",
+						"当你在你的回合采取攻击动作时，你可以攻击两次，而不是一次。如果你已经拥有像额外攻击这样的特性，它赋予你额外的攻击次数，你可以忽略这个好处。"
 					]
 				}
 			],
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"ENG_name": "Cleric",
+						"name": "牧师",
 						"source": "PHB"
 					},
 					{
-						"name": "Sorcerer",
+						"ENG_name": "Sorcerer",
+						"name": "术士",
 						"source": "PHB"
 					},
 					{
-						"name": "Warlock",
+						"ENG_name": "Warlock",
+						"name": "魔契师",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"ENG_name": "Wizard",
+						"name": "法师",
 						"source": "PHB"
 					}
 				]
@@ -178,7 +187,8 @@
 			]
 		},
 		{
-			"name": "Spirit Shroud",
+			"ENG_name": "Spirit Shroud",
+			"name": "魂灵环绕",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 2,
 			"level": 3,
@@ -210,35 +220,40 @@
 				}
 			],
 			"entries": [
-				"You call forth spirits of the dead, which flit around you for the spell's duration. The spirits are intangible and invulnerable, and they are good or evil (your choice).",
-				"Until the spell ends, any attack you make deals {@damage 1d8} extra damage when you hit a creature within 10 feet of you. This damage is radiant if the spirits are good and necrotic if they are evil. Any creature that takes this damage can't regain hit points until the start of your next turn.",
-				"In addition, any creature of your choice that you can see that starts its turn within 10 feet of you has its speed reduced by 10 feet until the start of your next turn."
+				"你召唤出死者的灵魂，它们在法术持续时间内围绕你飞舞。这些灵魂无形且无敌，它们是善良或邪恶的（由你选择）。",
+				"直到法术结束，当你击中距离你10英尺内的生物时，任何攻击都会附加{@damage 1d8}额外伤害。如果精灵是善良的，这个伤害是光耀伤害；如果它们是邪恶的，则是亡灵伤害。任何受到这种伤害的生物直到你的下一个回合开始前都不能恢复生命值。",
+				"此外，任何你 10 尺内可见生物回合开始时，你可以使其速度降低 10 尺直到你的下个回合开始。"
 			],
 			"entriesHigherLevel": [
 				{
+					"ENG_name": "At Higher Levels",
+					"name": "升环施法",
 					"type": "entries",
-					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the extra damage increases by {@scaledamage 1d8|3-9|1d8} for each slot level above 3rd."
+						"当你使用4级或更高级别的法术位施放这个法术时，额外伤害会随着法术位等级每超过3级而增加{@scaledamage 1d8|3-9|1d8}。"
 					]
 				}
 			],
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"ENG_name": "Cleric",
+						"name": "牧师",
 						"source": "PHB"
 					},
 					{
-						"name": "Paladin",
+						"ENG_name": "Paladin",
+						"name": "圣武士",
 						"source": "PHB"
 					},
 					{
-						"name": "Warlock",
+						"ENG_name": "Warlock",
+						"name": "魔契师",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"ENG_name": "Wizard",
+						"name": "法师",
 						"source": "PHB"
 					}
 				]
@@ -253,7 +268,8 @@
 			]
 		},
 		{
-			"name": "Summon Aberrant Spirit",
+			"ENG_name": "Summon Aberrant Spirit",
+			"name": "召唤异怪灵魄",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 3,
 			"level": 4,
@@ -275,7 +291,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a pickled tentacle and an eyeball in a crystal vial worth at least 400 gp",
+					"text": "一个装在水晶瓶中的腌制触手和眼球，价值至少400金币",
 					"cost": 40000
 				}
 			},
@@ -290,30 +306,34 @@
 				}
 			],
 			"entries": [
-				"You call forth a spirit from the Far Realm or another alien realm of madness. The spirit manifests physically in an unoccupied space that you can see within range. This corporeal form uses the {@creature Aberrant Spirit|UA2020SpellsAndMagicTattoos} stat block. When you cast the spell, choose Beholderkin, Slaadi, or Star Spawn. The creature physically resembles your choice, which also determines some of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
-				"The creature is friendly to you and your companions for the spell's duration. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don't issue any, it defends itself but otherwise takes no action."
+				"你从遥远国度或另一个疯狂界域召唤出一个精灵。这个精灵在你的施法范围内你能看到的未被占据的空间中以实体形式显现。这个实体使用{@creature 异怪灵魄|UA2020SpellsAndMagicTattoos}的统计数据块。当你施放这个法术时，选择眼魔族、史拉蟾迪或星种。这个生物在外观上类似于你的选择，这也决定了其统计数据块中的一些特征。当它的生命值降至0点或法术结束时，这个生物就会消失。",
+				"该生物在法术持续时间内对你和你的同伴友好。在战斗中，该生物共享你的先攻值，但它会在你之后立即行动。它服从你发出的口头指令（你无需采取行动）。如果你没有发出任何指令，它会自行防御，但除此之外不会采取其他行动。"
 			],
 			"entriesHigherLevel": [
 				{
+					"ENG_name": "At Higher Levels",
+					"name": "升环施法",
 					"type": "entries",
-					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 5th level or higher, the creature assumes the higher level for that casting wherever it uses the spell's level in its stat block."
+						"当你使用5级或更高级别的法术位施放这个法术时，生物在其统计数据块中使用法术等级的地方都会采用更高的等级。"
 					]
 				}
 			],
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Sorcerer",
+						"ENG_name": "Sorcerer",
+						"name": "术士",
 						"source": "PHB"
 					},
 					{
-						"name": "Warlock",
+						"ENG_name": "Warlock",
+						"name": "魔契师",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"ENG_name": "Wizard",
+						"name": "法师",
 						"source": "PHB"
 					}
 				]
@@ -324,7 +344,8 @@
 			]
 		},
 		{
-			"name": "Summon Bestial Spirit",
+			"ENG_name": "Summon Bestial Spirit",
+			"name": "召唤野兽灵魄",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 3,
 			"level": 2,
@@ -346,7 +367,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a feather, tuft of fur, and fish tail inside a gilded acorn worth at least 200 gp",
+					"text": "一根羽毛、一簇毛皮和一条装在镀金橡果内的鱼尾，价值至少200gp",
 					"cost": 20000
 				}
 			},
@@ -361,26 +382,29 @@
 				}
 			],
 			"entries": [
-				"You call forth the spirit of a beast. The spirit manifests physically in an unoccupied space that you can see within range. This corporeal form uses the {@creature Bestial Spirit|UA2020SpellsAndMagicTattoos} stat block. When you cast the spell, choose an environment: Air, Land, or Water. The creature physically resembles an animal of your choice that is native to the chosen environment, which also determines one of the movement modes in the creature's stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
-				"The creature is friendly to you and your companions for the spell's duration. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don't issue any, it defends itself but otherwise takes no action."
+				"你召唤出一个野兽的灵魂。这个灵魂在你能够看到的范围内未被占据的空间中实体化。这个实体形态使用{@creature 野兽灵魄|UA2020SpellsAndMagicTattoos}的统计数据块。当你施放这个法术时，选择一个环境：空气、陆地或水。生物在物理上类似于你选择的原生于所选环境的动物，这也决定了生物在其统计数据块中的一个移动模式。当生物的生命值降至0点或法术结束时，生物会消失。",
+				"该生物在法术持续时间内对你和你的同伴友好。在战斗中，该生物共享你的先攻值，但它会在你之后立即行动。它服从你发出的口头指令（你无需采取行动）。如果你没有发出任何指令，它会自行防御，但除此之外不会采取其他行动。"
 			],
 			"entriesHigherLevel": [
 				{
+					"ENG_name": "At Higher Levels",
+					"name": "升环施法",
 					"type": "entries",
-					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, the creature assumes the higher level for that casting wherever it uses the spell's level in its stat block."
+						"当你使用3级或更高级别的法术位施放这个法术时，该生物在统计数据块中使用法术等级的地方会采用更高的等级。"
 					]
 				}
 			],
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Druid",
+						"ENG_name": "Druid",
+						"name": "德鲁伊",
 						"source": "PHB"
 					},
 					{
-						"name": "Ranger",
+						"ENG_name": "Ranger",
+						"name": "游侠",
 						"source": "PHB"
 					}
 				]
@@ -391,7 +415,8 @@
 			]
 		},
 		{
-			"name": "Summon Celestial Spirit",
+			"ENG_name": "Summon Celestial Spirit",
+			"name": "召唤天界灵魄",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 4,
 			"level": 5,
@@ -413,7 +438,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a golden reliquary worth at least 500 gp",
+					"text": "一个的金制圣物匣，价值至少 500gp",
 					"cost": 50000
 				}
 			},
@@ -428,26 +453,29 @@
 				}
 			],
 			"entries": [
-				"You call forth a spirit from the Upper Planes. The spirit manifests physically in an angelic form in an unoccupied space that you can see within range. This corporeal form uses the {@creature Celestial Spirit|UA2020SpellsAndMagicTattoos} stat block. When you cast the spell, choose Avenger or Defender. Your choice determines the creature's attack in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
-				"The creature is friendly to you and your companions for the spell's duration. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don't issue any, it defends itself but otherwise takes no action."
+				"你从上层界召唤出一个灵体。这个灵体在你能够看到的范围内未被占据的空间中以天使形态实体化。这个实体形态使用{@creature 天界灵魄|UA2020SpellsAndMagicTattoos}的统计数据块。当你施放这个法术时，选择复仇者或防御者。你的选择决定了生物在其统计数据块中的攻击方式。当生物的生命值降至0点或法术结束时，生物会消失。",
+				"该生物在法术持续时间内对你和你的同伴友好。在战斗中，该生物共享你的先攻值，但它会在你之后立即行动。它服从你发出的口头指令（你无需采取行动）。如果你没有发出任何指令，它会自行防御，但除此之外不会采取其他行动。"
 			],
 			"entriesHigherLevel": [
 				{
+					"ENG_name": "At Higher Levels",
+					"name": "升环施法",
 					"type": "entries",
-					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 6th level or higher, the creature assumes the higher level for that casting wherever it uses the spell's level in its stat block."
+						"当你使用6级或更高级别的法术位施放这个法术时，该生物在其统计数据块中使用法术等级的地方都会采用更高的等级。"
 					]
 				}
 			],
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"ENG_name": "Cleric",
+						"name": "牧师",
 						"source": "PHB"
 					},
 					{
-						"name": "Paladin",
+						"ENG_name": "Paladin",
+						"name": "圣武士",
 						"source": "PHB"
 					}
 				]
@@ -458,7 +486,8 @@
 			]
 		},
 		{
-			"name": "Summon Elemental Spirit",
+			"ENG_name": "Summon Elemental Spirit",
+			"name": "召唤元素灵魄",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 4,
 			"level": 4,
@@ -480,7 +509,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "air, a pebble, ash, and water inside a crystal vial worth at least 400 gp",
+					"text": "空气、一块卵石、灰烬和装在水晶瓶中的水，价值至少400金币",
 					"cost": 40000
 				}
 			},
@@ -495,30 +524,34 @@
 				}
 			],
 			"entries": [
-				"You call forth a spirit from the Elemental Planes. The spirit manifests physically in an unoccupied space that you can see within range. This corporeal form uses the {@creature Elemental Spirit|UA2020SpellsAndMagicTattoos} stat block. When you cast the spell, choose an element: Air, Earth, Fire, or Water. The creature physically resembles a vaguely humanoid form wreathed in the chosen element, which also determines some of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
-				"The creature is friendly to you and your companions for the spell's duration. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don't issue any, it defends itself but otherwise takes no action."
+				"你从元素位面召唤出一个精灵。这个精灵在你能看到的范围内的一个未被占据的空间中以实体形态显现。这个实体形态使用{@creature 元素灵魄|UA2020SpellsAndMagicTattoos}的统计数据块。当你施放这个法术时，选择一个元素：空气、土、火或水。这个生物在物理上类似于一个模糊的人形，被选定的元素包裹，这也决定了其统计数据块中的一些特征。当它的生命值降至0点或法术结束时，这个生物就会消失。",
+				"该生物在法术持续时间内对你和你的同伴友好。在战斗中，该生物共享你的先攻值，但它会在你之后立即行动。它服从你发出的口头指令（你无需采取行动）。如果你没有发出任何指令，它会自行防御，但除此之外不会采取其他行动。"
 			],
 			"entriesHigherLevel": [
 				{
+					"ENG_name": "At Higher Levels",
+					"name": "升环施法",
 					"type": "entries",
-					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 5th level or higher, the creature assumes the higher level for that casting wherever it uses the spell's level in its stat block."
+						"当你使用5级或更高级别的法术位施放这个法术时，生物在其统计数据块中使用法术等级的地方都会采用更高的等级。"
 					]
 				}
 			],
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Druid",
+						"ENG_name": "Druid",
+						"name": "德鲁伊",
 						"source": "PHB"
 					},
 					{
-						"name": "Sorcerer",
+						"ENG_name": "Sorcerer",
+						"name": "术士",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"ENG_name": "Wizard",
+						"name": "法师",
 						"source": "PHB"
 					}
 				]
@@ -529,7 +562,8 @@
 			]
 		},
 		{
-			"name": "Summon Fey Spirit",
+			"ENG_name": "Summon Fey Spirit",
+			"name": "召唤精类灵魄",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 5,
 			"level": 3,
@@ -551,7 +585,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a gilded flower worth at least 300 gp",
+					"text": "一朵镀金花，价值至少 300gp",
 					"cost": 30000
 				}
 			},
@@ -566,38 +600,44 @@
 				}
 			],
 			"entries": [
-				"You call forth a spirit from the Feywild. The spirit manifests physically in an unoccupied space that you can see within range. This corporeal form uses the {@creature Fey Spirit|UA2020SpellsAndMagicTattoos} stat block. When you cast the spell, choose a mood: Deceitful, Furious, or Joyful. The creature physically resembles a satyr, a dryad, or an elf (your choice) marked by the chosen mood, which also determines one of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
-				"The creature is friendly to you and your companions for the spell's duration. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don't issue any, it defends itself but otherwise takes no action."
+				"你从妖精荒野性召唤出一个精灵。这个精灵在你的施法范围内你能看到的未被占据的空间中以实体形式显现。这个实体使用{@creature 妖精灵魄|UA2020SpellsAndMagicTattoos}的统计数据块。当你施放这个法术时，选择一种情绪：欺骗、狂怒或欢乐。这个生物在外观上类似于半羊人、树精或精灵（由你选择），并带有所选情绪的特征，这也决定了其统计数据块中的一个特征。当它的生命值降至0点或法术结束时，这个生物就会消失。",
+				"该生物在法术持续时间内对你和你的同伴友好。在战斗中，该生物共享你的先攻值，但它会在你之后立即行动。它服从你发出的口头指令（你无需采取行动）。如果你没有发出任何指令，它会自行防御，但除此之外不会采取其他行动。"
 			],
 			"entriesHigherLevel": [
 				{
+					"ENG_name": "At Higher Levels",
+					"name": "升环施法",
 					"type": "entries",
-					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the creature assumes the higher level for that casting wherever it uses the spell's level in its stat block."
+						"当你使用4级或更高级别的法术位来施放这个法术时，该生物在其统计数据块中使用法术等级的地方都会采用更高的等级。"
 					]
 				}
 			],
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"ENG_name": "Bard",
+						"name": "吟游诗人",
 						"source": "PHB"
 					},
 					{
-						"name": "Druid",
+						"ENG_name": "Druid",
+						"name": "德鲁伊",
 						"source": "PHB"
 					},
 					{
-						"name": "Sorcerer",
+						"ENG_name": "Sorcerer",
+						"name": "术士",
 						"source": "PHB"
 					},
 					{
-						"name": "Warlock",
+						"ENG_name": "Warlock",
+						"name": "魔契师",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"ENG_name": "Wizard",
+						"name": "法师",
 						"source": "PHB"
 					}
 				]
@@ -608,7 +648,8 @@
 			]
 		},
 		{
-			"name": "Summon Fiendish Spirit",
+			"ENG_name": "Summon Fiendish Spirit",
+			"name": "召唤邪魔灵魄",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 6,
 			"level": 6,
@@ -630,7 +671,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "humanoid blood inside a ruby vial worth at least 600 gp",
+					"text": "装有类人生物血液的红宝石瓶，价值至少 600gp",
 					"cost": 60000
 				}
 			},
@@ -645,26 +686,29 @@
 				}
 			],
 			"entries": [
-				"You call forth a fiendish spirit from the Lower Planes. The spirit manifests physically in an unoccupied space that you can see within range. This corporeal form uses the {@creature Fiendish Spirit|UA2020SpellsAndMagicTattoos} stat block. When you cast the spell, choose Demon, Devil, or Yugoloth. The creature physically resembles a fiend of the chosen type, which also determines some of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
-				"The creature is friendly to you and your companions for the spell's duration. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don't issue any, it defends itself but otherwise takes no action."
+				"你从低层位面召唤出一个邪恶的精灵。这个精灵在你能看到的范围内的一个未被占据的空间中以实体形态显现。这个实体形态使用{@creature 邪魔灵魄|UA2020SpellsAndMagicTattoos}的统计数据块。当你施放这个法术时，选择恶魔、魔鬼或尤格罗斯。这个生物在物理上类似于选定类型的邪恶生物，这也决定了其统计数据块中的一些特征。当它的生命值降至0点或法术结束时，这个生物就会消失。",
+				"该生物在法术持续时间内对你和你的同伴友好。在战斗中，该生物共享你的先攻值，但它会在你之后立即行动。它服从你发出的口头指令（你无需采取行动）。如果你没有发出任何指令，它会自行防御，但除此之外不会采取其他行动。"
 			],
 			"entriesHigherLevel": [
 				{
+					"ENG_name": "At Higher Levels",
+					"name": "升环施法",
 					"type": "entries",
-					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 7th level or higher, the creature assumes the higher level for that casting wherever it uses the spell's level in its stat block."
+						"当你使用7级或更高级别的法术位施放这个法术时，该生物在其统计数据块中使用法术等级的地方都会采用更高的等级。"
 					]
 				}
 			],
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Warlock",
+						"ENG_name": "Warlock",
+						"name": "魔契师",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"ENG_name": "Wizard",
+						"name": "法师",
 						"source": "PHB"
 					}
 				]
@@ -675,7 +719,8 @@
 			]
 		},
 		{
-			"name": "Summon Shadow Spirit",
+			"ENG_name": "Summon Shadow Spirit",
+			"name": "召唤暗影灵魄",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 7,
 			"level": 3,
@@ -697,7 +742,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "tears inside a crystal vial worth at least 300 gp",
+					"text": "一个装在水晶瓶中的眼泪，价值至少300金币",
 					"cost": 30000
 				}
 			},
@@ -712,30 +757,34 @@
 				}
 			],
 			"entries": [
-				"You call forth a shadowy spirit from the Shadowfell. The spirit manifests physically in an unoccupied space that you can see within range. This corporeal form uses the {@creature Shadow Spirit|UA2020SpellsAndMagicTattoos} stat block. When you cast the spell, choose an emotion: Fury, Despair, or Fear. The creature physically resembles a misshapen humanoid marked by the chosen emotion, which also determines some of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
-				"The creature is friendly to you and your companions for the spell's duration. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don't issue any, it defends itself but otherwise takes no action."
+				"你从影域召唤出一个朦胧的灵体。这个灵体在你视野范围内的未被占据的空间中实体化。这个实体形态使用{@creature 暗影灵魄|UA2020SpellsAndMagicTattoos}的统计数据块。当你施放这个法术时，选择一种情绪：愤怒、绝望或恐惧。这个生物在外观上类似于一个被选定情绪标记的畸形人形生物，这也决定了其统计数据块中的一些特征。当它的生命值降至0点或法术结束时，这个生物就会消失。",
+				"该生物在法术持续时间内对你和你的同伴友好。在战斗中，该生物共享你的先攻值，但它会在你之后立即行动。它服从你发出的口头指令（你无需采取行动）。如果你没有发出任何指令，它会自行防御，但除此之外不会采取其他行动。"
 			],
 			"entriesHigherLevel": [
 				{
+					"ENG_name": "At Higher Levels",
+					"name": "升环施法",
 					"type": "entries",
-					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the creature assumes the higher level for that casting wherever it uses the spell's level in its stat block."
+						"当你使用4级或更高级别的法术位来施放这个法术时，该生物在其统计数据块中使用法术等级的地方都会采用更高的等级。"
 					]
 				}
 			],
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Sorcerer",
+						"ENG_name": "Sorcerer",
+						"name": "术士",
 						"source": "PHB"
 					},
 					{
-						"name": "Warlock",
+						"ENG_name": "Warlock",
+						"name": "魔契师",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"ENG_name": "Wizard",
+						"name": "法师",
 						"source": "PHB"
 					}
 				]
@@ -746,7 +795,8 @@
 			]
 		},
 		{
-			"name": "Summon Undead Spirit",
+			"ENG_name": "Summon Undead Spirit",
+			"name": "召唤不死灵魄",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 7,
 			"level": 3,
@@ -768,7 +818,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a gilded humanoid skull worth at least 300 gp",
+					"text": "一个镀金的类人头骨，价值至少300金币",
 					"cost": 30000
 				}
 			},
@@ -783,26 +833,29 @@
 				}
 			],
 			"entries": [
-				"You call forth a restless spirit from beyond the grave. The spirit manifests physically in an unoccupied space that you can see within range. This corporeal form uses the {@creature Undead Spirit|UA2020SpellsAndMagicTattoos} stat block. When you cast the spell, choose the creature's form: Ghostly, Putrid, or Skeletal. The creature physically resembles a humanoid with the chosen form, which also determines some of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
-				"The creature is friendly to you and your companions for the spell's duration. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don't issue any, it defends itself but otherwise takes no action."
+				"你从坟墓之外召唤出一个不安的亡灵。这个亡灵在你的施法范围内你能看到的未被占据的空间中以实体形式显现。这个实体使用{@creature 亡灵灵魄|UA2020SpellsAndMagicTattoos}的统计数据块。当你施放这个法术时，选择生物的形态：幽灵、腐臭或骷髅。这个生物在外观上类似于具有所选形态的人形生物，这也决定了其统计数据块中的一些特征。当它的生命值降至0点或法术结束时，这个生物就会消失。",
+				"该生物在法术持续时间内对你和你的同伴友好。在战斗中，该生物共享你的先攻值，但它会在你之后立即行动。它服从你发出的口头指令（你无需采取行动）。如果你没有发出任何指令，它会自行防御，但除此之外不会采取其他行动。"
 			],
 			"entriesHigherLevel": [
 				{
+					"ENG_name": "At Higher Levels",
+					"name": "升环施法",
 					"type": "entries",
-					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the creature assumes the higher level for that casting wherever it uses the spell's level in its stat block."
+						"当你使用4级或更高级别的法术位来施放这个法术时，该生物在其统计数据块中使用法术等级的地方都会采用更高的等级。"
 					]
 				}
 			],
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Warlock",
+						"ENG_name": "Warlock",
+						"name": "魔契师",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"ENG_name": "Wizard",
+						"name": "法师",
 						"source": "PHB"
 					}
 				]
@@ -815,7 +868,8 @@
 	],
 	"item": [
 		{
-			"name": "Absorbing Tattoo",
+			"ENG_name": "Absorbing Tattoo",
+			"name": "吸收刺青",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 8,
 			"rarity": "very rare",
@@ -823,14 +877,14 @@
 			"wondrous": true,
 			"tattoo": true,
 			"entries": [
-				"This tattoo incorporates designs that emphasize one color more than others. While the tattoo is on your skin, you have resistance to a type of damage associated with that color, as shown on the table below. The DM chooses the color or determines it randomly.",
+				"此刺青的设计强调一种颜色多于其他颜色。当刺青在你的皮肤上时，你对与该颜色相关联的伤害类型具有抗性，如下方表格所示。DM选择颜色或随机决定。",
 				{
 					"type": "table",
 					"caption": "",
 					"colLabels": [
 						"d10",
-						" Damage Type",
-						"Color"
+						"伤害类型",
+						"颜色"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -840,75 +894,78 @@
 					"rows": [
 						[
 							"1",
-							"Acid",
-							"Green"
+							"强酸",
+							"绿"
 						],
 						[
 							"2",
-							"Cold",
-							"Blue"
+							"寒冷",
+							"蓝"
 						],
 						[
 							"3",
-							"Fire",
-							"Red"
+							"火焰",
+							"红"
 						],
 						[
 							"4",
-							"Force",
-							"White"
+							"力场",
+							"白"
 						],
 						[
 							"5",
-							"Lightning",
-							"Yellow"
+							"闪电",
+							"黄"
 						],
 						[
 							"6",
-							"Necrotic",
-							"Black"
+							"暗蚀",
+							"黑"
 						],
 						[
 							"7",
-							"Poison",
-							"Violet"
+							"毒素",
+							"紫"
 						],
 						[
 							"8",
-							"Psychic",
-							"Silver"
+							"心灵",
+							"银"
 						],
 						[
 							"9",
-							"Radiant",
-							"Gold"
+							"光耀",
+							"金"
 						],
 						[
 							"10",
-							"Thunder",
-							"Orange"
+							"雷鸣",
+							"橙色"
 						]
 					]
 				},
 				{
+					"ENG_name": "Damage Absorption",
+					"name": "伤害吸收",
 					"type": "entries",
-					"name": "Damage Absorption",
 					"entries": [
-						"When you take damage of the chosen type, you can use your reaction to gain immunity against that instance of the damage, and you regain a number of hit points equal to half the damage you would have taken. Once this reaction is used, it can't be used again until the next dawn."
+						"当你受到与刺青所选伤害种类一致的伤害时，你可以用你的反应获得对该次伤害的免疫，而后你回复等同于你原先要受到伤害数值一半的生命值。使用后，直到下次黎明前，这个反应不能再次使用。"
 					]
 				},
 				{
+					"ENG_name": "Tattoo Attunement",
+					"name": "刺青同调",
 					"type": "entries",
-					"name": "Tattoo Attunement",
 					"entries": [
-						"To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.",
-						"If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you."
+						"要与这件物品同调，你需要将针抵在你希望刺青出现的皮肤上，并在整个同调过程中持续按压。同调完成后，针会转化为墨水并形成刺青，显现在皮肤上。若你拥有多个魔法文身，它们会视为单一魔法物品来计算你可同调的魔法物品数量。",
+						"如果你对该刺青的同调结束，刺青会消失，且针会重新出现在离你最近的未占据空间。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Barrier Tattoo (Rare)",
+			"ENG_name": "Barrier Tattoo (Rare)",
+			"name": "屏障刺青（珍稀）",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 9,
 			"rarity": "rare",
@@ -916,19 +973,21 @@
 			"wondrous": true,
 			"tattoo": true,
 			"entries": [
-				"This tattoo depicts protective imagery and uses ink that resembles liquid metal. While you aren't wearing armor, the tattoo grants you an Armor Class of 15 + your Dexterity modifier (maximum of +2). You can use a shield and still gain this benefit.",
+				"这枚刺青描绘了保护性的图案，并使用类似液态金属的墨水。当你未穿着护甲时，该刺青会赋予你15 + 你的敏捷调整值（最高+2）的护甲等级。你可以使用盾牌且仍获得此增益。",
 				{
+					"ENG_name": "Tattoo Attunement",
+					"name": "刺青同调",
 					"type": "entries",
-					"name": "Tattoo Attunement",
 					"entries": [
-						"To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.",
-						"If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you."
+						"要与这件物品同调，你需要将针抵在你希望刺青出现的皮肤上，并在整个同调过程中持续按压。同调完成后，针会转化为墨水并形成刺青，显现在皮肤上。若你拥有多个魔法文身，它们会视为单一魔法物品来计算你可同调的魔法物品数量。",
+						"如果你对该刺青的同调结束，刺青会消失，且针会重新出现在离你最近的未占据空间。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Barrier Tattoo (Uncommon)",
+			"ENG_name": "Barrier Tattoo (Uncommon)",
+			"name": "屏障刺青（非普通）",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 9,
 			"rarity": "uncommon",
@@ -936,19 +995,21 @@
 			"wondrous": true,
 			"tattoo": true,
 			"entries": [
-				"This tattoo depicts protective imagery and uses ink that resembles liquid metal. While you aren't wearing armor, the tattoo grants you an Armor Class of 12 + your Dexterity modifier. You can use a shield and still gain this benefit.",
+				"这个刺青描绘了安全感的意象且使用类似液体金属的墨水。当你未穿着护甲时，该刺青赋予你12 + 你的敏捷调整值的护甲等级。你可以使用护盾且仍然获得该增益。",
 				{
+					"ENG_name": "Tattoo Attunement",
+					"name": "刺青同调",
 					"type": "entries",
-					"name": "Tattoo Attunement",
 					"entries": [
-						"To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.",
-						"If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you."
+						"要与这件物品同调，你需要将针抵在你希望刺青出现的皮肤上，并在整个同调过程中持续按压。同调完成后，针会转化为墨水并形成刺青，显现在皮肤上。若你拥有多个魔法文身，它们会视为单一魔法物品来计算你可同调的魔法物品数量。",
+						"如果你对该刺青的同调结束，刺青会消失，且针会重新出现在离你最近的未占据空间。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Barrier Tattoo (Very Rare)",
+			"ENG_name": "Barrier Tattoo (Very Rare)",
+			"name": "屏障刺青（极珍稀）",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 9,
 			"rarity": "very rare",
@@ -956,19 +1017,21 @@
 			"wondrous": true,
 			"tattoo": true,
 			"entries": [
-				"This tattoo depicts protective imagery and uses ink that resembles liquid metal. While you aren't wearing armor, the tattoo grants you an Armor Class of 18. You can use a shield and still gain this benefit.",
+				"此刺青描绘了安全感的意象，并使用类似液态金属的墨水。当你未穿戴护甲时，刺青会赋予你18的护甲等级。你可以使用护盾且仍能获得此增益。",
 				{
+					"ENG_name": "Tattoo Attunement",
+					"name": "刺青同调",
 					"type": "entries",
-					"name": "Tattoo Attunement",
 					"entries": [
-						"To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.",
-						"If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you."
+						"要与这件物品同调，你需要将针抵在你希望刺青出现的皮肤上，并在整个同调过程中持续按压。同调完成后，针会转化为墨水并形成刺青，显现在皮肤上。若你拥有多个魔法文身，它们会视为单一魔法物品来计算你可同调的魔法物品数量。",
+						"如果你对该刺青的同调结束，刺青会消失，且针会重新出现在离你最近的未占据空间。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Blood Fury Tattoo",
+			"ENG_name": "Blood Fury Tattoo",
+			"name": "血怒刺青",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 10,
 			"rarity": "legendary",
@@ -978,27 +1041,29 @@
 			"bonusWeaponCritDamage": "4d6",
 			"critThreshold": 19,
 			"entries": [
-				"This tattoo evokes fury in its form and colors. While this tattoo is on your skin, you gain the following benefits:",
+				"此刺青以其形态和颜色唤起狂怒。当此刺青存在于你的皮肤上时，你获得以下增益：",
 				{
 					"type": "list",
 					"items": [
-						"Your attack rolls score a critical hit on a {@dice d20} roll of 19 or 20.",
-						"When you score a critical hit against a creature, that target takes an extra {@damage 4d6} necrotic damage, and you gain a number of temporary hit points equal to the necrotic damage dealt.",
-						"When a creature you can see damages you, you can use your reaction to make a melee attack against that creature, with advantage on your attack roll."
+						"你的攻击检定在{@dice d20}掷骰结果为19或20时造成重击。",
+						"当你对一个生物造成重击时，该目标会受到额外的{@damage 4d6}暗蚀伤害，且你获得等同于所造成暗蚀伤害数值的临时生命值。",
+						"当你可见的一个生物对你造成伤害时，你可以使用你的反应对该生物进行一次近战攻击，并在攻击检定上具有优势。"
 					]
 				},
 				{
+					"ENG_name": "Tattoo Attunement",
+					"name": "刺青同调",
 					"type": "entries",
-					"name": "Tattoo Attunement",
 					"entries": [
-						"To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.",
-						"If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you."
+						"要与这件物品同调，你需要将针抵在你希望刺青出现的皮肤上，并在整个同调过程中持续按压。同调完成后，针会转化为墨水并形成刺青，显现在皮肤上。若你拥有多个魔法文身，它们会视为单一魔法物品来计算你可同调的魔法物品数量。",
+						"如果你对该刺青的同调结束，刺青会消失，且针会重新出现在离你最近的未占据空间。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Coiling Grasp Tattoo",
+			"ENG_name": "Coiling Grasp Tattoo",
+			"name": "缠爪刺青",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 9,
 			"rarity": "uncommon",
@@ -1006,19 +1071,21 @@
 			"wondrous": true,
 			"tattoo": true,
 			"entries": [
-				"This tattoo has long intertwining designs. While the tattoo is on your skin, you can, as an action, cause the tattoo to extrude into inky tendrils, which reach for a creature you can see within 15 feet of you. The creature must succeed on a DC 14 Strength saving throw or take {@damage 3d6} force damage and be {@condition grappled} by you. As an action, the creature can escape the grapple by succeeding on a DC 14 Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check. The grapple also ends if you halt it (no action required), if the creature is ever more than 15 feet away from you, or if you use this tattoo on a different creature.",
+				"此刺青有着长长的交织图案。当刺青在你的皮肤上时，你可以用一个动作使刺青延伸出墨色卷须，触及15尺内你能看见的一个生物。该生物必须成功通过DC 14的力量豁免检定否则受到{@damage 3d6}力场伤害且被你{@condition 受擒}。该生物可以用一个动作通过成功进行DC 14的力量（{@skill 运动}）或敏捷（{@skill 特技}）检定来逃脱擒抱。如果你主动终止（无需动作）、该生物与你距离超过15尺、或你对另一个生物使用此刺青时，擒抱也会结束。",
 				{
+					"ENG_name": "Tattoo Attunement",
+					"name": "刺青同调",
 					"type": "entries",
-					"name": "Tattoo Attunement",
 					"entries": [
-						"To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.",
-						"If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you."
+						"要与这件物品同调，你需要将针抵在你希望刺青出现的皮肤上，并在整个同调过程中持续按压。同调完成后，针会转化为墨水并形成刺青，显现在皮肤上。若你拥有多个魔法文身，它们会视为单一魔法物品来计算你可同调的魔法物品数量。",
+						"如果你对该刺青的同调结束，刺青会消失，且针会重新出现在离你最近的未占据空间。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Eldritch Claw Tattoo",
+			"ENG_name": "Eldritch Claw Tattoo",
+			"name": "魔能爪刺青",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 9,
 			"rarity": "uncommon",
@@ -1027,26 +1094,29 @@
 			"tattoo": true,
 			"bonusWeapon": "+1",
 			"entries": [
-				"This tattoo depicts clawlike forms and other jagged shapes. While the tattoo is on your skin, your unarmed strikes are considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks, and you gain a +1 bonus to attack and damage rolls with unarmed strikes.",
+				"此刺青描绘了爪状形态和其他锯齿形状。当刺青在你的皮肤上时，你的徒手打击被视为魔法攻击，用于克服对非魔法攻击的免疫和抗性，且你在徒手打击的攻击和伤害掷骰上获得+1加值。",
 				{
+					"ENG_name": "Eldritch Maul",
+					"name": "魔能巨锤",
 					"type": "entries",
-					"name": "Eldritch Maul",
 					"entries": [
-						"As a bonus action, you can empower the tattoo for 1 minute. For the duration, each of your melee weapon attacks can reach a target up to 30 feet away from you, as tendrils of ink launch from your weapon or unarmed strike toward the target. In addition, your melee weapon attacks deal an extra {@damage 1d6} force damage on a hit. Once used, this bonus action can't be used again until the next dawn."
+						"以一个附赠动作，你可以增强刺青的效果，持续1分钟。在此期间，你的每次近战武器攻击可以触及30尺内的目标，如同墨水卷须从你的武器或徒手打击中射向目标。此外，你的近战武器攻击在命中时额外造成{@damage 1d6}点力场伤害。一旦使用，此附赠动作在下次拂晓前无法再次使用。"
 					]
 				},
 				{
+					"ENG_name": "Tattoo Attunement",
+					"name": "刺青同调",
 					"type": "entries",
-					"name": "Tattoo Attunement",
 					"entries": [
-						"To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.",
-						"If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you."
+						"要与这件物品同调，你需要将针抵在你希望刺青出现的皮肤上，并在整个同调过程中持续按压。同调完成后，针会转化为墨水并形成刺青，显现在皮肤上。若你拥有多个魔法文身，它们会视为单一魔法物品来计算你可同调的魔法物品数量。",
+						"如果你对该刺青的同调结束，刺青会消失，且针会重新出现在离你最近的未占据空间。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Ghost Step Tattoo",
+			"ENG_name": "Ghost Step Tattoo",
+			"name": "鬼步刺青",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 11,
 			"rarity": "rare",
@@ -1057,28 +1127,30 @@
 			"rechargeAmount": 3,
 			"charges": 3,
 			"entries": [
-				"This tattoo shifts and wavers on the skin, parts of it appearing blurred. The tattoo has 3 charges, and it regains all expended charges daily at dawn.",
-				"As a bonus action while the tattoo is on your skin, you can expend 1 of the tattoo's charges to become incorporeal until the end of your next turn. For the duration, you gain the following benefits:",
+				"此刺青在皮肤上移动并波动，部分看起来模糊不清。该刺青有3次充能，且在日常拂晓时恢复所有已消耗的充能。",
+				"当刺青在你的皮肤上时，你可以消耗1次刺青的充能以附赠动作变为灵体状态，持续到你的下个回合结束。在此期间，你获得以下增益：",
 				{
 					"type": "list",
 					"items": [
-						"You have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.",
-						"You can't be {@condition grappled} or {@condition restrained}.",
-						"You can move through creatures and solid objects as if they were {@quickref difficult terrain||3}. If you end your turn in a solid object, you take {@damage 1d10} force damage. If the effect ends while you are inside a solid object, you instead are shunted to the nearest unoccupied space, and you take {@damage 1d10} force damage for every 5 feet traveled."
+						"你对于来自非魔法攻击的钝击，穿刺和挥砍伤害得到抗性。",
+						"你不能{@condition 受擒}（被擒）或{@condition 束缚}（被限制）。",
+						"你可以像通过{@quickref 困难地形||3}（困难地形）一样穿过生物和实体物体。如果你的回合结束时位于一个实体物体中，你会遭受{@damage 1d10}力场伤害。如果你在实体物体内部时效果结束，你将被转移到最近的未被占据的空间，并且每移动5尺，你会遭受{@damage 1d10}力场伤害。"
 					]
 				},
 				{
+					"ENG_name": "Tattoo Attunement",
+					"name": "刺青同调",
 					"type": "entries",
-					"name": "Tattoo Attunement",
 					"entries": [
-						"To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.",
-						"If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you."
+						"要与这件物品同调，你需要将针抵在你希望刺青出现的皮肤上，并在整个同调过程中持续按压。同调完成后，针会转化为墨水并形成刺青，显现在皮肤上。若你拥有多个魔法文身，它们会视为单一魔法物品来计算你可同调的魔法物品数量。",
+						"如果你对该刺青的同调结束，刺青会消失，且针会重新出现在离你最近的未占据空间。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Illuminator's Tattoo",
+			"ENG_name": "Illuminator's Tattoo",
+			"name": "解文刺青",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 10,
 			"rarity": "common",
@@ -1086,20 +1158,22 @@
 			"wondrous": true,
 			"tattoo": true,
 			"entries": [
-				"This tattoo contains beautiful calligraphy, images of writing implements, and the like. While this tattoo is on your skin, you can write with your fingertip as if it were an ink pen that never runs out of ink.",
-				"As an action, you can touch a piece of writing up to one page in length and speak a creature's name. The writing becomes {@condition invisible} to everyone other than you and the named creature for the next 24 hours. Either of you can dismiss the invisibility by touching the script (no action required). Once used, this action can't be used again until the next dawn.",
+				"此刺青包含美丽的书法、书写器具的图像等。当此刺青在你的皮肤上时，你可以用指尖书写，仿佛它是一支永不枯竭的墨水笔。",
+				"作为一个动作，你可以触摸一篇长达一页的文本并说出一个生物的名字。接下来的24小时内，除了你和被命名的生物之外，这段文字对所有人都是{@condition 隐形}的。你们两个都可以通过触摸文本来解除隐形状态（无需动作）。一旦使用，这个动作直到下一个黎明之前不能再使用。",
 				{
+					"ENG_name": "Tattoo Attunement",
+					"name": "刺青同调",
 					"type": "entries",
-					"name": "Tattoo Attunement",
 					"entries": [
-						"To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.",
-						"If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you."
+						"要与这件物品同调，你需要将针抵在你希望刺青出现的皮肤上，并在整个同调过程中持续按压。同调完成后，针会转化为墨水并形成刺青，显现在皮肤上。若你拥有多个魔法文身，它们会视为单一魔法物品来计算你可同调的魔法物品数量。",
+						"如果你对该刺青的同调结束，刺青会消失，且针会重新出现在离你最近的未占据空间。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Lifewell Tattoo",
+			"ENG_name": "Lifewell Tattoo",
+			"name": "命源刺青",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 10,
 			"resist": [
@@ -1110,26 +1184,29 @@
 			"wondrous": true,
 			"tattoo": true,
 			"entries": [
-				"This tattoo comprises symbols of life and rebirth. While this tattoo is on your skin, you have resistance to necrotic damage.",
+				"此刺青包含生命与重生的符号。当此刺青存在于你的皮肤上时，你对暗蚀伤害具有抗性。",
 				{
+					"ENG_name": "Death Ward",
+					"name": "防死结界",
 					"type": "entries",
-					"name": "Death Ward",
 					"entries": [
-						"When you would be reduced to 0 hit points, you drop to 1 hit point instead. Once used, this benefit can't be used again until the next dawn."
+						"当你将被缩小至0生命值时，你将改为放下至1生命值。一旦使用，此增益在下次拂晓前无法再次使用。"
 					]
 				},
 				{
+					"ENG_name": "Tattoo Attunement",
+					"name": "刺青同调",
 					"type": "entries",
-					"name": "Tattoo Attunement",
 					"entries": [
-						"To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.",
-						"If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you."
+						"要与这件物品同调，你需要将针抵在你希望刺青出现的皮肤上，并在整个同调过程中持续按压。同调完成后，针会转化为墨水并形成刺青，显现在皮肤上。若你拥有多个魔法文身，它们会视为单一魔法物品来计算你可同调的魔法物品数量。",
+						"如果你对该刺青的同调结束，刺青会消失，且针会重新出现在离你最近的未占据空间。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Masquerade Tattoo",
+			"ENG_name": "Masquerade Tattoo",
+			"name": "伪装刺青",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 11,
 			"rarity": "common",
@@ -1137,33 +1214,36 @@
 			"wondrous": true,
 			"tattoo": true,
 			"entries": [
-				"This tattoo appears on your skin as whatever you desire. As a bonus action, you can shape the tattoo into any color or pattern and move it to any area of your skin. Whatever form it takes, it is always obviously a tattoo. It can range in size from no smaller than a copper piece to an intricate work of art that covers all your skin.",
+				"这个刺青会以你想要的任何形态出现在你的皮肤上。以一个附赠动作，你可以将刺青塑造成任何颜色或图案，并将其移动到皮肤的任何区域。无论它采取何种形态，它始终明显是一个刺青。它的体型范围可以从不小于一块铜片到覆盖你所有皮肤的复杂艺术品。",
 				{
+					"ENG_name": "Disguise Self",
+					"name": "易容术",
 					"type": "entries",
-					"name": "Disguise Self",
 					"entries": [
-						"As an action, you can use the tattoo to cast the {@spell disguise self} spell. Once the spell is cast from the tattoo, it can't be cast from the tattoo again until the next dawn."
+						"作为一个动作，你可以使用该刺青施放{@spell 易容术}法术。一旦从该刺青施放了该法术，直到下一次拂晓前都无法再次从该刺青施放该法术。"
 					]
 				},
 				{
+					"ENG_name": "Tattoo Attunement",
+					"name": "刺青同调",
 					"type": "entries",
-					"name": "Tattoo Attunement",
 					"entries": [
-						"To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.",
-						"If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you."
+						"要与这件物品同调，你需要将针抵在你希望刺青出现的皮肤上，并在整个同调过程中持续按压。同调完成后，针会转化为墨水并形成刺青，显现在皮肤上。若你拥有多个魔法文身，它们会视为单一魔法物品来计算你可同调的魔法物品数量。",
+						"如果你对该刺青的同调结束，刺青会消失，且针会重新出现在离你最近的未占据空间。"
 					]
 				}
 			],
 			"attachedSpells": {
 				"daily": {
 					"1e": [
-						"disguise self"
+						"易容术"
 					]
 				}
 			}
 		},
 		{
-			"name": "Shadowfell Brand Tattoo",
+			"ENG_name": "Shadowfell Brand Tattoo",
+			"name": "堕影冥界印记刺青",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 12,
 			"rarity": "very rare",
@@ -1171,100 +1251,109 @@
 			"wondrous": true,
 			"tattoo": true,
 			"entries": [
-				"This tattoo is dark in color and abstract. While it's on your skin, you have advantage on Dexterity ({@skill Stealth}) checks.",
+				"此刺青颜色深暗且抽象。当它在你的皮肤上时，你在敏捷（{@skill 隐匿}）检定上具有优势。",
 				{
+					"ENG_name": "Shadowy Defense",
+					"name": "幽影防御",
 					"type": "entries",
-					"name": "Shadowy Defense",
 					"entries": [
-						"When you take damage, you can use your reaction to become shadowy and insubstantial for a moment, reducing the damage you take by half. Once used, this reaction can't be used again until the next dawn."
+						"当你受到伤害时，可以使用你的反应变得幽影般虚幻一瞬间，将你受到的伤害减半。一旦使用，这个反应直到下一个拂晓前不能再次使用。"
 					]
 				},
 				{
+					"ENG_name": "Tattoo Attunement",
+					"name": "刺青同调",
 					"type": "entries",
-					"name": "Tattoo Attunement",
 					"entries": [
-						"To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.",
-						"If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you."
+						"要与这件物品同调，你需要将针抵在你希望刺青出现的皮肤上，并在整个同调过程中持续按压。同调完成后，针会转化为墨水并形成刺青，显现在皮肤上。若你拥有多个魔法文身，它们会视为单一魔法物品来计算你可同调的魔法物品数量。",
+						"如果你对该刺青的同调结束，刺青会消失，且针会重新出现在离你最近的未占据空间。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Spellwrought Tattoo (1st Level)",
+			"ENG_name": "Spellwrought Tattoo (1st Level)",
+			"name": "蕴法刺青（1环）",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 11,
 			"rarity": "common",
 			"wondrous": true,
 			"tattoo": true,
 			"entries": [
-				"This tattoo contains a single spell, wrought on your skin by a magic needle. To use the tattoo, you must hold the needle against your skin where you want the tattoo to appear and speak the command word. The needle turns into the ink that becomes the tattoo, which appears on your skin. Once the tattoo is on your skin, you can cast its spell, requiring no material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin.",
-				"A spell cast from this tattoo has a spellcasting ability modifier of +3, a save DC of 13 and an attack bonus of +5."
+				"此刺青包含一个法术，由魔法针在你的皮肤上绘制而成。要使用此刺青，你必须将针抵在你希望刺青出现的皮肤上并说出命令语。针会变成墨水并形成刺青，出现在你的皮肤上。一旦刺青出现在你的皮肤上，你就可以施放其法术，且不需要材料成分。当你施放法术时以及法术的持续时间内，刺青会发出微光。一旦法术结束，刺青就会从你的皮肤上消失。",
+				"从此刺青施放的法术具有+3的施法属性调整值，13的豁免DC且+5的攻击加值。"
 			]
 		},
 		{
-			"name": "Spellwrought Tattoo (2nd Level)",
+			"ENG_name": "Spellwrought Tattoo (2nd Level)",
+			"name": "蕴法刺青（2环）",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 11,
 			"rarity": "uncommon",
 			"wondrous": true,
 			"tattoo": true,
 			"entries": [
-				"This tattoo contains a single spell, wrought on your skin by a magic needle. To use the tattoo, you must hold the needle against your skin where you want the tattoo to appear and speak the command word. The needle turns into the ink that becomes the tattoo, which appears on your skin. Once the tattoo is on your skin, you can cast its spell, requiring no material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin.",
-				"A spell cast from this tattoo has a spellcasting ability modifier of +3, a save DC of 13 and an attack bonus of +5."
+				"此刺青包含一个法术，由魔法针在你的皮肤上绘制而成。要使用此刺青，你必须将针抵在你希望刺青出现的皮肤上并说出命令语。针会变成墨水并形成刺青，出现在你的皮肤上。一旦刺青出现在你的皮肤上，你就可以施放其法术，且不需要材料成分。当你施放法术时以及法术的持续时间内，刺青会发出微光。一旦法术结束，刺青就会从你的皮肤上消失。",
+				"从此刺青施放的法术具有+3的施法属性调整值，13的豁免DC且+5的攻击加值。"
 			]
 		},
 		{
-			"name": "Spellwrought Tattoo (3rd Level)",
+			"ENG_name": "Spellwrought Tattoo (3rd Level)",
+			"name": "蕴法刺青（3环）",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 11,
 			"rarity": "uncommon",
 			"wondrous": true,
 			"tattoo": true,
 			"entries": [
-				"This tattoo contains a single spell, wrought on your skin by a magic needle. To use the tattoo, you must hold the needle against your skin where you want the tattoo to appear and speak the command word. The needle turns into the ink that becomes the tattoo, which appears on your skin. Once the tattoo is on your skin, you can cast its spell, requiring no material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin.",
-				"A spell cast from this tattoo has a spellcasting ability modifier of +4, a save DC of 15 and an attack bonus of +7."
+				"此刺青包含一个法术，由魔法针在你的皮肤上绘制而成。要使用此刺青，你必须将针抵在你希望刺青出现的皮肤上并说出命令语。针会变成墨水并形成刺青，出现在你的皮肤上。一旦刺青出现在你的皮肤上，你就可以施放其法术，且不需要材料成分。当你施放法术时以及法术的持续时间内，刺青会发出微光。一旦法术结束，刺青就会从你的皮肤上消失。",
+				"从此刺青施放的法术具有+4的施法属性调整值，15的豁免DC且+7的攻击加值。"
 			]
 		},
 		{
-			"name": "Spellwrought Tattoo (4th Level)",
+			"ENG_name": "Spellwrought Tattoo (4th Level)",
+			"name": "蕴法刺青（4环）",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 11,
 			"rarity": "rare",
 			"wondrous": true,
 			"tattoo": true,
 			"entries": [
-				"This tattoo contains a single spell, wrought on your skin by a magic needle. To use the tattoo, you must hold the needle against your skin where you want the tattoo to appear and speak the command word. The needle turns into the ink that becomes the tattoo, which appears on your skin. Once the tattoo is on your skin, you can cast its spell, requiring no material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin.",
-				"A spell cast from this tattoo has a spellcasting ability modifier of +4, a save DC of 15 and an attack bonus of +7."
+				"此刺青包含一个法术，由魔法针在你的皮肤上绘制而成。要使用此刺青，你必须将针抵在你希望刺青出现的皮肤上并说出命令语。针会变成墨水并形成刺青，出现在你的皮肤上。一旦刺青出现在你的皮肤上，你就可以施放其法术，且不需要材料成分。当你施放法术时以及法术的持续时间内，刺青会发出微光。一旦法术结束，刺青就会从你的皮肤上消失。",
+				"从此刺青施放的法术具有+4的施法属性调整值，15的豁免DC且+7的攻击加值。"
 			]
 		},
 		{
-			"name": "Spellwrought Tattoo (5th Level)",
+			"ENG_name": "Spellwrought Tattoo (5th Level)",
+			"name": "蕴法刺青（5环）",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 11,
 			"rarity": "rare",
 			"wondrous": true,
 			"tattoo": true,
 			"entries": [
-				"This tattoo contains a single spell, wrought on your skin by a magic needle. To use the tattoo, you must hold the needle against your skin where you want the tattoo to appear and speak the command word. The needle turns into the ink that becomes the tattoo, which appears on your skin. Once the tattoo is on your skin, you can cast its spell, requiring no material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin.",
-				"A spell cast from this tattoo has a spellcasting ability modifier of +5, a save DC of 17 and an attack bonus of +9."
+				"此刺青包含一个法术，由魔法针在你的皮肤上绘制而成。要使用此刺青，你必须将针抵在你希望刺青出现的皮肤上并说出命令语。针会变成墨水并形成刺青，出现在你的皮肤上。一旦刺青出现在你的皮肤上，你就可以施放其法术，且不需要材料成分。当你施放法术时以及法术的持续时间内，刺青会发出微光。一旦法术结束，刺青就会从你的皮肤上消失。",
+				"从此刺青施放的法术具有+5的施法属性调整值，17的豁免DC且+9的攻击加值。"
 			]
 		},
 		{
-			"name": "Spellwrought Tattoo (Cantrip)",
+			"ENG_name": "Spellwrought Tattoo (Cantrip)",
+			"name": "蕴法刺青（戏法）",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 11,
 			"rarity": "common",
 			"wondrous": true,
 			"tattoo": true,
 			"entries": [
-				"This tattoo contains a single spell, wrought on your skin by a magic needle. To use the tattoo, you must hold the needle against your skin where you want the tattoo to appear and speak the command word. The needle turns into the ink that becomes the tattoo, which appears on your skin. Once the tattoo is on your skin, you can cast its spell, requiring no material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin.",
-				"A spell cast from this tattoo has a spellcasting ability modifier of +3, a save DC of 13, and an attack bonus of +5."
+				"此刺青包含一个法术，由魔法针在你的皮肤上绘制而成。要使用此刺青，你必须将针抵在你希望刺青出现的皮肤上并说出命令语。针会变成墨水并形成刺青，出现在你的皮肤上。一旦刺青出现在你的皮肤上，你就可以施放其法术，且不需要材料成分。当你施放法术时以及法术的持续时间内，刺青会发出微光。一旦法术结束，刺青就会从你的皮肤上消失。",
+				"从此刺青施放的法术具有+3的施法属性调整值，13的豁免DC，且+5的攻击加值。"
 			]
 		}
 	],
 	"itemGroup": [
 		{
-			"name": "Barrier Tattoo",
+			"ENG_name": "Barrier Tattoo",
+			"name": "屏障刺青",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 9,
 			"rarity": "varies",
@@ -1272,56 +1361,58 @@
 			"wondrous": true,
 			"tattoo": true,
 			"items": [
-				"Barrier Tattoo (Uncommon)|UA2020SpellsAndMagicTattoos",
-				"Barrier Tattoo (Rare)|UA2020SpellsAndMagicTattoos",
-				"Barrier Tattoo (Very Rare)|UA2020SpellsAndMagicTattoos"
+				"屏障刺青（非普通）|UA2020SpellsAndMagicTattoos",
+				"屏障刺青（珍稀）|UA2020SpellsAndMagicTattoos",
+				"屏障刺青（极珍稀）|UA2020SpellsAndMagicTattoos"
 			]
 		},
 		{
-			"name": "Spellwrought Tattoo",
+			"ENG_name": "Spellwrought Tattoo",
+			"name": "蕴法刺青",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 11,
 			"rarity": "varies",
 			"wondrous": true,
 			"tattoo": true,
 			"items": [
-				"Spellwrought Tattoo (Cantrip)|UA2020SpellsAndMagicTattoos",
-				"Spellwrought Tattoo (1st Level)|UA2020SpellsAndMagicTattoos",
-				"Spellwrought Tattoo (2nd Level)|UA2020SpellsAndMagicTattoos",
-				"Spellwrought Tattoo (3rd Level)|UA2020SpellsAndMagicTattoos",
-				"Spellwrought Tattoo (4th Level)|UA2020SpellsAndMagicTattoos",
-				"Spellwrought Tattoo (5th Level)|UA2020SpellsAndMagicTattoos"
+				"蕴法刺青（戏法）|UA2020SpellsAndMagicTattoos",
+				"蕴法刺青（1环）|UA2020SpellsAndMagicTattoos",
+				"蕴法刺青（2环）|UA2020SpellsAndMagicTattoos",
+				"蕴法刺青（3环）|UA2020SpellsAndMagicTattoos",
+				"蕴法刺青（4环）|UA2020SpellsAndMagicTattoos",
+				"蕴法刺青（5环）|UA2020SpellsAndMagicTattoos"
 			]
 		}
 	],
 	"monster": [
 		{
-			"name": "Aberrant Spirit",
+			"ENG_name": "Aberrant Spirit",
+			"name": "异怪灵魄",
+			"type": "aberration",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 3,
-			"summonedBySpell": "Summon Aberrant Spirit|UA2020SpellsAndMagicTattoos",
+			"summonedBySpell": "召唤异怪灵魄|UA2020SpellsAndMagicTattoos",
 			"summonedBySpellLevel": 4,
 			"size": [
 				"M"
 			],
-			"type": "aberration",
 			"alignment": [
 				"N",
 				"E"
 			],
 			"ac": [
 				{
-					"special": "11 + the level of the spell (natural armor)"
+					"special": "11 + 法术环阶（天生护甲）"
 				}
 			],
 			"hp": {
-				"special": "equal the aberration's Constitution modifier + your spellcasting ability modifier + ten times the spell's level"
+				"special": "等于该畸变生物的体质调整值加上你的法术施放能力调整值再加上法术等级的十倍"
 			},
 			"speed": {
 				"walk": 30,
 				"fly": {
 					"number": 30,
-					"condition": "(beholderkin only; hover)"
+					"condition": "（悬浮）（仅限类眼魔）"
 				},
 				"canHover": true
 			},
@@ -1332,53 +1423,59 @@
 			"wis": 10,
 			"cha": 6,
 			"senses": [
-				"darkvision 60 ft."
+				"黑暗视觉 60 尺"
 			],
 			"passive": 10,
 			"immune": [
 				"psychic"
 			],
 			"languages": [
-				"Deep Speech",
-				"understands the languages you speak"
+				"深潜语",
+				"理解你所说的语言"
 			],
 			"trait": [
 				{
-					"name": "Regeneration (Slaadi Only)",
+					"ENG_name": "Regeneration (Slaadi Only)",
+					"name": "再生（仅史拉蟾怪）",
 					"entries": [
-						"The aberration regains 10 hit points at the start of its turn if it has at least 1 hit point."
+						"如果畸变生物至少有1点生命值，则在其回合开始时恢复10点生命值。"
 					]
 				},
 				{
-					"name": "Whispering Aura (Star Spawn Only)",
+					"ENG_name": "Whispering Aura (Star Spawn Only)",
+					"name": "低语灵光（仅星之子）",
 					"entries": [
-						"At the start of each of the aberration's turns, each creature within 5 feet of it must succeed on a Wisdom saving throw against your spell save DC or take {@damage 3d6} psychic damage, provided that the aberration isn't {@condition incapacitated}."
+						"在畸变生物的每个回合开始时，它周围5英尺内的每个生物必须通过一次对抗你的法术豁免DC的智力豁免，否则会受到{@damage 3d6}心灵伤害，前提是该畸变生物没有处于{@condition 失能}状态。"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"ENG_name": "Multiattack",
+					"name": "多重攻击",
 					"entries": [
-						"The aberration makes a number of attacks equal to half this spell's level (rounded down)."
+						"异怪发动等同于法术环数一半的次数的攻击（向下取整）。"
 					]
 				},
 				{
-					"name": "Eye Ray (Beholderkin Only)",
+					"ENG_name": "Eye Ray (Beholderkin Only)",
+					"name": "眼波射线（仅类眼魔）",
 					"entries": [
-						"{@atk rs} {@hit 3 + summonSpellLevel} to hit, range 30 ft., one creature. {@h}{@damage 1d8 + 3 + summonSpellLevel} psychic damage."
+						"{@atk rs} 命中{@hit 3 + 召唤法术等级}，射程30英尺，一个生物。{@h}{@damage 1d8 + 3 + 召唤法术等级} 心灵伤害。"
 					]
 				},
 				{
-					"name": "Claws (Slaadi Only)",
+					"ENG_name": "Claws (Slaadi Only)",
+					"name": "爪击（仅史拉蟾怪使用）",
 					"entries": [
-						"{@atk mw} {@hit 3 + summonSpellLevel} to hit, reach 5 ft., one target. {@h}{@damage 1d10 + 3 + summonSpellLevel} slashing damage. If the target is a creature, it can't regain hit points until the start of the aberration's next turn."
+						"{@atk mw} 命中{@hit 3 + 召唤法术等级}，射程5英尺，单一目标。{@h}{@damage 1d10 + 3 + 召唤法术等级} 挥砍伤害。如果目标是一个生物，则直到畸变生物的下一回合开始之前，它无法恢复生命值。"
 					]
 				},
 				{
-					"name": "Psychic Slam (Star Spawn Only)",
+					"ENG_name": "Psychic Slam (Star Spawn Only)",
+					"name": "灵能猛击（仅星之子）",
 					"entries": [
-						"{@atk ms} {@hit 3 + summonSpellLevel} to hit, reach 5 ft., one creature. {@h}{@damage 1d6 + 3 + summonSpellLevel} psychic damage."
+						"{@atk ms} 命中{@hit 3 + 召唤法术等级}，射程5英尺，一个生物。{@h}{@damage 1d6 + 3 + 召唤法术等级} 心灵伤害。"
 					]
 				}
 			],
@@ -1407,39 +1504,40 @@
 			]
 		},
 		{
-			"name": "Bestial Spirit",
+			"ENG_name": "Bestial Spirit",
+			"name": "野兽灵魄",
+			"type": "beast",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 4,
-			"summonedBySpell": "Summon Bestial Spirit|UA2020SpellsAndMagicTattoos",
+			"summonedBySpell": "召唤野兽灵魄|UA2020SpellsAndMagicTattoos",
 			"summonedBySpellLevel": 2,
 			"size": [
 				"S"
 			],
-			"type": "beast",
 			"alignment": [
 				"U"
 			],
 			"ac": [
 				{
-					"special": "11 + the level of the spell (natural armor)"
+					"special": "11 + 法术环阶（天生护甲）"
 				}
 			],
 			"hp": {
-				"special": "equal the beast's Constitution modifier + your spellcasting ability modifier + ten times the spell's level"
+				"special": "等于该生物体质调整值加上你的法术施放能力调整值再加上法术等级的十倍"
 			},
 			"speed": {
 				"walk": 30,
 				"climb": {
 					"number": 30,
-					"condition": "(land only)"
+					"condition": "（仅陆地）"
 				},
 				"fly": {
 					"number": 60,
-					"condition": "(air only)"
+					"condition": "（仅空中）"
 				},
 				"swim": {
 					"number": 30,
-					"condition": "(water only)"
+					"condition": "（仅水中）"
 				}
 			},
 			"str": 18,
@@ -1449,43 +1547,48 @@
 			"wis": 14,
 			"cha": 5,
 			"senses": [
-				"darkvision 60 ft."
+				"黑暗视觉 60 尺"
 			],
 			"passive": 12,
 			"languages": [
-				"understands the languages you speak"
+				"理解你所说的语言"
 			],
 			"trait": [
 				{
-					"name": "Amphibious (Water Only)",
+					"ENG_name": "Amphibious (Water Only)",
+					"name": "两栖（仅水生）",
 					"entries": [
-						"The beast can breathe air and water."
+						"野兽可以在空气和水中呼吸。"
 					]
 				},
 				{
-					"name": "Flyby (Air Only)",
+					"ENG_name": "Flyby (Air Only)",
+					"name": "飞掠（仅天空）",
 					"entries": [
-						"The beast doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+						"野兽以飞行离开敌人的触及范围时不会引发对方的借机攻击。"
 					]
 				},
 				{
-					"name": "Pack Tactics (Land and Water Only)",
+					"ENG_name": "Pack Tactics (Land and Water Only)",
+					"name": "集群战术（仅大地与海洋）",
 					"entries": [
-						"The beast has advantage on an attack roll against a creature if at least one of the beast's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"该野兽至少有一个未处于{@condition 失能}的盟友在目标生物 5尺内时，它对该生物发动的攻击检定有优势。"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"ENG_name": "Multiattack",
+					"name": "多重攻击",
 					"entries": [
-						"The beast makes a number of attacks equal to half this spell's level (rounded down)."
+						"野兽发动等同于法术环阶半数（向下取整）次数的攻击。"
 					]
 				},
 				{
-					"name": "Maul",
+					"ENG_name": "Maul",
+					"name": "巨锤",
 					"entries": [
-						"{@atk mw} {@hit 4 + summonSpellLevel} to hit, reach 5 ft., one target. {@h}{@damage 1d8 + 4 + summonSpellLevel} piercing damage."
+						"{@atk mw} 命中{@hit 4 + 召唤法术等级}，触及5英尺，单一目标。{@h}{@damage 1d8 + 4 + 召唤法术等级} 穿刺伤害。"
 					]
 				}
 			],
@@ -1494,7 +1597,7 @@
 				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/UA2020SpellsAndMagicTattoos/tokens/Bestial Spirit.webp"
 			},
 			"attachedItems": [
-				"maul|phb"
+				"巨锤|phb"
 			],
 			"traitTags": [
 				"Amphibious",
@@ -1516,26 +1619,27 @@
 			]
 		},
 		{
-			"name": "Celestial Spirit",
+			"ENG_name": "Celestial Spirit",
+			"name": "天界灵魄",
+			"type": "celestial",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 4,
-			"summonedBySpell": "Summon Celestial Spirit|UA2020SpellsAndMagicTattoos",
+			"summonedBySpell": "召唤天界灵魄|UA2020SpellsAndMagicTattoos",
 			"summonedBySpellLevel": 5,
 			"size": [
 				"L"
 			],
-			"type": "celestial",
 			"alignment": [
 				"N",
 				"G"
 			],
 			"ac": [
 				{
-					"special": "11 + the level of the spell (natural armor)"
+					"special": "11 + 法术环阶（天生护甲）"
 				}
 			],
 			"hp": {
-				"special": "equal the celestial's Constitution modifier + your spellcasting ability modifier + ten times the spell's level"
+				"special": "等于该天界生物的体质调整值加上你的法术施放能力调整值再加上法术等级的十倍"
 			},
 			"speed": {
 				"walk": 30,
@@ -1548,7 +1652,7 @@
 			"wis": 14,
 			"cha": 16,
 			"senses": [
-				"darkvision 60 ft."
+				"黑暗视觉 60 尺"
 			],
 			"passive": 10,
 			"resist": [
@@ -1559,32 +1663,36 @@
 				"frightened"
 			],
 			"languages": [
-				"Celestial",
-				"understands the languages you speak"
+				"天界语",
+				"理解你所说的语言"
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"ENG_name": "Multiattack",
+					"name": "多重攻击",
 					"entries": [
-						"The celestial makes a number of attacks equal to half this spell's level (rounded down)."
+						"天族发动等同于法术环数一半的次数的攻击（向下取整）。"
 					]
 				},
 				{
-					"name": "Radiant Bow (Avenger Only)",
+					"ENG_name": "Radiant Bow (Avenger Only)",
+					"name": "光耀之弓（仅复仇圣灵）",
 					"entries": [
-						"{@atk rw} {@hit 2 + summonSpellLevel} to hit, range 150/600 ft., one target. {@h}{@damage 2d6 + 2 + summonSpellLevel} radiant damage."
+						"{@atk rw} 命中{@hit 2 + 召唤法术等级}，射程150/600英尺，单一目标。{@h}{@damage 2d6 + 2 + 召唤法术等级} 光耀伤害。"
 					]
 				},
 				{
-					"name": "Radiant Mace (Defender Only)",
+					"ENG_name": "Radiant Mace (Defender Only)",
+					"name": "光耀之锤（仅守护圣灵）",
 					"entries": [
-						"{@atk mw} {@hit 3 + summonSpellLevel} to hit, reach 5 ft., one target. {@h}{@damage 1d10 + 3 + summonSpellLevel} radiant damage, and the celestial can choose itself or another creature it can see within 10 feet of the target. The chosen creature gains temporary hit points equal to the damage dealt, provided it doesn't already have temporary hit points."
+						"{@atk mw} 命中{@hit 3 + 召唤法术等级}，触及5英尺，单一目标。{@h}{@damage 1d10 + 3 + 召唤法术等级} 光耀伤害，天界生物可以选择自己或它能看到的10英尺内的另一个生物。被选择的生物获得等同于所造成伤害的临时生命值，前提是它尚未拥有临时生命值。"
 					]
 				},
 				{
-					"name": "Healing Touch (1/Day)",
+					"ENG_name": "Healing Touch (1/Day)",
+					"name": "治愈之触（1/日）",
 					"entries": [
-						"The celestial touches another creature. The target magically regains hit points equal to {@dice 2d8 + summonSpellLevel}."
+						"天族触碰另一生物。目标魔法性地恢复目标等同于 {@dice 2d8 + summonSpellLevel} 点生命值。"
 					]
 				}
 			],
@@ -1611,39 +1719,40 @@
 			]
 		},
 		{
-			"name": "Elemental Spirit",
+			"ENG_name": "Elemental Spirit",
+			"name": "元素灵魄",
+			"type": "elemental",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 5,
-			"summonedBySpell": "Summon Elemental Spirit|UA2020SpellsAndMagicTattoos",
+			"summonedBySpell": "召唤元素灵魄|UA2020SpellsAndMagicTattoos",
 			"summonedBySpellLevel": 4,
 			"size": [
 				"M"
 			],
-			"type": "elemental",
 			"alignment": [
 				"N"
 			],
 			"ac": [
 				{
-					"special": "11 + the level of the spell (natural armor)"
+					"special": "11 + 法术环阶（天生护甲）"
 				}
 			],
 			"hp": {
-				"special": "equal the elemental's Constitution modifier + your spellcasting ability modifier + ten times the spell's level"
+				"special": "等于该元素生物的体质调整值加上你的法术施放能力调整值再加上法术等级的十倍"
 			},
 			"speed": {
 				"walk": 40,
 				"fly": {
 					"number": 40,
-					"condition": "(air only hover)"
+					"condition": "（仅限空中悬浮）"
 				},
 				"burrow": {
 					"number": 40,
-					"condition": "(earth only)"
+					"condition": "（仅土）"
 				},
 				"swim": {
 					"number": 40,
-					"condition": "(water only)"
+					"condition": "（仅水中）"
 				},
 				"canHover": true
 			},
@@ -1654,7 +1763,7 @@
 			"wis": 10,
 			"cha": 16,
 			"senses": [
-				"darkvision 60 ft."
+				"黑暗视觉 60 尺"
 			],
 			"passive": 10,
 			"resist": [
@@ -1663,20 +1772,20 @@
 					"resist": [
 						"thunder"
 					],
-					"note": "(air only)"
+					"note": "（仅空中）"
 				},
 				"piercing",
 				{
 					"resist": [
 						"slashing"
 					],
-					"note": "(earth only)"
+					"note": "（仅土）"
 				},
 				{
 					"resist": [
 						"acid"
 					],
-					"note": "(water only)"
+					"note": "（仅水中）"
 				}
 			],
 			"immune": [
@@ -1685,7 +1794,7 @@
 					"immune": [
 						"fire"
 					],
-					"note": "(fire only)"
+					"note": "（仅火焰）"
 				}
 			],
 			"conditionImmune": [
@@ -1696,28 +1805,31 @@
 				"unconscious"
 			],
 			"languages": [
-				"Primordial",
-				"understands the languages you speak"
+				"原初语",
+				"理解你所说的语言"
 			],
 			"trait": [
 				{
-					"name": "Amorphous Form (Air, Fire, and Water Only)",
+					"ENG_name": "Amorphous Form (Air, Fire, and Water Only)",
+					"name": "不定形态（仅气、火、水）",
 					"entries": [
-						"The elemental can move through a space as narrow as 1 inch wide without squeezing."
+						"该元素生物能够轻松穿过最窄 1 寸宽的狭窄空间而无需挤身通过。"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"ENG_name": "Multiattack",
+					"name": "多重攻击",
 					"entries": [
-						"The elemental makes a number of attacks equal to half this spell's level (rounded down)."
+						"该元素发动等同于法术环阶半数（向下取整）次数的攻击。"
 					]
 				},
 				{
-					"name": "Slam",
+					"ENG_name": "Slam",
+					"name": "猛击",
 					"entries": [
-						"{@atk mw} {@hit 4 + summonSpellLevel} to hit, reach 5 ft., one target. {@h}{@damage 1d10 + 4 + summonSpellLevel} bludgeoning damage (Air, Earth, and Water only) or fire damage (Fire only)."
+						"{@atk mw} 命中{@hit 4 + 召唤法术等级}，触及5英尺，单一目标。{@h}{@damage 1d10 + 4 + 召唤法术等级} 钝击伤害（仅限空气、大地和水元素）或火焰伤害（仅限火元素）。"
 					]
 				}
 			],
@@ -1746,26 +1858,27 @@
 			]
 		},
 		{
-			"name": "Fey Spirit",
+			"ENG_name": "Fey Spirit",
+			"name": "妖精灵魄",
+			"type": "fey",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 5,
-			"summonedBySpell": "Summon Fey Spirit|UA2020SpellsAndMagicTattoos",
+			"summonedBySpell": "召唤精类灵魄|UA2020SpellsAndMagicTattoos",
 			"summonedBySpellLevel": 3,
 			"size": [
 				"S"
 			],
-			"type": "fey",
 			"alignment": [
 				"C",
 				"G"
 			],
 			"ac": [
 				{
-					"special": "11 + the level of the spell (natural armor)"
+					"special": "11 + 法术环阶（天生护甲）"
 				}
 			],
 			"hp": {
-				"special": "equal the fey's Constitution modifier + your spellcasting ability modifier + ten times the spell's level"
+				"special": "等于那个仙灵的体质调整值加上你的法术施放能力调整值再加上法术等级的十倍"
 			},
 			"speed": {
 				"walk": 40
@@ -1777,53 +1890,59 @@
 			"wis": 11,
 			"cha": 16,
 			"senses": [
-				"darkvision 60 ft."
+				"黑暗视觉 60 尺"
 			],
 			"passive": 10,
 			"conditionImmune": [
 				"charmed"
 			],
 			"languages": [
-				"Sylvan",
-				"understands the languages you speak"
+				"木族语",
+				"理解你所说的语言"
 			],
 			"trait": [
 				{
-					"name": "Fey Step",
+					"ENG_name": "Fey Step",
+					"name": "妖精步伐",
 					"entries": [
-						"As a bonus action, the fey can magically teleport up to 30 feet to an unoccupied space it can see."
+						"作为附赠动作，妖精可以魔法传送最多30英尺到一个它能看到的未被占据的空间。"
 					]
 				},
 				{
-					"name": "Darkening Step (Deceitful Only)",
+					"ENG_name": "Darkening Step (Deceitful Only)",
+					"name": "幽暗之步（仅诡诈）",
 					"entries": [
-						"Immediately after using its Fey Step, the fey can fill a 5-foot cube within 5 feet of it with magical darkness, which remains until the end of the fey's next turn."
+						"在使用其妖精步之后，妖精可以立即在其5英尺内填充一个5英尺的立方体空间，用魔法制造的黑暗，这种黑暗持续到妖精下一回合结束。"
 					]
 				},
 				{
-					"name": "Ecstatic Step (Joyful Only)",
+					"ENG_name": "Ecstatic Step (Joyful Only)",
+					"name": "狂喜之步（仅欢乐）",
 					"entries": [
-						"Immediately after using its Fey Step, the fey can choose a creature it can see within 10 feet of it and force it to succeed on a Wisdom saving throw against your spell save DC or be {@condition charmed} by the fey for 1 minute. The charm ends if the fey or any of its companions deals any damage to the target."
+						"在其回合结束前，立即使用其妖精步之后，妖精可以选择它能看到的10英尺内的生物，并强迫它通过你的法术豁免DC进行感知豁免检定，否则会被{@condition 魅惑}1分钟。如果妖精或其任何同伴对目标造成任何伤害，则魅惑效果结束。"
 					]
 				},
 				{
-					"name": "Impassioned Step (Furious Only)",
+					"ENG_name": "Impassioned Step (Furious Only)",
+					"name": "充满激情的步伐（仅狂怒）",
 					"entries": [
-						"Immediately after using its Fey Step, the fey has advantage on the next attack roll it makes before the end of its turn."
+						"在使用仙灵步之后，仙灵在其回合结束前进行的下一次攻击检定中具有优势。"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"ENG_name": "Multiattack",
+					"name": "多重攻击",
 					"entries": [
-						"The fey makes a number of attacks equal to half this spell's level (rounded down)."
+						"妖精发动等同于法术环阶半数（向下取整）次数的攻击。"
 					]
 				},
 				{
-					"name": "Shortsword",
+					"ENG_name": "Shortsword",
+					"name": "短剑",
 					"entries": [
-						"{@atk mw} {@hit 3 + summonSpellLevel} to hit, reach 5 ft., one target. {@h}{@damage 1d6 + 3 + summonSpellLevel} piercing damage {@damage + 1d6} force damage."
+						"{@atk mw} 命中{@hit 3 + 召唤法术等级}，触及5英尺，单一目标。{@h}{@damage 1d6 + 3 + 召唤法术等级} 穿刺伤害 {@damage + 1d6} 力量伤害。"
 					]
 				}
 			],
@@ -1832,7 +1951,7 @@
 				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/UA2020SpellsAndMagicTattoos/tokens/Fey Spirit.webp"
 			},
 			"attachedItems": [
-				"shortsword|phb"
+				"短剑|phb"
 			],
 			"senseTags": [
 				"D"
@@ -1857,55 +1976,56 @@
 			]
 		},
 		{
-			"name": "Fiendish Spirit",
+			"ENG_name": "Fiendish Spirit",
+			"name": "邪魔灵魄",
+			"type": "fiend",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 6,
-			"summonedBySpell": "Summon Fiendish Spirit|UA2020SpellsAndMagicTattoos",
+			"summonedBySpell": "召唤邪魔灵魄|UA2020SpellsAndMagicTattoos",
 			"summonedBySpellLevel": 6,
 			"size": [
 				"L"
 			],
-			"type": "fiend",
 			"alignment": [
 				{
 					"alignment": [
 						"C",
 						"E"
 					],
-					"note": "Demon only"
+					"note": "仅限恶魔"
 				},
 				{
 					"alignment": [
 						"L",
 						"E"
 					],
-					"note": "Devil only"
+					"note": "仅限恶魔"
 				},
 				{
 					"alignment": [
 						"N",
 						"E"
 					],
-					"note": "Yugoloth only"
+					"note": "尤格罗斯专有"
 				}
 			],
 			"ac": [
 				{
-					"special": "11 + the level of the spell (natural armor)"
+					"special": "11 + 法术环阶（天生护甲）"
 				}
 			],
 			"hp": {
-				"special": "equal the fiend's Constitution modifier + your spellcasting ability modifier + ten times the spell's level"
+				"special": "等于该魔物的体质调整值加上你的法术施放能力调整值再加上法术等级的十倍"
 			},
 			"speed": {
 				"walk": 40,
 				"climb": {
 					"number": 40,
-					"condition": "(demon only)"
+					"condition": "（仅恶魔）"
 				},
 				"fly": {
 					"number": 60,
-					"condition": "(devil only)"
+					"condition": "（仅魔鬼）"
 				}
 			},
 			"str": 13,
@@ -1915,7 +2035,7 @@
 			"wis": 10,
 			"cha": 16,
 			"senses": [
-				"darkvision 60 ft."
+				"黑暗视觉 60 尺"
 			],
 			"passive": 10,
 			"resist": [
@@ -1928,53 +2048,60 @@
 				"poisoned"
 			],
 			"languages": [
-				"Abyssal",
-				"Infernal",
-				"telepathy 60 ft."
+				"深渊语",
+				"炼狱",
+				"心灵感应 60 尺"
 			],
 			"trait": [
 				{
-					"name": "Magic Resistance",
+					"ENG_name": "Magic Resistance",
+					"name": "魔法抗性",
 					"entries": [
-						"The fiend has advantage on saving throws against spells and other magical effects."
+						"邪魔为抵抗法术和其他魔法效应而作的豁免检定具有优势。"
 					]
 				},
 				{
-					"name": "Death Throes (Demon Only)",
+					"ENG_name": "Death Throes (Demon Only)",
+					"name": "焚身爆（仅恶魔）",
 					"entries": [
-						"When the fiend drops to 0 hit points or the spell ends, the fiend explodes, and each creature within 10 feet of it must make a Dexterity saving throw against your spell save DC. A creature takes {@damage 2d10 + summonSpellLevel} fire damage on a failed save, or half as much damage on a successful one."
+						"邪魔生命值降为0时或法术结束时将爆炸，其周围 10 尺内每个生物必须进行一次敏捷豁免对抗你的法术豁免DC，豁免失败则将受到 {@damage 2d10 + 法术环位}的火焰伤害，豁免成功则伤害减半。"
 					]
 				},
 				{
-					"name": "Devil's Sight (Devil Only)",
+					"ENG_name": "Devil's Sight (Devil Only)",
+					"name": "魔鬼视界（仅魔鬼）",
 					"entries": [
-						"Magical darkness doesn't impede the fiend's darkvision."
+						"魔法黑暗不会阻碍邪魔的黑暗视觉。"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"ENG_name": "Multiattack",
+					"name": "多重攻击",
 					"entries": [
-						"The fiend makes a number of attacks equal to half this spell's level (rounded down)."
+						"邪魔发动等同于法术环数一半的次数的攻击（向下取整）。"
 					]
 				},
 				{
-					"name": "Bite (Demon Only)",
+					"ENG_name": "Bite (Demon Only)",
+					"name": "啃咬（仅恶魔）",
 					"entries": [
-						"{@atk mw} {@hit 3 + summonSpellLevel} to hit, reach 5 ft., one target. {@h}{@damage 1d12 + 3 + summonSpellLevel} necrotic damage."
+						"{@atk mw} 命中{@hit 3 + 召唤法术等级}，触及5英尺，单一目标。{@h}{@damage 1d12 + 3 + 召唤法术等级} 亡灵伤害。"
 					]
 				},
 				{
-					"name": "Claws (Yugoloth Only)",
+					"ENG_name": "Claws (Yugoloth Only)",
+					"name": "爪击（仅尤格罗斯魔）",
 					"entries": [
-						"{@atk mw} {@hit 3 + summonSpellLevel} to hit, reach 5 ft., one target. {@h}{@damage 1d8 + 3 + summonSpellLevel} slashing damage. Immediately after the attack hits or misses, the fiend can magically teleport up to 30 feet to an unoccupied space it can see."
+						"{@atk mw} 命中{@hit 3 + 召唤法术等级}，触及5英尺，单一目标。{@h}{@damage 1d8 + 3 + 召唤法术等级} 挥砍伤害。在攻击命中或未命中后，这个魔物可以魔法传送至其可以看到的未被占据的空间，传送距离最多30英尺。"
 					]
 				},
 				{
-					"name": "Hurl Flame (Devil Only)",
+					"ENG_name": "Hurl Flame (Devil Only)",
+					"name": "投掷烈焰（仅限于魔鬼）",
 					"entries": [
-						"{@atk rs} {@hit 3 + summonSpellLevel} to hit, range 150 ft., one target. {@h}{@damage 2d6 + 3 + summonSpellLevel} fire damage. If the target is a flammable object that isn't being worn or carried, it also catches fire."
+						"{@atk rs} 命中{@hit 3 + 召唤法术等级}，射程 150 英尺，单一目标。{@h}{@damage 2d6 + 3 + 召唤法术等级} 火焰伤害。如果目标是一个易燃物体且没有被穿戴或携带，它也会着火。"
 					]
 				}
 			],
@@ -2008,26 +2135,27 @@
 			]
 		},
 		{
-			"name": "Shadow Spirit",
+			"ENG_name": "Shadow Spirit",
+			"name": "暗影灵魄",
+			"type": "monstrosity",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 7,
-			"summonedBySpell": "Summon Shadow Spirit|UA2020SpellsAndMagicTattoos",
+			"summonedBySpell": "召唤暗影灵魄|UA2020SpellsAndMagicTattoos",
 			"summonedBySpellLevel": 3,
 			"size": [
 				"M"
 			],
-			"type": "monstrosity",
 			"alignment": [
 				"N",
 				"E"
 			],
 			"ac": [
 				{
-					"special": "11 + the level of the spell (natural armor)"
+					"special": "11 + 法术环阶（天生护甲）"
 				}
 			],
 			"hp": {
-				"special": "equal the shadow's Constitution modifier + your spellcasting ability modifier + ten times the spell's level"
+				"special": "等于阴影的体质调整值加上你的法术施放能力调整值加上法术等级的十倍"
 			},
 			"speed": {
 				"walk": 40
@@ -2039,7 +2167,7 @@
 			"wis": 10,
 			"cha": 16,
 			"senses": [
-				"darkvision 120 ft."
+				"黑暗视觉 120 尺"
 			],
 			"passive": 10,
 			"resist": [
@@ -2049,46 +2177,52 @@
 				"frightened"
 			],
 			"languages": [
-				"Common",
-				"understands the languages you speak"
+				"通用语",
+				"理解你所说的语言"
 			],
 			"trait": [
 				{
-					"name": "Bloodthirsty Frenzy (Fury Only)",
+					"ENG_name": "Bloodthirsty Frenzy (Fury Only)",
+					"name": "嗜血狂暴（仅狂怒）",
 					"entries": [
-						"The spirit has advantage on attack rolls against {@condition frightened} creatures."
+						"该灵魄对恐慌生物发动的{@condition 恐慌}检定具有优势。"
 					]
 				},
 				{
-					"name": "Shadow Stealth (Fear Only)",
+					"ENG_name": "Shadow Stealth (Fear Only)",
+					"name": "暗影潜藏（仅限恐惧）",
 					"entries": [
-						"While in dim light or darkness, the spirit can take the Hide action as a bonus action."
+						"在微光或黑暗中，灵体可以将隐匿动作作为额外动作进行。"
 					]
 				},
 				{
-					"name": "Weight of Ages (Despair Only)",
+					"ENG_name": "Weight of Ages (Despair Only)",
+					"name": "岁月之重（仅绝望）",
 					"entries": [
-						"Any beast or humanoid, other than you, that starts its turn within 5 feet of the spirit has its speed reduced by 20 feet until the start of that beast or humanoid's next turn."
+						"任何野兽或类人生物（除了你），如果在其回合开始时距离灵体5英尺以内，其速度在该野兽或类人生物的下一个回合开始前减少20英尺。"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"ENG_name": "Multiattack",
+					"name": "多重攻击",
 					"entries": [
-						"The spirit makes a number of attacks equal to half this spell's level (rounded down)."
+						"该灵魄发动等同于法术环数一半的次数的攻击（向下取整）。"
 					]
 				},
 				{
-					"name": "Chilling Rend",
+					"ENG_name": "Chilling Rend",
+					"name": "冻寒撕裂",
 					"entries": [
-						"{@atk mw} {@hit 3 + summonSpellLevel} to hit, reach 5 ft., one target. {@h}{@damage 2d8 + 3 + summonSpellLevel} cold damage."
+						"{@atk mw} 命中{@hit 3 + 召唤法术等级}，射程5英尺，单一目标。{@h}{@damage 2d8 + 3 + 召唤法术等级} 寒冷伤害。"
 					]
 				},
 				{
-					"name": "Dreadful Scream (1/Day)",
+					"ENG_name": "Dreadful Scream (1/Day)",
+					"name": "恐惧尖叫（1/日）",
 					"entries": [
-						"The spirit screams. Each creature within 30 feet of it must succeed on a Wisdom saving throw against your spell save DC or be {@condition frightened} of the spirit for 1 minute. The {@condition frightened} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"该精神体发出尖叫。每个在其30英尺范围内的生物必须通过一次对抗你的法术豁免DC的智力豁免，否则在1分钟内被该精神体{@condition 恐慌}。处于{@condition 恐慌}状态的生物可以在其每个回合结束时重复进行豁免检定，成功则自行结束此效果。"
 					]
 				}
 			],
@@ -2116,32 +2250,33 @@
 			]
 		},
 		{
-			"name": "Undead Spirit",
+			"ENG_name": "Undead Spirit",
+			"name": "亡灵灵魄",
+			"type": "undead",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 8,
-			"summonedBySpell": "Summon Undead Spirit|UA2020SpellsAndMagicTattoos",
+			"summonedBySpell": "召唤不死灵魄|UA2020SpellsAndMagicTattoos",
 			"summonedBySpellLevel": 3,
 			"size": [
 				"M"
 			],
-			"type": "undead",
 			"alignment": [
 				"N",
 				"E"
 			],
 			"ac": [
 				{
-					"special": "11 + the level of the spell (natural armor)"
+					"special": "11 + 法术环阶（天生护甲）"
 				}
 			],
 			"hp": {
-				"special": "equal the undead's Constitution modifier + your spellcasting ability modifier + ten times the spell's level"
+				"special": "等于亡灵的体质调整值加上你的法术施放能力调整值再加上法术等级的十倍"
 			},
 			"speed": {
 				"walk": 30,
 				"fly": {
 					"number": 40,
-					"condition": "(ghostly only; hover)"
+					"condition": "（悬浮）（仅限幽体）"
 				},
 				"canHover": true
 			},
@@ -2152,7 +2287,7 @@
 			"wis": 10,
 			"cha": 9,
 			"senses": [
-				"darkvision 60 ft."
+				"黑暗视觉 60 尺"
 			],
 			"passive": 10,
 			"immune": [
@@ -2166,46 +2301,52 @@
 				"poisoned"
 			],
 			"languages": [
-				"Common",
-				"understands the languages you speak"
+				"通用语",
+				"理解你所说的语言"
 			],
 			"trait": [
 				{
-					"name": "Incorporeal Movement (Ghostly Only)",
+					"ENG_name": "Incorporeal Movement (Ghostly Only)",
+					"name": "虚体移动（仅限幽体）",
 					"entries": [
-						"The undead can become incorporeal while moving and pass through other creatures and objects as if they were {@quickref difficult terrain||3}. If it ends its turn inside an object, it is shunted to the nearest unoccupied space and takes {@damage 1d10} force damage for every 5 feet traveled."
+						"不死灵魄在移动时可以变为虚体，并穿过其他生物和物件，如同它们是{@quickref 困难地形||3}。如果它在物件内结束回合，它会被推挤到最近的未占据空间，并且每移动5英尺受到{@damage 1d10}力场伤害。"
 					]
 				},
 				{
-					"name": "Festering Aura (Putrid Only)",
+					"ENG_name": "Festering Aura (Putrid Only)",
+					"name": "腐灭灵光（仅腐尸）",
 					"entries": [
-						"Any creature, other than you, that starts its turn within 5 feet of the undead must succeed on a Constitution saving throw against your spell save DC or be {@condition poisoned} until the start of its next turn."
+						"任何生物，除了你，如果在亡灵的5英尺范围内开始其回合，必须成功通过一次体质豁免检定，对抗你的法术豁免DC，否则直到其下一回合开始时会被{@condition 中毒}。"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack",
+					"ENG_name": "Multiattack",
+					"name": "多重攻击",
 					"entries": [
-						"The spirit makes a number of attacks equal to half this spell's level (rounded down)."
+						"该灵魄发动等同于法术环数一半的次数的攻击（向下取整）。"
 					]
 				},
 				{
-					"name": "Deathly Touch (Ghostly Only)",
+					"ENG_name": "Deathly Touch (Ghostly Only)",
+					"name": "致死之触（仅幽体）",
 					"entries": [
-						"{@atk mw} {@hit 3 + summonSpellLevel} to hit, reach 5 ft., one creature. {@h}{@damage 1d8 + 3 + summonSpellLevel} necrotic damage, and the creature must succeed on a Wisdom saving throw against your spell save DC or be {@condition frightened} of the undead until the end of the target's next turn."
+						"{@atk mw} 命中{@hit 3 + 召唤法术等级}，射程5英尺，一个生物。{@h}{@damage 1d8 + 3 + 召唤法术等级} 坏死伤害，并且该生物必须通过一次对抗你的法术豁免DC的智力豁免，否则在目标的下一回合结束前被{@condition 恐慌}不死生物。"
 					]
 				},
 				{
-					"name": "Grave Bolt (Skeletal Only)",
+					"ENG_name": "Grave Bolt (Skeletal Only)",
+					"name": "暗澹箭（仅骷髅）",
 					"entries": [
-						"{@atk rs} {@hit 3 + summonSpellLevel} to hit, range 150 ft., one target. {@h}{@damage 2d8 + 3 + summonSpellLevel} necrotic damage."
+						"{@atk rs} 命中{@hit 3 + 召唤法术等级}，射程150英尺，单一目标。{@h}{@damage 2d8 + 3 + 召唤法术等级} 坏死伤害。"
 					]
 				},
 				{
-					"name": "Rotting Claw (Putrid Only)",
+					"ENG_name": "Rotting Claw (Putrid Only)",
+					"name": "腐灭爪击（仅腐尸）",
 					"entries": [
-						"{@atk mw} {@hit 3 + summonSpellLevel} to hit, reach 5 ft., one target. {@h}{@damage 1d6 + 3 + summonSpellLevel} slashing damage. If the target is {@condition poisoned}, it must succeed on a Constitution saving throw against your spell save DC or be {@condition paralyzed} until the end of its next turn."
+						"{@atk mw} 命中{@hit 3 + 召唤法术等级}，射程5英尺，单一目标。{@h}{@damage 1d6 + 3 + 召唤法术等级} 挥砍伤害。如果目标处于{@condition 中毒}状态，它必须通过一次对抗你的法术豁免DC的体质豁免，否则直到其下一回合结束时处于{@condition 麻痹}状态。"
 					]
 				}
 			],
@@ -2242,19 +2383,20 @@
 	],
 	"variantrule": [
 		{
-			"name": "Magic Tattoos",
+			"ENG_name": "Magic Tattoos",
+			"name": "魔法文身",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 8,
 			"entries": [
-				"Blending magic and artistry with ink and needles, magic tattoos imbue their bearers with wondrous effects and abilities. Magic tattoos are initially bound to magic needles, which transfer their magic to a creature. The designs of magic tattoos vary greatly in appearance depending on who created it, but they share general characteristics that hint at the effect of the tattoo.",
-				"Once inscribed on a creature's skin, damage or injury doesn't impair the tattoo's function, even if the tattoo is defaced.",
-				"The rarer a magic tattoo is, the more space it occupies on a creature's skin. The Magic Tattoo Coverage table offers guidelines for how large a given tattoo is.",
+				"将魔法与艺术用墨水和针刺相结合，魔法文身赋予其佩戴者神奇的效应和属性。魔法文身最初连接到魔法针刺上，这些针刺将它们的魔法转移给一个生物。魔法文身的外貌设计因创造者而异，但它们共享暗示刺青效应的通用性格特征。",
+				"一旦铭刻在生物的皮肤上，伤害或伤口不会影响刺青的功能，即使刺青被损毁。",
+				"魔法刺青越珍稀，它在生物皮肤上占据的空间就越大。魔法刺青覆盖范围表格提供了关于特定刺青大小的指南。",
 				{
 					"type": "table",
-					"caption": "Magic Tattoo Coverage",
+					"caption": "魔法刺青覆盖范围",
 					"colLabels": [
-						"Tattoo Rarity",
-						"Area Covered"
+						"刺青稀有度",
+						"覆盖区域"
 					],
 					"colStyles": [
 						"col-6",
@@ -2262,54 +2404,56 @@
 					],
 					"rows": [
 						[
-							"Common",
-							"Up to 6 inches"
+							"通用语",
+							"最大6英寸"
 						],
 						[
-							"Uncommon",
-							"Half a limb or the scalp"
+							"非普通",
+							"半条肢体或一整块头皮"
 						],
 						[
-							"Rare",
-							"One limb"
+							"珍稀",
+							"一条肢体"
 						],
 						[
-							"Very Rare",
-							"Two limbs or the chest or upper back"
+							"极珍稀",
+							"两条肢体或胸膛或上背部"
 						],
 						[
-							"Legendary",
-							"Two limbs and the torso"
+							"传说",
+							"两条肢体与躯干"
 						]
 					]
 				},
 				{
+					"ENG_name": "Variant: Body Modification",
+					"name": "变体：身体改造",
 					"type": "inset",
-					"name": "Variant: Body Modification",
 					"entries": [
-						"These items needn't be limited to just tattoos. They can instead be presented as other body modifications such as brands, scarification, birthmarks, patterns of scales, or any other cosmetic skin adornment or alteration. Consider the object a magical body modification is bound to instead of tattoo needles, such as branding irons or enchanted dragon scales."
+						"这些物品不必仅限于刺青。它们也可以表现为其他身体改造，例如烙印、瘢痕、胎记、鳞片图案，或任何其他装饰性或改变性的皮肤修饰。可以将魔法身体改造的连接物件视为烙印铁或附魔龙鳞，而非刺青针。"
 					]
 				},
 				{
+					"ENG_name": "Tattoo Descriptions",
+					"name": "魔法文身描述",
 					"type": "entries",
-					"name": "Tattoo Descriptions",
 					"entries": [
-						"The magic tattoos are presented in alphabetical order. They follow the rules for magic items, as presented in the {@book Dungeon Master's Guide|DMG|7|Magic Items}.",
+						"魔法文身按字母顺序排列。它们遵循魔法物品的规则，如{@book 城主指南|DMG|7|魔法物品}中所述。",
 						{
 							"type": "list",
 							"columns": 3,
 							"items": [
-								"{@item Absorbing Tattoo|UA2020SpellsAndMagicTattoos}",
-								"{@item Barrier Tattoo|UA2020SpellsAndMagicTattoos}",
-								"{@item Blood Fury Tattoo|UA2020SpellsAndMagicTattoos}",
-								"{@item Coiling Grasp Tattoo|UA2020SpellsAndMagicTattoos}",
-								"{@item Eldritch Claw Tattoo|UA2020SpellsAndMagicTattoos}",
-								"{@item Ghost Step Tattoo|UA2020SpellsAndMagicTattoos}",
-								"{@item Illuminator's Tattoo|UA2020SpellsAndMagicTattoos}",
-								"{@item Lifewell Tattoo|UA2020SpellsAndMagicTattoos}",
-								"{@item Masquerade Tattoo|UA2020SpellsAndMagicTattoos}",
-								"{@item Shadowfell Brand Tattoo|UA2020SpellsAndMagicTattoos}",
-								"{@item Spellwrought Tattoo|UA2020SpellsAndMagicTattoos}"
+								"{@item 吸收刺青|UA2020SpellsAndMagicTattoos}",
+								"{@item 屏障刺青|UA2020SpellsAndMagicTattoos}",
+								"{@item 血怒刺青|UA2020SpellsAndMagicTattoos}",
+								"{@item 缠爪刺青|UA2020SpellsAndMagicTattoos}",
+								"{@item 魔能爪刺青|UA2020SpellsAndMagicTattoos}",
+								"{@item 鬼步刺青|UA2020SpellsAndMagicTattoos}",
+								"{@item 解文刺青|UA2020SpellsAndMagicTattoos}",
+								"{@item 命源刺青|UA2020SpellsAndMagicTattoos}",
+								"{@item 伪装刺青|UA2020SpellsAndMagicTattoos}",
+								"{@item 堕影冥界印记刺青|UA2020SpellsAndMagicTattoos}",
+								"{@item 蕴法刺青|UA2020SpellsAndMagicTattoos}"
 							]
 						}
 					]

@@ -1,11 +1,10 @@
 {
-	"$schema": "https://raw.githack.com/TheGiddyLimit/5etools-utils/master/schema/ua/homebrew.json",
 	"_meta": {
 		"sources": [
 			{
 				"json": "XUA2026VillainousOptionsUpdate",
 				"abbreviation": "XUA26VOU",
-				"full": "Unearthed Arcana 2026: Villainous Options Update",
+				"full": "破解奥秘 2026：反派选项更新",
 				"url": "https://media.dndbeyond.com/compendium-images/ua/villainous-options-revisited/Cbzg7luMwkSQRoc0/UA2026-VillainousOptionsRevisited.pdf",
 				"version": "1.0.0",
 				"dateReleased": "2026-06-18",
@@ -20,244 +19,258 @@
 		"edition": "one",
 		"status": "ready",
 		"dateAdded": 1781806232,
-		"dateLastModified": 1781806232,
+		"dateLastModified": 1792466249,
 		"_dateLastModifiedHash": "1ea2fccc09"
 	},
 	"subclass": [
 		{
-			"name": "Circle of the Titan",
-			"shortName": "Titan",
+			"ENG_name": "Circle of the Titan",
+			"name": "泰坦结社",
+			"shortName": "泰坦",
 			"source": "XUA2026VillainousOptionsUpdate",
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "XPHB",
 			"page": 1,
 			"additionalSpells": [
 				{
 					"prepared": {
 						"3": [
-							"Enlarge/Reduce|XPHB",
-							"Thunderwave|XPHB",
-							"Thaumaturgy|XPHB"
+							"变巨/缩小术|XPHB",
+							"雷鸣波|XPHB",
+							"奇术|XPHB"
 						],
 						"5": [
-							"Fear|XPHB"
+							"恐惧|XPHB"
 						],
 						"7": [
-							"Fire Shield|XPHB"
+							"火焰护盾|XPHB"
 						],
 						"9": [
-							"Destructive Wave|XPHB"
+							"湮灭波|XPHB"
 						]
 					}
 				}
 			],
 			"subclassSpells": [
-				"Enlarge/Reduce|XPHB",
-				"Thunderwave|XPHB",
-				"Thaumaturgy|XPHB",
-				"Fear|XPHB",
-				"Fire Shield|XPHB",
-				"Destructive Wave|XPHB"
+				"变巨/缩小术|XPHB",
+				"雷鸣波|XPHB",
+				"奇术|XPHB",
+				"恐惧|XPHB",
+				"火焰护盾|XPHB",
+				"湮灭波|XPHB"
 			],
 			"subclassFeatures": [
-				"Circle of the Titan|Druid|XPHB|Titan|XUA2026VillainousOptionsUpdate|3|XUA2026VillainousOptionsUpdate",
-				"Dire Impact|Druid|XPHB|Titan|XUA2026VillainousOptionsUpdate|6|XUA2026VillainousOptionsUpdate",
-				"Primal Havoc|Druid|XPHB|Titan|XUA2026VillainousOptionsUpdate|10|XUA2026VillainousOptionsUpdate",
-				"Monstrous Appetite|Druid|XPHB|Titan|XUA2026VillainousOptionsUpdate|14|XUA2026VillainousOptionsUpdate"
+				"泰坦结社|德鲁伊|XPHB|泰坦|XUA2026VillainousOptionsUpdate|3|XUA2026反派选项更新",
+				"恐怖冲击|德鲁伊|XPHB|泰坦|XUA2026VillainousOptionsUpdate|6|XUA2026反派选项更新",
+				"原始浩劫|德鲁伊|XPHB|泰坦|XUA2026VillainousOptionsUpdate|10|XUA2026反派选项更新",
+				"怪物胃口|德鲁伊|XPHB|泰坦|XUA2026VillainousOptionsUpdate|14|XUA2026反派选项更新"
 			],
 			"hasFluff": true
 		},
 		{
-			"name": "Demonic Sorcery",
-			"shortName": "Demonic",
+			"ENG_name": "Demonic Sorcery",
+			"name": "恶魔语巫术",
+			"shortName": "恶魔语",
 			"source": "XUA2026VillainousOptionsUpdate",
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
 			"page": 5,
 			"additionalSpells": [
 				{
 					"prepared": {
 						"3": [
-							"Bane|XPHB",
-							"Dissonant Whispers|XPHB",
-							"Spike Growth|XPHB",
-							"Web|XPHB"
+							"灾祸术|XPHB",
+							"不谐低语|XPHB",
+							"荆棘丛生|XPHB",
+							"蛛网术|XPHB"
 						],
 						"5": [
-							"Dispel Magic|XPHB",
-							"Bestow Curse|XPHB"
+							"解除魔法|XPHB",
+							"降咒|XPHB"
 						],
 						"7": [
-							"Giant Insect|XPHB",
-							"Hallucinatory Terrain|XPHB"
+							"巨虫|XPHB",
+							"幻景|XPHB"
 						],
 						"9": [
-							"Contact Other Plane|XPHB",
-							"Modify Memory|XPHB"
+							"异界探知|XPHB",
+							"篡改记忆|XPHB"
 						],
 						"14": [
-							"Summon Fiend|XPHB"
+							"邪魔召唤术|XPHB"
 						]
 					}
 				}
 			],
 			"subclassSpells": [
-				"Bane|XPHB",
-				"Dissonant Whispers|XPHB",
-				"Spike Growth|XPHB",
-				"Web|XPHB",
-				"Dispel Magic|XPHB",
-				"Bestow Curse|XPHB",
-				"Giant Insect|XPHB",
-				"Hallucinatory Terrain|XPHB",
-				"Contact Other Plane|XPHB",
-				"Modify Memory|XPHB",
-				"Summon Fiend|XPHB"
+				"灾祸术|XPHB",
+				"不谐低语|XPHB",
+				"荆棘丛生|XPHB",
+				"蛛网术|XPHB",
+				"解除魔法|XPHB",
+				"降咒|XPHB",
+				"巨虫|XPHB",
+				"幻景|XPHB",
+				"异界探知|XPHB",
+				"篡改记忆|XPHB",
+				"邪魔召唤术|XPHB"
 			],
 			"subclassFeatures": [
-				"Demonic Sorcery|Sorcerer|XPHB|Demonic|XUA2026VillainousOptionsUpdate|3|XUA2026VillainousOptionsUpdate",
-				"Abyssal Realm|Sorcerer|XPHB|Demonic|XUA2026VillainousOptionsUpdate|6|XUA2026VillainousOptionsUpdate",
-				"Abyssal Conduit|Sorcerer|XPHB|Demonic|XUA2026VillainousOptionsUpdate|14|XUA2026VillainousOptionsUpdate",
-				"Abyssal Explosion|Sorcerer|XPHB|Demonic|XUA2026VillainousOptionsUpdate|18|XUA2026VillainousOptionsUpdate"
+				"恶魔语巫术|术士|XPHB|恶魔语|XUA2026VillainousOptionsUpdate|3|XUA2026反派选项更新",
+				"深渊领域|术士|XPHB|恶魔语|XUA2026VillainousOptionsUpdate|6|XUA2026反派选项更新",
+				"深渊导管|术士|XPHB|恶魔语|XUA2026VillainousOptionsUpdate|14|XUA2026反派选项更新",
+				"深渊爆炸|术士|XPHB|恶魔语|XUA2026VillainousOptionsUpdate|18|XUA2026反派选项更新"
 			],
 			"hasFluff": true
 		},
 		{
-			"name": "Hell Knight",
-			"shortName": "Hell Knight",
+			"ENG_name": "Hell Knight",
+			"name": "地狱骑士",
+			"shortName": "地狱骑士",
 			"source": "XUA2026VillainousOptionsUpdate",
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
 			"page": 4,
 			"subclassFeatures": [
-				"Hell Knight|Fighter|XPHB|Hell Knight|XUA2026VillainousOptionsUpdate|3|XUA2026VillainousOptionsUpdate",
-				"Advanced Wounds|Fighter|XPHB|Hell Knight|XUA2026VillainousOptionsUpdate|7|XUA2026VillainousOptionsUpdate",
-				"Infernal Equipment|Fighter|XPHB|Hell Knight|XUA2026VillainousOptionsUpdate|7|XUA2026VillainousOptionsUpdate",
-				"Hellfire Surge|Fighter|XPHB|Hell Knight|XUA2026VillainousOptionsUpdate|10|XUA2026VillainousOptionsUpdate",
-				"Devil's Misfortune|Fighter|XPHB|Hell Knight|XUA2026VillainousOptionsUpdate|15|XUA2026VillainousOptionsUpdate",
-				"Infernal Bargain|Fighter|XPHB|Hell Knight|XUA2026VillainousOptionsUpdate|18|XUA2026VillainousOptionsUpdate"
+				"地狱骑士|战士|XPHB|地狱骑士|XUA2026VillainousOptionsUpdate|3|XUA2026反派选项更新",
+				"进阶创伤|战士|XPHB|地狱骑士|XUA2026VillainousOptionsUpdate|7|XUA2026反派选项更新",
+				"炼狱装备|战士|XPHB|地狱骑士|XUA2026VillainousOptionsUpdate|7|XUA2026反派选项更新",
+				"地狱火崩天疾驰|战士|XPHB|地狱骑士|XUA2026VillainousOptionsUpdate|10|XUA2026反派选项更新",
+				"魔鬼厄运|战士|XPHB|地狱骑士|XUA2026VillainousOptionsUpdate|15|XUA2026反派选项更新",
+				"炼狱契约|战士|XPHB|地狱骑士|XUA2026VillainousOptionsUpdate|18|XUA2026反派选项更新"
 			],
 			"hasFluff": true
 		}
 	],
 	"subclassFluff": [
 		{
-			"name": "Circle of the Titan",
-			"shortName": "Titan",
+			"ENG_name": "Circle of the Titan",
+			"name": "泰坦结社",
+			"shortName": "泰坦",
 			"source": "XUA2026VillainousOptionsUpdate",
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "XPHB",
 			"entries": [
-				"{@i Wreak Colossal Havoc}"
+				"{@i 制造庞然浩劫}"
 			]
 		},
 		{
-			"name": "Demonic Sorcery",
-			"shortName": "Demonic",
+			"ENG_name": "Demonic Sorcery",
+			"name": "恶魔语巫术",
+			"shortName": "恶魔语",
 			"source": "XUA2026VillainousOptionsUpdate",
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
 			"entries": [
-				"{@i Summon the Powers of the Abyss}"
+				"{@i 召唤深渊之力}"
 			]
 		},
 		{
-			"name": "Hell Knight",
-			"shortName": "Hell Knight",
+			"ENG_name": "Hell Knight",
+			"name": "地狱骑士",
+			"shortName": "地狱骑士",
 			"source": "XUA2026VillainousOptionsUpdate",
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
 			"entries": [
-				"{@i Inflict Hellish Wounds and Damn Enemies}"
+				"{@i 造成地狱创伤并诅咒敌人}"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Circle of the Titan",
+			"ENG_name": "Circle of the Titan",
+			"name": "泰坦结社",
 			"source": "XUA2026VillainousOptionsUpdate",
 			"page": 1,
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "XPHB",
-			"subclassShortName": "Titan",
+			"subclassShortName": "泰坦",
 			"subclassSource": "XUA2026VillainousOptionsUpdate",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When civilization violates the natural world\u2014by deforesting ancient groves, polluting sacred waters, or hunting wildlife to the brink of extinction\u2014Druids of the Circle of the Titan intervene. Druids of this order believe that for nature to thrive, society must sometimes fall. To this end, they assume towering, monstrous forms to mete out cataclysmic retribution and forcibly restore the natural order.",
+				"当文明侵犯自然世界\u2014\u2014通过砍伐远古林地、污染圣水或将野生动物猎杀至灭绝边缘\u2014\u2014泰坦结社的德鲁伊便会介入。此秩序的德鲁伊相信，为了让自然繁荣，社会有时必须衰落。为此，他们化身高耸的怪物形态，施加灾难性的复仇，并强制地恢复自然秩序。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Circle of the Titan Spells|Druid|XPHB|Titan|XUA2026VillainousOptionsUpdate|3|XUA2026VillainousOptionsUpdate"
+					"subclassFeature": "泰坦结社法术|德鲁伊|XPHB|泰坦|XUA2026反派选项更新|3|XUA2026反派选项更新"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Titan Form|Druid|XPHB|Titan|XUA2026VillainousOptionsUpdate|3|XUA2026VillainousOptionsUpdate"
+					"subclassFeature": "泰坦形态|德鲁伊|XPHB|泰坦|XUA2026反派选项更新|3|XUA2026反派选项更新"
 				}
 			]
 		},
 		{
-			"name": "Circle of the Titan Spells",
+			"ENG_name": "Circle of the Titan Spells",
+			"name": "泰坦结社法术",
 			"source": "XUA2026VillainousOptionsUpdate",
 			"page": 1,
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "XPHB",
-			"subclassShortName": "Titan",
+			"subclassShortName": "泰坦",
 			"subclassSource": "XUA2026VillainousOptionsUpdate",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"When you reach a Druid level specified in the {@table Circle of the Titan Spells|XUA2026VillainousOptionsUpdate} table, you thereafter always have the listed spells prepared.",
-				"In addition, you can cast the spells from this feature while you're in your {@subclassFeature Titan Form|Druid|XPHB|Titan|XUA2026VillainousOptionsUpdate|3|XUA2026VillainousOptionsUpdate}.",
+				"当你达到{@table 泰坦结社法术|XUA2026VillainousOptionsUpdate}表格中指定的德鲁伊等级时，你将始终准备所列出的法术。",
+				"此外，当你处于你的{@subclassFeature 泰坦形态|德鲁伊|XPHB|泰坦|XUA2026反派选项更新|3|XUA2026反派选项更新}时，你可以施放此特性中的法术。",
 				{
+					"ENG_name": "Circle of the Titan Spells",
+					"name": "泰坦结社法术",
 					"type": "statblock",
 					"tag": "table",
-					"name": "Circle of the Titan Spells",
 					"source": "XUA2026VillainousOptionsUpdate",
 					"page": 1
 				}
 			]
 		},
 		{
-			"name": "Titan Form",
+			"ENG_name": "Titan Form",
+			"name": "泰坦形态",
 			"source": "XUA2026VillainousOptionsUpdate",
 			"page": 1,
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "XPHB",
-			"subclassShortName": "Titan",
+			"subclassShortName": "泰坦",
 			"subclassSource": "XUA2026VillainousOptionsUpdate",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"When you use {@classFeature Wild Shape|Druid|XPHB|2|XPHB}, you can adopt a Titan Form, choosing from the  {@creature Behemoth|XUA2026VillainousOptionsUpdate}, {@creature Leviathan|XUA2026VillainousOptionsUpdate}, and {@creature Insectoid|XUA2026VillainousOptionsUpdate} stat blocks presented later in this subclass's description. You can stay in a Titan Form for 10 minutes, instead of a number of hours.",
-				"Each Titan Form gains additional benefits when you reach the specified Druid Levels, as noted in its respective stat block. Features that apply to your Beast forms also apply to your Titan Form.",
-				"You determine what your Titan Form looks like. Roll on or choose from the {@table Titan Appearance|XUA2026VillainousOptionsUpdate} table to inspire aspects of your form's appearance.",
+				"当你使用{@classFeature 荒野形态|德鲁伊|XPHB|2|XPHB}时，你可以变身为泰坦形态，从本子职描述后文提供的{@creature 巨兽|XUA2026反派选项更新}、{@creature 利维坦|XUA2026反派选项更新}和{@creature 昆虫形态|XUA2026反派选项更新}数据卡中选择其一。你可以在泰坦形态中维持10分钟，而非若干小时。",
+				"每种泰坦形态都会在你达到指定的德鲁伊等级时获得额外增益，如其各自的资料卡所述。适用于你野兽形态的特性也适用于你的泰坦形态。",
+				"你决定你的泰坦形态看起来如何。掷骰或从{@table 泰坦形态|XUA2026VillainousOptionsUpdate}表格中选择，以激发你形态外貌的各个方面。",
 				{
+					"ENG_name": "Titan Appearance",
+					"name": "泰坦外貌",
 					"type": "statblock",
 					"tag": "table",
-					"name": "Titan Appearance",
 					"source": "XUA2026VillainousOptionsUpdate",
 					"page": 2
 				},
 				{
+					"ENG_name": "Behemoth",
+					"name": "巨兽",
 					"type": "statblock",
 					"tag": "creature",
-					"name": "Behemoth",
 					"source": "XUA2026VillainousOptionsUpdate",
 					"page": 2,
 					"collapsed": true
 				},
 				{
+					"ENG_name": "Leviathan",
+					"name": "利维坦",
 					"type": "statblock",
 					"tag": "creature",
-					"name": "Leviathan",
 					"source": "XUA2026VillainousOptionsUpdate",
 					"page": 3,
 					"collapsed": true
 				},
 				{
+					"ENG_name": "Insectoid",
+					"name": "虫形",
 					"type": "statblock",
 					"tag": "creature",
-					"name": "Insectoid",
 					"source": "XUA2026VillainousOptionsUpdate",
 					"page": 3,
 					"collapsed": true
@@ -265,33 +278,36 @@
 			]
 		},
 		{
-			"name": "Dire Impact",
+			"ENG_name": "Dire Impact",
+			"name": "恐怖冲击",
 			"source": "XUA2026VillainousOptionsUpdate",
 			"page": 2,
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "XPHB",
-			"subclassShortName": "Titan",
+			"subclassShortName": "泰坦",
 			"subclassSource": "XUA2026VillainousOptionsUpdate",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Your Titan Form brings greater devastation, gaining the following benefits.",
+				"你的泰坦形态带来更强大的蹂躏，获得以下增益。",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
+							"ENG_name": "Elemental Rend",
+							"name": "元素撕裂",
 							"type": "item",
-							"name": "Elemental Rend",
 							"entries": [
-								"Whenever you hit with your Titan Form's Rend attack, you can cause it to deal your choice of Acid, Cold, Fire, Lightning, or Thunder damage rather than its normal damage type."
+								"每当你以泰坦形态的撕裂攻击命中时，你可以选择使其造成强酸、寒冷、火焰、闪电或雷鸣伤害，而非其正常的伤害类型。"
 							]
 						},
 						{
+							"ENG_name": "Shock Wave",
+							"name": "震荡波",
 							"type": "item",
-							"name": "Shock Wave",
 							"entries": [
-								"Once per turn, immediately after you move at least half your {@variantrule Speed|XPHB}, you can create a shock wave in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you. Each creature in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} must succeed on a Constitution saving throw against {@dcYourSpellSave} or have the {@condition Prone} condition."
+								"每回合一次，在你移动至少一半的{@variantrule 速度|XPHB}后，你可以立即以自身为原点创造一个10尺范围的{@variantrule 光环 [效应区域]|XPHB|光环}震荡波。该{@variantrule 光环 [效应区域]|XPHB|光环}内的每个生物必须成功通过一次对抗{@dcYourSpellSave}的体质豁免检定，否则陷入{@condition 倒地}状态。"
 							]
 						}
 					]
@@ -299,40 +315,44 @@
 			]
 		},
 		{
-			"name": "Primal Havoc",
+			"ENG_name": "Primal Havoc",
+			"name": "原始浩劫",
 			"source": "XUA2026VillainousOptionsUpdate",
 			"page": 2,
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "XPHB",
-			"subclassShortName": "Titan",
+			"subclassShortName": "泰坦",
 			"subclassSource": "XUA2026VillainousOptionsUpdate",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"The unbridled power of nature surges within you, granting you the following benefits.",
+				"奔放不羁的自然之力在你体内涌动，赋予你以下增益。",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
+							"ENG_name": "Huge Size",
+							"name": "巨型体型",
 							"type": "item",
-							"name": "Huge Size",
 							"entries": [
-								"You can choose to become Huge when assuming your Titan Form if you're in a big enough space."
+								"如果你处于足够大的空间，你可以在进入泰坦形态时选择变为巨型。"
 							]
 						},
 						{
+							"ENG_name": "Toughened Hide",
+							"name": "坚韧躲藏",
 							"type": "item",
-							"name": "Toughened Hide",
 							"entries": [
-								"Immediately after you assume a Huge or larger Titan Form, you can expend a level 1+ spell slot. For the duration of the form, you gain a bonus to your AC equal to half the expended spell slot's level (round up)."
+								"在你变身为巨型或更大的泰坦形态后，你可以立即消耗一个1环或更高等级的法术位。在该形态的持续时间内，你的AC获得加值，数值等于所消耗法术位等级的一半（向上取整）。"
 							]
 						},
 						{
+							"ENG_name": "Above It All",
+							"name": "凌驾一切",
 							"type": "item",
-							"name": "Above It All",
 							"entries": [
-								"While you are Huge or larger in your Titan Form, {@variantrule Difficult Terrain|XPHB} caused by heavy snow, ice, rubble, or undergrowth doesn't cost you extra movement."
+								"当你在泰坦形态下体型为巨型或更大时，由厚雪、冰面、瓦砾或灌木丛造成的{@variantrule 困难地形|XPHB}不会花费你额外的移动力。"
 							]
 						}
 					]
@@ -340,41 +360,45 @@
 			]
 		},
 		{
-			"name": "Monstrous Appetite",
+			"ENG_name": "Monstrous Appetite",
+			"name": "怪物胃口",
 			"source": "XUA2026VillainousOptionsUpdate",
 			"page": 2,
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "XPHB",
-			"subclassShortName": "Titan",
+			"subclassShortName": "泰坦",
 			"subclassSource": "XUA2026VillainousOptionsUpdate",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Your transformation embodies the vast size and terror of nature's titans. You gain the following benefits.",
+				"你的变形体现了自然泰坦那庞大的体型与令人恐惧的威势。你获得以下增益。",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
+							"ENG_name": "Gargantuan Size",
+							"name": "超巨型体型",
 							"type": "item",
-							"name": "Gargantuan Size",
 							"entries": [
-								"You can choose to become Gargantuan when assuming your Titan Form if you're in a big enough space."
+								"如果你身处足够大的空间，你可以在进入泰坦形态时选择变为超巨型。"
 							]
 						},
 						{
+							"ENG_name": "Grappling Rend",
+							"name": "擒抱撕裂",
 							"type": "item",
-							"name": "Grappling Rend",
 							"entries": [
-								"Once per turn, while you are Huge or larger and hit a creature with your Titan Form's Rend attack, you can give the target the {@condition Grappled} condition (escape DC equals {@dcYourSpellSave}). You can have only one target {@condition grappled} in this way at a time."
+								"每回合一次，当你处于巨型或更大体型并用你的泰坦形态的撕裂攻击命中一个生物时，你可以使目标陷入{@condition 受擒}状态（逃脱DC等于{@dcYourSpellSave}）。你以此方式{@condition 受擒}的目标在同一时间只能有一个。"
 							]
 						},
 						{
+							"ENG_name": "Swallow",
+							"name": "吞咽",
 							"type": "item",
-							"name": "Swallow",
 							"entries": [
-								"As a {@variantrule Bonus Action|XPHB} while you are Gargantuan, choose one Large or smaller creature {@condition Grappled} by you. The target makes a Strength saving throw against {@dcYourSpellSave}. On a failure, you swallow the target, and the {@condition Grappled} condition ends on it. A swallowed creature has the {@condition Blinded} and {@condition Restrained} conditions, has {@variantrule Cover|XPHB|Total Cover} against attacks and other effects outside of your stomach, and takes Acid damage at the start of each of your turns. To determine this damage, roll a number of {@damage d12|d12s} equal to your Wisdom modifier.",
-								"The number of creatures you can have swallowed at a time equals your Wisdom modifier (minimum of one creature). You must maintain {@status Concentration} to hold swallowed creatures in your stomach. If you lose {@status Concentration} or leave your Titan Form, you regurgitate all swallowed creatures, each of which falls in a space within 10 feet of you and has the {@condition Prone} condition."
+								"当你处于超巨型体型时，以一个{@variantrule 附赠动作|XPHB}，选择一个被你{@condition 受擒}的大型或更小的生物。目标进行一次对抗{@dcYourSpellSave}的力量豁免检定。若失败，你吞咽该目标，其身上的{@condition 受擒}状态结束。被吞咽的生物获得{@condition 目盲}和{@condition 束缚}状态，对于来自你胃部之外的攻击和其他效应具有{@variantrule 掩护|XPHB|全身掩护}，并在你的每个回合开始时受到强酸伤害。要确定此伤害，投掷等同于你感知调整值数量的{@damage d12|d12s}。",
+								"你一次可以吞咽的生物数量等于你的感知调整值（至少一个生物）。你必须保持{@status 专注}来将吞咽的生物留在胃中。如果你失去{@status 专注}或离开泰坦形态，你会吐出所有被吞咽的生物，每个生物会落在你周围10尺内的一个空间并陷入{@condition 倒地}状态。"
 							]
 						}
 					]
@@ -382,69 +406,74 @@
 			]
 		},
 		{
-			"name": "Hell Knight",
+			"ENG_name": "Hell Knight",
+			"name": "地狱骑士",
 			"source": "XUA2026VillainousOptionsUpdate",
 			"page": 4,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Hell Knight",
+			"subclassShortName": "地狱骑士",
 			"subclassSource": "XUA2026VillainousOptionsUpdate",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Hell Knights are the champions of archdevils and other high-ranking fiends of the Nine Hells, such as cambions and night hags. Armed with the techniques of the Nine Hells' fiercest warriors, Hell Knights inflict infernal wounds and fight with the tenacity of a devil.",
-				"Devils and other sinister figures employ Hell Knights to enact their will across the multiverse. Some Hell Knights are tasked with punishing creatures that violate infernal contracts or flee their consequences. Others act as interplanar bounty hunters, hastening the journey of wicked souls to the River Styx.",
-				"A Hell Knight's relationship with the Nine Hells is transactional. Archdevils see Hell Knights as an investment, and Hell Knights benefit in turn. The {@table Hell Knight Pursuits|XUA2026VillainousOptionsUpdate} table lists reasons why a Fighter might become a Hell Knight.",
+				"地狱骑士是大魔鬼以及九层地狱其他高等邪魔（例如坎比翁和夜鬼婆）的冠军勇士。他们掌握着九层地狱最凶悍武者的技艺，能造成炼狱创伤，并拥有魔鬼般的坚韧进行战斗。",
+				"魔鬼和其他邪恶势力雇佣地狱骑士在多元宇宙中执行他们的意志。一些地狱骑士的任务是惩罚那些违反炼狱契约或逃避其后果的生物。另一些则充当跨位面的赏金追猎者，加速将邪恶灵魂送往冥河的旅途。",
+				"地狱骑士与九层地狱的关系是交易性的。大魔鬼将地狱骑士视为一项投资，而地狱骑士则从中获益。{@table 地狱骑士追求|XUA2026VillainousOptionsUpdate} 表格列出了战士可能成为地狱骑士的原因。",
 				{
+					"ENG_name": "Hell Knight Pursuits",
+					"name": "地狱骑士追求",
 					"type": "statblock",
 					"tag": "table",
-					"name": "Hell Knight Pursuits",
 					"source": "XUA2026VillainousOptionsUpdate",
 					"page": 4
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Diabolical Gift|Fighter|XPHB|Hell Knight|XUA2026VillainousOptionsUpdate|3|XUA2026VillainousOptionsUpdate"
+					"subclassFeature": "魔鬼赠礼|战士|XPHB|地狱骑士|XUA2026反派选项更新|3|XUA2026反派选项更新"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hell-Forged Weapon|Fighter|XPHB|Hell Knight|XUA2026VillainousOptionsUpdate|3|XUA2026VillainousOptionsUpdate"
+					"subclassFeature": "地狱锻造武器|战士|XPHB|地狱骑士|XUA2026反派选项更新|3|XUA2026反派选项更新"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Infernal Wound|Fighter|XPHB|Hell Knight|XUA2026VillainousOptionsUpdate|3|XUA2026VillainousOptionsUpdate"
+					"subclassFeature": "炼狱创伤|战士|XPHB|地狱骑士|XUA2026反派选项更新|3|XUA2026反派选项更新"
 				}
 			]
 		},
 		{
-			"name": "Diabolical Gift",
+			"ENG_name": "Diabolical Gift",
+			"name": "魔鬼赠礼",
 			"source": "XUA2026VillainousOptionsUpdate",
 			"page": 4,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Hell Knight",
+			"subclassShortName": "地狱骑士",
 			"subclassSource": "XUA2026VillainousOptionsUpdate",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"As a soldier for the agents of the Nine Hells, you've been given fiendish powers. You gain the following benefits.",
+				"作为九层地狱代理人的士兵，你被赋予了魔裔的力量。你获得以下增益。",
 				{
 					"type": "list",
 					"style": "list-hang-subtrait",
 					"items": [
 						{
+							"ENG_name": "Devil's Sight",
+							"name": "魔鬼视界",
 							"type": "item",
-							"name": "Devil's Sight",
 							"entries": [
-								"You can see normally in {@variantrule Dim Light|XPHB} and {@variantrule Darkness|XPHB}\u2014both magical and nonmagical\u2014within 120 feet of yourself."
+								"你在{@variantrule 微光光照|XPHB}光照和{@variantrule 黑暗|XPHB}中拥有 120 尺的可视距离，而无论其属于魔法性的还是非魔法性的。"
 							]
 						},
 						{
+							"ENG_name": "Devil's Talents",
+							"name": "魔鬼天赋",
 							"type": "item",
-							"name": "Devil's Talents",
 							"entries": [
-								"You know {@language Infernal}, the language of devils. If you already know {@language Infernal}, you learn another language of your choice.",
-								"You also gain proficiency in one of these skills of your choice: {@skill Deception}, {@skill Performance}, or {@skill Sleight of Hand}."
+								"你知晓{@language 炼狱}，即魔鬼的语言。如果你已经知晓{@language 炼狱}，则你学会一门自选的其他语言。",
+								"你还可以从以下技能中选择一项获得熟练项：{@skill 欺瞒}、{@skill 表演}或{@skill 巧手}。"
 							]
 						}
 					]
@@ -452,50 +481,54 @@
 			]
 		},
 		{
-			"name": "Hell-Forged Weapon",
+			"ENG_name": "Hell-Forged Weapon",
+			"name": "地狱锻造武器",
 			"source": "XUA2026VillainousOptionsUpdate",
 			"page": 4,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Hell Knight",
+			"subclassShortName": "地狱骑士",
 			"subclassSource": "XUA2026VillainousOptionsUpdate",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"When you take the {@action Attack} action, you can imbue each weapon that you are holding with hellfire, transforming it into a Hell-Forged Weapon. It remains transformed in this way until you use this feature again, you have the {@condition Unconscious} condition, or the weapon is more than 5 feet away from you for 1 minute or more. You can also end this effect early (no action required).",
-				"While you wield a Hell-Forged Weapon, it sheds {@variantrule Dim Light|XPHB} in a 5-foot radius, and whenever you deal damage with the weapon, it can deal your choice of Cold, Fire, or Necrotic damage or its normal damage type (choose when you imbue the weapon with hellfire)."
+				"当你执行{@action 攻击}动作时，你可以为你所持有的每一把武器灌注鬼火，将其转化为地狱锻造武器。它会保持这种转化状态，直到你再次使用此特性、你陷入{@condition 昏迷}状态、或武器距离你超过5尺达1分钟或更久。你也可以提前结束此效应（无需动作）。",
+				"当你持握一把地狱锻造武器时，它会散发出半径5尺的{@variantrule 微光光照|XPHB}，并且每当你用该武器造成伤害时，你可以选择造成寒冷、火焰或暗蚀伤害，或者其正常的伤害类型（在你用鬼火灌注武器时选择）。"
 			]
 		},
 		{
-			"name": "Infernal Wound",
+			"ENG_name": "Infernal Wound",
+			"name": "炼狱创伤",
 			"source": "XUA2026VillainousOptionsUpdate",
 			"page": 4,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Hell Knight",
+			"subclassShortName": "地狱骑士",
 			"subclassSource": "XUA2026VillainousOptionsUpdate",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Your {@subclassFeature Hell-Forged Weapon|Fighter|XPHB|Hell Knight|XUA2026VillainousOptionsUpdate|3|XUA2026VillainousOptionsUpdate} can inflict infernal wounds.",
+				"你的{@subclassFeature 地狱锻造武器|战士|XPHB|地狱骑士|XUA2026反派选项更新|3|XUA2026反派选项更新}可以造成炼狱创伤。",
 				{
 					"type": "list",
 					"style": "list-hang-subtrait",
 					"items": [
 						{
+							"ENG_name": "Infernal Wound Die",
+							"name": "炼狱创伤骰",
 							"type": "item",
-							"name": "Infernal Wound Die",
 							"entries": [
-								"You have an Infernal Wound Die, which is a {@dice d6}."
+								"你拥有一枚炼狱创伤骰，它是一个{@dice d6}。"
 							]
 						},
 						{
+							"ENG_name": "Inflicting Infernal Wounds",
+							"name": "造成炼狱创伤",
 							"type": "item",
-							"name": "Inflicting Infernal Wounds",
 							"entries": [
-								"When you hit a creature with your {@subclassFeature Hell-Forged Weapon|Fighter|XPHB|Hell Knight|XUA2026VillainousOptionsUpdate|3|XUA2026VillainousOptionsUpdate}, you can deal extra damage equal to one roll of your Infernal Wound Die. This extra damage is of the same type you chose when you imbued the weapon with hellfire. You also give the target an infernal wound if it doesn't already have one.",
-								"While wounded in this way, the target takes damage of the chosen damage type equal to one roll of your Infernal Wound Die at the start of each of its turns. The wound lasts for 1 minute, until the target regains {@variantrule Hit Points|XPHB}, or until the target or a creature within 5 feet of the target takes an action to stanch the wound.",
-								"You can use this feature a number of times equal to your Constitution modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+								"当你用你的{@subclassFeature 地狱锻造武器|战士|XPHB|地狱骑士|XUA2026反派选项更新|3|XUA2026反派选项更新}命中一个生物时，你可以造成等同于你掷一次炼狱创伤骰的额外伤害。此额外伤害的类型与你为武器灌注地狱火时所选择的类型相同。如果目标尚未拥有炼狱创伤，你也会使其获得一个炼狱创伤。",
+								"当目标以此方式受伤时，在其每回合开始时，它会受到一次你的炼狱创伤骰掷骰结果的、所选伤害类型的伤害。该创伤持续1分钟，直到目标恢复{@variantrule 生命值|XPHB}，或者直到目标或目标5尺内的一个生物用一个动作止住伤口。",
+								"你可以使用此特性的次数等于你的体质调整值（至少一次）。当你完成一次{@variantrule 短休|XPHB|短}或{@variantrule 长休|XPHB}后，你恢复所有已消耗的使用次数。"
 							]
 						}
 					]
@@ -503,43 +536,47 @@
 			]
 		},
 		{
-			"name": "Advanced Wounds",
+			"ENG_name": "Advanced Wounds",
+			"name": "进阶创伤",
 			"source": "XUA2026VillainousOptionsUpdate",
 			"page": 4,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Hell Knight",
+			"subclassShortName": "地狱骑士",
 			"subclassSource": "XUA2026VillainousOptionsUpdate",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"When you roll your Infernal Wound Die, you can apply one of the following effects. If you roll a 6 on the Infernal Wound Die, the effect you choose has an additional Devil's Luck effect. Once you use this feature, you can't do so again until the start of your next turn.",
+				"当你掷炼狱创伤骰时，你可以应用以下效应之一。如果你在炼狱创伤骰上掷出6点，你选择的效应将获得额外的魔鬼幸运效应。一旦你使用了此特性，直到你的下个回合开始前你都不能再次使用。",
 				{
 					"type": "list",
 					"style": "list-hang-subtrait",
 					"items": [
 						{
+							"ENG_name": "Purulence of Minauros",
+							"name": "弥瑙洛斯之脓",
 							"type": "item",
-							"name": "Purulence of Minauros",
 							"entries": [
-								"Caustic pus erupts from the wound. Each enemy in a 5-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the target takes Acid damage equal to your Constitution modifier, and the target has the {@condition Poisoned|XPHB} condition until the end of its next turn.",
-								"{@b Devil's Luck:} Each creature that takes Acid damage from this effect has a \u22121 penalty to its AC until the end of your next turn."
+								"腐蚀性脓液从伤口喷发而出。每个位于以目标为原点、半径5尺的{@variantrule 光环 [效应区域]|XPHB|光环}范围内的仇敌受到等同于你体术调整值的强酸伤害，并且目标获得{@condition 中毒|XPHB}状态，直到其下一个回合结束。",
+								"{@b 魔鬼的幸运：} 每个受到此效应强酸伤害的生物，其AC受到-1减值，直到你的下一个回合结束。"
 							]
 						},
 						{
+							"ENG_name": "Rupture of Cania",
+							"name": "卡尼亚裂隙",
 							"type": "item",
-							"name": "Rupture of Cania",
 							"entries": [
-								"The wound ruptures with a spurt of arcane energy. The target takes Force damage equal to your Constitution modifier.",
-								"{@b Devil's Luck:} The target subtracts {@dice 1d6} from the next saving throw it makes before the end of your next turn."
+								"创伤迸发出一股奥术能量。目标受到等同于你体质调整值的力场伤害。",
+								"{@b 魔鬼的幸运：} 目标在你下一回合结束前进行的下一次豁免检定中减去{@dice 1d6}。"
 							]
 						},
 						{
+							"ENG_name": "Stygian Gangrene",
+							"name": "冥河坏疽",
 							"type": "item",
-							"name": "Stygian Gangrene",
 							"entries": [
-								"Infernal rime spreads from the wound. The target takes Cold damage equal to your Constitution modifier, and it can't take Reactions until the start of its next turn.",
-								"{@b Devil's Luck:} The target's {@variantrule Speed|XPHB} is halved until the end of its next turn."
+								"炼狱雾凇从伤口蔓延。目标受到等同于你体质调整值的寒冷伤害，并且在其下一回合开始前不能进行反应。",
+								"{@b 魔鬼的幸运：} 目标的{@variantrule 速度|XPHB}减半，直到其下一个回合结束。"
 							]
 						}
 					]
@@ -547,33 +584,36 @@
 			]
 		},
 		{
-			"name": "Infernal Equipment",
+			"ENG_name": "Infernal Equipment",
+			"name": "炼狱装备",
 			"source": "XUA2026VillainousOptionsUpdate",
 			"page": 5,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Hell Knight",
+			"subclassShortName": "地狱骑士",
 			"subclassSource": "XUA2026VillainousOptionsUpdate",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"Your armor and weapons embody infernal armaments forged in the fires of Avernus, granting you the following benefits.",
+				"你的护甲和武器体现了在阿弗纳斯之火中锻造的炼狱武备，赋予你以下增益。",
 				{
 					"type": "list",
 					"style": "list-hang-subtrait",
 					"items": [
 						{
+							"ENG_name": "Infernal Resistance",
+							"name": "炼狱抗性",
 							"type": "item",
-							"name": "Infernal Resistance",
 							"entries": [
-								"Whenever you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}, choose a damage type: Cold, Fire, or Necrotic. While wearing Heavy armor or wielding a {@item Shield|XPHB}, you have {@variantrule Resistance|XPHB} to that damage type until you choose a different one with this feature."
+								"每当你完成一次{@variantrule 短休|XPHB|短}或{@variantrule 长休|XPHB}时，选择一个伤害类型：寒冷、火焰或暗蚀。当你穿着重甲或持握{@item 盾牌|XPHB}时，你对该伤害类型具有{@variantrule 抗性|XPHB}，直到你使用此特性选择另一个伤害类型为止。"
 							]
 						},
 						{
+							"ENG_name": "Unholy Power",
+							"name": "邪恶法力",
 							"type": "item",
-							"name": "Unholy Power",
 							"entries": [
-								"When you roll your Infernal Wound Die, you can treat a roll of 1 as a 6."
+								"当你掷炼狱创伤骰时，你可以将掷出的1点视为6点。"
 							]
 						}
 					]
@@ -581,56 +621,60 @@
 			]
 		},
 		{
-			"name": "Hellfire Surge",
+			"ENG_name": "Hellfire Surge",
+			"name": "地狱火崩天疾驰",
 			"source": "XUA2026VillainousOptionsUpdate",
 			"page": 5,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Hell Knight",
+			"subclassShortName": "地狱骑士",
 			"subclassSource": "XUA2026VillainousOptionsUpdate",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"When you use your {@classFeature Action Surge|Fighter|XPHB|2|XPHB} while holding a Hell-Forged Weapon, you erupt with hellfire in a 20-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you that lasts until the end of your next turn. Whenever a creature suffering an infernal wound starts its turn within the {@variantrule Emanation [Area of Effect]|XPHB|Emanation}, it takes damage equal to two rolls of your Infernal Wound Die instead of one."
+				"当你持握一把地狱锻造武器并使用你的{@classFeature 动作如潮|战士|XPHB|2|XPHB}时，你会爆发出地狱火，形成一个以你为源点、半径20尺的{@variantrule 光环 [效应区域]|XPHB|光环}，该光环持续到你下一个回合结束。每当一个承受炼狱创伤的生物在其回合开始时位于此{@variantrule 光环 [效应区域]|XPHB|光环}内，它将受到等同于你掷两次炼狱创伤骰的伤害，而非一次。"
 			]
 		},
 		{
-			"name": "Devil's Misfortune",
+			"ENG_name": "Devil's Misfortune",
+			"name": "魔鬼厄运",
 			"source": "XUA2026VillainousOptionsUpdate",
 			"page": 5,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Hell Knight",
+			"subclassShortName": "地狱骑士",
 			"subclassSource": "XUA2026VillainousOptionsUpdate",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"When a creature with an infernal wound hits you with an attack roll, you can take a {@variantrule Reaction|XPHB} to roll your Infernal Wound Die and reduce the damage taken by the number rolled. On a roll of 6, roll your Infernal Wound Die again (to a maximum of three rolls total), and reduce the damage taken by the total rolled.",
-				"In addition, if the attack is a {@variantrule Critical Hit|XPHB}, it becomes a normal hit."
+				"当一个带有炼狱创伤的生物以攻击检定命中你时，你可以采取一个{@variantrule 反应|XPHB}来投掷你的炼狱创伤骰，并将受到的伤害减少掷出的数值。如果掷出6，则再次投掷你的炼狱创伤骰（最多总共投掷三次），并将受到的伤害减少所有掷出的总值。",
+				"此外，如果该攻击是{@variantrule 重击|XPHB}，则变为正常命中。"
 			]
 		},
 		{
-			"name": "Infernal Bargain",
+			"ENG_name": "Infernal Bargain",
+			"name": "炼狱契约",
 			"source": "XUA2026VillainousOptionsUpdate",
 			"page": 5,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Hell Knight",
+			"subclassShortName": "地狱骑士",
 			"subclassSource": "XUA2026VillainousOptionsUpdate",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"When you roll a 6 on your Infernal Wound Die three or more times before the start of your next turn, you gain {@variantrule Heroic Inspiration|XPHB}. You can use {@variantrule Heroic Inspiration|XPHB} in the following way.",
+				"当你在你的下个回合开始前，在你的炼狱创伤骰上掷出6点三次或更多次时，你获得{@variantrule 英雄激励|XPHB}。你可以通过以下方式使用{@variantrule 英雄激励|XPHB}。",
 				{
 					"type": "list",
 					"style": "list-hang-subtrait",
 					"items": [
 						{
+							"ENG_name": "Infernal Inspiration",
+							"name": "炼狱激励",
 							"type": "item",
-							"name": "Infernal Inspiration",
 							"entries": [
-								"If a creature you can see within 120 feet of you rolls a {@dice d20} for a {@variantrule D20 Test|XPHB}, you can expend your {@variantrule Heroic Inspiration|XPHB} to force the target to reroll the {@dice d20}.",
-								"If the number rolled causes the target to succeed on the {@variantrule D20 Test|XPHB}, you regain an expended use of {@classFeature Indomitable|Fighter|XPHB|9|XPHB} or {@classFeature Second Wind|Fighter|XPHB|1|XPHB} (your choice). If the number rolled causes the target to fail the {@variantrule D20 Test|XPHB}, you lose {@variantrule Hit Points|XPHB} equal to {@dice 3d6} plus your {@class Fighter|XPHB} level."
+								"如果你能看见的120尺内的一个生物为一次{@variantrule D20 检定|XPHB}投掷了{@dice d20}，你可以消耗你的{@variantrule 英雄激励|XPHB}来迫使目标重投该{@dice d20}。",
+								"如果掷出的数值导致目标成功通过{@variantrule D20 检定|XPHB}，你恢复一次已消耗的{@classFeature 不屈|战士|XPHB|9|XPHB}或{@classFeature 回气|战士|XPHB|1|XPHB}使用次数（由你选择）。如果掷出的数值导致目标在{@variantrule D20 检定|XPHB}中失败，你失去等同于{@dice 3d6}加上你的{@class 战士|XPHB}等级数值的{@variantrule 生命值|XPHB}。"
 							]
 						}
 					]
@@ -638,64 +682,69 @@
 			]
 		},
 		{
-			"name": "Demonic Sorcery",
+			"ENG_name": "Demonic Sorcery",
+			"name": "恶魔语巫术",
 			"source": "XUA2026VillainousOptionsUpdate",
 			"page": 5,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "Demonic",
+			"subclassShortName": "恶魔语",
 			"subclassSource": "XUA2026VillainousOptionsUpdate",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"The corruptive magic of demons courses through you, making you a conduit for the infinite layers of the Abyss and their horrors. Your gift might stem from distant demonic ancestry, a fated encounter with a demon that cursed you, or a brush with the dark hunger of the Abyss.",
-				"The Abyss is a plane of wickedness and disorder, and this chaos echoes in your innate magic. Abyssal energy erupts from you, warping your body and surroundings in tandem with your sorcery.",
-				"These Abyssal eruptions manifest in strange and gruesome ways. Roll on or choose from the {@table Abyssal Manifestations|XUA2026VillainousOptionsUpdate} table to inspire how your connection to the Abyss might manifest when you channel your demonic power.",
+				"恶魔的腐化魔法在你体内流淌，使你成为连接无底深渊无限层级及其惊惧兽的导管。你的赠礼可能源于遥远的恶魔血统、一次与诅咒你的恶魔的命定之宿命遭遇，或是与无底深渊黑暗饥渴的接触。",
+				"无底深渊是一个充满不义与混沌的位面，这种混乱在你的天生魔法中产生回响。深渊能量从你体内迸发，与你的巫术一同扭曲你的身体和周边环境。",
+				"这些深渊爆发以奇异而可怕的方式显现。掷骰或从{@table 深渊显迹|XUA2026VillainousOptionsUpdate}表格中选择，以激发当你引导恶魔之力时，你与无底深渊的联系可能如何显现。",
 				{
+					"ENG_name": "Abyssal Manifestations",
+					"name": "深渊显迹",
 					"type": "statblock",
 					"tag": "table",
-					"name": "Abyssal Manifestations",
 					"source": "XUA2026VillainousOptionsUpdate",
 					"page": 5
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Abyssal Rupture|Sorcerer|XPHB|Demonic|XUA2026VillainousOptionsUpdate|3|XUA2026VillainousOptionsUpdate"
+					"subclassFeature": "深渊裂隙|术士|XPHB|恶魔语|XUA2026反派选项更新|3|XUA2026反派选项更新"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Demonic Spells|Sorcerer|XPHB|Demonic|XUA2026VillainousOptionsUpdate|3|XUA2026VillainousOptionsUpdate"
+					"subclassFeature": "恶魔语法术|术士|XPHB|恶魔语|XUA2026反派选项更新|3|XUA2026反派选项更新"
 				}
 			]
 		},
 		{
-			"name": "Abyssal Rupture",
+			"ENG_name": "Abyssal Rupture",
+			"name": "深渊裂隙",
 			"source": "XUA2026VillainousOptionsUpdate",
 			"page": 5,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "Demonic",
+			"subclassShortName": "恶魔语",
 			"subclassSource": "XUA2026VillainousOptionsUpdate",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"When you use {@classFeature Innate Sorcery|Sorcerer|XPHB|1|XPHB}, you create a rupture into the Abyss, which fills a 10-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on a point you can see within 30 feet of yourself with Abyssal energy. When you activate your {@classFeature Innate Sorcery|Sorcerer|XPHB|1|XPHB} and as a {@variantrule Bonus Action|XPHB} while your {@classFeature Innate Sorcery|Sorcerer|XPHB|1|XPHB} is active, you can choose one of the following options. While the rupture persists, you can move the center of the {@variantrule Sphere [Area of Effect]|XPHB|Sphere} to a point you can see within 30 feet of yourself at the start of each of your turns.",
+				"当你使用{@classFeature 先天术法|术士|XPHB|1|XPHB}时，你会在无底深渊中撕开一道裂隙，该裂隙会以你30尺内一个你能看见的点为中心，形成一个10尺半径的{@variantrule 球状 [效应区域]|XPHB|球状}区域，并充满深渊能量。当你激活你的{@classFeature 先天术法|术士|XPHB|1|XPHB}时，以及在你的{@classFeature 先天术法|术士|XPHB|1|XPHB}激活期间以一个{@variantrule 附赠动作|XPHB}，你可以选择以下一项效应。只要裂隙持续存在，你可以在你每个回合开始时，将{@variantrule 球状 [效应区域]|XPHB|球状}区域的中心移动到你30尺内一个你能看见的点。",
 				{
 					"type": "list",
 					"style": "list-hang-subtrait",
 					"items": [
 						{
+							"ENG_name": "Demonic Lash",
+							"name": "恶魔语鞭笞",
 							"type": "item",
-							"name": "Demonic Lash",
 							"entries": [
-								"Make a melee spell attack against a target within 5 feet of the rupture. On a hit, the target takes {@damage 1d8} Slashing damage, and if it is Large or smaller, you can pull it up to 10 feet toward the center of the {@variantrule Sphere [Area of Effect]|XPHB|Sphere}."
+								"对裂隙5尺内的目标进行一次近战法术攻击。命中时，目标受到{@damage 1d8}挥砍伤害，且若其为大型或更小体型，你可以将其向{@variantrule 球状 [效应区域]|XPHB|球状}的中心拉动最多10尺。"
 							]
 						},
 						{
+							"ENG_name": "Terrifying Screams",
+							"name": "恐怖尖啸",
 							"type": "item",
-							"name": "Terrifying Screams",
 							"entries": [
-								"Each creature in the rupture must succeed on a Wisdom saving throw against {@dcYourSpellSave} or take {@damage 1d4} Psychic damage."
+								"裂隙内的每个生物必须成功通过一次对抗{@dcYourSpellSave}的感知豁免检定，否则受到{@damage 1d4}点心灵伤害。"
 							]
 						}
 					]
@@ -703,61 +752,67 @@
 			]
 		},
 		{
-			"name": "Demonic Spells",
+			"ENG_name": "Demonic Spells",
+			"name": "恶魔语法术",
 			"source": "XUA2026VillainousOptionsUpdate",
 			"page": 6,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "Demonic",
+			"subclassShortName": "恶魔语",
 			"subclassSource": "XUA2026VillainousOptionsUpdate",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"When you reach a Sorcerer level specified in the {@table Demonic Spells|XUA2026VillainousOptionsUpdate} table, you thereafter always have the listed spells prepared.",
+				"当你达到{@table 恶魔语法术|XUA2026VillainousOptionsUpdate}表格中指定的术士等级时，你此后将始终准备着所列出的法术。",
 				{
+					"ENG_name": "Demonic Spells",
+					"name": "恶魔语法术",
 					"type": "statblock",
 					"tag": "table",
-					"name": "Demonic Spells",
 					"source": "XUA2026VillainousOptionsUpdate",
 					"page": 6
 				}
 			]
 		},
 		{
-			"name": "Abyssal Realm",
+			"ENG_name": "Abyssal Realm",
+			"name": "深渊领域",
 			"source": "XUA2026VillainousOptionsUpdate",
 			"page": 6,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "Demonic",
+			"subclassShortName": "恶魔语",
 			"subclassSource": "XUA2026VillainousOptionsUpdate",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"When you spend at least 1 Sorcery Point as part of a {@action Magic|XPHB} action or a {@variantrule Bonus Action|XPHB} on your turn, you can pull influence from the Abyss. When you do, you create a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you, or you fill the {@variantrule Sphere [Area of Effect]|XPHB|Sphere} of your {@subclassFeature Abyssal Rupture|Sorcerer|XPHB|Demonic|XUA2026VillainousOptionsUpdate|3|XUA2026VillainousOptionsUpdate} with magic from one of the following layers of the Abyss. If an effect requires a saving throw, the DC equals {@dcYourSpellSave}.",
+				"当你作为施放一个{@action 魔法|XPHB}动作或一个{@variantrule 附赠动作|XPHB}附赠动作的一部分，在你的回合消耗至少1点术法点时，你可以从无底深渊汲取影响力。当你这样做时，你会创造一个以你为源点、半径10尺的{@variantrule 光环 [效应区域]|XPHB|光环}光环，或者用来自以下无底深渊层级之一的魔法，填满你的{@subclassFeature 深渊裂隙|术士|XPHB|恶魔语|XUA2026反派选项更新|3|XUA2026反派选项更新}深渊裂隙的{@variantrule 球状 [效应区域]|XPHB|球状}球状区域。如果一个效应需要进行豁免检定，其DC等于{@dcYourSpellSave}。",
 				{
 					"type": "list",
 					"style": "list-hang-subtrait",
 					"items": [
 						{
+							"ENG_name": "Gaping Maw's Frenzy",
+							"name": "裂颚魔渊的狂怒",
 							"type": "item",
-							"name": "Gaping Maw's Frenzy",
 							"entries": [
-								"Designate a direction that is horizontal to you. Each creature in the area that fails a Charisma saving throw must use as much of its movement as possible to move in that direction at the start of its next turn, taking the safest route."
+								"指定一个与你水平的方向。区域内每个未能通过魅力豁免检定的生物，必须在其下一回合开始时，使用尽可能多的移动力沿该方向移动，并选择最安全的路线。"
 							]
 						},
 						{
+							"ENG_name": "Maze of Azzatar",
+							"name": "阿扎塔尔迷宫",
 							"type": "item",
-							"name": "Maze of Azzatar",
 							"entries": [
-								"Each creature in the area makes an Intelligence saving throw. On a failed save, you gain the benefits of the {@condition Invisible} condition against the target until the start of your next turn."
+								"区域内的每个生物进行一次智力豁免检定。豁免失败时，你获得针对该目标的{@condition 隐形}状态增益，持续至你的下个回合开始。"
 							]
 						},
 						{
+							"ENG_name": "Slime Pits' Haze",
+							"name": "软泥陷坑的污霭",
 							"type": "item",
-							"name": "Slime Pits' Haze",
 							"entries": [
-								"Each creature in the area makes a Constitution saving throw. On a failed save, the target has your choice of the {@condition Charmed} or {@condition Poisoned} condition until the start of your next turn."
+								"区域内的每个生物进行一次体质豁免检定。豁免失败时，目标获得你选择的{@condition 魅惑}或{@condition 中毒}状态，直到你的下一个回合开始。"
 							]
 						}
 					]
@@ -765,34 +820,37 @@
 			]
 		},
 		{
-			"name": "Abyssal Conduit",
+			"ENG_name": "Abyssal Conduit",
+			"name": "深渊导管",
 			"source": "XUA2026VillainousOptionsUpdate",
 			"page": 6,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "Demonic",
+			"subclassShortName": "恶魔语",
 			"subclassSource": "XUA2026VillainousOptionsUpdate",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Your Abyssal powers reach their full potential. You gain the following benefits.",
+				"你的深渊之力达到了其全部潜力。你获得以下增益。",
 				{
 					"type": "list",
 					"style": "list-hang-subtrait",
 					"items": [
 						{
+							"ENG_name": "Rupture Expansion",
+							"name": "裂隙扩张",
 							"type": "item",
-							"name": "Rupture Expansion",
 							"entries": [
-								"The size of your {@subclassFeature Abyssal Rupture|Sorcerer|XPHB|Demonic|XUA2026VillainousOptionsUpdate|3|XUA2026VillainousOptionsUpdate} is now a 30-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere}, and the area is {@variantrule Difficult Terrain|XPHB} for your enemies."
+								"你的{@subclassFeature 深渊裂隙|术士|XPHB|恶魔语|XUA2026反派选项更新|3|XUA2026反派选项更新}的体型现在是一个30尺半径的{@variantrule 球状 [效应区域]|XPHB|球状}区域，并且该区域对你的敌人来说是{@variantrule 困难地形|XPHB}。"
 							]
 						},
 						{
+							"ENG_name": "Fiendish Servant",
+							"name": "魔裔仆役",
 							"type": "item",
-							"name": "Fiendish Servant",
 							"entries": [
-								"You always have the {@spell Summon Fiend|XPHB} spell prepared. When you cast the spell, you can modify it so that it doesn't require {@status Concentration|XPHB}. When you do so, the spell's duration becomes 1 minute for that casting, and you must choose Demon when you summon the Fiend.",
-								"In addition, the Fiend has {@variantrule Advantage|XPHB} on attack rolls while within your {@subclassFeature Abyssal Rupture|Sorcerer|XPHB|Demonic|XUA2026VillainousOptionsUpdate|3|XUA2026VillainousOptionsUpdate}."
+								"你总是准备着{@spell 邪魔召唤术|XPHB}法术。当你施放该法术时，你可以将其修改为不需要{@status 专注|XPHB}。当你这样做时，该法术的持续时间变为1分钟，并且你在召唤邪魔时必须选择恶魔。",
+								"此外，当邪魔宗主位于你的{@subclassFeature 深渊裂隙|术士|XPHB|恶魔语|XUA2026反派选项更新|3|XUA2026反派选项更新}内时，其攻击检定具有{@variantrule 优势|XPHB}。"
 							]
 						}
 					]
@@ -800,32 +858,35 @@
 			]
 		},
 		{
-			"name": "Abyssal Explosion",
+			"ENG_name": "Abyssal Explosion",
+			"name": "深渊爆炸",
 			"source": "XUA2026VillainousOptionsUpdate",
 			"page": 6,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "Demonic",
+			"subclassShortName": "恶魔语",
 			"subclassSource": "XUA2026VillainousOptionsUpdate",
 			"level": 18,
 			"header": 2,
 			"consumes": {
-				"name": "Sorcery Point",
+				"ENG_name": "Sorcery Point",
+				"name": "术法点",
 				"amount": 7
 			},
 			"entries": [
-				"You unleash the chaos of the Abyss. As a {@action Magic|XPHB} action, you fill a 30-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} with an explosion of Abyssal energy. Each creature in the {@variantrule Sphere [Area of Effect]|XPHB|Sphere} makes a Constitution saving throw against {@dcYourSpellSave}. On a failed save, a creature takes {@damage 8d6} Force damage if it isn't a Fiend, and it has the {@condition Incapacitated|XPHB} condition until the start of your next turn.",
-				"Once you use this feature, you can't do so again until you finish a {@variantrule Long Rest|XPHB}, unless you spend 7 Sorcery Points (no action required) to restore your use of it."
+				"你释放无底深渊的混沌。以一个{@action 魔法|XPHB}动作，你用一个30尺半径的{@variantrule 球状 [效应区域]|XPHB|球状}充满深渊能量的爆炸。{@variantrule 球状 [效应区域]|XPHB|球状}内的每个生物需进行一次对抗{@dcYourSpellSave}的体质豁免检定。豁免失败时，若非邪魔的生物将受到{@damage 8d6}力场伤害，并且获得{@condition 失能|XPHB}状态直到你的下一个回合开始。",
+				"一旦你使用了此特性，在完成一次{@variantrule 长休|XPHB}前无法再次使用，除非你消耗7点术法点（无需动作）来复原它的使用次数。"
 			]
 		}
 	],
 	"foundrySubclassFeature": [
 		{
-			"name": "Diabolical Gift",
+			"ENG_name": "Diabolical Gift",
+			"name": "魔鬼赠礼",
 			"source": "XUA2026VillainousOptionsUpdate",
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Hell Knight",
+			"subclassShortName": "地狱骑士",
 			"subclassSource": "XUA2026VillainousOptionsUpdate",
 			"level": 3,
 			"effects": [
@@ -871,30 +932,34 @@
 	],
 	"feat": [
 		{
-			"name": "Atoner's Grace",
+			"ENG_name": "Atoner's Grace",
+			"name": "赎罪者恩典",
 			"source": "XUA2026VillainousOptionsUpdate",
 			"page": 7,
 			"category": "O",
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Disarming Mien",
+					"name": "安抚仪态",
 					"type": "entries",
-					"name": "Disarming Mien",
 					"entries": [
-						"A creature's {@variantrule Hostile [Attitude]|XPHB|Hostile} attitude doesn't impose {@variantrule Disadvantage|XPHB} on your Charisma ({@skill Persuasion|XPHB}) checks to influence that creature."
+						"一个生物的{@variantrule 敌对【态度】|XPHB|敌对}态度不会对你影响该生物的{@skill 游说|XPHB}检定施加{@variantrule 劣势|XPHB}。"
 					]
 				},
 				{
+					"ENG_name": "Parley",
+					"name": "谈判",
 					"type": "entries",
-					"name": "Parley",
 					"entries": [
-						"When you take the {@action Disengage|XPHB} or {@action Influence|XPHB} action, each creature of your choice within 5 feet of you has {@variantrule Advantage|XPHB} on the next ability check or saving throw it makes before the start of your next turn."
+						"当你执行{@action 撤离|XPHB}或{@action 影响|XPHB}动作时，你周围5尺内每个你选择的生物，在你的下一个回合开始前，其下一次属性检定或豁免检定具有{@variantrule 优势|XPHB}。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Boon of the Bandit King",
+			"ENG_name": "Boon of the Bandit King",
+			"name": "强盗王恩赐",
 			"source": "XUA2026VillainousOptionsUpdate",
 			"page": 7,
 			"category": "EB",
@@ -919,25 +984,28 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Dastardly Charm",
+					"name": "卑劣魅惑",
 					"type": "entries",
-					"name": "Dastardly Charm",
 					"entries": [
-						"You have {@variantrule Advantage|XPHB} on Dexterity ({@skill Sleight of Hand|XPHB}) checks to pick a pocket. When you succeed on such a check, you can cause the target of your theft to willingly part with the item and have the {@condition Charmed|XPHB} condition for 1 minute or until it takes damage. Once you use this benefit, you can't use it again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+						"你在进行敏捷（{@skill 巧手|XPHB}）检定以扒窃时具有{@variantrule 优势|XPHB}。当你在此类检定中成功时，你可以使你盗窃的目标自愿交出该物品，并获得{@condition 魅惑|XPHB}状态，持续1分钟或直到它受到伤害为止。一旦你使用了此增益，直到你完成一次{@variantrule 短休|XPHB|短}或{@variantrule 长休|XPHB}前，你无法再次使用它。"
 					]
 				},
 				{
+					"ENG_name": "Uncatchable",
+					"name": "无法被捕获",
 					"type": "entries",
-					"name": "Uncatchable",
 					"entries": [
-						"You don't provoke {@action Opportunity Attack|XPHB|Opportunity Attacks} when you move out of a creature's reach."
+						"当你移动离开一个生物的触及范围时，不会引发{@action 借机攻击|XPHB|借机攻击}。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Boon of the Cleansed Heart",
+			"ENG_name": "Boon of the Cleansed Heart",
+			"name": "净化心脏恩惠",
 			"source": "XUA2026VillainousOptionsUpdate",
 			"page": 7,
 			"category": "EB",
@@ -969,32 +1037,35 @@
 					"innate": {
 						"_": {
 							"_": [
-								"Dispel Evil and Good|XPHB"
+								"驱逐善恶|XPHB"
 							]
 						}
 					}
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Cleanse Heart",
+					"name": "净化之心",
 					"type": "entries",
-					"name": "Cleanse Heart",
 					"entries": [
-						"You can cast {@spell Dispel Evil and Good|XPHB} without expending a spell slot. You can't use the spell's Dismissal special function when you cast it in this way."
+						"你可以不消耗法术位施放{@spell 驱逐善恶|XPHB}。当你以此方式施放该法术时，无法使用其驱逐特殊功能。"
 					]
 				},
 				{
+					"ENG_name": "Radiant Reflection",
+					"name": "光耀倒影",
 					"type": "entries",
-					"name": "Radiant Reflection",
 					"entries": [
-						"You have {@variantrule Immunity|XPHB} to Necrotic damage. When you would be subjected to Necrotic damage and don't have the {@condition Incapacitated|XPHB} condition, you can deal {@damage 2d8} Radiant damage to each creature of your choice within a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from yourself."
+						"你对暗蚀伤害具有{@variantrule 免疫|XPHB}。当你将受到暗蚀伤害且未处于{@condition 失能|XPHB}状态时，你可以对以你自身为原点、10尺{@variantrule 光环 [效应区域]|XPHB|光环}范围内每个你选择的生物造成{@damage 2d8}光耀伤害。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Boon of the Hunter's Eye",
+			"ENG_name": "Boon of the Hunter's Eye",
+			"name": "猎人眼之恩惠",
 			"source": "XUA2026VillainousOptionsUpdate",
 			"page": 7,
 			"category": "EB",
@@ -1019,25 +1090,28 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Quick Capture",
+					"name": "快速捕获",
 					"type": "entries",
-					"name": "Quick Capture",
 					"entries": [
-						"When you deal damage to a creature you intend to knock out rather than kill, if the target has 20 or fewer {@variantrule Hit Points|XPHB} after your damage is dealt, the target is reduced to 0 {@variantrule Hit Points|XPHB} instead."
+						"当你对意图击昏而非杀死的生物造成伤害时，若目标在承受伤害后拥有20点或更少的{@variantrule 生命值|XPHB}，则目标的生命值将降至0点{@variantrule 生命值|XPHB}。"
 					]
 				},
 				{
+					"ENG_name": "Studied Hunter",
+					"name": "研习猎人",
 					"type": "entries",
-					"name": "Studied Hunter",
 					"entries": [
-						"When you roll {@variantrule Initiative|XPHB}, you can choose a creature you can see; you know whether that creature has any {@variantrule Immunity|XPHB|Immunities}, {@variantrule Resistance|XPHB|Resistances}, or {@variantrule Vulnerability|XPHB|Vulnerabilities}, and if the creature has any, you know what they are."
+						"当你掷{@variantrule 先攻|XPHB}时，你可以选择一个你能够看见的生物；你会知晓该生物是否具有任意{@variantrule 免疫|XPHB|免疫}、{@variantrule 抗性|XPHB|抗性}或{@variantrule 易伤|XPHB|易伤}，并且如果该生物具有，你会知晓它们是什么。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Boon of Unwavering Devotion",
+			"ENG_name": "Boon of Unwavering Devotion",
+			"name": "坚定奉献恩赐",
 			"source": "XUA2026VillainousOptionsUpdate",
 			"page": 8,
 			"category": "EB",
@@ -1062,102 +1136,115 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Possession Immunity",
+					"name": "附身免疫",
 					"type": "entries",
-					"name": "Possession Immunity",
 					"entries": [
-						"You automatically succeed on saving throws to avoid or end possession."
+						"你在避免或结束附身的豁免检定中自动成功。"
 					]
 				},
 				{
+					"ENG_name": "See Through Illusions",
+					"name": "看破幻象",
 					"type": "entries",
-					"name": "See Through Illusions",
 					"entries": [
-						"Visual illusions appear transparent to you, and you automatically succeed on saving throws against them."
+						"视觉幻象在你看来是透明的，并且你自动通过对抗它们的豁免检定。"
 					]
 				},
 				{
+					"ENG_name": "Undeniable Confidence",
+					"name": "无可否认的自信",
 					"type": "entries",
-					"name": "Undeniable Confidence",
 					"entries": [
-						"Immediately after a creature you can see succeeds on a Wisdom saving throw against an effect you created, you can take a {@variantrule Reaction|XPHB} to force that creature to reroll the save, and it must use the new roll. Once you use this benefit, you can't use it again until you roll {@variantrule Initiative|XPHB} or finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+						"立即在你能够看见的一个生物成功通过针对你创造的效应的感知豁免检定之后，你可以采取一个{@variantrule 反应|XPHB}来迫使该生物重掷该豁免检定，并且它必须使用新的掷骰结果。一旦你使用了这个增益，直到你掷{@variantrule 先攻|XPHB}或完成一次{@variantrule 短休|XPHB|短}或{@variantrule 长休|XPHB}之前，你都不能再次使用它。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Raised by Cultists",
+			"ENG_name": "Raised by Cultists",
+			"name": "由邪教徒抚养长大",
 			"source": "XUA2026VillainousOptionsUpdate",
 			"page": 7,
 			"category": "O",
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Bloody Revelation",
+					"name": "血腥天启",
 					"type": "entries",
-					"name": "Bloody Revelation",
 					"entries": [
-						"When you become {@status Bloodied|XPHB}, you can take a {@variantrule Reaction|XPHB} to gain {@variantrule Heroic Inspiration|XPHB}."
+						"当你进入{@status 浴血|XPHB}状态时，你可以使用一个{@variantrule 反应|XPHB}来获得{@variantrule 英雄激励|XPHB}。"
 					]
 				},
 				{
+					"ENG_name": "Communal Caster",
+					"name": "集体施法者",
 					"type": "entries",
-					"name": "Communal Caster",
 					"entries": [
-						"When an ally within 5 feet of you makes a Constitution saving throw to maintain {@status Concentration|XPHB}, you can take a {@variantrule Reaction|XPHB} to give your ally {@variantrule Advantage|XPHB} on the save."
+						"当5尺内的一名盟友进行体质豁免检定以维持{@status 专注|XPHB}时，你可以使用一个{@variantrule 反应|XPHB}来给予你的盟友该豁免{@variantrule 优势|XPHB}。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Trapper",
+			"ENG_name": "Trapper",
+			"name": "诱陷者",
 			"source": "XUA2026VillainousOptionsUpdate",
 			"page": 7,
 			"category": "O",
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Eye for Detail",
+					"name": "鉴识之眼",
 					"type": "entries",
-					"name": "Eye for Detail",
 					"entries": [
-						"You have {@variantrule Advantage|XPHB} on any Intelligence ({@skill Investigation|XPHB}) check you make as part of the {@action Study|XPHB} action."
+						"当你进行{@action 研究|XPHB}动作时，你在任何智力（{@skill 调查|XPHB}）检定上具有{@variantrule 优势|XPHB}。"
 					]
 				},
 				{
+					"ENG_name": "Swift Tracker",
+					"name": "迅捷追迹者",
 					"type": "entries",
-					"name": "Swift Tracker",
 					"entries": [
-						"You don't have {@variantrule Disadvantage|XPHB} on Wisdom ({@skill Perception|XPHB} or {@skill Survival|XPHB}) checks while traveling at a {@table Travel Pace|XPHB|Fast pace}, and you have {@variantrule Advantage|XPHB} on such checks while traveling at a {@table Travel Pace|XPHB|Normal pace}."
+						"当以{@table 旅行步调|XPHB|快速步调}旅行时，你在感知（{@skill 察觉|XPHB}或{@skill 求生|XPHB}）检定上不会受到{@variantrule 劣势|XPHB}，并且当以{@table 旅行步调|XPHB|正常步调}旅行时，你在这些检定上获得{@variantrule 优势|XPHB}。"
 					]
 				},
 				{
+					"ENG_name": "Trap Expert",
+					"name": "陷阱专家",
 					"type": "entries",
-					"name": "Trap Expert",
 					"entries": [
-						"You can take a {@variantrule Bonus Action|XPHB}, instead of a {@action Utilize|XPHB} action, to set a {@item Hunting Trap|XPHB}. When you set a {@item Hunting Trap|XPHB}, you add your {@variantrule Proficiency|XPHB|Proficiency Bonus} to the DC of the saving throw to avoid the trap and the DC of the check to escape it."
+						"你可以使用一个{@variantrule 附赠动作|XPHB}，而非{@action 操作|XPHB}动作，来设置一个{@item 捕猎陷阱|XPHB}。当你设置一个{@item 捕猎陷阱|XPHB}时，你可以将你的{@variantrule 熟练|XPHB|熟练加值}加到避免该陷阱的豁免检定DC以及逃脱该陷阱的检定DC上。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Underhanded",
+			"ENG_name": "Underhanded",
+			"name": "阴险狡诈",
 			"source": "XUA2026VillainousOptionsUpdate",
 			"page": 7,
 			"category": "O",
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Elusive",
+					"name": "飘忽不定",
 					"type": "entries",
-					"name": "Elusive",
 					"entries": [
-						"Immediately after you roll {@variantrule Initiative|XPHB}, you can move up to 10 feet."
+						"在你掷出{@variantrule 先攻|XPHB}后，你可以立即移动最多10尺。"
 					]
 				},
 				{
+					"ENG_name": "Fight Dirty",
+					"name": "卑鄙战斗",
 					"type": "entries",
-					"name": "Fight Dirty",
 					"entries": [
-						"When a creature one size larger than you or smaller makes an {@action Opportunity Attack|XPHB} against you and misses, you can take a {@variantrule Reaction|XPHB} to give that creature the {@condition Prone|XPHB} condition. You must have a free hand to use this {@variantrule Reaction|XPHB}."
+						"当一个体型比你大一级或更小的生物对你进行{@action 借机攻击|XPHB}且未命中时，你可以采取一个{@variantrule 反应|XPHB}使该生物陷入{@condition 倒地|XPHB}状态。你必须有一只空闲的手才能使用这个{@variantrule 反应|XPHB}。"
 					]
 				}
 			]
@@ -1165,7 +1252,12 @@
 	],
 	"monster": [
 		{
-			"name": "Behemoth",
+			"ENG_name": "Behemoth",
+			"name": "巨兽",
+			"type": {
+				"type": "special",
+				"note": "（你的生物类型和阵营不会变化）"
+			},
 			"source": "XUA2026VillainousOptionsUpdate",
 			"page": 2,
 			"size": [
@@ -1173,81 +1265,82 @@
 				"H",
 				"G"
 			],
-			"sizeNote": "(Huge Requires Druid Level 10+, Gargantuan Requires Druid Level 14+)",
-			"type": {
-				"type": "special",
-				"note": "(Your Creature Type and Alignment Don't Change)"
-			},
+			"sizeNote": "（巨型需要德鲁伊等级10+，超巨型需要德鲁伊等级14+）",
 			"ac": [
 				{
-					"special": "13 + your Wisdom modifier"
+					"special": "13 + 你的感知调整值"
 				}
 			],
 			"hp": {
-				"special": "4 times your Druid level Temp HP"
+				"special": "4倍你的德鲁伊等级的临时生命值"
 			},
 			"speed": {
 				"walk": 40,
 				"climb": 40
 			},
 			"str": {
-				"special": "Your Strength and Dexterity scores are equal to your Wisdom score."
+				"special": "你的力量与敏捷值等于你的感知值。"
 			},
 			"dex": {
-				"special": "Your Strength and Dexterity scores are equal to your Wisdom score."
+				"special": "你的力量与敏捷值等于你的感知值。"
 			},
 			"con": {
-				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+				"special": "你的体质、智力、感知和魅力不会变化。"
 			},
 			"int": {
-				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+				"special": "你的体质、智力、感知和魅力不会变化。"
 			},
 			"wis": {
-				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+				"special": "你的体质、智力、感知和魅力不会变化。"
 			},
 			"cha": {
-				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+				"special": "你的体质、智力、感知和魅力不会变化。"
 			},
 			"senses": [
-				"darkvision 60 ft."
+				"黑暗视觉 60 尺"
 			],
 			"languages": [
-				"Your languages don't change."
+				"你的语言保持不变。"
 			],
-			"pbNote": "Your Proficiency Bonus doesn't change.",
+			"pbNote": "你的熟练加值不会改变。",
 			"trait": [
 				{
-					"name": "Siege Monster",
+					"ENG_name": "Siege Monster",
+					"name": "攻城怪物",
 					"entries": [
-						"You deal double damage to objects and structures."
+						"你对物体和建筑造成双倍伤害。"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack (Requires Druid Level 5+)",
+					"ENG_name": "Multiattack (Requires Druid Level 5+)",
+					"name": "多重攻击（需要德鲁伊等级5+）",
 					"entries": [
-						"You make two Rend attacks."
+						"你进行两次撕裂攻击。"
 					]
 				},
 				{
-					"name": "Rend",
+					"ENG_name": "Rend",
+					"name": "撕裂",
 					"entries": [
-						"{@atkr m} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 10 ft. {@h}{@damage 1d8} plus your Wisdom modifier Slashing damage. This damage increases by {@damage 1d8} when you reach Druid levels 6 ({@damage 2d8}) and 12 ({@damage 3d8})."
+						"{@atkr m} {@hitYourSpellAttack}，触及10尺。{@h}{@damage 1d8}加上你的感知调整值的挥砍伤害。当你的德鲁伊等级达到6级（{@damage 2d8}）和12级（{@damage 3d8}）时，此伤害增加{@damage 1d8}。"
 					]
 				},
 				{
-					"name": "Incandescent Breath",
+					"ENG_name": "Incandescent Breath",
+					"name": "白炽吐息",
 					"entries": [
-						"You expend a level 1+ spell slot. {@actSave dex} DC equals {@dcYourSpellSave}, each creature in a 5-foot-wide, 60-foot-long {@variantrule Line [Area of Effect]|XPHB|Line}. {@actSaveFail} {@damage 2d10} Radiant damage per level of the spell slot expended. {@actSaveSuccess} Half damage."
+						"你消耗一个1环或更高等级的法术位。{@actSave dex} DC等于{@dcYourSpellSave}，位于一条5尺宽、60尺长的{@variantrule 线状 [效应区域]|XPHB|线状}区域内的每个生物。{@actSaveFail} 造成消耗法术位每环阶{@damage 2d10}的光耀伤害。{@actSaveSuccess} 伤害减半。"
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Rampager (Requires Druid Level 10+)",
+					"ENG_name": "Rampager (Requires Druid Level 10+)",
+					"name": "狂暴者（需要德鲁伊等级10+）",
 					"entries": [
-						"You expend a level 1+ spell slot and move up to half your {@variantrule Speed|XPHB} without provoking {@action Opportunity Attack|XPHB|Opportunity Attacks}. When you enter the space of an enemy that is at least two sizes smaller than you for the first time on a turn, that creature is subjected to the following effect. {@actSave str} DC equals {@dcYourSpellSave}. {@actSaveFail} The target has the {@condition Prone} condition. If the target already has the {@condition Prone} condition, it instead takes {@damage 1d10} Bludgeoning damage per level of the spell slot expended."
+						"你消耗一个1环或更高等级的法术位，移动至多一半的{@variantrule 速度|XPHB}且不会引发{@action 借机攻击|XPHB|借机攻击}。当你在一回合内首次进入一个体型至少比你小两级的敌人的空间时，该生物将受到以下效果影响。{@actSave str} DC等于{@dcYourSpellSave}。{@actSaveFail} 目标获得{@condition 倒地}状态。如果目标已有{@condition 倒地}状态，则改为受到等同于所消耗法术位等级的{@damage 1d10}点钝击伤害。"
 					]
 				}
 			],
@@ -1280,7 +1373,12 @@
 			]
 		},
 		{
-			"name": "Insectoid",
+			"ENG_name": "Insectoid",
+			"name": "虫形",
+			"type": {
+				"type": "special",
+				"note": "（你的生物类型和阵营不会变化）"
+			},
 			"source": "XUA2026VillainousOptionsUpdate",
 			"page": 3,
 			"size": [
@@ -1288,82 +1386,83 @@
 				"H",
 				"G"
 			],
-			"sizeNote": "(Huge Requires Druid Level 10+, Gargantuan Requires Druid Level 14+)",
-			"type": {
-				"type": "special",
-				"note": "(Your Creature Type and Alignment Don't Change)"
-			},
+			"sizeNote": "（巨型需要德鲁伊等级10+，超巨型需要德鲁伊等级14+）",
 			"ac": [
 				{
-					"special": "13 + your Wisdom Modifier"
+					"special": "13 + 你的感知调整值"
 				}
 			],
 			"hp": {
-				"special": "4 times your Druid level Temp HP"
+				"special": "4倍你的德鲁伊等级的临时生命值"
 			},
 			"speed": {
 				"walk": 40,
 				"fly": {
 					"number": 40,
-					"condition": "(requires Druid Level 10+)"
+					"condition": "（需要德鲁伊等级10+）"
 				}
 			},
 			"str": {
-				"special": "Your Strength and Dexterity scores are equal to your Wisdom score."
+				"special": "你的力量与敏捷值等于你的感知值。"
 			},
 			"dex": {
-				"special": "Your Strength and Dexterity scores are equal to your Wisdom score."
+				"special": "你的力量与敏捷值等于你的感知值。"
 			},
 			"con": {
-				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+				"special": "你的体质、智力、感知和魅力不会变化。"
 			},
 			"int": {
-				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+				"special": "你的体质、智力、感知和魅力不会变化。"
 			},
 			"wis": {
-				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+				"special": "你的体质、智力、感知和魅力不会变化。"
 			},
 			"cha": {
-				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+				"special": "你的体质、智力、感知和魅力不会变化。"
 			},
 			"senses": [
-				"darkvision 60 ft."
+				"黑暗视觉 60 尺"
 			],
 			"languages": [
-				"Your languages don't change."
+				"你的语言保持不变。"
 			],
-			"pbNote": "Your Proficiency Bonus doesn't change.",
+			"pbNote": "你的熟练加值不会改变。",
 			"trait": [
 				{
-					"name": "Flyby (Requires Druid Level 10+)",
+					"ENG_name": "Flyby (Requires Druid Level 10+)",
+					"name": "飞掠（需要德鲁伊等级10+）",
 					"entries": [
-						"You don't provoke an {@action Opportunity Attack|XPHB} when you fly out of an enemy's reach."
+						"当你飞出敌人的触及范围时，不会引发{@action 借机攻击|XPHB}。"
 					]
 				},
 				{
-					"name": "Siege Monster",
+					"ENG_name": "Siege Monster",
+					"name": "攻城怪物",
 					"entries": [
-						"You deal double damage to objects and structures."
+						"你对物体和建筑造成双倍伤害。"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack (Requires Level 5+)",
+					"ENG_name": "Multiattack (Requires Level 5+)",
+					"name": "多重攻击（需要5级或更高等级）",
 					"entries": [
-						"You make two Rend attacks."
+						"你进行两次撕裂攻击。"
 					]
 				},
 				{
-					"name": "Rend",
+					"ENG_name": "Rend",
+					"name": "撕裂",
 					"entries": [
-						"{@atkr m} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 10 ft. {@h}{@damage 1d8} plus your Wisdom modifier Piercing damage. This damage increases by {@damage 1d8} when you reach Druid levels 6 ({@damage 2d8}) and 12 ({@damage 3d8})."
+						"{@atkr m} {@hitYourSpellAttack}，触及10尺。{@h}{@damage 1d8}加上你的感知调整值的穿刺伤害。当你达到德鲁伊6级（{@damage 2d8}）和12级（{@damage 3d8}）时，此伤害增加{@damage 1d8}。"
 					]
 				},
 				{
-					"name": "Energizing Pollen",
+					"ENG_name": "Energizing Pollen",
+					"name": "活力花粉",
 					"entries": [
-						"You expend a level 1+ spell slot and can move up to half your {@variantrule Speed|XPHB} without provoking {@action Opportunity Attack|XPHB|Opportunity Attacks} while emitting a cloud of healing pollen. When you move within 5 feet of another creature during this movement, you can restore a number of {@variantrule Hit Points|XPHB} equal to {@dice 2d6} per level of the spell slot expended. A creature can receive this healing only once per turn."
+						"你消耗一个1环或更高等级的法术位，并可以移动至多一半的{@variantrule 速度|XPHB}而不会引发{@action 借机攻击|XPHB|借机攻击}，同时散发出一团治疗花粉。当你在这次移动中移动到另一个生物5尺内时，你可以恢复等同于消耗法术位每环等级{@dice 2d6}点的{@variantrule 生命值|XPHB}。一个生物每回合只能接受一次此治疗。"
 					]
 				}
 			],
@@ -1387,7 +1486,12 @@
 			]
 		},
 		{
-			"name": "Leviathan",
+			"ENG_name": "Leviathan",
+			"name": "利维坦",
+			"type": {
+				"type": "special",
+				"note": "（你的生物类型和阵营不会变化）"
+			},
 			"source": "XUA2026VillainousOptionsUpdate",
 			"page": 3,
 			"size": [
@@ -1395,81 +1499,82 @@
 				"H",
 				"G"
 			],
-			"sizeNote": "(Huge Requires Druid Level 10+, Gargantuan Requires Druid Level 14+)",
-			"type": {
-				"type": "special",
-				"note": "(Your Creature Type and Alignment Don't Change)"
-			},
+			"sizeNote": "（巨型需要德鲁伊等级10+，超巨型需要德鲁伊等级14+）",
 			"ac": [
 				{
-					"special": "13 + your Wisdom Modifier"
+					"special": "13 + 你的感知调整值"
 				}
 			],
 			"hp": {
-				"special": "4 times your Druid level Temp HP"
+				"special": "4倍你的德鲁伊等级的临时生命值"
 			},
 			"speed": {
 				"walk": 40,
 				"swim": 40
 			},
 			"str": {
-				"special": "Your Strength and Dexterity scores are equal to your Wisdom score."
+				"special": "你的力量与敏捷值等于你的感知值。"
 			},
 			"dex": {
-				"special": "Your Strength and Dexterity scores are equal to your Wisdom score."
+				"special": "你的力量与敏捷值等于你的感知值。"
 			},
 			"con": {
-				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+				"special": "你的体质、智力、感知和魅力不会变化。"
 			},
 			"int": {
-				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+				"special": "你的体质、智力、感知和魅力不会变化。"
 			},
 			"wis": {
-				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+				"special": "你的体质、智力、感知和魅力不会变化。"
 			},
 			"cha": {
-				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+				"special": "你的体质、智力、感知和魅力不会变化。"
 			},
 			"senses": [
-				"darkvision 60 ft."
+				"黑暗视觉 60 尺"
 			],
 			"languages": [
-				"Your languages don't change."
+				"你的语言保持不变。"
 			],
-			"pbNote": "Your Proficiency Bonus doesn't change.",
+			"pbNote": "你的熟练加值不会改变。",
 			"trait": [
 				{
-					"name": "Amphibious",
+					"ENG_name": "Amphibious",
+					"name": "水陆两栖",
 					"entries": [
-						"You can breathe air and water."
+						"你可以在空气和水中呼吸。"
 					]
 				},
 				{
-					"name": "Siege Monster",
+					"ENG_name": "Siege Monster",
+					"name": "攻城怪物",
 					"entries": [
-						"You deal double damage to objects and structures."
+						"你对物体和建筑造成双倍伤害。"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack (Requires Druid Level 5+)",
+					"ENG_name": "Multiattack (Requires Druid Level 5+)",
+					"name": "多重攻击（需要德鲁伊等级5+）",
 					"entries": [
-						"You make two Rend attacks."
+						"你进行两次撕裂攻击。"
 					]
 				},
 				{
-					"name": "Rend",
+					"ENG_name": "Rend",
+					"name": "撕裂",
 					"entries": [
-						"{@atkr m} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 10 ft. {@h}{@damage 1d8} plus your Wisdom modifier Bludgeoning damage. This damage increases by {@damage 1d8} when you reach Druid levels 6 ({@damage 2d8}) and 12 ({@damage 3d8})."
+						"{@atkr m} {@hitYourSpellAttack}，触及10尺。{@h}{@damage 1d8}加上你的感知调整值的钝击伤害。当你的德鲁伊等级达到6级（{@damage 2d8}）和12级（{@damage 3d8}）时，此伤害增加{@damage 1d8}。"
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Toxic Deluge (Requires Druid Level 10+)",
+					"ENG_name": "Toxic Deluge (Requires Druid Level 10+)",
+					"name": "剧毒洪流（需要德鲁伊等级10+）",
 					"entries": [
-						"You expend a level 1+ spell slot and emit a toxic miasma. {@actSave con} DC equals {@dcYourSpellSave}, each creature of your choice in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from yourself. {@actSaveFail} {@damage 2d4} Poison damage per level of the spell slot expended, and the target has the {@condition Poisoned|XPHB} condition until the start of your next turn."
+						"你消耗一个1环或更高等级的法术位，并释放出一片毒瘴。{@actSave con} DC等于{@dcYourSpellSave}，每个你选择的、位于以你自身为源点的10尺{@variantrule 光环 [效应区域]|XPHB|光环}范围内的生物。{@actSaveFail} 受到相当于所消耗法术位每环阶{@damage 2d4}的毒素伤害，并且目标获得{@condition 中毒|XPHB}状态，直到你的下个回合开始。"
 					]
 				}
 			],
@@ -1503,12 +1608,13 @@
 	],
 	"table": [
 		{
-			"name": "Abyssal Manifestations",
+			"ENG_name": "Abyssal Manifestations",
+			"name": "深渊显迹",
 			"source": "XUA2026VillainousOptionsUpdate",
 			"page": 5,
 			"colLabels": [
 				"1d6",
-				"Manifestation"
+				"显迹"
 			],
 			"colStyles": [
 				"col-2 text-center",
@@ -1517,37 +1623,38 @@
 			"rows": [
 				[
 					"1",
-					"Abyssal fissures mar your flesh, revealing windows into a vast demonic realm."
+					"深渊裂隙玷污了你的血肉，显露出通往庞大恶魔领域的窗口。"
 				],
 				[
 					"2",
-					"Insects writhe beneath your skin and escape from your mouth, nose, and ears."
+					"昆虫在你的皮肤下蠕动，并从你的嘴、鼻子和耳朵中逃脱。"
 				],
 				[
 					"3",
-					"Sheets of scorched skin peel from your body."
+					"焦黑的皮肤片片从你的身体上剥落。"
 				],
 				[
 					"4",
-					"Your flesh bubbles and froths like a toxic bog."
+					"你的血肉像有毒的沼泽一样冒泡翻腾。"
 				],
 				[
 					"5",
-					"Your fingers or other extremities discolor as if frostbitten."
+					"你的手指或其他肢体末端变色，仿佛冻伤一般。"
 				],
 				[
 					"6",
-					"You grow a second head. (This has no impact on your game statistics.)"
+					"你长出了第二个头。（这对你的游戏数据没有影响。）"
 				]
 			]
 		},
 		{
-			"name": "Circle of the Titan Spells",
+			"ENG_name": "Circle of the Titan Spells",
+			"name": "泰坦结社法术",
 			"source": "XUA2026VillainousOptionsUpdate",
 			"page": 1,
 			"colLabels": [
-				"Druid Level",
-				"Prepared Spells"
+				"德鲁伊等级",
+				"准备法术"
 			],
 			"colStyles": [
 				"col-2 text-center",
@@ -1556,29 +1663,30 @@
 			"rows": [
 				[
 					"3",
-					"{@spell Enlarge/Reduce|XPHB}, {@spell Thaumaturgy|XPHB}, {@spell Thunderwave|XPHB}"
+					"{@spell 变巨/缩小术|XPHB}, {@spell 奇术|XPHB}, {@spell 雷鸣波|XPHB}"
 				],
 				[
 					"5",
-					"{@spell Fear|XPHB}"
+					"{@spell 恐惧术|XPHB}"
 				],
 				[
 					"7",
-					"{@spell Fire Shield|XPHB}"
+					"{@spell 火焰护盾|XPHB}"
 				],
 				[
 					"9",
-					"{@spell Destructive Wave|XPHB}"
+					"{@spell 湮灭波|XPHB}"
 				]
 			]
 		},
 		{
-			"name": "Demonic Spells",
+			"ENG_name": "Demonic Spells",
+			"name": "恶魔语法术",
 			"source": "XUA2026VillainousOptionsUpdate",
 			"page": 6,
 			"colLabels": [
-				"Sorcerer Level",
-				"Prepared Spells"
+				"术士等级",
+				"准备法术"
 			],
 			"colStyles": [
 				"col-2 text-center",
@@ -1587,29 +1695,30 @@
 			"rows": [
 				[
 					"3",
-					"{@spell Bane|XPHB}, {@spell Dissonant Whispers|XPHB}, {@spell Spike Growth|XPHB}, {@spell Web|XPHB}"
+					"{@spell 灾祸术|XPHB}, {@spell 不谐低语|XPHB}, {@spell 荆棘丛生|XPHB}, {@spell 蛛网术|XPHB}"
 				],
 				[
 					"5",
-					"{@spell Bestow Curse|XPHB}, {@spell Dispel Magic|XPHB}"
+					"{@spell 降咒|XPHB}, {@spell 解除魔法|XPHB}"
 				],
 				[
 					"7",
-					"{@spell Giant Insect|XPHB}, {@spell Hallucinatory Terrain|XPHB}"
+					"{@spell 巨虫术|XPHB}, {@spell 幻景|XPHB}"
 				],
 				[
 					"9",
-					"{@spell Contact Other Plane|XPHB}, {@spell Modify Memory|XPHB}"
+					"{@spell 异界探知|XPHB}, {@spell 篡改记忆|XPHB}"
 				]
 			]
 		},
 		{
-			"name": "Hell Knight Pursuits",
+			"ENG_name": "Hell Knight Pursuits",
+			"name": "地狱骑士追求",
 			"source": "XUA2026VillainousOptionsUpdate",
 			"page": 4,
 			"colLabels": [
 				"1d6",
-				"You Became a Hell Knight Because You..."
+				"你成为地狱骑士是因为你......"
 			],
 			"colStyles": [
 				"col-2 text-center",
@@ -1618,39 +1727,40 @@
 			"rows": [
 				[
 					"1",
-					"Desired treasures only the Nine Hells could grant you."
+					"只有九层地狱才能赐予你的渴望的宝藏。"
 				],
 				[
 					"2",
-					"Hungered for power beyond mortal bounds."
+					"渴求超越凡人极限的法力。"
 				],
 				[
 					"3",
-					"Made a wager with a devil\u2014and lost."
+					"与魔鬼打赌\u2014\u2014并且输了。"
 				],
 				[
 					"4",
-					"Sacrificed your soul to spare someone else's."
+					"牺牲你的灵魂以保全他人。"
 				],
 				[
 					"5",
-					"Sought vengeance on an adversary who wronged you deeply."
+					"向一个曾深深伤害你的挑战者寻求复仇。"
 				],
 				[
 					"6",
-					"Were fooled by fine print in an infernal contract."
+					"被一份炼狱契约中难辨的阅读材料所愚弄。"
 				]
 			]
 		},
 		{
-			"name": "Titan Appearance",
+			"ENG_name": "Titan Appearance",
+			"name": "泰坦外貌",
 			"source": "XUA2026VillainousOptionsUpdate",
 			"page": 2,
 			"colLabels": [
 				"1d4",
-				"{@creature Behemoth|XUA2026VillainousOptionsUpdate}",
-				"{@creature Leviathan|XUA2026VillainousOptionsUpdate}",
-				"{@creature Insectoid|XUA2026VillainousOptionsUpdate}"
+				"{@creature 巨兽|XUA2026反派选项更新}",
+				"{@creature 利维坦|XUA2026反派选项更新}",
+				"{@creature 昆虫形态|XUA2026反派选项更新}"
 			],
 			"colStyles": [
 				"col-3 text-center",
@@ -1661,34 +1771,35 @@
 			"rows": [
 				[
 					"1",
-					"Reflective scales",
-					"Many-tentacled",
-					"Iridescent wings"
+					"反光鳞片",
+					"多触须种",
+					"虹彩飞翼"
 				],
 				[
 					"2",
-					"Multiple heads",
-					"Translucent and blob-like",
-					"Compound eyes"
+					"多头",
+					"半透明且呈团块状",
+					"复眼"
 				],
 				[
 					"3",
-					"Reptilian tail",
-					"Lamprey-like mouth",
-					"Chitinous horns"
+					"爬行类尾击",
+					"七鳃鳗般的口部",
+					"覆壳种角击"
 				],
 				[
 					"4",
-					"Furry and simian",
-					"Serpentine body",
-					"Bioluminescent exoskeleton"
+					"毛茸茸的类猿生物",
+					"蛇形身体",
+					"发光生物外骨骼"
 				]
 			]
 		}
 	],
 	"book": [
 		{
-			"name": "Unearthed Arcana 2026: Villainous Options Update",
+			"ENG_name": "Unearthed Arcana 2026: Villainous Options Update",
+			"name": "破解奥秘 2026：反派选项更新",
 			"id": "XUA2026VillainousOptionsUpdate",
 			"source": "XUA2026VillainousOptionsUpdate",
 			"group": "prerelease",
@@ -1697,36 +1808,37 @@
 				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana-img/main/img/XUA2026VillainousOptionsUpdate/cover.webp"
 			},
 			"published": "2026-06-18",
-			"author": "Wizards of the Coast",
+			"author": "威世智",
 			"contents": [
 				{
-					"name": "Unearthed Arcana 2026: Villainous Options Update",
+					"ENG_name": "Unearthed Arcana 2026: Villainous Options Update",
+					"name": "破解奥秘 2026：反派选项更新",
 					"headers": [
-						"What's Inside",
+						"这里有什么",
 						{
-							"header": "Content Warning",
+							"header": "内容警告",
 							"depth": 1
 						},
-						"Subclasses",
+						"子职",
 						{
-							"header": "Circle of the Titan (Druid)",
-							"depth": 1
-						},
-						{
-							"header": "Hell Knight (Fighter)",
+							"header": "泰坦结社（德鲁伊）",
 							"depth": 1
 						},
 						{
-							"header": "Demonic Sorcery (Sorcerer)",
-							"depth": 1
-						},
-						"Feats",
-						{
-							"header": "Origin Feats",
+							"header": "地狱骑士（战士）",
 							"depth": 1
 						},
 						{
-							"header": "Epic Boon Feats",
+							"header": "恶魔语巫术（术士）",
+							"depth": 1
+						},
+						"专长",
+						{
+							"header": "起源专长",
+							"depth": 1
+						},
+						{
+							"header": "传奇恩惠专长",
 							"depth": 1
 						}
 					]
@@ -1740,65 +1852,72 @@
 			"source": "XUA2026VillainousOptionsUpdate",
 			"data": [
 				{
+					"ENG_name": "Unearthed Arcana 2026: Villainous Options Update",
+					"name": "破解奥秘 2026：反派选项更新",
 					"type": "section",
-					"name": "Unearthed Arcana 2026: Villainous Options Update",
 					"page": 1,
 					"entries": [
-						"This playtest document is part of a series of {@i Unearthed Arcana} articles that present material designed for upcoming products. The material here uses the rules in the {@book Player's Handbook|XPHB}.",
+						"这份测试文档是系列{@i 破解奥秘}文章的一部分，这些文章展示了为即将推出的产品设计的素材。这里的素材使用{@book 玩家手册|XPHB}中的规则。",
 						{
+							"ENG_name": "What's Inside",
+							"name": "这里有什么",
 							"type": "section",
-							"name": "What's Inside",
 							"page": 1,
 							"entries": [
-								"This document presents revised versions of these three subclasses, incorporating player feedback from the initial playtest in which they appeared:",
+								"本文档提供了这三个子职的修订版本，其中包含了玩家在初次试玩中给出的反馈：",
 								{
 									"type": "list",
 									"items": [
-										"{@class Druid} ({@class Druid|XPHB|Circle of the Titan|Titan|XUA2026VillainousOptionsUpdate})",
-										"{@class Fighter} ({@class Fighter|XPHB|Hell Knight|Hell Knight|XUA2026VillainousOptionsUpdate})",
-										"{@class Sorcerer} ({@class Sorcerer|XPHB|Demonic Sorcery|Demonic|XUA2026VillainousOptionsUpdate})"
+										"{@class 德鲁伊} ({@class 德鲁伊|XPHB|泰坦结社|泰坦|XUA2026VillainousOptionsUpdate})",
+										"{@class 战士} ({@class 战士|XPHB|地狱骑士|地狱骑士|XUA2026VillainousOptionsUpdate})",
+										"{@class 术士} ({@class 术士|XPHB|恶魔语巫术|恶魔语|XUA2026VillainousOptionsUpdate})"
 									]
 								},
-								"This document also includes Origin feats and Epic Boon feats.",
+								"本文档还包含起源专长和传奇恩惠专长。",
 								{
+									"ENG_name": "Content Warning",
+									"name": "内容警告",
 									"type": "entries",
-									"name": "Content Warning",
 									"page": 1,
 									"entries": [
-										"This material contains descriptions of body horror, disease, and insects that some readers might find disturbing."
+										"本资料包含对肉体恐怖、疾病和昆虫的描述，部分读者可能会感到不适。"
 									]
 								},
 								{
+									"ENG_name": "This Is Playtest Material",
+									"name": "本材料为游玩测试内容",
 									"type": "inset",
-									"name": "This Is Playtest Material",
 									"page": 1,
 									"entries": [
-										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt them as official.",
+										"本文章为游玩测试和反馈而呈现。这里的选项是实验样本和征募形态。它们不是游戏的官员部分。您的反馈将协助决定我们是否将它们采纳为官员。",
 										{
 											"type": "list",
 											"page": 1,
 											"style": "list-hang-notitle",
 											"items": [
 												{
+													"ENG_name": "How to Playtest This UA",
+													"name": "如何游玩测试本破解奥秘",
 													"type": "item",
-													"name": "How to Playtest This UA",
 													"entries": [
-														"We invite you to try out this material in play. To play with this material, you may either incorporate it into your campaign or run one or more special playtest sessions. For such a session, you may create an adventure of your own or use a short adventure from a source like {@adventure Dragon Delves|DrDe-BD}."
+														"我们邀请您在游玩中尝试本材料。要使用本材料进行游戏，您可以将其融入您的战役，或运行一个或多个特殊的游玩测试环节。对于这样的环节，您可以创建自己的冒险，或使用来自诸如{@adventure 巨龙迷城|DrDe-BD}等来源的短篇冒险。"
 													]
 												},
 												{
+													"ENG_name": "Power Level",
+													"name": "威力水平",
 													"type": "item",
-													"name": "Power Level",
 													"entries": [
-														"The character options you read here might be more or less powerful than options in the {@book Player's Handbook|XPHB}. If a design survives playtesting, we adjust its power to the desirable level before publication. This means an option could be more or less powerful in its final form."
+														"你在这里读到的角色选项，其威力可能比{@book 玩家手册|XPHB}中的选项更强或更弱。如果一个设计在游玩测试中得以保留，我们会在发布前将其威力调整到理想水平。这意味着一个选项在其最终形态中可能会更强或更弱。"
 													]
 												},
 												{
+													"ENG_name": "Feedback",
+													"name": "反馈",
 													"type": "item",
-													"name": "Feedback",
 													"entries": [
-														"The best way for you to give us feedback on this material is in the survey we'll release on D&D Beyond. If we make this material official, it will be refined based on your feedback, and then it will appear in a D&D book.",
-														"Providing feedback on this document is one way you can help shape the future of D&D!"
+														"您就这份材质向我们提供反馈的最佳方式是通过我们将在D&D Beyond上发布的调查。如果我们使这份材质成为官方版本，它将根据您的反馈进行完善，然后会出现在一本D&D书中。",
+														"对本文件提供反馈是您协助塑造D&D未来的一种方式！"
 													]
 												}
 											]
@@ -1808,23 +1927,26 @@
 							]
 						},
 						{
+							"ENG_name": "Subclasses",
+							"name": "子职",
 							"type": "section",
-							"name": "Subclasses",
 							"page": 1,
 							"entries": [
-								"This section presents the following subclasses: {@class Druid|XPHB|Circle of the Titan|Titan|XUA2026VillainousOptionsUpdate}, {@class Fighter|XPHB|Hell Knight|Hell Knight|XUA2026VillainousOptionsUpdate}, and {@class Sorcerer|XPHB|Demonic Sorcery|Demonic|XUA2026VillainousOptionsUpdate}.",
+								"本节介绍以下子职：{@class 德鲁伊|XPHB|泰坦结社|泰坦|XUA2026VillainousOptionsUpdate}、{@class 战士|XPHB|地狱骑士|地狱骑士|XUA2026VillainousOptionsUpdate}和{@class 术士|XPHB|恶魔语巫术|恶魔语|XUA2026VillainousOptionsUpdate}。",
 								{
+									"ENG_name": "Circle of the Titan (Druid)",
+									"name": "泰坦结社（德鲁伊）",
 									"type": "entries",
-									"name": "Circle of the Titan (Druid)",
 									"page": 1,
 									"entries": [
-										"{@i Wreak Colossal Havoc}",
+										"{@i 制造庞然浩劫}",
 										{
+											"ENG_name": "Circle of the Titan",
+											"name": "泰坦结社",
 											"type": "statblock",
 											"prop": "subclass",
-											"name": "Circle of the Titan",
-											"shortName": "Titan",
-											"className": "Druid",
+											"shortName": "泰坦",
+											"className": "德鲁伊",
 											"classSource": "XPHB",
 											"source": "XUA2026VillainousOptionsUpdate",
 											"page": 1
@@ -1832,17 +1954,19 @@
 									]
 								},
 								{
+									"ENG_name": "Hell Knight (Fighter)",
+									"name": "地狱骑士（战士）",
 									"type": "entries",
-									"name": "Hell Knight (Fighter)",
 									"page": 4,
 									"entries": [
-										"{@i Inflict Hellish Wounds and Damn Enemies}",
+										"{@i 造成地狱创伤并诅咒敌人}",
 										{
+											"ENG_name": "Hell Knight",
+											"name": "地狱骑士",
 											"type": "statblock",
 											"prop": "subclass",
-											"name": "Hell Knight",
-											"shortName": "Hell Knight",
-											"className": "Fighter",
+											"shortName": "地狱骑士",
+											"className": "战士",
 											"classSource": "XPHB",
 											"source": "XUA2026VillainousOptionsUpdate",
 											"page": 4
@@ -1850,17 +1974,19 @@
 									]
 								},
 								{
+									"ENG_name": "Demonic Sorcery (Sorcerer)",
+									"name": "恶魔语巫术（术士）",
 									"type": "entries",
-									"name": "Demonic Sorcery (Sorcerer)",
 									"page": 5,
 									"entries": [
-										"{@i Summon the Powers of the Abyss}",
+										"{@i 召唤深渊之力}",
 										{
+											"ENG_name": "Demonic Sorcery",
+											"name": "恶魔语巫术",
 											"type": "statblock",
 											"prop": "subclass",
-											"name": "Demonic Sorcery",
-											"shortName": "Demonic",
-											"className": "Sorcerer",
+											"shortName": "恶魔语",
+											"className": "术士",
 											"classSource": "XPHB",
 											"source": "XUA2026VillainousOptionsUpdate",
 											"page": 5
@@ -1870,78 +1996,89 @@
 							]
 						},
 						{
+							"ENG_name": "Feats",
+							"name": "专长",
 							"type": "section",
-							"name": "Feats",
 							"page": 7,
 							"entries": [
-								"This section presents eight new feats.",
+								"本节介绍八个新专长。",
 								{
+									"ENG_name": "Origin Feats",
+									"name": "起源专长",
 									"type": "entries",
-									"name": "Origin Feats",
 									"page": 7,
 									"entries": [
-										"These feats are in the Origin category.",
+										"这些专长从属于起源分类。",
 										{
+											"ENG_name": "Atoner's Grace",
+											"name": "赎罪者恩典",
 											"type": "statblock",
 											"tag": "feat",
-											"name": "Atoner's Grace",
 											"source": "XUA2026VillainousOptionsUpdate",
 											"page": 7
 										},
 										{
+											"ENG_name": "Raised by Cultists",
+											"name": "由邪教徒抚养长大",
 											"type": "statblock",
 											"tag": "feat",
-											"name": "Raised by Cultists",
 											"source": "XUA2026VillainousOptionsUpdate",
 											"page": 7
 										},
 										{
+											"ENG_name": "Trapper",
+											"name": "诱陷者",
 											"type": "statblock",
 											"tag": "feat",
-											"name": "Trapper",
 											"source": "XUA2026VillainousOptionsUpdate",
 											"page": 7
 										},
 										{
+											"ENG_name": "Underhanded",
+											"name": "阴险狡诈",
 											"type": "statblock",
 											"tag": "feat",
-											"name": "Underhanded",
 											"source": "XUA2026VillainousOptionsUpdate",
 											"page": 7
 										}
 									]
 								},
 								{
+									"ENG_name": "Epic Boon Feats",
+									"name": "传奇恩惠专长",
 									"type": "entries",
-									"name": "Epic Boon Feats",
 									"page": 7,
 									"entries": [
-										"These feats are in the Epic Boon category.",
+										"这些专长从属于传奇恩惠分类。",
 										{
+											"ENG_name": "Boon of the Bandit King",
+											"name": "强盗王恩赐",
 											"type": "statblock",
 											"tag": "feat",
-											"name": "Boon of the Bandit King",
 											"source": "XUA2026VillainousOptionsUpdate",
 											"page": 7
 										},
 										{
+											"ENG_name": "Boon of the Cleansed Heart",
+											"name": "净化心脏恩惠",
 											"type": "statblock",
 											"tag": "feat",
-											"name": "Boon of the Cleansed Heart",
 											"source": "XUA2026VillainousOptionsUpdate",
 											"page": 7
 										},
 										{
+											"ENG_name": "Boon of the Hunter's Eye",
+											"name": "猎人眼之恩惠",
 											"type": "statblock",
 											"tag": "feat",
-											"name": "Boon of the Hunter's Eye",
 											"source": "XUA2026VillainousOptionsUpdate",
 											"page": 7
 										},
 										{
+											"ENG_name": "Boon of Unwavering Devotion",
+											"name": "坚定奉献恩赐",
 											"type": "statblock",
 											"tag": "feat",
-											"name": "Boon of Unwavering Devotion",
 											"source": "XUA2026VillainousOptionsUpdate",
 											"page": 8
 										}

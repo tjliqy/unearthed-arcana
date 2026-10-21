@@ -1,11 +1,10 @@
 {
-	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/ua-fast/homebrew.json",
 	"_meta": {
 		"sources": [
 			{
 				"json": "XUA2026MysticSubclasses",
 				"abbreviation": "XUA26MS",
-				"full": "Unearthed Arcana 2026: Mystic Subclasses",
+				"full": "破解奥秘 2026：秘术师子职",
 				"url": "https://media.dndbeyond.com/compendium-images/ua/mystic-subclasses/mrF6k4xf0yYFJL2m/UA2026-MysticSubclasses.pdf",
 				"version": "1.0.0",
 				"dateReleased": "2026-01-15",
@@ -20,15 +19,16 @@
 		"edition": "one",
 		"status": "ready",
 		"dateAdded": 1768501635,
-		"dateLastModified": 1774092631,
+		"dateLastModified": 1792466110,
 		"_dateLastModifiedHash": "e6d1e34719"
 	},
 	"subclass": [
 		{
-			"name": "Magic Stealer",
-			"shortName": "Magic Stealer",
+			"ENG_name": "Magic Stealer",
+			"name": "魔法窃取者",
+			"shortName": "魔法窃取者",
 			"source": "XUA2026MysticSubclasses",
-			"className": "Rogue",
+			"className": "浪客",
 			"classSource": "XPHB",
 			"page": 4,
 			"additionalSpells": [
@@ -37,7 +37,7 @@
 						"13": {
 							"daily": {
 								"1e": [
-									"nondetection|XPHB"
+									"回避侦测|XPHB"
 								]
 							}
 						}
@@ -45,209 +45,215 @@
 				}
 			],
 			"subclassSpells": [
-				"Nondetection|XPHB"
+				"回避侦测|XPHB"
 			],
 			"subclassFeatures": [
-				"Magic Stealer|Rogue|XPHB|Magic Stealer|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses",
-				"Magical Sabotage|Rogue|XPHB|Magic Stealer|XUA2026MysticSubclasses|9|XUA2026MysticSubclasses",
-				"Occult Shroud|Rogue|XPHB|Magic Stealer|XUA2026MysticSubclasses|13|XUA2026MysticSubclasses",
-				"Improved Drain Magic|Rogue|XPHB|Magic Stealer|XUA2026MysticSubclasses|13|XUA2026MysticSubclasses",
-				"Eldritch Implosion|Rogue|XPHB|Magic Stealer|XUA2026MysticSubclasses|17|XUA2026MysticSubclasses"
+				"魔法窃取者|游荡者|XPHB|魔法窃取者|XUA2026MysticSubclasses|3|XUA2026秘术师子职",
+				"魔法破坏|游荡者|XPHB|魔法窃取者|XUA2026MysticSubclasses|9|XUA2026秘术师子职",
+				"神秘环绕|游荡者|XPHB|魔法窃取者|XUA2026MysticSubclasses|13|XUA2026秘术师子职",
+				"强化汲取魔法|游荡者|XPHB|魔法窃取者|XUA2026MysticSubclasses|13|XUA2026秘术师子职",
+				"诡秘崩裂|游荡者|XPHB|魔法窃取者|XUA2026MysticSubclasses|17|XUA2026秘术师子职"
 			],
 			"hasFluff": true
 		},
 		{
-			"name": "Oath of the Spellguard",
-			"shortName": "Spellguard",
+			"ENG_name": "Oath of the Spellguard",
+			"name": "法术卫队誓仇",
+			"shortName": "法术卫队",
 			"source": "XUA2026MysticSubclasses",
-			"className": "Paladin",
+			"className": "圣武士",
 			"classSource": "XPHB",
 			"page": 3,
 			"additionalSpells": [
 				{
 					"prepared": {
 						"3": [
-							"Detect Magic|XPHB",
-							"Shield|XPHB"
+							"侦测魔法|XPHB",
+							"护盾术|XPHB"
 						],
 						"5": [
-							"See Invisibility|XPHB",
-							"Silence|XPHB"
+							"识破隐形|XPHB",
+							"沉默术|XPHB"
 						],
 						"9": [
-							"Counterspell|XPHB",
-							"Dispel Magic|XPHB"
+							"法术反制|XPHB",
+							"解除魔法|XPHB"
 						],
 						"13": [
-							"Freedom of Movement|XPHB",
-							"Otiluke's Resilient Sphere|XPHB"
+							"行动自如|XPHB",
+							"欧提路克弹力法球|XPHB"
 						],
 						"17": [
-							"Circle of Power|XPHB",
-							"Hallow|XPHB"
+							"原力法阵|XPHB",
+							"圣居|XPHB"
 						]
 					}
 				}
 			],
 			"subclassSpells": [
-				"Detect Magic|XPHB",
-				"Shield|XPHB",
-				"See Invisibility|XPHB",
-				"Silence|XPHB",
-				"Counterspell|XPHB",
-				"Dispel Magic|XPHB",
-				"Freedom of Movement|XPHB",
-				"Otiluke's Resilient Sphere|XPHB",
-				"Circle of Power|XPHB",
-				"Hallow|XPHB"
+				"侦测魔法|XPHB",
+				"护盾术|XPHB",
+				"识破隐形|XPHB",
+				"沉默术|XPHB",
+				"法术反制|XPHB",
+				"解除魔法|XPHB",
+				"行动自如|XPHB",
+				"欧提路克弹力法球|XPHB",
+				"原力法阵|XPHB",
+				"圣居|XPHB"
 			],
 			"subclassFeatures": [
-				"Oath of the Spellguard|Paladin|XPHB|Spellguard|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses",
-				"Aura of Concentration|Paladin|XPHB|Spellguard|XUA2026MysticSubclasses|7|XUA2026MysticSubclasses",
-				"Spell-Breaking Blade|Paladin|XPHB|Spellguard|XUA2026MysticSubclasses|15|XUA2026MysticSubclasses",
-				"Eternal Spellguard|Paladin|XPHB|Spellguard|XUA2026MysticSubclasses|20|XUA2026MysticSubclasses"
+				"法术卫队誓仇|圣武士|XPHB|法术卫队|XUA2026MysticSubclasses|3|XUA2026秘术师子职",
+				"专注光环|圣武士|XPHB|法术卫队|XUA2026MysticSubclasses|7|XUA2026秘术师子职",
+				"破法之刃|圣武士|XPHB|法术卫队|XUA2026MysticSubclasses|15|XUA2026秘术师子职",
+				"永恒法术守卫|圣武士|XPHB|法术卫队|XUA2026MysticSubclasses|20|XUA2026秘术师子职"
 			],
 			"hasFluff": true
 		},
 		{
-			"name": "Vestige Patron",
-			"shortName": "Vestige",
+			"ENG_name": "Vestige Patron",
+			"name": "契灵宗主",
+			"shortName": "契灵",
 			"source": "XUA2026MysticSubclasses",
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "XPHB",
 			"page": 5,
 			"additionalSpells": [
 				{
-					"name": "Life",
+					"ENG_name": "Life",
+					"name": "生命",
 					"prepared": {
 						"3": [
-							"aid|xphb",
-							"bless|xphb",
-							"cure wounds|xphb",
-							"lesser restoration|xphb"
+							"援助术|xphb",
+							"祝福术|xphb",
+							"疗伤术|xphb",
+							"次等复原术|xphb"
 						],
 						"5": [
-							"mass healing word|xphb",
-							"revivify|xphb"
+							"群体治愈真言|xphb",
+							"回生术|xphb"
 						],
 						"7": [
-							"aura of life|xphb",
-							"death ward|xphb"
+							"生命灵光|xphb",
+							"防死结界|xphb"
 						],
 						"9": [
-							"greater restoration|xphb",
-							"mass cure wounds|xphb"
+							"高等复原术|xphb",
+							"群体疗伤术|xphb"
 						]
 					},
 					"innate": {
 						"14": {
 							"daily": {
 								"1": [
-									"Summon Celestial|XPHB",
-									"Summon Fiend|XPHB",
-									"Summon Undead|XPHB"
+									"天界召唤术|XPHB",
+									"邪魔召唤术|XPHB",
+									"亡灵召唤术|XPHB"
 								]
 							}
 						}
 					}
 				},
 				{
-					"name": "Light",
+					"ENG_name": "Light",
+					"name": "光线",
 					"prepared": {
 						"3": [
-							"burning hands|xphb",
-							"faerie fire|xphb",
-							"scorching ray|xphb",
-							"see invisibility|xphb"
+							"燃烧之手|xphb",
+							"妖火|xphb",
+							"灼热射线|xphb",
+							"识破隐形|xphb"
 						],
 						"5": [
-							"daylight|xphb",
-							"fireball|xphb"
+							"昼明术|xphb",
+							"火球术|xphb"
 						],
 						"7": [
-							"arcane eye|xphb",
-							"wall of fire|xphb"
+							"秘法眼|xphb",
+							"火墙术|xphb"
 						],
 						"9": [
-							"flame strike|xphb",
-							"scrying|xphb"
+							"焰击术|xphb",
+							"探知术|xphb"
 						]
 					},
 					"innate": {
 						"14": {
 							"daily": {
 								"1": [
-									"Summon Celestial|XPHB",
-									"Summon Fiend|XPHB",
-									"Summon Undead|XPHB"
+									"天界召唤术|XPHB",
+									"邪魔召唤术|XPHB",
+									"亡灵召唤术|XPHB"
 								]
 							}
 						}
 					}
 				},
 				{
-					"name": "Trickery",
+					"ENG_name": "Trickery",
+					"name": "诡术",
 					"prepared": {
 						"3": [
-							"charm person|xphb",
-							"disguise self|xphb",
-							"invisibility|xphb",
-							"pass without trace|xphb"
+							"魅惑类人|xphb",
+							"易容术|xphb",
+							"隐形术|xphb",
+							"行动无踪|xphb"
 						],
 						"5": [
-							"hypnotic pattern|xphb",
-							"nondetection|xphb"
+							"催眠图纹|xphb",
+							"回避侦测|xphb"
 						],
 						"7": [
-							"confusion|xphb",
-							"dimension door|xphb"
+							"困惑术|xphb",
+							"任意门|xphb"
 						],
 						"9": [
-							"dominate person|xphb",
-							"modify memory|xphb"
+							"支配类人|xphb",
+							"篡改记忆|xphb"
 						]
 					},
 					"innate": {
 						"14": {
 							"daily": {
 								"1": [
-									"Summon Celestial|XPHB",
-									"Summon Fiend|XPHB",
-									"Summon Undead|XPHB"
+									"天界召唤术|XPHB",
+									"邪魔召唤术|XPHB",
+									"亡灵召唤术|XPHB"
 								]
 							}
 						}
 					}
 				},
 				{
-					"name": "War",
+					"ENG_name": "War",
+					"name": "战争",
 					"prepared": {
 						"3": [
-							"guiding bolt|xphb",
-							"magic weapon|xphb",
-							"shield of faith|xphb",
-							"spiritual weapon|xphb"
+							"光导箭|xphb",
+							"魔化武器|xphb",
+							"虔诚护盾|xphb",
+							"灵体武器|xphb"
 						],
 						"5": [
-							"crusader's mantle|xphb",
-							"spirit guardians|xphb"
+							"十字军披风|xphb",
+							"灵体卫士|xphb"
 						],
 						"7": [
-							"fire shield|xphb",
-							"freedom of movement|xphb"
+							"火焰护盾|xphb",
+							"行动自如|xphb"
 						],
 						"9": [
-							"hold monster|xphb",
-							"steel wind strike|xphb"
+							"定身怪物|xphb",
+							"钢风斩|xphb"
 						]
 					},
 					"innate": {
 						"14": {
 							"daily": {
 								"1": [
-									"Summon Celestial|XPHB",
-									"Summon Fiend|XPHB",
-									"Summon Undead|XPHB"
+									"天界召唤术|XPHB",
+									"邪魔召唤术|XPHB",
+									"亡灵召唤术|XPHB"
 								]
 							}
 						}
@@ -255,73 +261,74 @@
 				}
 			],
 			"subclassSpells": [
-				"Summon Celestial|XPHB",
-				"Summon Fiend|XPHB",
-				"Summon Undead|XPHB"
+				"天界召唤术|XPHB",
+				"邪魔召唤术|XPHB",
+				"亡灵召唤术|XPHB"
 			],
 			"subSubclassSpells": {
 				"Life": [
-					"aid|xphb",
-					"bless|xphb",
-					"cure wounds|xphb",
-					"lesser restoration|xphb",
-					"mass healing word|xphb",
-					"revivify|xphb",
-					"aura of life|xphb",
-					"death ward|xphb",
-					"greater restoration|xphb",
-					"mass cure wounds|xphb"
+					"援助术|xphb",
+					"祝福术|xphb",
+					"疗伤术|xphb",
+					"次等复原术|xphb",
+					"群体治愈真言|xphb",
+					"回生术|xphb",
+					"生命灵光|xphb",
+					"防死结界|xphb",
+					"高等复原术|xphb",
+					"群体疗伤术|xphb"
 				],
 				"Light": [
-					"burning hands|xphb",
-					"faerie fire|xphb",
-					"scorching ray|xphb",
-					"see invisibility|xphb",
-					"daylight|xphb",
-					"fireball|xphb",
-					"arcane eye|xphb",
-					"wall of fire|xphb",
-					"flame strike|xphb",
-					"scrying|xphb"
+					"燃烧之手|xphb",
+					"妖火|xphb",
+					"灼热射线|xphb",
+					"识破隐形|xphb",
+					"昼明术|xphb",
+					"火球术|xphb",
+					"秘法眼|xphb",
+					"火墙术|xphb",
+					"焰击术|xphb",
+					"探知术|xphb"
 				],
 				"Trickery": [
-					"charm person|xphb",
-					"disguise self|xphb",
-					"invisibility|xphb",
-					"pass without trace|xphb",
-					"hypnotic pattern|xphb",
-					"nondetection|xphb",
-					"confusion|xphb",
-					"dimension door|xphb",
-					"dominate person|xphb",
-					"modify memory|xphb"
+					"魅惑类人|xphb",
+					"易容术|xphb",
+					"隐形术|xphb",
+					"行动无踪|xphb",
+					"催眠图纹|xphb",
+					"回避侦测|xphb",
+					"困惑术|xphb",
+					"任意门|xphb",
+					"支配类人|xphb",
+					"篡改记忆|xphb"
 				],
 				"War": [
-					"guiding bolt|xphb",
-					"magic weapon|xphb",
-					"shield of faith|xphb",
-					"spiritual weapon|xphb",
-					"crusader's mantle|xphb",
-					"spirit guardians|xphb",
-					"fire shield|xphb",
-					"freedom of movement|xphb",
-					"hold monster|xphb",
-					"steel wind strike|xphb"
+					"光导箭|xphb",
+					"魔化武器|xphb",
+					"虔诚护盾|xphb",
+					"灵体武器|xphb",
+					"十字军披风|xphb",
+					"灵体卫士|xphb",
+					"火焰护盾|xphb",
+					"行动自如|xphb",
+					"定身怪物|xphb",
+					"钢风斩|xphb"
 				]
 			},
 			"subclassFeatures": [
-				"Vestige Patron|Warlock|XPHB|Vestige|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses",
-				"Vestige Recovery|Warlock|XPHB|Vestige|XUA2026MysticSubclasses|6|XUA2026MysticSubclasses",
-				"Aura of Power|Warlock|XPHB|Vestige|XUA2026MysticSubclasses|10|XUA2026MysticSubclasses",
-				"Semblance of Life|Warlock|XPHB|Vestige|XUA2026MysticSubclasses|14|XUA2026MysticSubclasses"
+				"契灵宗主|魔契师|XPHB|契灵|XUA2026MysticSubclasses|3|XUA2026秘术师子职",
+				"契灵复苏|魔契师|XPHB|契灵|XUA2026MysticSubclasses|6|XUA2026秘术师子职",
+				"力量光环|魔契师|XPHB|契灵|XUA2026MysticSubclasses|10|XUA2026秘术师子职",
+				"生命的假象|魔契师|XPHB|契灵|XUA2026MysticSubclasses|14|XUA2026秘术师子职"
 			],
 			"hasFluff": true
 		},
 		{
-			"name": "Warrior of the Mystic Arts",
-			"shortName": "Mystic Arts",
+			"ENG_name": "Warrior of the Mystic Arts",
+			"name": "秘术武者",
+			"shortName": "秘术",
 			"source": "XUA2026MysticSubclasses",
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "XPHB",
 			"page": 1,
 			"edition": "one",
@@ -377,25 +384,25 @@
 					"expanded": {
 						"3": [
 							{
-								"all": "level=0|class=Sorcerer"
+								"all": "level=0|class=术士"
 							},
 							{
-								"all": "level=1|class=Sorcerer"
+								"all": "level=1|class=术士"
 							}
 						],
 						"7": [
 							{
-								"all": "level=2|class=Sorcerer"
+								"all": "level=2|class=术士"
 							}
 						],
 						"13": [
 							{
-								"all": "level=3|class=Sorcerer"
+								"all": "level=3|class=术士"
 							}
 						],
 						"19": [
 							{
-								"all": "level=4|class=Sorcerer"
+								"all": "level=4|class=术士"
 							}
 						]
 					},
@@ -404,7 +411,7 @@
 			],
 			"subclassSpells": [
 				{
-					"className": "Sorcerer",
+					"className": "术士",
 					"classSource": "XPHB"
 				}
 			],
@@ -412,12 +419,13 @@
 				{
 					"subclasses": [
 						{
-							"name": "Warrior of the Mystic Arts",
+							"ENG_name": "Warrior of the Mystic Arts",
+							"name": "秘术武者",
 							"source": "XUA2026MysticSubclasses"
 						}
 					],
 					"colLabels": [
-						"{@filter Spells Prepared|spells|subclass=monk: mystic arts (xua26ms)}"
+						"{@filter 法术准备|spells|subclass=武僧：秘术 (xua26ms)}"
 					],
 					"rows": [
 						[
@@ -483,18 +491,19 @@
 					]
 				},
 				{
-					"title": "Spell Slots per Spell Level",
+					"title": "每环法术位",
 					"subclasses": [
 						{
-							"name": "Warrior of the Mystic Arts",
+							"ENG_name": "Warrior of the Mystic Arts",
+							"name": "秘术武者",
 							"source": "XUA2026MysticSubclasses"
 						}
 					],
 					"colLabels": [
-						"{@filter 1st|spells|level=1|subclass=monk: mystic arts (xua26ms)}",
-						"{@filter 2nd|spells|level=2|subclass=monk: mystic arts (xua26ms)}",
-						"{@filter 3rd|spells|level=3|subclass=monk: mystic arts (xua26ms)}",
-						"{@filter 4th|spells|level=4|subclass=monk: mystic arts (xua26ms)}"
+						"{@filter 1st|spells|level=1|subclass=武僧：秘术 (xua26ms)}",
+						"{@filter 2nd|spells|level=2|subclass=武僧：秘术 (xua26ms)}",
+						"{@filter 3rd|spells|level=3|subclass=武僧：秘术 (xua26ms)}",
+						"{@filter 4th|spells|level=4|subclass=武僧：秘术 (xua26ms)}"
 					],
 					"rowsSpellProgression": [
 						[
@@ -621,590 +630,638 @@
 				}
 			],
 			"subclassFeatures": [
-				"Warrior of the Mystic Arts|Monk|XPHB|Mystic Arts|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses",
-				"Mystic Focus|Monk|XPHB|Mystic Arts|XUA2026MysticSubclasses|6|XUA2026MysticSubclasses",
-				"Mystic Fighting Style|Monk|XPHB|Mystic Arts|XUA2026MysticSubclasses|6|XUA2026MysticSubclasses",
-				"Centered Focus|Monk|XPHB|Mystic Arts|XUA2026MysticSubclasses|11|XUA2026MysticSubclasses",
-				"Improved Mystic Fighting Style|Monk|XPHB|Mystic Arts|XUA2026MysticSubclasses|17|XUA2026MysticSubclasses"
+				"秘术武者|武僧|XPHB|秘术|XUA2026MysticSubclasses|3|XUA2026秘术师子职",
+				"秘法武功|武僧|XPHB|秘术|XUA2026MysticSubclasses|6|XUA2026秘术师子职",
+				"秘法战斗风格|武僧|XPHB|秘术|XUA2026MysticSubclasses|6|XUA2026秘术师子职",
+				"专注中心|武僧|XPHB|秘术|XUA2026MysticSubclasses|11|XUA2026秘术师子职",
+				"精通秘法战斗风格|武僧|XPHB|秘术|XUA2026MysticSubclasses|17|XUA2026秘术师子职"
 			],
 			"hasFluff": true
 		}
 	],
 	"subclassFluff": [
 		{
-			"name": "Magic Stealer",
-			"shortName": "Magic Stealer",
+			"ENG_name": "Magic Stealer",
+			"name": "魔法窃取者",
+			"shortName": "魔法窃取者",
 			"source": "XUA2026MysticSubclasses",
-			"className": "Rogue",
+			"className": "浪客",
 			"classSource": "XPHB",
 			"entries": [
-				"{@i Steal Magical Power to Empower Yourself}"
+				"{@i 窃取魔法力量以强化自身}"
 			]
 		},
 		{
-			"name": "Oath of the Spellguard",
-			"shortName": "Spellguard",
+			"ENG_name": "Oath of the Spellguard",
+			"name": "法术卫队誓仇",
+			"shortName": "法术卫队",
 			"source": "XUA2026MysticSubclasses",
-			"className": "Paladin",
+			"className": "圣武士",
 			"classSource": "XPHB",
 			"entries": [
-				"{@i Protect Your Allies from Villainous Magic}"
+				"{@i 保护盟友免受邪恶魔法侵害}"
 			]
 		},
 		{
-			"name": "Vestige Patron",
-			"shortName": "Vestige",
+			"ENG_name": "Vestige Patron",
+			"name": "契灵宗主",
+			"shortName": "契灵",
 			"source": "XUA2026MysticSubclasses",
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "XPHB",
 			"entries": [
-				"{@i Wield the Remnants of a Dying God's Power}"
+				"{@i 掌控垂死神祇的残余之力}"
 			]
 		},
 		{
-			"name": "Warrior of the Mystic Arts",
-			"shortName": "Mystic Arts",
+			"ENG_name": "Warrior of the Mystic Arts",
+			"name": "秘术武者",
+			"shortName": "秘术",
 			"source": "XUA2026MysticSubclasses",
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "XPHB",
 			"entries": [
-				"{@i Weave Martial and Mystic Arts}"
+				"{@i 融汇武艺与秘术}"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Warrior of the Mystic Arts",
+			"ENG_name": "Warrior of the Mystic Arts",
+			"name": "秘术武者",
 			"source": "XUA2026MysticSubclasses",
 			"page": 1,
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "Mystic Arts",
+			"subclassShortName": "秘术",
 			"subclassSource": "XUA2026MysticSubclasses",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Warriors of the Mystic Arts wield magic to supplement their martial skill. They harness their supernatural focus to enhance their magical and physical abilities.",
+				"秘术武者运用魔法来增强他们的战斗技能。他们驾驭自身的超自然专注来提升其魔法与身体能力。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Spellcasting|Monk|XPHB|Mystic Arts|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses"
+					"subclassFeature": "施法|武僧|XPHB|秘术|XUA2026秘术师子职|3|XUA2026秘术师子职"
 				}
 			]
 		},
 		{
-			"name": "Spellcasting",
+			"ENG_name": "Spellcasting",
+			"name": "施法",
 			"source": "XUA2026MysticSubclasses",
 			"page": 1,
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "Mystic Arts",
+			"subclassShortName": "秘术",
 			"subclassSource": "XUA2026MysticSubclasses",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"You have learned to cast spells. See the {@book Player's Handbook|XPHB|7} for the rules on spellcasting. The information below details how you use those rules as a Warrior of the Mystic Arts.",
+				"你已学会施法。关于施法的规则，请参阅{@book 玩家手册|XPHB|7}。下方的信息详述了你作为秘术战士如何使用这些规则。",
 				{
+					"ENG_name": "Cantrips",
+					"name": "戏法",
 					"type": "entries",
-					"name": "Cantrips",
 					"entries": [
-						"You know two cantrips of your choice from the Sorcerer spell list. {@spell Blade Ward} and {@spell Thunderclap|XPHB} are recommended. Whenever you gain a Monk level, you can replace one of these cantrips with another cantrip of your choice from the Sorcerer spell list.",
-						"When you reach Monk level 10, you learn another Sorcerer cantrip of your choice."
+						"你从术士法术列表中选择两道戏法。推荐选择{@spell 剑刃防护}和{@spell 鸣雷破|XPHB}。每当你提升一个武僧等级时，你可以将其中一道戏法替换为术士法术列表中的另一道戏法。",
+						"当你达到武僧第10层时，你可以选择学习另一个术士戏法。"
 					]
 				},
 				{
+					"ENG_name": "Spell Slots",
+					"name": "法术位",
 					"type": "entries",
-					"name": "Spell Slots",
 					"entries": [
-						"The Warrior of the Mystic Arts Spellcasting table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a {@variantrule Long Rest|XPHB}."
+						"秘术武者施法表显示了你可用于施展一环及以上法术的法术位数量。你在完成一次{@variantrule 长休|XPHB}时恢复所有已消耗的法术位。"
 					]
 				},
 				{
+					"ENG_name": "Prepared Spells of Level 1+",
+					"name": "1环及以上的准备法术",
 					"type": "entries",
-					"name": "Prepared Spells of Level 1+",
 					"entries": [
-						"You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose three level 1 spells from the Sorcerer spell list. {@spell Jump}, {@spell Magic Missile}, and {@spell Shield} are recommended.",
-						"The number of spells on your list increases as you gain Monk levels, as shown in the Prepared Spells column of the Warrior of the Mystic Arts Spellcasting table. Whenever that number increases, choose additional spells from the Sorcerer spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 7 Monk, your list of prepared spells can include five Sorcerer spells of levels 1 and 2 in any combination."
+						"你准备一份1环及以上的法术列表，这些法术可通过此特性施放。开始时，从术士法术列表中选择三个一环法术。推荐选择{@spell 跳跃术}、{@spell 魔法飞弹}和{@spell 护盾术}。",
+						"你列表上的法术数量会随着武僧等级提升而增加，如秘术战士施法表格的准备法术栏所示。每当该数量增加时，从术士法术列表中选择额外的法术，直到你列表上的法术数量与表格中的数值相符。所选法术的环级必须是你拥有法术位的等级。例如，如果你是一名7级武僧，你的准备法术列表可以包含五个1环和2环的术士法术，且环级组合任意。"
 					]
 				},
 				{
+					"ENG_name": "Changing Your Prepared Spells",
+					"name": "改变你的准备法术",
 					"type": "entries",
-					"name": "Changing Your Prepared Spells",
 					"entries": [
-						"Whenever you gain a Monk level, you can replace one spell on your list with another Sorcerer spell for which you have spell slots."
+						"每当你获得一个武僧等级时，你可以将列表中的一个法术替换为另一个你拥有法术位的术士法术。"
 					]
 				},
 				{
+					"ENG_name": "Spellcasting Ability",
+					"name": "施法属性",
 					"type": "entries",
-					"name": "Spellcasting Ability",
 					"entries": [
-						"Wisdom is your spellcasting ability for your Sorcerer spells."
+						"你术士法术的施法属性是感知。"
 					]
 				},
 				{
+					"ENG_name": "Spellcasting Focus",
+					"name": "法器",
 					"type": "entries",
-					"name": "Spellcasting Focus",
 					"entries": [
-						"You can use an {@item Arcane Focus|XPHB} as a {@variantrule Spellcasting Focus|XPHB} for your Sorcerer spells."
+						"你可以使用{@item 奥术法器|XPHB}作为你术士法术的{@variantrule 法器|XPHB}。"
 					]
 				},
 				{
+					"ENG_name": "Multiclassing",
+					"name": "兼职",
 					"type": "entries",
-					"name": "Multiclassing",
 					"entries": [
-						"If you multiclass and have the Spellcasting feature from more than one class, add one third of your Monk levels (round down) to determine your available spell slots."
+						"如果你兼职并拥有来自多于一个职业的施法特性，将你武僧等级的三分之一（向下取整）计入总等级，以此来确定你可用的法术位数量。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Mystic Fighting Style",
+			"ENG_name": "Mystic Fighting Style",
+			"name": "秘法战斗风格",
 			"source": "XUA2026MysticSubclasses",
 			"page": 2,
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "Mystic Arts",
+			"subclassShortName": "秘术",
 			"subclassSource": "XUA2026MysticSubclasses",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"When you take the {@action Attack} action on your turn, you can replace one of the attacks with a casting of {@filter one of your Sorcerer cantrips that has a casting time of an action|spells|level=0|class=sorcerer|cast time=action}."
+				"当你在你的回合进行{@action 攻击}动作时，你可以将其中一次攻击替换为施放{@filter 你的一个施法时间为一个动作的术士戏法|spells|level=0|class=术士|cast time=动作}。"
 			]
 		},
 		{
-			"name": "Mystic Focus",
+			"ENG_name": "Mystic Focus",
+			"name": "秘法武功",
 			"source": "XUA2026MysticSubclasses",
 			"page": 2,
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "Mystic Arts",
+			"subclassShortName": "秘术",
 			"subclassSource": "XUA2026MysticSubclasses",
 			"level": 6,
 			"header": 2,
 			"consumes": {
-				"name": "Focus Point",
+				"ENG_name": "Focus Point",
+				"name": "功力",
 				"amountMin": 2,
 				"amountMax": 6
 			},
 			"entries": [
-				"You keep your magical power and martial focus in perfect balance, allowing you to convert spell slots into Focus Points, or convert Focus Points into spell slots.",
+				"你使自己的魔力与武道功力保持着完美平衡，使得你能够将法术位转换为功力或将功力转换为法术位。",
 				{
+					"ENG_name": "Converting Spell Slots to Focus Points",
+					"name": "法术位转换为功力",
 					"type": "entries",
-					"name": "Converting Spell Slots to Focus Points",
 					"entries": [
-						"You can expend a spell slot to regain a number of expended Focus Points equal to the slot's level (no action required)."
+						"你可以消耗一个法术位，来恢复等同于该法术位环阶数量的已消耗功力（无需动作）。"
 					]
 				},
 				{
+					"ENG_name": "Recovering Spell Slots",
+					"name": "恢复法术位",
 					"type": "entries",
-					"name": "Recovering Spell Slots",
 					"entries": [
-						"As a {@variantrule Bonus Action|XPHB}, you can transform unexpended Focus Points to recover one expended spell slot. The {@table Recovering Spell Slots|XUA2026MysticSubclasses} table shows the cost of recovering a spell slot of a given level, and it lists the minimum Monk level you must be to recover a slot. You can recover a spell slot no higher than level 4."
+						"以一个{@variantrule 附赠动作|XPHB}，你可以将未消耗的功力转化为一个已消耗的法术位。{@table 恢复法术位|XUA2026MysticSubclasses}表格展示了恢复特定等级法术位的花费，并列出了恢复该法术位所需的最低武僧等级。你恢复的法术位等级不能高于四环。"
 					]
 				},
 				{
+					"ENG_name": "Recovering Spell Slots",
+					"name": "恢复法术位",
 					"type": "statblock",
 					"tag": "table",
-					"name": "Recovering Spell Slots",
 					"source": "XUA2026MysticSubclasses",
 					"page": 2
 				}
 			]
 		},
 		{
-			"name": "Centered Focus",
+			"ENG_name": "Centered Focus",
+			"name": "专注中心",
 			"source": "XUA2026MysticSubclasses",
 			"page": 2,
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "Mystic Arts",
+			"subclassShortName": "秘术",
 			"subclassSource": "XUA2026MysticSubclasses",
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"Whenever you expend a Focus Point to use {@classFeature Flurry of Blows|Monk|XPHB|2|XPHB}, {@classFeature Patient Defense|Monk|XPHB|2|XPHB}, or {@classFeature Step of the Wind|Monk|XPHB|2|XPHB}, you have {@variantrule Advantage|XPHB} on any saving throw you make to maintain {@status Concentration} until the start of your next turn."
+				"每当你消耗一个功力点来使用{@classFeature 疾风连击|武僧|XPHB|2|XPHB}、{@classFeature 坚强防御|武僧|XPHB|2|XPHB}或{@classFeature 疾步如风|武僧|XPHB|2|XPHB}时，你在为维持{@status 专注}状态而进行的任意豁免检定上具有{@variantrule 优势|XPHB}，此优势持续到你下个回合开始。"
 			]
 		},
 		{
-			"name": "Improved Mystic Fighting Style",
+			"ENG_name": "Improved Mystic Fighting Style",
+			"name": "精通秘法战斗风格",
 			"source": "XUA2026MysticSubclasses",
 			"page": 2,
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "Mystic Arts",
+			"subclassShortName": "秘术",
 			"subclassSource": "XUA2026MysticSubclasses",
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"When you take the {@action Attack} action on your turn, you can replace two of the attacks with a casting of {@filter one of your level 1 or 2 Sorcerer spells that has a casting time of an action|spells|level=1;2|class=sorcerer|cast time=action}."
+				"当你在你的回合进行{@action 攻击}动作时，你可以将其中两次攻击替换为施放一个{@filter 你的一个1环或2环术士法术，其施法时间为一个动作|spells|level=1;2|class=术士|cast time=动作}。"
 			]
 		},
 		{
-			"name": "Oath of the Spellguard",
+			"ENG_name": "Oath of the Spellguard",
+			"name": "法术卫队誓仇",
 			"source": "XUA2026MysticSubclasses",
 			"page": 3,
-			"className": "Paladin",
+			"className": "圣武士",
 			"classSource": "XPHB",
-			"subclassShortName": "Spellguard",
+			"subclassShortName": "法术卫队",
 			"subclassSource": "XUA2026MysticSubclasses",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Paladins who take the Oath of the Spellguard are sworn to battle those who use magic to harm others. They often serve as bodyguards to upstanding mages, but their most important role is protecting allies from devastating magical attacks. Those who swear this oath ensure that villains who misuse magic are brought to justice.",
-				"These paladins share the following tenets:",
+				"立下法术卫队誓约的圣武士，誓与那些使用魔法伤害他人的存在战斗。他们常担任正直魔法师们的保镖，但其最重要的职能是保护盟友免受毁灭性魔法攻击。立下此誓约者，确保那些滥用魔法的恶徒被绳之以法。",
+				"立下此誓言的圣武士都遵循以下信条。",
 				{
 					"type": "list",
 					"items": [
-						"Protect the innocent from wicked mages.",
-						"Prevent magic from falling into villains' hands.",
-						"Protect mages who use magic honorably."
+						"保护无辜者免受恶意魔法师们的伤害。",
+						"防止魔法落入受害者手中。",
+						"保护那些光荣地使用魔法的魔法师们。"
 					]
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Guardian Bond|Paladin|XPHB|Spellguard|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses"
+					"subclassFeature": "守护者牵挂|圣武士|XPHB|法术卫队|XUA2026秘术师子职|3|XUA2026秘术师子职"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oath of the Spellguard Spells|Paladin|XPHB|Spellguard|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses"
+					"subclassFeature": "法术卫队誓约法术|圣武士|XPHB|法术卫队|XUA2026秘术师子职|3|XUA2026秘术师子职"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Spellguard Strike|Paladin|XPHB|Spellguard|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses"
+					"subclassFeature": "法术卫队打击|圣武士|XPHB|法术卫队|XUA2026秘术师子职|3|XUA2026秘术师子职"
 				}
 			]
 		},
 		{
-			"name": "Guardian Bond",
+			"ENG_name": "Guardian Bond",
+			"name": "守护者牵挂",
 			"source": "XUA2026MysticSubclasses",
 			"page": 3,
-			"className": "Paladin",
+			"className": "圣武士",
 			"classSource": "XPHB",
-			"subclassShortName": "Spellguard",
+			"subclassShortName": "法术卫队",
 			"subclassSource": "XUA2026MysticSubclasses",
 			"level": 3,
 			"header": 2,
 			"consumes": {
-				"name": "Channel Divinity"
+				"ENG_name": "Channel Divinity",
+				"name": "引导神力"
 			},
 			"entries": [
-				"As a {@action Magic|XPHB} Action, you can expend one use of your Channel Divinity to forge a divine bond with a willing creature within 5 feet of yourself. The bond lasts for 1 hour or until you have the {@condition Unconscious} condition. For the duration, while the bonded creature is within your reach and is hit by an attack roll, you can take a {@variantrule Reaction|XPHB} to add your Charisma modifier (minimum of +1) to that creature's AC, possibly causing the attack to miss.",
-				"You can end your divine bond at any time (no action required). If you already have a divine bond when you forge a new one, the previous bond ends."
+				"以一个{@action 魔法|XPHB}动作，你可以消耗一次引导神力使用次数，与一个你5尺内自愿的生物缔结一道神圣联结。此联结持续1小时，或直到你陷入{@condition 昏迷}状态。在持续时间内，当联结生物处于你的触及范围内且被一次攻击检定命中时，你可以采取一个{@variantrule 反应|XPHB}，将你的魅力调整值（至少为+1）加到该生物的AC上，可能导致此次攻击未命中。",
+				"你可以随时结束你的神力牵挂（无需动作）。如果你在锻造一个新的神力牵挂时已经有一个神力牵挂，那么之前的牵挂会结束。"
 			]
 		},
 		{
-			"name": "Oath of the Spellguard Spells",
+			"ENG_name": "Oath of the Spellguard Spells",
+			"name": "法术卫队誓约法术",
 			"source": "XUA2026MysticSubclasses",
 			"page": 3,
-			"className": "Paladin",
+			"className": "圣武士",
 			"classSource": "XPHB",
-			"subclassShortName": "Spellguard",
+			"subclassShortName": "法术卫队",
 			"subclassSource": "XUA2026MysticSubclasses",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the {@table Oath of the Spellguard Spells|XUA2026MysticSubclasses} table, you thereafter always have the listed spells prepared.",
+				"你的誓约魔法确保你总是预备着某些法术；当你达到{@table 法术卫队誓言法术|XUA2026MysticSubclasses}表格中指定的圣武士等级时，你此后将始终准备着所列出的法术。",
 				{
+					"ENG_name": "Oath of the Spellguard Spells",
+					"name": "法术卫队誓约法术",
 					"type": "statblock",
 					"tag": "table",
-					"name": "Oath of the Spellguard Spells",
 					"source": "XUA2026MysticSubclasses",
 					"page": 3
 				}
 			]
 		},
 		{
-			"name": "Spellguard Strike",
+			"ENG_name": "Spellguard Strike",
+			"name": "法术卫队打击",
 			"source": "XUA2026MysticSubclasses",
 			"page": 3,
-			"className": "Paladin",
+			"className": "圣武士",
 			"classSource": "XPHB",
-			"subclassShortName": "Spellguard",
+			"subclassShortName": "法术卫队",
 			"subclassSource": "XUA2026MysticSubclasses",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"When you see a creature within your reach casting a spell with Verbal, Somatic, or Material components, you can take a {@variantrule Reaction|XPHB} to make a melee attack with a weapon or an {@variantrule Unarmed Strike|XPHB} against that creature."
+				"当你看见一个触及范围内的生物正在施放一个带有言语、姿势或材料成分的法术时，你可以采取一个{@variantrule 反应|XPHB}，用武器或{@variantrule 徒手打击|XPHB}对该生物进行一次近战攻击。"
 			]
 		},
 		{
-			"name": "Aura of Concentration",
+			"ENG_name": "Aura of Concentration",
+			"name": "专注光环",
 			"source": "XUA2026MysticSubclasses",
 			"page": 3,
-			"className": "Paladin",
+			"className": "圣武士",
 			"classSource": "XPHB",
-			"subclassShortName": "Spellguard",
+			"subclassShortName": "法术卫队",
 			"subclassSource": "XUA2026MysticSubclasses",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"Your aura of protection fosters mental focus. You and your allies have {@variantrule Advantage|XPHB} on Constitution saving throws to maintain {@status Concentration} while in your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB}."
+				"你的守护灵光能培养精神专注。你和你的盟友在你的{@classFeature 守护灵光|圣武士|XPHB|6|XPHB}范围内，为维持{@status 专注}而进行的体质豁免检定具有{@variantrule 优势|XPHB}。"
 			]
 		},
 		{
-			"name": "Spell-Breaking Blade",
+			"ENG_name": "Spell-Breaking Blade",
+			"name": "破法之刃",
 			"source": "XUA2026MysticSubclasses",
 			"page": 3,
-			"className": "Paladin",
+			"className": "圣武士",
 			"classSource": "XPHB",
-			"subclassShortName": "Spellguard",
+			"subclassShortName": "法术卫队",
 			"subclassSource": "XUA2026MysticSubclasses",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Immediately after you hit a creature with your {@subclassFeature Spellguard Strike|Paladin|XPHB|Spellguard|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses}, you can cast {@spell Counterspell} as part of the same {@variantrule Reaction|XPHB}.",
-				"When you cast {@spell Counterspell} with a spell slot, that slot isn't expended if the spell fails to stop a spell."
+				"在你用你的{@subclassFeature 法术卫队打击|圣武士|XPHB|法术卫队|XUA2026秘术师子职|3|XUA2026秘术师子职}命中一个生物后，你可以立即作为同一个{@variantrule 反应|XPHB}的一部分施放{@spell 法术反制}。",
+				"当你使用法术位施放{@spell 法术反制}时，如果该法术未能阻止一个法术，则该法术位不会被消耗。"
 			]
 		},
 		{
-			"name": "Eternal Spellguard",
+			"ENG_name": "Eternal Spellguard",
+			"name": "永恒法术守卫",
 			"source": "XUA2026MysticSubclasses",
 			"page": 3,
-			"className": "Paladin",
+			"className": "圣武士",
 			"classSource": "XPHB",
-			"subclassShortName": "Spellguard",
+			"subclassShortName": "法术卫队",
 			"subclassSource": "XUA2026MysticSubclasses",
 			"level": 20,
 			"header": 2,
 			"entries": [
-				"As a {@variantrule Bonus Action|XPHB}, you can empower your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB}, granting the benefits below for 1 minute or until you end them (no action required). Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}. You can restore your use of this ability by expending a level 5 spell slot (no action required).",
+				"以一个{@variantrule 附赠动作|XPHB}，你可以增强你的{@classFeature 守护灵光|圣武士|XPHB|6|XPHB}，授予下方增益效果，持续1分钟或直到你结束它们（无需动作）。一旦你使用了此特性，在完成一次{@variantrule 长休|XPHB}前不能再次使用。你可以通过消耗一个5环法术位来复原此能力的使用次数（无需动作）。",
 				{
+					"ENG_name": "Bodyguard",
+					"name": "保镖",
 					"type": "entries",
-					"name": "Bodyguard",
 					"entries": [
-						"While the target of your {@subclassFeature Guardian Bond|Paladin|XPHB|Spellguard|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses} is in the aura, that creature has {@variantrule Resistance|XPHB} to all damage."
+						"当你{@subclassFeature 守护者联结|圣武士|XPHB|法术卫队|XUA2026秘术师子职|3|XUA2026秘术师子职}的目标处于此灵光内时，该生物获得对所有伤害的{@variantrule 抗性|XPHB}。"
 					]
 				},
 				{
+					"ENG_name": "Protection from Magic",
+					"name": "防护魔法",
 					"type": "entries",
-					"name": "Protection from Magic",
 					"entries": [
-						"You and your allies in the aura have {@variantrule Advantage|XPHB} on saving throws against spells."
+						"你和处于光环内的盟友在对抗法术的豁免检定上具有{@variantrule 优势|XPHB}。"
 					]
 				},
 				{
+					"ENG_name": "Spell Ward",
+					"name": "法术结界",
 					"type": "entries",
-					"name": "Spell Ward",
 					"entries": [
-						"Spell attack rolls against you and your allies in the aura have {@variantrule Disadvantage|XPHB}."
+						"针对你和你的盟友在灵光内进行的法术攻击检定具有{@variantrule 劣势|XPHB}。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Magic Stealer",
+			"ENG_name": "Magic Stealer",
+			"name": "魔法窃取者",
 			"source": "XUA2026MysticSubclasses",
 			"page": 4,
-			"className": "Rogue",
+			"className": "浪客",
 			"classSource": "XPHB",
-			"subclassShortName": "Magic Stealer",
+			"subclassShortName": "魔法窃取者",
 			"subclassSource": "XUA2026MysticSubclasses",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"While ordinary thieves are cutting purses and burgling homes, a Magic Stealer is after a much more valuable prize: magic. The Magic Stealer preys on spellcasters, repurposing their magic and eluding divination spells to take magical power at the point of a knife.",
+				"当普通的窃贼还在割钱包和入室行窃时，魔法窃取者所追求的是一种更有价值的战利品：魔法。魔法窃取者以施法者为猎物，重新利用他们的法术，并躲避预言系法术，在刀刃之下窃取魔法力量。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Empower Sneak Attack|Rogue|XPHB|Magic Stealer|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses"
+					"subclassFeature": "增强偷袭|游荡者|XPHB|魔法窃取者|XUA2026秘术师子职|3|XUA2026秘术师子职"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Drain Magic|Rogue|XPHB|Magic Stealer|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses"
+					"subclassFeature": "汲取魔法|游荡者|XPHB|魔法窃取者|XUA2026秘术师子职|3|XUA2026秘术师子职"
 				}
 			]
 		},
 		{
-			"name": "Drain Magic",
+			"ENG_name": "Drain Magic",
+			"name": "汲取魔法",
 			"source": "XUA2026MysticSubclasses",
 			"page": 4,
-			"className": "Rogue",
+			"className": "浪客",
 			"classSource": "XPHB",
-			"subclassShortName": "Magic Stealer",
+			"subclassShortName": "魔法窃取者",
 			"subclassSource": "XUA2026MysticSubclasses",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"You can drain power from ongoing spells to recharge your allies' magic. As a {@action Magic|XPHB} Action, you can touch a willing creature and end one ongoing level 1 or level 2 spell on it; the creature immediately recovers one expended spell slot of level 2 or lower (the target's choice).",
-				"Once you use this feature, you can't do so again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+				"你可以从持续的法术中汲取法力来为盟友的魔法充能。作为一个{@action 魔法|XPHB}动作，你可以接触一个愿意的生物并结束其身上一个持续的1环或2环法术；该生物立即恢复一个已消耗的2环或更低的法术位（由目标选择）。",
+				"一旦你使用此特性，则直至完成一次{@variantrule 短休|XPHB|短}或{@variantrule 长休|XPHB}，你都无法再次使用。"
 			]
 		},
 		{
-			"name": "Empower Sneak Attack",
+			"ENG_name": "Empower Sneak Attack",
+			"name": "增强偷袭",
 			"source": "XUA2026MysticSubclasses",
 			"page": 4,
-			"className": "Rogue",
+			"className": "浪客",
 			"classSource": "XPHB",
-			"subclassShortName": "Magic Stealer",
+			"subclassShortName": "魔法窃取者",
 			"subclassSource": "XUA2026MysticSubclasses",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Immediately after a creature you can see within 30 feet of you casts a level 1+ spell, you can take a {@variantrule Reaction|XPHB} to absorb magical energy from the spell. When you do so, until the end of your next turn, the next time you hit with your {@classFeature Sneak Attack|Rogue|XPHB|1|XPHB} you deal extra Force damage. To determine the extra damage, roll a number of {@dice d6|d6s} equal to the spell's level, and add them together.",
-				"You can take this {@variantrule Reaction|XPHB} a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+				"当你30尺内一个你能看见的生物施放一个1环或更高环阶的法术后，你可以立即使用一个{@variantrule 反应|XPHB}来从该法术中吸收魔法能量。当你这样做时，直到你的下一个回合结束，你下一次使用{@classFeature 偷袭|游荡者|XPHB|1|XPHB}命中时，将造成额外的力场伤害。要确定额外伤害，掷与该法术环阶数量相等的{@dice d6|d6s}，并将结果相加。",
+				"你可以使用此{@variantrule 反应|XPHB}的次数等于你的智力调整值（至少一次），并且当你完成一次{@variantrule 长休|XPHB}时恢复所有已使用的次数。"
 			]
 		},
 		{
-			"name": "Magical Sabotage",
+			"ENG_name": "Magical Sabotage",
+			"name": "魔法破坏",
 			"source": "XUA2026MysticSubclasses",
 			"page": 4,
-			"className": "Rogue",
+			"className": "浪客",
 			"classSource": "XPHB",
-			"subclassShortName": "Magic Stealer",
+			"subclassShortName": "魔法窃取者",
 			"subclassSource": "XUA2026MysticSubclasses",
 			"level": 9,
 			"header": 2,
 			"entries": [
-				"You gain the following Cunning Strike options.",
+				"你获得以下诡诈打击选项。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Spell Susceptibility (Cost: 2d6)|Rogue|XPHB|Magic Stealer|XUA2026MysticSubclasses|9|XUA2026MysticSubclasses"
+					"subclassFeature": "法术易感性（花费：2d6）|游荡者|XPHB|魔法窃取者|XUA2026秘术师子职|9|XUA2026秘术师子职"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Disrupt Spell (Cost: 3d6)|Rogue|XPHB|Magic Stealer|XUA2026MysticSubclasses|9|XUA2026MysticSubclasses"
+					"subclassFeature": "扰乱法术（花费：3d6）|游荡者|XPHB|魔法窃取者|XUA2026秘术师子职|9|XUA2026秘术师子职"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Steal Resistance (Cost: 2d6)|Rogue|XPHB|Magic Stealer|XUA2026MysticSubclasses|9|XUA2026MysticSubclasses"
+					"subclassFeature": "窃取抗性（花费：2d6）|游荡者|XPHB|魔法窃取者|XUA2026秘术师子职|9|XUA2026秘术师子职"
 				}
 			]
 		},
 		{
-			"name": "Disrupt Spell (Cost: 3d6)",
+			"ENG_name": "Disrupt Spell (Cost: 3d6)",
+			"name": "扰乱法术（花费：3d6）",
 			"source": "XUA2026MysticSubclasses",
 			"page": 4,
-			"className": "Rogue",
+			"className": "浪客",
 			"classSource": "XPHB",
-			"subclassShortName": "Magic Stealer",
+			"subclassShortName": "魔法窃取者",
 			"subclassSource": "XUA2026MysticSubclasses",
 			"level": 9,
 			"header": 3,
 			"entries": [
-				"The target's magical acuity is disrupted until the start of your next turn. Whenever the target casts a spell during that time, it must succeed on an Intelligence saving throw or the spell dissipates with no effect, and the action, {@variantrule Bonus Action|XPHB}, or {@variantrule Reaction|XPHB} used to cast it is wasted. If that spell was cast with a spell slot, the slot isn't expended."
+				"目标的魔法敏锐度被扰乱，直至你的下个回合开始。在此期间，每当目标施放一个法术时，它必须成功通过一次智力豁免检定，否则该法术将消散且无效果，并且用于施放该法术的动作、{@variantrule 附赠动作|XPHB}或{@variantrule 反应|XPHB}被浪费。如果该法术是用法术位施放的，则该法术位不会被消耗。"
 			]
 		},
 		{
-			"name": "Spell Susceptibility (Cost: 2d6)",
+			"ENG_name": "Spell Susceptibility (Cost: 2d6)",
+			"name": "法术易感性（花费：2d6）",
 			"source": "XUA2026MysticSubclasses",
 			"page": 4,
-			"className": "Rogue",
+			"className": "浪客",
 			"classSource": "XPHB",
-			"subclassShortName": "Magic Stealer",
+			"subclassShortName": "魔法窃取者",
 			"subclassSource": "XUA2026MysticSubclasses",
 			"level": 9,
 			"header": 3,
 			"entries": [
-				"The target has {@variantrule Disadvantage|XPHB} on the next saving throw it makes against a spell until the start of your next turn."
+				"目标在直到你的下一回合开始前，对下一次针对法术的豁免检定具有{@variantrule 劣势|XPHB}。"
 			]
 		},
 		{
-			"name": "Steal Resistance (Cost: 2d6)",
+			"ENG_name": "Steal Resistance (Cost: 2d6)",
+			"name": "窃取抗性（花费：2d6）",
 			"source": "XUA2026MysticSubclasses",
 			"page": 4,
-			"className": "Rogue",
+			"className": "浪客",
 			"classSource": "XPHB",
-			"subclassShortName": "Magic Stealer",
+			"subclassShortName": "魔法窃取者",
 			"subclassSource": "XUA2026MysticSubclasses",
 			"level": 9,
 			"header": 3,
 			"entries": [
-				"Choose one kind of damage. If the target has {@variantrule Resistance|XPHB} to that kind of damage, until the start of your next turn, the target loses that {@variantrule Resistance|XPHB} and you gain {@variantrule Resistance|XPHB} to that damage type."
+				"选择一种伤害类型。如果目标对该伤害类型具有{@variantrule 抗性|XPHB}，则直到你的下一个回合开始前，目标失去该{@variantrule 抗性|XPHB}，而你获得对该伤害类型的{@variantrule 抗性|XPHB}。"
 			]
 		},
 		{
-			"name": "Improved Drain Magic",
+			"ENG_name": "Improved Drain Magic",
+			"name": "强化汲取魔法",
 			"source": "XUA2026MysticSubclasses",
 			"page": 4,
-			"className": "Rogue",
+			"className": "浪客",
 			"classSource": "XPHB",
-			"subclassShortName": "Magic Stealer",
+			"subclassShortName": "魔法窃取者",
 			"subclassSource": "XUA2026MysticSubclasses",
 			"level": 13,
 			"header": 2,
 			"entries": [
-				"You can now use {@subclassFeature Drain Magic|Rogue|XPHB|MAgic Stealer|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses} as a {@variantrule Bonus Action|XPHB}. In addition, when you use {@subclassFeature Drain Magic|Rogue|XPHB|MAgic Stealer|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses}, you can end one ongoing level 1, level 2, or level 3 spell on the target, and the target recovers one expended spell slot of level 3 or lower (the target's choice)."
+				"你现在可以将{@subclassFeature 汲取魔法|游荡者|XPHB|魔法窃取者|XUA2026秘术师子职|3|XUA2026秘术师子职}作为{@variantrule 附赠动作|XPHB}使用。此外，当你使用{@subclassFeature 汲取魔法|游荡者|XPHB|魔法窃取者|XUA2026秘术师子职|3|XUA2026秘术师子职}时，你可以结束目标身上一个持续生效的1环、2环或3环法术，并且目标恢复一个已消耗的3环或更低的法术位（由目标选择）。"
 			]
 		},
 		{
-			"name": "Occult Shroud",
+			"ENG_name": "Occult Shroud",
+			"name": "神秘环绕",
 			"source": "XUA2026MysticSubclasses",
 			"page": 4,
-			"className": "Rogue",
+			"className": "浪客",
 			"classSource": "XPHB",
-			"subclassShortName": "Magic Stealer",
+			"subclassShortName": "魔法窃取者",
 			"subclassSource": "XUA2026MysticSubclasses",
 			"level": 13,
 			"header": 2,
 			"entries": [
-				"Whenever you finish a {@variantrule Long Rest|XPHB}, you can cast the {@spell Nondetection} spell, using Intelligence as your spellcasting ability. When you do so, you can target only yourself, and the duration increases to 24 hours."
+				"每当你完成一次{@variantrule 长休|XPHB}，你可以施放{@spell 回避侦测}法术，使用智力作为你的施法属性。当你如此做时，你只能以自身为目标，且持续时间增加至24小时。"
 			]
 		},
 		{
-			"name": "Eldritch Implosion",
+			"ENG_name": "Eldritch Implosion",
+			"name": "诡秘崩裂",
 			"source": "XUA2026MysticSubclasses",
 			"page": 4,
-			"className": "Rogue",
+			"className": "浪客",
 			"classSource": "XPHB",
-			"subclassShortName": "Magic Stealer",
+			"subclassShortName": "魔法窃取者",
 			"subclassSource": "XUA2026MysticSubclasses",
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"When you use {@subclassFeature Empower Sneak Attack|Rogue|XPHB|MAgic Stealer|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses}, you can force the target to make a Constitution saving throw ({@dc 8} plus your Dexterity modifier and {@table Proficiency Bonus|XPHB}). On a failed save, the spell dissipates with no effect, and the target has the {@condition Stunned} condition until the start of its next turn."
+				"当你使用{@subclassFeature 增强偷袭|游荡者|XPHB|魔法窃取者|XUA2026秘术师子职|3|XUA2026秘术师子职}时，你可以强迫目标进行一次体质豁免检定（{@dc 8}加上你的敏捷调整值和{@table 熟练加值|XPHB}）。豁免失败时，该法术将无效果地消散，且目标获得{@condition 震慑}状态，直到其下一回合开始。"
 			]
 		},
 		{
-			"name": "Vestige Patron",
+			"ENG_name": "Vestige Patron",
+			"name": "契灵宗主",
 			"source": "XUA2026MysticSubclasses",
 			"page": 5,
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "XPHB",
-			"subclassShortName": "Vestige",
+			"subclassShortName": "契灵",
 			"subclassSource": "XUA2026MysticSubclasses",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Your pact draws on the power of a dying god, a being once worshipped by countless followers but now abandoned and forgotten. This dying god, known as a vestige, might have been benevolent, evil, or strange and unknowable, but now it is driven to regain its former power. The vestige needs your help it is willing to share its remaining strength with you.",
+				"你的契约汲取了一位垂死之神的力量，这位存在曾受无数追随者崇拜，但如今已被遗弃和遗忘。这位垂死之神，被称为契灵，可能曾是仁慈的、邪恶的、或是怪异且不可知的，但如今它一心想要重获昔日的力量。契灵需要你的协助，它愿意与你分享其残余的力量。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Vestige Companion|Warlock|XPHB|Vestige|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses"
+					"subclassFeature": "契灵伙伴|魔契师|XPHB|契灵|XUA2026秘术师子职|3|XUA2026秘术师子职"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Vestige Spells|Warlock|XPHB|Vestige|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses"
+					"subclassFeature": "契灵法术|魔契师|XPHB|契灵|XUA2026秘术师子职|3|XUA2026秘术师子职"
 				}
 			]
 		},
 		{
-			"name": "Vestige Companion",
+			"ENG_name": "Vestige Companion",
+			"name": "契灵伙伴",
 			"source": "XUA2026MysticSubclasses",
 			"page": 5,
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "XPHB",
-			"subclassShortName": "Vestige",
+			"subclassShortName": "契灵",
 			"subclassSource": "XUA2026MysticSubclasses",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"The vestige manifests, aiding you to do so and drawing strength from your pact. It uses the {@creature Vestige Companion|XUA2026MysticSubclasses} stat block and is a Celestial, Fiend, or Undead (choose when you gain this feature). You determine what the vestige looks like, but regardless of its form, the vestige bears features indicating its supernatural origin. For example, you might decide your vestige is an oversize floating skull etched with sigils, a circle of glowing runes, or a constantly shifting abstract shape. The vestige is {@variantrule Friendly [Attitude]|XPHB|Friendly} to you and your allies and obeys your commands. It vanishes if you die.",
+				"契灵显现，协助你并汲取你契约的力量。它使用{@creature 契灵伙伴|XUA2026秘术师子职}资料卡，并且是天族、邪魔或亡灵（在你获得此特性时选择）。你决定契灵的外观，但无论其形态如何，契灵都带有表明其超然起源的特征。例如，你可以决定你的契灵是一个刻有符文的巨型漂浮头骨、一个发光的符文圆环，或是一个不断变化的抽象形态。该契灵对你和你的盟友{@variantrule 友好【态度】|XPHB|友好}并服从你的命令。如果你死亡，它会消失。",
 				{
+					"ENG_name": "The Vestige in Combat",
+					"name": "战斗中的契灵",
 					"type": "entries",
-					"name": "The Vestige in Combat",
 					"entries": [
-						"In combat, the vestige acts during your turn. It can move and use its {@variantrule Reaction|XPHB} on its own, but the only action it takes is the {@action Dodge} action unless you take a {@variantrule Bonus Action|XPHB} to command it to take an action in its stat block or some other action. You can also sacrifice one of your attacks when you take the {@action Attack} action to command the vestige to take the Vestige's Strike action. If you have the {@condition Incapacitated} condition, the vestige acts on its own and isn't limited to the {@action Dodge} action."
+						"在战斗中，契灵在你的回合行动。它可以自行移动和使用其{@variantrule 反应|XPHB}，但除非你消耗一个{@variantrule 附赠动作|XPHB}来命令它执行其资料卡中的某个动作或其他动作，否则它只会执行{@action 回避}动作。当你执行{@action 攻击}动作时，你也可以牺牲你的一次攻击来命令契灵执行契灵打击动作。如果你处于{@condition 失能}状态，契灵将自行行动，且不受限于仅执行{@action 回避}动作。"
 					]
 				},
 				{
+					"ENG_name": "Disappearance of the Vestige",
+					"name": "契灵的消逝",
 					"type": "entries",
-					"name": "Disappearance of the Vestige",
 					"entries": [
-						"When the vestige drops to 0 {@variantrule Hit Points|XPHB}, it disappears. You can spend 1 minute performing a magic ceremony to manifest the vestige again; it reappears with its maximum {@variantrule Hit Points|XPHB} in an unoccupied space within 5 feet of you. As a {@action Magic|XPHB} action, you can temporarily dismiss the vestige to a pocket dimension. As a {@action Magic|XPHB} action while it is temporarily dismissed, you can cause the vestige to reappear in an unoccupied space within 30 feet of you. Whenever the vestige drops to 0 {@variantrule Hit Points|XPHB} or disappears into the pocket dimension, it leaves behind in its space anything it was wearing or carrying.",
-						"Whenever you finish a {@variantrule Long Rest|XPHB}, you can summon the vestige in a new form, which appears in an unoccupied space within 5 feet of you. You choose its appearance and whether it is a Celestial, Fiend, or Undead. If the vestige is already manifested from this feature, its form changes to the new one."
+						"当契灵的生命值降至0{@variantrule 生命值|XPHB}，它会消失。你可以花费1分钟进行一个魔法仪式来再次显现契灵；它会以满额{@variantrule 生命值|XPHB}出现在你周围5尺内一个未被占据的空间中。以一个{@action 魔法|XPHB}动作，你可以暂时将契灵遣送至一个口袋维度。当它被暂时遣送时，以一个{@action 魔法|XPHB}动作，你可以使契灵在你周围30尺内一个未被占据的空间中重新出现。每当契灵的生命值降至0{@variantrule 生命值|XPHB}或消失进入口袋维度时，它会将其穿戴或携带的任何东西留在它原本的空间中。",
+						"每当你完成一次{@variantrule 长休|XPHB}后，你能够以新的形态召唤契灵，它出现在你5尺范围内的一处未占据空间。由你选择它的外观，并决定它是天族、邪魔还是亡灵。如果契灵已通过此特性显化，则其形态将转变为新的样子。"
 					]
 				},
 				{
+					"ENG_name": "Vestige Companion",
+					"name": "契灵伙伴",
 					"type": "statblock",
 					"tag": "creature",
-					"name": "Vestige Companion",
 					"source": "XUA2026MysticSubclasses",
 					"page": 5,
 					"collapsed": true
@@ -1212,99 +1269,104 @@
 			]
 		},
 		{
-			"name": "Vestige Spells",
+			"ENG_name": "Vestige Spells",
+			"name": "契灵法术",
 			"source": "XUA2026MysticSubclasses",
 			"page": 5,
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "XPHB",
-			"subclassShortName": "Vestige",
+			"subclassShortName": "契灵",
 			"subclassSource": "XUA2026MysticSubclasses",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"The magic of your {@creature Vestige Companion|XUA2026MysticSubclasses} ensures you always have certain spells ready. Select one of the following {@class Cleric} Domains: {@subclassFeature Life Domain Spells|Cleric|XPHB|Life|XPHB|3|XPHB|Life}, {@subclassFeature Light Domain Spells|Cleric|XPHB|Light|XPHB|3|XPHB|Light}, {@subclassFeature Trickery Domain Spells|Cleric|XPHB|Trickery|XPHB|3|XPHB|Trickery}, or {@subclassFeature War Domain Spells|Cleric|XPHB|War|XPHB|3|XPHB|War}. The Domain Spells of your chosen Domain are Warlock spells for you. When you reach a Warlock level equal to a Cleric Level listed on the Domain Spells table for the Domain you have chosen, you thereafter always have the listed spells prepared.",
-				"For example, if you chose the {@subclassFeature War Domain Spells|Cleric|XPHB|War|XPHB|3|XPHB|War Domain} for this feature, when you reach Warlock level 3, you would have the {@spell Guiding Bolt}, {@spell Magic Weapon}, {@spell Shield of Faith}, and {@spell Spiritual Weapon} spells prepared."
+				"你的{@creature 契灵伙伴|XUA2026秘术师子职}的魔法确保你总是预备着某些法术。从以下{@class 牧师}领域中选择一个：{@subclassFeature 生命领域法术|牧师|XPHB|生命|XPHB|3|XPHB|生命}、{@subclassFeature 光明领域法术|牧师|XPHB|光线|XPHB|3|XPHB|光线}、{@subclassFeature 诡术领域法术|牧师|XPHB|诡术|XPHB|3|XPHB|诡术}或{@subclassFeature 战争领域法术|牧师|XPHB|战争|XPHB|3|XPHB|战争}。你所选领域的领域法术对你而言是魔契师法术。当你达到的魔契师等级等于你所选领域在领域法术表格中列出的牧师等级时，你此后总是准备着所列出的法术。",
+				"例如，如果你为这个特性选择了{@subclassFeature 战争领域法术|牧师|XPHB|战争|XPHB|3|XPHB|战争领域}，那么当你达到魔契师3级时，你将准备好{@spell 光导箭}、{@spell 魔化武器}、{@spell 虔诚护盾}和{@spell 灵体武器}法术。"
 			]
 		},
 		{
-			"name": "Vestige Recovery",
+			"ENG_name": "Vestige Recovery",
+			"name": "契灵复苏",
 			"source": "XUA2026MysticSubclasses",
 			"page": 6,
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "XPHB",
-			"subclassShortName": "Vestige",
+			"subclassShortName": "契灵",
 			"subclassSource": "XUA2026MysticSubclasses",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Your {@creature Vestige Companion|XUA2026MysticSubclasses} now regains its use of Divine Power whenever you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB} or when you use your {@classFeature Magical Cunning|Warlock|XPHB|2|XPHB} feature."
+				"你的{@creature 契灵伙伴|XUA2026秘术师子职}现在会在你完成一次{@variantrule 短休|XPHB|短}或{@variantrule 长休|XPHB}时，或者当你使用你的{@classFeature 秘法回流|魔契师|XPHB|2|XPHB}特性时，恢复其神力法力的使用次数。"
 			]
 		},
 		{
-			"name": "Aura of Power",
+			"ENG_name": "Aura of Power",
+			"name": "力量光环",
 			"source": "XUA2026MysticSubclasses",
 			"page": 6,
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "XPHB",
-			"subclassShortName": "Vestige",
+			"subclassShortName": "契灵",
 			"subclassSource": "XUA2026MysticSubclasses",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Your {@creature Vestige Companion|XUA2026MysticSubclasses} increases in magical strength. As a {@action Magic|XPHB} Action, you can cause the vestige to manifest an aura in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} that originates from the vestige. The aura lasts a number of hours equal to your Charisma modifier or until the vestige disappears or is temporarily dismissed. You, the vestige, and your allies within the aura gain {@variantrule Resistance|XPHB} to Fire, Necrotic, and Radiant damage and have {@variantrule Immunity|XPHB} to the {@condition Charmed} and {@condition Frightened} conditions. Once you manifest this aura, you can't do so again until you finish a {@variantrule Long Rest|XPHB}.",
-				"In addition, when you drop to 0 {@variantrule Hit Points|XPHB} while within the aura, you instead change your {@variantrule Hit Points|XPHB} to a number equal to your Warlock level plus your Charisma modifier. The vestige is then dismissed into a pocket dimension and can't return until you finish a {@variantrule Long Rest|XPHB}."
+				"你的{@creature 契灵伙伴|XUA2026秘术师子职}的魔法力量得到增强。以一个{@action 魔法|XPHB}动作，你可以使契灵在其自身周围30尺范围内显现一个{@variantrule 光环 [效应区域]|XPHB|光环}光环。该光环持续小时数等同于你的魅力调整值，或持续至契灵消失或被暂时遣散。你、契灵以及光环内的盟友获得对火焰、暗蚀和光耀伤害的{@variantrule 抗性|XPHB}，并对{@condition 魅惑}和{@condition 恐慌}状态具有{@variantrule 免疫|XPHB}。一旦你显现此光环，直到你完成一次{@variantrule 长休|XPHB}前，你无法再次使用此能力。",
+				"此外，当你在该灵光内{@variantrule 生命值|XPHB}降至0时，你可以改为将你的{@variantrule 生命值|XPHB}变为一个等于你的魔契师等级加上你的魅力调整值的数值。随后，该契灵会被遣返至一个口袋维度，并且在你完成一次{@variantrule 长休|XPHB}前无法返回。"
 			]
 		},
 		{
-			"name": "Semblance of Life",
+			"ENG_name": "Semblance of Life",
+			"name": "生命的假象",
 			"source": "XUA2026MysticSubclasses",
 			"page": 6,
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "XPHB",
-			"subclassShortName": "Vestige",
+			"subclassShortName": "契灵",
 			"subclassSource": "XUA2026MysticSubclasses",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Your {@creature Vestige Companion|XUA2026MysticSubclasses} continues to grow in strength, and with your assistance, it can briefly adopt a more powerful form. Depending on the vestige's type, you can cast one of the following spells while the vestige is within 90 feet of you without expending a spell slot or needing Material components: {@spell Summon Celestial|XPHB} (Celestial vestige), {@spell Summon Fiend|XPHB} (Fiend vestige), or {@spell Summon Undead|XPHB} (Undead vestige). When you cast the spell with this feature, the vestige becomes the summoned creature. Its game statistics are replaced by the summoned creature's stat block, the spell's level is equal to half your Warlock level (round down; maximum level 9), and the spell's duration is 1 minute. When the spell ends, the vestige returns to its previous form.",
-				"Once you have cast the spell in this way, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+				"你的{@creature 契灵伙伴|XUA2026秘术师子职}持续增强力量，在你的协助下，它能短暂地采用一种更强大的形态。根据契灵的类型，当它在距离你90尺范围内时，你可以不消耗法术位且无需材料成分施放以下法术之一：{@spell 天界召唤术|XPHB}（天族契灵）、{@spell 邪魔召唤术|XPHB}（邪魔契灵）或{@spell 亡灵召唤术|XPHB}（亡灵契灵）。当你使用此特性施放该法术时，契灵会变为被召唤的生物。它的游戏数据将被被召唤生物的资料卡所取代，法术环阶等于你魔契师等级的一半（向下取整；最高9环），法术持续时间为1分钟。当法术结束时，契灵会恢复其先前的形态。",
+				"一旦你以这种方式施放了该法术，直到你完成一次{@variantrule 长休|XPHB}前，你无法再次这样做。"
 			]
 		}
 	],
 	"monster": [
 		{
-			"name": "Vestige Companion",
-			"source": "XUA2026MysticSubclasses",
-			"page": 5,
-			"summonedByClass": "Warlock|XPHB",
-			"size": [
-				"S"
-			],
+			"ENG_name": "Vestige Companion",
+			"name": "契灵伙伴",
 			"type": {
 				"type": {
 					"choose": [
-						"celestial",
-						"fiend",
-						"undead"
+						"天族",
+						"邪魔",
+						"亡灵"
 					]
 				}
 			},
+			"source": "XUA2026MysticSubclasses",
+			"page": 5,
+			"summonedByClass": "魔契师|XPHB",
+			"size": [
+				"S"
+			],
 			"alignment": [
 				"N"
 			],
 			"ac": [
 				{
-					"special": "13 + your Charisma modifier"
+					"special": "13 + 你的魅力调整值"
 				}
 			],
 			"hp": {
-				"special": "4 + four times your Warlock level (the vestige has a number of Hit Dice [d6s] equal to your Warlock level)"
+				"special": "4 + 你的魔契师等级×4（契灵的生命骰[d6]数量等于你的魔契师等级）"
 			},
 			"speed": {
 				"walk": 5,
 				"fly": {
 					"number": 30,
-					"condition": "(hover)"
+					"condition": "(悬浮)"
 				},
 				"canHover": true
 			},
@@ -1315,7 +1377,7 @@
 			"wis": 15,
 			"cha": 16,
 			"senses": [
-				"Darkvision 60 ft."
+				"黑暗视觉 60 尺"
 			],
 			"passive": 11,
 			"resist": [
@@ -1324,21 +1386,21 @@
 						"fire"
 					],
 					"cond": true,
-					"note": "(fiend only)"
+					"note": "（仅邪魔）"
 				},
 				{
 					"resist": [
 						"necrotic"
 					],
 					"cond": true,
-					"note": "(undead only)"
+					"note": "（仅亡灵）"
 				},
 				{
 					"resist": [
 						"radiant"
 					],
 					"cond": true,
-					"note": "(celestial only)"
+					"note": "（仅天族）"
 				}
 			],
 			"conditionImmune": [
@@ -1347,53 +1409,59 @@
 				"prone"
 			],
 			"languages": [
-				"Speaks the languages you know"
+				"会说你知晓的语言"
 			],
-			"pbNote": "equals your Proficiency Bonus",
+			"pbNote": "等于你的熟练加值",
 			"trait": [
 				{
-					"name": "Pact Bond",
+					"ENG_name": "Pact Bond",
+					"name": "契约连结",
 					"entries": [
-						"Add your {@variantrule Proficiency|XPHB|Proficiency Bonus} to any ability check or saving throw the vestige makes."
+						"将你的{@variantrule 熟练|XPHB|熟练加值}加到契灵进行的任意属性检定和豁免检定中。"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Vestige's Strike",
+					"ENG_name": "Vestige's Strike",
+					"name": "契灵打击",
 					"entries": [
-						"{@atkr m,r} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 5 ft. or range 60 ft. {@h}{@damage 1d6 + 3} plus your Charisma modifier Fire (Fiend), Necrotic (Undead), or Radiant (Celestial) damage."
+						"{@atkr m,r} {@hitYourSpellAttack 加值等于你的法术攻击加值}，触及5尺或射程60尺。{@h}{@damage 1d6 + 3}外加等于你魅力调整值的火焰（邪魔）、暗蚀（亡灵）或光耀（天族）伤害。"
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Divine Power (1/Day)",
+					"ENG_name": "Divine Power (1/Day)",
+					"name": "神圣之力（1/日）",
 					"entries": [
-						"Your vestige manifests a remnant of its divine power in one of the following ways, based on its form:",
+						"你的契灵依其形态以下列方式之一展现其神力的残余：",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
 								{
+									"ENG_name": "Cursed Invocation (Undead Only)",
+									"name": "诅咒祈唤（仅亡灵）",
 									"type": "item",
-									"name": "Cursed Invocation (Undead Only)",
 									"entries": [
-										"The vestige places a curse on a creature you can see within 30 feet of the vestige for 1 minute. While cursed, the target has {@variantrule Disadvantage|XPHB} on attack rolls against you and the vestige."
+										"契灵对其30尺内你可见的一名生物施加诅咒，持续1分钟。被诅咒期间，目标针对你和契灵的攻击检定具有{@variantrule 劣势|XPHB}。"
 									]
 								},
 								{
+									"ENG_name": "Fiendish Swap (Fiend Only)",
+									"name": "邪魔易位（仅邪魔）",
 									"type": "item",
-									"name": "Fiendish Swap (Fiend Only)",
 									"entries": [
-										"If you and the vestige are within 60 feet of each other, you both teleport, swapping places."
+										"若你和契灵相距不超过60尺，则你二人传送并互换位置。"
 									]
 								},
 								{
+									"ENG_name": "Healing Touch (Celestial Only)",
+									"name": "治愈之触（仅天族）",
 									"type": "item",
-									"name": "Healing Touch (Celestial Only)",
 									"entries": [
-										"The vestige touches another creature. The target regains {@variantrule Hit Points|XPHB} equal to {@dice 2d8} plus your Charisma modifier and ends one condition on it: {@condition Blinded|XPHB}, {@condition Deafened|XPHB}, or {@condition Poisoned|XPHB}."
+										"契灵触碰另一名生物。目标恢复等于{@dice 2d8}外加你的魅力调整值的{@variantrule 生命值|XPHB}，并终止其身上的一种状态：{@condition 目盲|XPHB}、{@condition 耳聋|XPHB}或{@condition 中毒|XPHB}。"
 									]
 								}
 							]
@@ -1419,91 +1487,100 @@
 			],
 			"_versions": [
 				{
+					"ENG_name": "Vestige Companion (Celestial)",
 					"name": "Vestige Companion (Celestial)",
+					"type": "celestial",
 					"source": "XUA2026MysticSubclasses",
 					"_mod": {
 						"action": {
 							"mode": "replaceArr",
-							"replace": "Vestige's Strike",
+							"replace": "契灵打击",
 							"items": {
-								"name": "Vestige's Strike",
+								"ENG_name": "Vestige's Strike",
+								"name": "契灵打击",
 								"entries": [
-									"{@atkr m,r} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 5 ft. or range 60 ft. {@h}{@damage 1d6 + 3} plus your Charisma modifier Radiant damage."
+									"{@atkr m,r} {@hitYourSpellAttack 加值等于你的法术攻击加值}，触及5尺或射程60尺。{@h}{@damage 1d6 + 3}外加等于你魅力调整值的光耀伤害。"
 								]
 							}
 						},
 						"bonus": {
 							"mode": "replaceArr",
-							"replace": "Divine Power (1/Day)",
+							"replace": "神圣之力（1/日）",
 							"items": {
-								"name": "Divine Power (1/Day): Healing Touch",
+								"ENG_name": "Divine Power (1/Day): Healing Touch",
+								"name": "神圣之力（1/日）：治疗之触",
 								"entries": [
-									"The vestige touches another creature. The target regains {@variantrule Hit Points|XPHB} equal to {@dice 2d8} plus your Charisma modifier and ends one condition on it: {@condition Blinded|XPHB}, {@condition Deafened|XPHB}, or {@condition Poisoned|XPHB}."
+									"契灵触碰另一名生物。目标恢复等于{@dice 2d8}外加你的魅力调整值的{@variantrule 生命值|XPHB}，并终止其身上的一种状态：{@condition 目盲|XPHB}、{@condition 耳聋|XPHB}或{@condition 中毒|XPHB}。"
 								]
 							}
 						}
 					},
-					"type": "celestial",
 					"resist": [
 						"radiant"
 					]
 				},
 				{
+					"ENG_name": "Vestige Companion (Fiend)",
 					"name": "Vestige Companion (Fiend)",
+					"type": "fiend",
 					"source": "XUA2026MysticSubclasses",
 					"_mod": {
 						"action": {
 							"mode": "replaceArr",
-							"replace": "Vestige's Strike",
+							"replace": "契灵打击",
 							"items": {
-								"name": "Vestige's Strike",
+								"ENG_name": "Vestige's Strike",
+								"name": "契灵打击",
 								"entries": [
-									"{@atkr m,r} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 5 ft. or range 60 ft. {@h}{@damage 1d6 + 3} plus your Charisma modifier Fire damage."
+									"{@atkr m,r} {@hitYourSpellAttack 加值等于你的法术攻击加值}，触及5尺或射程60尺。{@h}{@damage 1d6 + 3}外加等于你魅力调整值的火焰伤害。"
 								]
 							}
 						},
 						"bonus": {
 							"mode": "replaceArr",
-							"replace": "Divine Power (1/Day)",
+							"replace": "神圣之力（1/日）",
 							"items": {
-								"name": "Divine Power (1/Day): Fiendish Swap",
+								"ENG_name": "Divine Power (1/Day): Fiendish Swap",
+								"name": "神圣之力（1/日）：邪魔置换",
 								"entries": [
-									"If you and the vestige are within 60 feet of each other, you both teleport, swapping places."
+									"若你和契灵相距不超过60尺，则你二人传送并互换位置。"
 								]
 							}
 						}
 					},
-					"type": "fiend",
 					"resist": [
 						"fire"
 					]
 				},
 				{
+					"ENG_name": "Vestige Companion (Undead)",
 					"name": "Vestige Companion (Undead)",
+					"type": "undead",
 					"source": "XUA2026MysticSubclasses",
 					"_mod": {
 						"action": {
 							"mode": "replaceArr",
-							"replace": "Vestige's Strike",
+							"replace": "契灵打击",
 							"items": {
-								"name": "Vestige's Strike",
+								"ENG_name": "Vestige's Strike",
+								"name": "契灵打击",
 								"entries": [
-									"{@atkr m,r} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 5 ft. or range 60 ft. {@h}{@damage 1d6 + 3} plus your Charisma modifier Necrotic damage."
+									"{@atkr m,r} {@hitYourSpellAttack 加值等于你的法术攻击加值}，触及5尺或射程60尺。{@h}{@damage 1d6 + 3}外加等于你魅力调整值的暗蚀伤害。"
 								]
 							}
 						},
 						"bonus": {
 							"mode": "replaceArr",
-							"replace": "Divine Power (1/Day)",
+							"replace": "神圣之力（1/日）",
 							"items": {
-								"name": "Divine Power (1/Day): Cursed Invocation",
+								"ENG_name": "Divine Power (1/Day): Cursed Invocation",
+								"name": "神圣之力（1/日）：诅咒祈唤",
 								"entries": [
-									"The vestige places a curse on a creature you can see within 30 feet of the vestige for 1 minute. While cursed, the target has {@variantrule Disadvantage|XPHB} on attack rolls against you and the vestige."
+									"契灵对其30尺内你可见的一名生物施加诅咒，持续1分钟。被诅咒期间，目标针对你和契灵的攻击检定具有{@variantrule 劣势|XPHB}。"
 								]
 							}
 						}
 					},
-					"type": "undead",
 					"resist": [
 						"necrotic"
 					]
@@ -1513,12 +1590,13 @@
 	],
 	"table": [
 		{
-			"name": "Oath of the Spellguard Spells",
+			"ENG_name": "Oath of the Spellguard Spells",
+			"name": "法术卫队誓约法术",
 			"source": "XUA2026MysticSubclasses",
 			"page": 3,
 			"colLabels": [
-				"Paladin Level",
-				"Spells"
+				"圣武士等级",
+				"法术"
 			],
 			"colStyles": [
 				"col-2 text-center",
@@ -1527,34 +1605,35 @@
 			"rows": [
 				[
 					"3",
-					"{@spell Detect Magic|XPHB}, {@spell Shield|XPHB}"
+					"{@spell 侦测魔法|XPHB}, {@spell 护盾术|XPHB}"
 				],
 				[
 					"5",
-					"{@spell See Invisibility|XPHB}, {@spell Silence|XPHB}"
+					"{@spell 识破隐形|XPHB}, {@spell 沉默术|XPHB}"
 				],
 				[
 					"9",
-					"{@spell Counterspell|XPHB}, {@spell Dispel Magic|XPHB}"
+					"{@spell 法术反制|XPHB}，{@spell 解除魔法|XPHB}"
 				],
 				[
 					"13",
-					"{@spell Freedom of Movement|XPHB}, {@spell Otiluke's Resilient Sphere|XPHB}"
+					"{@spell 行动自如|XPHB}, {@spell 欧提路克弹力法球|XPHB}"
 				],
 				[
 					"17",
-					"{@spell Circle of Power|XPHB}, {@spell Hallow|XPHB}"
+					"{@spell 原力法阵|XPHB}, {@spell 圣居|XPHB}"
 				]
 			]
 		},
 		{
-			"name": "Recovering Spell Slots",
+			"ENG_name": "Recovering Spell Slots",
+			"name": "恢复法术位",
 			"source": "XUA2026MysticSubclasses",
 			"page": 2,
 			"colLabels": [
-				"Spell Slot Level",
-				"Focus Point Cost",
-				"Minimum Monk Level"
+				"法术位环阶",
+				"功力消耗",
+				"最低武僧等级"
 			],
 			"colStyles": [
 				"col-4 text-center",
@@ -1587,7 +1666,8 @@
 	],
 	"book": [
 		{
-			"name": "Unearthed Arcana 2026: Mystic Subclasses",
+			"ENG_name": "Unearthed Arcana 2026: Mystic Subclasses",
+			"name": "破解奥秘 2026：秘术师子职",
 			"id": "XUA2026MysticSubclasses",
 			"source": "XUA2026MysticSubclasses",
 			"group": "prerelease",
@@ -1596,27 +1676,28 @@
 				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana-img/main/img/XUA2026MysticSubclasses/cover.webp"
 			},
 			"published": "2026-01-15",
-			"author": "Wizards of the Coast",
+			"author": "威世智",
 			"contents": [
 				{
-					"name": "Unearthed Arcana 2026: Mystic Subclasses",
+					"ENG_name": "Unearthed Arcana 2026: Mystic Subclasses",
+					"name": "破解奥秘 2026：秘术师子职",
 					"headers": [
-						"What's Inside",
-						"Subclasses",
+						"这里有什么",
+						"子职",
 						{
-							"header": "Warrior of the Mystic Arts (Monk)",
+							"header": "秘术武者（武僧）",
 							"depth": 1
 						},
 						{
-							"header": "Oath of the Spellguard (Paladin)",
+							"header": "法术卫队之誓（圣武士）",
 							"depth": 1
 						},
 						{
-							"header": "Magic Stealer (Rogue)",
+							"header": "魔法窃取者（游荡者）",
 							"depth": 1
 						},
 						{
-							"header": "Vestige Patron (Warlock)",
+							"header": "契灵宗主（魔契师）",
 							"depth": 1
 						}
 					]
@@ -1630,57 +1711,63 @@
 			"source": "XUA2026MysticSubclasses",
 			"data": [
 				{
+					"ENG_name": "Unearthed Arcana 2026: Mystic Subclasses",
+					"name": "破解奥秘 2026：秘术师子职",
 					"type": "section",
-					"name": "Unearthed Arcana 2026: Mystic Subclasses",
 					"page": 1,
 					"entries": [
-						"This playtest document is part of a series of {@i Unearthed Arcana} articles that present material designed for upcoming products. The material here uses the rules in the {@book 2024 Player's Handbook|XPHB}.",
+						"本测试文档是系列{@i 破解奥秘}文章的一部分，这些文章展示了为即将推出的产品设计的素材。这里的素材使用了{@book 2024玩家手册|XPHB}中的规则。",
 						{
+							"ENG_name": "What's Inside",
+							"name": "这里有什么",
 							"type": "section",
-							"name": "What's Inside",
 							"page": 1,
 							"entries": [
-								"This document presents four new subclasses:",
+								"本文档提供了四个新的子职：",
 								{
 									"type": "list",
 									"items": [
-										"{@class Monk} ({@class Monk|XPHB|Warrior of the Mystic Arts|Mystic Arts|XUA2026MysticSubclasses})",
-										"{@class Paladin} ({@class Paladin|XPHB|Oath of the Spellguard|Spellguard|XUA2026MysticSubclasses})",
-										"{@class Rogue} ({@class Rogue|XPHB|Magic Stealer|Magic Stealer|XUA2026MysticSubclasses})",
-										"{@class Warlock} ({@class Warlock|XPHB|Vestige Patron|Vestige|XUA2026MysticSubclasses})"
+										"{@class 武僧} ({@class 武僧|XPHB|秘术武者|秘术|XUA2026MysticSubclasses})",
+										"{@class 圣武士} ({@class 圣武士|XPHB|法术卫队之誓|法术卫队|XUA2026MysticSubclasses})",
+										"{@class 游荡者} ({@class 游荡者|XPHB|魔法窃取者|魔法窃取者|XUA2026MysticSubclasses})",
+										"{@class 魔契师} ({@class 魔契师|XPHB|契灵宗主|遗物|XUA2026MysticSubclasses})"
 									]
 								},
 								{
+									"ENG_name": "This Is Playtest Material",
+									"name": "本材料为游玩测试内容",
 									"type": "inset",
-									"name": "This Is Playtest Material",
 									"page": 1,
 									"entries": [
-										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt it as official.",
+										"本文旨在进行游戏测试和反馈。这里的选项是实验性的且处于草稿形态。它们并非游戏的官方部分。您的反馈将协助我们决定是否将其采纳为官方。",
 										{
 											"type": "list",
 											"page": 1,
 											"style": "list-hang-notitle",
 											"items": [
 												{
+													"ENG_name": "How to Playtest This UA",
+													"name": "如何游玩测试本破解奥秘",
 													"type": "item",
-													"name": "How to Playtest This UA",
 													"entries": [
-														"We invite you to try out this material in play. To play with this material, you may either incorporate it into your campaign or run one or more special playtest sessions. For such a session, you may create an adventure of your own or use a short adventure from a source like {@adventure Dragon Delves|DrDe-BD}."
+														"我们邀请您在游玩中尝试本材料。要使用本材料进行游戏，您可以将其融入您的战役，或运行一个或多个特殊的游玩测试环节。对于这样的环节，您可以创建自己的冒险，或使用来自诸如{@adventure 巨龙迷城|DrDe-BD}等来源的短篇冒险。"
 													]
 												},
 												{
+													"ENG_name": "Power Level",
+													"name": "威力水平",
 													"type": "item",
-													"name": "Power Level",
 													"entries": [
-														"The character options you read here might be more or less powerful than options in the {@book 2024 Player's Handbook|XPHB}. If a design survives playtesting, we adjust its power to the desirable level before publication. This means an option could be more or less powerful in its final form."
+														"你在这里阅读的角色选项可能比{@book 2024玩家手册|XPHB}中的选项威力更强或更弱。如果一个设计在游戏测试中存活下来，我们会在发布前将其威力调整到理想水平。这意味着一个选项在其最终形态中可能威力更强或更弱。"
 													]
 												},
 												{
+													"ENG_name": "Feedback",
+													"name": "反馈",
 													"type": "item",
-													"name": "Feedback",
 													"entries": [
-														"The best way for you to give us feedback on this material is in the survey we'll release on D&D Beyond. If we make this material official, it will be refined based on your feedback, and then it will appear in a D&D book.",
-														"Providing feedback on this document is one way you can help shape the future of D&D!"
+														"您就这份材质向我们提供反馈的最佳方式是通过我们将在D&D Beyond上发布的调查。如果我们使这份材质成为官方版本，它将根据您的反馈进行完善，然后会出现在一本D&D书中。",
+														"对本文件提供反馈是您协助塑造D&D未来的一种方式！"
 													]
 												}
 											]
@@ -1690,22 +1777,25 @@
 							]
 						},
 						{
+							"ENG_name": "Subclasses",
+							"name": "子职",
 							"type": "section",
-							"name": "Subclasses",
 							"page": 1,
 							"entries": [
 								{
+									"ENG_name": "Warrior of the Mystic Arts (Monk)",
+									"name": "秘术武者（武僧）",
 									"type": "entries",
-									"name": "Warrior of the Mystic Arts (Monk)",
 									"page": 1,
 									"entries": [
-										"{@i Weave Martial and Mystic Arts}",
+										"{@i 融汇武艺与秘术}",
 										{
+											"ENG_name": "Warrior of the Mystic Arts",
+											"name": "秘术武者",
 											"type": "statblock",
 											"prop": "subclass",
-											"name": "Warrior of the Mystic Arts",
-											"shortName": "Mystic Arts",
-											"className": "Monk",
+											"shortName": "秘术",
+											"className": "武僧",
 											"classSource": "XPHB",
 											"source": "XUA2026MysticSubclasses",
 											"page": 1
@@ -1713,17 +1803,19 @@
 									]
 								},
 								{
+									"ENG_name": "Oath of the Spellguard (Paladin)",
+									"name": "法术卫队之誓（圣武士）",
 									"type": "entries",
-									"name": "Oath of the Spellguard (Paladin)",
 									"page": 3,
 									"entries": [
-										"{@i Protect Your Allies from Villainous Magic}",
+										"{@i 保护盟友免受邪恶魔法侵害}",
 										{
+											"ENG_name": "Oath of the Spellguard",
+											"name": "法术卫队誓仇",
 											"type": "statblock",
 											"prop": "subclass",
-											"name": "Oath of the Spellguard",
-											"shortName": "Spellguard",
-											"className": "Paladin",
+											"shortName": "法术卫队",
+											"className": "圣武士",
 											"classSource": "XPHB",
 											"source": "XUA2026MysticSubclasses",
 											"page": 3
@@ -1731,17 +1823,19 @@
 									]
 								},
 								{
+									"ENG_name": "Magic Stealer (Rogue)",
+									"name": "魔法窃取者（游荡者）",
 									"type": "entries",
-									"name": "Magic Stealer (Rogue)",
 									"page": 4,
 									"entries": [
-										"{@i Steal Magical Power to Empower Yourself}",
+										"{@i 窃取魔法力量以强化自身}",
 										{
+											"ENG_name": "Magic Stealer",
+											"name": "魔法窃取者",
 											"type": "statblock",
 											"prop": "subclass",
-											"name": "Magic Stealer",
-											"shortName": "Magic Stealer",
-											"className": "Rogue",
+											"shortName": "魔法窃取者",
+											"className": "浪客",
 											"classSource": "XPHB",
 											"source": "XUA2026MysticSubclasses",
 											"page": 4
@@ -1749,17 +1843,19 @@
 									]
 								},
 								{
+									"ENG_name": "Vestige Patron (Warlock)",
+									"name": "契灵宗主（魔契师）",
 									"type": "entries",
-									"name": "Vestige Patron (Warlock)",
 									"page": 5,
 									"entries": [
-										"{@i Wield the Remnants of a Dying God's Power}",
+										"{@i 掌控垂死神祇的残余之力}",
 										{
+											"ENG_name": "Vestige Patron",
+											"name": "契灵宗主",
 											"type": "statblock",
 											"prop": "subclass",
-											"name": "Vestige Patron",
-											"shortName": "Vestige",
-											"className": "Warlock",
+											"shortName": "契灵",
+											"className": "魔契师",
 											"classSource": "XPHB",
 											"source": "XUA2026MysticSubclasses",
 											"page": 5

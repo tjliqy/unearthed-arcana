@@ -4,7 +4,7 @@
 			{
 				"json": "UAClericDruidWizard",
 				"abbreviation": "UACDW",
-				"full": "Unearthed Arcana: Cleric, Druid, and Wizard",
+				"full": "破解奥秘：牧师、德鲁伊与法师",
 				"url": "https://media.wizards.com/2019/dnd/downloads/UA-TwilightFireNames.pdf",
 				"version": "1.0.0",
 				"dateReleased": "2019-10-03",
@@ -23,7 +23,7 @@
 		},
 		"edition": "classic",
 		"dateAdded": 1701616429,
-		"dateLastModified": 1774092631,
+		"dateLastModified": 1792466044,
 		"_dateLastModifiedHash": "e892e6e8f9"
 	},
 	"_test": {
@@ -33,10 +33,11 @@
 	},
 	"subclass": [
 		{
-			"name": "Circle of Wildfire (UA)",
-			"shortName": "Wildfire (UA)",
+			"ENG_name": "Circle of Wildfire (UA)",
+			"name": "野火结社（UA）",
+			"shortName": "野火（UA）",
 			"source": "UAClericDruidWizard",
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "PHB",
 			"page": 2,
 			"isReprinted": true,
@@ -44,51 +45,53 @@
 				{
 					"prepared": {
 						"3": [
-							"locate animals or plants",
-							"scorching ray"
+							"动植物定位术",
+							"灼热射线"
 						],
 						"5": [
-							"fireball",
-							"plant growth"
+							"火球术",
+							"植物滋长"
 						],
 						"7": [
-							"aura of life",
-							"fire shield"
+							"生命灵光",
+							"火焰护盾"
 						],
 						"9": [
-							"flame strike",
-							"raise dead"
+							"焰击术",
+							"死者复活"
 						]
 					}
 				}
 			],
 			"subclassFeatures": [
-				"Circle of Wildfire|Druid||Wildfire (UA)|UAClericDruidWizard|2",
-				"Enhanced Bond|Druid||Wildfire (UA)|UAClericDruidWizard|6",
-				"Flames of Life|Druid||Wildfire (UA)|UAClericDruidWizard|10",
-				"Blazing Endurance|Druid||Wildfire (UA)|UAClericDruidWizard|14"
+				"野火结社|德鲁伊||野火（UA）|UAClericDruidWizard|2",
+				"强化链接|德鲁伊||野火（UA）|UAClericDruidWizard|6",
+				"生命之火|德鲁伊||野火（UA）|UAClericDruidWizard|10",
+				"爆燃忍耐|德鲁伊||野火（UA）|UAClericDruidWizard|14"
 			]
 		},
 		{
-			"name": "Onomancy (UA)",
-			"shortName": "Onomancy (UA)",
+			"ENG_name": "Onomancy (UA)",
+			"name": "真名魔法（UA）",
+			"shortName": "真名魔法（UA）",
 			"source": "UAClericDruidWizard",
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "PHB",
 			"page": 4,
 			"additionalSpells": [
 				{
 					"prepared": {
 						"2": [
-							"bane",
-							"bless"
+							"灾祸术",
+							"祝福术"
 						]
 					}
 				}
 			],
 			"optionalfeatureProgression": [
 				{
-					"name": "Onomancy Resonant",
+					"ENG_name": "Onomancy Resonant",
+					"name": "真名魔法共鸣",
 					"featureType": [
 						"OR"
 					],
@@ -99,17 +102,18 @@
 				}
 			],
 			"subclassFeatures": [
-				"Onomancy|Wizard||Onomancy (UA)|UAClericDruidWizard|2",
-				"Resonant Utterance|Wizard||Onomancy (UA)|UAClericDruidWizard|6",
-				"Inexorable Pronouncement|Wizard||Onomancy (UA)|UAClericDruidWizard|10",
-				"Relentless Naming|Wizard||Onomancy (UA)|UAClericDruidWizard|14"
+				"真名魔法|法师||真名魔法（UA）|UAClericDruidWizard|2",
+				"共鸣真言|法师||真名魔法（UA）|UAClericDruidWizard|6",
+				"不可阻挡的宣言|法师||真名魔法（UA）|UAClericDruidWizard|10",
+				"坚韧命名|法师||真名魔法（UA）|UAClericDruidWizard|14"
 			]
 		},
 		{
-			"name": "Twilight Domain (UA)",
-			"shortName": "Twilight (UA)",
+			"ENG_name": "Twilight Domain (UA)",
+			"name": "暮光领域（UA）",
+			"shortName": "暮光 (UA)",
 			"source": "UAClericDruidWizard",
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
 			"page": 1,
 			"isReprinted": true,
@@ -117,57 +121,58 @@
 				{
 					"prepared": {
 						"1": [
-							"faerie fire",
-							"sleep"
+							"妖火",
+							"睡眠术"
 						],
 						"3": [
-							"darkness",
-							"invisibility"
+							"黑暗术",
+							"隐形术"
 						],
 						"5": [
-							"aura of vitality",
-							"Leomund's tiny hut"
+							"活力灵光",
+							"李欧蒙小屋"
 						],
 						"7": [
-							"aura of life",
-							"greater invisibility"
+							"生命灵光",
+							"高等隐形术"
 						],
 						"9": [
-							"circle of power",
-							"dream"
+							"原力法阵",
+							"托梦术"
 						]
 					}
 				}
 			],
 			"subclassFeatures": [
-				"Twilight Domain (UA)|Cleric||Twilight (UA)|UAClericDruidWizard|1",
-				"Channel Divinity: Twilight Sanctuary|Cleric||Twilight (UA)|UAClericDruidWizard|2",
-				"Steps of the Brave|Cleric||Twilight (UA)|UAClericDruidWizard|6",
-				"Divine Strike|Cleric||Twilight (UA)|UAClericDruidWizard|8",
-				"Blessed Strikes|Cleric||Twilight (UA)|UAClericDruidWizard|8|UAClassFeatureVariants",
-				"Midnight Shroud|Cleric||Twilight (UA)|UAClericDruidWizard|17"
+				"暮光领域（UA）|牧师||暮光 (UA)|UAClericDruidWizard|1",
+				"引导神力：暮光圣域|牧师||暮光 (UA)|UAClericDruidWizard|2",
+				"勇者步伐|牧师||暮光 (UA)|UAClericDruidWizard|6",
+				"神圣打击|牧师||暮光 (UA)|UAClericDruidWizard|8",
+				"受祝击|牧师||暮光 (UA)|UAClericDruidWizard|8|UAClassFeatureVariants",
+				"午夜遮帷|牧师||暮光 (UA)|UAClericDruidWizard|17"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Twilight Domain (UA)",
+			"ENG_name": "Twilight Domain (UA)",
+			"name": "暮光领域（UA）",
 			"source": "UAClericDruidWizard",
 			"page": 1,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Twilight (UA)",
+			"subclassShortName": "暮光 (UA)",
 			"subclassSource": "UAClericDruidWizard",
 			"level": 1,
 			"entries": [
-				"The Twilight Domain governs the transition and blending of light into darkness. It is a time of rest and comfort, but also the threshold between safety and the unknown. Deities of healing or respite (such as {@deity Boldrei|Eberron}, {@deity Hestia|Greek}, {@deity Mishakal|Dragonlance}, or {@deity Pelor|Greyhawk}), bravery or protection (such as {@deity Dol Arrah|Eberron}, Hajama, {@deity Helm}, or {@deity Ilmater}), travel or transition (such as {@deity Fharlanghn|Greyhawk}, {@deity Hermes|Greek}, {@deity the Raven Queen|Exandria|EGW}, or {@deity the Traveler|Eberron}), or the night and dreams (such as {@deity Celestian|Greyhawk}, Morpheus, Nut, or {@deity Selûne}) might grant their clerics the Twilight Domain. Clerics who serve these deities tend to be brave, delving into the dark to hold its dangers at bay and to bring comfort to those lost far from the light.",
-				"At each indicated cleric level, you add the listed spells to your spells prepared.",
+				"暮光领域掌管着从光明到黑暗的过渡与交融。这是一个休息与舒适的时光，但也是安全与未知之间的门槛。治疗或回春之神（如{@deity 博得雷|艾伯伦}、{@deity 赫斯提亚|希腊}、{@deity 米莎凯|龙枪}或{@deity 培罗|灰鹰}），勇气或守护之神（如{@deity 杜·哈拉|艾伯伦}、哈贾玛、{@deity 海姆}或{@deity 伊尔马特}），旅行或过渡之神（如{@deity 法兰恩|灰鹰}、{@deity 赫尔墨斯|希腊}、{@deity 鸦后|艾桑椎亚|EGW}或{@deity 旅者|艾伯伦}），或黑夜与梦境之神（如{@deity 塞莱斯汀|灰鹰}、摩耳甫斯、努特或{@deity 塞伦涅}）可能会授予其牧师暮光领域。侍奉这些神祇的牧师往往充满勇气，深入黑暗以抵御其危险，并为那些远离光明的迷失者带来慰藉。",
+				"在每个指定的牧师等级，你可以将下表所述法术添加到你的准备法术中。",
 				{
 					"type": "table",
-					"caption": "Twilight Domain Spells",
+					"caption": "暮光领域法术",
 					"colLabels": [
-						"Cleric Level",
-						"Spells"
+						"牧师等级",
+						"法术"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -175,206 +180,216 @@
 					],
 					"rows": [
 						[
-							"1st",
-							"{@spell faerie fire}, {@spell sleep}"
+							"1环",
+							"{@spell 妖火}, {@spell 睡眠术}"
 						],
 						[
-							"3rd",
-							"{@spell darkness}, {@spell invisibility}"
+							"3环",
+							"{@spell 黑暗术}, {@spell 隐形术}"
 						],
 						[
-							"5th",
-							"{@spell aura of vitality}, {@spell Leomund's tiny hut}"
+							"5环",
+							"{@spell 活力灵光}, {@spell 李欧蒙小屋}"
 						],
 						[
 							"7th",
-							"{@spell aura of life}, {@spell greater invisibility}"
+							"{@spell 生命灵光}, {@spell 高等隐形术}"
 						],
 						[
 							"9th",
-							"{@spell circle of power}, {@spell dream}"
+							"{@spell 原力法阵}, {@spell 托梦术}"
 						]
 					]
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiency|Cleric||Twilight (UA)|UAClericDruidWizard|1"
+					"subclassFeature": "附赠熟练项|牧师||暮光 (UA)|UAClericDruidWizard|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Eyes of Night|Cleric||Twilight (UA)|UAClericDruidWizard|1"
+					"subclassFeature": "黑夜明目|牧师||暮光 (UA)|UAClericDruidWizard|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Vigilant Blessing|Cleric||Twilight (UA)|UAClericDruidWizard|1"
+					"subclassFeature": "警觉赐福|牧师||暮光 (UA)|UAClericDruidWizard|1"
 				}
 			]
 		},
 		{
-			"name": "Bonus Proficiency",
+			"ENG_name": "Bonus Proficiency",
+			"name": "附赠熟练项",
 			"source": "UAClericDruidWizard",
 			"page": 1,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Twilight (UA)",
+			"subclassShortName": "暮光 (UA)",
 			"subclassSource": "UAClericDruidWizard",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"{@i 1st-level Twilight Domain feature}",
-				"You gain proficiency with martial weapons and heavy armor."
+				"{@i 1级暮光领域特性}",
+				"你获得军用武器和重甲的熟练项。"
 			]
 		},
 		{
-			"name": "Eyes of Night",
+			"ENG_name": "Eyes of Night",
+			"name": "黑夜明目",
 			"source": "UAClericDruidWizard",
 			"page": 1,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Twilight (UA)",
+			"subclassShortName": "暮光 (UA)",
 			"subclassSource": "UAClericDruidWizard",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"{@i 1st-level Twilight Domain feature}",
-				"Your eyes are blessed, allowing you to see through the deepest gloom. You have {@sense darkvision} with no maximum range; you can see in dim light as if it were bright light and in darkness as if it were dim light.",
-				"As an action, you can magically give the benefit of this feature to any number of creatures you can see within 10 feet of you. The shared benefit lasts for 10 minutes. You can extend this benefit a number of times equal to your Wisdom modifier (a minimum of once), and you regain all expended uses when you finish a long rest."
+				"{@i 1级暮光领域特性}",
+				"你的双眼受祝福，使你能够看透最深的幽暗。你拥有无最大范围的{@sense 黑暗视觉}；你可以将微光光照视为明亮光照，且将黑暗术视为微光光照。",
+				"以一个动作，你可以魔法性地将此特性的增益给予你能看见的10尺内任意数量的生物。共享的增益持续10分钟。你可以扩展此增益的次数等同于你的感知调整值（至少一次），且完成一次长休后恢复所有已消耗的使用次数。"
 			]
 		},
 		{
-			"name": "Vigilant Blessing",
+			"ENG_name": "Vigilant Blessing",
+			"name": "警觉赐福",
 			"source": "UAClericDruidWizard",
 			"page": 1,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Twilight (UA)",
+			"subclassShortName": "暮光 (UA)",
 			"subclassSource": "UAClericDruidWizard",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"{@i 1st-level Twilight Domain feature}",
-				"The night has taught you to be vigilant. As an action, you give one creature you touch (including possibly yourself) advantage on the next initiative roll the creature makes. This benefit ends immediately after the roll or if you use this feature again."
+				"{@i 1级暮光领域特性}",
+				"夜晚教会了你时刻保持警惕。你能用一个动作触碰一个生物（可以是你自己），并赋予该生物下次先攻检定优势。此增益在该生物骰先攻检定后、或你再次使用此特性时立刻结束。"
 			]
 		},
 		{
-			"name": "Channel Divinity: Twilight Sanctuary",
+			"ENG_name": "Channel Divinity: Twilight Sanctuary",
+			"name": "引导神力：暮光圣域",
 			"source": "UAClericDruidWizard",
 			"page": 1,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Twilight (UA)",
+			"subclassShortName": "暮光 (UA)",
 			"subclassSource": "UAClericDruidWizard",
 			"level": 2,
 			"header": 2,
 			"consumes": {
-				"name": "Channel Divinity"
+				"ENG_name": "Channel Divinity",
+				"name": "引导神力"
 			},
 			"entries": [
-				"{@i 2nd-level Twilight Domain feature}",
-				"You can use your Channel Divinity to refresh your allies with soothing twilight.",
-				"As an action, you present your holy symbol, and a sphere of twilight emanates from you. The sphere is centered on you, has a 30-foot radius, and is filled with dim light. The sphere moves with you, and it lasts for 1 minute or until you are {@condition incapacitated} or die. Whenever a creature (including you) ends its turn in the sphere, you can grant that creature one of these benefits:",
+				"{@i 2级暮光领域特性}",
+				"你可以引导神力，用柔和的暮光来振作你盟友的精神。",
+				"以一个动作，你展示你的圣徽并使自身散发球体暮光。球体以你为中心，其半径为30尺，且其范围内被微光光照充斥。球体跟随你移动并持续存在1分钟，如果你陷入{@condition 失能}或是死亡，它也会提前消失。每当一个生物（包括你）在球体中结束它自己的回合时，你能给予它以下好处之一：",
 				{
 					"type": "list",
 					"items": [
-						"Give it {@dice 1d8} temporary hit points.",
-						"End one effect causing it to be {@condition charmed} or {@condition frightened}."
+						"给予它{@dice 1d8}临时生命值。",
+						"结束一个导致{@condition 魅惑}或{@condition 恐慌}的效应。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Steps of the Brave",
+			"ENG_name": "Steps of the Brave",
+			"name": "勇者步伐",
 			"source": "UAClericDruidWizard",
 			"page": 1,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Twilight (UA)",
+			"subclassShortName": "暮光 (UA)",
 			"subclassSource": "UAClericDruidWizard",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-level Twilight Domain feature}",
-				"You draw strength from your connection to twilight and find yourself at home within its dark embrace, gaining two benefits:",
+				"{@i 6级暮光领域特性}",
+				"你从与暮光的联系中汲取力量，并在其黑暗的拥抱中找到家的感觉，获得两个增益：",
 				{
 					"type": "list",
 					"items": [
-						"You have advantage on saving throws against being {@condition frightened}.",
-						"If you are in dim light or darkness, you can use a bonus action to magically give yourself a flying speed equal to your walking speed until the end of your next turn."
+						"你进行对抗{@condition 恐慌}的豁免时具有优势。",
+						"如果你处于微光光照或黑暗术范围内，你可以使用一个附赠动作魔法般地给予自己等同于行走速度的飞行速度，直到你的下一个回合结束。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Divine Strike",
+			"ENG_name": "Divine Strike",
+			"name": "神圣打击",
 			"source": "UAClericDruidWizard",
 			"page": 1,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Twilight (UA)",
+			"subclassShortName": "暮光 (UA)",
 			"subclassSource": "UAClericDruidWizard",
 			"level": 8,
 			"header": 2,
 			"entries": [
-				"{@i 8th-level Twilight Domain feature}",
-				"You gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra {@damage 1d8} psychic damage. When you reach 14th level, the extra damage increases to {@dice 2d8}."
+				"{@i 8级暮光领域特性}",
+				"你获得将神圣能量注入武器攻击的能力。在你的每个回合中，当你用武器攻击命中一个生物时，你可以使该攻击造成额外{@damage 1d8}点心灵伤害。当你达到14级时，额外伤害提升至{@dice 2d8}。"
 			]
 		},
 		{
-			"name": "Midnight Shroud",
+			"ENG_name": "Midnight Shroud",
+			"name": "午夜遮帷",
 			"source": "UAClericDruidWizard",
 			"page": 1,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Twilight (UA)",
+			"subclassShortName": "暮光 (UA)",
 			"subclassSource": "UAClericDruidWizard",
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"{@i 17th-level Twilight Domain feature}",
-				"You can harness the shrouding power of night to protect your allies and stymie your foes. Whenever you cast the {@spell darkness} spell using a spell slot, you can choose a number of creatures that you can see (including yourself) equal to your Wisdom modifier (minimum of one). The chosen creatures can see through the darkness."
+				"{@i 17级暮光领域特性}",
+				"你可以驾驭黑夜的遮蔽之力来保护盟友并阻挠敌人。每当你使用法术位施放{@spell 黑暗术}法术时，可以选择你能看见的生物（包括你自己），数量等同于你的感知调整值（至少为一个）。这些选民可以看透黑暗。"
 			]
 		},
 		{
-			"name": "Circle of Wildfire",
+			"ENG_name": "Circle of Wildfire",
+			"name": "野火结社",
 			"source": "UAClericDruidWizard",
 			"page": 2,
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "PHB",
-			"subclassShortName": "Wildfire (UA)",
+			"subclassShortName": "野火（UA）",
 			"subclassSource": "UAClericDruidWizard",
 			"level": 2,
 			"entries": [
-				"Druids who are members of the Circle of Wildfire understand the necessity of destruction, such as how a forest fire promotes growth. These druids bond with a primal spirit that harbors destructive tendencies, allowing the druids to use their power to create controlled flames that help flora and fauna reproduce and grow.",
+				"野火结社的德鲁伊成员们理解毁灭的必要性，比如森林大火如何促进繁花滋长。这些德鲁伊与一个具有破坏性倾向的原始精魄建立牵挂，使他们能够运用法力创造受控的火焰，协助动植物分布繁殖和生长。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Circle Spells|Druid||Wildfire (UA)|UAClericDruidWizard|2"
+					"subclassFeature": "结社法术|德鲁伊||野火（UA）|UAClericDruidWizard|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Summon Wildfire|Druid||Wildfire (UA)|UAClericDruidWizard|2"
+					"subclassFeature": "召唤野火|德鲁伊||野火（UA）|UAClericDruidWizard|2"
 				}
 			]
 		},
 		{
-			"name": "Circle Spells",
+			"ENG_name": "Circle Spells",
+			"name": "结社法术",
 			"source": "UAClericDruidWizard",
 			"page": 2,
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "PHB",
-			"subclassShortName": "Wildfire (UA)",
+			"subclassShortName": "野火（UA）",
 			"subclassSource": "UAClericDruidWizard",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"{@i 2nd-level Circle of Wildfire feature}",
-				"You have formed a mystical bond with a wildfire spirit, a primal being of creation and destruction. Your link with this spirit grants you access to certain spells. At 2nd level, you learn the fire bolt cantrip.",
-				"When you reach certain levels in this class, you gain access to the spells listed for that level in the Circle of Wildfire Spells table. Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.",
+				"{@i 2级野火结社特性}",
+				"你与一个野火精魂形成了神秘的羁绊，这是一种兼具创造与毁灭的原始存在。你与这个精魂的联系使你能够使用某些法术。在2级时，你学会火焰箭戏法。",
+				"当你在此职业中达到特定等级时，你将获得野火结社法术表格中对应等级所列出的法术。一旦你获得这些法术之一，你将始终准备该法术，且它不计入你每天可准备的法术数量。如果你获得的法术未出现在德鲁伊法术列表中，该法术对你而言仍然是德鲁伊法术。",
 				{
 					"type": "table",
-					"caption": "Circle of Wildfire Spells",
+					"caption": "野火结社法术",
 					"colLabels": [
-						"Druid Level",
-						"Circle Spells"
+						"德鲁伊等级",
+						"结社法术"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -382,199 +397,210 @@
 					],
 					"rows": [
 						[
-							"3rd",
-							"{@spell locate animals or plants}, {@spell scorching ray}"
+							"3环",
+							"{@spell 动植物定位术}, {@spell 灼热射线}"
 						],
 						[
-							"5th",
-							"{@spell fireball}, {@spell plant growth}"
+							"5环",
+							"{@spell 火球术}, {@spell 植物滋长}"
 						],
 						[
 							"7th",
-							"{@spell aura of life}, {@spell fire shield}"
+							"{@spell 生命灵光}, {@spell 火焰护盾}"
 						],
 						[
 							"9th",
-							"{@spell flame strike}, {@spell raise dead}"
+							"{@spell 焰击术}, {@spell 死者复活}"
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "Summon Wildfire",
+			"ENG_name": "Summon Wildfire",
+			"name": "召唤野火",
 			"source": "UAClericDruidWizard",
 			"page": 2,
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "PHB",
-			"subclassShortName": "Wildfire (UA)",
+			"subclassShortName": "野火（UA）",
 			"subclassSource": "UAClericDruidWizard",
 			"level": 2,
 			"header": 1,
 			"consumes": {
-				"name": "Wild Shape"
+				"ENG_name": "Wild Shape",
+				"name": "荒野形态"
 			},
 			"entries": [
-				"{@i 2nd-level Circle of Wildfire feature}",
-				"You can summon the primal spirit bound to your soul. As an action, you can expend one use of your Wild Shape feature to summon your {@creature wildfire spirit|UAClericDruidWizard}, rather than assuming a beast form.",
-				"The spirit appears in an unoccupied space of your choice you can see within 30 feet of you. Each creature within 10 feet of the spirit (other than you) when it appears must succeed on a Dexterity saving throw against your spell save DC or take {@damage 2d10} fire damage.",
-				"The wildfire spirit is friendly to you and your companions and obeys your commands. See this creature's game statistics in the wildfire spirit stat block. You determine the spirit's appearance. Some spirits take the form of a humanoid figure made of gnarled branches covered in flame, while others look like beasts wreathed in fire.",
-				"In combat, the wildfire spirit shares your initiative count, but it takes its turn immediately after yours. The only action it takes on its turn is the {@action Dodge} action, unless you take a bonus action on your turn to command it to take one of the actions in its stat block or to take the {@action Dash}, {@action Disengage}, {@action Help}, or {@action Hide} action.",
-				"The wildfire spirit manifests for 1 hour, until it is reduced to 0 hit points, or until you use your Wild Shape again."
+				"{@i 2级野火结社特性}",
+				"你可以召唤与你灵魂连接的原始精魄。以一个动作，你可以消耗一次荒野形态特性来召唤你的{@creature 野火精魂|UAClericDruidWizard}，而非变形成野兽形态。",
+				"精魄出现在你30尺内一个你能看见的未占据空间中。当精魄出现时，10尺内的每个生物（除你之外）必须进行一次对抗你法术豁免DC的敏捷豁免检定，否则受到{@damage 2d10}火焰伤害。",
+				"野火精魂对你和你的同伴友好且服从你的命令。参见该生物的游戏数据中的野火精魂资料卡。你决定精魂的外貌。一些精魂呈现为由火焰覆盖的扭曲树枝组成的类人生物形态，而另一些则看起来像烈焰包裹的野兽。",
+				"在战斗中，野火精魂共享你的先攻值，但它会在你的回合结束后立即行动。它在回合中唯一能执行的动作是{@action 回避}动作，除非你在你的回合中使用一个附赠动作命令它执行其资料卡中的一个动作，或是执行{@action 疾走}、{@action 撤离}、{@action 协助}或{@action 躲藏}动作。",
+				"野火精魂显现1小时，直到其生命值降至0点，或你再次使用荒野形态。"
 			]
 		},
 		{
-			"name": "Enhanced Bond",
+			"ENG_name": "Enhanced Bond",
+			"name": "强化链接",
 			"source": "UAClericDruidWizard",
 			"page": 2,
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "PHB",
-			"subclassShortName": "Wildfire (UA)",
+			"subclassShortName": "野火（UA）",
 			"subclassSource": "UAClericDruidWizard",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-level Circle of Wildfire feature}",
-				"The bond with your wildfire spirit enhances your destructive and restorative spells. Whenever you cast a spell that deals fire damage or restores hit points while your wildfire spirit is summoned, roll a {@dice d8}, and you gain a bonus to one roll of the spell equal to the number rolled. In addition, when you cast a spell with a range other than self, the spell can originate from you or your wildfire spirit."
+				"{@i 6级野火结社特性}",
+				"你与野火精魂的强化链接增强了你的破坏性和恢复性法术。每当你施放一个造成火焰伤害或恢复生命值的法术且野火精魂被召唤时，掷一枚{@dice d8}，且你获得一个等于骰出数值的法术掷骰加值。此外，当你施放一个范围不为自身的法术时，该法术可以从你或你的野火精魂处释放。"
 			]
 		},
 		{
-			"name": "Flames of Life",
+			"ENG_name": "Flames of Life",
+			"name": "生命之火",
 			"source": "UAClericDruidWizard",
 			"page": 2,
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "PHB",
-			"subclassShortName": "Wildfire (UA)",
+			"subclassShortName": "野火（UA）",
 			"subclassSource": "UAClericDruidWizard",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i 10th-level Circle of Wildfire feature}",
-				"You gain the ability to turn death into flames of vitality. When a Small or larger creature that you can see dies within 30 feet of you or your wildfire spirit, you can use your reaction to cause primal flames to spring from the body. When a creature you can see touches these flames, the creature regains hit points or takes fire damage (your choice) equal to {@dice 2d10} + your Wisdom modifier. The flames vanish after a creature has touched them or after 1 minute. You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a long rest."
+				"{@i 10级野火结社特性}",
+				"你获得将死亡转化为生命之火的能力。当你或你的野火精魂30尺内你能看见的一个小型或更大的生物死亡时，你可以使用你的反应使原始火焰从该生物的身体中喷涌而出。当一个你能看见的生物接触这些火焰时，该生物恢复等于{@dice 2d10} + 你的感知调整值的生命值或受到等量的火焰伤害（由你选择）。这些火焰在被一个生物接触后或1分钟后消隐。你可以使用此特性的次数等于你的感知调整值（至少一次）。完成一次长休后，你恢复所有已消耗的使用次数。"
 			]
 		},
 		{
-			"name": "Blazing Endurance",
+			"ENG_name": "Blazing Endurance",
+			"name": "爆燃忍耐",
 			"source": "UAClericDruidWizard",
 			"page": 2,
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "PHB",
-			"subclassShortName": "Wildfire (UA)",
+			"subclassShortName": "野火（UA）",
 			"subclassSource": "UAClericDruidWizard",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i 14th-level Circle of Wildfire feature}",
-				"The bond with your wildfire spirit is exceptionally strong, even fatal blows only fuel your defiance. If you drop to 0 hit points and don't die outright, you drop to 1 hit point instead and gain temporary hit points equal to five times your druid level, and each creature of your choice within 30 feet of you that you can see takes fire damage equal to {@dice 2d10} + your druid level.",
-				"Once you use this feature, you can't use it again until you finish a long rest."
+				"{@i 14级野火结社特性}",
+				"你与野火精魂的牵挂异常强烈，即便是致命打击也只会助长你的反抗。如果你生命值降至0且没有立即死亡，你将改为降至1点生命值并获得相当于你德鲁伊等级五倍的临时生命值，且你选择的30尺内你能看见的每个生物将受到等于{@dice 2d10} + 你德鲁伊等级的火焰伤害。",
+				"必须完成一次长休才能再次使用该特性。"
 			]
 		},
 		{
-			"name": "Onomancy",
+			"ENG_name": "Onomancy",
+			"name": "真名魔法",
 			"source": "UAClericDruidWizard",
 			"page": 4,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "PHB",
-			"subclassShortName": "Onomancy (UA)",
+			"subclassShortName": "真名魔法（UA）",
 			"subclassSource": "UAClericDruidWizard",
 			"level": 2,
 			"entries": [
-				"Practitioners of magic well know the power of names, but wizards who follow the tradition of Onomancy use their magic to manipulate the words that encompass existence. Onomancers expand their study into language itself, searching for threads of magical significance that weave through names. Something that is named stands out in the multiverse, distinct from the tapestry of creation all around it.",
-				"That distinction creates power that onomancers seek to tap. By speaking a target's true name, the wizard's spells slip between the cracks of the target's defenses, conforming to its essential nature through the power of its name. To protect themselves, wizards who follow this tradition often hide their true names, typically by adopting monikers and pseudonyms.",
+				"魔法的实践者们深知名字的力量，但遵循真名魔法传统的法师们则利用他们的魔法来操纵那些包含存在的词语。真名法师们将他们的研究扩展到语言本身，寻找那些贯穿名字的具有魔法意义的线索。在多元宇宙中，被命名的事物从周围的造物术大壁毯中脱颖而出，与众不同。",
+				"这种区别创造了真名法师们试图利用的力量。通过说出目标的真名，法师的法术能够穿过目标的防御设施间隙，通过其名称的力量与其本质自然相契合。为了保护自己，遵循这一传统的法师通常会隐藏自己的真名，通常采用别名和假名。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "True Names|Wizard||Onomancy (UA)|UAClericDruidWizard|2"
+					"subclassFeature": "真名|法师||真名魔法（UA）|UAClericDruidWizard|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Wizard||Onomancy (UA)|UAClericDruidWizard|2"
+					"subclassFeature": "附赠熟练|法师||真名魔法（UA）|UAClericDruidWizard|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Extract Name|Wizard||Onomancy (UA)|UAClericDruidWizard|2"
+					"subclassFeature": "提取名称|法师||真名魔法（UA）|UAClericDruidWizard|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Fateful Naming|Wizard||Onomancy (UA)|UAClericDruidWizard|2"
+					"subclassFeature": "命运命名|法师||真名魔法（UA）|UAClericDruidWizard|2"
 				}
 			]
 		},
 		{
-			"name": "Bonus Proficiencies",
+			"ENG_name": "Bonus Proficiencies",
+			"name": "附赠熟练",
 			"source": "UAClericDruidWizard",
 			"page": 4,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "PHB",
-			"subclassShortName": "Onomancy (UA)",
+			"subclassShortName": "真名魔法（UA）",
 			"subclassSource": "UAClericDruidWizard",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"{@i 2nd-level Onomancy feature}",
-				"You learn one language of your choice and gain proficiency with {@item calligrapher's supplies|phb}."
+				"{@i 2级真名魔法特性}",
+				"你学习一种自选语言且获得{@item 书法工具|phb}的熟练。"
 			]
 		},
 		{
-			"name": "Extract Name",
+			"ENG_name": "Extract Name",
+			"name": "提取名称",
 			"source": "UAClericDruidWizard",
 			"page": 4,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "PHB",
-			"subclassShortName": "Onomancy (UA)",
+			"subclassShortName": "真名魔法（UA）",
 			"subclassSource": "UAClericDruidWizard",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"{@i 2nd-level Onomancy feature}",
-				"You can magically compel a creature to divulge its true name. As a bonus action, you target one creature you can see within 60 feet of you. The target must make a Wisdom saving throw against your spell save DC. On a successful save, you discern that this magic failed, and you can't use this feature on the target again. On a failed save, the target is {@condition charmed} by you until the end of your next turn, and you mentally learn the {@condition charmed} target's name or the fact that the target lacks a name.",
-				"You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses of it when you finish a long rest."
+				"{@i 2级真名魔法特性}",
+				"你可以用魔法强迫一个生物透露其真名。以一个附赠动作，你指定一个你能看见的60尺内的生物为目标。目标必须进行一次对抗你法术豁免DC的感知豁免检定。若豁免成功，你会察觉这次魔法失败了，且你无法再次对该目标使用此特性。若豁免失败，目标被你{@condition 魅惑}直到你的下个回合结束，并且你会心灵感应得知这个{@condition 魅惑}目标的名字或该目标没有名字的事实。",
+				"你可以使用此特性的次数等于你的智力调整值（至少一次），且完成一次长休后恢复所有已消耗的使用次数。"
 			]
 		},
 		{
-			"name": "Fateful Naming",
+			"ENG_name": "Fateful Naming",
+			"name": "命运命名",
 			"source": "UAClericDruidWizard",
 			"page": 4,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "PHB",
-			"subclassShortName": "Onomancy (UA)",
+			"subclassShortName": "真名魔法（UA）",
 			"subclassSource": "UAClericDruidWizard",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"{@i 2nd-level Onomancy feature}",
-				"You can bend magic to assist or hinder creatures through the power of their true names, and even use those names as an anchor to affect others around them. The {@spell bane} and {@spell bless} spells are wizard spells for you, and you add them to your spellbook. You always have them prepared, yet they don't count against the number of spells you can prepare.",
-				"You can cast either spell without expending a spell slot if you speak the true name of one target of the spell as part of casting it. You can cast the spells in this way a number of times equal to your Intelligence modifier (a minimum of once), and you regain all expended uses when you finish a long rest."
+				"{@i 2级真名魔法特性}",
+				"你能通过生物真名的法力来引导魔法协助或阻碍它们，甚至能用这些名字作为锚点来影响它们周围的其它生物。{@spell 灾祸术}和{@spell 祝福术}对你而言是法师法术，且你将它们添加到你的法术书中。你总是准备着这些法术，但它们不计入你能准备的法术数量上限。",
+				"你可以施放任一法术而不消耗法术位，如果你在施放时说出该法术单一目标的真实名称。你可以以这种方式施放法术的次数等于你的智力调整值（至少一次），且你在完成一次长休后恢复所有已消耗的使用次数。"
 			]
 		},
 		{
-			"name": "True Names",
-			"source": "UAClericDruidWizard",
-			"page": 4,
-			"className": "Wizard",
-			"classSource": "PHB",
-			"subclassShortName": "Onomancy (UA)",
-			"subclassSource": "UAClericDruidWizard",
-			"level": 2,
-			"header": 1,
+			"ENG_name": "True Names",
+			"name": "真名",
 			"type": "inset",
+			"source": "UAClericDruidWizard",
+			"page": 4,
+			"className": "法师",
+			"classSource": "PHB",
+			"subclassShortName": "真名魔法（UA）",
+			"subclassSource": "UAClericDruidWizard",
+			"level": 2,
+			"header": 1,
 			"entries": [
-				"Onomancy, or naming magic, is a method of spellcasting that uses a creature's true name to enhance a spell's effects. A true name is the name by which a self-aware creature identifies itself. This name might be the name a person was given at birth, or one a person chose or earned later in life. Whatever a name's origin, the simplest way for you to know your true name is to think truthfully about yourself and then think, \"My name is...\" Your true name is how you finish that sentence.",
-				"You can try to hide your true name by using a pseudonym, but you must be wary not to inhabit that false name too deeply. If a false name comes to be the best expression of who you are, it becomes your true name. Changing one's true name is never a quick choice; it's something that happens over time as a name becomes the creature's truth.",
-				"As a quick guide, a creature has a true name if it understands at least one language or it has an alignment."
+				"真名魔法，或称命名术，是一种利用生物的真名来增强法术效应的施法方法。真名是一个有自我意识的生物用以识别自身的名称。这个名称可能是一个人出生时被赋予的名字，也可能是其后来在生活中选择或赢得的名字。无论名称的起源如何，了解你真名的最简单方法是诚实地思考自己，然后想：\"我的名字是......\"你的真名就是你如何完成这句话。",
+				"你可以尝试通过使用假名来隐藏你的真名，但你必须警觉不要过于深入地融入那个假名。如果一个假名成为了你是谁的最佳表达，它就会变成你的真名。改变一个人的真名从来不是一个快速的选择；它是一个随着时间推移，当一个名称成为生物的真实时发生的事情。",
+				"作为一个快速向导，如果一个生物理解至少一种语言或拥有一个阵营，那么它就有一个真名。"
 			]
 		},
 		{
-			"name": "Resonant Options",
+			"ENG_name": "Resonant Options",
+			"name": "共鸣选项",
 			"source": "UAClericDruidWizard",
 			"page": 4,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "PHB",
-			"subclassShortName": "Onomancy (UA)",
+			"subclassShortName": "真名魔法（UA）",
 			"subclassSource": "UAClericDruidWizard",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Here are your options when choosing a Resonant:",
+				"这里是选择共鸣时的选项：",
 				{
 					"type": "options",
 					"style": "list-hang-notitle",
@@ -582,135 +608,142 @@
 					"entries": [
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Absorption|UAClericDruidWizard"
+							"optionalfeature": "吸收|UAClericDruidWizard"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Devastation|UAClericDruidWizard"
+							"optionalfeature": "蹂躏|UAClericDruidWizard"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Dissolution|UAClericDruidWizard"
+							"optionalfeature": "瓦解术|UAClericDruidWizard"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Nullification|UAClericDruidWizard"
+							"optionalfeature": "无效化|UAClericDruidWizard"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Puppetry|UAClericDruidWizard"
+							"optionalfeature": "木偶戏|UAClericDruidWizard"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Sympathy|UAClericDruidWizard"
+							"optionalfeature": "关怀|UAClericDruidWizard"
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "Resonant Utterance",
+			"ENG_name": "Resonant Utterance",
+			"name": "共鸣真言",
 			"source": "UAClericDruidWizard",
 			"page": 4,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "PHB",
-			"subclassShortName": "Onomancy (UA)",
+			"subclassShortName": "真名魔法（UA）",
 			"subclassSource": "UAClericDruidWizard",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-level Onomancy feature}",
-				"You learn words of power called Resonants, which allow you to tailor your spells through the use of a target's true name.",
+				"{@i 6级真名魔法特性}",
+				"你学会了称为共鸣的力量之语，这允许你通过使用目标的真名来定制你的法术。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Resonants Known|Wizard||Onomancy (UA)|UAClericDruidWizard|6"
+					"subclassFeature": "已知共鸣语|法师||真名魔法（UA）|UAClericDruidWizard|6"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Using a Resonant|Wizard||Onomancy (UA)|UAClericDruidWizard|6"
+					"subclassFeature": "使用共鸣|法师||真名魔法（UA）|UAClericDruidWizard|6"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Resonant Options|Wizard||Onomancy (UA)|UAClericDruidWizard|6"
+					"subclassFeature": "共鸣选项|法师||真名魔法（UA）|UAClericDruidWizard|6"
 				}
 			]
 		},
 		{
-			"name": "Resonants Known",
+			"ENG_name": "Resonants Known",
+			"name": "已知共鸣语",
 			"source": "UAClericDruidWizard",
 			"page": 4,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "PHB",
-			"subclassShortName": "Onomancy (UA)",
+			"subclassShortName": "真名魔法（UA）",
 			"subclassSource": "UAClericDruidWizard",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"When you gain this feature, you learn two Resonants of your choice, which are detailed in the \"Resonant Options\" section. Each time you gain a level in this class, you can replace one resonant you know with a different one."
+				"当你获得此特性时，你可以从\"共鸣选项\"部分中选择学习两种共鸣。每次在此职业升级时，你可以将一个已知的共鸣替换为另一个不同的共鸣。"
 			]
 		},
 		{
-			"name": "Using a Resonant",
+			"ENG_name": "Using a Resonant",
+			"name": "使用共鸣",
 			"source": "UAClericDruidWizard",
 			"page": 4,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "PHB",
-			"subclassShortName": "Onomancy (UA)",
+			"subclassShortName": "真名魔法（UA）",
 			"subclassSource": "UAClericDruidWizard",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"You can use one Resonant when you cast a wizard spell with a spell slot and speak the true name of one creature targeted by the spell. Speaking the name is part of casting the spell. You can use Resonants a number of times equal to half of your wizard level (round down), and you regain all expended uses when you finish a long rest."
+				"当你施放一个法师法术并使用法术位且说出该法术目标生物的真实名称时，你可以使用一个共鸣。说出名称是施放法术的一部分。你可以使用共鸣的次数等于你的法师等级的一半（向下取整），且当你完成一次长休时恢复所有已消耗的使用次数。"
 			]
 		},
 		{
-			"name": "Inexorable Pronouncement",
+			"ENG_name": "Inexorable Pronouncement",
+			"name": "不可阻挡的宣言",
 			"source": "UAClericDruidWizard",
 			"page": 4,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "PHB",
-			"subclassShortName": "Onomancy (UA)",
+			"subclassShortName": "真名魔法（UA）",
 			"subclassSource": "UAClericDruidWizard",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i 10th-level Onomancy feature}",
-				"You learn two new Resonant s of your choice from your Resonant Utterance feature."
+				"{@i 10级真名魔法特性}",
+				"你从共鸣宣言特性中选择两个新的共鸣。"
 			]
 		},
 		{
-			"name": "Relentless Naming",
+			"ENG_name": "Relentless Naming",
+			"name": "坚韧命名",
 			"source": "UAClericDruidWizard",
 			"page": 4,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "PHB",
-			"subclassShortName": "Onomancy (UA)",
+			"subclassShortName": "真名魔法（UA）",
 			"subclassSource": "UAClericDruidWizard",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i 14th-level Onomancy feature}",
-				"You have learned how to bypass a named creature's defenses against certain types of damage. When you cast a spell that deals damage to a creature whose true name you speak as part of casting the spell, you can cause the spell to deal force or psychic damage to the creature, instead of the spell's normal damage type."
+				"{@i 14级真名魔法特性}",
+				"你学会了如何绕过指定生物对某些伤害类型的防御设施。当你施法对一个生物造成伤害时，若你在施法过程中说出了该生物的真名，你可以使该法术对该生物造成力场或心灵伤害，而非该法术的正常伤害类型。"
 			]
 		}
 	],
 	"foundrySubclassFeature": [
 		{
-			"name": "Resonant Options",
+			"ENG_name": "Resonant Options",
+			"name": "共鸣选项",
 			"source": "UAClericDruidWizard",
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "PHB",
-			"subclassShortName": "Onomancy (UA)",
+			"subclassShortName": "真名魔法（UA）",
 			"subclassSource": "UAClericDruidWizard",
 			"level": 6,
 			"isIgnored": true
 		},
 		{
-			"name": "Resonants Known",
+			"ENG_name": "Resonants Known",
+			"name": "已知共鸣语",
 			"source": "UAClericDruidWizard",
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "PHB",
-			"subclassShortName": "Onomancy (UA)",
+			"subclassShortName": "真名魔法（UA）",
 			"subclassSource": "UAClericDruidWizard",
 			"level": 6,
 			"isIgnored": true
@@ -718,81 +751,88 @@
 	],
 	"optionalfeature": [
 		{
-			"name": "Absorption",
+			"ENG_name": "Absorption",
+			"name": "吸收",
 			"source": "UAClericDruidWizard",
 			"page": 5,
 			"featureType": [
 				"OR"
 			],
 			"entries": [
-				"When you cast a spell that deals damage to the named target, you gain {@dice 3d6} temporary hit points. The number of temporary hit points you gain increases by {@dice 1d6} when you reach 10th level ({@dice 4d6}) and 14th level ({@dice 5d6}) in this class."
+				"当你施法对指定目标造成伤害时，你获得{@dice 3d6}临时生命值。当你在此职业达到10级（{@dice 4d6}）且14级（{@dice 5d6}）时，获得的临时生命值数值增加{@dice 1d6}。"
 			]
 		},
 		{
-			"name": "Devastation",
+			"ENG_name": "Devastation",
+			"name": "蹂躏",
 			"source": "UAClericDruidWizard",
 			"page": 5,
 			"featureType": [
 				"OR"
 			],
 			"entries": [
-				"If the spell requires the named creature to make a saving throw, that creature has disadvantage on the first save it makes against the spell."
+				"如果该法术要求指定生物进行豁免检定，该生物在对抗该法术的第一次豁免检定中具有劣势。"
 			]
 		},
 		{
-			"name": "Dissolution",
+			"ENG_name": "Dissolution",
+			"name": "瓦解术",
 			"source": "UAClericDruidWizard",
 			"page": 5,
 			"featureType": [
 				"OR"
 			],
 			"entries": [
-				"The first time the named creature takes damage from the spell, that creature takes an extra {@damage 2d8} force damage. The extra force damage increases by {@damage 1d8} when you reach 10th level ({@damage 3d8}) and 14th level ({@damage 4d8}) in this class."
+				"当指定生物第一次受到该法术的伤害时，该生物会受到额外{@damage 2d8}的力场伤害。当你在此职业达到10级（{@damage 3d8}）和14级（{@damage 4d8}）时，额外的力场伤害会增加{@damage 1d8}。"
 			]
 		},
 		{
-			"name": "Nullification",
+			"ENG_name": "Nullification",
+			"name": "无效化",
 			"source": "UAClericDruidWizard",
 			"page": 5,
 			"featureType": [
 				"OR"
 			],
 			"entries": [
-				"If the named target is affected by any other spells, you know what those spells are, and you can attempt to end one of your choice by succeeding on an Intelligence check with a DC equal to 10 + the level of the chosen spell."
+				"如果指定的目标受到任何其他法术影响，你会知道这些法术是什么，且你可以通过成功进行一次DC等于10 + 所选法术等级的智力检定来尝试结束其中一个法术。"
 			]
 		},
 		{
-			"name": "Puppetry",
+			"ENG_name": "Puppetry",
+			"name": "木偶戏",
 			"source": "UAClericDruidWizard",
 			"page": 5,
 			"featureType": [
 				"OR"
 			],
 			"entries": [
-				"The first time the named creature takes damage from the spell, you can knock the creature {@condition prone} or move it up to 10 feet, either directly toward you or away from you."
+				"当指定生物第一次受到该法术的伤害时，你可以使该生物{@condition 倒地}或将其朝向你或远离你的方向移动最多10尺。"
 			]
 		},
 		{
-			"name": "Sympathy",
+			"ENG_name": "Sympathy",
+			"name": "关怀",
 			"source": "UAClericDruidWizard",
 			"page": 5,
 			"featureType": [
 				"OR"
 			],
 			"entries": [
-				"If the named creature is within range of the spell, you can target the creature with the spell even if you can't see the creature or it has total cover against the spell."
+				"如果指定的生物在法术范围内，即使你看不见该生物或该生物对法术有全身掩护，你也可以将该生物作为法术目标。"
 			]
 		}
 	],
 	"monster": [
 		{
-			"name": "Wildfire Spirit",
+			"ENG_name": "Wildfire Spirit",
+			"name": "野火精魂",
+			"type": "elemental",
 			"source": "UAClericDruidWizard",
 			"page": 3,
 			"size": [
 				"S"
 			],
-			"type": "elemental",
 			"alignment": [
 				"C",
 				"G",
@@ -803,18 +843,18 @@
 				{
 					"ac": 13,
 					"from": [
-						"natural armor"
+						"天生护甲"
 					]
 				}
 			],
 			"hp": {
-				"special": "equal to the wildfire spirit's Constitution modifier + your Wisdom modifier + five times your level in this class"
+				"special": "等于野火灵的体质调整值加上你的感知调整值，再加上你在这个职业中的等级的五倍"
 			},
 			"speed": {
 				"walk": 20,
 				"fly": {
 					"number": 30,
-					"condition": "(hover)"
+					"condition": "(悬浮)"
 				},
 				"canHover": true
 			},
@@ -833,7 +873,7 @@
 				"nature": "+4"
 			},
 			"senses": [
-				"darkvision 60 ft."
+				"黑暗视觉 60 尺"
 			],
 			"passive": 12,
 			"immune": [
@@ -847,28 +887,31 @@
 				"restrained"
 			],
 			"languages": [
-				"understands the languages you speak"
+				"理解你所说的语言"
 			],
 			"trait": [
 				{
-					"name": "Soul Bond",
+					"ENG_name": "Soul Bond",
+					"name": "灵魂联结",
 					"entries": [
-						"The following numbers increase by 1 when your proficiency bonus increases by 1: the spirit's skill and saving throw bonuses above, the bonuses to hit and damage of its Flame Seed, and the bonus to damage of its Fiery Teleportation."
+						"当你的熟练加值增加1时，以下数值也会相应增加1：灵体在上面的技能和豁免检定加值、其火焰种子的命中和伤害加值，以及其炽焰传送的伤害加值。"
 					]
 				}
 			],
-			"actionNote": "Requires Your Bonus Action",
+			"actionNote": "需要你的附赠动作",
 			"action": [
 				{
-					"name": "Flame Seed",
+					"ENG_name": "Flame Seed",
+					"name": "火种",
 					"entries": [
-						"{@atk rw} {@hit 4} to hit, range 30 ft., one target you can see. {@h}{@damage 1d6 + 2} fire damage."
+						"{@atk rw} 命中{@hit 4}，射程30英尺，一个你能看到的目标。{@h}{@damage 1d6 + 2} 火焰伤害。"
 					]
 				},
 				{
-					"name": "Fiery Teleportation (Recharges after a Short or Long Rest)",
+					"ENG_name": "Fiery Teleportation (Recharges after a Short or Long Rest)",
+					"name": "炽焰传送（短休或长休后重置）",
 					"entries": [
-						"The spirit and each willing creature of your choice within 5 feet of it teleport up to 30 feet to unoccupied spaces you can see. Each creature within 10 feet of the space that the spirit left must succeed on a Dexterity saving throw against your spell save DC or take {@dice 1d6 + 2} fire damage."
+						"精神和您选择的每个愿意的生物在它周围5英尺范围内，可以传送至您能看到的未被占据的空间，最多30英尺。每个在精神离开的空间周围10英尺内的生物必须通过一次敏捷豁免检定，对抗您的法术豁免DC，否则将受到{@dice 1d6 + 2}点火焰伤害。"
 					]
 				}
 			],

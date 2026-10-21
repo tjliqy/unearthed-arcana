@@ -1,11 +1,10 @@
 {
-	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/ua-fast/homebrew.json",
 	"_meta": {
 		"sources": [
 			{
 				"json": "XUA2026UnderdarkOptions",
 				"abbreviation": "XUA26UO",
-				"full": "Unearthed Arcana 2026: Underdark Options",
+				"full": "破解奥秘 2026：幽暗地域选项",
 				"url": "https://media.dndbeyond.com/compendium-images/ua/underdark-options/RoZy4p5SV29Elftn/UA2026-UnderdarkOptions.pdf",
 				"version": "1",
 				"dateReleased": "2026-08-20",
@@ -20,15 +19,16 @@
 		"edition": "one",
 		"status": "ready",
 		"dateAdded": 1787248083,
-		"dateLastModified": 1787260967,
+		"dateLastModified": 1792466244,
 		"_dateLastModifiedHash": "a876eaa6c8"
 	},
 	"subclass": [
 		{
-			"name": "House Agent",
-			"shortName": "House Agent",
+			"ENG_name": "House Agent",
+			"name": "家族代理人",
+			"shortName": "家族代理人",
 			"source": "XUA2026UnderdarkOptions",
-			"className": "Rogue",
+			"className": "浪客",
 			"classSource": "XPHB",
 			"page": 2,
 			"additionalSpells": [
@@ -36,28 +36,28 @@
 					"prepared": {
 						"3": {
 							"_": [
-								"friends|XPHB#c"
+								"交友术|XPHB#c"
 							],
 							"daily": {
 								"1e": [
-									"charm person|XPHB"
+									"魅惑类人|XPHB"
 								]
 							},
 							"ritual": [
-								"find familiar|XPHB"
+								"寻获魔宠|XPHB"
 							]
 						},
 						"5": {
 							"daily": {
 								"1e": [
-									"suggestion|XPHB"
+									"暗示术|XPHB"
 								]
 							}
 						},
 						"9": {
 							"daily": {
 								"1e": [
-									"hypnotic pattern|XPHB"
+									"催眠图纹|XPHB"
 								]
 							}
 						}
@@ -65,26 +65,27 @@
 				}
 			],
 			"subclassSpells": [
-				"friends|XPHB#c",
-				"charm person|XPHB",
-				"find familiar|XPHB",
-				"suggestion|XPHB",
-				"hypnotic pattern|XPHB"
+				"交友术|XPHB#c",
+				"魅惑类人|XPHB",
+				"寻获魔宠|XPHB",
+				"暗示术|XPHB",
+				"催眠图纹|XPHB"
 			],
 			"subclassFeatures": [
-				"House Agent|Rogue|XPHB|House Agent|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions",
-				"Backstab|Rogue|XPHB|House Agent|XUA2026UnderdarkOptions|9|XUA2026UnderdarkOptions",
-				"Infiltration Partner|Rogue|XPHB|House Agent|XUA2026UnderdarkOptions|13|XUA2026UnderdarkOptions",
-				"Silver Tongue|Rogue|XPHB|House Agent|XUA2026UnderdarkOptions|13|XUA2026UnderdarkOptions",
-				"Subtle Manipulator|Rogue|XPHB|House Agent|XUA2026UnderdarkOptions|17|XUA2026UnderdarkOptions"
+				"家族代理人|游荡者|XPHB|家族代理人|XUA2026UnderdarkOptions|3|XUA2026幽暗地域选项",
+				"背刺|游荡者|XPHB|家族代理人|XUA2026UnderdarkOptions|9|XUA2026幽暗地域选项",
+				"渗透伙伴|游荡者|XPHB|家族代理人|XUA2026UnderdarkOptions|13|XUA2026幽暗地域选项",
+				"巧舌如簧|游荡者|XPHB|家族代理人|XUA2026UnderdarkOptions|13|XUA2026幽暗地域选项",
+				"精妙操纵者|游荡者|XPHB|家族代理人|XUA2026UnderdarkOptions|17|XUA2026幽暗地域选项"
 			],
 			"hasFluff": true
 		},
 		{
-			"name": "Imaskarcanist",
-			"shortName": "Imaskarcanist",
+			"ENG_name": "Imaskarcanist",
+			"name": "伊马斯卡术士",
+			"shortName": "伊马斯卡术士",
 			"source": "XUA2026UnderdarkOptions",
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
 			"page": 3,
 			"additionalSpells": [
@@ -93,7 +94,7 @@
 						"10": {
 							"daily": {
 								"1": [
-									"glyph of warding|XPHB"
+									"守卫刻文|XPHB"
 								]
 							}
 						}
@@ -101,69 +102,74 @@
 				}
 			],
 			"subclassSpells": [
-				"glyph of warding|XPHB"
+				"守卫刻文|XPHB"
 			],
 			"subclassFeatures": [
-				"Imaskarcanist|Wizard|XPHB|Imaskarcanist|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions",
-				"Unlight Restoration|Wizard|XPHB|Imaskarcanist|XUA2026UnderdarkOptions|6|XUA2026UnderdarkOptions",
-				"Secrets of Deep Imaskar|Wizard|XPHB|Imaskarcanist|XUA2026UnderdarkOptions|10|XUA2026UnderdarkOptions",
-				"Doom of Unlight|Wizard|XPHB|Imaskarcanist|XUA2026UnderdarkOptions|14|XUA2026UnderdarkOptions"
+				"伊马斯卡术士|法师|XPHB|伊马斯卡术士|XUA2026UnderdarkOptions|3|XUA2026幽暗地域选项",
+				"暗光复原|法师|XPHB|伊马斯卡术士|XUA2026UnderdarkOptions|6|XUA2026幽暗地域选项",
+				"深地伊马斯卡之秘|法师|XPHB|伊马斯卡术士|XUA2026UnderdarkOptions|10|XUA2026幽暗地域选项",
+				"末日暗光|法师|XPHB|伊马斯卡术士|XUA2026UnderdarkOptions|14|XUA2026幽暗地域选项"
 			],
 			"hasFluff": true
 		},
 		{
-			"name": "Path of Unlight",
-			"shortName": "Unlight",
+			"ENG_name": "Path of Unlight",
+			"name": "无光之道",
+			"shortName": "无光",
 			"source": "XUA2026UnderdarkOptions",
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
 			"page": 1,
 			"subclassFeatures": [
-				"Path of Unlight|Barbarian|XPHB|Unlight|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions",
-				"Unlight Revelation|Barbarian|XPHB|Unlight|XUA2026UnderdarkOptions|6|XUA2026UnderdarkOptions",
-				"Infectious Unlight|Barbarian|XPHB|Unlight|XUA2026UnderdarkOptions|10|XUA2026UnderdarkOptions",
-				"Harbinger of Unlight|Barbarian|XPHB|Unlight|XUA2026UnderdarkOptions|10|XUA2026UnderdarkOptions",
-				"Brilliant Rage|Barbarian|XPHB|Unlight|XUA2026UnderdarkOptions|14|XUA2026UnderdarkOptions"
+				"无光之道|野蛮人|XPHB|无光|XUA2026UnderdarkOptions|3|XUA2026幽暗地域选项",
+				"暗光天启|野蛮人|XPHB|无光|XUA2026UnderdarkOptions|6|XUA2026幽暗地域选项",
+				"传染性暗光|野蛮人|XPHB|无光|XUA2026UnderdarkOptions|10|XUA2026幽暗地域选项",
+				"暗光先驱者|野蛮人|XPHB|无光|XUA2026UnderdarkOptions|10|XUA2026幽暗地域选项",
+				"辉煌狂暴|野蛮人|XPHB|无光|XUA2026UnderdarkOptions|14|XUA2026幽暗地域选项"
 			],
 			"hasFluff": true
 		}
 	],
 	"subclassFluff": [
 		{
-			"name": "House Agent",
-			"shortName": "House Agent",
+			"ENG_name": "House Agent",
+			"name": "家族代理人",
+			"shortName": "家族代理人",
 			"source": "XUA2026UnderdarkOptions",
-			"className": "Rogue",
+			"className": "浪客",
 			"classSource": "XPHB",
 			"entries": [
-				"{@i Outwit Your Foes with Charm and Subterfuge}"
+				"{@i 以魅惑与诡计智胜你的敌人}"
 			]
 		},
 		{
-			"name": "Imaskarcanist",
-			"shortName": "Imaskarcanist",
+			"ENG_name": "Imaskarcanist",
+			"name": "伊马斯卡术士",
+			"shortName": "伊马斯卡术士",
 			"source": "XUA2026UnderdarkOptions",
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
 			"entries": [
-				"{@i Master the Secrets of Unlight and the Artifacts of Ancient Imaskar}"
+				"{@i 掌握暗光秘密与古代伊马斯卡神器}"
 			]
 		},
 		{
-			"name": "Path of Unlight",
-			"shortName": "Unlight",
+			"ENG_name": "Path of Unlight",
+			"name": "无光之道",
+			"shortName": "无光",
 			"source": "XUA2026UnderdarkOptions",
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
 			"entries": [
-				"{@i Unleash your inner light as blazing fury}",
+				"{@i 释放你内心的光芒，化为炽烈怒火}",
 				{
+					"ENG_name": "What is Unlight?",
+					"name": "什么是暗光？",
 					"type": "inset",
-					"name": "What is Unlight?",
 					"page": 1,
 					"entries": [
-						"The city of Deep Imaskar, home to the descendants of the ancient Imaskari empire, lies in one of the lowest levels of the Underdark. The Deep Imaskari wield a magical force known as Unlight, taught to them by {@i Imaskarcana}, sentient grimoires penned by ancient wizard-kings of the lost Imaskari empire.",
-						"The Deep Imaskari used Unlight to create the Great Seal, a magical symbol that protects and illuminates their city while nourishing crops that allow the Deep Imaskari to survive in the Underdark. But Unlight can also be used to corrupt and destroy, burning creatures from within until they die in a fiery explosion of brilliant light."
+						"深伊马斯卡城，古代伊玛斯卡帝国后裔的家园，位于幽暗地域最深的层级之一。深伊马斯卡人使用一种被称为暗光的魔法力场，这是由失落伊玛斯卡帝国的古代法师王所著的智能魔法书{@i 伊马斯卡卡纳}传授给它们的。",
+						"深地伊玛斯卡人利用暗光创造了'大封印'，这是一个保护并照亮他们城市的魔法徽记，同时滋养着作物，使得深地伊玛斯卡人得以在幽暗地域中幸存。但暗光同样可用于腐化与毁灭，从内部燃烧生物，直至他们在辉煌光明的炽热爆炸中死去。"
 					]
 				}
 			]
@@ -171,115 +177,123 @@
 	],
 	"subclassFeature": [
 		{
-			"name": "Path of Unlight",
+			"ENG_name": "Path of Unlight",
+			"name": "无光之道",
 			"source": "XUA2026UnderdarkOptions",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
-			"subclassShortName": "Unlight",
+			"subclassShortName": "无光",
 			"subclassSource": "XUA2026UnderdarkOptions",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Barbarians infused with the power of Unlight embrace uncontrollable magic in exchange for incredible physical prowess. The Unlight burning inside them illuminates the darkness while burning and blinding the barbarian's enemies",
-				"Most barbarians on this path were first exposed to Unlight in the Underdark. The Deep Imaskari grant Unlight to chosen warriors who lead their army against the upper regions of the Underdark, and some of these soldiers have fled to pursue lives of their own. But the magic of Unlight is contagious and spreads in unpredictable ways. It infects people only briefly exposed to it and occasionally manifests in individuals who have never been to the Underdark.",
+				"被暗光之力灌注的野蛮人，以拥抱失控的魔法为代价，换取惊人的肉体力量。在他们体内燃烧的暗光，既能照亮黑暗，也能灼烧并致盲野蛮人的敌人。",
+				"踏上此路途的大多数野蛮人最初是在幽暗地域接触到暗光。深地伊玛斯卡将暗光授予那些率领军队对抗幽暗地域上层区域的选民武者，其中一些士兵已逃离并追寻自己的生活。但暗光的魔法具有传染性，并以不可预测的方式传播。它甚至会感染那些仅短暂接触过它的人，并偶尔显现在那些从未去过幽暗地域的个体身上。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Unlight Manifestation|Barbarian|XPHB|Unlight|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions"
+					"subclassFeature": "暗光显化|野蛮人|XPHB|无光|XUA2026幽暗地域选项|3|XUA2026幽暗地域选项"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Radiant Rage|Barbarian|XPHB|Unlight|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions"
+					"subclassFeature": "光耀狂暴|野蛮人|XPHB|无光|XUA2026幽暗地域选项|3|XUA2026幽暗地域选项"
 				}
 			]
 		},
 		{
-			"name": "Radiant Rage",
+			"ENG_name": "Radiant Rage",
+			"name": "光耀狂暴",
 			"source": "XUA2026UnderdarkOptions",
 			"page": 2,
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
-			"subclassShortName": "Unlight",
+			"subclassShortName": "无光",
 			"subclassSource": "XUA2026UnderdarkOptions",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"The Unlight coursing through you fuels your {@classFeature Rage|Barbarian|XPHB|1|XPHB}. If a creature hits you with a melee attack roll while your {@classFeature Rage|Barbarian|XPHB|1|XPHB} is active, the creature takes Radiant damage equal to your Rage Damage bonus.",
-				"Additionally, while your {@classFeature Rage|Barbarian|XPHB|1|XPHB} is active, you shed {@variantrule Bright Light|XPHB} in a 20-foot radius."
+				"在你体内奔涌的暗光为你提供能量。当你的{@classFeature 狂暴|野蛮人|XPHB|1|XPHB}处于激活状态时，如果一个生物用近战攻击掷骰命中了你，该生物将受到等同于你{@classFeature 狂暴|野蛮人|XPHB|1|XPHB}的光耀伤害。",
+				"此外，当你的{@classFeature 狂暴|野蛮人|XPHB|1|XPHB}处于激活状态时，你会在20尺半径内散发出{@variantrule 明亮光照|XPHB}。"
 			]
 		},
 		{
-			"name": "Unlight Manifestation",
+			"ENG_name": "Unlight Manifestation",
+			"name": "暗光显化",
 			"source": "XUA2026UnderdarkOptions",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
-			"subclassShortName": "Unlight",
+			"subclassShortName": "无光",
 			"subclassSource": "XUA2026UnderdarkOptions",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Barbarians on the Path of Unlight manifest the radiant energy of Unlight when they rage, but this energy can take many forms. You can roll on or choose a result from the {@table Unlight Manifestation|XUA2026UnderdarkOptions} table to inspire the form your {@subclassFeature Radiant Rage|Barbarian|XPHB|Unlight|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions} takes.",
+				"踏上无光之道的野蛮人在狂暴时会显化暗光的辉光能量，但这种能量可以呈现多种形态。你可以从{@table 暗光显化|XUA2026UnderdarkOptions}表格中掷骰或选择一个结果，来启发你的{@subclassFeature 辉光狂怒|野蛮人|XPHB|暗光|XUA2026幽暗地域选项|3|XUA2026幽暗地域选项}所呈现的形态。",
 				{
+					"ENG_name": "Unlight Manifestation",
+					"name": "暗光显化",
 					"type": "statblock",
 					"tag": "table",
-					"name": "Unlight Manifestation",
 					"source": "XUA2026UnderdarkOptions",
 					"page": 2
 				}
 			]
 		},
 		{
-			"name": "Unlight Revelation",
+			"ENG_name": "Unlight Revelation",
+			"name": "暗光天启",
 			"source": "XUA2026UnderdarkOptions",
 			"page": 2,
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
-			"subclassShortName": "Unlight",
+			"subclassShortName": "无光",
 			"subclassSource": "XUA2026UnderdarkOptions",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"You have {@variantrule proficiency|XPHB} in the {@skill Perception} skill, if you lack it. You also gain {@variantrule Expertise|XPHB} in that skill.",
-				"While your rage is active, you have {@sense Blindsight|XPHB} with a range equal to that of the {@variantrule Bright Light|XPHB} provided by your {@subclassFeature Radiant Rage|Barbarian|XPHB|Unlight|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions}."
+				"如果你尚未具备，则你在{@skill 察觉}技能上获得{@variantrule 熟练|XPHB}。你同时在该技能上获得{@variantrule 专精|XPHB}。",
+				"当你的狂暴激活时，你获得等同于你{@subclassFeature 辉光狂怒|野蛮人|XPHB|暗光|XUA2026幽暗地域选项|3|XUA2026幽暗地域选项}所提供的{@variantrule 明亮光照|XPHB}范围的{@sense 盲视|XPHB}。"
 			]
 		},
 		{
-			"name": "Harbinger of Unlight",
+			"ENG_name": "Harbinger of Unlight",
+			"name": "暗光先驱者",
 			"source": "XUA2026UnderdarkOptions",
 			"page": 2,
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
-			"subclassShortName": "Unlight",
+			"subclassShortName": "无光",
 			"subclassSource": "XUA2026UnderdarkOptions",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"You have {@variantrule Resistance|XPHB} to Radiant damage."
+				"你拥有对光耀伤害的{@variantrule 抗性|XPHB}。"
 			]
 		},
 		{
-			"name": "Infectious Unlight",
+			"ENG_name": "Infectious Unlight",
+			"name": "传染性暗光",
 			"source": "XUA2026UnderdarkOptions",
 			"page": 2,
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
-			"subclassShortName": "Unlight",
+			"subclassShortName": "无光",
 			"subclassSource": "XUA2026UnderdarkOptions",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Damage you deal with {@classFeature Brutal Strike|Barbarian|XPHB|9|XPHB} can be Radiant or the usual type (your choice). The following effect is now among your {@classFeature Brutal Strike|Barbarian|XPHB|9|XPHB} options.",
+				"你通过{@classFeature 凶蛮打击|野蛮人|XPHB|9|XPHB}造成的伤害可以是光耀伤害或通常的类型（由你选择）。以下效应现在是你{@classFeature 凶蛮打击|野蛮人|XPHB|9|XPHB}的选项之一。",
 				{
 					"type": "list",
 					"page": 2,
 					"style": "list-hang-subtrait",
 					"items": [
 						{
+							"ENG_name": "Radiant Infection",
+							"name": "光耀感染",
 							"type": "item",
-							"name": "Radiant Infection",
 							"entries": [
-								"The target becomes infected with Unlight for 1 minute. While infected, it sheds {@variantrule Bright Light|XPHB} in a 10-foot radius. Additionally, at the start of each of its turns, the target takes {@damage 1d6} Radiant damage. The target makes a Constitution saving throw ({@dc 8} plus your Strength modifier and {@table Proficiency Bonus|XPHB}) at the end of each of its turns, ending the effect on itself on a success."
+								"目标感染暗光，持续1分钟。感染期间，目标散发出半径10尺的{@variantrule 明亮光照|XPHB}。此外，在其每回合开始时，目标受到{@damage 1d6}光耀伤害。目标在其每回合结束时进行一次体质豁免检定（{@dc 8}加上你的力量调整值和{@table 熟练加值|XPHB}），豁免成功则自身终止此效应。"
 							]
 						}
 					]
@@ -287,112 +301,121 @@
 			]
 		},
 		{
-			"name": "Brilliant Rage",
+			"ENG_name": "Brilliant Rage",
+			"name": "辉煌狂暴",
 			"source": "XUA2026UnderdarkOptions",
 			"page": 2,
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
-			"subclassShortName": "Unlight",
+			"subclassShortName": "无光",
 			"subclassSource": "XUA2026UnderdarkOptions",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"The aura of your Unlight is bolstered. While your {@classFeature Rage|Barbarian|XPHB|1|XPHB} is active, you shed {@variantrule Bright Light|XPHB} in a 30-foot radius.",
-				"As a {@variantrule Bonus Action|XPHB}, you unleash blinding brilliance. When you do, each creature of your choice within 30 feet of you makes a Constitution saving throw ({@dc 8} plus your Strength modifier and {@table Proficiency Bonus|XPHB}). On a failed save, a creature takes {@damage 1d12} Radiant damage and has the {@condition Blinded|XPHB} condition until the end of your next turn. On a successful save, a creature takes half damage only.",
-				"Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB} unless you expend a use of your {@classFeature Rage|Barbarian|XPHB|1|XPHB} (no action required) to restore your use of it."
+				"你的暗光灵光得到增强。当你的{@classFeature 狂暴|野蛮人|XPHB|1|XPHB}处于激活状态时，你在30尺半径内散发出{@variantrule 明亮光照|XPHB}。",
+				"以一个{@variantrule 附赠动作|XPHB}，你释放出致盲辉耀。当你这么做时，你周围30尺内每个你选择的生物必须进行一次体质豁免检定（{@dc 8}加上你的力量调整值和{@table 熟练加值|XPHB}）。豁免失败时，该生物受到{@damage 1d12}光耀伤害并获得{@condition 目盲|XPHB}状态，直到你的下一个回合结束。豁免成功时，该生物仅受到一半伤害。",
+				"一旦你使用了此特性，直到你完成一次{@variantrule 长休|XPHB}前你都无法再次使用它，除非你消耗一次你的{@classFeature 狂暴|野蛮人|XPHB|1|XPHB}使用次数来复原此特性的使用次数（无需动作）。"
 			]
 		},
 		{
-			"name": "House Agent",
+			"ENG_name": "House Agent",
+			"name": "家族代理人",
 			"source": "XUA2026UnderdarkOptions",
 			"page": 2,
-			"className": "Rogue",
+			"className": "浪客",
 			"classSource": "XPHB",
-			"subclassShortName": "House Agent",
+			"subclassShortName": "家族代理人",
 			"subclassSource": "XUA2026UnderdarkOptions",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"The drow houses of Menzoberranzan conspire against each other in a great game of status and sabotage that expands far beyond the city's limits. When a house needs a specialized tool to further its interests without arousing suspicion, it calls in a house agent.",
-				"Using the tools and training of their sponsor, a house agent is a master infiltrator, capable of insinuating themself into their target's life and striking while their target's back is turned.",
+				"魔索布莱城的卓尔家族们在一场远超城市界限、关乎地位与破坏的宏大游戏中相互密谋。当一个家族需要一个专门的工具来推进其利益而又不引起怀疑时，它就会召来一位家族代理人。",
+				"利用其赞助者提供的工具和训练，家族代理人是一位渗透大师，能够悄然融入目标的生活，并在目标转身之际发动攻击。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Loyalty Test|Rogue|XPHB|House Agent|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions"
+					"subclassFeature": "忠诚测试|游荡者|XPHB|家族代理人|XUA2026幽暗地域选项|3|XUA2026幽暗地域选项"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "House Insignia|Rogue|XPHB|House Agent|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions"
+					"subclassFeature": "家族徽记|游荡者|XPHB|家族代理人|XUA2026幽暗地域选项|3|XUA2026幽暗地域选项"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Charming Presence|Rogue|XPHB|House Agent|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions"
+					"subclassFeature": "诱惑显现|游荡者|XPHB|家族代理人|XUA2026幽暗地域选项|3|XUA2026幽暗地域选项"
 				}
 			]
 		},
 		{
-			"name": "Charming Presence",
+			"ENG_name": "Charming Presence",
+			"name": "诱惑显现",
 			"source": "XUA2026UnderdarkOptions",
 			"page": 3,
-			"className": "Rogue",
+			"className": "浪客",
 			"classSource": "XPHB",
-			"subclassShortName": "House Agent",
+			"subclassShortName": "家族代理人",
 			"subclassSource": "XUA2026UnderdarkOptions",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"You can take the {@action Influence|XPHB} action as a {@variantrule Bonus Action|XPHB}. Additionally, choose one of the following skills: {@skill Deception|XPHB}, {@skill Intimidation|XPHB}, or {@skill Performance|XPHB}, or {@skill Persuasion|XPHB}. You have proficiency in that skill."
+				"你可以以一个{@variantrule 附赠动作|XPHB}执行{@action 影响|XPHB}动作。此外，从下列技能中选择一项：{@skill 欺瞒|XPHB}、{@skill 威吓|XPHB}、{@skill 表演|XPHB}或{@skill 游说|XPHB}。你获得该技能的熟练项。"
 			]
 		},
 		{
-			"name": "House Insignia",
+			"ENG_name": "House Insignia",
+			"name": "家族徽记",
 			"source": "XUA2026UnderdarkOptions",
 			"page": 3,
-			"className": "Rogue",
+			"className": "浪客",
 			"classSource": "XPHB",
-			"subclassShortName": "House Agent",
+			"subclassShortName": "家族代理人",
 			"subclassSource": "XUA2026UnderdarkOptions",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"You gain a magical token in the form of a brooch or coin that marks you as an agent of your sponsor and that bears their heraldry. While you have this insignia, you can cast certain spells with it. Charisma is your spellcasting ability for spells you cast with your insignia.",
+				"你获得一个魔法符记，形态为胸针或钱币，上面刻有赞助者的纹章，标志着你是其特工。当你拥有此徽记时，你可以用它来施放特定法术。魅力是你使用徽记施放法术的施法属性。",
 				{
 					"type": "list",
 					"page": 3,
 					"style": "list-hang-subtrait",
 					"items": [
 						{
+							"ENG_name": "Cantrips",
+							"name": "戏法",
 							"type": "item",
-							"name": "Cantrips",
 							"entries": [
-								"You learn the {@spell Friends|XPHB} cantrip."
+								"你习得{@spell 交友术|XPHB}戏法。"
 							]
 						},
 						{
+							"ENG_name": "Find Familiar",
+							"name": "寻获魔宠",
 							"type": "item",
-							"name": "Find Familiar",
 							"entries": [
-								"You can cast the {@spell Find Familiar|XPHB} spell but only as a {@variantrule Ritual|XPHB}. Your sponsor provides the Material component for your first casting of this spell. You must choose the {@creature Spider|XMM} form for your familiar."
+								"你可以施放{@spell 寻获魔宠|XPHB}法术，但只能以{@variantrule 仪式|XPHB}仪式的方式施放。你的赞助者会为你首次施放此法术提供材料成分。你必须为你的魔宠选择{@creature 蜘蛛|XMM}蜘蛛形态。"
 							]
 						},
 						{
+							"ENG_name": "Insignia Spells",
+							"name": "徽记法术",
 							"type": "item",
-							"name": "Insignia Spells",
 							"entries": [
-								"When you reach a level specified in the {@table Insignia Spells|XUA2026UnderdarkOptions} table, you learn the listed spells. Once you cast a spell using your insignia, you can't cast that spell again until you finish a {@variantrule Long Rest|XPHB}.",
+								"当你达到{@table 徽记法术|XUA2026UnderdarkOptions}表格中指定的等级时，你将习得所列出的法术。一旦你使用你的徽记施放了一个法术，直到你完成一次{@variantrule 长休|XPHB}前，你都无法再次施放该法术。",
 								{
+									"ENG_name": "Insignia Spells",
+									"name": "徽记法术",
 									"type": "statblock",
 									"tag": "table",
-									"name": "Insignia Spells",
 									"source": "XUA2026UnderdarkOptions",
 									"page": 3
 								}
 							]
 						},
 						{
+							"ENG_name": "Losing Your Insignia",
+							"name": "失去你的徽记",
 							"type": "item",
-							"name": "Losing Your Insignia",
 							"entries": [
-								"If you lose your insignia, your house finds a way to deliver you a new one, whether it is via a courier, a magical familiar, teleportation magic, or some other method. Your new insignia is delivered to you when you finish a {@variantrule Long Rest|XPHB}."
+								"如果你丢失了你的徽记，你的家族会设法为你送来一枚新的，无论是通过信使、魔法魔宠、传送魔法还是其他方式。当你完成一次{@variantrule 长休|XPHB}时，你的新徽记会送达给你。"
 							]
 						}
 					]
@@ -400,56 +423,61 @@
 			]
 		},
 		{
-			"name": "Loyalty Test",
+			"ENG_name": "Loyalty Test",
+			"name": "忠诚测试",
 			"source": "XUA2026UnderdarkOptions",
 			"page": 2,
-			"className": "Rogue",
+			"className": "浪客",
 			"classSource": "XPHB",
-			"subclassShortName": "House Agent",
+			"subclassShortName": "家族代理人",
 			"subclassSource": "XUA2026UnderdarkOptions",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Each house agent is required to prove their loyalty before their sponsor allows them into the inner circles of the organization. You can roll on or choose a result from the {@table House Agent Origins|XUA2026UnderdarkOptions} table to inspire the incident that made you a full-fledged member of your house.",
+				"每位家族代理人都必须在他们的赞助人允许其进入组织的核心圈子前，证明自己的忠诚。你可以从{@table 家族代理人起源|XUA2026UnderdarkOptions}表格中掷骰或选择一个结果，来激发那件使你成为家族正式成员的事件。",
 				{
+					"ENG_name": "House Agent Origins",
+					"name": "家族代理人起源",
 					"type": "statblock",
 					"tag": "table",
-					"name": "House Agent Origins",
 					"source": "XUA2026UnderdarkOptions",
 					"page": 2
 				},
 				{
+					"ENG_name": "Using Other Sponsors",
+					"name": "使用其他赞助者",
 					"type": "inset",
-					"name": "Using Other Sponsors",
 					"page": 2,
 					"entries": [
-						"Though this Rogue is designed to work with the backing of a drow house of Menzoberranzan, a House Agent might instead have the backing of another large group. They could belong to a duergar clan, a religious order, or a faction such as Bregan D'Aerthe or the Zhentarim. Or your Rogue could have had multiple sponsors\u2014perhaps they first worked for a drow house, then defected to serve another cause."
+						"尽管这个游荡者被设计为在魔索布莱城某个卓尔家族的支持下工作，但家族代理人也可能得到另一个大型组织的支持。他们可能属于一个灰矮人氏族、一个教团，或是一个诸如布雷根·达尔特或散塔林会这样的派系。或者，你的游荡者可能曾有过多个赞助者\u2014\u2014也许他们最初为一个卓尔家族工作，后来叛逃去为另一个事业服务。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Backstab",
+			"ENG_name": "Backstab",
+			"name": "背刺",
 			"source": "XUA2026UnderdarkOptions",
 			"page": 3,
-			"className": "Rogue",
+			"className": "浪客",
 			"classSource": "XPHB",
-			"subclassShortName": "House Agent",
+			"subclassShortName": "家族代理人",
 			"subclassSource": "XUA2026UnderdarkOptions",
 			"level": 9,
 			"header": 2,
 			"entries": [
-				"You have {@variantrule Advantage|XPHB} on attack rolls against creatures within 5 feet of you that are {@variantrule Friendly [Attitude]|XPHB|Friendly} to you or have the {@condition Charmed|XPHB} Condition. You also gain the following {@classFeature Cunning Strike|Rogue|XPHB|5|XPHB} option.",
+				"你对距离你5尺内对你态度为{@variantrule 友好【态度】|XPHB|友好}或处于{@condition 魅惑|XPHB}状态的生物进行攻击检定时具有{@variantrule 优势|XPHB}。你还获得以下{@classFeature 诡诈打击|游荡者|XPHB|5|XPHB}选项。",
 				{
 					"type": "list",
 					"page": 3,
 					"style": "list-hang-subtrait",
 					"items": [
 						{
+							"ENG_name": "Stunning Betrayal (Cost: {@dice 4d6})",
+							"name": "震慑背叛（花费：{@dice 4d6}）",
 							"type": "item",
-							"name": "Stunning Betrayal (Cost: {@dice 4d6})",
 							"entries": [
-								"If your target was {@variantrule Friendly [Attitude]|XPHB|Friendly} to you or had the {@condition Charmed|XPHB} condition when you hit it, the target has the {@condition Stunned} condition until the start of your next turn."
+								"如果你的目标在你命中它时对你态度为{@variantrule 友好【态度】|XPHB|友好}或处于{@condition 魅惑|XPHB}状态，则该目标获得{@condition 震慑}状态，直到你的下一个回合开始。"
 							]
 						}
 					]
@@ -457,198 +485,213 @@
 			]
 		},
 		{
-			"name": "Infiltration Partner",
+			"ENG_name": "Infiltration Partner",
+			"name": "渗透伙伴",
 			"source": "XUA2026UnderdarkOptions",
 			"page": 3,
-			"className": "Rogue",
+			"className": "浪客",
 			"classSource": "XPHB",
-			"subclassShortName": "House Agent",
+			"subclassShortName": "家族代理人",
 			"subclassSource": "XUA2026UnderdarkOptions",
 			"level": 13,
 			"header": 2,
 			"entries": [
-				"The familiar you have through the {@spell Find Familiar|XPHB} spell gains {@sense Darkvision|XPHB} with a range of 120 feet and {@sense Truesight|XPHB} with a range of 30 feet.",
-				"Additionally, when you cast the {@spell Find Familiar|XPHB} spell or finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB} while you have a familiar, you can grant your familiar {@variantrule Temporary Hit Points|XPHB} equal to your {@class Rogue|XPHB} level."
+				"你通过{@spell 寻获魔宠|XPHB}法术获得的魔宠获得范围为120尺的{@sense 黑暗视觉|XPHB}和范围为30尺的{@sense 真实视觉|XPHB}。",
+				"此外，当你施放{@spell 寻获魔宠|XPHB}法术，或在你拥有魔宠时完成一次{@variantrule 短休|XPHB|短}或{@variantrule 长休|XPHB}后，你可以授予你的魔宠{@variantrule 临时生命值|XPHB}，其数值等于你的{@class 游荡者|XPHB}等级。"
 			]
 		},
 		{
-			"name": "Silver Tongue",
+			"ENG_name": "Silver Tongue",
+			"name": "巧舌如簧",
 			"source": "XUA2026UnderdarkOptions",
 			"page": 3,
-			"className": "Rogue",
+			"className": "浪客",
 			"classSource": "XPHB",
-			"subclassShortName": "House Agent",
+			"subclassShortName": "家族代理人",
 			"subclassSource": "XUA2026UnderdarkOptions",
 			"level": 13,
 			"header": 2,
 			"entries": [
-				"A creature's {@variantrule Hostile [Attitude]|XPHB|Hostile} attitude doesn't impose {@variantrule Disadvantage|XPHB} on your Charisma checks to influence that creature."
+				"一个生物的{@variantrule 敌对【态度】|XPHB|敌对}态度不会使你在影响该生物的魅力检定上承受{@variantrule 劣势|XPHB}。"
 			]
 		},
 		{
-			"name": "Subtle Manipulator",
+			"ENG_name": "Subtle Manipulator",
+			"name": "精妙操纵者",
 			"source": "XUA2026UnderdarkOptions",
 			"page": 3,
-			"className": "Rogue",
+			"className": "浪客",
 			"classSource": "XPHB",
-			"subclassShortName": "House Agent",
+			"subclassShortName": "家族代理人",
 			"subclassSource": "XUA2026UnderdarkOptions",
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"You gain the following {@classFeature Cunning Strike|Rogue|XPHB|5|XPHB} option.",
+				"你获得以下{@classFeature 诡诈打击|游荡者|XPHB|5|XPHB}选项。",
 				{
 					"type": "list",
 					"page": 3,
 					"style": "list-hang-subtrait",
 					"items": [
 						{
+							"ENG_name": "Confound ({@dice 5d6})",
+							"name": "困扰（{@dice 5d6}）",
 							"type": "item",
-							"name": "Confound ({@dice 5d6})",
 							"entries": [
-								"The target must succeed on a Wisdom saving throw with a DC equal to your spellcasting DC or have the {@condition Charmed|XPHB} condition for 1 minute. The target can repeat the save when it takes any damage, ending the effect on itself on a success"
+								"目标必须成功通过一次DC等同于你法术豁免DC的感知豁免检定，否则陷入{@condition 魅惑|XPHB}状态，持续1分钟。目标在受到任意伤害时可以重复进行豁免检定，成功则终止其自身所受的该效应。"
 							]
 						}
 					]
 				},
-				"Additionally, you can cast the {@spell Friends|XPHB} spell as a {@variantrule Bonus Action|XPHB}. The target no longer automatically succeeds on the saving throw if it isn't a Humanoid or if you're fighting it.",
-				"Finally, when a spell you cast that gives a target the {@condition Charmed|XPHB} condition ends, the target doesn't know it was {@condition Charmed|XPHB} by you."
+				"此外，你可以以一个{@variantrule 附赠动作|XPHB}施放{@spell 交友术|XPHB}法术。如果目标不是类人生物，或者你正在与其战斗，则目标不再自动通过豁免检定。",
+				"最后，当你施放一个给予目标{@condition 魅惑|XPHB}状态的法术结束时，目标不会知道它曾被你所{@condition 魅惑|XPHB}。"
 			]
 		},
 		{
-			"name": "Imaskarcanist",
+			"ENG_name": "Imaskarcanist",
+			"name": "伊马斯卡术士",
 			"source": "XUA2026UnderdarkOptions",
 			"page": 3,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Imaskarcanist",
+			"subclassShortName": "伊马斯卡术士",
 			"subclassSource": "XUA2026UnderdarkOptions",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Imaskarcanists have learned the ancient secrets of Deep Imaskar, a once-human society living in the deepest depths of the Underdark. Through these eldritch arts\u2014taught to the Deep Imaskari by sentient artifacts called the {@i Imaskarcana}\u2014they have mastered the power of Unlight, a brilliant, destructive, and infectious energy that can be used to both heal and destroy. With this power, the Deep Imaskari have launched a war of conquest to bring light to every corner of the Underdark. Each Imaskarcanist must decide for themself whether to aid the conquering army or use their power against it and preserve the comforting darkness of the world below.",
+				"伊马斯卡术士们习得了深地伊玛斯卡的远古秘密，这是一个曾为人类、如今居住在幽暗地域最深处的社会。通过这些诡秘技艺\u2014\u2014由名为{@i 伊马斯卡卡纳}的有意识神器传授给深地伊玛斯卡人\u2014\u2014他们掌握了暗光的力量，这是一种辉煌、毁灭性且具有传染性的能量，既能用于医疗也能用于毁灭。凭借这种力量，深地伊玛斯卡人发动了一场征服战争，旨在将光明带到幽暗地域的每一个角落。每一位伊马斯卡术士都必须自行决定，是援助征服大军，还是运用自身的力量对抗它，以保全下方世界那令人慰藉的黑暗。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Learning the Secrets of Unlight|Wizard|XPHB|Imaskarcanist|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions"
+					"subclassFeature": "学习暗光秘密|法师|XPHB|伊马斯卡术士|XUA2026幽暗地域选项|3|XUA2026幽暗地域选项"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Unlight Adept|Wizard|XPHB|Imaskarcanist|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions"
+					"subclassFeature": "暗光大师|法师|XPHB|伊马斯卡术士|XUA2026幽暗地域选项|3|XUA2026幽暗地域选项"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Unlight Invigoration|Wizard|XPHB|Imaskarcanist|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions"
+					"subclassFeature": "暗光激励|法师|XPHB|伊马斯卡术士|XUA2026幽暗地域选项|3|XUA2026幽暗地域选项"
 				}
 			]
 		},
 		{
-			"name": "Learning the Secrets of Unlight",
+			"ENG_name": "Learning the Secrets of Unlight",
+			"name": "学习暗光秘密",
 			"source": "XUA2026UnderdarkOptions",
 			"page": 3,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Imaskarcanist",
+			"subclassShortName": "伊马斯卡术士",
 			"subclassSource": "XUA2026UnderdarkOptions",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Unlight is a rare form of magic known to very few. You can roll on or choose a result from the {@table Secrets of Unlight|XUA2026UnderdarkOptions} table to inspire how your character learned about this secret magic.",
+				"暗光是一种鲜为人知的珍稀魔法形态。你可以从{@table 暗光秘闻|XUA2026UnderdarkOptions}表格中掷骰或选择一个结果，来启发你的角色是如何了解到这种秘密魔法的。",
 				{
+					"ENG_name": "Secrets of Unlight",
+					"name": "暗光秘密",
 					"type": "statblock",
 					"tag": "table",
-					"name": "Secrets of Unlight",
 					"source": "XUA2026UnderdarkOptions",
 					"page": 4
 				}
 			]
 		},
 		{
-			"name": "Unlight Adept",
+			"ENG_name": "Unlight Adept",
+			"name": "暗光大师",
 			"source": "XUA2026UnderdarkOptions",
 			"page": 4,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Imaskarcanist",
+			"subclassShortName": "伊马斯卡术士",
 			"subclassSource": "XUA2026UnderdarkOptions",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"You know how to weave Unlight into your damaging spells. When you cast a spell that deals Acid, Cold, Fire, Lightning, or Thunder damage, you can change that damage type to Radiant.",
-				"In addition, {@variantrule Dim Light|XPHB} created by spells you cast is {@variantrule Bright Light|XPHB} instead."
+				"你知晓如何将暗光编织进你的伤害性法术中。当你施放一个造成强酸、寒冷、火焰、闪电或雷鸣伤害的法术时，你可以将该伤害类型改为光耀。",
+				"此外，由你施放的法术创造的{@variantrule 微光光照|XPHB}变为{@variantrule 明亮光照|XPHB}。"
 			]
 		},
 		{
-			"name": "Unlight Invigoration",
+			"ENG_name": "Unlight Invigoration",
+			"name": "暗光激励",
 			"source": "XUA2026UnderdarkOptions",
 			"page": 4,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Imaskarcanist",
+			"subclassShortName": "伊马斯卡术士",
 			"subclassSource": "XUA2026UnderdarkOptions",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"You can imbue creatures with Unlight drawn from your own energy, making them stronger and fiercer. As a {@variantrule Bonus action|XPHB}, choose a willing creature you can see within 30 feet of you and roll one or two of your {@variantrule Hit Point Dice|XPHB}. Those dice are then expended. The target gains {@variantrule Temporary Hit Points|XPHB} equal to the total rolled plus your Intelligence modifier, and until the target has no {@variantrule Temporary Hit Points|XPHB}, it has {@variantrule Advantage|XPHB} on Strength checks and sheds {@variantrule Bright Light|XPHB} in a 10-foot radius."
+				"你可以从自身能量中汲取暗光灌注给生物，使它们变得更强壮、更凶猛。以一个{@variantrule 附赠动作|XPHB}，选择一个你30尺内能够看见且愿意的生物，并掷一个或两个你的{@variantrule 生命值骰|XPHB}。这些骰子随后被消耗。目标获得等于掷骰总数加上你的智力调整值的{@variantrule 临时生命值|XPHB}，并且直到目标不再拥有{@variantrule 临时生命值|XPHB}为止，它在力量检定上具有{@variantrule 优势|XPHB}，并在10尺半径内散发出{@variantrule 明亮光照|XPHB}。"
 			]
 		},
 		{
-			"name": "Unlight Restoration",
+			"ENG_name": "Unlight Restoration",
+			"name": "暗光复原",
 			"source": "XUA2026UnderdarkOptions",
 			"page": 4,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Imaskarcanist",
+			"subclassShortName": "伊马斯卡术士",
 			"subclassSource": "XUA2026UnderdarkOptions",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"You can wield the restorative effects of Unlight to heal injuries and remove harmful effects. As a {@variantrule Bonus action|XPHB}, choose a creature you can see within 30 feet of you and roll one or two of your {@variantrule Hit Point Dice|XPHB}. Those dice are then expended. The target regains {@variantrule Hit Points|XPHB} equal to the total rolled and sheds {@variantrule Bright Light|XPHB} in a 10-foot radius until the end of its next turn.",
-				"If you expended two {@variantrule Hit Point Dice|XPHB}, you can choose to end one of the following conditions on the target: {@condition Blinded|XPHB}, {@condition Deafened|XPHB}, {@condition Paralyzed|XPHB}, or {@condition Poisoned|XPHB}. If you do, the target does not regain {@variantrule Hit Points|XPHB}."
+				"你可以驾驭暗光的复原效应来治疗伤患并移除有害效应。以一个{@variantrule 附赠动作|XPHB}，选择一个你30尺内能够看见的生物，并掷出你的一枚或两枚{@variantrule 生命值骰|XPHB}。这些骰子随后被消耗。目标恢复等同于掷骰总和的{@variantrule 生命值|XPHB}，并在其10尺半径内散发出{@variantrule 明亮光照|XPHB}，持续到其下一回合结束。",
+				"如果你消耗了两个{@variantrule 生命值骰|XPHB}，你可以选择结束目标身上的以下一种状态：{@condition 目盲|XPHB}、{@condition 耳聋|XPHB}、{@condition 麻痹|XPHB}或{@condition 中毒|XPHB}。如果你这样做，目标将不会恢复{@variantrule 生命值|XPHB}。"
 			]
 		},
 		{
-			"name": "Secrets of Deep Imaskar",
+			"ENG_name": "Secrets of Deep Imaskar",
+			"name": "深地伊马斯卡之秘",
 			"source": "XUA2026UnderdarkOptions",
 			"page": 4,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Imaskarcanist",
+			"subclassShortName": "伊马斯卡术士",
 			"subclassSource": "XUA2026UnderdarkOptions",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Your research into the secrets of the Imaskarcana grants you the following benefits.",
+				"你对伊马斯卡卡纳秘密的研究为你带来以下增益。",
 				{
 					"type": "list",
 					"page": 4,
 					"style": "list-hang-subtrait",
 					"items": [
 						{
+							"ENG_name": "Imaskarcana Lore",
+							"name": "伊马斯卡卡纳逸闻",
 							"type": "item",
-							"name": "Imaskarcana Lore",
 							"entries": [
-								"You can attune yourself to a magic item as a {@action Magic|XPHB} action. Once you use this feature, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+								"你可以以一个{@action 魔法|XPHB}动作同调一件魔法物品。一旦你使用了此特性，直到完成一次{@variantrule 长休|XPHB}前你无法再次使用。"
 							]
 						},
 						{
+							"ENG_name": "Piercing Unlight",
+							"name": "穿刺暗光",
 							"type": "item",
-							"name": "Piercing Unlight",
 							"entries": [
-								"Your spells ignore {@variantrule Resistance|XPHB} to Radiant damage."
+								"你的法术忽略对光耀伤害的{@variantrule 抗性|XPHB}。"
 							]
 						},
 						{
+							"ENG_name": "Unlight Resilience",
+							"name": "暗光韧性",
 							"type": "item",
-							"name": "Unlight Resilience",
 							"entries": [
-								"You gain {@variantrule Resistance|XPHB} to Radiant damage."
+								"你获得对光耀伤害的{@variantrule 抗性|XPHB}。"
 							]
 						},
 						{
+							"ENG_name": "Imaskar Seals",
+							"name": "伊马斯卡缄印",
 							"type": "item",
-							"name": "Imaskar Seals",
 							"entries": [
-								"You always have the {@spell Glyph of Warding|XPHB} spell prepared and can cast it once without a spell slot. When you cast the spell in this way, you don't need Material components, you cast the spell as if using a spell slot equal to the highest Wizard spell slot you have. Any previous glyph you created in this way is broken, and its spell ends without being triggered. You regain the ability to cast {@spell Glyph of Warding|XPHB} in this way when you finish a {@variantrule Long Rest|XPHB}."
+								"你总是准备着{@spell 守卫刻文|XPHB}法术，并且可以不消耗法术位施放它一次。当你以此方式施放该法术时，你不需要材料成分，并且你施放该法术时视为使用了一个等同于你拥有的最高环阶法师法术位的法术位。你之前以此方式创造的任何刻文都会破碎，其法术效果在未被触发的情况下结束。当你完成一次{@variantrule 长休|XPHB}后，你重新获得以此方式施放{@spell 守卫刻文|XPHB}的能力。"
 							]
 						}
 					]
@@ -656,41 +699,43 @@
 			]
 		},
 		{
-			"name": "Doom Of Unlight",
+			"ENG_name": "Doom Of Unlight",
+			"name": "末日暗光",
 			"source": "XUA2026UnderdarkOptions",
 			"page": 4,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Imaskarcanist",
+			"subclassShortName": "伊马斯卡术士",
 			"subclassSource": "XUA2026UnderdarkOptions",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"You can curse your enemies with corrosive Unlight, and the only escape from the curse is physical violence or an explosive death.",
-				"When a creature takes Radiant damage from a spell you cast, you can take a {@variantrule Reaction|XPHB} to curse that creature with Unlight. The creature makes a Constitution save against {@dcYourSpellSave}. On a failure, the creature is cursed. Until the curse ends, the target suffers the following effects:",
+				"你可以用腐蚀性的暗光诅咒你的敌人，而逃脱诅咒的唯一方法是物理暴力或爆炸性的死亡。",
+				"当一个生物因你施放的法术受到光耀伤害时，你可以采取一个{@variantrule 反应|XPHB}来用暗光诅咒该生物。该生物需进行一次对抗{@dcYourSpellSave}的体质豁免。若失败，该生物被诅咒。直到诅咒结束，目标遭受以下效应：",
 				{
 					"type": "list",
 					"page": 4,
 					"items": [
-						"The target emits {@variantrule Bright Light|XPHB} in a 20-foot radius.",
-						"Attack rolls against the target have {@variantrule Advantage|XPHB}.",
-						"At the start of each of the target's turns, it takes Radiant damage equal to your character level.",
-						"The target has {@variantrule Advantage|XPHB} on Strength checks and melee attack rolls.",
-						"If the target hits another creature with a melee attack roll, the target can repeat the Constitution save, ending this curse on a success.",
-						"If the target is reduced to 0 {@variantrule Hit Points|XPHB}, it explodes. Roll a number of {@dice d8|d8s} equal to half your character level. Creatures in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} centered on the target take Radiant damage equal to the total rolled."
+						"目标在20尺半径内发出{@variantrule 明亮光照|XPHB}。",
+						"对该目标的攻击检定具有{@variantrule 优势|XPHB}。",
+						"在目标的每个回合开始时，它受到等同于你角色等级的光耀伤害。",
+						"目标在力量检定和近战攻击骰上具有{@variantrule 优势|XPHB}。",
+						"如果目标以一次近战攻击掷骰命中另一个生物，目标可以重复进行体质豁免，成功则结束此诅咒。",
+						"如果目标的生命值被降低至0点，它会爆炸。掷出等同于你角色等级一半数量的{@dice d8|d8s}。以目标为中心10尺范围内的{@variantrule 光环 [效应区域]|XPHB|光环}内的生物受到等同于掷骰总和的{@variantrule 生命值|XPHB}。"
 					]
 				},
-				"Once you have attempted to curse a creature using this feature, you can't do so again until you finish a {@variantrule Long Rest|XPHB} or until you expend a level 6+ spell slot (no action required)."
+				"一旦你尝试使用此特性诅咒一个生物，直到你完成一次{@variantrule 长休|XPHB}或消耗一个六环或更高环位的法术位（无需动作）之前，你无法再次这样做。"
 			]
 		}
 	],
 	"foundrySubclassFeature": [
 		{
-			"name": "Unlight Revelation",
+			"ENG_name": "Unlight Revelation",
+			"name": "暗光天启",
 			"source": "XUA2026UnderdarkOptions",
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
-			"subclassShortName": "Unlight",
+			"subclassShortName": "无光",
 			"subclassSource": "XUA2026UnderdarkOptions",
 			"level": 6,
 			"entryData": {
@@ -702,11 +747,12 @@
 			}
 		},
 		{
-			"name": "Harbinger of Unlight",
+			"ENG_name": "Harbinger of Unlight",
+			"name": "暗光先驱者",
 			"source": "XUA2026UnderdarkOptions",
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
-			"subclassShortName": "Unlight",
+			"subclassShortName": "无光",
 			"subclassSource": "XUA2026UnderdarkOptions",
 			"level": 10,
 			"entryData": {
@@ -716,11 +762,12 @@
 			}
 		},
 		{
-			"name": "Charming Presence",
+			"ENG_name": "Charming Presence",
+			"name": "诱惑显现",
 			"source": "XUA2026UnderdarkOptions",
-			"className": "Rogue",
+			"className": "浪客",
 			"classSource": "XPHB",
-			"subclassShortName": "House Agent",
+			"subclassShortName": "家族代理人",
 			"subclassSource": "XUA2026UnderdarkOptions",
 			"level": 3,
 			"entryData": {
@@ -740,11 +787,12 @@
 			}
 		},
 		{
-			"name": "Secrets of Deep Imaskar",
+			"ENG_name": "Secrets of Deep Imaskar",
+			"name": "深地伊马斯卡之秘",
 			"source": "XUA2026UnderdarkOptions",
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Imaskarcanist",
+			"subclassShortName": "伊马斯卡术士",
 			"subclassSource": "XUA2026UnderdarkOptions",
 			"level": 10,
 			"entryData": {
@@ -756,16 +804,17 @@
 	],
 	"feat": [
 		{
-			"name": "Full Ceremorphosis",
+			"ENG_name": "Full Ceremorphosis",
+			"name": "完全蜕变",
 			"source": "XUA2026UnderdarkOptions",
 			"page": 6,
-			"category": "Path of Ceremorphosis",
+			"category": "蜕变路途",
 			"prerequisite": [
 				{
 					"level": 12,
 					"featCategory": [
 						{
-							"category": "Path of Ceremorphosis",
+							"category": "蜕变路途",
 							"count": 2
 						}
 					]
@@ -783,63 +832,68 @@
 						"_": {
 							"resource": {
 								"1": [
-									"detect thoughts|XPHB",
-									"levitate|XPHB",
-									"mind blast|XUA2026UnderdarkOptions"
+									"侦测思想|XPHB",
+									"浮空术|XPHB",
+									"心灵震爆|XUA2026幽暗地域选项"
 								]
 							}
 						}
 					},
 					"ability": "int",
-					"resourceName": "Psionic Energy Die"
+					"resourceName": "灵能骰"
 				},
 				{
 					"ability": "int"
 				}
 			],
 			"entries": [
-				"You grow four tentacles around your mouth, your head elongates, and your skin becomes purple and slick with mucus. Your transformation into a mind flayer is complete. You gain the following benefits.",
+				"你的嘴周围长出四根触须，头部变长，皮肤变成紫色并覆盖着粘液。你已完全变形为夺心魔。你获得以下增益。",
 				{
 					"type": "list",
 					"page": 6,
 					"style": "list-hang",
 					"items": [
 						{
+							"ENG_name": "Psionic Energy Dice",
+							"name": "灵能骰",
 							"type": "item",
-							"name": "Psionic Energy Dice",
 							"entries": [
-								"The Psionic Energy Dice granted to you by this feat path become d10s. If they are already d10s, they instead become d12s."
+								"这个专长路途授予你的灵能骰变为d10。如果它们已经是d10，则改为变为d12。"
 							]
 						},
 						{
+							"ENG_name": "Aberration",
+							"name": "异怪",
 							"type": "item",
-							"name": "Aberration",
 							"entries": [
-								"Your creature type is Aberration."
+								"你的生物类型是异怪。"
 							]
 						},
 						{
+							"ENG_name": "Illithid Specialization",
+							"name": "灵吸怪专精",
 							"type": "item",
-							"name": "Illithid Specialization",
 							"entries": [
-								"You excel at a particular illithid talent. Choose one of the following benefits:",
+								"你擅长一项特定的灵吸怪天赋。选择以下一项增益：",
 								{
 									"type": "list",
 									"page": 6,
 									"style": "list-hang",
 									"items": [
 										{
+											"ENG_name": "Brain-Seeking Tentacles",
+											"name": "寻脑触须",
 											"type": "item",
-											"name": "Brain-Seeking Tentacles",
 											"entries": [
-												"When you hit a creature with an {@variantrule Unarmed Strike|XPHB} as part of the {@action Attack|XPHB} action on your turn, you can use both the Damage and the Grapple option. You can expend a Psionic Energy Die when you use this benefit to roll the expended die. The target takes extra Psychic damage equal to the number rolled plus your Intelligence modifier, and it subtracts half the number rolled (round up) from its saving throw to avoid gaining the {@condition Grappled|XPHB} condition. If the target is reduced to 0 {@variantrule Hit Points|XPHB} as a result of this benefit, the Psionic Energy Die isn't expended. You can use this benefit only once per turn."
+												"当你在你的回合中作为{@action 攻击|XPHB}动作的一部分，用{@variantrule 徒手打击|XPHB}命中一个生物时，你可以同时使用伤害和擒抱选项。当你使用此增益时，可以消耗一个灵能骰，并掷出消耗的骰子。目标受到额外的心灵伤害，数值等于掷骰结果加上你的智力调整值，并且它在避免获得{@condition 受擒|XPHB}状态的豁免检定中减去掷骰结果的一半（向上取整）。如果目标因此增益而{@variantrule 生命值|XPHB}降至0，则灵能骰不会被消耗。你每回合只能使用此增益一次。"
 											]
 										},
 										{
+											"ENG_name": "Mind Flayer Spells",
+											"name": "夺心魔法术",
 											"type": "item",
-											"name": "Mind Flayer Spells",
 											"entries": [
-												"You always have the {@spell Detect Thoughts|XPHB}, {@spell Levitate|XPHB}, and {@spell Mind Blast|XUA2026UnderdarkOptions} spells prepared. Intelligence is your spellcasting ability for these spells. You can cast these spells without expending a spell slot by expending a Psionic Energy Die. You can also cast these spells using any spell slots you have of an appropriate level."
+												"你总是准备着{@spell 侦测思想|XPHB}、{@spell 浮空术|XPHB}和{@spell 心灵震爆|XUA2026幽暗地域选项}法术。智力是你施放这些法术的施法属性。你可以通过消耗一个灵能骰来施放这些法术，而无需消耗法术位。你也可以使用你拥有的任意合适等级的法术位来施放这些法术。"
 											]
 										}
 									]
@@ -847,10 +901,11 @@
 							]
 						},
 						{
+							"ENG_name": "Repeatable",
+							"name": "复选",
 							"type": "item",
-							"name": "Repeatable",
 							"entries": [
-								"You can take this feat more than once, but you must choose a different option for Illithid Specialization each time."
+								"你可以多次选择此专长，但每次都必须为灵吸怪专精选择一个不同的选项。"
 							]
 						}
 					]
@@ -858,14 +913,15 @@
 			]
 		},
 		{
-			"name": "Illithid Thrallmaker",
+			"ENG_name": "Illithid Thrallmaker",
+			"name": "夺心魔奴役者",
 			"source": "XUA2026UnderdarkOptions",
 			"page": 6,
-			"category": "Path of Ceremorphosis",
+			"category": "蜕变路途",
 			"prerequisite": [
 				{
 					"feat": [
-						"tadpole host|XUA2026UnderdarkOptions"
+						"蝌蚪宿主|XUA2026幽暗地域选项"
 					]
 				}
 			],
@@ -885,41 +941,44 @@
 						"_": {
 							"resource": {
 								"1": [
-									"charm person|XPHB"
+									"魅惑类人|XPHB"
 								]
 							}
 						}
 					},
 					"ability": "int",
-					"resourceName": "Psionic Energy Die"
+					"resourceName": "灵能骰"
 				}
 			],
 			"entries": [
-				"You have honed your psionic ability to become a master manipulator. You gain the following benefits.",
+				"你已磨练自己的心灵能力，成为了一名操纵大师。你获得以下增益。",
 				{
 					"type": "list",
 					"page": 6,
 					"style": "list-hang",
 					"items": [
 						{
+							"ENG_name": "Psionic Energy Dice",
+							"name": "灵能骰",
 							"type": "item",
-							"name": "Psionic Energy Dice",
 							"entries": [
-								"The Psionic Energy Dice granted to you by this feat path become d8s."
+								"此专长路途授予你的灵能骰变为d8。"
 							]
 						},
 						{
+							"ENG_name": "Telepathy",
+							"name": "心灵感应",
 							"type": "item",
-							"name": "Telepathy",
 							"entries": [
-								"You have {@variantrule Telepathy|XPHB} with a range of 10 feet. If you already have {@variantrule Telepathy|XPHB}, your range increases by 10 feet."
+								"你拥有范围为10尺的{@variantrule 心灵感应|XPHB}。如果你已经拥有{@variantrule 心灵感应|XPHB}，则其范围增加10尺。"
 							]
 						},
 						{
+							"ENG_name": "Persuasive Presence",
+							"name": "说服力场",
 							"type": "item",
-							"name": "Persuasive Presence",
 							"entries": [
-								"You always have the {@spell Charm Person|XPHB} spell prepared. Intelligence is your spellcasting ability for this spell. You can cast it without expending a spell slot by expending a Psionic Energy Die. You can also cast the spell using any spell slots you have. When you expend a Psionic Energy Die to cast the spell, roll the expended die. One target of the spell subtracts half the number rolled (round up) from its saving throw against the spell."
+								"你总是准备着{@spell 魅惑类人|XPHB}法术。智力是你施放此法术的施法属性。你可以通过消耗一个灵能骰来施放它，而无需消耗法术位。你也可以使用你拥有的任意法术位来施放该法术。当你消耗一个灵能骰来施放此法术时，掷出所消耗的骰子。该法术的一个目标在其对抗此法术的豁免检定中减去掷出数值的一半（向上取整）。"
 							]
 						}
 					]
@@ -927,10 +986,11 @@
 			]
 		},
 		{
-			"name": "Tadpole Host",
+			"ENG_name": "Tadpole Host",
+			"name": "蝌蚪宿主",
 			"source": "XUA2026UnderdarkOptions",
 			"page": 5,
-			"category": "Path of Ceremorphosis",
+			"category": "蜕变路途",
 			"prerequisite": [
 				{
 					"level": 4
@@ -946,40 +1006,43 @@
 					"ability": "int",
 					"innate": {
 						"_": [
-							"mind sliver|XPHB#c"
+							"心灵之楔|XPHB#c"
 						]
 					}
 				}
 			],
 			"entries": [
-				"You begin a symbiotic relationship with the mind flayer tadpole in your body. You gain the following benefits.",
+				"你开始与体内的夺心魔蝌蚪建立共生关系。你获得以下增益。",
 				{
 					"type": "list",
 					"page": 5,
 					"style": "list-hang",
 					"items": [
 						{
+							"ENG_name": "Mind Sliver",
+							"name": "心灵之楔",
 							"type": "item",
-							"name": "Mind Sliver",
 							"entries": [
-								"You learn the {@spell Mind Sliver|XPHB} cantrip. Intelligence is your spellcasting ability for this spell."
+								"你习得{@spell 心灵之楔|XPHB}戏法。智力是你施展此法术的施法属性。"
 							]
 						},
 						{
+							"ENG_name": "Psionic Power",
+							"name": "灵能力量",
 							"type": "item",
-							"name": "Psionic Power",
 							"entries": [
-								"The wellspring of psionic energy provided to you by your tadpole is represented by Psionic Energy Dice, which fuel the powers you have from this feat path.",
-								"You have a number of Psionic Energy Dice equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}. When you take this feat, your Psionic Energy Die is a {@dice d6}. The die changes when you take feats along the {@charoption Path of Ceremorphosis|XUA2026UnderdarkOptions}.",
-								"Any features in this feat path that use a Psionic Energy Die use only the dice from this feat path. Some of your features expend Psionic Energy Dice, as specified in a feature's description, and you can't use a feature if it requires you to use a die when all your Psionic Energy Dice are expended.",
-								"You regain all expended Psionic Energy Dice when you finish a {@variantrule Long Rest|XPHB}."
+								"由你的蝌蚪为你提供的灵能力量源泉，体现为灵能骰，它们为你从此专长路途获得的力量提供燃料。",
+								"你拥有的灵能骰数量等同于你的{@variantrule 熟练|XPHB|熟练加值}。当你获得此专长时，你的灵能骰为{@dice d6}。当你沿着{@charoption 蜕变路途|XUA2026幽暗地域选项}获取专长时，此骰子会发生变化。",
+								"此专长路途中的任何使用灵能骰的特性仅使用此专长路途中的骰子。你的部分特性会消耗灵能骰，如特性描述中所指定，并且当你的所有灵能骰都已消耗时，你无法使用需要你使用骰子的特性。",
+								"当你完成一次{@variantrule 长休|XPHB}后，你恢复所有已消耗的灵能骰。"
 							]
 						},
 						{
+							"ENG_name": "Psionic Overload",
+							"name": "灵能过载",
 							"type": "item",
-							"name": "Psionic Overload",
 							"entries": [
-								"Whenever you deal Psychic damage, you can expend a Psionic Energy Die to roll the die and deal extra Psychic damage equal to the number rolled."
+								"每当你造成心灵伤害时，你可以消耗一个灵能骰，掷骰并将掷出的数值作为额外的心灵伤害。"
 							]
 						}
 					]
@@ -987,14 +1050,15 @@
 			]
 		},
 		{
-			"name": "Tadpole's Safeguard",
+			"ENG_name": "Tadpole's Safeguard",
+			"name": "蝌蚪的佑护",
 			"source": "XUA2026UnderdarkOptions",
 			"page": 6,
-			"category": "Path of Ceremorphosis",
+			"category": "蜕变路途",
 			"prerequisite": [
 				{
 					"feat": [
-						"tadpole host|XUA2026UnderdarkOptions"
+						"蝌蚪宿主|XUA2026幽暗地域选项"
 					]
 				}
 			],
@@ -1014,41 +1078,44 @@
 						"_": {
 							"resource": {
 								"1": [
-									"shield|XPHB"
+									"护盾术|XPHB"
 								]
 							}
 						}
 					},
 					"ability": "int",
-					"resourceName": "Psionic Energy Die"
+					"resourceName": "灵能骰"
 				}
 			],
 			"entries": [
-				"Your tadpole has a vested interest in protecting its shell while it incubates. You gain the following benefits.",
+				"你的蝌蚪在孵化期间有保护其外壳的既得利益。你获得以下增益。",
 				{
 					"type": "list",
 					"page": 6,
 					"style": "list-hang",
 					"items": [
 						{
+							"ENG_name": "Psionic Energy Dice",
+							"name": "灵能骰",
 							"type": "item",
-							"name": "Psionic Energy Dice",
 							"entries": [
-								"The Psionic Energy Dice granted to you by this feat path become d8s."
+								"此专长路途授予你的灵能骰变为d8。"
 							]
 						},
 						{
+							"ENG_name": "Telepathy",
+							"name": "心灵感应",
 							"type": "item",
-							"name": "Telepathy",
 							"entries": [
-								"You have {@variantrule Telepathy|XPHB} with a range of 10 feet. If you already have {@variantrule Telepathy|XPHB}, your range increases by 10 feet."
+								"你拥有范围为10尺的{@variantrule 心灵感应|XPHB}。如果你已经拥有{@variantrule 心灵感应|XPHB}，则其范围增加10尺。"
 							]
 						},
 						{
+							"ENG_name": "Warding Backlash",
+							"name": "守卫反冲术",
 							"type": "item",
-							"name": "Warding Backlash",
 							"entries": [
-								"You always have the {@item Shield|XPHB} spell prepared. Intelligence is your spellcasting ability for this spell. You can cast it without expending a spell slot by expending a Psionic Energy Die. You can also cast the spell using any spell slots you have. When you expend a Psionic Energy Die to cast the spell and cause the triggering attack to miss, roll the expended die. The attacker takes Psychic damage equal to the number rolled."
+								"你总是准备着{@item 盾牌|XPHB}法术。智力是你施放此法术的施法属性。你可以通过消耗一个灵能骰来施放它，而无需消耗法术位。你也可以使用你拥有的任意法术位来施放该法术。当你消耗一个灵能骰来施放此法术并导致触发攻击未命中时，掷出消耗的骰子。攻击手受到等同于掷出数值的心灵伤害。"
 							]
 						}
 					]
@@ -1056,14 +1123,15 @@
 			]
 		},
 		{
-			"name": "Ulitharid's Might",
+			"ENG_name": "Ulitharid's Might",
+			"name": "噬魂怪的可能",
 			"source": "XUA2026UnderdarkOptions",
 			"page": 6,
-			"category": "Path of Ceremorphosis",
+			"category": "蜕变路途",
 			"prerequisite": [
 				{
 					"feat": [
-						"tadpole host|XUA2026UnderdarkOptions"
+						"蝌蚪宿主|XUA2026幽暗地域选项"
 					]
 				}
 			],
@@ -1079,31 +1147,34 @@
 				}
 			],
 			"entries": [
-				"The tadpole you ingested is mutating you into an {@creature ulitharid|MPMM}, a rare type of illithid that boasts great physical strength and mental power, as well as two additional tentacles.",
+				"你服用的蝌蚪正在将你变异成一只{@creature 噬魂怪|MPMM}，一种珍稀的灵吸怪类型，拥有强大的身体力量和心灵法力，以及两条额外的触须。",
 				{
 					"type": "list",
 					"page": 6,
 					"style": "list-hang",
 					"items": [
 						{
+							"ENG_name": "Psionic Energy Dice",
+							"name": "灵能骰",
 							"type": "item",
-							"name": "Psionic Energy Dice",
 							"entries": [
-								"The Psionic Energy Dice granted to you by this feat path become d8s."
+								"此专长路途授予你的灵能骰变为d8。"
 							]
 						},
 						{
+							"ENG_name": "Telepathy",
+							"name": "心灵感应",
 							"type": "item",
-							"name": "Telepathy",
 							"entries": [
-								"You have {@variantrule Telepathy|XPHB} with a range of 10 feet. If you already have {@variantrule Telepathy|XPHB}, the range increases by 10 feet."
+								"你拥有范围为10尺的{@variantrule 心灵感应|XPHB}。如果你已经拥有{@variantrule 心灵感应|XPHB}，则其范围增加10尺。"
 							]
 						},
 						{
+							"ENG_name": "Extended Tentacles",
+							"name": "延伸触须",
 							"type": "item",
-							"name": "Extended Tentacles",
 							"entries": [
-								"Two long tentacles sprout from around your mouth. You can use these tentacles to make an {@variantrule Unarmed Strike|XPHB}. When you're using these tentacles, your reach increases by 5 feet."
+								"两条长长的触须从你的嘴部周围生长出来。你可以使用这些触须进行一次{@variantrule 徒手打击|XPHB}。当你使用这些触须时，你的触及范围增加5尺。"
 							]
 						}
 					]
@@ -1113,44 +1184,48 @@
 	],
 	"charoption": [
 		{
-			"name": "Path of Ceremorphosis",
+			"ENG_name": "Path of Ceremorphosis",
+			"name": "蜕变路途",
 			"source": "XUA2026UnderdarkOptions",
 			"page": 5,
 			"optionType": [
 				"PTH"
 			],
 			"entries": [
-				"Ceremorphosis is the process by which {@creature mind flayer|XMM|mind flayers} create more mind flayers. They incubate their tadpole young in the tank that houses their colony's {@creature elder brain|MPMM}. When a tadpole is ready, they insert it into the body of a suitable host. During the transformative period that ensues, the host gains access to psychic powers even before the new illithid's more monstrous parts begin to develop.",
-				"The best hosts are typically humanoids capable of great physical, mental, and magical feats\u2014in other words, adventurers.",
+				"夺心魔转化是{@creature 夺心魔|XMM|夺心魔们}创造更多夺心魔的过程。他们在容纳其殖民地{@creature 主脑|MPMM}的水池中孵化他们的蝌蚪幼体。当一只蝌蚪预备就绪时，他们将其植入一个合适的宿主体内。在随之而来的转化期内，宿主甚至在新的灵吸怪更怪物的部分开始发育之前，就能获得心灵异能。",
+				"最佳的宿主通常是那些在身体、精神和魔法专长方面都具备卓越能力的类人生物\u2014\u2014换句话说，就是冒险者。",
 				{
+					"ENG_name": "From Tadpole to Transformation",
+					"name": "从蝌蚪到蜕变",
 					"type": "entries",
-					"name": "From Tadpole to Transformation",
 					"page": 5,
 					"entries": [
-						"Ceremorphosis is typically a parasitic relationship in which a tadpole eats the mind of its host and takes over the host's body. The resulting mind flayer retains the memories of its host but is an entirely different creature with its own thoughts and motivations. This mind flayer is subject to the will of an elder brain, a powerful leader of a mind flayer colony.",
-						"Ceremorphosis usually occurs quickly, but your path to becoming a mind flayer is different from traditional methods. As you take feats along this path, imagine what you might look like at every stage of this process. Your skin could turn a deeper violet with each feat you take, or your eyes might change color and shape.",
-						"Something prevents you from giving yourself over to the whims of the elder brain. Roll on or choose from the {@table Ceremorphosis Variables|XUA2026UnderdarkOptions} table to inspire what protects you from this foul influence.",
+						"夺心魔转化通常是一种寄生关系，其中一只蝌蚪会吃掉其宿主的心智并接管宿主的身体。转化而成的夺心魔会保留其宿主的记忆，但它是一个拥有自己思想和动机的完全不同的生物。这只夺心魔服从于主脑的意志，主脑是夺心魔巢穴的强大首领。",
+						"夺心魔转化通常发生得很快，但你成为夺心魔的路径与传统手段不同。当你沿着这条路径获取专长时，想象一下你在这个过程的每个阶段可能的样子。你的皮肤可能随着你获取的每个专长而变成更深的紫色，或者你的眼睛可能改变颜色和形状。",
+						"某种事物阻止你将自己完全交托给主脑的奇思妙想。掷骰或从{@table 夺心魔转化变量|XUA2026UnderdarkOptions}表格中选择，以激发是什么保护你免受这种污秽影响。",
 						{
+							"ENG_name": "Ceremorphosis Variables",
+							"name": "蜕变变量",
 							"type": "statblock",
 							"tag": "table",
-							"name": "Ceremorphosis Variables",
 							"source": "XUA2026UnderdarkOptions",
 							"page": 5,
 							"slotSize": "360"
 						},
 						{
+							"ENG_name": "Elder Brain Control",
+							"name": "主脑控制",
 							"type": "inset",
-							"name": "Elder Brain Control",
 							"page": 5,
 							"entries": [
-								"Roleplaying the relationship between a burgeoning mind flayer and an elder brain can be a fun part of this path, but it requires a conversation with your DM. Whatever you decide, make sure both you and the DM agree on the terms of the relationship. Some topics you might discuss include the following:",
+								"扮演一个新生的夺心魔与主脑之间的关系，可能是这条路途中有趣的一部分，但这需要与你的DM进行沟通。无论你如何决定，确保你和DM都同意这种关系的条款。你们可以讨论的一些话题包括：",
 								{
 									"type": "list",
 									"items": [
-										"How does the elder brain communicate with your character\u2014through words, images, or impulses?",
-										"Is the elder brain open about its true nature, or does it pretend to be the character's deity or trusted ally?",
-										"What are the consequences for your character if they defy the elder brain's orders?",
-										"What, if anything, can the elder brain force your character to do? How does your character resist?"
+										"主脑如何与你的角色沟通\u2014\u2014是通过言语、图像还是冲动？",
+										"主脑是开放地展示其真实本性，还是假装成角色的神祇或可信赖的盟友？",
+										"如果你的角色违抗主脑的命令，会有什么后果？",
+										"主脑能强迫你的角色做什么，如果有的话？你的角色如何抵抗？"
 									]
 								}
 							]
@@ -1158,61 +1233,69 @@
 					]
 				},
 				{
+					"ENG_name": "Path of Ceremorphosis Feats",
+					"name": "蜕变路途专长",
 					"type": "entries",
-					"name": "Path of Ceremorphosis Feats",
 					"page": 5,
 					"entries": [
-						"The following Path of Ceremorphosis feats represent one path a character can take to become a mind flayer. To complete the Path of Ceremorphosis, begin by taking the {@feat Tadpole Host|XUA2026UnderdarkOptions} feat, followed by any other Path of Ceremorphosis feat you choose. Finally, when you reach level 12 or higher, take the {@feat Full Ceremorphosis|XUA2026UnderdarkOptions} feat.",
+						"以下蜕变路途专长代表角色成为夺心魔的一条途径。要完成蜕变路途，首先选择{@feat 蝌蚪宿主|XUA2026幽暗地域选项}专长，随后选择任意其他你选择的蜕变路途专长。最后，当你达到第12层或更高等级时，选择{@feat 完全蜕变|XUA2026幽暗地域选项}专长。",
 						{
+							"ENG_name": "Tadpole Host",
+							"name": "蝌蚪宿主",
 							"type": "statblock",
 							"tag": "feat",
-							"name": "Tadpole Host",
 							"source": "XUA2026UnderdarkOptions",
 							"page": 5,
 							"collapsed": true
 						},
 						{
+							"ENG_name": "Illithid Thrallmaker",
+							"name": "夺心魔奴役者",
 							"type": "statblock",
 							"tag": "feat",
-							"name": "Illithid Thrallmaker",
 							"source": "XUA2026UnderdarkOptions",
 							"page": 6,
 							"collapsed": true
 						},
 						{
+							"ENG_name": "Tadpole's Safeguard",
+							"name": "蝌蚪的佑护",
 							"type": "statblock",
 							"tag": "feat",
-							"name": "Tadpole's Safeguard",
 							"source": "XUA2026UnderdarkOptions",
 							"page": 6,
 							"collapsed": true
 						},
 						{
+							"ENG_name": "Ulitharid's Might",
+							"name": "噬魂怪的可能",
 							"type": "statblock",
 							"tag": "feat",
-							"name": "Ulitharid's Might",
 							"source": "XUA2026UnderdarkOptions",
 							"page": 6,
 							"collapsed": true
 						},
 						{
+							"ENG_name": "Full Ceremorphosis",
+							"name": "完全蜕变",
 							"type": "statblock",
 							"tag": "feat",
-							"name": "Full Ceremorphosis",
 							"source": "XUA2026UnderdarkOptions",
 							"page": 6,
 							"collapsed": true
 						},
 						{
+							"ENG_name": "Mind Blast",
+							"name": "心灵震爆",
 							"type": "inset",
-							"name": "Mind Blast",
 							"page": 7,
 							"entries": [
-								"The {@feat Full Ceremorphosis|XUA2026UnderdarkOptions} feat grants the {@spell Mind Blast|XUA2026UnderdarkOptions} spell, provided here:",
+								"{@feat 完全蜕变|XUA2026幽暗地域选项}专长授予{@spell 心灵震爆|XUA2026幽暗地域选项}法术，如下所示：",
 								{
+									"ENG_name": "Mind Blast",
+									"name": "心灵震爆",
 									"type": "statblock",
 									"tag": "spell",
-									"name": "Mind Blast",
 									"source": "XUA2026UnderdarkOptions",
 									"page": 7,
 									"slotSize": "360"
@@ -1226,7 +1309,8 @@
 	],
 	"spell": [
 		{
-			"name": "Mind Blast",
+			"ENG_name": "Mind Blast",
+			"name": "心灵震爆",
 			"source": "XUA2026UnderdarkOptions",
 			"page": 7,
 			"level": 6,
@@ -1252,28 +1336,31 @@
 				}
 			],
 			"entries": [
-				"You unleash a concussive burst of psionic energy. Each creature in a 60-foot {@variantrule Cone [Area of Effect]|XPHB|Cone} originating from you makes an Intelligence saving throw. On a failed save, the creature takes {@damage 6d8} Psychic damage and has the {@condition Stunned|XPHB} condition until the start of your next turn. On a successful save, the creature takes half as much damage only."
+				"你释放出一股冲击性的灵能爆发。每个位于以你为起点的60尺{@variantrule 锥状 [效应区域]|XPHB|锥状}范围内的生物需进行一次智力豁免检定。豁免失败时，该生物受到{@damage 6d8}心灵伤害并获得{@condition 震慑|XPHB}状态，此状态持续到你下个回合开始。豁免成功时，该生物仅受到一半伤害。"
 			],
 			"entriesHigherLevel": [
 				{
+					"ENG_name": "Using a Higher-Level Spell Slot",
+					"name": "升环施法",
 					"type": "entries",
-					"name": "Using a Higher-Level Spell Slot",
 					"entries": [
-						"The damage increases by {@dice 1d8} for each spell slot level above 6."
+						"伤害对每个高于6环的法术位环阶增加{@dice 1d8}。"
 					]
 				}
 			],
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Psion",
+						"ENG_name": "Psion",
+						"name": "灵能使",
 						"source": "XUA2025Psion"
 					}
 				]
 			},
 			"feats": [
 				{
-					"name": "Full Ceremorphosis",
+					"ENG_name": "Full Ceremorphosis",
+					"name": "完全蜕变",
 					"source": "XUA2026UnderdarkOptions"
 				}
 			],
@@ -1290,12 +1377,13 @@
 	],
 	"table": [
 		{
-			"name": "Ceremorphosis Variables",
+			"ENG_name": "Ceremorphosis Variables",
+			"name": "蜕变变量",
 			"source": "XUA2026UnderdarkOptions",
 			"page": 5,
 			"colLabels": [
 				"1d6",
-				"You're Protected from the {@creature Elder Brain|MPMM} By..."
+				"你受到{@creature 主脑|MPMM}的保护..."
 			],
 			"colStyles": [
 				"col-2 text-center",
@@ -1304,37 +1392,38 @@
 			"rows": [
 				[
 					"1",
-					"A blessing from your deity, given unconditionally."
+					"来自你神祇的无条件祝福。"
 				],
 				[
 					"2",
-					"The interference of an archdevil you've sold your soul to."
+					"你向其出卖灵魂的大魔鬼的干涉。"
 				],
 				[
 					"3",
-					"The elder brain's desire to see what happens if a host retains its autonomy."
+					"主脑渴望看到宿主保留自主权会发生什么。"
 				],
 				[
 					"4",
-					"A one-of-a-kind helm that the Society of Brilliance infused with Abjuration magic."
+					"一件由辉耀学会灌注了防护魔法的独一无二的舵板。"
 				],
 				[
 					"5",
-					"A mind and personality so awful that they deter the elder brain from interacting with you."
+					"一个如此糟糕的心智和个性，以至于主脑不愿与你互动。"
 				],
 				[
 					"6",
-					"The interference of another elder brain vying for control over your mind."
+					"另一个主脑试图控制你的心智所造成的干扰。"
 				]
 			]
 		},
 		{
-			"name": "House Agent Origins",
+			"ENG_name": "House Agent Origins",
+			"name": "家族代理人起源",
 			"source": "XUA2026UnderdarkOptions",
 			"page": 2,
 			"colLabels": [
 				"1d6",
-				"You Proved Your Loyalty By..."
+				"你通过以下方式证明了自己的忠诚......"
 			],
 			"colStyles": [
 				"col-2 text-center",
@@ -1343,37 +1432,38 @@
 			"rows": [
 				[
 					"1",
-					"Taking the fall for another person's crime and serving their jail sentence."
+					"为另一个人的罪行顶罪并服刑。"
 				],
 				[
 					"2",
-					"Assassinating a powerful political figure."
+					"刺杀一位有权势的政治人物。"
 				],
 				[
 					"3",
-					"Renouncing all personal ties and worldly possessions and adopting a new identity."
+					"放弃所有个人联系和世俗财产，并采用一个新的身份。"
 				],
 				[
 					"4",
-					"Uncovering an incriminating secret about a member of another house."
+					"揭露另一个家族成员的罪证秘密。"
 				],
 				[
 					"5",
-					"Withstanding a torturous interrogation without divulging house secrets."
+					"经受住严酷的审讯而不泄露家族秘密。"
 				],
 				[
 					"6",
-					"Sacrificing a family member for the benefit of your sponsor."
+					"为赞助者的利益牺牲一名家庭成员。"
 				]
 			]
 		},
 		{
-			"name": "Insignia Spells",
+			"ENG_name": "Insignia Spells",
+			"name": "徽记法术",
 			"source": "XUA2026UnderdarkOptions",
 			"page": 3,
 			"colLabels": [
-				"Rogue Level",
-				"Prepared Spells"
+				"游荡者等级",
+				"准备法术"
 			],
 			"colStyles": [
 				"col-4 text-center",
@@ -1382,25 +1472,26 @@
 			"rows": [
 				[
 					"3",
-					"{@spell Charm Person|XPHB}"
+					"{@spell 魅惑类人|XPHB}"
 				],
 				[
 					"5",
-					"{@spell Suggestion|XPHB}"
+					"{@spell 暗示术|XPHB}"
 				],
 				[
 					"9",
-					"{@spell Hypnotic Pattern|XPHB}"
+					"{@spell 催眠图纹|XPHB}"
 				]
 			]
 		},
 		{
-			"name": "Secrets of Unlight",
+			"ENG_name": "Secrets of Unlight",
+			"name": "暗光秘密",
 			"source": "XUA2026UnderdarkOptions",
 			"page": 4,
 			"colLabels": [
 				"1d6",
-				"You Learned About Unlight When..."
+				"当你了解暗光时..."
 			],
 			"colStyles": [
 				"col-2 text-center",
@@ -1409,37 +1500,38 @@
 			"rows": [
 				[
 					"1",
-					"You were taught by a refugee from Deep Imaskar who brought this knowledge to the surface world."
+					"你师从一位来自深伊马斯卡的难民，他将此知识带到了地表世界。"
 				],
 				[
 					"2",
-					"You heard whispers in your dreams in a language you inexplicably understood."
+					"你在梦境中听到了低语，那是一种你莫名理解的语言。"
 				],
 				[
 					"3",
-					"You discovered written records left behind by a long-dead Imaskari wizard."
+					"你发现了一位早已死亡的伊玛斯卡法师留下的书面档案。"
 				],
 				[
 					"4",
-					"You were apprenticed to a Deep Imaskari wizard in the depths of the Underdark, but you escaped."
+					"你曾是幽暗地域深处一位深地伊玛斯卡法师的学徒，但你已经逃脱了。"
 				],
 				[
 					"5",
-					"You heard rumors of this power from Underdark refugees, then pieced its secrets together through laborious research."
+					"你从幽暗地域的难民那里听到了关于这种法力的流言，然后通过艰苦的研究拼凑出了它的秘密。"
 				],
 				[
 					"6",
-					"A mind flayer gave you notes salvaged from a Deep Imaskari whose brain the creature had eaten."
+					"一名夺心魔给了你从一名深地伊玛斯卡人那里抢救出来的笔记，该生物的大脑已被它吃掉。"
 				]
 			]
 		},
 		{
-			"name": "Unlight Manifestation",
+			"ENG_name": "Unlight Manifestation",
+			"name": "暗光显化",
 			"source": "XUA2026UnderdarkOptions",
 			"page": 1,
 			"colLabels": [
 				"1d6",
-				"Your Unlight Manifests As..."
+				"你的暗光显化为..."
 			],
 			"colStyles": [
 				"col-2 text-center",
@@ -1448,34 +1540,35 @@
 			"rows": [
 				[
 					"1",
-					"White light blazing from your eyes and mouth."
+					"白色的光线从你的眼睛和口中爆燃而出。"
 				],
 				[
 					"2",
-					"Complex arcane symbols of light etched onto your body."
+					"复杂的奥术光线符号蚀刻在你的身体上。"
 				],
 				[
 					"3",
-					"A cyclone of bright light that whirls around you."
+					"一道明亮的旋风环绕着你。"
 				],
 				[
 					"4",
-					"Cracks in your flesh that reveal burning light within."
+					"你血肉上的裂隙，显露出内部燃烧的光芒。"
 				],
 				[
 					"5",
-					"A ghostly form made of light that hovers above you."
+					"一个由光线构成的鬼灵形态，悬浮在你上方。"
 				],
 				[
 					"6",
-					"Pale fire that dances on the tip of your weapon."
+					"在你武器尖端舞动的苍白火焰。"
 				]
 			]
 		}
 	],
 	"book": [
 		{
-			"name": "Unearthed Arcana 2026: Underdark Options",
+			"ENG_name": "Unearthed Arcana 2026: Underdark Options",
+			"name": "破解奥秘 2026：幽暗地域选项",
 			"id": "XUA2026UnderdarkOptions",
 			"source": "XUA2026UnderdarkOptions",
 			"group": "prerelease",
@@ -1484,36 +1577,37 @@
 				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana-img/main/img/XUA2026UnderdarkOptions/cover.webp"
 			},
 			"published": "2026-08-20",
-			"author": "Wizards of the Coast",
+			"author": "威世智",
 			"contents": [
 				{
-					"name": "Unearthed Arcana 2026: Underdark Options",
+					"ENG_name": "Unearthed Arcana 2026: Underdark Options",
+					"name": "破解奥秘 2026：幽暗地域选项",
 					"headers": [
-						"What's Inside",
+						"这里有什么",
 						{
-							"header": "Content Warning",
+							"header": "内容警告",
 							"depth": 1
 						},
-						"Subclasses",
+						"子职",
 						{
-							"header": "Path of Unlight (Barbarian)",
-							"depth": 1
-						},
-						{
-							"header": "House Agent (Rogue)",
+							"header": "无光之道（野蛮人）",
 							"depth": 1
 						},
 						{
-							"header": "Imaskarcanist (Wizard)",
-							"depth": 1
-						},
-						"Path of Ceremorphosis",
-						{
-							"header": "From Tadpole to Transformation",
+							"header": "家族代理人（游荡者）",
 							"depth": 1
 						},
 						{
-							"header": "Path of Ceremorphosis Feats",
+							"header": "伊马斯卡术士（法师）",
+							"depth": 1
+						},
+						"蜕变路途",
+						{
+							"header": "从蝌蚪到蜕变",
+							"depth": 1
+						},
+						{
+							"header": "蜕变路途专长",
 							"depth": 1
 						}
 					]
@@ -1527,65 +1621,72 @@
 			"source": "XUA2026UnderdarkOptions",
 			"data": [
 				{
+					"ENG_name": "Unearthed Arcana 2026: Underdark Options",
+					"name": "破解奥秘 2026：幽暗地域选项",
 					"type": "section",
-					"name": "Unearthed Arcana 2026: Underdark Options",
 					"page": 1,
 					"entries": [
-						"This playtest document is part of a series of {@i Unearthed Arcana} articles that present material designed for upcoming products. The material here uses the rules in the {@book Player's Handbook|XPHB}.",
+						"这份测试文档是系列{@i 破解奥秘}文章的一部分，这些文章展示了为即将推出的产品设计的素材。这里的素材使用{@book 玩家手册|XPHB}中的规则。",
 						{
+							"ENG_name": "What's Inside",
+							"name": "这里有什么",
 							"type": "section",
-							"name": "What's Inside",
 							"page": 1,
 							"entries": [
-								"This document presents three new subclasses:",
+								"本文档介绍了三个新的子职：",
 								{
 									"type": "list",
 									"items": [
-										"{@class Barbarian} ({@class Barbarian|XPHB|Path of Unlight|Unlight|XUA2026UnderdarkOptions})",
-										"{@class Rogue} ({@class Rogue|XPHB|House Agent|House Agent|XUA2026UnderdarkOptions})",
-										"{@class Wizard} ({@class Wizard|XPHB|Imaskarcanist|Imaskarcanist|XUA2026UnderdarkOptions})"
+										"{@class 野蛮人} ({@class 野蛮人|XPHB|无光之道|无光|XUA2026UnderdarkOptions})",
+										"{@class 游荡者} ({@class 游荡者|XPHB|家族代理人|家族代理人|XUA2026UnderdarkOptions})",
+										"{@class 法师} ({@class 法师|XPHB|伊马斯卡术士|伊马斯卡术士|XUA2026UnderdarkOptions})"
 									]
 								},
-								"This document also includes a new transformative path of feats: the {@charoption Path of Ceremorphosis|XUA2026UnderdarkOptions}.",
+								"本文档还包含一个新的转化专长路途：{@charoption 蜕变路途|XUA2026幽暗地域选项}。",
 								{
+									"ENG_name": "Content Warning",
+									"name": "内容警告",
 									"type": "entries",
-									"name": "Content Warning",
 									"page": 1,
 									"entries": [
-										"This material contains descriptions of body horror, damage to the eyes and brain, ingested parasites, and the idea that you are slowly losing control of yourself. Some readers might find this content disturbing."
+										"本资料包含对肉体恐怖、眼睛和大脑损伤、体内寄生虫以及你正逐渐失去自我控制等概念的描述。部分读者可能会觉得这些内容令人不安。"
 									]
 								},
 								{
+									"ENG_name": "This Is Playtest Material",
+									"name": "本材料为游玩测试内容",
 									"type": "inset",
-									"name": "This Is Playtest Material",
 									"page": 1,
 									"entries": [
-										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt it as official.",
+										"本文旨在进行游戏测试和反馈。这里的选项是实验性的且处于草稿形态。它们并非游戏的官方部分。您的反馈将协助我们决定是否将其采纳为官方。",
 										{
 											"type": "list",
 											"page": 1,
 											"style": "list-hang-notitle",
 											"items": [
 												{
+													"ENG_name": "How to Playtest This UA",
+													"name": "如何游玩测试本破解奥秘",
 													"type": "item",
-													"name": "How to Playtest This UA",
 													"entries": [
-														"We invite you to try out this material in play. To play with this material, you may either incorporate it into your campaign or run one or more special playtest sessions. For such a session, you may create an adventure of your own or use a short adventure from the {@book Dungeon Master's Guide|XDMG|3|Adventure Examples} or a source like {@adventure Dragon Delves|DrDe-BD}."
+														"我们邀请您在游玩中尝试本材料。要使用本材料进行游玩，您可以将其融入您的战役，或者运行一个或多个特殊的游玩测试环节。对于这样的环节，您可以自己创作一个冒险，或者使用来自{@book 城主指南|XDMG|3|范例冒险}或类似{@adventure 巨龙迷城|DrDe-BD}的来源中的短篇冒险。"
 													]
 												},
 												{
+													"ENG_name": "Power Level",
+													"name": "威力水平",
 													"type": "item",
-													"name": "Power Level",
 													"entries": [
-														"The character options you read here might be more or less powerful than options in the {@book Player's Handbook|XPHB}. If a design survives playtesting, we adjust its power to the desirable level before publication. This means an option could be more or less powerful in its final form."
+														"你在这里读到的角色选项，其威力可能比{@book 玩家手册|XPHB}中的选项更强或更弱。如果一个设计在游玩测试中得以保留，我们会在发布前将其威力调整到理想水平。这意味着一个选项在其最终形态中可能会更强或更弱。"
 													]
 												},
 												{
+													"ENG_name": "Feedback",
+													"name": "反馈",
 													"type": "item",
-													"name": "Feedback",
 													"entries": [
-														"The best way for you to give us feedback on this material is in the survey we'll release on D&D Beyond. If we make this material official, it will be refined based on your feedback, and then it will appear in a D&D book.",
-														"Providing feedback on this document is one way you can help shape the future of D&D!"
+														"您就这份材质向我们提供反馈的最佳方式是通过我们将在D&D Beyond上发布的调查。如果我们使这份材质成为官方版本，它将根据您的反馈进行完善，然后会出现在一本D&D书中。",
+														"对本文件提供反馈是您协助塑造D&D未来的一种方式！"
 													]
 												}
 											]
@@ -1595,32 +1696,36 @@
 							]
 						},
 						{
+							"ENG_name": "Subclasses",
+							"name": "子职",
 							"type": "section",
-							"name": "Subclasses",
 							"page": 1,
 							"entries": [
-								"This section presents the following subclasses: {@class Barbarian|XPHB|Path of Unlight|Unlight|XUA2026UnderdarkOptions}, {@class Rogue|XPHB|House Agent|House Agent|XUA2026UnderdarkOptions}, and {@class Wizard|XPHB|Imaskarcanist|Imaskarcanist|XUA2026UnderdarkOptions}.",
+								"本节介绍以下子职：{@class 野蛮人|XPHB|无光之道|无光|XUA2026UnderdarkOptions}、{@class 游荡者|XPHB|家族代理人|家族代理人|XUA2026UnderdarkOptions}和{@class 法师|XPHB|伊马斯卡术士|伊马斯卡术士|XUA2026UnderdarkOptions}。",
 								{
+									"ENG_name": "Path of Unlight (Barbarian)",
+									"name": "无光之道（野蛮人）",
 									"type": "entries",
-									"name": "Path of Unlight (Barbarian)",
 									"page": 1,
 									"entries": [
-										"{@i Unleash your inner light as blazing fury}",
+										"{@i 释放你内心的光芒，化为炽烈怒火}",
 										{
+											"ENG_name": "What is Unlight?",
+											"name": "什么是暗光？",
 											"type": "inset",
-											"name": "What is Unlight?",
 											"page": 1,
 											"entries": [
-												"The city of Deep Imaskar, home to the descendants of the ancient Imaskari empire, lies in one of the lowest levels of the Underdark. The Deep Imaskari wield a magical force known as Unlight, taught to them by {@i Imaskarcana}, sentient grimoires penned by ancient wizard-kings of the lost Imaskari empire.",
-												"The Deep Imaskari used Unlight to create the Great Seal, a magical symbol that protects and illuminates their city while nourishing crops that allow the Deep Imaskari to survive in the Underdark. But Unlight can also be used to corrupt and destroy, burning creatures from within until they die in a fiery explosion of brilliant light."
+												"深伊马斯卡城，古代伊玛斯卡帝国后裔的家园，位于幽暗地域最深的层级之一。深伊马斯卡人使用一种被称为暗光的魔法力场，这是由失落伊玛斯卡帝国的古代法师王所著的智能魔法书{@i 伊马斯卡卡纳}传授给它们的。",
+												"深地伊玛斯卡人利用暗光创造了'大封印'，这是一个保护并照亮他们城市的魔法徽记，同时滋养着作物，使得深地伊玛斯卡人得以在幽暗地域中幸存。但暗光同样可用于腐化与毁灭，从内部燃烧生物，直至他们在辉煌光明的炽热爆炸中死去。"
 											]
 										},
 										{
+											"ENG_name": "Path of Unlight",
+											"name": "无光之道",
 											"type": "statblock",
 											"prop": "subclass",
-											"name": "Path of Unlight",
-											"shortName": "Unlight",
-											"className": "Barbarian",
+											"shortName": "无光",
+											"className": "野蛮人",
 											"classSource": "XPHB",
 											"source": "XUA2026UnderdarkOptions",
 											"page": 1
@@ -1628,17 +1733,19 @@
 									]
 								},
 								{
+									"ENG_name": "House Agent (Rogue)",
+									"name": "家族代理人（游荡者）",
 									"type": "entries",
-									"name": "House Agent (Rogue)",
 									"page": 2,
 									"entries": [
-										"{@i Outwit Your Foes with Charm and Subterfuge}",
+										"{@i 以魅惑与诡计智胜你的敌人}",
 										{
+											"ENG_name": "House Agent",
+											"name": "家族代理人",
 											"type": "statblock",
 											"prop": "subclass",
-											"name": "House Agent",
-											"shortName": "House Agent",
-											"className": "Rogue",
+											"shortName": "家族代理人",
+											"className": "浪客",
 											"classSource": "XPHB",
 											"source": "XUA2026UnderdarkOptions",
 											"page": 2
@@ -1646,17 +1753,19 @@
 									]
 								},
 								{
+									"ENG_name": "Imaskarcanist (Wizard)",
+									"name": "伊马斯卡术士（法师）",
 									"type": "entries",
-									"name": "Imaskarcanist (Wizard)",
 									"page": 4,
 									"entries": [
-										"{@i Master the Secrets of Unlight and the Artifacts of Ancient Imaskar}",
+										"{@i 掌握暗光秘密与古代伊马斯卡神器}",
 										{
+											"ENG_name": "Imaskarcanist",
+											"name": "伊马斯卡术士",
 											"type": "statblock",
 											"prop": "subclass",
-											"name": "Imaskarcanist",
-											"shortName": "Imaskarcanist",
-											"className": "Wizard",
+											"shortName": "伊马斯卡术士",
+											"className": "法师",
 											"classSource": "XPHB",
 											"source": "XUA2026UnderdarkOptions",
 											"page": 4
@@ -1664,22 +1773,25 @@
 									]
 								},
 								{
+									"ENG_name": "Eldritch Invocations",
+									"name": "魔能祈唤",
 									"type": "entries",
-									"name": "Eldritch Invocations",
 									"page": 5,
 									"entries": [
-										"The following two Eldritch Invocations complement the {@class Warlock|XPHB|Primordial Patron|Primordial|XUA2026UnderdarkOptions}.",
+										"以下两个魔能祈唤是对{@class 魔契师|XPHB|原初语宗主|原初语|XUA2026UnderdarkOptions}的补充。",
 										{
+											"ENG_name": "Elemental Overflow",
+											"name": "元素过载",
 											"type": "statblock",
 											"tag": "optfeature",
-											"name": "Elemental Overflow",
 											"source": "XUA2026UnderdarkOptions",
 											"page": 5
 										},
 										{
+											"ENG_name": "Elemental Transmutation",
+											"name": "元素变化",
 											"type": "statblock",
 											"tag": "optfeature",
-											"name": "Elemental Transmutation",
 											"source": "XUA2026UnderdarkOptions",
 											"page": 5
 										}
@@ -1688,14 +1800,16 @@
 							]
 						},
 						{
+							"ENG_name": "Path of Ceremorphosis",
+							"name": "蜕变路途",
 							"type": "section",
-							"name": "Path of Ceremorphosis",
 							"page": 5,
 							"entries": [
 								{
+									"ENG_name": "Path of Ceremorphosis",
+									"name": "蜕变路途",
 									"type": "statblock",
 									"tag": "charoption",
-									"name": "Path of Ceremorphosis",
 									"source": "XUA2026UnderdarkOptions",
 									"page": 5,
 									"slotSize": "1000"

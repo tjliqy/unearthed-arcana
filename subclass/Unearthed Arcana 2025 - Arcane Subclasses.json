@@ -1,11 +1,10 @@
 {
-	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/ua-fast/homebrew.json",
 	"_meta": {
 		"sources": [
 			{
 				"json": "XUA2025ArcaneSubclasses",
 				"abbreviation": "XUA25ArS",
-				"full": "Unearthed Arcana 2025: Arcane Subclasses",
+				"full": "破解奥秘2025：奥术子职",
 				"url": "https://media.dndbeyond.com/compendium-images/ua/arcane-subclasses/zepvK7DBkeSt6dqv/UA2025-ArcaneSubclasses.pdf",
 				"version": "1.0.0",
 				"dateReleased": "2025-06-26",
@@ -18,12 +17,12 @@
 			}
 		],
 		"optionalFeatureTypes": {
-			"MT": "Magic Tattoo"
+			"MT": "魔法刺青"
 		},
 		"edition": "one",
 		"status": "ready",
 		"dateAdded": 1750964106,
-		"dateLastModified": 1774092631,
+		"dateLastModified": 1792465989,
 		"_dateLastModifiedHash": "e653290217"
 	},
 	"_test": {
@@ -34,111 +33,113 @@
 	},
 	"subclass": [
 		{
-			"name": "Ancestral Sorcery",
-			"shortName": "Ancestral Sorcery",
+			"ENG_name": "Ancestral Sorcery",
+			"name": "先祖巫术",
+			"shortName": "先祖巫术",
 			"source": "XUA2025ArcaneSubclasses",
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
 			"page": 5,
 			"additionalSpells": [
 				{
 					"prepared": {
 						"3": [
-							"Command|XPHB",
-							"Guidance|XPHB",
-							"Locate Object|XPHB",
-							"Protection from Evil and Good|XPHB",
-							"Resistance|XPHB",
-							"Spiritual Weapon|XPHB"
+							"命令术|XPHB",
+							"神导术|XPHB",
+							"物件定位术|XPHB",
+							"防护善恶|XPHB",
+							"抗性|XPHB",
+							"灵体武器|XPHB"
 						],
 						"5": [
-							"Magic Circle|XPHB",
-							"Spirit Guardians|XPHB"
+							"防护法阵|XPHB",
+							"灵体卫士|XPHB"
 						],
 						"6": {
 							"daily": {
 								"1e": [
-									"counterspell|XPHB",
-									"dispel magic|XPHB"
+									"法术反制|XPHB",
+									"解除魔法|XPHB"
 								]
 							}
 						},
 						"7": [
-							"Divination|XPHB",
-							"Locate Creature|XPHB"
+							"预言术|XPHB",
+							"生物定位术|XPHB"
 						],
 						"9": [
-							"Legend Lore|XPHB",
-							"Yolande's Regal Presence|XPHB"
+							"通晓传奇|XPHB",
+							"悠兰德王者威仪|XPHB"
 						]
 					}
 				}
 			],
 			"subclassSpells": [
-				"Command|XPHB",
-				"Guidance|XPHB",
-				"Locate Object|XPHB",
-				"Protection from Evil and Good|XPHB",
-				"Resistance|XPHB",
-				"Spiritual Weapon|XPHB",
-				"Magic Circle|XPHB",
-				"Spirit Guardians|XPHB",
-				"Divination|XPHB",
-				"Locate Creature|XPHB",
-				"Legend Lore|XPHB",
-				"Yolande's Regal Presence|XPHB",
-				"counterspell|XPHB",
-				"dispel magic|XPHB"
+				"命令术|XPHB",
+				"神导术|XPHB",
+				"物件定位术|XPHB",
+				"防护善恶|XPHB",
+				"抗性|XPHB",
+				"灵体武器|XPHB",
+				"防护法阵|XPHB",
+				"灵体卫士|XPHB",
+				"预言术|XPHB",
+				"生物定位术|XPHB",
+				"通晓传奇|XPHB",
+				"悠兰德王者威仪|XPHB",
+				"法术反制|XPHB",
+				"解除魔法|XPHB"
 			],
 			"subclassFeatures": [
-				"Ancestral Sorcery|Sorcerer|XPHB|Ancestral Sorcery|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses",
-				"Superior Spell Disruption|Sorcerer|XPHB|Ancestral Sorcery|XUA2025ArcaneSubclasses|6|XUA2025ArcaneSubclasses",
-				"Ancestral Majesty|Sorcerer|XPHB|Ancestral Sorcery|XUA2025ArcaneSubclasses|14|XUA2025ArcaneSubclasses",
-				"Steady Spellcaster|Sorcerer|XPHB|Ancestral Sorcery|XUA2025ArcaneSubclasses|14|XUA2025ArcaneSubclasses",
-				"Ancestor's Ward|Sorcerer|XPHB|Ancestral Sorcery|XUA2025ArcaneSubclasses|18|XUA2025ArcaneSubclasses"
+				"先祖巫术|术士|XPHB|先祖巫术|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses",
+				"高端法术瓦解|术士|XPHB|先祖巫术|XUA2025ArcaneSubclasses|6|XUA2025ArcaneSubclasses",
+				"先祖威仪|术士|XPHB|先祖巫术|XUA2025ArcaneSubclasses|14|XUA2025ArcaneSubclasses",
+				"稳固施法者|术士|XPHB|先祖巫术|XUA2025ArcaneSubclasses|14|XUA2025ArcaneSubclasses",
+				"先祖之护|术士|XPHB|先祖巫术|XUA2025ArcaneSubclasses|18|XUA2025ArcaneSubclasses"
 			],
 			"hasFluff": true
 		},
 		{
-			"name": "Arcana Domain",
-			"shortName": "Arcana",
+			"ENG_name": "Arcana Domain",
+			"name": "奥秘领域",
+			"shortName": "奥秘",
 			"source": "XUA2025ArcaneSubclasses",
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "XPHB",
 			"page": 1,
 			"additionalSpells": [
 				{
 					"prepared": {
 						"3": [
-							"Detect Magic|XPHB",
-							"Magic Missile|XPHB",
-							"Magic Weapon|XPHB",
-							"Nystul's Magic Aura|XPHB"
+							"侦测魔法|XPHB",
+							"魔法飞弹|XPHB",
+							"魔化武器|XPHB",
+							"涅斯图魔法灵光|XPHB"
 						],
 						"5": [
-							"Counterspell|XPHB",
-							"Dispel Magic|XPHB"
+							"法术反制|XPHB",
+							"解除魔法|XPHB"
 						],
 						"7": [
-							"Arcane Eye|XPHB",
-							"Leomund's Secret Chest|XPHB"
+							"秘法眼|XPHB",
+							"李欧蒙秘藏箱|XPHB"
 						],
 						"9": [
-							"Bigby's Hand|XPHB",
-							"Teleportation Circle|XPHB"
+							"毕格比之手|XPHB",
+							"传送法阵|XPHB"
 						],
 						"17": [
 							{
-								"choose": "level=6|class=wizard"
+								"choose": "level=6|class=法师"
 							},
 							{
-								"choose": "level=7|class=wizard"
+								"choose": "level=7|class=法师"
 							},
 							{
-								"choose": "level=8|class=wizard"
+								"choose": "level=8|class=法师"
 							},
 							{
-								"choose": "level=9|class=wizard"
+								"choose": "level=9|class=法师"
 							}
 						]
 					},
@@ -146,46 +147,47 @@
 						"3": [
 							{
 								"count": 2,
-								"choose": "level=0|class=wizard"
+								"choose": "level=0|class=法师"
 							}
 						]
 					}
 				}
 			],
 			"subclassSpells": [
-				"Detect Magic|XPHB",
-				"Magic Missile|XPHB",
-				"Magic Weapon|XPHB",
-				"Nystul's Magic Aura|XPHB",
-				"Counterspell|XPHB",
-				"Dispel Magic|XPHB",
-				"Arcane Eye|XPHB",
-				"Leomund's Secret Chest|XPHB",
-				"Bigby's Hand|XPHB",
-				"Teleportation Circle|XPHB"
+				"侦测魔法|XPHB",
+				"魔法飞弹|XPHB",
+				"魔化武器|XPHB",
+				"涅斯图魔法灵光|XPHB",
+				"法术反制|XPHB",
+				"解除魔法|XPHB",
+				"秘法眼|XPHB",
+				"李欧蒙秘藏箱|XPHB",
+				"毕格比之手|XPHB",
+				"传送法阵|XPHB"
 			],
 			"subclassFeatures": [
-				"Arcana Domain|Cleric|XPHB|Arcana|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses",
-				"Dispelling Recovery|Cleric|XPHB|Arcana|XUA2025ArcaneSubclasses|6|XUA2025ArcaneSubclasses",
-				"Arcane Mastery|Cleric|XPHB|Arcana|XUA2025ArcaneSubclasses|17|XUA2025ArcaneSubclasses"
+				"奥秘领域|牧师|XPHB|奥秘|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses",
+				"驱法复原|牧师|XPHB|奥秘|XUA2025ArcaneSubclasses|6|XUA2025ArcaneSubclasses",
+				"奥术精通|牧师|XPHB|奥秘|XUA2025ArcaneSubclasses|17|XUA2025ArcaneSubclasses"
 			],
 			"hasFluff": true
 		},
 		{
-			"name": "Arcane Archer",
-			"shortName": "Arcane Archer",
+			"ENG_name": "Arcane Archer",
+			"name": "魔射手",
+			"shortName": "魔射手",
 			"source": "XUA2025ArcaneSubclasses",
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
 			"page": 2,
 			"reprintedAs": [
-				"Arcane Archer|Fighter|XPHB|XUA2025ArcaneUpdates"
+				"魔射手|战士|XPHB|XUA2025ArcaneUpdates"
 			],
 			"additionalSpells": [
 				{
 					"known": {
 						"3": [
-							"druidcraft|XPHB"
+							"德鲁伊伎俩|XPHB"
 						]
 					},
 					"ability": "int"
@@ -193,22 +195,23 @@
 				{
 					"known": {
 						"3": [
-							"prestidigitation|XPHB"
+							"魔法伎俩|XPHB"
 						]
 					},
 					"ability": "int"
 				}
 			],
 			"subclassSpells": [
-				"druidcraft|XPHB",
-				"prestidigitation|XPHB"
+				"德鲁伊伎俩|XPHB",
+				"魔法伎俩|XPHB"
 			],
 			"optionalfeatureProgression": [
 				{
+					"ENG_name": "Arcane Shot",
+					"name": "奥术射击",
 					"featureType": [
 						"AS"
 					],
-					"name": "Arcane Shot",
 					"progression": {
 						"3": 2,
 						"7": 3,
@@ -219,20 +222,21 @@
 				}
 			],
 			"subclassFeatures": [
-				"Arcane Archer|Fighter|XPHB|Arcane Archer|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses",
-				"Curving Shot|Fighter|XPHB|Arcane Archer|XUA2025ArcaneSubclasses|7|XUA2025ArcaneSubclasses",
-				"Ever Ready Shot|Fighter|XPHB|Arcane Archer|XUA2025ArcaneSubclasses|7|XUA2025ArcaneSubclasses",
-				"Improved Shots|Fighter|XPHB|Arcane Archer|XUA2025ArcaneSubclasses|10|XUA2025ArcaneSubclasses",
-				"Powerful Shots|Fighter|XPHB|Arcane Archer|XUA2025ArcaneSubclasses|15|XUA2025ArcaneSubclasses",
-				"Masterful Shots|Fighter|XPHB|Arcane Archer|XUA2025ArcaneSubclasses|18|XUA2025ArcaneSubclasses"
+				"魔射手|战士|XPHB|魔射手|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses",
+				"曲线射击|战士|XPHB|魔射手|XUA2025ArcaneSubclasses|7|XUA2025ArcaneSubclasses",
+				"魔射手预备射击|战士|XPHB|魔射手|XUA2025ArcaneSubclasses|7|XUA2025ArcaneSubclasses",
+				"强化射击|战士|XPHB|魔射手|XUA2025ArcaneSubclasses|10|XUA2025ArcaneSubclasses",
+				"强力射击|战士|XPHB|魔射手|XUA2025ArcaneSubclasses|15|XUA2025ArcaneSubclasses",
+				"宗师射术|战士|XPHB|魔射手|XUA2025ArcaneSubclasses|18|XUA2025ArcaneSubclasses"
 			],
 			"hasFluff": true
 		},
 		{
-			"name": "Conjurer",
-			"shortName": "Conjurer",
+			"ENG_name": "Conjurer",
+			"name": "咒法师",
+			"shortName": "咒法师",
 			"source": "XUA2025ArcaneSubclasses",
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
 			"page": 7,
 			"additionalSpells": [
@@ -240,49 +244,49 @@
 					"known": {
 						"3": [
 							{
-								"choose": "level=0;1;2|class=wizard|school=c",
+								"choose": "level=0;1;2|class=法师|school=c",
 								"count": 2
 							}
 						],
 						"5": [
 							{
-								"choose": "level=0;1;2;3|class=wizard|school=c",
+								"choose": "level=0;1;2;3|class=法师|school=c",
 								"count": 1
 							}
 						],
 						"7": [
 							{
-								"choose": "level=0;1;2;3;4|class=wizard|school=c",
+								"choose": "level=0;1;2;3;4|class=法师|school=c",
 								"count": 1
 							}
 						],
 						"9": [
 							{
-								"choose": "level=0;1;2;3;4;5|class=wizard|school=c",
+								"choose": "level=0;1;2;3;4;5|class=法师|school=c",
 								"count": 1
 							}
 						],
 						"11": [
 							{
-								"choose": "level=0;1;2;3;4;5;6|class=wizard|school=c",
+								"choose": "level=0;1;2;3;4;5;6|class=法师|school=c",
 								"count": 1
 							}
 						],
 						"13": [
 							{
-								"choose": "level=0;1;2;3;4;5;6;7|class=wizard|school=c",
+								"choose": "level=0;1;2;3;4;5;6;7|class=法师|school=c",
 								"count": 1
 							}
 						],
 						"15": [
 							{
-								"choose": "level=0;1;2;3;4;5;6;7;8|class=wizard|school=c",
+								"choose": "level=0;1;2;3;4;5;6;7;8|class=法师|school=c",
 								"count": 1
 							}
 						],
 						"17": [
 							{
-								"choose": "level=0;1;2;3;4;5;6;7;8;9|class=wizard|school=c",
+								"choose": "level=0;1;2;3;4;5;6;7;8;9|class=法师|school=c",
 								"count": 1
 							}
 						]
@@ -290,19 +294,20 @@
 				}
 			],
 			"subclassFeatures": [
-				"Conjurer|Wizard|XPHB|Conjurer|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses",
-				"Distant Transposition|Wizard|XPHB|Conjurer|XUA2025ArcaneSubclasses|6|XUA2025ArcaneSubclasses",
-				"Durable Summons|Wizard|XPHB|Conjurer|XUA2025ArcaneSubclasses|6|XUA2025ArcaneSubclasses",
-				"Focused Conjuration|Wizard|XPHB|Conjurer|XUA2025ArcaneSubclasses|10|XUA2025ArcaneSubclasses",
-				"Quick Transposition|Wizard|XPHB|Conjurer|XUA2025ArcaneSubclasses|14|XUA2025ArcaneSubclasses"
+				"咒法师|法师|XPHB|咒法师|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses",
+				"远距易位|法师|XPHB|咒法师|XUA2025ArcaneSubclasses|6|XUA2025ArcaneSubclasses",
+				"强韧召唤|法师|XPHB|咒法师|XUA2025ArcaneSubclasses|6|XUA2025ArcaneSubclasses",
+				"咒法专注|法师|XPHB|咒法师|XUA2025ArcaneSubclasses|10|XUA2025ArcaneSubclasses",
+				"快速易位|法师|XPHB|咒法师|XUA2025ArcaneSubclasses|14|XUA2025ArcaneSubclasses"
 			],
 			"hasFluff": true
 		},
 		{
-			"name": "Enchanter",
-			"shortName": "Enchanter",
+			"ENG_name": "Enchanter",
+			"name": "惑控师",
+			"shortName": "惑控师",
 			"source": "XUA2025ArcaneSubclasses",
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
 			"page": 8,
 			"additionalSpells": [
@@ -310,49 +315,49 @@
 					"known": {
 						"3": [
 							{
-								"choose": "level=0;1;2|class=wizard|school=e",
+								"choose": "level=0;1;2|class=法师|school=e",
 								"count": 2
 							}
 						],
 						"5": [
 							{
-								"choose": "level=0;1;2;3|class=wizard|school=e",
+								"choose": "level=0;1;2;3|class=法师|school=e",
 								"count": 1
 							}
 						],
 						"7": [
 							{
-								"choose": "level=0;1;2;3;4|class=wizard|school=e",
+								"choose": "level=0;1;2;3;4|class=法师|school=e",
 								"count": 1
 							}
 						],
 						"9": [
 							{
-								"choose": "level=0;1;2;3;4;5|class=wizard|school=e",
+								"choose": "level=0;1;2;3;4;5|class=法师|school=e",
 								"count": 1
 							}
 						],
 						"11": [
 							{
-								"choose": "level=0;1;2;3;4;5;6|class=wizard|school=e",
+								"choose": "level=0;1;2;3;4;5;6|class=法师|school=e",
 								"count": 1
 							}
 						],
 						"13": [
 							{
-								"choose": "level=0;1;2;3;4;5;6;7|class=wizard|school=e",
+								"choose": "level=0;1;2;3;4;5;6;7|class=法师|school=e",
 								"count": 1
 							}
 						],
 						"15": [
 							{
-								"choose": "level=0;1;2;3;4;5;6;7;8|class=wizard|school=e",
+								"choose": "level=0;1;2;3;4;5;6;7;8|class=法师|school=e",
 								"count": 1
 							}
 						],
 						"17": [
 							{
-								"choose": "level=0;1;2;3;4;5;6;7;8;9|class=wizard|school=e",
+								"choose": "level=0;1;2;3;4;5;6;7;8;9|class=法师|school=e",
 								"count": 1
 							}
 						]
@@ -361,7 +366,7 @@
 						"14": {
 							"daily": {
 								"1e": [
-									"Power Word Fortify|XPHB"
+									"律令巩固|XPHB"
 								]
 							}
 						}
@@ -369,72 +374,74 @@
 				}
 			],
 			"subclassSpells": [
-				"Power Word Fortify|XPHB"
+				"律令巩固|XPHB"
 			],
 			"subclassFeatures": [
-				"Enchanter|Wizard|XPHB|Enchanter|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses",
-				"Reflecting Charm|Wizard|XPHB|Enchanter|XUA2025ArcaneSubclasses|6|XUA2025ArcaneSubclasses",
-				"Split Enchantment|Wizard|XPHB|Enchanter|XUA2025ArcaneSubclasses|10|XUA2025ArcaneSubclasses",
-				"Bolstering Belief|Wizard|XPHB|Enchanter|XUA2025ArcaneSubclasses|14|XUA2025ArcaneSubclasses"
+				"惑控师|法师|XPHB|惑控师|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses",
+				"反射魅惑|法师|XPHB|惑控师|XUA2025ArcaneSubclasses|6|XUA2025ArcaneSubclasses",
+				"分裂惑控|法师|XPHB|惑控师|XUA2025ArcaneSubclasses|10|XUA2025ArcaneSubclasses",
+				"坚定信念|法师|XPHB|惑控师|XUA2025ArcaneSubclasses|14|XUA2025ArcaneSubclasses"
 			],
 			"hasFluff": true
 		},
 		{
-			"name": "Hexblade Patron",
-			"shortName": "Hexblade",
+			"ENG_name": "Hexblade Patron",
+			"name": "咒剑雇主",
+			"shortName": "咒剑",
 			"source": "XUA2025ArcaneSubclasses",
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "XPHB",
 			"page": 6,
 			"additionalSpells": [
 				{
 					"prepared": {
 						"3": [
-							"Arcane Vigor|XPHB",
-							"Hex|XPHB",
-							"Shield|XPHB",
-							"Wrathful Smite|XPHB"
+							"复苏秘法|XPHB",
+							"脆弱诅咒|XPHB",
+							"护盾术|XPHB",
+							"激愤斩|XPHB"
 						],
 						"5": [
-							"Bestow Curse|XPHB",
-							"Conjure Barrage|XPHB"
+							"降咒|XPHB",
+							"箭如雨下|XPHB"
 						],
 						"7": [
-							"Freedom of Movement|XPHB",
-							"Staggering Smite|XPHB"
+							"行动自如|XPHB",
+							"惊惧斩|XPHB"
 						],
 						"9": [
-							"Animate Objects|XPHB",
-							"Steel Wind Strike|XPHB"
+							"活化物件|XPHB",
+							"钢风斩|XPHB"
 						]
 					}
 				}
 			],
 			"subclassSpells": [
-				"Arcane Vigor|XPHB",
-				"Hex|XPHB",
-				"Shield|XPHB",
-				"Wrathful Smite|XPHB",
-				"Bestow Curse|XPHB",
-				"Conjure Barrage|XPHB",
-				"Freedom of Movement|XPHB",
-				"Staggering Smite|XPHB",
-				"Animate Objects|XPHB",
-				"Steel Wind Strike|XPHB"
+				"复苏秘法|XPHB",
+				"脆弱诅咒|XPHB",
+				"护盾术|XPHB",
+				"激愤斩|XPHB",
+				"降咒|XPHB",
+				"箭如雨下|XPHB",
+				"行动自如|XPHB",
+				"惊惧斩|XPHB",
+				"活化物件|XPHB",
+				"钢风斩|XPHB"
 			],
 			"subclassFeatures": [
-				"Hexblade Patron|Warlock|XPHB|Hexblade|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses",
-				"Malign Brutality|Warlock|XPHB|Hexblade|XUA2025ArcaneSubclasses|6|XUA2025ArcaneSubclasses",
-				"Armor of Hexes|Warlock|XPHB|Hexblade|XUA2025ArcaneSubclasses|10|XUA2025ArcaneSubclasses",
-				"Masterful Hex|Warlock|XPHB|Hexblade|XUA2025ArcaneSubclasses|14|XUA2025ArcaneSubclasses"
+				"咒剑雇主|魔契师|XPHB|咒剑|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses",
+				"恶毒残暴|魔契师|XPHB|咒剑|XUA2025ArcaneSubclasses|6|XUA2025ArcaneSubclasses",
+				"巫咒盔甲|魔契师|XPHB|咒剑|XUA2025ArcaneSubclasses|10|XUA2025ArcaneSubclasses",
+				"大师级脆弱诅咒|魔契师|XPHB|咒剑|XUA2025ArcaneSubclasses|14|XUA2025ArcaneSubclasses"
 			],
 			"hasFluff": true
 		},
 		{
-			"name": "Necromancer",
-			"shortName": "Necromancer",
+			"ENG_name": "Necromancer",
+			"name": "死灵师",
+			"shortName": "死灵师",
 			"source": "XUA2025ArcaneSubclasses",
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
 			"page": 9,
 			"additionalSpells": [
@@ -442,49 +449,49 @@
 					"known": {
 						"3": [
 							{
-								"choose": "level=0;1;2|class=wizard|school=n",
+								"choose": "level=0;1;2|class=法师|school=n",
 								"count": 2
 							}
 						],
 						"5": [
 							{
-								"choose": "level=0;1;2;3|class=wizard|school=n",
+								"choose": "level=0;1;2;3|class=法师|school=n",
 								"count": 1
 							}
 						],
 						"7": [
 							{
-								"choose": "level=0;1;2;3;4|class=wizard|school=n",
+								"choose": "level=0;1;2;3;4|class=法师|school=n",
 								"count": 1
 							}
 						],
 						"9": [
 							{
-								"choose": "level=0;1;2;3;4;5|class=wizard|school=n",
+								"choose": "level=0;1;2;3;4;5|class=法师|school=n",
 								"count": 1
 							}
 						],
 						"11": [
 							{
-								"choose": "level=0;1;2;3;4;5;6|class=wizard|school=n",
+								"choose": "level=0;1;2;3;4;5;6|class=法师|school=n",
 								"count": 1
 							}
 						],
 						"13": [
 							{
-								"choose": "level=0;1;2;3;4;5;6;7|class=wizard|school=n",
+								"choose": "level=0;1;2;3;4;5;6;7|class=法师|school=n",
 								"count": 1
 							}
 						],
 						"15": [
 							{
-								"choose": "level=0;1;2;3;4;5;6;7;8|class=wizard|school=n",
+								"choose": "level=0;1;2;3;4;5;6;7;8|class=法师|school=n",
 								"count": 1
 							}
 						],
 						"17": [
 							{
-								"choose": "level=0;1;2;3;4;5;6;7;8;9|class=wizard|school=n",
+								"choose": "level=0;1;2;3;4;5;6;7;8;9|class=法师|school=n",
 								"count": 1
 							}
 						]
@@ -493,7 +500,7 @@
 						"6": {
 							"daily": {
 								"1e": [
-									"Summon Undead|XPHB"
+									"亡灵召唤术|XPHB"
 								]
 							}
 						}
@@ -501,40 +508,42 @@
 				}
 			],
 			"subclassSpells": [
-				"Summon Undead|XPHB"
+				"亡灵召唤术|XPHB"
 			],
 			"subclassFeatures": [
-				"Necromancer|Wizard|XPHB|Necromancer|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses",
-				"Grave Power|Wizard|XPHB|Necromancer|XUA2025ArcaneSubclasses|6|XUA2025ArcaneSubclasses",
-				"Undead Thralls|Wizard|XPHB|Necromancer|XUA2025ArcaneSubclasses|6|XUA2025ArcaneSubclasses",
-				"Undead Secrets|Wizard|XPHB|Necromancer|XUA2025ArcaneSubclasses|10|XUA2025ArcaneSubclasses",
-				"Death's Master|Wizard|XPHB|Necromancer|XUA2025ArcaneSubclasses|14|XUA2025ArcaneSubclasses"
+				"死灵师|法师|XPHB|死灵师|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses",
+				"坟冢之力|法师|XPHB|死灵师|XUA2025ArcaneSubclasses|6|XUA2025ArcaneSubclasses",
+				"亡灵仆役|法师|XPHB|死灵师|XUA2025ArcaneSubclasses|6|XUA2025ArcaneSubclasses",
+				"亡灵秘密|法师|XPHB|死灵师|XUA2025ArcaneSubclasses|10|XUA2025ArcaneSubclasses",
+				"死之尊主|法师|XPHB|死灵师|XUA2025ArcaneSubclasses|14|XUA2025ArcaneSubclasses"
 			],
 			"hasFluff": true
 		},
 		{
-			"name": "Tattooed Warrior",
-			"shortName": "Tattooed Warrior",
+			"ENG_name": "Tattooed Warrior",
+			"name": "纹身武者",
+			"shortName": "纹身武者",
 			"source": "XUA2025ArcaneSubclasses",
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "XPHB",
 			"page": 4,
 			"reprintedAs": [
-				"Tattooed Warrior|Monk|XPHB|XUA2025ArcaneUpdates"
+				"纹身武者|武僧|XPHB|XUA2025ArcaneUpdates"
 			],
 			"subclassFeatures": [
-				"Tattooed Warrior|Monk|XPHB|Tattooed Warrior|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses",
-				"Celestial Tattoo|Monk|XPHB|Tattooed Warrior|XUA2025ArcaneSubclasses|6|XUA2025ArcaneSubclasses",
-				"Nature Tattoo|Monk|XPHB|Tattooed Warrior|XUA2025ArcaneSubclasses|11|XUA2025ArcaneSubclasses",
-				"Monster Tattoo|Monk|XPHB|Tattooed Warrior|XUA2025ArcaneSubclasses|17|XUA2025ArcaneSubclasses"
+				"纹身武者|武僧|XPHB|纹身武者|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses",
+				"天体纹身|武僧|XPHB|纹身武者|XUA2025ArcaneSubclasses|6|XUA2025ArcaneSubclasses",
+				"自然刺青|武僧|XPHB|纹身武者|XUA2025ArcaneSubclasses|11|XUA2025ArcaneSubclasses",
+				"怪物刺青|武僧|XPHB|纹身武者|XUA2025ArcaneSubclasses|17|XUA2025ArcaneSubclasses"
 			],
 			"hasFluff": true
 		},
 		{
-			"name": "Transmuter",
-			"shortName": "Transmuter",
+			"ENG_name": "Transmuter",
+			"name": "变化师",
+			"shortName": "变化师",
 			"source": "XUA2025ArcaneSubclasses",
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
 			"page": 10,
 			"additionalSpells": [
@@ -542,49 +551,49 @@
 					"known": {
 						"3": [
 							{
-								"choose": "level=0;1;2|class=wizard|school=t",
+								"choose": "level=0;1;2|class=法师|school=t",
 								"count": 2
 							}
 						],
 						"5": [
 							{
-								"choose": "level=0;1;2;3|class=wizard|school=t",
+								"choose": "level=0;1;2;3|class=法师|school=t",
 								"count": 1
 							}
 						],
 						"7": [
 							{
-								"choose": "level=0;1;2;3;4|class=wizard|school=t",
+								"choose": "level=0;1;2;3;4|class=法师|school=t",
 								"count": 1
 							}
 						],
 						"9": [
 							{
-								"choose": "level=0;1;2;3;4;5|class=wizard|school=t",
+								"choose": "level=0;1;2;3;4;5|class=法师|school=t",
 								"count": 1
 							}
 						],
 						"11": [
 							{
-								"choose": "level=0;1;2;3;4;5;6|class=wizard|school=t",
+								"choose": "level=0;1;2;3;4;5;6|class=法师|school=t",
 								"count": 1
 							}
 						],
 						"13": [
 							{
-								"choose": "level=0;1;2;3;4;5;6;7|class=wizard|school=t",
+								"choose": "level=0;1;2;3;4;5;6;7|class=法师|school=t",
 								"count": 1
 							}
 						],
 						"15": [
 							{
-								"choose": "level=0;1;2;3;4;5;6;7;8|class=wizard|school=t",
+								"choose": "level=0;1;2;3;4;5;6;7;8|class=法师|school=t",
 								"count": 1
 							}
 						],
 						"17": [
 							{
-								"choose": "level=0;1;2;3;4;5;6;7;8;9|class=wizard|school=t",
+								"choose": "level=0;1;2;3;4;5;6;7;8;9|class=法师|school=t",
 								"count": 1
 							}
 						]
@@ -593,14 +602,14 @@
 						"3": {
 							"daily": {
 								"1e": [
-									"Enhance Ability|XPHB"
+									"强化属性|XPHB"
 								]
 							}
 						},
 						"14": {
 							"daily": {
 								"1e": [
-									"Raise Dead|XPHB"
+									"死者复活|XPHB"
 								]
 							}
 						}
@@ -608,24 +617,25 @@
 				}
 			],
 			"subclassSpells": [
-				"Enhance Ability|XPHB",
-				"Raise Dead|XPHB"
+				"强化属性|XPHB",
+				"死者复活|XPHB"
 			],
 			"subclassFeatures": [
-				"Transmuter|Wizard|XPHB|Transmuter|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses",
-				"Split Transmutation|Wizard|XPHB|Transmuter|XUA2025ArcaneSubclasses|6|XUA2025ArcaneSubclasses",
-				"Potent Stone|Wizard|XPHB|Transmuter|XUA2025ArcaneSubclasses|10|XUA2025ArcaneSubclasses",
-				"Master Transmuter|Wizard|XPHB|Transmuter|XUA2025ArcaneSubclasses|14|XUA2025ArcaneSubclasses"
+				"变化师|法师|XPHB|变化师|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses",
+				"分裂变化|法师|XPHB|变化师|XUA2025ArcaneSubclasses|6|XUA2025ArcaneSubclasses",
+				"强效之石|法师|XPHB|变化师|XUA2025ArcaneSubclasses|10|XUA2025ArcaneSubclasses",
+				"变化宗师|法师|XPHB|变化师|XUA2025ArcaneSubclasses|14|XUA2025ArcaneSubclasses"
 			],
 			"hasFluff": true
 		}
 	],
 	"foundrySubclass": [
 		{
-			"name": "Arcane Archer",
-			"shortName": "Arcane Archer",
+			"ENG_name": "Arcane Archer",
+			"name": "魔射手",
+			"shortName": "魔射手",
 			"source": "XUA2025ArcaneSubclasses",
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
 			"advancement": [
 				{
@@ -652,78 +662,86 @@
 							}
 						}
 					},
-					"title": "Arcane Shot Die"
+					"title": "奥术射击骰"
 				}
 			]
 		}
 	],
 	"subclassFluff": [
 		{
-			"name": "Ancestral Sorcery",
-			"shortName": "Ancestral Sorcery",
+			"ENG_name": "Ancestral Sorcery",
+			"name": "先祖巫术",
+			"shortName": "先祖巫术",
 			"source": "XUA2025ArcaneSubclasses",
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
 			"entries": [
-				"{@i Bear the Power of a Spellcasting Lineage}"
+				"{@i 承载施法血统的法力}"
 			]
 		},
 		{
-			"name": "Arcana Domain",
-			"shortName": "Arcana",
+			"ENG_name": "Arcana Domain",
+			"name": "奥秘领域",
+			"shortName": "奥秘",
 			"source": "XUA2025ArcaneSubclasses",
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "XPHB",
 			"entries": [
-				"{@i Blend Conviction with Arcane Power}",
+				"{@i 融合信念与奥术法力}",
 				{
+					"ENG_name": "Design Note: Arcana Domain Updates",
+					"name": "设计笔记：奥秘领域更新",
 					"type": "inset",
-					"name": "Design Note: Arcana Domain Updates",
 					"page": 1,
 					"entries": [
-						"Here are the main updates in this subclass since its appearance in the {@book Sword Coast Adventurer's Guide|SCAG}:",
+						"这里是该子职自其在{@book 剑湾冒险者指南|SCAG}中出现以来的主要更新：",
 						{
 							"type": "list",
 							"page": 1,
 							"items": [
 								{
+									"ENG_name": "Arcane Domain Spells",
+									"name": "奥术领域法术",
 									"type": "item",
-									"name": "Arcane Domain Spells",
 									"nameDot": false,
 									"entries": [
-										"have been revised."
+										"已被修订。"
 									]
 								},
 								{
+									"ENG_name": "Arcane Initiate",
+									"name": "奥术传承",
 									"type": "item",
-									"name": "Arcane Initiate",
 									"nameDot": false,
 									"entries": [
-										"now gives you {@variantrule Expertise|XPHB} in the {@skill Arcana|XPHB} skill."
+										"现在给予你在{@skill 奥秘|XPHB}技能上的{@variantrule 专精|XPHB}。"
 									]
 								},
 								{
+									"ENG_name": "Modify Magic",
+									"name": "调整魔法",
 									"type": "item",
-									"name": "Modify Magic",
 									"nameDot": false,
 									"entries": [
-										"is a new feature that replaces {@subclassFeature Channel Divinity: Arcane Abjuration|Cleric|PHB|Arcana|SCAG|2|SCAG|Arcane Abjuration}."
+										"是一个新特性，取代了{@subclassFeature 引导神力：奥秘阻绝|牧师|PHB|奥秘|SCAG|2|SCAG|奥术防护}。"
 									]
 								},
 								{
+									"ENG_name": "Dispelling Recovery",
+									"name": "驱法复原",
 									"type": "item",
-									"name": "Dispelling Recovery",
 									"nameDot": false,
 									"entries": [
-										"(formerly named {@subclassFeature Spell Breaker|Cleric|PHB|Arcana|SCAG|6|SCAG}) now uses {@spell Dispel Magic|XPHB} and also triggers when you remove a condition from a creature."
+										"（原名为{@subclassFeature 破法者|牧师|PHB|奥秘|SCAG|6|SCAG}）现在使用{@spell 解除魔法|XPHB}且在你从生物身上移除一个状态时也会触发。"
 									]
 								},
 								{
+									"ENG_name": "Arcane Mastery",
+									"name": "奥术精通",
 									"type": "item",
-									"name": "Arcane Mastery",
 									"nameDot": false,
 									"entries": [
-										"now lets you change the {@class Wizard|XPHB} spells you choose."
+										"现在允许你更换所选择的{@class 法师|XPHB}法术。"
 									]
 								}
 							]
@@ -733,53 +751,59 @@
 			]
 		},
 		{
-			"name": "Arcane Archer",
-			"shortName": "Arcane Archer",
+			"ENG_name": "Arcane Archer",
+			"name": "魔射手",
+			"shortName": "魔射手",
 			"source": "XUA2025ArcaneSubclasses",
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
 			"entries": [
-				"{@i Deploy Magical Effects through Enchanted Ammunition}",
+				"{@i 通过魔法弹药部署魔法效应}",
 				{
+					"ENG_name": "Design Note: Arcane Archer Updates",
+					"name": "设计笔记：魔射手更新",
 					"type": "inset",
-					"name": "Design Note: Arcane Archer Updates",
 					"page": 2,
 					"entries": [
-						"Here are the main updates in this subclass since its appearance in {@book Xanathar's Guide to Everything|XGE}:",
+						"这是该子职自其出现在{@book 珊娜萨的万事指南|XGE}以来的主要更新：",
 						{
 							"type": "list",
 							"page": 2,
 							"items": [
 								{
+									"ENG_name": "Arcane Archer Lore",
+									"name": "魔箭学识",
 									"type": "item",
-									"name": "Arcane Archer Lore",
 									"nameDot": false,
 									"entries": [
-										"now gives you proficiency in both the {@skill Arcana|XPHB} and {@skill Nature|XPHB} skills."
+										"现在使你同时获得{@skill 奥秘|XPHB}和{@skill 自然|XPHB}技能的熟练。"
 									]
 								},
 								{
+									"ENG_name": "Arcane Shot",
+									"name": "奥术射击",
 									"type": "item",
-									"name": "Arcane Shot",
 									"nameDot": false,
 									"entries": [
-										"has been redesigned. The feature now allows you to use any weapon with the {@itemProperty A|XPHB|Ammunition} property. You now use the Arcane Shot Die it grants for extra damage in the options you select."
+										"已被重新设计。该特性现在允许你使用任何具有{@itemProperty A|XPHB|弹药}属性的武器。你现在可以使用它提供的奥术射击骰在你选择的选项中进行额外伤害。"
 									]
 								},
 								{
+									"ENG_name": "Ever Ready Shot",
+									"name": "魔射手预备射击",
 									"type": "item",
-									"name": "Ever Ready Shot",
 									"nameDot": false,
 									"entries": [
-										"is now available at a lower level."
+										"现在可在低层使用。"
 									]
 								},
 								{
+									"ENG_name": "Improved Shots, Powerful Shots, and Masterful Shots",
+									"name": "强化射击、强力射击且大师射击",
 									"type": "item",
-									"name": "Improved Shots, Powerful Shots, and Masterful Shots",
 									"nameDot": false,
 									"entries": [
-										"are new features that improve your Arcane Shot Die. They incorporate prior damage increases to your Arcane Shot options but spread the increases across more levels of play."
+										"是新特性，可以提升你的奥术射击骰。它们整合了先前对奥术射击选项的伤害提升，但将这些提升分散到更多等级中。"
 									]
 								}
 							]
@@ -789,45 +813,50 @@
 			]
 		},
 		{
-			"name": "Conjurer",
-			"shortName": "Conjurer",
+			"ENG_name": "Conjurer",
+			"name": "咒法师",
+			"shortName": "咒法师",
 			"source": "XUA2025ArcaneSubclasses",
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
 			"entries": [
-				"{@i Step Across Space and Call Creatures from Thin Air}",
+				"{@i 缩地成寸，无中生有}",
 				{
+					"ENG_name": "Design Note: Conjurer Updates",
+					"name": "设计笔记：咒法师更新",
 					"type": "inset",
-					"name": "Design Note: Conjurer Updates",
 					"page": 7,
 					"entries": [
-						"Here are the main updates in this subclass since its appearance in the {@book 2014 Player's Handbook|PHB}:",
+						"以下是该子职自其在{@book 2014玩家手册|PHB}中出现以来的主要更新：",
 						{
 							"type": "list",
 							"page": 7,
 							"items": [
 								{
+									"ENG_name": "Benign Transposition",
+									"name": "王车易位",
 									"type": "item",
-									"name": "Benign Transposition",
 									"nameDot": false,
 									"entries": [
-										"is now available at a lower level, and the new {@subclassFeature Distant Transposition|Wizard|XPHB|Conjurer|XUA2025ArcaneSubclasses|6|XUA2025ArcaneSubclasses} and {@subclassFeature Quick Transposition|Wizard|XPHB|Conjurer|XUA2025ArcaneSubclasses|14|XUA2025ArcaneSubclasses|Quick Teleportation} features improve it."
+										"现在可在较低等级使用，且新的{@subclassFeature 远距易位|法师|XPHB|咒法师|XUA2025ArcaneSubclasses|6|XUA2025ArcaneSubclasses}和{@subclassFeature 快速易位|法师|XPHB|咒法师|XUA2025ArcaneSubclasses|14|XUA2025ArcaneSubclasses|快速传送}特性对其进行了改进。"
 									]
 								},
 								{
+									"ENG_name": "Conjuration Savant",
+									"name": "咒法学者",
 									"type": "item",
-									"name": "Conjuration Savant",
 									"nameDot": false,
 									"entries": [
-										"now gives you free Conjuration spells to add to your spellbook."
+										"现在会免费为你提供咒法法术以添加到你的法术书中。"
 									]
 								},
 								{
+									"ENG_name": "Durable Summons",
+									"name": "强韧召唤",
 									"type": "item",
-									"name": "Durable Summons",
 									"nameDot": false,
 									"entries": [
-										"is now available at a lower level, and the {@variantrule Temporary Hit Points|XPHB} it grants are based on your Wizard level."
+										"现在可在较低等级使用，且其授予的{@variantrule 临时生命值|XPHB}基于你的法师等级。"
 									]
 								}
 							]
@@ -837,53 +866,59 @@
 			]
 		},
 		{
-			"name": "Enchanter",
-			"shortName": "Enchanter",
+			"ENG_name": "Enchanter",
+			"name": "惑控师",
+			"shortName": "惑控师",
 			"source": "XUA2025ArcaneSubclasses",
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
 			"entries": [
-				"{@i Entrance and Beguile Others}",
+				"{@i 摄人心神，蛊惑他人}",
 				{
+					"ENG_name": "Design Note: Enchanter Updates",
+					"name": "设计笔记：惑控师更新",
 					"type": "inset",
-					"name": "Design Note: Enchanter Updates",
 					"page": 8,
 					"entries": [
-						"Here are the main updates in this subclass since its appearance in the {@book 2014 Player's Handbook|PHB}:",
+						"以下是该子职自其在{@book 2014玩家手册|PHB}中出现以来的主要更新：",
 						{
 							"type": "list",
 							"page": 8,
 							"items": [
 								{
+									"ENG_name": "Enchantment Savant",
+									"name": "惑控学者",
 									"type": "item",
-									"name": "Enchantment Savant",
 									"nameDot": false,
 									"entries": [
-										"now gives you free Enchantment spells to add to your spellbook."
+										"现在会给你自由惑控法术添加到你的法术书。"
 									]
 								},
 								{
+									"ENG_name": "Enchanting Talker and Vexing Movement",
+									"name": "惑控交涉者与恼人移动",
 									"type": "item",
-									"name": "Enchanting Talker and Vexing Movement",
 									"nameDot": false,
 									"entries": [
-										"are new features that replace {@subclassFeature Hypnotic Gaze|Wizard|PHB|Enchantment|PHB|2|PHB}, giving the Wizard new options to use in and out of combat."
+										"是新特性，取代{@subclassFeature 催眠凝视|法师|PHB|惑控|PHB|2|PHB}，为法师提供战斗内外均可使用的新选项。"
 									]
 								},
 								{
+									"ENG_name": "Reflecting Charm",
+									"name": "反射魅惑",
 									"type": "item",
-									"name": "Reflecting Charm",
 									"nameDot": false,
 									"entries": [
-										"replaces the former {@subclassFeature Instinctive Charm|Wizard|PHB|Enchantment|PHB|6|PHB} feature; instead of compelling an attacker to choose a new target, the feature now reliably reduces the damage you take and might harm the attacker."
+										"替换了先前的{@subclassFeature 直觉魅惑|法师|PHB|惑控|PHB|6|PHB}特性；该特性不再强制攻击手选择新目标，而是可靠地减少你所受的伤害且可能对攻击手造成伤害。"
 									]
 								},
 								{
+									"ENG_name": "Bolstering Belief",
+									"name": "坚定信念",
 									"type": "item",
-									"name": "Bolstering Belief",
 									"nameDot": false,
 									"entries": [
-										"is a new feature to aid yourself and allies in many situations."
+										"是一个新特性，可在许多情况下援助你自己和盟友。"
 									]
 								}
 							]
@@ -893,69 +928,77 @@
 			]
 		},
 		{
-			"name": "Hexblade Patron",
-			"shortName": "Hexblade",
+			"ENG_name": "Hexblade Patron",
+			"name": "咒剑雇主",
+			"shortName": "咒剑",
 			"source": "XUA2025ArcaneSubclasses",
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "XPHB",
 			"entries": [
-				"{@i Forge a Pact with a Cursed Blade}",
+				"{@i 与诅咒之刃缔结契约}",
 				{
+					"ENG_name": "Design Note: Hexblade Patron Updates",
+					"name": "设计笔记：咒剑雇主更新",
 					"type": "inset",
-					"name": "Design Note: Hexblade Patron Updates",
 					"page": 2,
 					"entries": [
-						"Here are the main updates in this subclass since its {@class Warlock|XPHB|latest appearance in Unearthed Arcana|Hexblade|XUA2025HorrorSubclasses}:",
+						"以下是该子职自{@class 魔契师|XPHB|破解奥秘中的最新外貌|咒剑|XUA2025HorrorSubclasses}以来的主要更新：",
 						{
 							"type": "list",
 							"page": 6,
 							"items": [
 								{
+									"ENG_name": "Hexblade Spells",
+									"name": "咒剑法术",
 									"type": "item",
-									"name": "Hexblade Spells",
 									"nameDot": false,
 									"entries": [
-										"have been revised."
+										"已被修订。"
 									]
 								},
 								{
+									"ENG_name": "Hexblade's Curse",
+									"name": "咒剑诅咒",
 									"type": "item",
-									"name": "Hexblade's Curse",
 									"nameDot": false,
 									"entries": [
-										"has returned as a feature in its own right but can also loop through spells that place a curse on a creature, such as {@spell Bestow Curse|XPHB} and {@spell Hex|XPHB}. Hungering Hex has been moved to this level, and Accursed Shield is a new feature."
+										"已作为一个独立特性回归，但也可以通过诸如{@spell 降咒|XPHB}和{@spell 脆弱诅咒|XPHB}等对生物施加诅咒的法术循环。饥渴诅咒已移至该等级，而诅咒护盾是一个新特性。"
 									]
 								},
 								{
+									"ENG_name": "Unyielding Will",
+									"name": "不可撼动意志",
 									"type": "item",
-									"name": "Unyielding Will",
 									"nameDot": false,
 									"entries": [
-										"is a new feature that grants you benefits when maintaining {@status Concentration|XPHB} on spells."
+										"是一个新特性，当你在法术上维持{@status 专注|XPHB}时，会给予你增益。"
 									]
 								},
 								{
+									"ENG_name": "Malign Brutality",
+									"name": "恶毒残暴",
 									"type": "item",
-									"name": "Malign Brutality",
 									"nameDot": false,
 									"entries": [
-										"is a new feature that gives you additional benefits. Hindering Curse (formerly the Stymying Mark maneuver) has been moved here."
+										"是一个新特性，为你提供额外增益。阻碍诅咒（原为Stymying Mark战技）已被移动到这里。"
 									]
 								},
 								{
+									"ENG_name": "Armor of Hexes",
+									"name": "巫咒盔甲",
 									"type": "item",
-									"name": "Armor of Hexes",
 									"nameDot": false,
 									"entries": [
-										"no longer has limited uses and scales with your Warlock level."
+										"不再有使用次数限制且会随着你的魔契师等级提升。"
 									]
 								},
 								{
+									"ENG_name": "Masterful Hex",
+									"name": "大师级脆弱诅咒",
 									"type": "item",
-									"name": "Masterful Hex",
 									"nameDot": false,
 									"entries": [
-										"now increases the power and usability of the updated Hexblade's Curse feature."
+										"现在增强了更新后的咒剑诅咒特性的法力和可用性。"
 									]
 								}
 							]
@@ -965,53 +1008,59 @@
 			]
 		},
 		{
-			"name": "Necromancer",
-			"shortName": "Necromancer",
+			"ENG_name": "Necromancer",
+			"name": "死灵师",
+			"shortName": "死灵师",
 			"source": "XUA2025ArcaneSubclasses",
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
 			"entries": [
-				"{@i Command the Powers of Death and Undeath}",
+				"{@i 死亡与不朽之主宰}",
 				{
+					"ENG_name": "Design Note: Necromancer Updates",
+					"name": "设计笔记：死灵师更新",
 					"type": "inset",
-					"name": "Design Note: Necromancer Updates",
 					"page": 9,
 					"entries": [
-						"Here are the main updates in this subclass since its appearance in the {@book 2014 Player's Handbook|PHB}:",
+						"以下是该子职自其在{@book 2014玩家手册|PHB}中出现以来的主要更新：",
 						{
 							"type": "list",
 							"page": 9,
 							"items": [
 								{
+									"ENG_name": "Necromancy Savant",
+									"name": "死灵学者",
 									"type": "item",
-									"name": "Necromancy Savant",
 									"nameDot": false,
 									"entries": [
-										"now gives you free Necromancy spells to add to your spellbook."
+										"现在会给予你免费的死灵法术添加到你的法术书中。"
 									]
 								},
 								{
+									"ENG_name": "Necromancy Spellbook",
+									"name": "死灵魔典",
 									"type": "item",
-									"name": "Necromancy Spellbook",
 									"nameDot": false,
 									"entries": [
-										"is a new feature that incorporates a redesigned version of the prior {@subclassFeature Grim Harvest|Wizard|PHB|Necromancy|PHB|2|PHB} feature."
+										"是一个新特性，整合了重新设计的先前{@subclassFeature 惧怖收割|法师|PHB|死灵|PHB|2|PHB}特性。"
 									]
 								},
 								{
+									"ENG_name": "Grave Power, Undead Secrets, and Death's Master",
+									"name": "坟墓法力、亡灵秘密与死亡大师",
 									"type": "item",
-									"name": "Grave Power, Undead Secrets, and Death's Master",
 									"nameDot": false,
 									"entries": [
-										"are new features."
+										"是新特性。"
 									]
 								},
 								{
+									"ENG_name": "Undead Thralls",
+									"name": "亡灵仆役",
 									"type": "item",
-									"name": "Undead Thralls",
 									"nameDot": false,
 									"entries": [
-										"has been redesigned to utilize the {@spell Summon Undead|XPHB} spell."
+										"已被重新设计为操作{@spell 亡灵召唤术|XPHB}法术。"
 									]
 								}
 							]
@@ -1021,71 +1070,79 @@
 			]
 		},
 		{
-			"name": "Tattooed Warrior",
-			"shortName": "Tattooed Warrior",
+			"ENG_name": "Tattooed Warrior",
+			"name": "纹身武者",
+			"shortName": "纹身武者",
 			"source": "XUA2025ArcaneSubclasses",
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "XPHB",
 			"entries": [
-				"{@i Enhance Martial Arts with Your Magic Tattoos}"
+				"{@i 用你的魔法文身增强武艺}"
 			]
 		},
 		{
-			"name": "Transmuter",
-			"shortName": "Transmuter",
+			"ENG_name": "Transmuter",
+			"name": "变化师",
+			"shortName": "变化师",
 			"source": "XUA2025ArcaneSubclasses",
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
 			"entries": [
-				"{@i Transform Energy and Matter}",
+				"{@i 重构能量和物质}",
 				{
+					"ENG_name": "Design Note: Transmuter Updates",
+					"name": "设计笔记：变化师更新",
 					"type": "inset",
-					"name": "Design Note: Transmuter Updates",
 					"page": 10,
 					"entries": [
-						"Here are the main updates in this subclass since its appearance in the {@book 2014 Player's Handbook|PHB}:",
+						"以下是该子职自其在{@book 2014玩家手册|PHB}中出现以来的主要更新：",
 						{
 							"type": "list",
 							"page": 10,
 							"items": [
 								{
+									"ENG_name": "Transmutation Savant",
+									"name": "变化学者",
 									"type": "item",
-									"name": "Transmutation Savant",
 									"nameDot": false,
 									"entries": [
-										"now gives you free Transmutation spells to add to your spellbook."
+										"现在会给予你自由的变化法术添加到你的法术书。"
 									]
 								},
 								{
+									"ENG_name": "Transmuter's Stone",
+									"name": "变化师之石",
 									"type": "item",
-									"name": "Transmuter's Stone",
 									"nameDot": false,
 									"entries": [
-										"is now available at a lower level. You create the stone when you finish a {@variantrule Long Rest|XPHB}."
+										"现在在低层即可使用。你在完成一次{@variantrule 长休|XPHB}时创造该岩石。"
 									]
 								},
 								{
+									"ENG_name": "Wondrous Enhancement and Split Transmutation",
+									"name": "奇妙增强与分裂变化",
 									"type": "item",
-									"name": "Wondrous Enhancement and Split Transmutation",
 									"nameDot": false,
 									"entries": [
-										"are new features."
+										"是新特性。"
 									]
 								},
 								{
+									"ENG_name": "Potent Stone",
+									"name": "强效之石",
 									"type": "item",
-									"name": "Potent Stone",
 									"nameDot": false,
 									"entries": [
-										"is a new feature that gives you more options with your transmuter's stone."
+										"是一个新特性，让你在使用变化师之石时有更多选择。"
 									]
 								},
 								{
+									"ENG_name": "Master Transmuter",
+									"name": "变化宗师",
 									"type": "item",
-									"name": "Master Transmuter",
 									"nameDot": false,
 									"entries": [
-										"is revised; its Panacea choice now restores {@variantrule Hit Points|XPHB} and can remove a curse."
+										"被修订；其万灵秘药选项现在恢复{@variantrule 生命值|XPHB}且可以移除一个诅咒。"
 									]
 								}
 							]
@@ -1097,1280 +1154,1365 @@
 	],
 	"subclassFeature": [
 		{
-			"name": "Arcana Domain",
+			"ENG_name": "Arcana Domain",
+			"name": "奥秘领域",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 1,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "XPHB",
-			"subclassShortName": "Arcana",
+			"subclassShortName": "奥秘",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Magic suffuses the multiverse and fuels both destruction and creation. Clerics with this domain view magical knowledge not as power to be used in pursuit of personal ends, but as a gift they have the responsibility to share.",
-				"Gods associated with the Arcana Domain know the secrets and potential of magic intimately. These gods are often connected to knowledge, as learning and arcane power tend to go hand-in-hand, or to secrecy or power.",
+				"魔法弥漫于多元宇宙且同时为毁灭与创造提供能量。选择此领域的牧师将魔法知识视为一种他们有责任分享的赠礼，而非用于追求个人目的的法力。",
+				"与奥秘领域相关的神祇深知魔法之秘密与潜力。这些神祇常与知识相连，因学习与奥术法力往往相辅相成，或与隐秘或力量相关。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Arcana Domain Spells|Cleric|XPHB|Arcana|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
+					"subclassFeature": "奥秘领域法术|牧师|XPHB|奥秘|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Arcane Initiate|Cleric|XPHB|Arcana|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
+					"subclassFeature": "奥术传承|牧师|XPHB|奥秘|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Modify Magic|Cleric|XPHB|Arcana|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
+					"subclassFeature": "调整魔法|牧师|XPHB|奥秘|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
 				}
 			]
 		},
 		{
-			"name": "Arcana Domain Spells",
+			"ENG_name": "Arcana Domain Spells",
+			"name": "奥秘领域法术",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 1,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "XPHB",
-			"subclassShortName": "Arcana",
+			"subclassShortName": "奥秘",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Your connection to this divine domain means you always have certain spells ready. When you reach a Cleric level specified in the {@table Arcana Domain Spells|XUA2025ArcaneSubclasses} table, you thereafter always have the listed spells prepared.",
+				"你与这个神圣领域的联系意味着你总是预备着某些法术。当你达到{@table 奥秘领域法术|XUA2025ArcaneSubclasses}表格中指定的牧师等级时，你此后总是准备着列出的法术。",
 				{
+					"ENG_name": "Arcana Domain Spells",
+					"name": "奥秘领域法术",
 					"type": "statblock",
 					"tag": "table",
-					"name": "Arcana Domain Spells",
 					"source": "XUA2025ArcaneSubclasses",
 					"page": 2
 				}
 			]
 		},
 		{
-			"name": "Arcane Initiate",
+			"ENG_name": "Arcane Initiate",
+			"name": "奥术传承",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 2,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "XPHB",
-			"subclassShortName": "Arcana",
+			"subclassShortName": "奥秘",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Arcane Knowledge",
+					"name": "奥术知识",
 					"type": "entries",
-					"name": "Arcane Knowledge",
 					"page": 2,
 					"entries": [
-						"You gain proficiency in the {@skill Arcana|XPHB} skill if you don't have it already. You also gain {@variantrule Expertise|XPHB} in the {@skill Arcana|XPHB} skill."
+						"如果你尚未拥有{@skill 奥秘|XPHB}技能的熟练项，则获得该熟练项。你还将获得{@skill 奥秘|XPHB}技能的{@variantrule 专精|XPHB}。"
 					]
 				},
 				{
+					"ENG_name": "Cantrips",
+					"name": "戏法",
 					"type": "entries",
-					"name": "Cantrips",
 					"page": 2,
 					"entries": [
-						"You learn {@filter two Wizard cantrips|spells|level=0|class=wizard} of your choice. Whenever you gain a Cleric level, you can replace one of these cantrips with another Wizard cantrip."
+						"你习得二个自选的{@filter 二个法师戏法|spells|level=0|class=法师}。每当你提升一个牧师等级时，你可以将这些戏法中的一个替换为另一个法师戏法。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Modify Magic",
+			"ENG_name": "Modify Magic",
+			"name": "调整魔法",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 2,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "XPHB",
-			"subclassShortName": "Arcana",
+			"subclassShortName": "奥秘",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"You can use your {@classFeature Channel Divinity|Cleric|XPHB|2|XPHB} to alter your spells as you cast them. When you cast a spell, you can expend one use of your {@classFeature Channel Divinity|Cleric|XPHB|2|XPHB} and change the spell in one of the following ways (no action required).",
+				"你可以使用你的{@classFeature 引导神力|牧师|XPHB|2|XPHB}来在你施放法术时改变它们。当你施法时，你可以消耗一次你的{@classFeature 引导神力|牧师|XPHB|2|XPHB}并以以下方式之一变化该法术（无需动作）。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Fortifying Spell|Cleric|XPHB|Arcana|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
+					"subclassFeature": "巩固法术|牧师|XPHB|奥秘|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tenacious Spell|Cleric|XPHB|Arcana|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
+					"subclassFeature": "稳固法术|牧师|XPHB|奥秘|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
 				}
 			]
 		},
 		{
-			"name": "Fortifying Spell",
+			"ENG_name": "Fortifying Spell",
+			"name": "巩固法术",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 2,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "XPHB",
-			"subclassShortName": "Arcana",
+			"subclassShortName": "奥秘",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"header": 3,
 			"consumes": {
-				"name": "Channel Divinity"
+				"ENG_name": "Channel Divinity",
+				"name": "引导神力"
 			},
 			"entries": [
-				"One target of the spell gains a number of {@variantrule Temporary Hit Points|XPHB} equal to {@dice 2d8} plus your Cleric level."
+				"此法术的其中一个目标获得等于{@dice 2d8}加你的牧师等级的{@variantrule 临时生命值|XPHB}。"
 			]
 		},
 		{
-			"name": "Tenacious Spell",
+			"ENG_name": "Tenacious Spell",
+			"name": "稳固法术",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 2,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "XPHB",
-			"subclassShortName": "Arcana",
+			"subclassShortName": "奥秘",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"header": 3,
 			"consumes": {
-				"name": "Channel Divinity"
+				"ENG_name": "Channel Divinity",
+				"name": "引导神力"
 			},
 			"entries": [
-				"When you cast a spell that forces a creature to make a saving throw, choose one target of the spell you can see. Roll {@dice 1d6} and apply the number rolled as a penalty to the target's saving throw."
+				"当你施放一个迫使生物进行豁免检定的法术时，选择一个你能看见的法术目标。掷{@dice 1d6}并将掷出的数值作为目标豁免检定的减值。"
 			]
 		},
 		{
-			"name": "Dispelling Recovery",
+			"ENG_name": "Dispelling Recovery",
+			"name": "驱法复原",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 2,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "XPHB",
-			"subclassShortName": "Arcana",
+			"subclassShortName": "奥秘",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Immediately after you cast a spell with a spell slot that restores {@variantrule Hit Points|XPHB} to a creature or ends a condition on a creature, you can cast {@spell Dispel Magic|XPHB} on the creature as a {@variantrule Bonus Action|XPHB} without expending a spell slot.",
-				"You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+				"当你施放一个使用法术位并恢复生物{@variantrule 生命值|XPHB}或结束生物状态的的法术后，你可以立即以{@variantrule 附赠动作|XPHB}对该生物施放{@spell 解除魔法|XPHB}且不消耗法术位。",
+				"你可以使用该特性的次数等同于你的感知调整值（最少 1 次）。你在完成一次{@variantrule 长休|XPHB}时重获所有已消耗的使用次数。"
 			]
 		},
 		{
-			"name": "Arcane Mastery",
+			"ENG_name": "Arcane Mastery",
+			"name": "奥术精通",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 2,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "XPHB",
-			"subclassShortName": "Arcana",
+			"subclassShortName": "奥秘",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"You learn four Wizard spells, one from each of levels {@filter 6|spells|level=6|class=wizard}, {@filter 7|spells|level=7|class=wizard}, {@filter 8|spells|level=8|class=wizard}, and {@filter 9|spells|level=9|class=wizard}. You thereafter always have those spells prepared. Whenever you gain a Cleric level, you can replace one of these spells with another Wizard spell of the same level."
+				"你学会四个法师法术，分别来自{@filter 6|spells|level=6|class=法师}、{@filter 7|spells|level=7|class=法师}、{@filter 8|spells|level=8|class=法师}和{@filter 9|spells|level=9|class=法师}等级。此后你总是准备着这些法术。每当你提升一个牧师等级时，你可以用同等级的另一个法师法术替换其中一个法术。"
 			]
 		},
 		{
-			"name": "Arcane Archer",
+			"ENG_name": "Arcane Archer",
+			"name": "魔射手",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 2,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Arcane Archer",
+			"subclassShortName": "魔射手",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"An Arcane Archer studies a unique elven method of archery that weaves magic into attacks to produce supernatural effects. The first Arcane Archers stood watch over their communities, keeping a keen eye out for dangers and using magic-infused arrows to defeat monsters and invaders. Over the centuries, other species have learned the elves' mystical methods of blending arcane aptitude with archery and broadened their application to ranged weapons of many kinds while applying those talents to an adventuring life.",
+				"魔射手研究一种独特的精灵箭术方法，将魔法编织入攻击中以产生超自然效应。第一批魔射手守卫着他们的社区，敏锐地监视危险并使用魔法灌注的箭矢击败怪物和侵略战争。几个世纪以来，其他种族学会了精灵将奥术天赋与箭术结合的神秘方法，并将其应用范围扩展到多种远程武器，同时将这些才能运用于冒险生命。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Arcane Archer Lore|Fighter|XPHB|Arcane Archer|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
+					"subclassFeature": "魔箭学识|战士|XPHB|魔射手|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Arcane Shot|Fighter|XPHB|Arcane Archer|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
+					"subclassFeature": "奥术射击|战士|XPHB|魔射手|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Arcane Shot Options|Fighter|XPHB|Arcane Archer|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
+					"subclassFeature": "奥术射击选项|战士|XPHB|魔射手|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
 				}
 			]
 		},
 		{
-			"name": "Arcane Archer Lore",
+			"ENG_name": "Arcane Archer Lore",
+			"name": "魔箭学识",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 2,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Arcane Archer",
+			"subclassShortName": "魔射手",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"You learn magical theory and secrets of nature, granting you the following benefits.",
+				"你学习了魔法理论和自然的隐秘，赋予你以下增益。",
 				{
+					"ENG_name": "Cantrip",
+					"name": "戏法",
 					"type": "entries",
-					"name": "Cantrip",
 					"page": 2,
 					"entries": [
-						"You know either the {@spell Druidcraft|XPHB} or {@spell Prestidigitation|XPHB} cantrip. Intelligence is your spellcasting ability for it."
+						"你知晓{@spell 德鲁伊伎俩|XPHB}或{@spell 魔法伎俩|XPHB}戏法。智力是你施展该法术的施法属性。"
 					]
 				},
 				{
+					"ENG_name": "Skills",
+					"name": "技能",
 					"type": "entries",
-					"name": "Skills",
 					"page": 2,
 					"entries": [
-						"You gain proficiency in the {@skill Arcana|XPHB} and {@skill Nature|XPHB} skills. If you already have one of these proficiencies, you instead gain proficiency in a different skill of your choice (or with two other skills if you have both)."
+						"你获得{@skill 奥秘|XPHB}和{@skill 自然|XPHB}技能的熟练项。若你已拥有其中一项熟练项，则改为获得一个自选的其他技能的熟练项（若两项均已拥有，则可获得两项其他技能的熟练项）。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Arcane Shot",
+			"ENG_name": "Arcane Shot",
+			"name": "奥术射击",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 2,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Arcane Archer",
+			"subclassShortName": "魔射手",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"You learn to unleash special magical effects with some of your shots.",
+				"你学会用一些射击释放特殊魔法效应。",
 				{
+					"ENG_name": "Arcane Shot Options",
+					"name": "奥术射击选项",
 					"type": "entries",
-					"name": "Arcane Shot Options",
 					"page": 2,
 					"entries": [
-						"You learn two Arcane Shot options of your choice from the \"{@subclassFeature Arcane Shot Options|Fighter|XPHB|Arcane Archer|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses}\" section later in this subclass's description.",
-						"You learn an additional Arcane Shot option of your choice when you reach Fighter levels 7, 10, 15, and 18. Each time you learn a new Arcane Shot option, you can also replace one option you know with a different one."
+						"你从本子职描述后文的「{@subclassFeature 奥术射击选项|战士|XPHB|魔射手|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses}」章节中选择两个奥术射击选项。",
+						"当你达到战士7级、10级、15级和18级时，你可以选择一个额外的奥术射击选项。每次你学习一个新的奥术射击选项时，你还可以将一个已知选项替换为另一个不同的选项。"
 					]
 				},
 				{
+					"ENG_name": "Using Arcane Shot",
+					"name": "使用奥术射击",
 					"type": "entries",
-					"name": "Using Arcane Shot",
 					"page": 3,
 					"entries": [
-						"Once per turn when you make a ranged attack using a weapon with the {@itemProperty A|XPHB|Ammunition} property, you can apply one of your Arcane Shot options to that attack. You decide to use the option when you hit a creature and deal damage to it unless the option doesn't involve an attack roll.",
-						"You can use this feature a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+						"每回合一次，当你使用具有{@itemProperty A|XPHB|弹药}属性的武器进行远程攻击时，你可以将一个奥术射击选项应用于该攻击。你会在命中生物且造成伤害时决定使用该选项，除非该选项不涉及攻击检定。",
+						"你可以使用该特性的次数等于你的智力调整值（至少1次）。当你完成{@variantrule 短休|XPHB|短}或{@variantrule 长休|XPHB}时，重获所有已消耗的使用次数。"
 					]
 				},
 				{
+					"ENG_name": "Arcane Shot Die",
+					"name": "奥术射击骰",
 					"type": "entries",
-					"name": "Arcane Shot Die",
 					"page": 3,
 					"entries": [
-						"Arcane Shot options refer to your Arcane Shot Die. Your Arcane Shot Die is a {@dice d6}."
+						"奥术射击选项依赖你的奥术射击骰，你的奥术射击骰为{@dice d6}。"
 					]
 				},
 				{
+					"ENG_name": "Saving Throws",
+					"name": "豁免检定",
 					"type": "entries",
-					"name": "Saving Throws",
 					"page": 3,
 					"entries": [
-						"If an Arcane Shot option requires a saving throw, the DC equals 8 plus your Intelligence modifier plus your {@variantrule Proficiency|XPHB|Proficiency Bonus}."
+						"如果一个奥术射击选项需要豁免检定，DC等于8加上你的智力调整值加上你的{@variantrule 熟练|XPHB|熟练加值}。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Arcane Shot Options",
+			"ENG_name": "Arcane Shot Options",
+			"name": "奥术射击选项",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 3,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Arcane Archer",
+			"subclassShortName": "魔射手",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"The Arcane Shot options are presented here in alphabetical order.",
+				"奥术射击选项在这里按字母顺序排列。",
 				{
 					"type": "options",
 					"entries": [
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Banishing Shot|XUA2025ArcaneSubclasses"
+							"optionalfeature": "放逐弹|XUA2025ArcaneSubclasses"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Beguiling Shot|XUA2025ArcaneSubclasses"
+							"optionalfeature": "欺诈弹|XUA2025ArcaneSubclasses"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Bursting Shot|XUA2025ArcaneSubclasses"
+							"optionalfeature": "爆裂弹|XUA2025ArcaneSubclasses"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Enfeebling Shot|XUA2025ArcaneSubclasses"
+							"optionalfeature": "虚弱弹|XUA2025ArcaneSubclasses"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Grasping Shot|XUA2025ArcaneSubclasses"
+							"optionalfeature": "缠绕弹|XUA2025ArcaneSubclasses"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Piercing Shot|XUA2025ArcaneSubclasses"
+							"optionalfeature": "穿梭射击|XUA2025ArcaneSubclasses"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Seeking Shot|XUA2025ArcaneSubclasses"
+							"optionalfeature": "追踪弹|XUA2025ArcaneSubclasses"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Shadow Shot|XUA2025ArcaneSubclasses"
+							"optionalfeature": "遮影弹|XUA2025ArcaneSubclasses"
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "Curving Shot",
+			"ENG_name": "Curving Shot",
+			"name": "曲线射击",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 3,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Arcane Archer",
+			"subclassShortName": "魔射手",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"You learn how to direct an errant shot toward a new target. If you make an attack roll with a weapon with the {@itemProperty A|XPHB|Ammunition} property and miss, as a {@variantrule Bonus Action|XPHB} immediately after the attack, you can make an extra attack with the same weapon against a different target that you can see, that is within the weapon's long range, and that isn't behind {@variantrule Cover|XPHB|Total Cover}. This extra attack doesn't require ammunition."
+				"你学会如何将偏离的射击导向一个新目标。如果你用具有{@itemProperty A|XPHB|弹药}属性的武器进行攻击检定且未命中，可以在攻击后立即以一个{@variantrule 附赠动作|XPHB}，用同一武器对你能看见的另一个目标进行额外攻击，该目标必须在武器的长射程范围内且不处于{@variantrule 掩护|XPHB|全身掩护}。这次额外攻击不需要弹药。"
 			]
 		},
 		{
-			"name": "Ever Ready Shot",
+			"ENG_name": "Ever Ready Shot",
+			"name": "魔射手预备射击",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 3,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Arcane Archer",
+			"subclassShortName": "魔射手",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"When you roll {@variantrule Initiative|XPHB} and have no uses of Arcane Shot left, you regain one expended use of it."
+				"当你掷{@variantrule 先攻|XPHB}且没有剩余的奥术射击使用时，你恢复一个已消耗的使用次数。"
 			]
 		},
 		{
-			"name": "Improved Shots",
+			"ENG_name": "Improved Shots",
+			"name": "强化射击",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 3,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Arcane Archer",
+			"subclassShortName": "魔射手",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Your Arcane Shot Die becomes a {@dice d8}."
+				"你的奥术射击骰变为{@dice d8}。"
 			]
 		},
 		{
-			"name": "Powerful Shots",
+			"ENG_name": "Powerful Shots",
+			"name": "强力射击",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 3,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Arcane Archer",
+			"subclassShortName": "魔射手",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Your Arcane Shot Die becomes a {@dice d10}."
+				"你的奥术射击骰变为{@dice d10}。"
 			]
 		},
 		{
-			"name": "Masterful Shots",
+			"ENG_name": "Masterful Shots",
+			"name": "宗师射术",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 3,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Arcane Archer",
+			"subclassShortName": "魔射手",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"Your Arcane Shot Die becomes a {@dice d12}."
+				"你的奥术射击骰变为{@dice d12}。"
 			]
 		},
 		{
-			"name": "Tattooed Warrior",
+			"ENG_name": "Tattooed Warrior",
+			"name": "纹身武者",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 4,
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "Tattooed Warrior",
+			"subclassShortName": "纹身武者",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Drawing from diverse body-marking traditions from across the multiverse, Tattooed Warriors can use arcane power imbued in their magic tattoos. These Monks gain tattoos as they grow in martial prowess and insight. Tattooed Warriors can cause their tattoos to change shape to access a versatile suite of physical and magical effects to overcome foes.",
+				"汲取多元宇宙中多样的身体标记传统，纹身武者能够使用注入其魔法文身中的奥术法力。这些武僧随着军事实力且洞悉的增长而获得纹身。纹身武者能让他们的纹身变形以获取多用的物理和魔法效应来战胜敌人。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Magic Tattoos|Monk|XPHB|Tattooed Warrior|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
+					"subclassFeature": "魔法文身|武僧|XPHB|纹身武者|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Beast Tattoos|Monk|XPHB|Tattooed Warrior|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
+					"subclassFeature": "野兽纹身|武僧|XPHB|纹身武者|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
 				}
 			]
 		},
 		{
-			"name": "Beast Tattoos",
+			"ENG_name": "Beast Tattoos",
+			"name": "野兽纹身",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 4,
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "Tattooed Warrior",
+			"subclassShortName": "纹身武者",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"You gain two animal tattoos. Choose two tattoos from the following options.",
+				"你获得两个动物纹身。从以下选项中选择两项纹身。",
 				{
 					"type": "options",
 					"count": 2,
 					"entries": [
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Bat|XUA2025ArcaneSubclasses"
+							"optionalfeature": "蝙蝠|XUA2025ArcaneSubclasses"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Butterfly|XUA2025ArcaneSubclasses"
+							"optionalfeature": "蝴蝶|XUA2025ArcaneSubclasses"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Chameleon|XUA2025ArcaneSubclasses"
+							"optionalfeature": "变色龙|XUA2025ArcaneSubclasses"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Crane|XUA2025ArcaneSubclasses"
+							"optionalfeature": "起重机|XUA2025ArcaneSubclasses"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Horse|XUA2025ArcaneSubclasses"
+							"optionalfeature": "马|XUA2025ArcaneSubclasses"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Spider|XUA2025ArcaneSubclasses"
+							"optionalfeature": "蜘蛛|XUA2025ArcaneSubclasses"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Tortoise|XUA2025ArcaneSubclasses"
+							"optionalfeature": "陆龟|XUA2025ArcaneSubclasses"
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "Magic Tattoos",
+			"ENG_name": "Magic Tattoos",
+			"name": "魔法文身",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 4,
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "Tattooed Warrior",
+			"subclassShortName": "纹身武者",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"You gain the magic tattoos described by other features of this subclass. The tattoos appear on your body wherever you wish. Damage or injury doesn't impair your magic tattoos' function. A magic tattoo's depiction can look like a brand, scarification, a birthmark, patterns of scale, or any other cosmetic alteration.",
-				"If a tattoo's effect requires a saving throw, the DC equals 8 plus your Wisdom modifier plus your {@variantrule Proficiency|XPHB|Proficiency Bonus}. Your spellcasting ability for spells granted by a tattoo is Wisdom.",
-				"Whenever you finish a {@variantrule Long Rest|XPHB}, you can reshape one of your magic tattoos, changing the option you chose from one list to another option on the same list."
+				"你获得本子职其他特性所描述的魔法文身。这些文身可以出现在你身体上任何你希望的位置。伤害或伤口不会影响魔法文身的功能。魔法文身的描绘可以看起来像烙印、瘢痕、胎记、鳞片图案或任何其他外观上的改变。",
+				"如果一个文身的效应需要进行豁免检定，DC等于8加上你的感知调整值加上你的{@variantrule 熟练|XPHB|熟练加值}。文身授予法术的施法属性为感知。",
+				"每当你完成一次{@variantrule 长休|XPHB}时，你可以重塑一个魔法文身，将你从某个列表中选择的选项更改为同一列表中的另一个选项。"
 			]
 		},
 		{
-			"name": "Celestial Tattoo",
+			"ENG_name": "Celestial Tattoo",
+			"name": "天体纹身",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 4,
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "Tattooed Warrior",
+			"subclassShortName": "纹身武者",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"You gain an additional magic tattoo depicting a celestial phenomenon. Choose a tattoo from the following options.",
+				"你获得一个额外的描绘天界现象的魔法刺青。从以下选项中选择一个刺青。",
 				{
 					"type": "options",
 					"count": 1,
 					"entries": [
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Comet|XUA2025ArcaneSubclasses"
+							"optionalfeature": "彗星|XUA2025ArcaneSubclasses"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Crescent Moon|XUA2025ArcaneSubclasses"
+							"optionalfeature": "新月|XUA2025ArcaneSubclasses"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Eclipse|XUA2025ArcaneSubclasses"
+							"optionalfeature": "蚀|XUA2025ArcaneSubclasses"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Sunburst|XUA2025ArcaneSubclasses"
+							"optionalfeature": "阳炎爆|XUA2025ArcaneSubclasses"
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "Nature Tattoo",
+			"ENG_name": "Nature Tattoo",
+			"name": "自然刺青",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 5,
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "Tattooed Warrior",
+			"subclassShortName": "纹身武者",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"You gain an additional magic tattoo depicting a natural feature. Choose a tattoo from the following options.",
+				"你获得一个额外的描绘自然特征的魔法刺青。从以下选项中选择一个刺青。",
 				{
 					"type": "options",
 					"count": 1,
 					"entries": [
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Mountain|XUA2025ArcaneSubclasses"
+							"optionalfeature": "山地|XUA2025ArcaneSubclasses"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Storm|XUA2025ArcaneSubclasses"
+							"optionalfeature": "风暴|XUA2025ArcaneSubclasses"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Volcano|XUA2025ArcaneSubclasses"
+							"optionalfeature": "火山|XUA2025ArcaneSubclasses"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Wave|XUA2025ArcaneSubclasses"
+							"optionalfeature": "波涛|XUA2025ArcaneSubclasses"
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "Monster Tattoo",
+			"ENG_name": "Monster Tattoo",
+			"name": "怪物刺青",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 5,
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "Tattooed Warrior",
+			"subclassShortName": "纹身武者",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"You gain a magic tattoo depicting a supernatural creature. Choose a tattoo from the following options.",
+				"你获得一个描绘超自然生物的魔法刺青。从以下选项中选择一个刺青。",
 				{
 					"type": "options",
 					"count": 1,
 					"entries": [
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Beholder|XUA2025ArcaneSubclasses"
+							"optionalfeature": "眼魔|XUA2025ArcaneSubclasses"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Blink Dog|XUA2025ArcaneSubclasses"
+							"optionalfeature": "闪现犬|XUA2025ArcaneSubclasses"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Displacer Beast|XUA2025ArcaneSubclasses"
+							"optionalfeature": "移位兽|XUA2025ArcaneSubclasses"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Guardian Naga|XUA2025ArcaneSubclasses"
+							"optionalfeature": "守秘纳迦|XUA2025ArcaneSubclasses"
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "Ancestral Sorcery",
+			"ENG_name": "Ancestral Sorcery",
+			"name": "先祖巫术",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 5,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "Ancestral Sorcery",
+			"subclassShortName": "先祖巫术",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Your innate magic comes from a specific ancestor who wielded such awesome magical power that a fragment of their personality guides you. This ancestor grants you guidance and direction as you explore your innate magical abilities. You might be the ancestor's sole surviving descendant, a reincarnation who bears an eerie resemblance to your ancestor, or a victim of a curse gained from handling your ancestor's personal effects.",
+				"你的天生魔法来自一位特定的先祖，这位先祖曾掌握如此强大的法力以至于他们个性的一部分在指引着你。这位先祖在你探索自身天生魔法属性时给予你神导术和方向。你可能是这位先祖唯一幸存的子嗣、一位与先祖有着怪异拟像的转世重生者、或是因操控先祖个人效应而遭受诅咒的受害者。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Ancestor's Lore|Sorcerer|XPHB|Ancestral Sorcery|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
+					"subclassFeature": "先祖逸闻|术士|XPHB|先祖巫术|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Ancestral Spells|Sorcerer|XPHB|Ancestral Sorcery|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
+					"subclassFeature": "先祖法术|术士|XPHB|先祖巫术|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Visage of the Ancestor|Sorcerer|XPHB|Ancestral Sorcery|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
+					"subclassFeature": "先祖之貌|术士|XPHB|先祖巫术|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
 				}
 			]
 		},
 		{
-			"name": "Ancestor's Lore",
+			"ENG_name": "Ancestor's Lore",
+			"name": "先祖逸闻",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 5,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "Ancestral Sorcery",
+			"subclassShortName": "先祖巫术",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"You use your force of personality to channel your ancestor's knowledge. When you make an Intelligence check, you gain a bonus to the check equal to your Charisma modifier (minimum of +1).",
-				"You also gain proficiency in one of these skills of your choice: {@skill Arcana}, {@skill History}, {@skill Investigation}, {@skill Nature}, or {@skill Religion}."
+				"你运用个性之力来引导先祖的知识。当你进行智力检定时，你获得等同于魅力调整值的检定加值（至少为+1）。",
+				"你还可以从以下技能中选择一个获得熟练项：{@skill 奥秘}、{@skill 历史}、{@skill 调查}、{@skill 自然}或{@skill 宗教}。"
 			]
 		},
 		{
-			"name": "Ancestral Spells",
+			"ENG_name": "Ancestral Spells",
+			"name": "先祖法术",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 5,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "Ancestral Sorcery",
+			"subclassShortName": "先祖巫术",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"When you reach the Sorcerer level specified in the {@table Lineage Spells|XUA2025ArcaneSubclasses|Ancestral Spells} table, you thereafter always have the listed spells prepared.",
+				"当你达到{@table 血统法术|XUA2025ArcaneSubclasses|先祖法术}表格中指定的术士等级时，你将始终准备所列出的法术。",
 				{
+					"ENG_name": "Lineage Spells",
+					"name": "血统法术",
 					"type": "statblock",
 					"tag": "table",
-					"name": "Lineage Spells",
 					"source": "XUA2025ArcaneSubclasses",
 					"page": 5
 				}
 			]
 		},
 		{
-			"name": "Visage of the Ancestor",
+			"ENG_name": "Visage of the Ancestor",
+			"name": "先祖之貌",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 5,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "Ancestral Sorcery",
+			"subclassShortName": "先祖巫术",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Choose the form your ancestor takes, which might resemble the ancestor in life or a symbolic creature. While your {@classFeature Innate Sorcery|Sorcerer|XPHB|1|XPHB} feature is active, this form appears in a spectral haze around you, and you have {@variantrule Advantage|XPHB} on any ability check you make as part of the {@action Influence|XPHB} action."
+				"选择你先祖的形态，这可能类似于先祖生前的样子或一个象征性的生物。当你的{@classFeature 先天术法|术士|XPHB|1|XPHB}特性激活时，这个形态会以灵体污霭的形式出现在你周围，且你在作为{@action 影响|XPHB}动作一部分进行的任何属性检定上具有{@variantrule 优势|XPHB}。"
 			]
 		},
 		{
-			"name": "Superior Spell Disruption",
+			"ENG_name": "Superior Spell Disruption",
+			"name": "高端法术瓦解",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 5,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "Ancestral Sorcery",
+			"subclassShortName": "先祖巫术",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Your ancestor's spellcasting mastery aids you in breaking spells. You always have {@spell Counterspell|XPHB} and {@spell Dispel Magic|XPHB} prepared.",
-				"While your {@classFeature Innate Sorcery|Sorcerer|XPHB|1|XPHB} feature is active, you can cast each spell without expending a spell slot. If you cast {@spell Counterspell|XPHB} in this way, the target has {@variantrule Disadvantage|XPHB} on its Constitution saving throw. If you cast {@spell Dispel Magic|XPHB} in this way, you have {@variantrule Advantage|XPHB} on your ability checks to end ongoing spells. Once you cast either spell without a spell slot, you must finish a {@variantrule Long Rest|XPHB} before you can cast the spell in this way again."
+				"你先祖的施法精通有助于你破坏法术。你总是准备有{@spell 法术反制|XPHB}和{@spell 解除魔法|XPHB}。",
+				"当你的{@classFeature 先天术法|术士|XPHB|1|XPHB}特性处于激活状态时，你可以无需消耗法术位施放每个法术。若你以这种方式施放{@spell 法术反制|XPHB}，目标在其体质豁免检定上具有{@variantrule 劣势|XPHB}。若你以这种方式施放{@spell 解除魔法|XPHB}，你在终止持续法术的属性检定上具有{@variantrule 优势|XPHB}。一旦你无需法术位施放其中任一法术后，必须完成一次{@variantrule 长休|XPHB}才能再次以这种方式施放该法术。"
 			]
 		},
 		{
-			"name": "Ancestral Majesty",
+			"ENG_name": "Ancestral Majesty",
+			"name": "先祖威仪",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 6,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "Ancestral Sorcery",
+			"subclassShortName": "先祖巫术",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Your ancestor's visage evokes awe or dread. While your {@classFeature Innate Sorcery|Sorcerer|XPHB|1|XPHB} feature is active, you are surrounded by a magical aura in a 5-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation}. Whenever a creature you can see enters the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} or ends its turn there, you can force that creature to make a Charisma saving throw. On a failed save, the target has the {@condition Prone|XPHB} condition or has the {@condition Frightened|XPHB} condition until the end of your next turn (your choice). A creature makes this save only once per turn."
+				"你祖先的容貌唤起敬畏或恐惧。当你的{@classFeature 先天术法|术士|XPHB|1|XPHB}特性激活时，你被一个5尺{@variantrule 光环 [效应区域]|XPHB|光环}的魔法光环环绕。每当一个你能看见的生物进入{@variantrule 光环 [效应区域]|XPHB|光环}或在其内结束回合时，你可以迫使该生物进行一次魅力豁免检定。若豁免失败，目标获得{@condition 倒地|XPHB}状态或{@condition 恐慌|XPHB}状态直到你的下个回合结束（由你选择）。一个生物每回合只进行一次此豁免。"
 			]
 		},
 		{
-			"name": "Steady Spellcaster",
+			"ENG_name": "Steady Spellcaster",
+			"name": "稳固施法者",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 6,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "Ancestral Sorcery",
+			"subclassShortName": "先祖巫术",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Your deep connection with your ancestor steadies you. Taking damage can't break your {@status Concentration|XPHB} on Sorcerer spells."
+				"你与先祖的深厚联系使你保持稳定。受到伤害不会打断你对术士法术的{@status 专注|XPHB}。"
 			]
 		},
 		{
-			"name": "Ancestor's Ward",
+			"ENG_name": "Ancestor's Ward",
+			"name": "先祖之护",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 6,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "Ancestral Sorcery",
+			"subclassShortName": "先祖巫术",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"Your ancestor's protection redirects harmful magic away from you. While your {@classFeature Innate Sorcery|Sorcerer|XPHB|1|XPHB} feature is active, you gain {@variantrule Advantage|XPHB} on saving throws against spells. Once during your use of {@classFeature Innate Sorcery|Sorcerer|XPHB|1|XPHB}, when you fail a saving throw against a spell, you can choose to succeed instead."
+				"你先祖的守护会将有害的魔法从你身上转移开。当你的{@classFeature 先天术法|术士|XPHB|1|XPHB}特性激活时，你在对抗法术的豁免检定中获得{@variantrule 优势|XPHB}。在你使用{@classFeature 先天术法|术士|XPHB|1|XPHB}期间，当你对抗法术的豁免检定失败时，你可以选择改为成功。"
 			]
 		},
 		{
-			"name": "Hexblade Patron",
+			"ENG_name": "Hexblade Patron",
+			"name": "咒剑雇主",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 6,
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "XPHB",
-			"subclassShortName": "Hexblade",
+			"subclassShortName": "咒剑",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"You've made a pact with a sentient magic weapon and the cursed forces contained within its blade. Such a weapon could be the sword sheathed at your side, or it could be a manifestation of an infamous magic weapon like {@item Blackrazor|XDMG} or the {@item Sword of Kas|XDMG} projecting its power to further its legend. To those willing to follow this weapon's whims, these inscrutable patrons offer the power to bestow malignant curses, deliver punishing blows, and bolster the wielder.",
+				"你与一把有知觉的魔法武器及其剑刃中蕴含的诅咒力量缔结了契约。这样的武器可能是你身侧佩戴的剑，也可能是诸如{@item 黑刃|XDMG}或{@item 凯斯之剑|XDMG}等著名魔法武器的显迹，投射其力量以延续其传说。对于那些愿意追随此武器奇想的莫测者，这些赞助人提供了施加恶性诅咒、造成惩罚性打击以及鼓舞持用者的法力。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hexblade Spells|Warlock|XPHB|Hexblade|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
+					"subclassFeature": "咒剑法术|魔契师|XPHB|咒剑|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hexblade's Curse|Warlock|XPHB|Hexblade|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
+					"subclassFeature": "咒剑诅咒|魔契师|XPHB|咒剑|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Unyielding Will|Warlock|XPHB|Hexblade|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
+					"subclassFeature": "不可撼动意志|魔契师|XPHB|咒剑|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
 				}
 			]
 		},
 		{
-			"name": "Hexblade Spells",
+			"ENG_name": "Hexblade Spells",
+			"name": "咒剑法术",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 6,
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "XPHB",
-			"subclassShortName": "Hexblade",
+			"subclassShortName": "咒剑",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"The magic of your patron ensures you always have certain spells ready; when you reach a Warlock level specified in the {@table Hexblade Spells|XUA2025ArcaneSubclasses} table, you thereafter always have the listed spells prepared.",
+				"你雇主的魔法确保你总是预备着某些法术；当你达到{@table 咒剑法术|XUA2025ArcaneSubclasses}表格中指定的魔契师等级时，你此后总是准备着列出的法术。",
 				{
+					"ENG_name": "Hexblade Spells",
+					"name": "咒剑法术",
 					"type": "statblock",
 					"tag": "table",
-					"name": "Hexblade Spells",
 					"source": "XUA2025ArcaneSubclasses",
 					"page": 6
 				}
 			]
 		},
 		{
-			"name": "Hexblade's Curse",
+			"ENG_name": "Hexblade's Curse",
+			"name": "咒剑诅咒",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 6,
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "XPHB",
-			"subclassShortName": "Hexblade",
+			"subclassShortName": "咒剑",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Your patron grants you the power to curse and hinder your foes. As a {@variantrule Bonus Action|XPHB}, choose one creature you can see within 30 feet of yourself. The target is cursed for 1 minute, during which you gain the benefits below. The curse ends early if you use this feature again, if you dismiss it (no action required), or die.",
-				"You can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}. When you cast a spell using a spell slot that curses a target, you can use your Hexblade's Curse as a part of casting that spell instead of taking a {@variantrule Bonus Action|XPHB}. When you do so, the target of the spell is the target of your Hexblade's Curse, and your Hexblade's Curse's duration is either 1 minute or the spell's duration, whichever is longer.",
+				"你的雇主赋予你诅咒且阻碍敌人的法力。以一个{@variantrule 附赠动作|XPHB}，选择你30尺内能看见的一个生物。目标被诅咒1分钟，期间你获得下方增益。若你再次使用此特性、解除它（无需动作）或死亡，诅咒提前结束。",
+				"你可以使用此特性的次数等于你的魅力调整值（至少一次），且完成一次{@variantrule 长休|XPHB}后恢复所有已消耗的使用次数。当你使用法术位施放一个诅咒目标的法术时，你可以将咒剑诅咒作为施法的一部分使用，而非采取{@variantrule 附赠动作|XPHB}。当你这样做时，该法术的目标即成为你咒剑诅咒的目标，且你的咒剑诅咒的持续时间为1分钟或法术的持续时间，以较长者为准。",
 				{
+					"ENG_name": "Hungering Hex",
+					"name": "饥渴诅咒",
 					"type": "entries",
-					"name": "Hungering Hex",
 					"page": 7,
 					"entries": [
-						"When the target cursed by your Hexblade's Curse drops to 0 {@variantrule Hit Points|XPHB}, you regain {@variantrule Hit Points|XPHB} equal to {@dice 1d8} plus your Charisma modifier."
+						"当被你咒剑诅咒的目标生命值降至0{@variantrule 生命值|XPHB}时，你恢复等于{@dice 1d8}加上你的魅力调整值的{@variantrule 生命值|XPHB}。"
 					]
 				},
 				{
+					"ENG_name": "Accursed Shield",
+					"name": "诅咒护盾",
 					"type": "entries",
-					"name": "Accursed Shield",
 					"page": 7,
 					"entries": [
-						"While you aren't wearing armor or wielding a {@item Shield|XPHB}, you gain a +2 bonus to AC while you are within 10 feet of the target cursed by your Hexblade's Curse."
+						"当你未穿着护甲或未持握{@item 盾牌|XPHB}时，若你处于被你咒剑诅咒的目标10尺范围内，你的AC获得+2加值。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Unyielding Will",
+			"ENG_name": "Unyielding Will",
+			"name": "不可撼动意志",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 7,
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "XPHB",
-			"subclassShortName": "Hexblade",
+			"subclassShortName": "咒剑",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"When you succeed on a saving throw to maintain {@status Concentration|XPHB}, each creature of your choice in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you takes {@damage 2d6} Necrotic damage. Once you use this benefit, you can't do so again until the start of your next turn.",
-				"In addition, when you fail a saving throw to maintain {@status Concentration|XPHB}, you can choose to succeed instead, and you gain a number of {@variantrule Temporary Hit Points|XPHB} equal to {@dice 1d10} plus your Warlock level. Once you use this feature, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+				"当你成功通过豁免检定以维持{@status 专注|XPHB}时，你选择的10尺{@variantrule 光环 [效应区域]|XPHB|光环}范围内的每个生物将受到{@damage 2d6}暗蚀伤害。一旦你使用此增益，直到你的下个回合开始前都无法再次使用。",
+				"此外，当你未能通过豁免检定以维持{@status 专注|XPHB}时，你可以选择改为成功，并且你获得等于{@dice 1d10}加上你的魔契师等级的{@variantrule 临时生命值|XPHB}。一旦你使用了此特性，直到完成一次{@variantrule 长休|XPHB}前你无法再次使用。"
 			]
 		},
 		{
-			"name": "Malign Brutality",
+			"ENG_name": "Malign Brutality",
+			"name": "恶毒残暴",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 7,
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "XPHB",
-			"subclassShortName": "Hexblade",
+			"subclassShortName": "咒剑",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Your patron's might furthers your bloodthirst, granting you the following benefits.",
+				"你雇主的力量增强了你的嗜血，赋予你以下增益。",
 				{
+					"ENG_name": "Harrowing Hex",
+					"name": "脆弱诅咒",
 					"type": "entries",
-					"name": "Harrowing Hex",
 					"page": 7,
 					"entries": [
-						"After you cast a level 1+ spell that has a casting time of an action, you can make one attack with a weapon as a {@variantrule Bonus Action|XPHB}."
+						"在你施放一个1环或更高且施法时间为一个动作的法术后，你可以用一个武器进行一次{@variantrule 附赠动作|XPHB}攻击。"
 					]
 				},
 				{
+					"ENG_name": "Hindering Curse",
+					"name": "阻碍诅咒",
 					"type": "entries",
-					"name": "Hindering Curse",
 					"page": 7,
 					"entries": [
-						"When you hit the target cursed by your {@subclassFeature Hexblade's Curse|Warlock|XPHB|Hexblade|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses} with an attack roll, the target has {@variantrule Disadvantage|XPHB} on the next saving throw it makes before the start of your next turn."
+						"当你用攻击检定命中被你的{@subclassFeature 咒剑诅咒|魔契师|XPHB|咒剑|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses}诅咒的目标时，该目标在你下个回合开始前进行的下一次豁免检定具有{@variantrule 劣势|XPHB}。"
 					]
 				},
 				{
+					"ENG_name": "Inescapable Hex",
+					"name": "无法逃脱的脆弱诅咒",
 					"type": "entries",
-					"name": "Inescapable Hex",
 					"page": 7,
 					"entries": [
-						"When the target of your {@subclassFeature Hexblade's Curse|Warlock|XPHB|Hexblade|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses} ends its turn 30 feet or further from you, you can move up to your {@variantrule Speed|XPHB} straight toward the target."
+						"当你的{@subclassFeature 咒剑诅咒|魔契师|XPHB|咒剑|XUA2025ArcaneSubclasses|3|XUA2025奥法子职}的目标在距离你30尺或更远的地方结束其回合时，你可以朝目标方向直线移动最多你的{@variantrule 速度|XPHB}。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Armor of Hexes",
+			"ENG_name": "Armor of Hexes",
+			"name": "巫咒盔甲",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 7,
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "XPHB",
-			"subclassShortName": "Hexblade",
+			"subclassShortName": "咒剑",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"When you take damage from the target cursed by your {@subclassFeature Hexblade's Curse|Warlock|XPHB|Hexblade|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses}, you can take a Reaction to reduce the damage taken by an amount equal to your Warlock level."
+				"当你受到被你的{@subclassFeature 咒剑诅咒|魔契师|XPHB|咒剑|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses}诅咒的目标造成的伤害时，你可以用一个反应来减少所受伤害，减少的数值等于你的魔契师等级。"
 			]
 		},
 		{
-			"name": "Masterful Hex",
+			"ENG_name": "Masterful Hex",
+			"name": "大师级脆弱诅咒",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 7,
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "XPHB",
-			"subclassShortName": "Hexblade",
+			"subclassShortName": "咒剑",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"The power of your {@subclassFeature Hexblade's Curse|Warlock|XPHB|Hexblade|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses} increases, granting the following benefits.",
+				"你的{@subclassFeature 咒剑诅咒|魔契师|XPHB|咒剑|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses}的法力增强，获得以下增益。",
 				{
+					"ENG_name": "Accursed Critical",
+					"name": "诅咒暴击",
 					"type": "entries",
-					"name": "Accursed Critical",
 					"page": 7,
 					"entries": [
-						"Any attack roll you make against the target cursed by your {@subclassFeature Hexblade's Curse|Warlock|XPHB|Hexblade|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses} scores a {@variantrule Critical Hit|XPHB} on a roll of a 19 or 20 on the d20."
+						"你对被你的{@subclassFeature 咒剑诅咒|魔契师|XPHB|咒剑|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses}诅咒的目标进行的任何攻击检定，在二十面骰掷出19或20时都会造成{@variantrule 重击|XPHB}。"
 					]
 				},
 				{
+					"ENG_name": "Explosive Hex",
+					"name": "爆炸物脆弱诅咒",
 					"type": "entries",
-					"name": "Explosive Hex",
 					"page": 7,
 					"entries": [
-						"When you deal damage to the target cursed by your {@subclassFeature Hexblade's Curse|Warlock|XPHB|Hexblade|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses}, you can cause your curse to explode with sinister energy. The target and each creature of your choice in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the target take {@damage 3d6} Necrotic, Psychic, or Radiant damage (your choice), and their {@variantrule Speed|XPHB} is reduced by 10 feet until the start of your next turn. Once you use this benefit, you can't use it again until you finish a {@variantrule Long Rest|XPHB} unless you expend a {@classFeature Pact Magic|Warlock|XPHB|1|XPHB} slot (no action required) to restore your use of it."
+						"当你对被你的{@subclassFeature 咒剑诅咒|魔契师|XPHB|咒剑|XUA2025ArcaneSubclasses|3|XUA2025奥法子职}诅咒的目标造成伤害时，你可以使你的诅咒带着邪恶能量爆炸。目标和你在30尺{@variantrule 光环 [效应区域]|XPHB|光环}内选择的每个生物受到{@damage 3d6}暗蚀、心灵或光耀伤害（由你选择），且它们的{@variantrule 速度|XPHB}减少10尺直到你的下个回合开始。一旦你使用此增益，在完成一次{@variantrule 长休|XPHB}前不能再次使用，除非你消耗一个{@classFeature 契约魔法|魔契师|XPHB|1|XPHB}位来复原其使用（无需动作）。"
 					]
 				},
 				{
+					"ENG_name": "Hex Restoration",
+					"name": "脆弱诅咒恢复",
 					"type": "entries",
-					"name": "Hex Restoration",
 					"page": 7,
 					"entries": [
-						"You regain one expended use of {@subclassFeature Hexblade's Curse|Warlock|XPHB|Hexblade|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses} when you finish a {@variantrule Short Rest|XPHB} or use your {@classFeature Magical Cunning|Warlock|XPHB|2|XPHB} feature."
+						"当你完成一次{@variantrule 短休|XPHB}或使用你的{@classFeature 秘法回流|魔契师|XPHB|2|XPHB}特性时，你恢复一次消耗的{@subclassFeature 咒剑诅咒|魔契师|XPHB|咒剑|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses}使用次数。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Conjurer",
+			"ENG_name": "Conjurer",
+			"name": "咒法师",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 7,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Conjurer",
+			"subclassShortName": "咒法师",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"You consider distance and matter to be flexible guidelines rather than physical laws. Conjurers harness the power of magic that moves creatures instantly through space and summons creatures to fight on their behalf.",
+				"你将距离和物质视为软体准则而非物理法则。咒法师驾驭着能瞬间移动生物穿越空间并召唤生物为其作战的法力。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Benign Transposition|Wizard|XPHB|Conjurer|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
+					"subclassFeature": "王车易位|法师|XPHB|咒法师|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Conjuration Savant|Wizard|XPHB|Conjurer|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
+					"subclassFeature": "咒法学者|法师|XPHB|咒法师|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
 				}
 			]
 		},
 		{
-			"name": "Benign Transposition",
+			"ENG_name": "Benign Transposition",
+			"name": "王车易位",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 8,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Conjurer",
+			"subclassShortName": "咒法师",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"As a {@action Magic|XPHB} action, you teleport up to 30 feet to an unoccupied space that you can see. Alternatively, you can choose a space within range that is occupied by a Medium or smaller creature. If that creature is willing, you both teleport, swapping places.",
-				"Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}. You can also restore your use of it by expending a level 2+ spell slot (no action required)."
+				"作为一个{@action 魔法|XPHB}动作，你可以传送至多30尺到一个你能看见的未占据空间。或者，你可以选择一个范围内被中等或更小生物占据的空间。如果该生物愿意，你们双方将传送并交换位置。",
+				"一旦你使用了此特性，在完成一次{@variantrule 长休|XPHB}前无法再次使用。你也可以通过消耗一个2环或更高环位的法术位来复原其使用次数（无需动作）。"
 			]
 		},
 		{
-			"name": "Conjuration Savant",
+			"ENG_name": "Conjuration Savant",
+			"name": "咒法学者",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 8,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Conjurer",
+			"subclassShortName": "咒法师",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Choose two {@filter Wizard spells from the Conjuration school, each of which must be no higher than level 2|spells|level=0;1;2|class=wizard|school=c}, and add them to your spellbook for free.",
-				"In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Conjuration school to your spellbook for free. The chosen spell must be of a level for which you have spell slots."
+				"选择两项{@filter 法师的咒法学派法术，每个法术不得超过2级|spells|level=0;1;2|class=法师|school=c}, 且 添加 它们 到 你的法术书 自由。",
+				"此外，每当你获得该职业新等级的法术位时，你可以免费将一个咒法学派的法师法术添加到你的法术书中。所选法术必须是你拥有法术位的等级。"
 			]
 		},
 		{
-			"name": "Distant Transposition",
+			"ENG_name": "Distant Transposition",
+			"name": "远距易位",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 8,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Conjurer",
+			"subclassShortName": "咒法师",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"The range of your {@subclassFeature Benign Transposition|Wizard|XPHB|Conjurer|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses} feature increases to 60 feet. Additionally, you regain your expended use of it when you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+				"你的{@subclassFeature 王车易位|法师|XPHB|咒法师|XUA2025ArcaneSubclasses|3|XUA2025奥法子职}特性的范围增加到60尺。此外，当你完成一次{@variantrule 短休|XPHB|短}或{@variantrule 长休|XPHB}时，你可以恢复其消耗的使用次数。"
 			]
 		},
 		{
-			"name": "Durable Summons",
+			"ENG_name": "Durable Summons",
+			"name": "强韧召唤",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 8,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Conjurer",
+			"subclassShortName": "咒法师",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"When you cast a Conjuration spell to summon or create another creature using a spell slot, that creature gains {@variantrule Temporary Hit Points|XPHB} equal to twice your Wizard level when it first appears."
+				"当你施放一个咒法法术来召唤或创造另一个生物使用法术位时，该生物在首次出现时获得等于你法师等级两倍的{@variantrule 临时生命值|XPHB}。"
 			]
 		},
 		{
-			"name": "Focused Conjuration",
+			"ENG_name": "Focused Conjuration",
+			"name": "咒法专注",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 8,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Conjurer",
+			"subclassShortName": "咒法师",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Taking damage can't break your {@status Concentration|XPHB} on Conjuration spells."
+				"受到伤害不会打断你对咒法法术的{@status 专注|XPHB}。"
 			]
 		},
 		{
-			"name": "Quick Transposition",
+			"ENG_name": "Quick Transposition",
+			"name": "快速易位",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 8,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Conjurer",
+			"subclassShortName": "咒法师",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"You can use {@subclassFeature Benign Transposition|Wizard|XPHB|Conjurer|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses} as a {@variantrule Bonus Action|XPHB}.",
-				"You can also use {@subclassFeature Benign Transposition|Wizard|XPHB|Conjurer|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses} as a {@variantrule Reaction|XPHB} when a creature you can see makes an attack roll against you, but only to swap places with a willing creature. The creature that swaps places with you becomes the target of that attack instead."
+				"你可以将{@subclassFeature 王车易位|法师|XPHB|咒法师|XUA2025ArcaneSubclasses|3|XUA2025奥法子职}作为{@variantrule 附赠动作|XPHB}使用。",
+				"你也可以在被一个你能看见的生物进行攻击检定时，使用{@subclassFeature 王车易位|法师|XPHB|咒法师|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses}作为{@variantrule 反应|XPHB}，但只能与一个愿意的生物交换位置。与你交换位置的生物将成为该攻击的目标。"
 			]
 		},
 		{
-			"name": "Enchanter",
+			"ENG_name": "Enchanter",
+			"name": "惑控师",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 8,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Enchanter",
+			"subclassShortName": "惑控师",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Your magic clouds or captivates minds. Some Enchanters use their abilities to encourage peace and soften cruelty, while others use their mind-altering magic for selfish ends. Many Enchanters fall somewhere in between.",
+				"你的魔法会迷惑或俘获心智。一些惑控师使用他们的属性来鼓励和平且软化残虐，而另一些则使用他们改变心智的魔法达到自私的目的。许多惑控师介于两者之间。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Enchanting Talker|Wizard|XPHB|Enchanter|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
+					"subclassFeature": "惑控交涉者|法师|XPHB|惑控师|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Enchantment Savant|Wizard|XPHB|Enchanter|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
+					"subclassFeature": "惑控学者|法师|XPHB|惑控师|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Vexing Movement|Wizard|XPHB|Enchanter|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
+					"subclassFeature": "恼人移动|法师|XPHB|惑控师|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
 				}
 			]
 		},
 		{
-			"name": "Enchanting Talker",
+			"ENG_name": "Enchanting Talker",
+			"name": "惑控交涉者",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 8,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Enchanter",
+			"subclassShortName": "惑控师",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Whenever you make a Charisma check, you gain a bonus to the check equal to your Intelligence modifier (minimum of +1).",
-				"You also gain proficiency in one of these skills of your choice: {@skill Deception}, {@skill Intimidation}, or {@skill Persuasion}."
+				"每当你进行一次魅力检定时，你获得等同于你智力调整值的检定加值（至少为+1）。",
+				"你还可以从以下技能中选择一个获得熟练项：{@skill 欺瞒}、{@skill 威吓}或{@skill 游说}。"
 			]
 		},
 		{
-			"name": "Enchantment Savant",
+			"ENG_name": "Enchantment Savant",
+			"name": "惑控学者",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 8,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Enchanter",
+			"subclassShortName": "惑控师",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Choose two {@filter Wizard spells from the Enchantment school, each of which must be no higher than level 2|spells|level=0;1;2|class=wizard|school=e}, and add them to your spellbook for free.",
-				"In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Enchantment school to your spellbook for free. The chosen spell must be of a level for which you have spell slots."
+				"选择两项{@filter 法师的惑控学派法术，每个法术不得超过二环|spells|level=0;1;2|class=法师|school=e}，且将它们自由添加到你的法术书中。",
+				"此外，每当你获得该职业新等级的法术位时，你可以免费将一个惑控学派的法师法术添加到你的法术书中。所选法术必须是你拥有法术位的等级。"
 			]
 		},
 		{
-			"name": "Vexing Movement",
+			"ENG_name": "Vexing Movement",
+			"name": "恼人移动",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 9,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Enchanter",
+			"subclassShortName": "惑控师",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Immediately after you cast an Enchantment spell using an action and a spell slot, you can take both the {@action Disengage|XPHB} and {@action Dash|XPHB} actions as a {@variantrule Bonus Action|XPHB}.",
-				"You can use this {@variantrule Bonus Action|XPHB} a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+				"在你使用动作和法术位施放一个惑控系法术之后，你可以同时将{@action 撤离|XPHB}和{@action 疾走|XPHB}作为{@variantrule 附赠动作|XPHB}来使用。",
+				"你可以使用这个{@variantrule 附赠动作|XPHB}的次数等于你的智力调整值（至少一次）。完成一次{@variantrule 长休|XPHB}后，你将恢复所有已消耗的使用次数。"
 			]
 		},
 		{
-			"name": "Reflecting Charm",
+			"ENG_name": "Reflecting Charm",
+			"name": "反射魅惑",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 9,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Enchanter",
+			"subclassShortName": "惑控师",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"When a creature within 30 feet of you that you can see hits you with an attack roll, you can take a {@variantrule Reaction|XPHB} to reduce the damage you take by half (round down), and you can force the attacker to make a Wisdom saving throw against your spell save DC. On a failed save, the attacker takes Psychic damage equal to half your Wizard level plus your Intelligence modifier. Once you use this {@variantrule Reaction|XPHB}, you can't do so again until you finish a {@variantrule Long Rest|XPHB}. You can also restore your use of it by expending a level 2+ spell slot (no action required)."
+				"当一个你能看见的30尺内的生物用攻击检定命中你时，你可以使用一个{@variantrule 反应|XPHB}来将你受到的伤害缩小一半（向下取整），且你可以迫使攻击手进行一次对抗你法术豁免DC的感知豁免检定。豁免失败时，攻击手受到等同于你法师等级一半加上你智力调整值的心灵伤害。一旦你使用了这个{@variantrule 反应|XPHB}，直到你完成一次{@variantrule 长休|XPHB}前都不能再次使用。你也可以通过消耗一个2级或更高的法术位来复原它的使用次数（无需动作）。"
 			]
 		},
 		{
-			"name": "Split Enchantment",
+			"ENG_name": "Split Enchantment",
+			"name": "分裂惑控",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 9,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Enchanter",
+			"subclassShortName": "惑控师",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"When you cast an Enchantment spell, such as {@spell Charm Person|XPHB}, that can be cast with a higher-level spell slot to target an additional creature, increase the spell's effective level by 1."
+				"当你施放一个惑控法术，例如{@spell 魅惑类人|XPHB}，该法术可以通过更高等级的法术位施放以额外指定一个目标生物时，该法术的有效等级提高1级。"
 			]
 		},
 		{
-			"name": "Bolstering Belief",
+			"ENG_name": "Bolstering Belief",
+			"name": "坚定信念",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 9,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Enchanter",
+			"subclassShortName": "惑控师",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Your enchantments fortify your allies' bodies and minds. You always have {@spell Power Word Fortify|XPHB} prepared. With this feature, you can cast the spell without expending a spell slot, and each target of the spell has {@variantrule Advantage|XPHB} on saving throws to avoid or end the {@condition Charmed|XPHB} and {@condition Frightened|XPHB} conditions while it has {@variantrule Temporary Hit Points|XPHB} granted by this spell.",
-				"Once you cast the spell with this feature, you can't do so in this way again until you finish a {@variantrule Long Rest|XPHB}."
+				"你的魔艺会加固盟友的身心。你总是准备有{@spell 律令巩固|XPHB}。通过此特性，你可以不消耗法术位施放该法术，且法术的每个目标在拥有该法术赋予的{@variantrule 临时生命值|XPHB}期间，对避免或结束{@condition 魅惑|XPHB}和{@condition 恐慌|XPHB}状态的豁免检定具有{@variantrule 优势|XPHB}。",
+				"一旦你以此法施展了该法术，直至完成{@variantrule 长休|XPHB}你都无法再次以此法施展该法术。"
 			]
 		},
 		{
-			"name": "Necromancer",
+			"ENG_name": "Necromancer",
+			"name": "死灵师",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 9,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Necromancer",
+			"subclassShortName": "死灵师",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"You explore the cosmic forces of life, death, and undeath. As a Necromancer, you learn to manipulate the energy that animates all creatures. As you progress, you learn to use magic to drain the life force from a creature, transforming its vital energy into magical power. Many see Necromancers as menacing or villainous, though not all Necromancers are evil. Nevertheless, the manipulation of life and death is considered taboo in many societies.",
+				"你探索生命、死亡和不死的宇宙力量。作为一名死灵师，你学会操纵所有生物的生命能量。随着你的进步，你学会使用魔法从生物身上汲取生命力量，将其生命能量转化为魔法法力。许多人认为死灵师凶恶或邪恶，尽管并非所有死灵师都是邪恶的。然而，在许多社会中，操纵生死被视为禁忌。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Necromancy Savant|Wizard|XPHB|Necromancer|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
+					"subclassFeature": "死灵学者|法师|XPHB|死灵师|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Necromancy Spellbook|Wizard|XPHB|Necromancer|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
+					"subclassFeature": "死灵魔典|法师|XPHB|死灵师|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
 				}
 			]
 		},
 		{
-			"name": "Necromancy Savant",
+			"ENG_name": "Necromancy Savant",
+			"name": "死灵学者",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 9,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Necromancer",
+			"subclassShortName": "死灵师",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Choose two {@filter Wizard spells from the Necromancy school, each of which must be no higher than level 2|spells|level=0;1;2|class=wizard|school=n}, and add them to your spellbook for free.",
-				"In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Necromancy school to your spellbook for free. The chosen spell must be of a level for which you have spell slots."
+				"选择两项{@filter 法师法术中的死灵学派法术，每个法术必须不超过二环|spells|level=0;1;2|class=法师|school=n}，且自由添加它们到你的法术书中。",
+				"此外，每当你获得该职业新等级的法术位时，你可以免费将一个法师的死灵学派法术添加到你的法术书中。所选法术必须是你拥有法术位的等级。"
 			]
 		},
 		{
-			"name": "Necromancy Spellbook",
+			"ENG_name": "Necromancy Spellbook",
+			"name": "死灵魔典",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 9,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Necromancer",
+			"subclassShortName": "死灵师",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Secrets of necromancy magic in your spellbook grant you additional powers. You gain the following benefits.",
+				"你的法术书中死灵魔法的秘密赋予你额外的力量。你获得以下增益。",
 				{
+					"ENG_name": "Necrotic Resistance",
+					"name": "暗蚀抗性",
 					"type": "entries",
-					"name": "Necrotic Resistance",
 					"page": 9,
 					"entries": [
-						"You have {@variantrule Resistance|XPHB} to Necrotic damage."
+						"你获得对暗蚀伤害的{@variantrule 抗性|XPHB}。"
 					]
 				},
 				{
+					"ENG_name": "Grim Harvest",
+					"name": "惧怖收割",
 					"type": "entries",
-					"name": "Grim Harvest",
 					"page": 9,
 					"entries": [
-						"When you cast a Necromancy spell using a spell slot, choose yourself or a creature you can see within 30 feet of yourself to gain a number of {@variantrule Temporary Hit Points|XPHB} equal to the level of the spell slot plus your Intelligence modifier (minimum 1 {@variantrule Temporary Hit Points|XPHB|Temporary Hit Point})."
+						"当你使用一个法术位施放死灵法术时，选择你自己或30尺内一个你能看见的生物，获得等于法术位等级加上你的智力调整值（至少1点{@variantrule 临时生命值|XPHB|临时生命值}）的{@variantrule 临时生命值|XPHB}临时生命值。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Grave Power",
+			"ENG_name": "Grave Power",
+			"name": "坟冢之力",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 9,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Necromancer",
+			"subclassShortName": "死灵师",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"You have discovered more necromantic insights and inscribed them into your spellbook. While holding your spellbook, you gain the following benefits.",
+				"你发现了更多死灵术的奥秘并将其记录在你的法术书中。当你持有你的法术书时，你将获得以下增益。",
 				{
+					"ENG_name": "Grave Resilience",
+					"name": "思坟之韧",
 					"type": "entries",
-					"name": "Grave Resilience",
 					"page": 9,
 					"entries": [
-						"When you use {@classFeature Arcane Recovery|Wizard|XPHB|1|XPHB}, your {@condition Exhaustion|XPHB} level, if any, decreases by 1."
+						"当你使用{@classFeature 奥术回想|法师|XPHB|1|XPHB}时，你的{@condition 力竭|XPHB}等级（如果有）会减少1级。"
 					]
 				},
 				{
+					"ENG_name": "Overwhelming Necrosis",
+					"name": "朽坏之威",
 					"type": "entries",
-					"name": "Overwhelming Necrosis",
 					"page": 9,
 					"entries": [
-						"Damage from your Wizard spells and Wizard features ignores {@variantrule Resistance|XPHB} to Necrotic damage."
+						"你的法师法术和法师特性的伤害无视对暗蚀伤害的{@variantrule 抗性|XPHB}。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Undead Thralls",
+			"ENG_name": "Undead Thralls",
+			"name": "亡灵仆役",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 10,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Necromancer",
+			"subclassShortName": "死灵师",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"You always have {@spell Summon Undead|XPHB} prepared and can cast it once without expending a spell slot.",
-				"When you cast {@spell Summon Undead|XPHB} without a spell slot, you can regain {@variantrule Hit Points|XPHB} equal to half the summoned creature's total {@variantrule Hit Points|XPHB}, but doing so halves the creature's {@variantrule Hit Points|XPHB}. Once you cast the spell without a spell slot, you must finish a {@variantrule Long Rest|XPHB} before you can cast the spell in this way again."
+				"你总是准备着{@spell 亡灵召唤术|XPHB}且可以施放一次而不消耗法术位。",
+				"当你无需法术位施放{@spell 亡灵召唤术|XPHB}时，你可以恢复等同于召唤生物全部{@variantrule 生命值|XPHB}一半的{@variantrule 生命值|XPHB}，但这样做会使该生物的{@variantrule 生命值|XPHB}减半。一旦你无需法术位施放该法术，你必须完成一次{@variantrule 长休|XPHB}才能再次以此方式施放该法术。"
 			]
 		},
 		{
-			"name": "Undead Secrets",
+			"ENG_name": "Undead Secrets",
+			"name": "亡灵秘密",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 10,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Necromancer",
+			"subclassShortName": "死灵师",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"You have learned more secrets about the nuances of life and death. When you finish a {@variantrule Long Rest|XPHB}, you can expend a level 4+ spell slot to protect yourself from death. Until you finish a {@variantrule Long Rest|XPHB}, the next time you would drop to 0 {@variantrule Hit Points|XPHB}, your {@variantrule Hit Points|XPHB} instead change to a number equal to ten times the spell slot expended.",
-				"In addition, immediately after you take damage and are {@status Bloodied|XPHB} after taking that damage but not killed outright, you can take a {@variantrule Reaction|XPHB} and teleport to an unoccupied space up to 60 feet from yourself, and each creature within 10 feet of the space you left takes {@damage 2d10} Necrotic damage."
+				"你已学会更多关于生死微妙之处的秘密。当你完成一次{@variantrule 长休|XPHB}时，你可以消耗一个4级或更高法术位来保护自己免于死亡。直到你完成一次{@variantrule 长休|XPHB}，下一次当你生命值将降至0{@variantrule 生命值|XPHB}时，你的{@variantrule 生命值|XPHB}会改为变为等于所消耗法术位等级十倍的数值。",
+				"此外，当你受到伤害且在该伤害后处于{@status 浴血|XPHB}状态但未被直接杀死时，你可以使用一个{@variantrule 反应|XPHB}并传送至距离自身60尺内的一个未占据空间，且你离开的空间周围10尺内的每个生物将受到{@damage 2d10}暗蚀伤害。"
 			]
 		},
 		{
-			"name": "Death's Master",
+			"ENG_name": "Death's Master",
+			"name": "死之尊主",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 10,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Necromancer",
+			"subclassShortName": "死灵师",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Abstruse rituals within your spellbook allow you mastery over forces of death. While holding your spellbook, you gain the following benefits.",
+				"你法术书中深奥的仪式使你能够精通死亡之力。当你持有法术书时，获得以下增益。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bolster Undead|Wizard|XPHB|Necromancer|XUA2025ArcaneSubclasses|14|XUA2025ArcaneSubclasses"
+					"subclassFeature": "亡灵增幅|法师|XPHB|死灵师|XUA2025ArcaneSubclasses|14|XUA2025ArcaneSubclasses"
 				},
 				{
+					"ENG_name": "Harvest Power",
+					"name": "收获法力",
 					"type": "entries",
-					"name": "Harvest Power",
 					"page": 10,
 					"entries": [
-						"When you use Grim Harvest, the creature that gains {@variantrule Temporary Hit Points|XPHB} gains one of the following benefits of your choice, which lasts until the end of the target's next turn:",
+						"当你使用惧怖收割时，获得{@variantrule 临时生命值|XPHB}的生物将获得以下一个由你选择的增益，该效果持续到目标的下个回合结束：",
 						{
 							"type": "list",
 							"items": [
-								"The target has {@variantrule Advantage|XPHB} on attack rolls.",
-								"The target has {@variantrule Advantage|XPHB} on the next saving throw it makes."
+								"目标在攻击检定上具有{@variantrule 优势|XPHB}优势。",
+								"目标在下一次豁免检定时具有{@variantrule 优势|XPHB}。"
 							]
 						}
 					]
@@ -2378,227 +2520,243 @@
 			]
 		},
 		{
-			"name": "Bolster Undead",
+			"ENG_name": "Bolster Undead",
+			"name": "亡灵增幅",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 10,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Necromancer",
+			"subclassShortName": "死灵师",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 14,
 			"header": 3,
 			"entries": [
-				"As a {@variantrule Bonus Action|XPHB}, choose any number of Undead you have created or summoned with a Necromancy spell that are within 60 feet of yourself. Those Undead each gain {@variantrule Temporary Hit Points|XPHB} equal to your Wizard level. Once an Undead gains {@variantrule Temporary Hit Points|XPHB} from this feature, it can't gain them in this way again for the next 24 hours."
+				"作为{@variantrule 附赠动作|XPHB}，选择60尺内你通过死灵法术创造或召唤的任何数量的亡灵。这些亡灵各自获得等同于你法师等级的{@variantrule 临时生命值|XPHB}。一旦一个亡灵从该特性获得{@variantrule 临时生命值|XPHB}，它在接下来的24小时内无法再次以此方式获得它们。"
 			]
 		},
 		{
-			"name": "Transmuter",
+			"ENG_name": "Transmuter",
+			"name": "变化师",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 10,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Transmuter",
+			"subclassShortName": "变化师",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"You study spells that modify energy and matter. To you, the world is not a fixed thing, but eminently mutable. Your magic gives you the tools to become a smith on reality's forge.",
-				"Some Transmuters are tinkerers and pranksters. Others pursue their magical studies with deadly seriousness, seeking the power of the gods to make and destroy worlds.",
+				"你研究那些修改能量和物质的法术。对你而言，世界并非一成不变，而是极易改变的。你的魔法赋予你在现实锻造厂中成为铁匠的工具。",
+				"一些变化师是修补匠和恶作剧者。其他人则以致命的严肃态度追求他们的魔法研究，寻求诸神的法力来创造和毁灭世界。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Transmutation Savant|Wizard|XPHB|Transmuter|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
+					"subclassFeature": "变化学者|法师|XPHB|变化师|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Transmuter's Stone|Wizard|XPHB|Transmuter|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
+					"subclassFeature": "变化师之石|法师|XPHB|变化师|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Wondrous Enhancement|Wizard|XPHB|Transmuter|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
+					"subclassFeature": "奇妙增强|法师|XPHB|变化师|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
 				}
 			]
 		},
 		{
-			"name": "Transmutation Savant",
+			"ENG_name": "Transmutation Savant",
+			"name": "变化学者",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 10,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Transmuter",
+			"subclassShortName": "变化师",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Choose two {@filter Wizard spells from the Transmutation school, each of which must be no higher than level 2|spells|level=0;1;2|class=wizard|school=t}, and add them to your spellbook for free.",
-				"In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Transmutation school to your spellbook for free. The chosen spell must be of a level for which you have spell slots."
+				"选择两项{@filter 法师的变化学派法术，每个法术不得超过二环|spells|level=0;1;2|class=法师|school=t}，且将它们自由添加到你的法术书中。",
+				"此外，每当你获得该职业新等级的法术位时，你可以免费将一个变化学派的法师法术添加到你的法术书中。所选法术必须是你拥有法术位的等级。"
 			]
 		},
 		{
-			"name": "Transmuter's Stone",
+			"ENG_name": "Transmuter's Stone",
+			"name": "变化师之石",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 10,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Transmuter",
+			"subclassShortName": "变化师",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"When you finish a {@variantrule Long Rest|XPHB}, you can create a magic pebble called a transmuter's stone that lasts until you use this feature again. A creature with the stone in its possession gains a benefit from one of the following options, which you choose when you create the stone. You can change the stone's benefit when you cast a Transmutation spell using a spell slot.",
+				"当你完成一次{@variantrule 长休|XPHB}时，你可以创造一个名为变化师之石的魔法卵石，该卵石持续到你再次使用此特性为止。一个拥有该岩石的生物可以从以下选项中获得一个增益，你在创造岩石时选择该增益。当你使用法术位施放一个变化法术时，你可以改变岩石的增益。",
 				{
+					"ENG_name": "Darkvision",
+					"name": "黑暗视觉",
 					"type": "entries",
-					"name": "Darkvision",
 					"page": 10,
 					"entries": [
-						"The bearer gains {@sense Darkvision|XPHB} with a range of 60 feet or increases the range of its {@sense Darkvision|XPHB} by 60 feet."
+						"拥有者获得60尺的{@sense 黑暗视觉|XPHB}，或是将其{@sense 黑暗视觉|XPHB}的范围扩大60尺。"
 					]
 				},
 				{
+					"ENG_name": "Speed",
+					"name": "速度",
 					"type": "entries",
-					"name": "Speed",
 					"page": 10,
 					"entries": [
-						"The bearer's {@variantrule Speed|XPHB} increases by 10 feet."
+						"拥有者的{@variantrule 速度|XPHB}提升10尺。"
 					]
 				},
 				{
+					"ENG_name": "Durability",
+					"name": "耐久度",
 					"type": "entries",
-					"name": "Durability",
 					"page": 11,
 					"entries": [
-						"The bearer gains proficiency in Constitution saving throws."
+						"持有者获得体质豁免检定的熟练。"
 					]
 				},
 				{
+					"ENG_name": "Resistance",
+					"name": "抗性",
 					"type": "entries",
-					"name": "Resistance",
 					"page": 11,
 					"entries": [
-						"The bearer gains Resistance to Acid, Cold, Fire, Lightning, Poison, or Thunder damage (your choice each time you choose this benefit)."
+						"持有者获得对强酸、寒冷、火焰、闪电、毒素或雷鸣伤害的抗性（每次选择此增益时由你选择）。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Wondrous Enhancement",
+			"ENG_name": "Wondrous Enhancement",
+			"name": "奇妙增强",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 11,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Transmuter",
+			"subclassShortName": "变化师",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"You always have {@spell Enhance Ability|XPHB} prepared and can cast it once without a spell slot. You regain the ability to cast it in this way when you finish a {@variantrule Long Rest|XPHB}.",
-				"Targets of your {@spell Enhance Ability|XPHB} also have {@variantrule Advantage|XPHB} on saving throws using the chosen ability."
+				"你总是准备有{@spell 强化属性|XPHB}且可以无需法术位施放一次。当你完成一次{@variantrule 长休|XPHB}时，你恢复以此方式施放它的能力。",
+				"你的{@spell 强化属性|XPHB}的目标在使用所选属性进行豁免检定时也获得{@variantrule 优势|XPHB}。"
 			]
 		},
 		{
-			"name": "Split Transmutation",
+			"ENG_name": "Split Transmutation",
+			"name": "分裂变化",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 11,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Transmuter",
+			"subclassShortName": "变化师",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"When you cast a Transmutation spell, such as {@spell Fly|XPHB}, that can be cast with a higher-level spell slot to target an additional creature, increase the spell's effective level by 1.",
-				"You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+				"当你施放一个变化法术，例如{@spell 飞行术|XPHB}，该法术可以通过更高等级的法术位施放以额外指定一个目标时，将该法术的有效等级提高1级。",
+				"你可以使用此特性的次数等于你的智力调整值（至少一次），并且你在完成一次{@variantrule 长休|XPHB}后恢复所有已使用的次数。"
 			]
 		},
 		{
-			"name": "Potent Stone",
+			"ENG_name": "Potent Stone",
+			"name": "强效之石",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 11,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Transmuter",
+			"subclassShortName": "变化师",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Your transmuter's stone is more versatile. You choose up to two options when you create your transmuter's stone. You can choose each option other than Resistance only once. If you choose Resistance twice, you must choose different damage types. You can change either or both benefits when you cast a Transmutation spell using a spell slot."
+				"你的变化师之石更加多用。当你创建变化师之石时可以选择最多二种选项。除抗性外每个选项只能选择一次。如果选择两次抗性，你必须选择不同的伤害类型。当你使用法术位施放变化法术时，可以改变其中一种或两种增益。"
 			]
 		},
 		{
-			"name": "Master Transmuter",
+			"ENG_name": "Master Transmuter",
+			"name": "变化宗师",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 11,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Transmuter",
+			"subclassShortName": "变化师",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"As a {@action Magic|XPHB} action, you can consume the reserve of transmutation magic stored in your transmuter's stone to choose one of the following benefits. After using your transmuter's stone in this way, it crumbles to dust.",
+				"以一个{@action 魔法|XPHB}动作，你可以消耗储存在变化师之石中的变化魔法储备来选择以下一项增益。以此方式使用变化师之石后，它会化为粉尘。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Panacea|Wizard|XPHB|Transmuter|XUA2025ArcaneSubclasses|14|XUA2025ArcaneSubclasses"
+					"subclassFeature": "万灵秘药|法师|XPHB|变化师|XUA2025ArcaneSubclasses|14|XUA2025ArcaneSubclasses"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Restore Life|Wizard|XPHB|Transmuter|XUA2025ArcaneSubclasses|14|XUA2025ArcaneSubclasses"
+					"subclassFeature": "起死回生|法师|XPHB|变化师|XUA2025ArcaneSubclasses|14|XUA2025ArcaneSubclasses"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Restore Youth|Wizard|XPHB|Transmuter|XUA2025ArcaneSubclasses|14|XUA2025ArcaneSubclasses"
+					"subclassFeature": "返老还童|法师|XPHB|变化师|XUA2025ArcaneSubclasses|14|XUA2025ArcaneSubclasses"
 				}
 			]
 		},
 		{
-			"name": "Panacea",
+			"ENG_name": "Panacea",
+			"name": "万灵秘药",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 11,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Transmuter",
+			"subclassShortName": "变化师",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 14,
 			"header": 3,
 			"entries": [
-				"The bearer regains a number of {@variantrule Hit Points|XPHB} equal to twice your Wizard level and ends a curse, including the target's {@variantrule Attunement|XPHB} to a cursed item."
+				"持有者恢复等于你法师等级两倍的{@variantrule 生命值|XPHB}数值且结束一个诅咒，包括目标对诅咒物品的{@variantrule 同调|XPHB}。"
 			]
 		},
 		{
-			"name": "Restore Life",
+			"ENG_name": "Restore Life",
+			"name": "起死回生",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 11,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Transmuter",
+			"subclassShortName": "变化师",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 14,
 			"header": 3,
 			"entries": [
-				"You cast {@spell Raise Dead|XPHB} without a spell slot, using the stone in place of the normally required Material components."
+				"你无需法术位即可施放{@spell 死者复活|XPHB}，使用该岩石替代通常所需的材料成分。"
 			]
 		},
 		{
-			"name": "Restore Youth",
+			"ENG_name": "Restore Youth",
+			"name": "返老还童",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 11,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Transmuter",
+			"subclassShortName": "变化师",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 14,
 			"header": 3,
 			"entries": [
-				"The bearer permanently appears {@dice 3d10} years younger, to a minimum of young adulthood."
+				"持有者永久看起来年轻{@dice 3d10}岁，最低至青年成年期。"
 			]
 		}
 	],
 	"foundrySubclassFeature": [
 		{
-			"name": "Arcane Initiate",
+			"ENG_name": "Arcane Initiate",
+			"name": "奥术传承",
 			"source": "XUA2025ArcaneSubclasses",
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "XPHB",
-			"subclassShortName": "Arcana",
+			"subclassShortName": "奥秘",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"entryData": {
@@ -2610,11 +2768,12 @@
 			}
 		},
 		{
-			"name": "Arcane Archer Lore",
+			"ENG_name": "Arcane Archer Lore",
+			"name": "魔箭学识",
 			"source": "XUA2025ArcaneSubclasses",
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Arcana",
+			"subclassShortName": "奥秘",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"entryData": {
@@ -2638,17 +2797,19 @@
 			}
 		},
 		{
-			"name": "Arcane Shot",
+			"ENG_name": "Arcane Shot",
+			"name": "奥术射击",
 			"source": "XUA2025ArcaneSubclasses",
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Arcane Archer",
+			"subclassShortName": "魔射手",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"entryData": {
 				"resources": [
 					{
-						"name": "Arcane Shot Die",
+						"ENG_name": "Arcane Shot Die",
+						"name": "奥术射击骰",
 						"type": "dicePool",
 						"recharge": "restShort",
 						"count": "@scale.arcane-archer.die.number",
@@ -2659,51 +2820,56 @@
 			}
 		},
 		{
-			"name": "Arcane Shot Options",
+			"ENG_name": "Arcane Shot Options",
+			"name": "奥术射击选项",
 			"source": "XUA2025ArcaneSubclasses",
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Arcane Archer",
+			"subclassShortName": "魔射手",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"isIgnored": true
 		},
 		{
-			"name": "Improved Shots",
+			"ENG_name": "Improved Shots",
+			"name": "强化射击",
 			"source": "XUA2025ArcaneSubclasses",
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Arcane Archer",
+			"subclassShortName": "魔射手",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 10,
 			"isIgnored": true
 		},
 		{
-			"name": "Powerful Shots",
+			"ENG_name": "Powerful Shots",
+			"name": "强力射击",
 			"source": "XUA2025ArcaneSubclasses",
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Arcane Archer",
+			"subclassShortName": "魔射手",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 15,
 			"isIgnored": true
 		},
 		{
-			"name": "Masterful Shots",
+			"ENG_name": "Masterful Shots",
+			"name": "宗师射术",
 			"source": "XUA2025ArcaneSubclasses",
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Arcane Archer",
+			"subclassShortName": "魔射手",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 18,
 			"isIgnored": true
 		},
 		{
-			"name": "Ancestor's Lore",
+			"ENG_name": "Ancestor's Lore",
+			"name": "先祖逸闻",
 			"source": "XUA2025ArcaneSubclasses",
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "Ancestral Sorcery",
+			"subclassShortName": "先祖巫术",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"entryData": {
@@ -2724,11 +2890,12 @@
 			}
 		},
 		{
-			"name": "Enchanting Talker",
+			"ENG_name": "Enchanting Talker",
+			"name": "惑控交涉者",
 			"source": "XUA2025ArcaneSubclasses",
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Enchanter",
+			"subclassShortName": "惑控师",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"entryData": {
@@ -2747,11 +2914,12 @@
 			}
 		},
 		{
-			"name": "Necromancy Spellbook",
+			"ENG_name": "Necromancy Spellbook",
+			"name": "死灵魔典",
 			"source": "XUA2025ArcaneSubclasses",
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "XPHB",
-			"subclassShortName": "Necromancer",
+			"subclassShortName": "死灵师",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
 			"entryData": {
@@ -2763,18 +2931,20 @@
 	],
 	"optionalfeature": [
 		{
-			"name": "Banishing Shot",
+			"ENG_name": "Banishing Shot",
+			"name": "放逐弹",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 3,
 			"featureType": [
 				"AS"
 			],
 			"entries": [
-				"Your magic temporarily sequesters your target in a harmless demiplane. The creature you hit takes additional Psychic damage equal to one roll of your Arcane Shot Die and must succeed on a Charisma saving throw or be banished. While banished, the creature has the {@condition Incapacitated} condition and a {@variantrule Speed|XPHB} of 0. At the end of its next turn, the target reappears in the space it left or, if that space is occupied, in the nearest unoccupied space."
+				"你的魔法暂时将目标隔离在一个无害的半位面中。命中的生物将受到等同于一次奥术射击骰的心灵伤害，且必须成功通过一次魅力豁免检定，否则将被放逐。被放逐期间，该生物处于{@condition 失能}状态且{@variantrule 速度|XPHB}为0。在其下一回合结束时，目标会重新出现在它离开的空间，若该空间已被占据，则出现在最近的未占据空间。"
 			]
 		},
 		{
-			"name": "Bat",
+			"ENG_name": "Bat",
+			"name": "蝙蝠",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 4,
 			"featureType": [
@@ -2785,11 +2955,13 @@
 					"level": {
 						"level": 3,
 						"class": {
-							"name": "Monk",
+							"ENG_name": "Monk",
+							"name": "武僧",
 							"source": "XPHB"
 						},
 						"subclass": {
-							"name": "Tattooed Warrior",
+							"ENG_name": "Tattooed Warrior",
+							"name": "纹身武者",
 							"source": "XUA2025ArcaneSubclasses"
 						}
 					}
@@ -2799,29 +2971,31 @@
 				{
 					"known": {
 						"_": [
-							"dancing lights|XPHB#c"
+							"舞光术|XPHB#c"
 						]
 					},
 					"ability": "wis"
 				}
 			],
 			"entries": [
-				"You know the {@spell Dancing Lights|XPHB} cantrip. When you expend 1 Focus Point to use {@classFeature Patient Defense|Monk|XPHB|2|XPHB} or {@classFeature Step of the Wind|Monk|XPHB|2|XPHB}, you gain {@sense Blindsight|XPHB} with a range of 10 feet for 1 minute."
+				"你知晓{@spell 舞光术|XPHB}戏法。当你消耗1点功力使用{@classFeature 坚强防御|武僧|XPHB|2|XPHB}或{@classFeature 疾步如风|武僧|XPHB|2|XPHB}时，你获得10尺范围的{@sense 盲视|XPHB}，持续1分钟。"
 			]
 		},
 		{
-			"name": "Beguiling Shot",
+			"ENG_name": "Beguiling Shot",
+			"name": "欺诈弹",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 3,
 			"featureType": [
 				"AS"
 			],
 			"entries": [
-				"Your magic causes the ammunition to temporarily beguile your target. The creature you hit takes additional Psychic damage equal to two rolls of your Arcane Shot Die and must succeed on a Wisdom saving throw or have the {@condition Charmed} condition until the start of your next turn, treating either you or one of your allies within 30 feet of the target (your choice) as the charmer. The {@condition Charmed} condition ends early if the charmer attacks the target, deals damage to it, or forces it to make a saving throw."
+				"你的魔法使弹药暂时诱骗你的目标。被你命中的生物受到等同于两次奥术射击骰的心灵伤害，且必须成功通过一次感知豁免检定，否则将陷入{@condition 魅惑}状态直到你的下个回合开始，将你或目标30尺内的一个盟友（由你选择）视为魅惑者。如果魅惑者攻击目标、对其造成伤害或迫使其进行豁免检定，则{@condition 魅惑}状态提前结束。"
 			]
 		},
 		{
-			"name": "Beholder",
+			"ENG_name": "Beholder",
+			"name": "眼魔",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 5,
 			"featureType": [
@@ -2832,11 +3006,13 @@
 					"level": {
 						"level": 17,
 						"class": {
-							"name": "Monk",
+							"ENG_name": "Monk",
+							"name": "武僧",
 							"source": "XPHB"
 						},
 						"subclass": {
-							"name": "Tattooed Warrior",
+							"ENG_name": "Tattooed Warrior",
+							"name": "纹身武者",
 							"source": "XUA2025ArcaneSubclasses"
 						}
 					}
@@ -2848,21 +3024,22 @@
 						"_": {
 							"resource": {
 								"3e": [
-									"counterspell|XPHB"
+									"法术反制|XPHB"
 								]
 							}
 						}
 					},
-					"resourceName": "Focus Point",
+					"resourceName": "功力",
 					"ability": "wis"
 				}
 			],
 			"entries": [
-				"You have a {@variantrule Fly Speed|XPHB} of 10 feet and can hover. Additionally, you can expend 3 Focus Points to cast {@spell Counterspell|XPHB}."
+				"你拥有{@variantrule 飞行速度|XPHB}10尺的飞行速度且可以悬浮。此外，你可以消耗3点功力来施放{@spell 法术反制|XPHB}。"
 			]
 		},
 		{
-			"name": "Blink Dog",
+			"ENG_name": "Blink Dog",
+			"name": "闪现犬",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 5,
 			"featureType": [
@@ -2873,11 +3050,13 @@
 					"level": {
 						"level": 17,
 						"class": {
-							"name": "Monk",
+							"ENG_name": "Monk",
+							"name": "武僧",
 							"source": "XPHB"
 						},
 						"subclass": {
-							"name": "Tattooed Warrior",
+							"ENG_name": "Tattooed Warrior",
+							"name": "纹身武者",
 							"source": "XUA2025ArcaneSubclasses"
 						}
 					}
@@ -2889,32 +3068,34 @@
 						"_": {
 							"resource": {
 								"3e": [
-									"blink|XPHB"
+									"闪现术|XPHB"
 								]
 							}
 						}
 					},
-					"resourceName": "Focus Point",
+					"resourceName": "功力",
 					"ability": "wis"
 				}
 			],
 			"entries": [
-				"When you expend a Focus Point to use {@classFeature Patient Defense|Monk|XPHB|2|XPHB}, you can expend 3 Focus Points to cast {@spell Blink|XPHB} immediately after that {@variantrule Bonus Action|XPHB}."
+				"当你消耗1点功力以使用{@classFeature 坚强防御|武僧|XPHB|2|XPHB}时，你可以消耗3点功力以在该{@variantrule 附赠动作|XPHB}后立即施放{@spell 闪现术|XPHB}。"
 			]
 		},
 		{
-			"name": "Bursting Shot",
+			"ENG_name": "Bursting Shot",
+			"name": "爆裂弹",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 3,
 			"featureType": [
 				"AS"
 			],
 			"entries": [
-				"You imbue your ammunition with explosive force energy. Immediately after you deal damage to the creature, your target and each creature within a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the target takes Force damage equal to two rolls of your Arcane Shot Die."
+				"你将弹药注入了爆炸性的力场能量。在你对生物造成伤害后，你的目标及目标10尺{@variantrule 光环 [效应区域]|XPHB|光环}范围内的每个生物会受到等同于两次奥术射击骰的力场伤害。"
 			]
 		},
 		{
-			"name": "Butterfly",
+			"ENG_name": "Butterfly",
+			"name": "蝴蝶",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 4,
 			"featureType": [
@@ -2925,11 +3106,13 @@
 					"level": {
 						"level": 3,
 						"class": {
-							"name": "Monk",
+							"ENG_name": "Monk",
+							"name": "武僧",
 							"source": "XPHB"
 						},
 						"subclass": {
-							"name": "Tattooed Warrior",
+							"ENG_name": "Tattooed Warrior",
+							"name": "纹身武者",
 							"source": "XUA2025ArcaneSubclasses"
 						}
 					}
@@ -2939,28 +3122,29 @@
 				{
 					"known": {
 						"_": [
-							"dancing lights|XPHB#c"
+							"舞光术|XPHB#c"
 						]
 					},
 					"innate": {
 						"_": {
 							"resource": {
 								"1e": [
-									"silent image|XPHB"
+									"无声幻影|XPHB"
 								]
 							}
 						}
 					},
-					"resourceName": "Focus Point",
+					"resourceName": "功力",
 					"ability": "wis"
 				}
 			],
 			"entries": [
-				"You know the {@spell Light|XPHB} cantrip. You can expend 1 Focus Point to cast {@spell Silent Image|XPHB} without Material components."
+				"你知晓{@spell 光亮术|XPHB}戏法。你可以消耗1点功力来施放{@spell 无声幻影|XPHB}而无需材料成分。"
 			]
 		},
 		{
-			"name": "Chameleon",
+			"ENG_name": "Chameleon",
+			"name": "变色龙",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 4,
 			"featureType": [
@@ -2971,11 +3155,13 @@
 					"level": {
 						"level": 3,
 						"class": {
-							"name": "Monk",
+							"ENG_name": "Monk",
+							"name": "武僧",
 							"source": "XPHB"
 						},
 						"subclass": {
-							"name": "Tattooed Warrior",
+							"ENG_name": "Tattooed Warrior",
+							"name": "纹身武者",
 							"source": "XUA2025ArcaneSubclasses"
 						}
 					}
@@ -2985,28 +3171,29 @@
 				{
 					"known": {
 						"_": [
-							"Minor Illusion|XPHB#c"
+							"次级幻象|XPHB#c"
 						]
 					},
 					"innate": {
 						"_": {
 							"resource": {
 								"1e": [
-									"Disguise Self|XPHB"
+									"易容术|XPHB"
 								]
 							}
 						}
 					},
-					"resourceName": "Focus Point",
+					"resourceName": "功力",
 					"ability": "wis"
 				}
 			],
 			"entries": [
-				"You know the {@spell Minor Illusion|XPHB} cantrip. You can expend 1 Focus Point to cast {@spell Disguise Self|XPHB}."
+				"你知晓{@spell 次级幻象|XPHB}戏法。你可以消耗1点功力来施放{@spell 易容术|XPHB}。"
 			]
 		},
 		{
-			"name": "Comet",
+			"ENG_name": "Comet",
+			"name": "彗星",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 4,
 			"featureType": [
@@ -3017,11 +3204,13 @@
 					"level": {
 						"level": 6,
 						"class": {
-							"name": "Monk",
+							"ENG_name": "Monk",
+							"name": "武僧",
 							"source": "XPHB"
 						},
 						"subclass": {
-							"name": "Tattooed Warrior",
+							"ENG_name": "Tattooed Warrior",
+							"name": "纹身武者",
 							"source": "XUA2025ArcaneSubclasses"
 						}
 					}
@@ -3033,21 +3222,22 @@
 						"_": {
 							"resource": {
 								"2e": [
-									"find traps|XPHB"
+									"寻找陷阱|XPHB"
 								]
 							}
 						}
 					},
-					"resourceName": "Focus Point",
+					"resourceName": "功力",
 					"ability": "wis"
 				}
 			],
 			"entries": [
-				"You can expend 2 Focus Points to cast {@spell Find Traps|XPHB}."
+				"你可以消耗2点功力来施放{@spell 寻找陷阱|XPHB}。"
 			]
 		},
 		{
-			"name": "Crane",
+			"ENG_name": "Crane",
+			"name": "起重机",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 4,
 			"featureType": [
@@ -3058,11 +3248,13 @@
 					"level": {
 						"level": 3,
 						"class": {
-							"name": "Monk",
+							"ENG_name": "Monk",
+							"name": "武僧",
 							"source": "XPHB"
 						},
 						"subclass": {
-							"name": "Tattooed Warrior",
+							"ENG_name": "Tattooed Warrior",
+							"name": "纹身武者",
 							"source": "XUA2025ArcaneSubclasses"
 						}
 					}
@@ -3072,18 +3264,19 @@
 				{
 					"known": {
 						"_": [
-							"guidance|XPHB#c"
+							"神导术|XPHB#c"
 						]
 					},
 					"ability": "wis"
 				}
 			],
 			"entries": [
-				"You know the {@spell Guidance|XPHB} cantrip. When you miss a creature with an attack granted by your {@classFeature Flurry of Blows|Monk|XPHB|2|XPHB}, you have {@variantrule Advantage|XPHB} on attack rolls for any remaining {@variantrule Unarmed Strike|XPHB|Unarmed Strikes} with that use of {@classFeature Flurry of Blows|Monk|XPHB|2|XPHB}."
+				"你知晓{@spell 神导术|XPHB}戏法。当你使用{@classFeature 疾风连击|武僧|XPHB|2|XPHB}赋予的攻击未命中生物时，你在该次{@classFeature 疾风连击|武僧|XPHB|2|XPHB}剩余的{@variantrule 徒手打击|XPHB|徒手打击}攻击检定上具有{@variantrule 优势|XPHB}。"
 			]
 		},
 		{
-			"name": "Crescent Moon",
+			"ENG_name": "Crescent Moon",
+			"name": "新月",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 5,
 			"featureType": [
@@ -3094,11 +3287,13 @@
 					"level": {
 						"level": 6,
 						"class": {
-							"name": "Monk",
+							"ENG_name": "Monk",
+							"name": "武僧",
 							"source": "XPHB"
 						},
 						"subclass": {
-							"name": "Tattooed Warrior",
+							"ENG_name": "Tattooed Warrior",
+							"name": "纹身武者",
 							"source": "XUA2025ArcaneSubclasses"
 						}
 					}
@@ -3110,21 +3305,22 @@
 						"_": {
 							"resource": {
 								"2e": [
-									"misty step|XPHB"
+									"迷踪步|XPHB"
 								]
 							}
 						}
 					},
-					"resourceName": "Focus Point",
+					"resourceName": "功力",
 					"ability": "wis"
 				}
 			],
 			"entries": [
-				"You can expend 2 Focus Points to cast {@spell Misty Step|XPHB}."
+				"你可以消耗2点功力来施放{@spell 迷踪步|XPHB}。"
 			]
 		},
 		{
-			"name": "Displacer Beast",
+			"ENG_name": "Displacer Beast",
+			"name": "移位兽",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 5,
 			"featureType": [
@@ -3135,11 +3331,13 @@
 					"level": {
 						"level": 17,
 						"class": {
-							"name": "Monk",
+							"ENG_name": "Monk",
+							"name": "武僧",
 							"source": "XPHB"
 						},
 						"subclass": {
-							"name": "Tattooed Warrior",
+							"ENG_name": "Tattooed Warrior",
+							"name": "纹身武者",
 							"source": "XUA2025ArcaneSubclasses"
 						}
 					}
@@ -3151,21 +3349,22 @@
 						"_": {
 							"resource": {
 								"2e": [
-									"mirror image|XPHB"
+									"镜影术|XPHB"
 								]
 							}
 						}
 					},
-					"resourceName": "Focus Point",
+					"resourceName": "功力",
 					"ability": "wis"
 				}
 			],
 			"entries": [
-				"When you expend a Focus Point to use {@classFeature Flurry of Blows|Monk|XPHB|2|XPHB} or {@classFeature Step of the Wind|Monk|XPHB|2|XPHB}, you can expend 2 Focus Points to cast {@spell Mirror Image|XPHB} immediately after that {@variantrule Bonus Action|XPHB}."
+				"当你消耗1点功力使用{@classFeature 疾风连击|武僧|XPHB|2|XPHB}或{@classFeature 疾步如风|武僧|XPHB|2|XPHB}时，你可以消耗2点功力立即在该{@variantrule 附赠动作|XPHB}后施放{@spell 镜影术|XPHB}。"
 			]
 		},
 		{
-			"name": "Eclipse",
+			"ENG_name": "Eclipse",
+			"name": "蚀",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 5,
 			"featureType": [
@@ -3176,11 +3375,13 @@
 					"level": {
 						"level": 6,
 						"class": {
-							"name": "Monk",
+							"ENG_name": "Monk",
+							"name": "武僧",
 							"source": "XPHB"
 						},
 						"subclass": {
-							"name": "Tattooed Warrior",
+							"ENG_name": "Tattooed Warrior",
+							"name": "纹身武者",
 							"source": "XUA2025ArcaneSubclasses"
 						}
 					}
@@ -3192,43 +3393,46 @@
 						"_": {
 							"resource": {
 								"2e": [
-									"invisibility|XPHB"
+									"隐形术|XPHB"
 								]
 							}
 						}
 					},
-					"resourceName": "Focus Point",
+					"resourceName": "功力",
 					"ability": "wis"
 				}
 			],
 			"entries": [
-				"You can expend 2 Focus Points to cast {@spell Invisibility|XPHB} without Material components."
+				"你可以消耗2点功力来施放{@spell 隐形术|XPHB}而无需材料成分。"
 			]
 		},
 		{
-			"name": "Enfeebling Shot",
+			"ENG_name": "Enfeebling Shot",
+			"name": "虚弱弹",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 3,
 			"featureType": [
 				"AS"
 			],
 			"entries": [
-				"Your ammunition saps your target's strength. The creature you hit takes additional Necrotic damage equal to two rolls of your Arcane Shot Die. The target must also succeed on a Constitution saving throw or have the {@condition Poisoned} condition until the end of its next turn. Whenever a target {@condition Poisoned} in this way hits with an attack roll, it subtracts an amount equal to one roll of your Arcane Shot Die from the total damage of that attack."
+				"你的弹药会削弱目标的力量。被你命中的生物将受到等同于两次奥术射击骰掷骰结果的额外暗蚀伤害。目标还必须成功通过一次体质豁免检定，否则将获得{@condition 中毒}状态直到其下个回合结束。每当以此方式{@condition 中毒}的目标用攻击检定命中时，它会从该次攻击的总伤害中减去等同于一次奥术射击骰掷骰结果的数量。"
 			]
 		},
 		{
-			"name": "Grasping Shot",
+			"ENG_name": "Grasping Shot",
+			"name": "缠绕弹",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 3,
 			"featureType": [
 				"AS"
 			],
 			"entries": [
-				"Your ammunition creates clutching brambles around your target. The creature you hit takes additional Slashing damage equal to one roll of your Arcane Shot Die and must succeed on a Strength saving throw or have the {@condition Restrained} condition until the start of your next turn. The target or a creature within reach of it can take an action to make a Strength ({@skill Athletics|XPHB}) check against your Arcane Shot DC, removing the brambles and ending the {@condition Restrained} condition on the target on a successful check."
+				"你的弹药在目标周围创造出缠绕的荆棘。被你命中的生物受到等同于一次奥术射击骰的额外挥砍伤害，且必须成功通过一次力量豁免检定，否则将陷入{@condition 束缚}状态直到你的下个回合开始。目标或其触及范围内的一个生物可以消耗一个动作进行一次力量（{@skill 运动|XPHB}）检定对抗你的奥术射击DC，若检定成功则移除荆棘并结束目标身上的{@condition 束缚}状态。"
 			]
 		},
 		{
-			"name": "Guardian Naga",
+			"ENG_name": "Guardian Naga",
+			"name": "守秘纳迦",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 5,
 			"featureType": [
@@ -3239,22 +3443,25 @@
 					"level": {
 						"level": 17,
 						"class": {
-							"name": "Monk",
+							"ENG_name": "Monk",
+							"name": "武僧",
 							"source": "XPHB"
 						},
 						"subclass": {
-							"name": "Tattooed Warrior",
+							"ENG_name": "Tattooed Warrior",
+							"name": "纹身武者",
 							"source": "XUA2025ArcaneSubclasses"
 						}
 					}
 				}
 			],
 			"entries": [
-				"When you would be reduced to 0 {@variantrule Hit Points|XPHB} but not killed outright, your {@variantrule Hit Points|XPHB} instead change to a number equal to twice your Monk level. Once you use this benefit, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
+				"当你将被缩小至0{@variantrule 生命值|XPHB}但未被直接杀死时，你的{@variantrule 生命值|XPHB}会变化为两倍于你武僧等级的数值。一旦你使用此增益，直到完成一次{@variantrule 长休|XPHB}前都无法再次使用。"
 			]
 		},
 		{
-			"name": "Horse",
+			"ENG_name": "Horse",
+			"name": "马",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 4,
 			"featureType": [
@@ -3265,11 +3472,13 @@
 					"level": {
 						"level": 3,
 						"class": {
-							"name": "Monk",
+							"ENG_name": "Monk",
+							"name": "武僧",
 							"source": "XPHB"
 						},
 						"subclass": {
-							"name": "Tattooed Warrior",
+							"ENG_name": "Tattooed Warrior",
+							"name": "纹身武者",
 							"source": "XUA2025ArcaneSubclasses"
 						}
 					}
@@ -3279,28 +3488,29 @@
 				{
 					"known": {
 						"_": [
-							"Message|XPHB#c"
+							"传讯术|XPHB#c"
 						]
 					},
 					"innate": {
 						"_": {
 							"resource": {
 								"1e": [
-									"Longstrider|XPHB"
+									"大步奔行|XPHB"
 								]
 							}
 						}
 					},
-					"resourceName": "Focus Point",
+					"resourceName": "功力",
 					"ability": "wis"
 				}
 			],
 			"entries": [
-				"You know the {@spell Message|XPHB} cantrip. You can expend 1 Focus Point to cast {@spell Longstrider|XPHB} without Material components."
+				"你知晓{@spell 传讯术|XPHB}戏法。你可以消耗1点功力来施放{@spell 大步奔行|XPHB}而无需材料成分。"
 			]
 		},
 		{
-			"name": "Mountain",
+			"ENG_name": "Mountain",
+			"name": "山地",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 5,
 			"featureType": [
@@ -3311,59 +3521,66 @@
 					"level": {
 						"level": 11,
 						"class": {
-							"name": "Monk",
+							"ENG_name": "Monk",
+							"name": "武僧",
 							"source": "XPHB"
 						},
 						"subclass": {
-							"name": "Tattooed Warrior",
+							"ENG_name": "Tattooed Warrior",
+							"name": "纹身武者",
 							"source": "XUA2025ArcaneSubclasses"
 						}
 					}
 				}
 			],
 			"consumes": {
-				"name": "Focus Point",
+				"ENG_name": "Focus Point",
+				"name": "功力",
 				"amount": 3
 			},
 			"entries": [
-				"As a {@action Magic|XPHB} action, you can expend 3 Focus Points to gain {@variantrule Resistance|XPHB} to Acid damage and {@variantrule Advantage|XPHB} on Constitution saving throws for 1 minute."
+				"作为一个{@action 魔法|XPHB}动作，你可以消耗3点功力来获得{@variantrule 抗性|XPHB}强酸伤害和{@variantrule 优势|XPHB}体质豁免检定1分钟。"
 			]
 		},
 		{
-			"name": "Piercing Shot",
+			"ENG_name": "Piercing Shot",
+			"name": "穿梭射击",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 4,
 			"featureType": [
 				"AS"
 			],
 			"entries": [
-				"You give your ammunition an ethereal quality. When you use this option, you don't make an attack roll for the attack. Instead, the ammunition shoots forward in a 30-foot {@variantrule Line [Area of Effect]|XPHB|Line} that is 1 foot wide, originating from you, then vanishes. The {@variantrule Line [Area of Effect]|XPHB|Line} ignores cover, as the ammunition phases through solid objects. Each creature in the {@variantrule Line [Area of Effect]|XPHB|Line} must make a Dexterity saving throw. On a failed save, a creature takes damage as if it were hit plus additional Piercing damage equal to two rolls of your Arcane Shot Die. On a successful save, a creature takes half as much damage."
+				"你赋予你的弹药一种以太质量。当你使用此选项时，你不会为攻击进行攻击检定。相反，弹药向前射出30尺{@variantrule 线状 [效应区域]|XPHB|线状}的1尺宽线状区域，从你处起源，然后消失。该{@variantrule 线状 [效应区域]|XPHB|线状}忽略掩护，因为弹药会穿过固体物件。{@variantrule 线状 [效应区域]|XPHB|线状}中的每个生物必须进行一次敏捷豁免检定。豁免失败时，生物会受到如同被命中时的伤害加上等同于两次奥术射击骰的额外穿刺伤害。豁免成功时，生物只受到一半伤害。"
 			]
 		},
 		{
-			"name": "Seeking Shot",
+			"ENG_name": "Seeking Shot",
+			"name": "追踪弹",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 4,
 			"featureType": [
 				"AS"
 			],
 			"entries": [
-				"You grant your ammunition the ability to seek out a target. When you use this option, you don't make an attack roll for the attack. Instead, choose one creature you have seen in the last minute. The ammunition flies toward that creature, moving around corners if necessary and ignoring {@variantrule Cover|XPHB|Half Cover} and {@variantrule Cover|XPHB|Three-Quarters Cover}. If the target is within your weapon's long range, the target must make a Dexterity saving throw. Otherwise, the ammunition disappears after traveling as far as it can. On a failed save, the target takes damage as if it were hit plus additional Force damage equal to two rolls of your Arcane Shot Die, and you learn the target's current location. On a successful save, the target takes half as much damage only."
+				"你赋予你的弹药寻找目标的能力。当你使用此选项时，你不进行攻击检定。相反，选择你在过去一分钟内见过的一个生物。弹药飞向该生物，必要时绕过转角并忽略{@variantrule 掩护|XPHB|半身掩护}和{@variantrule 掩护|XPHB|四分之三掩护}。如果目标在你的武器长射程范围内，目标必须进行一次敏捷豁免检定。否则，弹药在飞行至最远距离后消失。豁免失败时，目标受到如同被命中的伤害加上等同于两次奥术射击骰的力场伤害，并且你得知目标的当前位置。豁免成功时，目标仅受到一半伤害。"
 			]
 		},
 		{
-			"name": "Shadow Shot",
+			"ENG_name": "Shadow Shot",
+			"name": "遮影弹",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 4,
 			"featureType": [
 				"AS"
 			],
 			"entries": [
-				"Your magic occludes your foe's vision with shadows. The creature you hit takes additional Psychic damage equal to one roll of your Arcane Shot Die, and it must succeed on a Wisdom saving throw or have the {@condition Blinded|XPHB} condition until the end of its next turn."
+				"你的魔法用幽影遮蔽了敌人的视线。被你命中的生物受到等同于一次奥术射击骰的心灵伤害，且它必须成功通过一次感知豁免检定，否则陷入{@condition 目盲|XPHB}状态直到其下个回合结束。"
 			]
 		},
 		{
-			"name": "Spider",
+			"ENG_name": "Spider",
+			"name": "蜘蛛",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 4,
 			"featureType": [
@@ -3374,11 +3591,13 @@
 					"level": {
 						"level": 3,
 						"class": {
-							"name": "Monk",
+							"ENG_name": "Monk",
+							"name": "武僧",
 							"source": "XPHB"
 						},
 						"subclass": {
-							"name": "Tattooed Warrior",
+							"ENG_name": "Tattooed Warrior",
+							"name": "纹身武者",
 							"source": "XUA2025ArcaneSubclasses"
 						}
 					}
@@ -3388,18 +3607,19 @@
 				{
 					"known": {
 						"_": [
-							"mending|XPHB#c"
+							"修复术|XPHB#c"
 						]
 					},
 					"ability": "wis"
 				}
 			],
 			"entries": [
-				"You know the {@spell Mending|XPHB} cantrip. When you hit a creature with an attack granted by your {@classFeature Flurry of Blows|Monk|XPHB|2|XPHB}, the creature has {@variantrule Disadvantage|XPHB} on its next attack roll before the start of your next turn."
+				"你知晓{@spell 修复术|XPHB}戏法。当你用{@classFeature 疾风连击|武僧|XPHB|2|XPHB}赋予的攻击命中一个生物时，该生物在你的下个回合开始前进行的下一次攻击检定具有{@variantrule 劣势|XPHB}。"
 			]
 		},
 		{
-			"name": "Storm",
+			"ENG_name": "Storm",
+			"name": "风暴",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 5,
 			"featureType": [
@@ -3410,26 +3630,30 @@
 					"level": {
 						"level": 11,
 						"class": {
-							"name": "Monk",
+							"ENG_name": "Monk",
+							"name": "武僧",
 							"source": "XPHB"
 						},
 						"subclass": {
-							"name": "Tattooed Warrior",
+							"ENG_name": "Tattooed Warrior",
+							"name": "纹身武者",
 							"source": "XUA2025ArcaneSubclasses"
 						}
 					}
 				}
 			],
 			"consumes": {
-				"name": "Focus Point",
+				"ENG_name": "Focus Point",
+				"name": "功力",
 				"amount": 3
 			},
 			"entries": [
-				"As a {@action Magic|XPHB} action, you can expend 3 Focus Points to gain {@variantrule Resistance|XPHB} to Lightning damage and {@variantrule Advantage|XPHB} on Dexterity saving throws for 1 minute."
+				"作为一个{@action 魔法|XPHB}动作，你可以消耗3点功力来获得对闪电伤害的{@variantrule 抗性|XPHB}且在敏捷豁免检定上获得{@variantrule 优势|XPHB}，持续1分钟。"
 			]
 		},
 		{
-			"name": "Sunburst",
+			"ENG_name": "Sunburst",
+			"name": "阳炎爆",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 5,
 			"featureType": [
@@ -3440,11 +3664,13 @@
 					"level": {
 						"level": 6,
 						"class": {
-							"name": "Monk",
+							"ENG_name": "Monk",
+							"name": "武僧",
 							"source": "XPHB"
 						},
 						"subclass": {
-							"name": "Tattooed Warrior",
+							"ENG_name": "Tattooed Warrior",
+							"name": "纹身武者",
 							"source": "XUA2025ArcaneSubclasses"
 						}
 					}
@@ -3456,21 +3682,22 @@
 						"_": {
 							"resource": {
 								"2e": [
-									"lesser restoration|XPHB"
+									"次等复原术|XPHB"
 								]
 							}
 						}
 					},
-					"resourceName": "Focus Point",
+					"resourceName": "功力",
 					"ability": "wis"
 				}
 			],
 			"entries": [
-				"You can expend 2 Focus Points to cast {@spell Lesser Restoration|XPHB}."
+				"你可以消耗2点功力来施放{@spell 次等复原术|XPHB}。"
 			]
 		},
 		{
-			"name": "Tortoise",
+			"ENG_name": "Tortoise",
+			"name": "陆龟",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 4,
 			"featureType": [
@@ -3481,11 +3708,13 @@
 					"level": {
 						"level": 3,
 						"class": {
-							"name": "Monk",
+							"ENG_name": "Monk",
+							"name": "武僧",
 							"source": "XPHB"
 						},
 						"subclass": {
-							"name": "Tattooed Warrior",
+							"ENG_name": "Tattooed Warrior",
+							"name": "纹身武者",
 							"source": "XUA2025ArcaneSubclasses"
 						}
 					}
@@ -3495,28 +3724,29 @@
 				{
 					"known": {
 						"_": [
-							"spare the dying|XPHB#c"
+							"维生术|XPHB#c"
 						]
 					},
 					"innate": {
 						"_": {
 							"resource": {
 								"1e": [
-									"false life|XPHB"
+									"虚假生命|XPHB"
 								]
 							}
 						}
 					},
-					"resourceName": "Focus Point",
+					"resourceName": "功力",
 					"ability": "wis"
 				}
 			],
 			"entries": [
-				"You know the {@spell Spare the Dying|XPHB} cantrip. You can expend 1 Focus Point to cast {@spell False Life|XPHB} without Material components."
+				"你知晓{@spell 维生术|XPHB}戏法。你可以消耗1点功力来施放{@spell 虚假生命|XPHB}而无需材料成分。"
 			]
 		},
 		{
-			"name": "Volcano",
+			"ENG_name": "Volcano",
+			"name": "火山",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 5,
 			"featureType": [
@@ -3527,26 +3757,30 @@
 					"level": {
 						"level": 11,
 						"class": {
-							"name": "Monk",
+							"ENG_name": "Monk",
+							"name": "武僧",
 							"source": "XPHB"
 						},
 						"subclass": {
-							"name": "Tattooed Warrior",
+							"ENG_name": "Tattooed Warrior",
+							"name": "纹身武者",
 							"source": "XUA2025ArcaneSubclasses"
 						}
 					}
 				}
 			],
 			"consumes": {
-				"name": "Focus Point",
+				"ENG_name": "Focus Point",
+				"name": "功力",
 				"amount": 3
 			},
 			"entries": [
-				"As a {@action Magic|XPHB} action, you can expend 3 Focus Points to gain {@variantrule Resistance|XPHB} to Fire damage and {@variantrule Advantage|XPHB} on Strength saving throws for 1 minute."
+				"作为一个{@action 魔法|XPHB}动作，你可以消耗3点功力来获得对火焰伤害的{@variantrule 抗性|XPHB}且在力量豁免检定上获得{@variantrule 优势|XPHB}，持续1分钟。"
 			]
 		},
 		{
-			"name": "Wave",
+			"ENG_name": "Wave",
+			"name": "波涛",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 5,
 			"featureType": [
@@ -3557,34 +3791,38 @@
 					"level": {
 						"level": 11,
 						"class": {
-							"name": "Monk",
+							"ENG_name": "Monk",
+							"name": "武僧",
 							"source": "XPHB"
 						},
 						"subclass": {
-							"name": "Tattooed Warrior",
+							"ENG_name": "Tattooed Warrior",
+							"name": "纹身武者",
 							"source": "XUA2025ArcaneSubclasses"
 						}
 					}
 				}
 			],
 			"consumes": {
-				"name": "Focus Point",
+				"ENG_name": "Focus Point",
+				"name": "功力",
 				"amount": 3
 			},
 			"entries": [
-				"As a {@action Magic|XPHB} action, you can expend 3 Focus Points to gain {@variantrule Resistance|XPHB} to Cold damage and {@variantrule Advantage|XPHB} on Wisdom saving throws for 1 minute."
+				"作为一个{@action 魔法|XPHB}动作，你可以消耗3点功力来获得对寒冷伤害的{@variantrule 抗性|XPHB}且在感知豁免检定上获得{@variantrule 优势|XPHB}，持续1分钟。"
 			]
 		}
 	],
 	"table": [
 		{
-			"name": "Arcana Domain Spells",
+			"ENG_name": "Arcana Domain Spells",
+			"name": "奥秘领域法术",
+			"type": "table",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 2,
-			"type": "table",
 			"colLabels": [
-				"Cleric Level",
-				"Spells"
+				"牧师等级",
+				"法术"
 			],
 			"colStyles": [
 				"col-3 text-center",
@@ -3593,30 +3831,31 @@
 			"rows": [
 				[
 					"3",
-					"{@spell Detect Magic|XPHB}, {@spell Magic Missile|XPHB}, {@spell Magic Weapon|XPHB}, {@spell Nystul's Magic Aura|XPHB}"
+					"{@spell 侦测魔法|XPHB}，{@spell 魔法飞弹|XPHB}，{@spell 魔化武器|XPHB}，{@spell 涅斯图魔法灵光|XPHB}"
 				],
 				[
 					"5",
-					"{@spell Counterspell|XPHB}, {@spell Dispel Magic|XPHB}"
+					"{@spell 法术反制|XPHB}，{@spell 解除魔法|XPHB}"
 				],
 				[
 					"7",
-					"{@spell Arcane Eye|XPHB}, {@spell Leomund's Secret Chest|XPHB}"
+					"{@spell 秘法眼|XPHB}，{@spell 李欧蒙秘藏箱|XPHB}"
 				],
 				[
 					"9",
-					"{@spell Bigby's Hand|XPHB}, {@spell Teleportation Circle|XPHB}"
+					"{@spell 毕格比之手|XPHB}，{@spell 传送法阵|XPHB}"
 				]
 			]
 		},
 		{
-			"name": "Hexblade Spells",
+			"ENG_name": "Hexblade Spells",
+			"name": "咒剑法术",
+			"type": "table",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 6,
-			"type": "table",
 			"colLabels": [
-				"Warlock Level",
-				"Spells"
+				"魔契师等级",
+				"法术"
 			],
 			"colStyles": [
 				"col-3 text-center",
@@ -3625,30 +3864,31 @@
 			"rows": [
 				[
 					"3",
-					"{@spell Arcane Vigor|XPHB}, {@spell Hex|XPHB}, {@spell Shield|XPHB}, {@spell Wrathful Smite|XPHB}"
+					"{@spell 复苏秘法|XPHB}, {@spell 脆弱诅咒|XPHB}, {@spell 护盾术|XPHB}, {@spell 激愤斩|XPHB}"
 				],
 				[
 					"5",
-					"{@spell Bestow Curse|XPHB}, {@spell Conjure Barrage|XPHB}"
+					"{@spell 降咒|XPHB}, {@spell 箭如雨下|XPHB}"
 				],
 				[
 					"7",
-					"{@spell Freedom of Movement|XPHB}, {@spell Staggering Smite|XPHB}"
+					"{@spell 行动自如|XPHB}, {@spell 惊惧斩|XPHB}"
 				],
 				[
 					"9",
-					"{@spell Animate Objects|XPHB}, {@spell Steel Wind Strike|XPHB}"
+					"{@spell 活化物件|XPHB}, {@spell 钢风斩|XPHB}"
 				]
 			]
 		},
 		{
-			"name": "Lineage Spells",
+			"ENG_name": "Lineage Spells",
+			"name": "血统法术",
+			"type": "table",
 			"source": "XUA2025ArcaneSubclasses",
 			"page": 5,
-			"type": "table",
 			"colLabels": [
-				"Sorcerer Level",
-				"Spells"
+				"术士等级",
+				"法术"
 			],
 			"colStyles": [
 				"col-3 text-center",
@@ -3657,26 +3897,27 @@
 			"rows": [
 				[
 					"3",
-					"{@spell Command|XPHB}, {@spell Guidance|XPHB}, {@spell Locate Object|XPHB}, {@spell Protection from Evil and Good|XPHB}, {@spell Resistance|XPHB}, {@spell Spiritual Weapon|XPHB}"
+					"{@spell 命令术|XPHB}, {@spell 神导术|XPHB}, {@spell 物件定位术|XPHB}, {@spell 防护善恶|XPHB}, {@spell 抵抗术|XPHB}, {@spell 灵体武器|XPHB}"
 				],
 				[
 					"5",
-					"{@spell Magic Circle|XPHB}, {@spell Spirit Guardians|XPHB}"
+					"{@spell 防护法阵|XPHB}, {@spell 灵体卫士|XPHB}"
 				],
 				[
 					"7",
-					"{@spell Divination|XPHB}, {@spell Locate Creature|XPHB}"
+					"{@spell 预言术|XPHB}, {@spell 生物定位术|XPHB}"
 				],
 				[
 					"9",
-					"{@spell Legend Lore|XPHB}, {@spell Yolande's Regal Presence|XPHB}"
+					"{@spell 通晓传奇|XPHB}, {@spell 悠兰德王者威仪|XPHB}"
 				]
 			]
 		}
 	],
 	"book": [
 		{
-			"name": "Unearthed Arcana 2025: Arcane Subclasses",
+			"ENG_name": "Unearthed Arcana 2025: Arcane Subclasses",
+			"name": "破解奥秘2025：奥术子职",
 			"id": "XUA2025ArcaneSubclasses",
 			"source": "XUA2025ArcaneSubclasses",
 			"group": "prerelease",
@@ -3685,47 +3926,48 @@
 				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/refs/heads/master/_img/XUA2025ArcaneSubclasses/cover.webp"
 			},
 			"published": "2025-06-26",
-			"author": "Wizards of the Coast",
+			"author": "威世智",
 			"contents": [
 				{
-					"name": "Unearthed Arcana 2025: Arcane Subclasses",
+					"ENG_name": "Unearthed Arcana 2025: Arcane Subclasses",
+					"name": "破解奥秘2025：奥术子职",
 					"headers": [
-						"What's Inside",
-						"Subclasses",
+						"这里有什么",
+						"子职",
 						{
-							"header": "Arcana Domain (Cleric)",
+							"header": "奥秘领域（牧师）",
 							"depth": 1
 						},
 						{
-							"header": "Arcane Archer (Fighter)",
+							"header": "魔射手（战士）",
 							"depth": 1
 						},
 						{
-							"header": "Tattooed Warrior (Monk)",
+							"header": "纹身武者（武僧）",
 							"depth": 1
 						},
 						{
-							"header": "Ancestral Sorcery (Sorcerer)",
+							"header": "先祖魔法（术士）",
 							"depth": 1
 						},
 						{
-							"header": "Hexblade Patron (Warlock)",
+							"header": "咒剑雇主（魔契师）",
 							"depth": 1
 						},
 						{
-							"header": "Conjurer (Wizard)",
+							"header": "咒法师（法师）",
 							"depth": 1
 						},
 						{
-							"header": "Enchanter (Wizard)",
+							"header": "惑控师（法师）",
 							"depth": 1
 						},
 						{
-							"header": "Necromancer (Wizard)",
+							"header": "死灵师（法师）",
 							"depth": 1
 						},
 						{
-							"header": "Transmuter (Wizard)",
+							"header": "变化师（法师）",
 							"depth": 1
 						}
 					]
@@ -3739,56 +3981,63 @@
 			"source": "XUA2025ArcaneSubclasses",
 			"data": [
 				{
+					"ENG_name": "Unearthed Arcana 2025: Arcane Subclasses",
+					"name": "破解奥秘2025：奥术子职",
 					"type": "section",
-					"name": "Unearthed Arcana 2025: Arcane Subclasses",
 					"page": 1,
 					"entries": [
-						"This playtest document is part of a series of {@i Unearthed Arcana} articles that present material designed for upcoming products. The material here uses the rules in the {@book 2024 Player's Handbook|XPHB}.",
+						"本测试文档是系列{@i 破解奥秘}文章的一部分，这些文章展示了为即将推出的产品设计的素材。这里的素材使用了{@book 2024玩家手册|XPHB}中的规则。",
 						{
+							"ENG_name": "Learn More on YouTube",
+							"name": "在 YouTube 上了解更多",
 							"type": "inset",
-							"name": "Learn More on YouTube",
 							"page": 1,
 							"entries": [
-								"To learn more about the design in this article, we invite you to view the videos about it on YouTube ({@link www.youtube.com/DNDWizards})."
+								"要了解更多关于本文中的设计，我们邀请您在 YouTube 上观看相关视频（{@link www.youtube.com/DNDWizards}）。"
 							]
 						},
 						{
+							"ENG_name": "What's Inside",
+							"name": "这里有什么",
 							"type": "section",
-							"name": "What's Inside",
 							"page": 1,
 							"entries": [
-								"This document presents nine subclasses: revised subclasses for the {@class Cleric|XPHB} ({@class Cleric|XPHB|Arcana Domain|Arcana|XUA2025ArcaneSubclasses}), {@class Fighter|XPHB} ({@class Fighter|XPHB|Arcane Archer|Arcane Archer|XUA2025ArcaneSubclasses}), {@class Warlock|XPHB} ({@class Warlock|XPHB|Hexblade Patron|Hexblade|XUA2025ArcaneSubclasses}), and {@class Wizard|XPHB} ({@class Wizard|XPHB|Conjurer|Conjurer|XUA2025ArcaneSubclasses}, {@class Wizard|XPHB|Enchanter|Enchanter|XUA2025ArcaneSubclasses}, {@class Wizard|XPHB|Necromancer|Necromancer|XUA2025ArcaneSubclasses}, and {@class Wizard|XPHB|Transmuter|Transmuter|XUA2025ArcaneSubclasses}) and new subclasses for the {@class Monk|XPHB} ({@class Monk|XPHB|Tattooed Warrior|Tattooed Warrior|XUA2025ArcaneSubclasses}) and {@class Sorcerer|XPHB} ({@class Sorcerer|XPHB|Ancestral Sorcery|Ancestral Sorcery|XUA2025ArcaneSubclasses}).",
+								"本文档呈现了九个子职：修订版的{@class 牧师|XPHB}（{@class 牧师|XPHB|奥秘领域|奥秘|XUA2025ArcaneSubclasses}）、{@class 战士|XPHB}（{@class 战士|XPHB|魔射手|魔射手|XUA2025ArcaneSubclasses}）、{@class 魔契师|XPHB}（{@class 魔契师|XPHB|咒剑雇主|咒剑|XUA2025ArcaneSubclasses}）和{@class 法师|XPHB}（{@class 法师|XPHB|咒法师|咒法师|XUA2025ArcaneSubclasses}、{@class 法师|XPHB|惑控师|惑控师|XUA2025ArcaneSubclasses}、{@class 法师|XPHB|死灵师|死灵师|XUA2025ArcaneSubclasses}以及{@class 法师|XPHB|变化师|变化师|XUA2025ArcaneSubclasses}）的子职，以及为{@class 武僧|XPHB}（{@class 武僧|XPHB|纹身武者|纹身武者|XUA2025ArcaneSubclasses}）和{@class 术士|XPHB}（{@class 术士|XPHB|先祖巫术|先祖巫术|XUA2025ArcaneSubclasses}）设计的新子职。",
 								{
+									"ENG_name": "This Is Playtest Material",
+									"name": "本材料为游玩测试内容",
 									"type": "inset",
-									"name": "This Is Playtest Material",
 									"page": 1,
 									"entries": [
-										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt it as official.",
+										"本文旨在进行游戏测试和反馈。这里的选项是实验性的且处于草稿形态。它们并非游戏的官方部分。您的反馈将协助我们决定是否将其采纳为官方。",
 										{
 											"type": "list",
 											"page": 1,
 											"style": "list-hang-notitle",
 											"items": [
 												{
+													"ENG_name": "How to Playtest This UA",
+													"name": "如何游玩测试本破解奥秘",
 													"type": "item",
-													"name": "How to Playtest This UA",
 													"entries": [
-														"We invite you to try out this material in play. To play with this material, you may either incorporate it into your campaign or run one or more special playtest sessions. For such a session, you may create an adventure of your own or use a short adventure from a source like {@adventure Quests from the Infinite Staircase|QftIS}."
+														"我们邀请您在游戏中尝试这些材质。要使用这些材质，您可以将它们融入您的战役中，或者进行一次或多次特殊的试玩测试会话。对于这样的会话，您可以创建自己的冒险，或者使用来自类似{@adventure 来自无尽阶梯的委托集|QftIS}这样的来源的短冒险。"
 													]
 												},
 												{
+													"ENG_name": "Power Level",
+													"name": "威力水平",
 													"type": "item",
-													"name": "Power Level",
 													"entries": [
-														"The character options you read here might be more or less powerful than options in the {@book 2024 Player's Handbook|XPHB}. If a design survives playtesting, we adjust its power to the desirable level before publication. This means an option could be more or less powerful in its final form."
+														"你在这里阅读的角色选项可能比{@book 2024玩家手册|XPHB}中的选项威力更强或更弱。如果一个设计在游戏测试中存活下来，我们会在发布前将其威力调整到理想水平。这意味着一个选项在其最终形态中可能威力更强或更弱。"
 													]
 												},
 												{
+													"ENG_name": "Feedback",
+													"name": "反馈",
 													"type": "item",
-													"name": "Feedback",
 													"entries": [
-														"The best way for you to give us feedback on this material is in the survey we'll release on D&D Beyond. If we make this material official, it will be refined based on your feedback, and then it will appear in a D&D book.",
-														"Providing feedback on this document is one way you can help shape the future of D&D!"
+														"您就这份材质向我们提供反馈的最佳方式是通过我们将在D&D Beyond上发布的调查。如果我们使这份材质成为官方版本，它将根据您的反馈进行完善，然后会出现在一本D&D书中。",
+														"对本文件提供反馈是您协助塑造D&D未来的一种方式！"
 													]
 												}
 											]
@@ -3798,65 +4047,73 @@
 							]
 						},
 						{
+							"ENG_name": "Subclasses",
+							"name": "子职",
 							"type": "section",
-							"name": "Subclasses",
 							"page": 1,
 							"entries": [
-								"This section presents the following subclasses: {@class Cleric|XPHB|Arcana Domain|Arcana|XUA2025ArcaneSubclasses}, {@class Fighter|XPHB|Arcane Archer|Arcane Archer|XUA2025ArcaneSubclasses}, {@class Monk|XPHB|Tattooed Warrior|Tattooed Warrior|XUA2025ArcaneSubclasses}, {@class Sorcerer|XPHB|Ancestral Sorcery|Ancestral Sorcery|XUA2025ArcaneSubclasses}, {@class Warlock|XPHB|Hexblade Patron|Hexblade|XUA2025ArcaneSubclasses}, {@class Wizard|XPHB|Conjurer|Conjurer|XUA2025ArcaneSubclasses}, {@class Wizard|XPHB|Enchanter|Enchanter|XUA2025ArcaneSubclasses}, {@class Wizard|XPHB|Necromancer|Necromancer|XUA2025ArcaneSubclasses}, and {@class Wizard|XPHB|Transmuter|Transmuter|XUA2025ArcaneSubclasses}.",
+								"本节介绍以下子职：{@class 牧师|XPHB|奥秘领域|奥秘|XUA2025ArcaneSubclasses}、{@class 战士|XPHB|魔射手|魔射手|XUA2025ArcaneSubclasses}、{@class 武僧|XPHB|纹身武者|纹身武者|XUA2025ArcaneSubclasses}、{@class 术士|XPHB|先祖巫术|先祖巫术|XUA2025ArcaneSubclasses}、{@class 魔契师|XPHB|咒剑雇主|咒剑|XUA2025ArcaneSubclasses}、{@class 法师|XPHB|咒法师|咒法师|XUA2025ArcaneSubclasses}、{@class 法师|XPHB|惑控师|惑控师|XUA2025ArcaneSubclasses}、{@class 法师|XPHB|死灵师|死灵师|XUA2025ArcaneSubclasses}，以及{@class 法师|XPHB|变化师|变化师|XUA2025ArcaneSubclasses}。",
 								{
+									"ENG_name": "Arcana Domain (Cleric)",
+									"name": "奥秘领域（牧师）",
 									"type": "entries",
-									"name": "Arcana Domain (Cleric)",
 									"page": 1,
 									"entries": [
-										"{@i Blend Conviction with Arcane Power}",
+										"{@i 融合信念与奥术法力}",
 										{
+											"ENG_name": "Design Note: Arcana Domain Updates",
+											"name": "设计笔记：奥秘领域更新",
 											"type": "inset",
-											"name": "Design Note: Arcana Domain Updates",
 											"page": 1,
 											"entries": [
-												"Here are the main updates in this subclass since its appearance in the {@book Sword Coast Adventurer's Guide|SCAG}:",
+												"这里是该子职自其在{@book 剑湾冒险者指南|SCAG}中出现以来的主要更新：",
 												{
 													"type": "list",
 													"page": 1,
 													"items": [
 														{
+															"ENG_name": "Arcane Domain Spells",
+															"name": "奥术领域法术",
 															"type": "item",
-															"name": "Arcane Domain Spells",
 															"nameDot": false,
 															"entries": [
-																"have been revised."
+																"已被修订。"
 															]
 														},
 														{
+															"ENG_name": "Arcane Initiate",
+															"name": "奥术传承",
 															"type": "item",
-															"name": "Arcane Initiate",
 															"nameDot": false,
 															"entries": [
-																"now gives you {@variantrule Expertise|XPHB} in the {@skill Arcana|XPHB} skill."
+																"现在给予你在{@skill 奥秘|XPHB}技能上的{@variantrule 专精|XPHB}。"
 															]
 														},
 														{
+															"ENG_name": "Modify Magic",
+															"name": "调整魔法",
 															"type": "item",
-															"name": "Modify Magic",
 															"nameDot": false,
 															"entries": [
-																"is a new feature that replaces {@subclassFeature Channel Divinity: Arcane Abjuration|Cleric|PHB|Arcana|SCAG|2|SCAG|Arcane Abjuration}."
+																"是一个新特性，取代了{@subclassFeature 引导神力：奥秘阻绝|牧师|PHB|奥秘|SCAG|2|SCAG|奥术防护}。"
 															]
 														},
 														{
+															"ENG_name": "Dispelling Recovery",
+															"name": "驱法复原",
 															"type": "item",
-															"name": "Dispelling Recovery",
 															"nameDot": false,
 															"entries": [
-																"(formerly named {@subclassFeature Spell Breaker|Cleric|PHB|Arcana|SCAG|6|SCAG}) now uses {@spell Dispel Magic|XPHB} and also triggers when you remove a condition from a creature."
+																"（原名为{@subclassFeature 破法者|牧师|PHB|奥秘|SCAG|6|SCAG}）现在使用{@spell 解除魔法|XPHB}且在你从生物身上移除一个状态时也会触发。"
 															]
 														},
 														{
+															"ENG_name": "Arcane Mastery",
+															"name": "奥术精通",
 															"type": "item",
-															"name": "Arcane Mastery",
 															"nameDot": false,
 															"entries": [
-																"now lets you change the {@class Wizard|XPHB} spells you choose."
+																"现在允许你更换所选择的{@class 法师|XPHB}法术。"
 															]
 														}
 													]
@@ -3864,11 +4121,12 @@
 											]
 										},
 										{
+											"ENG_name": "Arcana Domain",
+											"name": "奥秘领域",
 											"type": "statblock",
 											"prop": "subclass",
-											"name": "Arcana Domain",
-											"shortName": "Arcana",
-											"className": "Cleric",
+											"shortName": "奥秘",
+											"className": "牧师",
 											"classSource": "XPHB",
 											"source": "XUA2025ArcaneSubclasses",
 											"page": 1
@@ -3876,51 +4134,57 @@
 									]
 								},
 								{
+									"ENG_name": "Arcane Archer (Fighter)",
+									"name": "魔射手（战士）",
 									"type": "entries",
-									"name": "Arcane Archer (Fighter)",
 									"page": 2,
 									"entries": [
-										"{@i Deploy Magical Effects through Enchanted Ammunition}",
+										"{@i 通过魔法弹药部署魔法效应}",
 										{
+											"ENG_name": "Design Note: Arcane Archer Updates",
+											"name": "设计笔记：魔射手更新",
 											"type": "inset",
-											"name": "Design Note: Arcane Archer Updates",
 											"page": 2,
 											"entries": [
-												"Here are the main updates in this subclass since its appearance in {@book Xanathar's Guide to Everything|XGE}:",
+												"这是该子职自其出现在{@book 珊娜萨的万事指南|XGE}以来的主要更新：",
 												{
 													"type": "list",
 													"page": 2,
 													"items": [
 														{
+															"ENG_name": "Arcane Archer Lore",
+															"name": "魔箭学识",
 															"type": "item",
-															"name": "Arcane Archer Lore",
 															"nameDot": false,
 															"entries": [
-																"now gives you proficiency in both the {@skill Arcana|XPHB} and {@skill Nature|XPHB} skills."
+																"现在使你同时获得{@skill 奥秘|XPHB}和{@skill 自然|XPHB}技能的熟练。"
 															]
 														},
 														{
+															"ENG_name": "Arcane Shot",
+															"name": "奥术射击",
 															"type": "item",
-															"name": "Arcane Shot",
 															"nameDot": false,
 															"entries": [
-																"has been redesigned. The feature now allows you to use any weapon with the {@itemProperty A|XPHB|Ammunition} property. You now use the Arcane Shot Die it grants for extra damage in the options you select."
+																"已被重新设计。该特性现在允许你使用任何具有{@itemProperty A|XPHB|弹药}属性的武器。你现在可以使用它提供的奥术射击骰在你选择的选项中进行额外伤害。"
 															]
 														},
 														{
+															"ENG_name": "Ever Ready Shot",
+															"name": "魔射手预备射击",
 															"type": "item",
-															"name": "Ever Ready Shot",
 															"nameDot": false,
 															"entries": [
-																"is now available at a lower level."
+																"现在可在低层使用。"
 															]
 														},
 														{
+															"ENG_name": "Improved Shots, Powerful Shots, and Masterful Shots",
+															"name": "强化射击、强力射击且大师射击",
 															"type": "item",
-															"name": "Improved Shots, Powerful Shots, and Masterful Shots",
 															"nameDot": false,
 															"entries": [
-																"are new features that improve your Arcane Shot Die. They incorporate prior damage increases to your Arcane Shot options but spread the increases across more levels of play."
+																"是新特性，可以提升你的奥术射击骰。它们整合了先前对奥术射击选项的伤害提升，但将这些提升分散到更多等级中。"
 															]
 														}
 													]
@@ -3928,11 +4192,12 @@
 											]
 										},
 										{
+											"ENG_name": "Arcane Archer",
+											"name": "魔射手",
 											"type": "statblock",
 											"prop": "subclass",
-											"name": "Arcane Archer",
-											"shortName": "Arcane Archer",
-											"className": "Fighter",
+											"shortName": "魔射手",
+											"className": "战士",
 											"classSource": "XPHB",
 											"source": "XUA2025ArcaneSubclasses",
 											"page": 2
@@ -3940,17 +4205,19 @@
 									]
 								},
 								{
+									"ENG_name": "Tattooed Warrior (Monk)",
+									"name": "纹身武者（武僧）",
 									"type": "entries",
-									"name": "Tattooed Warrior (Monk)",
 									"page": 4,
 									"entries": [
-										"{@i Enhance Martial Arts with Your Magic Tattoos}",
+										"{@i 用你的魔法文身增强武艺}",
 										{
+											"ENG_name": "Tattooed Warrior",
+											"name": "纹身武者",
 											"type": "statblock",
 											"prop": "subclass",
-											"name": "Tattooed Warrior",
-											"shortName": "Tattooed Warrior",
-											"className": "Monk",
+											"shortName": "纹身武者",
+											"className": "武僧",
 											"classSource": "XPHB",
 											"source": "XUA2025ArcaneSubclasses",
 											"page": 4
@@ -3958,17 +4225,19 @@
 									]
 								},
 								{
+									"ENG_name": "Ancestral Sorcery (Sorcerer)",
+									"name": "先祖魔法（术士）",
 									"type": "entries",
-									"name": "Ancestral Sorcery (Sorcerer)",
 									"page": 5,
 									"entries": [
-										"{@i Bear the Power of a Spellcasting Lineage}",
+										"{@i 承载施法血统的法力}",
 										{
+											"ENG_name": "Ancestral Sorcery",
+											"name": "先祖巫术",
 											"type": "statblock",
 											"prop": "subclass",
-											"name": "Ancestral Sorcery",
-											"shortName": "Ancestral Sorcery",
-											"className": "Sorcerer",
+											"shortName": "先祖巫术",
+											"className": "术士",
 											"classSource": "XPHB",
 											"source": "XUA2025ArcaneSubclasses",
 											"page": 5
@@ -3976,67 +4245,75 @@
 									]
 								},
 								{
+									"ENG_name": "Hexblade Patron (Warlock)",
+									"name": "咒剑雇主（魔契师）",
 									"type": "entries",
-									"name": "Hexblade Patron (Warlock)",
 									"page": 6,
 									"entries": [
-										"{@i Forge a Pact with a Cursed Blade}",
+										"{@i 与诅咒之刃缔结契约}",
 										{
+											"ENG_name": "Design Note: Hexblade Patron Updates",
+											"name": "设计笔记：咒剑雇主更新",
 											"type": "inset",
-											"name": "Design Note: Hexblade Patron Updates",
 											"page": 2,
 											"entries": [
-												"Here are the main updates in this subclass since its {@class Warlock|XPHB|latest appearance in Unearthed Arcana|Hexblade|XUA2025HorrorSubclasses}:",
+												"以下是该子职自{@class 魔契师|XPHB|破解奥秘中的最新外貌|咒剑|XUA2025HorrorSubclasses}以来的主要更新：",
 												{
 													"type": "list",
 													"page": 6,
 													"items": [
 														{
+															"ENG_name": "Hexblade Spells",
+															"name": "咒剑法术",
 															"type": "item",
-															"name": "Hexblade Spells",
 															"nameDot": false,
 															"entries": [
-																"have been revised."
+																"已被修订。"
 															]
 														},
 														{
+															"ENG_name": "Hexblade's Curse",
+															"name": "咒剑诅咒",
 															"type": "item",
-															"name": "Hexblade's Curse",
 															"nameDot": false,
 															"entries": [
-																"has returned as a feature in its own right but can also loop through spells that place a curse on a creature, such as {@spell Bestow Curse|XPHB} and {@spell Hex|XPHB}. Hungering Hex has been moved to this level, and Accursed Shield is a new feature."
+																"已作为一个独立特性回归，但也可以通过诸如{@spell 降咒|XPHB}和{@spell 脆弱诅咒|XPHB}等对生物施加诅咒的法术循环。饥渴诅咒已移至该等级，而诅咒护盾是一个新特性。"
 															]
 														},
 														{
+															"ENG_name": "Unyielding Will",
+															"name": "不可撼动意志",
 															"type": "item",
-															"name": "Unyielding Will",
 															"nameDot": false,
 															"entries": [
-																"is a new feature that grants you benefits when maintaining {@status Concentration|XPHB} on spells."
+																"是一个新特性，当你在法术上维持{@status 专注|XPHB}时，会给予你增益。"
 															]
 														},
 														{
+															"ENG_name": "Malign Brutality",
+															"name": "恶毒残暴",
 															"type": "item",
-															"name": "Malign Brutality",
 															"nameDot": false,
 															"entries": [
-																"is a new feature that gives you additional benefits. Hindering Curse (formerly the Stymying Mark maneuver) has been moved here."
+																"是一个新特性，为你提供额外增益。阻碍诅咒（原为Stymying Mark战技）已被移动到这里。"
 															]
 														},
 														{
+															"ENG_name": "Armor of Hexes",
+															"name": "巫咒盔甲",
 															"type": "item",
-															"name": "Armor of Hexes",
 															"nameDot": false,
 															"entries": [
-																"no longer has limited uses and scales with your Warlock level."
+																"不再有使用次数限制且会随着你的魔契师等级提升。"
 															]
 														},
 														{
+															"ENG_name": "Masterful Hex",
+															"name": "大师级脆弱诅咒",
 															"type": "item",
-															"name": "Masterful Hex",
 															"nameDot": false,
 															"entries": [
-																"now increases the power and usability of the updated Hexblade's Curse feature."
+																"现在增强了更新后的咒剑诅咒特性的法力和可用性。"
 															]
 														}
 													]
@@ -4044,11 +4321,12 @@
 											]
 										},
 										{
+											"ENG_name": "Hexblade Patron",
+											"name": "咒剑雇主",
 											"type": "statblock",
 											"prop": "subclass",
-											"name": "Hexblade Patron",
-											"shortName": "Hexblade",
-											"className": "Warlock",
+											"shortName": "咒剑",
+											"className": "魔契师",
 											"classSource": "XPHB",
 											"source": "XUA2025ArcaneSubclasses",
 											"page": 6
@@ -4056,43 +4334,48 @@
 									]
 								},
 								{
+									"ENG_name": "Conjurer (Wizard)",
+									"name": "咒法师（法师）",
 									"type": "entries",
-									"name": "Conjurer (Wizard)",
 									"page": 7,
 									"entries": [
-										"{@i Step Across Space and Call Creatures from Thin Air}",
+										"{@i 缩地成寸，无中生有}",
 										{
+											"ENG_name": "Design Note: Conjurer Updates",
+											"name": "设计笔记：咒法师更新",
 											"type": "inset",
-											"name": "Design Note: Conjurer Updates",
 											"page": 7,
 											"entries": [
-												"Here are the main updates in this subclass since its appearance in the {@book 2014 Player's Handbook|PHB}:",
+												"以下是该子职自其在{@book 2014玩家手册|PHB}中出现以来的主要更新：",
 												{
 													"type": "list",
 													"page": 7,
 													"items": [
 														{
+															"ENG_name": "Benign Transposition",
+															"name": "王车易位",
 															"type": "item",
-															"name": "Benign Transposition",
 															"nameDot": false,
 															"entries": [
-																"is now available at a lower level, and the new {@subclassFeature Distant Transposition|Wizard|XPHB|Conjurer|XUA2025ArcaneSubclasses|6|XUA2025ArcaneSubclasses} and {@subclassFeature Quick Transposition|Wizard|XPHB|Conjurer|XUA2025ArcaneSubclasses|14|XUA2025ArcaneSubclasses|Quick Teleportation} features improve it."
+																"现在可在较低等级使用，且新的{@subclassFeature 远距易位|法师|XPHB|咒法师|XUA2025ArcaneSubclasses|6|XUA2025ArcaneSubclasses}和{@subclassFeature 快速易位|法师|XPHB|咒法师|XUA2025ArcaneSubclasses|14|XUA2025ArcaneSubclasses|快速传送}特性对其进行了改进。"
 															]
 														},
 														{
+															"ENG_name": "Conjuration Savant",
+															"name": "咒法学者",
 															"type": "item",
-															"name": "Conjuration Savant",
 															"nameDot": false,
 															"entries": [
-																"now gives you free Conjuration spells to add to your spellbook."
+																"现在会免费为你提供咒法法术以添加到你的法术书中。"
 															]
 														},
 														{
+															"ENG_name": "Durable Summons",
+															"name": "强韧召唤",
 															"type": "item",
-															"name": "Durable Summons",
 															"nameDot": false,
 															"entries": [
-																"is now available at a lower level, and the {@variantrule Temporary Hit Points|XPHB} it grants are based on your Wizard level."
+																"现在可在较低等级使用，且其授予的{@variantrule 临时生命值|XPHB}基于你的法师等级。"
 															]
 														}
 													]
@@ -4100,11 +4383,12 @@
 											]
 										},
 										{
+											"ENG_name": "Conjurer",
+											"name": "咒法师",
 											"type": "statblock",
 											"prop": "subclass",
-											"name": "Conjurer",
-											"shortName": "Conjurer",
-											"className": "Wizard",
+											"shortName": "咒法师",
+											"className": "法师",
 											"classSource": "XPHB",
 											"source": "XUA2025ArcaneSubclasses",
 											"page": 6
@@ -4112,51 +4396,57 @@
 									]
 								},
 								{
+									"ENG_name": "Enchanter (Wizard)",
+									"name": "惑控师（法师）",
 									"type": "entries",
-									"name": "Enchanter (Wizard)",
 									"page": 8,
 									"entries": [
-										"{@i Entrance and Beguile Others}",
+										"{@i 摄人心神，蛊惑他人}",
 										{
+											"ENG_name": "Design Note: Enchanter Updates",
+											"name": "设计笔记：惑控师更新",
 											"type": "inset",
-											"name": "Design Note: Enchanter Updates",
 											"page": 8,
 											"entries": [
-												"Here are the main updates in this subclass since its appearance in the {@book 2014 Player's Handbook|PHB}:",
+												"以下是该子职自其在{@book 2014玩家手册|PHB}中出现以来的主要更新：",
 												{
 													"type": "list",
 													"page": 8,
 													"items": [
 														{
+															"ENG_name": "Enchantment Savant",
+															"name": "惑控学者",
 															"type": "item",
-															"name": "Enchantment Savant",
 															"nameDot": false,
 															"entries": [
-																"now gives you free Enchantment spells to add to your spellbook."
+																"现在会给你自由惑控法术添加到你的法术书。"
 															]
 														},
 														{
+															"ENG_name": "Enchanting Talker and Vexing Movement",
+															"name": "惑控交涉者与恼人移动",
 															"type": "item",
-															"name": "Enchanting Talker and Vexing Movement",
 															"nameDot": false,
 															"entries": [
-																"are new features that replace {@subclassFeature Hypnotic Gaze|Wizard|PHB|Enchantment|PHB|2|PHB}, giving the Wizard new options to use in and out of combat."
+																"是新特性，取代{@subclassFeature 催眠凝视|法师|PHB|惑控|PHB|2|PHB}，为法师提供战斗内外均可使用的新选项。"
 															]
 														},
 														{
+															"ENG_name": "Reflecting Charm",
+															"name": "反射魅惑",
 															"type": "item",
-															"name": "Reflecting Charm",
 															"nameDot": false,
 															"entries": [
-																"replaces the former {@subclassFeature Instinctive Charm|Wizard|PHB|Enchantment|PHB|6|PHB} feature; instead of compelling an attacker to choose a new target, the feature now reliably reduces the damage you take and might harm the attacker."
+																"替换了先前的{@subclassFeature 直觉魅惑|法师|PHB|惑控|PHB|6|PHB}特性；该特性不再强制攻击手选择新目标，而是可靠地减少你所受的伤害且可能对攻击手造成伤害。"
 															]
 														},
 														{
+															"ENG_name": "Bolstering Belief",
+															"name": "坚定信念",
 															"type": "item",
-															"name": "Bolstering Belief",
 															"nameDot": false,
 															"entries": [
-																"is a new feature to aid yourself and allies in many situations."
+																"是一个新特性，可在许多情况下援助你自己和盟友。"
 															]
 														}
 													]
@@ -4164,11 +4454,12 @@
 											]
 										},
 										{
+											"ENG_name": "Enchanter",
+											"name": "惑控师",
 											"type": "statblock",
 											"prop": "subclass",
-											"name": "Enchanter",
-											"shortName": "Enchanter",
-											"className": "Wizard",
+											"shortName": "惑控师",
+											"className": "法师",
 											"classSource": "XPHB",
 											"source": "XUA2025ArcaneSubclasses",
 											"page": 8
@@ -4176,51 +4467,57 @@
 									]
 								},
 								{
+									"ENG_name": "Necromancer (Wizard)",
+									"name": "死灵师（法师）",
 									"type": "entries",
-									"name": "Necromancer (Wizard)",
 									"page": 9,
 									"entries": [
-										"{@i Command the Powers of Death and Undeath}",
+										"{@i 死亡与不朽之主宰}",
 										{
+											"ENG_name": "Design Note: Necromancer Updates",
+											"name": "设计笔记：死灵师更新",
 											"type": "inset",
-											"name": "Design Note: Necromancer Updates",
 											"page": 9,
 											"entries": [
-												"Here are the main updates in this subclass since its appearance in the {@book 2014 Player's Handbook|PHB}:",
+												"以下是该子职自其在{@book 2014玩家手册|PHB}中出现以来的主要更新：",
 												{
 													"type": "list",
 													"page": 9,
 													"items": [
 														{
+															"ENG_name": "Necromancy Savant",
+															"name": "死灵学者",
 															"type": "item",
-															"name": "Necromancy Savant",
 															"nameDot": false,
 															"entries": [
-																"now gives you free Necromancy spells to add to your spellbook."
+																"现在会给予你免费的死灵法术添加到你的法术书中。"
 															]
 														},
 														{
+															"ENG_name": "Necromancy Spellbook",
+															"name": "死灵魔典",
 															"type": "item",
-															"name": "Necromancy Spellbook",
 															"nameDot": false,
 															"entries": [
-																"is a new feature that incorporates a redesigned version of the prior {@subclassFeature Grim Harvest|Wizard|PHB|Necromancy|PHB|2|PHB} feature."
+																"是一个新特性，整合了重新设计的先前{@subclassFeature 惧怖收割|法师|PHB|死灵|PHB|2|PHB}特性。"
 															]
 														},
 														{
+															"ENG_name": "Grave Power, Undead Secrets, and Death's Master",
+															"name": "坟墓法力、亡灵秘密与死亡大师",
 															"type": "item",
-															"name": "Grave Power, Undead Secrets, and Death's Master",
 															"nameDot": false,
 															"entries": [
-																"are new features."
+																"是新特性。"
 															]
 														},
 														{
+															"ENG_name": "Undead Thralls",
+															"name": "亡灵仆役",
 															"type": "item",
-															"name": "Undead Thralls",
 															"nameDot": false,
 															"entries": [
-																"has been redesigned to utilize the {@spell Summon Undead|XPHB} spell."
+																"已被重新设计为操作{@spell 亡灵召唤术|XPHB}法术。"
 															]
 														}
 													]
@@ -4228,11 +4525,12 @@
 											]
 										},
 										{
+											"ENG_name": "Necromancer",
+											"name": "死灵师",
 											"type": "statblock",
 											"prop": "subclass",
-											"name": "Necromancer",
-											"shortName": "Necromancer",
-											"className": "Wizard",
+											"shortName": "死灵师",
+											"className": "法师",
 											"classSource": "XPHB",
 											"source": "XUA2025ArcaneSubclasses",
 											"page": 9
@@ -4240,59 +4538,66 @@
 									]
 								},
 								{
+									"ENG_name": "Transmuter (Wizard)",
+									"name": "变化师（法师）",
 									"type": "entries",
-									"name": "Transmuter (Wizard)",
 									"page": 10,
 									"entries": [
-										"{@i Transform Energy and Matter}",
+										"{@i 重构能量和物质}",
 										{
+											"ENG_name": "Design Note: Transmuter Updates",
+											"name": "设计笔记：变化师更新",
 											"type": "inset",
-											"name": "Design Note: Transmuter Updates",
 											"page": 10,
 											"entries": [
-												"Here are the main updates in this subclass since its appearance in the {@book 2014 Player's Handbook|PHB}:",
+												"以下是该子职自其在{@book 2014玩家手册|PHB}中出现以来的主要更新：",
 												{
 													"type": "list",
 													"page": 10,
 													"items": [
 														{
+															"ENG_name": "Transmutation Savant",
+															"name": "变化学者",
 															"type": "item",
-															"name": "Transmutation Savant",
 															"nameDot": false,
 															"entries": [
-																"now gives you free Transmutation spells to add to your spellbook."
+																"现在会给予你自由的变化法术添加到你的法术书。"
 															]
 														},
 														{
+															"ENG_name": "Transmuter's Stone",
+															"name": "变化师之石",
 															"type": "item",
-															"name": "Transmuter's Stone",
 															"nameDot": false,
 															"entries": [
-																"is now available at a lower level. You create the stone when you finish a {@variantrule Long Rest|XPHB}."
+																"现在在低层即可使用。你在完成一次{@variantrule 长休|XPHB}时创造该岩石。"
 															]
 														},
 														{
+															"ENG_name": "Wondrous Enhancement and Split Transmutation",
+															"name": "奇妙增强与分裂变化",
 															"type": "item",
-															"name": "Wondrous Enhancement and Split Transmutation",
 															"nameDot": false,
 															"entries": [
-																"are new features."
+																"是新特性。"
 															]
 														},
 														{
+															"ENG_name": "Potent Stone",
+															"name": "强效之石",
 															"type": "item",
-															"name": "Potent Stone",
 															"nameDot": false,
 															"entries": [
-																"is a new feature that gives you more options with your transmuter's stone."
+																"是一个新特性，让你在使用变化师之石时有更多选择。"
 															]
 														},
 														{
+															"ENG_name": "Master Transmuter",
+															"name": "变化宗师",
 															"type": "item",
-															"name": "Master Transmuter",
 															"nameDot": false,
 															"entries": [
-																"is revised; its Panacea choice now restores {@variantrule Hit Points|XPHB} and can remove a curse."
+																"被修订；其万灵秘药选项现在恢复{@variantrule 生命值|XPHB}且可以移除一个诅咒。"
 															]
 														}
 													]
@@ -4300,11 +4605,12 @@
 											]
 										},
 										{
+											"ENG_name": "Transmuter",
+											"name": "变化师",
 											"type": "statblock",
 											"prop": "subclass",
-											"name": "Transmuter",
-											"shortName": "Transmuter",
-											"className": "Wizard",
+											"shortName": "变化师",
+											"className": "法师",
 											"classSource": "XPHB",
 											"source": "XUA2025ArcaneSubclasses",
 											"page": 10

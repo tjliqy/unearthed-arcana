@@ -4,7 +4,7 @@
 			{
 				"json": "UA2022HeroesOfKrynn",
 				"abbreviation": "UA22HoK",
-				"full": "Unearthed Arcana: 2022 Heroes of Krynn",
+				"full": "破解奥秘：2022克莱恩的英雄",
 				"url": "https://media.wizards.com/2022/dnd/downloads/UA2022HeroesofKrynn.pdf",
 				"version": "1.0.0",
 				"dateReleased": "2022-03-08",
@@ -18,7 +18,7 @@
 		],
 		"edition": "classic",
 		"dateAdded": 1701616429,
-		"dateLastModified": 1774092631,
+		"dateLastModified": 1792466403,
 		"_dateLastModifiedHash": "67586091cd"
 	},
 	"_test": {
@@ -28,102 +28,107 @@
 	},
 	"subclass": [
 		{
-			"name": "Lunar Magic (UA)",
-			"shortName": "Lunar Magic (UA)",
+			"ENG_name": "Lunar Magic (UA)",
+			"name": "月之术法（UA）",
+			"shortName": "月之术法（UA）",
 			"source": "UA2022HeroesOfKrynn",
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "PHB",
 			"page": 2,
 			"additionalSpells": [
 				{
-					"name": "Full Moon",
+					"ENG_name": "Full Moon",
+					"name": "满月",
 					"known": {
 						"1": [
-							"faerie fire"
+							"妖火"
 						],
 						"3": [
-							"moonbeam"
+							"月华之光"
 						],
 						"5": [
-							"death ward"
+							"防死结界"
 						],
 						"7": [
-							"freedom of movement"
+							"行动自如"
 						],
 						"9": [
-							"mass cure wounds"
+							"群体疗伤术"
 						]
 					}
 				},
 				{
-					"name": "New Moon",
+					"ENG_name": "New Moon",
+					"name": "朔月",
 					"known": {
 						"1": [
-							"dissonant whispers"
+							"不谐低语"
 						],
 						"3": [
-							"darkness"
+							"黑暗术"
 						],
 						"5": [
-							"bestow curse"
+							"降咒"
 						],
 						"7": [
-							"Evard's black tentacles"
+							"艾伐黑触手"
 						],
 						"9": [
-							"mislead"
+							"假象术"
 						]
 					}
 				},
 				{
-					"name": "Crescent Moon",
+					"ENG_name": "Crescent Moon",
+					"name": "新月",
 					"known": {
 						"1": [
-							"sanctuary"
+							"庇护术"
 						],
 						"3": [
-							"blindness/deafness"
+							"目盲术/耳聋术"
 						],
 						"5": [
-							"phantom steed"
+							"魅影驹"
 						],
 						"7": [
-							"hallucinatory terrain"
+							"幻景"
 						],
 						"9": [
-							"dream"
+							"托梦术"
 						]
 					}
 				}
 			],
 			"subclassFeatures": [
-				"Lunar Magic|Sorcerer||Lunar Magic (UA)|UA2022HeroesOfKrynn|1",
-				"Lunar Boons|Sorcerer||Lunar Magic (UA)|UA2022HeroesOfKrynn|6",
-				"Waxing and Waning|Sorcerer||Lunar Magic (UA)|UA2022HeroesOfKrynn|6",
-				"Lunar Empowerment|Sorcerer||Lunar Magic (UA)|UA2022HeroesOfKrynn|14",
-				"Lunar Phenomenon|Sorcerer||Lunar Magic (UA)|UA2022HeroesOfKrynn|18"
+				"月华魔法|术士||月之术法（UA）|UA2022HeroesOfKrynn|1",
+				"月之恩泽|术士||月之术法（UA）|UA2022HeroesOfKrynn|6",
+				"阴晴圆缺|术士||月之术法（UA）|UA2022HeroesOfKrynn|6",
+				"月之赋能|术士||月之术法（UA）|UA2022HeroesOfKrynn|14",
+				"月之异象|术士||月之术法（UA）|UA2022HeroesOfKrynn|18"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Lunar Magic",
+			"ENG_name": "Lunar Magic",
+			"name": "月华魔法",
 			"source": "UA2022HeroesOfKrynn",
 			"page": 2,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "PHB",
-			"subclassShortName": "Lunar Magic (UA)",
+			"subclassShortName": "月之术法（UA）",
 			"subclassSource": "UA2022HeroesOfKrynn",
 			"level": 1,
 			"entries": [
-				"On many worlds, the moon is a revered celestial body with magical properties. On Krynn, the gods of magic are associated with the world's three moons. On the world of Toril, the god Selûne uses the light of the moon to battle darkness. On Eberron, scholars of the Draconic Prophecy decipher ancient secrets from the waxing and waning of that world's twelve moons.",
-				"You, or someone from your lineage, has been exposed to the concentrated magic of the moon (or moons) of your world, imbuing you with lunar magic. Perhaps your ancestor was involved in a druidic ritual involving an eclipse, or maybe a mystical fragment of a moon crashed near you. However you came to have your magic, your connection to the moon is obvious when you cast sorcerer spells. Consult the Manifestations of Lunar Magic table, then choose or randomly determine how your connection to the moon manifests while you cast your sorcerer spells.",
+				"在许多世界中，月亮都是受人崇拜、具有魔法的天体。在克莱恩Krynn，魔法之神与世界中的三个月亮相关联。在托瑞尔Toril世界，女神塞伦涅Selne利用月之光辉来打击黑暗。在艾伯伦Eberron，研究巨龙预言Draconic Prophecy的学者们破解了世界中十二个月亮盈缺的古老秘密。",
+				"你或你的血统中的某人曾接触过你所在世界月亮（或多个月亮）的浓缩魔法，使你获得了月之术法。也许你的先祖曾参与过涉及日食的德鲁伊语仪式，或者一块神秘的月亮碎片坠落在你附近。无论你如何获得这种魔法，当你施放术士法术时，你与月亮的联系显而易见。查阅月之术法显迹表格，然后选择或随机决定你在施放术士法术时与月亮的联系如何显现。",
 				{
 					"type": "table",
-					"caption": "Manifestations of Lunar Magic",
+					"caption": "月之术法的显迹",
 					"colLabels": [
 						"d4",
-						"Manifestation"
+						"显迹"
 					],
 					"colStyles": [
 						"col-1 text-center",
@@ -132,44 +137,46 @@
 					"rows": [
 						[
 							"1",
-							"You glow with faint light that matches the color of a moon from your world."
+							"你散发出微弱的光亮术，与你所在世界的月亮颜色相匹配。"
 						],
 						[
 							"2",
-							"Your pupils shift in shape, matching the current phase of a moon from your world."
+							"你的瞳孔形状发生变化，与你所在世界的月亮当前异相术相匹配。"
 						],
 						[
 							"3",
-							"Spectral manifestations of the moon (or moons) of your world orbit you."
+							"你所在世界的月亮（或多个月亮）的灵体显迹环绕着你。"
 						],
 						[
 							"4",
-							"Your shadow is limned in faint light, as if it were a lunar body during a solar eclipse."
+							"你的影子被微弱的光线勾勒出来，仿佛是在日食期间的月之身体。"
 						]
 					]
 				},
 				{
+					"ENG_name": "Moon Fire",
+					"name": "月火",
 					"type": "entries",
-					"name": "Moon Fire",
 					"entries": [
-						"{@i 1st-Level Lunar Magic Feature}",
-						"You can call down the radiant light of the moon on command. You learn the {@spell sacred flame} spell, which doesn't count against the number of sorcerer cantrips you know. When you cast the spell, you can target one creature as normal or target two creatures within range that are within 5 feet of each other."
+						"{@i 1级月之术法特性}",
+						"你可以呼唤月亮的耀光为你所用。你习得法术{@spell 圣火术}，此法术不计入你术士已知戏法总数内。当你施放此法术时，你可以如常选择一个生物作为目标，或是选择两个相互之间的距离在5尺以内的生物作为目标。"
 					]
 				},
 				{
+					"ENG_name": "Lunar Embodiment",
+					"name": "月之化身",
 					"type": "entries",
-					"name": "Lunar Embodiment",
 					"entries": [
-						"{@i 1st-Level Lunar Magic Feature}",
-						"You learn additional spells when you reach certain levels in this class, as shown on the Lunar Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.",
+						"{@i 1级月之术法特性}",
+						"当你到达本职业特定等级时，你习得下方月之法术表格中列出的额外的法术，这些法术对你而言视作术士法术，但不计入你术士已知法术总数内。",
 						{
 							"type": "table",
-							"caption": "Lunar Spells",
+							"caption": "月之法术表",
 							"colLabels": [
-								"Sorcerer Level",
-								"Full Moon Spells",
-								"New Moon Spells",
-								"Crescent Moon Spells"
+								"术士等级",
+								"满月法术",
+								"朔月法术",
+								"新月法术"
 							],
 							"colStyles": [
 								"col-1-1 text-center",
@@ -179,186 +186,201 @@
 							],
 							"rows": [
 								[
-									"1st",
-									"{@spell faerie fire}",
-									"{@spell dissonant whispers}",
-									"{@spell sanctuary}"
+									"1环",
+									"{@spell 妖火}",
+									"{@spell 不谐低语}",
+									"{@spell 庇护术}"
 								],
 								[
-									"3rd",
-									"{@spell moonbeam}",
-									"{@spell darkness}",
-									"{@spell blindness/deafness}"
+									"3环",
+									"{@spell 月华之光}",
+									"{@spell 黑暗术}",
+									"{@spell 目盲术/耳聋术}"
 								],
 								[
-									"5th",
-									"{@spell death ward}",
-									"{@spell bestow curse}",
-									"{@spell phantom steed}"
+									"5环",
+									"{@spell 防死结界}",
+									"{@spell 降咒}",
+									"{@spell 魅影驹}"
 								],
 								[
 									"7th",
-									"{@spell freedom of movement}",
-									"{@spell Evard's black tentacles}",
-									"{@spell hallucinatory terrain}"
+									"{@spell 行动自如}",
+									"{@spell 艾伐黑触手}",
+									"{@spell 幻景}"
 								],
 								[
 									"9th",
-									"{@spell mass cure wounds}",
-									"{@spell mislead}",
-									"{@spell dream}"
+									"{@spell 群体疗伤术}",
+									"{@spell 假象术}",
+									"{@spell 托梦术}"
 								]
 							]
 						},
-						"Whenever you finish a long rest, you can choose what lunar phase manifests its power through your magic: Full Moon, New Moon, or Crescent Moon. While in the chosen phase, spells of the associated phase in the Lunar Spells table can be cast once without expending a spell slot. Once you cast a spell in this way, you can't do so again until you finish a long rest."
+						"每当你完成一次长休时，你可以选择何种月相通过你的魔法显现其法力：满月、朔月或新月。处于所选月相时，月之法术表中对应月相的法术可以施放一次而不消耗法术位。一旦你以这种方式施放了一个法术，直到你完成一次长休前不能再这样做。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Lunar Boons",
+			"ENG_name": "Lunar Boons",
+			"name": "月之恩泽",
 			"source": "UA2022HeroesOfKrynn",
 			"page": 3,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "PHB",
-			"subclassShortName": "Lunar Magic (UA)",
+			"subclassShortName": "月之术法（UA）",
 			"subclassSource": "UA2022HeroesOfKrynn",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-Level Lunar Magic Feature}",
-				"Lunar phases influence your metamagic. Each lunar phase is associated with spells of the following schools of magic:",
+				"{@i 6级月之术法特性}",
+				"月相会影响你的超魔法。每个月相都与以下魔法学派的法术相关联：",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
+							"ENG_name": "Full Moon",
+							"name": "满月",
 							"type": "item",
-							"name": "Full Moon",
 							"entries": [
-								"Abjuration and conjuration spells"
+								"防护和咒法法术"
 							]
 						},
 						{
+							"ENG_name": "New Moon",
+							"name": "朔月",
 							"type": "item",
-							"name": "New Moon",
 							"entries": [
-								"Evocation and necromancy spells"
+								"塑能和死灵法术"
 							]
 						},
 						{
+							"ENG_name": "Crescent Moon",
+							"name": "新月",
 							"type": "item",
-							"name": "Crescent Moon",
 							"entries": [
-								"Divination and transmutation spells"
+								"预言和变化法术"
 							]
 						}
 					]
 				},
-				"Whenever you use Metamagic on a spell from the Lunar Spells table or a spell of a school of magic associated with the lunar phase you are in, you can reduce the sorcery points spent by 1 (minimum 0). You can reduce the sorcery points spent for your Metamagic a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest"
+				"每当你对月之法术表中的法术或与你当前所处的月之术法异相术相关联的魔法学派的法术使用超魔法时，你可以将消耗的术法点减少1（最低为0）。你可以减少超魔法消耗的术法点的次数等同于你的熟练加值，且你在完成一次长休后恢复所有已消耗的使用次数。"
 			]
 		},
 		{
-			"name": "Waxing and Waning",
+			"ENG_name": "Waxing and Waning",
+			"name": "阴晴圆缺",
 			"source": "UA2022HeroesOfKrynn",
 			"page": 3,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "PHB",
-			"subclassShortName": "Lunar Magic (UA)",
+			"subclassShortName": "月之术法（UA）",
 			"subclassSource": "UA2022HeroesOfKrynn",
 			"level": 6,
 			"header": 2,
 			"consumes": {
-				"name": "Sorcery Point"
+				"ENG_name": "Sorcery Point",
+				"name": "术法点"
 			},
 			"entries": [
-				"{@i 6th-Level Lunar Magic Feature}",
-				"You gain greater control over the phases of your lunar magic. As a bonus action, you can spend 1 sorcery point to change your lunar phase for a different one."
+				"{@i 6级月之术法特性}",
+				"你对月之术法的异相术掌控更为精进。以一个附赠动作，你可以消耗1点术法点来将你的月相变化为另一种。"
 			]
 		},
 		{
-			"name": "Lunar Empowerment",
+			"ENG_name": "Lunar Empowerment",
+			"name": "月之赋能",
 			"source": "UA2022HeroesOfKrynn",
 			"page": 3,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "PHB",
-			"subclassShortName": "Lunar Magic (UA)",
+			"subclassShortName": "月之术法（UA）",
 			"subclassSource": "UA2022HeroesOfKrynn",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i 14th-Level Lunar Magic Feature}",
-				"The power of a lunar phase saturates your being. Whenever you choose a lunar phase to affect your magic, you also gain the following benefit associated with that phase:",
+				"{@i 14级月之术法特性}",
+				"月之术法的异相术力量充盈着你的存在。每当你选择一个异相术来影响你的魔法时，你也会获得与该异相术相关的以下增益：",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
+							"ENG_name": "Full Moon:",
+							"name": "满月：",
 							"type": "item",
-							"name": "Full Moon:",
-							"entry": "You shed bright light in a 10-foot radius and dim light for an additional 10 feet. In addition, you and creatures of your choice have advantage on saving throws while within the bright light you shed."
+							"entry": "你散发出10尺半径的明亮光照和额外10尺的微光光照。此外，你和由你选择的生物在你散发的明亮光照范围内进行豁免检定时具有优势。"
 						},
 						{
+							"ENG_name": "New Moon:",
+							"name": "朔月：",
 							"type": "item",
-							"name": "New Moon:",
-							"entry": "You have advantage on Dexterity ({@skill Stealth}) checks. In addition, while you are in dim light or darkness, attack rolls have disadvantage against you."
+							"entry": "你在敏捷（{@skill 隐匿}）检定上具有优势。此外，当你在微光光照或黑暗中时，攻击检定对你具有劣势。"
 						},
 						{
+							"ENG_name": "Crescent Moon:",
+							"name": "新月：",
 							"type": "item",
-							"name": "Crescent Moon:",
-							"entry": "You have resistance to necrotic and radiant damage"
+							"entry": "你对暗蚀和光耀伤害具有抗性"
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "Lunar Phenomenon",
+			"ENG_name": "Lunar Phenomenon",
+			"name": "月之异象",
 			"source": "UA2022HeroesOfKrynn",
 			"page": 3,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "PHB",
-			"subclassShortName": "Lunar Magic (UA)",
+			"subclassShortName": "月之术法（UA）",
 			"subclassSource": "UA2022HeroesOfKrynn",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"{@i 18th-Level Lunar Magic feature}",
-				"Your lunar phase magic bursts. As a bonus action, you can tap into a special power of the lunar phase you are currently in. Alternatively, as part of the bonus action you take to change your lunar phase using your Waxing and Waning feature, you can immediately use the power of the lunar phase you are entering:",
+				"{@i 18级月之术法特性}",
+				"你的月之术法爆发。以一个附赠动作，你可以利用当前月之异象的特殊法力。或者，作为使用你的阴晴圆缺特性改变月之异象的附赠动作的一部分，你可以立即使用你正在进入的月之异象的法力：",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
+							"ENG_name": "Full Moon:",
+							"name": "满月：",
 							"type": "item",
-							"name": "Full Moon:",
 							"entries": [
-								"You radiate intense moonlight for a moment. Each creature of your choice within 30 feet of you must succeed on a Constitution saving throw against your spell save DC or be {@condition blinded} until the end of its next turn. In addition, one creature of your choice in that area regains {@dice 3d8} hit points."
+								"你瞬间散发出强烈的月光。你选择的30尺范围内的每个生物必须进行一次对抗你法术豁免DC的体质豁免检定，否则将陷入{@condition 目盲}状态直到其下一回合结束。此外，你选择的该区域内一个生物恢复{@dice 3d8}点生命值。"
 							]
 						},
 						{
+							"ENG_name": "New Moon:",
+							"name": "朔月：",
 							"type": "item",
-							"name": "New Moon:",
 							"entries": [
-								"You momentarily emanate an oppressive gloom. Each creature of your choice within 30 feet of you must succeed on a Dexterity saving throw against your spell save DC or take {@damage 3d10} necrotic damage and have its speed reduced to 0 until the end of its next turn. In addition, you become {@condition invisible} until the end of your next turn, or until you make an attack or cast a spell."
+								"你瞬间散发出一股压抑的黑暗。你选择的30尺范围内的每个生物必须进行一次对抗你法术豁免DC的敏捷豁免检定，否则受到{@damage 3d10}暗蚀伤害且速度降至0，直到其下个回合结束。此外，你变为{@condition 隐形}状态，直到你的下个回合结束，或直到你进行攻击或施法。"
 							]
 						},
 						{
+							"ENG_name": "Crescent Moon:",
+							"name": "新月：",
 							"type": "item",
-							"name": "Crescent Moon:",
 							"entries": [
-								"You slip through light and darkness. You can magically teleport to an unoccupied space you can see within 60 feet of yourself. In addition, you also gain resistance to all damage until the start of your next turn."
+								"你穿梭于光亮术与黑暗术之间。你可以魔法传送至一个你能看见的60尺内未占据空间。此外，你还将获得对所有伤害的抗性，直到你的下个回合开始。"
 							]
 						}
 					]
 				},
-				"Once you use a phase's bonus action, you can't do so again until you finish a long rest, unless you spend 5 sorcery points to use it again."
+				"一旦你使用了异相术的附赠动作，在完成一次长休前无法再次使用，除非你消耗5点术法点来再次使用。"
 			]
 		}
 	],
 	"background": [
 		{
-			"name": "Knight of Solamnia",
+			"ENG_name": "Knight of Solamnia",
+			"name": "索兰尼亚骑士",
 			"source": "UA2022HeroesOfKrynn",
 			"page": 3,
 			"feats": [
@@ -386,14 +408,14 @@
 				{
 					"_": [
 						{
-							"special": "insignia of rank"
+							"special": "构建索兰尼亚骑士"
 						},
 						{
-							"special": "deck of cards"
+							"special": "一套卡牌"
 						},
-						"common clothes|phb",
+						"普通服装|phb",
 						{
-							"item": "pouch|phb",
+							"item": "小包|phb",
 							"containsValue": 1000
 						}
 					]
@@ -408,55 +430,62 @@
 					"style": "list-hang-notitle",
 					"items": [
 						{
+							"ENG_name": "Skill Proficiencies:",
+							"name": "技能熟练项：",
 							"type": "item",
-							"name": "Skill Proficiencies:",
-							"entry": "{@skill Athletics}, {@skill Survival}"
+							"entry": "{@skill 运动}, {@skill 求生}"
 						},
 						{
+							"ENG_name": "Tool Proficiencies:",
+							"name": "工具熟练：",
 							"type": "item",
-							"name": "Tool Proficiencies:",
-							"entry": "One type of {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}"
+							"entry": "一种{@filter 乐器|items|source=phb|miscellaneous=平凡的|type=乐器}"
 						},
 						{
+							"ENG_name": "Languages:",
+							"name": "语言：",
 							"type": "item",
-							"name": "Languages:",
-							"entry": "One of your choice"
+							"entry": "任选其一"
 						},
 						{
+							"ENG_name": "Equipment:",
+							"name": "装备：",
 							"type": "item",
-							"name": "Equipment:",
-							"entry": "An insignia of rank, a deck of cards, a set of {@item common clothes|PHB}, and a {@item pouch|PHB} containing 10 gp"
+							"entry": "构建索兰尼亚骑士，一套卡牌，一套{@item 普通服装|PHB}，以及一个{@item 小包|PHB}，内装10GP"
 						}
 					]
 				},
 				{
+					"ENG_name": "Feature: Squire of Solamnia",
+					"name": "特性：索兰尼亚侍从",
 					"type": "entries",
-					"name": "Feature: Squire of Solamnia",
 					"entries": [
-						"You gain the {@feat Squire of Solamnia|UA2022HeroesOfKrynn} feat.",
-						"In addition, the Knights of Solamnia provide you free, modest lodging and food at any of their fortresses or encampments."
+						"你获得{@feat 索拉尼亚侍从|UA2022HeroesOfKrynn}专长。",
+						"此外，你在索兰尼亚所属的任何堡垒或营地处都可以得到免费的食物和住宿。"
 					],
 					"data": {
 						"isFeature": true
 					}
 				},
 				{
+					"ENG_name": "Building a Knight of Solamnia Character",
+					"name": "构建索兰尼亚骑士",
 					"type": "entries",
-					"name": "Building a Knight of Solamnia Character",
 					"entries": [
-						"Any class or subclass that has martial prowess can be a good fit in the Knights of Solamnia. Fighters and paladins make up the bulk of the knighthood's forces. Clerics (often with the War domain) can also be found among the knights' ranks.",
-						"For a more unusual take on a Knight of Solamnia character, consider playing a bard of the College of Valor (or the College of Swords from Xanathar's Guide to Everything) or a barbarian devoted to the ideals of the nature god Habbakuk (perhaps adopting the Path of the Zealot from Xanathar's Guide to Everything).",
+						"任何拥有军事实力的职业或子职都可以很好地融入索兰尼亚骑士团。战士和圣武士构成了骑士团的主力部队。牧师（通常选择战争领域）也可以在骑士们的行列中找到。",
+						"对于索兰尼亚骑士角色的一个更不寻常的演绎，可以考虑扮演一个勇气学院的吟游诗人（或来自姗娜萨的《万物指南》中的剑舞学院）或一个致力于自然神哈巴库克理想的野蛮人（或许采用来自姗娜萨的《万物指南》中的狂热者路途）。",
 						{
+							"ENG_name": "Suggested Characteristics",
+							"name": "建议人物特征",
 							"type": "entries",
-							"name": "Suggested Characteristics",
 							"entries": [
-								"Adventurers who dedicate themselves to protecting the innocent and upholding honorable virtues are welcomed among the Knights of Solamnia. The Knight of Solamnia Personality Traits table suggests various traits you might adopt for your character.",
+								"致力于保护无辜者且维护高尚美德的冒险者会受到索兰尼亚骑士团的欢迎。索兰尼亚骑士特点表格为你提供了角色可能采用的各种特质。",
 								{
 									"type": "table",
-									"caption": "Knight of Solamnia Personality Traits",
+									"caption": "索兰尼亚骑士个性特点",
 									"colLabels": [
 										"d6",
-										"Personality Trait"
+										"特点"
 									],
 									"colStyles": [
 										"col-1 text-center",
@@ -465,43 +494,44 @@
 									"rows": [
 										[
 											"1",
-											"I pledge my sword to the greater good. If I must perish in pursuit of that good, so be it."
+											"我以剑立誓效忠大义。若我必须为追求善良而死，那就这样吧。"
 										],
 										[
 											"2",
-											"My comrades-in-arms are my family. I'll do whatever it takes to keep them safe."
+											"我的战友就是我的家人。我会不惜一切代价保护它们的安全。"
 										],
 										[
 											"3",
-											"The protection of innocent people comes first. All other concerns come second."
+											"保护无辜者第一。所有其他考虑第二。"
 										],
 										[
 											"4",
-											"I joined the knights for the free meals, but their lessons grew on me over time."
+											"我加入索兰尼亚骑士们是为了免费餐食，但他们的教诲随着时间的推移逐渐影响了我。"
 										],
 										[
 											"5",
-											"I wish my deeds to become the stuff of legends\u2014just like those of the knighthood's heroic founders."
+											"我希望我的事迹能成为传说\u2014\u2014就像骑士团英勇创始人的事迹一样。"
 										],
 										[
 											"6",
-											"A dishonorable act drove me to become a knight. I have acted with honor ever since."
+											"一次不光彩的行为驱使我成为一名骑士。自那以后，我一直以荣誉行事。"
 										]
 									]
 								}
 							]
 						},
 						{
+							"ENG_name": "Knight of Solamnia Trinkets",
+							"name": "索兰尼亚骑士饰品",
 							"type": "entries",
-							"name": "Knight of Solamnia Trinkets",
 							"entries": [
-								"When you make your character, you may roll once on the Knight of Solamnia Trinkets table, instead of on the Trinkets table in the Player's Handbook, for your starting trinket.",
+								"当你创建角色时，你可以掷骰一次索兰尼亚骑士饰品表，而不是玩家手册中的饰品表，来获取你的起始饰品。",
 								{
 									"type": "table",
-									"caption": "Knight of Solamnia Trinkets",
+									"caption": "索兰尼亚骑士饰品",
 									"colLabels": [
 										"d6",
-										"Trinket"
+										"饰品"
 									],
 									"colStyles": [
 										"col-1 text-center",
@@ -510,27 +540,27 @@
 									"rows": [
 										[
 											"1",
-											"A flat silver disk you record your heroics upon"
+											"一个光滑的银盘，用于记录你的英雄事迹。"
 										],
 										[
 											"2",
-											"A piece of a fallen knight's armor"
+											"一小块牺牲战友留下的铠甲碎片。"
 										],
 										[
 											"3",
-											"A pendant featuring a crown, a rose, a sword, or combination of all three"
+											"一个饰有王冠、玫瑰、剑或三者组合的挂坠"
 										],
 										[
 											"4",
-											"The pommel of your mentor's sword"
+											"一块柄头，来源于你导师的剑。"
 										],
 										[
 											"5",
-											"A meaningful favor from someone you defended\u2014perhaps a handkerchief or glove"
+											"从被你保护者处收下的一件信物，可能是手帕或手套。"
 										],
 										[
 											"6",
-											"A brass locket with a sketch of a silver dragon inside"
+											"一个黄铜吊坠，里面有一幅银龙的素描"
 										]
 									]
 								}
@@ -542,7 +572,8 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Mage of High Sorcery",
+			"ENG_name": "Mage of High Sorcery",
+			"name": "高等术法会法师",
 			"source": "UA2022HeroesOfKrynn",
 			"page": 4,
 			"feats": [
@@ -564,11 +595,11 @@
 			"startingEquipment": [
 				{
 					"_": [
-						"ink (1-ounce bottle)|phb",
-						"ink pen|phb",
-						"common clothes|phb",
+						"墨水(1盎司/瓶)|phb",
+						"墨水笔|phb",
+						"普通服装|phb",
 						{
-							"item": "pouch|phb",
+							"item": "小包|phb",
 							"containsValue": 1000
 						}
 					]
@@ -583,49 +614,55 @@
 					"style": "list-hang-notitle",
 					"items": [
 						{
+							"ENG_name": "Skill Proficiencies:",
+							"name": "技能熟练项：",
 							"type": "item",
-							"name": "Skill Proficiencies:",
-							"entry": "{@skill Arcana}, {@skill History}"
+							"entry": "{@skill 奥秘}, {@skill 历史}"
 						},
 						{
+							"ENG_name": "Languages:",
+							"name": "语言：",
 							"type": "item",
-							"name": "Languages:",
-							"entry": "Two of your choice"
+							"entry": "任选两项"
 						},
 						{
+							"ENG_name": "Equipment:",
+							"name": "装备：",
 							"type": "item",
-							"name": "Equipment:",
-							"entry": "A {@item Ink (1-ounce bottle)|PHB|bottle of colored ink}, an {@item ink pen|phb}, a set of {@item common clothes|phb}, and a {@item pouch|phb} containing 10 gp"
+							"entry": "一瓶 {@item 墨水(1盎司/瓶)|PHB|一瓶彩色墨水}，一支{@item 墨水笔|phb}，一套{@item 普通服装|phb}，以及一个装有10 gp的 {@item 小包|phb}"
 						}
 					]
 				},
 				{
+					"ENG_name": "Feature: Initiate of High Sorcery",
+					"name": "特性：高等术法学徒",
 					"type": "entries",
-					"name": "Feature: Initiate of High Sorcery",
 					"entries": [
-						"You gain the {@feat Initiate of High Sorcery|UA2022HeroesOfKrynn} feat.",
-						"In addition, the Mages of High Sorcery provide you with free, modest lodging and food indefinitely at any occupied Tower of High Sorcery and for one night at the home of an organization member."
+						"你获得{@feat 高等术法学徒|UA2022HeroesOfKrynn}专长。",
+						"大法师的成员可以在大法师塔得到免费的食物和住宿，也可以在其他大法师的家中借宿一宿。"
 					],
 					"data": {
 						"isFeature": true
 					}
 				},
 				{
+					"ENG_name": "Building a Mage of High Sorcery Character",
+					"name": "构建大法师塔的巫师",
 					"type": "entries",
-					"name": "Building a Mage of High Sorcery Character",
 					"entries": [
-						"Mages of High Sorcery are typically bards, wizards, or warlocks and might have any subclass. Spellcasters who gain their magic through devotion or who possess innate magic are less likely to be welcomed among the traditionalist mages. Nevertheless, the Mages of High Sorcery are shrewd, and they rarely let unique opportunities or individuals pass them by. Even members of martial classes who train in magic might find a rare place among the group's three orders.",
+						"高等术法会法师通常是吟游诗人、法师或魔契师且可能有任何子职。通过奉献获得魔法或拥有天生魔法的施法者不太可能受到传统主义魔法师们的欢迎。尽管如此，高等术法会法师是精明的，他们很少让独特的机会或个人从它们身边溜走。甚至训练魔法的军用职业成员也可能在该团体的三命令中找到珍稀地点。",
 						{
+							"ENG_name": "Suggested Characteristics",
+							"name": "建议人物特征",
 							"type": "entries",
-							"name": "Suggested Characteristics",
 							"entries": [
-								"The study of magic drives the Mages of High Sorcery. Consider which of the group's three orders you aspire to join. The Mage of High Sorcery Personality Traits table suggests traits you might adopt for your character.",
+								"对魔法的研究驱使着高等术法会法师们。考虑一下你渴望加入该团体的三个命令中的哪一个。高等术法会法师个性特点表格为你提供了可能适用于角色的特质建议。",
 								{
 									"type": "table",
-									"caption": "Mage of High Sorcery Personality Traits",
+									"caption": "高等术法会法师个性特点",
 									"colLabels": [
 										"d6",
-										"Personality Trait"
+										"特点"
 									],
 									"colStyles": [
 										"col-1 text-center",
@@ -634,43 +671,44 @@
 									"rows": [
 										[
 											"1",
-											"I wish to use my knowledge of magic to better people's lives."
+											"我希望能用我的魔法知识来改善人们的生活。"
 										],
 										[
 											"2",
-											"My study of magic might reveal all manner of secrets."
+											"我对魔法的研究可能揭示所有种类的秘密。"
 										],
 										[
 											"3",
-											"Magic is a means to power, and I will use it to pursue my ambitions."
+											"魔法是通往法力的手段，且我将随意用它来追求我的野心。"
 										],
 										[
 											"4",
-											"I learned magic so I'd be able to protect those I care about."
+											"我学习魔法是为了能够保护我所关心的人。"
 										],
 										[
 											"5",
-											"I use my magic to maintain the balance between all things."
+											"我使用我的魔法来维护所有事物之间的平衡。"
 										],
 										[
 											"6",
-											"Whether in the past, present, or future, I will be the greatest mage ever known."
+											"无论是过去、现在还是未来，我都将成为有史以来最伟大的魔法师。"
 										]
 									]
 								}
 							]
 						},
 						{
+							"ENG_name": "Mage of High Sorcery Trinkets",
+							"name": "大法师塔的巫师饰品",
 							"type": "entries",
-							"name": "Mage of High Sorcery Trinkets",
 							"entries": [
-								"When you make your character, you may roll once on the Mage of High Sorcery Trinkets table, instead of on the Trinkets table in the Player's Handbook, for your starting trinket.",
+								"当你创建角色时，你可以掷骰一次高等术法会法师饰品表，而不是玩家手册中的饰品表，来获取你的初始饰品。",
 								{
 									"type": "table",
-									"caption": "Mage of High Sorcery Trinkets",
+									"caption": "大法师塔的巫师饰品",
 									"colLabels": [
 										"d6",
-										"Trinket"
+										"饰品"
 									],
 									"colStyles": [
 										"col-1 text-center",
@@ -679,27 +717,27 @@
 									"rows": [
 										[
 											"1",
-											"An unopened letter from your first teacher"
+											"一份未开封的信，来自你的启蒙导师。"
 										],
 										[
 											"2",
-											"A broken wand made of black, red, or white wood"
+											"一份未开封的信，来自你的启蒙导师。"
 										],
 										[
 											"3",
-											"A scroll bearing an incomprehensible formula"
+											"一份卷轴，上面写有一个难解的魔法公式"
 										],
 										[
 											"4",
-											"A purposeless device covered in colored stones that can fold into various enigmatic shapes"
+											"一个镶有宝石的奇异装置，可以折叠出神秘的形状。"
 										],
 										[
 											"5",
-											"A pouch or spell book emblazoned with the triple moon symbol of the Mages of High Sorcery"
+											"一个小包或法术书，上面饰有高等术法会魔法师们的三重月亮徽记"
 										],
 										[
 											"6",
-											"A lens through which you can see Krynn's invisible black moon, Nuitari"
+											"一块能洞见不可视黑月-努塔瑞Nuitari的镜片。"
 										]
 									]
 								}
@@ -708,10 +746,11 @@
 					]
 				},
 				{
+					"ENG_name": "Mages of Dragonlance",
+					"name": "龙枪魔法师们",
 					"type": "inset",
-					"name": "Mages of Dragonlance",
 					"entries": [
-						"In past presentations of the Dragonlance setting, several of Dungeons & Dragon's modern spellcasting classes didn't exist. To accommodate these classes, the group known as the Wizards of High Sorcery has evolved into the Mages of High Sorcery. The group's distinct orders and signature robes remain, but the organization now accepts members from a broad range of spellcasting traditions. Members who find their magic influenced by the phases of Krynn's moons also remain part of the group, largely represented by sorcerers with the {@class sorcerer|phb|Lunar Magic|lunar magic (UA)|UA2022HeroesOfKrynn} subclass."
+						"在龙枪设定的过去版本中，地下城与龙的现代施法职业并不存在。为了适应这些职业，被称为高等术法会法师的团体已演变为高等术法会法师。该团体独特的命令和招牌长袍依然保留，但该组织现在接受来自广泛施法传统的成员。那些发现自己的魔法受到克莱恩月亮相位影响的成员也仍然是该团体的一部分，主要由拥有{@class 术士|phb|月华魔法|月之术法（UA）|UA2022HeroesOfKrynn}子职的术士代表。"
 					]
 				}
 			],
@@ -720,28 +759,31 @@
 	],
 	"backgroundFluff": [
 		{
-			"name": "Knight of Solamnia",
+			"ENG_name": "Knight of Solamnia",
+			"name": "索兰尼亚骑士",
 			"source": "UA2022HeroesOfKrynn",
 			"entries": [
-				"You have trained to be a valorous warrior known as a Knight of Solamnia. Strict rules guide your every action, and you work to uphold them as you strive to defend the weak and oppose all forms of evil. Your honor is as important to you as your life."
+				"你已训练成为一名被称为索兰尼亚骑士的英勇武者。严格的规则指导着你的每一个动作，且你努力工作时遵守它们，同时你致力于保护虚弱者并反对所有形式的邪恶。你的荣誉对你来说如同生命一样重要。"
 			]
 		},
 		{
-			"name": "Mage of High Sorcery",
+			"ENG_name": "Mage of High Sorcery",
+			"name": "高等术法会法师",
 			"source": "UA2022HeroesOfKrynn",
 			"entries": [
-				"Your talent for magic came to the attention of the Mages of High Sorcery, an organization of spellcasters that study magic and prevent its misuse. You've trained among the Mages, but whether or not you'll face the dangerous tests required to become a true member of the group remains to be determined. Your passion for studying magic has likely already predisposed you toward one of the organization's three orders: the benevolent Order of the White Robes, the balance-pursuing Order of the Red Robes, or the ruthless Order of the Black Robes.",
-				"In the world of Krynn, many refer to the Mages of High Sorcery as the Wizards of High Sorcery. The organization accepts more than wizards, though, with bards, sorcerers, warlocks, and other spellcasters included among their ranks."
+				"你的魔法天赋引起了高等术法会法师们的注意，这是一个研究魔法且防止其被滥用的施法者组织。你曾在高等术法会法师中接受训练，但你是否会面对成为该组织真正成员所需的危险测试仍有待确定。你对研究魔法的激情可能已经使你倾向于该组织的三个秩序之一：仁慈的白袍长袍秩序、追求平衡的红袍长袍秩序或无情的漆黑长袍秩序。",
+				"在克莱恩的世界中，许多人都将高等术法会法师称为高等法师会法师。然而，该组织不仅接纳法师，还包括吟游诗人、术士、魔契师以及其他施法者。"
 			]
 		}
 	],
 	"race": [
 		{
-			"name": "Kender",
+			"ENG_name": "Kender",
+			"name": "坎德人",
 			"source": "UA2022HeroesOfKrynn",
 			"page": 1,
 			"reprintedAs": [
-				"Kender|UA2022HeroesOfKrynnRevisited"
+				"坎德人|UA2022HeroesOfKrynnRevisited"
 			],
 			"lineage": "VRGR",
 			"size": [
@@ -755,23 +797,25 @@
 			],
 			"entries": [
 				{
+					"ENG_name": "Brave",
+					"name": "勇气",
 					"type": "entries",
-					"name": "Brave",
 					"entries": [
-						"You have advantage on saving throws you make to avoid or end the {@condition frightened} condition on yourself."
+						"你在避免或结束自身的{@condition 恐慌}状态时进行的豁免检定具有优势。"
 					]
 				},
 				{
+					"ENG_name": "Kender Ace",
+					"name": "坎德人王牌",
 					"type": "entries",
-					"name": "Kender Ace",
 					"entries": [
-						"Starting at 3rd level, you possess a magical ability to pull an item out of a bag or another container; as a bonus action, you can reach into a container you're carrying and roll on the Kender Aces table to determine what item you pull out. The object glimmers softly and disappears after 1 hour. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+						"从3级开始，你拥有一种魔法能力，可以从袋子或其他容器中拉出一件物品；作为附赠动作，你可以将手伸入你携带的容器中，并在坎德人王牌表格上掷骰以决定你拉出什么物品。该物件会微微发光并在1小时后消失。你可以使用此附赠动作的次数等于你的熟练加值，且完成一次长休后恢复所有已消耗的使用次数。",
 						{
 							"type": "table",
-							"caption": "Kender Aces",
+							"caption": "坎德人王牌",
 							"colLabels": [
 								"d6",
-								"Item"
+								"物品"
 							],
 							"colStyles": [
 								"col-1 text-center",
@@ -780,38 +824,39 @@
 							"rows": [
 								[
 									"1",
-									"{@dice 5d6} gold pieces"
+									"{@dice 5d6}金币"
 								],
 								[
 									"2",
-									"1 {@filter simple weapon|items|source=phb|category=basic|type=simple weapon|property=light} of your choice that has the light property"
+									"1 {@filter 简易武器|items|source=phb|category=基础|type=简易武器|property=轻型} 个你选择的具有轻型属性的简易武器"
 								],
 								[
 									"3",
-									"1 item of your choice from the {@table Adventuring Gear|PHB} table in the Player's Handbook. The item must cost no more than 1 gp and weigh no more than 1 lb."
+									"从《玩家手册》中的{@table 冒险用品|PHB}表格中选择1件物品。该物品的花费不得超过1GP且重量不得超过1磅。"
 								],
 								[
 									"4",
-									"1 random item from the {@item Trinket|PHB|Trinkets} table in the Player's Handbook."
+									"1个随机物品来自玩家手册中的{@item 饰品|PHB|饰品}表格。"
 								],
 								[
 									"5",
-									"Your choice of a {@item crowbar|PHB} or a {@item grappling hook|PHB}"
+									"你选择一件{@item 撬棍|PHB}或一件{@item 爪钩|PHB}"
 								],
 								[
 									"6",
-									"1 item of your choice from the {@table Tools|PHB} table in the Player's Handbook. The item must cost no more than 10 gp."
+									"从《玩家手册》中的{@table 工具|PHB}表格中选择1件物品。该物品的花费不得超过10GP。"
 								]
 							]
 						}
 					]
 				},
 				{
+					"ENG_name": "Taunt",
+					"name": "嘲讽",
 					"type": "entries",
-					"name": "Taunt",
 					"entries": [
-						"You have a supernatural ability to home in on a creature's emotional raw nerves and craft a taunt that flusters that creature. As a bonus action, you can unleash a barrage of insults at a creature within 60 feet of you that can hear and understand you. The target must succeed on a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier), or it has disadvantage on attack rolls until the start of your next turn.",
-						"You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+						"你拥有一种超自然属性，能够直击生物的情感要害并制造一个令其慌乱的嘲讽。以一个附赠动作，你可以对60尺内能听见并理解你的生物发动一连串的侮辱。目标必须成功通过一次感知豁免检定（DC等于8+你的熟练加值+你的魅力调整值），否则直到你的下个回合开始前，它在攻击检定上具有劣势。",
+						"你可以使用该附赠动作的次数等同于你的熟练加值，你在完成一次长休后恢复所有已消耗的使用次数。"
 					]
 				}
 			],
@@ -820,24 +865,26 @@
 	],
 	"raceFluff": [
 		{
-			"name": "Kender",
+			"ENG_name": "Kender",
+			"name": "坎德人",
 			"source": "UA2022HeroesOfKrynn",
 			"entries": [
-				"Native to the world of Krynn, Kender are diminutive Humanoids that look like humans with pointed ears and diverse appearances. Kender have a supernatural curiosity that drives them on to adventures big and small. This curiosity is said to be connected to the whimsical magic of the Feywild, that some believe kender have a high affinity for. Due to their curiosity, many kender have found themselves falling through gates and portals to other planes and worlds.",
-				"Unknown to most mortals, a magical phenomenon surrounds a kender. Spurred by their curiosity and love for trinkets, curios, and keepsakes, a kender's pouches or pockets will be magically filled with these objects. No one knows where these objects come from, not even the kender. This has led many kender to be mislabeled as thieves when they fish these items out of their pockets."
+				"克莱恩世界的原生种族，坎德人是外貌多样、长着尖耳朵、看起来像人类的小型类人生物。坎德人有一种超自然的好奇心，驱使它们投身大大小小的冒险。据说这种好奇心与妖精荒野的异想天开魔法有关，有些人认为坎德人对这种魔法有高等亲和力。由于它们的好奇心，许多坎德人发现自己会坠入通往其他位面和世界的大门与传送门。",
+				"大多数凡人所不知的是，一种魔法现象围绕着坎德人。受到他们对饰品、新奇物品和纪念品的好奇和嘲笑的驱使，坎德人的小包或口袋会神奇地装满这些物件。没有人知道这些物件来自哪里，甚至连坎德人自己也不知道。这导致许多坎德人在从口袋里掏出这些物品时被误认为是窃贼。"
 			]
 		}
 	],
 	"feat": [
 		{
-			"name": "Adept of the Black Robes",
+			"ENG_name": "Adept of the Black Robes",
+			"name": "黑袍入道",
 			"source": "UA2022HeroesOfKrynn",
 			"page": 5,
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"initiate of high sorcery|ua2022heroesofkrynn"
+						"高等术法学徒|UA2022HeroesOfKrynn"
 					],
 					"alignment": [
 						"L",
@@ -862,7 +909,7 @@
 							"daily": {
 								"1e": [
 									{
-										"choose": "level=2|school=V;N"
+										"choose": "level=2|school=v;n"
 									}
 								]
 							}
@@ -871,23 +918,25 @@
 				}
 			],
 			"entries": [
-				"Your ambition and loyalty to the Order of the Black Robes has been recognized, granting you these benefits:",
+				"你的野心且对漆黑长袍秩序的忠诚已被认可，授予你这些增益：",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
+							"ENG_name": "Ambitious Magic",
+							"name": "雄心魔法",
 							"type": "item",
-							"name": "Ambitious Magic",
 							"entries": [
-								"You learn one 2nd-level spell of your choice. The {@filter 2nd-level spell|spells|level=2|school=V;N} must be from the evocation or necromancy school of magic. You can cast this feat's 2nd-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using spell slots you have of the appropriate level. The spell's spellcasting ability is the one chosen when you gained the {@feat Initiate of High Sorcery|UA2022HeroesOfKrynn} feat."
+								"你习得一个自选的2环法术。该{@filter 2环法术|spells|level=2|school=v;n}必须属于塑能或死灵魔法学派。你可以无需法术位施放此专长的2环法术，且必须完成一次长休后才能再次以此方式施放。你也可以使用对应等级的法术位来施放该法术。该法术的施法属性为你获得{@feat 高等术法学徒|UA2022HeroesOfKrynn}专长时所选的属性。"
 							]
 						},
 						{
+							"ENG_name": "Life Channel",
+							"name": "生命引导",
 							"type": "item",
-							"name": "Life Channel",
 							"entries": [
-								"You can channel your lifeforce into the power of your magic. When a creature you can see within 60 feet of you fails on a saving throw against a spell you cast, you can expend a number of Hit Dice equal to the level of the spell. Roll a number of Hit Die equal to half the number of Hit Dice expended (rounded up) and the damage the triggering creature takes increases by an amount equal to the total rolled of those dice."
+								"你可以将你的生命力引导至你的魔法法力中。当你60尺内一个你能看见的生物在你施放的法术上豁免检定失败时，你可以消耗等同于该法术等级数量的生命骰。掷出等同于所消耗生命骰数量一半（向上取整）的生命骰，且触发此效果的生物受到的伤害增加等同于这些骰子全部掷出数值的数量。"
 							]
 						}
 					]
@@ -895,14 +944,15 @@
 			]
 		},
 		{
-			"name": "Adept of the Red Robes",
+			"ENG_name": "Adept of the Red Robes",
+			"name": "红袍入道",
 			"source": "UA2022HeroesOfKrynn",
 			"page": 5,
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"initiate of high sorcery|ua2022heroesofkrynn"
+						"高等术法学徒|UA2022HeroesOfKrynn"
 					]
 				}
 			],
@@ -929,23 +979,25 @@
 				}
 			],
 			"entries": [
-				"Your pursuit of truth and dedication to maintaining the balance between all things has been recognized by the Order of the Red Robes, granting you these benefits:",
+				"你对真理的追击且献身于维持万物平衡的追求已被红袍长袍之秩序认可，授予你这些增益：",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
+							"ENG_name": "Insightful Magic",
+							"name": "洞见魔法",
 							"type": "item",
-							"name": "Insightful Magic",
 							"entries": [
-								"You learn one 2nd-level spell of your choice. The {@filter 2nd-level spell|spells|level=2|school=D;T} must be from the divination or transmutation school of magic. You can cast this feat's 2nd-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using spell slots you have of the appropriate level. The spell's spellcasting ability is the one chosen when you gained the {@feat Initiate of High Sorcery|UA2022HeroesOfKrynn} feat."
+								"你习得一个自选的2环法术。该{@filter 2环法术|spells|level=2|school=D;T}必须来自预言或变化魔法学派。你可以无需法术位施放此专长的2环法术，且必须完成一次长休后才能再次以此方式施放。你也可以使用相应等级的法术位来施放此法术。该法术的施法属性为你获得{@feat 高等术法学徒|UA2022HeroesOfKrynn}专长时所选的属性。"
 							]
 						},
 						{
+							"ENG_name": "Magical Balance",
+							"name": "魔法均衡",
 							"type": "item",
-							"name": "Magical Balance",
 							"entries": [
-								"When you make an attack roll, an ability check, or a saving throw, and roll a 9 or lower on the {@dice d20}, you can use your reaction to balance fate and treat the roll as a 10. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+								"当你进行攻击检定、属性检定或豁免检定时，且在{@dice d20}上掷出小于等于9的数值时，你可以使用你的反应来平衡命运并将该掷骰结果视为10。你可以使用此反应的次数等于你的熟练加值，且完成一次长休后恢复所有已消耗的使用次数。"
 							]
 						}
 					]
@@ -953,14 +1005,15 @@
 			]
 		},
 		{
-			"name": "Adept of the White Robes",
+			"ENG_name": "Adept of the White Robes",
+			"name": "白袍入道",
 			"source": "UA2022HeroesOfKrynn",
 			"page": 5,
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"initiate of high sorcery|ua2022heroesofkrynn"
+						"高等术法学徒|UA2022HeroesOfKrynn"
 					],
 					"alignment": [
 						"L",
@@ -994,23 +1047,25 @@
 				}
 			],
 			"entries": [
-				"Your oath to use magic to make the world a better place has been recognized by the Order of the White Robes, granting you these benefits:",
+				"你誓仇使用魔法让世界变得更美好的地点已被白袍长袍的秩序认可，授予你这些增益：",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
+							"ENG_name": "Protective Magic",
+							"name": "护身魔法",
 							"type": "item",
-							"name": "Protective Magic",
 							"entries": [
-								"You learn one 2nd-level spell of your choice. The {@filter 2nd-level spell|spells|level=2|school=A;C} must be from the abjuration or conjuration school of magic. You can cast this feat's 2nd-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using spell slots you have of the appropriate level. The spell's spellcasting ability is the one chosen when you gained the {@feat Initiate of High Sorcery|UA2022HeroesOfKrynn} feat."
+								"你习得一个自选的2环法术。该{@filter 2环法术|spells|level=2|school=A;C}必须属于防护或咒法学派。你可以无需法术位施放此专长的2环法术，且必须完成一次长休后才能再次以此方式施放。你也可以使用对应等级的法术位来施放该法术。该法术的施法属性为你获得{@feat 高等术法学徒|UA2022HeroesOfKrynn}专长时所选的属性。"
 							]
 						},
 						{
+							"ENG_name": "Protective Ward",
+							"name": "防护结界",
 							"type": "item",
-							"name": "Protective Ward",
 							"entries": [
-								"When you or a creature you can see within 30 feet of you takes damage, you can use your reaction to expend a spell slot and weave protective magic around the target. Roll a number of d4s equal to the level of the spell slot expended and reduce the damage the target takes by the total rolled on those dice + your spellcasting ability modifier."
+								"当你或一个你能看见的30尺内的生物受到伤害时，你可以使用你的反应来消耗一个法术位并在目标周围编织防护结界。掷骰数量等同于所消耗法术位等级的d4，且目标受到的伤害将减少掷骰结果的总和加上你的施法属性调整值。"
 							]
 						}
 					]
@@ -1018,14 +1073,15 @@
 			]
 		},
 		{
-			"name": "Divine Communications",
+			"ENG_name": "Divine Communications",
+			"name": "神圣通讯",
 			"source": "UA2022HeroesOfKrynn",
 			"page": 5,
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"divinely favored|ua2022heroesofkrynn"
+						"神圣恩赐|UA2022HeroesOfKrynn"
 					]
 				}
 			],
@@ -1049,30 +1105,33 @@
 				}
 			],
 			"entries": [
-				"Your connection to your god deepens, granting you these benefits:",
+				"你与神的联系加深，获得以下增益：",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
+							"ENG_name": "Ability Score Increase",
+							"name": "属性值加成",
 							"type": "item",
-							"name": "Ability Score Increase",
 							"entries": [
-								"Increase the ability score of the spellcasting ability chosen when you gained the Divinely Favored feat by 1, to a maximum of 20."
+								"将你在获得神圣恩赐专长时选择的施法属性值增加1，最高不超过20。"
 							]
 						},
 						{
+							"ENG_name": "Celestial Tongues",
+							"name": "天界生物巧言术",
 							"type": "item",
-							"name": "Celestial Tongues",
 							"entries": [
-								"You learn to speak, read, and write Celestial, and two other languages of your choice."
+								"你学会说、读和写天界语，且自选二种其他语言。"
 							]
 						},
 						{
+							"ENG_name": "Divine Omens",
+							"name": "神圣预兆",
 							"type": "item",
-							"name": "Divine Omens",
 							"entries": [
-								"You can cast the {@spell augury} and {@spell commune} spell without a spell slot, and you must finish {@dice 1d4} long rests before you can cast it in this way again. You can also cast the spell using spell slots you have of the appropriate level. The spell's spellcasting ability is the one chosen when you gained the Divinely Favored feat."
+								"你可以施放{@spell 卜筮术}和{@spell 通神术}法术而无需消耗法术位，且你必须完成{@dice 1d4}次长休后才能再次以此方式施放。你也可以使用相应等级的法术位来施放该法术。该法术的施法属性为你获得神圣恩赐专长时所选的属性。"
 							]
 						}
 					]
@@ -1080,12 +1139,14 @@
 			]
 		},
 		{
-			"name": "Divinely Favored",
+			"ENG_name": "Divinely Favored",
+			"name": "神圣恩赐",
 			"source": "UA2022HeroesOfKrynn",
 			"page": 5,
 			"additionalSpells": [
 				{
-					"name": "Evil",
+					"ENG_name": "Evil",
+					"name": "邪恶",
 					"ability": {
 						"choose": [
 							"int",
@@ -1095,7 +1156,7 @@
 					},
 					"known": {
 						"_": [
-							"thaumaturgy#c"
+							"奇术#c"
 						]
 					},
 					"innate": {
@@ -1103,7 +1164,7 @@
 							"daily": {
 								"1e": [
 									{
-										"choose": "level=1|class=wizard;warlock"
+										"choose": "level=1|class=法师;魔契师"
 									}
 								]
 							}
@@ -1111,7 +1172,8 @@
 					}
 				},
 				{
-					"name": "Good",
+					"ENG_name": "Good",
+					"name": "善良",
 					"ability": {
 						"choose": [
 							"int",
@@ -1121,7 +1183,7 @@
 					},
 					"known": {
 						"_": [
-							"thaumaturgy#c"
+							"奇术#c"
 						]
 					},
 					"innate": {
@@ -1129,7 +1191,7 @@
 							"daily": {
 								"1e": [
 									{
-										"choose": "level=1|class=wizard;cleric"
+										"choose": "level=1|class=法师;牧师"
 									}
 								]
 							}
@@ -1137,7 +1199,8 @@
 					}
 				},
 				{
-					"name": "Neutral",
+					"ENG_name": "Neutral",
+					"name": "绝对中立",
 					"ability": {
 						"choose": [
 							"int",
@@ -1147,7 +1210,7 @@
 					},
 					"known": {
 						"_": [
-							"thaumaturgy#c"
+							"奇术#c"
 						]
 					},
 					"innate": {
@@ -1155,7 +1218,7 @@
 							"daily": {
 								"1e": [
 									{
-										"choose": "level=1|class=wizard;druid"
+										"choose": "level=1|class=法师;德鲁伊"
 									}
 								]
 							}
@@ -1164,16 +1227,16 @@
 				}
 			],
 			"entries": [
-				"A god has chosen you to carry a spark of their divine power.",
-				"You learn the {@spell thaumaturgy} cantrip and one 1st-level spell based on the alignment of your character, as specified in the Alignment Spells table.",
-				"You can cast the chosen 1st-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast the spell using any spell slots you have.",
-				"Your spellcasting ability for this feat's spells is Intelligence, Wisdom, or Charisma (choose when you select this feat).",
+				"一位神已选择你承载祂神圣法力的一丝火花。",
+				"你习得戏法{@spell 奇术}且根据你角色的阵营习得一个一环法术，如阵营法术表格中所指定。",
+				"你能够不使用法术位施展所选择的1环法术，当你这样做后，必须完成一次长休后才能再次用这种方式释放。你也能使用你拥有的任意法术位来释放该法术。",
+				"你施放本专长法术的施法属性为智力、感知或魅力（在你选择本专长时选择）。",
 				{
 					"type": "table",
-					"caption": "Alignment Spells",
+					"caption": "阵营法术",
 					"colLabels": [
-						"Alignment",
-						"1st-level Spell"
+						"阵营",
+						"一环法术"
 					],
 					"colStyles": [
 						"col-2",
@@ -1181,34 +1244,36 @@
 					],
 					"rows": [
 						[
-							"Evil",
-							"Choose one {@filter 1st-level warlock or wizard spell|spells|level=1|class=wizard;warlock}."
+							"邪恶",
+							"选择一项{@filter 1级魔契师或法师法术|spells|level=1|class=法师;魔契师}。"
 						],
 						[
-							"Good",
-							"Choose one {@filter 1st-level cleric or wizard spell|spells|level=1|class=wizard;cleric}."
+							"善良",
+							"选择一项 {@filter 1级牧师或法师法术|spells|level=1|class=法师;牧师}。"
 						],
 						[
-							"Neutral",
-							"Choose one {@filter 1st-level druid or wizard spell|spells|level=1|class=wizard;druid}."
+							"绝对中立",
+							"选择一项 {@filter 1级德鲁伊或法师法术|spells|level=1|class=法师;德鲁伊}。"
 						]
 					]
 				},
-				"In addition, you can use a holy symbol as a spellcasting focus for any spell you cast that uses the spellcasting ability you choose when you select this feat."
+				"此外，当你施放一道本专长所选施法属性的任意法术时，你可以将圣徽作为法器使用。"
 			]
 		},
 		{
-			"name": "Initiate of High Sorcery",
+			"ENG_name": "Initiate of High Sorcery",
+			"name": "高等术法学徒",
 			"source": "UA2022HeroesOfKrynn",
 			"page": 6,
 			"prerequisite": [
 				{
-					"other": "Apprentice of High Sorcery"
+					"other": "高等术法学徒"
 				}
 			],
 			"additionalSpells": [
 				{
-					"name": "Nuitari",
+					"ENG_name": "Nuitari",
+					"name": "努塔瑞",
 					"ability": {
 						"choose": [
 							"int",
@@ -1221,9 +1286,9 @@
 							{
 								"choose": {
 									"from": [
-										"chill touch#c",
-										"mage hand#c",
-										"vicious mockery#c"
+										"颤栗之触#c",
+										"法师之手#c",
+										"恶言相加#c"
 									]
 								}
 							}
@@ -1234,7 +1299,7 @@
 							"daily": {
 								"1e": [
 									{
-										"choose": "level=1|class=wizard|school=V;N"
+										"choose": "level=1|class=法师|school=v;n"
 									}
 								]
 							}
@@ -1242,7 +1307,8 @@
 					}
 				},
 				{
-					"name": "Lunitari",
+					"ENG_name": "Lunitari",
+					"name": "努林塔瑞",
 					"ability": {
 						"choose": [
 							"int",
@@ -1255,9 +1321,9 @@
 							{
 								"choose": {
 									"from": [
-										"guidance#c",
-										"message#c",
-										"prestidigitation#c"
+										"神导术#c",
+										"传讯术#c",
+										"魔法伎俩#c"
 									]
 								}
 							}
@@ -1268,7 +1334,7 @@
 							"daily": {
 								"1e": [
 									{
-										"choose": "level=1|class=wizard|school=D;T"
+										"choose": "level=1|class=法师|school=D;T"
 									}
 								]
 							}
@@ -1276,7 +1342,8 @@
 					}
 				},
 				{
-					"name": "Solinari",
+					"ENG_name": "Solinari",
+					"name": "索林那瑞",
 					"ability": {
 						"choose": [
 							"int",
@@ -1289,9 +1356,9 @@
 							{
 								"choose": {
 									"from": [
-										"produce flame#c",
-										"resistance#c",
-										"spare the dying#c"
+										"燃火术#c",
+										"抵抗术#c",
+										"维生术#c"
 									]
 								}
 							}
@@ -1302,7 +1369,7 @@
 							"daily": {
 								"1e": [
 									{
-										"choose": "level=1|class=wizard|school=A;C"
+										"choose": "level=1|class=法师|school=A;C"
 									}
 								]
 							}
@@ -1311,16 +1378,16 @@
 				}
 			],
 			"entries": [
-				"You've received training from magic-users affiliated with the Mages of High Sorcery. Choose one of the three moons of Krynn, each of which is associated with a distinct type of magic: the black moon, Nuitari; the red moon, Lunitari; or the white moon Solinari. You learn one cantrip and one 1st-level spell based on the moon you choose, as specified in the Lunar Spells table.",
-				"You can cast the chosen 1st-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast the spell using any spell slots you have.",
-				"Your spellcasting ability for this feat's spells is Intelligence, Wisdom, or Charisma (choose when you select this feat).",
+				"你接受了来自高等术法学徒所属魔法使的训练。从克莱恩的三位月亮中选择一位，每位月亮都与一种独特的魔法类型相关联：漆黑月亮努塔瑞；红月亮努林塔瑞；或白月亮索林那瑞。根据你选择的月亮，你将学会一个戏法和一个一环法术，具体见月之法术表。",
+				"你能够不使用法术位施展所选择的1环法术，当你这样做后，必须完成一次长休后才能再次用这种方式释放。你也能使用你拥有的任意法术位来释放该法术。",
+				"你施放本专长法术的施法属性为智力、感知或魅力（在你选择本专长时选择）。",
 				{
 					"type": "table",
-					"caption": "Lunar Spells",
+					"caption": "月之法术表",
 					"colLabels": [
-						"Moon",
-						"Cantrips",
-						"1st-level Spell"
+						"月亮",
+						"戏法",
+						"一环法术"
 					],
 					"colStyles": [
 						"col-1",
@@ -1329,33 +1396,34 @@
 					],
 					"rows": [
 						[
-							"Nuitari",
-							"Choose one from {@spell chill touch}, {@spell mage hand}, and {@spell vicious mockery}",
-							"Choose one {@filter 1st-level wizard spell from the evocation or necromancy school of magic|spells|level=1|class=wizard|school=V;N}."
+							"努塔瑞",
+							"选择一项：{@spell 颤栗之触}、{@spell 法师之手}或{@spell 恶言相加}",
+							"选择一项 {@filter 1级法师法术，来自塑能或死灵魔法学派|spells|level=1|class=法师|school=v;n}。"
 						],
 						[
-							"Lunitari",
-							"Choose one from {@spell guidance}, {@spell message}, and {@spell prestidigitation}",
-							"Choose one {@filter 1st-level wizard spell from the school of divination or transmutation|spells|level=1|class=wizard|school=D;T}."
+							"努林塔瑞",
+							"从{@spell 神导术}、{@spell 传讯术}和{@spell 魔法伎俩}中选择一项",
+							"选择一项 {@filter 1级法师法术，来自预言学派或变化学派|spells|level=1|class=法师|school=D;T}。"
 						],
 						[
-							"Solinari",
-							"Choose one from {@spell produce flame}, {@spell resistance}, and {@spell spare the dying}",
-							"Choose one {@filter 1st-level wizard spell from the abjuration or conjuration school of magic|spells|level=1|class=wizard|school=A;C}."
+							"索林那瑞",
+							"选择一项：{@spell 燃火术}、{@spell 抵抗术}和{@spell 维生术}",
+							"选择一项 {@filter 1级法师法术，来自防护或咒法魔法学派|spells|level=1|class=法师|school=A;C}。"
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "Knight of the Crown",
+			"ENG_name": "Knight of the Crown",
+			"name": "皇冠骑士",
 			"source": "UA2022HeroesOfKrynn",
 			"page": 6,
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"squire of solamnia|ua2022heroesofkrynn"
+						"索拉尼亚侍从|UA2022HeroesOfKrynn"
 					]
 				}
 			],
@@ -1371,38 +1439,41 @@
 				}
 			],
 			"entries": [
-				"You are a Knight of Solamnia aligned with the Order of the Crown, a group that extols the virtues of cooperation, loyalty, and obedience. You excel in group combat and gain these benefits:",
+				"你是一名隶属于皇冠骑士团的索兰尼亚骑士，该骑士团颂扬合作、忠诚和服从的美德。你善于团体作战，并获得下列增益：",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
+							"ENG_name": "Tactical Teamwork",
+							"name": "战术团队协作",
 							"type": "item",
-							"name": "Tactical Teamwork",
 							"entries": [
-								"When a creature you can see within 30 feet of you makes an attack roll against another creature that is within 5 feet of you, you can use your reaction to grant advantage on the attack roll. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+								"当你30尺内一个你能看见的生物对另一个距你5尺内的生物进行攻击检定时，你可以使用你的反应来使该攻击检定获得优势。你可以使用此反应的次数等于你的熟练加值，且完成一次长休后恢复所有已消耗的使用次数。"
 							]
 						}
 					]
 				},
 				{
+					"ENG_name": "Membership in Multiple Knightly Orders",
+					"name": "多个骑士团的成员",
 					"type": "inset",
-					"name": "Membership in Multiple Knightly Orders",
 					"entries": [
-						"Knights of Solamnia are only ever members of one of their organization's orders. In the course of their training, most knights begin as members of the Knights of the Crown and then move on to join other orders. Whether a character follows this path or another, they retain what they learned as a member of an order even if they join another. Characters can change what knightly order they're a part of, but they always have access to any Knight of Solamnia feats they've acquired."
+						"每个索兰尼亚骑士都是组织中一个骑士团中的成员。在训练过程中，大多数骑士会先加入皇冠骑士团作为起步，而后才转入其他骑士团。无论角色遵循哪条道路，都会保留在骑士团中所学，即便是已经加入了其他骑士团。角色可以更改其所属的骑士团，已获得的索兰尼亚骑士专长仍然生效。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Knight of the Rose",
+			"ENG_name": "Knight of the Rose",
+			"name": "蔷薇骑士",
 			"source": "UA2022HeroesOfKrynn",
 			"page": 6,
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"squire of solamnia|ua2022heroesofkrynn"
+						"索拉尼亚侍从|UA2022HeroesOfKrynn"
 					]
 				}
 			],
@@ -1418,38 +1489,41 @@
 				}
 			],
 			"entries": [
-				"You are a Knight of Solamnia aligned with the Order of the Rose, a group known for leadership, justice, and wisdom. Your resolve grants you these benefits:",
+				"你是一名隶属于蔷薇骑士团的索兰尼亚骑士，该骑士团以领导力、正义和睿智闻名于世。你的决心使得你获得下列增益：",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
+							"ENG_name": "Bolstering Rally",
+							"name": "振奋集结",
 							"type": "item",
-							"name": "Bolstering Rally",
 							"entries": [
-								"When you roll initiative, you can choose up to three other creatures you can see within 30 of you. Each creature can gain temporary hit points equal to a roll of your Hit Die + your proficiency bonus + the ability modifier of the ability score increased by this feat. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+								"当你掷先攻时，可以选择至多三个你能看见的30尺内的其他生物。每个生物可以获得等于你的生命骰掷骰结果+你的熟练加值+本专长提升的属性值的属性调整值的临时生命值。你可以使用此特性的次数等于你的熟练加值，且完成一次长休后恢复所有已消耗的使用次数。"
 							]
 						}
 					]
 				},
 				{
+					"ENG_name": "Membership in Multiple Knightly Orders",
+					"name": "多个骑士团的成员",
 					"type": "inset",
-					"name": "Membership in Multiple Knightly Orders",
 					"entries": [
-						"Knights of Solamnia are only ever members of one of their organization's orders. In the course of their training, most knights begin as members of the Knights of the Crown and then move on to join other orders. Whether a character follows this path or another, they retain what they learned as a member of an order even if they join another. Characters can change what knightly order they're a part of, but they always have access to any Knight of Solamnia feats they've acquired."
+						"每个索兰尼亚骑士都是组织中一个骑士团中的成员。在训练过程中，大多数骑士会先加入皇冠骑士团作为起步，而后才转入其他骑士团。无论角色遵循哪条道路，都会保留在骑士团中所学，即便是已经加入了其他骑士团。角色可以更改其所属的骑士团，已获得的索兰尼亚骑士专长仍然生效。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Knight of the Sword",
+			"ENG_name": "Knight of the Sword",
+			"name": "圣剑骑士",
 			"source": "UA2022HeroesOfKrynn",
 			"page": 6,
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"squire of solamnia|ua2022heroesofkrynn"
+						"索拉尼亚侍从|UA2022HeroesOfKrynn"
 					]
 				}
 			],
@@ -1465,43 +1539,47 @@
 				}
 			],
 			"entries": [
-				"You are a Knight of Solamnia aligned with the Order of the Sword, a group devoted to heroism and courage. Bravery steels your spirit, granting you these benefits:",
+				"你是一名隶属于圣剑骑士团的索兰尼亚骑士，该骑士团献身与于英勇和气概。勇气使你的精神如同钢铁，并使你获得下列增益：",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
+							"ENG_name": "Disciplined Spirit",
+							"name": "自律精魄",
 							"type": "item",
-							"name": "Disciplined Spirit",
 							"entries": [
-								"You gain proficiency in Intelligence, Wisdom, or Charisma saving throws (your choice when you take this feat)."
+								"你获得智力、感知或魅力豁免检定的熟练（选择此专长时决定）。"
 							]
 						},
 						{
+							"ENG_name": "Willpower",
+							"name": "意志力",
 							"type": "item",
-							"name": "Willpower",
 							"entries": [
-								"Immediately after you or a creature you can see within 30 feet of you fail an Intelligence, Wisdom, or Charisma saving throw, you can expend a Hit Die. The saving throw increases by an amount equal to a roll of that Hit Die, potentially turning a failure into a success. Once you turn a failed saving throw into a successful one using this feat, you can't do so again until you finish a long rest."
+								"当你或你30尺内能看见的一个生物在智力、感知或魅力的豁免检定中失败后，你可以立即消耗一个生命骰。该豁免检定将增加相当于掷骰该生命骰的数量，可能将失败转变为成功。当你使用此专长将失败的豁免检定转变为成功后，直到你完成一次长休前不能再次这样做。"
 							]
 						}
 					]
 				},
 				{
+					"ENG_name": "Membership in Multiple Knightly Orders",
+					"name": "多个骑士团的成员",
 					"type": "inset",
-					"name": "Membership in Multiple Knightly Orders",
 					"entries": [
-						"Knights of Solamnia are only ever members of one of their organization's orders. In the course of their training, most knights begin as members of the Knights of the Crown and then move on to join other orders. Whether a character follows this path or another, they retain what they learned as a member of an order even if they join another. Characters can change what knightly order they're a part of, but they always have access to any Knight of Solamnia feats they've acquired."
+						"每个索兰尼亚骑士都是组织中一个骑士团中的成员。在训练过程中，大多数骑士会先加入皇冠骑士团作为起步，而后才转入其他骑士团。无论角色遵循哪条道路，都会保留在骑士团中所学，即便是已经加入了其他骑士团。角色可以更改其所属的骑士团，已获得的索兰尼亚骑士专长仍然生效。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Squire of Solamnia",
+			"ENG_name": "Squire of Solamnia",
+			"name": "索拉尼亚侍从",
 			"source": "UA2022HeroesOfKrynn",
 			"page": 6,
 			"prerequisite": [
 				{
-					"other": "Squireship in the Knights of Solamnia"
+					"other": "索兰尼亚骑士团侍从"
 				}
 			],
 			"weaponProficiencies": [
@@ -1515,30 +1593,33 @@
 				}
 			],
 			"entries": [
-				"Your training in the ways of the Knights of Solamnia grants you these benefits:",
+				"索兰尼亚骑士式的训练使你获得了下列增益：",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
+							"ENG_name": "Martial Training",
+							"name": "战争训练",
 							"type": "item",
-							"name": "Martial Training",
 							"entries": [
-								"You gain proficiency with medium armor and martial weapons."
+								"你获得中甲和军用武器的熟练。"
 							]
 						},
 						{
+							"ENG_name": "Defensive Rider",
+							"name": "防御骑手",
 							"type": "item",
-							"name": "Defensive Rider",
 							"entries": [
-								"You have advantage on saving throws made to avoid falling off a mount."
+								"你在避免从乘骑上跌落的豁免检定中具有优势。"
 							]
 						},
 						{
+							"ENG_name": "Encouraging Rally",
+							"name": "激励重整旗鼓",
 							"type": "item",
-							"name": "Encouraging Rally",
 							"entries": [
-								"When another creature you can see within 30 feet of you makes a saving throw, you can use your reaction to inspire them. If the target can hear you and understand you, it gains advantage on the saving throw. Once you use this reaction, you can't do so again until you finish a long rest."
+								"当你30尺内另一个你能看见的生物进行豁免检定时，你可以使用你的反应来激励它们。如果目标能听见你且理解你，它在豁免检定中获得优势。一旦你使用了这个反应，直到你完成一次长休前都不能再次使用。"
 							]
 						}
 					]

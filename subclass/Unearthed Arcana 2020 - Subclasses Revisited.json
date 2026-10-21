@@ -4,7 +4,7 @@
 			{
 				"json": "UA2020SubclassesRevisited",
 				"abbreviation": "UA20SCR",
-				"full": "Unearthed Arcana: 2020 Subclasses Revisited",
+				"full": "破解奥秘：2020子职重访",
 				"url": "https://media.wizards.com/2020/dnd/downloads/UA2020_SubclassesRevisited_0512.pdf",
 				"version": "1.0.0",
 				"dateReleased": "2020-05-12",
@@ -18,292 +18,306 @@
 		],
 		"edition": "classic",
 		"dateAdded": 1701616429,
-		"dateLastModified": 1774092631,
+		"dateLastModified": 1792465953,
 		"_dateLastModifiedHash": "e969843ff0"
 	},
 	"subclass": [
 		{
-			"name": "Order of Scribes (UA)",
-			"shortName": "Scribes (UA)",
+			"ENG_name": "Order of Scribes (UA)",
+			"name": "书士会（UA）",
+			"shortName": "书士 (UA)",
 			"source": "UA2020SubclassesRevisited",
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "PHB",
 			"page": 4,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"Order of Scribes|Wizard||Scribes (UA)|UA2020SubclassesRevisited|2",
-				"Master Scrivener|Wizard||Scribes (UA)|UA2020SubclassesRevisited|6",
-				"Manifest Mind|Wizard||Scribes (UA)|UA2020SubclassesRevisited|10",
-				"One with the Word|Wizard||Scribes (UA)|UA2020SubclassesRevisited|14"
+				"书士会|法师||书士 (UA)|UA2020SubclassesRevisited|2",
+				"大书士|法师||书士 (UA)|UA2020SubclassesRevisited|6",
+				"思维具现|法师||书士 (UA)|UA2020SubclassesRevisited|10",
+				"一字同心|法师||书士 (UA)|UA2020SubclassesRevisited|14"
 			]
 		},
 		{
-			"name": "Phantom (UA)",
-			"shortName": "Phantom (UA)",
+			"ENG_name": "Phantom (UA)",
+			"name": "鬼魅（UA）",
+			"shortName": "鬼魅（UA）",
 			"source": "UA2020SubclassesRevisited",
-			"className": "Rogue",
+			"className": "游荡者",
 			"classSource": "PHB",
 			"page": 1,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"Phantom|Rogue||Phantom (UA)|UA2020SubclassesRevisited|3",
-				"Tokens of the Departed|Rogue||Phantom (UA)|UA2020SubclassesRevisited|9",
-				"Ghost Walk|Rogue||Phantom (UA)|UA2020SubclassesRevisited|13",
-				"Death Knell|Rogue||Phantom (UA)|UA2020SubclassesRevisited|17"
+				"鬼魅|游荡者||鬼魅（UA）|UA2020SubclassesRevisited|3",
+				"逝者遗物|游荡者||鬼魅（UA）|UA2020SubclassesRevisited|9",
+				"幽灵漫步|游荡者||鬼魅（UA）|UA2020SubclassesRevisited|13",
+				"丧钟|游荡者||鬼魅（UA）|UA2020SubclassesRevisited|17"
 			]
 		},
 		{
-			"name": "The Genie (UA)",
-			"shortName": "Genie (UA)",
+			"ENG_name": "The Genie (UA)",
+			"name": "巨灵宗主（UA）",
+			"shortName": "巨灵 (UA)",
 			"source": "UA2020SubclassesRevisited",
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "PHB",
 			"page": 2,
 			"isReprinted": true,
 			"additionalSpells": [
 				{
-					"name": "Dao",
+					"ENG_name": "Dao",
+					"name": "土巨灵",
 					"expanded": {
 						"9": [
-							"wish"
+							"祈愿术"
 						],
 						"s1": [
-							"detect evil and good",
-							"sanctuary"
+							"侦测善恶",
+							"庇护术"
 						],
 						"s2": [
-							"phantasmal force",
-							"spike growth"
+							"魅影之力",
+							"荆棘丛生"
 						],
 						"s3": [
-							"create food and water",
-							"meld into stone"
+							"造粮术",
+							"融身入石"
 						],
 						"s4": [
-							"phantasmal killer",
-							"stone shape"
+							"魅影杀手",
+							"塑石术"
 						],
 						"s5": [
-							"creation",
-							"wall of stone"
+							"造物术",
+							"石墙术"
 						]
 					}
 				},
 				{
-					"name": "Djinni",
+					"ENG_name": "Djinni",
+					"name": "气巨灵",
 					"expanded": {
 						"9": [
-							"wish"
+							"祈愿术"
 						],
 						"s1": [
-							"detect evil and good",
-							"thunderwave"
+							"侦测善恶",
+							"雷鸣波"
 						],
 						"s2": [
-							"phantasmal force",
-							"gust of wind"
+							"魅影之力",
+							"造风术"
 						],
 						"s3": [
-							"create food and water",
-							"wind wall"
+							"造粮术",
+							"风墙术"
 						],
 						"s4": [
-							"phantasmal killer",
-							"greater invisibility"
+							"魅影杀手",
+							"高等隐形术"
 						],
 						"s5": [
-							"creation",
-							"seeming"
+							"造物术",
+							"伪装术"
 						]
 					}
 				},
 				{
-					"name": "Efreeti",
+					"ENG_name": "Efreeti",
+					"name": "火巨灵",
 					"expanded": {
 						"9": [
-							"wish"
+							"祈愿术"
 						],
 						"s1": [
-							"detect evil and good",
-							"burning hands"
+							"侦测善恶",
+							"燃烧之手"
 						],
 						"s2": [
-							"phantasmal force",
-							"scorching ray"
+							"魅影之力",
+							"灼热射线"
 						],
 						"s3": [
-							"create food and water",
-							"fireball"
+							"造粮术",
+							"火球术"
 						],
 						"s4": [
-							"phantasmal killer",
-							"fire shield"
+							"魅影杀手",
+							"火焰护盾"
 						],
 						"s5": [
-							"creation",
-							"flame strike"
+							"造物术",
+							"焰击术"
 						]
 					}
 				},
 				{
-					"name": "Marid",
+					"ENG_name": "Marid",
+					"name": "水巨灵",
 					"expanded": {
 						"9": [
-							"wish"
+							"祈愿术"
 						],
 						"s1": [
-							"detect evil and good",
-							"fog cloud"
+							"侦测善恶",
+							"云雾术"
 						],
 						"s2": [
-							"phantasmal force",
-							"blur"
+							"魅影之力",
+							"朦胧术"
 						],
 						"s3": [
-							"create food and water",
-							"sleet storm"
+							"造粮术",
+							"雪雨暴"
 						],
 						"s4": [
-							"phantasmal killer",
-							"control water"
+							"魅影杀手",
+							"操控水体"
 						],
 						"s5": [
-							"creation",
-							"cone of cold"
+							"造物术",
+							"寒冰锥"
 						]
 					}
 				}
 			],
 			"subclassFeatures": [
-				"The Genie|Warlock||Genie (UA)|UA2020SubclassesRevisited|1",
-				"Elemental Gift|Warlock||Genie (UA)|UA2020SubclassesRevisited|6",
-				"Sanctuary Vessel|Warlock||Genie (UA)|UA2020SubclassesRevisited|10",
-				"Limited Wish|Warlock||Genie (UA)|UA2020SubclassesRevisited|14"
+				"巨灵宗主|魔契师||巨灵 (UA)|UA2020SubclassesRevisited|1",
+				"元素赐福|魔契师||巨灵 (UA)|UA2020SubclassesRevisited|6",
+				"器皿庇护所|魔契师||巨灵 (UA)|UA2020SubclassesRevisited|10",
+				"有限祈愿术|魔契师||巨灵 (UA)|UA2020SubclassesRevisited|14"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Phantom",
+			"ENG_name": "Phantom",
+			"name": "鬼魅",
 			"source": "UA2020SubclassesRevisited",
 			"page": 1,
-			"className": "Rogue",
+			"className": "游荡者",
 			"classSource": "PHB",
-			"subclassShortName": "Phantom (UA)",
+			"subclassShortName": "鬼魅（UA）",
 			"subclassSource": "UA2020SubclassesRevisited",
 			"level": 3,
 			"entries": [
-				"Many rogues walk a fine line between life and death, risking their own lives and taking the lives of others. While adventuring on that line, some rogues discover a mystical connection to death itself. These rogues take knowledge from the dead and become immersed in negative energy, eventually becoming like ghosts. Thieves' guilds value them as highly effective information gatherers and spies.",
-				"Many shadar-kai of the Shadowfell are masters of these macabre techniques, and some are willing to teach this path. In places like Thay (Forgotten Realms) and Karrnath (Eberron), where many necromancers practice their craft, a Phantom can become a wizard's confidant and right hand. In temples of gods of death, the Phantom works as an agent to track down those who try to cheat death and to recover knowledge that might otherwise be lost to the grave.",
-				"How did you discover this grim power? Did you sleep in a graveyard and awaken to your new abilities? Or did you cultivate them in a temple or thieves' guild dedicated to a god of death?",
+				"游荡者的生活常常是日复一日的游走在生死边缘，一边冒着生命危险，另一边取走别人的性命。在生死之间冒险的时候，一些游荡者与死亡本身结下了奇妙的不解之缘。他们浸淫于与负能量之中，从死者那里获取知识，直到他们自身都变得如同幽灵一般。盗贼工会对鬼魅们高度重视，因为他们是极其高效的情报员和间谍。",
+				"许多堕影冥界的影灵精通这些阴森的技巧，且有些愿意传授此路途。在诸如赛尔（被遗忘的国度）和卡纳斯（艾伯伦）等地，许多死灵法师研习其技艺，鬼魅可成为法师的知己与得力助手。在死亡神的神庙中，鬼魅作为特工追踪那些试图幸免于难者，并回收可能就此迷失于坟墓的知识。",
+				"你是如何发现这种噩兆法力的？你是在墓地中施展睡眠术并启蒙术获得新属性的吗？还是你在一个庙宇或盗贼公会中培养它们，那里供奉着死亡之神？",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Whispers of the Dead|Rogue||Phantom (UA)|UA2020SubclassesRevisited|3"
+					"subclassFeature": "亡者余声|游荡者||鬼魅（UA）|UA2020SubclassesRevisited|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Wails from the Grave|Rogue||Phantom (UA)|UA2020SubclassesRevisited|3"
+					"subclassFeature": "墓穴惊嚎|游荡者||鬼魅（UA）|UA2020SubclassesRevisited|3"
 				}
 			]
 		},
 		{
-			"name": "Wails from the Grave",
+			"ENG_name": "Wails from the Grave",
+			"name": "墓穴惊嚎",
 			"source": "UA2020SubclassesRevisited",
 			"page": 1,
-			"className": "Rogue",
+			"className": "游荡者",
 			"classSource": "PHB",
-			"subclassShortName": "Phantom (UA)",
+			"subclassShortName": "鬼魅（UA）",
 			"subclassSource": "UA2020SubclassesRevisited",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3rd-level Phantom feature}",
-				"As you nudge someone closer to the grave, you can cause deathly wails to be heard near them. Immediately after you deal your Sneak Attack damage to a creature on your turn, you can target a second creature that you can see within 30 feet of the first creature. Roll half the number of Sneak Attack dice for your level (round up), and the second creature takes psychic damage equal to the roll's total, as wails of the dead sound around them for a moment.",
-				"You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+				"{@i 3级鬼魅特性}",
+				"当你将某人推向坟墓时，你可以让致命的哀嚎在它们附近响起。在你回合内对生物造成偷袭伤害后，你可以立即选择第一个生物30尺内你能看见的第二个生物作为目标。掷出你等级对应的偷袭骰子数量的一半（向上取整），第二个生物受到等于掷骰总值的心灵伤害，仿佛亡者的哀嚎在它们周围短暂回荡。",
+				"你可以使用此能力的次数等同于你的熟练加值。当你完成一次长休后，你重获全部已消耗的使用次数。"
 			]
 		},
 		{
-			"name": "Whispers of the Dead",
+			"ENG_name": "Whispers of the Dead",
+			"name": "亡者余声",
 			"source": "UA2020SubclassesRevisited",
 			"page": 1,
-			"className": "Rogue",
+			"className": "游荡者",
 			"classSource": "PHB",
-			"subclassShortName": "Phantom (UA)",
+			"subclassShortName": "鬼魅（UA）",
 			"subclassSource": "UA2020SubclassesRevisited",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3rd-level Phantom feature}",
-				"Echoes of those who have died begin to cling to you. Whenever you finish a short or long rest, you can gain one skill or tool proficiency of your choice, as a ghostly presence shares its knowledge with you. This proficiency lasts until you use this feature again."
+				"{@i 3级鬼魅特性}",
+				"那些已逝之人的回声开始附着于你。每当你完成一次短休或长休时，你可以选择获得一项技能或工具熟练，如同一个幽体与你分享其知识。该熟练持续到你再次使用此特性为止。"
 			]
 		},
 		{
-			"name": "Tokens of the Departed",
+			"ENG_name": "Tokens of the Departed",
+			"name": "逝者遗物",
 			"source": "UA2020SubclassesRevisited",
 			"page": 1,
-			"className": "Rogue",
+			"className": "游荡者",
 			"classSource": "PHB",
-			"subclassShortName": "Phantom (UA)",
+			"subclassShortName": "鬼魅（UA）",
 			"subclassSource": "UA2020SubclassesRevisited",
 			"level": 9,
 			"header": 2,
 			"entries": [
-				"{@i 9th-level Phantom feature}",
-				"When a life ends in your presence, you're able to snatch a token from the departing soul, a sliver of its life essence that takes physical form: as a reaction when a creature you can see dies within 30 feet of you, you open your free hand and a Tiny trinket appears there, a soul trinket. The DM chooses the trinket's form or has you roll on the {@item Trinket|PHB|Trinkets} table in the {@i Player's Handbook} to determine it.",
-				"While the soul trinket is on your person, you have advantage on death saving throws and Constitution saving throws, as your vitality is enhanced by the life essence within the object. You can have a maximum number of soul trinkets equal to your proficiency bonus, and you can't create one while at your maximum.",
-				"As an action, you can destroy one of your soul trinkets, no matter where it's located. When you do so, you can ask the spirit associated with the trinket one question. The spirit appears to you and answers in a language it knew in life. It's under no obligation to be truthful, and it answers as concisely as possible, eager to be free."
+				"{@i 9级鬼魅特性}",
+				"当一个生命在你面前终结时，你能从逝去的灵魂中抓取一个符，这是其生命精华的一小片，以物理形态显现：当你30尺内能看见的一个生物死亡时，你可以用一个反应动作张开你的自由手，一个微型饰品会出现在那里，即一个灵魂饰品。DM选择该饰品形态或让你掷骰{@item 饰品|PHB|饰品}表格在{@i 玩家手册}中决定它。",
+				"当灵魂饰品在你身上时，你在死亡豁免检定和体质豁免检定上具有优势，因为你的生命力被物件中的生命精华所增强。你可以拥有的灵魂饰品最大数量等于你的熟练加值，且当你达到上限时无法再创造新的饰品。",
+				"以一个动作，你可以摧毁你的一个灵魂饰品，无论它位于何处。当你这样做时，你可以向与该饰品相关联的精魄提出一个问题。精魄会出现在你面前，并用它生前所知的语言回答。它没有义务说实话，且会尽可能简洁地回答，渴望获得自由。"
 			]
 		},
 		{
-			"name": "Ghost Walk",
+			"ENG_name": "Ghost Walk",
+			"name": "幽灵漫步",
 			"source": "UA2020SubclassesRevisited",
 			"page": 1,
-			"className": "Rogue",
+			"className": "游荡者",
 			"classSource": "PHB",
-			"subclassShortName": "Phantom (UA)",
+			"subclassShortName": "鬼魅（UA）",
 			"subclassSource": "UA2020SubclassesRevisited",
 			"level": 13,
 			"header": 2,
 			"entries": [
-				"{@i 13th-level Phantom feature}",
-				"You can now phase partially into the realm of the dead, becoming like a ghost. As a bonus action, you assume a spectral form. While in this form, you have a flying speed of 10 feet, you can hover, and attack rolls have disadvantage against you. You can also move through creatures and objects as if they were {@quickref difficult terrain||3}, but you take {@damage 1d10} force damage if you end your turn inside a creature or an object.",
-				"You stay in this form for 10 minutes or until you end it as a bonus action. To use this feature again, you must finish a long rest or destroy one of your soul trinkets as part of the bonus action you use to activate Ghost Walk."
+				"{@i 13级鬼魅特性}",
+				"你现在可以部分进入死亡领域，变得如同幽魂一般。以一个附赠动作，你进入幽灵形态。在此形态下，你拥有10尺的飞行速度，可以悬浮，且攻击检定对你具有劣势。你还能如同穿过{@quickref 困难地形||3}一般穿过生物和物件，但若在你的回合结束时处于某个生物或物件内部，你将受到{@damage 1d10}的力场伤害。",
+				"该形态持续10分钟。你也可以用一个附赠动作将其提前解除。若你想要再次使用特性，要么你得完成一次长休，要么你得销毁一个你的魂器（作为激活幽灵漫步的附赠动作的一部分）。"
 			]
 		},
 		{
-			"name": "Death Knell",
+			"ENG_name": "Death Knell",
+			"name": "丧钟",
 			"source": "UA2020SubclassesRevisited",
 			"page": 1,
-			"className": "Rogue",
+			"className": "游荡者",
 			"classSource": "PHB",
-			"subclassShortName": "Phantom (UA)",
+			"subclassShortName": "鬼魅（UA）",
 			"subclassSource": "UA2020SubclassesRevisited",
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"{@i 17th-level Phantom feature}",
-				"When you use your Wails from the Grave feature, you can now deal the psychic damage to both the first and the second creature."
+				"{@i 17级鬼魅特性}",
+				"当你使用丧钟特性时，你现在可以对第一且第二的生物造成心灵伤害。"
 			]
 		},
 		{
-			"name": "The Genie",
+			"ENG_name": "The Genie",
+			"name": "巨灵宗主",
 			"source": "UA2020SubclassesRevisited",
 			"page": 2,
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "PHB",
-			"subclassShortName": "Genie (UA)",
+			"subclassShortName": "巨灵 (UA)",
 			"subclassSource": "UA2020SubclassesRevisited",
 			"level": 1,
 			"entries": [
-				"You have made a pact with one of the rarest kinds of genie, a noble genie. Such entities are rulers of vast fiefs on the Elemental Planes and have great influence over lesser genies and elemental creatures. Noble genies are varied in their motivations but are all arrogant and wield power that rivals that of lesser deities. They delight in turning the table on mortals who so love to bind genies into servitude, readily entering into pacts that expand their reach across the multiverse.",
-				"You choose your patron's kind or determine it randomly, using the Genie Kind table. Each kind of genie is associated with a particular element, as shown in the table.",
+				"你与最稀有的巨灵类型之一\u2014\u2014巨灵贵族缔结了契约。这些实体是元素位面上庞大领地的统治者，对低级巨灵和元素生物有着巨大的影响力。巨灵贵族的动机各不相同，但都傲慢自大，拥有的法力可与次级神祇匹敌。他们乐于扭转那些热衷于奴役巨灵的凡人的局面，随时准备缔结契约以扩大他们在多元宇宙中的触及范围。",
+				"你选择雇主的类型或使用巨灵类型表格随机决定。每种巨灵都与特定元素相关联，如表格所示。",
 				{
 					"type": "table",
-					"caption": "Genie Kind",
+					"caption": "巨灵类型",
 					"colLabels": [
 						"d4",
-						"Kind",
-						"Element"
+						"类型",
+						"元素"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -313,42 +327,43 @@
 					"rows": [
 						[
 							1,
-							"{@creature Dao}",
-							"Earth"
+							"{@creature 土巨灵}",
+							"土"
 						],
 						[
 							2,
-							"{@creature Djinni}",
-							"Air"
+							"{@creature 气巨灵}",
+							"空气"
 						],
 						[
 							3,
-							"{@creature Efreeti}",
-							"Fire"
+							"{@creature 火巨灵}",
+							"火焰"
 						],
 						[
 							4,
-							"{@creature Marid}",
-							"Water"
+							"{@creature 水巨灵}",
+							"饮水"
 						]
 					]
 				},
 				{
+					"ENG_name": "Expanded Spell List",
+					"name": "扩展法术列表",
 					"type": "entries",
-					"name": "Expanded Spell List",
 					"entries": [
-						"{@i 1st-level Genie feature}",
-						"The Genie lets you choose from an expanded list of spells when you learn a warlock spell. The Genie Expanded Spells table shows the genie spells that are added to the warlock spell list for you, along with the spells associated in the table with your patron's kind: dao, djinni, efreeti, or marid.",
+						"{@i 1级巨灵特性}",
+						"当你学习一个魔契师法术时，你的巨灵宗主赐予你将以下法术加入魔契师法术列表进行选择的权力，且除了全巨灵共用的法术列表外，另一组为你提供的法术与祂们的类型有关：土巨灵dao、气巨灵djinni、火巨灵eferrti、或水巨灵marid",
 						{
 							"type": "table",
-							"caption": "Genie Expanded Spells",
+							"caption": "巨灵扩展法术",
 							"colLabels": [
-								"Spell Level",
-								"Genie Spells",
-								"Dao Spells",
-								"Djinni Spells",
-								"Efreeti Spells",
-								"Marid Spells"
+								"法术环阶",
+								"巨灵法术",
+								"土巨灵法术",
+								"气巨灵法术",
+								"火巨灵法术",
+								"水巨灵法术"
 							],
 							"colStyles": [
 								"col-1 text-center",
@@ -360,48 +375,48 @@
 							],
 							"rows": [
 								[
-									"1st",
-									"{@spell detect evil and good}",
-									"{@spell sanctuary}",
-									"{@spell thunderwave}",
-									"{@spell burning hands}",
-									"{@spell fog cloud}"
+									"1环",
+									"{@spell 侦测善恶}",
+									"{@spell 庇护术}",
+									"{@spell 雷鸣波}",
+									"{@spell 燃烧之手}",
+									"{@spell 云雾术}"
 								],
 								[
-									"2nd",
-									"{@spell phantasmal force}",
-									"{@spell spike growth}",
-									"{@spell gust of wind}",
-									"{@spell scorching ray}",
-									"{@spell blur}"
+									"2环",
+									"{@spell 魅影之力}",
+									"{@spell 荆棘丛生}",
+									"{@spell 造风术}",
+									"{@spell 灼热射线}",
+									"{@spell 朦胧术}"
 								],
 								[
-									"3rd",
-									"{@spell create food and water}",
-									"{@spell meld into stone}",
-									"{@spell wind wall}",
-									"{@spell fireball}",
-									"{@spell sleet storm}"
+									"3环",
+									"{@spell 造粮术}",
+									"{@spell 融身入石}",
+									"{@spell 风墙术}",
+									"{@spell 火球术}",
+									"{@spell 雪雨暴}"
 								],
 								[
-									"4th",
-									"{@spell phantasmal killer}",
-									"{@spell stone shape}",
-									"{@spell greater invisibility}",
-									"{@spell fire shield}",
-									"{@spell control water}"
+									"4环",
+									"{@spell 魅影杀手}",
+									"{@spell 塑石术}",
+									"{@spell 高等隐形术}",
+									"{@spell 火焰护盾}",
+									"{@spell 操控水体}"
 								],
 								[
-									"5th",
-									"{@spell creation}",
-									"{@spell wall of stone}",
-									"{@spell seeming}",
-									"{@spell flame strike}",
-									"{@spell cone of cold}"
+									"5环",
+									"{@spell 造物术}",
+									"{@spell 石墙术}",
+									"{@spell 伪装术}",
+									"{@spell 焰击术}",
+									"{@spell 寒冰锥}"
 								],
 								[
 									"9th",
-									"{@spell wish}",
+									"{@spell 祈愿术}",
 									"\u2014",
 									"\u2014",
 									"\u2014",
@@ -413,29 +428,30 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Genie's Vessel|Warlock||Genie (UA)|UA2020SubclassesRevisited|1"
+					"subclassFeature": "巨灵器皿|魔契师||巨灵 (UA)|UA2020SubclassesRevisited|1"
 				}
 			]
 		},
 		{
-			"name": "Genie's Vessel",
+			"ENG_name": "Genie's Vessel",
+			"name": "巨灵器皿",
 			"source": "UA2020SubclassesRevisited",
 			"page": 2,
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "PHB",
-			"subclassShortName": "Genie (UA)",
+			"subclassShortName": "巨灵 (UA)",
 			"subclassSource": "UA2020SubclassesRevisited",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"{@i 1st-level Genie feature}",
-				"Your patron gifts you a magical vessel that grants you a measure of the genie's power. The vessel is a Tiny object, and you can use it as a spellcasting focus for your warlock spells. You decide what the object is, or you can determine what it is randomly by rolling on the Genie's Vessel table.",
+				"{@i 1级巨灵特性}",
+				"你的宗主赐予你一个包含巨灵之力的魔法器皿。该器皿是一个微型物件，你可以将其作为施展你魔契师法术的法器。你决定物件的类别，或者你可以通过巨灵器皿表来决定。",
 				{
 					"type": "table",
-					"caption": "Genie's Vessel",
+					"caption": "巨灵器皿",
 					"colLabels": [
 						"d6",
-						"Vessel"
+						"器皿"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -444,221 +460,232 @@
 					"rows": [
 						[
 							1,
-							"Oil lamp"
+							"油灯"
 						],
 						[
 							2,
-							"Urn"
+							"瓮"
 						],
 						[
 							3,
-							"Ring with a compartment"
+							"可装东西的戒指"
 						],
 						[
 							4,
-							"Stoppered bottle"
+							"被塞住的瓶子"
 						],
 						[
 							5,
-							"Hollow statuette"
+							"空心小雕像"
 						],
 						[
 							6,
-							"Ornate lantern"
+							"华丽提灯"
 						]
 					]
 				},
-				"While you are touching the vessel, you can use it in the following ways:",
+				"当你触碰器皿时，你可以用以下方式使用它：",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
+							"ENG_name": "Bottled Respite",
+							"name": "瓶中小憩",
 							"type": "item",
-							"name": "Bottled Respite",
-							"entry": "As an action, you can magically vanish and enter your vessel, which remains in the space you left. The interior of the vessel is an extradimensional space in the shape of a 20-foot-radius cylinder, 20 feet high, and resembles your vessel. The interior is comfortably appointed with cushions and low tables and is a comfortable temperature. While inside, you can hear the area around your vessel as if you were in its space. You can remain inside the vessel up to a number of hours equal to twice your proficiency bonus. You exit the vessel early if you use a bonus action to leave, if you die, or if the vessel is destroyed. When you exit the vessel, you appear in the unoccupied space closest to it. Any objects left in the vessel remain there until carried out, and if the vessel is destroyed, every object stored there harmlessly appears in the unoccupied spaces closest to the vessel's former space. Once you enter the vessel, you can't enter again until you finish a long rest."
+							"entry": "以一个动作，你可以魔法般地消隐并进入你的巨灵器皿，器皿会留在你离开的空间中。器皿内部是一个半径20尺、高20尺的柱状异次元空间，且与你的器皿相似。内部舒适地布置着靠垫和矮桌，气温宜人。在里面时，你可以听到器皿周围的区域，就像你身处其空间中一样。你可以在器皿内停留的小时数等于你熟练加值的两倍。如果你用一个附赠动作离开、死亡或器皿被摧毁，你将提前离开器皿。当你离开器皿时，你会出现在最靠近它的未占据空间中。任何留在器皿中的物件会一直保留在那里，直到被带出；如果器皿被摧毁，所有存放在那里的物件会无害地出现在最靠近器皿原先空间的未占据空间中。一旦你进入器皿，在完成一次长休前无法再次进入。"
 						},
 						{
+							"ENG_name": "Genie's Wrath",
+							"name": "巨灵之怒",
 							"type": "item",
-							"name": "Genie's Wrath",
-							"entry": "Once during each of your turns when you hit with an attack roll, you can deal extra damage to the target equal to your proficiency bonus. The type of this damage is determined by your patron: bludgeoning (dao), thunder (djinni), fire (efreeti), or cold (marid)."
+							"entry": "在你的每个回合仅限一次，你可以在你攻击骰命中时对目标造成等同于你熟练加值的额外伤害。伤害类型取决于你的宗主类型：钝击（土巨灵），雷鸣（气巨灵），火焰（火巨灵），冷冻（水巨灵）。"
 						}
 					]
 				},
-				"The vessel's AC equals your spell save DC. Its hit points equal your warlock level plus your proficiency bonus, and it is immune to poison and psychic damage.",
-				"If the vessel is destroyed or you lose it, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and the previous vessel is destroyed if it still exists. The vessel vanishes in a flare of elemental power when you die."
+				"器皿的AC等同于你的法术豁免DC。它的生命值等于你的魔契师等级加熟练加值，并免疫于毒素和心灵伤害。",
+				"倘若器皿被摧毁或是丢失，你可以进行一场持续1小时的仪式来从你的宗主处获得一个替代品。这一仪式可于短休或长休时进行，并会摧毁之前仍存在的器皿。当你死亡时，器皿在一阵元素能量的闪耀中消失。"
 			]
 		},
 		{
-			"name": "Elemental Gift",
+			"ENG_name": "Elemental Gift",
+			"name": "元素赐福",
 			"source": "UA2020SubclassesRevisited",
 			"page": 2,
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "PHB",
-			"subclassShortName": "Genie (UA)",
+			"subclassShortName": "巨灵 (UA)",
 			"subclassSource": "UA2020SubclassesRevisited",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-level Genie feature}",
-				"You begin to take on characteristics of your patron's kind. You now have resistance to a damage type determined by your patron's kind: bludgeoning (dao), thunder (djinni), fire (efreeti), or cold (marid).",
-				"In addition, as a bonus action, you can give yourself a flying speed of 30 feet that lasts for 10 minutes, during which you can hover. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+				"{@i 6级巨灵特性}",
+				"你逐渐显露出你的巨灵宗主的特质。你对由你的宗主类型决定的一种伤害类型具有抗性：钝击（土巨灵），雷鸣（气巨灵），火焰（火巨灵），冷冻（水巨灵）。",
+				"同时，以一个附赠动作，你可以获得一个持续10分钟的30尺飞行速度，并且在飞行时你可以悬浮。你可以使用此附赠动作的次数等同于你的熟练加值，并在完成一次长休后恢复所有使用次数。"
 			]
 		},
 		{
-			"name": "Sanctuary Vessel",
+			"ENG_name": "Sanctuary Vessel",
+			"name": "器皿庇护所",
 			"source": "UA2020SubclassesRevisited",
 			"page": 2,
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "PHB",
-			"subclassShortName": "Genie (UA)",
+			"subclassShortName": "巨灵 (UA)",
 			"subclassSource": "UA2020SubclassesRevisited",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i 10th-level Genie feature}",
-				"When you enter your Genie's Vessel via the Bottled Respite feature, you can now choose up to five willing creatures that you can see within 30 feet of you, and the chosen creatures are drawn into the vessel with you.",
-				"As a bonus action, you can eject any number of creatures from the vessel, and everyone is ejected if you leave or the vessel is destroyed.",
-				"In addition, anyone (including you) who remains within the vessel for at least 10 minutes gains the benefit of finishing a short rest, and anyone can add your proficiency bonus to the number of hit points they regain if they spend any Hit Dice as part of a short rest there."
+				"{@i 10级巨灵特性}",
+				"当你使用瓶中小憩Bottled Respite特性进入你的巨灵器皿时，你可以选择30尺内最多5个可见自愿生物与你一同进入器皿。",
+				"作为附赠动作，你可以将任意数量的生物从器皿中排出，且当你离开或器皿被摧毁时，所有人都会被排出。",
+				"同时，在器皿中停留至少10分钟的任何生物（包括你自己）可视为完成了一次短休，且使用生命骰恢复生命值时的恢复量可以加上你的熟练加值。"
 			]
 		},
 		{
-			"name": "Limited Wish",
+			"ENG_name": "Limited Wish",
+			"name": "有限祈愿术",
 			"source": "UA2020SubclassesRevisited",
 			"page": 2,
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "PHB",
-			"subclassShortName": "Genie (UA)",
+			"subclassShortName": "巨灵 (UA)",
 			"subclassSource": "UA2020SubclassesRevisited",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i 14th-level Genie feature}",
-				"You entreat your patron to grant you a small wish. As an action, you can speak your desire to your Genie's Vessel, requesting the effect of one spell that is 6th level or lower and has a casting time of 1 action. The spell can be from any class's spell list, and you don't need to meet the requirements in that spell, including costly components; the spell simply takes effect as part of this action.",
-				"Once you use this feature, you can't use it again until you finish {@dice 1d4} long rests."
+				"{@i 14级巨灵特性}",
+				"你请求你的雇主赐予你一个有限祈愿术。作为1个动作，你可以向你的巨灵器皿说出你的愿望，请求获得一个6环或更低且施法时间为1个动作的法术效应。该法术可以来自任何职业的法术列表，且你不需要满足该法术的要求，包括昂贵的成分；该法术会作为这个动作的一部分直接生效。",
+				"你使用此特性后，你直到完成{@dice 1d4}次长休后才能再次使用它。"
 			]
 		},
 		{
-			"name": "Order of Scribes",
+			"ENG_name": "Order of Scribes",
+			"name": "书士会",
 			"source": "UA2020SubclassesRevisited",
 			"page": 4,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "PHB",
-			"subclassShortName": "Scribes (UA)",
+			"subclassShortName": "书士 (UA)",
 			"subclassSource": "UA2020SubclassesRevisited",
 			"level": 2,
 			"entries": [
-				"Magic of the book\u2014that's what many spellcasters call wizardry. The name is apt, given how much time wizards spend poring over their spellbooks, penning theories about the nature of magic, and exploring the farthest recesses of libraries. It's rare to see a wizard traveling without books and scrolls sprouting from their bags, and a wizard would go to great lengths to plumb an archive of ancient knowledge.",
-				"Among wizards, the Order of Scribes is the most bookish. It takes many forms in different worlds, but its primary mission is the same everywhere: recording magical discoveries in tomes and scrolls so that wizardry can flourish. And while every wizard values their spellbook, a scribe in the Order of Scribes dedicates themself to magically awakening their book, turning it into a trusted companion. All wizards study their spellbooks, but a wizardly scribe talks to theirs!",
+				"魔法之书\u2014\u2014许多施法者如此称呼法师学。这个名称很贴切，因为法师们花费大量时间研读他们的法术书，撰写关于魔法本质的理论，并探索图书馆最遥远的角落。很少见到法师旅行时不带着从包里冒出来的书籍和卷轴，而且法师会不遗余力地探究远古知识的档案馆。",
+				"在法师中，书士会是最书卷气的。它在不同的世界以殊形同归的形式存在，但其主要任务在任何地方都一样：将魔法探秘记录在典籍和卷轴中，以便法师学得以虚张声势。虽然每个法师都珍视自己的法术书，但书士会的抄写员致力于以魔法唤醒他们的书，将其变成一个值得信赖的同伴。所有法师都会研究他们的法术书，但法师抄写员会与他们的法术书交谈！",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Wizardly Quill|Wizard||Scribes (UA)|UA2020SubclassesRevisited|2"
+					"subclassFeature": "法师笔|法师||书士 (UA)|UA2020SubclassesRevisited|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Awakened Spellbook|Wizard||Scribes (UA)|UA2020SubclassesRevisited|2"
+					"subclassFeature": "觉醒魔典|法师||书士 (UA)|UA2020SubclassesRevisited|2"
 				}
 			]
 		},
 		{
-			"name": "Awakened Spellbook",
+			"ENG_name": "Awakened Spellbook",
+			"name": "觉醒魔典",
 			"source": "UA2020SubclassesRevisited",
 			"page": 4,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "PHB",
-			"subclassShortName": "Scribes (UA)",
+			"subclassShortName": "书士 (UA)",
 			"subclassSource": "UA2020SubclassesRevisited",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"{@i 2nd-level Order of Scribes feature}",
-				"Using specially prepared inks and ancient incantations passed down by your wizardly order, you have awakened an arcane sentience within your spellbook.",
-				"While you are holding the book, it grants you the following benefits:",
+				"{@i 2级书士会特性}",
+				"通过特别准备的墨水和书士会所传承的咒语，你唤醒了法术书中具有智能的奥法存在。",
+				"当你持握你的法术书时，它将为你提供以下好处：",
 				{
 					"type": "list",
 					"items": [
-						"You can use the book as a spellcasting focus for your wizard spells.",
-						"When you cast a wizard spell with a spell slot, you can temporarily replace its damage type with the damage type of another spell in your spellbook, as your spellbook magically alters the spell's formula for this casting.",
-						"When you cast a wizard spell as a ritual, you can use the spell's normal casting time, rather than adding 10 minutes to it. Once you use this benefit, you can't do so again until you finish a long rest."
+						"你可以将本书用作施展法师法术的法器。",
+						"当你使用法术位施放一个法师法术时，可以临时将其伤害类型替换为你法术书中另一个法术的伤害类型，因为你的法术书会魔法般地改变此次施放的法术公式。",
+						"当你用仪式施法施展一个法师法术时，你可以使用法术的正常施法时间，而不用额外增加10分钟。当你使用过这个好处后，直到你完成一次长休后你才能再次使用此增益。"
 					]
 				},
-				"If necessary, you can replace the book over the course of a short rest by using your Wizardly Quill to write arcane sigils in a blank book or a magic spellbook to which you're attuned. At the end of the rest, your spellbook's consciousness is summoned into the new book, which the consciousness transforms into your spellbook, along with all its spells. If the previous book still existed somewhere, all the spells vanish from its pages."
+				"如有必要，你可以在一次短休时用你的 法师之笔Wizard Quill，在空白书本或是你与之同调的魔法法术书上画下奥术魔印。短休结束时，你原本法术书内的意识将会带着旧书它所记载的所有法术转移到新书之中、将其变为你的法术书。如果旧书依旧在某处存在，它上面所记载的所有法术将消失。"
 			]
 		},
 		{
-			"name": "Wizardly Quill",
+			"ENG_name": "Wizardly Quill",
+			"name": "法师笔",
 			"source": "UA2020SubclassesRevisited",
 			"page": 4,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "PHB",
-			"subclassShortName": "Scribes (UA)",
+			"subclassShortName": "书士 (UA)",
 			"subclassSource": "UA2020SubclassesRevisited",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"{@i 2nd-level Order of Scribes feature}",
-				"As a bonus action, you can magically create a Tiny quill in your free hand. The magic quill has the following properties:",
+				"{@i 2级书士会特性}",
+				"以一个附赠动作，你能在你空着的手中用魔法创造一支微型羽毛笔。这支魔法羽毛笔具有以下特性：",
 				{
 					"type": "list",
 					"items": [
-						"The quill doesn't require ink. When you write with it, it produces ink in a color of your choice on the writing surface.",
-						"The gold and time you must spend to copy a spell into your spellbook are halved if you use the quill for the transcription.",
-						"You can erase anything you write with the quill if you wave the feather over the text as a bonus action, provided the text is within 5 feet of you."
+						"这支羽毛笔不需要墨水。当你用它书写时，它会在用于书写的表面上自行生成墨水，墨水的颜色由你选择。",
+						"如果你使用这支羽毛笔进行抄录，那么将法术抄录到你的法术书中所需的金币且时间减半。",
+						"若你用羽毛笔书写的文本在你身边5尺范围之内，你可以用一个附赠动作在文字上方晃动羽毛将其消除。"
 					]
 				},
-				"This quill disappears if you create another one or if you die."
+				"这根羽毛笔将在你创造另一支笔或是死亡时消失。"
 			]
 		},
 		{
-			"name": "Master Scrivener",
+			"ENG_name": "Master Scrivener",
+			"name": "大书士",
 			"source": "UA2020SubclassesRevisited",
 			"page": 4,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "PHB",
-			"subclassShortName": "Scribes (UA)",
+			"subclassShortName": "书士 (UA)",
 			"subclassSource": "UA2020SubclassesRevisited",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-level Order of Scribes feature}",
-				"Whenever you finish a long rest, you can create one magic scroll by touching your Wizardly Quill to a blank piece of paper or parchment and causing one spell from your Awakened Spellbook to be copied onto the scroll. The spellbook must be within 5 feet of you when you make the scroll.",
-				"The chosen spell must be of 1st or 2nd level and must have a casting time of 1 action. Once in the scroll, the spell's power is enhanced, counting as one level higher than normal. You can cast the spell from the scroll by reading it as an action. The scroll is unintelligible to anyone else, and the spell vanishes from the scroll when you cast it or when you finish your next long rest.",
-				"You are also adept at crafting spell scrolls, which are described in chapter 7 of the Dungeon Master's Guide. The gold and time you must spend to make such a scroll are halved if you use your Wizardly Quill."
+				"{@i 6级书士会特性}",
+				"每当你完成一次长休，你可以令你的法师笔触碰一张空白的纸张或是羊皮纸，以将你觉醒魔典中的一个法术并复制到这张纸上、并制造一个魔法卷轴。你制造卷轴时，魔典必须在你5尺之内。",
+				"被复制的法术必须是1环或2环法术，且施法时间必须为1个动作。一旦它被抄入卷轴，这个法术的力量就将被强化，令其视为比平常高1环阶的法术。你可以以一个动作阅读卷轴来施展其中的法术。卷轴对其他任何人都不可理解，且当你施展其中法术、或是完成下次长休后，卷轴上记载的法术将会消失。",
+				"你还擅长制作法术卷轴，详情见《地下城主指南》第七章。若使用法师笔制作此类卷轴，所需金且时间减半。"
 			]
 		},
 		{
-			"name": "Manifest Mind",
+			"ENG_name": "Manifest Mind",
+			"name": "思维具现",
 			"source": "UA2020SubclassesRevisited",
 			"page": 4,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "PHB",
-			"subclassShortName": "Scribes (UA)",
+			"subclassShortName": "书士 (UA)",
 			"subclassSource": "UA2020SubclassesRevisited",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i 10th-level Order of Scribes feature}",
-				"You are now able to conjure forth the mind of your Awakened Spellbook. As a bonus action while the book is on your person, you can cause the mind to manifest as a Tiny spectral construct, hovering in an unoccupied space of your choice within 60 feet of you. This presence is intangible and doesn't occupy its space, and it sheds dim light in a 10-foot radius. It looks like a ghostly tome, a cascade of text, or a scholar from the past (your choice). The spectral mind has a number of hit points equal to your wizard level plus your Intelligence modifier, and it uses your Armor Class and saving throw modifiers.",
-				"While manifested, the spectral mind can hear and see, and it has {@sense darkvision} with a range of 60 feet. As an action, you can hear and see using the its senses, instead of your own, until your {@status concentration} ends (as if {@status concentration||concentrating} on a spell).",
-				"Whenever you cast a wizard spell on your turn, you can cast it as if you were in the spectral mind's space, instead of your own, using its senses. You can do so a number of times per day equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
-				"As a bonus action, you can cause the spectral mind to hover up to 30 feet to an unoccupied space that you or it can see. It can pass through creatures but not objects. The spectral mind stops manifesting if it is ever more than 300 feet away from you, if it drops to 0 hit points, if you die, or if you dismiss it as a bonus action."
+				"{@i 10级书士会特性}",
+				"你现在能够召唤出你的觉醒魔典的思维。当这本书在你身上时，你可以用一个附赠动作使这个思维具现为一个微型灵体构装体，悬浮在你选择的60尺内一个未占据空间中。这个存在是无形的且不占据其空间，并且它在10尺半径内散发出微光光照。它看起来像一本幽体的书、一连串的文字或一个过去的学者（由你选择）。这个灵体思维的生命值等于你的法师等级加上你的智力调整值，并且它使用你的护甲等级和豁免检定调整值。",
+				"当思维具现时，灵体间谍可以听到和看到，且它拥有{@sense 黑暗视觉}，范围为60尺。作为一个动作，你可以使用它的感官来听和看，而非你自己的感官，直到你的{@status 专注}结束（如同{@status 专注||专注于}一个法术）。",
+				"每当你在自己的回合内施放法师法术时，你可以使用灵体意识的感官、如同身处它所在的空间一样释放该法术。你每天能如此施法的次数等于你的熟练加值次，完成一次长休后，你恢复所有已消耗的使用次数。",
+				"以一个附赠动作，你可以让灵体间谍悬浮至多30尺到一个你或它能看见的未占据空间。它可以穿过生物但不能穿过物件。如果灵体间谍离你超过300尺、生命值降至0、你死亡、或者你用一个附赠动作解散它时，它将停止具现。"
 			]
 		},
 		{
-			"name": "One with the Word",
+			"ENG_name": "One with the Word",
+			"name": "一字同心",
 			"source": "UA2020SubclassesRevisited",
 			"page": 4,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "PHB",
-			"subclassShortName": "Scribes (UA)",
+			"subclassShortName": "书士 (UA)",
 			"subclassSource": "UA2020SubclassesRevisited",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i 14th-level Order of Scribes feature}",
-				"Your connection to your Awakened Spellbook has become so profound that your soul has become entwined with it. While you are holding the book and its spectral mind is manifest, you can take an action to cause the two of you to teleport, swapping places. You can teleport in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
-				"Moreover, if you die but at least one spell remains in your Awakened Spellbook, you can return to life 1 minute later within 5 feet of the book. You revive with 1 hit point. Then roll {@dice 3d6}. The book loses spells of your choice that have a combined spell level equal to that roll or higher. For example, if the roll's total is 9, spells vanish from the book that have a combined level of at least 9, which could mean one 9th-level spell, three 3rd-level spells, or some other combination.",
-				"Thereafter, you are incapable of casting the lost spells, even if you find them on a scroll or in another spellbook. The only way to restore your ability to cast one of the lost spells is through the {@spell wish} spell, which can restore one spell to the book per casting."
+				"{@i 14级书士会特性}",
+				"你与觉醒魔典的联系已变得如此深刻，以至于你的灵魂与之纠缠在一起。当你持有该书且其灵体间谍显现时，你可以用一个动作使你们两者传送，交换位置。你可以以这种方式传送的次数等于你的熟练加值，且完成一次长休后恢复所有已消耗的使用次数。",
+				"此外，如果你死亡但觉醒魔典中至少还有一个法术，你可以在1分钟后在书的5尺范围内复活。你以1点生命值复活。然后掷{@dice 3d6}。魔典会失去你选择的法术，这些法术的总法术环阶等于或高于掷骰结果。例如，如果掷骰的全部结果为9，魔典中会消隐总环阶至少为9的法术，这可能意味着一个9环法术、三个3环法术或其他组合。",
+				"此后，你将无法施放那些失落法术，即使你在卷轴或另一本法术书中找到它们。唯一能复原你施放其中一个失落法术能力的方法是通过{@spell 祈愿术}法术，每次施法可以复原一个法术到书中。"
 			]
 		}
 	]

@@ -4,7 +4,7 @@
 			{
 				"json": "UAQuickCharacters",
 				"abbreviation": "UAQCh",
-				"full": "Unearthed Arcana: Quick Characters",
+				"full": "破解奥秘：快速角色",
 				"url": "https://media.wizards.com/2016/downloads/DND/UA_Quick_PCs_SFG.PDF",
 				"version": "1.0.0",
 				"dateReleased": "2016-07-25",
@@ -18,12 +18,13 @@
 		],
 		"edition": "classic",
 		"dateAdded": 1672604449,
-		"dateLastModified": 1774092631,
+		"dateLastModified": 1792466340,
 		"_dateLastModifiedHash": "3db34c7ee1"
 	},
 	"book": [
 		{
-			"name": "Unearthed Arcana: Quick Characters",
+			"ENG_name": "Unearthed Arcana: Quick Characters",
+			"name": "破解奥秘：快速角色",
 			"id": "UAQCh",
 			"source": "UAQuickCharacters",
 			"group": "prerelease",
@@ -35,13 +36,14 @@
 			"author": "Mike Mearls",
 			"contents": [
 				{
-					"name": "Quick Characters",
+					"ENG_name": "Quick Characters",
+					"name": "快速角色",
 					"headers": [
-						"Alignment",
-						"Background",
-						"Class and Abilites",
-						"Equipment",
-						"Race"
+						"阵营",
+						"背景",
+						"职业和能力",
+						"装备",
+						"种族"
 					]
 				}
 			]
@@ -53,25 +55,27 @@
 			"source": "UAQuickCharacters",
 			"data": [
 				{
+					"ENG_name": "Quick Characters",
+					"name": "快速角色",
 					"type": "section",
-					"name": "Quick Characters",
 					"id": "000",
 					"page": 1,
 					"entries": [
-						"Sometimes you need quick characters for a D&D session. Whether you're running an impromptu game with limited time for character creation, you want to get a new player into an established game quickly, or you need a new PC to replace a dead adventurer, these optional rules are for you. These rules can be used instead of the normal process of character creation, replacing the choice and creativity of that process with a series of tables that quickly generate a 1st-level character.",
-						"With the exception of backgrounds, these rules focus on the character options available in the D&D Basic Rules as a means of keeping things simple.",
+						"有时你需要为D&D游戏准备快速角色。无论你是在有限时间内临时进行角色创建来运行一场即兴游戏，还是想让新玩家快速加入已建立的游戏，亦或是需要一个新PC来替代死亡的冒险者，这些外层位面选用规则都适合你。这些规则可以用来替代正常的角色创建过程，通过一系列快速生成1级角色的表格来取代该过程中的选择和创意。",
+						"除背景外，这些规则专注于《D&D基础规则》中可用的角色选项，以保持简易性。",
 						{
+							"ENG_name": "Alignment",
+							"name": "阵营",
 							"type": "entries",
-							"name": "Alignment",
 							"id": "001",
 							"page": 1,
 							"entries": [
-								"Roll a {@dice d6} to determine your character's alignment.",
+								"掷一个{@dice d6}来决定你的角色阵营。",
 								{
 									"type": "table",
 									"colLabels": [
 										"d6",
-										"Alignment"
+										"阵营"
 									],
 									"colStyles": [
 										"col-1 text-center",
@@ -80,44 +84,45 @@
 									"rows": [
 										[
 											"1",
-											"Lawful Good"
+											"守序善良"
 										],
 										[
 											"2",
-											"Neutral Good"
+											"中立善良"
 										],
 										[
 											"3",
-											"Chaotic Good"
+											"混乱善良"
 										],
 										[
 											"4",
-											"Lawful Neutral"
+											"守序中立"
 										],
 										[
 											"5",
-											"Neutral"
+											"绝对中立"
 										],
 										[
 											"6",
-											"Chaotic Neutral"
+											"混乱中立"
 										]
 									]
 								}
 							]
 						},
 						{
+							"ENG_name": "Background",
+							"name": "背景",
 							"type": "entries",
-							"name": "Background",
 							"id": "002",
 							"page": 1,
 							"entries": [
-								"Backgrounds already make use of random tables to flesh out your character, and are easy to apply. You can roll a {@dice d6} to determine your character's background if you're using the Basic Rules, or roll a {@dice d20} to use the full list of backgrounds from the Player's Handbook.",
+								"背景已经使用了随机表来充实你的角色，并且易于应用。如果你使用的是基础规则，可以掷一个{@dice d6}来决定你的角色背景，或者掷一个{@dice d20}来使用玩家手册中的完整背景列表。",
 								{
 									"type": "table",
 									"colLabels": [
 										"d6",
-										"Background (Basic Rules)"
+										"背景（基础规则）"
 									],
 									"colStyles": [
 										"col-1 text-center",
@@ -126,27 +131,27 @@
 									"rows": [
 										[
 											"1",
-											"{@background Acolyte}"
+											"{@background 侍僧}"
 										],
 										[
 											"2",
-											"{@background Criminal}"
+											"{@background 罪犯}"
 										],
 										[
 											"3",
-											"{@background Folk Hero}"
+											"{@background 平民英雄}"
 										],
 										[
 											"4",
-											"{@background Noble}"
+											"{@background 贵族}"
 										],
 										[
 											"5",
-											"{@background Sage}"
+											"{@background 智者}"
 										],
 										[
 											"6",
-											"{@background Soldier}"
+											"{@background 士兵}"
 										]
 									]
 								},
@@ -154,7 +159,7 @@
 									"type": "table",
 									"colLabels": [
 										"d20",
-										"Background (Player's Handbook)"
+										"背景（玩家手册）"
 									],
 									"colStyles": [
 										"col-1 text-center",
@@ -163,64 +168,64 @@
 									"rows": [
 										[
 											"1-2",
-											"{@background Acolyte}"
+											"{@background 侍僧}"
 										],
 										[
 											"3",
-											"{@background Charlatan}"
+											"{@background 骗子}"
 										],
 										[
 											"4-5",
-											"{@background Criminal}"
+											"{@background 罪犯}"
 										],
 										[
 											"6",
-											"{@background Entertainer}"
+											"{@background 艺人}"
 										],
 										[
 											"7-8",
-											"{@background Folk Hero}"
+											"{@background 平民英雄}"
 										],
 										[
 											"9-10",
-											"{@background Guild Artisan}"
+											"{@background 公会工匠}"
 										],
 										[
 											"11",
-											"{@background Hermit}"
+											"{@background 隐士}"
 										],
 										[
 											"12",
-											"{@background Noble}"
+											"{@background 贵族}"
 										],
 										[
 											"13-14",
-											"{@background Outlander}"
+											"{@background 化外之民}"
 										],
 										[
 											"15",
-											"{@background Sage}"
+											"{@background 智者}"
 										],
 										[
 											"16-17",
-											"{@background Sailor}"
+											"{@background 水手}"
 										],
 										[
 											"18-19",
-											"{@background Soldier}"
+											"{@background 士兵}"
 										],
 										[
 											"20",
-											"{@background Urchin}"
+											"{@background 流浪儿}"
 										]
 									]
 								},
-								"Alternatively, for players who are comfortable defining a character's personality traits, ideals, bonds, and flaws through roleplaying, the quick character generation process can be made even quicker by foregoing a background, instead rolling for the skill and tool proficiencies normally provided by a background. Roll four times on the following table, rerolling any duplicate results.",
+								"或者，对于习惯通过角色扮演（简称RP）来定义角色个性特点、理想、牵挂且缺陷的玩家，快速角色生成过程可以通过跳过背景选择来进一步加速，改为掷骰决定通常由背景提供的技能和工具熟练项。在以下表格上掷骰四次，重复结果则重掷。",
 								{
 									"type": "table",
 									"colLabels": [
 										"d20",
-										"Proficiency"
+										"熟练"
 									],
 									"colStyles": [
 										"col-1 text-center",
@@ -229,102 +234,103 @@
 									"rows": [
 										[
 											"1",
-											"{@skill Acrobatics}"
+											"{@skill 特技}"
 										],
 										[
 											"2",
-											"{@skill Animal Handling}"
+											"{@skill 驯兽}"
 										],
 										[
 											"3",
-											"{@skill Arcana}"
+											"{@skill 奥秘}"
 										],
 										[
 											"4",
-											"{@skill Athletics}"
+											"{@skill 运动}"
 										],
 										[
 											"5",
-											"{@skill Deception}"
+											"{@skill 欺瞒}"
 										],
 										[
 											"6",
-											"{@skill History}"
+											"{@skill 历史}"
 										],
 										[
 											"7",
-											"{@skill Insight}"
+											"{@skill 洞悉}"
 										],
 										[
 											"8",
-											"{@skill Intimidation}"
+											"{@skill 威吓}"
 										],
 										[
 											"9",
-											"{@skill Investigation}"
+											"{@skill 调查}"
 										],
 										[
 											"10",
-											"{@skill Medicine}"
+											"{@skill 医药}"
 										],
 										[
 											"11",
-											"{@skill Nature}"
+											"{@skill 自然}"
 										],
 										[
 											"12",
-											"{@skill Perception}"
+											"{@skill 察觉}"
 										],
 										[
 											"13",
-											"{@skill Performance}"
+											"{@skill 表演}"
 										],
 										[
 											"14",
-											"{@skill Persuasion}"
+											"{@skill 游说}"
 										],
 										[
 											"15",
-											"{@skill Religion}"
+											"{@skill 宗教}"
 										],
 										[
 											"16",
-											"{@skill Sleight of Hand}"
+											"{@skill 巧手}"
 										],
 										[
 											"17",
-											"{@skill Stealth}"
+											"{@skill 隐匿}"
 										],
 										[
 											"18",
-											"{@skill Survival}"
+											"{@skill 求生}"
 										],
 										[
 											"19",
-											"{@item Carpenter's tools|PHB}"
+											"{@item 木匠工具|PHB}"
 										],
 										[
 											"20",
-											"{@item Thieves' tools|PHB}"
+											"{@item 盗贼工具|PHB}"
 										]
 									]
 								},
-								"In place of a background feature, once during any game session, you can pick a nonplayer character you meet and declare that your character knows that NPC. The relationship is respectful but not necessarily friendly. The DM determines the exact nature of your relationship."
+								"代替背景特性，在任意游戏会话期间，你可以选择遇到的非玩家角色并声明你的角色认识该NPC。这种关系是相互尊重的但不一定是友好的。DM会决定你们关系的具体性质。"
 							]
 						},
 						{
+							"ENG_name": "Class and Abilities",
+							"name": "职业和属性",
 							"type": "entries",
-							"name": "Class and Abilities",
 							"id": "003",
 							"page": 2,
 							"entries": [
-								"Roll a {@dice d6} to determine your class from the following table, which is more likely to generate a fighter or cleric than a rogue or wizard. Especially if you're randomly generating an entire party, tilting the odds in favor of fighters and clerics can help shore up a group's ability to survive in combat. Alternatively (or if you're generating a single character joining an already balanced party), you can roll a {@dice d4} and give each class an equal chance of being generated.",
+								"掷一个{@dice d6}从以下表格中决定你的职业，这个表格生成战士或牧师的概率比游荡者或法师更高。特别是如果你正在随机生成整个队伍，增加战士和牧师的概率可以帮助提升队伍在战斗中的生存能力。或者（如果你正在生成一个加入已经平衡队伍的单人角色），你可以掷一个{@dice d4}，让每个职业有相同的生成概率。",
 								{
 									"type": "table",
 									"colLabels": [
 										"d6",
 										"{@dice d4}",
-										"Class"
+										"职业"
 									],
 									"colStyles": [
 										"col-1 text-center",
@@ -335,31 +341,31 @@
 										[
 											"1-2",
 											"1",
-											"{@class Cleric}"
+											"{@class 牧师}"
 										],
 										[
 											"3-4",
 											"2",
-											"{@class Fighter}"
+											"{@class 战士}"
 										],
 										[
 											"5",
 											"3",
-											"{@class Rogue}"
+											"{@class 游荡者}"
 										],
 										[
 											"6",
 											"4",
-											"{@class Wizard}"
+											"{@class 法师}"
 										]
 									]
 								},
-								"When determining your ability scores, your choice of class shapes which abilities are of most use to your character. Roll a {@dice d6} to determine the ability score array your character uses. Then assign those numbers to your abilities in an order determined by your class.",
+								"当确定你的属性值时，你选择的职业决定了哪些属性对你的角色最有用。掷一个{@dice d6}来决定你的角色使用的属性值数组。然后根据你的职业决定的顺序将这些数字分配到你的属性上。",
 								{
 									"type": "table",
 									"colLabels": [
 										"d6",
-										"Score Array"
+										"属性值数组"
 									],
 									"colStyles": [
 										"col-1 text-center",
@@ -397,41 +403,45 @@
 									"id": "004",
 									"entries": [
 										{
+											"ENG_name": "Cleric",
+											"name": "牧师",
 											"type": "entries",
-											"name": "Cleric",
 											"id": "005",
 											"page": 2,
 											"entries": [
-												"Wisdom, Strength, Constitution, Charisma, Dexterity, Intelligence."
+												"感知、力量、体质、魅力、敏捷、智力。"
 											]
 										},
 										{
+											"ENG_name": "Fighter",
+											"name": "战士",
 											"type": "entries",
-											"name": "Fighter",
 											"id": "006",
 											"page": 2,
 											"entries": [
-												"Strength, Constitution, Dexterity, Wisdom, Intelligence, Charisma."
+												"力量，体质，敏捷，感知，智力，魅力。"
 											]
 										},
 										{
+											"ENG_name": "Rogue",
+											"name": "游荡者",
 											"type": "entries",
-											"name": "Rogue",
 											"id": "007",
 											"page": 2,
 											"entries": [
-												"Dexterity, Charisma, Intelligence, Constitution, Strength, Wisdom."
+												"敏捷, 魅力, 智力, 体质, 力量, 感知."
 											]
 										},
 										{
+											"ENG_name": "Wizard",
+											"name": "法师",
 											"type": "entries",
-											"name": "Wizard",
 											"id": "008",
 											"page": 2,
 											"entries": [
-												"Intelligence, Dexterity, Wisdom, Charisma, Constitution, Strength.",
-												"For example, a player creating a cleric rolls a 4 for the character's ability score array\u201416, 12, 12, 12, 10, and 8. Those numbers are assigned in that order to the ability scores listed for clerics, yielding a character with Strength 12, Dexterity 10, Constitution 12, Intelligence 8, Wisdom 16, and Charisma 12.",
-												"After you assign your character's ability scores, but before applying any modifiers for your race (see below), you can swap any two scores."
+												"智力，敏捷，感知，魅力，体质，力量。",
+												"范例，一个玩家创建牧师时掷骰结果为4的角色属性值数组\u2014\u201416、12、12、12、10和8。这些数字按顺序分配给牧师列出的属性值，生成一个力量12、敏捷10、体质12、智力8、感知16和魅力12的角色。",
+												"在你分配角色的属性值后，但在应用任何种族调整值前（见下方），你可以交换任意两个属性值。"
 											]
 										}
 									]
@@ -439,66 +449,73 @@
 							]
 						},
 						{
+							"ENG_name": "Equipment",
+							"name": "装备",
 							"type": "entries",
-							"name": "Equipment",
 							"id": "009",
 							"page": 2,
 							"entries": [
-								"Your class also determines your equipment. Select gear from your class's quick equipment choices, except for any of the prebuilt packs such as the explorer's pack or the priest's pack (see below). Alternatively, you can select one of the following default equipment packages:",
+								"你的职业也决定了你的装备。从你职业的快速装备选择中挑选装备，除了任何预制的套组，如探索套组或祭司的驮役（见下方）。或者，你可以选择以下默认装备包之一：",
 								{
 									"type": "list",
 									"items": [
 										{
+											"ENG_name": "Cleric:",
+											"name": "牧师：",
 											"type": "item",
-											"name": "Cleric:",
-											"entry": "{@item Mace|phb}, {@item scale mail|phb}, {@item light crossbow|phb} and 20 {@item Crossbow Bolts (20)|PHB|bolts}, {@item shield|phb}, {@item holy symbol|phb}"
+											"entry": "{@item 硬头锤|phb}, {@item 鳞甲|phb}, {@item 轻弩|phb} 且 20 {@item 弩矢(20)|PHB|弩箭}, {@item 盾牌|phb}, {@item 圣徽|phb}"
 										},
 										{
+											"ENG_name": "Fighter:",
+											"name": "战士：",
 											"type": "item",
-											"name": "Fighter:",
-											"entry": "{@item Chain mail|phb}, {@item longsword|phb}, {@item shield|phb}, {@item light crossbow|phb} and 20 {@item Crossbow Bolts (20)|PHB|bolts}"
+											"entry": "{@item 链甲|phb}, {@item 长剑|phb}, {@item 盾牌|phb}, {@item 轻弩|phb} 且 20 {@item 弩矢(20)|PHB|弩箭}"
 										},
 										{
+											"ENG_name": "Rogue:",
+											"name": "游荡者：",
 											"type": "item",
-											"name": "Rogue:",
-											"entry": "{@item Shortsword|phb}, {@item shortbow|phb} and 20 {@item Arrows (20)|PHB|arrows}, {@item leather armor|phb}, two {@item dagger|phb|daggers}, {@item thieves' tools|phb}"
+											"entry": "{@item 短剑|phb}、{@item 短弓|phb}和20支{@item 箭矢 (20)|PHB|箭矢}、{@item 皮甲|phb}、两把{@item 匕首|phb|匕首}、{@item 盗贼工具|phb}"
 										},
 										{
+											"ENG_name": "Wizard:",
+											"name": "法师：",
 											"type": "item",
-											"name": "Wizard:",
-											"entry": "{@item Dagger|phb}, {@item component pouch|phb}, {@item spellbook|phb}"
+											"entry": "{@item 匕首|phb}, {@item 材料包|phb}, {@item 法术书|phb}"
 										}
 									]
 								},
-								"Then select one of the following standard equipment packs for your character:",
+								"然后为你的角色选择以下标准装备套组之一：",
 								{
 									"type": "list",
 									"items": [
-										"{@item Backpack|phb}, {@item sack|phb}, {@item bullseye lantern|phb|lantern}, 2 {@item oil (flask)|phb|oil flasks}, {@item tinderbox|phb}, 12 {@item piton|phb|pitons}, {@item hammer|phb}, {@item waterskin|phb}, {@item rations (1 day)|phb|rations} (4 days), 5 gp",
-										"{@item Backpack|phb}, 2 {@item sack|phb|sacks}, 6 {@item torch|phb|torches}, 3 {@item oil (flask)|phb|oil flasks}, {@item tinderbox|phb}, {@item Pole (10-foot)|phb|10-foot-pole}, 50 feet of {@item Hempen Rope (50 feet)|phb|rope}, {@item waterskin|phb}, {@item rations (1 day)|phb|rations} (4 days), {@item steel mirror|phb}",
-										"{@item Backpack|phb}, 4 {@item sack|phb|sacks}, {@item holy symbol|phb} or {@item thieves' tools|phb}, 12 {@item piton|phb|pitons}, 50 feet of {@item Hempen Rope (50 feet)|phb|rope}, {@item waterskin|phb}, {@item rations (1 day)|phb|rations} (4 days)"
+										"{@item 背包|phb}, {@item 麻袋|phb}, {@item 牛眼提灯|phb|提灯}, 2 {@item 燃油 (扁瓶)|phb|燃油瓶}, {@item 火绒盒|phb}, 12 {@item 岩钉|phb|岩钉}, {@item 锤子|phb}, {@item 水袋|phb}, {@item 口粮(1天份)|phb|口粮} (4 天), 5GP",
+										"{@item 背包|phb}, 2 {@item 麻袋|phb|麻袋}, 6 {@item 火把|phb|火把}, 3 {@item 燃油 (扁瓶)|phb|燃油瓶}, {@item 火绒盒|phb}, {@item 长杆(10尺)|phb|10尺长杆}, 50尺 {@item 麻绳(50尺)|phb|绳索}, {@item 水袋|phb}, {@item 口粮(1天份)|phb|口粮} (4天), {@item 钢面镜|phb}",
+										"{@item 背包|phb}, 4 {@item 麻袋|phb|麻袋}, {@item 圣徽|phb} 或 {@item 盗贼工具|phb}, 12 {@item 岩钉|phb|岩钉}, 50尺 {@item 麻绳(50尺)|phb|绳索}, {@item 水袋|phb}, {@item 口粮(1天份)|phb|口粮} (4天)"
 									]
 								},
-								"All characters also gain a dagger and either a {@item light crossbow|phb} and 10 {@item Crossbow Bolts (20)|PHB|bolts}, or a set of 5 {@item javelin|phb|javelins}.",
+								"所有角色还会获得一把匕首和一把{@item 轻弩|phb}及10支{@item 弩矢(20)|PHB|弩箭}，或一组5支{@item 标枪|phb|标枪}。",
 								{
+									"ENG_name": "Cleric Spells",
+									"name": "牧师法术",
 									"type": "entries",
-									"name": "Cleric Spells",
 									"id": "00a",
 									"page": 2,
 									"entries": [
-										"Randomly determining spells can speed up the process of creating a 1st-level cleric.",
+										"随机决定法术可以加快创建1级牧师的过程。",
 										{
+											"ENG_name": "Cantrips",
+											"name": "戏法",
 											"type": "entries",
-											"name": "Cantrips",
 											"id": "00b",
 											"page": 2,
 											"entries": [
-												"Roll a {@dice d6} three times to determine your cleric cantrips, rerolling any duplicate results.",
+												"掷骰{@dice d6}三次来决定你的牧师戏法，若有重复结果则重掷。",
 												{
 													"type": "table",
 													"colLabels": [
 														"d6",
-														"Cantrip"
+														"戏法"
 													],
 													"colStyles": [
 														"col-1 text-center",
@@ -507,44 +524,45 @@
 													"rows": [
 														[
 															"1",
-															"{@spell Guidance}"
+															"{@spell 神导术}"
 														],
 														[
 															"2",
-															"{@spell Light}"
+															"{@spell 光亮术}"
 														],
 														[
 															"3",
-															"{@spell Resistance}"
+															"{@spell 抵抗术}"
 														],
 														[
 															"4",
-															"{@spell Sacred Flame}"
+															"{@spell 圣火术}"
 														],
 														[
 															"5",
-															"{@spell Spare the Dying}"
+															"{@spell 维生术}"
 														],
 														[
 															"6",
-															"{@spell Thaumaturgy}"
+															"{@spell 奇术}"
 														]
 													]
 												}
 											]
 										},
 										{
+											"ENG_name": "Spells",
+											"name": "法术",
 											"type": "entries",
-											"name": "Spells",
 											"id": "00c",
 											"page": 2,
 											"entries": [
-												"Roll a {@dice d10} for each cleric spell you can prepare, rerolling any duplicate results.",
+												"为你能够准备的每个牧师法术掷一个{@dice d10}，并重掷任何重复的结果。",
 												{
 													"type": "table",
 													"colLabels": [
 														"d10",
-														"Spell"
+														"法术"
 													],
 													"colStyles": [
 														"col-1 text-center",
@@ -553,39 +571,39 @@
 													"rows": [
 														[
 															"1",
-															"{@spell Bless}"
+															"{@spell 祝福术}"
 														],
 														[
 															"2",
-															"{@spell Command}"
+															"{@spell 命令术}"
 														],
 														[
 															"3-4",
-															"{@spell Cure Wounds}"
+															"{@spell 疗伤术}"
 														],
 														[
 															"5",
-															"{@spell Detect Magic}"
+															"{@spell 侦测魔法}"
 														],
 														[
 															"6",
-															"{@spell Guiding Bolt}"
+															"{@spell 光导箭}"
 														],
 														[
 															"7",
-															"{@spell Healing Word}"
+															"{@spell 治愈真言}"
 														],
 														[
 															"8",
-															"{@spell Inflict Wounds}"
+															"{@spell 致伤术}"
 														],
 														[
 															"9",
-															"{@spell Sanctuary}"
+															"{@spell 庇护术}"
 														],
 														[
 															"10",
-															"{@spell Shield of Faith}"
+															"{@spell 虔诚护盾}"
 														]
 													]
 												}
@@ -594,17 +612,18 @@
 									]
 								},
 								{
+									"ENG_name": "Fighter Fighting Style",
+									"name": "战士战斗风格",
 									"type": "entries",
-									"name": "Fighter Fighting Style",
 									"id": "00d",
 									"page": 3,
 									"entries": [
-										"Roll a {@dice d6} to determine your fighting style, and make the indicated adjustments if you selected the default equipment package.",
+										"掷一个{@dice d6}来决定你的战斗风格，且如果你选择了默认装备包，就做出指定的调整。",
 										{
 											"type": "table",
 											"colLabels": [
 												"d6",
-												"Fighting Style"
+												"战斗风格"
 											],
 											"colStyles": [
 												"col-1 text-center",
@@ -613,44 +632,45 @@
 											"rows": [
 												[
 													"1",
-													"{@optfeature Archery} (swap {@item light crossbow|phb} and {@item Crossbow Bolts (20)|PHB|20 bolts} for a {@item longbow|phb} and {@item Arrows (20)|PHB|20 arrows}; at your option, also swap {@item chain mail|phb} for {@item leather armor|phb})"
+													"{@optfeature 箭术}（将{@item 轻弩|phb}和{@item 弩矢(20)|PHB|20支弩箭}替换为{@item 长弓|phb}和{@item 箭矢 (20)|PHB|20支箭}；可选地，也可将{@item 链甲|phb}替换为{@item 皮甲|phb}）"
 												],
 												[
 													"2",
-													"{@optfeature Defense}"
+													"{@optfeature 防御}"
 												],
 												[
 													"3",
-													"{@optfeature Dueling}"
+													"{@optfeature 对决}"
 												],
 												[
 													"4",
-													"{@optfeature Great Weapon Fighting} (swap {@item longsword|phb} and {@item shield|phb} for a {@item greataxe|phb})"
+													"{@optfeature 巨武器战斗}（将{@item 长剑|phb}和{@item 盾牌|phb}替换为{@item 巨斧|phb}）"
 												],
 												[
 													"5",
-													"{@optfeature Protection}"
+													"{@optfeature 守护}"
 												],
 												[
 													"6",
-													"{@optfeature Two-Weapon Fighting} (swap {@item longsword|phb} for two {@item shortsword|PHB|short swords})"
+													"{@optfeature 双武器战斗}（将{@item 长剑|phb}替换为两把{@item 短剑|PHB|短剑}）"
 												]
 											]
 										}
 									]
 								},
 								{
+									"ENG_name": "Rogue Proficiencies",
+									"name": "游荡者熟练",
 									"type": "entries",
-									"name": "Rogue Proficiencies",
 									"id": "00e",
 									"page": 3,
 									"entries": [
-										"Roll a {@dice d12} four times to determine your skills, rerolling any duplicate results. In addition, reroll any results that duplicate skills granted by your background.",
+										"掷骰{@dice d12}四次以决定你的技能，重掷任何重复的结果。此外，重掷任何与你背景授予的技能重复的结果。",
 										{
 											"type": "table",
 											"colLabels": [
 												"d12",
-												"Skills"
+												"技能"
 											],
 											"colStyles": [
 												"col-1 text-center",
@@ -659,71 +679,73 @@
 											"rows": [
 												[
 													"1",
-													"{@skill Acrobatics}"
+													"{@skill 特技}"
 												],
 												[
 													"2",
-													"{@skill Athletics}"
+													"{@skill 运动}"
 												],
 												[
 													"3",
-													"{@skill Deception}"
+													"{@skill 欺瞒}"
 												],
 												[
 													"4",
-													"{@skill Insight}"
+													"{@skill 洞悉}"
 												],
 												[
 													"5",
-													"{@skill Intimidation}"
+													"{@skill 威吓}"
 												],
 												[
 													"6",
-													"{@skill Investigation}"
+													"{@skill 调查}"
 												],
 												[
 													"7",
-													"{@skill Perception}"
+													"{@skill 察觉}"
 												],
 												[
 													"8",
-													"{@skill Performance}"
+													"{@skill 表演}"
 												],
 												[
 													"9",
-													"{@skill Persuasion}"
+													"{@skill 游说}"
 												],
 												[
 													"10",
-													"{@skill Sleight of Hand}"
+													"{@skill 巧手}"
 												],
 												[
 													"11-12",
-													"{@skill Stealth}"
+													"{@skill 隐匿}"
 												]
 											]
 										}
 									]
 								},
 								{
+									"ENG_name": "Wizard Spells",
+									"name": "法师法术",
 									"type": "entries",
-									"name": "Wizard Spells",
 									"id": "00f",
 									"page": 3,
 									"entries": [
-										"Randomly determining spells can speed up the process of creating a 1st-level wizard.",
+										"随机决定法术可以加快创建1级法师的过程。",
 										{
+											"ENG_name": "Cantrips",
+											"name": "戏法",
 											"type": "entries",
-											"name": "Cantrips",
 											"id": "010",
 											"page": 3,
 											"entries": [
-												"Roll a {@dice d10} three times to determine your wizard cantrips, rerolling any duplicate results.",
+												"掷骰{@dice d10}三次来决定你的法师戏法，若有重复结果则重掷。",
 												{
 													"type": "table",
 													"colLabels": [
 														"d10",
-														"Cantrip"
+														"戏法"
 													],
 													"colStyles": [
 														"col-1 text-center",
@@ -732,60 +754,61 @@
 													"rows": [
 														[
 															"1",
-															"{@spell Acid splash}"
+															"{@spell 酸液飞溅}"
 														],
 														[
 															"2",
-															"{@spell Dancing lights}"
+															"{@spell 舞光术}"
 														],
 														[
 															"3",
-															"{@spell Fire bolt}"
+															"{@spell 火焰箭}"
 														],
 														[
 															"4",
-															"{@spell Light}"
+															"{@spell 光亮术}"
 														],
 														[
 															"5",
-															"{@spell Mage hand}"
+															"{@spell 法师之手}"
 														],
 														[
 															"6",
-															"{@spell Minor illusion}"
+															"{@spell 次级幻象}"
 														],
 														[
 															"7",
-															"{@spell Poison spray}"
+															"{@spell 毒气喷涌}"
 														],
 														[
 															"8",
-															"{@spell Prestidigitation}"
+															"{@spell 魔法伎俩}"
 														],
 														[
 															"9",
-															"{@spell Ray of frost}"
+															"{@spell 冷冻射线}"
 														],
 														[
 															"10",
-															"{@spell Shocking grasp}"
+															"{@spell 电爪}"
 														]
 													]
 												}
 											]
 										},
 										{
+											"ENG_name": "Spells",
+											"name": "法术",
 											"type": "entries",
-											"name": "Spells",
 											"id": "011",
 											"page": 3,
 											"entries": [
-												"Roll a {@dice d12} six times to determine the contents of your wizard spellbook, rerolling any duplicate results.",
+												"掷骰一个{@dice d12}六次来决定你的法师法术书的内容，重新掷骰任何重复的结果。",
 												{
 													"type": "table",
 													"colLabels": [
 														"d12",
-														"Spell"
+														"法术"
 													],
 													"colStyles": [
 														"col-1 text-center",
@@ -794,51 +817,51 @@
 													"rows": [
 														[
 															"1",
-															"{@spell Burning hands}"
+															"{@spell 燃烧之手}"
 														],
 														[
 															"2",
-															"{@spell Charm person}"
+															"{@spell 魅惑类人}"
 														],
 														[
 															"3",
-															"{@spell Comprehend languages}"
+															"{@spell 通晓语言}"
 														],
 														[
 															"4",
-															"{@spell Detect magic}"
+															"{@spell 侦测魔法}"
 														],
 														[
 															"5",
-															"{@spell Disguise self}"
+															"{@spell 易容术}"
 														],
 														[
 															"6",
-															"{@spell Identify}"
+															"{@spell 鉴定术}"
 														],
 														[
 															"7",
-															"{@spell Mage armor}"
+															"{@spell 法师护甲}"
 														],
 														[
 															"8",
-															"{@spell Magic missile}"
+															"{@spell 魔法飞弹}"
 														],
 														[
 															"9",
-															"{@spell Shield}"
+															"{@spell 护盾术}"
 														],
 														[
 															"10",
-															"{@spell Silent image}"
+															"{@spell 无声幻影}"
 														],
 														[
 															"11",
-															"{@spell Sleep}"
+															"{@spell 睡眠术}"
 														],
 														[
 															"12",
-															"{@spell Thunderwave}"
+															"{@spell 雷鸣波}"
 														]
 													]
 												}
@@ -849,17 +872,18 @@
 							]
 						},
 						{
+							"ENG_name": "Race",
+							"name": "种族",
 							"type": "entries",
-							"name": "Race",
 							"id": "012",
 							"page": 3,
 							"entries": [
-								"Finally, roll a {@dice d12} to determine your character's race. The following table is weighted heavily toward humans, both to reflect typical D&D demographics and to push players toward the easiest option.",
+								"最后，掷一个{@dice d12}来决定你的角色种族。以下表格权重偏向人类，既反映了典型的D&D人口分布，也引导玩家选择最简单的选项。",
 								{
 									"type": "table",
 									"colLabels": [
 										"d12",
-										"Skills"
+										"技能"
 									],
 									"colStyles": [
 										"col-1 text-center",
@@ -868,31 +892,31 @@
 									"rows": [
 										[
 											"1",
-											"{@race Dwarf (hill)||Hill Dwarf}"
+											"{@race 矮人 (丘陵)||丘陵矮人}"
 										],
 										[
 											"2",
-											"{@race Dwarf (mountain)||Mountain Dwarf}"
+											"{@race 矮人 (山地)||山地矮人}"
 										],
 										[
 											"3",
-											"{@race Elf (high)||High Elf}"
+											"{@race 精灵 (高等)||高等精灵}"
 										],
 										[
 											"4",
-											"{@race Elf (wood)||Wood Elf}"
+											"{@race 精灵 (木)||木精灵}"
 										],
 										[
 											"5",
-											"{@race halfling (lightfoot)||Lightfoot Halfling}"
+											"{@race 半身人 (轻足)||轻足半身人}"
 										],
 										[
 											"6",
-											"{@race halfling (stout)||Stout Halfling}"
+											"{@race 半身人 (敦实)||敦实半身人}"
 										],
 										[
 											"7-12",
-											"{@race Human}"
+											"{@race 人类}"
 										]
 									]
 								}

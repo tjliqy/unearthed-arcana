@@ -1,11 +1,10 @@
 {
-	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/ua/homebrew.json",
 	"_meta": {
 		"sources": [
 			{
 				"json": "XUA2025EberronUpdates",
 				"abbreviation": "XUA2025EU",
-				"full": "Unearthed Arcana 2025: Eberron Updates",
+				"full": "破解奥秘2025：艾伯伦更新",
 				"url": "https://media.dndbeyond.com/compendium-images/ua/eberron-updates/Lhg25Ggx5iY3rETH/UA2025-CartographerArtificer.pdf",
 				"version": "1.0.0",
 				"dateReleased": "2025-02-27",
@@ -31,7 +30,7 @@
 		"edition": "one",
 		"status": "ready",
 		"dateAdded": 1740677812,
-		"dateLastModified": 1774092631,
+		"dateLastModified": 1792466235,
 		"_dateLastModifiedHash": "6959546263"
 	},
 	"_test": {
@@ -41,11 +40,12 @@
 	},
 	"class": [
 		{
-			"name": "Artificer",
+			"ENG_name": "Artificer",
+			"name": "奇械师",
 			"source": "XUA2025EberronUpdates",
 			"page": 1,
 			"reprintedAs": [
-				"Artificer|EFA"
+				"奇械师|EFA"
 			],
 			"edition": "one",
 			"primaryAbility": [
@@ -112,103 +112,104 @@
 				{
 					"known": {
 						"1": [
-							"mending|XPHB#c"
+							"修复术|XPHB#c"
 						]
 					}
 				}
 			],
 			"classSpells": [
-				"Acid Splash|XPHB",
-				"Dancing Lights|XPHB",
-				"Elementalism|XPHB",
-				"Fire Bolt|XPHB",
-				"Guidance|XPHB",
-				"Light|XPHB",
-				"Mage Hand|XPHB",
-				"Mending|XPHB",
-				"Message|XPHB",
-				"Poison Spray|XPHB",
-				"Prestidigitation|XPHB",
-				"Ray of Frost|XPHB",
-				"Resistance|XPHB",
-				"Shocking Grasp|XPHB",
-				"Spare the Dying|XPHB",
-				"Thorn Whip|XPHB",
-				"Thunderclap|XPHB",
-				"True Strike|XPHB",
-				"Alarm|XPHB",
-				"Cure Wounds|XPHB",
-				"Detect Magic|XPHB",
-				"Disguise Self|XPHB",
-				"Expeditious Retreat|XPHB",
-				"Faerie Fire|XPHB",
-				"False Life|XPHB",
-				"Feather Fall|XPHB",
-				"Grease|XPHB",
-				"Identify|XPHB",
-				"Jump|XPHB",
-				"Longstrider|XPHB",
-				"Purify Food and Drink|XPHB",
-				"Sanctuary|XPHB",
-				"Aid|XPHB",
-				"Alter Self|XPHB",
-				"Arcane Lock|XPHB",
-				"Arcane Vigor|XPHB",
-				"Blur|XPHB",
-				"Continual Flame|XPHB",
-				"Darkvision|XPHB",
-				"Dragon's Breath|XPHB",
-				"Enhance Ability|XPHB",
-				"Enlarge/Reduce|XPHB",
-				"Heat Metal|XPHB",
-				"Homunculus Servant|XUA2024Artificer",
-				"Invisibility|XPHB",
-				"Lesser Restoration|XPHB",
-				"Levitate|XPHB",
-				"Magic Mouth|XPHB",
-				"Magic Weapon|XPHB",
-				"Protection from Poison|XPHB",
-				"Rope Trick|XPHB",
-				"See Invisibility|XPHB",
-				"Spider Climb|XPHB",
-				"Web|XPHB",
-				"Blink|XPHB",
-				"Create Food and Water|XPHB",
-				"Dispel Magic|XPHB",
-				"Elemental Weapon|XPHB",
-				"Fly|XPHB",
-				"Glyph of Warding|XPHB",
-				"Haste|XPHB",
-				"Protection from Energy|XPHB",
-				"Revivify|XPHB",
-				"Water Breathing|XPHB",
-				"Water Walk|XPHB",
-				"Arcane Eye|XPHB",
-				"Fabricate|XPHB",
-				"Freedom of Movement|XPHB",
-				"Leomund's Secret Chest|XPHB",
-				"Mordenkainen's Faithful Hound|XPHB",
-				"Mordenkainen's Private Sanctum|XPHB",
-				"Otiluke's Resilient Sphere|XPHB",
-				"Stone Shape|XPHB",
-				"Stoneskin|XPHB",
-				"Summon Construct|XPHB",
-				"Animate Objects|XPHB",
-				"Bigby's Hand|XPHB",
-				"Circle of Power|XPHB",
-				"Creation|XPHB",
-				"Greater Restoration|XPHB",
-				"Wall of Stone|XPHB",
-				"Booming Blade|TCE",
-				"Green-Flame Blade|TCE",
-				"Intellect Fortress|TCE",
-				"Lightning Lure|TCE",
-				"Sword Burst|TCE",
-				"Tasha's Caustic Brew|TCE"
+				"酸液飞溅|XPHB",
+				"舞光术|XPHB",
+				"四象法门|XPHB",
+				"火焰箭|XPHB",
+				"神导术|XPHB",
+				"光亮术|XPHB",
+				"法师之手|XPHB",
+				"修复术|XPHB",
+				"传讯术|XPHB",
+				"毒气喷涌|XPHB",
+				"魔法伎俩|XPHB",
+				"冷冻射线|XPHB",
+				"抗性|XPHB",
+				"电爪|XPHB",
+				"维生术|XPHB",
+				"荆棘之鞭|XPHB",
+				"鸣雷破|XPHB",
+				"克敌先击|XPHB",
+				"警报术|XPHB",
+				"疗伤术|XPHB",
+				"侦测魔法|XPHB",
+				"易容术|XPHB",
+				"脚底抹油|XPHB",
+				"妖火|XPHB",
+				"虚假生命|XPHB",
+				"羽落术|XPHB",
+				"油腻术|XPHB",
+				"鉴定术|XPHB",
+				"跳跃术|XPHB",
+				"大步奔行|XPHB",
+				"净化饮食|XPHB",
+				"庇护术|XPHB",
+				"援助术|XPHB",
+				"变身术|XPHB",
+				"秘法锁|XPHB",
+				"复苏秘法|XPHB",
+				"朦胧术|XPHB",
+				"不灭明焰|XPHB",
+				"黑暗视觉|XPHB",
+				"龙息术|XPHB",
+				"强化属性|XPHB",
+				"变巨/缩小术|XPHB",
+				"灼热金属|XPHB",
+				"人工生命仆从|XUA2024Artificer",
+				"隐形术|XPHB",
+				"次等复原术|XPHB",
+				"浮空术|XPHB",
+				"魔嘴术|XPHB",
+				"魔化武器|XPHB",
+				"防护毒素|XPHB",
+				"魔绳术|XPHB",
+				"识破隐形|XPHB",
+				"蛛行术|XPHB",
+				"蛛网术|XPHB",
+				"闪现术|XPHB",
+				"造粮术|XPHB",
+				"解除魔法|XPHB",
+				"元素武器|XPHB",
+				"飞行术|XPHB",
+				"守卫刻文|XPHB",
+				"加速术|XPHB",
+				"防护能量|XPHB",
+				"回生术|XPHB",
+				"水下呼吸|XPHB",
+				"水上行走|XPHB",
+				"秘法眼|XPHB",
+				"鬼斧神工|XPHB",
+				"行动自如|XPHB",
+				"李欧蒙秘藏箱|XPHB",
+				"魔邓肯忠犬|XPHB",
+				"魔邓肯私人密室|XPHB",
+				"欧提路克弹力法球|XPHB",
+				"塑石术|XPHB",
+				"石肤术|XPHB",
+				"构装召唤术|XPHB",
+				"活化物件|XPHB",
+				"毕格比之手|XPHB",
+				"原力法阵|XPHB",
+				"造物术|XPHB",
+				"高等复原术|XPHB",
+				"石墙术|XPHB",
+				"轰雷剑|TCE",
+				"翠炎剑|TCE",
+				"智能壁垒|TCE",
+				"闪电牵引|TCE",
+				"剑刃爆发|TCE",
+				"塔莎酸蚀酿|TCE"
 			],
 			"featProgression": [
 				{
-					"name": "Epic Boon",
+					"ENG_name": "Epic Boon",
+					"name": "传奇恩惠",
 					"category": [
 						"EB"
 					],
@@ -235,12 +236,12 @@
 					}
 				],
 				"weapons": [
-					"simple"
+					"简易"
 				],
 				"tools": [
-					"{@item thieves' tools|XPHB}",
-					"{@item tinker's tools|XPHB}",
-					"one type of {@item artisan's tools|XPHB} of your choice"
+					"{@item 盗贼工具|XPHB}",
+					"{@item 修补工具|XPHB}",
+					"一种你选择的{@item 工匠工具|XPHB}类型"
 				],
 				"toolProficiencies": [
 					{
@@ -261,19 +262,19 @@
 					{
 						"A": [
 							{
-								"item": "studded leather armor|xphb"
+								"item": "镶钉皮甲|xphb"
 							},
 							{
-								"item": "dagger|xphb"
+								"item": "匕首|xphb"
 							},
 							{
-								"item": "thieves' tools|xphb"
+								"item": "盗贼工具|xphb"
 							},
 							{
-								"item": "tinker's tools|xphb"
+								"item": "修补工具|xphb"
 							},
 							{
-								"item": "dungeoneer's pack|xphb"
+								"item": "地城套组|xphb"
 							},
 							{
 								"value": 1600
@@ -287,7 +288,7 @@
 					}
 				],
 				"entries": [
-					"{@i Choose A or B:} (A) {@item Studded Leather Armor|XPHB}, {@item Dagger|XPHB}, {@item Thieves' Tools|XPHB}, {@item Tinker's Tools|XPHB}, {@item Dungeoneer's Pack|XPHB}, and 16 GP; or (B) 150 GP"
+					"{@i 选择A或B：}（A）{@item 镶钉皮甲|XPHB}、{@item 匕首|XPHB}、{@item 盗贼工具|XPHB}、{@item 修补工具|XPHB}、{@item 地城套组|XPHB}和16 GP；或（B）150 GP"
 				]
 			},
 			"multiclassing": {
@@ -309,7 +310,7 @@
 						}
 					],
 					"tools": [
-						"{@item tinker's tools|PHB}"
+						"{@item 修补工具|PHB}"
 					],
 					"toolProficiencies": [
 						{
@@ -326,10 +327,10 @@
 			"classTableGroups": [
 				{
 					"colLabels": [
-						"Plans Known",
-						"Magic Items",
-						"{@filter Cantrips Known|spells|source=|level=0|class=artificer (xua2025eu)}",
-						"Prepared Spells"
+						"已知方案",
+						"魔法物品",
+						"{@filter 已知戏法|spells|source=|level=0|class=奇械师 (xua2025eu)}",
+						"准备法术"
 					],
 					"rows": [
 						[
@@ -455,13 +456,13 @@
 					]
 				},
 				{
-					"title": "Spell Slots per Spell Level",
+					"title": "每环法术位",
 					"colLabels": [
-						"{@filter 1st|spells|level=1|class=artificer (xua2025eu)}",
-						"{@filter 2nd|spells|level=2|class=artificer (xua2025eu)}",
-						"{@filter 3rd|spells|level=3|class=artificer (xua2025eu)}",
-						"{@filter 4th|spells|level=4|class=artificer (xua2025eu)}",
-						"{@filter 5th|spells|level=5|class=artificer (xua2025eu)}"
+						"{@filter 1st|spells|level=1|class=奇械师 (xua2025eu)}",
+						"{@filter 2nd|spells|level=2|class=奇械师 (xua2025eu)}",
+						"{@filter 3rd|spells|level=3|class=奇械师 (xua2025eu)}",
+						"{@filter 4th|spells|level=4|class=奇械师 (xua2025eu)}",
+						"{@filter 5th|spells|level=5|class=奇械师 (xua2025eu)}"
 					],
 					"rowsSpellProgression": [
 						[
@@ -608,53 +609,54 @@
 				}
 			],
 			"classFeatures": [
-				"Spellcasting|Artificer|XUA2024Artificer|1|XUA2024Artificer",
-				"Tinker's Magic|Artificer|XUA2025EberronUpdates|1|XUA2025EberronUpdates",
-				"Replicate Magic Item|Artificer|XUA2025EberronUpdates|2|XUA2025EberronUpdates",
+				"施法|奇械师|XUA2024Artificer|1|XUA2024Artificer",
+				"工艺魔法|奇械师|XUA2025EberronUpdates|1|XUA2025EberronUpdates",
+				"仿制魔法物品|奇械师|XUA2025EberronUpdates|2|XUA2025EberronUpdates",
 				{
-					"classFeature": "Artificer Subclass|Artificer|XUA2025EberronUpdates|3|XUA2025EberronUpdates",
+					"classFeature": "奇械师子职|奇械师|XUA2025EberronUpdates|3|XUA2025EberronUpdates",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Artificer|XUA2024Artificer|4|XUA2024Artificer",
+				"属性值提升|奇械师|XUA2024Artificer|4|XUA2024Artificer",
 				{
-					"classFeature": "Subclass feature|Artificer|XUA2024Artificer|5|XUA2024Artificer",
+					"classFeature": "子职特性|奇械师|XUA2024Artificer|5|XUA2024Artificer",
 					"gainSubclassFeature": true
 				},
-				"Magic Item Tinker|Artificer|XUA2025EberronUpdates|6|XUA2025EberronUpdates",
-				"Flash of Genius|Artificer|XUA2024Artificer|7|XUA2024Artificer",
-				"Ability Score Improvement|Artificer|XUA2024Artificer|8|XUA2024Artificer",
+				"魔法物品工艺师|奇械师|XUA2025EberronUpdates|6|XUA2025EberronUpdates",
+				"灵光一闪|奇械师|XUA2024Artificer|7|XUA2024Artificer",
+				"属性值提升|奇械师|XUA2024Artificer|8|XUA2024Artificer",
 				{
-					"classFeature": "Subclass feature|Artificer|XUA2024Artificer|9|XUA2024Artificer",
+					"classFeature": "子职特性|奇械师|XUA2024Artificer|9|XUA2024Artificer",
 					"gainSubclassFeature": true
 				},
-				"Magic Item Adept|Artificer|XUA2025EberronUpdates|10|XUA2025EberronUpdates",
-				"Spell-Storing Item|Artificer|XUA2025EberronUpdates|11|XUA2025EberronUpdates",
-				"Ability Score Improvement|Artificer|XUA2024Artificer|12|XUA2024Artificer",
-				"Magic Item Savant|Artificer|XUA2025EberronUpdates|14|XUA2025EberronUpdates",
+				"魔法物品熟稔|奇械师|XUA2025EberronUpdates|10|XUA2025EberronUpdates",
+				"储法物品|奇械师|XUA2025EberronUpdates|11|XUA2025EberronUpdates",
+				"属性值提升|奇械师|XUA2024Artificer|12|XUA2024Artificer",
+				"魔法物品专家|奇械师|XUA2025EberronUpdates|14|XUA2025EberronUpdates",
 				{
-					"classFeature": "Subclass Feature|Artificer|XUA2024Artificer|15|XUA2024Artificer",
+					"classFeature": "子职特性|奇械师|XUA2024Artificer|15|XUA2024Artificer",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Artificer|XUA2024Artificer|16|XUA2024Artificer",
-				"Magic Item Master|Artificer|XUA2024Artificer|18|XUA2024Artificer",
-				"Epic Boon|Artificer|XUA2024Artificer|19|XUA2024Artificer",
-				"Soul of Artifice|Artificer|XUA2025EberronUpdates|20|XUA2025EberronUpdates"
+				"属性值提升|奇械师|XUA2024Artificer|16|XUA2024Artificer",
+				"魔法物品大师|奇械师|XUA2024Artificer|18|XUA2024Artificer",
+				"传奇恩惠|奇械师|XUA2024Artificer|19|XUA2024Artificer",
+				"奇械之魂|奇械师|XUA2025EberronUpdates|20|XUA2025EberronUpdates"
 			],
-			"subclassTitle": "Artificer Subclass",
+			"subclassTitle": "奇械师子职",
 			"hasFluff": true
 		}
 	],
 	"classFluff": [
 		{
-			"name": "Artificer",
+			"ENG_name": "Artificer",
+			"name": "奇械师",
 			"source": "XUA2025EberronUpdates",
 			"entries": [
 				{
 					"type": "section",
 					"page": 1,
 					"entries": [
-						"{@i A Magical Crafter and an Inventor of Wonders}",
-						"Masters of invention, Artificers use ingenuity and magic to unlock extraordinary capabilities in objects. They see magic as a complex system waiting to be decoded and then harnessed in their spells and inventions. You can find everything you need to play one of these inventors in the next few sections."
+						"{@i 魔法工匠与奇迹发明家}",
+						"发明大师，奇械师运用巧思与魔法来解锁物件中的非凡能力。他们将魔法视为等待解码的复杂系统，然后将其运用在他们的法术和发明中。你可以在接下来的几个章节中找到扮演这些发明家所需的一切。"
 					]
 				}
 			]
@@ -662,19 +664,21 @@
 	],
 	"subclass": [
 		{
-			"name": "Alchemist",
-			"shortName": "Alchemist",
+			"ENG_name": "Alchemist",
+			"name": "炼金师",
+			"shortName": "炼金师",
 			"source": "XUA2025EberronUpdates",
-			"className": "Artificer",
+			"className": "奇械师",
 			"classSource": "XUA2025EberronUpdates",
 			"reprintedAs": [
-				"Alchemist|Artificer|EFA|EFA"
+				"炼金师|奇械师|EFA|EFA"
 			],
 			"_copy": {
-				"name": "Alchemist",
+				"ENG_name": "Alchemist",
+				"name": "炼金师",
 				"source": "XUA2024Artificer",
-				"shortName": "Alchemist",
-				"className": "Artificer",
+				"shortName": "炼金师",
+				"className": "奇械师",
 				"classSource": "XUA2024Artificer",
 				"_preserve": {
 					"hasFluff": true
@@ -682,19 +686,21 @@
 			}
 		},
 		{
-			"name": "Armorer",
-			"shortName": "Armorer",
+			"ENG_name": "Armorer",
+			"name": "装甲师",
+			"shortName": "装甲师",
 			"source": "XUA2025EberronUpdates",
-			"className": "Artificer",
+			"className": "奇械师",
 			"classSource": "XUA2025EberronUpdates",
 			"reprintedAs": [
-				"Armorer|Artificer|EFA|EFA"
+				"装甲师|奇械师|EFA|EFA"
 			],
 			"_copy": {
-				"name": "Armorer",
+				"ENG_name": "Armorer",
+				"name": "装甲师",
 				"source": "XUA2024Artificer",
-				"shortName": "Armorer",
-				"className": "Artificer",
+				"shortName": "装甲师",
+				"className": "奇械师",
 				"classSource": "XUA2024Artificer",
 				"_preserve": {
 					"hasFluff": true
@@ -702,19 +708,21 @@
 			}
 		},
 		{
-			"name": "Artillerist",
-			"shortName": "Artillerist",
+			"ENG_name": "Artillerist",
+			"name": "魔炮师",
+			"shortName": "魔炮师",
 			"source": "XUA2025EberronUpdates",
-			"className": "Artificer",
+			"className": "奇械师",
 			"classSource": "XUA2025EberronUpdates",
 			"reprintedAs": [
-				"Artillerist|Artificer|EFA|EFA"
+				"魔炮师|奇械师|EFA|EFA"
 			],
 			"_copy": {
-				"name": "Artillerist",
+				"ENG_name": "Artillerist",
+				"name": "魔炮师",
 				"source": "XUA2024Artificer",
-				"shortName": "Artillerist",
-				"className": "Artificer",
+				"shortName": "魔炮师",
+				"className": "奇械师",
 				"classSource": "XUA2024Artificer",
 				"_preserve": {
 					"hasFluff": true
@@ -722,19 +730,21 @@
 			}
 		},
 		{
-			"name": "Battle Smith",
-			"shortName": "Battle Smith",
+			"ENG_name": "Battle Smith",
+			"name": "战地匠师",
+			"shortName": "战地匠师",
 			"source": "XUA2025EberronUpdates",
-			"className": "Artificer",
+			"className": "奇械师",
 			"classSource": "XUA2025EberronUpdates",
 			"reprintedAs": [
-				"Battle Smith|Artificer|EFA|EFA"
+				"战地匠师|奇械师|EFA|EFA"
 			],
 			"_copy": {
-				"name": "Battle Smith",
+				"ENG_name": "Battle Smith",
+				"name": "战地匠师",
 				"source": "XUA2024Artificer",
-				"shortName": "Battle Smith",
-				"className": "Artificer",
+				"shortName": "战地匠师",
+				"className": "奇械师",
 				"classSource": "XUA2024Artificer",
 				"_preserve": {
 					"hasFluff": true
@@ -742,52 +752,53 @@
 			}
 		},
 		{
-			"name": "Cartographer",
-			"shortName": "Cartographer",
+			"ENG_name": "Cartographer",
+			"name": "制图师",
+			"shortName": "制图师",
 			"source": "XUA2025EberronUpdates",
-			"className": "Artificer",
+			"className": "奇械师",
 			"classSource": "XUA2025EberronUpdates",
 			"page": 6,
 			"reprintedAs": [
-				"Cartographer|Artificer|EFA|EFA"
+				"制图师|奇械师|EFA|EFA"
 			],
 			"additionalSpells": [
 				{
 					"prepared": {
 						"3": [
-							"faerie fire|XPHB",
-							"guiding bolt|XPHB",
-							"healing word|XPHB"
+							"妖火|XPHB",
+							"光导箭|XPHB",
+							"治愈真言|XPHB"
 						],
 						"5": [
-							"locate object|XPHB",
-							"mind spike|XPHB"
+							"物件定位术|XPHB",
+							"心灵尖刺|XPHB"
 						],
 						"9": [
-							"clairvoyance|XPHB",
-							"haste|XPHB"
+							"鹰眼术|XPHB",
+							"加速术|XPHB"
 						],
 						"13": [
-							"freedom of movement|XPHB",
-							"locate creature|XPHB"
+							"行动自如|XPHB",
+							"生物定位术|XPHB"
 						],
 						"17": [
-							"scrying|XPHB",
-							"teleportation circle|XPHB"
+							"探知术|XPHB",
+							"传送法阵|XPHB"
 						]
 					},
 					"innate": {
 						"3": {
 							"daily": {
 								"int": [
-									"faerie fire|XPHB"
+									"妖火|XPHB"
 								]
 							}
 						},
 						"15": {
 							"daily": {
 								"1": [
-									"find the path|XPHB"
+									"寻路术|XPHB"
 								]
 							}
 						}
@@ -795,223 +806,242 @@
 				}
 			],
 			"subclassSpells": [
-				"faerie fire|XPHB",
-				"guiding bolt|XPHB",
-				"healing word|XPHB",
-				"locate object|XPHB",
-				"mind spike|XPHB",
-				"clairvoyance|XPHB",
-				"haste|XPHB",
-				"freedom of movement|XPHB",
-				"locate creature|XPHB",
-				"scrying|XPHB",
-				"teleportation circle|XPHB",
-				"find the path|XPHB"
+				"妖火|XPHB",
+				"光导箭|XPHB",
+				"治愈真言|XPHB",
+				"物件定位术|XPHB",
+				"心灵尖刺|XPHB",
+				"鹰眼术|XPHB",
+				"加速术|XPHB",
+				"行动自如|XPHB",
+				"生物定位术|XPHB",
+				"探知术|XPHB",
+				"传送法阵|XPHB",
+				"寻路术|XPHB"
 			],
 			"subclassFeatures": [
-				"Cartographer|Artificer|XUA2025EberronUpdates|Cartographer|XUA2025EberronUpdates|3|XUA2025EberronUpdates",
-				"Portal Jump|Artificer|XUA2025EberronUpdates|Cartographer|XUA2025EberronUpdates|5|XUA2025EberronUpdates",
-				"Ingenious Movement|Artificer|XUA2025EberronUpdates|Cartographer|XUA2025EberronUpdates|9|XUA2025EberronUpdates",
-				"Superior Atlas|Artificer|XUA2025EberronUpdates|Cartographer|XUA2025EberronUpdates|15|XUA2025EberronUpdates"
+				"制图师|奇械师|XUA2025EberronUpdates|制图师|XUA2025EberronUpdates|3|XUA2025EberronUpdates",
+				"传送门跃|奇械师|XUA2025EberronUpdates|制图师|XUA2025EberronUpdates|5|XUA2025EberronUpdates",
+				"灵机一动|奇械师|XUA2025EberronUpdates|制图师|XUA2025EberronUpdates|9|XUA2025EberronUpdates",
+				"万能地图匣|奇械师|XUA2025EberronUpdates|制图师|XUA2025EberronUpdates|15|XUA2025EberronUpdates"
 			],
 			"hasFluff": true
 		}
 	],
 	"subclassFluff": [
 		{
-			"name": "Alchemist",
-			"shortName": "Alchemist",
+			"ENG_name": "Alchemist",
+			"name": "炼金师",
+			"shortName": "炼金师",
 			"source": "XUA2025EberronUpdates",
-			"className": "Artificer",
+			"className": "奇械师",
 			"classSource": "XUA2025EberronUpdates",
 			"_copy": {
-				"name": "Alchemist",
+				"ENG_name": "Alchemist",
+				"name": "炼金师",
 				"source": "XUA2024Artificer",
-				"shortName": "Alchemist",
-				"className": "Artificer",
+				"shortName": "炼金师",
+				"className": "奇械师",
 				"classSource": "XUA2024Artificer"
 			}
 		},
 		{
-			"name": "Armorer",
-			"shortName": "Armorer",
+			"ENG_name": "Armorer",
+			"name": "装甲师",
+			"shortName": "装甲师",
 			"source": "XUA2025EberronUpdates",
-			"className": "Artificer",
+			"className": "奇械师",
 			"classSource": "XUA2025EberronUpdates",
 			"_copy": {
-				"name": "Armorer",
+				"ENG_name": "Armorer",
+				"name": "装甲师",
 				"source": "XUA2024Artificer",
-				"shortName": "Armorer",
-				"className": "Artificer",
+				"shortName": "装甲师",
+				"className": "奇械师",
 				"classSource": "XUA2024Artificer"
 			}
 		},
 		{
-			"name": "Artillerist",
-			"shortName": "Artillerist",
+			"ENG_name": "Artillerist",
+			"name": "魔炮师",
+			"shortName": "魔炮师",
 			"source": "XUA2025EberronUpdates",
-			"className": "Artificer",
+			"className": "奇械师",
 			"classSource": "XUA2025EberronUpdates",
 			"_copy": {
-				"name": "Artillerist",
+				"ENG_name": "Artillerist",
+				"name": "魔炮师",
 				"source": "XUA2024Artificer",
-				"shortName": "Artillerist",
-				"className": "Artificer",
+				"shortName": "魔炮师",
+				"className": "奇械师",
 				"classSource": "XUA2024Artificer"
 			}
 		},
 		{
-			"name": "Battle Smith",
-			"shortName": "Battle Smith",
+			"ENG_name": "Battle Smith",
+			"name": "战地匠师",
+			"shortName": "战地匠师",
 			"source": "XUA2025EberronUpdates",
-			"className": "Artificer",
+			"className": "奇械师",
 			"classSource": "XUA2025EberronUpdates",
 			"_copy": {
-				"name": "Battle Smith",
+				"ENG_name": "Battle Smith",
+				"name": "战地匠师",
 				"source": "XUA2024Artificer",
-				"shortName": "Battle Smith",
-				"className": "Artificer",
+				"shortName": "战地匠师",
+				"className": "奇械师",
 				"classSource": "XUA2024Artificer"
 			}
 		},
 		{
-			"name": "Cartographer",
-			"shortName": "Cartographer",
+			"ENG_name": "Cartographer",
+			"name": "制图师",
+			"shortName": "制图师",
 			"source": "XUA2025EberronUpdates",
-			"className": "Artificer",
+			"className": "奇械师",
 			"classSource": "XUA2025EberronUpdates",
 			"entries": [
-				"{@i Chart Advantageous Courses through Turmoil}"
+				"{@i 绘制动荡中的优势航线}"
 			]
 		}
 	],
 	"classFeature": [
 		{
-			"name": "Tinker's Magic",
+			"ENG_name": "Tinker's Magic",
+			"name": "工艺魔法",
 			"source": "XUA2025EberronUpdates",
 			"page": 3,
-			"className": "Artificer",
+			"className": "奇械师",
 			"classSource": "XUA2025EberronUpdates",
 			"level": 1,
 			"entries": [
-				"You know the {@spell Mending|XPHB} cantrip.",
-				"As a {@action Magic|XPHB} action while holding {@item Tinker's Tools|XPHB}, you can create one item in an unoccupied space within 5 feet of yourself, choosing the item from the following list:",
+				"你知晓{@spell 修复术|XPHB}戏法。",
+				"作为持有{@item 修补工具|XPHB}时的一个{@action 魔法|XPHB}动作，你可以在自身5尺内的一个未占据空间中创造一个物品，从以下列表中选择该物品：",
 				{
 					"type": "list",
 					"page": 2,
 					"style": "list-hang",
 					"columns": 4,
 					"items": [
-						"{@item Ball Bearings|XPHB}",
-						"{@item Basket|XPHB}",
-						"{@item Bedroll|XPHB}",
-						"{@item Bell|XPHB}",
-						"{@item Blanket|XPHB}",
-						"{@item Block and Tackle|XPHB}",
-						"{@item Bucket|XPHB}",
-						"{@item Caltrops|XPHB}",
-						"{@item Candle|XPHB}",
-						"{@item Crowbar|XPHB}",
-						"{@item Flask|XPHB}",
-						"{@item Jug|XPHB}",
-						"{@item Lamp|XPHB}",
-						"{@item Net|XPHB}",
-						"{@item Oil|XPHB}",
-						"{@item Paper|XPHB}",
-						"{@item Parchment|XPHB}",
-						"{@item Pole|XPHB}",
-						"{@item Pouch|XPHB}",
-						"{@item Rope|XPHB}",
-						"{@item Sack|XPHB}",
-						"{@item Shovel|XPHB}",
-						"{@item String|XPHB}",
-						"{@item Tinderbox|XPHB}",
-						"{@item Torch|XPHB}",
-						"{@item Vial|XPHB}"
+						"{@item 滚珠|XPHB}",
+						"{@item 篮子|XPHB}",
+						"{@item 铺盖|XPHB}",
+						"{@item 铃铛|XPHB}",
+						"{@item 毯子|XPHB}",
+						"{@item 滑轮组|XPHB}",
+						"{@item 吊桶|XPHB}",
+						"{@item 铁蒺藜|XPHB}",
+						"{@item 蜡烛|XPHB}",
+						"{@item 撬棍|XPHB}",
+						"{@item 扁瓶|XPHB}",
+						"{@item 壶|XPHB}",
+						"{@item 油灯|XPHB}",
+						"{@item 捕网|XPHB}",
+						"{@item 燃油|XPHB}",
+						"{@item 纸张|XPHB}",
+						"{@item 羊皮纸|XPHB}",
+						"{@item 长杆|XPHB}",
+						"{@item 小包|XPHB}",
+						"{@item 绳索|XPHB}",
+						"{@item 麻袋|XPHB}",
+						"{@item 铲子|XPHB}",
+						"{@item 细线|XPHB}",
+						"{@item 火绒盒|XPHB}",
+						"{@item 火把|XPHB}",
+						"{@item 小瓶|XPHB}"
 					]
 				},
-				"See the rules for the item in the {@book Player's Handbook|XPHB}. The item lasts until you finish a {@variantrule Long Rest|XPHB}, at which point it vanishes.",
-				"You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+				"参见{@book 玩家手册|XPHB}中该物品的规则。该物品持续到你完成一次{@variantrule 长休|XPHB}为止，届时它会消失。",
+				"你可以使用此特性的次数等于你的智力调整值（至少一次），并且你在完成一次{@variantrule 长休|XPHB}后恢复所有已使用的次数。"
 			]
 		},
 		{
-			"name": "Replicate Magic Item",
+			"ENG_name": "Replicate Magic Item",
+			"name": "仿制魔法物品",
 			"source": "XUA2025EberronUpdates",
 			"page": 3,
-			"className": "Artificer",
+			"className": "奇械师",
 			"classSource": "XUA2025EberronUpdates",
 			"level": 2,
 			"entries": [
-				"You have learned arcane plans that you use to make magic items.",
+				"你学会了用于制作魔法物品的奥术方案。",
 				{
 					"type": "entries",
 					"entries": [
 						{
+							"ENG_name": "Plans Known",
+							"name": "已知方案",
 							"type": "entries",
-							"name": "Plans Known",
 							"page": 3,
 							"entries": [
-								"When you gain this feature, choose four plans to learn from the {@table Magic Item Plans (Artificer Level 2+)|XUA2025EberronUpdates} table (see the {@book Dungeon Master's Guide|XDMG} for the items' descriptions). {@item Bag of Holding|XDMG}, {@item Cap of Water Breathing|XDMG}, {@item Sending Stones|XDMG}, and {@item +1 Wand of the War Mage|XDMG|Wand of the War Mage +1} are recommended. Whenever you gain an Artificer level, you can replace one of the plans you know with a new plan for which you qualify.",
-								"You learn another plan of your choice when you reach certain Artificer levels, as shown in the Plans Known column of the Artificer Features table.",
-								"When you choose a plan to learn, you choose it from any Magic Item Plans table for which you qualify; your qualification is based on your Artificer level."
+								"当你获得此特性时，从{@table 魔法物品方案（奇械师等级2+）|XUA2025EberronUpdates}表格中选择四个计划学习（参见{@book 城主指南|XDMG}了解物品描述）。推荐{@item 次元袋|XDMG}、{@item 水下呼吸帽|XDMG}、{@item 短讯石|XDMG}和{@item +1 战法师魔杖|XDMG|战法师魔杖 +1}。每当你提升奇械师等级时，你可以将一个已知计划替换为你符合条件的新计划。",
+								"你在达到特定奇械师等级时学会另一个自选计划，如奇械师特性表格的计划已知栏所示。",
+								"当你选择一个计划来学习时，你可以从任何你符合资格的魔法物品方案表格中选择；你的资格基于你的奇械师等级。"
 							]
 						},
 						{
+							"ENG_name": "Creating an Item",
+							"name": "创造物品",
 							"type": "entries",
-							"name": "Creating an Item",
 							"page": 3,
 							"entries": [
-								"When you finish a {@variantrule Long Rest|XPHB}, you can create one or two different magic items if you have {@item Tinker's Tools|XPHB} in hand. Each item is based on one of the plans you know for this feature.",
-								"If a created item requires {@variantrule Attunement|XPHB}, you can attune yourself to it the instant you create it. If you decide to attune to the item later, you must do so using the normal process for {@variantrule Attunement|XPHB}.",
-								"When you reach certain Artificer levels specified in the Magic Items column of the Artificer Features table, the number of magic items you can create at the end of a Long Rest increases. Each item you create must be based on a different plan you know.",
-								"If you try to exceed your maximum number of magic items for this feature, the oldest item vanishes, and then the new item appears."
+								"当你完成一次{@variantrule 长休|XPHB}时，如果你手上有{@item 修补工具|XPHB}，你可以创建一个或两个不同的魔法物品。每个物品都基于你为此特性所知的一个方案。",
+								"如果创造的物品需要{@variantrule 同调|XPHB}，你可以在创造它的瞬间立即同调。如果你决定稍后同调该物品，必须使用{@variantrule 同调|XPHB}的正常流程进行同调。",
+								"当你达到奇械师特性表格的魔法物品栏中指定的特定奇械师等级时，你在长休结束时可以创造的魔法物品数量增加。你创造的每个物品必须基于你知道的一个不同方案。",
+								"如果你尝试超过此特性的最大魔法物品数量，最旧的物品会消失，然后新物品出现。"
 							]
 						},
 						{
+							"ENG_name": "Duration",
+							"name": "持续时间",
 							"type": "entries",
-							"name": "Duration",
 							"page": 3,
 							"entries": [
-								"A magic item created by this feature functions as the normal magic item, except its magic isn't permanent. When you die, the magic item vanishes after {@dice 1d4} days. If you replace a plan you know with a new plan, any magic item created with the replaced plan immediately vanishes.",
-								"If an item that you created with this feature is a container, such as a {@item Bag of Holding|XDMG}, and it vanishes, its contents harmlessly appear in and around its space."
+								"由该特性创造的魔法物品功能与正常魔法物品相同，但其魔法并非永久性。当你死亡时，该魔法物品会在{@dice 1d4}天后消失。如果你用一个新方案替换已知方案，任何用被替换方案创造的魔法物品会立即消失。",
+								"如果你通过此特性创造的物品是一个容器，例如{@item 次元袋|XDMG}，并且它消失了，其内容物会无害地出现在其空间内及周围。"
 							]
 						},
 						{
+							"ENG_name": "Spellcasting Focus",
+							"name": "法器",
 							"type": "entries",
-							"name": "Spellcasting Focus",
 							"page": 3,
 							"entries": [
-								"You can use any {@item Wand|XPHB} or Weapon created by this feature as a {@variantrule Spellcasting Focus|XPHB} in lieu of using a set of {@item Artisan's Tools|XPHB}."
+								"你可以使用任何由该特性创造的{@item 魔杖|XPHB}或武器作为{@variantrule 法器|XPHB}，以替代使用一套{@item 工匠工具|XPHB}。"
 							]
 						},
 						{
+							"ENG_name": "Magic Item Plans (Artificer Level 2+)",
+							"name": "魔法物品方案（奇械师等级2+）",
 							"type": "statblock",
 							"tag": "table",
-							"name": "Magic Item Plans (Artificer Level 2+)",
 							"source": "XUA2025EberronUpdates",
 							"page": 4,
 							"collapsed": true
 						},
 						{
+							"ENG_name": "Magic Item Plans (Artificer Level 6+)",
+							"name": "魔法物品方案（奇械师等级6+）",
 							"type": "statblock",
 							"tag": "table",
-							"name": "Magic Item Plans (Artificer Level 6+)",
 							"source": "XUA2025EberronUpdates",
 							"page": 4,
 							"collapsed": true
 						},
 						{
+							"ENG_name": "Magic Item Plans (Artificer Level 10+)",
+							"name": "魔法物品方案（奇械师等级10+）",
 							"type": "statblock",
 							"tag": "table",
-							"name": "Magic Item Plans (Artificer Level 10+)",
 							"source": "XUA2025EberronUpdates",
 							"page": 4,
 							"collapsed": true
 						},
 						{
+							"ENG_name": "Magic Item Plans (Artificer Level 14+)",
+							"name": "魔法物品方案（奇械师等级14+）",
 							"type": "statblock",
 							"tag": "table",
-							"name": "Magic Item Plans (Artificer Level 14+)",
 							"source": "XUA2025EberronUpdates",
 							"page": 4,
 							"collapsed": true
@@ -1021,50 +1051,55 @@
 			]
 		},
 		{
-			"name": "Artificer Subclass",
+			"ENG_name": "Artificer Subclass",
+			"name": "奇械师子职",
 			"source": "XUA2025EberronUpdates",
 			"page": 4,
-			"className": "Artificer",
+			"className": "奇械师",
 			"classSource": "XUA2025EberronUpdates",
 			"level": 3,
 			"entries": [
-				"You gain an Artificer subclass of your choice. The {@subclass Cartographer|Artificer|XUA2025EberronUpdates|XUA2025EberronUpdates} subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Artificer levels. For the rest of your career, you gain each of your subclass's features that are of your Artificer level or lower."
+				"你获得一个你选择的奇械师子职。{@subclass 制图师|奇械师|XUA2025EberronUpdates|XUA2025EberronUpdates}子职在此职业描述之后详述。子职是一种专精，在特定奇械师等级授予你特性。在你的剩余职业生涯中，你获得你的子职中等于或低于你奇械师等级的所有特性。"
 			]
 		},
 		{
-			"name": "Magic Item Tinker",
+			"ENG_name": "Magic Item Tinker",
+			"name": "魔法物品工艺师",
 			"source": "XUA2025EberronUpdates",
 			"page": 4,
-			"className": "Artificer",
+			"className": "奇械师",
 			"classSource": "XUA2025EberronUpdates",
 			"level": 6,
 			"entries": [
-				"Your {@classFeature Replicate Magic Item|Artificer|XUA2025EberronUpdates|2|XUA2025EberronUpdates} feature gains the following options. ",
+				"你的{@classFeature 仿制魔法物品|奇械师|XUA2025EberronUpdates|2|XUA2025EberronUpdates}特性获得以下选项。",
 				{
 					"type": "entries",
 					"entries": [
 						{
+							"ENG_name": "Charge Magic Item",
+							"name": "充能魔法物品",
 							"type": "entries",
-							"name": "Charge Magic Item",
 							"page": 4,
 							"entries": [
-								"As a {@variantrule Bonus Action|XPHB}, you can touch a magic item within 5 feet of yourself that you created with {@classFeature Replicate Magic Item|Artificer|XUA2025EberronUpdates|2|XUA2025EberronUpdates} and uses charges. You recharge the item and expend a level 1+ spell slot. The number of charges an item regains is equal to the level of spell slot expended."
+								"作为{@variantrule 附赠动作|XPHB}，你可以接触你5尺内一个你通过{@classFeature 仿制魔法物品|奇械师|XUA2025EberronUpdates|2|XUA2025EberronUpdates}创造的且使用充能的魔法物品。你为该物品充能并消耗一个1环或更高的法术位。物品恢复的充能数值等于所消耗法术位的等级。"
 							]
 						},
 						{
+							"ENG_name": "Drain Magic Item",
+							"name": "汲取魔法物品",
 							"type": "entries",
-							"name": "Drain Magic Item",
 							"page": 4,
 							"entries": [
-								"As a {@variantrule Bonus Action|XPHB}, you can touch a magic item within 5 feet of yourself that you created with {@classFeature Replicate Magic Item|Artificer|XUA2025EberronUpdates|2|XUA2025EberronUpdates} and cause the item to vanish, converting its magical energy into a spell slot. The slot is level 1 if the item is Common or level 2 if the item is Uncommon or Rare. Once you use this feature, you can't do so again until you finish a {@variantrule Long Rest|XPHB}. Any spell slot you create with this feature vanishes when you finish a {@variantrule Long Rest|XPHB}."
+								"作为{@variantrule 附赠动作|XPHB}，你可以接触你5尺内一个你用{@classFeature 仿制魔法物品|奇械师|XUA2025EberronUpdates|2|XUA2025EberronUpdates}创造的魔法物品并使其消失，将其魔法能量转化为一个法术位。如果该物品是普通则法术位为1环，如果该物品是非普通或珍稀则为2环。一旦你使用此特性，在完成一次{@variantrule 长休|XPHB}前不能再使用。你用此特性创造的任何法术位在你完成一次{@variantrule 长休|XPHB}时消失。"
 							]
 						},
 						{
+							"ENG_name": "Transmute Magic Item",
+							"name": "转变魔法物品",
 							"type": "entries",
-							"name": "Transmute Magic Item",
 							"page": 5,
 							"entries": [
-								"As a {@action Magic|XPHB} action, you can touch one magic item within 5 feet of yourself that you created with {@classFeature Replicate Magic Item|Artificer|XUA2025EberronUpdates|2|XUA2025EberronUpdates} and transform it into a different magic item. The resulting item must be based on a magic item plan you know. Once you use this feature, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+								"以一个{@action 魔法|XPHB}动作，你可以接触一个你5尺内用{@classFeature 仿制魔法物品|奇械师|XUA2025EberronUpdates|2|XUA2025EberronUpdates}创造的魔法物品并将其转化为不同的魔法物品。转化后的物品必须基于你已知的魔法物品方案。一旦你使用此特性，在完成一次{@variantrule 长休|XPHB}前不能再次使用。"
 							]
 						}
 					]
@@ -1072,66 +1107,72 @@
 			]
 		},
 		{
-			"name": "Magic Item Adept",
+			"ENG_name": "Magic Item Adept",
+			"name": "魔法物品熟稔",
 			"source": "XUA2025EberronUpdates",
 			"page": 5,
-			"className": "Artificer",
+			"className": "奇械师",
 			"classSource": "XUA2025EberronUpdates",
 			"level": 10,
 			"entries": [
-				"You can attune to up to four magic items at once rather than three."
+				"你可以同时与最多四件魔法物品同调，而非三件。"
 			]
 		},
 		{
-			"name": "Spell-Storing Item",
+			"ENG_name": "Spell-Storing Item",
+			"name": "储法物品",
 			"source": "XUA2025EberronUpdates",
 			"page": 5,
-			"className": "Artificer",
+			"className": "奇械师",
 			"classSource": "XUA2025EberronUpdates",
 			"level": 11,
 			"entries": [
-				"Whenever you finish a {@variantrule Long Rest|XPHB}, you can touch one Simple or Martial weapon or one item that you can use as a {@variantrule Spellcasting Focus|XPHB}, and you store a spell in it, choosing a {@filter level 1, 2, or 3 Artificer spell that has a casting time of an action and doesn't require a Material component that is consumed by the spell|spells|source=|level=1;2;3|class=artificer (xua2025eu)|components & miscellaneous=!material is consumed|cast time=action} (you needn't have the spell prepared).",
-				"While holding the object, a creature can take action to produce the spell's effect from it, using your spellcasting ability modifier. If the spell requires {@status Concentration|XPHB}, the creature must {@status Concentration|XPHB|concentrate}. Once a creature has used the object to produce the spell's effect, the object can't be used this way again until the start of the creature's next turn.",
-				"The spell stays in the object until it's been used a number of times equal to twice your Intelligence modifier (minimum of twice) or until you use this feature again to store a spell in an object. "
+				"每当你完成一次{@variantrule 长休|XPHB}时，你可以接触一件简易或军用武器，或一件你能用作{@variantrule 法器|XPHB}的物品，并在其中储存一个法术，选择一个{@filter 1环、2环或3环奇械师法术，其施法时间为一个动作且不需要会被法术消耗的材料成分|spells|source=|level=1;2;3|class=奇械师 (xua2025eu)|components & miscellaneous=!材质被消耗|cast time=动作}（你无需准备该法术）。",
+				"当持握该物件时，一个生物可以消耗动作来从中产生该法术的效果，使用你的施法属性调整值。如果该法术需要{@status 专注|XPHB}，该生物必须{@status 专注|XPHB|专注}。一旦一个生物使用该物件产生了该法术的效果，该物件直到该生物的下个回合开始前都不能再以此方式使用。",
+				"该法术会留在该物件中，直到它被使用的次数等于你智力调整值的两倍（最低为两次）或直到你再次使用此特性将一个法术储存在一个物件中。"
 			]
 		},
 		{
-			"name": "Magic Item Savant",
+			"ENG_name": "Magic Item Savant",
+			"name": "魔法物品专家",
 			"source": "XUA2025EberronUpdates",
 			"page": 5,
-			"className": "Artificer",
+			"className": "奇械师",
 			"classSource": "XUA2025EberronUpdates",
 			"level": 14,
 			"entries": [
-				"You can now attune to up to five magic items at once rather than three."
+				"你现在可以同时与最多五件魔法物品同调，而不是三件。"
 			]
 		},
 		{
-			"name": "Soul of Artifice",
+			"ENG_name": "Soul of Artifice",
+			"name": "奇械之魂",
 			"source": "XUA2025EberronUpdates",
 			"page": 5,
-			"className": "Artificer",
+			"className": "奇械师",
 			"classSource": "XUA2025EberronUpdates",
 			"level": 20,
 			"entries": [
-				"You have developed a mystical connection to your magic items, which you can draw on for aid. You gain the following benefits:",
+				"你已与你的魔法物品建立了神秘连接，可以从中汲取援助。你获得以下好处：",
 				{
 					"type": "entries",
 					"entries": [
 						{
+							"ENG_name": "Cheat Death",
+							"name": "幸免于难",
 							"type": "entries",
-							"name": "Cheat Death",
 							"page": 5,
 							"entries": [
-								"If you're reduced to 0 {@variantrule Hit Points|XPHB} but not killed outright, you can disintegrate any number of Uncommon or Rare magic items created by your {@classFeature Replicate Magic Item|Artificer|XUA2025EberronUpdates|2|XUA2025EberronUpdates} feature. If you do so, you instead drop to a number of {@variantrule Hit Points|XPHB} equal to 20 times the number of magic items disintegrated."
+								"如果你被减少到0{@variantrule 生命值|XPHB}但未被直接杀死，你可以解离任意数量由你的{@classFeature 仿制魔法物品|奇械师|XUA2025EberronUpdates|2|XUA2025EberronUpdates}特性创造的非普通或珍稀魔法物品。如果你这样做，你反而会下降到等于20乘以被解离魔法物品数量的{@variantrule 生命值|XPHB}。"
 							]
 						},
 						{
+							"ENG_name": "Magical Guidance",
+							"name": "魔法指引",
 							"type": "entries",
-							"name": "Magical Guidance",
 							"page": 5,
 							"entries": [
-								"Whenever you use your {@classFeature Flash of Genius|Artificer|XUA2024Artificer|7|XUA2024Artificer} and the affected ability check or saving throw still fails, that use of {@classFeature Flash of Genius|Artificer|XUA2024Artificer|7|XUA2024Artificer} isn't expended if you have {@variantrule Attunement|XPHB|Attunment} to at least one magic item."
+								"每当你使用你的{@classFeature 灵光一闪|奇械师|XUA2024Artificer|7|XUA2024Artificer}且受影响的属性检定或豁免检定仍然失败时，如果你至少与一件魔法物品{@variantrule 同调|XPHB|同调}，则该次{@classFeature 灵光一闪|奇械师|XUA2024Artificer|7|XUA2024Artificer}的使用不会被消耗。"
 							]
 						}
 					]
@@ -1141,34 +1182,37 @@
 	],
 	"subclassFeature": [
 		{
-			"name": "Adventurer's Atlas",
+			"ENG_name": "Adventurer's Atlas",
+			"name": "冒险者的地图匣",
 			"source": "XUA2025EberronUpdates",
 			"page": 7,
-			"className": "Artificer",
+			"className": "奇械师",
 			"classSource": "XUA2025EberronUpdates",
-			"subclassShortName": "Cartographer",
+			"subclassShortName": "制图师",
 			"subclassSource": "XUA2025EberronUpdates",
 			"level": 3,
 			"entries": [
-				"Whenever you finish a {@variantrule Long Rest|XPHB} while holding {@item Cartographer's Tools|XPHB}, you can use that tool to create a set of magical maps by touching at least two creatures (one of whom can be yourself), up to a maximum number of creatures equal to 1 plus your Intelligence modifier (minimum of two creatures). Each target receives a magical map, which is illegible to all others. The maps last until you die or until you use this feature again, at which point any existing maps created by this feature immediately vanish.",
-				"While carrying the map, a target gains the following benefits.",
+				"每当你持用{@item 制图工具|XPHB}完成一次{@variantrule 长休|XPHB}时，你可以使用该工具通过接触至少两个生物（其中一个可以是你自己）来创建一套魔法地图，最多生物数量等于1加上你的智力调整值（最少两个生物）。每个目标获得一张魔法地图，该地图对所有其他人都无法辨认。这些地图持续到你死亡或你再次使用此特性为止，此时任何由该特性创建的现有地图会立即消失。",
+				"当携带该地图时，目标获得以下好处。",
 				{
 					"type": "entries",
 					"entries": [
 						{
+							"ENG_name": "Awareness",
+							"name": "警觉",
 							"type": "entries",
-							"name": "Awareness",
 							"page": 7,
 							"entries": [
-								"The target adds {@dice 1d4} to its {@variantrule Initiative|XPHB} rolls."
+								"目标在其{@variantrule 先攻|XPHB}检定上增加{@dice 1d4}。"
 							]
 						},
 						{
+							"ENG_name": "Positioning",
+							"name": "定位",
 							"type": "entries",
-							"name": "Positioning",
 							"page": 7,
 							"entries": [
-								"The target knows the location of all other map holders that are on the same plane of existence as itself. When casting a spell or creating an effect that requires being able to see the target, a map holder can target another map holder regardless of sight, so long as the other map holder is still within the spell or effect's range."
+								"目标知晓与其处于同一存在位面的所有其他地图持有者的位置。当施放一个需要能够看见目标的法术或创造一个需要能够看见目标的效果时，地图持有者可以无视视线以另一个地图持有者为目标，只要该地图持有者仍处于法术或效果的射程内。"
 							]
 						}
 					]
@@ -1176,82 +1220,88 @@
 			]
 		},
 		{
-			"name": "Cartographer",
+			"ENG_name": "Cartographer",
+			"name": "制图师",
 			"source": "XUA2025EberronUpdates",
 			"page": 6,
-			"className": "Artificer",
+			"className": "奇械师",
 			"classSource": "XUA2025EberronUpdates",
-			"subclassShortName": "Cartographer",
+			"subclassShortName": "制图师",
 			"subclassSource": "XUA2025EberronUpdates",
 			"level": 3,
 			"entries": [
-				"Cartographers are the premier navigators and reconnaissance agents. Using their creations, Cartographers can highlight threats, safeguard their allies, and carve portals to distant locations.",
+				"制图师是顶级的导航员和侦察代理人。使用他们的造物术，制图师可以高亮威胁、佑护他们的盟友，并开辟通往遥远地点的传送门。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tool Proficiencies|Artificer|XUA2025EberronUpdates|Cartographer|XUA2025EberronUpdates|3|XUA2025EberronUpdates"
+					"subclassFeature": "工具熟练项|奇械师|XUA2025EberronUpdates|制图师|XUA2025EberronUpdates|3|XUA2025EberronUpdates"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Cartographer Spells|Artificer|XUA2025EberronUpdates|Cartographer|XUA2025EberronUpdates|3|XUA2025EberronUpdates"
+					"subclassFeature": "制图师法术|奇械师|XUA2025EberronUpdates|制图师|XUA2025EberronUpdates|3|XUA2025EberronUpdates"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Adventurer's Atlas|Artificer|XUA2025EberronUpdates|Cartographer|XUA2025EberronUpdates|3|XUA2025EberronUpdates"
+					"subclassFeature": "冒险者的地图匣|奇械师|XUA2025EberronUpdates|制图师|XUA2025EberronUpdates|3|XUA2025EberronUpdates"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Scouting Gadgets|Artificer|XUA2025EberronUpdates|Cartographer|XUA2025EberronUpdates|3|XUA2025EberronUpdates"
+					"subclassFeature": "探查部件|奇械师|XUA2025EberronUpdates|制图师|XUA2025EberronUpdates|3|XUA2025EberronUpdates"
 				}
 			]
 		},
 		{
-			"name": "Cartographer Spells",
+			"ENG_name": "Cartographer Spells",
+			"name": "制图师法术",
 			"source": "XUA2025EberronUpdates",
 			"page": 6,
-			"className": "Artificer",
+			"className": "奇械师",
 			"classSource": "XUA2025EberronUpdates",
-			"subclassShortName": "Cartographer",
+			"subclassShortName": "制图师",
 			"subclassSource": "XUA2025EberronUpdates",
 			"level": 3,
 			"entries": [
-				"When you reach an Artificer level specified in the {@table Cartographer Spells|XUA2025EberronUpdates} table, you thereafter always have the listed spells prepared.",
+				"当你达到{@table 制图师法术|XUA2025EberronUpdates}表格中指定的奇械师等级时，你此后始终准备所列出的法术。",
 				{
+					"ENG_name": "Cartographer Spells",
+					"name": "制图师法术",
 					"type": "statblock",
 					"tag": "table",
-					"name": "Cartographer Spells",
 					"source": "XUA2025EberronUpdates",
 					"page": 7
 				}
 			]
 		},
 		{
-			"name": "Scouting Gadgets",
+			"ENG_name": "Scouting Gadgets",
+			"name": "探查部件",
 			"source": "XUA2025EberronUpdates",
 			"page": 7,
-			"className": "Artificer",
+			"className": "奇械师",
 			"classSource": "XUA2025EberronUpdates",
-			"subclassShortName": "Cartographer",
+			"subclassShortName": "制图师",
 			"subclassSource": "XUA2025EberronUpdates",
 			"level": 3,
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
 					"type": "entries",
 					"entries": [
 						{
+							"ENG_name": "Boost",
+							"name": "强冲",
 							"type": "entries",
-							"name": "Boost",
 							"page": 7,
 							"entries": [
-								"On your turn, you can expend half your movement to teleport to an unoccupied space you can see within 10 feet of yourself. You can't use this benefit if your {@variantrule Speed|XPHB} is 0."
+								"在你的回合，你可以消耗一半的移动力传送到你能看见的10尺内一个未占据空间。如果你的{@variantrule 速度|XPHB}为0，则不能使用此增益。"
 							]
 						},
 						{
+							"ENG_name": "Radar",
+							"name": "雷达",
 							"type": "entries",
-							"name": "Radar",
 							"page": 7,
 							"entries": [
-								"You can cast {@spell Faerie Fire|XPHB} without expending a spell slot. You can do so a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest."
+								"你可以施放{@spell 妖火|XPHB}而不消耗法术位。你可以这样做的次数等于你的智力调整值（至少一次），并且你在完成一次长休后恢复所有已使用的次数。"
 							]
 						}
 					]
@@ -1259,82 +1309,89 @@
 			]
 		},
 		{
-			"name": "Tool Proficiencies",
+			"ENG_name": "Tool Proficiencies",
+			"name": "工具熟练项",
 			"source": "XUA2025EberronUpdates",
 			"page": 6,
-			"className": "Artificer",
+			"className": "奇械师",
 			"classSource": "XUA2025EberronUpdates",
-			"subclassShortName": "Cartographer",
+			"subclassShortName": "制图师",
 			"subclassSource": "XUA2025EberronUpdates",
 			"level": 3,
 			"entries": [
-				"You gain proficiency with {@item Calligrapher's Supplies|XPHB} and {@item Cartographer's Tools|XPHB}. If you already have one of these proficiencies, you gain proficiency with one other type of {@item Artisan's Tools|XPHB} of your choice. In addition, when you scribe a {@item Spell Scroll|XDMG} using {@book the crafting rules in the Player's Handbook|XPHB|6|Scribing Spell Scrolls}, the amount of time required to craft it is halved."
+				"你获得{@item 书法工具|XPHB}和{@item 制图工具|XPHB}的熟练项。如果你已经拥有其中一种熟练项，则获得一种你选择的其他类型的{@item 工匠工具|XPHB}的熟练项。此外，当你使用{@book 玩家手册中的手作规则|XPHB|6|抄录法术卷轴}抄写{@item 法术卷轴|XDMG}时，制造所需的时间减半。"
 			]
 		},
 		{
-			"name": "Portal Jump",
+			"ENG_name": "Portal Jump",
+			"name": "传送门跃",
 			"source": "XUA2025EberronUpdates",
 			"page": 7,
-			"className": "Artificer",
+			"className": "奇械师",
 			"classSource": "XUA2025EberronUpdates",
-			"subclassShortName": "Cartographer",
+			"subclassShortName": "制图师",
 			"subclassSource": "XUA2025EberronUpdates",
 			"level": 5,
 			"entries": [
-				"As a {@variantrule Bonus Action|XPHB}, you teleport up to 60 feet to an unoccupied space you can see.",
-				"You can use this feature a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}.",
-				"You can also use this ability without expending a use if the destination space is within 5 feet of a creature carrying a map created with your {@subclassFeature Adventurer's Atlas|Artificer|XUA2025EberronUpdates|Cartographer|XUA2025EberronUpdates|3|XUA2025EberronUpdates}. Doing so destroys the map that creature carries."
+				"作为{@variantrule 附赠动作|XPHB}，你可以传送至多60尺至一个你能看见的未占据空间。",
+				"你可以使用此特性的次数等于你的智力调整值（至少一次）。当你完成一次{@variantrule 长休|XPHB}时，你恢复所有已消耗的使用次数。",
+				"你也可以在不消耗使用次数的情况下使用此能力，如果目的地空间位于携带你使用{@subclassFeature 冒险者的地图匣|奇械师|XUA2025EberronUpdates|制图师|XUA2025EberronUpdates|3|XUA2025艾伯伦更新}创建的地图的生物5尺内。这样做会摧毁该生物携带的地图。"
 			]
 		},
 		{
-			"name": "Ingenious Movement",
+			"ENG_name": "Ingenious Movement",
+			"name": "灵机一动",
 			"source": "XUA2025EberronUpdates",
 			"page": 7,
-			"className": "Artificer",
+			"className": "奇械师",
 			"classSource": "XUA2025EberronUpdates",
-			"subclassShortName": "Cartographer",
+			"subclassShortName": "制图师",
 			"subclassSource": "XUA2025EberronUpdates",
 			"level": 9,
 			"entries": [
-				"When you use your {@classFeature Flash of Genius|Artificer|XUA2024Artificer|7|XUA2024Artificer}, you or a willing creature of your choice you can see within 30 feet of yourself can teleport up to 30 feet to an unoccupied space you can see as part of that same {@variantrule Reaction|XPHB}."
+				"当你使用你的{@classFeature 灵光一闪|奇械师|XUA2024Artificer|7|XUA2024Artificer}时，你或一个你选择的30尺内你能看见的愿意生物可以传送至多30尺至一个你能看见的未占据空间，作为同一个{@variantrule 反应|XPHB}的一部分。"
 			]
 		},
 		{
-			"name": "Superior Atlas",
+			"ENG_name": "Superior Atlas",
+			"name": "万能地图匣",
 			"source": "XUA2025EberronUpdates",
 			"page": 7,
-			"className": "Artificer",
+			"className": "奇械师",
 			"classSource": "XUA2025EberronUpdates",
-			"subclassShortName": "Cartographer",
+			"subclassShortName": "制图师",
 			"subclassSource": "XUA2025EberronUpdates",
 			"level": 15,
 			"entries": [
-				"Your {@subclassFeature Adventurer's Atlas|Artificer|XUA2025EberronUpdates|Cartographer|XUA2025EberronUpdates|3|XUA2025EberronUpdates} improves, gaining the following benefits.",
+				"你的{@subclassFeature 冒险者的地图匣|奇械师|XUA2025EberronUpdates|制图师|XUA2025EberronUpdates|3|XUA2025艾伯伦更新}得到提升，获得以下好处。",
 				{
 					"type": "entries",
 					"entries": [
 						{
+							"ENG_name": "Safe Haven",
+							"name": "安全归处",
 							"type": "entries",
-							"name": "Safe Haven",
 							"page": 7,
 							"entries": [
-								"When a map holder is reduced to 0 {@variantrule Hit Points|XPHB} but not killed outright, that creature can destroy its map. The creature is then teleported to an unoccupied space within 5 feet of you or another map holder of its choice and is {@variantrule Stable|XPHB}."
+								"当地图持有者被缩小到0{@variantrule 生命值|XPHB}但未被直接杀死时，该生物可以摧毁其地图。该生物随后被传送到你或它选择的另一个地图持有者5尺内的一个未占据空间，并且{@variantrule 伤势稳定|XPHB}。"
 							]
 						},
 						{
+							"ENG_name": "Unerring Path",
+							"name": "径路悉晓",
 							"type": "entries",
-							"name": "Unerring Path",
 							"page": 7,
 							"entries": [
-								"If you are one of the map holders for your {@subclassFeature Adventurer's Atlas|Artificer|XUA2025EberronUpdates|Cartographer|XUA2025EberronUpdates|3|XUA2025EberronUpdates}, you can cast {@spell Find the Path|XPHB} without expending a spell slot, without preparing the spell, and without needing spell components. Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
+								"如果你是你{@subclassFeature 冒险者的地图匣|奇械师|XUA2025EberronUpdates|制图师|XUA2025EberronUpdates|3|XUA2025艾伯伦更新}的地图持有者之一，你可以施放{@spell 寻路术|XPHB}而无需消耗法术位、无需准备该法术且不需要法术成分。一旦你使用了此特性，在完成一次{@variantrule 长休|XPHB}前你不能再次使用它。"
 							]
 						},
 						{
+							"ENG_name": "Unshakable Mind",
+							"name": "不可动摇之心",
 							"type": "entries",
-							"name": "Unshakable Mind",
 							"page": 7,
 							"entries": [
-								"While at least one map created with your {@subclassFeature Adventurer's Atlas|Artificer|XUA2025EberronUpdates|Cartographer|XUA2025EberronUpdates|3|XUA2025EberronUpdates} still exists, taking damage can't cause you to lose {@status Concentration|XPHB} on your Artificer spells."
+								"当至少一张由你的{@subclassFeature 冒险者的地图匣|奇械师|XUA2025EberronUpdates|制图师|XUA2025EberronUpdates|3|XUA2025艾伯伦更新}创建的地图仍然存在时，受到伤害不会导致你失去对奇械师法术的{@status 专注|XPHB}。"
 							]
 						}
 					]
@@ -1344,11 +1401,12 @@
 	],
 	"foundrySubclassFeature": [
 		{
-			"name": "Tool Proficiencies",
+			"ENG_name": "Tool Proficiencies",
+			"name": "工具熟练项",
 			"source": "XUA2025EberronUpdates",
-			"className": "Artificer",
+			"className": "奇械师",
 			"classSource": "XUA2025EberronUpdates",
-			"subclassShortName": "Cartographer",
+			"subclassShortName": "制图师",
 			"subclassSource": "XUA2025EberronUpdates",
 			"level": 3,
 			"entryData": {
@@ -1371,17 +1429,18 @@
 	],
 	"feat": [
 		{
-			"name": "Aberrant Dragonmark",
+			"ENG_name": "Aberrant Dragonmark",
+			"name": "异种龙纹",
 			"source": "XUA2025EberronUpdates",
 			"page": 9,
 			"reprintedAs": [
-				"Aberrant Dragonmark|EFA"
+				"异种龙纹|EFA"
 			],
 			"category": "D",
 			"prerequisite": [
 				{
 					"campaign": [
-						"Eberron"
+						"艾伯伦"
 					],
 					"exclusiveFeatCategory": [
 						"D"
@@ -1394,7 +1453,7 @@
 					"known": {
 						"_": [
 							{
-								"choose": "level=0|class=Sorcerer"
+								"choose": "level=0|class=术士"
 							}
 						]
 					},
@@ -1403,7 +1462,7 @@
 							"rest": {
 								"1": [
 									{
-										"choose": "level=1|class=Sorcerer"
+										"choose": "level=1|class=术士"
 									}
 								]
 							}
@@ -1412,43 +1471,47 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Aberrant Fortitude",
+					"name": "异种坚韧",
 					"type": "entries",
-					"name": "Aberrant Fortitude",
 					"entries": [
-						"When you make a Constitution saving throw, you can roll {@dice 1d4} and add the number rolled to the save. You can use this benefit a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} and regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+						"当你进行体质豁免检定时，你可以掷{@dice 1d4}并将骰出的数值添加到豁免检定中。你可以使用此增益的次数等于你的{@variantrule 熟练|XPHB|熟练加值}，并在完成一次{@variantrule 长休|XPHB}后恢复所有已使用的次数。"
 					]
 				},
 				{
+					"ENG_name": "Aberrant Magic",
+					"name": "异种魔法",
 					"type": "entries",
-					"name": "Aberrant Magic",
 					"entries": [
-						"You know one {@filter cantrip of your choice from the Sorcerer spell list|spells|source=|level=0|class=sorcerer|components & miscellaneous=}. Also, choose {@filter a level 1 spell from that spell list|spells|source=|level=1|class=sorcerer|components & miscellaneous=}. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}. You can also cast this spell using any spell slots you have. Constitution is your spellcasting ability for this spell."
+						"你从术士法术列表中选择知晓一个{@filter 从术士法术列表中选择的戏法|spells|source=|level=0|class=术士|components & miscellaneous=}。此外，从该法术列表中选择{@filter 该法术列表中的一个1环法术|spells|source=|level=1|class=术士|components & miscellaneous=}。你总是准备着该法术。你可以无需法术位施放该法术一次，并在完成一次{@variantrule 短休|XPHB|短}或{@variantrule 长休|XPHB}后恢复以此方式施放该法术的能力。你也可以使用你拥有的任何法术位来施放该法术。体质是你施放该法术的施法属性。"
 					]
 				},
 				{
+					"ENG_name": "Aberrant Surge",
+					"name": "异种浪涌",
 					"type": "entries",
-					"name": "Aberrant Surge",
 					"entries": [
-						"When you cast the level 1 spell from this feat, you can expend one of your {@variantrule Hit Point Dice|XPHB} and roll it. If you roll an even number, you gain a number of {@variantrule Temporary Hit Points|XPHB} equal to the number rolled. If you roll an odd number, one creature within 30 feet of you (not including you) takes Force damage equal to the number rolled. If no other creatures are in range, you take the damage."
+						"当你施放此专长的1环法术时，你可以消耗一个你的{@variantrule 生命值骰|XPHB}并掷骰。如果你掷出偶数，你获得等于掷骰数值的{@variantrule 临时生命值|XPHB}。如果你掷出奇数，你30尺内的一个生物（不包括你）受到等于掷骰数值的力场伤害。如果射程内没有其他生物，你受到该伤害。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Boon of Siberys",
+			"ENG_name": "Boon of Siberys",
+			"name": "西伯瑞斯之恩惠",
 			"source": "XUA2025EberronUpdates",
 			"page": 15,
 			"reprintedAs": [
-				"Boon of Siberys|EFA"
+				"西伯瑞斯之恩惠|EFA"
 			],
 			"category": "EB",
 			"prerequisite": [
 				{
 					"level": 19,
 					"campaign": [
-						"Eberron"
+						"艾伯伦"
 					]
 				}
 			],
@@ -1483,23 +1546,23 @@
 									{
 										"choose": {
 											"from": [
-												"True Seeing|XPHB",
-												"Teleport|XPHB",
-												"Animal Shapes|XPHB",
-												"Regenerate|XPHB",
-												"Heroes' Feast|XPHB",
-												"Demiplane|XPHB",
-												"Plane Shift|XPHB",
-												"Symbol|XPHB",
-												"Mind Blank|XPHB",
-												"Project Image|XPHB",
-												"Control Weather|XPHB",
-												"Maze|XPHB"
+												"真知术|XPHB",
+												"传送术|XPHB",
+												"动物形态|XPHB",
+												"再生术|XPHB",
+												"英雄宴|XPHB",
+												"半位面|XPHB",
+												"位面转移|XPHB",
+												"徽记术|XPHB",
+												"心灵屏障|XPHB",
+												"投影术|XPHB",
+												"操控天气|XPHB",
+												"迷宫术|XPHB"
 											]
 										}
 									},
 									{
-										"choose": "class=sorcerer",
+										"choose": "class=术士",
 										"count": 1
 									}
 								]
@@ -1509,19 +1572,20 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Aberrant Magic",
+					"name": "异种魔法",
 					"type": "entries",
-					"name": "Aberrant Magic",
 					"entries": [
-						"Choose {@filter a spell of any level from the Sorcerer spell list|spells|source=|class=sorcerer|components & miscellaneous=} or a spell from the Siberys Dragonmarks table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}. You can also cast this spell using any spell slots you have. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you gain this feat).",
+						"从术士法术列表中选择{@filter 一个来自术士法术列表的任意等级法术|spells|source=|class=术士|components & miscellaneous=}或从西伯瑞斯龙纹表中选择一个法术。你总是准备着该法术。你可以无需法术位施放它一次，并在完成一次{@variantrule 短休|XPHB|短}或{@variantrule 长休|XPHB}后恢复以此方式施放它的能力。你也可以使用你拥有的任何法术位来施放这个法术。智力、感知或魅力是你施放该法术的施法属性（在获得此专长时选择）。",
 						{
 							"type": "table",
-							"caption": "Siberys Dragonmarks",
+							"caption": "西伯瑞斯龙纹",
 							"page": 15,
 							"colLabels": [
-								"Dragonmark",
-								"Spell"
+								"龙纹",
+								"法术"
 							],
 							"colStyles": [
 								"col-4",
@@ -1529,52 +1593,52 @@
 							],
 							"rows": [
 								[
-									"{@feat Mark of Detection|XUA2025EberronUpdates|Detection}",
-									"{@spell True Seeing|XPHB}"
+									"{@feat 侦测龙纹|XUA2025EberronUpdates|侦测}",
+									"{@spell 真知术|XPHB}"
 								],
 								[
-									"{@feat Mark of Finding|XUA2025EberronUpdates|Finding}",
-									"{@spell Teleport|XPHB}"
+									"{@feat 探寻龙纹|XUA2025EberronUpdates|探寻}",
+									"{@spell 传送术|XPHB}"
 								],
 								[
-									"{@feat Mark of Handling|XUA2025EberronUpdates|Handling}",
-									"{@spell Animal Shapes|XPHB}"
+									"{@feat 畜牧龙纹|XUA2025EberronUpdates|操控}",
+									"{@spell 动物形态|XPHB}"
 								],
 								[
-									"{@feat Mark of Healing|XUA2025EberronUpdates|Healing}",
-									"{@spell Regenerate|XPHB}"
+									"{@feat 医疗龙纹|XUA2025EberronUpdates|治疗}",
+									"{@spell 再生术|XPHB}"
 								],
 								[
-									"{@feat Mark of Hospitality|XUA2025EberronUpdates|Hospitality}",
-									"{@spell Heroes' Feast|XPHB}"
+									"{@feat 招待龙纹|XUA2025EberronUpdates|好客}",
+									"{@spell 英雄宴|XPHB}"
 								],
 								[
-									"{@feat Mark of Making|XUA2025EberronUpdates|Making}",
-									"{@spell Demiplane|XPHB}"
+									"{@feat 创造龙纹|XUA2025EberronUpdates|创造}",
+									"{@spell 半位面|XPHB}"
 								],
 								[
-									"{@feat Mark of Passage|XUA2025EberronUpdates|Passage}",
-									"{@spell Plane Shift|XPHB}"
+									"{@feat 通行龙纹|XUA2025EberronUpdates|通行}",
+									"{@spell 位面转移|XPHB}"
 								],
 								[
-									"{@feat Mark of Scribing|XUA2025EberronUpdates|Scribing}",
-									"{@spell Symbol|XPHB}"
+									"{@feat 抄录龙纹|XUA2025EberronUpdates|抄写}",
+									"{@spell 徽记术|XPHB}"
 								],
 								[
-									"{@feat Mark of Sentinel|XUA2025EberronUpdates|Sentinel}",
-									"{@spell Mind Blank|XPHB}"
+									"{@feat 哨戒龙纹|XUA2025EberronUpdates|哨戒}",
+									"{@spell 心灵屏障|XPHB}"
 								],
 								[
-									"{@feat Mark of Shadow|XUA2025EberronUpdates|Shadow}",
-									"{@spell Project Image|XPHB}"
+									"{@feat 阴影龙纹|XUA2025EberronUpdates|幽影}",
+									"{@spell 投影术|XPHB}"
 								],
 								[
-									"{@feat Mark of Storm|XUA2025EberronUpdates|Storm}",
-									"{@spell Control Weather|XPHB}"
+									"{@feat 暴风龙纹|XUA2025EberronUpdates|风暴}",
+									"{@spell 操控天气|XPHB}"
 								],
 								[
-									"{@feat Mark of Warding|XUA2025EberronUpdates|Warding}",
-									"{@spell Maze|XPHB}"
+									"{@feat 守御龙纹|XUA2025EberronUpdates|守御}",
+									"{@spell 迷宫术|XPHB}"
 								]
 							]
 						}
@@ -1583,18 +1647,19 @@
 			]
 		},
 		{
-			"name": "Greater Aberrant Mark",
+			"ENG_name": "Greater Aberrant Mark",
+			"name": "高等异种龙纹",
 			"source": "XUA2025EberronUpdates",
 			"page": 13,
 			"reprintedAs": [
-				"Greater Aberrant Mark|EFA"
+				"高等异种龙纹|EFA"
 			],
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"Aberrant Dragonmark|XUA2025EberronUpdates"
+						"异种龙纹|XUA2025EberronUpdates"
 					]
 				}
 			],
@@ -1604,37 +1669,40 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Improved Intuition",
+					"name": "直觉锐化",
 					"type": "entries",
-					"name": "Improved Intuition",
 					"entries": [
-						"When you use the Aberrant Fortitude benefit of your {@feat Aberrant Dragonmark|XUA2025EberronUpdates} feat, you can roll {@dice 1d6} instead of {@dice 1d4}."
+						"当你使用你的{@feat 异种龙纹|XUA2025EberronUpdates}专长的异种坚定增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
 					]
 				},
 				{
+					"ENG_name": "Mark of Inspiration",
+					"name": "灵感龙纹",
 					"type": "entries",
-					"name": "Mark of Inspiration",
 					"entries": [
-						"When you cast a cantrip, you can expend one of your {@variantrule Hit Point Dice|XPHB} and roll it. You gain a number of {@variantrule Temporary Hit Points|XPHB} equal to the number rolled, and one creature of your choice within 30 feet of you (not including you) takes Force damage equal to the number rolled.",
-						"You can use this benefit a number of times equal to your Constitution modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+						"当你施放一个戏法时，你可以消耗一个你的{@variantrule 生命值骰|XPHB}并掷骰。你获得等同于掷骰数值的{@variantrule 临时生命值|XPHB}，并且你选择的30尺内一个生物（不包括你自己）受到等同于掷骰数值的力场伤害。",
+						"你可以使用此增益的次数等于你的体质调整值（至少一次），并且你在完成一次{@variantrule 长休|XPHB}后恢复所有已消耗的使用次数。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Greater Mark of Detection",
+			"ENG_name": "Greater Mark of Detection",
+			"name": "高等侦测龙纹",
 			"source": "XUA2025EberronUpdates",
 			"page": 13,
 			"reprintedAs": [
-				"Greater Mark of Detection|EFA"
+				"高等侦测龙纹|EFA"
 			],
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"mark of detection|XUA2025EberronUpdates"
+						"侦测龙纹|XUA2025EberronUpdates"
 					]
 				}
 			],
@@ -1653,36 +1721,39 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Improved Intuition",
+					"name": "直觉锐化",
 					"type": "entries",
-					"name": "Improved Intuition",
 					"entries": [
-						"When you use the Deductive Intuition benefit of your {@feat Mark of Detection|XUA2025EberronUpdates} feat, you can roll {@dice 1d6} instead of {@dice 1d4}."
+						"当你使用你的{@feat 侦测龙纹|XUA2025EberronUpdates}专长的推理直觉增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
 					]
 				},
 				{
+					"ENG_name": "Improved Detection",
+					"name": "广域侦测",
 					"type": "entries",
-					"name": "Improved Detection",
 					"entries": [
-						"When you cast {@spell See Invisibility|XPHB|See Invisibliity}, you can modify it so that for the duration of the spell, you have {@variantrule Advantage|XPHB} on {@variantrule Initiative|XPHB} rolls and enemies that roll {@variantrule Initiative|XPHB} within 30 feet of you can't gain {@variantrule Advantage|XPHB} on the roll. Once you modify the spell with this benefit, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+						"当你施放{@spell 识破隐形|XPHB|识破隐形}时，你可以修改它使得在法术的持续时间内，你在{@variantrule 先攻|XPHB}掷骰上具有{@variantrule 优势|XPHB}，并且在距离你30尺内掷{@variantrule 先攻|XPHB}的敌人无法在掷骰中获得{@variantrule 优势|XPHB}。一旦你使用此增益修改了法术，直到你完成一次{@variantrule 长休|XPHB}前，你无法再次这样做。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Greater Mark of Finding",
+			"ENG_name": "Greater Mark of Finding",
+			"name": "高等探寻龙纹",
 			"source": "XUA2025EberronUpdates",
 			"page": 13,
 			"reprintedAs": [
-				"Greater Mark of Finding|EFA"
+				"高等探寻龙纹|EFA"
 			],
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"mark of finding|XUA2025EberronUpdates"
+						"探寻龙纹|XUA2025EberronUpdates"
 					]
 				}
 			],
@@ -1701,36 +1772,39 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Improved Intuition",
+					"name": "直觉锐化",
 					"type": "entries",
-					"name": "Improved Intuition",
 					"entries": [
-						"When you use the Hunter's Intuition benefit of your {@feat Mark of Finding|XUA2025EberronUpdates} feat, you can roll {@dice 1d6} instead of {@dice 1d4}."
+						"当你使用你的{@feat 探寻龙纹|XUA2025EberronUpdates}专长的猎人直觉增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
 					]
 				},
 				{
+					"ENG_name": "Improved Finding",
+					"name": "探幽索隐",
 					"type": "entries",
-					"name": "Improved Finding",
 					"entries": [
-						"When you cast {@spell Hunter's Mark|XPHB}, you can modify it so that the target can't benefit from the {@condition Invisible|XPHB} condition for the duration of the spell. Once you modify the spell with this benefit, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+						"当你施放{@spell 猎人印记|XPHB}时，你可以调整该法术使得目标在法术的持续时间内无法从{@condition 隐形|XPHB}状态中获益。一旦你通过此增益调整了该法术，直到你完成一次{@variantrule 长休|XPHB}前，你无法再次这样做。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Greater Mark of Handling",
+			"ENG_name": "Greater Mark of Handling",
+			"name": "高等畜牧龙纹",
 			"source": "XUA2025EberronUpdates",
 			"page": 13,
 			"reprintedAs": [
-				"Greater Mark of Handling|EFA"
+				"高等畜牧龙纹|EFA"
 			],
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"mark of handling|XUA2025EberronUpdates"
+						"畜牧龙纹|XUA2025EberronUpdates"
 					]
 				}
 			],
@@ -1749,36 +1823,39 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Improved Intuition",
+					"name": "直觉锐化",
 					"type": "entries",
-					"name": "Improved Intuition",
 					"entries": [
-						"When you use the Wild Intuition benefit of your {@feat Mark of Handling|XUA2025EberronUpdates} feat, you can roll {@dice 1d6} instead of {@dice 1d4}."
+						"当你使用你的{@feat 畜牧龙纹|XUA2025EberronUpdates}专长的野性直觉增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
 					]
 				},
 				{
+					"ENG_name": "Improved Handling",
+					"name": "万畜牧首",
 					"type": "entries",
-					"name": "Improved Handling",
 					"entries": [
-						"While mounted, immediately after you hit a target within 5 feet of your mount with a melee attack roll, your mount can take a {@variantrule Reaction|XPHB} to move up to its {@variantrule Speed|XPHB} or take the {@action Attack|XPHB} action to make one attack only (your choice)."
+						"骑乘时，在你用近战攻击掷骰命中你乘骑5尺内的目标后，你的乘骑可以立即采取一个{@variantrule 反应|XPHB}来移动至多其{@variantrule 速度|XPHB}或采取{@action 攻击|XPHB}动作仅进行一次攻击（由你选择）。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Greater Mark of Healing",
+			"ENG_name": "Greater Mark of Healing",
+			"name": "高等医疗龙纹",
 			"source": "XUA2025EberronUpdates",
 			"page": 14,
 			"reprintedAs": [
-				"Greater Mark of Healing|EFA"
+				"高等医疗龙纹|EFA"
 			],
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"mark of healing|XUA2025EberronUpdates"
+						"医疗龙纹|XUA2025EberronUpdates"
 					]
 				}
 			],
@@ -1797,36 +1874,39 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Improved Intuition",
+					"name": "直觉锐化",
 					"type": "entries",
-					"name": "Improved Intuition",
 					"entries": [
-						"When you use the Medical Intuition benefit of your {@feat Mark of Healing|XUA2025EberronUpdates} feat, you can roll {@dice 1d6} instead of {@dice 1d4}."
+						"当你使用你的{@feat 医疗龙纹|XUA2025EberronUpdates}专长的医疗直觉增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
 					]
 				},
 				{
+					"ENG_name": "Improved Healing",
+					"name": "妙手回春",
 					"type": "entries",
-					"name": "Improved Healing",
 					"entries": [
-						"When you cast {@spell Cure Wounds|XPHB} and roll dice to determine the number of {@variantrule Hit Points|XPHB} restored, you can treat any 1 or 2 on a roll as a 3."
+						"当你施放{@spell 疗伤术|XPHB}并掷骰子以确定恢复的{@variantrule 生命值|XPHB}数值时，你可以将掷骰结果中的任何1或2视为3。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Greater Mark of Hospitality",
+			"ENG_name": "Greater Mark of Hospitality",
+			"name": "高等招待龙纹",
 			"source": "XUA2025EberronUpdates",
 			"page": 14,
 			"reprintedAs": [
-				"Greater Mark of Hospitality|EFA"
+				"高等招待龙纹|EFA"
 			],
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"mark of hospitality|XUA2025EberronUpdates"
+						"招待龙纹|XUA2025EberronUpdates"
 					]
 				}
 			],
@@ -1845,36 +1925,39 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Improved Intuition",
+					"name": "直觉锐化",
 					"type": "entries",
-					"name": "Improved Intuition",
 					"entries": [
-						"When you use the Ever Hospitable benefit of your {@feat Mark of Hospitality|XUA2025EberronUpdates} feat, you can roll {@dice 1d6} instead of {@dice 1d4}."
+						"当你使用你的{@feat 招待龙纹|XUA2025EberronUpdates}专长的永恒款待增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
 					]
 				},
 				{
+					"ENG_name": "Inspired Hospitality",
+					"name": "宾至如归",
 					"type": "entries",
-					"name": "Inspired Hospitality",
 					"entries": [
-						"When you cast {@spell Purify Food and Drink|XPHB}, you can modify the spell so that each creature of your choice within 30 feet of you is magically refreshed. Each affected creature's {@condition Exhaustion|XPHB} level is reduced by 1, and the creature gains {@variantrule Temporary Hit Points|XPHB} equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} plus your Intelligence, Charisma, or Wisdom modifier (choose when you select this feat). Once you modify the spell with this benefit, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+						"当你施放{@spell 净化饮食|XPHB}时，你可以修改该法术，使你30尺内每个你选择的生物被魔法刷新。每个受影响生物的{@condition 力竭|XPHB}等级缩小1级，并且该生物获得等于你的{@variantrule 熟练|XPHB|熟练加值}加上你的智力、魅力或感知调整值（在你选择此专长时选择）的{@variantrule 临时生命值|XPHB}。一旦你使用此增益修改法术，直到你完成一次{@variantrule 长休|XPHB}前不能再这样做。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Greater Mark of Making",
+			"ENG_name": "Greater Mark of Making",
+			"name": "高等创造龙纹",
 			"source": "XUA2025EberronUpdates",
 			"page": 14,
 			"reprintedAs": [
-				"Greater Mark of Making|EFA"
+				"高等创造龙纹|EFA"
 			],
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"mark of making|XUA2025EberronUpdates"
+						"创造龙纹|XUA2025EberronUpdates"
 					]
 				}
 			],
@@ -1893,36 +1976,39 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Improved Intuition",
+					"name": "直觉锐化",
 					"type": "entries",
-					"name": "Improved Intuition",
 					"entries": [
-						"When you use the Artisan's Intuition benefit of your {@feat Mark of Making|XUA2025EberronUpdates} feat, you can roll {@dice 1d6} instead of {@dice 1d4}."
+						"当你使用你的{@feat 创造龙纹|XUA2025EberronUpdates}专长的工匠直觉增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
 					]
 				},
 				{
+					"ENG_name": "Improved Making",
+					"name": "鬼斧神造",
 					"type": "entries",
-					"name": "Improved Making",
 					"entries": [
-						"When you cast {@spell Magic Weapon|XPHB}, you can modify the spell so that the first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your {@variantrule Armor Class|XPHB}. For example, if the bonus is +2, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +1 bonus to {@variantrule Armor Class|XPHB}. The adjusted bonus remains in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it. Once you modify the spell using this benefit, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+						"当你施放{@spell 魔化武器|XPHB}时，你可以调整该法术，使得在你每个回合中第一次使用该武器攻击时，你可以将武器的部分或全部加值转移到你的{@variantrule 护甲等级|XPHB}上。例如，如果加值为+2，你可以将攻击检定和伤害掷骰的加值降低至+1，并获得+1的{@variantrule 护甲等级|XPHB}加值。调整后的加值持续到你下个回合开始，尽管你必须持有该武器才能从中获得AC加值。一旦你使用此增益调整了该法术，直到你完成一次{@variantrule 长休|XPHB}前，你不能再这样做。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Greater Mark of Passage",
+			"ENG_name": "Greater Mark of Passage",
+			"name": "高等通行龙纹",
 			"source": "XUA2025EberronUpdates",
 			"page": 14,
 			"reprintedAs": [
-				"Greater Mark of Passage|EFA"
+				"高等通行龙纹|EFA"
 			],
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"mark of passage|XUA2025EberronUpdates"
+						"通行龙纹|XUA2025EberronUpdates"
 					]
 				}
 			],
@@ -1941,36 +2027,39 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Improved Intuition",
+					"name": "直觉锐化",
 					"type": "entries",
-					"name": "Improved Intuition",
 					"entries": [
-						"When you use the Intuitive Motion benefit of your {@feat Mark of Passage|XUA2025EberronUpdates} feat, you can roll {@dice 1d6} instead of {@dice 1d4}."
+						"当你使用你的{@feat 通行龙纹|XUA2025EberronUpdates}专长的直觉行动增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
 					]
 				},
 				{
+					"ENG_name": "Inspired Passage",
+					"name": "比翼生花",
 					"type": "entries",
-					"name": "Inspired Passage",
 					"entries": [
-						"When you cast {@spell Misty Step|XPHB}, you can modify the spell so that you can bring one willing creature you are touching with you. That creature teleports to an unoccupied space of your choice within 5 feet of your destination space. Once you modify the spell with this benefit, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+						"当你施放{@spell 迷踪步|XPHB}时，你可以调整该法术，使你能够携带一个你正接触的愿意生物与你同行。该生物传送到你目的地空间5尺内一个你选择的未占据空间。一旦你通过此增益调整了该法术，直到你完成一次{@variantrule 长休|XPHB}前，你无法再次这样做。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Greater Mark of Scribing",
+			"ENG_name": "Greater Mark of Scribing",
+			"name": "高等抄录龙纹",
 			"source": "XUA2025EberronUpdates",
 			"page": 14,
 			"reprintedAs": [
-				"Greater Mark of Scribing|EFA"
+				"高等抄录龙纹|EFA"
 			],
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"mark of scribing|XUA2025EberronUpdates"
+						"抄录龙纹|XUA2025EberronUpdates"
 					]
 				}
 			],
@@ -1989,36 +2078,39 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Improved Intuition",
+					"name": "直觉锐化",
 					"type": "entries",
-					"name": "Improved Intuition",
 					"entries": [
-						"When you use the Gifted Scribe benefit of your {@feat Mark of Scribing|XUA2025EberronUpdates} feat, you can roll {@dice 1d6} instead of {@dice 1d4}."
+						"当你使用你的{@feat 抄录龙纹|XUA2025EberronUpdates}专长的天才文员增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
 					]
 				},
 				{
+					"ENG_name": "Inspired Scribing",
+					"name": "刻神牍心",
 					"type": "entries",
-					"name": "Inspired Scribing",
 					"entries": [
-						"When you cast {@spell Comprehend Languages|XPHB}, you can modify the spell to cause a sigil to appear in the air above a creature you can see within 30 feet of yourself, which lasts for the duration of the spell. While the sigil persists, your enemies within 30 feet of the creature must spend 2 feet of movement for every 1 foot they move closer to that creature. The sigil disappears if the creature makes an attack roll, casts a spell, or deals damage."
+						"当你施放{@spell 通晓语言|XPHB}时，你可以修改该法术以在你自身30尺内能看见的一个生物上方空气中出现一个印记，该印记持续至法术的持续时间结束。当印记存在时，该生物30尺内的你的敌人必须每向该生物移动1尺就消耗2尺的移动力。如果该生物进行攻击检定、施放法术或造成伤害，印记就会消失。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Greater Mark of Sentinel",
+			"ENG_name": "Greater Mark of Sentinel",
+			"name": "高等哨戒龙纹",
 			"source": "XUA2025EberronUpdates",
 			"page": 14,
 			"reprintedAs": [
-				"Greater Mark of Sentinel|EFA"
+				"高等哨戒龙纹|EFA"
 			],
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"mark of sentinel|XUA2025EberronUpdates"
+						"哨戒龙纹|XUA2025EberronUpdates"
 					]
 				}
 			],
@@ -2037,36 +2129,39 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Improved Intuition",
+					"name": "直觉锐化",
 					"type": "entries",
-					"name": "Improved Intuition",
 					"entries": [
-						"When you use the Sentinel's Intuition benefit of your {@feat Mark of Sentinel|XUA2025EberronUpdates} feat, you can roll {@dice 1d6} instead of {@dice 1d4}."
+						"当你使用你的{@feat 哨戒龙纹|XUA2025EberronUpdates}专长的守卫直觉增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
 					]
 				},
 				{
+					"ENG_name": "Improved Sentinel",
+					"name": "枕戈待旦",
 					"type": "entries",
-					"name": "Improved Sentinel",
 					"entries": [
-						"When you cast {@spell Shield|XPHB}, you can modify the spell so that it magically marks a creature you can see within 30 feet of you until the end of its next turn. While marked, the target must spend 2 feet of movement for every 1 foot they move away from you."
+						"当你施放{@spell 护盾术|XPHB}时，你可以修改该法术使其魔法性地标记一个你30尺内能看见的生物，直到其下一回合结束。被标记时，目标必须花费2尺移动力来移动每1尺远离你。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Greater Mark of Shadow",
+			"ENG_name": "Greater Mark of Shadow",
+			"name": "高等阴影龙纹",
 			"source": "XUA2025EberronUpdates",
 			"page": 15,
 			"reprintedAs": [
-				"Greater Mark of Shadow|EFA"
+				"高等阴影龙纹|EFA"
 			],
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"mark of shadow|XUA2025EberronUpdates"
+						"阴影龙纹|XUA2025EberronUpdates"
 					]
 				}
 			],
@@ -2085,36 +2180,39 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Improved Intuition",
+					"name": "直觉锐化",
 					"type": "entries",
-					"name": "Improved Intuition",
 					"entries": [
-						"When you use the Cunning Intuition benefit of your {@feat Mark of Shadow|XUA2025EberronUpdates} feat, you can roll {@dice 1d6} instead of {@dice 1d4}."
+						"当你使用你的{@feat 阴影龙纹|XUA2025EberronUpdates}专长的狡诈直觉增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
 					]
 				},
 				{
+					"ENG_name": "Improved Shadow",
+					"name": "幽邃匿影",
 					"type": "entries",
-					"name": "Improved Shadow",
 					"entries": [
-						"When you cast {@spell Invisibility|XPHB} on yourself, you can modify the spell to also affect one willing creature within 5 feet of yourself. The {@condition Invisible|XPHB} condition ends immediately for an affected creature after it makes an attack roll, deals damage, or casts a spell. Once you modify the spell with this benefit, you can't do so again until you finish {@variantrule Long Rest|XPHB}."
+						"当你对自己施放{@spell 隐形术|XPHB}时，你可以修改该法术，使其同时影响你5尺内一个愿意的生物。受影响生物在进行攻击检定、造成伤害或施放法术后，{@condition 隐形|XPHB}状态立即结束。一旦你使用此增益修改了该法术，直到你完成{@variantrule 长休|XPHB}前，你无法再次这样做。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Greater Mark of Storm",
+			"ENG_name": "Greater Mark of Storm",
+			"name": "高等暴风龙纹",
 			"source": "XUA2025EberronUpdates",
 			"page": 15,
 			"reprintedAs": [
-				"Greater Mark of Storm|EFA"
+				"高等暴风龙纹|EFA"
 			],
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"mark of storm|XUA2025EberronUpdates"
+						"暴风龙纹|XUA2025EberronUpdates"
 					]
 				}
 			],
@@ -2133,36 +2231,39 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Improved Intuition",
+					"name": "直觉锐化",
 					"type": "entries",
-					"name": "Improved Intuition",
 					"entries": [
-						"When you use the Windwright's Intuition benefit of your {@feat Mark of Storm|XUA2025EberronUpdates} feat, you can roll {@dice 1d6} instead of {@dice 1d4}."
+						"当你使用你的{@feat 暴风龙纹|XUA2025EberronUpdates}专长的驭风者直觉增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
 					]
 				},
 				{
+					"ENG_name": "Improved Storm",
+					"name": "长风化翼",
 					"type": "entries",
-					"name": "Improved Storm",
 					"entries": [
-						"When you cast {@spell Gust of Wind|XPHB}, you modify the spell so that you gain a {@variantrule Fly Speed|XPHB} equal to half your {@variantrule Speed|XPHB} (round down) for the duration of the spell. Once you modify the spell with this benefit, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+						"当你施放{@spell 造风术|XPHB}时，你可以修改该法术，使你在法术持续时间内获得等于你{@variantrule 速度|XPHB}一半（向下取整）的{@variantrule 飞行速度|XPHB}。一旦你使用此增益修改了该法术，直到你完成一次{@variantrule 长休|XPHB}前，你无法再次这样做。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Greater Mark of Warding",
+			"ENG_name": "Greater Mark of Warding",
+			"name": "高等守御龙纹",
 			"source": "XUA2025EberronUpdates",
 			"page": 15,
 			"reprintedAs": [
-				"Greater Mark of Warding|EFA"
+				"高等守御龙纹|EFA"
 			],
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"mark of warding|XUA2025EberronUpdates"
+						"守御龙纹|XUA2025EberronUpdates"
 					]
 				}
 			],
@@ -2181,35 +2282,38 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Improved Intuition",
+					"name": "直觉锐化",
 					"type": "entries",
-					"name": "Improved Intuition",
 					"entries": [
-						"When you use the Warder's Intuition benefit of your {@feat Mark of Warding|XUA2025EberronUpdates} feat, you can roll {@dice 1d6} instead of {@dice 1d4}."
+						"当你使用你的{@feat 守御龙纹|XUA2025EberronUpdates}专长的守卫直觉增益时，你可以掷{@dice 1d6}而非{@dice 1d4}。"
 					]
 				},
 				{
+					"ENG_name": "Improved Warding",
+					"name": "固若金汤",
 					"type": "entries",
-					"name": "Improved Warding",
 					"entries": [
-						"When you cast {@spell Mage Armor|XPHB} on yourself, you can modify the spell to also affect one willing creature you can see within 30 feet of yourself. Once you modify the spell with this benefit, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+						"当你对自己施放{@spell 法师护甲|XPHB}时，你可以修改该法术以同时影响一个你30尺内能看见的愿意生物。一旦你使用此增益修改了法术，直到你完成一次{@variantrule 长休|XPHB}前你不能再这样做。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Mark of Detection",
+			"ENG_name": "Mark of Detection",
+			"name": "侦测龙纹",
 			"source": "XUA2025EberronUpdates",
 			"page": 9,
 			"reprintedAs": [
-				"Mark of Detection|EFA"
+				"侦测龙纹|EFA"
 			],
 			"category": "D",
 			"prerequisite": [
 				{
 					"campaign": [
-						"Eberron"
+						"艾伯伦"
 					],
 					"exclusiveFeatCategory": [
 						"D"
@@ -2229,71 +2333,74 @@
 						"3": {
 							"daily": {
 								"1e": [
-									"See Invisibility|XPHB"
+									"识破隐形|XPHB"
 								]
 							}
 						},
 						"_": {
 							"daily": {
 								"1e": [
-									"Detect Magic|XPHB",
-									"Detect Poison and Disease|XPHB"
+									"侦测魔法|XPHB",
+									"侦测毒性和疾病|XPHB"
 								]
 							}
 						}
 					},
 					"expanded": {
 						"s1": [
-							"Detect Evil and Good|XPHB",
-							"Identify|XPHB"
+							"侦测善恶|XPHB",
+							"鉴定术|XPHB"
 						],
 						"s2": [
-							"Detect Thoughts|XPHB",
-							"Find Traps|XPHB"
+							"侦测思想|XPHB",
+							"寻找陷阱|XPHB"
 						],
 						"s3": [
-							"Clairvoyance|XPHB",
-							"Nondetection|XPHB"
+							"鹰眼术|XPHB",
+							"回避侦测|XPHB"
 						],
 						"s4": [
-							"Arcane Eye|XPHB",
-							"Divination|XPHB"
+							"秘法眼|XPHB",
+							"预言术|XPHB"
 						],
 						"s5": [
-							"Legend Lore|XPHB"
+							"通晓传奇|XPHB"
 						]
 					}
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Deductive Intuition",
+					"name": "推理直觉",
 					"type": "entries",
-					"name": "Deductive Intuition",
 					"entries": [
-						"When you make a Wisdom ({@skill Insight|XPHB} or {@skill Perception|XPHB}) check, you can roll {@dice 1d4} and add the number rolled to the ability check."
+						"当你进行一次感知（{@skill 洞悉|XPHB}或{@skill 察觉|XPHB}）检定时，你可以投掷{@dice 1d4}并将掷骰结果添加到该属性检定中。"
 					]
 				},
 				{
+					"ENG_name": "Magical Detection",
+					"name": "魔法侦测",
 					"type": "entries",
-					"name": "Magical Detection",
 					"entries": [
-						"You always have the {@spell Detect Magic|XPHB} and {@spell Detect Poison and Disease|XPHB} spells prepared. You can cast each spell once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast these spells using any spell slots you have. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this feat).",
-						"When you reach character level 3, you also always have the {@spell See Invisibility|XPHB} spell prepared and can cast it the same way."
+						"你总是准备了{@spell 侦测魔法|XPHB}和{@spell 侦测毒性和疾病|XPHB}法术。你可以无需法术位施放每个法术一次，并在完成一次{@variantrule 长休|XPHB}后恢复以此方式施放它的能力。你也可以使用你拥有的任何法术位来施放这些法术。智力、感知或魅力是这些法术的施法属性（在选择此专长时选择）。",
+						"当你达到角色等级3时，你还总是准备了{@spell 识破隐形|XPHB}法术并能以同样的方式施放它。"
 					]
 				},
 				{
+					"ENG_name": "Spells of the Mark",
+					"name": "龙纹法术",
 					"type": "entries",
-					"name": "Spells of the Mark",
 					"entries": [
-						"If you have the Spellcasting or Pact Magic feature, the spells on the Mark of Detection Spells table are added to that feature's spell list.",
+						"如果你拥有施法或契约魔法特性，侦测龙纹法术列表中的法术将被添加到该特性的法术列表中。",
 						{
 							"type": "table",
-							"caption": "Mark of Detection Spells",
+							"caption": "侦测龙纹法术",
 							"page": 10,
 							"colLabels": [
-								"Spell Level",
-								"Spells"
+								"法术环阶",
+								"法术"
 							],
 							"colStyles": [
 								"col-3 text-center",
@@ -2302,23 +2409,23 @@
 							"rows": [
 								[
 									"1",
-									"{@spell Detect Evil and Good|XPHB}, {@spell Identify|XPHB}"
+									"{@spell 侦测善恶|XPHB}, {@spell 鉴定术|XPHB}"
 								],
 								[
 									"2",
-									"{@spell Detect Thoughts|XPHB}, {@spell Find Traps|XPHB}"
+									"{@spell 侦测思想|XPHB}, {@spell 寻找陷阱|XPHB}"
 								],
 								[
 									"3",
-									"{@spell Clairvoyance|XPHB}, {@spell Nondetection|XPHB}"
+									"{@spell 鹰眼术|XPHB}, {@spell 回避侦测|XPHB}"
 								],
 								[
 									"4",
-									"{@spell Arcane Eye|XPHB}, {@spell Divination|XPHB}"
+									"{@spell 秘法眼|XPHB}, {@spell 预言术|XPHB}"
 								],
 								[
 									"5",
-									"{@spell Legend Lore|XPHB}"
+									"{@spell 通晓传奇|XPHB}"
 								]
 							]
 						}
@@ -2327,17 +2434,18 @@
 			]
 		},
 		{
-			"name": "Mark of Finding",
+			"ENG_name": "Mark of Finding",
+			"name": "探寻龙纹",
 			"source": "XUA2025EberronUpdates",
 			"page": 10,
 			"reprintedAs": [
-				"Mark of Finding|EFA"
+				"探寻龙纹|EFA"
 			],
 			"category": "D",
 			"prerequisite": [
 				{
 					"campaign": [
-						"Eberron"
+						"艾伯伦"
 					],
 					"exclusiveFeatCategory": [
 						"D"
@@ -2357,70 +2465,73 @@
 						"3": {
 							"daily": {
 								"1e": [
-									"Locate Object|XPHB"
+									"物件定位术|XPHB"
 								]
 							}
 						},
 						"_": {
 							"daily": {
 								"1e": [
-									"Hunter's Mark|XPHB"
+									"猎人印记|XPHB"
 								]
 							}
 						}
 					},
 					"expanded": {
 						"s1": [
-							"Faerie Fire|XPHB",
-							"Longstrider|XPHB"
+							"妖火|XPHB",
+							"大步奔行|XPHB"
 						],
 						"s2": [
-							"Locate Animals or Plants|XPHB",
-							"Mind Spike|XPHB"
+							"动植物定位术|XPHB",
+							"心灵尖刺|XPHB"
 						],
 						"s3": [
-							"Clairvoyance|XPHB",
-							"Speak with Plants|XPHB"
+							"鹰眼术|XPHB",
+							"植物交谈|XPHB"
 						],
 						"s4": [
-							"Divination|XPHB",
-							"Locate Creature|XPHB"
+							"预言术|XPHB",
+							"生物定位术|XPHB"
 						],
 						"s5": [
-							"Commune with Nature|XPHB"
+							"问道自然|XPHB"
 						]
 					}
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Hunter's Intuition",
+					"name": "猎手直觉",
 					"type": "entries",
-					"name": "Hunter's Intuition",
 					"entries": [
-						"When you make a Wisdom ({@skill Perception|XPHB} or {@skill Survival|XPHB}) check, you can roll {@dice 1d4} and add the number rolled to the ability check."
+						"当你进行一次感知（{@skill 察觉|XPHB}或{@skill 求生|XPHB}）检定时，你可以投掷{@dice 1d4}并将骰出的数值添加到该属性检定中。"
 					]
 				},
 				{
+					"ENG_name": "Finder's Magic",
+					"name": "探寻魔法",
 					"type": "entries",
-					"name": "Finder's Magic",
 					"entries": [
-						"You always have the {@spell Hunter's Mark|XPHB} spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast it using any spell slots you have. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this feat).",
-						"When you reach character level 3, you also always have the {@spell Locate Object|XPHB} spell prepared and can cast it the same way."
+						"你总是准备了{@spell 猎人印记|XPHB}法术。你可以无需法术位施放该法术一次，并且当你完成一次{@variantrule 长休|XPHB}后恢复以此方式施放它的能力。你也可以使用你拥有的任何法术位来施放它。智力、感知或魅力是这些法术的施法属性（在选择此专长时选择）。",
+						"当你达到角色等级3时，你还总是准备了{@spell 物件定位术|XPHB}法术并能以同样的方式施放它。"
 					]
 				},
 				{
+					"ENG_name": "Spells of the Mark",
+					"name": "龙纹法术",
 					"type": "entries",
-					"name": "Spells of the Mark",
 					"entries": [
-						"If you have the Spellcasting or Pact Magic feature, the spells on the Mark of Finding Spells table are added to that feature's spell list.",
+						"如果你拥有施法或契约魔法特性，探寻龙纹法术列表中的法术将被添加到该特性的法术列表中。",
 						{
 							"type": "table",
-							"caption": "Mark of Finding Spells",
+							"caption": "探寻龙纹法术",
 							"page": 10,
 							"colLabels": [
-								"Spell Level",
-								"Spells"
+								"法术环阶",
+								"法术"
 							],
 							"colStyles": [
 								"col-3 text-center",
@@ -2429,23 +2540,23 @@
 							"rows": [
 								[
 									"1",
-									"{@spell Faerie Fire|XPHB}, {@spell Longstrider|XPHB}"
+									"{@spell 妖火|XPHB}, {@spell 大步奔行|XPHB}"
 								],
 								[
 									"2",
-									"{@spell Locate Animals or Plants|XPHB}, {@spell Mind Spike|XPHB}"
+									"{@spell 动植物定位术|XPHB}, {@spell 心灵尖刺|XPHB}"
 								],
 								[
 									"3",
-									"{@spell Clairvoyance|XPHB}, {@spell Speak with Plants|XPHB}"
+									"{@spell 鹰眼术|XPHB}, {@spell 植物交谈|XPHB}"
 								],
 								[
 									"4",
-									"{@spell Divination|XPHB}, {@spell Locate Creature|XPHB}"
+									"{@spell 预言术|XPHB}, {@spell 生物定位术|XPHB}"
 								],
 								[
 									"5",
-									"{@spell Commune with Nature|XPHB}"
+									"{@spell 问道自然|XPHB}"
 								]
 							]
 						}
@@ -2454,17 +2565,18 @@
 			]
 		},
 		{
-			"name": "Mark of Handling",
+			"ENG_name": "Mark of Handling",
+			"name": "畜牧龙纹",
 			"source": "XUA2025EberronUpdates",
 			"page": 10,
 			"reprintedAs": [
-				"Mark of Handling|EFA"
+				"畜牧龙纹|EFA"
 			],
 			"category": "D",
 			"prerequisite": [
 				{
 					"campaign": [
-						"Eberron"
+						"艾伯伦"
 					],
 					"exclusiveFeatCategory": [
 						"D"
@@ -2484,70 +2596,74 @@
 						"_": {
 							"daily": {
 								"1e": [
-									"Animal Friendship|XPHB",
-									"Speak with Animals|XPHB"
+									"化兽为友|XPHB",
+									"动物交谈|XPHB"
 								]
 							}
 						}
 					},
 					"expanded": {
 						"s1": [
-							"Command|XPHB",
-							"Find Familiar|XPHB"
+							"命令术|XPHB",
+							"寻获魔宠|XPHB"
 						],
 						"s2": [
-							"Beast Sense|XPHB",
-							"Calm Emotions|XPHB"
+							"野兽感官|XPHB",
+							"安定心神|XPHB"
 						],
 						"s3": [
-							"Beacon of Hope|XPHB",
-							"Conjure Animals|XPHB"
+							"希望信标|XPHB",
+							"咒唤兽群|XPHB"
 						],
 						"s4": [
-							"Aura of Life|XPHB",
-							"Dominate Beast|XPHB"
+							"生命灵光|XPHB",
+							"支配野兽|XPHB"
 						],
 						"s5": [
-							"Awaken|XPHB"
+							"启蒙术|XPHB"
 						]
 					}
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Wild Intuition",
+					"name": "野性直觉",
 					"type": "entries",
-					"name": "Wild Intuition",
 					"entries": [
-						"When you make an Intelligence ({@skill Nature|XPHB}) or Wisdom ({@skill Animal Handling|XPHB}) check, you can roll {@dice 1d4} and add the number rolled to the ability check."
+						"当你进行一次智力（{@skill 自然|XPHB}）或感知（{@skill 驯兽|XPHB}）检定时，你可以投掷{@dice 1d4}并将掷出的数值添加到该属性检定中。"
 					]
 				},
 				{
+					"ENG_name": "Primal Connection",
+					"name": "原初联结",
 					"type": "entries",
-					"name": "Primal Connection",
 					"entries": [
-						"You always have the {@spell Animal Friendship|XPHB} and {@spell Speak with Animals|XPHB} spells prepared. You can cast each spell once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast these spells using any spell slots you have. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this feat)."
+						"你总是已准备{@spell 化兽为友|XPHB}和{@spell 动物交谈|XPHB}法术。你可以无需法术位施放每个法术一次，并在完成一次{@variantrule 长休|XPHB}后恢复以此方式施放该法术的能力。你也可以使用你拥有的任何法术位来施放这些法术。智力、感知或魅力是这些法术的施法属性（在选择此专长时选择）。"
 					]
 				},
 				{
+					"ENG_name": "The Bigger They Are",
+					"name": "大点而已",
 					"type": "entries",
-					"name": "The Bigger They Are",
 					"entries": [
-						"When you reach character level 3, you can target a Monstrosity when you cast {@spell Animal Friendship|XPHB} or {@spell Speak with Animals|XPHB} if the creature's Intelligence score is 3 or lower."
+						"当你达到角色等级3时，若生物的智力值为3或更低，你可以在施放{@spell 化兽为友|XPHB}或{@spell 动物交谈|XPHB}时以怪兽为目标。"
 					]
 				},
 				{
+					"ENG_name": "Spells of the Mark",
+					"name": "龙纹法术",
 					"type": "entries",
-					"name": "Spells of the Mark",
 					"entries": [
-						"If you have the Spellcasting or Pact Magic feature, the spells on the Mark of Handling Spells table are added to that feature's spell list.",
+						"如果你拥有施法或契约魔法特性，畜牧龙纹法术列表中的法术将被添加到该特性的法术列表中。",
 						{
 							"type": "table",
-							"caption": "Mark of Handling Spells",
+							"caption": "畜牧龙纹法术",
 							"page": 10,
 							"colLabels": [
-								"Spell Level",
-								"Spells"
+								"法术环阶",
+								"法术"
 							],
 							"colStyles": [
 								"col-3 text-center",
@@ -2556,23 +2672,23 @@
 							"rows": [
 								[
 									"1",
-									"{@spell Command|XPHB}, {@spell Find Familiar|XPHB}"
+									"{@spell 命令术|XPHB}, {@spell 寻获魔宠|XPHB}"
 								],
 								[
 									"2",
-									"{@spell Beast Sense|XPHB}, {@spell Calm Emotions|XPHB}"
+									"{@spell 野兽感官|XPHB}, {@spell 安定心神|XPHB}"
 								],
 								[
 									"3",
-									"{@spell Beacon of Hope|XPHB}, {@spell Conjure Animals|XPHB}"
+									"{@spell 希望信标|XPHB}, {@spell 咒唤兽群|XPHB}"
 								],
 								[
 									"4",
-									"{@spell Aura of Life|XPHB}, {@spell Dominate Beast|XPHB}"
+									"{@spell 生命灵光|XPHB}, {@spell 支配野兽|XPHB}"
 								],
 								[
 									"5",
-									"{@spell Awaken|XPHB}"
+									"{@spell 启蒙术|XPHB}"
 								]
 							]
 						}
@@ -2581,17 +2697,18 @@
 			]
 		},
 		{
-			"name": "Mark of Healing",
+			"ENG_name": "Mark of Healing",
+			"name": "医疗龙纹",
 			"source": "XUA2025EberronUpdates",
 			"page": 10,
 			"reprintedAs": [
-				"Mark of Healing|EFA"
+				"医疗龙纹|EFA"
 			],
 			"category": "D",
 			"prerequisite": [
 				{
 					"campaign": [
-						"Eberron"
+						"艾伯伦"
 					],
 					"exclusiveFeatCategory": [
 						"D"
@@ -2611,70 +2728,73 @@
 						"3": {
 							"daily": {
 								"1e": [
-									"Lesser Restoration|XPHB"
+									"次等复原术|XPHB"
 								]
 							}
 						},
 						"_": {
 							"daily": {
 								"1e": [
-									"Cure Wounds|XPHB"
+									"疗伤术|XPHB"
 								]
 							}
 						}
 					},
 					"expanded": {
 						"s1": [
-							"False Life|XPHB",
-							"Healing Word|XPHB"
+							"虚假生命|XPHB",
+							"治愈真言|XPHB"
 						],
 						"s2": [
-							"Arcane Vigor|XPHB",
-							"Prayer of Healing|XPHB"
+							"复苏秘法|XPHB",
+							"治疗祷言|XPHB"
 						],
 						"s3": [
-							"Aura of Vitality|XPHB",
-							"Mass Healing Word|XPHB"
+							"活力灵光|XPHB",
+							"群体治愈真言|XPHB"
 						],
 						"s4": [
-							"Aura of Life|XPHB",
-							"Aura of Purity|XPHB"
+							"生命灵光|XPHB",
+							"净化灵光|XPHB"
 						],
 						"s5": [
-							"Greater Restoration|XPHB"
+							"高等复原术|XPHB"
 						]
 					}
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Medical Intuition",
+					"name": "医学直觉",
 					"type": "entries",
-					"name": "Medical Intuition",
 					"entries": [
-						"When you make an Intelligence ({@item Herbalism Kit|XPHB}) or Wisdom ({@skill Medicine|XPHB}) check, you can roll {@dice 1d4} and add the number rolled to the ability check."
+						"当你进行智力（{@item 草药工具|XPHB}）或感知（{@skill 医药|XPHB}）检定时，你可以掷{@dice 1d4}并将掷骰结果添加到属性检定中。"
 					]
 				},
 				{
+					"ENG_name": "Healing Touch",
+					"name": "治愈之触",
 					"type": "entries",
-					"name": "Healing Touch",
 					"entries": [
-						"You always have the {@spell Cure Wounds|XPHB} spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast it using any spell slots you have. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this feat).",
-						"When you reach character level 3, you also always have the {@spell Lesser Restoration|XPHB} spell prepared and can cast it the same way."
+						"你总是准备了{@spell 疗伤术|XPHB}法术。你可以无需法术位施放该法术一次，并且当你完成一次{@variantrule 长休|XPHB}后恢复以此方式施放该法术的能力。你也可以使用你拥有的任何法术位来施放它。智力、感知或魅力是这些法术的施法属性（在选择此专长时选择）。",
+						"当你达到角色等级3时，你还总是准备了{@spell 次等复原术|XPHB}法术并能以同样的方式施放它。"
 					]
 				},
 				{
+					"ENG_name": "Spells of the Mark",
+					"name": "龙纹法术",
 					"type": "entries",
-					"name": "Spells of the Mark",
 					"entries": [
-						"If you have the Spellcasting or Pact Magic feature, the spells on the Mark of Healing Spells table are added to that feature's spell list.",
+						"如果你拥有施法或契约魔法特性，医疗龙纹法术列表中的法术将被添加到该特性的法术列表中。",
 						{
 							"type": "table",
-							"caption": "Mark of Healing Spells",
+							"caption": "医疗龙纹法术",
 							"page": 10,
 							"colLabels": [
-								"Spell Level",
-								"Spells"
+								"法术环阶",
+								"法术"
 							],
 							"colStyles": [
 								"col-3 text-center",
@@ -2683,23 +2803,23 @@
 							"rows": [
 								[
 									"1",
-									"{@spell False Life|XPHB}, {@spell Healing Word|XPHB}"
+									"{@spell 虚假生命|XPHB}, {@spell 治愈真言|XPHB}"
 								],
 								[
 									"2",
-									"{@spell Arcane Vigor|XPHB}, {@spell Prayer of Healing|XPHB}"
+									"{@spell 复苏秘法|XPHB}, {@spell 治疗祷言|XPHB}"
 								],
 								[
 									"3",
-									"{@spell Aura of Vitality|XPHB}, {@spell Mass Healing Word|XPHB}"
+									"{@spell 活力灵光|XPHB}, {@spell 群体治愈真言|XPHB}"
 								],
 								[
 									"4",
-									"{@spell Aura of Life|XPHB}, {@spell Aura of Purity|XPHB}"
+									"{@spell 生命灵光|XPHB}, {@spell 净化灵光|XPHB}"
 								],
 								[
 									"5",
-									"{@spell Greater Restoration|XPHB}"
+									"{@spell 高等复原术|XPHB}"
 								]
 							]
 						}
@@ -2708,17 +2828,18 @@
 			]
 		},
 		{
-			"name": "Mark of Hospitality",
+			"ENG_name": "Mark of Hospitality",
+			"name": "招待龙纹",
 			"source": "XUA2025EberronUpdates",
 			"page": 11,
 			"reprintedAs": [
-				"Mark of Hospitality|EFA"
+				"招待龙纹|EFA"
 			],
 			"category": "D",
 			"prerequisite": [
 				{
 					"campaign": [
-						"Eberron"
+						"艾伯伦"
 					],
 					"exclusiveFeatCategory": [
 						"D"
@@ -2736,70 +2857,73 @@
 					},
 					"known": {
 						"_": [
-							"Prestidigitation|XPHB#c"
+							"魔法伎俩|XPHB#c"
 						]
 					},
 					"prepared": {
 						"_": {
 							"daily": {
 								"1e": [
-									"Purify Food and Drink|XPHB",
-									"Unseen Servant|XPHB"
+									"净化饮食|XPHB",
+									"隐形仆役|XPHB"
 								]
 							}
 						}
 					},
 					"expanded": {
 						"s1": [
-							"Goodberry|XPHB",
-							"Sleep|XPHB"
+							"神莓术|XPHB",
+							"睡眠术|XPHB"
 						],
 						"s2": [
-							"Aid|XPHB",
-							"Calm Emotions|XPHB"
+							"援助术|XPHB",
+							"安定心神|XPHB"
 						],
 						"s3": [
-							"Create Food and Water|XPHB",
-							"Leomund's Tiny Hut|XPHB"
+							"造粮术|XPHB",
+							"李欧蒙小屋|XPHB"
 						],
 						"s4": [
-							"Aura of Purity|XPHB",
-							"Mordenkainen's Private Sanctum|XPHB"
+							"净化灵光|XPHB",
+							"魔邓肯私人密室|XPHB"
 						],
 						"s5": [
-							"Hallow|XPHB"
+							"圣居|XPHB"
 						]
 					}
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Ever Hospitable",
+					"name": "永恒款待",
 					"type": "entries",
-					"name": "Ever Hospitable",
 					"entries": [
-						"When you make a Charisma ({@skill Persuasion|XPHB}) check or an ability check using {@item Brewer's Supplies|XPHB} or {@item Cook's Utensils|XPHB}, you can roll {@dice 1d4} and add the number rolled to the ability check."
+						"当你进行一次魅力（{@skill 游说|XPHB}）检定或使用{@item 酿酒工具|XPHB}或{@item 厨师工具|XPHB}进行属性检定时，你可以掷{@dice 1d4}并将掷骰结果添加到属性检定中。"
 					]
 				},
 				{
+					"ENG_name": "Innkeeper's Magic",
+					"name": "掌柜魔法",
 					"type": "entries",
-					"name": "Innkeeper's Magic",
 					"entries": [
-						"You know the {@spell Prestidigitation|XPHB} cantrip. You also always have the {@spell Purify Food and Drink|XPHB} and {@spell Unseen Servant|XPHB} spells prepared. You can cast each spell once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast these spells using any spell slots you have. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this feat)."
+						"你知晓{@spell 魔法伎俩|XPHB}戏法。你还总是准备了{@spell 净化饮食|XPHB}和{@spell 隐形仆役|XPHB}法术。你可以无需法术位施放每个法术一次，并在完成一次{@variantrule 长休|XPHB}后恢复以此方式施放它的能力。你还可以使用你拥有的任何法术位施放这些法术。智力、感知或魅力是这些法术的施法属性（在选择此专长时选择）。"
 					]
 				},
 				{
+					"ENG_name": "Spells of the Mark",
+					"name": "龙纹法术",
 					"type": "entries",
-					"name": "Spells of the Mark",
 					"entries": [
-						"If you have the Spellcasting or Pact Magic feature, the spells on the Mark of Hospitality Spells table are added to that feature's spell list.",
+						"如果你拥有施法或契约魔法特性，招待龙纹法术列表中的法术将被添加到该特性的法术列表中。",
 						{
 							"type": "table",
-							"caption": "Mark of Hospitality Spells",
+							"caption": "招待龙纹法术",
 							"page": 11,
 							"colLabels": [
-								"Spell Level",
-								"Spells"
+								"法术环阶",
+								"法术"
 							],
 							"colStyles": [
 								"col-3 text-center",
@@ -2808,23 +2932,23 @@
 							"rows": [
 								[
 									"1",
-									"{@spell Goodberry|XPHB}, {@spell Sleep|XPHB}"
+									"{@spell 神莓术|XPHB}, {@spell 睡眠术|XPHB}"
 								],
 								[
 									"2",
-									"{@spell Aid|XPHB}, {@spell Calm Emotions|XPHB}"
+									"{@spell 援助术|XPHB}, {@spell 安定心神|XPHB}"
 								],
 								[
 									"3",
-									"{@spell Create Food and Water|XPHB}, {@spell Leomund's Tiny Hut|XPHB}"
+									"{@spell 造粮术|XPHB}, {@spell 李欧蒙小屋|XPHB}"
 								],
 								[
 									"4",
-									"{@spell Aura of Purity|XPHB}, {@spell Mordenkainen's Private Sanctum|XPHB}"
+									"{@spell 净化灵光|XPHB}, {@spell 魔邓肯私人密室|XPHB}"
 								],
 								[
 									"5",
-									"{@spell Hallow|XPHB}"
+									"{@spell 圣居|XPHB}"
 								]
 							]
 						}
@@ -2833,17 +2957,18 @@
 			]
 		},
 		{
-			"name": "Mark of Making",
+			"ENG_name": "Mark of Making",
+			"name": "创造龙纹",
 			"source": "XUA2025EberronUpdates",
 			"page": 11,
 			"reprintedAs": [
-				"Mark of Making|EFA"
+				"创造龙纹|EFA"
 			],
 			"category": "D",
 			"prerequisite": [
 				{
 					"campaign": [
-						"Eberron"
+						"艾伯伦"
 					],
 					"exclusiveFeatCategory": [
 						"D"
@@ -2861,69 +2986,72 @@
 					},
 					"known": {
 						"_": [
-							"mending|XPHB#c"
+							"修复术|XPHB#c"
 						]
 					},
 					"prepared": {
 						"_": {
 							"daily": {
 								"1e": [
-									"Magic Weapon|XPHB"
+									"魔化武器|XPHB"
 								]
 							}
 						}
 					},
 					"expanded": {
 						"s1": [
-							"Identify|XPHB",
-							"Tenser's Floating Disk|XPHB"
+							"鉴定术|XPHB",
+							"谭森浮碟术|XPHB"
 						],
 						"s2": [
-							"Continual Flame|XPHB",
-							"Spiritual Weapon|XPHB"
+							"不灭明焰|XPHB",
+							"灵体武器|XPHB"
 						],
 						"s3": [
-							"Conjure Barrage|XPHB",
-							"Elemental Weapon|XPHB"
+							"箭如雨下|XPHB",
+							"元素武器|XPHB"
 						],
 						"s4": [
-							"Fabricate|XPHB",
-							"Stone Shape|XPHB"
+							"鬼斧神工|XPHB",
+							"塑石术|XPHB"
 						],
 						"s5": [
-							"Creation|XPHB"
+							"造物术|XPHB"
 						]
 					}
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Artisan's Intuition",
+					"name": "工匠直觉",
 					"type": "entries",
-					"name": "Artisan's Intuition",
 					"entries": [
-						"When you make an Intelligence ({@skill Arcana|XPHB}) check or an ability check using {@item Artisan's Tools|XPHB}, you can roll {@dice 1d4} and add the number rolled to the ability check."
+						"当你进行一次智力（{@skill 奥秘|XPHB}）检定或使用{@item 工匠工具|XPHB}进行属性检定时，你可以掷{@dice 1d4}并将掷出的数值添加到属性检定中。"
 					]
 				},
 				{
+					"ENG_name": "Spellsmith",
+					"name": "魔力制造",
 					"type": "entries",
-					"name": "Spellsmith",
 					"entries": [
-						"You know the {@spell Mending|XPHB} cantrip. You also always have the {@spell Magic Weapon|XPHB} spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast it using any spell slots you have. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this feat)."
+						"你知晓{@spell 修复术|XPHB}戏法。你还总是准备了{@spell 魔化武器|XPHB}法术。你可以无需法术位施放该法术一次，并且当你完成一次{@variantrule 长休|XPHB}后恢复以此方式施放它的能力。你也可以使用你拥有的任何法术位来施放它。智力、感知或魅力是你施放这些法术的施法属性（在选择此专长时选择）。"
 					]
 				},
 				{
+					"ENG_name": "Spells of the Mark",
+					"name": "龙纹法术",
 					"type": "entries",
-					"name": "Spells of the Mark",
 					"entries": [
-						"If you have the Spellcasting or Pact Magic feature, the spells on the Mark of Making Spells table are added to that feature's spell list.",
+						"如果你拥有施法或契约魔法特性，创造龙纹法术列表中的法术将被添加到该特性的法术列表中。",
 						{
 							"type": "table",
-							"caption": "Mark of Making Spells",
+							"caption": "创造龙纹法术",
 							"page": 11,
 							"colLabels": [
-								"Spell Level",
-								"Spells"
+								"法术环阶",
+								"法术"
 							],
 							"colStyles": [
 								"col-3 text-center",
@@ -2932,23 +3060,23 @@
 							"rows": [
 								[
 									"1",
-									"{@spell Identify|XPHB}, {@spell Tenser's Floating Disk|XPHB}"
+									"{@spell 鉴定术|XPHB}, {@spell 谭森浮碟术|XPHB}"
 								],
 								[
 									"2",
-									"{@spell Continual Flame|XPHB}, {@spell Spiritual Weapon|XPHB}"
+									"{@spell 不灭明焰|XPHB}, {@spell 灵体武器|XPHB}"
 								],
 								[
 									"3",
-									"{@spell Conjure Barrage|XPHB}, {@spell Elemental Weapon|XPHB}"
+									"{@spell 箭如雨下|XPHB}, {@spell 元素武器|XPHB}"
 								],
 								[
 									"4",
-									"{@spell Fabricate|XPHB}, {@spell Stone Shape|XPHB}"
+									"{@spell 鬼斧神工|XPHB}, {@spell 塑石术|XPHB}"
 								],
 								[
 									"5",
-									"{@spell Creation|XPHB}"
+									"{@spell 造物术|XPHB}"
 								]
 							]
 						}
@@ -2957,17 +3085,18 @@
 			]
 		},
 		{
-			"name": "Mark of Passage",
+			"ENG_name": "Mark of Passage",
+			"name": "通行龙纹",
 			"source": "XUA2025EberronUpdates",
 			"page": 11,
 			"reprintedAs": [
-				"Mark of Passage|EFA"
+				"通行龙纹|EFA"
 			],
 			"category": "D",
 			"prerequisite": [
 				{
 					"campaign": [
-						"Eberron"
+						"艾伯伦"
 					],
 					"exclusiveFeatCategory": [
 						"D"
@@ -2987,69 +3116,73 @@
 						"_": {
 							"daily": {
 								"1e": [
-									"Misty Step|XPHB"
+									"迷踪步|XPHB"
 								]
 							}
 						}
 					},
 					"expanded": {
 						"s1": [
-							"Expeditious Retreat|XPHB",
-							"Jump|XPHB"
+							"脚底抹油|XPHB",
+							"跳跃术|XPHB"
 						],
 						"s2": [
-							"Pass without Trace|XPHB",
-							"Find Steed|XPHB"
+							"行动无踪|XPHB",
+							"寻获坐骑|XPHB"
 						],
 						"s3": [
-							"Blink|XPHB",
-							"Phantom Steed|XPHB"
+							"闪现术|XPHB",
+							"魅影驹|XPHB"
 						],
 						"s4": [
-							"Dimension Door|XPHB",
-							"Freedom of Movement|XPHB"
+							"任意门|XPHB",
+							"行动自如|XPHB"
 						],
 						"s5": [
-							"Teleportation Circle|XPHB"
+							"传送法阵|XPHB"
 						]
 					}
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Courier's Speed",
+					"name": "信使极速",
 					"type": "entries",
-					"name": "Courier's Speed",
 					"entries": [
-						"Your {@variantrule Speed|XPHB} increases by 5 feet."
+						"你的{@variantrule 速度|XPHB}增加5尺。"
 					]
 				},
 				{
+					"ENG_name": "Intuitive Motion",
+					"name": "直觉行动",
 					"type": "entries",
-					"name": "Intuitive Motion",
 					"entries": [
-						"When you make a Strength ({@skill Athletics|XPHB}) or Dexterity ({@skill Acrobatics|XPHB}) check, you can roll {@dice 1d4} and add the number rolled to the ability check."
+						"当你进行力量（{@skill 运动|XPHB}）或敏捷（{@skill 特技|XPHB}）检定时，你可以掷{@dice 1d4}并将骰出的数值添加到属性检定中。"
 					]
 				},
 				{
+					"ENG_name": "Magical Passage",
+					"name": "魔法通行",
 					"type": "entries",
-					"name": "Magical Passage",
 					"entries": [
-						"You always have the {@spell Misty Step|XPHB} spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast it using any spell slots you have. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat)."
+						"你总是准备了{@spell 迷踪步|XPHB}法术。你可以无需法术位施放该法术一次，并且当你完成一次{@variantrule 长休|XPHB}后恢复以此方式施放它的能力。你也可以使用你拥有的任何法术位来施放它。智力、感知或魅力是你施放该法术的施法属性（在选择此专长时选择）。"
 					]
 				},
 				{
+					"ENG_name": "Spells of the Mark",
+					"name": "龙纹法术",
 					"type": "entries",
-					"name": "Spells of the Mark",
 					"entries": [
-						"If you have the Spellcasting or Pact Magic feature, the spells on the Mark of Passage Spells table are added to that feature's spell list.",
+						"如果你拥有施法或契约魔法特性，通行龙纹法术列表中的法术将被添加到该特性的法术列表中。",
 						{
 							"type": "table",
-							"caption": "Mark of Passage Spells",
+							"caption": "通行龙纹法术",
 							"page": 11,
 							"colLabels": [
-								"Spell Level",
-								"Spells"
+								"法术环阶",
+								"法术"
 							],
 							"colStyles": [
 								"col-3 text-center",
@@ -3058,23 +3191,23 @@
 							"rows": [
 								[
 									"1",
-									"{@spell Expeditious Retreat|XPHB}, {@spell Jump|XPHB}"
+									"{@spell 脚底抹油|XPHB}, {@spell 跳跃术|XPHB}"
 								],
 								[
 									"2",
-									"{@spell Pass without Trace|XPHB}, {@spell Find Steed|XPHB}"
+									"{@spell 行动无踪|XPHB}, {@spell 寻获坐骑|XPHB}"
 								],
 								[
 									"3",
-									"{@spell Blink|XPHB}, {@spell Phantom Steed|XPHB}"
+									"{@spell 闪现术|XPHB}, {@spell 魅影驹|XPHB}"
 								],
 								[
 									"4",
-									"{@spell Dimension Door|XPHB}, {@spell Freedom of Movement|XPHB}"
+									"{@spell 任意门|XPHB}, {@spell 行动自如|XPHB}"
 								],
 								[
 									"5",
-									"{@spell Teleportation Circle|XPHB}"
+									"{@spell 传送法阵|XPHB}"
 								]
 							]
 						}
@@ -3083,17 +3216,18 @@
 			]
 		},
 		{
-			"name": "Mark of Scribing",
+			"ENG_name": "Mark of Scribing",
+			"name": "抄录龙纹",
 			"source": "XUA2025EberronUpdates",
 			"page": 11,
 			"reprintedAs": [
-				"Mark of Scribing|EFA"
+				"抄录龙纹|EFA"
 			],
 			"category": "D",
 			"prerequisite": [
 				{
 					"campaign": [
-						"Eberron"
+						"艾伯伦"
 					],
 					"exclusiveFeatCategory": [
 						"D"
@@ -3111,77 +3245,80 @@
 					},
 					"known": {
 						"_": [
-							"Message|XPHB#c"
+							"传讯术|XPHB#c"
 						]
 					},
 					"prepared": {
 						"3": {
 							"daily": {
 								"1e": [
-									"Magic Mouth|XPHB"
+									"魔嘴术|XPHB"
 								]
 							}
 						},
 						"_": {
 							"daily": {
 								"1e": [
-									"Comprehend Languages|XPHB"
+									"通晓语言|XPHB"
 								]
 							}
 						}
 					},
 					"expanded": {
 						"s1": [
-							"Command|XPHB",
-							"Illusory Script|XPHB"
+							"命令术|XPHB",
+							"迷幻手稿|XPHB"
 						],
 						"s2": [
-							"Animal Messenger|XPHB",
-							"Silence|XPHB"
+							"动物信使|XPHB",
+							"沉默术|XPHB"
 						],
 						"s3": [
-							"Sending|XPHB",
-							"Tongues|XPHB"
+							"短讯术|XPHB",
+							"巧言术|XPHB"
 						],
 						"s4": [
-							"Arcane Eye|XPHB",
-							"Confusion|XPHB"
+							"秘法眼|XPHB",
+							"困惑术|XPHB"
 						],
 						"s5": [
-							"Dream|XPHB"
+							"托梦术|XPHB"
 						]
 					}
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Gifted Scribe",
+					"name": "天才文员",
 					"type": "entries",
-					"name": "Gifted Scribe",
 					"entries": [
-						"When you make an Intelligence ({@skill History|XPHB}) check or an ability check using {@item Calligrapher's Supplies|XPHB}, you can roll {@dice 1d4} and add the number rolled to the ability check."
+						"当你进行一次智力（{@skill 历史|XPHB}）检定或使用{@item 书法工具|XPHB}进行一次属性检定时，你可以投掷{@dice 1d4}并将掷出的数值添加到该属性检定中。"
 					]
 				},
 				{
+					"ENG_name": "Scribe's Insight",
+					"name": "文员洞见",
 					"type": "entries",
-					"name": "Scribe's Insight",
 					"entries": [
-						"You know the {@spell Message|XPHB} cantrip. You also always have the {@spell Comprehend Languages|XPHB} spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast it using any spell slots you have. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this feat).",
-						"When you reach character level 3, you also always have the {@spell Magic Mouth|XPHB} spell prepared and can cast it the same way."
+						"你知晓戏法{@spell 传讯术|XPHB}。你还总是准备着法术{@spell 通晓语言|XPHB}。你可以无需法术位施放它一次，并且当你完成一次{@variantrule 长休|XPHB}后恢复以此方式施放它的能力。你也可以使用你拥有的任何法术位来施放它。智力、感知或魅力是这些法术的施法属性（当你选择此专长时选择）。",
+						"当你达到角色等级3时，你还总是准备着{@spell 魔嘴术|XPHB}法术并能以同样的方式施放它。"
 					]
 				},
 				{
+					"ENG_name": "Spells of the Mark",
+					"name": "龙纹法术",
 					"type": "entries",
-					"name": "Spells of the Mark",
 					"entries": [
-						"If you have the Spellcasting or Pact Magic feature, the spells on the Mark of Scribing Spells table are added to that feature's spell list.",
+						"如果你拥有施法或契约魔法特性，抄录龙纹法术列表中的法术将被添加到该特性的法术列表中。",
 						{
 							"type": "table",
-							"caption": "Mark of Scribing Spells",
+							"caption": "抄录龙纹法术",
 							"page": 12,
 							"colLabels": [
-								"Spell Level",
-								"Spells"
+								"法术环阶",
+								"法术"
 							],
 							"colStyles": [
 								"col-3 text-center",
@@ -3190,23 +3327,23 @@
 							"rows": [
 								[
 									"1",
-									"{@spell Command|XPHB}, {@spell Illusory Script|XPHB}"
+									"{@spell 命令术|XPHB}, {@spell 迷幻手稿|XPHB}"
 								],
 								[
 									"2",
-									"{@spell Animal Messenger|XPHB}, {@spell Silence|XPHB}"
+									"{@spell 动物信使|XPHB}, {@spell 沉默术|XPHB}"
 								],
 								[
 									"3",
-									"{@spell Sending|XPHB}, {@spell Tongues|XPHB}"
+									"{@spell 短讯术|XPHB}, {@spell 巧言术|XPHB}"
 								],
 								[
 									"4",
-									"{@spell Arcane Eye|XPHB}, {@spell Confusion|XPHB}"
+									"{@spell 秘法眼|XPHB}, {@spell 困惑术|XPHB}"
 								],
 								[
 									"5",
-									"{@spell Dream|XPHB}"
+									"{@spell 托梦术|XPHB}"
 								]
 							]
 						}
@@ -3215,17 +3352,18 @@
 			]
 		},
 		{
-			"name": "Mark of Sentinel",
+			"ENG_name": "Mark of Sentinel",
+			"name": "哨戒龙纹",
 			"source": "XUA2025EberronUpdates",
 			"page": 12,
 			"reprintedAs": [
-				"Mark of Sentinel|EFA"
+				"哨戒龙纹|EFA"
 			],
 			"category": "D",
 			"prerequisite": [
 				{
 					"campaign": [
-						"Eberron"
+						"艾伯伦"
 					],
 					"exclusiveFeatCategory": [
 						"D"
@@ -3245,69 +3383,73 @@
 						"_": {
 							"daily": {
 								"1e": [
-									"Shield|XPHB"
+									"护盾术|XPHB"
 								]
 							}
 						}
 					},
 					"expanded": {
 						"s1": [
-							"Compelled Duel|XPHB",
-							"Shield of Faith|XPHB"
+							"强令对决|XPHB",
+							"虔诚护盾|XPHB"
 						],
 						"s2": [
-							"Warding Bond|XPHB",
-							"Zone of Truth|XPHB"
+							"守护之链|XPHB",
+							"诚实之域|XPHB"
 						],
 						"s3": [
-							"Counterspell|XPHB",
-							"Protection from Energy|XPHB"
+							"法术反制|XPHB",
+							"防护能量|XPHB"
 						],
 						"s4": [
-							"Death Ward|XPHB",
-							"Guardian of Faith|XPHB"
+							"防死结界|XPHB",
+							"信仰守卫|XPHB"
 						],
 						"s5": [
-							"Bigby's Hand|XPHB"
+							"毕格比之手|XPHB"
 						]
 					}
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Sentinel's Intuition",
+					"name": "哨戒直觉",
 					"type": "entries",
-					"name": "Sentinel's Intuition",
 					"entries": [
-						"When you make a Wisdom ({@skill Insight|XPHB} or {@skill Perception|XPHB}) check, you can roll {@dice 1d4} and add the number rolled to the ability check."
+						"当你进行一次感知（{@skill 洞悉|XPHB}或{@skill 察觉|XPHB}）检定时，你可以投掷{@dice 1d4}并将掷骰结果添加到该属性检定中。"
 					]
 				},
 				{
+					"ENG_name": "Guardian's Shield",
+					"name": "卫护之盾",
 					"type": "entries",
-					"name": "Guardian's Shield",
 					"entries": [
-						"You always have the {@spell Shield|XPHB} spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast it using any spell slots you have. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this feat)."
+						"你总是准备了{@spell 护盾术|XPHB}法术。你可以无需法术位施放它一次，并且当你完成一次{@variantrule 长休|XPHB}后恢复以此方式施放它的能力。你也可以使用你拥有的任何法术位来施放它。智力、感知或魅力是这些法术的施法属性（在选择此专长时选择）。"
 					]
 				},
 				{
+					"ENG_name": "Vigilant Guardian",
+					"name": "警戒哨卫",
 					"type": "entries",
-					"name": "Vigilant Guardian",
 					"entries": [
-						"When a creature you can see within 5 feet of you is hit by an attack roll, you can take a {@variantrule Reaction|XPHB} to swap places with that creature, and you are hit by the attack instead. Once you use this feature, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+						"当一个你5尺内能看见的生物被攻击检定命中时，你可以使用一个{@variantrule 反应|XPHB}来与该生物交换位置，并由你承受该攻击。一旦你使用了此特性，直到你完成一次{@variantrule 长休|XPHB}前你无法再次使用。"
 					]
 				},
 				{
+					"ENG_name": "Spells of the Mark",
+					"name": "龙纹法术",
 					"type": "entries",
-					"name": "Spells of the Mark",
 					"entries": [
-						"If you have the Spellcasting or Pact Magic feature, the spells on the Mark of Sentinel Spells table are added to that feature's spell list.",
+						"如果你拥有施法或契约魔法特性，哨戒龙纹法术列表中的法术将被添加到该特性的法术列表中。",
 						{
 							"type": "table",
-							"caption": "Mark of Sentinel Spells",
+							"caption": "哨戒龙纹法术",
 							"page": 12,
 							"colLabels": [
-								"Spell Level",
-								"Spells"
+								"法术环阶",
+								"法术"
 							],
 							"colStyles": [
 								"col-3 text-center",
@@ -3316,23 +3458,23 @@
 							"rows": [
 								[
 									"1",
-									"{@spell Compelled Duel|XPHB}, {@spell Shield of Faith|XPHB}"
+									"{@spell 强令对决|XPHB}, {@spell 虔诚护盾|XPHB}"
 								],
 								[
 									"2",
-									"{@spell Warding Bond|XPHB}, {@spell Zone of Truth|XPHB}"
+									"{@spell 守护之链|XPHB}, {@spell 诚实之域|XPHB}"
 								],
 								[
 									"3",
-									"{@spell Counterspell|XPHB}, {@spell Protection from Energy|XPHB}"
+									"{@spell 法术反制|XPHB}, {@spell 防护能量|XPHB}"
 								],
 								[
 									"4",
-									"{@spell Death Ward|XPHB}, {@spell Guardian of Faith|XPHB}"
+									"{@spell 防死结界|XPHB}, {@spell 信仰守卫|XPHB}"
 								],
 								[
 									"5",
-									"{@spell Bigby's Hand|XPHB}"
+									"{@spell 毕格比之手|XPHB}"
 								]
 							]
 						}
@@ -3341,17 +3483,18 @@
 			]
 		},
 		{
-			"name": "Mark of Shadow",
+			"ENG_name": "Mark of Shadow",
+			"name": "阴影龙纹",
 			"source": "XUA2025EberronUpdates",
 			"page": 12,
 			"reprintedAs": [
-				"Mark of Shadow|EFA"
+				"阴影龙纹|EFA"
 			],
 			"category": "D",
 			"prerequisite": [
 				{
 					"campaign": [
-						"Eberron"
+						"艾伯伦"
 					],
 					"exclusiveFeatCategory": [
 						"D"
@@ -3369,69 +3512,72 @@
 					},
 					"known": {
 						"_": [
-							"Minor Illusion|XPHB#c"
+							"次级幻象|XPHB#c"
 						]
 					},
 					"prepared": {
 						"_": {
 							"daily": {
 								"1e": [
-									"Invisibility|XPHB"
+									"隐形术|XPHB"
 								]
 							}
 						}
 					},
 					"expanded": {
 						"s1": [
-							"Disguise Self|XPHB",
-							"Silent Image|XPHB"
+							"易容术|XPHB",
+							"无声幻影|XPHB"
 						],
 						"s2": [
-							"Darkness|XPHB",
-							"Pass without Trace|XPHB"
+							"黑暗术|XPHB",
+							"行动无踪|XPHB"
 						],
 						"s3": [
-							"Clairvoyance|XPHB",
-							"Major Image|XPHB"
+							"鹰眼术|XPHB",
+							"高等幻影|XPHB"
 						],
 						"s4": [
-							"Greater Invisibility|XPHB",
-							"Hallucinatory Terrain|XPHB"
+							"高等隐形术|XPHB",
+							"幻景|XPHB"
 						],
 						"s5": [
-							"Mislead|XPHB"
+							"假象术|XPHB"
 						]
 					}
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Cunning Intuition",
+					"name": "狡黠直觉",
 					"type": "entries",
-					"name": "Cunning Intuition",
 					"entries": [
-						"When you make a Dexterity ({@skill Stealth|XPHB}) or Charisma ({@skill Performance|XPHB}) check, you can roll {@dice 1d4} and add the number rolled to the ability check."
+						"当你进行一次敏捷（{@skill 隐匿|XPHB}）或魅力（{@skill 表演|XPHB}）检定时，你可以投掷{@dice 1d4}并将骰出的数值添加到该属性检定中。"
 					]
 				},
 				{
+					"ENG_name": "Shape Shadows",
+					"name": "阴影塑形",
 					"type": "entries",
-					"name": "Shape Shadows",
 					"entries": [
-						"You know the {@spell Minor Illusion|XPHB} cantrip. You also always have the {@spell Invisibility|XPHB} spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast it using any spell slots you have. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this feat)."
+						"你知晓{@spell 次级幻象|XPHB}戏法。你还始终准备了{@spell 隐形术|XPHB}法术。你可以无需法术位施放该法术一次，并且当你完成一次{@variantrule 长休|XPHB}后恢复以此方式施放它的能力。你也可以使用你所拥有的任何法术位来施放它。智力、感知或魅力是这些法术的施法属性（在选择此专长时选择）。"
 					]
 				},
 				{
+					"ENG_name": "Spells of the Mark",
+					"name": "龙纹法术",
 					"type": "entries",
-					"name": "Spells of the Mark",
 					"entries": [
-						"If you have the Spellcasting or Pact Magic feature, the spells on the Mark of Shadow Spells table are added to that feature's spell list.",
+						"如果你拥有施法或契约魔法特性，阴影龙纹法术列表中的法术将被添加到该特性的法术列表中。",
 						{
 							"type": "table",
-							"caption": "Mark of Shadow Spells",
+							"caption": "阴影龙纹法术",
 							"page": 12,
 							"colLabels": [
-								"Spell Level",
-								"Spells"
+								"法术环阶",
+								"法术"
 							],
 							"colStyles": [
 								"col-3 text-center",
@@ -3440,23 +3586,23 @@
 							"rows": [
 								[
 									"1",
-									"{@spell Disguise Self|XPHB}, {@spell Silent Image|XPHB}"
+									"{@spell 易容术|XPHB}, {@spell 无声幻影|XPHB}"
 								],
 								[
 									"2",
-									"{@spell Darkness|XPHB}, {@spell Pass without Trace|XPHB}"
+									"{@spell 黑暗术|XPHB}, {@spell 行动无踪|XPHB}"
 								],
 								[
 									"3",
-									"{@spell Clairvoyance|XPHB}, {@spell Major Image|XPHB}"
+									"{@spell 鹰眼术|XPHB}, {@spell 高等幻影|XPHB}"
 								],
 								[
 									"4",
-									"{@spell Greater Invisibility|XPHB}, {@spell Hallucinatory Terrain|XPHB}"
+									"{@spell 高等隐形术|XPHB}, {@spell 幻景|XPHB}"
 								],
 								[
 									"5",
-									"{@spell Mislead|XPHB}"
+									"{@spell 假象术|XPHB}"
 								]
 							]
 						}
@@ -3465,17 +3611,18 @@
 			]
 		},
 		{
-			"name": "Mark of Storm",
+			"ENG_name": "Mark of Storm",
+			"name": "暴风龙纹",
 			"source": "XUA2025EberronUpdates",
 			"page": 12,
 			"reprintedAs": [
-				"Mark of Storm|EFA"
+				"暴风龙纹|EFA"
 			],
 			"category": "D",
 			"prerequisite": [
 				{
 					"campaign": [
-						"Eberron"
+						"艾伯伦"
 					],
 					"exclusiveFeatCategory": [
 						"D"
@@ -3496,76 +3643,80 @@
 					},
 					"known": {
 						"_": [
-							"Thunderclap|XPHB#c"
+							"鸣雷破|XPHB#c"
 						]
 					},
 					"prepared": {
 						"3": {
 							"daily": {
 								"1e": [
-									"Gust of Wind|XPHB"
+									"造风术|XPHB"
 								]
 							}
 						}
 					},
 					"expanded": {
 						"s1": [
-							"Feather Fall|XPHB",
-							"Fog Cloud|XPHB"
+							"羽落术|XPHB",
+							"云雾术|XPHB"
 						],
 						"s2": [
-							"Levitate|XPHB",
-							"Shatter|XPHB"
+							"浮空术|XPHB",
+							"粉碎音波|XPHB"
 						],
 						"s3": [
-							"Sleet Storm|XPHB",
-							"Wind Wall|XPHB"
+							"雪雨暴|XPHB",
+							"风墙术|XPHB"
 						],
 						"s4": [
-							"Conjure Minor Elementals|XPHB",
-							"Control Water|XPHB"
+							"咒唤微元素群|XPHB",
+							"操控水体|XPHB"
 						],
 						"s5": [
-							"Conjure Elemental|XPHB"
+							"咒唤元素|XPHB"
 						]
 					}
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Windwright's Intuition",
+					"name": "风骑直觉",
 					"type": "entries",
-					"name": "Windwright's Intuition",
 					"entries": [
-						"When you make a Dexterity ({@skill Acrobatics|XPHB}) check or an ability check using {@item Navigator's Tools|XPHB}, you can roll {@dice 1d4} and add the number rolled to the ability check."
+						"当你进行一次敏捷（{@skill 特技|XPHB}）检定或使用{@item 领航工具|XPHB}进行一次属性检定时，你可以掷{@dice 1d4}并将掷出的数值加到该属性检定上。"
 					]
 				},
 				{
+					"ENG_name": "Storm's Boon",
+					"name": "暴风恩惠",
 					"type": "entries",
-					"name": "Storm's Boon",
 					"entries": [
-						"You have {@variantrule Resistance|XPHB} to Lightning damage."
+						"你对闪电伤害具有{@variantrule 抗性|XPHB}。"
 					]
 				},
 				{
+					"ENG_name": "Storm Magic",
+					"name": "暴风魔法",
 					"type": "entries",
-					"name": "Storm Magic",
 					"entries": [
-						"You know the {@spell Thunderclap|XPHB} cantrip. When you reach character level 3, you also always have the {@spell Gust of Wind|XPHB} spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast it using any spell slots you have. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this feat)."
+						"你知晓{@spell 鸣雷破|XPHB}戏法。当你达到角色等级3时，你还总是准备了{@spell 造风术|XPHB}法术。你可以无需法术位施放该法术一次，并且当你完成一次{@variantrule 长休|XPHB}后恢复以此方式施放它的能力。你也可以使用你拥有的任何法术位来施放它。智力、感知或魅力是这些法术的施法属性（在选择此专长时选择）。"
 					]
 				},
 				{
+					"ENG_name": "Spells of the Mark",
+					"name": "龙纹法术",
 					"type": "entries",
-					"name": "Spells of the Mark",
 					"entries": [
-						"If you have the Spellcasting or Pact Magic feature, the spells on the Mark of Storm Spells table are added to that feature's spell list.",
+						"若你拥有施法或契约魔法特性，暴风龙纹法术列表中的法术将被添加至该特性的法术列表中。",
 						{
 							"type": "table",
-							"caption": "Mark of Storm Spells",
+							"caption": "暴风龙纹法术",
 							"page": 12,
 							"colLabels": [
-								"Spell Level",
-								"Spells"
+								"法术环阶",
+								"法术"
 							],
 							"colStyles": [
 								"col-3 text-center",
@@ -3574,23 +3725,23 @@
 							"rows": [
 								[
 									"1",
-									"{@spell Feather Fall|XPHB}, {@spell Fog Cloud|XPHB}"
+									"{@spell 羽落术|XPHB}, {@spell 云雾术|XPHB}"
 								],
 								[
 									"2",
-									"{@spell Levitate|XPHB}, {@spell Shatter|XPHB}"
+									"{@spell 浮空术|XPHB}, {@spell 粉碎音波|XPHB}"
 								],
 								[
 									"3",
-									"{@spell Sleet Storm|XPHB}, {@spell Wind Wall|XPHB}"
+									"{@spell 雪雨暴|XPHB}, {@spell 风墙术|XPHB}"
 								],
 								[
 									"4",
-									"{@spell Conjure Minor Elementals|XPHB}, {@spell Control Water|XPHB}"
+									"{@spell 咒唤微元素群|XPHB}, {@spell 操控水体|XPHB}"
 								],
 								[
 									"5",
-									"{@spell Conjure Elemental|XPHB}"
+									"{@spell 咒唤元素|XPHB}"
 								]
 							]
 						}
@@ -3599,17 +3750,18 @@
 			]
 		},
 		{
-			"name": "Mark of Warding",
+			"ENG_name": "Mark of Warding",
+			"name": "守御龙纹",
 			"source": "XUA2025EberronUpdates",
 			"page": 13,
 			"reprintedAs": [
-				"Mark of Warding|EFA"
+				"守御龙纹|EFA"
 			],
 			"category": "D",
 			"prerequisite": [
 				{
 					"campaign": [
-						"Eberron"
+						"艾伯伦"
 					],
 					"exclusiveFeatCategory": [
 						"D"
@@ -3629,71 +3781,74 @@
 						"3": {
 							"daily": {
 								"1e": [
-									"Arcane Lock|XPHB"
+									"秘法锁|XPHB"
 								]
 							}
 						},
 						"_": {
 							"daily": {
 								"1e": [
-									"Alarm|XPHB",
-									"Mage Armor|XPHB"
+									"警报术|XPHB",
+									"法师护甲|XPHB"
 								]
 							}
 						}
 					},
 					"expanded": {
 						"s1": [
-							"Armor of Agathys|XPHB",
-							"Sanctuary|XPHB"
+							"黯冰狱铠|XPHB",
+							"庇护术|XPHB"
 						],
 						"s2": [
-							"Knock|XPHB",
-							"Nystul's Magic Aura|XPHB"
+							"敲击术|XPHB",
+							"涅斯图魔法灵光|XPHB"
 						],
 						"s3": [
-							"Glyph of Warding|XPHB",
-							"Magic Circle|XPHB"
+							"守卫刻文|XPHB",
+							"防护法阵|XPHB"
 						],
 						"s4": [
-							"Leomund's Secret Chest|XPHB",
-							"Mordenkainen's Faithful Hound|XPHB"
+							"李欧蒙秘藏箱|XPHB",
+							"魔邓肯忠犬|XPHB"
 						],
 						"s5": [
-							"Antilife Shell|XPHB"
+							"防活物护罩|XPHB"
 						]
 					}
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Warder's Intuition",
+					"name": "御护直觉",
 					"type": "entries",
-					"name": "Warder's Intuition",
 					"entries": [
-						"When you make an Intelligence ({@skill Investigation|XPHB}) check or an ability check using {@item Thieves' Tools|XPHB}, you can roll {@dice 1d4} and add the number rolled to the ability check."
+						"当你进行一次智力（{@skill 调查|XPHB}）检定或使用{@item 盗贼工具|XPHB}的属性检定时，你可以掷{@dice 1d4}并将掷出的数值添加到该属性检定中。"
 					]
 				},
 				{
+					"ENG_name": "Wards and Seals",
+					"name": "缄守封护",
 					"type": "entries",
-					"name": "Wards and Seals",
 					"entries": [
-						"You always have the {@spell Alarm|XPHB} and {@spell Mage Armor|XPHB} spells prepared. You can cast each spell once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast these spells using any spell slots you have. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this feat).",
-						"When you reach character level 3, you also always have the {@spell Arcane Lock|XPHB} spell prepared and can cast it the same way."
+						"你总是准备了{@spell 警报术|XPHB}和{@spell 法师护甲|XPHB}法术。你可以无需法术位施放每个法术一次，并在完成一次{@variantrule 长休|XPHB}后恢复以此方式施放它的能力。你也可以使用你拥有的任何法术位来施放这些法术。智力、感知或魅力是这些法术的施法属性（在选择此专长时选择）。",
+						"当你达到角色等级3时，你还会始终准备好{@spell 秘法锁|XPHB}法术并能以同样的方式施放它。"
 					]
 				},
 				{
+					"ENG_name": "Spells of the Mark",
+					"name": "龙纹法术",
 					"type": "entries",
-					"name": "Spells of the Mark",
 					"entries": [
-						"If you have the Spellcasting or Pact Magic feature, the spells on the Mark of Warding Spells table are added to that feature's spell list.",
+						"如果你拥有施法或契约魔法特性，守御龙纹法术列表中的法术将被添加到该特性的法术列表中。",
 						{
 							"type": "table",
-							"caption": "Mark of Warding Spells",
+							"caption": "守御龙纹法术",
 							"page": 13,
 							"colLabels": [
-								"Spell Level",
-								"Spells"
+								"法术环阶",
+								"法术"
 							],
 							"colStyles": [
 								"col-3 text-center",
@@ -3702,23 +3857,23 @@
 							"rows": [
 								[
 									"1",
-									"{@spell Armor of Agathys|XPHB}, {@spell Sanctuary|XPHB}"
+									"{@spell 黯冰狱铠|XPHB}, {@spell 庇护术|XPHB}"
 								],
 								[
 									"2",
-									"{@spell Knock|XPHB}, {@spell Nystul's Magic Aura|XPHB}"
+									"{@spell 敲击术|XPHB}, {@spell 涅斯图魔法灵光|XPHB}"
 								],
 								[
 									"3",
-									"{@spell Glyph of Warding|XPHB}, {@spell Magic Circle|XPHB}"
+									"{@spell 守卫刻文|XPHB}, {@spell 防护法阵|XPHB}"
 								],
 								[
 									"4",
-									"{@spell Leomund's Secret Chest|XPHB}, {@spell Mordenkainen's Faithful Hound|XPHB}"
+									"{@spell 李欧蒙秘藏箱|XPHB}, {@spell 魔邓肯忠犬|XPHB}"
 								],
 								[
 									"5",
-									"{@spell Antilife Shell|XPHB}"
+									"{@spell 防活物护罩|XPHB}"
 								]
 							]
 						}
@@ -3727,11 +3882,12 @@
 			]
 		},
 		{
-			"name": "Potent Dragonmark",
+			"ENG_name": "Potent Dragonmark",
+			"name": "强效龙纹",
 			"source": "XUA2025EberronUpdates",
 			"page": 15,
 			"reprintedAs": [
-				"Potent Dragonmark|EFA"
+				"强效龙纹|EFA"
 			],
 			"category": "G",
 			"prerequisite": [
@@ -3754,24 +3910,26 @@
 							"cha"
 						],
 						"amount": 1,
-						"entry": "Increase the spellcasting ability score used by your Dragonmark feat by 1, to a maximum of 20."
+						"entry": "将你的龙纹专长所使用的施法属性值提高1点，最高为20。"
 					}
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Dragonmark Preparation",
+					"name": "龙纹准备",
 					"type": "entries",
-					"name": "Dragonmark Preparation",
 					"entries": [
-						"You always have the spells on your Dragonmark feat's Spells of the Mark list (if any) prepared."
+						"你总是准备着你龙纹专长上的标记法术列表中的法术（如果有的话）。"
 					]
 				},
 				{
+					"ENG_name": "Dragonmark Spellcasting",
+					"name": "龙纹施法",
 					"type": "entries",
-					"name": "Dragonmark Spellcasting",
 					"entries": [
-						"You have one spell slot to cast the spells granted by your Dragonmark feat. The spell slot's level is one-half your level (round up), to a maximum of level 5. You regain the expended slot when you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}. You can use this spell slot to cast only a spell that you have prepared because of your Dragonmark feat or the Dragonmark Preparation benefit of this feat."
+						"你拥有一个法术位来施放由你的龙纹专长所授予的法术。该法术位的等级为你等级的一半（向上取整），最高为5环。当你完成一次{@variantrule 短休|XPHB|短}或{@variantrule 长休|XPHB}时，你恢复已消耗的法术位。你只能使用此法术位来施放因你的龙纹专长或此专长的龙纹预备增益而准备的法术。"
 					]
 				}
 			]
@@ -3779,38 +3937,41 @@
 	],
 	"item": [
 		{
-			"name": "Manifold Tool",
+			"ENG_name": "Manifold Tool",
+			"name": "百变工具",
 			"source": "XUA2025EberronUpdates",
 			"page": 8,
 			"reprintedAs": [
-				"Manifold Tool|EFA"
+				"百变工具|EFA"
 			],
 			"rarity": "common",
 			"reqAttune": true,
 			"wondrous": true,
 			"grantsProficiency": true,
 			"entries": [
-				"This tool takes the form of a wrench, screwdriver, or other basic tool. As a {@action Magic|XPHB} action, you can touch the item and transform it into a type of {@item Artisan's Tools|XPHB} of your choice. Whatever form the tool takes, you have proficiency with it when you use it."
+				"该工具以扳手、螺丝刀或其他基础工具的形态出现。作为一个{@action 魔法|XPHB}动作，你可以接触该物品并将其转化为你选择的{@item 工匠工具|XPHB}类型。无论该工具采取何种形态，你在使用它时都拥有熟练项。"
 			]
 		}
 	],
 	"table": [
 		{
-			"name": "Artificer Spell List",
+			"ENG_name": "Artificer Spell List",
+			"name": "奇械师法术列表",
+			"type": "tableGroup",
 			"source": "XUA2025EberronUpdates",
 			"page": 5,
-			"type": "tableGroup",
 			"tables": [
 				{
-					"name": "Cantrips (Level 0 Artificer Spells)",
+					"ENG_name": "Cantrips (Level 0 Artificer Spells)",
+					"name": "戏法（0级奇械师法术）",
+					"type": "table",
 					"source": "XUA2025EberronUpdates",
 					"page": 5,
-					"type": "table",
-					"caption": "Cantrips (Level 0 Artificer Spells)",
+					"caption": "戏法（0级奇械师法术）",
 					"colLabels": [
-						"Spell",
-						"School",
-						"Special"
+						"法术",
+						"学派",
+						"特殊"
 					],
 					"colStyles": [
 						"col-6",
@@ -3819,102 +3980,103 @@
 					],
 					"rows": [
 						[
-							"{@spell Acid Splash|XPHB}",
-							"Evocation",
+							"{@spell 酸液飞溅|XPHB}",
+							"塑能",
 							"\u2014"
 						],
 						[
-							"{@spell Dancing Lights|XPHB}",
-							"Illusion",
+							"{@spell 舞光术|XPHB}",
+							"幻术",
 							"C"
 						],
 						[
-							"{@spell Elementalism|XPHB}",
-							"Transmutation",
+							"{@spell 四象法门|XPHB}",
+							"变化",
 							"\u2014"
 						],
 						[
-							"{@spell Fire Bolt|XPHB}",
-							"Evocation",
+							"{@spell 火焰箭|XPHB}",
+							"塑能",
 							"\u2014"
 						],
 						[
-							"{@spell Guidance|XPHB}",
-							"Divination",
+							"{@spell 神导术|XPHB}",
+							"预言术",
 							"C"
 						],
 						[
-							"{@spell Light|XPHB}",
-							"Evocation",
+							"{@spell 光亮术|XPHB}",
+							"塑能",
 							"\u2014"
 						],
 						[
-							"{@spell Mage Hand|XPHB}",
-							"Conjuration",
+							"{@spell 法师之手|XPHB}",
+							"咒法",
 							"\u2014"
 						],
 						[
-							"{@spell Message|XPHB}",
-							"Transmutation",
+							"{@spell 传讯术|XPHB}",
+							"变化",
 							"\u2014"
 						],
 						[
-							"{@spell Poison Spray|XPHB}",
-							"Necromancy",
+							"{@spell 毒气喷涌|XPHB}",
+							"死灵",
 							"\u2014"
 						],
 						[
-							"{@spell Prestidigitation|XPHB}",
-							"Transmutation",
+							"{@spell 魔法伎俩|XPHB}",
+							"变化",
 							"\u2014"
 						],
 						[
-							"{@spell Ray of Frost|XPHB}",
-							"Evocation",
+							"{@spell 冷冻射线|XPHB}",
+							"塑能",
 							"\u2014"
 						],
 						[
-							"{@spell Resistance|XPHB}",
-							"Abjuration",
+							"{@spell 抵抗术|XPHB}",
+							"防护",
 							"C"
 						],
 						[
-							"{@spell Shocking Grasp|XPHB}",
-							"Evocation",
+							"{@spell 电爪|XPHB}",
+							"塑能",
 							"\u2014"
 						],
 						[
-							"{@spell Spare the Dying|XPHB}",
-							"Necromancy",
+							"{@spell 维生术|XPHB}",
+							"死灵",
 							"\u2014"
 						],
 						[
-							"{@spell Thorn Whip|XPHB}",
-							"Transmutation",
+							"{@spell 荆棘之鞭|XPHB}",
+							"变化",
 							"\u2014"
 						],
 						[
-							"{@spell Thunderclap|XPHB}",
-							"Evocation",
+							"{@spell 鸣雷破|XPHB}",
+							"塑能",
 							"\u2014"
 						],
 						[
-							"{@spell True Strike|XPHB}",
-							"Divination",
+							"{@spell 克敌先击|XPHB}",
+							"预言术",
 							"M"
 						]
 					]
 				},
 				{
-					"name": "Level 1 Artificer Spells",
+					"ENG_name": "Level 1 Artificer Spells",
+					"name": "一环奇械师法术",
+					"type": "table",
 					"source": "XUA2025EberronUpdates",
 					"page": 5,
-					"type": "table",
-					"caption": "Level 1 Artificer Spells",
+					"caption": "一环奇械师法术",
 					"colLabels": [
-						"Spell",
-						"School",
-						"Special"
+						"法术",
+						"学派",
+						"特殊"
 					],
 					"colStyles": [
 						"col-6",
@@ -3923,87 +4085,88 @@
 					],
 					"rows": [
 						[
-							"{@spell Alarm|XPHB}",
-							"Abjuration",
+							"{@spell 警报术|XPHB}",
+							"防护",
 							"R"
 						],
 						[
-							"{@spell Cure Wounds|XPHB}",
-							"Abjuration",
+							"{@spell 疗伤术|XPHB}",
+							"防护",
 							"\u2014"
 						],
 						[
-							"{@spell Detect Magic|XPHB}",
-							"Divination",
+							"{@spell 侦测魔法|XPHB}",
+							"预言术",
 							"C, R"
 						],
 						[
-							"{@spell Disguise Self|XPHB}",
-							"Illusion",
+							"{@spell 易容术|XPHB}",
+							"幻术",
 							"\u2014"
 						],
 						[
-							"{@spell Expeditious Retreat|XPHB}",
-							"Transmutation",
+							"{@spell 脚底抹油|XPHB}",
+							"变化",
 							"C"
 						],
 						[
-							"{@spell Faerie Fire|XPHB}",
-							"Evocation",
+							"{@spell 妖火|XPHB}",
+							"塑能",
 							"C"
 						],
 						[
-							"{@spell False Life|XPHB}",
-							"Necromancy",
+							"{@spell 虚假生命|XPHB}",
+							"死灵",
 							"\u2014"
 						],
 						[
-							"{@spell Feather Fall|XPHB}",
-							"Transmutation",
+							"{@spell 羽落术|XPHB}",
+							"变化",
 							"\u2014"
 						],
 						[
-							"{@spell Grease|XPHB}",
-							"Conjuration",
+							"{@spell 油腻术|XPHB}",
+							"咒法",
 							"\u2014"
 						],
 						[
-							"{@spell Identify|XPHB}",
-							"Divination",
+							"{@spell 鉴定术|XPHB}",
+							"预言术",
 							"R, M"
 						],
 						[
-							"{@spell Jump|XPHB}",
-							"Transmutation",
+							"{@spell 跳跃术|XPHB}",
+							"变化",
 							"\u2014"
 						],
 						[
-							"{@spell Longstrider|XPHB}",
-							"Transmutation",
+							"{@spell 大步奔行|XPHB}",
+							"变化",
 							"\u2014"
 						],
 						[
-							"{@spell Purify Food and Drink|XPHB}",
-							"Transmutation",
+							"{@spell 净化饮食|XPHB}",
+							"变化",
 							"R"
 						],
 						[
-							"{@spell Sanctuary|XPHB}",
-							"Abjuration",
+							"{@spell 庇护术|XPHB}",
+							"防护",
 							"\u2014"
 						]
 					]
 				},
 				{
-					"name": "Level 2 Artificer Spells",
+					"ENG_name": "Level 2 Artificer Spells",
+					"name": "二环奇械师法术",
+					"type": "table",
 					"source": "XUA2025EberronUpdates",
 					"page": 6,
-					"type": "table",
-					"caption": "Level 2 Artificer Spells",
+					"caption": "二环奇械师法术",
 					"colLabels": [
-						"Spell",
-						"School",
-						"Special"
+						"法术",
+						"学派",
+						"特殊"
 					],
 					"colStyles": [
 						"col-6",
@@ -4012,127 +4175,128 @@
 					],
 					"rows": [
 						[
-							"{@spell Aid|XPHB}",
-							"Abjuration",
+							"{@spell 援助术|XPHB}",
+							"防护",
 							"\u2014"
 						],
 						[
-							"{@spell Alter Self|XPHB}",
-							"Transmutation",
+							"{@spell 变身术|XPHB}",
+							"变化",
 							"C"
 						],
 						[
-							"{@spell Arcane Lock|XPHB}",
-							"Abjuration",
+							"{@spell 秘法锁|XPHB}",
+							"防护",
 							"M"
 						],
 						[
-							"{@spell Arcane Vigor|XPHB}",
-							"Abjuration",
+							"{@spell 复苏秘法|XPHB}",
+							"防护",
 							"\u2014"
 						],
 						[
-							"{@spell Blur|XPHB}",
-							"Illusion",
+							"{@spell 朦胧术|XPHB}",
+							"幻术",
 							"C"
 						],
 						[
-							"{@spell Continual Flame|XPHB}",
-							"Evocation",
+							"{@spell 不灭明焰|XPHB}",
+							"塑能",
 							"M"
 						],
 						[
-							"{@spell Darkvision|XPHB}",
-							"Transmutation",
+							"{@spell 黑暗视觉|XPHB}",
+							"变化",
 							"\u2014"
 						],
 						[
-							"{@spell Dragon's Breath|XPHB}",
-							"Transmutation",
+							"{@spell 龙息术|XPHB}",
+							"变化",
 							"C"
 						],
 						[
-							"{@spell Enhance Ability|XPHB}",
-							"Transmutation",
+							"{@spell 强化属性|XPHB}",
+							"变化",
 							"C"
 						],
 						[
-							"{@spell Enlarge/Reduce|XPHB}",
-							"Transmutation",
+							"{@spell 变巨/缩小术|XPHB}",
+							"变化",
 							"C"
 						],
 						[
-							"{@spell Heat Metal|XPHB}",
-							"Transmutation",
+							"{@spell 灼热金属|XPHB}",
+							"变化",
 							"C"
 						],
 						[
-							"{@spell Homunculus Servant|XUA2024Artificer} (appears in this UA)",
-							"Conjuration",
+							"{@spell 人工生命仆从|XUA2024Artificer}（出现在此UA中）",
+							"咒法",
 							"R, M"
 						],
 						[
-							"{@spell Invisibility|XPHB}",
-							"Illusion",
+							"{@spell 隐形术|XPHB}",
+							"幻术",
 							"C"
 						],
 						[
-							"{@spell Lesser Restoration|XPHB}",
-							"Abjuration",
+							"{@spell 次等复原术|XPHB}",
+							"防护",
 							"\u2014"
 						],
 						[
-							"{@spell Levitate|XPHB}",
-							"Transmutation",
+							"{@spell 浮空术|XPHB}",
+							"变化",
 							"C"
 						],
 						[
-							"{@spell Magic Mouth|XPHB}",
-							"Illusion",
+							"{@spell 魔嘴术|XPHB}",
+							"幻术",
 							"R, M"
 						],
 						[
-							"{@spell Magic Weapon|XPHB}",
-							"Transmutation",
+							"{@spell 魔化武器|XPHB}",
+							"变化",
 							"\u2014"
 						],
 						[
-							"{@spell Protection from Poison|XPHB}",
-							"Abjuration",
+							"{@spell 防护毒素|XPHB}",
+							"防护",
 							"\u2014"
 						],
 						[
-							"{@spell Rope Trick|XPHB}",
-							"Transmutation",
+							"{@spell 魔绳术|XPHB}",
+							"变化",
 							"\u2014"
 						],
 						[
-							"{@spell See Invisibility|XPHB}",
-							"Divination",
+							"{@spell 识破隐形|XPHB}",
+							"预言术",
 							"\u2014"
 						],
 						[
-							"{@spell Spider Climb|XPHB}",
-							"Transmutation",
+							"{@spell 蛛行术|XPHB}",
+							"变化",
 							"C"
 						],
 						[
-							"{@spell Web|XPHB}",
-							"Conjuration",
+							"{@spell 蛛网术|XPHB}",
+							"咒法",
 							"C"
 						]
 					]
 				},
 				{
-					"name": "Level 3 Artificer Spells",
+					"ENG_name": "Level 3 Artificer Spells",
+					"name": "三环奇械师法术",
+					"type": "table",
 					"source": "XUA2025EberronUpdates",
 					"page": 6,
-					"type": "table",
-					"caption": "Level 3 Artificer Spells",
+					"caption": "三环奇械师法术",
 					"colLabels": [
-						"Spell",
-						"School",
-						"Special"
+						"法术",
+						"学派",
+						"特殊"
 					],
 					"colStyles": [
 						"col-6",
@@ -4141,72 +4305,73 @@
 					],
 					"rows": [
 						[
-							"{@spell Blink|XPHB}",
-							"Transmutation",
+							"{@spell 闪现术|XPHB}",
+							"变化",
 							"\u2014"
 						],
 						[
-							"{@spell Create Food and Water|XPHB}",
-							"Conjuration",
+							"{@spell 造粮术|XPHB}",
+							"咒法",
 							"\u2014"
 						],
 						[
-							"{@spell Dispel Magic|XPHB}",
-							"Abjuration",
+							"{@spell 解除魔法|XPHB}",
+							"防护",
 							"\u2014"
 						],
 						[
-							"{@spell Elemental Weapon|XPHB}",
-							"Transmutation",
+							"{@spell 元素武器|XPHB}",
+							"变化",
 							"C"
 						],
 						[
-							"{@spell Fly|XPHB}",
-							"Transmutation",
+							"{@spell 飞行术|XPHB}",
+							"变化",
 							"C"
 						],
 						[
-							"{@spell Glyph of Warding|XPHB}",
-							"Abjuration",
+							"{@spell 守卫刻文|XPHB}",
+							"防护",
 							"M"
 						],
 						[
-							"{@spell Haste|XPHB}",
-							"Transmutation",
+							"{@spell 加速术|XPHB}",
+							"变化",
 							"C"
 						],
 						[
-							"{@spell Protection from Energy|XPHB}",
-							"Abjuration",
+							"{@spell 防护能量|XPHB}",
+							"防护",
 							"C"
 						],
 						[
-							"{@spell Revivify|XPHB}",
-							"Necromancy",
+							"{@spell 回生术|XPHB}",
+							"死灵",
 							"M"
 						],
 						[
-							"{@spell Water Breathing|XPHB}",
-							"Transmutation",
+							"{@spell 水下呼吸|XPHB}",
+							"变化",
 							"R"
 						],
 						[
-							"{@spell Water Walk|XPHB}",
-							"Transmutation",
+							"{@spell 水上行走|XPHB}",
+							"变化",
 							"R"
 						]
 					]
 				},
 				{
-					"name": "Level 4 Artificer Spells",
+					"ENG_name": "Level 4 Artificer Spells",
+					"name": "四环奇械师法术",
+					"type": "table",
 					"source": "XUA2025EberronUpdates",
 					"page": 6,
-					"type": "table",
-					"caption": "Level 4 Artificer Spells",
+					"caption": "四环奇械师法术",
 					"colLabels": [
-						"Spell",
-						"School",
-						"Special"
+						"法术",
+						"学派",
+						"特殊"
 					],
 					"colStyles": [
 						"col-6",
@@ -4215,67 +4380,68 @@
 					],
 					"rows": [
 						[
-							"{@spell Arcane Eye|XPHB}",
-							"Divination",
+							"{@spell 秘法眼|XPHB}",
+							"预言术",
 							"C"
 						],
 						[
-							"{@spell Fabricate|XPHB}",
-							"Transmutation",
+							"{@spell 鬼斧神工|XPHB}",
+							"变化",
 							"\u2014"
 						],
 						[
-							"{@spell Freedom of Movement|XPHB}",
-							"Abjuration",
+							"{@spell 行动自如|XPHB}",
+							"防护",
 							"\u2014"
 						],
 						[
-							"{@spell Leomund's Secret Chest|XPHB}",
-							"Conjuration",
+							"{@spell 李欧蒙秘藏箱|XPHB}",
+							"咒法",
 							"M"
 						],
 						[
-							"{@spell Mordenkainen's Faithful Hound|XPHB}",
-							"Conjuration",
+							"{@spell 魔邓肯忠犬|XPHB}",
+							"咒法",
 							"\u2014"
 						],
 						[
-							"{@spell Mordenkainen's Private Sanctum|XPHB}",
-							"Abjuration",
+							"{@spell 魔邓肯私人密室|XPHB}",
+							"防护",
 							"\u2014"
 						],
 						[
-							"{@spell Otiluke's Resilient Sphere|XPHB}",
-							"Abjuration",
+							"{@spell 欧提路克弹力法球|XPHB}",
+							"防护",
 							"C"
 						],
 						[
-							"{@spell Stone Shape|XPHB}",
-							"Transmutation",
+							"{@spell 塑石术|XPHB}",
+							"变化",
 							"\u2014"
 						],
 						[
-							"{@spell Stoneskin|XPHB}",
-							"Transmutation",
+							"{@spell 石肤术|XPHB}",
+							"变化",
 							"C, M"
 						],
 						[
-							"{@spell Summon Construct|XPHB}",
-							"Conjuration",
+							"{@spell 构装召唤术|XPHB}",
+							"咒法",
 							"C, M"
 						]
 					]
 				},
 				{
-					"name": "Level 5 Artificer Spells",
+					"ENG_name": "Level 5 Artificer Spells",
+					"name": "五环奇械师法术",
+					"type": "table",
 					"source": "XUA2025EberronUpdates",
 					"page": 6,
-					"type": "table",
-					"caption": "Level 5 Artificer Spells",
+					"caption": "五环奇械师法术",
 					"colLabels": [
-						"Spell",
-						"School",
-						"Special"
+						"法术",
+						"学派",
+						"特殊"
 					],
 					"colStyles": [
 						"col-6",
@@ -4284,33 +4450,33 @@
 					],
 					"rows": [
 						[
-							"{@spell Animate Objects|XPHB}",
-							"Transmutation",
+							"{@spell 活化物件|XPHB}",
+							"变化",
 							"C"
 						],
 						[
-							"{@spell Bigby's Hand|XPHB}",
-							"Evocation",
+							"{@spell 毕格比之手|XPHB}",
+							"塑能",
 							"C"
 						],
 						[
-							"{@spell Circle of Power|XPHB}",
-							"Abjuration",
+							"{@spell 原力法阵|XPHB}",
+							"防护",
 							"C"
 						],
 						[
-							"{@spell Creation|XPHB}",
-							"Illusion",
+							"{@spell 造物术|XPHB}",
+							"幻术",
 							"\u2014"
 						],
 						[
-							"{@spell Greater Restoration|XPHB}",
-							"Abjuration",
+							"{@spell 高等复原术|XPHB}",
+							"防护",
 							"M"
 						],
 						[
-							"{@spell Wall of Stone|XPHB}",
-							"Evocation",
+							"{@spell 石墙术|XPHB}",
+							"塑能",
 							"C"
 						]
 					]
@@ -4318,12 +4484,13 @@
 			]
 		},
 		{
-			"name": "Cartographer Spells",
+			"ENG_name": "Cartographer Spells",
+			"name": "制图师法术",
 			"source": "XUA2025EberronUpdates",
 			"page": 7,
 			"colLabels": [
-				"Cartographer Level",
-				"Spells"
+				"制图师等级",
+				"法术"
 			],
 			"colStyles": [
 				"col-3 text-center",
@@ -4332,33 +4499,34 @@
 			"rows": [
 				[
 					"3",
-					"{@spell Faerie Fire|XPHB}, {@spell Guiding Bolt|XPHB}, {@spell Healing Word|XPHB}"
+					"{@spell 妖火|XPHB}, {@spell 光导箭|XPHB}, {@spell 治愈真言|XPHB}"
 				],
 				[
 					"5",
-					"{@spell Locate Object|XPHB}, {@spell Mind Spike|XPHB}"
+					"{@spell 物件定位术|XPHB}, {@spell 心灵尖刺|XPHB}"
 				],
 				[
 					"9",
-					"{@spell Clairvoyance|XPHB}, {@spell Haste|XPHB}"
+					"{@spell 鹰眼术|XPHB}, {@spell 加速术|XPHB}"
 				],
 				[
 					"13",
-					"{@spell Freedom of Movement|XPHB}, {@spell Locate Creature|XPHB}"
+					"{@spell 行动自如|XPHB}, {@spell 生物定位术|XPHB}"
 				],
 				[
 					"17",
-					"{@spell Scrying|XPHB}, {@spell Teleportation Circle|XPHB}"
+					"{@spell 探知术|XPHB}, {@spell 传送法阵|XPHB}"
 				]
 			]
 		},
 		{
-			"name": "Feat List",
+			"ENG_name": "Feat List",
+			"name": "专长列表",
 			"source": "XUA2025EberronUpdates",
 			"page": 9,
 			"colLabels": [
-				"Feat",
-				"Category"
+				"专长",
+				"类别"
 			],
 			"colStyles": [
 				"col-8",
@@ -4366,126 +4534,127 @@
 			],
 			"rows": [
 				[
-					"{@feat Aberrant Dragonmark|XUA2025EberronUpdates}",
-					"Dragonmark"
+					"{@feat 异种龙纹|XUA2025EberronUpdates}",
+					"龙纹"
 				],
 				[
-					"{@feat Boon of Siberys|XUA2025EberronUpdates}",
-					"Epic Boon"
+					"{@feat 西伯瑞斯之恩惠|XUA2025EberronUpdates}",
+					"传奇恩惠"
 				],
 				[
-					"{@feat Greater Aberrant Mark|XUA2025EberronUpdates}",
-					"General"
+					"{@feat 高等异种龙纹|XUA2025EberronUpdates}",
+					"通用"
 				],
 				[
-					"{@feat Greater Mark of Detection|XUA2025EberronUpdates}",
-					"General"
+					"{@feat 高等侦测龙纹|XUA2025EberronUpdates}",
+					"通用"
 				],
 				[
-					"{@feat Greater Mark of Finding|XUA2025EberronUpdates}",
-					"General"
+					"{@feat 高等探寻龙纹|XUA2025EberronUpdates}",
+					"通用"
 				],
 				[
-					"{@feat Greater Mark of Handling|XUA2025EberronUpdates}",
-					"General"
+					"{@feat 高等畜牧龙纹|XUA2025EberronUpdates}",
+					"通用"
 				],
 				[
-					"{@feat Greater Mark of Healing|XUA2025EberronUpdates}",
-					"General"
+					"{@feat 高等医疗龙纹|XUA2025EberronUpdates}",
+					"通用"
 				],
 				[
-					"{@feat Greater Mark of Hospitality|XUA2025EberronUpdates}",
-					"General"
+					"{@feat 高等招待龙纹|XUA2025EberronUpdates}",
+					"通用"
 				],
 				[
-					"{@feat Greater Mark of Making|XUA2025EberronUpdates}",
-					"General"
+					"{@feat 高等创造龙纹|XUA2025EberronUpdates}",
+					"通用"
 				],
 				[
-					"{@feat Greater Mark of Passage|XUA2025EberronUpdates}",
-					"General"
+					"{@feat 高等通行龙纹|XUA2025EberronUpdates}",
+					"通用"
 				],
 				[
-					"{@feat Greater Mark of Scribing|XUA2025EberronUpdates}",
-					"General"
+					"{@feat 高等抄录龙纹|XUA2025EberronUpdates}",
+					"通用"
 				],
 				[
-					"{@feat Greater Mark of Sentinel|XUA2025EberronUpdates}",
-					"General"
+					"{@feat 高等哨戒龙纹|XUA2025EberronUpdates}",
+					"通用"
 				],
 				[
-					"{@feat Greater Mark of Shadow|XUA2025EberronUpdates}",
-					"General"
+					"{@feat 高等阴影龙纹|XUA2025EberronUpdates}",
+					"通用"
 				],
 				[
-					"{@feat Greater Mark of Storm|XUA2025EberronUpdates}",
-					"General"
+					"{@feat 高等暴风龙纹|XUA2025EberronUpdates}",
+					"通用"
 				],
 				[
-					"{@feat Greater Mark of Warding|XUA2025EberronUpdates}",
-					"General"
+					"{@feat 高等守御龙纹|XUA2025EberronUpdates}",
+					"通用"
 				],
 				[
-					"{@feat Mark of Detection|XUA2025EberronUpdates}",
-					"Dragonmark"
+					"{@feat 侦测龙纹|XUA2025EberronUpdates}",
+					"龙纹"
 				],
 				[
-					"{@feat Mark of Finding|XUA2025EberronUpdates}",
-					"Dragonmark"
+					"{@feat 探寻龙纹|XUA2025EberronUpdates}",
+					"龙纹"
 				],
 				[
-					"{@feat Mark of Handling|XUA2025EberronUpdates}",
-					"Dragonmark"
+					"{@feat 畜牧龙纹|XUA2025EberronUpdates}",
+					"龙纹"
 				],
 				[
-					"{@feat Mark of Healing|XUA2025EberronUpdates}",
-					"Dragonmark"
+					"{@feat 医疗龙纹|XUA2025EberronUpdates}",
+					"龙纹"
 				],
 				[
-					"{@feat Mark of Hospitality|XUA2025EberronUpdates}",
-					"Dragonmark"
+					"{@feat 招待龙纹|XUA2025EberronUpdates}",
+					"龙纹"
 				],
 				[
-					"{@feat Mark of Making|XUA2025EberronUpdates}",
-					"Dragonmark"
+					"{@feat 创造龙纹|XUA2025EberronUpdates}",
+					"龙纹"
 				],
 				[
-					"{@feat Mark of Passage|XUA2025EberronUpdates}",
-					"Dragonmark"
+					"{@feat 通行龙纹|XUA2025EberronUpdates}",
+					"龙纹"
 				],
 				[
-					"{@feat Mark of Scribing|XUA2025EberronUpdates}",
-					"Dragonmark"
+					"{@feat 抄录龙纹|XUA2025EberronUpdates}",
+					"龙纹"
 				],
 				[
-					"{@feat Mark of Sentinel|XUA2025EberronUpdates}",
-					"Dragonmark"
+					"{@feat 哨戒龙纹|XUA2025EberronUpdates}",
+					"龙纹"
 				],
 				[
-					"{@feat Mark of Shadow|XUA2025EberronUpdates}",
-					"Dragonmark"
+					"{@feat 阴影龙纹|XUA2025EberronUpdates}",
+					"龙纹"
 				],
 				[
-					"{@feat Mark of Storm|XUA2025EberronUpdates}",
-					"Dragonmark"
+					"{@feat 暴风龙纹|XUA2025EberronUpdates}",
+					"龙纹"
 				],
 				[
-					"{@feat Mark of Warding|XUA2025EberronUpdates}",
-					"Dragonmark"
+					"{@feat 守御龙纹|XUA2025EberronUpdates}",
+					"龙纹"
 				],
 				[
-					"{@feat Potent Dragonmark|XUA2025EberronUpdates}",
-					"General"
+					"{@feat 强效龙纹|XUA2025EberronUpdates}",
+					"通用"
 				]
 			]
 		},
 		{
-			"name": "Magic Item Plans (Artificer Level 10+)",
+			"ENG_name": "Magic Item Plans (Artificer Level 10+)",
+			"name": "魔法物品方案（奇械师等级10+）",
 			"source": "XUA2025EberronUpdates",
 			"page": 4,
 			"colLabels": [
-				"Magic Item Plan",
-				"Attunement"
+				"魔法物品方案",
+				"同调"
 			],
 			"colStyles": [
 				"col-9",
@@ -4493,58 +4662,59 @@
 			],
 			"rows": [
 				[
-					"{@item Armor of Resistance|XDMG}",
-					"Yes"
+					"{@item 抗性护甲|XDMG}",
+					"是"
 				],
 				[
-					"{@item Dagger of Venom|XDMG}",
+					"{@item 淬毒匕首|XDMG}",
 					"No"
 				],
 				[
-					"{@item Elven Chain|XDMG}",
+					"{@item 精灵链甲|XDMG}",
 					"No"
 				],
 				[
-					"{@item Ring of Feather Falling|XDMG}",
-					"Yes"
+					"{@item 羽落戒指|XDMG}",
+					"是"
 				],
 				[
-					"{@item Ring of Jumping|XDMG}",
-					"Yes"
+					"{@item 跳跃戒指|XDMG}",
+					"是"
 				],
 				[
-					"{@item Ring of Mind Shielding|XDMG}",
-					"Yes"
+					"{@item 心灵护盾戒指|XDMG}",
+					"是"
 				],
 				[
-					"{@item +2 Shield|XDMG|Shield +2}",
+					"{@item +2 盾牌|XDMG|盾牌 +2}",
 					"No"
 				],
 				[
-					"{@filter Uncommon Wondrous Item that isn't cursed|items|source=|type=wondrous item|rarity=uncommon|category=|miscellaneous=!cursed} (you can learn this option multiple times and must select a different item each time; each item selected counts as a different plan)",
-					"Varies"
+					"{@filter 非普通奇物，且未被诅咒|items|source=|type=奇物|rarity=uncommon|category=|miscellaneous=!诅咒}（你可以多次学习此选项，且每次必须选择不同的物品；每个选定的物品都算作不同的方案）",
+					"多类"
 				],
 				[
-					"{@item +2 Wand of the War Mage|XDMG|Wand of the War Mage +2}",
-					"Yes"
+					"{@item +2 战法师魔杖|XDMG|战法师魔杖 +2}",
+					"是"
 				],
 				[
-					"{@item +2 Weapon|XDMG|Weapon +2}",
+					"{@item +2 武器|XDMG|武器 +2}",
 					"No"
 				],
 				[
-					"{@item +2 Wraps of Unarmed Power|XDMG|Wraps of Unarmed Power +2}",
+					"{@item +2 神功绑带|XDMG|徒手威力裹布 +2}",
 					"No"
 				]
 			]
 		},
 		{
-			"name": "Magic Item Plans (Artificer Level 14+)",
+			"ENG_name": "Magic Item Plans (Artificer Level 14+)",
+			"name": "魔法物品方案（奇械师等级14+）",
 			"source": "XUA2025EberronUpdates",
 			"page": 4,
 			"colLabels": [
-				"Magic Item Plan",
-				"Attunement"
+				"魔法物品方案",
+				"同调"
 			],
 			"colStyles": [
 				"col-9",
@@ -4552,42 +4722,43 @@
 			],
 			"rows": [
 				[
-					"{@item +2 Armor|XDMG|Armor +2}",
+					"{@item +2 护甲|XDMG|护甲 +2}",
 					"No"
 				],
 				[
-					"{@item Arrow-Catching Shield|XDMG}",
-					"Yes"
+					"{@item 吸矢盾|XDMG}",
+					"是"
 				],
 				[
-					"{@item Flame Tongue|XDMG}",
-					"Yes"
+					"{@item 焰舌|XDMG}",
+					"是"
 				],
 				[
-					"{@filter Rare Wondrous Item that isn't cursed|items|source=|type=wondrous item|rarity=rare|category=|miscellaneous=!cursed} (you can learn this option multiple times and must select a different item each time; each item selected counts as a different plan)",
-					"Varies"
+					"{@filter 珍稀奇物，非诅咒|items|source=|type=奇物|rarity=rare|category=|miscellaneous=!诅咒}（你可以多次学习此选项，且每次必须选择不同的物品；每个选定的物品都算作不同的方案）",
+					"多类"
 				],
 				[
-					"{@item Ring of Free Action|XDMG}",
-					"Yes"
+					"{@item 自由行动戒指|XDMG}",
+					"是"
 				],
 				[
-					"{@item Ring of Protection|XDMG}",
-					"Yes"
+					"{@item 防护戒指|XDMG}",
+					"是"
 				],
 				[
-					"{@item Ring of the Ram|XDMG}",
-					"Yes"
+					"{@item 公羊戒指|XDMG}",
+					"是"
 				]
 			]
 		},
 		{
-			"name": "Magic Item Plans (Artificer Level 2+)",
+			"ENG_name": "Magic Item Plans (Artificer Level 2+)",
+			"name": "魔法物品方案（奇械师等级2+）",
 			"source": "XUA2025EberronUpdates",
 			"page": 4,
 			"colLabels": [
-				"Magic Item Plan",
-				"Attunement"
+				"魔法物品方案",
+				"同调"
 			],
 			"colStyles": [
 				"col-9",
@@ -4595,78 +4766,79 @@
 			],
 			"rows": [
 				[
-					"{@item Alchemy Jug|XDMG}",
+					"{@item 炼金壶|XDMG}",
 					"No"
 				],
 				[
-					"{@item Bag of Holding|XDMG}",
+					"{@item 次元袋|XDMG}",
 					"No"
 				],
 				[
-					"{@item Cap of Water Breathing|XDMG}",
+					"{@item 水下呼吸帽|XDMG}",
 					"No"
 				],
 				[
-					"{@filter Common magic item that isn't a Potion, a Scroll, or cursed|items|source=|type=!potion;!scroll|rarity=common|category=|miscellaneous=!cursed} (you can learn this option multiple times and must select a different item each time; each item selected counts as a different plan)",
-					"Varies"
+					"{@filter 通用魔法物品，不是药水、卷轴或诅咒物品|items|source=|type=!potion;!scroll|rarity=common|category=|miscellaneous=!诅咒}（你可以多次学习此选项，且每次必须选择不同的物品；每个选定的物品都算作不同的方案）",
+					"多类"
 				],
 				[
-					"{@item Goggles of Night|XDMG}",
+					"{@item 夜视镜|XDMG}",
 					"No"
 				],
 				[
-					"{@item Manifold Tool|XUA2025EberronUpdates} (appears in this UA)",
-					"Yes"
+					"{@item 百变工具|XUA2025EberronUpdates}（出现在此UA中）",
+					"是"
 				],
 				[
-					"{@item Repeating Shot|XUA2024Artificer} (appears in this UA)",
-					"Yes"
+					"{@item 连射武器|XUA2024Artificer}（出现在此UA中）",
+					"是"
 				],
 				[
-					"{@item Returning Weapon|XUA2024Artificer} (appears in this UA)",
+					"{@item 回力武器|XUA2024Artificer}（出现在此UA中）",
 					"No"
 				],
 				[
-					"{@item Rope of Climbing|XDMG}",
+					"{@item 攀爬绳|XDMG}",
 					"No"
 				],
 				[
-					"{@item Sending Stones|XDMG}",
+					"{@item 短讯石|XDMG}",
 					"No"
 				],
 				[
-					"{@item +1 Shield|XDMG|Shield +1}",
+					"{@item +1 盾牌|XDMG|盾牌 +1}",
 					"No"
 				],
 				[
-					"{@item Wand of Magic Detection|XDMG}",
+					"{@item 搜魔魔杖|XDMG}",
 					"No"
 				],
 				[
-					"{@item Wand of Secrets|XDMG}",
+					"{@item 探秘魔杖|XDMG}",
 					"No"
 				],
 				[
-					"{@item +1 Wand of the War Mage|XDMG|Wand of the War Mage +1}",
-					"Yes"
+					"{@item +1 战法师魔杖|XDMG|战法师魔杖 +1}",
+					"是"
 				],
 				[
-					"{@item +1 Weapon|XDMG|Weapon +1}",
+					"{@item +1 武器|XDMG|+1 武器}",
 					"No"
 				],
 				[
-					"{@item +1 Wraps of Unarmed Power|XDMG|Wraps of Unarmed Power +1}",
+					"{@item +1 神功绑带|XDMG|徒手威力裹布 +1}",
 					"No"
 				]
 			]
 		},
 		{
-			"name": "Magic Item Plans (Artificer Level 6+)",
+			"ENG_name": "Magic Item Plans (Artificer Level 6+)",
+			"name": "魔法物品方案（奇械师等级6+）",
 			"source": "XUA2025EberronUpdates",
 			"page": 4,
 			"colLabels": [
-				"Magic Item Plan",
-				"Attunement"
+				"魔法物品方案",
+				"同调"
 			],
 			"colStyles": [
 				"col-9",
@@ -4674,95 +4846,96 @@
 			],
 			"rows": [
 				[
-					"{@item +1 Armor|XDMG|Armor +1}",
+					"{@item +1 护甲|XDMG|+1护甲}",
 					"No"
 				],
 				[
-					"{@item Boots of Elvenkind|XDMG}",
+					"{@item 精灵之靴|XDMG}",
 					"No"
 				],
 				[
-					"{@item Boots of the Winding Path|XUA2024Artificer} (appears in this UA)",
-					"Yes"
+					"{@item 折返之靴|XUA2024Artificer}（出现在此UA中）",
+					"是"
 				],
 				[
-					"{@item Cloak of Elvenkind|XDMG}",
-					"Yes"
+					"{@item 精灵斗篷|XDMG}",
+					"是"
 				],
 				[
-					"{@item Cloak of the Manta Ray|XDMG}",
+					"{@item 蝠鲼斗篷|XDMG}",
 					"No"
 				],
 				[
-					"{@item Eyes of Charming|XDMG}",
-					"Yes"
+					"{@item 魅惑镜片|XDMG}",
+					"是"
 				],
 				[
-					"{@item Eyes of Minute Seeing|XDMG}",
+					"{@item 微视镜片|XDMG}",
 					"No"
 				],
 				[
-					"{@item Gloves of Thievery|XDMG}",
+					"{@item 窃贼手套|XDMG}",
 					"No"
 				],
 				[
-					"{@item Lantern of Revealing|XDMG}",
+					"{@item 显像提灯|XDMG}",
 					"No"
 				],
 				[
-					"{@item Mind Sharpener|XUA2024Artificer} (appears in this UA)",
-					"Yes"
+					"{@item 思维砥石|XUA2024Artificer}（出现在此UA中）",
+					"是"
 				],
 				[
-					"{@item Necklace of Adaptation|XDMG}",
-					"Yes"
+					"{@item 适应项链|XDMG}",
+					"是"
 				],
 				[
-					"{@item Pipes of Haunting|XDMG}",
+					"{@item 颤栗乐笙|XDMG}",
 					"No"
 				],
 				[
-					"{@item Radiant Weapon|XUA2024Artificer} (appears in this UA)",
-					"Yes"
+					"{@item 光耀武器|XUA2024Artificer}（出现在此UA中）",
+					"是"
 				],
 				[
-					"{@item Repulsion Shield|XUA2024Artificer} (appears in this UA)",
+					"{@item 斥力之盾|XUA2024Artificer}（出现在此UA中）",
 					"No"
 				],
 				[
-					"{@item Ring of Swimming|XDMG}",
+					"{@item 善泳戒指|XDMG}",
 					"No"
 				],
 				[
-					"{@item Ring of Water Walking|XDMG}",
+					"{@item 水上行走戒指|XDMG}",
 					"No"
 				],
 				[
-					"{@item Sentinel Shield|XDMG}",
+					"{@item 警戒之盾|XDMG}",
 					"No"
 				],
 				[
-					"{@item Spell-Refueling Ring|XUA2024Artificer} (appears in this UA)",
-					"Yes"
+					"{@item 法力恢复戒指|XUA2024Artificer}（出现在此UA中）",
+					"是"
 				],
 				[
-					"{@item Wand of Magic Missiles|XDMG}",
+					"{@item 魔法飞弹魔杖|XDMG}",
 					"No"
 				],
 				[
-					"{@item Wand of Web|XDMG}",
-					"Yes"
+					"{@item 蛛网魔杖|XDMG}",
+					"是"
 				],
 				[
-					"{@item Weapon of Warning|XDMG}",
-					"Yes"
+					"{@item 警戒武器|XDMG}",
+					"是"
 				]
 			]
 		}
 	],
 	"book": [
 		{
-			"name": "Unearthed Arcana 2025: Eberron Updates",
+			"ENG_name": "Unearthed Arcana 2025: Eberron Updates",
+			"name": "破解奥秘2025：艾伯伦更新",
 			"id": "XUA2025EberronUpdates",
 			"source": "XUA2025EberronUpdates",
 			"group": "prerelease",
@@ -4771,35 +4944,36 @@
 				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/refs/heads/master/_img/XUA2025EberronUpdates/cover.webp"
 			},
 			"published": "2025-02-27",
-			"author": "Wizards of the Coast",
+			"author": "威世智",
 			"contents": [
 				{
-					"name": "Unearthed Arcana 2025: Eberron Updates",
+					"ENG_name": "Unearthed Arcana 2025: Eberron Updates",
+					"name": "破解奥秘2025：艾伯伦更新",
 					"headers": [
-						"What's Inside",
-						"Artificer",
+						"这里有什么",
+						"奇械师",
 						{
-							"header": "Artificer Spell List",
+							"header": "奇械师法术列表",
 							"depth": 1
 						},
-						"Artificer Subclass",
+						"奇械师子职",
 						{
-							"header": "Cartographer",
+							"header": "制图师",
 							"depth": 1
 						},
-						"Spells",
-						"Magic Items",
-						"Feats",
+						"法术",
+						"魔法物品",
+						"专长",
 						{
-							"header": "Dragonmark Feats",
-							"depth": 1
-						},
-						{
-							"header": "General Feats",
+							"header": "龙纹专长",
 							"depth": 1
 						},
 						{
-							"header": "Epic Boon Feats",
+							"header": "通用专长",
+							"depth": 1
+						},
+						{
+							"header": "传奇恩惠专长",
 							"depth": 1
 						}
 					]
@@ -4813,22 +4987,25 @@
 			"source": "XUA2025EberronUpdates",
 			"data": [
 				{
+					"ENG_name": "Unearthed Arcana 2025: Eberron Updates",
+					"name": "破解奥秘2025：艾伯伦更新",
 					"type": "section",
-					"name": "Unearthed Arcana 2025: Eberron Updates",
 					"page": 1,
 					"entries": [
-						"This playtest document is part of a series of {@i Unearthed Arcana} articles that present material designed for upcoming books. The material here uses the rules in the {@book 2024 Player's Handbook|XPHB}.",
+						"本试玩文档是系列{@i 破解奥秘}文章的一部分，这些文章呈现了为即将出版的书籍设计的内容。此处的内容使用{@book 2024玩家手册|XPHB}中的规则。",
 						{
+							"ENG_name": "Learn More on YouTube",
+							"name": "在 YouTube 上了解更多",
 							"type": "inset",
-							"name": "Learn More on YouTube",
 							"page": 1,
 							"entries": [
-								"To learn more about the design in this article, we invite you to view the videos about it on YouTube ({@link www.youtube.com/DNDWizards})."
+								"要了解更多关于本文中的设计，我们邀请您在 YouTube 上观看相关视频（{@link www.youtube.com/DNDWizards}）。"
 							]
 						},
 						{
+							"ENG_name": "What's Inside",
+							"name": "这里有什么",
 							"type": "section",
-							"name": "What's Inside",
 							"page": 1,
 							"entries": [
 								{
@@ -4837,66 +5014,74 @@
 									"style": "list-hang-notitle",
 									"items": [
 										{
+											"ENG_name": "Artificer",
+											"name": "奇械师",
 											"type": "item",
-											"name": "Artificer",
 											"entries": [
-												"The Artificer class appears again, with some updates since its last appearance in Unearthed Arcana."
+												"奇械师职业再次出现，自其上次在破解奥秘中出现以来进行了一些更新。"
 											]
 										},
 										{
+											"ENG_name": "New Subclass: Cartographer",
+											"name": "新子职：制图师",
 											"type": "item",
-											"name": "New Subclass: Cartographer",
 											"entries": [
-												"A new subclass for the Artificer, the Cartographer, provides new ways for the Artificer to demonstrate its ingenuity."
+												"奇械师的一个新子职，制图师，为奇械师提供了展示其独创性的新方式。"
 											]
 										},
 										{
+											"ENG_name": "Additional Magic Options",
+											"name": "额外魔法选项",
 											"type": "item",
-											"name": "Additional Magic Options",
 											"entries": [
-												"Updated versions of the new spell and new magic items compatible with the Artificer are presented here."
+												"与奇械师兼容的新法术和新魔法物品的更新版本在这里呈现。"
 											]
 										},
 										{
+											"ENG_name": "Dragonmarks",
+											"name": "龙纹",
 											"type": "item",
-											"name": "Dragonmarks",
 											"entries": [
-												"Also included are a collection of feats that provide a new way to join the dragonmarked houses of Eberron. These feats allow characters of any species to take and improve their dragonmarks. Backgrounds representing a character's connection will be included with these feats in a future book if they become official, but in the meantime a character who takes the House Agent background can choose a Dragonmarked feat, and any character can choose one of these feats when their class normally allows a feat choice."
+												"还包括一系列专长，提供了一种加入艾伯伦龙纹家族的新方式。这些专长允许任何种族的角色获取并提升他们的龙纹。如果这些专长成为官方内容，代表角色联系的背景将在未来的书中与这些专长一同发布，但在此期间，选择房产代理背景的角色可以选择一个龙纹专长，任何角色在其职业通常允许选择专长时都可以选择这些专长之一。"
 											]
 										}
 									]
 								},
 								{
+									"ENG_name": "This Is Playtest Material",
+									"name": "本材料为游玩测试内容",
 									"type": "inset",
-									"name": "This Is Playtest Material",
 									"page": 1,
 									"entries": [
-										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt it as official.",
+										"本文旨在进行游戏测试和反馈。这里的选项是实验性的且处于草稿形态。它们并非游戏的官方部分。您的反馈将协助我们决定是否将其采纳为官方。",
 										{
 											"type": "list",
 											"page": 1,
 											"style": "list-hang-notitle",
 											"items": [
 												{
+													"ENG_name": "How to Playtest This UA",
+													"name": "如何游玩测试本破解奥秘",
 													"type": "item",
-													"name": "How to Playtest This UA",
 													"entries": [
-														"We invite you to try out this material in play. To play with this material, you may either incorporate it into your campaign or run one or more special playtest sessions. For such a session, you may create an adventure of your own or use a short adventure from a source like {@adventure Quests from the Infinite Staircase|QftIS}."
+														"我们邀请您在游戏中尝试这些材质。要使用这些材质，您可以将它们融入您的战役中，或者进行一次或多次特殊的试玩测试会话。对于这样的会话，您可以创建自己的冒险，或者使用来自类似{@adventure 来自无尽阶梯的委托集|QftIS}这样的来源的短冒险。"
 													]
 												},
 												{
+													"ENG_name": "Power Level",
+													"name": "威力水平",
 													"type": "item",
-													"name": "Power Level",
 													"entries": [
-														"The character options you read here might be more or less powerful than options in the {@book 2024 Player's Handbook|XPHB}. If a design survives playtesting, we adjust its power to the desirable level before publication. This means an option could be more or less powerful in its final form."
+														"你在这里阅读的角色选项可能比{@book 2024玩家手册|XPHB}中的选项威力更强或更弱。如果一个设计在游戏测试中存活下来，我们会在发布前将其威力调整到理想水平。这意味着一个选项在其最终形态中可能威力更强或更弱。"
 													]
 												},
 												{
+													"ENG_name": "Feedback",
+													"name": "反馈",
 													"type": "item",
-													"name": "Feedback",
 													"entries": [
-														"The best way for you to give us feedback on this material is in the survey we'll release on D&D Beyond. If we make this material official, it will be refined based on your feedback, and then it will appear in a D&D book.",
-														"Providing feedback on this document is one way you can help shape the future of D&D!"
+														"您就这份材质向我们提供反馈的最佳方式是通过我们将在D&D Beyond上发布的调查。如果我们使这份材质成为官方版本，它将根据您的反馈进行完善，然后会出现在一本D&D书中。",
+														"对本文件提供反馈是您协助塑造D&D未来的一种方式！"
 													]
 												}
 											]
@@ -4906,90 +5091,101 @@
 							]
 						},
 						{
+							"ENG_name": "Artificer",
+							"name": "奇械师",
 							"type": "section",
-							"name": "Artificer",
 							"page": 1,
 							"entries": [
-								"{@i A Magical Crafter and an Inventor of Wonders}",
-								"Masters of invention, Artificers use ingenuity and magic to unlock extraordinary capabilities in objects. They see magic as a complex system waiting to be decoded and then harnessed in their spells and inventions. You can find everything you need to play one of these inventors in the next few sections.",
+								"{@i 魔法工匠与奇迹发明家}",
+								"发明大师，奇械师运用巧思与魔法来解锁物件中的非凡能力。他们将魔法视为等待解码的复杂系统，然后将其运用在他们的法术和发明中。你可以在接下来的几个章节中找到扮演这些发明家所需的一切。",
 								{
+									"ENG_name": "Core Artificer Traits",
+									"name": "奇械师核心特质",
 									"type": "statblock",
 									"tag": "table",
-									"name": "Core Artificer Traits",
 									"source": "XUA2024Artificer",
 									"page": 1
 								},
 								{
+									"ENG_name": "Becoming an Artificer...",
+									"name": "成为奇械师...",
 									"type": "entries",
-									"name": "Becoming an Artificer...",
 									"page": 1,
 									"entries": [
 										{
+											"ENG_name": "As a Level 1 Character",
+											"name": "作为1级角色",
 											"type": "list",
-											"name": "As a Level 1 Character",
 											"page": 1,
 											"items": [
-												"Gain all the traits in the Core Artificer Traits table.",
-												"Gain the Artificer's level 1 features, which are listed in the Artificer Features table."
+												"获得核心奇械师特质表格中的所有特质。",
+												"获得奇械师的1级特性，这些特性列于奇械师特性表格中。"
 											]
 										},
 										{
+											"ENG_name": "As a Multiclass Character",
+											"name": "作为兼职角色",
 											"type": "list",
-											"name": "As a Multiclass Character",
 											"page": 1,
 											"items": [
-												"Gain the following traits from the {@table Core Artificer Traits|XUA2024Artificer} table: Hit Point Die, proficiency with {@item Tinker's Tools|XPHB}, proficiency in one skill of your choice from the Artificer's skill list, and training with Light and Medium armor and Shields.",
-												"Gain the Artificer's level 1 features, which are listed in the Artificer Features table. See the multiclassing rules in the {@book Player's Handbook|XPHB|2|Multiclassing} to determine your available spell slots, adding half your Artificer levels (round up)."
+												"从{@table 奇械师核心特质|XUA2024Artificer}表格中获得以下特质：生命值骰、{@item 修补工具|XPHB}的熟练项、从奇械师技能列表中选择一个技能的熟练项，以及轻甲、中甲和盾牌的训练。",
+												"获得奇械师的1级特性，这些特性列于奇械师特性表格中。参阅{@book 玩家手册|XPHB|2|兼职}中的兼职规则以确定你的可用法术位，加上你奇械师等级的一半（向上取整）。"
 											]
 										}
 									]
 								},
 								{
+									"ENG_name": "Artificer Class Features",
+									"name": "奇械师职业特性",
 									"type": "entries",
-									"name": "Artificer Class Features",
 									"page": 2,
 									"entries": [
-										"As an Artificer, you gain the following class features when you reach the specified Artificer levels. These features are listed on the Artificer Features table.",
+										"作为一名奇械师，当达到指定的奇械师等级时，你将获得以下职业特性。这些特性列于奇械师特性表格中。",
 										{
+											"ENG_name": "Design Note: Artificer Updates",
+											"name": "设计笔记：奇械师更新",
 											"type": "inset",
-											"name": "Design Note: Artificer Updates",
 											"page": 2,
 											"entries": [
-												"Here are the main updates in this class since its last appearance in {@book Unearthed Arcana|XUA2024Artificer}:",
+												"以下是该职业自上次在{@book 破解奥秘|XUA2024Artificer}中出现以来的主要更新：",
 												{
 													"type": "list",
 													"page": 2,
 													"items": [
 														{
+															"ENG_name": "Tinker's Magic",
+															"name": "工艺魔法",
 															"type": "item",
-															"name": "Tinker's Magic",
 															"nameDot": false,
 															"entries": [
-																"(formerly {@classFeature Magical Tinkering|Artificer|XUA2024Artificer|1|XUA2024Artificer}) now gives the {@spell Mending|XPHB} cantrip, and items created with this feature last until you finish a Long Rest."
+																"（原为{@classFeature 魔法工艺|奇械师|XUA2024Artificer|1|XUA2024Artificer}）现在给予{@spell 修复术|XPHB}戏法，且使用此特性创造的物品持续至你完成一次长休。"
 															]
 														},
 														{
+															"ENG_name": "Replicate Magic Item",
+															"name": "仿制魔法物品",
 															"type": "item",
-															"name": "Replicate Magic Item",
 															"nameDot": false,
 															"entries": [
-																"'s tables have been revised. You can now use a {@item Wand|XPHB} or Weapon created by this feature as a {@variantrule Spellcasting Focus|XPHB}."
+																"的表格已修订。你现在可以使用此特性创造的{@item 魔杖|XPHB}或武器作为{@variantrule 法器|XPHB}。"
 															]
 														},
 														{
+															"ENG_name": "Magic Item Tinker",
+															"name": "魔法物品工艺师",
 															"type": "item",
-															"name": "Magic Item Tinker",
 															"nameDot": false,
 															"entries": [
-																"has been expanded to allow you to recharge magic items by expending spell slots and transform one magic item into a different item."
+																"已扩展为允许你通过消耗法术位来为魔法物品充能，并将一个魔法物品转变为不同的物品。"
 															]
 														},
 														{
+															"ENG_name": "Soul of Artifice",
+															"name": "奇械之魂",
 															"type": "item",
-															"name": "Soul of Artifice",
 															"nameDot": false,
 															"entries": [
-																"now lets you disintegrate any number of items to increase the number of regained Hit Points and allows for more reliable usage of {@classFeature Flash of Genius|Artificer|XUA2024Artificer|7|XUA2024Artificer}."
+																"现在允许你解离任意数量的物品来增加恢复的生命值数值，并使{@classFeature 灵光一闪|奇械师|XUA2024Artificer|7|XUA2024Artificer}的使用更加可靠。"
 															]
 														}
 													]
@@ -4997,24 +5193,27 @@
 											]
 										},
 										{
+											"ENG_name": "Artificer",
+											"name": "奇械师",
 											"type": "statblock",
 											"tag": "class",
-											"name": "Artificer",
 											"source": "XUA2025EberronUpdates",
 											"page": 2
 										}
 									]
 								},
 								{
+									"ENG_name": "Artificer Spell List",
+									"name": "奇械师法术列表",
 									"type": "entries",
-									"name": "Artificer Spell List",
 									"page": 5,
 									"entries": [
-										"This section presents the Artificer spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column, {@i C} means the spell requires {@status Concentration|XPHB}, {@i R} means it's a {@variantrule Ritual|XPHB}, and {@i M} means it requires a specific Material component.",
+										"本节呈现奇械师法术列表。法术按法术环阶组织，然后按字母顺序排列，并列出每个法术的魔法学派。在特殊列中，{@i C} 表示该法术需要{@status 专注|XPHB}，{@i R} 表示它是一个{@variantrule 仪式|XPHB}，{@i M} 表示它需要特定的材料成分。",
 										{
+											"ENG_name": "Artificer Spell List",
+											"name": "奇械师法术列表",
 											"type": "statblock",
 											"tag": "table",
-											"name": "Artificer Spell List",
 											"source": "XUA2025EberronUpdates",
 											"page": 5
 										}
@@ -5023,23 +5222,26 @@
 							]
 						},
 						{
+							"ENG_name": "Artificer Subclass",
+							"name": "奇械师子职",
 							"type": "section",
-							"name": "Artificer Subclass",
 							"page": 6,
 							"entries": [
-								"An Artificer subclass is a specialization that grants you features at certain Artificer levels, as specified in the subclass. This section presents a new subclass, the {@subclass Cartographer|Artificer|XUA2025EberronUpdates|XUA2025EberronUpdates}.",
+								"奇械师子职是一种专业化，在特定奇械师等级授予你特性，如子职中所述。本节介绍一个新的子职：{@subclass 制图师|奇械师|XUA2025EberronUpdates|XUA2025EberronUpdates}。",
 								{
+									"ENG_name": "Cartographer",
+									"name": "制图师",
 									"type": "entries",
-									"name": "Cartographer",
 									"page": 6,
 									"entries": [
-										"{@i Chart Advantageous Courses through Turmoil}",
+										"{@i 绘制动荡中的优势航线}",
 										{
+											"ENG_name": "Cartographer",
+											"name": "制图师",
 											"type": "statblock",
 											"prop": "subclass",
-											"name": "Cartographer",
-											"shortName": "Cartographer",
-											"className": "Artificer",
+											"shortName": "制图师",
+											"className": "奇械师",
 											"classSource": "XUA2025EberronUpdates",
 											"source": "XUA2025EberronUpdates",
 											"page": 6
@@ -5049,319 +5251,364 @@
 							]
 						},
 						{
+							"ENG_name": "Spells",
+							"name": "法术",
 							"type": "section",
-							"name": "Spells",
 							"page": 7,
 							"entries": [
-								"Spells are presented in alphabetical order.",
+								"法术按字母顺序排列。",
 								{
+									"ENG_name": "Homunculus Servant",
+									"name": "人工生命仆从",
 									"type": "statblock",
 									"tag": "spell",
-									"name": "Homunculus Servant",
 									"source": "XUA2024Artificer",
 									"page": 7
 								}
 							]
 						},
 						{
+							"ENG_name": "Magic Items",
+							"name": "魔法物品",
 							"type": "section",
-							"name": "Magic Items",
 							"page": 8,
 							"entries": [
-								"Magic items are presented in alphabetical order.",
+								"魔法物品按字母顺序排列。",
 								{
+									"ENG_name": "Boots of the Winding Path",
+									"name": "折返之靴",
 									"type": "statblock",
 									"tag": "item",
-									"name": "Boots of the Winding Path",
 									"source": "XUA2024Artificer",
 									"page": 8
 								},
 								{
+									"ENG_name": "Helm of Awareness",
+									"name": "警觉之盔",
 									"type": "statblock",
 									"tag": "item",
-									"name": "Helm of Awareness",
 									"source": "XUA2024Artificer",
 									"page": 8
 								},
 								{
+									"ENG_name": "Manifold Tool",
+									"name": "百变工具",
 									"type": "statblock",
 									"tag": "item",
-									"name": "Manifold Tool",
 									"source": "XUA2025EberronUpdates",
 									"page": 8
 								},
 								{
+									"ENG_name": "Mind Sharpener",
+									"name": "思维砥石",
 									"type": "statblock",
 									"tag": "item",
-									"name": "Mind Sharpener",
 									"source": "XUA2024Artificer",
 									"page": 8
 								},
 								{
+									"ENG_name": "Radiant Weapon",
+									"name": "光耀武器",
 									"type": "statblock",
 									"tag": "item",
-									"name": "Radiant Weapon",
 									"source": "XUA2024Artificer",
 									"page": 8
 								},
 								{
+									"ENG_name": "Repeating Shot",
+									"name": "连射武器",
 									"type": "statblock",
 									"tag": "item",
-									"name": "Repeating Shot",
 									"source": "XUA2024Artificer",
 									"page": 8
 								},
 								{
+									"ENG_name": "Repulsion Shield",
+									"name": "斥力之盾",
 									"type": "statblock",
 									"tag": "item",
-									"name": "Repulsion Shield",
 									"source": "XUA2024Artificer",
 									"page": 8
 								},
 								{
+									"ENG_name": "Returning Weapon",
+									"name": "回力武器",
 									"type": "statblock",
 									"tag": "item",
-									"name": "Returning Weapon",
 									"source": "XUA2024Artificer",
 									"page": 8
 								},
 								{
+									"ENG_name": "Spell-Refueling Ring",
+									"name": "法力恢复戒指",
 									"type": "statblock",
 									"tag": "item",
-									"name": "Spell-Refueling Ring",
 									"source": "XUA2024Artificer",
 									"page": 8
 								}
 							]
 						},
 						{
+							"ENG_name": "Feats",
+							"name": "专长",
 							"type": "section",
-							"name": "Feats",
 							"page": 9,
 							"entries": [
-								"This section presents twenty-eight new feats.",
+								"本节介绍了二十八个新专长。",
 								{
+									"ENG_name": "Feat List",
+									"name": "专长列表",
 									"type": "statblock",
 									"tag": "table",
-									"name": "Feat List",
 									"source": "XUA2025EberronUpdates",
 									"page": 9
 								},
 								{
+									"ENG_name": "Dragonmark Feats",
+									"name": "龙纹专长",
 									"type": "entries",
-									"name": "Dragonmark Feats",
 									"page": 9,
 									"entries": [
-										"These feats are in the Dragonmark category.",
+										"这些专长属于龙纹类别。",
 										{
+											"ENG_name": "Aberrant Dragonmark",
+											"name": "异种龙纹",
 											"type": "statblock",
 											"tag": "feat",
-											"name": "Aberrant Dragonmark",
 											"source": "XUA2025EberronUpdates",
 											"page": 9
 										},
 										{
+											"ENG_name": "Mark of Detection",
+											"name": "侦测龙纹",
 											"type": "statblock",
 											"tag": "feat",
-											"name": "Mark of Detection",
 											"source": "XUA2025EberronUpdates",
 											"page": 9
 										},
 										{
+											"ENG_name": "Mark of Finding",
+											"name": "探寻龙纹",
 											"type": "statblock",
 											"tag": "feat",
-											"name": "Mark of Finding",
 											"source": "XUA2025EberronUpdates",
 											"page": 10
 										},
 										{
+											"ENG_name": "Mark of Handling",
+											"name": "畜牧龙纹",
 											"type": "statblock",
 											"tag": "feat",
-											"name": "Mark of Handling",
 											"source": "XUA2025EberronUpdates",
 											"page": 10
 										},
 										{
+											"ENG_name": "Mark of Healing",
+											"name": "医疗龙纹",
 											"type": "statblock",
 											"tag": "feat",
-											"name": "Mark of Healing",
 											"source": "XUA2025EberronUpdates",
 											"page": 10
 										},
 										{
+											"ENG_name": "Mark of Hospitality",
+											"name": "招待龙纹",
 											"type": "statblock",
 											"tag": "feat",
-											"name": "Mark of Hospitality",
 											"source": "XUA2025EberronUpdates",
 											"page": 11
 										},
 										{
+											"ENG_name": "Mark of Making",
+											"name": "创造龙纹",
 											"type": "statblock",
 											"tag": "feat",
-											"name": "Mark of Making",
 											"source": "XUA2025EberronUpdates",
 											"page": 11
 										},
 										{
+											"ENG_name": "Mark of Passage",
+											"name": "通行龙纹",
 											"type": "statblock",
 											"tag": "feat",
-											"name": "Mark of Passage",
 											"source": "XUA2025EberronUpdates",
 											"page": 11
 										},
 										{
+											"ENG_name": "Mark of Scribing",
+											"name": "抄录龙纹",
 											"type": "statblock",
 											"tag": "feat",
-											"name": "Mark of Scribing",
 											"source": "XUA2025EberronUpdates",
 											"page": 11
 										},
 										{
+											"ENG_name": "Mark of Sentinel",
+											"name": "哨戒龙纹",
 											"type": "statblock",
 											"tag": "feat",
-											"name": "Mark of Sentinel",
 											"source": "XUA2025EberronUpdates",
 											"page": 12
 										},
 										{
+											"ENG_name": "Mark of Shadow",
+											"name": "阴影龙纹",
 											"type": "statblock",
 											"tag": "feat",
-											"name": "Mark of Shadow",
 											"source": "XUA2025EberronUpdates",
 											"page": 12
 										},
 										{
+											"ENG_name": "Mark of Storm",
+											"name": "暴风龙纹",
 											"type": "statblock",
 											"tag": "feat",
-											"name": "Mark of Storm",
 											"source": "XUA2025EberronUpdates",
 											"page": 12
 										},
 										{
+											"ENG_name": "Mark of Warding",
+											"name": "守御龙纹",
 											"type": "statblock",
 											"tag": "feat",
-											"name": "Mark of Warding",
 											"source": "XUA2025EberronUpdates",
 											"page": 13
 										}
 									]
 								},
 								{
+									"ENG_name": "General Feats",
+									"name": "通用专长",
 									"type": "entries",
-									"name": "General Feats",
 									"page": 13,
 									"entries": [
-										"These new feats are in the General category.",
+										"这些新专长属于通用类别。",
 										{
+											"ENG_name": "Greater Aberrant Mark",
+											"name": "高等异种龙纹",
 											"type": "statblock",
 											"tag": "feat",
-											"name": "Greater Aberrant Mark",
 											"source": "XUA2025EberronUpdates",
 											"page": 13
 										},
 										{
+											"ENG_name": "Greater Mark of Detection",
+											"name": "高等侦测龙纹",
 											"type": "statblock",
 											"tag": "feat",
-											"name": "Greater Mark of Detection",
 											"source": "XUA2025EberronUpdates",
 											"page": 13
 										},
 										{
+											"ENG_name": "Greater Mark of Finding",
+											"name": "高等探寻龙纹",
 											"type": "statblock",
 											"tag": "feat",
-											"name": "Greater Mark of Finding",
 											"source": "XUA2025EberronUpdates",
 											"page": 13
 										},
 										{
+											"ENG_name": "Greater Mark of Handling",
+											"name": "高等畜牧龙纹",
 											"type": "statblock",
 											"tag": "feat",
-											"name": "Greater Mark of Handling",
 											"source": "XUA2025EberronUpdates",
 											"page": 13
 										},
 										{
+											"ENG_name": "Greater Mark of Healing",
+											"name": "高等医疗龙纹",
 											"type": "statblock",
 											"tag": "feat",
-											"name": "Greater Mark of Healing",
 											"source": "XUA2025EberronUpdates",
 											"page": 14
 										},
 										{
+											"ENG_name": "Greater Mark of Hospitality",
+											"name": "高等招待龙纹",
 											"type": "statblock",
 											"tag": "feat",
-											"name": "Greater Mark of Hospitality",
 											"source": "XUA2025EberronUpdates",
 											"page": 14
 										},
 										{
+											"ENG_name": "Greater Mark of Making",
+											"name": "高等创造龙纹",
 											"type": "statblock",
 											"tag": "feat",
-											"name": "Greater Mark of Making",
 											"source": "XUA2025EberronUpdates",
 											"page": 14
 										},
 										{
+											"ENG_name": "Greater Mark of Passage",
+											"name": "高等通行龙纹",
 											"type": "statblock",
 											"tag": "feat",
-											"name": "Greater Mark of Passage",
 											"source": "XUA2025EberronUpdates",
 											"page": 14
 										},
 										{
+											"ENG_name": "Greater Mark of Scribing",
+											"name": "高等抄录龙纹",
 											"type": "statblock",
 											"tag": "feat",
-											"name": "Greater Mark of Scribing",
 											"source": "XUA2025EberronUpdates",
 											"page": 14
 										},
 										{
+											"ENG_name": "Greater Mark of Sentinel",
+											"name": "高等哨戒龙纹",
 											"type": "statblock",
 											"tag": "feat",
-											"name": "Greater Mark of Sentinel",
 											"source": "XUA2025EberronUpdates",
 											"page": 14
 										},
 										{
+											"ENG_name": "Greater Mark of Shadow",
+											"name": "高等阴影龙纹",
 											"type": "statblock",
 											"tag": "feat",
-											"name": "Greater Mark of Shadow",
 											"source": "XUA2025EberronUpdates",
 											"page": 15
 										},
 										{
+											"ENG_name": "Greater Mark of Storm",
+											"name": "高等暴风龙纹",
 											"type": "statblock",
 											"tag": "feat",
-											"name": "Greater Mark of Storm",
 											"source": "XUA2025EberronUpdates",
 											"page": 15
 										},
 										{
+											"ENG_name": "Greater Mark of Warding",
+											"name": "高等守御龙纹",
 											"type": "statblock",
 											"tag": "feat",
-											"name": "Greater Mark of Warding",
 											"source": "XUA2025EberronUpdates",
 											"page": 15
 										},
 										{
+											"ENG_name": "Potent Dragonmark",
+											"name": "强效龙纹",
 											"type": "statblock",
 											"tag": "feat",
-											"name": "Potent Dragonmark",
 											"source": "XUA2025EberronUpdates",
 											"page": 15
 										}
 									]
 								},
 								{
+									"ENG_name": "Epic Boon Feats",
+									"name": "传奇恩惠专长",
 									"type": "entries",
-									"name": "Epic Boon Feats",
 									"page": 15,
 									"entries": [
-										"This feat is in the Epic Boon category.",
+										"该专长属于传奇恩惠类别。",
 										{
+											"ENG_name": "Boon of Siberys",
+											"name": "西伯瑞斯之恩惠",
 											"type": "statblock",
 											"tag": "feat",
-											"name": "Boon of Siberys",
 											"source": "XUA2025EberronUpdates",
 											"page": 15
 										}

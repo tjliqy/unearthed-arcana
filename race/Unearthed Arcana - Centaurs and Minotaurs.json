@@ -4,7 +4,7 @@
 			{
 				"json": "UACentaursMinotaurs",
 				"abbreviation": "UACAM",
-				"full": "Unearthed Arcana: Centaurs and Minotaurs",
+				"full": "破解奥秘：人马与牛头人",
 				"url": "https://media.wizards.com/2018/dnd/downloads/UA-Centaur.pdf",
 				"version": "1.0.0",
 				"dateReleased": "2018-05-14",
@@ -18,20 +18,21 @@
 		],
 		"edition": "classic",
 		"dateAdded": 1701616429,
-		"dateLastModified": 1774092631,
+		"dateLastModified": 1792466512,
 		"_dateLastModifiedHash": "a035ce3181"
 	},
 	"race": [
 		{
-			"name": "Centaur",
+			"ENG_name": "Centaur",
+			"name": "人马",
 			"source": "UACentaursMinotaurs",
 			"page": 1,
 			"reprintedAs": [
-				"Centaur|GGR"
+				"人马|GGR"
 			],
 			"creatureTypes": [
-				"humanoid",
-				"monstrosity"
+				"类人生物",
+				"怪兽"
 			],
 			"size": [
 				"M"
@@ -64,81 +65,91 @@
 			],
 			"entries": [
 				{
+					"ENG_name": "Age",
+					"name": "年龄",
 					"type": "entries",
-					"name": "Age",
 					"entries": [
-						"Centaurs mature and age at about the same rate as humans."
+						"人马成熟和衰老的速度与人类大致相同。"
 					]
 				},
 				{
+					"ENG_name": "Alignment",
+					"name": "阵营",
 					"type": "entries",
-					"name": "Alignment",
 					"entries": [
-						"Centaurs are inclined toward neutrality."
+						"人马倾向于中立。"
 					]
 				},
 				{
+					"ENG_name": "Size",
+					"name": "体型",
 					"type": "entries",
-					"name": "Size",
 					"entries": [
-						"Your size is Medium, yet you tower over most other humanoids."
+						"你的体型是中等，但你比大多数其他类人生物都要高大。"
 					]
 				},
 				{
+					"ENG_name": "Charge",
+					"name": "冲锋",
 					"type": "entries",
-					"name": "Charge",
 					"entries": [
-						"If you move at least 20 feet straight toward a target and then hit it with a melee weapon attack on the same turn, roll the weapon's damage dice twice and add them together. Once you use this ability, you can't use it again until you finish a short or long rest."
+						"如果你向目标直线移动至少20尺且在同一回合内以近战武器攻击命中该目标，掷骰两次武器伤害骰并将它们相加。一旦你使用此属性，直到完成一次短休或长休前都不能再次使用它。"
 					]
 				},
 				{
+					"ENG_name": "Hooves",
+					"name": "蹄击",
 					"type": "entries",
-					"name": "Hooves",
 					"entries": [
-						"Your hooves are natural melee weapons, with which you're proficient. If you hit with a hoof, the target takes bludgeoning damage equal to {@dice 1d6} + your Strength modifier."
+						"你的蹄击是天生近战武器，你对此熟练。如果你用蹄踢命中，目标将受到等于{@dice 1d6} + 你的力量调整值的钝击伤害。"
 					]
 				},
 				{
+					"ENG_name": "Equine Build",
+					"name": "马体构造",
 					"type": "entries",
-					"name": "Equine Build",
 					"entries": [
-						"You count as one size larger when determining your carrying capacity and the weight you can push or drag. In addition, any climb that requires hands and feet is especially difficult for you because of your hooves. When you make such a climb, each foot of movement costs you 4 extra feet, instead of the normal 1 extra foot. Finally, a Medium or smaller creature can ride on your equine back if you allow it. In such a situation, you continue to act independently, not as a controlled mount."
+						"你在确定载重和能推离或拖拽的重量时视为体型大一级。此外，由于你的蹄击，任何需要手脚并用的攀爬对你来说都特别困难。当你进行此类攀爬时，每移动一尺需额外消耗4尺移动力，而非正常的1尺。最后，一个中等或更小的生物若获得你的允许，可以骑乘在你的马体构造背部。在此情景下，你仍可独立行动，而非作为受控乘骑。"
 					]
 				},
 				{
+					"ENG_name": "Survivor",
+					"name": "生还者",
 					"type": "entries",
-					"name": "Survivor",
 					"entries": [
-						"You have proficiency in the {@skill Survival} skill."
+						"你在{@skill 求生}技能上具有熟练项。"
 					]
 				},
 				{
+					"ENG_name": "Hybrid Nature",
+					"name": "混种天性",
 					"type": "entries",
-					"name": "Hybrid Nature",
 					"entries": [
-						"You have two creature types: humanoid and monstrosity. You can be affected by a game effect if it works on either of your creature types."
+						"你拥有两种生物类型：类人生物和怪兽。游戏效应若能作用于你的任一生物类型，即可对你生效。"
 					]
 				},
 				{
+					"ENG_name": "Languages",
+					"name": "语言",
 					"type": "entries",
-					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Common and Sylvan."
+						"你能够说、读、写通用语和木族语。"
 					]
 				}
 			],
 			"hasFluff": true
 		},
 		{
-			"name": "Minotaur",
+			"ENG_name": "Minotaur",
+			"name": "牛头人",
 			"source": "UACentaursMinotaurs",
 			"page": 2,
 			"reprintedAs": [
-				"Minotaur|GGR"
+				"牛头人|GGR"
 			],
 			"creatureTypes": [
-				"humanoid",
-				"monstrosity"
+				"类人生物",
+				"怪兽"
 			],
 			"size": [
 				"M"
@@ -172,70 +183,79 @@
 				{
 					"type": "entries",
 					"entries": [
-						"{@note In 2015, minotaurs appeared as a playtest option in Unearthed Arcana. Here is a revised set of traits for minotaur player characters. These traits are suitable for minotaurs on Krynn and in other D&D worlds where these people have avoided the demonic influence of Baphomet.}"
+						"{@note 2015年，牛头人作为游戏测试选项出现在破解奥秘中。这里是一套修订后的牛头人玩家角色特质。这些特质适用于克莱恩和其他D&D世界中那些避开了巴弗灭恶魔影响力的人。}"
 					]
 				},
 				{
+					"ENG_name": "Age",
+					"name": "年龄",
 					"type": "entries",
-					"name": "Age",
 					"entries": [
-						"Minotaurs enter adulthood at around the age of 17 and can live up to 150 years."
+						"牛头人大约17岁左右成年，可以活到150岁。"
 					]
 				},
 				{
+					"ENG_name": "Alignment",
+					"name": "阵营",
 					"type": "entries",
-					"name": "Alignment",
 					"entries": [
-						"Most minotaurs lean toward lawful alignments."
+						"大多数牛头人倾向于守序阵营。"
 					]
 				},
 				{
+					"ENG_name": "Size",
+					"name": "体型",
 					"type": "entries",
-					"name": "Size",
 					"entries": [
-						"Minotaurs average over 6 feet in height, and they have strong, stocky builds. Your size is Medium."
+						"牛头人平均身高超过6尺，他们拥有强壮而结实的体型。你的体型是中等。"
 					]
 				},
 				{
+					"ENG_name": "Horns",
+					"name": "角击",
 					"type": "entries",
-					"name": "Horns",
 					"entries": [
-						"Your horns are natural melee weapons, with which you're proficient. When you hit with them, the target takes piercing damage equal to {@dice 1d6} + your Strength modifier."
+						"你的角是天生近战武器，你擅长使用它们。当你用角击命中时，目标受到等于{@dice 1d6}加你力量调整值的穿刺伤害。"
 					]
 				},
 				{
+					"ENG_name": "Goring Rush",
+					"name": "猛抵冲撞",
 					"type": "entries",
-					"name": "Goring Rush",
 					"entries": [
-						"Immediately after you use the {@action Dash} action on your turn and move at least as far as your speed, you can make one melee attack with your horns as a bonus action."
+						"当你回合内使用{@action 疾走}动作且移动至少等同于你的速度的距离后，你可以用一个附赠动作发动一次角击近战攻击。"
 					]
 				},
 				{
+					"ENG_name": "Hammering Horns",
+					"name": "角锤",
 					"type": "entries",
-					"name": "Hammering Horns",
 					"entries": [
-						"Immediately after you hit a creature with a melee attack as part of the {@action Attack} action on your turn, you can attempt to shove that creature with your horns using your reaction. The creature must be no more than one size larger than you and within 5 feet of you. It must make a Strength saving throw against a DC equal to 8 + your proficiency bonus + your Strength modifier. If it fails, you push it up to 5 feet away from you."
+						"当你回合中作为{@action 攻击}动作的一部分用近战攻击命中一个生物后，你可以立即使用你的反应尝试用你的角击推撞该生物。该生物体型不得超过你一级且必须在5尺内。它必须进行一次力量豁免检定，DC等于8 + 你的熟练加值 + 你的力量调整值。若失败，你将之推离至多5尺。"
 					]
 				},
 				{
+					"ENG_name": "Menacing",
+					"name": "凶恶",
 					"type": "entries",
-					"name": "Menacing",
 					"entries": [
-						"You have proficiency in the {@skill Intimidation} skill."
+						"你拥有{@skill 威吓}技能的熟练项。"
 					]
 				},
 				{
+					"ENG_name": "Hybrid Nature",
+					"name": "混种天性",
 					"type": "entries",
-					"name": "Hybrid Nature",
 					"entries": [
-						"You have two creature types: humanoid and monstrosity. You can be affected by a game effect if it works on either of your creature types."
+						"你拥有两种生物类型：类人生物和怪兽。游戏效应若能作用于你的任一生物类型，即可对你生效。"
 					]
 				},
 				{
+					"ENG_name": "Languages",
+					"name": "语言",
 					"type": "entries",
-					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Common and Minotaur."
+						"你可以说、读与写通用语和牛头人语。"
 					]
 				}
 			]
@@ -243,7 +263,8 @@
 	],
 	"raceFluff": [
 		{
-			"name": "Centaur",
+			"ENG_name": "Centaur",
+			"name": "人马",
 			"source": "UACentaursMinotaurs",
 			"entries": [
 				{
@@ -252,28 +273,31 @@
 						{
 							"type": "entries",
 							"entries": [
-								"Roamers at heart, centaurs love open spaces and the freedom to travel. As much as they can, centaurs run. They race the wind, hooves thundering and tails streaming behind them.",
+								"人马内心是漫游者，他们嘲笑开放的空间和旅行的自由。只要有可能，人马就会奔跑。他们与风势赛跑，蹄击雷鸣般响起，背面在它们身后飘扬。",
 								{
+									"ENG_name": "Nature's Cavalry",
+									"name": "天生的骑兵",
 									"type": "entries",
-									"name": "Nature's Cavalry",
 									"entries": [
-										"Centaurs have humanoid upper bodies, displaying all the human variety of skin tones and features. In size, they are comparable to a human rider mounted on a horse, and they fill similar roles\u2014as cavalry, messengers, outriders, and scouts.",
-										"Centaurs' ears are slightly pointed, but their faces are more wide and square than those of elves. Below the waist, they have the bodies of horses, with coats tending toward brown shades (chestnut or bay) and darker tails."
+										"人马拥有类人生物的上半身，展现出所有人类的各种肤色和特性。他们的体型相当于一个骑在马背上的人类骑兵，且他们承担着类似的角色\u2014\u2014作为骑兵、信使、前哨和斥候。",
+										"人马的耳朵略微尖细，但他们的脸型比精灵更宽更方。腰部下方，他们有马匹的身体，毛色倾向于棕色色调（栗色或枣红色）和更深的背面。"
 									]
 								},
 								{
+									"ENG_name": "Nature and Community",
+									"name": "自然和团队",
 									"type": "entries",
-									"name": "Nature and Community",
 									"entries": [
-										"Centaurs have a strong sense of the interconnectedness of the natural world, and they celebrate family and community as microcosms of that greater connection. The birth of a foal is always cause for festivities. At the same time, centaurs revere the traditions of the past, preserving old ways and keeping alive the legends of ancestral heroes. They feel a close kinship with wild animals, perhaps because of their own hybrid nature, and delight in the feeling of running alongside herds and packs of beasts."
+										"人马对自然世界的相互联系有着强烈的感知，他们将家庭和团队视为这种更广泛联系的缩影。小马的出生总是庆祝的理由。与此同时，人马尊崇过去的传统，保留旧途并传承祖先英雄的传说。他们与狂野动物有着密切的亲近感，或许是因为他们自身的混种天性，并喜欢与野兽群一起奔跑的感觉。"
 									]
 								},
 								{
+									"ENG_name": "Centaur Names",
+									"name": "人马名字",
 									"type": "entries",
-									"name": "Centaur Names",
 									"entries": [
-										"Centaurs' given names are passed down through family lines. The name given to a new foal is typically the name of the most recently deceased family member of the same gender, keeping alive the memory\u2014and, the centaurs believe, some shard of the spirit\u2014of the departed.",
-										"Centaurs rarely use family names, but wear symbols that represent their family membership. These symbols might include graphical representations of plants or animals, printed mottos, braids and beads worn in the hair and tail, or even specific patterns of woven fabric."
+										"人马的名称是通过家庭线状传递的。给予新生小马的名称通常是最近去世的同性别家庭成员的名字，以此保持对逝者的记忆\u2014\u2014且人马们相信，还有一部分精魄\u2014\u2014的存在。",
+										"人马很少使用家族姓氏，但会佩戴代表其家庭成员的符号。这些符号可能包括植物或动物的图形表示、印刷的座右铭、毛发和尾击上佩戴的编织物和珠子，甚至是特定的编织织物图案。"
 									]
 								}
 							]

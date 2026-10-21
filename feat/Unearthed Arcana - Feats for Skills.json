@@ -4,7 +4,7 @@
 			{
 				"json": "UAFeatsForSkills",
 				"abbreviation": "UAFFS",
-				"full": "Unearthed Arcana: Feats for Skills",
+				"full": "破解奥秘：技能专长",
 				"url": "https://media.wizards.com/2017/dnd/downloads/UA-SkillFeats.pdf",
 				"version": "1.0.0",
 				"dateReleased": "2017-04-17",
@@ -18,12 +18,13 @@
 		],
 		"edition": "classic",
 		"dateAdded": 1701616429,
-		"dateLastModified": 1774092631,
+		"dateLastModified": 1792466497,
 		"_dateLastModifiedHash": "12b14eccff"
 	},
 	"feat": [
 		{
-			"name": "Acrobat",
+			"ENG_name": "Acrobat",
+			"name": "杂技演员",
 			"source": "UAFeatsForSkills",
 			"page": 1,
 			"ability": [
@@ -37,18 +38,19 @@
 				}
 			],
 			"entries": [
-				"You become more nimble, gaining the following benefits:",
+				"你变得更加迅捷，获得以下增益：",
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill Acrobatics} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-						"As a bonus action, you can make a DC 15 Dexterity ({@skill Acrobatics}) check. If you succeed, {@quickref difficult terrain||3} doesn't cost you extra movement until the end of the current turn."
+						"你获得{@skill 特技}技能的熟练。如果你已经熟练该技能，你在使用它进行检定时添加双倍的熟练加值。",
+						"作为附赠动作，你可以进行一次DC 15敏捷（{@skill 特技}）检定。若成功，{@quickref 困难地形||3}不会消耗你额外的移动力直到当前回合结束。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Animal Handler",
+			"ENG_name": "Animal Handler",
+			"name": "驯兽师",
 			"source": "UAFeatsForSkills",
 			"page": 1,
 			"ability": [
@@ -62,18 +64,19 @@
 				}
 			],
 			"entries": [
-				"You master the techniques needed to train and handle animals. You gain the following benefits:",
+				"你掌握了训练和驾驭动物所需的技巧。你获得以下增益：",
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill Animal Handling} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-						"You can use a bonus action on your turn to command one friendly beast within 60 feet of you that can hear you and that isn't currently following the command of someone else. You decide now what action the beast will take and where it will move during its next turn, or you issue a general command that lasts for 1 minute, such as to guard a particular area."
+						"你获得{@skill 驯兽}技能的熟练。如果你已经熟练该技能，你在使用该技能进行检定时可以添加双倍的熟练加值。",
+						"你可以在你的回合使用一个附赠动作来命令一个你能听见且60尺内未跟随他人命令的友好野兽。你现在决定该野兽在其下个回合将采取什么动作和移动到何处，或者你发布一个持续1分钟的通用命令，例如守卫特定区域。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Arcanist",
+			"ENG_name": "Arcanist",
+			"name": "奥术师",
 			"source": "UAFeatsForSkills",
 			"page": 1,
 			"ability": [
@@ -92,31 +95,32 @@
 						"_": {
 							"daily": {
 								"1": [
-									"detect magic"
+									"侦测魔法"
 								]
 							}
 						}
 					},
 					"known": {
 						"_": [
-							"prestidigitation#c"
+							"魔法伎俩#c"
 						]
 					}
 				}
 			],
 			"entries": [
-				"You study the arcane arts, gaining the following benefits:",
+				"你研究奥术技艺，获得以下增益：",
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill Arcana} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-						"You learn the {@spell prestidigitation} and {@spell detect magic} spells. You can cast {@spell detect magic} once without expending a spell slot, and you regain the ability to do so when you finish a long rest."
+						"你获得{@skill 奥秘}技能的熟练。如果你已经熟练该技能，你在使用它进行检定时可以添加双倍的熟练加值。",
+						"你习得法术{@spell 魔法伎俩}和{@spell 侦测魔法}。你可以不消耗法术位施放一次{@spell 侦测魔法}，且完成一次长休后恢复该能力。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Brawny",
+			"ENG_name": "Brawny",
+			"name": "强壮",
 			"source": "UAFeatsForSkills",
 			"page": 1,
 			"ability": [
@@ -130,18 +134,19 @@
 				}
 			],
 			"entries": [
-				"You become stronger, gaining the following benefits:",
+				"你变得更加强壮，获得以下增益：",
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill Athletics} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-						"You count as if you were one size larger for the purpose of determining your carrying capacity."
+						"你获得{@skill 运动}技能的熟练。如果你已经熟练该技能，你在使用该技能进行检定时添加双倍的熟练加值。",
+						"在确定你的载重时，你被视为体型大一级。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Diplomat",
+			"ENG_name": "Diplomat",
+			"name": "外交官",
 			"source": "UAFeatsForSkills",
 			"page": 2,
 			"ability": [
@@ -155,18 +160,19 @@
 				}
 			],
 			"entries": [
-				"You master the arts of diplomacy, gaining the following benefits:",
+				"你精通交涉艺术，获得以下增益：",
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill Persuasion} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-						"If you spend 1 minute talking to someone who can understand what you say, you can make a Charisma ({@skill Persuasion}) check contested by the creature's Wisdom ({@skill Insight}) check. If you or your companions are fighting the creature, your check automatically fails. If your check succeeds, the target is {@condition charmed} by you as long as it remains within 60 feet of you and for 1 minute thereafter."
+						"你获得{@skill 游说}技能的熟练。如果你已经熟练该技能，你在使用它时添加双倍的熟练加值。",
+						"如果你花费1分钟与一个能听懂你说话的人交谈，你可以进行一次魅力（{@skill 游说}）检定，与目标的感知（{@skill 洞悉}）检定对抗。如果你或你的同伴正在与该生物战斗，你的检定自动失败。如果你的检定成功，目标会被你{@condition 魅惑}，只要它保持在距离你60尺内，且此后持续1分钟。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Empathic",
+			"ENG_name": "Empathic",
+			"name": "感同身受",
 			"source": "UAFeatsForSkills",
 			"page": 2,
 			"ability": [
@@ -180,18 +186,19 @@
 				}
 			],
 			"entries": [
-				"You possess keen insight into how other people think and feel. You gain the following benefits:",
+				"你对其他人的思维和感官拥有敏锐的洞悉。你获得以下增益：",
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill Insight} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-						"You can use your action to try to get uncanny insight about one humanoid you can see within 30 feet of you. Make a Wisdom ({@skill Insight}) check contested by the target's Charisma ({@skill Deception}) check. If your check succeeds, you have advantage on attack rolls and ability checks against the target until the end of your next turn."
+						"你获得{@skill 洞悉}技能的熟练。如果你已经熟练该技能，你在使用它进行检定时添加双倍的熟练加值。",
+						"你可以使用你的动作尝试对你30尺内能看见的一个类人生物获得不可思议的洞悉。进行一次感知（{@skill 洞悉}）检定，与目标的魅力（{@skill 欺瞒}）检定对抗。如果你的检定成功，你在对抗目标的攻击检定和属性检定上具有优势，直到你的下个回合结束。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Historian",
+			"ENG_name": "Historian",
+			"name": "历史学家",
 			"source": "UAFeatsForSkills",
 			"page": 2,
 			"ability": [
@@ -205,18 +212,19 @@
 				}
 			],
 			"entries": [
-				"Your study of history rewards you with the following benefits:",
+				"你对历史的研究为你带来以下增益：",
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill History} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-						"When you take the {@action Help} action to aid another creature's ability check, you can make a DC 15 Intelligence ({@skill History}) check. On a success, that creature's check gains a bonus equal to your proficiency bonus, as you share pertinent advice and historical examples. To receive this bonus, the creature must be able to understand what you're saying."
+						"你获得{@skill 历史}技能的熟练。如果你已经熟练该技能，你在使用该技能进行检定时添加双倍的熟练加值。",
+						"当你使用{@action 协助}动作来协助另一个生物进行属性检定时，你可以进行一次DC 15的智力（{@skill 历史}）检定。若成功，该生物的检定将获得等同于你熟练加值的加值，因为你分享了相关的建议和历史示例。要获得此加值，该生物必须能够理解你所说的话。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Investigator",
+			"ENG_name": "Investigator",
+			"name": "调查员",
 			"source": "UAFeatsForSkills",
 			"page": 2,
 			"ability": [
@@ -230,18 +238,19 @@
 				}
 			],
 			"entries": [
-				"You have an eye for detail and can pick out the smallest clues. You gain the following benefits:",
+				"你拥有鉴识之眼且能发现最细微的线索。你获得以下增益：",
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill Investigation} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-						"You can take the {@action Search} action as a bonus action."
+						"你获得{@skill 调查}技能的熟练。如果你已经熟练该技能，你在使用该技能进行检定时可以添加双倍的熟练加值。",
+						"你可以以一个附赠动作执行{@action 搜索}动作。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Medic",
+			"ENG_name": "Medic",
+			"name": "医疗兵",
 			"source": "UAFeatsForSkills",
 			"page": 2,
 			"ability": [
@@ -255,18 +264,19 @@
 				}
 			],
 			"entries": [
-				"You master the physician's arts, gaining the following benefits:",
+				"你精通医师的艺术，获得以下增益：",
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill Medicine} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-						"During a short rest, you can clean and bind the wounds of up to six willing beasts and humanoids. Make a DC 15 Wisdom ({@skill Medicine}) check for each creature. On a success, if a creature spends a Hit Die during this rest, that creature can forgo the roll and instead regain the maximum number of hit points the die can restore. A creature can do so only once per rest, regardless of how many Hit Dice it spends."
+						"你获得{@skill 医药}技能的熟练。如果你已经熟练该技能，你在使用它进行检定时添加双倍的熟练加值。",
+						"在短休期间，你可以为最多六只愿意的野兽和类人生物清理并包扎伤口。为每个生物进行一次DC 15感知（{@skill 医药}）检定。若成功，若该生物在此次休息期间花费了一个生命骰，则该生物可以放弃掷骰，改为恢复该骰能复原的最大生命值数值。无论花费多少生命骰，每个生物每次休息只能如此做一次。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Menacing",
+			"ENG_name": "Menacing",
+			"name": "凶恶",
 			"source": "UAFeatsForSkills",
 			"page": 2,
 			"ability": [
@@ -280,18 +290,19 @@
 				}
 			],
 			"entries": [
-				"You become fearsome to others, gaining the following benefits:",
+				"你变得令人生畏，获得以下增益：",
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill Intimidation} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-						"When you take the {@action Attack} action on your turn, you can replace one attack with an attempt to demoralize one humanoid you can see within 30 feet of you that can see and hear you. Make a Charisma ({@skill Intimidation}) check contested by the target's Wisdom ({@skill Insight}) check. If your check succeeds, the target is {@condition frightened} until the end of your next turn. If your check fails, the target can't be {@condition frightened} by you in this way for 1 hour."
+						"你获得{@skill 威吓}技能的熟练。如果你已经熟练该技能，你在使用该技能进行检定时添加双倍的熟练加值。",
+						"当你在你的回合采取{@action 攻击}动作时，你可以用一次尝试恐吓替换一次攻击，目标是你能看见且能看见和听到你的30尺内的一个类人生物。进行一次魅力（{@skill 威吓}）检定，与目标的感知（{@skill 洞悉}）检定对抗。如果你的检定成功，目标将处于{@condition 恐慌}状态直到你的下一个回合结束。如果你的检定失败，目标在1小时内无法被你以这种方式{@condition 恐慌}。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Naturalist",
+			"ENG_name": "Naturalist",
+			"name": "自然学家",
 			"source": "UAFeatsForSkills",
 			"page": 3,
 			"ability": [
@@ -310,31 +321,32 @@
 						"_": {
 							"daily": {
 								"1": [
-									"detect poison and disease"
+									"侦测毒性和疾病"
 								]
 							}
 						}
 					},
 					"known": {
 						"_": [
-							"druidcraft#c"
+							"德鲁伊伎俩#c"
 						]
 					}
 				}
 			],
 			"entries": [
-				"Your extensive study of nature rewards you with the following benefits:",
+				"你对自然的广泛研究为你带来以下增益：",
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill Nature} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-						"You learn the {@spell druidcraft} and {@spell detect poison and disease} spells. You can cast {@spell detect poison and disease} once without expending a spell slot, and you regain the ability to do so when you finish a long rest."
+						"你获得{@skill 自然}技能的熟练。如果你已经熟练该技能，你在使用该技能进行检定时可以添加双倍的熟练加值。",
+						"你习得法术{@spell 德鲁伊伎俩}和{@spell 侦测毒性和疾病}。你可以不消耗法术位施放一次{@spell 侦测毒性和疾病}，且完成一次长休后恢复该能力。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Perceptive",
+			"ENG_name": "Perceptive",
+			"name": "观察力",
 			"source": "UAFeatsForSkills",
 			"page": 3,
 			"ability": [
@@ -348,18 +360,19 @@
 				}
 			],
 			"entries": [
-				"You hone your senses until they become razor sharp. You gain the following benefits:",
+				"你磨练自己的感官直到它们变得如剃刀般锋利。你获得以下增益：",
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill Perception} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-						"Being in a lightly obscured area doesn't impose disadvantage on your Wisdom ({@skill Perception}) checks if you can both see and hear."
+						"你获得{@skill 察觉}技能的熟练。如果你已经熟练该技能，你可以在使用该技能时添加双倍的熟练加值。",
+						"处于轻度遮蔽区域不会对你的感知（{@skill 察觉}）检定施加劣势，前提是你能同时看见且听见。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Performer",
+			"ENG_name": "Performer",
+			"name": "演艺者",
 			"source": "UAFeatsForSkills",
 			"page": 3,
 			"ability": [
@@ -373,18 +386,19 @@
 				}
 			],
 			"entries": [
-				"You master performance so that you can command any stage. You gain the following benefits:",
+				"你精通表演，因此能够掌控任何舞台。你获得以下增益：",
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill Performance} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-						"While performing, you can try to distract one humanoid you can see who can see and hear you. Make a Charisma ({@skill Performance}) check contested by the humanoid's Wisdom ({@skill Insight}) check. If your check succeeds, you grab the humanoid's attention enough that it makes Wisdom ({@skill Perception}) and Intelligence ({@skill Investigation}) checks with disadvantage until you stop performing."
+						"你获得{@skill 表演}技能的熟练。如果你已经熟练该技能，你在使用该技能进行检定时可以添加双倍的熟练加值。",
+						"表演时，你可以尝试干扰一个你能看见且能看见和听见你的类人生物。进行一次魅力（{@skill 表演}）检定，与目标的感知（{@skill 洞悉}）检定对抗。若你成功，你将充分吸引该生物的注意力，使其在进行感知（{@skill 察觉}）和智力（{@skill 调查}）检定时具有劣势，直到你停止表演。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Quick-Fingered",
+			"ENG_name": "Quick-Fingered",
+			"name": "灵巧手指",
 			"source": "UAFeatsForSkills",
 			"page": 3,
 			"ability": [
@@ -398,18 +412,19 @@
 				}
 			],
 			"entries": [
-				"Your nimble fingers and agility let you perform sleight of hand. You gain the following benefits:",
+				"你迅捷的手指且敏捷让你能够施展巧手。你获得以下增益：",
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill Sleight of Hand} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-						"As a bonus action, you can make a Dexterity ({@skill Sleight of Hand}) check to plant something on someone else, conceal an object on a creature, lift a purse, or take something from a pocket."
+						"你获得{@skill 巧手}技能的熟练。如果你已经熟练该技能，你在使用它进行检定时可以添加双倍的熟练加值。",
+						"作为附赠动作，你可以进行一次敏捷（{@skill 巧手}）检定以在他人身上放置某物、在生物身上隐藏物件、扒窃钱包或从口袋中取走某物。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Silver-Tongued",
+			"ENG_name": "Silver-Tongued",
+			"name": "巧舌如簧",
 			"source": "UAFeatsForSkills",
 			"page": 3,
 			"ability": [
@@ -423,18 +438,19 @@
 				}
 			],
 			"entries": [
-				"You develop your conversational skill to better deceive others. You gain the following benefits:",
+				"你提升了交谈技能以更好地欺骗他人。你获得以下增益：",
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill Deception} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-						"When you take the {@action Attack} action on your turn, you can replace one attack with an attempt to deceive one humanoid you can see within 30 feet of you that can see and hear you. Make a Charisma ({@skill Deception}) check contested by the target's Wisdom ({@skill Insight}) check. If your check succeeds, your movement doesn't provoke opportunity attacks from the target and your attack rolls against it have advantage; both benefits last until the end of your next turn or until you use this ability on a different target. If your check fails, the target can't be deceived by you in this way for 1 hour."
+						"你获得{@skill 欺瞒}技能的熟练。如果你已经熟练该技能，你在使用该技能进行检定时可以添加双倍的熟练加值。",
+						"当你在你的回合采取{@action 攻击}动作时，你可以用一次欺骗尝试替换一次攻击，目标是你能看见且能看见和听到你的30尺内的一个类人生物。进行一次魅力（{@skill 欺瞒}）检定，与目标的感知（{@skill 洞悉}）检定对抗。如果你的检定成功，你的移动不会引发目标的借机攻击且你对它的攻击检定具有优势；这两个增益持续到你的下一个回合结束或你对另一个目标使用此能力为止。如果你的检定失败，目标在1小时内无法被你以此方式欺骗。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Stealthy",
+			"ENG_name": "Stealthy",
+			"name": "隐匿",
 			"source": "UAFeatsForSkills",
 			"page": 4,
 			"ability": [
@@ -448,18 +464,19 @@
 				}
 			],
 			"entries": [
-				"You know how best to hide. You gain the following benefits:",
+				"你深知如何最好地躲藏。你获得以下增益：",
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill Stealth} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-						"If you are hidden, you can move up to 10 feet in the open without revealing yourself if you end the move in a position where you're not clearly visible."
+						"你获得{@skill 隐匿}技能的熟练。如果你已经熟练该技能，你在使用该技能进行检定时可以添加双倍的熟练加值。",
+						"如果你处于隐藏状态，你可以在开放区域移动最多10尺而不暴露自己，前提是你结束移动时处于不显眼的位置。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Survivalist",
+			"ENG_name": "Survivalist",
+			"name": "生存专家",
 			"source": "UAFeatsForSkills",
 			"page": 4,
 			"ability": [
@@ -478,7 +495,7 @@
 						"_": {
 							"daily": {
 								"1": [
-									"alarm"
+									"警报术"
 								]
 							}
 						}
@@ -486,18 +503,19 @@
 				}
 			],
 			"entries": [
-				"You master wilderness lore, gaining the following benefits:",
+				"你精通野外逸闻，获得以下增益：",
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill Survival} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-						"You learn the {@spell alarm} spell. You can cast it once without expending a spell slot, and you regain the ability to do so when you finish a long rest."
+						"你获得{@skill 求生}技能的熟练。如果你已经熟练该技能，你在使用该技能进行检定时可以添加双倍的熟练加值。",
+						"你学会{@spell 警报术}法术。你可以不消耗法术位施放它一次，且当你完成一次长休后恢复该能力。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Theologian",
+			"ENG_name": "Theologian",
+			"name": "神学家",
 			"source": "UAFeatsForSkills",
 			"page": 4,
 			"ability": [
@@ -516,25 +534,25 @@
 						"_": {
 							"daily": {
 								"1": [
-									"detect evil and good"
+									"侦测善恶"
 								]
 							}
 						}
 					},
 					"known": {
 						"_": [
-							"thaumaturgy#c"
+							"奇术#c"
 						]
 					}
 				}
 			],
 			"entries": [
-				"Your extensive study of religion rewards you with the following benefits:",
+				"你对宗教的深入研究为你带来以下增益：",
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill Religion} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-						"You learn the {@spell thaumaturgy} and {@spell detect evil and good} spells. You can cast {@spell detect evil and good} once without expending a spell slot, and you regain the ability to do so when you finish a long rest."
+						"你获得{@skill 宗教}技能的熟练。如果你已经熟练该技能，你在使用它进行检定时添加双倍的熟练加值。",
+						"你习得法术{@spell 奇术}和{@spell 侦测善恶}。你可以不消耗法术位施放一次{@spell 侦测善恶}，且完成一次长休后恢复该能力。"
 					]
 				}
 			]

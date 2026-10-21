@@ -4,7 +4,7 @@
 			{
 				"json": "UA2021FolkOfTheFeywild",
 				"abbreviation": "UA21FF",
-				"full": "Unearthed Arcana: 2021 Folk of the Feywild",
+				"full": "破解奥秘：2021妖精荒野之民",
 				"url": "https://media.wizards.com/2021/dnd/downloads/UA2021_FeyFolk.pdf",
 				"version": "1.0.0",
 				"dateReleased": "2020-03-12",
@@ -18,20 +18,21 @@
 		],
 		"edition": "classic",
 		"dateAdded": 1701616429,
-		"dateLastModified": 1774092631,
+		"dateLastModified": 1792466522,
 		"_dateLastModifiedHash": "70b0e923d6"
 	},
 	"race": [
 		{
-			"name": "Fairy",
+			"ENG_name": "Fairy",
+			"name": "仙灵",
 			"source": "UA2021FolkOfTheFeywild",
 			"page": 2,
 			"reprintedAs": [
-				"Fairy|WBtW"
+				"仙灵|WBtW"
 			],
 			"lineage": "VRGR",
 			"creatureTypes": [
-				"fey"
+				"妖精"
 			],
 			"size": [
 				"S"
@@ -51,14 +52,14 @@
 					},
 					"known": {
 						"1": [
-							"druidcraft#c"
+							"德鲁伊伎俩#c"
 						]
 					},
 					"innate": {
 						"1": {
 							"daily": {
 								"1": [
-									"faerie fire"
+									"妖火"
 								]
 							}
 						}
@@ -67,42 +68,47 @@
 			],
 			"entries": [
 				{
+					"ENG_name": "Creature Type",
+					"name": "生物类型",
 					"type": "entries",
-					"name": "Creature Type",
 					"entries": [
-						"You are a Fey."
+						"你是妖精生物。"
 					]
 				},
 				{
+					"ENG_name": "Fairy Flight",
+					"name": "仙灵飞行",
 					"type": "entries",
-					"name": "Fairy Flight",
 					"entries": [
-						"You have a flying speed equal to your walking speed and can hover. This flight is magical and does not require the use of your wings (if you have them)."
+						"你拥有等同于你步行速度的飞行速度且可以悬浮。此飞行是魔法性的且不需要使用你的飞翼（如果你有它们的话）。"
 					]
 				},
 				{
+					"ENG_name": "Fairy Magic",
+					"name": "仙灵魔法",
 					"type": "entries",
-					"name": "Fairy Magic",
 					"entries": [
-						"You know the {@spell druidcraft} and {@spell faerie fire} spells. You can cast faerie fire without expending a spell slot, and you must finish a long rest before you can cast it this way again. You can also cast this spell using any spell slots you have. Your spellcasting ability for these spells is your choice of Intelligence, Wisdom, or Charisma."
+						"你知晓{@spell 德鲁伊伎俩}和{@spell 妖火}法术。你可以不消耗法术位施放妖火，且必须完成一次长休后才能再次以此方式施放。你也可以使用你拥有的任何法术位来施放该法术。这些法术的施法属性由你从智力、感知或魅力中选择。"
 					]
 				},
 				{
+					"ENG_name": "Fey Passage",
+					"name": "妖精通行",
 					"type": "entries",
-					"name": "Fey Passage",
 					"entries": [
-						"You can squeeze through a space as narrow as 1 inch wide."
+						"你可以挤压穿过窄至1英寸宽的空间。"
 					]
 				}
 			],
 			"hasFluff": true
 		},
 		{
-			"name": "Hobgoblin",
+			"ENG_name": "Hobgoblin",
+			"name": "大地精",
 			"source": "UA2021FolkOfTheFeywild",
 			"page": 2,
 			"reprintedAs": [
-				"Hobgoblin|MPMM"
+				"大地精|MPMM"
 			],
 			"lineage": "VRGR",
 			"size": [
@@ -112,64 +118,72 @@
 			"darkvision": 60,
 			"entries": [
 				{
+					"ENG_name": "Darkvision",
+					"name": "黑暗视觉",
 					"type": "entries",
-					"name": "Darkvision",
 					"entries": [
-						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+						"在微光光照下，你身边60尺内可以视为等同于明亮光照。而在黑暗中，该范围内可视为等同于微光光照。你无法在黑暗中分辨颜色，只能看到有灰度的黑白画面。"
 					]
 				},
 				{
+					"ENG_name": "Fey Ancestry",
+					"name": "妖精血统",
 					"type": "entries",
-					"name": "Fey Ancestry",
 					"entries": [
-						"You have advantage on saving throws you make to avoid or end the {@condition charmed} condition on yourself."
+						"你在为自己避免或结束{@condition 魅惑}状态的豁免检定时具有优势。"
 					]
 				},
 				{
+					"ENG_name": "Fey Gift",
+					"name": "妖精赠礼",
 					"type": "entries",
-					"name": "Fey Gift",
 					"entries": [
-						"You can use this trait to take the {@action Help} action as a bonus action, and you can do so a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest.",
-						"Starting at 3rd level, choose one of the options below each time you take the {@action Help} action, whether as a bonus action or an action:",
+						"你可以使用此特质以附赠动作执行{@action 协助}动作，并且你可以这样做的次数等于你的熟练加值。当你完成一次长休后，你重新获得所有消耗的次数。",
+						"从3级开始，每当你采取{@action 协助}动作时，无论是作为附赠动作还是动作，从下方选项中选择一项：",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
 								{
+									"ENG_name": "Hospitality",
+									"name": "好客",
 									"type": "item",
-									"name": "Hospitality",
-									"entry": "You and the target of your {@action Help} action each gain a number of temporary hit points equal to {@dice 1d6} plus your proficiency bonus."
+									"entry": "你和你的{@action 协助}动作的目标各获得等于{@dice 1d6}加上你的熟练加值的临时生命值。"
 								},
 								{
+									"ENG_name": "Passage",
+									"name": "通行",
 									"type": "item",
-									"name": "Passage",
-									"entry": "You and the target of your {@action Help} action each increase your walking speeds by 10 feet until the start of your next turn."
+									"entry": "你和你的{@action 协助}动作的目标各自将步行速度提高10尺，直到你的下个回合开始。"
 								},
 								{
+									"ENG_name": "Spite",
+									"name": "恶意",
 									"type": "item",
-									"name": "Spite",
-									"entry": "Until the start of your next turn, the first time you or the target of your {@action Help} action hits a creature with an attack roll, that creature has disadvantage on the next attack roll that it makes within the next minute."
+									"entry": "直到你的下个回合开始前，你或你{@action 协助}动作的目标第一次用攻击检定命中一个生物时，该生物在下1分钟内进行的下一次攻击检定具有劣势。"
 								}
 							]
 						}
 					]
 				},
 				{
+					"ENG_name": "Fortune from the Many",
+					"name": "集众之运",
 					"type": "entries",
-					"name": "Fortune from the Many",
 					"entries": [
-						"If you miss with an attack roll or fail an ability check or a saving throw, you can draw on your bonds of reciprocity to gain a bonus to the roll equal to the number of allies you can see within 30 feet of you (maximum bonus of +5). You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+						"若你在攻击检定中未命中或未通过属性检定或豁免检定，你可以利用你的牵挂来获得掷骰加值，数值等于你能看见的30尺内盟友数量（最大加值为+5）。你可以使用此特质次数等于你的熟练加值，且完成一次长休后恢复所有已消耗的使用次数。"
 					]
 				}
 			],
 			"hasFluff": true
 		},
 		{
-			"name": "Owlfolk",
+			"ENG_name": "Owlfolk",
+			"name": "猫头鹰人",
 			"source": "UA2021FolkOfTheFeywild",
 			"page": 3,
 			"reprintedAs": [
-				"Owlin|SCC"
+				"枭人|SCC"
 			],
 			"lineage": "VRGR",
 			"size": [
@@ -198,7 +212,7 @@
 					"known": {
 						"1": {
 							"ritual": [
-								"detect magic"
+								"侦测魔法"
 							]
 						}
 					}
@@ -206,49 +220,55 @@
 			],
 			"entries": [
 				{
+					"ENG_name": "Size",
+					"name": "体型",
 					"type": "entries",
-					"name": "Size",
 					"entries": [
-						"You are Medium or Small. You choose the size when you gain this race."
+						"你是中等或小型。当你获得这个种族时选择体型。"
 					]
 				},
 				{
+					"ENG_name": "Darkvision",
+					"name": "黑暗视觉",
 					"type": "entries",
-					"name": "Darkvision",
 					"entries": [
-						"You can see in dim light within 90 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+						"你可以在90尺内的微光光照下视物如同明亮光照，且在黑暗术下视物如同微光光照。你在该黑暗中仅能辨别灰色阴影的颜色。"
 					]
 				},
 				{
+					"ENG_name": "Magic Sight",
+					"name": "魔法预见",
 					"type": "entries",
-					"name": "Magic Sight",
 					"entries": [
-						"Your keen senses can focus to see the presence of magic. You gain the ability to cast the {@spell detect magic} spell, but only as a ritual. Your spellcasting ability for this spell is your choice of Intelligence, Wisdom, or Charisma. You can also cast this spell normally with any spell slots you have."
+						"你的敏锐感官可以专注以看到魔法的存在。你获得施放{@spell 侦测魔法}法术的能力，但只能作为仪式。你施放该法术的施法属性可以从智力、感知或魅力中选择。你也可以使用任何拥有的法术位正常施放该法术。"
 					]
 				},
 				{
+					"ENG_name": "Nimble Flight",
+					"name": "迅捷飞行",
 					"type": "entries",
-					"name": "Nimble Flight",
 					"entries": [
-						"Thanks to your wings, you have a flying speed equal to your walking speed. When you fall, you can use your reaction to make a Dexterity saving throw (DC 10) to stop falling and fly in place until the start of your next turn."
+						"得益于你的飞翼，你的飞行速度等同于你的步行速度。当你坠落时，你可以使用你的反应进行一次敏捷豁免检定（DC 10）以停止坠落且飞行术在原地直到你的下个回合开始。"
 					]
 				},
 				{
+					"ENG_name": "Silent Feathers",
+					"name": "寂静之羽",
 					"type": "entries",
-					"name": "Silent Feathers",
 					"entries": [
-						"You have proficiency in the {@skill Stealth} skill."
+						"你拥有{@skill 隐匿}技能的熟练项。"
 					]
 				}
 			],
 			"hasFluff": true
 		},
 		{
-			"name": "Rabbitfolk",
+			"ENG_name": "Rabbitfolk",
+			"name": "兔人",
 			"source": "UA2021FolkOfTheFeywild",
 			"page": 3,
 			"reprintedAs": [
-				"Harengon|WBtW"
+				"兔人|WBtW"
 			],
 			"lineage": "VRGR",
 			"size": [
@@ -263,38 +283,43 @@
 			],
 			"entries": [
 				{
+					"ENG_name": "Size",
+					"name": "体型",
 					"type": "entries",
-					"name": "Size",
 					"entries": [
-						"You are Medium or Small. You choose the size when you gain this race."
+						"你是中等或小型。当你获得这个种族时选择体型。"
 					]
 				},
 				{
+					"ENG_name": "Hare-Trigger",
+					"name": "野兔敏锐",
 					"type": "entries",
-					"name": "Hare-Trigger",
 					"entries": [
-						"You add your proficiency bonus to your initiative rolls."
+						"你将熟练加值添加到先攻检定中。"
 					]
 				},
 				{
+					"ENG_name": "Leporine Senses",
+					"name": "野兔感官",
 					"type": "entries",
-					"name": "Leporine Senses",
 					"entries": [
-						"You have proficiency in the {@skill Perception} skill."
+						"你拥有{@skill 察觉}技能的熟练项。"
 					]
 				},
 				{
+					"ENG_name": "Lucky Footwork",
+					"name": "幸运步法",
 					"type": "entries",
-					"name": "Lucky Footwork",
 					"entries": [
-						"When you fail a Dexterity saving throw, you can use your reaction to roll a {@dice d4} and add it to the result, potentially turning the failure into a success."
+						"当你进行一次敏捷豁免检定时若失败，你可以使用你的反应掷一枚{@dice d4}且将其结果添加到豁免检定中，可能将失败变为成功。"
 					]
 				},
 				{
+					"ENG_name": "Rabbit Hop",
+					"name": "兔子跳",
 					"type": "entries",
-					"name": "Rabbit Hop",
 					"entries": [
-						"Once during each of your turns when you walk at least 5 feet, you can hop, rolling a {@dice d12} and moving that many feet in a direction of your choice. This extra distance doesn't cost movement, but you can hop only if your speed isn't 0."
+						"在你的每个回合中，当你至少行走5尺时，你可以进行一次跳跃，掷一枚{@dice d12}骰子并向你选择的方向移动相应尺数。这段额外距离不花费移动力，但只有当你的速度不为0时才能跳跃。"
 					]
 				}
 			],
@@ -303,17 +328,18 @@
 	],
 	"raceFluff": [
 		{
-			"name": "Fairy",
+			"ENG_name": "Fairy",
+			"name": "仙灵",
 			"source": "UA2021FolkOfTheFeywild",
 			"entries": [
-				"The Feywild is home to many fantastic peoples, including fairies. Fairies are a wee folk, but not nearly as much so as their pixie and sprite friends.",
-				"Infused with the magic of the Feywild, fairies share a few commonalities with one another but can differ widely in appearance, behavior, and attitude. Many fairies have a special physical characteristic that sets them apart from other creatures of their kind. For your fairy, roll on the Fey Characteristic table or choose an option from it. The Feywild is a wild place, so come up with your own characteristic if none of these fit your character.",
+				"妖精荒野是许多奇妙生物的家，包括仙灵。仙灵是一种小妖精，但远不及它们的皮克精和小仙灵朋友那么小。",
+				"仙灵们浸润着妖精荒野的魔法，彼此间有一些共同点，但在外貌、行为和态度上可能大相径庭。许多仙灵拥有特殊的身体特征，使它们区别于同类型的其他生物。为你的仙灵掷骰妖精特征表格或从中选择一个选项。妖精荒野是个狂野的地方，如果这些都不适合你的角色，你可以自己创造一个特征。",
 				{
 					"type": "table",
-					"caption": "Fey Characteristics",
+					"caption": "妖精特征",
 					"colLabels": [
 						"d8",
-						"Characteristic"
+						"特征"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -322,64 +348,67 @@
 					"rows": [
 						[
 							"1",
-							"You have small wings like those of an insect."
+							"你有一对昆虫般的小型飞翼。"
 						],
 						[
 							"2",
-							"You have shimmering, multicolored skin."
+							"你的皮肤闪烁着五彩斑斓的光芒。"
 						],
 						[
 							"3",
-							"You have exceptionally large ears."
+							"你有着特别大的耳朵。"
 						],
 						[
 							"4",
-							"A constant, glittering mist surrounds you."
+							"一团持续闪烁的迷雾环绕着你。"
 						],
 						[
 							"5",
-							"You have a small spectral horn on your forehead, like a little unicorn horn."
+							"你前额上有一个小型灵体角，就像一个小小的独角兽角。"
 						],
 						[
 							"6",
-							"Your hands never look dirty."
+							"你的双手永远不会显得肮脏。"
 						],
 						[
 							"7",
-							"You smell like fresh brownies."
+							"你闻起来像新鲜布朗尼。"
 						],
 						[
 							"8",
-							"A noticeable, harmless chill surrounds you."
+							"一股明显的无害寒意笼罩着你。"
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "Hobgoblin",
+			"ENG_name": "Hobgoblin",
+			"name": "大地精",
 			"source": "UA2021FolkOfTheFeywild",
 			"entries": [
-				"Hobgoblins trace their origins to the Feywild, where they first appeared with their goblin and bugbear kin. That history has left its mark, for though hobgoblins are found throughout the Material Plane, they continue to channel an aspect of the Feywild's rule of reciprocity, which creates a mystical bond between the giver and the receiver of a gift.",
-				"On some worlds, such bonds lead hobgoblins to form communities with deep ties to each other. In the Forgotten Realms, vast hobgoblin legions have emerged, with ranks upon ranks of devoted soldiers noteworthy for how effective they are at fighting as a unit.",
-				"Hobgoblins are generally taller than their goblin cousins but not quite as big as bugbears. They have curved, pointed ears and noses that turn red or blue during displays of emotion."
+				"大地精的起源可以追溯到妖精荒野，在那里他们首次与地精和熊地精同族一起出现。那段历史留下了印记，因为尽管大地精遍布物质位面，他们仍继续体现妖精荒野互惠规则的化身，这在赠礼的给予者和接受者之间建立了神秘的牵挂。",
+				"在一些世界，这样的牵挂会引导大地精形成彼此间有深厚联系的社群。在被遗忘国度众神中，庞大的大地精军团已经崛起，他们拥有层层叠叠的忠诚士兵，以团队作战的高效著称。",
+				"大地精通常比他们的地精表亲更高，但不如熊地精那么高大。他们有着弯曲的尖耳朵和鼻子，在情绪激动时会变成红色或蓝色。"
 			]
 		},
 		{
-			"name": "Owlfolk",
+			"ENG_name": "Owlfolk",
+			"name": "猫头鹰人",
 			"source": "UA2021FolkOfTheFeywild",
 			"entries": [
-				"Distant kin of giant owls, owlfolk come in many shapes and sizes, from petite and fluffy to widewinged and majestic. Owlfolk have arms and legs like other Humanoids, as well as wings that extend from their back and shoulders.",
-				"Because of their ancestral tie to the Feywild, owlfolk can innately see the magic of their surroundings. Like owls, owlfolk are graced with feathers that make no sound when they move or fly, making it easy for them to sneak up on you in the library.",
-				"Your owlfolk character might be nocturnal. Or perhaps your character is simply prone to rise later, embodying the common nickname of night owl."
+				"巨猫头鹰的远亲，猫头鹰人有许多形状和体型，从娇小蓬松到宽翼雄伟。猫头鹰人有类似其他类人生物的护甲和腿部，以及从背部和肩膀延伸出的飞翼。",
+				"由于他们与妖精荒野的祖先联系，猫头鹰人天生就能看到周边环境的魔法。像猫头鹰一样，猫头鹰人被赋予了羽毛，使它们在移动或飞行时不会发出声音，这让它们很容易在图书馆里悄悄接近你。",
+				"你的猫头鹰人角色可能是夜行性的。又或者你的角色只是容易晚起，体现了\"夜猫子\"这个常见昵称。"
 			]
 		},
 		{
-			"name": "Rabbitfolk",
+			"ENG_name": "Rabbitfolk",
+			"name": "兔人",
 			"source": "UA2021FolkOfTheFeywild",
 			"entries": [
-				"Bounding across the wilds, rabbitfolk from the Feywild embody a spirit of freedom and travel.",
-				"Rabbitfolk are bipedal, with the characteristic long feet of the animal they resemble and fur in a variety of colors. They share the keen senses and powerful legs of leporine creatures and are full of energy, like a wound-up spring. Rabbitfolk are blessed with a little fey luck, and they often find themselves a few fortunate feet away from dangers during adventures."
+				"在荒野中跳跃的妖精荒野兔人体现了自由且旅行的精魄。",
+				"兔人是双足生物，拥有与他们所相似的动物特有的长脚和多种颜色的毛发。他们具备兔类生物的敏锐感官和强健腿部，充满活力，就像上紧的发条。兔人受祝福拥有少许妖精幸运，且他们常在冒险中发现自己幸运地远离危险。"
 			]
 		}
 	]

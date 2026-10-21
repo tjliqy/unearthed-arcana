@@ -4,7 +4,7 @@
 			{
 				"json": "UATheFaithful",
 				"abbreviation": "UATF",
-				"full": "Unearthed Arcana: The Faithful",
+				"full": "破解奥秘：忠诚者",
 				"url": "https://media.wizards.com/2016/dnd/downloads/UA%20Non-Divine%20Faithful%20SFG.pdf",
 				"version": "1.0.0",
 				"dateReleased": "2016-08-01",
@@ -18,75 +18,78 @@
 		],
 		"edition": "classic",
 		"dateAdded": 1701616429,
-		"dateLastModified": 1774092631,
+		"dateLastModified": 1792466098,
 		"_dateLastModifiedHash": "60b558837a"
 	},
 	"subclass": [
 		{
-			"name": "The Seeker (UA)",
-			"shortName": "Seeker (UA)",
+			"ENG_name": "The Seeker (UA)",
+			"name": "探寻者（UA）",
+			"shortName": "寻者（UA）",
 			"source": "UATheFaithful",
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "PHB",
 			"page": 1,
 			"additionalSpells": [
 				{
 					"expanded": {
 						"s1": [
-							"feather fall",
-							"jump"
+							"羽落术",
+							"跳跃术"
 						],
 						"s2": [
-							"levitate",
-							"locate object"
+							"浮空术",
+							"物件定位术"
 						],
 						"s3": [
-							"clairvoyance",
-							"sending"
+							"鹰眼术",
+							"短讯术"
 						],
 						"s4": [
-							"arcane eye",
-							"locate creature"
+							"秘法眼",
+							"生物定位术"
 						],
 						"s5": [
-							"legend lore",
-							"passwall"
+							"通晓传奇",
+							"穿墙术"
 						]
 					}
 				}
 			],
 			"subclassFeatures": [
-				"The Seeker|Warlock||Seeker (UA)|UATheFaithful|1",
-				"Astral Refuge|Warlock||Seeker (UA)|UATheFaithful|6",
-				"Far Wanderer|Warlock||Seeker (UA)|UATheFaithful|10",
-				"Astral Sequestration|Warlock||Seeker (UA)|UATheFaithful|14"
+				"探索者|魔契师||寻者（UA）|UATheFaithful|1",
+				"星界庇护所|魔契师||寻者（UA）|UATheFaithful|6",
+				"远行者|魔契师||寻者（UA）|UATheFaithful|10",
+				"星界隔离|魔契师||寻者（UA）|UATheFaithful|14"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "The Seeker",
+			"ENG_name": "The Seeker",
+			"name": "探索者",
 			"source": "UATheFaithful",
 			"page": 1,
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "PHB",
-			"subclassShortName": "Seeker (UA)",
+			"subclassShortName": "寻者（UA）",
 			"subclassSource": "UATheFaithful",
 			"level": 1,
 			"entries": [
-				"Your patron is an inscrutable being who travels the Astral Plane in search of knowledge and secrets. In return for your patron's gifts, you wander the world seeking lore that you can share with the Seeker.",
-				"Your patron could be any deity or other powerful entity dedicated to knowledge or forgotten lore. Celestian is an ideal patron for a Greyhawk campaign, and was the inspiration for this concept. In the Forgotten Realms, your patron might be Azuth or Oghma. Aureon makes an excellent patron in Eberron, while in Krynn and the Dragonlance campaign setting, Gilean is a good match for the Seeker's role.",
+				"你的雇主是一个莫测者，他在星光位面漫游以寻找知识和秘密。作为对你雇主礼物的回报，你在世界漫游寻找可以与探索者分享的逸闻。",
+				"你的雇主可以是任何致力于知识或被遗忘逸闻的神或其他强大实体。塞莱斯汀是灰鹰战役的理想雇主，也是这个概念的激励来源。在被遗忘国度众神中，你的雇主可能是阿祖斯或欧格玛。奥林在艾伯伦中是绝佳的雇主，而在克莱恩和龙枪战役设定中，吉立安与探索者的职能十分匹配。",
 				{
+					"ENG_name": "Expanded Spell List",
+					"name": "扩展法术列表",
 					"type": "entries",
-					"name": "Expanded Spell List",
 					"entries": [
-						"The Seeker lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+						"探索者让你在学习魔契师法术时可以从扩展法术列表中选择。以下法术将被添加到你的魔契师法术列表中。",
 						{
 							"type": "table",
-							"caption": "Seeker Expanded Spells",
+							"caption": "探寻者扩展法术",
 							"colLabels": [
-								"Spell Level",
-								"Spells"
+								"法术环阶",
+								"法术"
 							],
 							"colStyles": [
 								"col-2 text-center",
@@ -94,24 +97,24 @@
 							],
 							"rows": [
 								[
-									"1st",
-									"{@spell feather fall}, {@spell jump}"
+									"1环",
+									"{@spell 羽落术}, {@spell 跳跃术}"
 								],
 								[
-									"2nd",
-									"{@spell levitate}, {@spell locate object}"
+									"2环",
+									"{@spell 浮空术}, {@spell 物件定位术}"
 								],
 								[
-									"3rd",
-									"{@spell clairvoyance}, {@spell sending}"
+									"3环",
+									"{@spell 鹰眼术}, {@spell 短讯术}"
 								],
 								[
-									"4th",
-									"{@spell arcane eye}, {@spell locate creature}"
+									"4环",
+									"{@spell 秘法眼}, {@spell 生物定位术}"
 								],
 								[
-									"5th",
-									"{@spell legend lore}, {@spell passwall}"
+									"5环",
+									"{@spell 通晓传奇}, {@spell 穿墙术}"
 								]
 							]
 						}
@@ -119,74 +122,79 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Shielding Aurora|Warlock||Seeker (UA)|UATheFaithful|1"
+					"subclassFeature": "护盾奥罗拉|魔契师||寻者（UA）|UATheFaithful|1"
 				}
 			]
 		},
 		{
-			"name": "Shielding Aurora",
+			"ENG_name": "Shielding Aurora",
+			"name": "护盾奥罗拉",
 			"source": "UATheFaithful",
 			"page": 1,
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "PHB",
-			"subclassShortName": "Seeker (UA)",
+			"subclassShortName": "寻者（UA）",
 			"subclassSource": "UATheFaithful",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Starting at 1st level, you can invoke the Seeker's power to protect you from harm. As a bonus action, you create a whirling aurora of brilliant energy that swirls around you. Until the end of your next turn, you gain resistance to all damage, and if a hostile creature ends its turn within 10 feet of you, it takes radiant damage equal to your warlock level + your Charisma modifier.",
-				"Once you use this feature, you can't use it again until you finish a short or long rest."
+				"从1环开始，你可以调用探寻者的法力来保护你免受重伤术。以一个附赠动作，你创造出一道围绕你旋转的辉煌能量奥罗拉。直到你的下一个回合结束，你获得对所有伤害的抗性，且如果一个敌对生物在其回合结束时处于你10尺内，它将受到等同于你的魔契师等级加上你的魅力调整值的光耀伤害。",
+				"你必须完成一次长休或短休后才能再次使用该特性。"
 			]
 		},
 		{
-			"name": "Astral Refuge",
+			"ENG_name": "Astral Refuge",
+			"name": "星界庇护所",
 			"source": "UATheFaithful",
 			"page": 1,
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "PHB",
-			"subclassShortName": "Seeker (UA)",
+			"subclassShortName": "寻者（UA）",
 			"subclassSource": "UATheFaithful",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, you gain the ability to step into an astral refuge. As an action, you disappear from the world for a brief moment and enter the Astral Plane, taking advantage of its timeless nature. While in your astral refuge, you can take two actions to cast spells that target only you. After using those two actions, you return to the space you occupied and your turn ends."
+				"在6级时，你获得进入星界庇护所的能力。以一个动作，你从世界短暂消失并进入星光位面，利用其永恒本质。在你的星界庇护所中，你可以使用两个动作施法且仅以你为目标。在使用这两个动作后，你返回原本所在的空间且你的回合结束。"
 			]
 		},
 		{
-			"name": "Far Wanderer",
+			"ENG_name": "Far Wanderer",
+			"name": "远行者",
 			"source": "UATheFaithful",
 			"page": 1,
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "PHB",
-			"subclassShortName": "Seeker (UA)",
+			"subclassShortName": "寻者（UA）",
 			"subclassSource": "UATheFaithful",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"At 10th level, you no longer need to breathe, and you gain resistance to fire damage and cold damage."
+				"在10级时，你不再需要呼吸，且你获得火焰伤害和寒冷伤害的抗性。"
 			]
 		},
 		{
-			"name": "Astral Sequestration",
+			"ENG_name": "Astral Sequestration",
+			"name": "星界隔离",
 			"source": "UATheFaithful",
 			"page": 1,
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "PHB",
-			"subclassShortName": "Seeker (UA)",
+			"subclassShortName": "寻者（UA）",
 			"subclassSource": "UATheFaithful",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, you gain the ability to sequester yourself and your allies on the Astral Plane.",
-				"By performing a special ritual over the course of 5 minutes, you shift yourself and up to ten willing creatures you can see to the Astral Plane. You and those creatures gain the benefits of a short rest while sequestered on the Astral Plane. You then return to the spaces you all occupied when you used this ability, with no time having passed in the world.",
-				"During this short rest, you and the creatures you sequester can make use of any options available during a rest that affect only you and the creatures you sequester.",
-				"Once you use this ability, you cannot use it again until you complete a long rest."
+				"14级起，你获得将自身和盟友隔离在星光位面的能力。",
+				"通过表演一个特殊仪式持续5分钟，你将自身和最多十名你能看见的愿意生物转移到星光位面。你和这些生物在隔离于星光位面时获得短休的增益。然后你们全部返回到使用此能力时所占据的空间，且世界中没有任何时间流逝。",
+				"在此短休期间，你和你隔离的生物可以使用任何仅影响你和你隔离生物的休息选项。",
+				"一旦你使用了这个属性，在完成一次长休之前无法再次使用。"
 			]
 		}
 	],
 	"optionalfeature": [
 		{
-			"name": "Pact of the Star Chain",
+			"ENG_name": "Pact of the Star Chain",
+			"name": "星星契约",
 			"source": "UATheFaithful",
 			"page": 1,
 			"featureType": [
@@ -198,18 +206,18 @@
 					"innate": {
 						"_": {
 							"ritual": [
-								"augury"
+								"卜筮术"
 							]
 						}
 					}
 				}
 			],
 			"entries": [
-				"At 3rd level, a character dedicated to the {@class Warlock|phb|Seeker|Seeker (UA)|UATheFaithful} can select this option instead of one of the warlock's existing Pact Boon options.",
-				"The Seeker grants you a chain forged from starlight, decorated with seven gleaming motes of brightness. While the chain is on your person, you know the {@spell augury} spell and can cast it as a ritual. The spell doesn't count against your number of spells known.",
-				"Additionally, you can invoke the Seeker's power to gain advantage on an Intelligence check while you carry this item. Once you use this ability, you cannot use it again until you complete a short or long rest.",
-				"If you lose your Star Chain, you can perform a 1-hour ceremony to receive a replacement from the Seeker. The ceremony can be performed during a short or long rest, and it destroys the previous chain. The chain disappears in a flash of light when you die.",
-				"The exact form of this item might be different depending on your patron. The Star Chain is inspired by the Greyhawk deity Celestian."
+				"在3级时，一个致力于{@class 魔契师|phb|探寻者|寻者（UA）|UATheFaithful}的角色可以选择此选项而非魔契师现有的魔契恩泽选项之一。",
+				"追寻者赐予你一条由星光锻造的链击，装饰着七颗闪耀的光点。当你携带这条链击时，你知晓{@spell 卜筮术}法术且可以仪式施放它。该法术不计入你的单次更换数量。",
+				"此外，你可以调用探寻者的法力来在携带此物品时获得智力检定的优势。一旦你使用了这个属性，在完成一次短休或长休前无法再次使用。",
+				"如果你丢失了星之链击，你可以进行一个1小时的典礼术来从探寻者处获得替代品。该典礼术可以在短休或长休期间进行，且它会摧毁之前的链击。当你死亡时，链击会在流光中消失。",
+				"该物品的形态可能因雇主不同而有所差异。星之链击的灵感来源于灰鹰之神塞莱斯汀。"
 			]
 		}
 	]

@@ -1,11 +1,10 @@
 {
-	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/ua-fast/homebrew.json",
 	"_meta": {
 		"sources": [
 			{
 				"json": "XUA2025SubclassesUpdate",
 				"abbreviation": "XUA25SU",
-				"full": "Unearthed Arcana 2025: Subclasses Update",
+				"full": "出土文献2025：子职更新",
 				"url": "https://media.dndbeyond.com/compendium-images/ua/subclasses-update/PWtmnmBuM6NVYAXE/UA2025+Updated+Subclasses.pdf",
 				"version": "1.0.0",
 				"dateReleased": "2025-10-30",
@@ -20,84 +19,87 @@
 		"edition": "one",
 		"status": "ready",
 		"dateAdded": 1761853046,
-		"dateLastModified": 1775250696,
+		"dateLastModified": 1792466014,
 		"_dateLastModifiedHash": "9ef934dcdf"
 	},
 	"subclass": [
 		{
-			"name": "Cavalier",
-			"shortName": "Cavalier",
+			"ENG_name": "Cavalier",
+			"name": "骁骑士",
+			"shortName": "骁骑士",
 			"source": "XUA2025SubclassesUpdate",
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
 			"page": 3,
 			"subclassFeatures": [
-				"Cavalier|Fighter|XPHB|Cavalier|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate",
-				"Warding Maneuver|Fighter|XPHB|Cavalier|XUA2025SubclassesUpdate|7|XUA2025SubclassesUpdate",
-				"Hold the Line|Fighter|XPHB|Cavalier|XUA2025SubclassesUpdate|10|XUA2025SubclassesUpdate",
-				"Ferocious Charger|Fighter|XPHB|Cavalier|XUA2025SubclassesUpdate|15|XUA2025SubclassesUpdate",
-				"Vigilant Defender|Fighter|XPHB|Cavalier|XUA2025SubclassesUpdate|18|XUA2025SubclassesUpdate"
+				"骁骑士|战士|XPHB|骁骑士|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate",
+				"守护战技|战士|XPHB|骁骑士|XUA2025SubclassesUpdate|7|XUA2025SubclassesUpdate",
+				"坚守战线|战士|XPHB|骁骑士|XUA2025SubclassesUpdate|10|XUA2025SubclassesUpdate",
+				"冲锋陷阵|战士|XPHB|骁骑士|XUA2025SubclassesUpdate|15|XUA2025SubclassesUpdate",
+				"警戒守卫|战士|XPHB|骁骑士|XUA2025SubclassesUpdate|18|XUA2025SubclassesUpdate"
 			],
 			"hasFluff": true
 		},
 		{
-			"name": "Oathbreaker",
-			"shortName": "Oathbreaker",
+			"ENG_name": "Oathbreaker",
+			"name": "破誓者",
+			"shortName": "破誓者",
 			"source": "XUA2025SubclassesUpdate",
-			"className": "Paladin",
+			"className": "圣武士",
 			"classSource": "XPHB",
 			"page": 5,
 			"additionalSpells": [
 				{
 					"prepared": {
 						"3": [
-							"Hellish Rebuke|XPHB",
-							"Witch Bolt|XPHB"
+							"炼狱叱喝|XPHB",
+							"巫术箭|XPHB"
 						],
 						"5": [
-							"Crown of Madness|XPHB",
-							"Darkness|XPHB"
+							"疯狂冠冕|XPHB",
+							"黑暗术|XPHB"
 						],
 						"9": [
-							"Fear|XPHB",
-							"Summon Undead|XPHB"
+							"恐惧术|XPHB",
+							"亡灵召唤术|XPHB"
 						],
 						"13": [
-							"Blight|XPHB",
-							"Phantasmal Killer|XPHB"
+							"枯萎术|XPHB",
+							"魅影杀手|XPHB"
 						],
 						"17": [
-							"Contagion|XPHB",
-							"Steel Wind Strike|XPHB"
+							"疫病术|XPHB",
+							"钢风斩|XPHB"
 						]
 					}
 				}
 			],
 			"subclassSpells": [
-				"Hellish Rebuke|XPHB",
-				"Witch Bolt|XPHB",
-				"Crown of Madness|XPHB",
-				"Darkness|XPHB",
-				"Fear|XPHB",
-				"Summon Undead|XPHB",
-				"Blight|XPHB",
-				"Phantasmal Killer|XPHB",
-				"Contagion|XPHB",
-				"Steel Wind Strike|XPHB"
+				"炼狱叱喝|XPHB",
+				"巫术箭|XPHB",
+				"疯狂冠冕|XPHB",
+				"黑暗术|XPHB",
+				"恐惧术|XPHB",
+				"亡灵召唤术|XPHB",
+				"枯萎术|XPHB",
+				"魅影杀手|XPHB",
+				"疫病术|XPHB",
+				"钢风斩|XPHB"
 			],
 			"subclassFeatures": [
-				"Oathbreaker|Paladin|XPHB|Oathbreaker|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate",
-				"Aura of Hate|Paladin|XPHB|Oathbreaker|XUA2025SubclassesUpdate|7|XUA2025SubclassesUpdate",
-				"Supernatural Resistance|Paladin|XPHB|Oathbreaker|XUA2025SubclassesUpdate|15|XUA2025SubclassesUpdate",
-				"Dread Lord|Paladin|XPHB|Oathbreaker|XUA2025SubclassesUpdate|20|XUA2025SubclassesUpdate"
+				"破誓者|圣武士|XPHB|破誓者|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate",
+				"憎恨灵光|圣武士|XPHB|破誓者|XUA2025SubclassesUpdate|7|XUA2025SubclassesUpdate",
+				"超然抗性|圣武士|XPHB|破誓者|XUA2025SubclassesUpdate|15|XUA2025SubclassesUpdate",
+				"恐惧之王|圣武士|XPHB|破誓者|XUA2025SubclassesUpdate|20|XUA2025SubclassesUpdate"
 			],
 			"hasFluff": true
 		},
 		{
-			"name": "Path of the Spiritual Guardian",
-			"shortName": "Spiritual Guardian",
+			"ENG_name": "Path of the Spiritual Guardian",
+			"name": "灵体守护者之路",
+			"shortName": "灵性守护者",
 			"source": "XUA2025SubclassesUpdate",
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
 			"page": 1,
 			"additionalSpells": [
@@ -107,8 +109,8 @@
 						"10": {
 							"rest": {
 								"1": [
-									"augury|XPHB",
-									"clairvoyance|XPHB"
+									"卜筮术|XPHB",
+									"鹰眼术|XPHB"
 								]
 							}
 						}
@@ -116,82 +118,88 @@
 				}
 			],
 			"subclassSpells": [
-				"augury|XPHB",
-				"clairvoyance|XPHB"
+				"卜筮术|XPHB",
+				"鹰眼术|XPHB"
 			],
 			"subclassFeatures": [
-				"Path of the Spiritual Guardian|Barbarian|XPHB|Spiritual Guardian|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate",
-				"Spirit Shield|Barbarian|XPHB|Spiritual Guardian|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate",
-				"Consult the Spirits|Barbarian|XPHB|Spiritual Guardian|XUA2025SubclassesUpdate|10|XUA2025SubclassesUpdate",
-				"Vengeful Spirits|Barbarian|XPHB|Spiritual Guardian|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate"
+				"灵体守护者之路|野蛮人|XPHB|灵性守护者|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate",
+				"精魂之盾|野蛮人|XPHB|灵性守护者|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate",
+				"问道精魂|野蛮人|XPHB|灵性守护者|XUA2025SubclassesUpdate|10|XUA2025SubclassesUpdate",
+				"复仇精魂|野蛮人|XPHB|灵性守护者|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate"
 			],
 			"hasFluff": true
 		},
 		{
-			"name": "Path of the Storm Herald",
-			"shortName": "Storm Herald",
+			"ENG_name": "Path of the Storm Herald",
+			"name": "风暴先驱道途",
+			"shortName": "风暴先声",
 			"source": "XUA2025SubclassesUpdate",
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
 			"page": 2,
 			"subclassFeatures": [
-				"Path of the Storm Herald|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate",
-				"Storm Soul|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate",
-				"Shielding Storm|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|10|XUA2025SubclassesUpdate",
-				"Raging Storm|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate"
+				"风暴先驱道途|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate",
+				"风暴之魂|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate",
+				"风暴之盾|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|10|XUA2025SubclassesUpdate",
+				"狂怒风暴|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate"
 			],
 			"hasFluff": true
 		},
 		{
-			"name": "Warrior of Intoxication",
-			"shortName": "Intoxication",
+			"ENG_name": "Warrior of Intoxication",
+			"name": "沉醉战士",
+			"shortName": "醉意",
 			"source": "XUA2025SubclassesUpdate",
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "XPHB",
 			"page": 4,
 			"subclassFeatures": [
-				"Warrior of Intoxication|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate",
-				"Tipsy Sway|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate",
-				"Mystic Brew|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate",
-				"Master Brewer|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|11|XUA2025SubclassesUpdate",
-				"Intoxicated Frenzy|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|17|XUA2025SubclassesUpdate"
+				"沉醉战士|武僧|XPHB|醉意|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate",
+				"酣醉若狂|武僧|XPHB|醉意|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate",
+				"秘术酿造|武僧|XPHB|醉意|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate",
+				"大师酿酒师|武僧|XPHB|醉意|XUA2025SubclassesUpdate|11|XUA2025SubclassesUpdate",
+				"酣醉若狂|武僧|XPHB|醉意|XUA2025SubclassesUpdate|17|XUA2025SubclassesUpdate"
 			],
 			"hasFluff": true
 		}
 	],
 	"subclassFluff": [
 		{
-			"name": "Cavalier",
-			"shortName": "Cavalier",
+			"ENG_name": "Cavalier",
+			"name": "骁骑士",
+			"shortName": "骁骑士",
 			"source": "XUA2025SubclassesUpdate",
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
 			"entries": [
-				"{@i Defend Your Allies on Foot or from a Mount}",
+				"{@i 徒步或乘骑保护盟友}",
 				{
+					"ENG_name": "Design Note: Cavalier Updates",
+					"name": "设计笔记：骁骑士更新",
 					"type": "inset",
-					"name": "Design Note: Cavalier Updates",
 					"page": 3,
 					"entries": [
-						"Here are the main updates in this subclass since its appearance in {@book Xanathar's Guide to Everything|XGE}:",
+						"这是该子职自其出现在{@book 珊娜萨的万事指南|XGE}以来的主要更新：",
 						{
 							"type": "list",
 							"page": 3,
 							"items": [
 								{
+									"ENG_name": "Unwavering Mark",
+									"name": "坚定之印",
 									"type": "item",
-									"name": "Unwavering Mark",
 									"nameDot": false,
 									"entries": [
-										"no longer has limited uses."
+										"不再有使用次数限制。"
 									]
 								},
 								{
+									"ENG_name": "Ferocious Charger",
+									"name": "冲锋陷阵",
 									"type": "item",
-									"name": "Ferocious Charger",
 									"nameDot": false,
 									"entries": [
-										"has been redesigned to give a burst of speed during the first round of each combat."
+										"已被重新设计，用于在每场战斗的第一轮中爆发速度。"
 									]
 								}
 							]
@@ -201,61 +209,68 @@
 			]
 		},
 		{
-			"name": "Oathbreaker",
-			"shortName": "Oathbreaker",
+			"ENG_name": "Oathbreaker",
+			"name": "破誓者",
+			"shortName": "破誓者",
 			"source": "XUA2025SubclassesUpdate",
-			"className": "Paladin",
+			"className": "圣武士",
 			"classSource": "XPHB",
 			"entries": [
-				"{@i Obtain Great Power at Any Cost}",
+				"{@i 不惜一切代价获得强大法力}",
 				{
+					"ENG_name": "Design Note: Oathbreaker Updates",
+					"name": "设计笔记：破誓者更新",
 					"type": "inset",
-					"name": "Design Note: Oathbreaker Updates",
 					"page": 5,
 					"entries": [
-						"Here are the main updates in this subclass since its last appearance in the 2014 {@book Dungeon Master's Guide|DMG}:",
+						"这里是该子职自2014年{@book 城主指南|DMG}上次出现以来的主要更新：",
 						{
 							"type": "list",
 							"page": 5,
 							"items": [
 								{
+									"ENG_name": "Conjure Undead",
+									"name": "咒唤不死",
 									"type": "item",
-									"name": "Conjure Undead",
 									"nameDot": false,
 									"entries": [
-										"(formerly {@subclassFeature Control Undead|Paladin|PHB|Oathbreaker|DMG|3|DMG}) now lets you briefly summon Undead to aid you."
+										"（原为{@subclassFeature 控制亡灵|圣武士|PHB|破誓者|DMG|3|DMG}）现在允许你短暂召唤亡灵来援助你。"
 									]
 								},
 								{
+									"ENG_name": "Dreadful Aspect",
+									"name": "恐怖显现",
 									"type": "item",
-									"name": "Dreadful Aspect",
 									"nameDot": false,
 									"entries": [
-										"now loops through the {@spell Divine Smite|XPHB} spell."
+										"现在循环施放{@spell 至圣斩|XPHB}法术。"
 									]
 								},
 								{
+									"ENG_name": "Oathbreaker Spells",
+									"name": "破誓者法术",
 									"type": "item",
-									"name": "Oathbreaker Spells",
 									"nameDot": false,
 									"entries": [
-										"has new spells."
+										"拥有新的法术。"
 									]
 								},
 								{
+									"ENG_name": "Aura of Hate",
+									"name": "憎恨灵光",
 									"type": "item",
-									"name": "Aura of Hate",
 									"nameDot": false,
 									"entries": [
-										"now adds its effect to your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB}. The aura now benefits only Fiends and Undead that are your allies."
+										"现在将其效应添加到你的{@classFeature 守护灵光|圣武士|XPHB|6|XPHB}。该灵光现在仅对你盟友中的邪魔与不死生物提供增益。"
 									]
 								},
 								{
+									"ENG_name": "Dread Lord",
+									"name": "恐惧之王",
 									"type": "item",
-									"name": "Dread Lord",
 									"nameDot": false,
 									"entries": [
-										"now imbues your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB} and can be recharged by expending a level 5 spell slot."
+										"现在会灌注你的{@classFeature 守护灵光|圣武士|XPHB|6|XPHB}且可以通过消耗一个5环法术位来充能。"
 									]
 								}
 							]
@@ -265,45 +280,50 @@
 			]
 		},
 		{
-			"name": "Path of the Spiritual Guardian",
-			"shortName": "Spiritual Guardian",
+			"ENG_name": "Path of the Spiritual Guardian",
+			"name": "灵体守护者之路",
+			"shortName": "灵性守护者",
 			"source": "XUA2025SubclassesUpdate",
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
 			"entries": [
-				"{@i Call on the Spirits for Combat Aid}",
+				"{@i 呼唤精魂以获得战斗援助}",
 				{
+					"ENG_name": "Design Note: Path of the Spiritual Guardian Updates",
+					"name": "设计笔记：灵体守护者路途更新",
 					"type": "inset",
-					"name": "Design Note: Path of the Spiritual Guardian Updates",
 					"page": 1,
 					"entries": [
-						"Here are the main updates in this subclass (formerly {@class Barbarian|PHB|Path of the Ancestral Guardian|Ancestral Guardian|XGE}) since its last appearance in {@book Xanathar's Guide to Everything|XGE}:",
+						"这里是该子职（原为{@class 野蛮人|PHB|先祖守卫道途|先祖守卫|XGE}）自上次在{@book 珊娜萨的万事指南|XGE}中出现以来的主要更新：",
 						{
 							"type": "list",
 							"page": 1,
 							"items": [
 								{
+									"ENG_name": "Spiritual Protectors",
+									"name": "灵性守护者",
 									"type": "item",
-									"name": "Spiritual Protectors",
 									"nameDot": false,
 									"entries": [
-										"(formerly {@subclassFeature Ancestral Protectors|Barbarian|PHB|Ancestral Guardian|XGE|3|XGE}) has been redesigned. The feature now splits the effects of the original feature, along with new effects, as options when you hit a creature while your {@classFeature Rage|Barbarian|XPHB|1|XPHB} is active."
+										"（原{@subclassFeature 先祖护卫|野蛮人|PHB|先祖守卫|XGE|3|XGE}）已被重新设计。该特性现在将原特性的效应与新效应分开，作为当你{@classFeature 狂暴|野蛮人|XPHB|1|XPHB}激活时命中生物的选项。"
 									]
 								},
 								{
+									"ENG_name": "Spirit Shield",
+									"name": "精魂之盾",
 									"type": "item",
-									"name": "Spirit Shield",
 									"nameDot": false,
 									"entries": [
-										"now scales with your Rage Damage bonus."
+										"现在随你的狂暴伤害加值提升。"
 									]
 								},
 								{
+									"ENG_name": "Vengeful Spirits",
+									"name": "复仇精魂",
 									"type": "item",
-									"name": "Vengeful Spirits",
 									"nameDot": false,
 									"entries": [
-										"(formerly {@subclassFeature Vengeful Ancestors|Barbarian|PHB|Ancestral Guardian|XGE|14|XGE}) is a new feature that allows you to make an additional attack when you roll an 18 or higher on an attack roll."
+										"（原为{@subclassFeature 仇魂先祖|野蛮人|PHB|先祖守卫|XGE|14|XGE}）是一个新特性，允许你在攻击检定掷出18或更高时进行一次额外攻击。"
 									]
 								}
 							]
@@ -313,37 +333,41 @@
 			]
 		},
 		{
-			"name": "Path of the Storm Herald",
-			"shortName": "Storm Herald",
+			"ENG_name": "Path of the Storm Herald",
+			"name": "风暴先驱道途",
+			"shortName": "风暴先声",
 			"source": "XUA2025SubclassesUpdate",
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
 			"entries": [
-				"{@i Wield the Fury of the Storm}",
+				"{@i 驾驭暴风之愤恨}",
 				{
+					"ENG_name": "Design Note: Path of the Storm Herald Updates",
+					"name": "设计笔记：风暴先驱道途更新",
 					"type": "inset",
-					"name": "Design Note: Path of the Storm Herald Updates",
 					"page": 3,
 					"entries": [
-						"Here are the main updates in this subclass since its appearance in {@book Xanathar's Guide to Everything|XGE}:",
+						"这是该子职自其出现在{@book 珊娜萨的万事指南|XGE}以来的主要更新：",
 						{
 							"type": "list",
 							"page": 2,
 							"items": [
 								{
+									"ENG_name": "Storm Aura",
+									"name": "风暴灵光",
 									"type": "item",
-									"name": "Storm Aura",
 									"nameDot": false,
 									"entries": [
-										"now scales with your Rage Damage bonus. In addition, {@subclassFeature Tundra|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate} has been redesigned to reduce a creature's damage instead of applying {@variantrule Temporary Hit Points|XPHB}."
+										"现在会随着你的狂暴伤害加值提升。此外，{@subclassFeature 冻原|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate}已被重新设计为缩小生物的伤害而非施加{@variantrule 临时生命值|XPHB}。"
 									]
 								},
 								{
+									"ENG_name": "Raging Storm",
+									"name": "狂怒风暴",
 									"type": "item",
-									"name": "Raging Storm",
 									"nameDot": false,
 									"entries": [
-										"has each environment redesigned. {@subclassFeature Desert|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate} now makes a creature that failed the saving throw start burning. {@subclassFeature Sea|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate} can now chain the lightning bolt to another creature. {@subclassFeature Tundra|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate} now deals Cold damage and halves a creature's {@variantrule Speed|XPHB}."
+										"每个环境都经过重新设计。{@subclassFeature 荒漠|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate}现在会使豁免检定失败的生物开始燃烧。{@subclassFeature 海洋|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate}现在可以将闪电束链击到另一个生物。{@subclassFeature 冻原|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate}现在造成寒冷伤害且将生物的{@variantrule 速度|XPHB}减半。"
 									]
 								}
 							]
@@ -353,37 +377,41 @@
 			]
 		},
 		{
-			"name": "Warrior of Intoxication",
-			"shortName": "Intoxication",
+			"ENG_name": "Warrior of Intoxication",
+			"name": "沉醉战士",
+			"shortName": "醉意",
 			"source": "XUA2025SubclassesUpdate",
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "XPHB",
 			"entries": [
-				"{@i Drink Mystic Brews to Overwhelm and Confound Foes}",
+				"{@i 饮用秘术佳酿以压制且迷惑敌人}",
 				{
+					"ENG_name": "Design Note: Warrior of Intoxication Updates",
+					"name": "设计笔记：醉意战士更新",
 					"type": "inset",
-					"name": "Design Note: Warrior of Intoxication Updates",
 					"page": 4,
 					"entries": [
-						"Here are the main updates in this subclass (formerly {@class Monk|PHB|Way of the Drunken Master|Drunken Master|XGE}) since its last appearance in {@book Xanathar's Guide to Everything|XGE}:",
+						"这里是该子职（原为{@class 武僧|PHB|醉拳宗|醉拳|XGE}）自上次在{@book 珊娜萨的万事指南|XGE}中出现以来的主要更新：",
 						{
 							"type": "list",
 							"page": 4,
 							"items": [
 								{
+									"ENG_name": "Mystic Brew",
+									"name": "秘术酿造",
 									"type": "item",
-									"name": "Mystic Brew",
 									"nameDot": false,
 									"entries": [
-										"is a new feature that lets the {@class Monk|XPHB} create magical brews that they can drink to gain long-lasting benefits."
+										"是一个新特性，允许{@class 武僧|XPHB}创造魔法饮品，他们可以饮用这些饮品以获得持久增益。"
 									]
 								},
 								{
+									"ENG_name": "Master Brewer",
+									"name": "大师酿酒师",
 									"type": "item",
-									"name": "Master Brewer",
 									"nameDot": false,
 									"entries": [
-										"is a new feature that replaces {@subclassFeature Drunkard's Luck|Monk|PHB|Drunken Master|XGE|11|XGE}. The feature adds additional beverage options to {@subclassFeature Mystic Brew|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate}."
+										"是一个新特性，取代了{@subclassFeature 醉汉机运|武僧|PHB|醉拳|XGE|11|XGE}。该特性为{@subclassFeature 秘术酿造|武僧|XPHB|醉意|XUA2025SubclassesUpdate|6|XUA2025子职更新}增加了额外的饮品选项。"
 									]
 								}
 							]
@@ -395,574 +423,610 @@
 	],
 	"subclassFeature": [
 		{
-			"name": "Path of the Spiritual Guardian",
+			"ENG_name": "Path of the Spiritual Guardian",
+			"name": "灵体守护者之路",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
-			"subclassShortName": "Spiritual Guardian",
+			"subclassShortName": "灵性守护者",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Barbarians who walk the Path of the Spiritual Guardian call upon spirits\u2014whether bestial spirits of nature, spirits of departed ancestors, or spirits of raw elemental power\u2014to guide and protect them. When these Barbarians rage, they contact the realm of the spirits and call on them for aid.",
+				"野蛮人谁走灵体守护者路途召唤精魂\u2014\u2014无论是自然的野兽精魂、逝去祖先的精魂，还是原始元素生物的法力精魂\u2014\u2014来向导且保护它们。当这些野蛮人狂暴时，他们联系精魂领域并召唤它们援助术。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Spiritual Protectors|Barbarian|XPHB|Spiritual Guardian|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+					"subclassFeature": "灵性守护者|野蛮人|XPHB|灵性守护者|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
 				}
 			]
 		},
 		{
-			"name": "Spiritual Protectors",
+			"ENG_name": "Spiritual Protectors",
+			"name": "灵性守护者",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
-			"subclassShortName": "Spiritual Guardian",
+			"subclassShortName": "灵性守护者",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Your {@classFeature Rage|Barbarian|XPHB|1|XPHB} summons spectral warriors to your aid. While your {@classFeature Rage|Barbarian|XPHB|1|XPHB} is active, when you hit a creature with a weapon or an {@variantrule Unarmed Strike|XPHB}, it becomes the target of the spirits, which cause one of the following effects of your choice.",
+				"你的{@classFeature 狂暴|野蛮人|XPHB|1|XPHB}召唤灵体武者来援助你。当你的{@classFeature 狂暴|野蛮人|XPHB|1|XPHB}处于激活状态时，当你用武器或{@variantrule 徒手打击|XPHB}命中一个生物时，它会成为精魂的目标，精魂会造成以下你选择的一个效应。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Distract|Barbarian|XPHB|Spiritual Guardian|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+					"subclassFeature": "干扰|野蛮人|XPHB|灵性守护者|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Protect|Barbarian|XPHB|Spiritual Guardian|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+					"subclassFeature": "保护|野蛮人|XPHB|灵性守护者|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Strike|Barbarian|XPHB|Spiritual Guardian|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+					"subclassFeature": "打击|野蛮人|XPHB|灵性守护者|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
 				}
 			]
 		},
 		{
-			"name": "Distract",
+			"ENG_name": "Distract",
+			"name": "干扰",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
-			"subclassShortName": "Spiritual Guardian",
+			"subclassShortName": "灵性守护者",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 3,
 			"header": 3,
 			"entries": [
-				"Until the start of your next turn, the target has {@variantrule Disadvantage|XPHB} attack rolls against targets other than you or another {@class Barbarian|XPHB} who has this feature."
+				"直到你的下个回合开始，目标对其他目标或另一个拥有此特性的{@class 野蛮人|XPHB}进行攻击检定时具有{@variantrule 劣势|XPHB}。"
 			]
 		},
 		{
-			"name": "Protect",
+			"ENG_name": "Protect",
+			"name": "保护",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
-			"subclassShortName": "Spiritual Guardian",
+			"subclassShortName": "灵性守护者",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 3,
 			"header": 3,
 			"entries": [
-				"Until the end of the target's next turn, the next time it hits a creature other than you with an attack roll, that creature has {@variantrule Resistance|XPHB} to the damage dealt by the attack."
+				"直到目标的下个回合结束前，下一次它以攻击检定命中一个非你的生物时，该生物对此次攻击造成的伤害具有{@variantrule 抗性|XPHB}。"
 			]
 		},
 		{
-			"name": "Strike",
+			"ENG_name": "Strike",
+			"name": "打击",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
-			"subclassShortName": "Spiritual Guardian",
+			"subclassShortName": "灵性守护者",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 3,
 			"header": 3,
 			"entries": [
-				"The target takes an extra {@dice 1d6} damage, which can be Acid, Cold, Fire, Force, Lightning, or Thunder damage (your choice)."
+				"目标额外受到{@dice 1d6}伤害，伤害类型可以是强酸、寒冷、火焰、力场、闪电或雷鸣伤害（由你选择）。"
 			]
 		},
 		{
-			"name": "Spirit Shield",
+			"ENG_name": "Spirit Shield",
+			"name": "精魂之盾",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 2,
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
-			"subclassShortName": "Spiritual Guardian",
+			"subclassShortName": "灵性守护者",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Your guardian spirits can provide supernatural protection to those you defend. While your {@classFeature Rage|Barbarian|XPHB|1|XPHB} is active, when another creature you can see within 30 feet of you takes damage, you can take a {@variantrule Reaction|XPHB} to reduce that damage. To determine the amount the damage is reduced by, roll a number of {@dice d6|d6s} equal to your Rage Damage bonus, and add them together."
+				"你的守护精魂能为你所保护的目标提供超自然守护。当你的{@classFeature 狂暴|野蛮人|XPHB|1|XPHB}处于激活状态时，若你30尺内另一个你能看见的生物受到伤害，你可以使用一个{@variantrule 反应|XPHB}来缩小该伤害。要确定伤害缩小的数值，掷骰等同于你狂暴伤害加成的{@dice d6|d6s}数量，并将它们相加。"
 			]
 		},
 		{
-			"name": "Consult the Spirits",
+			"ENG_name": "Consult the Spirits",
+			"name": "问道精魂",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 2,
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
-			"subclassShortName": "Spiritual Guardian",
+			"subclassShortName": "灵性守护者",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"You gain the ability to consult with your guardian spirits. When you do so, you cast the {@spell Augury|XPHB} or {@spell Clairvoyance|XPHB} spell, without expending a spell slot or needing Material components. Rather than creating a spherical sensor, this use of {@spell Clairvoyance|XPHB} invisibly summons one of your guardian spirits to the chosen location. Wisdom is your spellcasting ability for these spells.",
-				"After you cast either spell in this way, you can't use this feature again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+				"你获得与守护精魂交流的能力。当你这样做时，你可以施放{@spell 卜筮术|XPHB}或{@spell 鹰眼术|XPHB}法术，且无需消耗法术位或材料成分。这种使用{@spell 鹰眼术|XPHB}的方式不会创造球形传感器，而是隐形地召唤一个你的守护精魂到选定位置。感知是你施放这些法术的施法属性。",
+				"当你以这种方式施放其中任一法术后，在完成一次{@variantrule 短休|XPHB|短}或{@variantrule 长休|XPHB}前，你无法再次使用该特性。"
 			]
 		},
 		{
-			"name": "Vengeful Spirits",
+			"ENG_name": "Vengeful Spirits",
+			"name": "复仇精魂",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 2,
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
-			"subclassShortName": "Spiritual Guardian",
+			"subclassShortName": "灵性守护者",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"When you make an attack roll with a Melee weapon as part of the {@action Attack|XPHB} action and roll 18\u201320 on the {@dice d20}, you can make one additional attack roll with the same weapon as part of that action. Once you use this feature, you can't do so again until the start of your next turn."
+				"当你以近战武器进行攻击检定作为{@action 攻击|XPHB}动作的一部分且{@dice d20}掷骰结果为18-20时，你可以用同一武器进行一次额外的攻击检定作为该动作的一部分。一旦你使用了此特性，直到你的下个回合开始前都不能再次使用。"
 			]
 		},
 		{
-			"name": "Path of the Storm Herald",
+			"ENG_name": "Path of the Storm Herald",
+			"name": "风暴先驱道途",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 2,
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
-			"subclassShortName": "Storm Herald",
+			"subclassShortName": "风暴先声",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Barbarians who follow the Path of the Storm Herald learn to harness their {@classFeature Rage|Barbarian|XPHB|1|XPHB} into a mantle of primal magic that swirls around them like a storm. When in their {@classFeature Rage|Barbarian|XPHB|1|XPHB}, these Barbarians tap into the elemental forces of nature to create powerful magical effects.",
+				"遵循风暴先驱道途的野蛮人学会将他们的{@classFeature 狂暴|野蛮人|XPHB|1|XPHB}转化为环绕他们如暴风般的原始魔法斗篷。当处于{@classFeature 狂暴|野蛮人|XPHB|1|XPHB}时，这些野蛮人会利用自然界的元素力量来创造强大的魔法效应。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Storm Aura|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+					"subclassFeature": "风暴灵光|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
 				}
 			]
 		},
 		{
-			"name": "Storm Aura",
+			"ENG_name": "Storm Aura",
+			"name": "风暴灵光",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 2,
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
-			"subclassShortName": "Storm Herald",
+			"subclassShortName": "风暴先声",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Whenever you activate your {@classFeature Rage|Barbarian|XPHB|1|XPHB}, choose Desert, Sea, or Tundra. You extend an aura in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from yourself for the duration of your {@classFeature Rage|Barbarian|XPHB|1|XPHB}.",
-				"Your aura has an effect that activates when you enter your {@classFeature Rage|Barbarian|XPHB|1|XPHB}, and you can activate the effect again on each of your turns as a {@variantrule Bonus Action|XPHB}. Your aura's effect depends on the chosen environment, as detailed below.",
-				"If your aura's effect requires a saving throw, the DC equals 8 plus your {@table Proficiency bonus|XPHB} plus your Constitution modifier.",
+				"每当你激活你的{@classFeature 狂暴|野蛮人|XPHB|1|XPHB}时，选择荒漠、海洋或冻原。你在10尺{@variantrule 光环 [效应区域]|XPHB|光环}范围内扩展出一个以你自身为源点的光环，持续时间为你的{@classFeature 狂暴|野蛮人|XPHB|1|XPHB}。",
+				"你的灵光有一个效应，当你进入{@classFeature 狂暴|野蛮人|XPHB|1|XPHB}时激活，且你可以在每个回合以一个{@variantrule 附赠动作|XPHB}再次激活该效应。你的灵光效应取决于所选环境，如下所述。",
+				"如果你的灵光效应需要豁免检定，DC等于8加上你的{@table 熟练加值|XPHB}再加上你的体质调整值。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Desert|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+					"subclassFeature": "荒漠|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Sea|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+					"subclassFeature": "海洋|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tundra|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+					"subclassFeature": "冻原|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
 				}
 			]
 		},
 		{
-			"name": "Desert",
+			"ENG_name": "Desert",
+			"name": "荒漠",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 2,
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
-			"subclassShortName": "Storm Herald",
+			"subclassShortName": "风暴先声",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 3,
 			"header": 3,
 			"entries": [
-				"When this effect is activated, roll a number of {@dice d4|d4s} equal to your Rage Damage bonus, and add them together. Each creature in the aura must succeed on a Dexterity saving throw or take Fire damage equal to the number rolled. You can choose one creature you can see in your aura to automatically succeed on this saving throw."
+				"当此效应激活时，掷骰等同于你狂暴伤害加成的{@dice d4|d4s}数量，且将它们相加。光环内的每个生物必须成功通过一次敏捷豁免检定，否则受到等同于掷骰数值的火焰伤害。你可以选择光环内一个你能看见的生物自动通过此豁免检定。"
 			]
 		},
 		{
-			"name": "Sea",
+			"ENG_name": "Sea",
+			"name": "海洋",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 2,
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
-			"subclassShortName": "Storm Herald",
+			"subclassShortName": "风暴先声",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 3,
 			"header": 3,
 			"entries": [
-				"When this effect is activated, roll a number of {@dice d6|d6s} equal to your Rage Damage bonus, and add them together. You can then hurl a bolt of lightning at one other creature you can see within your aura. The target makes a Dexterity saving throw, taking Lightning damage equal to the number rolled on a failed save, or half as much damage on a successful one."
+				"当此效应激活时，掷骰等同于你狂暴伤害加值的{@dice d6|d6s}数量，并将它们相加。然后你可以向光环范围内一个你能看见的其他生物猛投一道闪电弩失。目标需进行一次敏捷豁免检定，豁免失败时受到等同于掷骰数值的闪电伤害，豁免成功则只受一半伤害。"
 			]
 		},
 		{
-			"name": "Tundra",
+			"ENG_name": "Tundra",
+			"name": "冻原",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 2,
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
-			"subclassShortName": "Storm Herald",
+			"subclassShortName": "风暴先声",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 3,
 			"header": 3,
 			"entries": [
-				"When this effect is activated, roll a number of {@dice d4|d4s} equal to your Rage Damage bonus, and add them together. You can choose one other creature you can see within your aura to harry with icy spirits. The target must succeed on a Strength saving throw or it subtracts the number rolled from the next damage roll it makes before the start of your next turn."
+				"当此效应激活时，掷骰等同于你狂暴伤害加成的{@dice d4|d4s}数量，并将它们相加。你可以选择你灵光范围内可见的一个其他生物用冰冷精魂骚扰。目标必须成功通过一次力量豁免检定，否则在你下个回合开始前，它从下一次伤害掷骰中减去掷出的数值。"
 			]
 		},
 		{
-			"name": "Storm Soul",
+			"ENG_name": "Storm Soul",
+			"name": "风暴之魂",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 2,
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
-			"subclassShortName": "Storm Herald",
+			"subclassShortName": "风暴先声",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"The storm grants you benefits even when your aura isn't active. The benefits are based on the environment you chose for your {@subclassFeature Storm Aura|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate} the last time you entered your {@classFeature Rage|Barbarian|XPHB|1|XPHB}.",
+				"即使你的灵光未激活，风暴也会为你提供增益。这些增益基于你上次进入{@classFeature 狂暴|野蛮人|XPHB|1|XPHB}时为你的{@subclassFeature 风暴灵光|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|3|XUA2025子职更新}选择的环境。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Desert|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
+					"subclassFeature": "荒漠|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Sea|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
+					"subclassFeature": "海洋|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tundra|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
+					"subclassFeature": "冻原|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
 				}
 			]
 		},
 		{
-			"name": "Desert",
+			"ENG_name": "Desert",
+			"name": "荒漠",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 2,
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
-			"subclassShortName": "Storm Herald",
+			"subclassShortName": "风暴先声",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 6,
 			"header": 3,
 			"entries": [
-				"You gain {@variantrule Resistance|XPHB} to Fire damage. As a {@action Magic|XPHB} action, you can touch a flammable object that isn't being worn or carried by anyone else and cause the object to start burning."
+				"你获得对火焰伤害的{@variantrule 抗性|XPHB}。以一个{@action 魔法|XPHB}动作，你可以接触一个未被其他任何人穿戴或携带的易燃物件并使该物件开始燃烧。"
 			]
 		},
 		{
-			"name": "Sea",
+			"ENG_name": "Sea",
+			"name": "海洋",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 3,
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
-			"subclassShortName": "Storm Herald",
+			"subclassShortName": "风暴先声",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 6,
 			"header": 3,
 			"entries": [
-				"You gain {@variantrule Resistance|XPHB} to Lightning damage, and you can breathe underwater. You also gain a {@variantrule Swim Speed|XPHB} equal to your {@variantrule Speed|XPHB}."
+				"你获得对闪电伤害的{@variantrule 抗性|XPHB}，且可以在水下呼吸。你还获得等于你{@variantrule 速度|XPHB}的{@variantrule 游泳速度|XPHB}。"
 			]
 		},
 		{
-			"name": "Tundra",
+			"ENG_name": "Tundra",
+			"name": "冻原",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 3,
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
-			"subclassShortName": "Storm Herald",
+			"subclassShortName": "风暴先声",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 6,
 			"header": 3,
 			"entries": [
-				"You gain {@variantrule Resistance|XPHB} to Cold damage. As a {@action Magic|XPHB} action, you can touch water and turn a 5-foot {@variantrule Cube [Area of Effect]|XPHB|Cube} of it into ice, which melts after 1 minute. This action fails if a creature is in the {@variantrule Cube [Area of Effect]|XPHB|Cube}."
+				"你获得{@variantrule 抗性|XPHB}对寒冷伤害的抗性。作为一个{@action 魔法|XPHB}动作，你可以接触水并将5尺{@variantrule 立方 [效应区域]|XPHB|立方}的水变成冰，冰会在1分钟后融化。如果有生物在{@variantrule 立方 [效应区域]|XPHB|立方}内，此动作失败。"
 			]
 		},
 		{
-			"name": "Shielding Storm",
+			"ENG_name": "Shielding Storm",
+			"name": "风暴之盾",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 3,
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
-			"subclassShortName": "Storm Herald",
+			"subclassShortName": "风暴先声",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"You can use your mastery of the storm to protect others. Each creature of your choice within your {@subclassFeature Storm Aura|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate} has the damage {@variantrule Resistance|XPHB} you have from the {@subclassFeature Storm Soul|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate} feature."
+				"你可以运用风暴的精通来保护他人。你选择的每个处于你的{@subclassFeature 风暴灵光|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|3|XUA2025子职更新}范围内的生物，都将获得来自{@subclassFeature 风暴之魂|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|6|XUA2025子职更新}特性的{@variantrule 抗性|XPHB}伤害。"
 			]
 		},
 		{
-			"name": "Raging Storm",
+			"ENG_name": "Raging Storm",
+			"name": "狂怒风暴",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 3,
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
-			"subclassShortName": "Storm Herald",
+			"subclassShortName": "风暴先声",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"The power of the storm you channel grows mightier, lashing out at your foes. The effect is based on the environment you choose for your {@subclassFeature Storm Aura|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate}.",
+				"你引导的暴风法力变得更加强大，猛烈攻击你的敌人。效应基于你为{@subclassFeature 风暴灵光|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate}选择的环境。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Desert|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate"
+					"subclassFeature": "荒漠|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Sea|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate"
+					"subclassFeature": "海洋|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tundra|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate"
+					"subclassFeature": "冻原|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate"
 				}
 			]
 		},
 		{
-			"name": "Desert",
+			"ENG_name": "Desert",
+			"name": "荒漠",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 3,
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
-			"subclassShortName": "Storm Herald",
+			"subclassShortName": "风暴先声",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 14,
 			"header": 3,
 			"entries": [
-				"Once per turn, when a creature you can see fails its saving throw against your {@subclassFeature Storm Aura|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate} effect, you can cause it to start burning for 1 minute or until your {@classFeature Rage|Barbarian|XPHB|1|XPHB} ends. A burning creature takes an extra {@damage 1d4} Fire damage ({@damage 2d4} Fire damage total) at the start of each of its turns."
+				"每回合一次，当你可见的一个生物对抗你的{@subclassFeature 风暴灵光|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate}效应豁免检定时失败，你可以使其开始燃烧1分钟或直到你的{@classFeature 狂暴|野蛮人|XPHB|1|XPHB}结束。燃烧的生物在其每回合开始时受到额外{@damage 1d4}火焰伤害（总计{@damage 2d4}火焰伤害）。"
 			]
 		},
 		{
-			"name": "Sea",
+			"ENG_name": "Sea",
+			"name": "海洋",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 3,
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
-			"subclassShortName": "Storm Herald",
+			"subclassShortName": "风暴先声",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 14,
 			"header": 3,
 			"entries": [
-				"Whether the target fails or succeeds on its saving throw against your {@subclassFeature Storm Aura|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate} effect, a bolt of lightning leaps from the target to another target of your choice, which must be within 30 feet of the first target. The new target makes the same Dexterity saving throw as the first target."
+				"无论目标是否通过对抗你{@subclassFeature 风暴灵光|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|3|XUA2025子职更新}效应的豁免检定，一道闪电都会从目标跃向30尺内你指定的另一个目标。新目标需进行与第一个目标相同的敏捷豁免检定。"
 			]
 		},
 		{
-			"name": "Tundra",
+			"ENG_name": "Tundra",
+			"name": "冻原",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 3,
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
-			"subclassShortName": "Storm Herald",
+			"subclassShortName": "风暴先声",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 14,
 			"header": 3,
 			"entries": [
-				"Once per turn, when a creature you can see fails its saving throw against your {@subclassFeature Storm Aura|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate} effect, you can cause it to take {@damage 2d4} Cold damage and its {@variantrule Speed|XPHB} is halved until the end of its next turn."
+				"每回合一次，当你看见的一个生物对抗你的{@subclassFeature 风暴灵光|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate}效应的豁免检定失败时，你可以使其受到{@damage 2d4}寒冷伤害且其{@variantrule 速度|XPHB}减半直到其下个回合结束。"
 			]
 		},
 		{
-			"name": "Cavalier",
+			"ENG_name": "Cavalier",
+			"name": "骁骑士",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 3,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Cavalier",
+			"subclassShortName": "骁骑士",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Cavaliers excel at mounted combat and guard those in their charge, often protecting their superiors and the weak. A Cavalier is equally at home leading a cavalry charge or exchanging repartees at a state dinner.",
+				"骑兵擅长骑乘战斗且保护那些他们负责的人，通常保护他们的上级和虚弱者。骁骑士同样擅长领导骑兵冲锋或在国宴上机智应答。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiency|Fighter|XPHB|Cavalier|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+					"subclassFeature": "附赠熟练项|战士|XPHB|骁骑士|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Born to the Saddle|Fighter|XPHB|Cavalier|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+					"subclassFeature": "生而为骑|战士|XPHB|骁骑士|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Unwavering Mark|Fighter|XPHB|Cavalier|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+					"subclassFeature": "坚定之印|战士|XPHB|骁骑士|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
 				}
 			]
 		},
 		{
-			"name": "Bonus Proficiency",
+			"ENG_name": "Bonus Proficiency",
+			"name": "附赠熟练项",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 3,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Cavalier",
+			"subclassShortName": "骁骑士",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"You gain proficiency in one the following skills of your choice: {@skill Animal Handling|XPHB}, {@skill History|XPHB}, {@skill Insight|XPHB}, {@skill Performance|XPHB}, or {@skill Persuasion|XPHB}. Alternatively, you learn one language of your choice."
+				"你获得以下一个自选技能的熟练项：{@skill 驯兽|XPHB}（驯兽）、{@skill 历史|XPHB}（历史）、{@skill 洞悉|XPHB}（洞悉）、{@skill 表演|XPHB}（表演）或{@skill 游说|XPHB}（游说）。或者，你可以选择学习一门自选语言。"
 			]
 		},
 		{
-			"name": "Born to the Saddle",
+			"ENG_name": "Born to the Saddle",
+			"name": "生而为骑",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 3,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Cavalier",
+			"subclassShortName": "骁骑士",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"You have {@variantrule Advantage|XPHB} on saving throws made to avoid falling off your mount. If you fall off your mount and descend no more than 10 feet, you can land on your feet if you don't have the {@condition Incapacitated|XPHB} condition.",
-				"In addition, mounting or dismounting a creature costs you only 5 feet of movement rather than half your {@variantrule Speed|XPHB}."
+				"你在避免从坐骑上跌落的豁免检定上具有{@variantrule 优势|XPHB}。如果你从坐骑上跌落且下落不超过10尺，只要你不处于{@condition 失能|XPHB}状态，就能双脚着地。",
+				"此外，骑乘或下马仅消耗你5尺移动力，而非你{@variantrule 速度|XPHB}的一半。"
 			]
 		},
 		{
-			"name": "Unwavering Mark",
+			"ENG_name": "Unwavering Mark",
+			"name": "坚定之印",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 3,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Cavalier",
+			"subclassShortName": "骁骑士",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"You can menace your foes, foiling their attacks and punishing them for harming others. When you hit a creature with a Melee weapon, you can mark the creature until the end of your next turn. This effect ends early if you have the {@condition Incapacitated|XPHB} condition, you die, or someone else marks the creature.",
-				"While it is within 5 feet of you, a creature marked by you has {@variantrule Disadvantage|XPHB} on attack rolls against creatures other than you.",
-				"In addition, if a creature marked by you hits a creature other than you with an attack roll, you have {@variantrule Advantage|XPHB} on attack rolls against the marked creature until the end of your next turn."
+				"你可以威吓你的敌人，挫败它们的攻击并惩罚它们伤害他人。当你用近战武器命中一个生物时，你可以标记该生物直到你的下个回合结束。如果你处于{@condition 失能|XPHB}状态、你死亡或其他人标记了该生物，此效应提前结束。",
+				"当被你标记的生物在你5尺范围内时，它对除你以外的其他生物进行攻击检定时具有{@variantrule 劣势|XPHB}。",
+				"此外，如果一个被你标记的生物用攻击检定命中了你以外的其他生物，你对被标记的生物的攻击检定具有{@variantrule 优势|XPHB}直到你的下一个回合结束。"
 			]
 		},
 		{
-			"name": "Warding Maneuver",
+			"ENG_name": "Warding Maneuver",
+			"name": "守护战技",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 3,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Cavalier",
+			"subclassShortName": "骁骑士",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"You learn to fend off strikes directed at you, your mount, or other creatures nearby. If you or a creature you can see within 5 feet of you is hit by an attack roll, you can roll {@dice 1d8} as a {@variantrule Reaction|XPHB} if you're wielding a Melee weapon or a {@item Shield|XPHB}. Roll the die, and add the number rolled to the target's AC against the triggering attack. If the attack still hits, the target has {@variantrule Resistance|XPHB} against the attack's damage.",
-				"You can use this feature a number of times equal to your Constitution modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+				"你学会抵御针对你、你的乘骑或附近其他生物的攻击。如果你或你能看到的5尺内的一个生物被攻击检定命中，且你正持用一把近战武器或一件{@item 盾牌|XPHB}，你可以作为{@variantrule 反应|XPHB}掷{@dice 1d8}。掷骰并将掷出的数值添加到目标的AC以对抗触发攻击。如果攻击仍然命中，目标对该攻击的伤害具有{@variantrule 抗性|XPHB}。",
+				"你可以使用此特性的次数等同于你的体质调整值（至少一次），且完成一次{@variantrule 长休|XPHB}后恢复所有已消耗的使用次数。"
 			]
 		},
 		{
-			"name": "Hold the Line",
+			"ENG_name": "Hold the Line",
+			"name": "坚守战线",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 4,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Cavalier",
+			"subclassShortName": "骁骑士",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Creatures provoke an {@action Opportunity Attack|XPHB} from you when they move 5 feet or more while within your reach. When you hit a creature with an {@action Opportunity Attack|XPHB}, the target's {@variantrule Speed|XPHB} becomes 0 until the end of the current turn."
+				"当生物在你的触及范围内移动5尺或更多时，他们会引发你的{@action 借机攻击|XPHB}。当你用{@action 借机攻击|XPHB}命中一个生物时，目标的{@variantrule 速度|XPHB}变为0直到当前回合结束。"
 			]
 		},
 		{
-			"name": "Ferocious Charger",
+			"ENG_name": "Ferocious Charger",
+			"name": "冲锋陷阵",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 4,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Cavalier",
+			"subclassShortName": "骁骑士",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"During the first round of each combat, you and your mount's {@variantrule Speed|XPHB} increases by 10 feet, and your movement doesn't provoke {@action Opportunity Attack|XPHB|Opportunity Attacks} for that round. When you move within 5 feet of a creature this round, that creature must succeed on a Strength saving throw (DC 8 plus your Strength modifier and {@table Proficiency bonus|XPHB}) or you either push it 5 feet away or cause it to have the {@condition Prone|XPHB} condition. A creature makes this save only once during a turn."
+				"在每场战斗的第一轮，你和你的坐骑的{@variantrule 速度|XPHB}增加10尺，且你的移动不会在该轮触发{@action 借机攻击|XPHB|借机攻击}。当你在本轮移动到生物5尺内时，该生物必须成功通过一次力量豁免检定（DC 8加你的力量调整值和{@table 熟练加值|XPHB}），否则你将其推离5尺或使其陷入{@condition 倒地|XPHB}状态。生物在一个回合内只需进行一次此豁免。"
 			]
 		},
 		{
-			"name": "Vigilant Defender",
+			"ENG_name": "Vigilant Defender",
+			"name": "警戒守卫",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 4,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Cavalier",
+			"subclassShortName": "骁骑士",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"In combat, you get a special {@variantrule Reaction|XPHB} that you can take once on every creature's turn except your turn. You can take this {@variantrule Reaction|XPHB} only to make an {@action Opportunity Attack|XPHB}, and you can't take it on the same turn that you take your normal {@variantrule Reaction|XPHB}."
+				"在战斗中，你获得一个特殊的{@variantrule 反应|XPHB}，可以在除你回合外的每个生物回合使用一次。你只能使用这个{@variantrule 反应|XPHB}来进行一次{@action 借机攻击|XPHB}，且不能在同一个回合中使用你正常的{@variantrule 反应|XPHB}。"
 			]
 		},
 		{
-			"name": "Warrior of Intoxication",
+			"ENG_name": "Warrior of Intoxication",
+			"name": "沉醉战士",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 4,
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "Intoxication",
+			"subclassShortName": "醉意",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Warriors of Intoxication move with the jerky, unpredictable movements typical of someone who is intoxicated. These Monks sway on unsteady feet to appear incompetent and then prove themselves frustrating to engage. Their apparently erratic stumbles conceal a carefully executed dance of blocks, parries, advances, attacks, and retreats.",
-				"Warriors of Intoxication often enjoy playing the fool to bring gladness to the downtrodden or to teach humility to the arrogant, but these Monks are maddening, masterful foes in battle.",
+				"沉醉武者以醉汉特有的颠簸、不可预测的动作移动。这些武僧在不稳的脚步上摇摆，显得无能，然后证明自己难以对付。他们看似不规则的蹒跚隐藏着精心执行的格挡、招架、前进、攻击和撤退的舞蹈。",
+				"沉醉武者常以愚者姿态为落魄者带来欢乐，或教导傲慢者谦逊，但这些武僧在战斗中却是令人发狂的精湛对手。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+					"subclassFeature": "附赠熟练|武僧|XPHB|醉意|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Drunken Technique|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+					"subclassFeature": "醉拳技巧|武僧|XPHB|醉意|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
 				}
 			]
 		},
 		{
-			"name": "Bonus Proficiencies",
+			"ENG_name": "Bonus Proficiencies",
+			"name": "附赠熟练",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 4,
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "Intoxication",
+			"subclassShortName": "醉意",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"You gain proficiency in the {@skill Performance|XPHB} skill, or if you already have it, you gain proficiency in one skill of your choice from the skills available to Monks at level 1. You also gain proficiency with {@item Brewer's Supplies|XPHB} if you don't already have it."
+				"你获得{@skill 表演|XPHB}技能的熟练，若你已拥有该熟练，则你可以从武僧在1级时可选的技能中选择一个技能获得熟练。如果你尚未拥有，你还将获得{@item 酿酒工具|XPHB}的熟练。"
 			]
 		},
 		{
-			"name": "Drunken Technique",
+			"ENG_name": "Drunken Technique",
+			"name": "醉拳技巧",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 4,
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "Intoxication",
+			"subclassShortName": "醉意",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"You twist and turn quickly as part of your {@classFeature Flurry of Blows|Monk|XPHB|2|XPHB}. Whenever you use {@classFeature Flurry of Blows|Monk|XPHB|2|XPHB}, your {@variantrule Speed|XPHB} increases by 10 feet until the end of the current turn and your movement during that time doesn't provoke {@action Opportunity Attack|XPHB|Opportunity Attacks}."
+				"作为你{@classFeature 疾风连击|武僧|XPHB|2|XPHB}的一部分，你快速转折且转身。每当你使用{@classFeature 疾风连击|武僧|XPHB|2|XPHB}时，你的{@variantrule 速度|XPHB}增加10尺直到当前回合结束，且你在该时间内的移动不会引发{@action 借机攻击|XPHB|借机攻击}。"
 			]
 		},
 		{
-			"name": "Mystic Brew",
+			"ENG_name": "Mystic Brew",
+			"name": "秘术酿造",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 4,
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "Intoxication",
+			"subclassShortName": "醉意",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 6,
 			"header": 2,
 			"consumes": {
-				"name": "Focus Point",
+				"ENG_name": "Focus Point",
+				"name": "功力",
 				"amountMin": 0,
 				"amountMax": 1
 			},
 			"entries": [
-				"Whenever you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB} while holding {@item Brewer's Supplies|XPHB}, you can use that tool to magically produce one magical beverage, chosen from the following options: Cinnamon Dragon, Heavenly Spirit, or Refreshing Dip. The beverage appears in a bottle or cask, and the bottle vanishes when the beverage is drunk or poured out. If any beverage remains when you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}, the beverage and its container vanish.",
+				"每当你完成一次{@variantrule 短休|XPHB|短}或{@variantrule 长休|XPHB}且持有{@item 酿酒工具|XPHB}时，你可以使用该工具魔法般地酿造出一种魔法饮品，可从以下选项中选择：肉桂龙、天界精魄或清爽浸浴。饮品会出现在一个瓶子或木桶中，当饮品被饮用或倒出时瓶子会消隐。若你在完成一次{@variantrule 短休|XPHB|短}或{@variantrule 长休|XPHB}时仍有剩余饮品，则该饮品及其容器会消隐。",
 				{
+					"ENG_name": "Drinking a Magical Beverage",
+					"name": "饮用魔法饮料",
 					"type": "entries",
-					"name": "Drinking a Magical Beverage",
 					"page": 4,
 					"entries": [
-						"Only you can gain the benefit of drinking the beverage. You must drink at least a pint of the beverage before gaining its benefit. You can spend 1 minute drinking a pint of the beverage. You then gain the benefits of the beverage for 1 hour, as described below."
+						"只有你能获得饮用该饮品的增益。你必须饮用至少一品脱的饮品才能获得其增益。你可以花费1分钟饮用一品脱的饮品。然后你将获得该饮品的增益效果，持续1小时，如下所述。"
 					]
 				},
 				{
@@ -972,136 +1036,145 @@
 					"items": [
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Cinnamon Dragon|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
+							"subclassFeature": "肉桂龙|武僧|XPHB|醉意|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Heavenly Spirit|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
+							"subclassFeature": "天界精魄|武僧|XPHB|醉意|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Refreshing Dip|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
+							"subclassFeature": "清爽浸浴|武僧|XPHB|醉意|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
 						}
 					]
 				},
 				{
+					"ENG_name": "Enhancing a Magical Beverage",
+					"name": "强化魔法饮品",
 					"type": "entries",
-					"name": "Enhancing a Magical Beverage",
 					"page": 5,
 					"entries": [
-						"When you create a magical beverage, you can expend 1 Focus Point. When you do so, the benefit's duration extends to 8 hours."
+						"当你创造一种魔法饮料时，你可以消耗1点功力。当你这样做时，增益的持续时间延长至8小时。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Tipsy Sway",
+			"ENG_name": "Tipsy Sway",
+			"name": "酣醉若狂",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 4,
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "Intoxication",
+			"subclassShortName": "醉意",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"You can move in sudden, swaying ways. You gain the following benefits.",
+				"你可以以突然、摇摆的方式移动。你获得以下增益。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Leap to Your Feet|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
+					"subclassFeature": "鲤鱼打挺|武僧|XPHB|醉意|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Redirect Attack|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
+					"subclassFeature": "借力打力|武僧|XPHB|醉意|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
 				}
 			]
 		},
 		{
-			"name": "Cinnamon Dragon",
+			"ENG_name": "Cinnamon Dragon",
+			"name": "肉桂龙",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 5,
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "Intoxication",
+			"subclassShortName": "醉意",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 6,
 			"header": 3,
 			"entries": [
-				"You can take a {@action Magic|XPHB} action to exhale toxic flames in a 30-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. Each creature makes a Dexterity saving throw (DC 8 plus your Wisdom modifier and {@table Proficiency bonus|XPHB}). On a failed save, a creature takes Fire damage equal to four rolls of your {@classFeature Martial Arts die|Monk|XPHB|1|XPHB} and has the {@condition Poisoned|XPHB} condition until the end of its next turn. On a successful save, a creature takes half as much damage only."
+				"你可以执行一个{@action 魔法|XPHB}动作来在30尺{@variantrule 锥状 [效应区域]|XPHB|锥状}范围内吐出毒焰。每个生物需进行一次敏捷豁免检定（DC为8加上你的感知调整值和{@table 熟练加值|XPHB}）。豁免失败时，生物将受到等同于四次{@classFeature 武艺骰|武僧|XPHB|1|XPHB}掷骰的火焰伤害，并在其下一回合结束前处于{@condition 中毒|XPHB}状态。豁免成功时，生物仅受到一半伤害。"
 			]
 		},
 		{
-			"name": "Heavenly Spirit",
+			"ENG_name": "Heavenly Spirit",
+			"name": "天界精魄",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 5,
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "Intoxication",
+			"subclassShortName": "醉意",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 6,
 			"header": 3,
 			"entries": [
-				"You gain {@variantrule Resistance|XPHB} to Psychic and Radiant damage."
+				"你获得对心灵和光耀伤害的{@variantrule 抗性|XPHB}抗性。"
 			]
 		},
 		{
-			"name": "Leap to Your Feet",
+			"ENG_name": "Leap to Your Feet",
+			"name": "鲤鱼打挺",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 4,
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "Intoxication",
+			"subclassShortName": "醉意",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 6,
 			"header": 3,
 			"entries": [
-				"When you have the {@condition Prone|XPHB} condition, you can stand up by spending 5 feet of movement, rather than half your {@variantrule Speed|XPHB}."
+				"当你处于{@condition 倒地|XPHB}状态时，你可以花费5尺移动力站起来，而非消耗一半的{@variantrule 速度|XPHB}。"
 			]
 		},
 		{
-			"name": "Redirect Attack",
+			"ENG_name": "Redirect Attack",
+			"name": "借力打力",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 4,
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "Intoxication",
+			"subclassShortName": "醉意",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 6,
 			"header": 3,
 			"consumes": {
-				"name": "Focus Point",
+				"ENG_name": "Focus Point",
+				"name": "功力",
 				"amount": 1
 			},
 			"entries": [
-				"When a creature misses you with a melee attack roll, you can spend 1 Focus Point as a {@variantrule Reaction|XPHB} to cause that attack to hit one creature of your choice, other than the attacker, that you can see within 5 feet of yourself."
+				"当一个生物用近战攻击掷骰对你未命中时，你可以消耗1点功力作为{@variantrule 反应|XPHB}，使该攻击命中你5尺内可见的、除攻击手外的其他一个生物。"
 			]
 		},
 		{
-			"name": "Refreshing Dip",
+			"ENG_name": "Refreshing Dip",
+			"name": "清爽浸浴",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 5,
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "Intoxication",
+			"subclassShortName": "醉意",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 6,
 			"header": 3,
 			"entries": [
-				"Whenever you regain {@variantrule Hit Points|XPHB}, you regain additional {@variantrule Hit Points|XPHB} equal to a roll of your {@classFeature Martial Arts die|Monk|XPHB|1|XPHB}."
+				"每当你恢复{@variantrule 生命值|XPHB}时，你额外恢复等同于你{@classFeature 武艺骰|武僧|XPHB|1|XPHB}掷骰结果的{@variantrule 生命值|XPHB}。"
 			]
 		},
 		{
-			"name": "Master Brewer",
+			"ENG_name": "Master Brewer",
+			"name": "大师酿酒师",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 5,
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "Intoxication",
+			"subclassShortName": "醉意",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"You learn more complex flavors. The following beverages are added to your {@subclassFeature Mystic Brew|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate} options.",
+				"你学会了更复杂的风味。以下饮品被添加到你的{@subclassFeature 秘术酿造|武僧|XPHB|醉意|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate}选项中。",
 				{
 					"type": "list",
 					"page": 5,
@@ -1109,217 +1182,233 @@
 					"items": [
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Blue Lightning|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|11|XUA2025SubclassesUpdate"
+							"subclassFeature": "蓝闪电|武僧|XPHB|醉意|XUA2025SubclassesUpdate|11|XUA2025SubclassesUpdate"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Drunkard's Luck|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|11|XUA2025SubclassesUpdate"
+							"subclassFeature": "醉汉机运|武僧|XPHB|醉意|XUA2025SubclassesUpdate|11|XUA2025SubclassesUpdate"
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "Blue Lightning",
+			"ENG_name": "Blue Lightning",
+			"name": "蓝闪电",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 5,
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "Intoxication",
+			"subclassShortName": "醉意",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 11,
 			"header": 3,
 			"entries": [
-				"Whenever you take a {@variantrule Reaction|XPHB} that isn't making an {@action Opportunity Attack|XPHB} or casting a spell, you can make one {@variantrule Unarmed Strike|XPHB} as part of that {@variantrule Reaction|XPHB}."
+				"每当你进行一次{@variantrule 反应|XPHB}而非{@action 借机攻击|XPHB}或施放法术时，你可以作为该{@variantrule 反应|XPHB}的一部分进行一次{@variantrule 徒手打击|XPHB}。"
 			]
 		},
 		{
-			"name": "Drunkard's Luck",
+			"ENG_name": "Drunkard's Luck",
+			"name": "醉汉机运",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 5,
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "Intoxication",
+			"subclassShortName": "醉意",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 11,
 			"header": 3,
 			"entries": [
-				"You gain {@variantrule Heroic Inspiration|XPHB} if you don't already have it. In addition, you can give yourself {@variantrule Heroic Inspiration|XPHB} when you roll {@variantrule Initiative|XPHB} without it."
+				"若你尚未拥有{@variantrule 英雄激励|XPHB}，则你获得之。此外，当你掷{@variantrule 先攻|XPHB}时没有{@variantrule 英雄激励|XPHB}也可以获得一个。"
 			]
 		},
 		{
-			"name": "Intoxicated Frenzy",
+			"ENG_name": "Intoxicated Frenzy",
+			"name": "酣醉若狂",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 5,
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "Intoxication",
+			"subclassShortName": "醉意",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"You make an overwhelming number of attacks against a group of enemies. When you use {@classFeature Flurry of Blows|Monk|XPHB|2|XPHB}, you can make up to three additional {@variantrule Unarmed Strike|XPHB|Unarmed Strikes} with it (up to a total of six {@variantrule Unarmed Strike|XPHB|Unarmed Strikes}), provided that each strike targets a different creature this turn."
+				"你对一群敌人发动压倒性的攻击。当你使用{@classFeature 疾风连击|武僧|XPHB|2|XPHB}时，你可以额外进行最多三次{@variantrule 徒手打击|XPHB|徒手打击}（最多总共六次{@variantrule 徒手打击|XPHB|徒手打击}），条件是每回合每次打击必须针对不同的生物。"
 			]
 		},
 		{
-			"name": "Oathbreaker",
+			"ENG_name": "Oathbreaker",
+			"name": "破誓者",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 5,
-			"className": "Paladin",
+			"className": "圣武士",
 			"classSource": "XPHB",
-			"subclassShortName": "Oathbreaker",
+			"subclassShortName": "破誓者",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"The power of a Paladin's oath is so great that it holds a distorted power even when it is violated. When a Paladin betrays the tenets of their oath because of corruption, pride, or thirst for power, they lose the blessing granted by their original oath but sometimes take on the sinister blessing of the Oathbreaker in its place. Oathbreakers use fear and overwhelming power to achieve their goals. While many Oathbreakers are beyond redemption, some Paladins bend this oath to achieve a great and noble deed to atone for their past evils.",
-				"At the DM's discretion, a Paladin of any level who violates the tenets of their oath can lose the benefits granted by their original subclass and gain the features of the Oathbreaker subclass instead. Alternatively, a Paladin can choose this subclass at level 3 based on the character's backstory of falling from grace.",
-				"These Paladins often share the following tenets:",
+				"圣武士誓言的威力是如此强大，以至于即使被违背时也拥有扭曲的力量。当圣武士因腐败、骄傲或对权力的渴望而背叛其教义时，他们会失去原有誓言赐予的祝福，但有时会取而代之获得破誓者的邪恶祝福。破誓者利用恐惧术和压倒性的力量来实现其目标。虽然许多破誓者已无可救赎，但有些圣武士会通过这一誓言来完成伟大而高尚的行为，以弥补过去的罪恶。",
+				"在DM的裁量下，任何等级的圣武士若违反其教义，可能会失去原有子职提供的增益并获得破誓者子职的特性。或者，圣武士可以在3级时基于角色从恩典中坠落的背景故事选择此子职。",
+				"这些圣武士通常遵循以下教义：",
 				{
 					"type": "list",
 					"page": 5,
 					"items": [
-						"Fear is a tool in the hands of the powerful.",
-						"Strive for power at any cost.",
-						"Do what must be done, but never lose sight of your goal."
+						"恐惧术是强者手中的工具。",
+						"不惜一切代价追求法力。",
+						"做必须做的事，但永远不要失去你的目标。"
 					]
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Conjure Undead|Paladin|XPHB|Oathbreaker|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+					"subclassFeature": "咒唤不死|圣武士|XPHB|破誓者|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Dreadful Aspect|Paladin|XPHB|Oathbreaker|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+					"subclassFeature": "恐怖显现|圣武士|XPHB|破誓者|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oathbreaker Spells|Paladin|XPHB|Oathbreaker|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+					"subclassFeature": "破誓者法术|圣武士|XPHB|破誓者|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
 				}
 			]
 		},
 		{
-			"name": "Conjure Undead",
+			"ENG_name": "Conjure Undead",
+			"name": "咒唤不死",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 5,
-			"className": "Paladin",
+			"className": "圣武士",
 			"classSource": "XPHB",
-			"subclassShortName": "Oathbreaker",
+			"subclassShortName": "破誓者",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 3,
 			"header": 2,
 			"consumes": {
-				"name": "Channel Divinity",
+				"ENG_name": "Channel Divinity",
+				"name": "引导神力",
 				"amount": 1
 			},
 			"entries": [
-				"As a {@variantrule Bonus Action|XPHB}, you can expend one use of your {@classFeature Channel Divinity|Paladin|XPHB|3|XPHB} to summon a number of Undead equal to half your Charisma modifier (round up; minimum of one Undead summoned). Each Undead appears in an unoccupied space you can see within 30 feet of you and is a type of your choice: {@creature Skeleton|XMM} or {@creature Zombie|XMM} (see {@book appendix B of the Player's Handbook|XPHB|9} for the stat blocks). The Undead are under your control for 1 minute, after which they dissolve into ash.",
-				"Each Undead is an ally to you and your allies. In combat, the Undead shares your {@variantrule Initiative|XPHB} count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Dodge|XPHB} action and uses its movement to avoid danger."
+				"作为{@variantrule 附赠动作|XPHB}，你可以消耗一次{@classFeature 引导神力|圣武士|XPHB|3|XPHB}来召唤数量等同于你魅力调整值一半（向上取整；至少召唤一个亡灵）的亡灵。每个亡灵出现在你30尺内一个你能看见的未占据空间，且是你选择的生物类型：{@creature 骷髅|XMM}或{@creature 丧尸|XMM}（数据卡见{@book 玩家手册的附录 B|XPHB|9}）。这些亡灵受你控制1分钟，之后他们会化为灰烬。",
+				"每个亡灵都是你和你的盟友的盟友。在战斗中，亡灵共享你的{@variantrule 先攻|XPHB}先攻值，但它在你的回合后立即行动。它会服从你的口头命令（你无需动作）。如果你没有发出任何命令，它会采取{@action 回避|XPHB}回避动作并使用移动力来避免危险。"
 			]
 		},
 		{
-			"name": "Dreadful Aspect",
+			"ENG_name": "Dreadful Aspect",
+			"name": "恐怖显现",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 6,
-			"className": "Paladin",
+			"className": "圣武士",
 			"classSource": "XPHB",
-			"subclassShortName": "Oathbreaker",
+			"subclassShortName": "破誓者",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 3,
 			"header": 2,
 			"consumes": {
-				"name": "Channel Divinity",
+				"ENG_name": "Channel Divinity",
+				"name": "引导神力",
 				"amount": 1
 			},
 			"entries": [
-				"Immediately after you cast {@spell Divine Smite|XPHB}, you can expend one use of your {@classFeature Channel Divinity|Paladin|XPHB|3|XPHB} to channel a burst of magical menace. Each creature of your choice in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you must succeed on a Wisdom saving throw or have the {@condition Frightened|XPHB} condition for 1 minute. A {@condition Frightened|XPHB} creature repeats the save at the end of each of its turns, ending the effect on itself on a success."
+				"在你施放{@spell 至圣斩|XPHB}后，你可以消耗一次{@classFeature 引导神力|圣武士|XPHB|3|XPHB}来引导一股魔法威吓爆发。你选择的30尺{@variantrule 光环 [效应区域]|XPHB|光环}范围内的每个生物必须成功通过一次感知豁免检定，否则将获得{@condition 恐慌|XPHB}状态1分钟。{@condition 恐慌|XPHB}的生物会在其每回合结束时重复豁免检定，成功则自身终止该效应。"
 			]
 		},
 		{
-			"name": "Oathbreaker Spells",
+			"ENG_name": "Oathbreaker Spells",
+			"name": "破誓者法术",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 6,
-			"className": "Paladin",
+			"className": "圣武士",
 			"classSource": "XPHB",
-			"subclassShortName": "Oathbreaker",
+			"subclassShortName": "破誓者",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"The magic of your oath ensures you always have certain spells ready; when you reach a {@class Paladin|XPHB} level specified in the {@table Oathbreaker Spells|XUA2025SubclassesUpdate} table, you thereafter always have the listed spells prepared.",
+				"你的誓仇魔法确保你总是预备某些法术；当你达到{@class 圣武士|XPHB}职业等级中{@table 破誓者法术|XUA2025SubclassesUpdate}表格指定的等级时，你此后总是准备所列出的法术。",
 				{
+					"ENG_name": "Oathbreaker Spells",
+					"name": "破誓者法术",
 					"type": "statblock",
 					"tag": "table",
-					"name": "Oathbreaker Spells",
 					"source": "XUA2025SubclassesUpdate",
 					"page": 6
 				}
 			]
 		},
 		{
-			"name": "Aura of Hate",
+			"ENG_name": "Aura of Hate",
+			"name": "憎恨灵光",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 6,
-			"className": "Paladin",
+			"className": "圣武士",
 			"classSource": "XPHB",
-			"subclassShortName": "Oathbreaker",
+			"subclassShortName": "破誓者",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"When you, as well as any Fiend or Undead in your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB} that is an ally, hits a creature with a melee attack, that attack deals extra Necrotic damage equal to your Charisma modifier."
+				"当你以及在你{@classFeature 守护灵光|圣武士|XPHB|6|XPHB}范围内的任何盟友邪魔或亡灵以近战攻击命中一个生物时，该攻击造成等同于你魅力调整值的额外暗蚀伤害。"
 			]
 		},
 		{
-			"name": "Supernatural Resistance",
+			"ENG_name": "Supernatural Resistance",
+			"name": "超然抗性",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 6,
-			"className": "Paladin",
+			"className": "圣武士",
 			"classSource": "XPHB",
-			"subclassShortName": "Oathbreaker",
+			"subclassShortName": "破誓者",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"You gain {@variantrule Resistance|XPHB} to Bludgeoning, Piercing, and Slashing damage."
+				"你获得对钝击、穿刺、挥砍伤害的{@variantrule 抗性|XPHB}。"
 			]
 		},
 		{
-			"name": "Dread Lord",
+			"ENG_name": "Dread Lord",
+			"name": "恐惧之王",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 6,
-			"className": "Paladin",
+			"className": "圣武士",
 			"classSource": "XPHB",
-			"subclassShortName": "Oathbreaker",
+			"subclassShortName": "破誓者",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 20,
 			"header": 2,
 			"entries": [
-				"As a {@variantrule Bonus Action|XPHB}, you can imbue your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB} with unholy gloom, granting the benefits below for 10 minutes or until you end them (no action required). Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}. You can also restore your use of it by expending a level 5 spell slot (no action required).",
+				"作为{@variantrule 附赠动作|XPHB}，你可以用邪恶的黑暗灌注你的{@classFeature 守护灵光|圣武士|XPHB|6|XPHB}，获得下方增益持续10分钟或直到你结束它们（无需动作）。一旦你使用此特性，在完成一次{@variantrule 长休|XPHB}前不能再次使用。你也可以通过消耗一个5环法术位来复原它的使用次数（无需动作）。",
 				{
 					"type": "list",
 					"page": 6,
 					"style": "list-hang-notitle",
 					"items": [
 						{
+							"ENG_name": "Darkness",
+							"name": "黑暗术",
 							"type": "item",
-							"name": "Darkness",
 							"entries": [
-								"Magical {@variantrule Darkness|XPHB} fills your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB}. You and allies in your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB} can see within this magical {@variantrule Darkness|XPHB}."
+								"魔法{@variantrule 黑暗|XPHB}充满你的{@classFeature 守护灵光|圣武士|XPHB|6|XPHB}。你和你的{@classFeature 守护灵光|圣武士|XPHB|6|XPHB}内的盟友可以看穿这片魔法{@variantrule 黑暗|XPHB}。"
 							]
 						},
 						{
+							"ENG_name": "Fear",
+							"name": "恐惧术",
 							"type": "item",
-							"name": "Fear",
 							"entries": [
-								"Whenever a creature with the {@condition Frightened|XPHB} condition starts its turn in your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB}, that creature takes {@damage 4d10} Psychic damage."
+								"每当一个处于{@condition 恐慌|XPHB}状态的生物在你的{@classFeature 守护灵光|圣武士|XPHB|6|XPHB}范围内开始其回合时，该生物会受到{@damage 4d10}心灵伤害。"
 							]
 						},
 						{
+							"ENG_name": "Shadow Strike",
+							"name": "幽影袭",
 							"type": "item",
-							"name": "Shadow Strike",
 							"entries": [
-								"As a {@variantrule Bonus Action|XPHB}, you can make a melee spell attack, shaping the gloom exuding from you into a blade that targets one creature in your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB}. On a hit, the attack deals Necrotic damage equal to {@damage 3d10} plus your Charisma modifier."
+								"作为{@variantrule 附赠动作|XPHB}，你可以进行一次近战法术攻击，将你散发出的幽暗塑造成一把刀刃，攻击你{@classFeature 守护灵光|圣武士|XPHB|6|XPHB}范围内的一个生物。命中时，该攻击造成等于{@damage 3d10}加上你的魅力调整值的暗蚀伤害。"
 							]
 						}
 					]
@@ -1329,11 +1418,12 @@
 	],
 	"foundrySubclassFeature": [
 		{
-			"name": "Desert",
+			"ENG_name": "Desert",
+			"name": "荒漠",
 			"source": "XUA2025SubclassesUpdate",
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
-			"subclassShortName": "Storm Herald",
+			"subclassShortName": "风暴先声",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 6,
 			"entryData": {
@@ -1343,16 +1433,18 @@
 			}
 		},
 		{
-			"name": "Sea",
+			"ENG_name": "Sea",
+			"name": "海洋",
 			"source": "XUA2025SubclassesUpdate",
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
-			"subclassShortName": "Storm Herald",
+			"subclassShortName": "风暴先声",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 6,
 			"effects": [
 				{
-					"name": "Sea",
+					"ENG_name": "Sea",
+					"name": "海洋",
 					"changes": [
 						{
 							"key": "system.attributes.movement.swim",
@@ -1369,11 +1461,12 @@
 			}
 		},
 		{
-			"name": "Tundra",
+			"ENG_name": "Tundra",
+			"name": "冻原",
 			"source": "XUA2025SubclassesUpdate",
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "XPHB",
-			"subclassShortName": "Storm Herald",
+			"subclassShortName": "风暴先声",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 6,
 			"entryData": {
@@ -1383,11 +1476,12 @@
 			}
 		},
 		{
-			"name": "Bonus Proficiency",
+			"ENG_name": "Bonus Proficiency",
+			"name": "附赠熟练项",
 			"source": "XUA2025SubclassesUpdate",
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Cavalier",
+			"subclassShortName": "骁骑士",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 3,
 			"entryData": {
@@ -1396,11 +1490,11 @@
 						"choose": [
 							{
 								"from": [
-									"animal handling",
-									"history",
-									"insight",
-									"performance",
-									"persuasion",
+									"驯兽",
+									"历史",
+									"洞悉",
+									"表演",
+									"游说",
 									"anyStandardLanguage"
 								],
 								"count": 1
@@ -1411,11 +1505,12 @@
 			}
 		},
 		{
-			"name": "Bonus Proficiencies",
+			"ENG_name": "Bonus Proficiencies",
+			"name": "附赠熟练",
 			"source": "XUA2025SubclassesUpdate",
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "Intoxication",
+			"subclassShortName": "醉意",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 3,
 			"entryData": {
@@ -1445,11 +1540,12 @@
 			}
 		},
 		{
-			"name": "Supernatural Resistance",
+			"ENG_name": "Supernatural Resistance",
+			"name": "超然抗性",
 			"source": "XUA2025SubclassesUpdate",
-			"className": "Paladin",
+			"className": "圣武士",
 			"classSource": "XPHB",
-			"subclassShortName": "Oathbreaker",
+			"subclassShortName": "破誓者",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 7,
 			"entryData": {
@@ -1463,13 +1559,14 @@
 	],
 	"table": [
 		{
-			"name": "Oathbreaker Spells",
+			"ENG_name": "Oathbreaker Spells",
+			"name": "破誓者法术",
+			"type": "table",
 			"source": "XUA2025SubclassesUpdate",
 			"page": 6,
-			"type": "table",
 			"colLabels": [
-				"Paladin Level",
-				"Spells"
+				"圣武士等级",
+				"法术"
 			],
 			"colStyles": [
 				"col-3 text-center",
@@ -1478,30 +1575,31 @@
 			"rows": [
 				[
 					"3",
-					"{@spell Hellish Rebuke|XPHB}, {@spell Witch Bolt|XPHB}"
+					"{@spell 炼狱叱喝|XPHB}, {@spell 巫术箭|XPHB}"
 				],
 				[
 					"5",
-					"{@spell Crown of Madness|XPHB}, {@spell Darkness|XPHB}"
+					"{@spell 疯狂冠冕|XPHB}, {@spell 黑暗术|XPHB}"
 				],
 				[
 					"9",
-					"{@spell Fear|XPHB}, {@spell Summon Undead|XPHB}"
+					"{@spell 恐惧术|XPHB}, {@spell 亡灵召唤术|XPHB}"
 				],
 				[
 					"13",
-					"{@spell Blight|XPHB}, {@spell Phantasmal Killer|XPHB}"
+					"{@spell 枯萎术|XPHB}, {@spell 魅影杀手|XPHB}"
 				],
 				[
 					"17",
-					"{@spell Contagion|XPHB}, {@spell Steel Wind Strike|XPHB}"
+					"{@spell 疫病术|XPHB}, {@spell 钢风斩|XPHB}"
 				]
 			]
 		}
 	],
 	"book": [
 		{
-			"name": "Unearthed Arcana 2025: Subclasses Update",
+			"ENG_name": "Unearthed Arcana 2025: Subclasses Update",
+			"name": "出土文献2025：子职更新",
 			"id": "XUA2025SubclassesUpdate",
 			"source": "XUA2025SubclassesUpdate",
 			"group": "prerelease",
@@ -1510,31 +1608,32 @@
 				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/refs/heads/master/_img/XUA2025SubclassesUpdate/cover.webp"
 			},
 			"published": "2025-10-30",
-			"author": "Wizards of the Coast",
+			"author": "威世智",
 			"contents": [
 				{
-					"name": "Unearthed Arcana 2025: Subclasses Update",
+					"ENG_name": "Unearthed Arcana 2025: Subclasses Update",
+					"name": "出土文献2025：子职更新",
 					"headers": [
-						"What's Inside",
-						"Subclasses",
+						"这里有什么",
+						"子职",
 						{
-							"header": "Path of the Spiritual Guardian (Barbarian)",
+							"header": "灵体守护者之路（野蛮人）",
 							"depth": 1
 						},
 						{
-							"header": "Path of the Storm Herald (Barbarian)",
+							"header": "风暴先声之路（野蛮人）",
 							"depth": 1
 						},
 						{
-							"header": "Cavalier (Fighter)",
+							"header": "骁骑士（战士）",
 							"depth": 1
 						},
 						{
-							"header": "Warrior of Intoxication (Monk)",
+							"header": "醉意战士（武僧）",
 							"depth": 1
 						},
 						{
-							"header": "Oathbreaker (Paladin)",
+							"header": "破誓者（圣武士）",
 							"depth": 1
 						}
 					]
@@ -1548,48 +1647,54 @@
 			"source": "XUA2025SubclassesUpdate",
 			"data": [
 				{
+					"ENG_name": "Unearthed Arcana 2025: Subclasses Update",
+					"name": "出土文献2025：子职更新",
 					"type": "section",
-					"name": "Unearthed Arcana 2025: Subclasses Update",
 					"page": 1,
 					"entries": [
-						"This playtest document is part of a series of {@i Unearthed Arcana} articles that present material designed for upcoming products. The material here uses the rules in the {@book 2024 Player's Handbook|XPHB}.",
+						"本测试文档是系列{@i 破解奥秘}文章的一部分，这些文章展示了为即将推出的产品设计的素材。这里的素材使用了{@book 2024玩家手册|XPHB}中的规则。",
 						{
+							"ENG_name": "What's Inside",
+							"name": "这里有什么",
 							"type": "section",
-							"name": "What's Inside",
 							"page": 1,
 							"entries": [
-								"This document presents five subclasses: revised subclasses for the {@class Barbarian|XPHB} ({@class Barbarian|XPHB|Path of the Spiritual Guardian|Spiritual Guardian|XUA2025SubclassesUpdate} and {@class Barbarian|XPHB|Path of the Storm Herald|Storm Herald|XUA2025SubclassesUpdate}), {@class Fighter|XPHB} ({@class Fighter|XPHB|Cavalier|Cavalier|XUA2025SubclassesUpdate}), {@class Monk|XPHB} ({@class Monk|XPHB|Warrior of Intoxication|Intoxication|XUA2025SubclassesUpdate}), and {@class Paladin|XPHB} ({@class Paladin|XPHB|Oathbreaker|Oathbreaker|XUA2025SubclassesUpdate}).",
+								"本文档介绍了五个子职：修订后的{@class 野蛮人|XPHB}子职（{@class 野蛮人|XPHB|灵体守护者之路|灵性守护者|XUA2025SubclassesUpdate}和{@class 野蛮人|XPHB|风暴先驱道途|风暴先声|XUA2025SubclassesUpdate}）、{@class 战士|XPHB}子职（{@class 战士|XPHB|骁骑士|骁骑士|XUA2025SubclassesUpdate}）、{@class 武僧|XPHB}子职（{@class 武僧|XPHB|沉醉战士|沉醉|XUA2025SubclassesUpdate}）以及{@class 圣武士|XPHB}子职（{@class 圣武士|XPHB|破誓者|破誓者|XUA2025SubclassesUpdate}）。",
 								{
+									"ENG_name": "This Is Playtest Material",
+									"name": "本材料为游玩测试内容",
 									"type": "inset",
-									"name": "This Is Playtest Material",
 									"page": 1,
 									"entries": [
-										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt it as official.",
+										"本文旨在进行游戏测试和反馈。这里的选项是实验性的且处于草稿形态。它们并非游戏的官方部分。您的反馈将协助我们决定是否将其采纳为官方。",
 										{
 											"type": "list",
 											"page": 1,
 											"style": "list-hang-notitle",
 											"items": [
 												{
+													"ENG_name": "How to Playtest This UA",
+													"name": "如何游玩测试本破解奥秘",
 													"type": "item",
-													"name": "How to Playtest This UA",
 													"entries": [
-														"We invite you to try out this material in play. To play with this material, you may either incorporate it into your campaign or run one or more special playtest sessions. For such a session, you may create an adventure of your own or use a short adventure from a source like {@adventure Quests from the Infinite Staircase|QftIS}."
+														"我们邀请您在游戏中尝试这些材质。要使用这些材质，您可以将它们融入您的战役中，或者进行一次或多次特殊的试玩测试会话。对于这样的会话，您可以创建自己的冒险，或者使用来自类似{@adventure 来自无尽阶梯的委托集|QftIS}这样的来源的短冒险。"
 													]
 												},
 												{
+													"ENG_name": "Power Level",
+													"name": "威力水平",
 													"type": "item",
-													"name": "Power Level",
 													"entries": [
-														"The character options you read here might be more or less powerful than options in the {@book 2024 Player's Handbook|XPHB}. If a design survives playtesting, we adjust its power to the desirable level before publication. This means an option could be more or less powerful in its final form."
+														"你在这里阅读的角色选项可能比{@book 2024玩家手册|XPHB}中的选项威力更强或更弱。如果一个设计在游戏测试中存活下来，我们会在发布前将其威力调整到理想水平。这意味着一个选项在其最终形态中可能威力更强或更弱。"
 													]
 												},
 												{
+													"ENG_name": "Feedback",
+													"name": "反馈",
 													"type": "item",
-													"name": "Feedback",
 													"entries": [
-														"The best way for you to give us feedback on this material is in the survey we'll release on D&D Beyond. If we make this material official, it will be refined based on your feedback, and then it will appear in a D&D book.",
-														"Providing feedback on this document is one way you can help shape the future of D&D!"
+														"您就这份材质向我们提供反馈的最佳方式是通过我们将在D&D Beyond上发布的调查。如果我们使这份材质成为官方版本，它将根据您的反馈进行完善，然后会出现在一本D&D书中。",
+														"对本文件提供反馈是您协助塑造D&D未来的一种方式！"
 													]
 												}
 											]
@@ -1599,49 +1704,55 @@
 							]
 						},
 						{
+							"ENG_name": "Subclasses",
+							"name": "子职",
 							"type": "section",
-							"name": "Subclasses",
 							"page": 1,
 							"entries": [
-								"This section presents the following subclasses: {@class Barbarian|XPHB|Path of the Spiritual Guardian|Spiritual Guardian|XUA2025SubclassesUpdate}, {@class Barbarian|XPHB|Path of the Storm Herald|Storm Herald|XUA2025SubclassesUpdate}, {@class Fighter|XPHB|Cavalier|Cavalier|XUA2025SubclassesUpdate}, {@class Monk|XPHB|Warrior of Intoxication|Intoxication|XUA2025SubclassesUpdate}, and {@class Paladin|XPHB|Oathbreaker|Oathbreaker|XUA2025SubclassesUpdate}.",
+								"本节介绍以下子职：{@class 野蛮人|XPHB|灵体守护者之路|灵性守护者|XUA2025SubclassesUpdate}，{@class 野蛮人|XPHB|风暴先驱道途|风暴先声|XUA2025SubclassesUpdate}，{@class 战士|XPHB|骁骑士|骁骑士|XUA2025SubclassesUpdate}，{@class 武僧|XPHB|沉醉战士|沉醉|XUA2025SubclassesUpdate}，且{@class 圣武士|XPHB|破誓者|破誓者|XUA2025SubclassesUpdate}。",
 								{
+									"ENG_name": "Path of the Spiritual Guardian (Barbarian)",
+									"name": "灵体守护者之路（野蛮人）",
 									"type": "entries",
-									"name": "Path of the Spiritual Guardian (Barbarian)",
 									"page": 1,
 									"entries": [
-										"{@i Call on the Spirits for Combat Aid}",
+										"{@i 呼唤精魂以获得战斗援助}",
 										{
+											"ENG_name": "Design Note: Path of the Spiritual Guardian Updates",
+											"name": "设计笔记：灵体守护者路途更新",
 											"type": "inset",
-											"name": "Design Note: Path of the Spiritual Guardian Updates",
 											"page": 1,
 											"entries": [
-												"Here are the main updates in this subclass (formerly {@class Barbarian|PHB|Path of the Ancestral Guardian|Ancestral Guardian|XGE}) since its last appearance in {@book Xanathar's Guide to Everything|XGE}:",
+												"这里是该子职（原为{@class 野蛮人|PHB|先祖守卫道途|先祖守卫|XGE}）自上次在{@book 珊娜萨的万事指南|XGE}中出现以来的主要更新：",
 												{
 													"type": "list",
 													"page": 1,
 													"items": [
 														{
+															"ENG_name": "Spiritual Protectors",
+															"name": "灵性守护者",
 															"type": "item",
-															"name": "Spiritual Protectors",
 															"nameDot": false,
 															"entries": [
-																"(formerly {@subclassFeature Ancestral Protectors|Barbarian|PHB|Ancestral Guardian|XGE|3|XGE}) has been redesigned. The feature now splits the effects of the original feature, along with new effects, as options when you hit a creature while your {@classFeature Rage|Barbarian|XPHB|1|XPHB} is active."
+																"（原{@subclassFeature 先祖护卫|野蛮人|PHB|先祖守卫|XGE|3|XGE}）已被重新设计。该特性现在将原特性的效应与新效应分开，作为当你{@classFeature 狂暴|野蛮人|XPHB|1|XPHB}激活时命中生物的选项。"
 															]
 														},
 														{
+															"ENG_name": "Spirit Shield",
+															"name": "精魂之盾",
 															"type": "item",
-															"name": "Spirit Shield",
 															"nameDot": false,
 															"entries": [
-																"now scales with your Rage Damage bonus."
+																"现在随你的狂暴伤害加值提升。"
 															]
 														},
 														{
+															"ENG_name": "Vengeful Spirits",
+															"name": "复仇精魂",
 															"type": "item",
-															"name": "Vengeful Spirits",
 															"nameDot": false,
 															"entries": [
-																"(formerly {@subclassFeature Vengeful Ancestors|Barbarian|PHB|Ancestral Guardian|XGE|14|XGE}) is a new feature that allows you to make an additional attack when you roll an 18 or higher on an attack roll."
+																"（原为{@subclassFeature 仇魂先祖|野蛮人|PHB|先祖守卫|XGE|14|XGE}）是一个新特性，允许你在攻击检定掷出18或更高时进行一次额外攻击。"
 															]
 														}
 													]
@@ -1649,11 +1760,12 @@
 											]
 										},
 										{
+											"ENG_name": "Path of the Spiritual Guardian",
+											"name": "灵体守护者之路",
 											"type": "statblock",
 											"prop": "subclass",
-											"name": "Path of the Spiritual Guardian",
-											"shortName": "Spiritual Guardian",
-											"className": "Barbarian",
+											"shortName": "灵性守护者",
+											"className": "野蛮人",
 											"classSource": "XPHB",
 											"source": "XUA2025SubclassesUpdate",
 											"page": 1
@@ -1661,35 +1773,39 @@
 									]
 								},
 								{
+									"ENG_name": "Path of the Storm Herald (Barbarian)",
+									"name": "风暴先声之路（野蛮人）",
 									"type": "entries",
-									"name": "Path of the Storm Herald (Barbarian)",
 									"page": 2,
 									"entries": [
-										"{@i Wield the Fury of the Storm}",
+										"{@i 驾驭暴风之愤恨}",
 										{
+											"ENG_name": "Design Note: Path of the Storm Herald Updates",
+											"name": "设计笔记：风暴先驱道途更新",
 											"type": "inset",
-											"name": "Design Note: Path of the Storm Herald Updates",
 											"page": 3,
 											"entries": [
-												"Here are the main updates in this subclass since its appearance in {@book Xanathar's Guide to Everything|XGE}:",
+												"这是该子职自其出现在{@book 珊娜萨的万事指南|XGE}以来的主要更新：",
 												{
 													"type": "list",
 													"page": 2,
 													"items": [
 														{
+															"ENG_name": "Storm Aura",
+															"name": "风暴灵光",
 															"type": "item",
-															"name": "Storm Aura",
 															"nameDot": false,
 															"entries": [
-																"now scales with your Rage Damage bonus. In addition, {@subclassFeature Tundra|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate} has been redesigned to reduce a creature's damage instead of applying {@variantrule Temporary Hit Points|XPHB}."
+																"现在会随着你的狂暴伤害加值提升。此外，{@subclassFeature 冻原|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate}已被重新设计为缩小生物的伤害而非施加{@variantrule 临时生命值|XPHB}。"
 															]
 														},
 														{
+															"ENG_name": "Raging Storm",
+															"name": "狂怒风暴",
 															"type": "item",
-															"name": "Raging Storm",
 															"nameDot": false,
 															"entries": [
-																"has each environment redesigned. {@subclassFeature Desert|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate} now makes a creature that failed the saving throw start burning. {@subclassFeature Sea|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate} can now chain the lightning bolt to another creature. {@subclassFeature Tundra|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate} now deals Cold damage and halves a creature's {@variantrule Speed|XPHB}."
+																"每个环境都经过重新设计。{@subclassFeature 荒漠|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate}现在会使豁免检定失败的生物开始燃烧。{@subclassFeature 海洋|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate}现在可以将闪电束链击到另一个生物。{@subclassFeature 冻原|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate}现在造成寒冷伤害且将生物的{@variantrule 速度|XPHB}减半。"
 															]
 														}
 													]
@@ -1697,11 +1813,12 @@
 											]
 										},
 										{
+											"ENG_name": "Path of the Storm Herald",
+											"name": "风暴先驱道途",
 											"type": "statblock",
 											"prop": "subclass",
-											"name": "Path of the Storm Herald",
-											"shortName": "Storm Herald",
-											"className": "Barbarian",
+											"shortName": "风暴先声",
+											"className": "野蛮人",
 											"classSource": "XPHB",
 											"source": "XUA2025SubclassesUpdate",
 											"page": 2
@@ -1709,35 +1826,39 @@
 									]
 								},
 								{
+									"ENG_name": "Cavalier (Fighter)",
+									"name": "骁骑士（战士）",
 									"type": "entries",
-									"name": "Cavalier (Fighter)",
 									"page": 3,
 									"entries": [
-										"{@i Defend Your Allies on Foot or from a Mount}",
+										"{@i 徒步或乘骑保护盟友}",
 										{
+											"ENG_name": "Design Note: Cavalier Updates",
+											"name": "设计笔记：骁骑士更新",
 											"type": "inset",
-											"name": "Design Note: Cavalier Updates",
 											"page": 3,
 											"entries": [
-												"Here are the main updates in this subclass since its appearance in {@book Xanathar's Guide to Everything|XGE}:",
+												"这是该子职自其出现在{@book 珊娜萨的万事指南|XGE}以来的主要更新：",
 												{
 													"type": "list",
 													"page": 3,
 													"items": [
 														{
+															"ENG_name": "Unwavering Mark",
+															"name": "坚定之印",
 															"type": "item",
-															"name": "Unwavering Mark",
 															"nameDot": false,
 															"entries": [
-																"no longer has limited uses."
+																"不再有使用次数限制。"
 															]
 														},
 														{
+															"ENG_name": "Ferocious Charger",
+															"name": "冲锋陷阵",
 															"type": "item",
-															"name": "Ferocious Charger",
 															"nameDot": false,
 															"entries": [
-																"has been redesigned to give a burst of speed during the first round of each combat."
+																"已被重新设计，用于在每场战斗的第一轮中爆发速度。"
 															]
 														}
 													]
@@ -1745,11 +1866,12 @@
 											]
 										},
 										{
+											"ENG_name": "Cavalier",
+											"name": "骁骑士",
 											"type": "statblock",
 											"prop": "subclass",
-											"name": "Cavalier",
-											"shortName": "Cavalier",
-											"className": "Fighter",
+											"shortName": "骁骑士",
+											"className": "战士",
 											"classSource": "XPHB",
 											"source": "XUA2025SubclassesUpdate",
 											"page": 3
@@ -1757,35 +1879,39 @@
 									]
 								},
 								{
+									"ENG_name": "Warrior of Intoxication (Monk)",
+									"name": "醉意战士（武僧）",
 									"type": "entries",
-									"name": "Warrior of Intoxication (Monk)",
 									"page": 4,
 									"entries": [
-										"{@i Drink Mystic Brews to Overwhelm and Confound Foes}",
+										"{@i 饮用秘术佳酿以压制且迷惑敌人}",
 										{
+											"ENG_name": "Design Note: Warrior of Intoxication Updates",
+											"name": "设计笔记：醉意战士更新",
 											"type": "inset",
-											"name": "Design Note: Warrior of Intoxication Updates",
 											"page": 4,
 											"entries": [
-												"Here are the main updates in this subclass (formerly {@class Monk|PHB|Way of the Drunken Master|Drunken Master|XGE}) since its last appearance in {@book Xanathar's Guide to Everything|XGE}:",
+												"这里是该子职（原为{@class 武僧|PHB|醉拳宗|醉拳|XGE}）自上次在{@book 珊娜萨的万事指南|XGE}中出现以来的主要更新：",
 												{
 													"type": "list",
 													"page": 4,
 													"items": [
 														{
+															"ENG_name": "Mystic Brew",
+															"name": "秘术酿造",
 															"type": "item",
-															"name": "Mystic Brew",
 															"nameDot": false,
 															"entries": [
-																"is a new feature that lets the {@class Monk|XPHB} create magical brews that they can drink to gain long-lasting benefits."
+																"是一个新特性，允许{@class 武僧|XPHB}创造魔法饮品，他们可以饮用这些饮品以获得持久增益。"
 															]
 														},
 														{
+															"ENG_name": "Master Brewer",
+															"name": "大师酿酒师",
 															"type": "item",
-															"name": "Master Brewer",
 															"nameDot": false,
 															"entries": [
-																"is a new feature that replaces {@subclassFeature Drunkard's Luck|Monk|PHB|Drunken Master|XGE|11|XGE}. The feature adds additional beverage options to {@subclassFeature Mystic Brew|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate}."
+																"是一个新特性，取代了{@subclassFeature 醉汉机运|武僧|PHB|醉拳|XGE|11|XGE}。该特性为{@subclassFeature 秘术酿造|武僧|XPHB|醉意|XUA2025SubclassesUpdate|6|XUA2025子职更新}增加了额外的饮品选项。"
 															]
 														}
 													]
@@ -1793,11 +1919,12 @@
 											]
 										},
 										{
+											"ENG_name": "Warrior of Intoxication",
+											"name": "沉醉战士",
 											"type": "statblock",
 											"prop": "subclass",
-											"name": "Warrior of Intoxication",
-											"shortName": "Intoxication",
-											"className": "Monk",
+											"shortName": "醉意",
+											"className": "武僧",
 											"classSource": "XPHB",
 											"source": "XUA2025SubclassesUpdate",
 											"page": 4
@@ -1805,59 +1932,66 @@
 									]
 								},
 								{
+									"ENG_name": "Oathbreaker (Paladin)",
+									"name": "破誓者（圣武士）",
 									"type": "entries",
-									"name": "Oathbreaker (Paladin)",
 									"page": 5,
 									"entries": [
-										"{@i Obtain Great Power at Any Cost}",
+										"{@i 不惜一切代价获得强大法力}",
 										{
+											"ENG_name": "Design Note: Oathbreaker Updates",
+											"name": "设计笔记：破誓者更新",
 											"type": "inset",
-											"name": "Design Note: Oathbreaker Updates",
 											"page": 5,
 											"entries": [
-												"Here are the main updates in this subclass since its last appearance in the 2014 {@book Dungeon Master's Guide|DMG}:",
+												"这里是该子职自2014年{@book 城主指南|DMG}上次出现以来的主要更新：",
 												{
 													"type": "list",
 													"page": 5,
 													"items": [
 														{
+															"ENG_name": "Conjure Undead",
+															"name": "咒唤不死",
 															"type": "item",
-															"name": "Conjure Undead",
 															"nameDot": false,
 															"entries": [
-																"(formerly {@subclassFeature Control Undead|Paladin|PHB|Oathbreaker|DMG|3|DMG}) now lets you briefly summon Undead to aid you."
+																"（原为{@subclassFeature 控制亡灵|圣武士|PHB|破誓者|DMG|3|DMG}）现在允许你短暂召唤亡灵来援助你。"
 															]
 														},
 														{
+															"ENG_name": "Dreadful Aspect",
+															"name": "恐怖显现",
 															"type": "item",
-															"name": "Dreadful Aspect",
 															"nameDot": false,
 															"entries": [
-																"now loops through the {@spell Divine Smite|XPHB} spell."
+																"现在循环施放{@spell 至圣斩|XPHB}法术。"
 															]
 														},
 														{
+															"ENG_name": "Oathbreaker Spells",
+															"name": "破誓者法术",
 															"type": "item",
-															"name": "Oathbreaker Spells",
 															"nameDot": false,
 															"entries": [
-																"has new spells."
+																"拥有新的法术。"
 															]
 														},
 														{
+															"ENG_name": "Aura of Hate",
+															"name": "憎恨灵光",
 															"type": "item",
-															"name": "Aura of Hate",
 															"nameDot": false,
 															"entries": [
-																"now adds its effect to your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB}. The aura now benefits only Fiends and Undead that are your allies."
+																"现在将其效应添加到你的{@classFeature 守护灵光|圣武士|XPHB|6|XPHB}。该灵光现在仅对你盟友中的邪魔与不死生物提供增益。"
 															]
 														},
 														{
+															"ENG_name": "Dread Lord",
+															"name": "恐惧之王",
 															"type": "item",
-															"name": "Dread Lord",
 															"nameDot": false,
 															"entries": [
-																"now imbues your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB} and can be recharged by expending a level 5 spell slot."
+																"现在会灌注你的{@classFeature 守护灵光|圣武士|XPHB|6|XPHB}且可以通过消耗一个5环法术位来充能。"
 															]
 														}
 													]
@@ -1865,11 +1999,12 @@
 											]
 										},
 										{
+											"ENG_name": "Oathbreaker",
+											"name": "破誓者",
 											"type": "statblock",
 											"prop": "subclass",
-											"name": "Oathbreaker",
-											"shortName": "Oathbreaker",
-											"className": "Paladin",
+											"shortName": "破誓者",
+											"className": "圣武士",
 											"classSource": "XPHB",
 											"source": "XUA2025SubclassesUpdate",
 											"page": 5

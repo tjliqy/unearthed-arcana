@@ -4,7 +4,7 @@
 			{
 				"json": "UA2020SubclassesPt2",
 				"abbreviation": "UA20S2",
-				"full": "Unearthed Arcana: 2020 Subclasses, Part 2",
+				"full": "破解奥秘：2020子职，第二部分",
 				"url": "https://media.wizards.com/2020/dnd/downloads/UA2020_02_06_Subclasses2.pdf",
 				"version": "1.0.0",
 				"dateReleased": "2020-02-04",
@@ -23,7 +23,7 @@
 		},
 		"edition": "classic",
 		"dateAdded": 1701616429,
-		"dateLastModified": 1774092631,
+		"dateLastModified": 1792465963,
 		"_dateLastModifiedHash": "342a312bd3"
 	},
 	"_test": {
@@ -33,10 +33,11 @@
 	},
 	"subclass": [
 		{
-			"name": "Clockwork Soul (UA)",
-			"shortName": "Clockwork Soul (UA)",
+			"ENG_name": "Clockwork Soul (UA)",
+			"name": "时械之魂（UA）",
+			"shortName": "时械之魂（UA）",
 			"source": "UA2020SubclassesPt2",
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "PHB",
 			"page": 4,
 			"isReprinted": true,
@@ -44,54 +45,56 @@
 				{
 					"known": {
 						"1": [
-							"alarm",
-							"protection from evil and good"
+							"警报术",
+							"防护善恶"
 						],
 						"3": [
-							"find traps",
-							"heat metal"
+							"寻找陷阱",
+							"灼热金属"
 						],
 						"5": [
-							"counterspell",
-							"glyph of warding"
+							"法术反制",
+							"守卫刻文"
 						],
 						"7": [
-							"arcane eye",
-							"Otiluke's resilient sphere"
+							"秘法眼",
+							"欧提路克弹力法球"
 						],
 						"9": [
-							"animate objects",
-							"wall of force"
+							"活化物件",
+							"力场墙"
 						]
 					}
 				}
 			],
 			"subclassFeatures": [
-				"Clockwork Soul|Sorcerer||Clockwork Soul (UA)|UA2020SubclassesPt2|1",
-				"Bulwark of Law|Sorcerer||Clockwork Soul (UA)|UA2020SubclassesPt2|6",
-				"Trance of Order|Sorcerer||Clockwork Soul (UA)|UA2020SubclassesPt2|14",
-				"Clockwork Cavalcade|Sorcerer||Clockwork Soul (UA)|UA2020SubclassesPt2|18"
+				"时械之魂|术士||时械之魂（UA）|UA2020SubclassesPt2|1",
+				"守序意志壁垒|术士||时械之魂（UA）|UA2020SubclassesPt2|6",
+				"序列意识|术士||时械之魂（UA）|UA2020SubclassesPt2|14",
+				"时械矩阵|术士||时械之魂（UA）|UA2020SubclassesPt2|18"
 			]
 		},
 		{
-			"name": "College of Creation (UA)",
-			"shortName": "Creation (UA)",
+			"ENG_name": "College of Creation (UA)",
+			"name": "创造学院 (UA)",
+			"shortName": "创造 (UA)",
 			"source": "UA2020SubclassesPt2",
-			"className": "Bard",
+			"className": "吟游诗人",
 			"classSource": "PHB",
 			"page": 1,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"College of Creation|Bard||Creation (UA)|UA2020SubclassesPt2|3",
-				"Animating Performance|Bard||Creation (UA)|UA2020SubclassesPt2|6",
-				"Performance of Creation|Bard||Creation (UA)|UA2020SubclassesPt2|14"
+				"创造学院|吟游诗人||创造 (UA)|UA2020SubclassesPt2|3",
+				"活化表演|吟游诗人||创造 (UA)|UA2020SubclassesPt2|6",
+				"造物表演|吟游诗人||创造 (UA)|UA2020SubclassesPt2|14"
 			]
 		},
 		{
-			"name": "Love Domain (UA)",
-			"shortName": "Love (UA)",
+			"ENG_name": "Love Domain (UA)",
+			"name": "嘲笑领域（UA）",
+			"shortName": "嘲笑 (UA)",
 			"source": "UA2020SubclassesPt2",
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
 			"page": 2,
 			"isReprinted": true,
@@ -99,42 +102,43 @@
 				{
 					"prepared": {
 						"1": [
-							"charm person",
-							"heroism"
+							"魅惑类人",
+							"英雄气概"
 						],
 						"3": [
-							"enthrall",
-							"warding bond"
+							"注目术",
+							"守护之链"
 						],
 						"5": [
-							"beacon of hope",
-							"hypnotic pattern"
+							"希望信标",
+							"催眠图纹"
 						],
 						"7": [
-							"aura of purity",
-							"confusion"
+							"净化灵光",
+							"困惑术"
 						],
 						"9": [
-							"greater restoration",
-							"hold monster"
+							"高等复原术",
+							"定身怪物"
 						]
 					}
 				}
 			],
 			"subclassFeatures": [
-				"Love Domain (UA)|Cleric||Love (UA)|UA2020SubclassesPt2|1",
-				"Channel Divinity: Impulsive Infatuation|Cleric||Love (UA)|UA2020SubclassesPt2|2",
-				"Protective Bond|Cleric||Love (UA)|UA2020SubclassesPt2|6",
-				"Potent Spellcasting|Cleric||Love (UA)|UA2020SubclassesPt2|8",
-				"Blessed Strikes|Cleric||Love (UA)|UA2020SubclassesPt2|8|UAClassFeatureVariants",
-				"Enduring Unity|Cleric||Love (UA)|UA2020SubclassesPt2|17"
+				"嘲笑领域（UA）|牧师||嘲笑 (UA)|UA2020SubclassesPt2|1",
+				"引导神力：冲动迷恋|牧师||嘲笑 (UA)|UA2020SubclassesPt2|2",
+				"保护联结|牧师||嘲笑 (UA)|UA2020SubclassesPt2|6",
+				"强力施法|牧师||嘲笑 (UA)|UA2020SubclassesPt2|8",
+				"受祝击|牧师||嘲笑 (UA)|UA2020SubclassesPt2|8|UAClassFeatureVariants",
+				"永恒团结|牧师||嘲笑 (UA)|UA2020SubclassesPt2|17"
 			]
 		},
 		{
-			"name": "Unity Domain (UA)",
-			"shortName": "Unity (UA)",
+			"ENG_name": "Unity Domain (UA)",
+			"name": "团结领域（UA）",
+			"shortName": "团结（UA）",
 			"source": "UA2020SubclassesPt2",
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
 			"page": 2,
 			"isReprinted": true,
@@ -142,146 +146,154 @@
 				{
 					"prepared": {
 						"1": [
-							"heroism",
-							"shield of faith"
+							"英雄气概",
+							"虔诚护盾"
 						],
 						"3": [
-							"aid",
-							"warding bond"
+							"援助术",
+							"守护之链"
 						],
 						"5": [
-							"beacon of hope",
-							"sending"
+							"希望信标",
+							"短讯术"
 						],
 						"7": [
-							"aura of purity",
-							"guardian of faith"
+							"净化灵光",
+							"信仰守卫"
 						],
 						"9": [
-							"greater restoration",
-							"Rary's telepathic bond"
+							"高等复原术",
+							"拉瑞心灵联结"
 						]
 					}
 				}
 			],
 			"subclassFeatures": [
-				"Unity Domain (UA)|Cleric||Unity (UA)|UA2020SubclassesPt2|1",
-				"Channel Divinity: Shared Burden|Cleric||Unity (UA)|UA2020SubclassesPt2|2",
-				"Protective Bond|Cleric||Unity (UA)|UA2020SubclassesPt2|6",
-				"Potent Spellcasting|Cleric||Unity (UA)|UA2020SubclassesPt2|8",
-				"Blessed Strikes|Cleric||Unity (UA)|UA2020SubclassesPt2|8|UAClassFeatureVariants",
-				"Enduring Unity|Cleric||Unity (UA)|UA2020SubclassesPt2|17"
+				"团结领域（UA）|牧师||团结（UA）|UA2020SubclassesPt2|1",
+				"引导神力：共担咒缚|牧师||团结（UA）|UA2020SubclassesPt2|2",
+				"保护联结|牧师||团结（UA）|UA2020SubclassesPt2|6",
+				"强力施法|牧师||团结（UA）|UA2020SubclassesPt2|8",
+				"受祝击|牧师||团结（UA）|UA2020SubclassesPt2|8|UAClassFeatureVariants",
+				"永恒团结|牧师||团结（UA）|UA2020SubclassesPt2|17"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "College of Creation",
+			"ENG_name": "College of Creation",
+			"name": "创造学院",
 			"source": "UA2020SubclassesPt2",
 			"page": 1,
-			"className": "Bard",
+			"className": "吟游诗人",
 			"classSource": "PHB",
-			"subclassShortName": "Creation (UA)",
+			"subclassShortName": "创造 (UA)",
 			"subclassSource": "UA2020SubclassesPt2",
 			"level": 3,
 			"entries": [
-				"Bards believe the multiverse was given existence through word and sound, esoteric harmonies that continue to resound through existence: the Song of Creation. The bards of this college draw on this ancient power through performances of dance, music, or song to bring into being what they need most.",
-				"Members of this college might have developed their powers during experiences on other worlds or planes of existence. Those who have seen the commonalities of multiple realities might have learned how to tap into truths most mortals glimpse only for a moment. Alternatively, the bard might find themselves out of step with their own home plane, reality, or time, their connections to elsewhere allowing them to manipulate the space around them. Regardless of where a bard draws their powers from, other performers might be drawn to them, either to learn their secrets or to put an end to their dangerous manipulation of the Song of Creation.",
+				"吟游诗人相信多元宇宙是通过言语和声音、以及持续回荡在存在中的奥秘和声而被赋予存在的：这就是造物术之歌。这个学院的吟游诗人通过舞蹈、音乐或歌曲的表演来汲取这种远古法力，从而创造出他们最需要的东西。",
+				"创造学院的成员们可能在其他世界或存在位面中发展出了他们的力量。那些见识过多个现实共同点的人可能学会了如何触及大多数凡人只能瞥见片刻的真理。或者，吟游诗人可能会发现自己与自己的家园位面、现实或时间不合拍，他们与其他地方的联系使他们能够操纵周围的空间。无论吟游诗人从何处汲取力量，其他演艺者们可能会被他们吸引，要么是为了学习他们的秘密，要么是为了结束他们对创造之歌的危险操纵。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Note of Potential|Bard||Creation (UA)|UA2020SubclassesPt2|3"
+					"subclassFeature": "潜能注记|吟游诗人||创造 (UA)|UA2020SubclassesPt2|3"
 				}
 			]
 		},
 		{
-			"name": "Note of Potential",
+			"ENG_name": "Note of Potential",
+			"name": "潜能注记",
 			"source": "UA2020SubclassesPt2",
 			"page": 1,
-			"className": "Bard",
+			"className": "吟游诗人",
 			"classSource": "PHB",
-			"subclassShortName": "Creation (UA)",
+			"subclassShortName": "创造 (UA)",
 			"subclassSource": "UA2020SubclassesPt2",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3rd-level College of Creation feature}",
-				"You can manipulate the Song of Creation to summon a floating musical note of possibility: Whenever you give a creature a Bardic Inspiration die, you can create a Note of Potential. The note orbits within 5 feet of the creature. The note is a Tiny object that is intangible and invulnerable, and it lasts until the Bardic Inspiration die is lost. A creature with a note can use it in the following ways.",
+				"{@i 第3级创造学院特性}",
+				"你可以操纵创造之歌来召唤一枚漂浮的可能性音符：每当你给予一个生物一枚诗人激励骰时，你可以创造一个潜能注记。该注记在生物5尺范围内环绕。注记是一个无形且无敌的微型物件，且它会持续存在直到诗人激励骰被消耗。拥有注记的生物可以以下列方式使用它。",
 				{
+					"ENG_name": "Note of Destruction",
+					"name": "毁灭之注",
 					"type": "entries",
-					"name": "Note of Destruction",
 					"entries": [
-						"Immediately after the creature rolls the Bardic Inspiration die to add it to an attack roll, the creature can expend the note to create a burst of sound. Each other creature within 5 feet of it must succeed on a Constitution saving throw against your spell save DC or take thunder damage equal to the number rolled on the Bardic Inspiration die."
+						"在该生物掷出诗人激励骰以将其添加到攻击检定后，该生物可以立即消耗此注以创造一个声音爆发。其5尺范围内的每个其他生物必须进行一次对抗你法术豁免DC的体质豁免检定，否则受到等于诗人激励骰所掷数值的雷鸣伤害。"
 					]
 				},
 				{
+					"ENG_name": "Note of Protection",
+					"name": "守护之注",
 					"type": "entries",
-					"name": "Note of Protection",
 					"entries": [
-						"Immediately after the creature rolls the Bardic Inspiration die and adds it to a saving throw, the creature can expend the note to gain temporary hit points equal to the number rolled on the Bardic Inspiration die + your Charisma modifier, provided the creature doesn't already have temporary hit points."
+						"在该生物掷出诗人激励骰并将其加到豁免检定后，该生物可以立即消耗此注以获得等于诗人激励骰所掷数值+你的魅力调整值的临时生命值，前提是该生物当前没有临时生命值。"
 					]
 				},
 				{
+					"ENG_name": "Note of Ingenuity",
+					"name": "机巧笔记",
 					"type": "entries",
-					"name": "Note of Ingenuity",
 					"entries": [
-						"When the creature rolls the Bardic Inspiration die to add it to an ability check, the creature can expend the note to roll the Bardic Inspiration die again and choose which roll to use."
+						"当该生物掷诗人激励骰以将其添加到一个属性检定时，该生物可以消耗此注以再次掷诗人激励骰并选择使用哪次掷骰结果。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Animating Performance",
+			"ENG_name": "Animating Performance",
+			"name": "活化表演",
 			"source": "UA2020SubclassesPt2",
 			"page": 1,
-			"className": "Bard",
+			"className": "吟游诗人",
 			"classSource": "PHB",
-			"subclassShortName": "Creation (UA)",
+			"subclassShortName": "创造 (UA)",
 			"subclassSource": "UA2020SubclassesPt2",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-level College of Creation feature}",
-				"Your mastery over the Song of Creation allows you to magically bring items to life. As an action, you can target a Large or smaller nonmagical item you can see within 30 feet of you and animate it. The animate item uses the {@creature Dancing Item|UA2020SubclassesPt2} stat block and is under your control for 1 hour or until it is reduced to 0 hit points.",
-				"In combat, the item shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the {@action Dodge} action, unless you take a bonus action on your turn to command it to take one of the actions in its stat block or the {@action Dash}, {@action Disengage}, {@action Help}, {@action Hide}, or {@action Search} action.",
-				"When you use your Bardic Inspiration feature, you can command which action your animated item takes as part of the same bonus action.",
-				"Once you animate an item with this feature, you can't do so again until you finish a long rest or until you expend a spell slot of 3rd level or higher to use this feature. You can have only one item animated by this feature at a time; if you use this action and already have a {@creature dancing item|UA2020SubclassesPt2} from this feature, the first one immediately becomes inanimate."
+				"{@i 第6级创造学院特性}",
+				"你对创造之歌的精通使你能够魔法般地赋予物品生命。以一个动作，你可以指定一个30尺内你能看见的大型或更小的非魔法物品并活化它。该活化物品使用{@creature 舞空物品|UA2020SubclassesPt2}资料卡且在你的控制下持续1小时或直到其生命值降至0。",
+				"在战斗中，该物品共享你的先攻值，但它会在你的回合后立即行动。它可以自行移动和使用反应，但在它的回合中唯一能执行的动作是{@action 回避}动作，除非你在你的回合中用一个附赠动作命令它执行其资料卡中的某个动作或{@action 疾走}、{@action 撤离}、{@action 协助}、{@action 躲藏}或{@action 搜索}动作。",
+				"当你使用诗人激励特性时，你可以命令活化的物品采取哪个动作作为同一附赠动作的一部分。",
+				"一旦你使用此特性活化一件物品，直到完成一次长休或消耗一个3环或更高的法术位来使用此特性前，你无法再次这样做。你一次只能通过此特性活化一件物品；如果你使用此动作且已经有一个来自此特性的{@creature 舞空物品|UA2020SubclassesPt2}，第一个会立即失去活性。"
 			]
 		},
 		{
-			"name": "Performance of Creation",
+			"ENG_name": "Performance of Creation",
+			"name": "造物表演",
 			"source": "UA2020SubclassesPt2",
 			"page": 1,
-			"className": "Bard",
+			"className": "吟游诗人",
 			"classSource": "PHB",
-			"subclassShortName": "Creation (UA)",
+			"subclassShortName": "创造 (UA)",
 			"subclassSource": "UA2020SubclassesPt2",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i 14th-level College of Creation feature}",
-				"Your performance can manipulate the magic of creation, briefly transforming the world around you. As an action, you can create one nonmagical item of your choice in an unoccupied space within 10 feet of you. The item must appear on a surface or in a liquid that can support it. The gp value of the item can't be more than 20 times your bard level and must be Large or smaller. Tiny glimmering, intangible notes float around it, and a creature can faintly hear music when touching it. For examples of items you can create, see the Armor, Weapons, Adventuring Gear, Tools, and Mounts and Vehicles tables in chapter 5, \"Equipment,\" of the Player's Handbook.",
-				"The created item disappears at the end of your next turn, unless you use your action to maintain it. Each time you use your action in this way, the item's duration is extended to the end of your next turn, up to a maximum of 1 minute. If you maintain the item for the full minute, it continues to exist for a number of hours equal to your bard level.",
-				"Once you create an item with this feature, you can't do so again until you finish a long rest or until you expend a spell slot of 5th level or higher to use this feature. You can have only one item created by this feature at a time; if you use this action and already have an item from this feature, the first one immediately vanishes."
+				"{@i 第14级创造学院特性}",
+				"你的表演可以操纵创造的魔法，短暂地改变你周围的世界。作为一个动作，你可以在你10尺内的一个未占据空间创造一个你选择的非魔法物品。该物品必须出现在一个表面或可以支撑它的液体上。该物品的金币价值不能超过你吟游诗人等级的20倍且必须是大型或更小。微小的闪烁、无形的音符悬浮在它周围，当一个生物触摸它时可以隐约听到音乐。关于你可以创造的物品示例，请参阅玩家手册第五章\"装备\"中的护甲、武器、冒险用品、工具以及坐骑与载具表格。",
+				"创造的物品会在你的下一个回合结束时消失，除非你使用动作来维护它。每次你以这种方式使用动作时，物品的持续时间会延长至你的下一个回合结束，最多持续1分钟。如果你将物品维护满1分钟，它会继续存在相当于你吟游诗人等级的小时数。",
+				"一旦你使用此特性创造一个物品，在完成一次长休或消耗一个5环或更高环位的法术位来使用此特性前，你无法再次这样做。你一次只能拥有一个由此特性创造的物品；如果你使用此动作且已经拥有一个由此特性创造的物品，第一个物品会立即消失。"
 			]
 		},
 		{
-			"name": "Love Domain (UA)",
+			"ENG_name": "Love Domain (UA)",
+			"name": "嘲笑领域（UA）",
 			"source": "UA2020SubclassesPt2",
 			"page": 2,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Love (UA)",
+			"subclassShortName": "嘲笑 (UA)",
 			"subclassSource": "UA2020SubclassesPt2",
 			"level": 1,
 			"entries": [
-				"{@note Note: The Love domain was included in a leaked pre-release version of {@i Unearthed Arcana 2020 Subclasses, Part 2}, and superseded by the Unity domain for the final release.}",
-				"Love exists in many forms\u2014compassion, infatuation, friendly affection, and passionate love as a few facets. Whatever form these feelings take, the gods of love deepen the bonds between individuals.",
+				"{@note 注：爱之领域曾包含在泄露的预发布版本{@i 破解奥秘：2020 子职，第二部分}中，并在最终发布时被团结领域取代。}",
+				"爱存在于殊形同归\u2014\u2014怜悯、迷恋、友好且热烈的爱作为几个方面。无论这些感受采取何种形态，爱之诸神都会加深个体间的牵挂。",
 				{
 					"type": "table",
-					"caption": "Love Deities",
+					"caption": "爱之领域（UA）",
 					"colLabels": [
-						"Deity",
-						"Pantheon"
+						"神",
+						"神系"
 					],
 					"colStyles": [
 						"col-6",
@@ -289,70 +301,70 @@
 					],
 					"rows": [
 						[
-							"Aengus",
-							"Celtic"
+							"安格斯",
+							"凯尔特"
 						],
 						[
-							"{@deity Aphrodite|Greek}",
-							"Greek"
+							"{@deity 阿芙洛狄忒|希腊}",
+							"希腊"
 						],
 						[
-							"{@deity Balder|Norse}",
-							"Norse"
+							"{@deity 巴尔德尔|北欧}",
+							"北欧"
 						],
 						[
-							"{@deity Berronar Truesilver|Dwarven|SCAG}",
-							"Dwarven"
+							"{@deity 蓓伦妮·真银|矮人|SCAG}",
+							"矮人"
 						],
 						[
-							"{@deity Boldrei|Eberron}",
-							"Eberron"
+							"{@deity 博得雷|艾伯伦}",
+							"艾伯伦"
 						],
 						[
-							"{@deity Cyrrollalee|Halfling|SCAG}",
-							"Halfling"
+							"{@deity 希劳拉妮|半身人语|SCAG}",
+							"半身人"
 						],
 						[
-							"{@deity Freya|Norse}",
-							"Norse"
+							"{@deity 弗蕾亚|北欧}",
+							"北欧"
 						],
 						[
-							"{@deity Hanali Celanil|Elven|SCAG}",
-							"Elven"
+							"{@deity 哈娜莉·瑟拉妮尔|精灵|SCAG}",
+							"精灵"
 						],
 						[
-							"{@deity Hathor|Egyptian}",
-							"Egyptian"
+							"{@deity 哈托尔|埃及}",
+							"埃及"
 						],
 						[
-							"{@deity Mishakal|Dragonlance}",
-							"Dragonlance"
+							"{@deity 米莎凯|龙枪}",
+							"龙枪"
 						],
 						[
-							"Myhriss",
-							"Greyhawk"
+							"米尔希丝",
+							"灰鹰"
 						],
 						[
-							"{@deity Sharindlar|Dwarven|SCAG}",
-							"Dwarven"
+							"{@deity 雪琳铎|矮人|SCAG}",
+							"矮人"
 						],
 						[
-							"{@deity Sheyanna Flaxenstrand|Gnome|MTF}",
-							"Gnomish"
+							"{@deity 雪雅娜·亚麻丝|侏儒|MTF}",
+							"侏儒语"
 						],
 						[
-							"{@deity Sune}",
-							"Forgotten Realms"
+							"{@deity 淑妮}",
+							"被遗忘的国度"
 						]
 					]
 				},
-				"Clerics of these gods preside over marriages and other familial bonding customs, but they also nurture the emotional bonds of friendship and camaraderie. Their divine blessings bolster and protect allies in battle through these deep bonds and enkindle flares of infatuation to spur their allies and confound their foes.",
+				"这些神的牧师主持婚姻和其他家庭结伴习俗，但他们也培养友情和友情的感情牵挂。他们的神圣祝福通过这些深牵挂鼓舞并保护战斗中的盟友，并点燃迷恋的火花以激励盟友并迷惑敌人。",
 				{
 					"type": "table",
-					"caption": "Love Domain Spells",
+					"caption": "爱之领域法术",
 					"colLabels": [
-						"Cleric Level",
-						"Spells"
+						"牧师等级",
+						"法术"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -360,140 +372,147 @@
 					],
 					"rows": [
 						[
-							"1st",
-							"{@spell charm person}, {@spell heroism}"
+							"1环",
+							"{@spell 魅惑类人}, {@spell 英雄气概}"
 						],
 						[
-							"3rd",
-							"{@spell enthrall}, {@spell warding bond}"
+							"3环",
+							"{@spell 注目术}, {@spell 守护之链}"
 						],
 						[
-							"5th",
-							"{@spell beacon of hope}, {@spell hypnotic pattern}"
+							"5环",
+							"{@spell 希望信标}, {@spell 催眠图纹}"
 						],
 						[
 							"7th",
-							"{@spell aura of purity}, {@spell confusion}"
+							"{@spell 净化灵光}, {@spell 困惑术}"
 						],
 						[
 							"9th",
-							"{@spell greater restoration}, {@spell hold monster}"
+							"{@spell 高等复原术}, {@spell 定身怪物}"
 						]
 					]
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Emboldening Bond|Cleric||Love (UA)|UA2020SubclassesPt2|1"
+					"subclassFeature": "勇气联结|牧师||嘲笑 (UA)|UA2020SubclassesPt2|1"
 				}
 			]
 		},
 		{
-			"name": "Emboldening Bond",
+			"ENG_name": "Emboldening Bond",
+			"name": "勇气联结",
 			"source": "UA2020SubclassesPt2",
 			"page": 2,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Love (UA)",
+			"subclassShortName": "嘲笑 (UA)",
 			"subclassSource": "UA2020SubclassesPt2",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"{@i 1st-level Love Domain feature}",
-				"You can forge an empowering bond between allies. As an action, you can choose two willing creatures you can see within 30 feet of you (this can include yourself) and create a magical bond between them. While either bonded creature is within 30 feet of the other, the creature can roll a {@dice d4} and add the number rolled to an attack roll, an ability check, or a saving throw it makes. Each creature can add the {@dice d4} no more than once per turn. The bond lasts for 1 hour or until you use this feature again.",
-				"You can use this feature once, and you regain the ability to do so when you finish a long rest. You can also expend a spell slot to use the feature again."
+				"{@i 1级爱之领域特性}",
+				"你可以在盟友之间锻造一个强化联结。以一个动作，你可以选择两个你能看见的30尺内愿意的生物（可以包括你自己）并在它们之间创造一个魔法联结。当任一联结生物在另一生物的30尺内时，该生物可以掷一枚{@dice d4}并将骰出的数值添加到其攻击检定、属性检定或豁免检定上。每个生物每回合最多只能添加一次{@dice d4}。该联结持续1小时或直到你再次使用此特性。",
+				"你可以使用此特性一次，且完成一次长休后恢复该能力。你也可以消耗一个法术位来再次使用该特性。"
 			]
 		},
 		{
-			"name": "Channel Divinity: Impulsive Infatuation",
+			"ENG_name": "Channel Divinity: Impulsive Infatuation",
+			"name": "引导神力：冲动迷恋",
 			"source": "UA2020SubclassesPt2",
 			"page": 2,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Love (UA)",
+			"subclassShortName": "嘲笑 (UA)",
 			"subclassSource": "UA2020SubclassesPt2",
 			"level": 2,
 			"header": 2,
 			"consumes": {
-				"name": "Channel Divinity"
+				"ENG_name": "Channel Divinity",
+				"name": "引导神力"
 			},
 			"entries": [
-				"{@i 2nd-level Love Domain feature}",
-				"You can use your Channel Divinity to overwhelm a creature with a flash of short-lived but intense admiration for you, driving them to rash action in your defense.",
-				"As an action, you present your holy symbol and choose one creature you can see within 30 feet of you. That creature must make a Wisdom saving throw; a creature can choose to fail this saving throw if it wishes. On a success, the creature is unaffected. On a failure, the creature is {@condition charmed} by you until the start of your next turn, and it must immediately use its reaction to make a weapon attack against a target you designate. If there are no valid targets, it uses its reaction to admire you."
+				"{@i 2级爱之领域特性}",
+				"你可以使用你的引导神力来让一个生物对你产生短暂但强烈的崇拜之情，驱使它们为你轻率地采取防御动作。",
+				"以一个动作，你展示你的圣徽并选择30尺内一个你能看见的生物。该生物必须进行一次感知豁免检定；若其愿意，可以选择自动失败。若成功，该生物不受影响。若失败，该生物被你{@condition 魅惑}直到你的下个回合开始，且它必须立即使用反应对你指定的目标进行一次武器攻击。如果没有有效目标，它会使用反应来仰慕你。"
 			]
 		},
 		{
-			"name": "Protective Bond",
+			"ENG_name": "Protective Bond",
+			"name": "保护联结",
 			"source": "UA2020SubclassesPt2",
 			"page": 2,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Love (UA)",
+			"subclassShortName": "嘲笑 (UA)",
 			"subclassSource": "UA2020SubclassesPt2",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-level Love Domain feature}",
-				"The bond you forge between people shields them from harm. While either creature chosen for your Emboldening Bond feature is within 30 feet of the other, the creature can use its reaction to grant resistance to all damage to the other creature when that other creature takes damage. This resistance lasts until the end of the current turn."
+				"{@i 6级嘲笑领域特性}",
+				"你在人们之间锻造的联结能保护他们免受伤害。当你勇气联结特性选中的任一生物在另一生物30尺范围内时，该生物可以使用其反应在另一生物受到伤害时为其提供对所有伤害的抗性。此抗性持续到当前回合结束。"
 			]
 		},
 		{
-			"name": "Potent Spellcasting",
+			"ENG_name": "Potent Spellcasting",
+			"name": "强力施法",
 			"source": "UA2020SubclassesPt2",
 			"page": 2,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Love (UA)",
+			"subclassShortName": "嘲笑 (UA)",
 			"subclassSource": "UA2020SubclassesPt2",
 			"level": 8,
 			"header": 2,
 			"entries": [
-				"{@i 8th-level Love Domain feature}",
-				"You add your Wisdom modifier to the damage you deal with any cleric cantrip."
+				"{@i 8级爱之领域特性}",
+				"你施展牧师戏法造成伤害时，可以再加上你的感知调整值。"
 			]
 		},
 		{
-			"name": "Enduring Unity",
+			"ENG_name": "Enduring Unity",
+			"name": "永恒团结",
 			"source": "UA2020SubclassesPt2",
 			"page": 2,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Love (UA)",
+			"subclassShortName": "嘲笑 (UA)",
 			"subclassSource": "UA2020SubclassesPt2",
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"{@i 17th-level Love Domain feature}",
-				"The bonds you create endure across vast distances. Creatures affected by your Emboldening Bond feature gain its benefits, as well as those of your Protective Bond feature, while they are on the same plane of existence as each other.",
-				"Additionally, when a creature chosen for your Emboldening Bond is reduced to 0 hit points, their bonded partner gains the following benefits for 1 minute, or until the creature regains at least 1 hit point:",
+				"{@i 17级嘲笑领域特性}",
+				"你所创造的联结能跨越庞大距离持续存在。受你勇气联结特性影响的生物会获得该特性的增益，以及保护联结特性的增益，只要他们在同一个存在平面上。",
+				"此外，当你为勇气联结选择的生物生命值降至0时，其联结的伙伴将获得以下增益，持续1分钟，或直到该生物恢复至少1点生命值：",
 				{
 					"type": "list",
 					"items": [
-						"The creature has advantage on attack rolls, ability checks, and saving throws",
-						"The creature gains resistance to all damage",
-						"As an action, the creature can touch their bonded partner to expend and roll any number of Hit Dice. Their bonded partner regains a number of hit points equal to the total rolled."
+						"该生物在攻击检定、属性检定和豁免检定上具有优势",
+						"该生物获得对所有伤害的抗性",
+						"作为一个动作，该生物可以接触其联结伙伴以消耗并掷任意数量的生命骰。其联结伙伴恢复等同于全部掷骰数值的生命值。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Unity Domain (UA)",
+			"ENG_name": "Unity Domain (UA)",
+			"name": "团结领域（UA）",
 			"source": "UA2020SubclassesPt2",
 			"page": 2,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Unity (UA)",
+			"subclassShortName": "团结（UA）",
 			"subclassSource": "UA2020SubclassesPt2",
 			"level": 1,
 			"entries": [
-				"A sense of oneness shines at the heart of healthy communities, whether bound together by friendship, blood, faith, or some other uniting force. The gods of unity deepen such bonds and delight in their strength.",
-				"Clerics of these gods preside over marriages and other familial bonding customs, but they also nurture the emotional bonds of friendship and camaraderie. Their divine blessings bolster and protect allies in battle through these deep bonds and turn aside malign influences.",
+				"一种合一感在健康社群的核心闪耀，无论是由友谊、鲜血、信仰或其他联合力场共有链接。诸神加深这种牵挂且以它们的力量为乐。",
+				"这些神的牧师主持婚姻和其他家庭结伴习俗，但他们也培养友情和友情的感情牵挂。他们的神圣祝福通过这些深牵挂鼓舞和保护盟友在战斗中，并避开恶意影响。",
 				{
 					"type": "table",
-					"caption": "Unity Deities",
+					"caption": "团结神祇",
 					"colLabels": [
-						"Deity",
-						"Pantheon"
+						"神",
+						"神系"
 					],
 					"colStyles": [
 						"col-6",
@@ -501,53 +520,53 @@
 					],
 					"rows": [
 						[
-							"{@deity Angharradh|Elven|SCAG}",
-							"Elven"
+							"{@deity 安格芮丝|精灵|SCAG}",
+							"精灵"
 						],
 						[
-							"{@deity Athena|Greek}",
-							"Greek"
+							"{@deity 雅典娜|希腊}",
+							"希腊"
 						],
 						[
-							"{@deity Berronar Truesilver|Dwarven|SCAG}",
-							"Dwarven"
+							"{@deity 蓓伦妮·真银|矮人|SCAG}",
+							"矮人"
 						],
 						[
-							"{@deity Boldrei|Eberron}",
-							"Eberron"
+							"{@deity 博得雷|艾伯伦}",
+							"艾伯伦"
 						],
 						[
-							"{@deity Cyrrollalee|Halfling|SCAG}",
-							"Halfling"
+							"{@deity 希劳拉妮|半身人语|SCAG}",
+							"半身人"
 						],
 						[
-							"{@deity Eldath}",
-							"Forgotten Realms"
+							"{@deity 埃达丝}",
+							"被遗忘的国度"
 						],
 						[
-							"{@deity Gaerdal Ironhand|Gnomish|SCAG}",
-							"Gnomish"
+							"{@deity 盖尔达尔·铁手|侏儒语|SCAG}",
+							"侏儒语"
 						],
 						[
-							"{@deity Heimdall|Norse}",
-							"Norse"
+							"{@deity 海姆达尔|北欧}",
+							"北欧"
 						],
 						[
-							"{@deity Paladine|Dragonlance}",
-							"Dragonlance"
+							"{@deity 帕拉丁|龙枪}",
+							"龙枪"
 						],
 						[
-							"{@deity Rao|Greyhawk}",
-							"Greyhawk"
+							"{@deity 拉奥|灰鹰}",
+							"灰鹰"
 						]
 					]
 				},
 				{
 					"type": "table",
-					"caption": "Unity Domain Spells",
+					"caption": "团结领域法术",
 					"colLabels": [
-						"Cleric Level",
-						"Spells"
+						"牧师等级",
+						"法术"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -555,140 +574,147 @@
 					],
 					"rows": [
 						[
-							"1st",
-							"{@spell heroism}, {@spell shield of faith}"
+							"1环",
+							"{@spell 英雄气概}, {@spell 虔诚护盾}"
 						],
 						[
-							"3rd",
-							"{@spell aid}, {@spell warding bond}"
+							"3环",
+							"{@spell 援助术}, {@spell 守护之链}"
 						],
 						[
-							"5th",
-							"{@spell beacon of hope}, {@spell sending}"
+							"5环",
+							"{@spell 希望信标}, {@spell 短讯术}"
 						],
 						[
 							"7th",
-							"{@spell aura of purity}, {@spell guardian of faith}"
+							"{@spell 净化灵光}, {@spell 信仰守卫}"
 						],
 						[
 							"9th",
-							"{@spell greater restoration}, {@spell Rary's telepathic bond}"
+							"{@spell 高等复原术}, {@spell 拉瑞心灵联结}"
 						]
 					]
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Emboldening Bond|Cleric||Unity (UA)|UA2020SubclassesPt2|1"
+					"subclassFeature": "勇气联结|牧师||团结（UA）|UA2020SubclassesPt2|1"
 				}
 			]
 		},
 		{
-			"name": "Emboldening Bond",
+			"ENG_name": "Emboldening Bond",
+			"name": "勇气联结",
 			"source": "UA2020SubclassesPt2",
 			"page": 2,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Unity (UA)",
+			"subclassShortName": "团结（UA）",
 			"subclassSource": "UA2020SubclassesPt2",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"{@i 1st-level Unity Domain feature}",
-				"You can forge an empowering bond between allies. As an action, you can choose two willing creatures you can see within 30 feet of you (this can include yourself) and create a magical bond between them. While either bonded creature is within 30 feet of the other, the creature can roll a {@dice d4} and add the number rolled to an attack roll, an ability check, or a saving throw it makes. Each creature can add the {@dice d4} no more than once per turn. The bond lasts for 1 hour or until you use this feature again.",
-				"You can use this feature once, and you regain the ability to do so when you finish a long rest. You can also expend a spell slot to use the feature again."
+				"{@i 1级团结领域特性}",
+				"你可以在盟友之间锻造一个强化联结。以一个动作，你可以选择两个你能看见的30尺内愿意的生物（可以包括你自己）并在它们之间创造一个魔法联结。当任一联结生物在另一生物的30尺内时，该生物可以掷一枚{@dice d4}并将骰出的数值添加到其攻击检定、属性检定或豁免检定上。每个生物每回合最多只能添加一次{@dice d4}。该联结持续1小时或直到你再次使用此特性。",
+				"你可以使用此特性一次，且完成一次长休后恢复该能力。你也可以消耗一个法术位来再次使用该特性。"
 			]
 		},
 		{
-			"name": "Channel Divinity: Shared Burden",
+			"ENG_name": "Channel Divinity: Shared Burden",
+			"name": "引导神力：共担咒缚",
 			"source": "UA2020SubclassesPt2",
 			"page": 2,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Unity (UA)",
+			"subclassShortName": "团结（UA）",
 			"subclassSource": "UA2020SubclassesPt2",
 			"level": 2,
 			"header": 2,
 			"consumes": {
-				"name": "Channel Divinity"
+				"ENG_name": "Channel Divinity",
+				"name": "引导神力"
 			},
 			"entries": [
-				"{@i 2nd-level Unity Domain feature}",
-				"You can use your Channel Divinity to protect your allies through the strength of your shared bonds.",
-				"When a creature you can see within 30 feet of you takes damage, you can use your reaction to choose a number of other willing creatures you can see, up to a number of creatures equal to your Wisdom modifier (minimum of one creature). Distribute the damage taken between the original target and the chosen creatures. Each creature must take at least 1 damage. Apply any damage resistance or vulnerability of the creatures involved after you distribute the damage."
+				"{@i 2级团结领域特性}",
+				"你可以使用引导神力通过你们共同的牵挂的力量来保护盟友。",
+				"当你30尺内一个你能看见的生物受到伤害时，你可以使用你的反应选择其他你能看见的愿意生物，数量不超过你的感知调整值（至少一个生物）。将受到的伤害在原目标和被选生物之间分担。每个生物必须至少受到1点伤害。在你分担伤害后，应用所有相关生物的任何伤害抗性或易伤。"
 			]
 		},
 		{
-			"name": "Protective Bond",
+			"ENG_name": "Protective Bond",
+			"name": "保护联结",
 			"source": "UA2020SubclassesPt2",
 			"page": 2,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Unity (UA)",
+			"subclassShortName": "团结（UA）",
 			"subclassSource": "UA2020SubclassesPt2",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-level Unity Domain feature}",
-				"The bond you forge between people shields them from harm. While either creature chosen for your Emboldening Bond feature is within 30 feet of the other, the creature can use its reaction to grant resistance to all damage to the other creature when that other creature takes damage. This resistance lasts until the end of the current turn."
+				"{@i 6级团结领域特性}",
+				"你在人们之间锻造的联结能保护他们免受伤害。当你勇气联结特性选中的任一生物在另一生物30尺范围内时，该生物可以使用其反应在另一生物受到伤害时为其提供对所有伤害的抗性。此抗性持续到当前回合结束。"
 			]
 		},
 		{
-			"name": "Potent Spellcasting",
+			"ENG_name": "Potent Spellcasting",
+			"name": "强力施法",
 			"source": "UA2020SubclassesPt2",
 			"page": 2,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Unity (UA)",
+			"subclassShortName": "团结（UA）",
 			"subclassSource": "UA2020SubclassesPt2",
 			"level": 8,
 			"header": 2,
 			"entries": [
-				"{@i 8th-level Unity Domain feature}",
-				"You add your Wisdom modifier to the damage you deal with any cleric cantrip."
+				"{@i 8级团结领域特性}",
+				"你施展牧师戏法造成伤害时，可以再加上你的感知调整值。"
 			]
 		},
 		{
-			"name": "Enduring Unity",
+			"ENG_name": "Enduring Unity",
+			"name": "永恒团结",
 			"source": "UA2020SubclassesPt2",
 			"page": 2,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Unity (UA)",
+			"subclassShortName": "团结（UA）",
 			"subclassSource": "UA2020SubclassesPt2",
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"{@i 17th-level Unity Domain feature}",
-				"The bonds you create endure across vast distances. Creatures affected by your Emboldening Bond feature gain its benefits, as well as those of your Protective Bond feature, while they are on the same plane of existence as each other.",
-				"Additionally, when a creature chosen for your Emboldening Bond is reduced to 0 hit points, their bonded partner gains the following benefits for 1 minute, or until the creature regains at least 1 hit point:",
+				"{@i 17级团结领域特性}",
+				"你所创造的联结能跨越庞大距离持续存在。受你勇气联结特性影响的生物会获得该特性的增益，以及保护联结特性的增益，只要他们在同一个存在平面上。",
+				"此外，当你为勇气联结选择的生物生命值降至0时，其联结的伙伴将获得以下增益，持续1分钟，或直到该生物恢复至少1点生命值：",
 				{
 					"type": "list",
 					"items": [
-						"The creature has advantage on attack rolls, ability checks, and saving throws",
-						"The creature gains resistance to all damage",
-						"As an action, the creature can touch their bonded partner to expend and roll any number of Hit Dice. Their bonded partner regains a number of hit points equal to the total rolled."
+						"该生物在攻击检定、属性检定和豁免检定上具有优势",
+						"该生物获得对所有伤害的抗性",
+						"作为一个动作，该生物可以接触其联结伙伴以消耗并掷任意数量的生命骰。其联结伙伴恢复等同于全部掷骰数值的生命值。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Clockwork Soul",
+			"ENG_name": "Clockwork Soul",
+			"name": "时械之魂",
 			"source": "UA2020SubclassesPt2",
 			"page": 4,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "PHB",
-			"subclassShortName": "Clockwork Soul (UA)",
+			"subclassShortName": "时械之魂（UA）",
 			"subclassSource": "UA2020SubclassesPt2",
 			"level": 1,
 			"entries": [
-				"A plane of utmost order, Mechanus is a realm overseen by a godlike entity called Primus, whose actions are inscrutable and calculations, vast. You, or someone from your lineage, might have become entangled in one of the machinations of the leader of the modrons. Perhaps you were exposed to an artifact created by Primus, or your ancestor took part in the Great Modron March in some way.",
-				"The power of Mechanus can seem strange and alien to others, but for you it is part of a vast and glorious system that others can't comprehend. At your option, you can pick from or roll on the Manifestations of Mechanus table to create a way your connection to the plane manifests while you are casting a spell.",
+				"机械境是一个秩序至上的位面，由一位被称为奇点的神祇般实体监管，其动作莫测且计算庞大。你，或你血统中的某人，可能卷入了魔冢首领的某个计谋中。也许你接触过由奇点创造的神器，或者你的先祖以某种方式参与了魔冢大行军。",
+				"机械境的力量对他人来说可能显得奇怪且异域，但对你而言，这是他人无法理解的庞大且辉煌系统的一部分。你可以选择从机械境的显迹表格中挑选或掷骰，以创造你在施放法术时与该位面联系的表现方式。",
 				{
 					"type": "table",
-					"caption": "Manifestations of Mechanus",
+					"caption": "机械境的显迹",
 					"colLabels": [
 						"d6",
-						"Manifestation"
+						"显迹"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -697,59 +723,60 @@
 					"rows": [
 						[
 							"1",
-							"Large, spectral cogwheels appear hovering behind you."
+							"大型灵体齿轮出现在你身后悬浮。"
 						],
 						[
 							"2",
-							"The hands of a clock appear in your eyes."
+							"你的眼中浮现出时钟的指针。"
 						],
 						[
 							"3",
-							"Your skin glows with a golden, metallic sheen."
+							"你的皮肤闪耀着金色的金属光泽。"
 						],
 						[
 							"4",
-							"Your features become unnaturally angular, like geometric objects."
+							"你的特性变得异常棱角分明，如同几何物件。"
 						],
 						[
 							"5",
-							"Your spellcasting focus takes the form of a miniature Spawning Stone or other creation of Primus."
+							"你的法器呈现为一个小型孵化之石或其他奇点的造物形态。"
 						],
 						[
 							"6",
-							"The ringing of a clock can be heard by you and those affected by your magic."
+							"时钟的鸣响可以被你且那些受你魔法影响的人听到。"
 						]
 					]
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Clockwork Magic|Sorcerer||Clockwork Soul (UA)|UA2020SubclassesPt2|1"
+					"subclassFeature": "时械魔法|术士||时械之魂（UA）|UA2020SubclassesPt2|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Restore Balance|Sorcerer||Clockwork Soul (UA)|UA2020SubclassesPt2|1"
+					"subclassFeature": "归复平衡|术士||时械之魂（UA）|UA2020SubclassesPt2|1"
 				}
 			]
 		},
 		{
-			"name": "Clockwork Magic",
+			"ENG_name": "Clockwork Magic",
+			"name": "时械魔法",
 			"source": "UA2020SubclassesPt2",
 			"page": 4,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "PHB",
-			"subclassShortName": "Clockwork Soul (UA)",
+			"subclassShortName": "时械之魂（UA）",
 			"subclassSource": "UA2020SubclassesPt2",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"{@i 1st-level Clockwork Soul feature}",
-				"You learn additional spells when you reach certain levels in this class, as shown on the Clockwork Spells table. Each spell counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know. These spells can't be replaced when you gain a level in this class.",
+				"{@i 1级时械之魂特性}",
+				"当你在此职业中达到特定等级时，你将学会额外的法术，如时械法术表格所示。每个法术对你而言都视为术士法术，但它不计入你所知的术士法术数量。当你在此职业中升级时，这些法术不能被替换。",
 				{
 					"type": "table",
-					"caption": "Clockwork Spells",
+					"caption": "时械法术",
 					"colLabels": [
-						"Sorcerer Level",
-						"Spells"
+						"术士等级",
+						"法术"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -757,115 +784,121 @@
 					],
 					"rows": [
 						[
-							"1st",
-							"{@spell alarm}, {@spell protection from evil and good}"
+							"1环",
+							"{@spell 警报术}, {@spell 防护善恶}"
 						],
 						[
-							"3rd",
-							"{@spell find traps}, {@spell heat metal}"
+							"3环",
+							"{@spell 寻找陷阱}, {@spell 灼热金属}"
 						],
 						[
-							"5th",
-							"{@spell counterspell}, {@spell glyph of warding}"
+							"5环",
+							"{@spell 法术反制}, {@spell 守卫刻文}"
 						],
 						[
 							"7th",
-							"{@spell arcane eye}, {@spell Otiluke's resilient sphere}"
+							"{@spell 秘法眼}, {@spell 欧提路克弹力法球}"
 						],
 						[
 							"9th",
-							"{@spell animate objects}, {@spell wall of force}"
+							"{@spell 活化物件}, {@spell 力场墙}"
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "Restore Balance",
+			"ENG_name": "Restore Balance",
+			"name": "归复平衡",
 			"source": "UA2020SubclassesPt2",
 			"page": 4,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "PHB",
-			"subclassShortName": "Clockwork Soul (UA)",
+			"subclassShortName": "时械之魂（UA）",
 			"subclassSource": "UA2020SubclassesPt2",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"{@i 1st-level Clockwork Soul feature}",
-				"Your connection to the plane of absolute order allows you to equalize chaotic moments. When a creature you can see within 60 feet of you is about to roll a {@dice d20} with advantage or disadvantage, you can use your reaction to prevent the roll from being affected by advantage and disadvantage.",
-				"You can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a long rest."
+				"{@i 1级时械之魂特性}",
+				"你与绝对秩序之位面的联系使你能重整混沌的时刻。当你60尺内一个你可见的生物即将带着优势或是劣势进行一次{@dice d20}检定时，你可以用反应使这次检定免受优势或劣势的影响。",
+				"你可以使用此能力的次数等同于你的魅力调整值（至少1次）。当你完成一次长休后，你重获全部已消耗的使用次数。"
 			]
 		},
 		{
-			"name": "Bulwark of Law",
+			"ENG_name": "Bulwark of Law",
+			"name": "守序意志壁垒",
 			"source": "UA2020SubclassesPt2",
 			"page": 4,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "PHB",
-			"subclassShortName": "Clockwork Soul (UA)",
+			"subclassShortName": "时械之魂（UA）",
 			"subclassSource": "UA2020SubclassesPt2",
 			"level": 6,
 			"header": 2,
 			"consumes": {
-				"name": "Sorcery Point"
+				"ENG_name": "Sorcery Point",
+				"name": "术法点"
 			},
 			"entries": [
-				"{@i 6th-level Clockwork Soul feature}",
-				"You can imbue a creature with a shimmering shield of order. As an action, you can expend 1 to 5 sorcery points to create a magical ward around yourself or another creature you can see within 30 feet of you. The ward lasts until you finish a long rest or until you use this feature again.",
-				"The ward is represented by a number of {@dice d8}s equal to the number of sorcery points spent to create it. When the warded creature takes damage, it can use its reaction to spend a number of those dice, roll them, and reduce the damage taken by the total of the spent dice."
+				"{@i 6级时械之魂特性}",
+				"你可以为生物注入一道秩序的闪光护盾。以一个动作，你可以消耗1至5个术法点在你或30尺内另一个你能看见的生物周围创造一个魔法防护。该防护持续到你完成一次长休或再次使用此特性为止。",
+				"该防护由等同于创造它所消耗术法点数量的{@dice d8}骰子表示。当受保护的生物受到伤害时，它可以使用反应消耗一定数量的这些骰子，掷骰它们，且将受到的伤害缩小等同于所消耗骰子的全部数值。"
 			]
 		},
 		{
-			"name": "Trance of Order",
+			"ENG_name": "Trance of Order",
+			"name": "序列意识",
 			"source": "UA2020SubclassesPt2",
 			"page": 4,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "PHB",
-			"subclassShortName": "Clockwork Soul (UA)",
+			"subclassShortName": "时械之魂（UA）",
 			"subclassSource": "UA2020SubclassesPt2",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i 14th-level Clockwork Soul feature}",
-				"You gain the ability to enter a state of clockwork consciousness as a bonus action. For the next minute, attack rolls against you can't benefit from advantage, and whenever you make an attack roll, an ability check, or a saving throw, you can treat a {@dice d20} roll of 9 or lower as a 10.",
-				"Once you use this action, you can't use it again until you finish a long rest or until you expend 5 sorcery points to use it again."
+				"{@i 14级时械之魂特性}",
+				"你获得以一个附赠动作进入发条意识状态的能力。在接下来的1分钟内，对你的攻击检定无法获得优势，且每当你进行一次攻击检定、属性检定或豁免检定时，你可以将{@dice d20}掷骰结果小于等于9视为10。",
+				"一旦你使用此动作，在完成一次长休或消耗5点术法点之前，你无法再次使用它。"
 			]
 		},
 		{
-			"name": "Clockwork Cavalcade",
+			"ENG_name": "Clockwork Cavalcade",
+			"name": "时械矩阵",
 			"source": "UA2020SubclassesPt2",
 			"page": 4,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "PHB",
-			"subclassShortName": "Clockwork Soul (UA)",
+			"subclassShortName": "时械之魂（UA）",
 			"subclassSource": "UA2020SubclassesPt2",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"{@i 18th-level Clockwork Soul feature}",
-				"You summon spirits of order to restore balance around you. As an action, you summon the spirits in a 30-foot cube originating from you. The spirits look like modrons or other constructs of your choice. The spirits are intangible and invulnerable, work fast and efficiently, and create the following effects within the cube before vanishing:",
+				"{@i 18级时械之魂特性}",
+				"你召唤秩序精魂来归复平衡你周围的秩序。作为一个动作，你从自身为原点召唤精魂形成一个30尺立方。这些精魂看起来像魔冢或你选择的其他构装体。精魂无形且无敌，快速且高效地工作，并在消失前于方块内创造以下效应：",
 				{
 					"type": "list",
 					"items": [
-						"The spirits restore up to 100 hit points, divided as you choose among any number of creatures of your choice in the cube.",
-						"Any damaged objects entirely in the cube are repaired.",
-						"Every spell of 6th level or lower ends on creatures and objects of your choice in the cube."
+						"精魂合计提供至多回复100生命值，由你随意分配给范围内任意数量的生物。",
+						"任何完全位于方块内的受损物件都会被修复。",
+						"你选择范围内任意数量的生物或物件，其承受的任何6环或以下的法术结束。"
 					]
 				},
-				"Once you use this action, you can't use it again until you finish a long rest or until you expend 7 sorcery points to use it again."
+				"一旦你使用这个动作，在完成一次长休或消耗7个术法点再次使用之前，你无法再次使用它。"
 			]
 		}
 	],
 	"monster": [
 		{
-			"name": "Dancing Item",
+			"ENG_name": "Dancing Item",
+			"name": "舞空物品",
+			"type": "construct",
 			"source": "UA2020SubclassesPt2",
 			"page": 2,
 			"size": [
 				"L"
 			],
-			"sizeNote": "or smaller",
-			"type": "construct",
+			"sizeNote": "或更小",
 			"alignment": [
 				"N"
 			],
@@ -873,12 +906,12 @@
 				{
 					"ac": 16,
 					"from": [
-						"natural armor"
+						"天生护甲"
 					]
 				}
 			],
 			"hp": {
-				"special": "equal the dancing item's Constitution modifier + your Charisma modifier + five times your level in this class"
+				"special": "等于舞动物品的体质调整值 + 你的魅力调整值 + 你在本职业中的等级的五倍"
 			},
 			"speed": {
 				"walk": 40
@@ -890,7 +923,7 @@
 			"wis": 10,
 			"cha": 6,
 			"senses": [
-				"darkvision 60 ft."
+				"黑暗视觉 60 尺"
 			],
 			"passive": 10,
 			"immune": [
@@ -903,28 +936,31 @@
 				"frightened"
 			],
 			"languages": [
-				"understands the languages you speak"
+				"理解你所说的语言"
 			],
 			"trait": [
 				{
-					"name": "Endless Waltz",
+					"ENG_name": "Endless Waltz",
+					"name": "无尽的华尔兹",
 					"entries": [
-						"Immediately after the item makes a slam attack, it can take the Dodge action as a bonus action."
+						"在该物品进行猛击攻击后，它可以用额外动作进行闪避动作。"
 					]
 				},
 				{
-					"name": "Immutable Form",
+					"ENG_name": "Immutable Form",
+					"name": "不变形态",
 					"entries": [
-						"The item is immune to any spell or effect that would alter its form."
+						"该物品不会受到任何使它形态发生改变的法术或者其他效果的影响"
 					]
 				}
 			],
-			"actionNote": "Requires Your Bonus Action",
+			"actionNote": "需要你的附赠动作",
 			"action": [
 				{
-					"name": "Force-Empowered Slam",
+					"ENG_name": "Force-Empowered Slam",
+					"name": "力场动能猛击",
 					"entries": [
-						"{@atk mw} your spell attack modifier to hit, reach 5 ft., one target you can see. {@h}{@damage 1d10} + your Charisma modifier force damage."
+						"{@atk mw} 用你的法术攻击修正来命中，射程5英尺，一个你能看到的目标。{@h}{@damage 1d10} + 你的魅力修正的力场伤害。"
 					]
 				}
 			],

@@ -4,7 +4,7 @@
 			{
 				"json": "UA2021MagesOfStrixhaven",
 				"abbreviation": "UA21MoS",
-				"full": "Unearthed Arcana: 2021 Mages of Strixhaven",
+				"full": "破解奥秘：2021斯翠海文的魔法师们",
 				"url": "https://media.wizards.com/2021/dnd/downloads/UA2021_06_08_MagesStrixhaven.pdf",
 				"version": "1.0.0",
 				"dateReleased": "2021-06-08",
@@ -21,20 +21,22 @@
 		],
 		"edition": "classic",
 		"dateAdded": 1701616429,
-		"dateLastModified": 1774092631,
+		"dateLastModified": 1792465978,
 		"_dateLastModifiedHash": "9e5943a1cd"
 	},
 	"subclass": [
 		{
-			"name": "Mage of Lorehold (UA)",
-			"shortName": "Lorehold (UA)",
+			"ENG_name": "Mage of Lorehold (UA)",
+			"name": "洛雷霍德法师（UA）特性",
+			"shortName": "洛雷霍德法师子类别（UA）",
 			"source": "UA2021MagesOfStrixhaven",
-			"className": "Bard",
+			"className": "吟游诗人",
 			"classSource": "PHB",
 			"_copy": {
-				"name": "Mage of Lorehold (UA)",
+				"ENG_name": "Mage of Lorehold (UA)",
+				"name": "洛雷霍德法师（UA）特性",
 				"source": "UA2021MagesOfStrixhaven",
-				"shortName": "Lorehold (UA)",
+				"shortName": "洛雷霍德法师子类别（UA）",
 				"className": "Generic",
 				"classSource": "Generic",
 				"_preserve": {
@@ -43,8 +45,9 @@
 			}
 		},
 		{
-			"name": "Mage of Lorehold (UA)",
-			"shortName": "Lorehold (UA)",
+			"ENG_name": "Mage of Lorehold (UA)",
+			"name": "洛雷霍德法师（UA）特性",
+			"shortName": "洛雷霍德法师子类别（UA）",
 			"source": "UA2021MagesOfStrixhaven",
 			"className": "Generic",
 			"classSource": "Generic",
@@ -53,41 +56,43 @@
 				{
 					"known": {
 						"3": [
-							"knock",
-							"locate object"
+							"敲击术",
+							"物件定位术"
 						],
 						"5": [
-							"speak with dead",
-							"spirit guardians"
+							"死者交谈",
+							"灵体卫士"
 						],
 						"7": [
-							"arcane eye",
-							"stone shape"
+							"秘法眼",
+							"塑石术"
 						],
 						"9": [
-							"destructive wave",
-							"legend lore"
+							"湮灭波",
+							"通晓传奇"
 						]
 					}
 				}
 			],
 			"subclassFeatures": [
-				"Mage of Lorehold|Generic|Generic|Lorehold (UA)|UA2021MagesOfStrixhaven|1",
-				"Lessons of the Past|Generic|Generic|Lorehold (UA)|UA2021MagesOfStrixhaven|6",
-				"War Echoes|Generic|Generic|Lorehold (UA)|UA2021MagesOfStrixhaven|10",
-				"History's Whims|Generic|Generic|Lorehold (UA)|UA2021MagesOfStrixhaven|14"
+				"衡鉴魔法师|Generic|Generic|洛雷霍德法师子类别（UA）|UA2021MagesOfStrixhaven|1",
+				"过往教训|Generic|Generic|洛雷霍德法师子类别（UA）|UA2021MagesOfStrixhaven|6",
+				"战争回响|Generic|Generic|洛雷霍德法师子类别（UA）|UA2021MagesOfStrixhaven|10",
+				"历史的怪癖|Generic|Generic|洛雷霍德法师子类别（UA）|UA2021MagesOfStrixhaven|14"
 			]
 		},
 		{
-			"name": "Mage of Lorehold (UA)",
-			"shortName": "Lorehold (UA)",
+			"ENG_name": "Mage of Lorehold (UA)",
+			"name": "洛雷霍德法师（UA）特性",
+			"shortName": "洛雷霍德法师子类别（UA）",
 			"source": "UA2021MagesOfStrixhaven",
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "PHB",
 			"_copy": {
-				"name": "Mage of Lorehold (UA)",
+				"ENG_name": "Mage of Lorehold (UA)",
+				"name": "洛雷霍德法师（UA）特性",
 				"source": "UA2021MagesOfStrixhaven",
-				"shortName": "Lorehold (UA)",
+				"shortName": "洛雷霍德法师子类别（UA）",
 				"className": "Generic",
 				"classSource": "Generic",
 				"_preserve": {
@@ -96,15 +101,17 @@
 			}
 		},
 		{
-			"name": "Mage of Lorehold (UA)",
-			"shortName": "Lorehold (UA)",
+			"ENG_name": "Mage of Lorehold (UA)",
+			"name": "洛雷霍德法师（UA）特性",
+			"shortName": "洛雷霍德法师子类别（UA）",
 			"source": "UA2021MagesOfStrixhaven",
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "PHB",
 			"_copy": {
-				"name": "Mage of Lorehold (UA)",
+				"ENG_name": "Mage of Lorehold (UA)",
+				"name": "洛雷霍德法师（UA）特性",
 				"source": "UA2021MagesOfStrixhaven",
-				"shortName": "Lorehold (UA)",
+				"shortName": "洛雷霍德法师子类别（UA）",
 				"className": "Generic",
 				"classSource": "Generic",
 				"_preserve": {
@@ -113,15 +120,17 @@
 			}
 		},
 		{
-			"name": "Mage of Prismari (UA)",
-			"shortName": "Prismari (UA)",
+			"ENG_name": "Mage of Prismari (UA)",
+			"name": "粹丽法师子类别（UA）",
+			"shortName": "粹丽法师（UA）特性",
 			"source": "UA2021MagesOfStrixhaven",
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "PHB",
 			"_copy": {
-				"name": "Mage of Prismari (UA)",
+				"ENG_name": "Mage of Prismari (UA)",
+				"name": "粹丽法师子类别（UA）",
 				"source": "UA2021MagesOfStrixhaven",
-				"shortName": "Prismari (UA)",
+				"shortName": "粹丽法师（UA）特性",
 				"className": "Generic",
 				"classSource": "Generic",
 				"_preserve": {
@@ -130,29 +139,32 @@
 			}
 		},
 		{
-			"name": "Mage of Prismari (UA)",
-			"shortName": "Prismari (UA)",
+			"ENG_name": "Mage of Prismari (UA)",
+			"name": "粹丽法师子类别（UA）",
+			"shortName": "粹丽法师（UA）特性",
 			"source": "UA2021MagesOfStrixhaven",
 			"className": "Generic",
 			"classSource": "Generic",
 			"page": 4,
 			"subclassFeatures": [
-				"Mage of Prismari|Generic|Generic|Prismari (UA)|UA2021MagesOfStrixhaven|1",
-				"Favored Medium|Generic|Generic|Prismari (UA)|UA2021MagesOfStrixhaven|6",
-				"Focused Expression|Generic|Generic|Prismari (UA)|UA2021MagesOfStrixhaven|10",
-				"Impeccable Physicality|Generic|Generic|Prismari (UA)|UA2021MagesOfStrixhaven|14"
+				"粹丽魔法师|Generic|Generic|粹丽法师（UA）特性|UA2021MagesOfStrixhaven|1",
+				"偏好媒介|Generic|Generic|粹丽法师（UA）特性|UA2021MagesOfStrixhaven|6",
+				"焦点表现|Generic|Generic|粹丽法师（UA）特性|UA2021MagesOfStrixhaven|10",
+				"无瑕形体|Generic|Generic|粹丽法师（UA）特性|UA2021MagesOfStrixhaven|14"
 			]
 		},
 		{
-			"name": "Mage of Prismari (UA)",
-			"shortName": "Prismari (UA)",
+			"ENG_name": "Mage of Prismari (UA)",
+			"name": "粹丽法师子类别（UA）",
+			"shortName": "粹丽法师（UA）特性",
 			"source": "UA2021MagesOfStrixhaven",
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "PHB",
 			"_copy": {
-				"name": "Mage of Prismari (UA)",
+				"ENG_name": "Mage of Prismari (UA)",
+				"name": "粹丽法师子类别（UA）",
 				"source": "UA2021MagesOfStrixhaven",
-				"shortName": "Prismari (UA)",
+				"shortName": "粹丽法师（UA）特性",
 				"className": "Generic",
 				"classSource": "Generic",
 				"_preserve": {
@@ -161,15 +173,17 @@
 			}
 		},
 		{
-			"name": "Mage of Prismari (UA)",
-			"shortName": "Prismari (UA)",
+			"ENG_name": "Mage of Prismari (UA)",
+			"name": "粹丽法师子类别（UA）",
+			"shortName": "粹丽法师（UA）特性",
 			"source": "UA2021MagesOfStrixhaven",
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "PHB",
 			"_copy": {
-				"name": "Mage of Prismari (UA)",
+				"ENG_name": "Mage of Prismari (UA)",
+				"name": "粹丽法师子类别（UA）",
 				"source": "UA2021MagesOfStrixhaven",
-				"shortName": "Prismari (UA)",
+				"shortName": "粹丽法师（UA）特性",
 				"className": "Generic",
 				"classSource": "Generic",
 				"_preserve": {
@@ -178,8 +192,9 @@
 			}
 		},
 		{
-			"name": "Mage of Quandrix (UA)",
-			"shortName": "Quandrix (UA)",
+			"ENG_name": "Mage of Quandrix (UA)",
+			"name": "昆德里克斯法师子类别（UA）",
+			"shortName": "权数法师（UA）特性",
 			"source": "UA2021MagesOfStrixhaven",
 			"className": "Generic",
 			"classSource": "Generic",
@@ -188,41 +203,43 @@
 				{
 					"known": {
 						"3": [
-							"knock",
-							"locate object"
+							"敲击术",
+							"物件定位术"
 						],
 						"5": [
-							"speak with dead",
-							"spirit guardians"
+							"死者交谈",
+							"灵体卫士"
 						],
 						"7": [
-							"arcane eye",
-							"stone shape"
+							"秘法眼",
+							"塑石术"
 						],
 						"9": [
-							"destructive wave",
-							"legend lore"
+							"湮灭波",
+							"通晓传奇"
 						]
 					}
 				}
 			],
 			"subclassFeatures": [
-				"Mage of Quandrix|Generic|Generic|Quandrix (UA)|UA2021MagesOfStrixhaven|1",
-				"Velocity Shift|Generic|Generic|Quandrix (UA)|UA2021MagesOfStrixhaven|6",
-				"Null Equation|Generic|Generic|Quandrix (UA)|UA2021MagesOfStrixhaven|10",
-				"Quantum Tunneling|Generic|Generic|Quandrix (UA)|UA2021MagesOfStrixhaven|14"
+				"量析魔法师|Generic|Generic|权数法师（UA）特性|UA2021MagesOfStrixhaven|1",
+				"速率变换|Generic|Generic|权数法师（UA）特性|UA2021MagesOfStrixhaven|6",
+				"零值方程|Generic|Generic|权数法师（UA）特性|UA2021MagesOfStrixhaven|10",
+				"量子隧穿|Generic|Generic|权数法师（UA）特性|UA2021MagesOfStrixhaven|14"
 			]
 		},
 		{
-			"name": "Mage of Quandrix (UA)",
-			"shortName": "Quandrix (UA)",
+			"ENG_name": "Mage of Quandrix (UA)",
+			"name": "昆德里克斯法师子类别（UA）",
+			"shortName": "权数法师（UA）特性",
 			"source": "UA2021MagesOfStrixhaven",
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "PHB",
 			"_copy": {
-				"name": "Mage of Quandrix (UA)",
+				"ENG_name": "Mage of Quandrix (UA)",
+				"name": "昆德里克斯法师子类别（UA）",
 				"source": "UA2021MagesOfStrixhaven",
-				"shortName": "Quandrix (UA)",
+				"shortName": "权数法师（UA）特性",
 				"className": "Generic",
 				"classSource": "Generic",
 				"_preserve": {
@@ -231,15 +248,17 @@
 			}
 		},
 		{
-			"name": "Mage of Quandrix (UA)",
-			"shortName": "Quandrix (UA)",
+			"ENG_name": "Mage of Quandrix (UA)",
+			"name": "昆德里克斯法师子类别（UA）",
+			"shortName": "权数法师（UA）特性",
 			"source": "UA2021MagesOfStrixhaven",
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "PHB",
 			"_copy": {
-				"name": "Mage of Quandrix (UA)",
+				"ENG_name": "Mage of Quandrix (UA)",
+				"name": "昆德里克斯法师子类别（UA）",
 				"source": "UA2021MagesOfStrixhaven",
-				"shortName": "Quandrix (UA)",
+				"shortName": "权数法师（UA）特性",
 				"className": "Generic",
 				"classSource": "Generic",
 				"_preserve": {
@@ -248,15 +267,17 @@
 			}
 		},
 		{
-			"name": "Mage of Silverquill (UA)",
-			"shortName": "Silverquill (UA)",
+			"ENG_name": "Mage of Silverquill (UA)",
+			"name": "银羽法师（UA）特性",
+			"shortName": "银羽法师子类别（UA）",
 			"source": "UA2021MagesOfStrixhaven",
-			"className": "Bard",
+			"className": "吟游诗人",
 			"classSource": "PHB",
 			"_copy": {
-				"name": "Mage of Silverquill (UA)",
+				"ENG_name": "Mage of Silverquill (UA)",
+				"name": "银羽法师（UA）特性",
 				"source": "UA2021MagesOfStrixhaven",
-				"shortName": "Silverquill (UA)",
+				"shortName": "银羽法师子类别（UA）",
 				"className": "Generic",
 				"classSource": "Generic",
 				"_preserve": {
@@ -265,29 +286,32 @@
 			}
 		},
 		{
-			"name": "Mage of Silverquill (UA)",
-			"shortName": "Silverquill (UA)",
+			"ENG_name": "Mage of Silverquill (UA)",
+			"name": "银羽法师（UA）特性",
+			"shortName": "银羽法师子类别（UA）",
 			"source": "UA2021MagesOfStrixhaven",
 			"className": "Generic",
 			"classSource": "Generic",
 			"page": 6,
 			"subclassFeatures": [
-				"Mage of Silverquill|Generic|Generic|Silverquill (UA)|UA2021MagesOfStrixhaven|1",
-				"Inky Shroud|Generic|Generic|Silverquill (UA)|UA2021MagesOfStrixhaven|6",
-				"Infusion of Eloquence|Generic|Generic|Silverquill (UA)|UA2021MagesOfStrixhaven|10",
-				"Word of Power|Generic|Generic|Silverquill (UA)|UA2021MagesOfStrixhaven|14"
+				"银毫魔法师|Generic|Generic|银羽法师子类别（UA）|UA2021MagesOfStrixhaven|1",
+				"墨水帷幕|Generic|Generic|银羽法师子类别（UA）|UA2021MagesOfStrixhaven|6",
+				"辩力注法|Generic|Generic|银羽法师子类别（UA）|UA2021MagesOfStrixhaven|10",
+				"威力真言|Generic|Generic|银羽法师子类别（UA）|UA2021MagesOfStrixhaven|14"
 			]
 		},
 		{
-			"name": "Mage of Silverquill (UA)",
-			"shortName": "Silverquill (UA)",
+			"ENG_name": "Mage of Silverquill (UA)",
+			"name": "银羽法师（UA）特性",
+			"shortName": "银羽法师子类别（UA）",
 			"source": "UA2021MagesOfStrixhaven",
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "PHB",
 			"_copy": {
-				"name": "Mage of Silverquill (UA)",
+				"ENG_name": "Mage of Silverquill (UA)",
+				"name": "银羽法师（UA）特性",
 				"source": "UA2021MagesOfStrixhaven",
-				"shortName": "Silverquill (UA)",
+				"shortName": "银羽法师子类别（UA）",
 				"className": "Generic",
 				"classSource": "Generic",
 				"_preserve": {
@@ -296,15 +320,17 @@
 			}
 		},
 		{
-			"name": "Mage of Silverquill (UA)",
-			"shortName": "Silverquill (UA)",
+			"ENG_name": "Mage of Silverquill (UA)",
+			"name": "银羽法师（UA）特性",
+			"shortName": "银羽法师子类别（UA）",
 			"source": "UA2021MagesOfStrixhaven",
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "PHB",
 			"_copy": {
-				"name": "Mage of Silverquill (UA)",
+				"ENG_name": "Mage of Silverquill (UA)",
+				"name": "银羽法师（UA）特性",
 				"source": "UA2021MagesOfStrixhaven",
-				"shortName": "Silverquill (UA)",
+				"shortName": "银羽法师子类别（UA）",
 				"className": "Generic",
 				"classSource": "Generic",
 				"_preserve": {
@@ -313,15 +339,17 @@
 			}
 		},
 		{
-			"name": "Mage of Witherbloom (UA)",
-			"shortName": "Witherbloom (UA)",
+			"ENG_name": "Mage of Witherbloom (UA)",
+			"name": "枯萎之花法师子类别（UA）",
+			"shortName": "枯萎之花学院特性",
 			"source": "UA2021MagesOfStrixhaven",
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "PHB",
 			"_copy": {
-				"name": "Mage of Witherbloom (UA)",
+				"ENG_name": "Mage of Witherbloom (UA)",
+				"name": "枯萎之花法师子类别（UA）",
 				"source": "UA2021MagesOfStrixhaven",
-				"shortName": "Witherbloom (UA)",
+				"shortName": "枯萎之花学院特性",
 				"className": "Generic",
 				"classSource": "Generic",
 				"_preserve": {
@@ -330,8 +358,9 @@
 			}
 		},
 		{
-			"name": "Mage of Witherbloom (UA)",
-			"shortName": "Witherbloom (UA)",
+			"ENG_name": "Mage of Witherbloom (UA)",
+			"name": "枯萎之花法师子类别（UA）",
+			"shortName": "枯萎之花学院特性",
 			"source": "UA2021MagesOfStrixhaven",
 			"className": "Generic",
 			"classSource": "Generic",
@@ -340,41 +369,43 @@
 				{
 					"known": {
 						"3": [
-							"lesser restoration",
-							"ray of enfeeblement"
+							"次等复原术",
+							"衰弱射线"
 						],
 						"5": [
-							"revivify",
-							"vampiric touch"
+							"回生术",
+							"吸血鬼之触"
 						],
 						"7": [
-							"blight",
-							"greater restoration"
+							"枯萎术",
+							"高等复原术"
 						],
 						"9": [
-							"antilife shell",
-							"mass cure wounds"
+							"防活物护罩",
+							"群体疗伤术"
 						]
 					}
 				}
 			],
 			"subclassFeatures": [
-				"Mage of Witherbloom|Generic|Generic|Witherbloom (UA)|UA2021MagesOfStrixhaven|1",
-				"Witherbloom Brew|Generic|Generic|Witherbloom (UA)|UA2021MagesOfStrixhaven|6",
-				"Witherbloom Adept|Generic|Generic|Witherbloom (UA)|UA2021MagesOfStrixhaven|10",
-				"Withering Vortex|Generic|Generic|Witherbloom (UA)|UA2021MagesOfStrixhaven|14"
+				"靡华魔法师|Generic|Generic|枯萎之花学院特性|UA2021MagesOfStrixhaven|1",
+				"靡华合剂|Generic|Generic|枯萎之花学院特性|UA2021MagesOfStrixhaven|6",
+				"靡华精进|Generic|Generic|枯萎之花学院特性|UA2021MagesOfStrixhaven|10",
+				"凋零涡流|Generic|Generic|枯萎之花学院特性|UA2021MagesOfStrixhaven|14"
 			]
 		},
 		{
-			"name": "Mage of Witherbloom (UA)",
-			"shortName": "Witherbloom (UA)",
+			"ENG_name": "Mage of Witherbloom (UA)",
+			"name": "枯萎之花法师子类别（UA）",
+			"shortName": "枯萎之花学院特性",
 			"source": "UA2021MagesOfStrixhaven",
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "PHB",
 			"_copy": {
-				"name": "Mage of Witherbloom (UA)",
+				"ENG_name": "Mage of Witherbloom (UA)",
+				"name": "枯萎之花法师子类别（UA）",
 				"source": "UA2021MagesOfStrixhaven",
-				"shortName": "Witherbloom (UA)",
+				"shortName": "枯萎之花学院特性",
 				"className": "Generic",
 				"classSource": "Generic",
 				"_preserve": {
@@ -385,44 +416,46 @@
 	],
 	"subclassFeature": [
 		{
-			"name": "Ancient Companion",
+			"ENG_name": "Ancient Companion",
+			"name": "先古行侣",
 			"source": "UA2021MagesOfStrixhaven",
 			"page": 2,
 			"className": "Generic",
 			"classSource": "Generic",
-			"subclassShortName": "Lorehold (UA)",
+			"subclassShortName": "洛雷霍德法师子类别（UA）",
 			"subclassSource": "UA2021MagesOfStrixhaven",
 			"level": 1,
 			"isGainAtNextFeatureLevel": true,
 			"entries": [
-				"{@i Level 1+ Mage of Lorehold Feature}",
-				"You learn to call on the spirits of the ancient dead and house them temporarily in the remnants of old statues, so they may remain longer on this plane to bolster your studies and aid you in battle.",
-				"Whenever you finish a short or long rest, you can call forth and bond with one such spirit, who comes to inhabit a Medium, freestanding statue within 10 feet of you to serve as your {@creature ancient companion|UA2021MagesOfStrixhaven}. See this creature's game statistics in the {@creature Ancient Companion|UA2021MagesOfStrixhaven} stat block, which uses your proficiency bonus (PB) in several places. When you bond with your ancient companion, choose the type of spirit you bond with: Healer, Sage, or Warrior. Your choice of spirit determines certain traits in its stat block. The statue determines the spirit's appearance.",
-				"The ancient companion is friendly to you and your companions and obeys your commands. In combat, the companion shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the {@action Dodge} action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are {@condition incapacitated}, the companion can take any action of its choice, not just {@action Dodge}.",
-				"As an action, you can touch the ancient companion and expend a spell slot of 1st-level or higher. The ancient companion regains a number of hit points equal to 10 times the level of spell slot expended.",
-				"The companion perishes when it drops to 0 hit points, when you bond with a new ancient companion at the end of a short or long rest, or when you die. When the companion perishes, the spirit within returns to its plane of origin, and the statue becomes an inert object."
+				"{@i 6级+ 洛雷霍德法师特性}",
+				"你学会了召唤古代死者的灵魂，并将它们暂时安置在旧雕像的残骸中，以便它们可以更长时间地留在这个位面上，加强你的研究并在战斗中帮助你。",
+				"每当你完成一次短休或长休时，你可以召唤并牵挂一个这样的精魄，它会寄宿于你10尺内一个中型、独立的雕像中，作为你的{@creature 古代伙伴|UA2021MagesOfStrixhaven}。该生物的游戏数据见{@creature 先古行侣|UA2021MagesOfStrixhaven}数据卡，其中多处使用你的熟练加值（PB）。当你与你的古代伙伴建立牵挂时，选择你与之建立牵挂的精魄类型：医者、贤者或战士。你选择的精魄类型决定其数据卡中的某些特质。雕像决定精魄的外貌。",
+				"这个古老伴侣对你和你的同伴是友好的，并服从你的命令。在战斗中，伴侣共享你的主动性计数，但它会在你之后立即行动。它可以自己移动并使用它的反应，但在它的回合上，它唯一采取的动作是{@action 回避}动作，除非你在你的回合上使用附赠动作命令它采取其他动作。那个动作可以是它在统计数据块中的动作，也可以是其他一些动作。如果你处于{@condition 失能}状态，伴侣可以采取任何它选择的动作，而不仅仅是{@action 回避}。",
+				"作为一个动作，你可以触摸古老的伙伴并消耗一个1级或更高级别的法术位。古老的伙伴恢复的生命值等于消耗的法术位等级的10倍。",
+				"当伴侣降至0生命值时，或在短休或长休结束时你与新的古老伴侣建立联系时，或者当你死亡时，伴侣会死亡。当伴侣死亡时，内在于伴侣的灵魂会返回其原始的位面，雕像则变成一个无生命的物体。"
 			]
 		},
 		{
-			"name": "Lorehold Spells",
+			"ENG_name": "Lorehold Spells",
+			"name": "衡鉴法术",
 			"source": "UA2021MagesOfStrixhaven",
 			"page": 2,
 			"className": "Generic",
 			"classSource": "Generic",
-			"subclassShortName": "Lorehold (UA)",
+			"subclassShortName": "洛雷霍德法师子类别（UA）",
 			"subclassSource": "UA2021MagesOfStrixhaven",
 			"level": 1,
 			"isGainAtNextFeatureLevel": true,
 			"entries": [
-				"{@i Level 1+ Mage of Lorehold Feature}",
-				"You learn the cantrip {@spell sacred flame} and the 1st-level spell {@spell comprehend languages}. You learn additional spells when you reach certain levels in this class, as shown on the Lorehold Spells table.",
-				"Each of these spells counts as a class spell for you, but it doesn't count against the number of spells you know. If you are a wizard, you can add these spells to your spellbook upon learning them, without expending any gold, and prepare them as normal.",
+				"{@i 6级+ 洛雷霍德法师特性}",
+				"你学会了戏法 {@spell 圣火术} 和1环法术 {@spell 通晓语言}。当你达到这个职业的特定等级时，你会学会更多法术，如Lorehold Spells表所示。",
+				"这些法术对你来说都是职业法术，但它们不计入你所知道的法术数量。如果你是法师，你可以在学习这些法术时将它们添加到你的法术书中，无需花费任何金币，并正常准备它们。",
 				{
 					"type": "table",
-					"caption": "Lorehold Spells",
+					"caption": "衡鉴法术",
 					"colLabels": [
-						"Class Level",
-						"Spells"
+						"职业等级",
+						"法术"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -430,389 +463,419 @@
 					],
 					"rows": [
 						[
-							"3rd",
-							"{@spell knock}, {@spell locate object}"
+							"3环",
+							"{@spell 敲击术}, {@spell 物件定位术}"
 						],
 						[
-							"5th",
-							"{@spell speak with dead}, {@spell spirit guardians}"
+							"5环",
+							"{@spell 死者交谈}, {@spell 灵体卫士}"
 						],
 						[
 							"7th",
-							"{@spell arcane eye}, {@spell stone shape}"
+							"{@spell 秘法眼}, {@spell 塑石术}"
 						],
 						[
 							"9th",
-							"{@spell destructive wave}, {@spell legend lore}"
+							"{@spell 湮灭波}, {@spell 通晓传奇}"
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "Mage of Lorehold",
+			"ENG_name": "Mage of Lorehold",
+			"name": "衡鉴魔法师",
 			"source": "UA2021MagesOfStrixhaven",
 			"page": 2,
 			"className": "Generic",
 			"classSource": "Generic",
-			"subclassShortName": "Lorehold (UA)",
+			"subclassShortName": "洛雷霍德法师子类别（UA）",
 			"subclassSource": "UA2021MagesOfStrixhaven",
 			"level": 1,
 			"isGainAtNextFeatureLevel": true,
 			"entries": [
-				"{@i Bard, Warlock, and Wizard Subclass}",
-				"Mages of Lorehold are particularly concerned with the forces that underlie and drive history. Drawing inspiration from the scholars and adventurers of old, they manifest the arcane power of the past through ethereal dioramas and fantastical battle prowess. Lorehold mages are often found with a long-dead spirit summoned at their side\u2014for who better to learn ancient history from than one who has experienced it first-hand?",
+				"{@i 吟游诗人、魔契师和法师子类别}",
+				"洛雷霍尔德法师特别关注那些潜藏并推动历史的力量。他们从古老的学者和冒险者那里汲取灵感，通过虚幻的立体布景和奇幻的战斗技巧，展现出过去奥秘的力量。洛雷霍尔德法师通常身边会召唤出一个早已逝去的灵魂\u2014\u2014毕竟，还有谁比亲身经历过的人更能了解古代历史呢？",
 				{
+					"ENG_name": "Using This Subclass",
+					"name": "使用此子职业",
 					"type": "entries",
-					"name": "Using This Subclass",
 					"entries": [
-						"Upon selecting the Mage of Lorehold subclass, you gain two features: Lorehold Spells and Ancient Companion.",
-						"In this subclass's features, any reference to your class refers to the class from which you gained the subclass. If you're a bard, the College of Lorehold counts as your college; if you're a warlock, the magic of the college serves as your patron; and if you're a wizard, the college represents your arcane tradition.",
-						"When you subsequently reach a level in your class that gives you a subclass feature, you gain one feature of your choice from the options presented here. Each feature has a class level prerequisite, as noted beneath its name. You must meet that prerequisite to gain the feature."
+						"选择洛雷霍德法师子类别后，你获得了两个特性：洛雷霍德法术和远古伙伴。",
+						"在这个子类别的特性中，任何提到你的职业的地方都是指你获得子类别的那个职业。如果你是吟游诗人，洛雷霍尔德学院算作你的学院；如果你是魔契师，学院的魔法作为你的守护者；如果你是法师，学院代表你的奥术传统。",
+						"当你随后达到你的职业等级，可以获得子类特性时，你可以选择这里提供的选项中的一个特性。每个特性都有一个职业等级先决条件，如其名称下方所注。你必须满足该先决条件才能获得该特性。"
 					]
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Lorehold Spells|Generic|Generic|Lorehold (UA)|UA2021MagesOfStrixhaven|1"
+					"subclassFeature": "衡鉴法术|Generic|Generic|洛雷霍德法师子类别（UA）|UA2021MagesOfStrixhaven|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Ancient Companion|Generic|Generic|Lorehold (UA)|UA2021MagesOfStrixhaven|1"
+					"subclassFeature": "先古行侣|Generic|Generic|洛雷霍德法师子类别（UA）|UA2021MagesOfStrixhaven|1"
 				}
 			]
 		},
 		{
-			"name": "Lessons of the Past",
+			"ENG_name": "Lessons of the Past",
+			"name": "过往教训",
 			"source": "UA2021MagesOfStrixhaven",
 			"page": 3,
 			"className": "Generic",
 			"classSource": "Generic",
-			"subclassShortName": "Lorehold (UA)",
+			"subclassShortName": "洛雷霍德法师子类别（UA）",
 			"subclassSource": "UA2021MagesOfStrixhaven",
 			"level": 6,
 			"isGainAtNextFeatureLevel": true,
 			"header": 2,
 			"entries": [
-				"{@i Level 6+ Mage of Lorehold Feature}",
-				"Through your studies, you learn how to better listen and take to heart the teachings of history. When you bond with your ancient companion, you gain the following additional benefits depending on the type of spirit you chose:",
+				"{@i 6级+ 洛雷霍德法师特性}",
+				"通过你的学习，你学会了如何更好地倾听并铭记历史的教诲。当你与你的古老伴侣建立联系时，根据你所选择的灵魂类型，你将获得以下额外好处：",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
+							"ENG_name": "Healer",
+							"name": "医疗师",
 							"type": "item",
-							"name": "Healer",
-							"entry": "Your hit point maximum increases by an amount equal to your level in this class, and you gain the same number of hit points. When you regain hit points from a spell, you regain an additional {@dice 1d8} hit points."
+							"entry": "你的生命值上限增加等同于你在本职阶的等级数量，并且你获得相同数量的生命值。当你通过法术恢复生命值时，你额外恢复 {@dice 1d8} 生命值。"
 						},
 						{
+							"ENG_name": "Sage",
+							"name": "智者",
 							"type": "item",
-							"name": "Sage",
-							"entry": "You have advantage on ability checks using the {@skill Arcana}, {@skill History}, {@skill Nature}, and {@skill Religion} skills. Additionally, once per turn, when you deal damage to a creature with a spell of 1st-level or higher, you can deal an additional {@damage 1d8} force damage to that creature."
+							"entry": "你在进行{@skill 奥秘}、{@skill 历史}、{@skill 自然}和{@skill 宗教}技能检定时具有优势。此外，每当你在一回合内使用1级或更高级别的法术对生物造成伤害时，你可以对该生物额外造成{@damage 1d8}点力场伤害。"
 						},
 						{
+							"ENG_name": "Warrior",
+							"name": "武者",
 							"type": "item",
-							"name": "Warrior",
-							"entry": "If you use your action to cast a cantrip, you can make one weapon attack as part of that action. If that weapon attack hits, the target takes an additional {@damage 1d8} radiant damage."
+							"entry": "如果你使用你的动作来施放一个戏法，你可以将一次武器攻击作为该动作的一部分。如果那次武器攻击命中，目标额外受到 {@damage 1d8} 光耀伤害。"
 						}
 					]
 				},
-				"When you bond with a new ancient companion of a different type, you immediately lose the benefits of your previous companion and gain the benefits from the new companion's type."
+				"当你与一个新的不同种类的古老伴侣建立联系时，你会立即失去之前伴侣的益处，并从新伴侣的种类中获得益处。"
 			]
 		},
 		{
-			"name": "War Echoes",
+			"ENG_name": "War Echoes",
+			"name": "战争回响",
 			"source": "UA2021MagesOfStrixhaven",
 			"page": 3,
 			"className": "Generic",
 			"classSource": "Generic",
-			"subclassShortName": "Lorehold (UA)",
+			"subclassShortName": "洛雷霍德法师子类别（UA）",
 			"subclassSource": "UA2021MagesOfStrixhaven",
 			"level": 10,
 			"isGainAtNextFeatureLevel": true,
 			"header": 2,
 			"entries": [
-				"{@i Level 10+ Mage of Lorehold Feature}",
-				"By pulling from the magic of the past, you can cause your opponent's old wounds to resonate anew. Once per turn, when a creature you can see hits a target with an attack roll, you can use your reaction to force the target to make a Wisdom saving throw against your spell save DC. On a failure, the target becomes vulnerable to one of the damage types dealt by the attack. This vulnerability lasts until the end of the target's next turn and affects the damage dealt by the triggering attack.",
-				"You can use your reaction in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+				"{@i 10级+ 洛雷霍德法师特性}",
+				"通过借助过去的魔法，你可以使你对手的旧伤再次产生共鸣。每回合一次，当你能看到的生物通过攻击检定击中目标时，你可以使用你的反应迫使目标进行一次对抗你法术豁免DC的感知豁免。若失败，目标在下一次回合结束前对该攻击造成的伤害类型变得易受伤害。这种易受伤害状态持续到目标的下一个回合结束，并且影响触发此效果的攻击造成的伤害。",
+				"你可以使用这种方式的反应次数等于你的熟练加值，当你完成一次长时间的休息后，你将恢复所有已使用的使用次数。"
 			]
 		},
 		{
-			"name": "History's Whims",
+			"ENG_name": "History's Whims",
+			"name": "历史的怪癖",
 			"source": "UA2021MagesOfStrixhaven",
 			"page": 4,
 			"className": "Generic",
 			"classSource": "Generic",
-			"subclassShortName": "Lorehold (UA)",
+			"subclassShortName": "洛雷霍德法师子类别（UA）",
 			"subclassSource": "UA2021MagesOfStrixhaven",
 			"level": 14,
 			"isGainAtNextFeatureLevel": true,
 			"header": 2,
 			"entries": [
-				"{@i Level 14+ Mage of Lorehold Feature}",
-				"Through steeping yourself in the chaotic whims of history, you learn how to briefly channel the wild nature of time itself. As a bonus action, you can enter a state of chronal chaos. When you enter this state, and at the start of each of your subsequent turns while in this state, you gain one of the following benefits of your choice:",
+				"{@i 14级+ 洛雷霍德法师特性}",
+				"通过沉浸在历史的混沌无常中，你学会了如何短暂地引导时间本身的野性。作为一个额外动作，你可以进入一种时间混乱的状态。当你进入这个状态，以及在你随后的每个回合开始时，你可以选择获得以下一项好处：",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
+							"ENG_name": "Luck",
+							"name": "幸运",
 							"type": "item",
-							"name": "Luck",
-							"entry": "You receive brief flashes of the future, steeling yourself against oncoming assaults. Whenever you make a saving throw against an effect that deals damage, you can roll a {@dice d6} and add the number rolled to the total."
+							"entry": "你收到了未来短暂闪现的预感，使自己免受即将到来的攻击。每当你对造成伤害的效果进行豁免检定时，你可以投掷一个{@dice d6}并将所掷数字加到总数上。"
 						},
 						{
+							"ENG_name": "Resistance",
+							"name": "抗性",
 							"type": "item",
-							"name": "Resistance",
-							"entry": "You rewind time, knitting together injuries as they occur. You have resistance to bludgeoning, piercing, and slashing damage."
+							"entry": "你倒转时间，将发生的伤害编织在一起。你对钝击、穿刺和挥砍伤害有抗性。"
 						},
 						{
+							"ENG_name": "Swiftness",
+							"name": "迅捷",
 							"type": "item",
-							"name": "Swiftness",
-							"entry": "Time stutters, slowing others but hurtling you forward. Your movement speed increases by 15 feet, and you do not provoke opportunity attacks."
+							"entry": "时间颤抖，减慢了其他人的速度，却让你急速前进。你的速度增加15英尺，并且不会引发机会攻击。"
 						}
 					]
 				},
-				"The benefit lasts until the start of your next turn. You cannot choose the same benefit two rounds in a row.",
-				"The state lasts for 1 minute and ends early if you're {@condition incapacitated}. Once you use this feature, you can't use it again until you finish a long rest, unless you expend a spell slot of 4th level or higher to use it again."
+				"这个效果持续到你的下一个回合开始。你不能连续两轮选择相同的效果。",
+				"这种状态持续1分钟，如果你被{@condition 失能}，则状态会提前结束。使用这个特性后，直到你完成一次长休之前，你无法再次使用它，除非你消耗一个4级或更高的法术位来再次使用它。"
 			]
 		},
 		{
-			"name": "Creative Skills",
+			"ENG_name": "Creative Skills",
+			"name": "创造技艺",
 			"source": "UA2021MagesOfStrixhaven",
 			"page": 4,
 			"className": "Generic",
 			"classSource": "Generic",
-			"subclassShortName": "Prismari (UA)",
+			"subclassShortName": "粹丽法师（UA）特性",
 			"subclassSource": "UA2021MagesOfStrixhaven",
 			"level": 1,
 			"isGainAtNextFeatureLevel": true,
 			"entries": [
-				"{@i Level 1+ Mage of Prismari Feature}",
-				"You gain proficiency in two of the following skills of your choice: {@skill Acrobatics}, {@skill Athletics}, {@skill Nature}, or {@skill Performance}."
+				"{@i 1级+ 棱镜法师特性}",
+				"你可以选择以下两项技能中的两项获得熟练：{@skill 特技}，{@skill 运动}，{@skill 自然}，或{@skill 表演}。"
 			]
 		},
 		{
-			"name": "Kinetic Artistry",
+			"ENG_name": "Kinetic Artistry",
+			"name": "运动艺术",
 			"source": "UA2021MagesOfStrixhaven",
 			"page": 4,
 			"className": "Generic",
 			"classSource": "Generic",
-			"subclassShortName": "Prismari (UA)",
+			"subclassShortName": "粹丽法师（UA）特性",
 			"subclassSource": "UA2021MagesOfStrixhaven",
 			"level": 1,
 			"isGainAtNextFeatureLevel": true,
 			"entries": [
-				"{@i Level 1+ Mage of Prismari Feature}",
-				"You can {@action Dash} as a bonus action. When you take this bonus action, choose one of the following additional effects:",
+				"{@i 1级+ 棱镜法师特性}",
+				"你可以作为 bonus action 进行 {@action 疾走}。当你采取这个 bonus action 时，选择以下额外效果之一：",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
+							"ENG_name": "Boreal Sweep",
+							"name": "极地横扫",
 							"type": "item",
-							"name": "Boreal Sweep",
-							"entry": "Icy water swirls around you. Until the end of your turn, you can move across the surface of water as if it were harmless solid ground. Additionally, when you leave a space within 5 feet of a creature, you can force that creature to make a Strength saving throw against your spell save DC. On a failed save, the creature is knocked {@condition prone}. A creature can be affected by the water only once each turn."
+							"entry": "冰冷的水围绕在你周围。直到你的回合结束，你可以像在无害的坚实地面上一样在水面上移动。此外，当你离开距离生物5英尺内的空间时，你可以迫使那个生物进行一次力量豁免检定，对抗你的法术豁免DC。如果豁免失败，生物会被击倒{@condition 倒地}。每个生物每回合只能被水影响一次。"
 						},
 						{
+							"ENG_name": "Scorching Whirl",
+							"name": "炽热旋风",
 							"type": "item",
-							"name": "Scorching Whirl",
-							"entry": "Flames wreath your steps. Once before the end of your turn, you can force each creature within 5 feet of you to make a Dexterity saving throw against your spell save DC. On a failure, a creature takes fire damage equal to {@dice 1d4} + your spellcasting modifier."
+							"entry": "火焰环绕你的脚步。在你的回合结束前，你可以迫使每个在你周围5英尺内的生物进行一次敏捷豁免检定，对抗你的法术豁免DC。如果失败，生物受到的火焰伤害等于 {@dice 1d4} + 你的施法能力调整值。"
 						},
 						{
+							"ENG_name": "Thunderlight Jaunt",
+							"name": "雷光穿行",
 							"type": "item",
-							"name": "Thunderlight Jaunt",
-							"entry": "You take on a nimble lightning form. Until the end of your turn, you can move through the space of other creatures, and you do not provoke opportunity attacks. If you end your turn inside a creature's space, you are pushed into the nearest unoccupied space."
+							"entry": "你变成了敏捷的闪电形态。直到你的回合结束，你可以穿过其他生物的空间，并且不会引发机会攻击。如果你的回合结束时位于一个生物的空间内，你会被推到最近的未被占据的空间。"
 						}
 					]
 				},
-				"You can use a bonus action in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+				"你可以使用这种方式的额外动作，次数等于你的熟练加值，当你完成一次长休时，你恢复所有已使用的加值。"
 			]
 		},
 		{
-			"name": "Mage of Prismari",
+			"ENG_name": "Mage of Prismari",
+			"name": "粹丽魔法师",
 			"source": "UA2021MagesOfStrixhaven",
 			"page": 4,
 			"className": "Generic",
 			"classSource": "Generic",
-			"subclassShortName": "Prismari (UA)",
+			"subclassShortName": "粹丽法师（UA）特性",
 			"subclassSource": "UA2021MagesOfStrixhaven",
 			"level": 1,
 			"isGainAtNextFeatureLevel": true,
 			"entries": [
-				"{@i Druid, Sorcerer, and Wizard Subclass}",
-				"Mages of Prismari use surges of elemental energy to express who they are and how they see the world. To them, magic and motion are one and the same; both are exhibitions of raw creativity through which masterpieces are made. In their pursuit of the arts, some Prismari mages focus on perfecting the fine details of their technique, while others prefer to unleash their wild creative visions in dazzling spectacles of elemental power.",
+				"{@i 德鲁伊、术士和法师子类别}",
+				"Prismari法师使用元素能量的涌动来表达他们是谁以及他们如何看待世界。对他们来说，魔法和动作是一体的；两者都是通过原始创造力的展示来创造杰作。在他们追求艺术的过程中，一些Prismari法师专注于完善他们技术的细微之处，而其他法师则更喜欢以令人眼花缭乱的元素力量展现他们狂野的创意愿景。",
 				{
+					"ENG_name": "Using This Subclass",
+					"name": "使用此子职业",
 					"type": "entries",
-					"name": "Using This Subclass",
 					"entries": [
-						"Upon selecting the Mage of Prismari subclass, you gain two features: Creative Skills and Kinetic Artistry.",
-						"In this subclass's features, any reference to your class refers to the class from which you gained the subclass. If you're a druid, the College of Prismari counts as your circle; if you're a sorcerer, the magic of the college is the origin of your sorcery; and if you're a wizard, the college represents your arcane tradition.",
-						"When you subsequently reach a level in your class that gives you a subclass feature, you gain one feature of your choice from the options presented here. Each feature has a class level prerequisite, as noted beneath its name. You must meet that prerequisite to gain the feature."
+						"选择Prismari法师子类别后，你获得了两个特性：创意技能和动能艺术。",
+						"在这个子类的特徵中，任何提到你的职业的地方都是指你获得子类的那个职业。如果你是德鲁伊，Prismari 学院被视为你的圈子；如果你是术士，学院的魔法是你术士力量的来源；如果你是法师，学院代表你的奥术传统。",
+						"当你随后达到你的职业等级，可以获得子类特性时，你可以选择这里提供的选项中的一个特性。每个特性都有一个职业等级先决条件，如其名称下方所注。你必须满足该先决条件才能获得该特性。"
 					]
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Creative Skills|Generic|Generic|Prismari (UA)|UA2021MagesOfStrixhaven|1"
+					"subclassFeature": "创造技艺|Generic|Generic|粹丽法师（UA）特性|UA2021MagesOfStrixhaven|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Kinetic Artistry|Generic|Generic|Prismari (UA)|UA2021MagesOfStrixhaven|1"
+					"subclassFeature": "运动艺术|Generic|Generic|粹丽法师（UA）特性|UA2021MagesOfStrixhaven|1"
 				}
 			]
 		},
 		{
-			"name": "Favored Medium",
+			"ENG_name": "Favored Medium",
+			"name": "偏好媒介",
 			"source": "UA2021MagesOfStrixhaven",
 			"page": 5,
 			"className": "Generic",
 			"classSource": "Generic",
-			"subclassShortName": "Prismari (UA)",
+			"subclassShortName": "粹丽法师（UA）特性",
 			"subclassSource": "UA2021MagesOfStrixhaven",
 			"level": 6,
 			"isGainAtNextFeatureLevel": true,
 			"header": 2,
 			"entries": [
-				"{@i Level 6+ Mage of Prismari Feature}",
-				"You have honed your forms of elemental expression to best suit your ideas. Choose one of the following damage types: cold, fire, or lightning. You gain resistance to that damage type.",
-				"Additionally, when you cast a spell using a spell slot that deals the chosen damage type, you emit a spectacular aura of artistry, which extends 5 feet from you in every direction (but not through total cover) and lasts until the end of your next turn. While the aura is active, each creature of your choice has resistance to your chosen damage type while within the aura, as you shape your favored elemental medium around them.",
-				"You can change your choice of damage type whenever you finish a long rest."
+				"{@i 6级+ 棱镜法师特性}",
+				"你已经磨练了你的元素表达形式，以最适合你的想法。从以下伤害类型中选择一种：寒冷、火焰或闪电。你对所选的伤害类型获得抗性。",
+				"此外，当你使用法术位施放一个选定伤害类型的法术时，你会散发出一种壮观的艺术气息，这种气息从你身上向每个方向延伸5英尺（但不会穿过完全覆盖），持续到你下一个回合结束。当气息活跃时，你选择的每个生物在气息范围内对你的选定伤害类型具有抗性，因为你围绕它们塑造了你偏爱的元素媒介。",
+				"你可以在完成一次长休后更改你的损伤类型选择。"
 			]
 		},
 		{
-			"name": "Focused Expression",
+			"ENG_name": "Focused Expression",
+			"name": "焦点表现",
 			"source": "UA2021MagesOfStrixhaven",
 			"page": 5,
 			"className": "Generic",
 			"classSource": "Generic",
-			"subclassShortName": "Prismari (UA)",
+			"subclassShortName": "粹丽法师（UA）特性",
 			"subclassSource": "UA2021MagesOfStrixhaven",
 			"level": 10,
 			"isGainAtNextFeatureLevel": true,
 			"header": 2,
 			"entries": [
-				"{@i Level 10+ Mage of Prismari Feature}",
-				"Honing your talents, you skillfully infuse your motions with even more potent expressions of elemental might. Once per turn when you deal damage to at least one target, you gain an additional effect determined by the damage type chosen for your Favored Medium feature:",
+				"{@i 14级及以上的Prismari法师特性}",
+				"磨练你的才能，你巧妙地将你的动作与更强大的元素力量表达融合。每当你在一回合内对至少一个目标造成伤害时，你将根据你选择的\"优选媒介\"特性的伤害类型获得额外效果：",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
+							"ENG_name": "Cold",
+							"name": "寒冷",
 							"type": "item",
-							"name": "Cold",
-							"entry": "One of the targets of your choice takes an additional {@damage 1d6} cold damage and must make a Constitution saving throw against your spell save DC. On a failed save, the target's speed is reduced by 10 feet until the end of its next turn, as ice mires it. A target can be affected by the ice only once per round."
+							"entry": "你选择的一个目标额外受到 {@damage 1d6} 点寒冷伤害，并必须通过一次对抗你法术豁免DC的体质豁免。如果豁免失败，目标的速度在它的下一个回合结束前减少10英尺，因为冰使其陷入困境。一个目标每轮只能受到一次冰的影响。"
 						},
 						{
+							"ENG_name": "Fire",
+							"name": "火焰",
 							"type": "item",
-							"name": "Fire",
-							"entry": "One of the targets of your choice takes an additional {@damage 1d6} fire damage. Fortifying flames then dance around one creature of your choice within 30 feet of you. The chosen creature gains {@dice 1d6} temporary hit points."
+							"entry": "你选择的一个目标额外受到{@damage 1d6}点火焰伤害。然后，强化的火焰在你周围30英尺内的一个生物周围舞动。被选择的生物获得{@dice 1d6}点临时生命值。"
 						},
 						{
+							"ENG_name": "Lightning",
+							"name": "闪电",
 							"type": "item",
-							"name": "Lightning",
-							"entry": "One of the targets of your choice takes an additional {@damage 1d6} lightning damage and must make a Dexterity saving throw against your spell save DC. On a failed save, the target is unable to take reactions until the end of its next turn, as residual lightning shocks its form."
+							"entry": "你选择的一个目标额外受到 {@damage 1d6} 闪电伤害，并必须进行一次敏捷豁免检定，对抗你的法术豁免DC。如果豁免失败，目标在下一个回合结束前无法进行反应，因为残留的闪电使其形态受到震动。"
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "Impeccable Physicality",
+			"ENG_name": "Impeccable Physicality",
+			"name": "无瑕形体",
 			"source": "UA2021MagesOfStrixhaven",
 			"page": 5,
 			"className": "Generic",
 			"classSource": "Generic",
-			"subclassShortName": "Prismari (UA)",
+			"subclassShortName": "粹丽法师（UA）特性",
 			"subclassSource": "UA2021MagesOfStrixhaven",
 			"level": 14,
 			"isGainAtNextFeatureLevel": true,
 			"header": 2,
 			"entries": [
-				"{@i Level 14+ Mage of Prismari Feature}",
-				"Your relentless dedication and training have instilled an outstanding sense of precision and grace in your art. You gain proficiency in Dexterity saving throws if you do not already have it. Additionally, when you make a Dexterity saving throw, you can treat a {@dice d20} roll of a 9 or lower as a 10."
+				"{@i 6级及以上的Prismari法师特性}",
+				"你不懈的奉献和训练赋予了你的艺术非凡的精确度和优雅。如果你之前没有的话，你现在获得了敏捷豁免的熟练度。此外，当你进行敏捷豁免检定时，你可以将{@dice d20}掷出的9或更低视为10。"
 			]
 		},
 		{
-			"name": "Functions of Probability",
+			"ENG_name": "Functions of Probability",
+			"name": "概率函数",
 			"source": "UA2021MagesOfStrixhaven",
 			"page": 6,
 			"className": "Generic",
 			"classSource": "Generic",
-			"subclassShortName": "Quandrix (UA)",
+			"subclassShortName": "权数法师（UA）特性",
 			"subclassSource": "UA2021MagesOfStrixhaven",
 			"level": 1,
 			"isGainAtNextFeatureLevel": true,
 			"entries": [
-				"{@i Level 1+ Mage of Quandrix Feature}",
-				"By iterating on the mathematical patterns of reality, you can nudge chance to tilt around a creature. When you cast a spell using a spell slot that targets at least one creature, you can choose that creature or another creature within 30 feet of it (including yourself) and add one of the following effects:",
+				"{@i 1级以上奎德林克斯法师特性}",
+				"通过迭代现实的数学模式，你可以推动机会围绕着一个生物倾斜。当你使用法术位施放一个至少针对一个生物的法术时，你可以选择那个生物或者它30英尺内的另一个生物（包括你自己），并添加以下效果之一：",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
+							"ENG_name": "Diminishing Function",
+							"name": "边际效益递减函数",
 							"type": "item",
-							"name": "Diminishing Function",
-							"entry": "The chosen creature must succeed on a Wisdom saving throw against your spell save DC, or the creature must roll a {@dice d6} and subtract the number rolled from the next attack roll it makes before the start of your next turn."
+							"entry": "被选中的生物必须通过一次对抗你的法术豁免DC的感知豁免检定，否则生物必须投掷一个 {@dice d6} ，并在你的下一个回合开始前从它的下一次攻击投掷中减去所投掷的数字。"
 						},
 						{
+							"ENG_name": "Supplemental Function",
+							"name": "附加功能",
 							"type": "item",
-							"name": "Supplemental Function",
-							"entry": "Once before the start of your next turn, the chosen creature can roll a {@dice d6} and add the number rolled to an attack roll or a saving throw of its choice. The creature can roll the {@dice d6} after rolling the {@dice d20} but must decide before any effects of the roll occur."
+							"entry": "在你下一个回合开始之前，被选定的生物有一次机会掷一个{@dice d6}，并将其掷出的数字加到它选择的攻击检定或豁免检定上。生物可以在掷{@dice d20}之后掷{@dice d6}，但必须在掷骰结果产生任何效果之前决定。"
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "Mage of Quandrix",
+			"ENG_name": "Mage of Quandrix",
+			"name": "量析魔法师",
 			"source": "UA2021MagesOfStrixhaven",
 			"page": 5,
 			"className": "Generic",
 			"classSource": "Generic",
-			"subclassShortName": "Quandrix (UA)",
+			"subclassShortName": "权数法师（UA）特性",
 			"subclassSource": "UA2021MagesOfStrixhaven",
 			"level": 1,
 			"isGainAtNextFeatureLevel": true,
 			"entries": [
-				"{@i Sorcerer and Wizard Subclass}",
-				"For those who become Mages of Quandrix, math and magic go hand-in-hand. Such individuals learn to break down natural phenomena into their core numerical components and, through manipulating those, alter reality on a whim. Their talents range from tangible physics, like multiplying plant growth and redistributing elements of probability and acceleration, to bizarrely theoretical exercises that warp the fundamentals of space and self.",
+				"{@i 术士和法师子类别}",
+				"对于那些成为 Quandrix 法师的人来说，数学和魔法是相辅相成的。这些人学会将自然现象分解成它们的核心数值组成部分，并通过操纵这些组成部分来随意改变现实。他们的才能从像增加植物生长和重新分配概率和加速度的元素这样的有形物理，到扭曲空间和自我基础的奇异理论练习。",
 				{
+					"ENG_name": "Using This Subclass",
+					"name": "使用此子职业",
 					"type": "entries",
-					"name": "Using This Subclass",
 					"entries": [
-						"Upon selecting the Mage of Quandrix subclass, you gain two features: Quandrix Spells and Functions of Probability.",
-						"In this subclass's features, any reference to your class refers to the class from which you gained the subclass. If you're a sorcerer, the magic of Quandrix is part of your sorcerous origin, and if you're a wizard, the college represents your arcane tradition.",
-						"When you subsequently reach a level in your class that gives you a subclass feature, you gain one feature of your choice from the options presented here. Each feature has a class level prerequisite, as noted beneath its name. You must meet that prerequisite to gain the feature."
+						"选择权数法师子类时，你将获得两个特性：权数法术和概率函数。",
+						"在这个子类别的特性中，任何提到你的职业的地方都是指你获得子类别的那个职业。如果你是术士，Quandrix的魔法是你术士起源的一部分，如果你是法师，学院代表你的奥术传统。",
+						"当你随后达到你的职业等级，可以获得子类特性时，你可以选择这里提供的选项中的一个特性。每个特性都有一个职业等级先决条件，如其名称下方所注。你必须满足该先决条件才能获得该特性。"
 					]
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Quandrix Spells|Generic|Generic|Quandrix (UA)|UA2021MagesOfStrixhaven|1"
+					"subclassFeature": "量析法术|Generic|Generic|权数法师（UA）特性|UA2021MagesOfStrixhaven|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Functions of Probability|Generic|Generic|Quandrix (UA)|UA2021MagesOfStrixhaven|1"
+					"subclassFeature": "概率函数|Generic|Generic|权数法师（UA）特性|UA2021MagesOfStrixhaven|1"
 				}
 			]
 		},
 		{
-			"name": "Quandrix Spells",
+			"ENG_name": "Quandrix Spells",
+			"name": "量析法术",
 			"source": "UA2021MagesOfStrixhaven",
 			"page": 6,
 			"className": "Generic",
 			"classSource": "Generic",
-			"subclassShortName": "Quandrix (UA)",
+			"subclassShortName": "权数法师（UA）特性",
 			"subclassSource": "UA2021MagesOfStrixhaven",
 			"level": 1,
 			"isGainAtNextFeatureLevel": true,
 			"entries": [
-				"{@i Level 1+ Mage of Quandrix Feature}",
-				"You learn the cantrip guidance and the 1st-level spell guiding bolt. You learn additional spells when you reach certain levels in this class, as shown on the Quandrix Spells table.",
-				"Each of these spells counts as a class spell for you, but it doesn't count against the number of spells you know. If you are a wizard, you can add these spells to your spellbook upon learning them, without expending any gold, and prepare them as normal.",
+				"{@i 1级以上奎德林克斯法师特性}",
+				"你学会了引导术戏法和引导之光1环法术。当你达到本职阶的特定等级时，你将学会额外的法术，如下表所示。",
+				"这些法术对你来说都是职业法术，但它们不计入你所知道的法术数量。如果你是法师，你可以在学习这些法术时将它们添加到你的法术书中，无需花费任何金币，并正常准备它们。",
 				{
 					"type": "table",
-					"caption": "Quandrix Spells",
+					"caption": "量析法术",
 					"colLabels": [
-						"Class Level",
-						"Spells"
+						"职业等级",
+						"法术"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -820,307 +883,327 @@
 					],
 					"rows": [
 						[
-							"3rd",
-							"{@spell enlarge/reduce}, {@spell spike growth}"
+							"3环",
+							"{@spell 变巨/缩小术}, {@spell 荆棘丛生}"
 						],
 						[
-							"5th",
-							"{@spell aura of vitality}, {@spell haste}"
+							"5环",
+							"{@spell 活力灵光}, {@spell 加速术}"
 						],
 						[
 							"7th",
-							"{@spell control water}, {@spell freedom of movement}"
+							"{@spell 操控水体}, {@spell 行动自如}"
 						],
 						[
 							"9th",
-							"{@spell circle of power}, {@spell passwall}"
+							"{@spell 原力法阵}, {@spell 穿墙术}"
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "Velocity Shift",
+			"ENG_name": "Velocity Shift",
+			"name": "速率变换",
 			"source": "UA2021MagesOfStrixhaven",
 			"page": 6,
 			"className": "Generic",
 			"classSource": "Generic",
-			"subclassShortName": "Quandrix (UA)",
+			"subclassShortName": "权数法师（UA）特性",
 			"subclassSource": "UA2021MagesOfStrixhaven",
 			"level": 6,
 			"isGainAtNextFeatureLevel": true,
 			"header": 2,
 			"entries": [
-				"{@i Level 6+ Mage of Quandrix Feature}",
-				"You learn to manipulate kinetic formulas and alter the velocity of another creature. When a creature you can see starts its turn or moves to a space within 30 feet of you, you can use your reaction to force the creature to make a Charisma saving throw against your spell save DC, which it can choose to fail. On a failure, the creature is teleported to an unoccupied space of your choice that you can see within 30 feet of you.",
-				"You can use your reaction in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+				"{@i 6级及以上的Quandrix法师特性}",
+				"你学会了操纵动力学公式并改变另一个生物的速度。当一个你可以看到的生物开始其回合或移动到距离你30英尺内的某个空间时，你可以使用你的反应迫使该生物进行一次魅力豁免检定，对抗你的法术豁免DC，它可以选择失败。如果失败，生物会被传送到你可以看到的、距离你30英尺内的、你选择的未被占据的空间。",
+				"你可以使用这种方式的反应次数等于你的熟练加值，当你完成一次长时间的休息后，你将恢复所有已使用的使用次数。"
 			]
 		},
 		{
-			"name": "Null Equation",
+			"ENG_name": "Null Equation",
+			"name": "零值方程",
 			"source": "UA2021MagesOfStrixhaven",
 			"page": 6,
 			"className": "Generic",
 			"classSource": "Generic",
-			"subclassShortName": "Quandrix (UA)",
+			"subclassShortName": "权数法师（UA）特性",
 			"subclassSource": "UA2021MagesOfStrixhaven",
 			"level": 10,
 			"isGainAtNextFeatureLevel": true,
 			"header": 2,
 			"entries": [
-				"{@i Level 10+ Mage of Quandrix Feature}",
-				"Through careful calculations, you beset your enemies with abstract equations that reduce their might. Once per turn, immediately after dealing damage to a creature, you can force the creature to make a Constitution saving throw against your spell save DC. On a failure, the creature has disadvantage on Strength and Dexterity saving throws, and its weapon attacks deal only half damage. These effects last until the start of your next turn.",
-				"You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+				"{@i 10级+ 权数法师特性}",
+				"通过仔细计算，你用抽象的方程式困扰你的敌人，削弱他们的力量。每回合一次，立即在你对生物造成伤害后，你可以迫使生物进行一次体质豁免检定，对抗你的法术豁免DC。如果失败，生物在力量和敏捷豁免检定上处于劣势，其武器攻击只造成一半伤害。这些效果持续到你的下一个回合开始。",
+				"你可以使用此能力的次数等同于你的熟练加值。当你完成一次长休后，你重获全部已消耗的使用次数。"
 			]
 		},
 		{
-			"name": "Quantum Tunneling",
+			"ENG_name": "Quantum Tunneling",
+			"name": "量子隧穿",
 			"source": "UA2021MagesOfStrixhaven",
 			"page": 6,
 			"className": "Generic",
 			"classSource": "Generic",
-			"subclassShortName": "Quandrix (UA)",
+			"subclassShortName": "权数法师（UA）特性",
 			"subclassSource": "UA2021MagesOfStrixhaven",
 			"level": 14,
 			"isGainAtNextFeatureLevel": true,
 			"header": 2,
 			"entries": [
-				"{@i Level 14+ Mage of Quandrix Feature}",
-				"Your mathematical expertise extends to altering the foundational equations of your very being. You gain resistance to bludgeoning, piercing, and slashing damage.",
-				"Additionally, you can move through other creatures and objects as if they were {@quickref difficult terrain||3}, but you take {@damage 1d10} force damage for every 5 feet you move while inside another creature or object. If you end your turn inside a creature or an object, you are shunted into the nearest unoccupied space you last occupied."
+				"{@i 14级+ 权数法师特性}",
+				"你在数学方面的专长扩展到了改变你存在的基础方程式。你获得了对抗钝击、穿刺和挥砍伤害的抗性。",
+				"此外，你可以穿过其他生物和物件，如同它们是{@quickref 困难地形||3}，但你在另一个生物或物件内部移动时，每移动5尺就会受到{@damage 1d10}力场伤害。如果你在一个生物或物件内部结束回合，你将被传送到你最后占据的最近未占据空间。"
 			]
 		},
 		{
-			"name": "Eloquent Apprentice",
+			"ENG_name": "Eloquent Apprentice",
+			"name": "雄辩学徒",
 			"source": "UA2021MagesOfStrixhaven",
 			"page": 7,
 			"className": "Generic",
 			"classSource": "Generic",
-			"subclassShortName": "Silverquill (UA)",
+			"subclassShortName": "银羽法师子类别（UA）",
 			"subclassSource": "UA2021MagesOfStrixhaven",
 			"level": 1,
 			"isGainAtNextFeatureLevel": true,
 			"entries": [
-				"{@i Level 1+ Mage of Silverquill Feature}",
-				"You learn one cantrip of your choice, either {@spell sacred flame} or {@spell vicious mockery}. It doesn't count against the number of cantrips you know, and it is added to your class spell list if it isn't there already.",
-				"Additionally, you gain proficiency in your choice of two of the following skills: {@skill Deception}, {@skill Intimidation}, {@skill Performance}, {@skill Persuasion}, or {@skill Insight}."
+				"{@i 1级及以上银羽法师特性}",
+				"你可以选择学会一个额外的戏法，可以是{@spell 圣火术}或{@spell 恶言相加}。它不会计入你已知戏法的数量，如果它尚未在你的职业法术列表中，它将被添加进去。",
+				"此外，你在以下两项技能中选择获得熟练：{@skill 欺瞒}、{@skill 威吓}、{@skill 表演}、{@skill 游说}或{@skill 洞悉}。"
 			]
 		},
 		{
-			"name": "Mage of Silverquill",
+			"ENG_name": "Mage of Silverquill",
+			"name": "银毫魔法师",
 			"source": "UA2021MagesOfStrixhaven",
 			"page": 6,
 			"className": "Generic",
 			"classSource": "Generic",
-			"subclassShortName": "Silverquill (UA)",
+			"subclassShortName": "银羽法师子类别（UA）",
 			"subclassSource": "UA2021MagesOfStrixhaven",
 			"level": 1,
 			"isGainAtNextFeatureLevel": true,
 			"entries": [
-				"{@i Bard, Warlock, or Wizard Subclass}",
-				"Mages of Silverquill hone the power of words. They channel the magic of light and shadow through words, whether spoken aloud, written, or signed through gestures. The words of a mage of Silverquill bring salvation to their allies and despair to their enemies.",
+				"{@i 吟游诗人、魔契师或法师子类别}",
+				"银羽法师磨砺言语的力量。他们通过言语，无论是大声说出、书写还是通过手势表达，来引导光与影的魔法。银羽法师的言语为盟友带来救赎，为敌人带来绝望。",
 				{
+					"ENG_name": "Using This Subclass",
+					"name": "使用此子职业",
 					"type": "entries",
-					"name": "Using This Subclass",
 					"entries": [
-						"Upon selecting the Mage of Silverquill subclass, you gain two features: Eloquent Apprentice and Silvery Barbs.",
-						"In this subclass's features, any reference to your class refers to the class from which you gained the subclass. If you're a bard, the College of Silverquill counts as your college, if you're a warlock, the college counts as your patron, and if you're a wizard, the college counts as your tradition.",
-						"When you subsequently reach a level in your class that gives you a subclass feature, you gain one feature of your choice from the options presented here. Each feature has a class level prerequisite, as noted beneath its name. You must meet that prerequisite to gain the feature."
+						"选择银羽笔法师子类别时，你获得两个特性：雄辩学徒和银羽箭。",
+						"在这个子类的特定内容中，任何提及你的职业都指的是你获得该子类的职业。如果你是吟游诗人，银羽学院被视为你的学院；如果你是魔契师，学院被视为你的 patrons；如果你是法师，学院被视为你的传统。",
+						"当你随后达到你的职业等级，可以获得子类特性时，你可以选择这里提供的选项中的一个特性。每个特性都有一个职业等级先决条件，如其名称下方所注。你必须满足该先决条件才能获得该特性。"
 					]
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Eloquent Apprentice|Generic|Generic|Silverquill (UA)|UA2021MagesOfStrixhaven|1"
+					"subclassFeature": "雄辩学徒|Generic|Generic|银羽法师子类别（UA）|UA2021MagesOfStrixhaven|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Silvery Barbs|Generic|Generic|Silverquill (UA)|UA2021MagesOfStrixhaven|1"
+					"subclassFeature": "银光锐语|Generic|Generic|银羽法师子类别（UA）|UA2021MagesOfStrixhaven|1"
 				}
 			]
 		},
 		{
-			"name": "Silvery Barbs",
+			"ENG_name": "Silvery Barbs",
+			"name": "银光锐语",
 			"source": "UA2021MagesOfStrixhaven",
 			"page": 7,
 			"className": "Generic",
 			"classSource": "Generic",
-			"subclassShortName": "Silverquill (UA)",
+			"subclassShortName": "银羽法师子类别（UA）",
 			"subclassSource": "UA2021MagesOfStrixhaven",
 			"level": 1,
 			"isGainAtNextFeatureLevel": true,
 			"entries": [
-				"{@i Level 1+ Mage of Silverquill Feature}",
-				"You can invoke words laced with magic to demoralize your foes and turn their misfortune into a boon to bolster your allies. Immediately after a creature you can see within 60 feet of you succeeds on an attack roll, an ability check, or a saving throw, you can use your reaction to demoralize the creature. Unless the creature is immune to being {@condition charmed}, it rerolls the {@dice d20} and must use the lower roll. If the attack roll, ability check, or saving throw then fails, you can choose a different creature you can see within 60 feet of you (you can choose yourself). That creature is empowered, and can reroll one attack roll, ability check, or saving throw it makes within 1 minute and use the higher result. A creature can be empowered by only one use of this feature at a time.",
-				"Once a creature fails an attack roll, an ability check, or a saving throw because of a reroll forced by this feature, you can't use the feature again until you finish a long rest, unless you expend a spell slot to use it again."
+				"{@i 1级及以上银羽法师特性}",
+				"你可以召唤带有魔法的词句来打击你的敌人，并将他们的不幸转化为增强你盟友的福音。当你可以看到的60英尺内的生物成功进行攻击检定、属性检定或豁免检定后，你可以使用你的反应来打击这个生物。除非该生物对{@condition 魅惑}免疫，否则它需要重投{@dice d20}并必须使用较低的数字。如果攻击检定、属性检定或豁免检定随后失败，你可以选择另一个你可以看到60英尺内的生物（你可以选择自己）。那个生物被赋予力量，可以在1分钟内重投一次攻击检定、属性检定或豁免检定，并使用较高的结果。一个生物一次只能被这个特性赋予力量一次。",
+				"一旦生物因为此特性强制的重投而失败攻击检定、属性检定或豁免检定，在你完成一次长休之前，你无法再次使用此特性，除非你消耗一个法术位来再次使用它。"
 			]
 		},
 		{
-			"name": "Inky Shroud",
+			"ENG_name": "Inky Shroud",
+			"name": "墨水帷幕",
 			"source": "UA2021MagesOfStrixhaven",
 			"page": 7,
 			"className": "Generic",
 			"classSource": "Generic",
-			"subclassShortName": "Silverquill (UA)",
+			"subclassShortName": "银羽法师子类别（UA）",
 			"subclassSource": "UA2021MagesOfStrixhaven",
 			"level": 6,
 			"isGainAtNextFeatureLevel": true,
 			"header": 2,
 			"entries": [
-				"{@i Level 6+ Mage of Silverquill Feature}",
-				"You learn the {@spell darkness} spell, and it is added to your class spell list if it isn't there already. If you are a wizard, you add it to your spellbook, if it's not there already.",
-				"You can cast the spell without expending a spell slot, and you can't do so again until you finish a long rest. When you cast the spell in this way, you can see normally through the darkness created, and when a creature you can see starts its turn in the darkness, you can deal {@damage 2d10} psychic damage to that creature.",
-				"You can also cast the spell normally, without the additional effects, by using spell slots you have of 2nd level or higher."
+				"{@i 6级及以上银羽法师特性}",
+				"你学会了{@spell 黑暗术}法术，如果它尚未在你的法术列表中，它会被添加进去。如果你是法师，如果它尚未在你的法术书中，你会将它添加进去。",
+				"你可以不消耗法术位来施放这个法术，并且直到你完成一次长时间的休息前，你不能再以这种方式施放。当你以这种方式施放法术时，你可以正常看到创造的黑暗中的事物，并且当一个你可以看到的生物在其回合开始时处于黑暗中，你可以对该生物造成{@damage 2d10}点心灵伤害。",
+				"你也可以使用2级或更高级别的法术位正常施放该法术，而不附加额外效果。"
 			]
 		},
 		{
-			"name": "Infusion of Eloquence",
+			"ENG_name": "Infusion of Eloquence",
+			"name": "辩力注法",
 			"source": "UA2021MagesOfStrixhaven",
 			"page": 7,
 			"className": "Generic",
 			"classSource": "Generic",
-			"subclassShortName": "Silverquill (UA)",
+			"subclassShortName": "银羽法师子类别（UA）",
 			"subclassSource": "UA2021MagesOfStrixhaven",
 			"level": 10,
 			"isGainAtNextFeatureLevel": true,
 			"header": 2,
 			"entries": [
-				"{@i Level 10+ Mage of Silverquill Feature}",
-				"When you cast a spell that deals damage, you can invoke additional words of power to change the spell's damage type to your choice of psychic or radiant. Any creature damaged by the spell takes extra damage equal to your proficiency bonus and has its emotions swayed with despair or adoration, based on the damage type dealt:",
+				"{@i 10级+ 银羽法师特性}",
+				"当你施放一个造成伤害的法术时，你可以召唤额外的强力词句将法术的伤害类型改变为你选择的心灵或辐射。任何受到法术伤害的生物将受到额外的伤害，等于你的熟练加值，并且根据造成的伤害类型，其情绪会被引导向绝望或崇拜：",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
+							"ENG_name": "Psychic",
+							"name": "心灵",
 							"type": "item",
-							"name": "Psychic",
-							"entry": "The creature is {@condition frightened} of you until the start of your next turn."
+							"entry": "该生物直到你的下一个回合开始时都会对你感到{@condition 恐慌}。"
 						},
 						{
+							"ENG_name": "Radiant",
+							"name": "光耀",
 							"type": "item",
-							"name": "Radiant",
-							"entry": "The creature is {@condition charmed} by you until the start of your next turn."
+							"entry": "该生物被你{@condition 魅惑}，直到你的下一个回合开始。"
 						}
 					]
 				},
-				"You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+				"你可以使用此能力的次数等同于你的熟练加值。当你完成一次长休后，你重获全部已消耗的使用次数。"
 			]
 		},
 		{
-			"name": "Word of Power",
+			"ENG_name": "Word of Power",
+			"name": "威力真言",
 			"source": "UA2021MagesOfStrixhaven",
 			"page": 7,
 			"className": "Generic",
 			"classSource": "Generic",
-			"subclassShortName": "Silverquill (UA)",
+			"subclassShortName": "银羽法师子类别（UA）",
 			"subclassSource": "UA2021MagesOfStrixhaven",
 			"level": 14,
 			"isGainAtNextFeatureLevel": true,
 			"header": 2,
 			"entries": [
-				"{@i Level 14+ Mage of Silverquill Feature}",
-				"You can invoke a word of power that is the pinnacle of your magical study. You gain the following options:",
+				"{@i 14级以上银羽笔法师特性}",
+				"你可以召唤一个代表你魔法研究巅峰的力量之词。你获得了以下选项：",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
+							"ENG_name": "Deadly Despair",
+							"name": "致命绝望",
 							"type": "item",
-							"name": "Deadly Despair",
-							"entry": "When the target of your Silvery Barbs fails an attack roll, an ability check, or a saving throw because of the reroll, you can invoke a word of despair to give the target vulnerability to one damage type of your choice until the start of your next turn."
+							"entry": "当目标因重投而失败攻击检定、属性检定或豁免检定时，你可以召唤绝望之词，使目标在下一次你的回合开始前，对你选择的一种伤害类型易受伤害。"
 						},
 						{
+							"ENG_name": "Selfless Invocation",
+							"name": "无私祈求",
 							"type": "item",
-							"name": "Selfless Invocation",
-							"entry": "When a creature you can see within 60 feet of you takes damage, you can invoke a word of power using your reaction to grant the creature resistance to that damage, and you take an amount of psychic damage equal to the damage that creature takes."
+							"entry": "当你可以看到的60英尺内的生物受到伤害时，你可以使用你的反应来使用一个力量之词，赋予该生物对该伤害的抗性，并且你受到等于该生物所受伤害量的心灵伤害。"
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "Essence Tap",
+			"ENG_name": "Essence Tap",
+			"name": "精粹利用",
 			"source": "UA2021MagesOfStrixhaven",
 			"page": 8,
 			"className": "Generic",
 			"classSource": "Generic",
-			"subclassShortName": "Witherbloom (UA)",
+			"subclassShortName": "枯萎之花学院特性",
 			"subclassSource": "UA2021MagesOfStrixhaven",
 			"level": 1,
 			"isGainAtNextFeatureLevel": true,
 			"entries": [
-				"{@i Level 1+ Mage of Witherbloom Feature}",
-				"As a bonus action, you can draw on a reservoir of life essence to empower yourself for 1 minute, or until you use this feature again. For the duration, you gain one of the following benefits of your choice:",
+				"{@i 1级+ 枯萎之花法师特性}",
+				"作为一项附赠动作，你可以汲取生命精华的储备来增强自己，持续时间为1分钟，或者直到你再次使用这个特性。在持续期间，你可以选择以下一项效果：",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
+							"ENG_name": "Overgrowth",
+							"name": "繁茂",
 							"type": "item",
-							"name": "Overgrowth",
-							"entry": "When you choose this benefit, and as a bonus action on subsequent turns while the benefit lasts, you can expend and roll one Hit Die. You regain a number of hit points equal to the number rolled plus your spellcasting ability modifier."
+							"entry": "当你选择这个好处时，以及在好处持续期间的后续回合中，你可以作为奖励动作消耗并投掷一个生命骰。你恢复的生命值等于投掷出的数字加上你的施法能力调整值。"
 						},
 						{
+							"ENG_name": "Withering Strike",
+							"name": "凋零打击",
 							"type": "item",
-							"name": "Withering Strike",
-							"entry": "When you deal damage, you can change the damage type to necrotic, and you ignore resistance to necrotic damage."
+							"entry": "当你造成伤害时，你可以将伤害类型更改为死灵伤害，并且忽略对死灵伤害的抗性。"
 						}
 					]
 				},
-				"You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+				"你可以使用此能力的次数等同于你的熟练加值。当你完成一次长休后，你重获全部已消耗的使用次数。"
 			]
 		},
 		{
-			"name": "Mage of Witherbloom",
+			"ENG_name": "Mage of Witherbloom",
+			"name": "靡华魔法师",
 			"source": "UA2021MagesOfStrixhaven",
 			"page": 8,
 			"className": "Generic",
 			"classSource": "Generic",
-			"subclassShortName": "Witherbloom (UA)",
+			"subclassShortName": "枯萎之花学院特性",
 			"subclassSource": "UA2021MagesOfStrixhaven",
 			"level": 1,
 			"isGainAtNextFeatureLevel": true,
 			"entries": [
-				"{@i Druid and Warlock Subclass}",
-				"Mages of Witherbloom draw their magic from the energy that endlessly flows from life to death, and back again. They see the duality of thriving life and inevitable death in all things, tapping and manipulating the transition of energy between these states. Some Witherbloom adherents focus on vital energies to nurture life and empower others, while others embrace the drain of vitality into decay to sap and strike down their foes.",
+				"{@i 德鲁伊和魔契师子类别}",
+				"枯萎之花的法师们从生命到死亡，再从死亡到生命的无尽能量流动中汲取魔法。他们看到万物中蓬勃生命与不可避免的死亡的双重性，利用和操纵这些状态之间的能量转换。一些枯萎之花的信徒专注于生命能量以滋养生命和增强他人，而其他信徒则拥抱生命能量的流失到衰变，以削弱和击倒他们的敌人。",
 				{
+					"ENG_name": "Using This Subclass",
+					"name": "使用此子职业",
 					"type": "entries",
-					"name": "Using This Subclass",
 					"entries": [
-						"Upon selecting the Mage of Witherbloom subclass, you gain two features: Witherbloom Spells and Essence Tap.",
-						"In this subclass's features, any reference to your class refers to the class from which you gained the subclass. If you're a druid, the College of Witherbloom counts as your circle, and if you're a warlock, the college counts as your patron.",
-						"When you subsequently reach a level in your class that gives you a subclass feature, you gain one feature of your choice from the options presented here. Each feature has a class level prerequisite, as noted beneath its name. You must meet that prerequisite to gain the feature."
+						"选择枯萎之花法师子类别后，你获得了两个特性：枯萎之花法术和精华汲取。",
+						"在这个子类的特徵中，任何提到你的职业的地方都是指你获得子类的那个职业。如果你是德鲁伊，凋零之花学院被视为你的圈子，如果你是魔契师，该学院被视为你的魔宠。",
+						"当你随后达到你的职业等级，可以获得子类特性时，你可以选择这里提供的选项中的一个特性。每个特性都有一个职业等级先决条件，如其名称下方所注。你必须满足该先决条件才能获得该特性。"
 					]
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Witherbloom Spells|Generic|Generic|Witherbloom (UA)|UA2021MagesOfStrixhaven|1"
+					"subclassFeature": "靡华法术|Generic|Generic|枯萎之花学院特性|UA2021MagesOfStrixhaven|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Essence Tap|Generic|Generic|Witherbloom (UA)|UA2021MagesOfStrixhaven|1"
+					"subclassFeature": "精粹利用|Generic|Generic|枯萎之花学院特性|UA2021MagesOfStrixhaven|1"
 				}
 			]
 		},
 		{
-			"name": "Witherbloom Spells",
+			"ENG_name": "Witherbloom Spells",
+			"name": "靡华法术",
 			"source": "UA2021MagesOfStrixhaven",
 			"page": 8,
 			"className": "Generic",
 			"classSource": "Generic",
-			"subclassShortName": "Witherbloom (UA)",
+			"subclassShortName": "枯萎之花学院特性",
 			"subclassSource": "UA2021MagesOfStrixhaven",
 			"level": 1,
 			"isGainAtNextFeatureLevel": true,
 			"entries": [
-				"{@i Level 1+ Mage of Witherbloom Feature}",
-				"You learn the cantrip {@spell spare the dying} and the 1st-level spells {@spell cure wounds} and {@spell inflict wounds}. You learn additional spells when you reach certain levels in this class, as shown on the Witherbloom Spells table.",
-				"Each of these spells count as a class spell for you, but it doesn't count against the number of spells you know. If you are a druid, you always have the spells prepared, and they don't count against the number of spells you can prepare each day.",
+				"{@i 1级+ 枯萎之花法师特性}",
+				"你学会了戏法{@spell 维生术}和1环法术{@spell 疗伤术}和{@spell 致伤术}。当你达到本职业的特定等级时，你会学到额外的法术，如枯萎之花法术表所示。",
+				"这些法术对你来说都算作职业法术，但它们不计入你所知道的法术数量。如果你是德鲁伊，你总是准备好了这些法术，并且它们不计入你每天可以准备的法术数量。",
 				{
 					"type": "table",
-					"caption": "Witherbloom Spells",
+					"caption": "靡华法术",
 					"colLabels": [
-						"Class Level",
-						"Spells"
+						"职业等级",
+						"法术"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -1128,116 +1211,123 @@
 					],
 					"rows": [
 						[
-							"3rd",
-							"{@spell lesser restoration}, {@spell ray of enfeeblement}"
+							"3环",
+							"{@spell 次等复原术}, {@spell 衰弱射线}"
 						],
 						[
-							"5th",
-							"{@spell revivify}, {@spell vampiric touch}"
+							"5环",
+							"{@spell 回生术}, {@spell 吸血鬼之触}"
 						],
 						[
 							"7th",
-							"{@spell blight}, {@spell greater restoration}"
+							"{@spell 枯萎术}, {@spell 高等复原术}"
 						],
 						[
 							"9th",
-							"{@spell antilife shell}, {@spell mass cure wounds}"
+							"{@spell 防活物护罩}, {@spell 群体疗伤术}"
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "Witherbloom Brew",
+			"ENG_name": "Witherbloom Brew",
+			"name": "靡华合剂",
 			"source": "UA2021MagesOfStrixhaven",
 			"page": 8,
 			"className": "Generic",
 			"classSource": "Generic",
-			"subclassShortName": "Witherbloom (UA)",
+			"subclassShortName": "枯萎之花学院特性",
 			"subclassSource": "UA2021MagesOfStrixhaven",
 			"level": 6,
 			"isGainAtNextFeatureLevel": true,
 			"header": 2,
 			"entries": [
-				"{@i Level 6+ Mage of Witherbloom Feature}",
-				"You gain proficiency with herbalism kits if you don't already have it.",
-				"When you finish a long rest, you can use an herbalism kit and a pot or cauldron to create magical brews. You create a number of brews equal to your proficiency bonus. Each brew requires its own flask. A brew retains its magical potency for 24 hours or until it is used. For each brew, choose one of the following effects:",
+				"{@i 6级+ 枯萎之花法师特性}",
+				"如果你还没有草药工具包的熟练度，你将获得它。",
+				"当你完成一次长时间的休息后，你可以使用草药工具包和一个罐子或大锅来制作魔法药水。你创造的药水数量等于你的熟练加值。每种药水都需要自己的小瓶。药水保持其魔法效力24小时或直到被使用。对于每种药水，选择以下效果之一：",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
+							"ENG_name": "Fortifying",
+							"name": "强化特性",
 							"type": "item",
-							"name": "Fortifying",
-							"entry": "When you create this brew, choose a damage type from the following list: cold, fire, necrotic, poison, or radiant. A creature can drink this brew or administer it to another creature as an action. The recipient gains resistance to the chosen damage type for 1 hour."
+							"entry": "当你酿造这种药剂时，从以下列表中选择一种伤害类型：寒冷、火焰、亡灵、毒素或辐射。一个生物可以饮用这种药剂，或者作为动作将其给予另一个生物。接受者在1小时内对该选择的伤害类型获得抗性。"
 						},
 						{
+							"ENG_name": "Quickening",
+							"name": "迅捷术",
 							"type": "item",
-							"name": "Quickening",
-							"entry": "A creature can drink this brew or administer it to another creature as an action. The recipient regains {@dice 2d6} hit points, and one disease or condition from the following list affecting the recipient ends (brew user's choice): {@condition charmed}, {@condition frightened}, {@condition paralyzed}, {@condition poisoned}, {@condition stunned}."
+							"entry": "生物可以饮用这种药剂，或者作为动作将其给予另一个生物。接受者恢复{@dice 2d6}点生命值，并且以下列表中影响接受者的一个疾病或状态结束（药剂使用者选择）：{@condition 魅惑}，{@condition 恐慌}，{@condition 麻痹}，{@condition 中毒}，{@condition 震慑}。"
 						},
 						{
+							"ENG_name": "Toxifying",
+							"name": "毒化",
 							"type": "item",
-							"name": "Toxifying",
-							"entry": "As an action, a creature can apply this brew to a {@filter simple or martial weapon|items|source=phb|category=basic|type=martial weapon;simple weapon}. The next time the weapon or a piece of ammunition fired by it hits a creature within 1 hour, the target takes {@damage 2d6} poison damage and must succeed on a Constitution saving throw against your spell save DC or be {@condition poisoned} for 1 minute."
+							"entry": "作为一个动作，生物可以将这种药剂涂在一件{@filter 简易或军用武器|items|source=phb|category=基础|type=军用武器;简易武器}上。在1小时内，下一次该武器或其发射的弹药击中生物时，目标将受到{@damage 2d6}毒素伤害，并必须通过对抗你的法术豁免DC的体质豁免，否则将被{@condition 中毒}1分钟。"
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "Witherbloom Adept",
+			"ENG_name": "Witherbloom Adept",
+			"name": "靡华精进",
 			"source": "UA2021MagesOfStrixhaven",
 			"page": 9,
 			"className": "Generic",
 			"classSource": "Generic",
-			"subclassShortName": "Witherbloom (UA)",
+			"subclassShortName": "枯萎之花学院特性",
 			"subclassSource": "UA2021MagesOfStrixhaven",
 			"level": 10,
 			"isGainAtNextFeatureLevel": true,
 			"header": 2,
 			"entries": [
-				"{@i Level 10+ Mage of Witherbloom Feature}",
-				"Your connection to the flow of life force deepens. Once per turn when you deal necrotic damage or restore hit points using a spell, one target of the spell takes additional damage or regains additional hit points equal to your proficiency bonus."
+				"{@i 10级以上枯萎之花法师特性}",
+				"你对生命力流动的连接加深了。每当你在一轮中使用法术造成坏死伤害或恢复生命值时，法术的一个目标会额外受到等于你的熟练加值的伤害，或额外恢复等于你的熟练加值的生命值。"
 			]
 		},
 		{
-			"name": "Withering Vortex",
+			"ENG_name": "Withering Vortex",
+			"name": "凋零涡流",
 			"source": "UA2021MagesOfStrixhaven",
 			"page": 9,
 			"className": "Generic",
 			"classSource": "Generic",
-			"subclassShortName": "Witherbloom (UA)",
+			"subclassShortName": "枯萎之花学院特性",
 			"subclassSource": "UA2021MagesOfStrixhaven",
 			"level": 14,
 			"isGainAtNextFeatureLevel": true,
 			"header": 2,
 			"entries": [
-				"{@i Level 14+ Mage of Witherbloom Feature}",
-				"When you cast a spell using a spell slot that deals necrotic damage to any number of creatures that aren't Undead or Constructs, choose one of the creatures that took damage. You drain an amount of life energy equal to half the damage dealt to the chosen creature. One creature other than yourself that you can see within 30 feet of you regains a number of hit points equal to the life energy drained.",
-				"You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+				"{@i 14级及以上枯萎之花法师特性}",
+				"当你使用法术位施放一个对非亡灵或构装生物造成坏死伤害的法术时，选择一个受到伤害的生物。你吸取相当于所选生物受到的伤害的一半的生命能量。在你30英尺范围内，你可以看到的另一个生物恢复等于被吸取生命能量数量的生命值。",
+				"你可以使用此能力的次数等同于你的熟练加值。当你完成一次长休后，你重获全部已消耗的使用次数。"
 			]
 		}
 	],
 	"monster": [
 		{
-			"name": "Ancient Companion",
+			"ENG_name": "Ancient Companion",
+			"name": "先古行侣",
+			"type": "construct",
 			"source": "UA2021MagesOfStrixhaven",
 			"page": 3,
 			"size": [
 				"M"
 			],
-			"type": "construct",
 			"alignment": [
 				"A"
 			],
 			"ac": [
 				{
-					"special": "14 (natural armor) + 2 (Warrior only)"
+					"special": "14（天生护甲）+ 2（仅战士）"
 				}
 			],
 			"hp": {
-				"special": "5 + 5 times your level in this class (the companion has a number of Hit Dice [d8s] equal to your level in this class)"
+				"special": "5 + 5乘以你在本职业中的等级（同伴拥有与你在本职业中的等级相等的命中骰[d8]数量）"
 			},
 			"speed": {
 				"walk": 30
@@ -1266,42 +1356,47 @@
 				"exhaustion"
 			],
 			"languages": [
-				"speaks and understands the languages you speak"
+				"会说并理解你所说的语言"
 			],
-			"pbNote": "equals your bonus",
+			"pbNote": "等于你的加值",
 			"trait": [
 				{
-					"name": "Ancient Fortitude",
+					"ENG_name": "Ancient Fortitude",
+					"name": "先古坚韧",
 					"entries": [
-						"If damage reduces the companion to 0 hit points, it can make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is from a critical hit. On a success, the companion drops to 1 hit point instead."
+						"如果伤害使伙伴的生命值降至0点，除非伤害来自致命一击，否则它可以进行一次体质豁免检定，难度等级为5加上所受伤害。成功时，伙伴的生命值降至1点。"
 					]
 				},
 				{
-					"name": "Sage's Counsel (Sage Only)",
+					"ENG_name": "Sage's Counsel (Sage Only)",
+					"name": "贤者谏言（仅贤者）",
 					"entries": [
-						"While within 15 feet of the companion, you and your allies gain a +2 bonus to Intelligence and Wisdom checks."
+						"在伙伴周围15英尺范围内时，你和你的盟友在智力和智慧检定上获得+2加值。"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Spirit Strike",
+					"ENG_name": "Spirit Strike",
+					"name": "魂灵打击",
 					"entries": [
-						"{@atk mw} your spell attack modifier to hit, reach 5 ft., one target you can see. {@h}{@damage 1d8 + 2 + PB} force damage."
+						"{@atk mw} 你的法术攻击调整值用于命中，射程5英尺，一个你能看到的目标。{@h}{@damage 1d8 + 2 + PB} 力能伤害。"
 					]
 				},
 				{
-					"name": "Healer's Light (Healer Only)",
+					"ENG_name": "Healer's Light (Healer Only)",
+					"name": "治愈者之光（仅治愈者）",
 					"entries": [
-						"The companion chooses a creature it can see within 15 feet of itself and flares with invigorating light. The creature gains {@dice 1d8 + PB} temporary hit points."
+						"同伴选择它自己15英尺范围内可以看到的一个生物，并发出振奋人心的光芒。该生物获得{@dice 1d8 + 职业等级加值}临时生命值。"
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Warrior's Protection (Warrior Only)",
+					"ENG_name": "Warrior's Protection (Warrior Only)",
+					"name": "战士的保护（仅战士）",
 					"entries": [
-						"When a creature within 5 feet of the companion makes a Strength or Dexterity saving throw, the companion imposes itself between the creature and the danger. The creature can roll a {@dice d4} and add the number rolled to the saving throw."
+						"当伙伴周围5英尺范围内的生物进行力量或敏捷豁免检定时，伙伴会插入生物和危险之间。该生物可以投一个{@dice d4}并将投出的数字加到豁免检定上。"
 					]
 				}
 			],

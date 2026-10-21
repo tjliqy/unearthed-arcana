@@ -4,7 +4,7 @@
 			{
 				"json": "UAWayfindersGuideToEberron",
 				"abbreviation": "WGE",
-				"full": "Wayfinder's Guide to Eberron",
+				"full": "艾伯伦寻路者指南",
 				"url": "https://www.dmsguild.com/product/247882/Wayfinders-Guide-to-Eberron-5e",
 				"version": "1.0.0",
 				"dateReleased": "2018-07-23",
@@ -18,14 +18,15 @@
 		],
 		"edition": "classic",
 		"dateAdded": 1701616429,
-		"dateLastModified": 1774092631,
+		"dateLastModified": 1792466285,
 		"_dateLastModifiedHash": "bbbc10f811"
 	},
 	"subrace": [
 		{
-			"name": "High; Aereni",
+			"ENG_name": "High; Aereni",
+			"name": "高等; 艾瑞尼",
 			"source": "UAWayfindersGuideToEberron",
-			"raceName": "Elf",
+			"raceName": "精灵",
 			"raceSource": "PHB",
 			"page": 73,
 			"speed": 30,
@@ -43,8 +44,8 @@
 					"choose": [
 						{
 							"from": [
-								"anySkill",
-								"anyTool"
+								"任意技能",
+								"任意工具"
 							]
 						}
 					]
@@ -57,7 +58,7 @@
 						"1": {
 							"_": [
 								{
-									"choose": "level=0|class=Wizard"
+									"choose": "level=0|class=法师"
 								}
 							]
 						}
@@ -66,32 +67,36 @@
 			],
 			"entries": [
 				{
+					"ENG_name": "Aereni Training",
+					"name": "艾瑞尼训练",
 					"type": "entries",
-					"name": "Aereni Training",
 					"entries": [
-						"Choose one skill or {@book tool|phb|5|tools} proficiency. Your proficiency bonus is doubled for any ability check you make that uses this chosen proficiency."
+						"选择一项技能或{@book 工具|phb|5|工具}熟练。你在使用此熟练项进行属性检定时，熟练加值翻倍。"
 					]
 				},
 				{
+					"ENG_name": "Cantrip",
+					"name": "戏法",
 					"type": "entries",
-					"name": "Cantrip",
 					"entries": [
-						"You know one {@filter cantrip of your choice from the wizard spell list|spells|level=0|class=Wizard}. Intelligence is your spellcasting ability for it."
+						"你习得一个{@filter 从法师法术列表中选择的戏法|spells|level=0|class=法师}。其施法属性为智力。"
 					]
 				},
 				{
+					"ENG_name": "Extra Language",
+					"name": "额外语言",
 					"type": "entries",
-					"name": "Extra Language",
 					"entries": [
-						"You can speak, read, and write one extra language of your choosing."
+						"你能说、读、写一门额外的自选语言。"
 					]
 				}
 			]
 		},
 		{
-			"name": "High; Valenar",
+			"ENG_name": "High; Valenar",
+			"name": "高等; 维伦那",
 			"source": "UAWayfindersGuideToEberron",
-			"raceName": "Elf",
+			"raceName": "精灵",
 			"raceSource": "PHB",
 			"page": 73,
 			"speed": 30,
@@ -115,7 +120,7 @@
 						"1": {
 							"_": [
 								{
-									"choose": "level=0|class=Wizard"
+									"choose": "level=0|class=法师"
 								}
 							]
 						}
@@ -124,32 +129,36 @@
 			],
 			"entries": [
 				{
+					"ENG_name": "Valenar Weapon Training",
+					"name": "维伦那武器训练",
 					"type": "entries",
-					"name": "Valenar Weapon Training",
 					"entries": [
-						"A Valenar elf gains proficiency with the {@item scimitar|phb}, {@item Double-Bladed Scimitar|erlw|double scimitar}, {@item longbow|phb}, and {@item shortbow|phb}."
+						"维伦那精灵获得{@item 弯刀|phb}、{@item 双刃弯刀|ERLW|双弯刀}、{@item 长弓|phb}和{@item 短弓|phb}的熟练项。"
 					]
 				},
 				{
+					"ENG_name": "Cantrip",
+					"name": "戏法",
 					"type": "entries",
-					"name": "Cantrip",
 					"entries": [
-						"You know one {@filter cantrip of your choice from the wizard spell list|spells|level=0|class=Wizard}. Intelligence is your spellcasting ability for it."
+						"你习得一个{@filter 从法师法术列表中选择的戏法|spells|level=0|class=法师}。其施法属性为智力。"
 					]
 				},
 				{
+					"ENG_name": "Extra Language",
+					"name": "额外语言",
 					"type": "entries",
-					"name": "Extra Language",
 					"entries": [
-						"You can speak, read, and write one extra language of your choosing."
+						"你能说、读、写一门额外的自选语言。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Wood; Aereni",
+			"ENG_name": "Wood; Aereni",
+			"name": "木; 艾瑞尼",
 			"source": "UAWayfindersGuideToEberron",
-			"raceName": "Elf",
+			"raceName": "精灵",
 			"raceSource": "PHB",
 			"page": 73,
 			"speed": 35,
@@ -160,32 +169,36 @@
 			],
 			"entries": [
 				{
+					"ENG_name": "Aereni Training",
+					"name": "艾瑞尼训练",
 					"type": "entries",
-					"name": "Aereni Training",
 					"entries": [
-						"Choose one skill or {@book tool|phb|5|tools} proficiency. Your proficiency bonus is doubled for any ability check you make that uses this chosen proficiency."
+						"选择一项技能或{@book 工具|phb|5|工具}熟练。你在使用此熟练项进行属性检定时，熟练加值翻倍。"
 					]
 				},
 				{
+					"ENG_name": "Fleet of Foot",
+					"name": "轻捷步伐",
 					"type": "entries",
-					"name": "Fleet of Foot",
 					"entries": [
-						"Your base walking speed increases to 35 feet."
+						"你的基础步行速度提升至35尺。"
 					]
 				},
 				{
+					"ENG_name": "Mask of the Wild",
+					"name": "荒野隐蔽",
 					"type": "entries",
-					"name": "Mask of the Wild",
 					"entries": [
-						"You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+						"即便你只处于轻度遮蔽的状态，只要这一轻度遮蔽由树丛，大雨，落雪，雾气或其他自然现象提供，你也可以进行躲藏。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Wood; Valenar",
+			"ENG_name": "Wood; Valenar",
+			"name": "木; 维伦那",
 			"source": "UAWayfindersGuideToEberron",
-			"raceName": "Elf",
+			"raceName": "精灵",
 			"raceSource": "PHB",
 			"page": 73,
 			"speed": 35,
@@ -204,24 +217,27 @@
 			],
 			"entries": [
 				{
+					"ENG_name": "Valenar Weapon Training",
+					"name": "维伦那武器训练",
 					"type": "entries",
-					"name": "Valenar Weapon Training",
 					"entries": [
-						"A Valenar elf gains proficiency with the {@item scimitar|phb}, {@item Double-Bladed Scimitar|erlw|double scimitar}, {@item longbow|phb}, and {@item shortbow|phb}."
+						"维伦那精灵获得{@item 弯刀|phb}、{@item 双刃弯刀|ERLW|双弯刀}、{@item 长弓|phb}和{@item 短弓|phb}的熟练项。"
 					]
 				},
 				{
+					"ENG_name": "Fleet of Foot",
+					"name": "轻捷步伐",
 					"type": "entries",
-					"name": "Fleet of Foot",
 					"entries": [
-						"Your base walking speed increases to 35 feet."
+						"你的基础步行速度提升至35尺。"
 					]
 				},
 				{
+					"ENG_name": "Mask of the Wild",
+					"name": "荒野隐蔽",
 					"type": "entries",
-					"name": "Mask of the Wild",
 					"entries": [
-						"You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+						"即便你只处于轻度遮蔽的状态，只要这一轻度遮蔽由树丛，大雨，落雪，雾气或其他自然现象提供，你也可以进行躲藏。"
 					]
 				}
 			]
@@ -229,18 +245,19 @@
 	],
 	"item": [
 		{
-			"name": "Bag of Bounty",
+			"ENG_name": "Bag of Bounty",
+			"name": "盛宴餐袋",
 			"source": "UAWayfindersGuideToEberron",
 			"page": 116,
 			"rarity": "uncommon",
 			"wondrous": true,
 			"entries": [
-				"This is a sturdy leather sack with tiny Siberys shards embedded into the lining. If you have the Mark of Hospitality you can use an action to cast {@spell create food and water}, drawing a feast from within the bag. You shape this meal with your thoughts. You can create the standard bland fare without requiring any sort of check, but you can attempt to create finer food by making a Charisma check; if you're proficient with {@item cook's utensils|PHB}, add your bonus to this check. A failed check results in a sour and squalid meal.",
+				"这是一个结实的皮甲麻袋，内衬嵌有微型西伯瑞斯碎片。若你拥有招待龙纹，则可以使用一个动作施放{@spell 造粮术}，从挎包中取出一场盛宴。你可以用思想塑造这顿餐点。你可以无需任何检定创造标准平淡的食物，但也可以通过魅力检定尝试创造更精致的进食；若你擅长{@item 厨师工具|PHB}，则将你的附赠动作加到此检定上。检定失败会导致酸涩且流浪的食物。",
 				{
 					"type": "table",
 					"colLabels": [
-						"Food Quality",
-						"Difficulty"
+						"食物质量",
+						"难度"
 					],
 					"colStyles": [
 						"col-6",
@@ -248,85 +265,90 @@
 					],
 					"rows": [
 						[
-							"Poor",
-							"No roll required"
+							"穷困",
+							"无需掷骰"
 						],
 						[
-							"Modest",
+							"俭朴",
 							10
 						],
 						[
-							"Comfortable",
+							"舒适",
 							13
 						],
 						[
-							"Wealthy",
+							"富裕",
 							15
 						],
 						[
-							"Aristocratic",
+							"奢华",
 							18
 						]
 					]
 				},
-				"A bag of bounty can be used up to three times over the course of a day. After that, the bag can't be used again until the next dawn."
+				"一个盛宴餐袋可以在一天内使用最多三次。之后，该挎包直到次日拂晓前都无法再次使用。"
 			]
 		},
 		{
-			"name": "Band of Loyalty",
+			"ENG_name": "Band of Loyalty",
+			"name": "忠诚戒指",
+			"type": "RG|DMG",
 			"source": "UAWayfindersGuideToEberron",
 			"page": 115,
-			"type": "RG|DMG",
 			"rarity": "common",
 			"reqAttune": true,
 			"entries": [
-				"If you are reduced to zero hit points while attuned to a band of loyalty, you instantly die. These rings are favored by spies who can't afford to fall into enemy hands."
+				"如果你在佩戴忠诚戒指时生命值降至零，你会立即死亡。这些戒指深受那些不能落入仇敌之手的间谍们青睐。"
 			]
 		},
 		{
-			"name": "Rings of Shared Suffering",
+			"ENG_name": "Rings of Shared Suffering",
+			"name": "共患难戒指",
+			"type": "RG|DMG",
 			"source": "UAWayfindersGuideToEberron",
 			"page": 117,
-			"type": "RG|DMG",
 			"rarity": "uncommon",
 			"reqAttune": true,
 			"entries": [
-				"These rings come in linked pairs. If you possess the Mark of Sentinel, you can use a bonus action to form a link to the creature attuned to the other ring; from then on, whenever that creature suffers damage, they only suffer half of that damage and you take the rest. This effect continues until you end it as a bonus action or until you or the other creature removes their ring. This effect isn't limited by range. A creature cannot be attuned to more than one ring of shared suffering."
+				"这些戒指成对出现。如果你拥有哨戒龙纹，你可以使用一个附赠动作与另一个戒指调谐的生物建立链接；此后每当该生物受到伤害时，他们只受到一半伤害且你承受另一半。此效应持续到你用一个附赠动作结束它，或直到你或另一个生物取下他们的戒指。此效应不受范围限制。一个生物不能同时调谐多个共患难戒指。"
 			]
 		}
 	],
 	"variantrule": [
 		{
-			"name": "Common Languages",
+			"ENG_name": "Common Languages",
+			"name": "通用语",
 			"source": "UAWayfindersGuideToEberron",
 			"page": 40,
 			"ruleType": "O",
 			"entries": [
-				"Common is the language of the Five Nations. The Mror dwarves speak Dwarvish and the Aereni elves speak Elvish, but they know Common as the language of trade. In Eberron, there are a number of other languages that serve this role in different regions or cultures. The DM may change the languages assigned to a monster or NPC to reflect this.",
-				"Giant is the common tongue of Xen'drik. It is rarely encountered on Khorvaire. Monsters in Khorvaire usually speak Goblin.",
-				"Goblin is the common tongue of Darguun, Droaam, and the Shadow Marches, along with most \"monstrous\" creatures in Khorvaire. It was the language of the goblin empire that dominated the continent before humanity arrived. Orcish is a dead language; it may be encountered in ancient inscriptions, but modern orcs speak Goblin.",
-				"Infernal is spoken by spirits that embody evil. This incorporates Abyssal; all fiends speak a common language. Infernal is sometimes called \"Khyber's speech,\" while Celestial is \"the tongue of Siberys.\"",
-				"Riedran is the common tongue of the continent of Sarlona. Quori is spoken by the kalashtar, spirits native to Dal Quor, and the Inspired lords of Riedra."
+				"通用语是五国的语言。莫罗矮人说矮人语且艾瑞尼精灵说精灵语，但他们知道通用语作为贸易的语言。在艾伯伦，有许多其他语言在不同区域或文化中履行这一职能。DM可以改变分配给怪物或通用的语言以反映这一点。",
+				"巨人语是希恩德瑞克的通用语。在科瓦雷很少遇到。科瓦雷的怪物通常说地精语。",
+				"地精语是达贡、卓姆和阴影沼泽的通用语，也是科瓦雷大多数\"怪物\"生物的通用语。它是人类到来之前统治这片大陆的地精帝国的语言。兽人语是一种死亡语言；可能在远古铭文中遇到，但现代兽人讲地精语。",
+				"炼狱语由体现邪恶的精魂所使用。这包含了深渊语；所有邪魔都说一种通用语言。炼狱语有时被称为\"凯伯的口语\"，而天界生物的语言则被称为\"西伯瑞斯的舌卷\"。",
+				"瑞依卓尔语是索隆娜大陆的通用语。离梦人、源自达尔·库尔的精魂以及瑞依德拉的梦启者领主们使用梦灵语。"
 			]
 		},
 		{
-			"name": "Creating Magic Items",
+			"ENG_name": "Creating Magic Items",
+			"name": "创造魔法物品",
 			"source": "UAWayfindersGuideToEberron",
 			"page": 46,
 			"entries": [
-				"House Cannith has an enclave devoted solely to wand production. This facility is equipped with tools that amplify the Mark of Making and channel planar energies; the artisans also have access to a vast array of exotic woods and materials. You can also create a wand, but you're starting from scratch and creating the tools you need. Essentially, when House Cannith creates magic items, it's using factories; while your artificer is the equivalent of the tinkerer working in the garage. You can create magic items, and you can potentially create items that House Cannith can't make... but it's going to take you more time and gold than it takes for them. Here's an overview of the process.",
+				"坎尼斯家族有一个专门致力于魔杖生产的飞地。该设施配备了能放大创造龙纹并引导位面能量的工具；工匠们还能接触到大量特制木材和材质。你也可以制作魔杖，但你是从零开始并制作所需的工具。本质上，当坎尼斯家族制造魔法物品时，他们使用的是工厂；而你的奇械师则相当于在车库里工作的修补匠。你可以制造魔法物品，并且有可能制造出坎尼斯家族无法制作的物品......但这将花费你比他们更多的时间和金。这里是该过程的概述。",
 				{
+					"ENG_name": "The Schema",
+					"name": "图式",
 					"type": "entries",
-					"name": "The Schema",
 					"entries": [
-						"The first step in creating a magic item is to acquire a schema for it. This is the equivalent of a recipe or a blueprint; it explains the process and components required to create the item. If you can obtain a schema\u2014from House Cannith, the mystical library of Arcanix, the collection of an experienced artificer\u2014you're ready to move on. Otherwise, you can create a schema, but this takes time and skill. An arcane spellcaster uses {@skill Arcana} to create schema. A divine caster uses {@skill Religion}, while a druid or ranger relies on {@skill Nature}. You must have a minimum skill bonus\u2014your proficiency bonus plus your ability score bonus\u2014in order to develop a schema. You must maintain the minimum skill bonus for the duration of your work, so an effect that increases an ability score for a few minutes won't help you.",
+						"创造魔法物品的第一步是获取它的图式。这相当于食谱或蓝图；它解释了创造该物品所需的流程和成分。如果你能从坎尼斯家族、阿卡尼克斯的神秘图书馆、或一位经验丰富的奇械师的收藏中获得图式，你就可以继续下一步。否则，你可以自行创建图式，但这需要时间和技能。奥术施法者使用{@skill 奥秘}来创建图式。神圣施法者使用{@skill 宗教}，而德鲁伊或游侠则依赖{@skill 自然}。你必须具备最低技能加值\u2014\u2014你的熟练加值加上属性值加值\u2014\u2014才能开发图式。你必须在工作期间保持最低技能加值，因此一个仅在几分钟内提升属性值的效应对你没有帮助。",
 						{
 							"type": "table",
-							"caption": "Schema Creation Requirements",
+							"caption": "造物术要求",
 							"colLabels": [
-								"Item Rarity",
-								"Work weeks",
-								"Minimum Skill"
+								"物品稀有度",
+								"工作周",
+								"最低技能"
 							],
 							"colStyles": [
 								"col-4 text-right",
@@ -335,46 +357,47 @@
 							],
 							"rows": [
 								[
-									"Common",
-									"3 days",
+									"通用语",
+									"3 天",
 									"+2"
 								],
 								[
-									"Uncommon",
+									"非普通",
 									1,
 									"+4"
 								],
 								[
-									"Rare",
+									"珍稀",
 									3,
 									"+6"
 								],
 								[
-									"Very Rare",
+									"极珍稀",
 									8,
 									"+8"
 								],
 								[
-									"Legendary",
+									"传说",
 									16,
 									"+10"
 								]
 							]
 						},
-						"This ability to develop a schema represents remarkable talent. It could take House Cannith years or decades to develop a particular schema; the fact that you can accomplish this in weeks reflects the idea that player characters are innovators. However, it is always up to the DM to decide if you can create a particular schema. The DM can always choose to exclude a particular magic item from a campaign."
+						"这种开发构架的能力代表了非凡的天赋。坎尼斯家族可能需要数年或数十年才能开发出一个特定的构架；而你能在几周内完成这一事实反映了玩家角色是创新者的理念。然而，能否创建特定构架始终由DM决定。DM可以随时选择将特定魔法物品排除在战役之外。"
 					]
 				},
 				{
+					"ENG_name": "Rare Components",
+					"name": "珍稀成分",
 					"type": "entries",
-					"name": "Rare Components",
 					"entries": [
-						"Any magic item requires specialized materials\u2014Eberron dragonshards, rare woods or metals, exotic herbs or other substances. While exotic, these things can be purchased or obtained in any major city. But creating a magic item from scratch often requires rarer components that can't simply be purchased. You might need a flower from Thelanis, a feather from a couatl, or the scale of a dragon. More often than not, such this will require an adventure. You may not have to kill something to obtain what you need, but you'll surely have to overcome a challenge. The Magic Item Ingredients table suggests how difficult that challenge could be.",
+						"任何魔法物品都需要特殊材料\u2014\u2014艾伯伦龙晶、珍稀木材或金属、特制草药或其他物质。虽然这些材料很特制，但它们可以在任何主要城市购买或获取。但从零开始制作魔法物品通常需要更珍稀的成分，这些成分不能简单地购买。你可能需要一朵来自席兰尼的花朵、一根羽蛇的羽毛或一片龙的鳞片。更多时候，这样的需求将需要一场冒险。你可能不需要杀死什么来获取你需要的东西，但你肯定需要克服一个挑战。《魔法物品材料》表格建议了这个挑战可能的难度。",
 						{
 							"type": "table",
-							"caption": "Magic Item Ingredients",
+							"caption": "魔法物品材料",
 							"colLabels": [
-								"Item Rarity",
-								"CR Range"
+								"物品稀有度",
+								"CR 范围"
 							],
 							"colStyles": [
 								"col-6 text-center",
@@ -382,42 +405,43 @@
 							],
 							"rows": [
 								[
-									"Common",
+									"通用语",
 									"1\u20133"
 								],
 								[
-									"Uncommon",
+									"非普通",
 									"4\u20138"
 								],
 								[
-									"Rare",
+									"珍稀",
 									"9\u201312"
 								],
 								[
-									"Very Rare",
+									"极珍稀",
 									"13\u201318"
 								],
 								[
-									"Legendary",
+									"传说",
 									"19+"
 								]
 							]
 						},
-						"It's possible to find a rare component even when you're not looking for one. You could discover an exotic Khyber crystal in the ruins of an artificer's workshop. Time and study could yield suggestions as to what items could be made with the component; for example, that Khyber shard could be used to create an {@item iron flask} or {@item dimensional shackles}."
+						"即使你没有刻意寻找，也有可能发现珍稀成分。你可能会在奇械师工坊的废墟中发现一块特制凯伯水晶。时间和研究可能会提供关于可以用该成分制作什么物品的建议；例如，那块凯伯碎子可用于制作一个{@item 收妖瓶}或{@item 次元镣铐}。"
 					]
 				},
 				{
+					"ENG_name": "Creation",
+					"name": "造物术",
 					"type": "entries",
-					"name": "Creation",
 					"entries": [
-						"Once you have your schema and any rare components, you're ready to begin. The DM can assign skills or tools that are required for this act of creation, so that it requires both proficiency and access to these tools. You must pay the basic costs of materials and services required to make the item. And you must spend a significant amount of time working on it; creating a legendary item can take a year of effort!",
+						"一旦你拥有了你的图式和任何珍稀成分，你就预备开始。DM可以为此创造行为分配所需的技能或工具，因此它既需要熟练也需要这些工具的获取。你必须支付制造物品所需的基础材质和服务成本。且你必须花费大量时间在其上；创造一个传说物品可能需要一年的努力！",
 						{
 							"type": "table",
-							"caption": "Magic Item Crafting Time and Cost",
+							"caption": "魔法物品制作时间与成本",
 							"colLabels": [
-								"Item Rarity",
-								"Work weeks*",
-								"Cost*"
+								"物品稀有度",
+								"工作周*",
+								"花费*"
 							],
 							"colStyles": [
 								"col-4 text-center",
@@ -426,48 +450,49 @@
 							],
 							"rows": [
 								[
-									"Common",
+									"通用语",
 									1,
 									"50 gp"
 								],
 								[
-									"Uncommon",
+									"非普通",
 									2,
 									"200 gp"
 								],
 								[
-									"Rare",
+									"珍稀",
 									10,
 									"2,000 gp"
 								],
 								[
-									"Very Rare",
+									"极珍稀",
 									25,
 									"20,000 gp"
 								],
 								[
-									"Legendary",
+									"传说",
 									20,
 									"100,000 gp"
 								]
 							],
 							"footnotes": [
-								"* Halved for a consumable item"
+								"* 消耗品减半"
 							]
 						},
-						"The Magic Item Crafting Time and Cost table provides a basic framework, but various factors could reduce time or cost. Eberron dragonshards are a significant amount of the cost of materials. A remarkable dragonshard could reduce the cost of creating an item by 10 percent. A planar convergence could reduce the time or cost required to make an item with an effect tied to that plane. Ultimately, this is a story, and there are exceptions to every rule."
+						"魔法物品制作时间和花费表格提供了一个基础框架，但各种因素可能缩小时间或花费。艾伯伦龙晶是材质花费的重要组成部分。一块非凡的龙晶可能将创造物品的花费缩小10%。位面汇聚可能缩小制作与该位面相关效应物品所需的时间或花费。最终，这是一个故事，每条规则都有例外。"
 					]
 				},
 				{
+					"ENG_name": "Complications",
+					"name": "困境",
 					"type": "entries",
-					"name": "Complications",
 					"entries": [
-						"These rules for magic item creation are derived from the system presented in Xanathar's Guide to Everything. This also offers the idea that the creation of a magic item is a complex procedure and that complications can arise. If you use this rule, there's a {@chance 10|10 percent} chance of a complication arising for every five workweeks spent on crafting the item. Xanathar's Guide presents a number of possible complications. Here are few tied to Eberron.",
+						"这些魔法物品创造的规则源自姗娜萨的万物向导中提出的系统。这也提出了魔法物品的创造是一个复杂的过程且可能会出现困境的观点。如果你使用这条规则，每花费五个工作周在手作物品上，就有{@chance 10|10%}的几率出现困境。姗娜萨的向导提出了许多可能的困境。这里有一些与艾伯伦相关的困境。",
 						{
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Complications"
+								"困境"
 							],
 							"colStyles": [
 								"col-2 text-center",
@@ -476,27 +501,27 @@
 							"rows": [
 								[
 									1,
-									"A Dragonmarked House takes an interest in your work. Do they view you as a threat, or are they impressed by your techniques? Do they want to buy the item, and what will happen if you refuse?"
+									"一个龙纹家族对你的工作产生了兴趣。他们视你为威胁，还是对你的技术印象深刻？他们想购买这件物品，且如果你拒绝会发生什么？"
 								],
 								[
 									2,
-									"A mishap creates a temporary manifest zone."
+									"遇难会创造一个临时的显能区域。"
 								],
 								[
 									3,
-									"You need to acquire an additional rare component."
+									"你需要获取一个额外的珍稀成分。"
 								],
 								[
 									4,
-									"The shifting balance of the planes interferes with your work; you must wait for the current planar alignment to change."
+									"诸位面的化形平衡干扰了你的工作；你必须等待当前的位面阵营发生变化。"
 								],
 								[
 									5,
-									"Your efforts draw the attention of one of the conspiracies of Eberron\u2014such as the Chamber, the Aurum, the Emerald Claw, or the Lords of Dust."
+									"你的努力引起了艾伯伦某个阴谋组织的注意\u2014\u2014比如密阁、金权会、翡翠爪抓或砂主。"
 								],
 								[
 									6,
-									"Your item unexpectedly becomes sentient."
+									"你的物品意外获得了意识。"
 								]
 							]
 						}
@@ -505,33 +530,36 @@
 			]
 		},
 		{
-			"name": "Environmental Elements",
+			"ENG_name": "Environmental Elements",
+			"name": "环境元素",
 			"source": "UAWayfindersGuideToEberron",
 			"page": 8,
 			"ruleType": "O",
 			"entries": [
-				"Combat can feel very mechanical. {@i I move 10 feet. I make an attack roll. I use a reaction.} One way for the DM to encourage more cinematic action is to present a list of Environmental Elements. In a tavern, this list could include Chandelier, Plate Glass Window, Roaring Fireplace, Tray of Drinks, Drunk Patron. If you're fighting in an ancient tomb the list could be Pile of Gold Coins, Scattered Bones, Rotting Tapestry, Moss-Covered Statue. Each turn, a player can work one of these elements into their description of their action. The primary purpose of this is to give players ideas; interesting details to use while describing their actions. But if a player comes up with a particularly clever way to use an element, the DM could grant advantage on a check or attack roll, or some other benefit. The rogue needs to cross a room full of enemies and wants to swing on the chandelier? As the DM, I'd let them make a simple Dexterity ({@skill Acrobatics}) check to avoid opportunity attacks, essentially getting a free {@action Disengage} action.",
-				"Environmental elements are always  optional and largely cosmetic. As a DM, you  don't have to grant a bonus for every use of an   element. But presenting a list can help players  think of the location as more than just squares  on a map and challenge them to add more  cinematic flair to their actions."
+				"战斗可以显得非常机械化。{@i 我移动10尺。我进行一次攻击检定。我使用一个反应。} DM鼓励更具电影感的动作的一种方式是提供一份环境元素列表。在酒馆中，这个列表可能包括吊灯、板甲玻璃窗、熊熊燃烧的壁炉、饮品托盘、醉汉雇主。如果你在古代墓穴中战斗，列表可能是金币堆、散落的骨头、腐烂的大壁毯、长满苔藓的雕塑。每个回合，玩家可以将其中一个元素融入他们动作的描述中。这样做的主要目的是给玩家提供想法；在描述他们的动作时使用有趣的细节。但如果玩家想出了一个特别聪明的方式来使用一个元素，DM可以给予检定或攻击检定的优势，或其他一些增益。浪客需要穿过一个满是敌人的房间并想荡过吊灯？作为DM，我会让他们做一个简易的敏捷（{@skill 特技}）检定来避免借机攻击，本质上获得一个自由的{@action 撤离}动作。",
+				"环境元素总是可选的且主要是装饰性的。作为DM，你不必为每个元素的使用都给予附赠动作。但提供一个列表可以帮助玩家将位置视为不仅仅是地图上的方格，并挑战它们为动作添加更多电影化的风格。"
 			]
 		},
 		{
-			"name": "Swapping Racial Languages",
+			"ENG_name": "Swapping Racial Languages",
+			"name": "交换种族语言",
 			"source": "UAWayfindersGuideToEberron",
 			"page": 40,
 			"ruleType": "O",
 			"entries": [
-				"This optional rule allows you to exchange a language granted by your race for a different standard language. Your DM must approve the language you select. This is a way to reflect a character with no ties to the culture of their race. Halfling is the language of the Talenta Plains; if a halfling was raised in the Mror Holds, they might replace Halfling with Dwarvish to reflect this."
+				"这个可选规则允许你将种族赋予的语言替换为另一种标准语言。你所选择的语言必须得到DM的批准。这是一种反映角色与其种族文化没有联系的方式。半身人语是塔兰塔平原的语言；如果一个半身人在摩洛领长大，他们可能会用矮人语替换半身人语来反映这一点。"
 			]
 		},
 		{
-			"name": "Two-Handed Arcane Focuses",
+			"ENG_name": "Two-Handed Arcane Focuses",
+			"name": "双手奥术法器",
 			"source": "UAWayfindersGuideToEberron",
 			"page": 114,
 			"ruleType": "O",
 			"entries": [
-				"In Eberron, an arcane focus is a weapon. As such, it can be interesting to give a focus some of the same trade-offs as mundane weapons: do you sacrifice your free hand for greater power?",
-				"If you use this optional rule, when a caster uses a two-handed arcane focus to cast an offensive cantrip (a cantrip requiring a saving throw or an attack roll), the range of the cantrip is increased by 50 percent.",
-				"By this rule, a staff always requires two hands, while rods can be used with either one or two hands. Using a two-handed arcane focus fulfills the somatic component requirement for a spell."
+				"在艾伯伦，奥术法器是一种武器。因此，可以有趣地赋予法器一些与寻常武器相同的权衡：你是否会为了更强的法力而牺牲自由手？",
+				"如果你使用此可选规则，当施法者使用双手奥术法器施放攻击性戏法（需要豁免检定或攻击检定的戏法）时，该戏法的范围增加50%。",
+				"根据这条规则，法杖总是需要双手持握，而权杖可以用单手或双手使用。使用双手奥术法器可以满足法术的姿势成分要求。"
 			]
 		}
 	]

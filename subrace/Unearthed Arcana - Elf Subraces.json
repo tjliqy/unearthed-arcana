@@ -4,7 +4,7 @@
 			{
 				"json": "UAElfSubraces",
 				"abbreviation": "UAESR",
-				"full": "Unearthed Arcana: Elf Subraces",
+				"full": "破解奥秘：精灵亚种",
 				"url": "https://media.wizards.com/2017/dnd/downloads/UA-ElfSubraces.pdf",
 				"version": "1.0.0",
 				"dateReleased": "2017-11-13",
@@ -18,14 +18,15 @@
 		],
 		"edition": "classic",
 		"dateAdded": 1701616429,
-		"dateLastModified": 1774092631,
+		"dateLastModified": 1792466113,
 		"_dateLastModifiedHash": "d0f7e6e3b0"
 	},
 	"subrace": [
 		{
-			"name": "Avariel",
+			"ENG_name": "Avariel",
+			"name": "翼精灵",
 			"source": "UAElfSubraces",
-			"raceName": "Elf",
+			"raceName": "精灵",
 			"raceSource": "PHB",
 			"page": 1,
 			"speed": {
@@ -39,25 +40,28 @@
 			],
 			"entries": [
 				{
+					"ENG_name": "Extra Language",
+					"name": "额外语言",
 					"type": "entries",
-					"name": "Extra Language",
 					"entries": [
-						"You can speak, read, and write Auran."
+						"你可以说、读、写气族语。"
 					]
 				},
 				{
+					"ENG_name": "Flight",
+					"name": "飞行",
 					"type": "entries",
-					"name": "Flight",
 					"entries": [
-						"You have a flying speed of 30 feet. To use this speed, you can't be wearing medium or heavy armor."
+						"你拥有30尺的飞行速度。要使用此速度，你不能穿着中等或重甲。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Grugach",
+			"ENG_name": "Grugach",
+			"name": "格鲁加克",
 			"source": "UAElfSubraces",
-			"raceName": "Elf",
+			"raceName": "精灵",
 			"raceSource": "PHB",
 			"page": 1,
 			"ability": [
@@ -87,7 +91,7 @@
 						"1": {
 							"_": [
 								{
-									"choose": "level=0|class=Druid"
+									"choose": "level=0|class=德鲁伊"
 								}
 							]
 						}
@@ -96,27 +100,30 @@
 			],
 			"entries": [
 				{
+					"ENG_name": "Languages",
+					"name": "语言",
 					"type": "entries",
-					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Sylvan, Elvish, and one extra language of your choice. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires."
+						"你可以说、读和写木族语、精灵语以及一门你选择的额外语言。精灵语流畅，带有精妙的语调和复杂的语法。精灵文学丰富多样，他们的歌曲和诗歌在其他种族中享有盛名。许多吟游诗人学习他们的语言，以便能将精灵民谣添加到他们的曲目中。"
 					],
 					"data": {
-						"overwrite": "Languages"
+						"overwrite": "语言"
 					}
 				},
 				{
+					"ENG_name": "Grugach Weapon Training",
+					"name": "格鲁加赫武器训练",
 					"type": "entries",
-					"name": "Grugach Weapon Training",
 					"entries": [
-						"You have proficiency with the {@item spear|phb}, {@item shortbow|phb}, {@item longbow|phb}, and {@item net|phb}."
+						"你熟练使用{@item 矛|phb}、{@item 短弓|phb}、{@item 长弓|phb}和{@item 捕网|phb}。"
 					]
 				},
 				{
+					"ENG_name": "Cantrip",
+					"name": "戏法",
 					"type": "entries",
-					"name": "Cantrip",
 					"entries": [
-						"You know one cantrip of your choice from the {@filter druid spell list|spells|class=druid|level=0}. Wisdom is your spellcasting ability for it."
+						"你从{@filter 德鲁伊法术列表|spells|class=德鲁伊|level=0}中选择一个戏法。感知是你的施法属性。"
 					]
 				}
 			],
@@ -125,9 +132,10 @@
 			}
 		},
 		{
-			"name": "Sea",
+			"ENG_name": "Sea",
+			"name": "海洋",
 			"source": "UAElfSubraces",
-			"raceName": "Elf",
+			"raceName": "精灵",
 			"raceSource": "PHB",
 			"page": 1,
 			"speed": {
@@ -159,43 +167,48 @@
 			],
 			"entries": [
 				{
+					"ENG_name": "Extra Language",
+					"name": "额外语言",
 					"type": "entries",
-					"name": "Extra Language",
 					"entries": [
-						"You can speak, read, and write Aquan."
+						"你可以说、读、写水族语。"
 					]
 				},
 				{
+					"ENG_name": "Sea Elf Weapon Training",
+					"name": "海精灵武器训练",
 					"type": "entries",
-					"name": "Sea Elf Weapon Training",
 					"entries": [
-						"You have proficiency with the {@item spear|phb}, {@item trident|phb}, {@item light crossbow|phb}, and {@item net|phb}."
+						"你对{@item 矛|phb}、{@item 三叉戟|phb}、{@item 轻弩|phb}和{@item 捕网|phb}有熟练度。"
 					]
 				},
 				{
+					"ENG_name": "Child of the Sea",
+					"name": "海洋之子",
 					"type": "entries",
-					"name": "Child of the Sea",
 					"entries": [
-						"You have a swimming speed of 30 feet, and you can breathe air and water."
+						"你的游泳速度为30尺，你可以呼吸空气和水。"
 					]
 				},
 				{
+					"ENG_name": "Friend of the Sea",
+					"name": "海洋之友",
 					"type": "entries",
-					"name": "Friend of the Sea",
 					"entries": [
-						"Using gestures and sounds, you can communicate simple ideas with Small or smaller beasts that have an inborn swimming speed."
+						"使用手势和声响，你可以与天生具有游泳速度的小型或更小野兽交流简易的想法。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Shadar-kai",
+			"ENG_name": "Shadar-kai",
+			"name": "影灵",
 			"source": "UAElfSubraces",
-			"raceName": "Elf",
+			"raceName": "精灵",
 			"raceSource": "PHB",
 			"page": 2,
 			"reprintedAs": [
-				"Elf (Shadar-kai)|MTF"
+				"精灵 (影灵)|MTF"
 			],
 			"ability": [
 				{
@@ -214,7 +227,7 @@
 					"ability": "cha",
 					"known": {
 						"1": [
-							"chill touch#c"
+							"颤栗之触#c"
 						]
 					}
 				},
@@ -222,7 +235,7 @@
 					"ability": "cha",
 					"known": {
 						"1": [
-							"spare the dying#c"
+							"维生术#c"
 						]
 					}
 				},
@@ -230,34 +243,37 @@
 					"ability": "cha",
 					"known": {
 						"1": [
-							"thaumaturgy#c"
+							"奇术#c"
 						]
 					}
 				}
 			],
 			"entries": [
 				{
+					"ENG_name": "Languages",
+					"name": "语言",
 					"type": "entries",
-					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Common, Elvish, and one extra language of your choice. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires."
+						"你可以说、读和写通用语、精灵语和一门你选择的额外语言。精灵语流畅，带有精妙的语调和复杂的语法。精灵文学丰富多样，他们的歌曲和诗歌在其他种族中享有盛名。许多吟游诗人学习他们的语言，以便能将精灵民谣添加到他们的曲目中。"
 					],
 					"data": {
-						"overwrite": "Languages"
+						"overwrite": "语言"
 					}
 				},
 				{
+					"ENG_name": "Cantrip",
+					"name": "戏法",
 					"type": "entries",
-					"name": "Cantrip",
 					"entries": [
-						"You know one of the following cantrips of your choice: {@spell chill touch}, {@spell spare the dying}, or {@spell thaumaturgy}. Charisma is your spellcasting ability for it."
+						"你从下列戏法中选择一个习得：{@spell 颤栗之触}、{@spell 维生术}或{@spell 奇术}。魅力是你的施法属性。"
 					]
 				},
 				{
+					"ENG_name": "Blessing of the Raven Queen",
+					"name": "鸦后祝福",
 					"type": "entries",
-					"name": "Blessing of the Raven Queen",
 					"entries": [
-						"As a bonus action, you can magically teleport up to 15 feet to an unoccupied space you can see, and you gain resistance to all damage until the start of your next turn. During that time, you appear ghostly and translucent. Once you use this ability, you can't use it again until you finish a short or long rest."
+						"作为附赠动作，你可以魔法传送至多15尺到一个你能看见的未占据空间，且你获得对所有伤害的抗性直到你的下个回合开始。在那段时间内，你呈现幽体半透明状态。一旦你使用此属性，直到你完成一次短休或长休前都无法再次使用。"
 					]
 				}
 			],

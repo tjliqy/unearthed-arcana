@@ -1,11 +1,10 @@
 {
-	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/ua-fast/homebrew.json",
 	"_meta": {
 		"sources": [
 			{
 				"json": "XUA2026VillainousOptions",
 				"abbreviation": "XUA26VO",
-				"full": "Unearthed Arcana 2026: Villainous Options",
+				"full": "破解奥秘 2026：反派选项",
 				"url": "https://media.dndbeyond.com/compendium-images/ua/villainous-options/VRQr4YbETAgmpWRj/UA2026-VillainousOptions.pdf",
 				"version": "1.0.0",
 				"dateReleased": "2026-04-02",
@@ -20,93 +19,95 @@
 		"edition": "one",
 		"status": "ready",
 		"dateAdded": 1775151346,
-		"dateLastModified": 1781812797,
+		"dateLastModified": 1792466479,
 		"_dateLastModifiedHash": "87149bab73"
 	},
 	"subclass": [
 		{
-			"name": "Circle of the Titan",
-			"shortName": "Titan",
+			"ENG_name": "Circle of the Titan",
+			"name": "泰坦结社",
+			"shortName": "泰坦",
 			"source": "XUA2026VillainousOptions",
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "XPHB",
 			"page": 3,
 			"reprintedAs": [
-				"Titan|Druid|XPHB|XUA2026VillainousOptionsUpdates"
+				"泰坦|德鲁伊|XPHB|XUA2026反派选项更新"
 			],
 			"additionalSpells": [
 				{
 					"prepared": {
 						"3": [
-							"Cure Wounds|XPHB",
-							"Longstrider|XPHB",
-							"Thaumaturgy|XPHB"
+							"疗伤术|XPHB",
+							"大步奔行|XPHB",
+							"奇术|XPHB"
 						],
 						"5": [
-							"Fear|XPHB"
+							"恐惧|XPHB"
 						],
 						"7": [
-							"Stoneskin|XPHB"
+							"石肤术|XPHB"
 						],
 						"9": [
-							"Destructive Wave|XPHB"
+							"湮灭波|XPHB"
 						]
 					}
 				}
 			],
 			"subclassSpells": [
-				"Cure Wounds|XPHB",
-				"Longstrider|XPHB",
-				"Thaumaturgy|XPHB",
-				"Fear|XPHB",
-				"Stoneskin|XPHB",
-				"Destructive Wave|XPHB"
+				"疗伤术|XPHB",
+				"大步奔行|XPHB",
+				"奇术|XPHB",
+				"恐惧|XPHB",
+				"石肤术|XPHB",
+				"湮灭波|XPHB"
 			],
 			"subclassFeatures": [
-				"Circle of the Titan|Druid|XPHB|Titan|XUA2026VillainousOptions|3|XUA2026VillainousOptions",
-				"Dire Impact|Druid|XPHB|Titan|XUA2026VillainousOptions|6|XUA2026VillainousOptions",
-				"Primal Havoc|Druid|XPHB|Titan|XUA2026VillainousOptions|10|XUA2026VillainousOptions",
-				"Monstrous Appetite|Druid|XPHB|Titan|XUA2026VillainousOptions|14|XUA2026VillainousOptions"
+				"泰坦结社|德鲁伊|XPHB|泰坦|XUA2026VillainousOptions|3|XUA2026反派选项",
+				"恐怖冲击|德鲁伊|XPHB|泰坦|XUA2026VillainousOptions|6|XUA2026反派选项",
+				"原始浩劫|德鲁伊|XPHB|泰坦|XUA2026VillainousOptions|10|XUA2026反派选项",
+				"怪物胃口|德鲁伊|XPHB|泰坦|XUA2026VillainousOptions|14|XUA2026反派选项"
 			],
 			"hasFluff": true
 		},
 		{
-			"name": "Demonic Sorcery",
-			"shortName": "Demonic",
+			"ENG_name": "Demonic Sorcery",
+			"name": "恶魔语巫术",
+			"shortName": "恶魔语",
 			"source": "XUA2026VillainousOptions",
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
 			"page": 7,
 			"reprintedAs": [
-				"Demonic|Sorcerer|XPHB|XUA2026VillainousOptionsUpdates"
+				"恶魔语|术士|XPHB|XUA2026反派选项更新"
 			],
 			"additionalSpells": [
 				{
 					"prepared": {
 						"3": [
-							"Detect Magic|XPHB",
-							"Entangle|XPHB",
-							"Misty Step|XPHB",
-							"Spider Climb|XPHB"
+							"侦测魔法|XPHB",
+							"纠缠术|XPHB",
+							"迷踪步|XPHB",
+							"蛛行术|XPHB"
 						],
 						"5": [
-							"Dispel Magic|XPHB",
-							"Gaseous Form|XPHB"
+							"解除魔法|XPHB",
+							"气化形体|XPHB"
 						],
 						"7": [
-							"Confusion|XPHB",
-							"Hallucinatory Terrain|XPHB"
+							"困惑术|XPHB",
+							"幻景|XPHB"
 						],
 						"9": [
-							"Contact Other Plane|XPHB",
-							"Hallow|XPHB"
+							"异界探知|XPHB",
+							"圣居|XPHB"
 						]
 					},
 					"innate": {
 						"18": {
 							"daily": {
 								"1e": [
-									"Summon Fiend|XPHB"
+									"邪魔召唤术|XPHB"
 								]
 							}
 						}
@@ -114,197 +115,207 @@
 				}
 			],
 			"subclassSpells": [
-				"Detect Magic|XPHB",
-				"Entangle|XPHB",
-				"Misty Step|XPHB",
-				"Spider Climb|XPHB",
-				"Dispel Magic|XPHB",
-				"Gaseous Form|XPHB",
-				"Confusion|XPHB",
-				"Hallucinatory Terrain|XPHB",
-				"Contact Other Plane|XPHB",
-				"Hallow|XPHB",
-				"Summon Fiend|XPHB"
+				"侦测魔法|XPHB",
+				"纠缠术|XPHB",
+				"迷踪步|XPHB",
+				"蛛行术|XPHB",
+				"解除魔法|XPHB",
+				"气化形体|XPHB",
+				"困惑术|XPHB",
+				"幻景|XPHB",
+				"异界探知|XPHB",
+				"圣居|XPHB",
+				"邪魔召唤术|XPHB"
 			],
 			"subclassFeatures": [
-				"Demonic Sorcery|Sorcerer|XPHB|Demonic|XUA2026VillainousOptions|3|XUA2026VillainousOptions",
-				"Abyssal Aura|Sorcerer|XPHB|Demonic|XUA2026VillainousOptions|6|XUA2026VillainousOptions",
-				"Abyssal Conduit|Sorcerer|XPHB|Demonic|XUA2026VillainousOptions|14|XUA2026VillainousOptions",
-				"Fiendish Servant|Sorcerer|XPHB|Demonic|XUA2026VillainousOptions|18|XUA2026VillainousOptions"
+				"恶魔语巫术|术士|XPHB|恶魔语|XUA2026VillainousOptions|3|XUA2026反派选项",
+				"深渊气息|术士|XPHB|恶魔语|XUA2026VillainousOptions|6|XUA2026反派选项",
+				"深渊导管|术士|XPHB|恶魔语|XUA2026VillainousOptions|14|XUA2026反派选项",
+				"魔裔仆役|术士|XPHB|恶魔语|XUA2026VillainousOptions|18|XUA2026反派选项"
 			],
 			"hasFluff": true
 		},
 		{
-			"name": "Hell Knight",
-			"shortName": "Hell Knight",
+			"ENG_name": "Hell Knight",
+			"name": "地狱骑士",
+			"shortName": "地狱骑士",
 			"source": "XUA2026VillainousOptions",
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
 			"page": 6,
 			"reprintedAs": [
-				"Hell Knight|Fighter|XPHB|XUA2026VillainousOptionsUpdates"
+				"地狱骑士|战士|XPHB|XUA2026反派选项更新"
 			],
 			"subclassFeatures": [
-				"Hell Knight|Fighter|XPHB|Hell Knight|XUA2026VillainousOptions|3|XUA2026VillainousOptions",
-				"Advanced Wounds|Fighter|XPHB|Hell Knight|XUA2026VillainousOptions|7|XUA2026VillainousOptions",
-				"Hell-Forged Equipment|Fighter|XPHB|Hell Knight|XUA2026VillainousOptions|7|XUA2026VillainousOptions",
-				"Hellfire Surge|Fighter|XPHB|Hell Knight|XUA2026VillainousOptions|10|XUA2026VillainousOptions",
-				"Blister of Avernus|Fighter|XPHB|Hell Knight|XUA2026VillainousOptions|15|XUA2026VillainousOptions",
-				"Hellfire Condemnation|Fighter|XPHB|Hell Knight|XUA2026VillainousOptions|18|XUA2026VillainousOptions",
-				"Infernal Bargain|Fighter|XPHB|Hell Knight|XUA2026VillainousOptions|18|XUA2026VillainousOptions"
+				"地狱骑士|战士|XPHB|地狱骑士|XUA2026VillainousOptions|3|XUA2026反派选项",
+				"进阶创伤|战士|XPHB|地狱骑士|XUA2026VillainousOptions|7|XUA2026反派选项",
+				"地狱锻造装备|战士|XPHB|地狱骑士|XUA2026VillainousOptions|7|XUA2026反派选项",
+				"地狱火崩天疾驰|战士|XPHB|地狱骑士|XUA2026VillainousOptions|10|XUA2026反派选项",
+				"阿弗纳斯脓疱|战士|XPHB|地狱骑士|XUA2026VillainousOptions|15|XUA2026反派选项",
+				"地狱火定罪|战士|XPHB|地狱骑士|XUA2026VillainousOptions|18|XUA2026反派选项",
+				"炼狱契约|战士|XPHB|地狱骑士|XUA2026VillainousOptions|18|XUA2026反派选项"
 			],
 			"hasFluff": true
 		},
 		{
-			"name": "Pestilence Domain",
-			"shortName": "Pestilence",
+			"ENG_name": "Pestilence Domain",
+			"name": "瘟疫领域",
+			"shortName": "瘟疫术",
 			"source": "XUA2026VillainousOptions",
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "XPHB",
 			"page": 1,
 			"additionalSpells": [
 				{
 					"prepared": {
 						"3": [
-							"Detect Poison and Disease|XPHB",
-							"Protection from Poison|XPHB",
-							"Ray of Enfeeblement|XPHB",
-							"Ray of Sickness|XPHB"
+							"侦测毒性和疾病|XPHB",
+							"防护毒素|XPHB",
+							"衰弱射线|XPHB",
+							"致病射线|XPHB"
 						],
 						"5": [
-							"Stinking Cloud|XPHB",
-							"Vampiric Touch|XPHB"
+							"臭云术|XPHB",
+							"吸血鬼之触|XPHB"
 						],
 						"7": [
-							"Blight|XPHB",
-							"Giant Insect|XPHB"
+							"枯萎术|XPHB",
+							"巨虫|XPHB"
 						],
 						"9": [
-							"Contagion|XPHB",
-							"Insect Plague|XPHB"
+							"疫病术|XPHB",
+							"疫病虫群|XPHB"
 						]
 					}
 				}
 			],
 			"subclassSpells": [
-				"Detect Poison and Disease|XPHB",
-				"Protection from Poison|XPHB",
-				"Ray of Enfeeblement|XPHB",
-				"Ray of Sickness|XPHB",
-				"Stinking Cloud|XPHB",
-				"Vampiric Touch|XPHB",
-				"Blight|XPHB",
-				"Giant Insect|XPHB",
-				"Contagion|XPHB",
-				"Insect Plague|XPHB"
+				"侦测毒性和疾病|XPHB",
+				"防护毒素|XPHB",
+				"衰弱射线|XPHB",
+				"致病射线|XPHB",
+				"臭云术|XPHB",
+				"吸血鬼之触|XPHB",
+				"枯萎术|XPHB",
+				"巨虫|XPHB",
+				"疫病术|XPHB",
+				"疫病虫群|XPHB"
 			],
 			"subclassFeatures": [
-				"Pestilence Domain|Cleric|XPHB|Pestilence|XUA2026VillainousOptions|3|XUA2026VillainousOptions",
-				"Virulent Burst|Cleric|XPHB|Pestilence|XUA2026VillainousOptions|6|XUA2026VillainousOptions",
-				"Vermin Form|Cleric|XPHB|Pestilence|XUA2026VillainousOptions|17|XUA2026VillainousOptions"
+				"瘟疫领域|牧师|XPHB|瘟疫术|XUA2026VillainousOptions|3|XUA2026反派选项",
+				"猛恶毒爆发|牧师|XPHB|瘟疫术|XUA2026VillainousOptions|6|XUA2026反派选项",
+				"害兽形态|牧师|XPHB|瘟疫术|XUA2026VillainousOptions|17|XUA2026反派选项"
 			],
 			"hasFluff": true
 		}
 	],
 	"subclassFluff": [
 		{
-			"name": "Circle of the Titan",
-			"shortName": "Titan",
+			"ENG_name": "Circle of the Titan",
+			"name": "泰坦结社",
+			"shortName": "泰坦",
 			"source": "XUA2026VillainousOptions",
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "XPHB",
 			"entries": [
-				"{@i Wreak Colossal Havoc}"
+				"{@i 制造庞然浩劫}"
 			]
 		},
 		{
-			"name": "Demonic Sorcery",
-			"shortName": "Demonic",
+			"ENG_name": "Demonic Sorcery",
+			"name": "恶魔语巫术",
+			"shortName": "恶魔语",
 			"source": "XUA2026VillainousOptions",
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
 			"entries": [
-				"{@i Summon the Powers of the Abyss}"
+				"{@i 召唤深渊之力}"
 			]
 		},
 		{
-			"name": "Hell Knight",
-			"shortName": "Hell Knight",
+			"ENG_name": "Hell Knight",
+			"name": "地狱骑士",
+			"shortName": "地狱骑士",
 			"source": "XUA2026VillainousOptions",
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
 			"entries": [
-				"{@i Inflict Hellish Wounds and Damn Enemies}"
+				"{@i 造成地狱创伤并诅咒敌人}"
 			]
 		},
 		{
-			"name": "Pestilence Domain",
-			"shortName": "Pestilence",
+			"ENG_name": "Pestilence Domain",
+			"name": "瘟疫领域",
+			"shortName": "瘟疫术",
 			"source": "XUA2026VillainousOptions",
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "XPHB",
 			"entries": [
-				"{@i Foment Plague and Rot}"
+				"{@i 散播瘟疫与腐朽}"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Pestilence Domain",
+			"ENG_name": "Pestilence Domain",
+			"name": "瘟疫领域",
 			"source": "XUA2026VillainousOptions",
 			"page": 1,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "XPHB",
-			"subclassShortName": "Pestilence",
+			"subclassShortName": "瘟疫术",
 			"subclassSource": "XUA2026VillainousOptions",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Clerics of the Pestilence Domain harness supernatural plague and decay to erode their enemies' vitality. Though common folk often regard pestilence as a force of rampant destruction, Clerics of this domain wield it with surgical precision.",
-				"The Pestilence Domain is associated with gods of poison, disease, famine, and rot. These deities use blighted crops, magical outbreaks, and swarms of insects and vermin to motivate or punish mortals in accordance with their doctrines. Their followers include apothecaries, doctors, poisoners, and royal tasters. Other followers might devote themselves to a god of pestilence to spare their communities or loved ones from plague.",
+				"瘟疫领域的牧师驾驭超然的瘟疫与衰竭，以侵蚀敌人的生命力。尽管普通人常将瘟疫视为一股肆虐的毁灭之力，但此领域的牧师却能以手术刀般的精准来运用它。",
+				"瘟疫领域与掌管毒素、疾病、饥荒和腐败的神祇相关。这些神祇会利用枯萎的庄稼、魔法爆发以及昆虫和害兽集群，根据其教义来激励或惩罚凡人。他们的追随者包括药剂师、医生、投毒者和皇家试毒员。其他追随者可能为了使其社区或所爱之人免于瘟疫而投身于一位瘟疫之神。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Blight Weaver|Cleric|XPHB|Pestilence|XUA2026VillainousOptions|3|XUA2026VillainousOptions"
+					"subclassFeature": "枯萎编织者|牧师|XPHB|瘟疫术|XUA2026反派选项|3|XUA2026反派选项"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Pestilence Domain Spells|Cleric|XPHB|Pestilence|XUA2026VillainousOptions|3|XUA2026VillainousOptions"
+					"subclassFeature": "瘟疫领域法术|牧师|XPHB|瘟疫术|XUA2026反派选项|3|XUA2026反派选项"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Plague Blessing|Cleric|XPHB|Pestilence|XUA2026VillainousOptions|3|XUA2026VillainousOptions"
+					"subclassFeature": "瘟疫祝福|牧师|XPHB|瘟疫术|XUA2026反派选项|3|XUA2026反派选项"
 				}
 			]
 		},
 		{
-			"name": "Blight Weaver",
+			"ENG_name": "Blight Weaver",
+			"name": "枯萎编织者",
 			"source": "XUA2026VillainousOptions",
 			"page": 1,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "XPHB",
-			"subclassShortName": "Pestilence",
+			"subclassShortName": "瘟疫术",
 			"subclassSource": "XUA2026VillainousOptions",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
 					"type": "list",
 					"page": 1,
 					"style": "list-hang-subtrait",
 					"items": [
 						{
+							"ENG_name": "Inoculated Soul",
+							"name": "接种灵魂",
 							"type": "item",
-							"name": "Inoculated Soul",
 							"entries": [
-								"You have {@variantrule Resistance|XPHB} to Necrotic and Poison damage, and you can't be infected by magical contagions."
+								"你拥有对暗蚀和毒素伤害的{@variantrule 抗性|XPHB}，并且你不会被魔法疫病感染。"
 							]
 						},
 						{
+							"ENG_name": "Rot and Fester",
+							"name": "腐烂与溃烂",
 							"type": "item",
-							"name": "Rot and Fester",
 							"entries": [
-								"Damage from your Cleric spells and Cleric features ignores {@variantrule Resistance|XPHB} to Necrotic and Poison damage. Additionally, when you cast a Cleric spell or use a Cleric feature that deals either Necrotic or Poison damage, you can change that damage to the other type."
+								"你的牧师法术和牧师特性造成的伤害无视对暗蚀和毒素伤害的{@variantrule 抗性|XPHB}。此外，当你施放一个造成暗蚀或毒素伤害的牧师法术，或使用一个造成暗蚀或毒素伤害的牧师特性时，你可以将该伤害类型转变为另一种。"
 							]
 						}
 					]
@@ -312,222 +323,243 @@
 			]
 		},
 		{
-			"name": "Pestilence Domain Spells",
+			"ENG_name": "Pestilence Domain Spells",
+			"name": "瘟疫领域法术",
 			"source": "XUA2026VillainousOptions",
 			"page": 1,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "XPHB",
-			"subclassShortName": "Pestilence",
+			"subclassShortName": "瘟疫术",
 			"subclassSource": "XUA2026VillainousOptions",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the {@table Pestilence Domain Spells|XUA2026VillainousOptions} table, you thereafter always have the listed spells prepared.",
+				"你与这一神圣领域的联系确保你总是预备着某些法术。当你达到{@table 瘟疫领域法术|XUA2026VillainousOptions}表格中指定的牧师等级时，你此后将总是准备着所列出的法术。",
 				{
+					"ENG_name": "Pestilence Domain Spells",
+					"name": "瘟疫领域法术",
 					"type": "statblock",
 					"tag": "table",
-					"name": "Pestilence Domain Spells",
 					"source": "XUA2026VillainousOptions",
 					"page": 1
 				}
 			]
 		},
 		{
-			"name": "Plague Blessing",
+			"ENG_name": "Plague Blessing",
+			"name": "瘟疫祝福",
 			"source": "XUA2026VillainousOptions",
 			"page": 2,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "XPHB",
-			"subclassShortName": "Pestilence",
+			"subclassShortName": "瘟疫术",
 			"subclassSource": "XUA2026VillainousOptions",
 			"level": 3,
 			"header": 2,
 			"consumes": {
-				"name": "Channel Divinity"
+				"ENG_name": "Channel Divinity",
+				"name": "引导神力"
 			},
 			"entries": [
-				"As a {@action Magic|XPHB} action, you can present your {@item Holy Symbol|XPHB} and expend a use of Channel Divinity to manifest a 5-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} of withering plague that surrounds you or one willing creature you touch for 1 minute. It ends early if you dismiss it (no action required), manifest it again, or have the {@condition Incapacitated} condition.",
-				"Each creature of your choice that starts its turn in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} must succeed on a Constitution saving throw against {@dcYourSpellSave} or gain 1 {@condition Exhaustion} level. This feature can't increase a creature's {@condition Exhaustion} level higher than a level equal to your Wisdom modifier (minimum of 1 {@condition Exhaustion} level). For example, if you have a Wisdom score of 16, this feature can't increase a creature's {@condition Exhaustion} level higher than 3.",
-				"The plague spread by this feature manifests with a specific symptom. Choose it from the {@table Plague Symptoms|XUA2026VillainousOptions} table or determine it randomly.",
+				"以一个{@action 魔法|XPHB}动作，你可以展示你的{@item 圣徽|XPHB}并消耗一次引导神力，在你或一个你接触的愿意生物周围显现一个5尺范围的凋零瘟疫{@variantrule 光环 [效应区域]|XPHB|光环}，持续1分钟。如果你主动解除它（无需动作）、再次显现它、或陷入{@condition 失能}状态，此效应提前结束。",
+				"每个在你选择的{@variantrule 光环 [效应区域]|XPHB|光环}内开始其回合的生物，必须成功通过一次对抗{@dcYourSpellSave}的体质豁免检定，否则获得1级{@condition 力竭}。此特性无法将生物的{@condition 力竭}等级提升至高于等于你感知调整值的等级（最低为1级{@condition 力竭}）。例如，如果你的感知值为16，此特性无法将生物的{@condition 力竭}等级提升至高于3级。",
+				"该特性传播的瘟疫表现为一种特定症状。从{@table 瘟疫症状|XUA2026VillainousOptions}表格中选择或随机决定。",
 				{
+					"ENG_name": "Plague Symptoms",
+					"name": "瘟疫症状",
 					"type": "statblock",
 					"tag": "table",
-					"name": "Plague Symptoms",
 					"source": "XUA2026VillainousOptions",
 					"page": 1
 				}
 			]
 		},
 		{
-			"name": "Virulent Burst",
+			"ENG_name": "Virulent Burst",
+			"name": "猛恶毒爆发",
 			"source": "XUA2026VillainousOptions",
 			"page": 2,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "XPHB",
-			"subclassShortName": "Pestilence",
+			"subclassShortName": "瘟疫术",
 			"subclassSource": "XUA2026VillainousOptions",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"When an enemy within 60 feet of you is reduced to 0 {@variantrule Hit Points|XPHB}, you can take a {@variantrule Reaction|XPHB} to cause plague to burst from that creature, spreading pestilence in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the enemy; if the enemy had at least 1 {@condition Exhaustion} level, the size of the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} increases to 20 feet.",
-				"Each creature of your choice in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} makes a Constitution saving throw against {@dcYourSpellSave}. On a failed save, a target suffers one of the following effects:",
+				"当你60尺内的一个敌人生命值被降至0{@variantrule 生命值|XPHB}时，你可以用一个{@variantrule 反应|XPHB}使瘟疫从该生物身上爆发，在敌人周围产生一个10尺的{@variantrule 光环 [效应区域]|XPHB|光环}；如果该敌人至少有1级{@condition 力竭}状态，该{@variantrule 光环 [效应区域]|XPHB|光环}的范围将扩大至20尺。",
+				"位于你选择的{@variantrule 光环 [效应区域]|XPHB|光环}范围内的每个生物需进行一次对抗{@dcYourSpellSave}的体质豁免检定。豁免失败的目标将遭受以下效应之一：",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
+							"ENG_name": "Putrid Shock",
+							"name": "腐尸电击",
 							"type": "item",
-							"name": "Putrid Shock",
 							"entries": [
-								"The target has the {@condition Incapacitated} condition until the end of its next turn. While {@condition Incapacitated}, the target's {@variantrule Speed|XPHB} is 0."
+								"目标获得{@condition 失能}状态，直到其下一个回合结束。处于{@condition 失能}状态时，目标的{@variantrule 速度|XPHB}为0。"
 							]
 						},
 						{
+							"ENG_name": "Toxic Infection",
+							"name": "剧毒感染",
 							"type": "item",
-							"name": "Toxic Infection",
 							"entries": [
-								"The target takes {@damage 3d6} Necrotic or Poison damage (your choice)."
+								"目标受到{@damage 3d6}暗蚀或毒素伤害（由你选择）。"
 							]
 						}
 					]
 				},
-				"You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+				"你可以使用该特性的次数等同于你的感知调整值（最少 1 次）。你在完成一次{@variantrule 长休|XPHB}时重获所有已消耗的使用次数。"
 			]
 		},
 		{
-			"name": "Vermin Form",
+			"ENG_name": "Vermin Form",
+			"name": "害兽形态",
 			"source": "XUA2026VillainousOptions",
 			"page": 2,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "XPHB",
-			"subclassShortName": "Pestilence",
+			"subclassShortName": "瘟疫术",
 			"subclassSource": "XUA2026VillainousOptions",
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"As a {@variantrule Bonus Action|XPHB}, you can shape-shift into a Medium swarm of Tiny pests, such as cockroaches, maggots, or rats. While you're in this form, you retain your general shape, personality, memories, and the ability to speak; any equipment you're wearing or carrying doesn't transform with you, but you can continue using that equipment while in this form. Your game statistics remain the same, apart from the following changes:",
+				"以一个{@variantrule 附赠动作|XPHB}，你可以变形为一个由微型害虫（例如蟑螂、蛆虫或老鼠）组成的中型集群。在此形态下，你保留你的大体外形、个性、记忆和说话能力；你所穿戴或携带的任何装备不会随你变形，但在此形态下你可以继续使用该装备。你的游戏数据保持不变，除了以下变化：",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
+							"ENG_name": "Condition Immunities",
+							"name": "状态免疫",
 							"type": "item",
-							"name": "Condition Immunities",
 							"entries": [
-								"You have Immunity to the {@condition Grappled}, {@condition Paralyzed}, {@condition Prone}, and {@condition Restrained} conditions."
+								"你对{@condition 受擒}、{@condition 麻痹}、{@condition 倒地}和{@condition 束缚}状态具有免疫。"
 							]
 						},
 						{
+							"ENG_name": "Damage Resistances",
+							"name": "伤害抗性",
 							"type": "item",
-							"name": "Damage Resistances",
 							"entries": [
-								"You have {@variantrule Resistance|XPHB} to Bludgeoning, Piercing, and Slashing damage."
+								"你具有钝击，穿刺和挥砍伤害的{@variantrule 抗性|XPHB}。"
 							]
 						},
 						{
+							"ENG_name": "Movement",
+							"name": "移动",
 							"type": "item",
-							"name": "Movement",
 							"entries": [
-								"You can enter and occupy another creature's space and vice versa. Additionally, you have a {@variantrule Climb Speed|XPHB} equal to your {@variantrule Speed|XPHB}, and you can climb difficult surfaces\u2014including along ceilings\u2014without needing to make an ability check."
+								"你可以进入并占据另一个生物的空间，反之亦然。此外，你获得等于你{@variantrule 速度|XPHB}的{@variantrule 攀爬速度|XPHB}，并且你可以在困难表面（包括沿着天花板）攀爬而无需进行属性检定。"
 							]
 						},
 						{
+							"ENG_name": "Plague Bites",
+							"name": "瘟疫啃咬",
 							"type": "item",
-							"name": "Plague Bites",
 							"entries": [
-								"Whenever you enter an enemy's space, that creature takes damage equal to your Wisdom modifier; the damage is Necrotic, Piercing, or Poison (your choice). A creature also takes this damage when it enters your space or ends its turn there. A creature takes this damage only once per turn."
+								"每当你进入一个敌人的空间，该生物受到等同于你感知调整值的伤害；此伤害类型为暗蚀、穿刺或毒素（由你选择）。当一个生物进入你的空间或在其内结束其回合时，也会受到此伤害。一个生物每回合只会受到此伤害一次。"
 							]
 						}
 					]
 				},
-				"You revert to your true form after 10 minutes, if you choose to end the transformation (no action required), if you have the {@condition Incapacitated} condition, or if you die.",
-				"Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB} unless you expend a level 5+ spell slot (no action required) to restore your use of it."
+				"你会在10分钟后恢复真实形态，如果你选择结束变形（无需动作）、如果你处于{@condition 失能}状态，或者如果你死亡。",
+				"一旦你使用了此特性，直到你完成一次{@variantrule 长休|XPHB}前无法再次使用，除非你消耗一个5环或更高环位的法术位（无需动作）来复原它的使用次数。"
 			]
 		},
 		{
-			"name": "Circle of the Titan",
+			"ENG_name": "Circle of the Titan",
+			"name": "泰坦结社",
 			"source": "XUA2026VillainousOptions",
 			"page": 3,
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "XPHB",
-			"subclassShortName": "Titan",
+			"subclassShortName": "泰坦",
 			"subclassSource": "XUA2026VillainousOptions",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When civilization violates the natural world\u2014by deforesting ancient groves, polluting sacred waters, or hunting wildlife to the brink of extinction\u2014Druids of the Circle of the Titan intervene. Druids of this order believe that for nature to thrive, society must sometimes fall. To this end, they assume towering, monstrous forms to mete out cataclysmic retribution and forcibly restore the natural order.",
+				"当文明侵犯自然世界\u2014\u2014通过砍伐远古林地、污染圣水或将野生动物猎杀至灭绝边缘\u2014\u2014泰坦结社的德鲁伊便会介入。此秩序的德鲁伊相信，为了让自然繁荣，社会有时必须衰落。为此，他们化身高耸的怪物形态，施加灾难性的复仇，并强制地恢复自然秩序。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Circle of the Titan Spells|Druid|XPHB|Titan|XUA2026VillainousOptions|3|XUA2026VillainousOptions"
+					"subclassFeature": "泰坦结社法术|德鲁伊|XPHB|泰坦|XUA2026反派选项|3|XUA2026反派选项"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Titan Form|Druid|XPHB|Titan|XUA2026VillainousOptions|3|XUA2026VillainousOptions"
+					"subclassFeature": "泰坦形态|德鲁伊|XPHB|泰坦|XUA2026反派选项|3|XUA2026反派选项"
 				}
 			]
 		},
 		{
-			"name": "Circle of the Titan Spells",
+			"ENG_name": "Circle of the Titan Spells",
+			"name": "泰坦结社法术",
 			"source": "XUA2026VillainousOptions",
 			"page": 3,
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "XPHB",
-			"subclassShortName": "Titan",
+			"subclassShortName": "泰坦",
 			"subclassSource": "XUA2026VillainousOptions",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"When you reach a Druid level specified in the {@table Circle of the Titan Spells|XUA2026VillainousOptions} table, you thereafter always have the listed spells prepared.",
-				"In addition, you can cast the spells from this feature while you're in your {@subclassFeature Titan Form|Druid|XPHB|Titan|XUA2026VillainousOptions|3|XUA2026VillainousOptions}.",
+				"当你达到{@table 泰坦结社法术|XUA2026VillainousOptions}表格中指定的德鲁伊等级时，你将始终准备所列出的法术。",
+				"此外，当你处于{@subclassFeature 泰坦形态|德鲁伊|XPHB|泰坦|XUA2026反派选项|3|XUA2026反派选项}时，你可以施放此特性中的法术。",
 				{
+					"ENG_name": "Circle of the Titan Spells",
+					"name": "泰坦结社法术",
 					"type": "statblock",
 					"tag": "table",
-					"name": "Circle of the Titan Spells",
 					"source": "XUA2026VillainousOptions",
 					"page": 3
 				}
 			]
 		},
 		{
-			"name": "Titan Form",
+			"ENG_name": "Titan Form",
+			"name": "泰坦形态",
 			"source": "XUA2026VillainousOptions",
 			"page": 3,
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "XPHB",
-			"subclassShortName": "Titan",
+			"subclassShortName": "泰坦",
 			"subclassSource": "XUA2026VillainousOptions",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"When you use {@classFeature Wild Shape|Druid|XPHB|2|XPHB}, you can adopt a Titan Form, choosing from the {@creature Behemoth|XUA2026VillainousOptions}, {@creature Leviathan|XUA2026VillainousOptions}, and {@creature Insectoid|XUA2026VillainousOptions} stat blocks presented later in this subclass's description.",
-				"You determine what your Titan Form looks like. Roll on or choose from the {@table Titan Appearance|XUA2026VillainousOptions} table to inspire aspects of your form's appearance.",
+				"当你使用{@classFeature 荒野形态|德鲁伊|XPHB|2|XPHB}时，你可以变身为泰坦形态，从本子职描述后文提供的{@creature 巨兽|XUA2026反派选项}、{@creature 利维坦|XUA2026反派选项}和{@creature 昆虫形态|XUA2026反派选项}数据卡中选择。",
+				"你决定你的泰坦形态的外貌。掷骰或从{@table 泰坦形态|XUA2026VillainousOptions}表格中选择，以激发你形态外貌的各个方面。",
 				{
+					"ENG_name": "Titan Appearance",
+					"name": "泰坦外貌",
 					"type": "statblock",
 					"tag": "table",
-					"name": "Titan Appearance",
 					"source": "XUA2026VillainousOptions",
 					"page": 3
 				},
 				{
+					"ENG_name": "Behemoth",
+					"name": "巨兽",
 					"type": "statblock",
 					"tag": "creature",
-					"name": "Behemoth",
 					"source": "XUA2026VillainousOptions",
 					"page": 4,
 					"collapsed": true
 				},
 				{
+					"ENG_name": "Leviathan",
+					"name": "利维坦",
 					"type": "statblock",
 					"tag": "creature",
-					"name": "Leviathan",
 					"source": "XUA2026VillainousOptions",
 					"page": 4,
 					"collapsed": true
 				},
 				{
+					"ENG_name": "Insectoid",
+					"name": "虫形",
 					"type": "statblock",
 					"tag": "creature",
-					"name": "Insectoid",
 					"source": "XUA2026VillainousOptions",
 					"page": 5,
 					"collapsed": true
@@ -535,33 +567,36 @@
 			]
 		},
 		{
-			"name": "Dire Impact",
+			"ENG_name": "Dire Impact",
+			"name": "恐怖冲击",
 			"source": "XUA2026VillainousOptions",
 			"page": 3,
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "XPHB",
-			"subclassShortName": "Titan",
+			"subclassShortName": "泰坦",
 			"subclassSource": "XUA2026VillainousOptions",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Your Titan Form brings greater devastation. You gain the following benefits.",
+				"你的泰坦形态带来更强大的蹂躏。你获得以下增益。",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
+							"ENG_name": "Elemental Rend",
+							"name": "元素撕裂",
 							"type": "item",
-							"name": "Elemental Rend",
 							"entries": [
-								"Whenever you hit with your Titan Form's Rend attack, you can cause it to deal your choice of Acid, Cold, Fire, Lightning, or Thunder damage rather than its normal damage type."
+								"每当你以泰坦形态的撕裂攻击命中时，你可以选择使其造成强酸、寒冷、火焰、闪电或雷鸣伤害，而非其正常的伤害类型。"
 							]
 						},
 						{
+							"ENG_name": "Shock Wave",
+							"name": "震荡波",
 							"type": "item",
-							"name": "Shock Wave",
 							"entries": [
-								"Your transformation upheaves your surroundings. Immediately after you assume a Titan Form or by taking a {@variantrule Bonus Action|XPHB} to expend a level 1+ spell slot while in your Titan Form, you can create a shock wave in a 15-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you. Each creature in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} must succeed on a Constitution saving throw against {@dcYourSpellSave} or have the {@condition Prone} condition."
+								"你的变形会剧烈扰动周边环境。在你进入泰坦形态后立即，或在你处于泰坦形态时以一个{@variantrule 附赠动作|XPHB}消耗一个1环或更高等级的法术位，你可以在你自身为原点创造一个15尺范围的{@variantrule 光环 [效应区域]|XPHB|光环}震荡波。处于该{@variantrule 光环 [效应区域]|XPHB|光环}内的每个生物必须成功通过一次对抗{@dcYourSpellSave}的体质豁免检定，否则陷入{@condition 倒地}状态。"
 							]
 						}
 					]
@@ -569,33 +604,36 @@
 			]
 		},
 		{
-			"name": "Primal Havoc",
+			"ENG_name": "Primal Havoc",
+			"name": "原始浩劫",
 			"source": "XUA2026VillainousOptions",
 			"page": 3,
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "XPHB",
-			"subclassShortName": "Titan",
+			"subclassShortName": "泰坦",
 			"subclassSource": "XUA2026VillainousOptions",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"The unbridled power of nature surges within you, granting you the following benefits.",
+				"奔放不羁的自然之力在你体内涌动，赋予你以下增益。",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
+							"ENG_name": "Improved Titan Form",
+							"name": "强化泰坦形态",
 							"type": "item",
-							"name": "Improved Titan Form",
 							"entries": [
-								"You can choose to become Huge when assuming your Titan Form. Each Titan Form also gains an additional benefit, as noted in its respective stat block."
+								"当你进入泰坦形态时，可以选择变为巨型。每个泰坦形态还会获得一项额外增益，如其资料卡中所述。"
 							]
 						},
 						{
+							"ENG_name": "Above It All",
+							"name": "凌驾一切",
 							"type": "item",
-							"name": "Above It All",
 							"entries": [
-								"While you are Huge or larger in your Titan Form, {@variantrule Difficult Terrain|XPHB} caused by heavy snow, ice, rubble, or undergrowth doesn't cost you extra movement."
+								"当你在泰坦形态下体型为巨型或更大时，由厚雪、冰面、瓦砾或灌木丛造成的{@variantrule 困难地形|XPHB}不会花费你额外的移动力。"
 							]
 						}
 					]
@@ -603,41 +641,45 @@
 			]
 		},
 		{
-			"name": "Monstrous Appetite",
+			"ENG_name": "Monstrous Appetite",
+			"name": "怪物胃口",
 			"source": "XUA2026VillainousOptions",
 			"page": 3,
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "XPHB",
-			"subclassShortName": "Titan",
+			"subclassShortName": "泰坦",
 			"subclassSource": "XUA2026VillainousOptions",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Your transformation embodies the vast size and terror of nature's titans. You gain the following benefits.",
+				"你的变形体现了自然泰坦那庞大的体型与令人恐惧的威势。你获得以下增益。",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
+							"ENG_name": "Gargantuan Size",
+							"name": "超巨型体型",
 							"type": "item",
-							"name": "Gargantuan Size",
 							"entries": [
-								"You can choose to become Gargantuan when assuming your Titan Form."
+								"当你进入泰坦形态时，可以选择变为超巨型体型。"
 							]
 						},
 						{
+							"ENG_name": "Grappling Rend",
+							"name": "擒抱撕裂",
 							"type": "item",
-							"name": "Grappling Rend",
 							"entries": [
-								"Once per turn when you are Huge or larger and hit a creature with your Rend attack of your Titan Form, you can give the target the {@condition Grappled} condition (escape DC equals {@dcYourSpellSave}). You can have only one target {@condition grappled} in this way at a time."
+								"当你处于巨型或更大体型，并且用你的泰坦形态的撕裂攻击命中一个生物时，每回合一次，你可以使目标陷入{@condition 受擒}状态（逃脱DC等于{@dcYourSpellSave}）。你以此方式{@condition 受擒}的目标在同一时间只能有一个。"
 							]
 						},
 						{
+							"ENG_name": "Swallow",
+							"name": "吞咽",
 							"type": "item",
-							"name": "Swallow",
 							"entries": [
-								"As a {@variantrule Bonus Action|XPHB} while you are Gargantuan, choose one Large or smaller creature {@condition Grappled} by you. The target makes a Strength saving throw against {@dcYourSpellSave}. On a failure, you swallow the target, and the {@condition Grappled} condition ends on it. A swallowed creature has the {@condition Blinded} and {@condition Restrained} conditions, has {@variantrule Cover|XPHB|Total Cover} against attacks and other effects outside of your stomach, and takes {@damage 2d8} Acid damage at the start of each of your turns.",
-								"The number of creatures you can have swallowed at a time equals your Wisdom modifier (minimum of one creature). You must maintain {@status Concentration} to hold swallowed creatures in your stomach. If you lose {@status Concentration} or leave your Titan Form, you regurgitate all swallowed creatures, each of which falls in a space within 10 feet of you and has the {@condition Prone} condition."
+								"当你处于超巨型体型时，以一个{@variantrule 附赠动作|XPHB}，选择一个被你{@condition 受擒}的大型或更小的生物。目标进行一次对抗{@dcYourSpellSave}的力量豁免检定。若失败，你吞咽该目标，其身上的{@condition 受擒}状态结束。被吞咽的生物获得{@condition 目盲}和{@condition 束缚}状态，对于来自你胃部之外的攻击和其他效应具有{@variantrule 掩护|XPHB|全身掩护}，并在你的每个回合开始时受到{@damage 2d8}点强酸伤害。",
+								"你一次可以吞咽的生物数量等于你的感知调整值（至少一个生物）。你必须保持{@status 专注}来将吞咽的生物留在胃中。如果你失去{@status 专注}或离开泰坦形态，你会吐出所有被吞咽的生物，每个生物会落在你周围10尺内的一个空间并陷入{@condition 倒地}状态。"
 							]
 						}
 					]
@@ -645,68 +687,73 @@
 			]
 		},
 		{
-			"name": "Hell Knight",
+			"ENG_name": "Hell Knight",
+			"name": "地狱骑士",
 			"source": "XUA2026VillainousOptions",
 			"page": 6,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Hell Knight",
+			"subclassShortName": "地狱骑士",
 			"subclassSource": "XUA2026VillainousOptions",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Hell Knights are the champions of archdevils and other high-ranking fiends of the Nine Hells, such as cambions and night hags. Armed with the techniques of the Nine Hells' fiercest warriors, Hell Knights inflict infernal wounds and fight with the tenacity of a devil.",
-				"Devils and other sinister figures employ Hell Knights to enact their will across the multiverse. A Hell Knight might serve as a soldier on the front lines of the Blood War, while another might be tasked with punishing creatures that violate infernal contracts or flee their consequences. Others act as interplanar bounty hunters, hastening the journey of wicked souls to the River Styx.",
-				"A Hell Knight's relationship with the Nine Hells is transactional. Archdevils see Hell Knights as an investment, and Hell Knights benefit in turn. The {@table Hell Knight Pursuits|XUA2026VillainousOptions} table lists reasons why a Fighter might become a Hell Knight.",
+				"地狱骑士是大魔鬼以及九层地狱其他高等邪魔（例如坎比翁和夜鬼婆）的冠军勇士。他们掌握着九层地狱最凶悍武者的技艺，能造成炼狱创伤，并拥有魔鬼般的坚韧进行战斗。",
+				"魔鬼和其他邪恶存在雇佣地狱骑士在多元宇宙中执行他们的意志。一个地狱骑士可能作为士兵在血战的前线作战，而另一个则可能被指派去惩罚那些违反炼狱契约或逃避其后果的生物。其他的则充当跨位面赏金猎人，加速将邪恶灵魂送往冥河的旅途。",
+				"地狱骑士与九层地狱的关系是交易性的。大魔鬼们将地狱骑士视为一项投资，而地狱骑士们则相应地获得增益。{@table 地狱骑士追求|XUA2026VillainousOptions} 表格列出了战士可能成为地狱骑士的原因。",
 				{
+					"ENG_name": "Hell Knight Pursuits",
+					"name": "地狱骑士追求",
 					"type": "statblock",
 					"tag": "table",
-					"name": "Hell Knight Pursuits",
 					"source": "XUA2026VillainousOptions",
 					"page": 6
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Diabolical Gift|Fighter|XPHB|Hell Knight|XUA2026VillainousOptions|3|XUA2026VillainousOptions"
+					"subclassFeature": "魔鬼赠礼|战士|XPHB|地狱骑士|XUA2026反派选项|3|XUA2026反派选项"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hellfire Weapon|Fighter|XPHB|Hell Knight|XUA2026VillainousOptions|3|XUA2026VillainousOptions"
+					"subclassFeature": "地狱火武器|战士|XPHB|地狱骑士|XUA2026反派选项|3|XUA2026反派选项"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Infernal Wound|Fighter|XPHB|Hell Knight|XUA2026VillainousOptions|3|XUA2026VillainousOptions"
+					"subclassFeature": "炼狱创伤|战士|XPHB|地狱骑士|XUA2026反派选项|3|XUA2026反派选项"
 				}
 			]
 		},
 		{
-			"name": "Diabolical Gift",
+			"ENG_name": "Diabolical Gift",
+			"name": "魔鬼赠礼",
 			"source": "XUA2026VillainousOptions",
 			"page": 6,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Hell Knight",
+			"subclassShortName": "地狱骑士",
 			"subclassSource": "XUA2026VillainousOptions",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"As a soldier for the agents of the Nine Hells, you've been given fiendish powers. You gain the following benefits.",
+				"作为九层地狱代理人的士兵，你被赋予了魔裔的力量。你获得以下增益。",
 				{
 					"type": "list",
 					"style": "list-hang-subtrait",
 					"items": [
 						{
+							"ENG_name": "Devil's Sight",
+							"name": "魔鬼视界",
 							"type": "item",
-							"name": "Devil's Sight",
 							"entries": [
-								"You can see normally in {@variantrule Dim Light|XPHB} and {@variantrule Darkness|XPHB}\u2014both magical and nonmagical\u2014within 120 feet of yourself."
+								"你在{@variantrule 微光光照|XPHB}光照和{@variantrule 黑暗|XPHB}中拥有 120 尺的可视距离，而无论其属于魔法性的还是非魔法性的。"
 							]
 						},
 						{
+							"ENG_name": "Devil's Tongue",
+							"name": "魔鬼之舌",
 							"type": "item",
-							"name": "Devil's Tongue",
 							"entries": [
-								"You know {@language Infernal}, the language of devils. If you already know {@language Infernal}, you learn another language of your choice."
+								"你知晓{@language 炼狱}，即魔鬼的语言。如果你已经知晓{@language 炼狱}，则你学会一门自选的其他语言。"
 							]
 						}
 					]
@@ -714,50 +761,54 @@
 			]
 		},
 		{
-			"name": "Hellfire Weapon",
+			"ENG_name": "Hellfire Weapon",
+			"name": "地狱火武器",
 			"source": "XUA2026VillainousOptions",
 			"page": 6,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Hell Knight",
+			"subclassShortName": "地狱骑士",
 			"subclassSource": "XUA2026VillainousOptions",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"When you take the {@action Attack} action, you can imbue one weapon that you are holding with hellfire, transforming it into a Hellfire Weapon. It remains transformed in this way for 10 minutes or until you use this feature again, you die, or the weapon is more than 5 feet away from you for 1 minute or more. You can also end this effect early (no action required).",
-				"While transformed into a Hellfire Weapon, a weapon emits {@variantrule Dim Light|XPHB} in a 5-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation}, and whenever you deal damage with the weapon, it can deal your choice of Fire damage or its normal damage type."
+				"当你执行{@action 攻击}动作时，你可以为你所持的一把武器灌注地狱火，将其转化为地狱火武器。它会以此方式保持转化状态10分钟，或直到你再次使用此特性、你死亡、或该武器离开你超过5尺达1分钟或更久。你也可以提前结束此效应（无需动作）。",
+				"当一件武器被转化为地狱火武器时，它会在5尺范围内散发出{@variantrule 微光光照|XPHB}的{@variantrule 光环 [效应区域]|XPHB|光环}，并且每当你用该武器造成伤害时，你可以选择造成火焰伤害或其正常的伤害类型。"
 			]
 		},
 		{
-			"name": "Infernal Wound",
+			"ENG_name": "Infernal Wound",
+			"name": "炼狱创伤",
 			"source": "XUA2026VillainousOptions",
 			"page": 6,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Hell Knight",
+			"subclassShortName": "地狱骑士",
 			"subclassSource": "XUA2026VillainousOptions",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Your {@subclassFeature Hellfire Weapon|Fighter|XPHB|Hell Knight|XUA2026VillainousOptions|3|XUA2026VillainousOptions} can inflict infernal wounds.",
+				"你的{@subclassFeature 地狱火武器|战士|XPHB|地狱骑士|XUA2026反派选项|3|XUA2026反派选项}可以造成炼狱创伤。",
 				{
 					"type": "list",
 					"style": "list-hang-subtrait",
 					"items": [
 						{
+							"ENG_name": "Infernal Wound Die",
+							"name": "炼狱创伤骰",
 							"type": "item",
-							"name": "Infernal Wound Die",
 							"entries": [
-								"You have one Infernal Wound Die, which is a {@dice d6}."
+								"你拥有一枚炼狱创伤骰，这是一枚{@dice d6}。"
 							]
 						},
 						{
+							"ENG_name": "Inflicting Infernal Wounds",
+							"name": "造成炼狱创伤",
 							"type": "item",
-							"name": "Inflicting Infernal Wounds",
 							"entries": [
-								"Once per turn when you hit a creature with your {@subclassFeature Hellfire Weapon|Fighter|XPHB|Hell Knight|XUA2026VillainousOptions|3|XUA2026VillainousOptions}, you can deal extra Fire damage equal to one roll of your Infernal Wound Die and give the target an infernal wound.",
-								"While wounded in this way, the target takes Fire damage equal to one roll of your Infernal Wound Die at the start of each of its turns. This effect lasts for 1 minute, until the target regains {@variantrule Hit Points|XPHB}, or until the target or a creature within 5 feet of the target takes an action to stanch the wound. A target can be affected by only one instance of this feature at a time.",
-								"You can use this feature a number of times equal to your Constitution modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+								"每回合一次，当你用你的{@subclassFeature 地狱火武器|战士|XPHB|地狱骑士|XUA2026反派选项|3|XUA2026反派选项}命中一个生物时，你可以造成等同于一次炼狱创伤骰掷骰结果的额外火焰伤害，并给予目标一个炼狱创伤。",
+								"当目标以此方式受伤时，在其每回合开始时，受到等同于你掷一次炼狱创伤骰的火焰伤害。此效应持续1分钟，直到目标恢复{@variantrule 生命值|XPHB}，或直到目标或目标5尺内的一个生物用一个动作来止血为止。一个目标一次只能受到此特性的一个实例影响。",
+								"你可以使用此特性的次数等于你的体质调整值（至少一次）。当你完成一次{@variantrule 短休|XPHB|短}或{@variantrule 长休|XPHB}后，你恢复所有已消耗的使用次数。"
 							]
 						}
 					]
@@ -765,40 +816,44 @@
 			]
 		},
 		{
-			"name": "Advanced Wounds",
+			"ENG_name": "Advanced Wounds",
+			"name": "进阶创伤",
 			"source": "XUA2026VillainousOptions",
 			"page": 6,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Hell Knight",
+			"subclassShortName": "地狱骑士",
 			"subclassSource": "XUA2026VillainousOptions",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"When you roll your Infernal Wound Die and roll a 6, you can apply one of the following effects.",
+				"当你掷炼狱创伤骰并掷出6时，你可以应用下列效应之一。",
 				{
 					"type": "list",
 					"style": "list-hang-subtrait",
 					"items": [
 						{
+							"ENG_name": "Purulence of Minauros",
+							"name": "弥瑙洛斯之脓",
 							"type": "item",
-							"name": "Purulence of Minauros",
 							"entries": [
-								"Caustic pus erupts from the wound. Each creature in a 5-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the target takes Acid damage equal to your Constitution modifier, and the target has the {@condition Poisoned|XPHB} condition until the start of its next turn."
+								"腐蚀性脓液从伤口喷发。源自目标、半径5尺的{@variantrule 光环 [效应区域]|XPHB|光环}内的每个生物受到等同于你体术调整值的强酸伤害，并且目标获得{@condition 中毒|XPHB}状态，持续至其下一回合开始。"
 							]
 						},
 						{
+							"ENG_name": "Rupture of Cania",
+							"name": "卡尼亚裂隙",
 							"type": "item",
-							"name": "Rupture of Cania",
 							"entries": [
-								"The wound ruptures with a spurt of arcane energy. The target takes Force damage equal to your Constitution modifier."
+								"创伤迸发出一股奥术能量。目标受到等同于你体质调整值的力场伤害。"
 							]
 						},
 						{
+							"ENG_name": "Stygian Gangrene",
+							"name": "冥河坏疽",
 							"type": "item",
-							"name": "Stygian Gangrene",
 							"entries": [
-								"Infernal rime spreads out from the wound. The target takes Cold damage equal to your Constitution modifier, and it can't take Reactions until the start of its next turn."
+								"炼狱雾凇从伤口处蔓延开来。目标受到等同于你体质调整值的寒冷伤害，并且在其下一回合开始前无法进行反应。"
 							]
 						}
 					]
@@ -806,33 +861,36 @@
 			]
 		},
 		{
-			"name": "Hell-Forged Equipment",
+			"ENG_name": "Hell-Forged Equipment",
+			"name": "地狱锻造装备",
 			"source": "XUA2026VillainousOptions",
 			"page": 6,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Hell Knight",
+			"subclassShortName": "地狱骑士",
 			"subclassSource": "XUA2026VillainousOptions",
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"Your armor and weapons embody infernal armaments forged in the fires of Avernus, granting you the following benefits.",
+				"你的护甲和武器体现了在阿弗纳斯之火中锻造的炼狱武备，赋予你以下增益。",
 				{
 					"type": "list",
 					"style": "list-hang-subtrait",
 					"items": [
 						{
+							"ENG_name": "Fire Resistance",
+							"name": "火焰抗性",
 							"type": "item",
-							"name": "Fire Resistance",
 							"entries": [
-								"While wearing armor or wielding a {@spell Shield|XPHB}, you have {@variantrule Resistance|XPHB} to Fire damage."
+								"当你穿着护甲或持握{@spell 护盾术|XPHB}时，你获得对火焰伤害的{@variantrule 抗性|XPHB}。"
 							]
 						},
 						{
+							"ENG_name": "Unholy Fire",
+							"name": "亵渎之火",
 							"type": "item",
-							"name": "Unholy Fire",
 							"entries": [
-								"{@variantrule Damage|XPHB} from your weapon attacks and Fighter features ignores {@variantrule Resistance|XPHB} to Fire damage."
+								"你的武器攻击和战士特性造成的{@variantrule 伤害|XPHB}无视对火焰伤害的{@variantrule 抗性|XPHB}。"
 							]
 						}
 					]
@@ -840,120 +898,129 @@
 			]
 		},
 		{
-			"name": "Hellfire Surge",
+			"ENG_name": "Hellfire Surge",
+			"name": "地狱火崩天疾驰",
 			"source": "XUA2026VillainousOptions",
 			"page": 7,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Hell Knight",
+			"subclassShortName": "地狱骑士",
 			"subclassSource": "XUA2026VillainousOptions",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"When you use your {@classFeature Action Surge|Fighter|XPHB|2|XPHB} while wearing armor or wielding a {@item Shield|XPHB}, you can superheat your equipment, causing it to erupt with hellfire in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you. Each creature of your choice in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} must succeed on a Dexterity saving throw (DC equals 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a target takes Fire damage equal to one roll of your Infernal Wound Die and is burning. On a successful save, a target takes half as much damage only."
+				"当你穿戴护甲或手持{@item 盾牌|XPHB}时使用你的{@classFeature 动作如潮|战士|XPHB|2|XPHB}，你可以使你的装备过热，导致其喷发出地狱火，形成一个以你为源点的10尺{@variantrule 光环 [效应区域]|XPHB|光环}。你选择的该{@variantrule 光环 [效应区域]|XPHB|光环}内的每个生物必须成功通过一次敏捷豁免检定（DC等于8加上你的体质调整值和熟练加值）。豁免失败时，目标受到等同于你掷一次炼狱创伤骰的火焰伤害并陷入燃烧状态。豁免成功时，目标仅受到一半伤害。"
 			]
 		},
 		{
-			"name": "Blister of Avernus",
+			"ENG_name": "Blister of Avernus",
+			"name": "阿弗纳斯脓疱",
 			"source": "XUA2026VillainousOptions",
 			"page": 7,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Hell Knight",
+			"subclassShortName": "地狱骑士",
 			"subclassSource": "XUA2026VillainousOptions",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Your hellfire leaves painful, boiling blisters. When you roll a 6 on your Infernal Wound Die, you can roll another {@dice d6} and add it to the damage. The maximum number of {@dice d6|d6s} you can add to the Infernal Wound's damage on a turn is three."
+				"你的地狱火会留下痛苦沸腾的脓疱。当你掷出炼狱创伤骰为6时，你可以再掷一枚{@dice d6}并将其伤害值加入。每回合你能为炼狱创伤伤害添加的{@dice d6|d6s}最大数量为三枚。"
 			]
 		},
 		{
-			"name": "Hellfire Condemnation",
+			"ENG_name": "Hellfire Condemnation",
+			"name": "地狱火定罪",
 			"source": "XUA2026VillainousOptions",
 			"page": 7,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Hell Knight",
+			"subclassShortName": "地狱骑士",
 			"subclassSource": "XUA2026VillainousOptions",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"Whenever damage from your {@subclassFeature Hellfire Weapon|Fighter|XPHB|Hell Knight|XUA2026VillainousOptions|3|XUA2026VillainousOptions} or {@subclassFeature Infernal Wound|Fighter|XPHB|Hell Knight|XUA2026VillainousOptions|3|XUA2026VillainousOptions} reduces a creature to 0 Hit Points, the creature dies, and its soul rises from the River Styx as a {@creature Lemure} in a layer of the Nine Hells of your choice in {@dice 1d4} hours. If the creature isn't revived before then, only a {@spell Wish} spell can return the creature to life."
+				"每当你由{@subclassFeature 地狱火武器|战士|XPHB|地狱骑士|XUA2026反派选项|3|XUA2026反派选项}或{@subclassFeature 炼狱创伤|战士|XPHB|地狱骑士|XUA2026反派选项|3|XUA2026反派选项}造成的伤害将一个生物的生命值降至0时，该生物死亡，其灵魂将从冥河中升起，在{@dice 1d4}小时后成为你所选择的九层地狱某一层中的一只{@creature 劣魔}。如果在此之前该生物未被复活，则只有{@spell 祈愿术}法术能使其复生。"
 			]
 		},
 		{
-			"name": "Infernal Bargain",
+			"ENG_name": "Infernal Bargain",
+			"name": "炼狱契约",
 			"source": "XUA2026VillainousOptions",
 			"page": 7,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Hell Knight",
+			"subclassShortName": "地狱骑士",
 			"subclassSource": "XUA2026VillainousOptions",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"When you roll your Infernal Wound Die, you can treat a roll of 1 as a 6."
+				"当你掷炼狱创伤骰时，你可以将掷出的1点视为6点。"
 			]
 		},
 		{
-			"name": "Demonic Sorcery",
+			"ENG_name": "Demonic Sorcery",
+			"name": "恶魔语巫术",
 			"source": "XUA2026VillainousOptions",
 			"page": 7,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "Demonic",
+			"subclassShortName": "恶魔语",
 			"subclassSource": "XUA2026VillainousOptions",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"The corruptive magic of demons courses through you, making you a conduit for the infinite layers of the Abyss and their horrors. Your gift might stem from a distant demonic ancestry, a fated encounter with a demon that cursed you, or a brush with the dark hunger of the Abyss.",
-				"The Abyss is a plane of wickedness and disorder, and this chaos echoes in your innate magic. Abyssal energy erupts from you, warping your body and surroundings in tandem with your sorcery.",
-				"These Abyssal eruptions manifest in strange and gruesome ways. Roll on or choose from the {@table Abyssal Manifestations|XUA2026VillainousOptions} table to inspire how your connection to the Abyss might manifest when you channel your demonic power.",
+				"恶魔的腐化魔法在你体内流淌，使你成为无底深渊及其惊惧兽无限层级的导管。你的赠礼可能源于遥远的恶魔血统、与诅咒你的恶魔的命定之宿命遭遇，或是与无底深渊黑暗饥渴的接触。",
+				"无底深渊是一个充满不义与混沌的位面，这种混乱在你的天生魔法中产生回响。深渊能量从你体内迸发，与你的巫术一同扭曲你的身体和周边环境。",
+				"这些深渊爆发以奇异而可怕的方式显现。掷骰或从{@table 深渊显迹|XUA2026VillainousOptions}表格中选择，以激励你与无底深渊的联系在你引导恶魔语法力时可能如何显迹。",
 				{
+					"ENG_name": "Abyssal Manifestations",
+					"name": "深渊显迹",
 					"type": "statblock",
 					"tag": "table",
-					"name": "Abyssal Manifestations",
 					"source": "XUA2026VillainousOptions",
 					"page": 7
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Abyssal Rupture|Sorcerer|XPHB|Demonic|XUA2026VillainousOptions|3|XUA2026VillainousOptions"
+					"subclassFeature": "深渊裂隙|术士|XPHB|恶魔语|XUA2026反派选项|3|XUA2026反派选项"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Demonic Spells|Sorcerer|XPHB|Demonic|XUA2026VillainousOptions|3|XUA2026VillainousOptions"
+					"subclassFeature": "恶魔语法术|术士|XPHB|恶魔语|XUA2026反派选项|3|XUA2026反派选项"
 				}
 			]
 		},
 		{
-			"name": "Abyssal Rupture",
+			"ENG_name": "Abyssal Rupture",
+			"name": "深渊裂隙",
 			"source": "XUA2026VillainousOptions",
 			"page": 7,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "Demonic",
+			"subclassShortName": "恶魔语",
 			"subclassSource": "XUA2026VillainousOptions",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"When you spend at least 1 Sorcery Point as part of a {@action Magic|XPHB} action or a {@variantrule Bonus Action|XPHB} on your turn, you can unleash one of the following magical effects of your choice. You can do so only once per turn.",
+				"当你在你的回合中，作为{@action 魔法|XPHB}动作或{@variantrule 附赠动作|XPHB}的一部分消耗至少1点术法点时，你可以释放以下一个你选择的魔法效应。每回合你只能这样做一次。",
 				{
 					"type": "list",
 					"style": "list-hang-subtrait",
 					"items": [
 						{
+							"ENG_name": "Demonic Lash",
+							"name": "恶魔语鞭笞",
 							"type": "item",
-							"name": "Demonic Lash",
 							"entries": [
-								"One creature you can see within 20 feet of you takes {@damage 1d4} Slashing damage, and if it is Large or smaller, you can pull it up to 10 feet closer to you."
+								"你能够看见的20尺内的一个生物受到{@damage 1d4}点挥砍伤害，如果它是大型或更小体型，你可以将其拉近至多10尺。"
 							]
 						},
 						{
+							"ENG_name": "Fiendish Carapace",
+							"name": "魔裔甲壳",
 							"type": "item",
-							"name": "Fiendish Carapace",
 							"entries": [
-								"Until the start of your next turn, attack rolls against you have {@variantrule Disadvantage|XPHB}."
+								"直到你的下个回合开始，针对你的攻击检定具有{@variantrule 劣势|XPHB}。"
 							]
 						}
 					]
@@ -961,80 +1028,88 @@
 			]
 		},
 		{
-			"name": "Demonic Spells",
+			"ENG_name": "Demonic Spells",
+			"name": "恶魔语法术",
 			"source": "XUA2026VillainousOptions",
 			"page": 8,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "Demonic",
+			"subclassShortName": "恶魔语",
 			"subclassSource": "XUA2026VillainousOptions",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"When you reach a Sorcerer level specified in the {@table Demonic Spells|XUA2026VillainousOptions} table, you thereafter always have the listed spells prepared.",
+				"当你达到{@table 恶魔语法术|XUA2026VillainousOptions}表格中指定的术士等级时，你将始终准备所列出的法术。",
 				{
+					"ENG_name": "Demonic Spells",
+					"name": "恶魔语法术",
 					"type": "statblock",
 					"tag": "table",
-					"name": "Demonic Spells",
 					"source": "XUA2026VillainousOptions",
 					"page": 8
 				}
 			]
 		},
 		{
-			"name": "Abyssal Aura",
+			"ENG_name": "Abyssal Aura",
+			"name": "深渊气息",
 			"source": "XUA2026VillainousOptions",
 			"page": 8,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "Demonic",
+			"subclassShortName": "恶魔语",
 			"subclassSource": "XUA2026VillainousOptions",
 			"level": 6,
 			"header": 2,
 			"consumes": {
-				"name": "Sorcery Point",
+				"ENG_name": "Sorcery Point",
+				"name": "术法点",
 				"amount": 2
 			},
 			"entries": [
-				"When you use {@classFeature Innate Sorcery|Sorcerer|XPHB|1|XPHB}, you can infuse the chaos of the Abyss into your surroundings. While this use of {@classFeature Innate Sorcery|Sorcerer|XPHB|1|XPHB} is active, reality warps in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you, filling the area with a demonic effect. Roll on the {@table Abyssal Effects|XUA2026VillainousOptions} table to determine the effect. If an effect requires a saving throw, the DC equals {@dcYourSpellSave}.",
-				"Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}. You can also restore your use of it by spending 2 Sorcery Points (no action required).",
+				"当你使用{@classFeature 先天术法|术士|XPHB|1|XPHB}时，你可以将无底深渊的混沌注入你的周边环境。在此次{@classFeature 先天术法|术士|XPHB|1|XPHB}生效期间，现实会在一个以你为原点、半径10尺的{@variantrule 光环 [效应区域]|XPHB|光环}内扭曲，使该区域充满恶魔效应。在{@table 深渊效应|XUA2026VillainousOptions}表格上掷骰以决定效应。若效应需要豁免检定，DC等于{@dcYourSpellSave}。",
+				"一旦你使用了此特性，直到完成一次{@variantrule 长休|XPHB}前你都无法再次使用它。你也可以通过消耗2点术法点来恢复其使用次数（无需动作）。",
 				{
+					"ENG_name": "Abyssal Effects",
+					"name": "深渊效应",
 					"type": "statblock",
 					"tag": "table",
-					"name": "Abyssal Effects",
 					"source": "XUA2026VillainousOptions",
 					"page": 8
 				}
 			]
 		},
 		{
-			"name": "Abyssal Conduit",
+			"ENG_name": "Abyssal Conduit",
+			"name": "深渊导管",
 			"source": "XUA2026VillainousOptions",
 			"page": 8,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "Demonic",
+			"subclassShortName": "恶魔语",
 			"subclassSource": "XUA2026VillainousOptions",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Your Abyssal powers reach their full potential. You gain the following benefits.",
+				"你的深渊之力达到了其全部潜力。你获得以下增益。",
 				{
 					"type": "list",
 					"style": "list-hang-subtrait",
 					"items": [
 						{
+							"ENG_name": "Aura Expansion",
+							"name": "灵光增效",
 							"type": "item",
-							"name": "Aura Expansion",
 							"entries": [
-								"Your {@subclassFeature Abyssal Aura|Sorcerer|XPHB|Demonic|XUA2026VillainousOptions|6|XUA2026VillainousOptions} is now a 20-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation}."
+								"你的{@subclassFeature 深渊气息|术士|XPHB|恶魔语|XUA2026反派选项|6|XUA2026反派选项}现在是一个20尺的{@variantrule 光环 [效应区域]|XPHB|光环}。"
 							]
 						},
 						{
+							"ENG_name": "Controlled Chaos",
+							"name": "掌控混沌",
 							"type": "item",
-							"name": "Controlled Chaos",
 							"entries": [
-								"Whenever you would roll on the {@table Abyssal Effects|XUA2026VillainousOptions} table, you can roll twice and choose which of the two effects to use. If you roll the same number on both dice, you can instead choose any effect on the table."
+								"每当你需要在{@table 深渊效应|XUA2026VillainousOptions}表格上掷骰时，你可以掷两次并选择使用两个效应中的哪一个。如果你在两次掷骰中掷出了相同的数值，你可以改为选择表格上的任意效应。"
 							]
 						}
 					]
@@ -1042,27 +1117,29 @@
 			]
 		},
 		{
-			"name": "Fiendish Servant",
+			"ENG_name": "Fiendish Servant",
+			"name": "魔裔仆役",
 			"source": "XUA2026VillainousOptions",
 			"page": 8,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "Demonic",
+			"subclassShortName": "恶魔语",
 			"subclassSource": "XUA2026VillainousOptions",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"You can cast {@spell Summon Fiend|XPHB} without a Material component. You can also cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a {@variantrule Long Rest|XPHB}. When you cast it in this way, you must choose Demon for the summoned Fiend's type."
+				"你可以无需材料成分施放{@spell 邪魔召唤术|XPHB}。你还可以无需法术位施放该法术一次，并且当你完成一次{@variantrule 长休|XPHB}后，你重新获得以此方式施放该法术的能力。当你以此方式施放该法术时，你必须为召唤的邪魔选择恶魔作为其生物类型。"
 			]
 		}
 	],
 	"foundrySubclassFeature": [
 		{
-			"name": "Blight Weaver",
+			"ENG_name": "Blight Weaver",
+			"name": "枯萎编织者",
 			"source": "XUA2026VillainousOptions",
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "XPHB",
-			"subclassShortName": "Pestilence",
+			"subclassShortName": "瘟疫术",
 			"subclassSource": "XUA2026VillainousOptions",
 			"level": 3,
 			"entryData": {
@@ -1076,11 +1153,12 @@
 			}
 		},
 		{
-			"name": "Diabolical Gift",
+			"ENG_name": "Diabolical Gift",
+			"name": "魔鬼赠礼",
 			"source": "XUA2026VillainousOptions",
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Hell Knight",
+			"subclassShortName": "地狱骑士",
 			"subclassSource": "XUA2026VillainousOptions",
 			"level": 3,
 			"effects": [
@@ -1112,11 +1190,12 @@
 			}
 		},
 		{
-			"name": "Hell-Forged Equipment",
+			"ENG_name": "Hell-Forged Equipment",
+			"name": "地狱锻造装备",
 			"source": "XUA2026VillainousOptions",
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "XPHB",
-			"subclassShortName": "Hell Knight",
+			"subclassShortName": "地狱骑士",
 			"subclassSource": "XUA2026VillainousOptions",
 			"level": 7,
 			"entryData": {
@@ -1128,14 +1207,15 @@
 	],
 	"feat": [
 		{
-			"name": "Arcane Restoration",
+			"ENG_name": "Arcane Restoration",
+			"name": "奥术恢复",
 			"source": "XUA2026VillainousOptions",
 			"page": 12,
-			"category": "Path of the Lich",
+			"category": "巫妖路途",
 			"prerequisite": [
 				{
 					"feat": [
-						"lich initiate|XUA2026VillainousOptions"
+						"巫妖入门|XUA2026反派选项"
 					]
 				}
 			],
@@ -1151,27 +1231,29 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Essence Rejuvenation",
+					"name": "精华复生",
 					"type": "entries",
-					"name": "Essence Rejuvenation",
 					"entries": [
-						"When you use Soul Siphon to consume a soul, you can choose one or more expended spell slots to recover. The spell slots can have a combined level equal to no more than 4. Once you use this feature, you can't use it again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+						"当你使用灵魂虹吸消耗一个灵魂时，你可以选择恢复一个或多个已消耗的法术位。这些法术位的总等级不得超过4。一旦你使用了此特性，直到你完成一次{@variantrule 短休|XPHB|短}或{@variantrule 长休|XPHB}前，你无法再次使用它。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Death Knight Ascension",
+			"ENG_name": "Death Knight Ascension",
+			"name": "死亡骑士晋升",
 			"source": "XUA2026VillainousOptions",
 			"page": 10,
-			"category": "Path of the Death Knight",
+			"category": "死亡骑士路途",
 			"prerequisite": [
 				{
 					"level": 12,
 					"featCategory": [
 						{
-							"category": "Path of the Death Knight",
+							"category": "死亡骑士路途",
 							"count": 2
 						}
 					]
@@ -1192,40 +1274,44 @@
 				"poison"
 			],
 			"entries": [
-				"Your path to becoming a death knight is complete. You gain the following benefits.",
+				"你通往成为死亡骑士的路途已经完成。你获得以下增益。",
 				{
+					"ENG_name": "Undead",
+					"name": "亡灵",
 					"type": "entries",
-					"name": "Undead",
 					"entries": [
-						"Your creature type is Undead."
+						"你的生物类型是亡灵。"
 					]
 				},
 				{
+					"ENG_name": "Unholy Anatomy",
+					"name": "不洁躯体",
 					"type": "entries",
-					"name": "Unholy Anatomy",
 					"entries": [
-						"You have {@variantrule Resistance|XPHB} to Necrotic and Poison damage. You don't gain {@condition Exhaustion|XPHB} levels from dehydration, malnutrition, or suffocation."
+						"你拥有对暗蚀和毒素伤害的{@variantrule 抗性|XPHB}。你不会因脱水、饥饿或窒息而获得{@condition 力竭|XPHB}等级。"
 					]
 				},
 				{
+					"ENG_name": "Hellfire Orb",
+					"name": "地狱火珠",
 					"type": "entries",
-					"name": "Hellfire Orb",
 					"entries": [
-						"As a {@action Magic|XPHB} action, you can expend 1 to 5 Death Points to throw an orb of pure hellfire at a point you can see within 120 feet. Each creature in a 20-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on the chosen point makes a Dexterity saving throw ({@dc 8} plus your Charisma modifier and {@variantrule Proficiency|XPHB|Proficiency Bonus}). On a failed save, a target takes {@damage 2d6} Fire damage and {@damage 2d6} Necrotic damage per Death Point expended. On a successful save, the target takes half as much damage."
+						"以一个{@action 魔法|XPHB}动作，你可以消耗1到5点死亡点数，向一个你120尺内能看见的点投掷一枚纯粹地狱火珠。以该选定点为中心，20尺半径{@variantrule 球状 [效应区域]|XPHB|球状}范围内的每个生物需进行一次敏捷豁免检定（{@dc 8}加上你的魅力调整值和{@variantrule 熟练|XPHB|熟练加值}）。豁免失败的目标，每消耗1点死亡点数，将受到{@damage 2d6}火焰伤害和{@damage 2d6}暗蚀伤害。豁免成功的目标，则受到一半伤害。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Death Knight Initiate",
+			"ENG_name": "Death Knight Initiate",
+			"name": "死亡骑士学徒",
 			"source": "XUA2026VillainousOptions",
 			"page": 9,
-			"category": "Path of the Death Knight",
+			"category": "死亡骑士路途",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feature": [
-						"Weapon Mastery"
+						"武器精通"
 					]
 				}
 			],
@@ -1245,44 +1331,47 @@
 						"_": {
 							"resource": {
 								"1e": [
-									"Wrathful Smite"
+									"激愤斩"
 								]
 							}
 						}
 					},
 					"ability": "cha",
-					"resourceName": "Death Point"
+					"resourceName": "死亡点数"
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Death Points",
+					"name": "死亡点数",
 					"type": "entries",
-					"name": "Death Points",
 					"entries": [
-						"Your dedication to the path of the Death Knight gives you access to profane powers of undeath. Your ability to use such powers is represented by Death Points. You have a number of Death Points equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}. You regain all expended Death Points when you finish a {@variantrule Long Rest|XPHB}.",
-						"You can expend Death Points to use certain Path of the Death Knight benefits. This feat gives you one such benefit: Dread Strike."
+						"你对死亡骑士之路的献身让你得以接触亵渎的不死之力。你使用这些力量的能力由死亡点数体现。你拥有的死亡点数等于你的{@variantrule 熟练|XPHB|熟练加值}。当你完成一次{@variantrule 长休|XPHB}时，你恢复所有已消耗的死亡点数。",
+						"你可以消耗死亡点数来使用某些死亡骑士之路的增益。此专长给予你一项此类增益：恐惧打击。"
 					]
 				},
 				{
+					"ENG_name": "Dread Strike",
+					"name": "恐惧打击",
 					"type": "entries",
-					"name": "Dread Strike",
 					"entries": [
-						"You always have the {@spell Wrathful Smite|XPHB} spell prepared. Charisma is your spellcasting ability for this spell. You can cast it without expending a spell slot by expending 1 Death Point. When you expend Death Points to cast {@spell Wrathful Smite|XPHB}, the target has {@variantrule Disadvantage|XPHB} on Wisdom saving throws to avoid or end the spell's effect. You can also cast the spell using any spell slots you have."
+						"你总是准备着{@spell 激愤斩|XPHB}法术。魅力是你施放此法术的施法属性。你可以通过消耗1点死亡点数来施放它，而无需消耗法术位。当你消耗死亡点数施放{@spell 激愤斩|XPHB}时，目标在感知豁免检定上具有{@variantrule 劣势|XPHB}，以避开或结束该法术的效应。你也可以使用你拥有的任意法术位来施放此法术。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Deathly Presence",
+			"ENG_name": "Deathly Presence",
+			"name": "死亡威仪",
 			"source": "XUA2026VillainousOptions",
 			"page": 10,
-			"category": "Path of the Death Knight",
+			"category": "死亡骑士路途",
 			"prerequisite": [
 				{
 					"level": 8,
 					"feat": [
-						"death knight initiate|XUA2026VillainousOptions"
+						"死亡骑士学徒|XUA2026反派选项"
 					]
 				}
 			],
@@ -1303,35 +1392,37 @@
 						"_": {
 							"resource": {
 								"1e": [
-									"fear"
+									"恐惧术"
 								]
 							}
 						}
 					},
 					"ability": "cha",
-					"resourceName": "Death Point"
+					"resourceName": "死亡点数"
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Awful Presence",
+					"name": "可怖威仪",
 					"type": "entries",
-					"name": "Awful Presence",
 					"entries": [
-						"You always have the {@spell Fear|XPHB} spell prepared. Charisma is your spellcasting ability for this spell. You can cast it without expending a spell slot by expending 1 Death Point. You can also cast the spell using any spell slots you have. When you expend Death Points to cast {@spell Fear|XPHB}, you deal 7 ({@damage 2d6}) Psychic damage to each creature that fails its saving throw against the spell, in addition to the spell's normal effects."
+						"你总是准备了{@spell 恐惧术|XPHB}法术。魅力是你的施法属性。你可以通过消耗1点死亡点数来施放它，而无需消耗法术位。你也可以使用你拥有的任意法术位来施放该法术。当你消耗死亡点数来施放{@spell 恐惧术|XPHB}时，除了该法术的正常效应外，你还会对每个豁免检定失败的目标生物造成7（{@damage 2d6}）点心灵伤害。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Dread Authority",
+			"ENG_name": "Dread Authority",
+			"name": "恐怖权威",
 			"source": "XUA2026VillainousOptions",
 			"page": 9,
-			"category": "Path of the Death Knight",
+			"category": "死亡骑士路途",
 			"prerequisite": [
 				{
 					"feat": [
-						"death knight initiate|XUA2026VillainousOptions"
+						"死亡骑士学徒|XUA2026反派选项"
 					]
 				}
 			],
@@ -1351,35 +1442,37 @@
 						"_": {
 							"resource": {
 								"1e": [
-									"command"
+									"命令术"
 								]
 							}
 						}
 					},
 					"ability": "cha",
-					"resourceName": "Death Point"
+					"resourceName": "死亡点数"
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Dread Command",
+					"name": "震怖命令",
 					"type": "entries",
-					"name": "Dread Command",
 					"entries": [
-						"You always have the {@spell Command|XPHB} spell prepared. Charisma is your spellcasting ability for this spell. You can cast it without expending a spell slot by expending 1 Death Point. You can also cast the spell using any spell slots you have. When you expend Death Points to cast {@spell Command|XPHB}, Undead targeted by it have {@variantrule Disadvantage|XPHB} on the saving throw against the spell."
+						"你总是准备着{@spell 命令术|XPHB}法术。魅力是你施放此法术的施法属性。你可以通过消耗1点死亡点数来施放它，而无需消耗法术位。你也可以使用你拥有的任意法术位来施放此法术。当你消耗死亡点数施放{@spell 命令术|XPHB}时，受其法术影响的亡灵在对抗该法术的豁免检定上具有{@variantrule 劣势|XPHB}。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Harbinger of Doom",
+			"ENG_name": "Harbinger of Doom",
+			"name": "末日使者",
 			"source": "XUA2026VillainousOptions",
 			"page": 10,
-			"category": "Path of the Death Knight",
+			"category": "死亡骑士路途",
 			"prerequisite": [
 				{
 					"feat": [
-						"death knight initiate|XUA2026VillainousOptions"
+						"死亡骑士学徒|XUA2026反派选项"
 					]
 				}
 			],
@@ -1400,37 +1493,39 @@
 						"_": {
 							"resource": {
 								"1e": [
-									"bane"
+									"灾祸术"
 								]
 							}
 						}
 					},
 					"ability": "cha",
-					"resourceName": "Death Point"
+					"resourceName": "死亡点数"
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Ill Omen",
+					"name": "不祥的预兆",
 					"type": "entries",
-					"name": "Ill Omen",
 					"entries": [
-						"You always have the {@spell Bane|XPHB} spell prepared. Charisma is your spellcasting ability for this spell. You can cast it without expending a spell slot by expending 1 Death Point. You can also cast the spell using any spell slots you have. When you expend Death Points to cast {@spell Bane|XPHB}, affected targets subtract {@dice 1d6} from attack rolls and saving throws instead of {@dice 1d4}."
+						"你总是准备着{@spell 灾祸术|XPHB}法术。魅力是你施放该法术的施法属性。你可以通过消耗1点死亡点数来施放它，而无需消耗法术位。你也可以使用你拥有的任意法术位来施放该法术。当你消耗死亡点数施放{@spell 灾祸术|XPHB}时，受影响的目标准备从攻击检定和豁免检定中减去{@dice 1d6}，而非{@dice 1d4}。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Lich Ascension",
+			"ENG_name": "Lich Ascension",
+			"name": "巫妖扬升",
 			"source": "XUA2026VillainousOptions",
 			"page": 12,
-			"category": "Path of the Lich",
+			"category": "巫妖路途",
 			"prerequisite": [
 				{
 					"level": 12,
 					"featCategory": [
 						{
-							"category": "Path of the Lich",
+							"category": "巫妖路途",
 							"count": 2
 						}
 					]
@@ -1457,7 +1552,7 @@
 						"_": {
 							"daily": {
 								"mod": [
-									"fear"
+									"恐惧术"
 								]
 							}
 						}
@@ -1472,42 +1567,47 @@
 				}
 			],
 			"entries": [
-				"Your path to lichdom is complete. You gain the following benefits.",
+				"你通往巫妖形态的道路已经完成。你获得以下增益。",
 				{
+					"ENG_name": "Undead",
+					"name": "亡灵",
 					"type": "entries",
-					"name": "Undead",
 					"entries": [
-						"Your creature type is Undead."
+						"你的生物类型是亡灵。"
 					]
 				},
 				{
+					"ENG_name": "Unholy Anatomy",
+					"name": "不洁躯体",
 					"type": "entries",
-					"name": "Unholy Anatomy",
 					"entries": [
-						"You have {@variantrule Resistance|XPHB} to Necrotic and Poison damage. You don't gain {@condition Exhaustion|XPHB} levels from dehydration, malnutrition, or suffocation."
+						"你拥有对暗蚀和毒素伤害的{@variantrule 抗性|XPHB}。你不会因脱水、饥饿或窒息而获得{@condition 力竭|XPHB}等级。"
 					]
 				},
 				{
+					"ENG_name": "Frightening Gaze",
+					"name": "恐惧凝视",
 					"type": "entries",
-					"name": "Frightening Gaze",
 					"entries": [
-						"You learn the {@spell Fear|XPHB} spell if you don't already know it, and you always have it prepared. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat). You can cast the spell without expending a spell slot a number of times equal to your spellcasting ability modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+						"如果你尚未知晓，你将习得{@spell 恐惧术|XPHB}法术，并且你总是准备着它。智力、感知或魅力是你施放此法术的施法属性（在选择此专长时决定）。你可以不消耗法术位施放此法术，次数等于你的施法属性调整值（至少一次），并且当你完成一次{@variantrule 长休|XPHB}后，你恢复所有已消耗的使用次数。"
 					]
 				},
 				{
+					"ENG_name": "Rejuvenation",
+					"name": "复生",
 					"type": "entries",
-					"name": "Rejuvenation",
 					"entries": [
-						"If you die, you re-form in {@dice 1d10} days if you have a spirit jar and aren't revived before then. You gain a new body, appearing with all your {@variantrule Hit Points|XPHB} in the nearest unoccupied space within 5 feet of your spirit jar."
+						"如果你死亡，并且你拥有命匣且在此之前未被复活，你将在 {@dice 1d10} 天后重塑形态。你获得一个新的身体，出现在你命匣5尺范围内最近的未占据空间，并拥有你所有的 {@variantrule 生命值|XPHB}。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Lich Initiate",
+			"ENG_name": "Lich Initiate",
+			"name": "巫妖学徒",
 			"source": "XUA2026VillainousOptions",
 			"page": 11,
-			"category": "Path of the Lich",
+			"category": "巫妖路途",
 			"prerequisite": [
 				{
 					"level": 4,
@@ -1526,47 +1626,52 @@
 				}
 			],
 			"entries": [
-				"You take the first steps toward lichdom, which involve creating your spirit jar, a magical vessel that anchors your soul to the world of the living in the event of your body's destruction.",
-				"You gain the following benefits.",
+				"你迈出了通往巫妖形态的第一步，这包括创造你的命匣，一个在你身体毁灭时将你的灵魂锚定在活体世界的魔法器皿。",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Creating Your Spirit Jar",
+					"name": "创造你的命匣",
 					"type": "entries",
-					"name": "Creating Your Spirit Jar",
 					"entries": [
-						"Choose a Tiny object of great significance to you. Roll on or choose from the {@table Spirit Jars|XUA2026VillainousOptions} table to inspire this object. You spend a {@variantrule Long Rest|XPHB} anchoring your soul to this object, allowing you to consume the souls of the living to bolster your own power. You can have only one spirit jar at a time. If you create a second spirit jar, the old one is destroyed.",
+						"选择一个对你意义重大的微型物件。掷骰或从{@table 灵魂容器|XUA2026VillainousOptions}表格中选择以激励此物件。你花费一次{@variantrule 长休|XPHB}将你的灵魂锚定于此物件，使你能够消耗活体生物的灵魂来增强自身力量。你一次只能拥有一个命匣。如果你创造了第二个命匣，旧的命匣将被摧毁。",
 						{
+							"ENG_name": "Spirit Jars",
+							"name": "精魄罐",
 							"type": "statblock",
 							"tag": "table",
-							"name": "Spirit Jars",
 							"source": "XUA2026VillainousOptions",
 							"page": 11
 						}
 					]
 				},
 				{
+					"ENG_name": "Spirit Jar Destruction",
+					"name": "命匣毁灭",
 					"type": "entries",
-					"name": "Spirit Jar Destruction",
 					"entries": [
-						"Your spirit jar's {@variantrule Armor Class|XPHB} equals {@dcYourSpellSave}, and it has a number of {@variantrule Hit Points|XPHB} equal to your spellcasting ability modifier plus your character level. If your spirit jar is destroyed, you gain 2 {@condition Exhaustion|XPHB} levels, and you can't use the Soul Siphon ability until you create a new one."
+						"你的命匣的{@variantrule 护甲等级|XPHB}等于{@dcYourSpellSave}，并且其{@variantrule 生命值|XPHB}等于你的施法属性调整值加上你的角色等级。如果你的命匣被摧毁，你将获得2层{@condition 力竭|XPHB}状态，并且在制造一个新的命匣之前，你无法使用灵魂虹吸能力。"
 					]
 				},
 				{
+					"ENG_name": "Soul Siphon",
+					"name": "灵魂虹吸",
 					"type": "entries",
-					"name": "Soul Siphon",
 					"entries": [
-						"When you reduce a Humanoid enemy to 0 {@variantrule Hit Points|XPHB}, you can consume its soul and gain a boost of arcane energy (no action required). On your next turn, the first creature you hit with an attack takes extra Necrotic damage equal to {@dice 1d6} plus your spellcasting ability modifier. You also gain this benefit if someone else reduces a Humanoid enemy within 10 feet of you to 0 {@variantrule Hit Points|XPHB}. A soul consumed in this way can be restored only by a {@spell True Resurrection|XPHB} or {@spell Wish|XPHB} spell."
+						"当你将一个类人生物仇敌的生命值降至0点{@variantrule 生命值|XPHB}时，你可以消耗其灵魂并获得一股奥术能量的强化（无需动作）。在你的下一个回合，你首次以攻击命中的生物将受到额外的暗蚀伤害，数值等于{@dice 1d6}加上你的施法属性调整值。如果其他生物将你10尺内的一个类人生物仇敌的生命值降至0点{@variantrule 生命值|XPHB}，你同样获得此增益。以此方式被消耗的灵魂只能通过{@spell 完全复生术|XPHB}或{@spell 祈愿术|XPHB}法术来恢复。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Transfer Life",
+			"ENG_name": "Transfer Life",
+			"name": "生命转移",
 			"source": "XUA2026VillainousOptions",
 			"page": 12,
-			"category": "Path of the Lich",
+			"category": "巫妖路途",
 			"prerequisite": [
 				{
 					"feat": [
-						"lich initiate|XUA2026VillainousOptions"
+						"巫妖入门|XUA2026反派选项"
 					]
 				}
 			],
@@ -1582,25 +1687,27 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Soul Transference",
+					"name": "灵魂转移",
 					"type": "entries",
-					"name": "Soul Transference",
 					"entries": [
-						"When you use Soul Siphon to consume a soul, you can choose a creature within 60 feet of yourself to gain {@variantrule Temporary Hit Points|XPHB} equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} plus your spellcasting ability modifier (minimum of 1 {@variantrule Temporary Hit Points|XPHB|Temporary Hit Point})."
+						"当你使用灵魂虹吸消耗一个灵魂时，你可以选择自身60尺内的一个生物，使其获得等于你的{@variantrule 熟练|XPHB|熟练加值}加上你的施法属性调整值（至少1点{@variantrule 临时生命值|XPHB}）的{@variantrule 临时生命值|XPHB|临时生命值}。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Undead Grasp",
+			"ENG_name": "Undead Grasp",
+			"name": "亡灵攫取",
 			"source": "XUA2026VillainousOptions",
 			"page": 12,
-			"category": "Path of the Lich",
+			"category": "巫妖路途",
 			"prerequisite": [
 				{
 					"feat": [
-						"lich initiate|XUA2026VillainousOptions"
+						"巫妖入门|XUA2026反派选项"
 					]
 				}
 			],
@@ -1619,7 +1726,7 @@
 				{
 					"known": {
 						"_": [
-							"chill touch"
+							"颤栗之触"
 						]
 					},
 					"ability": {
@@ -1629,31 +1736,33 @@
 							"cha"
 						]
 					},
-					"resourceName": "Death Point"
+					"resourceName": "死亡点数"
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Paralyzing Touch",
+					"name": "麻痹之触",
 					"type": "entries",
-					"name": "Paralyzing Touch",
 					"entries": [
-						"You know the {@spell Chill Touch|XPHB} cantrip. If you already know it, you learn another cantrip of your choice. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat).",
-						"When you deal damage with {@spell Chill Touch|XPHB}, you can expend a level 1+ spell slot to attempt to paralyze the target. The target takes an extra {@damage 1d10} Necrotic damage per level of the spell slot expended and must succeed on a Constitution saving throw against {@dcYourSpellSave} or have the {@condition Paralyzed|XPHB} condition until the start of your next turn."
+						"你习得戏法{@spell 颤栗之触|XPHB}。若你已习得此戏法，则改为习得一个你自选的其它戏法。智力、感知或魅力作为此法术的施法属性（选择此专长时决定）。",
+						"当你使用{@spell 颤栗之触|XPHB}造成伤害时，你可以消耗一个1环或更高的法术位来尝试麻痹目标。目标受到等同于所消耗法术位等级的额外{@damage 1d10}暗蚀伤害，并且必须成功通过一次对抗{@dcYourSpellSave}的体质豁免检定，否则将陷入{@condition 麻痹|XPHB}状态，直到你的下一个回合开始。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Unholy Steed",
+			"ENG_name": "Unholy Steed",
+			"name": "邪恶坐骑",
 			"source": "XUA2026VillainousOptions",
 			"page": 10,
-			"category": "Path of the Death Knight",
+			"category": "死亡骑士路途",
 			"prerequisite": [
 				{
 					"level": 8,
 					"feat": [
-						"death knight initiate|XUA2026VillainousOptions"
+						"死亡骑士学徒|XUA2026反派选项"
 					]
 				}
 			],
@@ -1673,22 +1782,23 @@
 						"_": {
 							"resource": {
 								"1e": [
-									"Find Steed"
+									"寻获坐骑"
 								]
 							}
 						}
 					},
 					"ability": "cha",
-					"resourceName": "Death Point"
+					"resourceName": "死亡点数"
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"你获得以下增益。",
 				{
+					"ENG_name": "Spectral Steed",
+					"name": "幽影坐骑",
 					"type": "entries",
-					"name": "Spectral Steed",
 					"entries": [
-						"You always have the {@spell Find Steed|XPHB} spell prepared. Charisma is your spellcasting ability for this spell. You can cast it without expending a spell slot by expending 1 Death Point. When you expend Death Points to cast {@spell Find Steed|XPHB}, the summoned steed is a Fiend, and targets you choose have {@variantrule Disadvantage|XPHB} on the Wisdom saving throw against its Fell Glare. You can also cast the spell using any spell slots you have."
+						"你总是准备着{@spell 寻获坐骑|XPHB}法术。魅力是你施放此法术的施法属性。你可以通过消耗1点死亡点数来施放它而无需消耗法术位。当你消耗死亡点数来施放{@spell 寻获坐骑|XPHB}时，召唤出的坐骑是一个邪魔，且你选择的目标在其对抗极恶凝视的感知豁免检定中具有{@variantrule 劣势|XPHB}。你也可以使用你拥有的任意法术位来施放此法术。"
 					]
 				}
 			]
@@ -1696,118 +1806,132 @@
 	],
 	"charoption": [
 		{
-			"name": "Path of the Death Knight",
+			"ENG_name": "Path of the Death Knight",
+			"name": "死亡骑士路途",
 			"source": "XUA2026VillainousOptions",
 			"page": 9,
 			"optionType": [
 				"PTH"
 			],
 			"entries": [
-				"Death knights are dastards, deserters, and disgraced champions, undead warriors who march toward perdition to fulfill selfish desires and slake their bloodthirst. A death knight's martial prowess is inextricably tied to their evil nature, but their heinous deeds extend far beyond the battlefield.",
+				"死亡骑士是懦夫、逃兵和蒙羞的冠军，是向毁灭进军以满足私欲和嗜血渴望的亡灵武者。死亡骑士的军事实力与其邪恶本性密不可分，但其滔天罪行远不止于战场。",
 				{
+					"ENG_name": "Death Knight Journeys",
+					"name": "死亡骑士之旅",
 					"type": "entries",
-					"name": "Death Knight Journeys",
 					"page": 9,
 					"entries": [
-						"While each death knight is unique, every death knight's descent into villainy begins with a significant and dishonorable act\u2014a deliberate wrongdoing or shameful mistake that marks their disgrace. You can roll on or choose from the {@table Death Knight Journeys|XUA2026VillainousOptions} table to determine why your character has chosen to walk this path.",
+						"虽然每位死亡骑士都是独特的，但每位死亡骑士堕落为恶都始于一个重大且不光彩的行为\u2014\u2014一个标志着他们耻辱的蓄意恶行或可耻的失误。你可以掷骰或从{@table 死亡骑士之旅|XUA2026VillainousOptions}表格中选择，以决定你的角色为何选择走上这条道路。",
 						{
+							"ENG_name": "Death Knight Journeys",
+							"name": "死亡骑士之旅",
 							"type": "statblock",
 							"tag": "table",
-							"name": "Death Knight Journeys",
 							"source": "XUA2026VillainousOptions",
 							"page": 9
 						},
 						{
+							"ENG_name": "Death Knights Across yhe Multiverse",
+							"name": "遍布多元宇宙的死亡骑士们",
 							"type": "inset",
-							"name": "Death Knights Across yhe Multiverse",
 							"page": 9,
 							"entries": [
-								"The death knights of D&D are dramatic figures whose tragic fates result from equally tragic sins. On many worlds, death knights' misdeeds spell doom not just for themselves and their companions but for entire kingdoms.",
-								"Notable death knights across the multiverse include the following:",
+								"龙与地下城中的死亡骑士们是戏剧性的人物，他们悲剧性的命运源于同样悲剧性的罪孽。在许多世界中，死亡骑士们的恶行不仅为他们自己及其同伴，也为整个王国带来了末日。",
+								"多元宇宙中著名的死亡骑士包括以下这些：",
 								{
 									"type": "list",
 									"page": 9,
 									"style": "list-hang-notitle",
 									"items": [
 										{
+											"ENG_name": "{@creature Lord Soth|DSotDQ},",
+											"name": "{@creature 索思爵士|DSotDQ},",
 											"type": "item",
-											"name": "{@creature Lord Soth|DSotDQ},",
 											"entries": [
-												"Knight of the Black Rose and ruler of Dargaard Keep on the world of Krynn"
+												"克莱恩世界的达加德堡垒统治者，漆黑玫瑰骑士"
 											]
 										},
 										{
+											"ENG_name": "Olanthius,",
+											"name": "奥兰苏斯",
 											"type": "item",
-											"name": "Olanthius,",
 											"entries": [
-												"former general of the angel Zariel who became a death knight after Zariel's fall from grace"
+												"天使扎瑞尔的前任将军，在扎瑞尔失势后成为了一名死亡骑士"
 											]
 										},
 										{
+											"ENG_name": "Saint Kargoth,",
+											"name": "圣·卡戈斯，",
 											"type": "item",
-											"name": "Saint Kargoth,",
 											"entries": [
-												"favored servant of the demon lord Demogorgon and Greyhawk's first death knight"
+												"恶魔领主狄摩高根的青睐仆役，也是灰鹰世界的第一位死亡骑士"
 											]
 										}
 									]
 								},
-								"While most death knights refuse to atone for the acts that made them, it's possible for a death knight to repent and end their curse. Such was the fate of Lord Vanrak Moonstar of Waterdeep, who repented to {@deity Selûne|Forgotten Realms|PHB} for betraying her in favor of her nemesis, {@deity Shar|Forgotten Realms|PHB}.",
-								"For more on {@creature death knight|XMM|death knights}, see the {@book Monster Manual|XMM}."
+								"虽然大多数死亡骑士拒绝为他们成为死亡骑士的行为赎罪，但一个死亡骑士也有可能忏悔并结束他们的诅咒。深水城的范拉克·月星领主便是如此命运，他向曾被他背叛转而投向她死敌{@deity 塞伦涅|被遗忘的国度|PHB}的{@deity 莎尔|被遗忘的国度|PHB}忏悔。",
+								"更多关于{@creature 死亡骑士|XMM|死亡骑士们}的信息，请参阅{@book 怪物图鉴|XMM}。"
 							]
 						}
 					]
 				},
 				{
+					"ENG_name": "Path of the Death Knight Feats",
+					"name": "死亡骑士路途专长",
 					"type": "entries",
-					"name": "Path of the Death Knight Feats",
 					"page": 9,
 					"entries": [
-						"The following feats represent one path a character can take to become a death knight. To complete the Path of the Death Knight, begin by taking the {@feat Death Knight Initiate|XUA2026VillainousOptions} feat, followed by any other Path of the Death Knight feat you choose. Finally, when you reach level 12 or higher, take the {@feat Death Knight Ascension|XUA2026VillainousOptions} feat.",
+						"以下专长代表角色成为死亡骑士的一条路途。要完成死亡骑士路途，首先选择{@feat 死亡骑士学徒|XUA2026反派选项}专长，随后选择任意一个你选择的死亡骑士路途专长。最后，当你达到第12层或更高等级时，选择{@feat 死亡骑士晋升|XUA2026反派选项}专长。",
 						{
+							"ENG_name": "Death Knight Initiate",
+							"name": "死亡骑士学徒",
 							"type": "statblock",
 							"tag": "feat",
-							"name": "Death Knight Initiate",
 							"source": "XUA2026VillainousOptions",
 							"page": 9,
 							"collapsed": true
 						},
 						{
+							"ENG_name": "Dread Authority",
+							"name": "恐怖权威",
 							"type": "statblock",
 							"tag": "feat",
-							"name": "Dread Authority",
 							"source": "XUA2026VillainousOptions",
 							"page": 9,
 							"collapsed": true
 						},
 						{
+							"ENG_name": "Harbinger of Doom",
+							"name": "末日使者",
 							"type": "statblock",
 							"tag": "feat",
-							"name": "Harbinger of Doom",
 							"source": "XUA2026VillainousOptions",
 							"page": 10,
 							"collapsed": true
 						},
 						{
+							"ENG_name": "Deathly Presence",
+							"name": "死亡威仪",
 							"type": "statblock",
 							"tag": "feat",
-							"name": "Deathly Presence",
 							"source": "XUA2026VillainousOptions",
 							"page": 10,
 							"collapsed": true
 						},
 						{
+							"ENG_name": "Unholy Steed",
+							"name": "邪恶坐骑",
 							"type": "statblock",
 							"tag": "feat",
-							"name": "Unholy Steed",
 							"source": "XUA2026VillainousOptions",
 							"page": 10,
 							"collapsed": true
 						},
 						{
+							"ENG_name": "Death Knight Ascension",
+							"name": "死亡骑士晋升",
 							"type": "statblock",
 							"tag": "feat",
-							"name": "Death Knight Ascension",
 							"source": "XUA2026VillainousOptions",
 							"page": 10,
 							"collapsed": true
@@ -1817,122 +1941,137 @@
 			]
 		},
 		{
-			"name": "Path of the Lich",
+			"ENG_name": "Path of the Lich",
+			"name": "巫妖路途",
 			"source": "XUA2026VillainousOptions",
 			"page": 11,
 			"optionType": [
 				"PTH"
 			],
 			"entries": [
-				"Liches are powerful spellcasters who have conquered death through the relentless pursuit of arcane power. All liches undergo a ritual that binds their soul to a spirit jar, a personal and well-protected object that allows the lich's destroyed body to re-form as long as the object is intact.",
+				"巫妖是强大的施法者，他们通过不懈地追求奥术力量征服了死亡。所有巫妖都会经历一个将其灵魂绑定到命匣的仪式，这是一个私密且受到良好保护的物件，只要该物件完好无损，就能让巫妖被摧毁的身体重新成形。",
 				{
+					"ENG_name": "Lich Rites",
+					"name": "巫妖仪式",
 					"type": "entries",
-					"name": "Lich Rites",
 					"page": 11,
 					"entries": [
-						"The path to lichdom is unique to each who walks it. To complete the transformation, aspirants must fulfill a personal and often profane ritual. The {@table Lich Rites|XUA2026VillainousOptions} table contains examples of such rituals to inspire your journey.",
+						"通往巫妖形态的道路对每个行走其上的人来说都是独一无二的。要完成变形，追求者必须完成一项个人的、通常是亵渎的仪式。{@table 巫妖仪式|XUA2026VillainousOptions} 表格包含了一些此类仪式的范例，以激励你的旅途。",
 						{
+							"ENG_name": "Lich Rites",
+							"name": "巫妖仪式",
 							"type": "statblock",
 							"tag": "table",
-							"name": "Lich Rites",
 							"source": "XUA2026VillainousOptions",
 							"page": 11
 						}
 					]
 				},
 				{
+					"ENG_name": "Liches Across the Multiverse",
+					"name": "多元宇宙中的巫妖",
 					"type": "inset",
-					"name": "Liches Across the Multiverse",
 					"page": 11,
 					"entries": [
-						"While the most infamous liches in D&D represent evil incarnate, liches can vary in alignments, motivations, and deeds. Those who achieve lichdom make their mark on the multiverse as demigods and despots, mentors and protectors, masters and manipulators. These storied beings include the following:",
+						"虽然龙与地下城中最臭名昭著的巫妖是邪恶的化身，但巫妖的阵营、动机和事迹各不相同。那些成就巫妖形态的存在，以半神与暴君、导师与保护者、主人与操纵者的身份，在多元宇宙中留下了他们的标记。这些传奇存在包括以下：",
 						{
 							"type": "list",
 							"page": 11,
 							"style": "list-hang-notitle",
 							"items": [
 								{
+									"ENG_name": "{@creature Renwick|PotA|Renwick Caradoon},",
+									"name": "{@creature 兰维柯|PotA|兰维柯·卡拉杜恩},",
 									"type": "item",
-									"name": "{@creature Renwick|PotA|Renwick Caradoon},",
 									"entries": [
-										"founder of the Knights of Samular in the city of Waterdeep"
+										"深水城萨穆拉尔骑士团的创始人"
 									]
 								},
 								{
+									"ENG_name": "Szass Tam,",
+									"name": "萨扎斯·塔姆",
 									"type": "item",
-									"name": "Szass Tam,",
 									"entries": [
-										"Thay's zulkir of necromancy"
+										"塞尔死灵学祖尔克尔"
 									]
 								},
 								{
+									"ENG_name": "{@creature Vecna the Archlich|VEoR},",
+									"name": "{@creature 维克那，大巫妖|VEoR},",
 									"type": "item",
-									"name": "{@creature Vecna the Archlich|VEoR},",
 									"entries": [
-										"Oerthian king and demigod of secrets and evil magic"
+										"欧斯君王，秘密与邪恶魔法的半神"
 									]
 								},
 								{
+									"ENG_name": "Vlaakith the Lich-Queen,",
+									"name": "巫妖女王维拉基斯，",
 									"type": "item",
-									"name": "Vlaakith the Lich-Queen,",
 									"entries": [
-										"the iron-fisted leader of the githyanki"
+										"吉斯洋基的铁腕首领"
 									]
 								},
 								{
+									"ENG_name": "{@creature Zlan|FRAiF},",
+									"name": "{@creature 兹兰|FRAiF},",
 									"type": "item",
-									"name": "{@creature Zlan|FRAiF},",
 									"entries": [
-										"the frozen amalgamation of the seven liches who created the {@i Crystal Shard}"
+										"那七个创造了{@i 碎魔晶}的巫妖的冻结融而为一之物"
 									]
 								}
 							]
 						},
-						"All liches have in common their arcane prowess, their undead nature, and the sequestering of their souls. For more on {@creature lich|XMM|liches}, see the {@book Monster Manual|XMM}."
+						"所有巫妖都共同拥有其奥术造诣、不死本质以及对其灵魂的封存。更多关于{@creature 巫妖|XMM|巫妖}的信息，请参阅{@book 怪物图鉴|XMM}。"
 					]
 				},
 				{
+					"ENG_name": "Path of the Lich Feats",
+					"name": "巫妖路途专长",
 					"type": "entries",
-					"name": "Path of the Lich Feats",
 					"page": 11,
 					"entries": [
-						"The following Path of the Lich feats represent one path a character can take to become a lich. To complete the Path of the Lich, begin by taking the {@feat Lich Initiate|XUA2026VillainousOptions} feat, followed by any other Path of the Lich feat you choose. Finally, when you reach level 12 or higher, take the {@feat Lich Ascension|XUA2026VillainousOptions} feat.",
+						"以下巫妖之路专长代表角色成为巫妖的一条途径。要完成巫妖之路，首先选择{@feat 巫妖学徒|XUA2026反派选项}专长，随后选择任意其他你选择的巫妖之路专长。最后，当你达到12级或更高等级时，选择{@feat 巫妖升格|XUA2026反派选项}专长。",
 						{
+							"ENG_name": "Lich Initiate",
+							"name": "巫妖学徒",
 							"type": "statblock",
 							"tag": "feat",
-							"name": "Lich Initiate",
 							"source": "XUA2026VillainousOptions",
 							"page": 11,
 							"collapsed": true
 						},
 						{
+							"ENG_name": "Arcane Restoration",
+							"name": "奥术恢复",
 							"type": "statblock",
 							"tag": "feat",
-							"name": "Arcane Restoration",
 							"source": "XUA2026VillainousOptions",
 							"page": 12,
 							"collapsed": true
 						},
 						{
+							"ENG_name": "Transfer Life",
+							"name": "生命转移",
 							"type": "statblock",
 							"tag": "feat",
-							"name": "Transfer Life",
 							"source": "XUA2026VillainousOptions",
 							"page": 12,
 							"collapsed": true
 						},
 						{
+							"ENG_name": "Undead Grasp",
+							"name": "亡灵攫取",
 							"type": "statblock",
 							"tag": "feat",
-							"name": "Undead Grasp",
 							"source": "XUA2026VillainousOptions",
 							"page": 12,
 							"collapsed": true
 						},
 						{
+							"ENG_name": "Lich Ascension",
+							"name": "巫妖扬升",
 							"type": "statblock",
 							"tag": "feat",
-							"name": "Lich Ascension",
 							"source": "XUA2026VillainousOptions",
 							"page": 12,
 							"collapsed": true
@@ -1944,92 +2083,98 @@
 	],
 	"monster": [
 		{
-			"name": "Behemoth",
+			"ENG_name": "Behemoth",
+			"name": "巨兽",
+			"type": "monstrosity",
 			"source": "XUA2026VillainousOptions",
 			"page": 4,
 			"reprintedAs": [
-				"Behemoth|XUA2026VillainousOptionsUpdate"
+				"巨兽|XUA2026反派选项更新"
 			],
 			"size": [
 				"L",
 				"H",
 				"G"
 			],
-			"sizeNote": "(Huge Requires Druid Level 10+, Gargantuan Requires Druid Level 14+)",
-			"type": "monstrosity",
+			"sizeNote": "（巨型需要德鲁伊等级10+，超巨型需要德鲁伊等级14+）",
 			"alignment": [
 				{
-					"special": "Your Alignment Doesn't Change"
+					"special": "你的阵营不会变化"
 				}
 			],
 			"ac": [
 				{
-					"special": "11 + your Wisdom modifier"
+					"special": "11 + 你的感知调整值"
 				}
 			],
 			"hp": {
-				"special": "2 times your Druid level Temp HP"
+				"special": "2倍你的德鲁伊等级的临时生命值"
 			},
 			"speed": {
 				"walk": 40,
 				"climb": 40
 			},
 			"str": {
-				"special": "Your Strength and Dexterity scores are equal to your Wisdom score in this form."
+				"special": "在此形态下，你的力量值与敏捷值等同于你的感知值。"
 			},
 			"dex": {
-				"special": "Your Strength and Dexterity scores are equal to your Wisdom score in this form."
+				"special": "在此形态下，你的力量值与敏捷值等同于你的感知值。"
 			},
 			"con": {
-				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+				"special": "你的体质、智力、感知和魅力不会变化。"
 			},
 			"int": {
-				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+				"special": "你的体质、智力、感知和魅力不会变化。"
 			},
 			"wis": {
-				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+				"special": "你的体质、智力、感知和魅力不会变化。"
 			},
 			"cha": {
-				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+				"special": "你的体质、智力、感知和魅力不会变化。"
 			},
 			"senses": [
-				"darkvision 60 ft."
+				"黑暗视觉 60 尺"
 			],
 			"languages": [
-				"Your languages don't change."
+				"你的语言保持不变。"
 			],
-			"pbNote": "PB is your Proficiency Bonus",
+			"pbNote": "PB是你的熟练加值",
 			"trait": [
 				{
-					"name": "Rampager (Requires Druid Level 10+)",
+					"ENG_name": "Rampager (Requires Druid Level 10+)",
+					"name": "狂暴者（需要德鲁伊等级10+）",
 					"entries": [
-						"When you enter the space of an enemy that is at least one size smaller than you for the first time on a turn, that creature is subjected to the following effect. {@actSave str} DC equals {@dcYourSpellSave}. {@actSaveFail} The target has the {@condition Prone|XPHB} condition. If the target already has the {@condition Prone|XPHB} condition, it instead takes {@damage 2d6} Bludgeoning damage."
+						"当你在一回合内首次进入一个体型至少比你小一级的敌人的空间时，该生物将受到以下效应。{@actSave str} DC等于{@dcYourSpellSave}。{@actSaveFail} 目标获得{@condition 倒地|XPHB}状态。如果目标已有{@condition 倒地|XPHB}状态，则改为受到{@damage 2d6}钝击伤害。"
 					]
 				},
 				{
-					"name": "Siege Monster",
+					"ENG_name": "Siege Monster",
+					"name": "攻城怪物",
 					"entries": [
-						"You deal double damage to objects and structures."
+						"你对物体和建筑造成双倍伤害。"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack (Requires Druid Level 5+)",
+					"ENG_name": "Multiattack (Requires Druid Level 5+)",
+					"name": "多重攻击（需要德鲁伊等级5+）",
 					"entries": [
-						"You make two Rend attacks."
+						"你进行两次撕裂攻击。"
 					]
 				},
 				{
-					"name": "Rend",
+					"ENG_name": "Rend",
+					"name": "撕裂",
 					"entries": [
-						"{@atkr m} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 10 ft. {@h}{@damage 1d8} plus your Wisdom modifier Slashing damage."
+						"{@atkr m} {@hitYourSpellAttack}，触及10尺。{@h}{@damage 1d8}加上你的感知调整值的挥砍伤害。"
 					]
 				},
 				{
-					"name": "Incandescent Breath",
+					"ENG_name": "Incandescent Breath",
+					"name": "白炽吐息",
 					"entries": [
-						"You expend a level 1+ spell slot. {@actSave dex} DC equals {@dcYourSpellSave}, each creature in a 5-foot-wide, 60-foot-long {@variantrule Line [Area of Effect]|XPHB|Line}. {@actSaveFail} {@damage 2d8} Radiant damage per level of the spell slot expended plus your Wisdom modifier. {@actSaveSuccess} Half damage."
+						"你消耗一个1环或更高等级的法术位。{@actSave dex} DC等于{@dcYourSpellSave}，每个处于5尺宽、60尺长的{@variantrule 线状 [效应区域]|XPHB|线状}区域内的生物。{@actSaveFail} 造成等同于所消耗法术位等级数倍的{@damage 2d8}光耀伤害加上你的感知调整值。{@actSaveSuccess} 一半伤害。"
 					]
 				}
 			],
@@ -2062,92 +2207,98 @@
 			]
 		},
 		{
-			"name": "Insectoid",
+			"ENG_name": "Insectoid",
+			"name": "虫形",
+			"type": "monstrosity",
 			"source": "XUA2026VillainousOptions",
 			"page": 5,
 			"reprintedAs": [
-				"Insectoid|XUA2026VillainousOptionsUpdate"
+				"虫形|XUA2026反派选项更新"
 			],
 			"size": [
 				"L",
 				"H",
 				"G"
 			],
-			"sizeNote": "(Huge Requires Druid Level 10+, Gargantuan Requires Druid Level 14+)",
-			"type": "monstrosity",
+			"sizeNote": "（巨型需要德鲁伊等级10+，超巨型需要德鲁伊等级14+）",
 			"alignment": [
 				{
-					"special": "Your Alignment Doesn't Change"
+					"special": "你的阵营不会变化"
 				}
 			],
 			"ac": [
 				{
-					"special": "8 + your Wisdom Modifier"
+					"special": "8 + 你的感知调整值"
 				}
 			],
 			"hp": {
-				"special": "2 times your Druid level Temp HP"
+				"special": "2倍你的德鲁伊等级的临时生命值"
 			},
 			"speed": {
 				"walk": 40,
 				"fly": 40
 			},
 			"str": {
-				"special": "Your Strength and Dexterity scores are equal to your Wisdom score in this form."
+				"special": "在此形态下，你的力量值与敏捷值等同于你的感知值。"
 			},
 			"dex": {
-				"special": "Your Strength and Dexterity scores are equal to your Wisdom score in this form."
+				"special": "在此形态下，你的力量值与敏捷值等同于你的感知值。"
 			},
 			"con": {
-				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+				"special": "你的体质、智力、感知和魅力不会变化。"
 			},
 			"int": {
-				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+				"special": "你的体质、智力、感知和魅力不会变化。"
 			},
 			"wis": {
-				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+				"special": "你的体质、智力、感知和魅力不会变化。"
 			},
 			"cha": {
-				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+				"special": "你的体质、智力、感知和魅力不会变化。"
 			},
 			"senses": [
-				"darkvision 60 ft."
+				"黑暗视觉 60 尺"
 			],
 			"languages": [
-				"Your languages don't change."
+				"你的语言保持不变。"
 			],
-			"pbNote": "PB is your Proficiency Bonus",
+			"pbNote": "PB是你的熟练加值",
 			"trait": [
 				{
-					"name": "Flyby",
+					"ENG_name": "Flyby",
+					"name": "飞掠",
 					"entries": [
-						"You don't provoke an {@action Opportunity Attack|XPHB} when you fly out of an enemy's reach."
+						"当你飞出敌人的触及范围时，不会引发{@action 借机攻击|XPHB}。"
 					]
 				},
 				{
-					"name": "Hive Mind (Requires Druid Level 10+)",
+					"ENG_name": "Hive Mind (Requires Druid Level 10+)",
+					"name": "蜂群思维（需要德鲁伊等级10+）",
 					"entries": [
-						"When you assume this form, you forge a telepathic link with a number of creatures of your choice you can see and that can communicate in at least one language; the maximum number of creatures is equal to your Druid level. You and the chosen creatures can communicate telepathically with each other whether or not you share a language as long as you are on the same plane."
+						"当你呈现此形态时，你与你可见且能使用至少一种语言交流的一定数量的生物建立心灵感应链接；最大生物数量等于你的德鲁伊等级。只要你们处于同一位面，你和被选中的生物就可以通过心灵感应相互交流，无论你们是否共享语言。"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack (Requires Level 5+)",
+					"ENG_name": "Multiattack (Requires Level 5+)",
+					"name": "多重攻击（需要5级或更高等级）",
 					"entries": [
-						"You make two Rend attacks."
+						"你进行两次撕裂攻击。"
 					]
 				},
 				{
-					"name": "Rend",
+					"ENG_name": "Rend",
+					"name": "撕裂",
 					"entries": [
-						"{@atkr m} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 10 ft. {@h}{@damage 1d8} plus your Wisdom modifier Piercing damage."
+						"{@atkr m} {@hitYourSpellAttack 加值等于你的法术攻击加值}，触及10尺。{@h}{@damage 1d8}加上你的感知调整值的穿刺伤害。"
 					]
 				},
 				{
-					"name": "Energizing Pollen",
+					"ENG_name": "Energizing Pollen",
+					"name": "活力花粉",
 					"entries": [
-						"You expend a level 1+ spell slot and emit a cloud of healing pollen that can restore a number of {@variantrule Hit Points|XPHB} equal to {@dice 2d8} plus five times the expended spell slot's level. Choose any number of creatures within 15 feet of yourself, and divide those {@variantrule Hit Points|XPHB} among them."
+						"你消耗一个1环或更高等级的法术位，并释放出一团治疗花粉，可以恢复等同于{@dice 2d8}加上所消耗法术位等级五倍的{@variantrule 生命值|XPHB}。选择你自身15尺内的任意数量的生物，并在它们之间分配这些{@variantrule 生命值|XPHB}。"
 					]
 				}
 			],
@@ -2170,94 +2321,100 @@
 			]
 		},
 		{
-			"name": "Leviathan",
+			"ENG_name": "Leviathan",
+			"name": "利维坦",
+			"type": "monstrosity",
 			"source": "XUA2026VillainousOptions",
 			"page": 4,
 			"reprintedAs": [
-				"Leviathan|XUA2026VillainousOptionsUpdate"
+				"利维坦|XUA2026反派选项更新"
 			],
 			"size": [
 				"L",
 				"H",
 				"G"
 			],
-			"sizeNote": "(Huge Requires Druid Level 10+, Gargantuan Requires Druid Level 14+)",
-			"type": "monstrosity",
+			"sizeNote": "（巨型需要德鲁伊等级10+，超巨型需要德鲁伊等级14+）",
 			"alignment": [
 				{
-					"special": "Your Alignment Doesn't Change"
+					"special": "你的阵营不会变化"
 				}
 			],
 			"ac": [
 				{
-					"special": "10 + your Wisdom Modifier"
+					"special": "10 + 你的感知调整值"
 				}
 			],
 			"hp": {
-				"special": "2 times your Druid level Temp HP"
+				"special": "2倍你的德鲁伊等级的临时生命值"
 			},
 			"speed": {
 				"walk": 40,
 				"swim": 40
 			},
 			"str": {
-				"special": "Your Strength and Dexterity scores are equal to your Wisdom score in this form."
+				"special": "在此形态下，你的力量值与敏捷值等同于你的感知值。"
 			},
 			"dex": {
-				"special": "Your Strength and Dexterity scores are equal to your Wisdom score in this form."
+				"special": "在此形态下，你的力量值与敏捷值等同于你的感知值。"
 			},
 			"con": {
-				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+				"special": "你的体质、智力、感知和魅力不会变化。"
 			},
 			"int": {
-				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+				"special": "你的体质、智力、感知和魅力不会变化。"
 			},
 			"wis": {
-				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+				"special": "你的体质、智力、感知和魅力不会变化。"
 			},
 			"cha": {
-				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+				"special": "你的体质、智力、感知和魅力不会变化。"
 			},
 			"senses": [
-				"darkvision 60 ft."
+				"黑暗视觉 60 尺"
 			],
 			"languages": [
-				"Your languages don't change."
+				"你的语言保持不变。"
 			],
-			"pbNote": "PB is your Proficiency Bonus",
+			"pbNote": "PB是你的熟练加值",
 			"trait": [
 				{
-					"name": "Amphibious",
+					"ENG_name": "Amphibious",
+					"name": "水陆两栖",
 					"entries": [
-						"You can breathe air and water."
+						"你可以在空气和水中呼吸。"
 					]
 				},
 				{
-					"name": "Toxic Stench (Requires Druid Level 10+)",
+					"ENG_name": "Toxic Stench (Requires Druid Level 10+)",
+					"name": "剧毒恶臭（需要德鲁伊等级10+）",
 					"entries": [
-						"{@actSave con} DC equals {@dcYourSpellSave}, each creature of your choice that starts its turn in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you. {@actSaveFail} {@damage 2d4} Poison damage, and the target has the {@condition Poisoned|XPHB} condition until the start of its next turn."
+						"{@actSave con} DC等于{@dcYourSpellSave}，每个你选择的生物在其回合开始时处于一个以你为原点的10尺{@variantrule 光环 [效应区域]|XPHB|光环}内。{@actSaveFail}受到{@damage 2d4}毒素伤害，并且目标获得{@condition 中毒|XPHB}状态直到其下个回合开始。"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack (Requires Druid Level 5+)",
+					"ENG_name": "Multiattack (Requires Druid Level 5+)",
+					"name": "多重攻击（需要德鲁伊等级5+）",
 					"entries": [
-						"You make two Rend attacks."
+						"你进行两次撕裂攻击。"
 					]
 				},
 				{
-					"name": "Rend",
+					"ENG_name": "Rend",
+					"name": "撕裂",
 					"entries": [
-						"{@atkr m} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 10 ft. {@h}{@damage 1d8} plus your Wisdom modifier Bludgeoning damage."
+						"{@atkr m} {@hitYourSpellAttack}，触及10尺。{@h}{@damage 1d8}加上你的感知调整值的钝击伤害。"
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Ink Cloud",
+					"ENG_name": "Ink Cloud",
+					"name": "墨汁云",
 					"entries": [
-						"{@actTrigger} You take damage. {@actResponse} You expend a level 1+ spell slot and release an inky cloud that fills a 15-foot-radius {@variantrule Cube [Area of Effect]|XPHB|Cube} centered on yourself, and you move up to your {@variantrule Speed|XPHB}. The {@variantrule Cube [Area of Effect]|XPHB|Cube} is {@variantrule Heavily Obscured|XPHB}. It lasts for 1 minute or until a strong current or wind (such as one created by {@spell Gust of Wind|XPHB}) disperses it."
+						"{@actTrigger} 你受到伤害。{@actResponse} 你消耗一个1环或更高等级的法术位，并释放出一团墨色云雾，其充满一个以你自身为中心、半径15尺的{@variantrule 立方 [效应区域]|XPHB|立方}，并且你可以移动至多你的{@variantrule 速度|XPHB}距离。该{@variantrule 立方 [效应区域]|XPHB|立方}区域处于{@variantrule 重度遮蔽|XPHB}状态。此效应持续1分钟，或直到一股强劲的水流或风（例如由{@spell 造风术|XPHB}创造的）将其驱散。"
 					]
 				}
 			],
@@ -2290,12 +2447,13 @@
 	],
 	"table": [
 		{
-			"name": "Abyssal Effects",
+			"ENG_name": "Abyssal Effects",
+			"name": "深渊效应",
 			"source": "XUA2026VillainousOptions",
 			"page": 8,
 			"colLabels": [
 				"1d6",
-				"Effect"
+				"效应"
 			],
 			"colStyles": [
 				"col-1 text-center",
@@ -2308,10 +2466,11 @@
 						"type": "entries",
 						"entries": [
 							{
+								"ENG_name": "Sticky Webs",
+								"name": "混乱粘粘蛛网",
 								"type": "entries",
-								"name": "Sticky Webs",
 								"entries": [
-									"Thick webs fill the {@variantrule Emanation [Area of Effect]|XPHB|Emanation}, making it {@variantrule Difficult Terrain|XPHB} for your enemies. Each enemy that starts its turn in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} must succeed on a Strength saving throw or have the {@condition Restrained|XPHB} condition. A creature {@condition Restrained|XPHB} by the webs can take an action to make a Strength ({@skill Athletics|XPHB}) check against {@dcYourSpellSave}, ending the effect on itself with a successful check."
+									"厚实蛛网填满该{@variantrule 光环 [效应区域]|XPHB|光环}，使其对你的敌人而言成为{@variantrule 困难地形|XPHB}。每个在该{@variantrule 光环 [效应区域]|XPHB|光环}内开始其回合的敌人必须成功通过一次力量豁免检定，否则陷入{@condition 束缚|XPHB}状态。被蛛网{@condition 束缚|XPHB}的生物可以消耗一个动作，进行一次力量（{@skill 运动|XPHB}）检定对抗{@dcYourSpellSave}，若检定成功则自身终止该效应。"
 								]
 							}
 						]
@@ -2323,10 +2482,11 @@
 						"type": "entries",
 						"entries": [
 							{
+								"ENG_name": "Caustic Ooze",
+								"name": "腐蚀性泥怪",
 								"type": "entries",
-								"name": "Caustic Ooze",
 								"entries": [
-									"Slick, oily gunk covers the ground in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation}, making it {@variantrule Difficult Terrain|XPHB} for your enemies. Each enemy that starts its turn on the ground in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} takes {@damage 1d6} Acid damage and must succeed on a Dexterity saving throw or have the {@condition Prone|XPHB} condition. This damage increases by {@damage 1d6} when you reach Sorcerer levels 11 ({@damage 2d6}) and 16 ({@damage 3d6})."
+									"滑腻、油性的粘液覆盖了{@variantrule 光环 [效应区域]|XPHB|光环}范围内的地面，使其对你的敌人而言成为{@variantrule 困难地形|XPHB}。每个在{@variantrule 光环 [效应区域]|XPHB|光环}范围内地面上开始其回合的敌人，会受到{@damage 1d6}点强酸伤害，并且必须成功通过一次敏捷豁免检定，否则将陷入{@condition 倒地|XPHB}状态。此伤害在你达到术士11级（{@damage 2d6}）和16级（{@damage 3d6}）时，各增加{@damage 1d6}点。"
 								]
 							}
 						]
@@ -2338,10 +2498,11 @@
 						"type": "entries",
 						"entries": [
 							{
+								"ENG_name": "Terrifying Screams",
+								"name": "恐怖尖啸",
 								"type": "entries",
-								"name": "Terrifying Screams",
 								"entries": [
-									"Each enemy that starts its turn in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} takes {@damage 1d6} Psychic damage and must succeed on a Wisdom saving throw or have the {@condition Frightened|XPHB} condition until the start of its next turn. This damage increases by {@damage 1d6} when you reach Sorcerer levels 11 ({@damage 2d6}) and 16 ({@damage 3d6})."
+									"每个在{@variantrule 光环 [效应区域]|XPHB|光环}内开始其回合的敌人受到{@damage 1d6}心灵伤害，并且必须成功通过一次感知豁免检定，否则获得{@condition 恐慌|XPHB}状态，直到其下一回合开始。当你达到术士等级11级（{@damage 2d6}）和16级（{@damage 3d6}）时，此伤害增加{@damage 1d6}。"
 								]
 							}
 						]
@@ -2353,10 +2514,11 @@
 						"type": "entries",
 						"entries": [
 							{
+								"ENG_name": "Enthralling Spores",
+								"name": "魅惑孢子",
 								"type": "entries",
-								"name": "Enthralling Spores",
 								"entries": [
-									"Intoxicating spores fill the {@variantrule Emanation [Area of Effect]|XPHB|Emanation}, which is {@variantrule Heavily Obscured|XPHB} for creatures of your choice. When you reach Sorcerer level 11, each enemy that starts its turn in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} must succeed on a Wisdom saving throw or have the {@condition Charmed|XPHB} condition until the start of its next turn."
+									"迷醉孢子充满了{@variantrule 光环 [效应区域]|XPHB|光环}，对你选择的生物而言，该区域处于{@variantrule 重度遮蔽|XPHB}状态。当你达到术士11级时，每个在{@variantrule 光环 [效应区域]|XPHB|光环}内开始其回合的敌人必须成功通过一次感知豁免检定，否则将获得{@condition 魅惑|XPHB}状态，直到其下一回合开始。"
 								]
 							}
 						]
@@ -2368,10 +2530,11 @@
 						"type": "entries",
 						"entries": [
 							{
+								"ENG_name": "Poisonous Foliage",
+								"name": "剧毒植被",
 								"type": "entries",
-								"name": "Poisonous Foliage",
 								"entries": [
-									"The {@variantrule Emanation [Area of Effect]|XPHB|Emanation} is {@variantrule Lightly Obscured|XPHB} by demonic flora. Each enemy that starts its turn in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} takes {@damage 1d6} Poison damage and must succeed on a Constitution saving throw or have the {@condition Poisoned|XPHB} condition until the start of its next turn. This damage increases by {@damage 1d6} when you reach Sorcerer levels 11 ({@damage 2d6}) and 16 ({@damage 3d6})."
+									"该{@variantrule 光环 [效应区域]|XPHB|光环}被恶魔植物{@variantrule 轻度遮蔽|XPHB}。每个在该{@variantrule 光环 [效应区域]|XPHB|光环}内开始其回合的敌人受到{@damage 1d6}毒素伤害，并且必须成功通过一次体质豁免检定，否则获得{@condition 中毒|XPHB}状态，持续到其下一回合开始。当你达到术士等级11级（{@damage 2d6}）和16级（{@damage 3d6}）时，此伤害增加{@damage 1d6}。"
 								]
 							}
 						]
@@ -2383,10 +2546,11 @@
 						"type": "entries",
 						"entries": [
 							{
+								"ENG_name": "Enervating Bones",
+								"name": "衰弱之骨",
 								"type": "entries",
-								"name": "Enervating Bones",
 								"entries": [
-									"Spectral limbs erupt from the ground, reaching to sap the life around them. Each enemy that starts its turn in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} takes {@damage 1d10} Necrotic damage and can't regain {@variantrule Hit Points|XPHB} until the start of its next turn. The Necrotic damage increases by {@damage 1d10} when you reach Sorcerer levels 11 ({@damage 2d10}) and 16 ({@damage 3d10})."
+									"灵体肢体从地面迸发而出，伸展触及以削弱周围的生命。每个在{@variantrule 光环 [效应区域]|XPHB|光环}内开始其回合的敌人受到{@damage 1d10}暗蚀伤害，并且在下一回合开始前无法恢复{@variantrule 生命值|XPHB}。当你达到术士等级11（{@damage 2d10}）和16（{@damage 3d10}）时，暗蚀伤害增加{@damage 1d10}。"
 								]
 							}
 						]
@@ -2395,12 +2559,13 @@
 			]
 		},
 		{
-			"name": "Abyssal Manifestations",
+			"ENG_name": "Abyssal Manifestations",
+			"name": "深渊显迹",
 			"source": "XUA2026VillainousOptions",
 			"page": 7,
 			"colLabels": [
 				"1d6",
-				"Manifestation"
+				"显迹"
 			],
 			"colStyles": [
 				"col-2 text-center",
@@ -2409,37 +2574,38 @@
 			"rows": [
 				[
 					"1",
-					"Abyssal fissures mar your flesh, revealing windows into a vast demonic realm."
+					"深渊裂隙玷污了你的血肉，显露出通往庞大恶魔领域的窗口。"
 				],
 				[
 					"2",
-					"Insects writhe beneath your skin and escape from your mouth, nose, and ears."
+					"昆虫在你的皮肤下蠕动，并从你的嘴、鼻子和耳朵中逃脱。"
 				],
 				[
 					"3",
-					"Sheets of scorched skin peel from your body."
+					"焦黑的皮肤片片从你的身体上剥落。"
 				],
 				[
 					"4",
-					"Your flesh bubbles and froths like a toxic bog."
+					"你的血肉像有毒的沼泽一样冒泡翻腾。"
 				],
 				[
 					"5",
-					"Your fingers or other extremities discolor as if frostbitten."
+					"你的手指或其他肢体末端变色，仿佛冻伤一般。"
 				],
 				[
 					"6",
-					"You grow a second head. (This has no impact on your game statistics.)"
+					"你长出了第二个头。（这对你的游戏数据没有影响。）"
 				]
 			]
 		},
 		{
-			"name": "Circle of the Titan Spells",
+			"ENG_name": "Circle of the Titan Spells",
+			"name": "泰坦结社法术",
 			"source": "XUA2026VillainousOptions",
 			"page": 3,
 			"colLabels": [
-				"Druid Level",
-				"Prepared Spells"
+				"德鲁伊等级",
+				"准备法术"
 			],
 			"colStyles": [
 				"col-2 text-center",
@@ -2448,29 +2614,30 @@
 			"rows": [
 				[
 					"3",
-					"{@spell Cure Wounds|XPHB}, {@spell Longstrider|XPHB}, {@spell Thaumaturgy|XPHB}"
+					"{@spell 疗伤术|XPHB}, {@spell 大步奔行|XPHB}, {@spell 奇术|XPHB}"
 				],
 				[
 					"5",
-					"{@spell Fear|XPHB}"
+					"{@spell 恐惧术|XPHB}"
 				],
 				[
 					"7",
-					"{@spell Stoneskin|XPHB}"
+					"{@spell 石肤术|XPHB}"
 				],
 				[
 					"9",
-					"{@spell Destructive Wave|XPHB}"
+					"{@spell 湮灭波|XPHB}"
 				]
 			]
 		},
 		{
-			"name": "Death Knight Journeys",
+			"ENG_name": "Death Knight Journeys",
+			"name": "死亡骑士之旅",
 			"source": "XUA2026VillainousOptions",
 			"page": 9,
 			"colLabels": [
 				"1d6",
-				"You Fell from Grace When You..."
+				"你因以下原因堕落......"
 			],
 			"colStyles": [
 				"col-2 text-center",
@@ -2479,37 +2646,38 @@
 			"rows": [
 				[
 					"1",
-					"Abandoned your companions in battle."
+					"在战斗中抛弃了你的同伴。"
 				],
 				[
 					"2",
-					"Betrayed a loved one."
+					"背叛了一位挚爱之人。"
 				],
 				[
 					"3",
-					"Intentionally harmed an innocent."
+					"故意伤害无辜者。"
 				],
 				[
 					"4",
-					"Made a pact with a malevolent entity such as a demon lord."
+					"与邪恶实体（例如恶魔领主）订立了契约。"
 				],
 				[
 					"5",
-					"Offended a benevolent god."
+					"冒犯了一位仁慈的神。"
 				],
 				[
 					"6",
-					"Violated a sworn oath."
+					"违背了立下的誓言。"
 				]
 			]
 		},
 		{
-			"name": "Demonic Spells",
+			"ENG_name": "Demonic Spells",
+			"name": "恶魔语法术",
 			"source": "XUA2026VillainousOptions",
 			"page": 8,
 			"colLabels": [
-				"Sorcerer Level",
-				"Prepared Spells"
+				"术士等级",
+				"准备法术"
 			],
 			"colStyles": [
 				"col-2 text-center",
@@ -2518,29 +2686,30 @@
 			"rows": [
 				[
 					"3",
-					"{@spell Detect Magic|XPHB}, {@spell Entangle|XPHB}, {@spell Misty Step|XPHB}, {@spell Spider Climb|XPHB}"
+					"{@spell 侦测魔法|XPHB}, {@spell 纠缠术|XPHB}, {@spell 迷踪步|XPHB}, {@spell 蛛行术|XPHB}"
 				],
 				[
 					"5",
-					"{@spell Dispel Magic|XPHB}, {@spell Gaseous Form|XPHB}"
+					"{@spell 解除魔法|XPHB}, {@spell 气化形体|XPHB}"
 				],
 				[
 					"7",
-					"{@spell Confusion|XPHB}, {@spell Hallucinatory Terrain|XPHB}"
+					"{@spell 困惑术|XPHB}, {@spell 幻景|XPHB}"
 				],
 				[
 					"9",
-					"{@spell Contact Other Plane|XPHB}, {@spell Hallow|XPHB}"
+					"{@spell 异界探知|XPHB}, {@spell 圣居|XPHB}"
 				]
 			]
 		},
 		{
-			"name": "Hell Knight Pursuits",
+			"ENG_name": "Hell Knight Pursuits",
+			"name": "地狱骑士追求",
 			"source": "XUA2026VillainousOptions",
 			"page": 6,
 			"colLabels": [
 				"1d6",
-				"You Became a Hell Knight Because You..."
+				"你成为地狱骑士是因为你......"
 			],
 			"colStyles": [
 				"col-2 text-center",
@@ -2549,37 +2718,38 @@
 			"rows": [
 				[
 					"1",
-					"Desired treasures only the Nine Hells could grant you."
+					"只有九层地狱才能赐予你的渴望的宝藏。"
 				],
 				[
 					"2",
-					"Hungered for power beyond mortal bounds."
+					"渴求超越凡人极限的法力。"
 				],
 				[
 					"3",
-					"Made a wager with a devil\u2014and lost."
+					"与魔鬼打赌\u2014\u2014并且输了。"
 				],
 				[
 					"4",
-					"Sacrificed your soul to spare someone else's."
+					"牺牲你的灵魂以保全他人。"
 				],
 				[
 					"5",
-					"Sought vengeance on an adversary who wronged you deeply."
+					"向一个曾深深伤害你的挑战者寻求复仇。"
 				],
 				[
 					"6",
-					"Were fooled by fine print in an infernal contract."
+					"被一份炼狱契约中难辨的阅读材料所愚弄。"
 				]
 			]
 		},
 		{
-			"name": "Lich Rites",
+			"ENG_name": "Lich Rites",
+			"name": "巫妖仪式",
 			"source": "XUA2026VillainousOptions",
 			"page": 11,
 			"colLabels": [
 				"1d6",
-				"To Conduct Your Ritual, You Must..."
+				"进行你的仪式，你必须..."
 			],
 			"colStyles": [
 				"col-2 text-center",
@@ -2588,37 +2758,38 @@
 			"rows": [
 				[
 					"1",
-					"Consume one hundred souls to strengthen your magic."
+					"消耗一百个灵魂以强化你的魔法。"
 				],
 				[
 					"2",
-					"Decipher and recite a forbidden incantation from a lost tome written in a dead language."
+					"解读并吟诵一本用已消亡语言写成的失落典籍中的禁忌咒文。"
 				],
 				[
 					"3",
-					"Use ancient abjuration magic to conceal yourself from the gods of death."
+					"使用远古的防护魔法来躲避死神诸神的视线。"
 				],
 				[
 					"4",
-					"Pen a blasphemous verse and perform it in a defiled temple."
+					"撰写一篇亵渎诗篇，并在一个被玷污的庙宇中表演它。"
 				],
 				[
 					"5",
-					"Craft a potion from your victims' remains and imbibe it beneath a full moon."
+					"用受害者的遗骸制造药水，并在满月下饮下。"
 				],
 				[
 					"6",
-					"Corrupt your soul so completely no afterlife will accept it."
+					"彻底腐化你的灵魂，以至于任何来世都不会接受它。"
 				]
 			]
 		},
 		{
-			"name": "Pestilence Domain Spells",
+			"ENG_name": "Pestilence Domain Spells",
+			"name": "瘟疫领域法术",
 			"source": "XUA2026VillainousOptions",
 			"page": 1,
 			"colLabels": [
-				"Cleric Level",
-				"Prepared Spells"
+				"牧师等级",
+				"准备法术"
 			],
 			"colStyles": [
 				"col-2 text-center",
@@ -2627,29 +2798,30 @@
 			"rows": [
 				[
 					"3",
-					"{@spell Detect Poison and Disease|XPHB}, {@spell Protection from Poison|XPHB}, {@spell Ray of Enfeeblement|XPHB}, {@spell Ray of Sickness|XPHB}"
+					"{@spell 侦测毒性和疾病|XPHB}, {@spell 防护毒素|XPHB}, {@spell 衰弱射线|XPHB}, {@spell 致病射线|XPHB}"
 				],
 				[
 					"5",
-					"{@spell Stinking Cloud|XPHB}, {@spell Vampiric Touch|XPHB}"
+					"{@spell 臭云术|XPHB}, {@spell 吸血鬼之触|XPHB}"
 				],
 				[
 					"7",
-					"{@spell Blight|XPHB}, {@spell Giant Insect|XPHB}"
+					"{@spell 枯萎术|XPHB}, {@spell 巨虫术|XPHB}"
 				],
 				[
 					"9",
-					"{@spell Contagion|XPHB}, {@spell Insect Plague|XPHB}"
+					"{@spell 疫病术|XPHB}, {@spell 疫病虫群|XPHB}"
 				]
 			]
 		},
 		{
-			"name": "Plague Symptoms",
+			"ENG_name": "Plague Symptoms",
+			"name": "瘟疫症状",
 			"source": "XUA2026VillainousOptions",
 			"page": 2,
 			"colLabels": [
 				"1d6",
-				"While Infected, a Creature..."
+				"当被感染时，一个生物..."
 			],
 			"colStyles": [
 				"col-2 text-center",
@@ -2658,37 +2830,38 @@
 			"rows": [
 				[
 					"1",
-					"Is drained of all color, appearing in monochromatic grays."
+					"所有颜色被抽干，呈现为单色灰色。"
 				],
 				[
 					"2",
-					"Sheds metallic, rust-hued flakes and creaks while moving."
+					"移动时会剥落金属质地的锈红色碎屑并发出嘎吱声。"
 				],
 				[
 					"3",
-					"Secretes foul-smelling mucus."
+					"分泌出恶臭的黏液。"
 				],
 				[
 					"4",
-					"Is surrounded by a cloud of buzzing insects."
+					"被一团嗡嗡作响的昆虫云雾所包围。"
 				],
 				[
 					"5",
-					"Sprouts fungi or other foliage from its flesh."
+					"从其血肉中长出真菌或其他植物。"
 				],
 				[
 					"6",
-					"Is covered in glowing pustules."
+					"身上覆盖着发光的脓疱。"
 				]
 			]
 		},
 		{
-			"name": "Spirit Jars",
+			"ENG_name": "Spirit Jars",
+			"name": "精魄罐",
 			"source": "XUA2026VillainousOptions",
 			"page": 11,
 			"colLabels": [
 				"1d6",
-				"Your Spirit Jar Is..."
+				"你的命匣是..."
 			],
 			"colStyles": [
 				"col-2 text-center",
@@ -2697,39 +2870,40 @@
 			"rows": [
 				[
 					"1",
-					"An acorn from a forest destroyed long ago."
+					"一颗来自早已毁灭的森林的橡子。"
 				],
 				[
 					"2",
-					"A love letter from a deceased paramour."
+					"一封来自已故情人的情书。"
 				],
 				[
 					"3",
-					"The inkwell that you used to scribe your first spell or prayer."
+					"你用来抄写第一个法术或祷言的墨水瓶。"
 				],
 				[
 					"4",
-					"The defaced holy symbol of a god you've denounced."
+					"一枚被你背弃的神祇的圣徽，其表面已被污损。"
 				],
 				[
 					"5",
-					"A bell whose toll becomes lower with each soul you collect."
+					"一个铃铛，其鸣响会随着你收集的每个灵魂而变得低沉。"
 				],
 				[
 					"6",
-					"A desiccated body part\u2014such as an eye, finger, or horn\u2014that was once part of you or someone you knew."
+					"一个干枯的身体部分\u2014\u2014例如一颗眼睛、一根手指或一只角号\u2014\u2014曾经是你或你认识的人的一部分。"
 				]
 			]
 		},
 		{
-			"name": "Titan Appearance",
+			"ENG_name": "Titan Appearance",
+			"name": "泰坦外貌",
 			"source": "XUA2026VillainousOptions",
 			"page": 3,
 			"colLabels": [
 				"1d4",
-				"{@creature Behemoth|XUA2026VillainousOptions}",
-				"{@creature Leviathan|XUA2026VillainousOptions}",
-				"{@creature Insectoid|XUA2026VillainousOptions}"
+				"{@creature 巨兽|XUA2026反派选项}",
+				"{@creature 利维坦|XUA2026反派选项}",
+				"{@creature 昆虫形态|XUA2026反派选项}"
 			],
 			"colStyles": [
 				"col-3 text-center",
@@ -2740,34 +2914,35 @@
 			"rows": [
 				[
 					"1",
-					"Reflective scales",
-					"Many-tentacled",
-					"Iridescent wings"
+					"反光鳞片",
+					"多触须种",
+					"虹彩飞翼"
 				],
 				[
 					"2",
-					"Multiple heads",
-					"Translucent and blob-like",
-					"Compound eyes"
+					"多头",
+					"半透明且呈团块状",
+					"复眼"
 				],
 				[
 					"3",
-					"Reptilian tail",
-					"Lamprey-like mouth",
-					"Chitinous horns"
+					"爬行类尾击",
+					"七鳃鳗般的口部",
+					"覆壳种角击"
 				],
 				[
 					"4",
-					"Woolly and simian",
-					"Serpentine body",
-					"Bioluminescent exoskeleton"
+					"毛茸茸的类猿生物",
+					"蛇形身体",
+					"发光生物外骨骼"
 				]
 			]
 		}
 	],
 	"book": [
 		{
-			"name": "Unearthed Arcana 2026: Villainous Options",
+			"ENG_name": "Unearthed Arcana 2026: Villainous Options",
+			"name": "破解奥秘 2026：反派选项",
 			"id": "XUA2026VillainousOptions",
 			"source": "XUA2026VillainousOptions",
 			"group": "prerelease",
@@ -2776,40 +2951,41 @@
 				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana-img/main/img/XUA2026VillainousOptions/cover.webp"
 			},
 			"published": "2026-04-02",
-			"author": "Wizards of the Coast",
+			"author": "威世智",
 			"contents": [
 				{
-					"name": "Unearthed Arcana 2026: Villainous Options",
+					"ENG_name": "Unearthed Arcana 2026: Villainous Options",
+					"name": "破解奥秘 2026：反派选项",
 					"headers": [
-						"What's Inside",
+						"这里有什么",
 						{
-							"header": "Content Warning",
+							"header": "内容警告",
 							"depth": 1
 						},
-						"Subclasses",
+						"子职",
 						{
-							"header": "Pestilence Domain (Cleric)",
-							"depth": 1
-						},
-						{
-							"header": "Circle of the Titan (Druid)",
+							"header": "瘟疫领域（牧师）",
 							"depth": 1
 						},
 						{
-							"header": "Hell Knight (Fighter)",
+							"header": "泰坦结社（德鲁伊）",
 							"depth": 1
 						},
 						{
-							"header": "Demonic Sorcery (Sorcerer)",
-							"depth": 1
-						},
-						"Paths of Villainy",
-						{
-							"header": "Path of the Death Knight",
+							"header": "地狱骑士（战士）",
 							"depth": 1
 						},
 						{
-							"header": "Path of the Lich",
+							"header": "恶魔语巫术（术士）",
+							"depth": 1
+						},
+						"恶行之路",
+						{
+							"header": "死亡骑士路途",
+							"depth": 1
+						},
+						{
+							"header": "巫妖路途",
 							"depth": 1
 						}
 					]
@@ -2823,65 +2999,72 @@
 			"source": "XUA2026VillainousOptions",
 			"data": [
 				{
+					"ENG_name": "Unearthed Arcana 2026: Villainous Options",
+					"name": "破解奥秘 2026：反派选项",
 					"type": "section",
-					"name": "Unearthed Arcana 2026: Villainous Options",
 					"page": 1,
 					"entries": [
-						"This playtest document is part of a series of {@i Unearthed Arcana} articles that present material designed for upcoming products. The material here uses the rules in the {@book 2024 Player's Handbook|XPHB}.",
+						"本测试文档是系列{@i 破解奥秘}文章的一部分，这些文章展示了为即将推出的产品设计的素材。这里的素材使用了{@book 2024玩家手册|XPHB}中的规则。",
 						{
+							"ENG_name": "What's Inside",
+							"name": "这里有什么",
 							"type": "section",
-							"name": "What's Inside",
 							"page": 1,
 							"entries": [
-								"This document presents four new subclasses:",
+								"本文档提供了四个新的子职：",
 								{
 									"type": "list",
 									"items": [
-										"{@class Cleric} ({@class Cleric|XPHB|Pestilence Domain|Pestilence|XUA2026VillainousOptions})",
-										"{@class Druid} ({@class Druid|XPHB|Circle of the Titan|Titan|XUA2026VillainousOptions})",
-										"{@class Fighter} ({@class Fighter|XPHB|Hell Knight|Hell Knight|XUA2026VillainousOptions})",
-										"{@class Sorcerer} ({@class Sorcerer|XPHB|Demonic Sorcery|Demonic|XUA2026VillainousOptions})"
+										"{@class 牧师} ({@class 牧师|XPHB|瘟疫领域|瘟疫术|XUA2026VillainousOptions})",
+										"{@class 德鲁伊} ({@class 德鲁伊|XPHB|泰坦结社|泰坦|XUA2026VillainousOptions})",
+										"{@class 战士} ({@class 战士|XPHB|地狱骑士|地狱骑士|XUA2026VillainousOptions})",
+										"{@class 术士} ({@class 术士|XPHB|恶魔语巫术|恶魔语|XUA2026VillainousOptions})"
 									]
 								},
 								{
+									"ENG_name": "Content Warning",
+									"name": "内容警告",
 									"type": "entries",
-									"name": "Content Warning",
 									"page": 1,
 									"entries": [
-										"This material contains descriptions of body horror, disease, and insects that some readers might find disturbing."
+										"本资料包含对肉体恐怖、疾病和昆虫的描述，部分读者可能会感到不适。"
 									]
 								},
 								{
+									"ENG_name": "This Is Playtest Material",
+									"name": "本材料为游玩测试内容",
 									"type": "inset",
-									"name": "This Is Playtest Material",
 									"page": 1,
 									"entries": [
-										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt it as official.",
+										"本文旨在进行游戏测试和反馈。这里的选项是实验性的且处于草稿形态。它们并非游戏的官方部分。您的反馈将协助我们决定是否将其采纳为官方。",
 										{
 											"type": "list",
 											"page": 1,
 											"style": "list-hang-notitle",
 											"items": [
 												{
+													"ENG_name": "How to Playtest This UA",
+													"name": "如何游玩测试本破解奥秘",
 													"type": "item",
-													"name": "How to Playtest This UA",
 													"entries": [
-														"We invite you to try out this material in play. To play with this material, you may either incorporate it into your campaign or run one or more special playtest sessions. For such a session, you may create an adventure of your own or use a short adventure from a source like {@adventure Dragon Delves|DrDe-BD}."
+														"我们邀请您在游玩中尝试本材料。要使用本材料进行游戏，您可以将其融入您的战役，或运行一个或多个特殊的游玩测试环节。对于这样的环节，您可以创建自己的冒险，或使用来自诸如{@adventure 巨龙迷城|DrDe-BD}等来源的短篇冒险。"
 													]
 												},
 												{
+													"ENG_name": "Power Level",
+													"name": "威力水平",
 													"type": "item",
-													"name": "Power Level",
 													"entries": [
-														"The character options you read here might be more or less powerful than options in the {@book 2024 Player's Handbook|XPHB}. If a design survives playtesting, we adjust its power to the desirable level before publication. This means an option could be more or less powerful in its final form."
+														"你在这里阅读的角色选项可能比{@book 2024玩家手册|XPHB}中的选项威力更强或更弱。如果一个设计在游戏测试中存活下来，我们会在发布前将其威力调整到理想水平。这意味着一个选项在其最终形态中可能威力更强或更弱。"
 													]
 												},
 												{
+													"ENG_name": "Feedback",
+													"name": "反馈",
 													"type": "item",
-													"name": "Feedback",
 													"entries": [
-														"The best way for you to give us feedback on this material is in the survey we'll release on D&D Beyond. If we make this material official, it will be refined based on your feedback, and then it will appear in a D&D book.",
-														"Providing feedback on this document is one way you can help shape the future of D&D!"
+														"您就这份材质向我们提供反馈的最佳方式是通过我们将在D&D Beyond上发布的调查。如果我们使这份材质成为官方版本，它将根据您的反馈进行完善，然后会出现在一本D&D书中。",
+														"对本文件提供反馈是您协助塑造D&D未来的一种方式！"
 													]
 												}
 											]
@@ -2891,23 +3074,26 @@
 							]
 						},
 						{
+							"ENG_name": "Subclasses",
+							"name": "子职",
 							"type": "section",
-							"name": "Subclasses",
 							"page": 1,
 							"entries": [
-								"This section presents the following subclasses: {@class Cleric|XPHB|Pestilence Domain|Pestilence|XUA2026VillainousOptions}, {@class Druid|XPHB|Circle of the Titan|Titan|XUA2026VillainousOptions}, {@class Fighter|XPHB|Hell Knight|Hell Knight|XUA2026VillainousOptions}, and {@class Sorcerer|XPHB|Demonic Sorcery|Demonic|XUA2026VillainousOptions}.",
+								"本节介绍以下子职：{@class 牧师|XPHB|瘟疫领域|瘟疫术|XUA2026VillainousOptions}、{@class 德鲁伊|XPHB|泰坦结社|泰坦|XUA2026VillainousOptions}、{@class 战士|XPHB|地狱骑士|地狱骑士|XUA2026VillainousOptions}和{@class 术士|XPHB|恶魔语巫术|恶魔语|XUA2026VillainousOptions}。",
 								{
+									"ENG_name": "Pestilence Domain (Cleric)",
+									"name": "瘟疫领域（牧师）",
 									"type": "entries",
-									"name": "Pestilence Domain (Cleric)",
 									"page": 1,
 									"entries": [
-										"{@i Foment Plague and Rot}",
+										"{@i 散播瘟疫与腐朽}",
 										{
+											"ENG_name": "Pestilence Domain",
+											"name": "瘟疫领域",
 											"type": "statblock",
 											"prop": "subclass",
-											"name": "Pestilence Domain",
-											"shortName": "Pestilence",
-											"className": "Cleric",
+											"shortName": "瘟疫术",
+											"className": "牧师",
 											"classSource": "XPHB",
 											"source": "XUA2026VillainousOptions",
 											"page": 1
@@ -2915,17 +3101,19 @@
 									]
 								},
 								{
+									"ENG_name": "Circle of the Titan (Druid)",
+									"name": "泰坦结社（德鲁伊）",
 									"type": "entries",
-									"name": "Circle of the Titan (Druid)",
 									"page": 3,
 									"entries": [
-										"{@i Wreak Colossal Havoc}",
+										"{@i 制造庞然浩劫}",
 										{
+											"ENG_name": "Circle of the Titan",
+											"name": "泰坦结社",
 											"type": "statblock",
 											"prop": "subclass",
-											"name": "Circle of the Titan",
-											"shortName": "Titan",
-											"className": "Druid",
+											"shortName": "泰坦",
+											"className": "德鲁伊",
 											"classSource": "XPHB",
 											"source": "XUA2026VillainousOptions",
 											"page": 3
@@ -2933,17 +3121,19 @@
 									]
 								},
 								{
+									"ENG_name": "Hell Knight (Fighter)",
+									"name": "地狱骑士（战士）",
 									"type": "entries",
-									"name": "Hell Knight (Fighter)",
 									"page": 6,
 									"entries": [
-										"{@i Inflict Hellish Wounds and Damn Enemies}",
+										"{@i 造成地狱创伤并诅咒敌人}",
 										{
+											"ENG_name": "Hell Knight",
+											"name": "地狱骑士",
 											"type": "statblock",
 											"prop": "subclass",
-											"name": "Hell Knight",
-											"shortName": "Hell Knight",
-											"className": "Fighter",
+											"shortName": "地狱骑士",
+											"className": "战士",
 											"classSource": "XPHB",
 											"source": "XUA2026VillainousOptions",
 											"page": 6
@@ -2951,17 +3141,19 @@
 									]
 								},
 								{
+									"ENG_name": "Demonic Sorcery (Sorcerer)",
+									"name": "恶魔语巫术（术士）",
 									"type": "entries",
-									"name": "Demonic Sorcery (Sorcerer)",
 									"page": 5,
 									"entries": [
-										"{@i Summon the Powers of the Abyss}",
+										"{@i 召唤深渊之力}",
 										{
+											"ENG_name": "Demonic Sorcery",
+											"name": "恶魔语巫术",
 											"type": "statblock",
 											"prop": "subclass",
-											"name": "Demonic Sorcery",
-											"shortName": "Demonic",
-											"className": "Sorcerer",
+											"shortName": "恶魔语",
+											"className": "术士",
 											"classSource": "XPHB",
 											"source": "XUA2026VillainousOptions",
 											"page": 7
@@ -2971,22 +3163,25 @@
 							]
 						},
 						{
+							"ENG_name": "Paths of Villainy",
+							"name": "恶行之路",
 							"type": "section",
-							"name": "Paths of Villainy",
 							"page": 9,
 							"entries": [
-								"This section includes two paths: the {@charoption Path of the Death Knight|XUA2026VillainousOptions} and the {@charoption Path of the Lich|XUA2026VillainousOptions}. Each path presents a selection of feats that represent a character's transformation into one of these two villainous archetypes.",
+								"本节包含两条路途：{@charoption 死亡骑士道途|XUA2026反派选项}和{@charoption 巫妖之道|XUA2026反派选项}。每条路途都提供了一系列代表角色变形为这两种反派原型的专长。",
 								{
+									"ENG_name": "Path of the Death Knight",
+									"name": "死亡骑士路途",
 									"type": "statblock",
 									"tag": "charoption",
-									"name": "Path of the Death Knight",
 									"source": "XUA2026VillainousOptions",
 									"page": 9
 								},
 								{
+									"ENG_name": "Path of the Lich",
+									"name": "巫妖路途",
 									"type": "statblock",
 									"tag": "charoption",
-									"name": "Path of the Lich",
 									"source": "XUA2026VillainousOptions",
 									"page": 11
 								}

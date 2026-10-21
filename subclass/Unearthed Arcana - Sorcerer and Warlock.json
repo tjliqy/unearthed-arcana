@@ -4,7 +4,7 @@
 			{
 				"json": "UASorcererAndWarlock",
 				"abbreviation": "UASAW",
-				"full": "Unearthed Arcana: Sorcerer and Warlock",
+				"full": "破解奥秘：术士与魔契师",
 				"url": "https://media.wizards.com/2019/dnd/downloads/UA-AberrantLurk.pdf",
 				"version": "1.0.0",
 				"dateReleased": "2019-09-05",
@@ -18,15 +18,16 @@
 		],
 		"edition": "classic",
 		"dateAdded": 1701616429,
-		"dateLastModified": 1774092631,
+		"dateLastModified": 1792466090,
 		"_dateLastModifiedHash": "44c4082389"
 	},
 	"subclass": [
 		{
-			"name": "Aberrant Mind (UA)",
-			"shortName": "Aberrant Mind (UA)",
+			"ENG_name": "Aberrant Mind (UA)",
+			"name": "畸变心智（UA）",
+			"shortName": "畸变心智（UA）",
 			"source": "UASorcererAndWarlock",
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "PHB",
 			"page": 1,
 			"isReprinted": true,
@@ -34,41 +35,42 @@
 				{
 					"known": {
 						"1": [
-							"arms of Hadar",
-							"dissonant whispers"
+							"哈达之臂",
+							"不谐低语"
 						],
 						"3": [
-							"calm emotions",
-							"detect thoughts"
+							"安定心神",
+							"侦测思想"
 						],
 						"5": [
-							"hunger of Hadar",
-							"sending"
+							"哈达之欲",
+							"短讯术"
 						],
 						"7": [
-							"compulsion",
-							"Evard's black tentacles"
+							"强迫术",
+							"艾伐黑触手"
 						],
 						"9": [
-							"modify memory",
-							"Rary's telepathic bond"
+							"篡改记忆",
+							"拉瑞心灵联结"
 						]
 					}
 				}
 			],
 			"subclassFeatures": [
-				"Aberrant Mind|Sorcerer||Aberrant Mind (UA)|UASorcererAndWarlock|1",
-				"Psionic Sorcery|Sorcerer||Aberrant Mind (UA)|UASorcererAndWarlock|6",
-				"Psychic Defenses|Sorcerer||Aberrant Mind (UA)|UASorcererAndWarlock|6",
-				"Revelation in Flesh|Sorcerer||Aberrant Mind (UA)|UASorcererAndWarlock|14",
-				"Warp Reality|Sorcerer||Aberrant Mind (UA)|UASorcererAndWarlock|18"
+				"畸变心智|术士||畸变心智（UA）|UASorcererAndWarlock|1",
+				"灵能术法|术士||畸变心智（UA）|UASorcererAndWarlock|6",
+				"心灵防御|术士||畸变心智（UA）|UASorcererAndWarlock|6",
+				"血肉启示|术士||畸变心智（UA）|UASorcererAndWarlock|14",
+				"扭转现实|术士||畸变心智（UA）|UASorcererAndWarlock|18"
 			]
 		},
 		{
-			"name": "The Lurker in the Deep (UA)",
-			"shortName": "Lurker in the Deep (UA)",
+			"ENG_name": "The Lurker in the Deep (UA)",
+			"name": "深渊潜伏者 (UA)",
+			"shortName": "深地潜伏者（UA）",
 			"source": "UASorcererAndWarlock",
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "PHB",
 			"page": 2,
 			"isReprinted": true,
@@ -76,101 +78,104 @@
 				{
 					"expanded": {
 						"s1": [
-							"create or destroy water",
-							"thunderwave"
+							"造水术/枯水术",
+							"雷鸣波"
 						],
 						"s2": [
-							"gust of wind",
-							"silence"
+							"造风术",
+							"沉默术"
 						],
 						"s3": [
-							"lightning bolt",
-							"sleet storm"
+							"闪电束",
+							"雪雨暴"
 						],
 						"s4": [
-							"control water",
-							"Evard's black tentacles"
+							"操控水体",
+							"艾伐黑触手"
 						],
 						"s5": [
-							"commune with nature",
-							"cone of cold"
+							"问道自然",
+							"寒冰锥"
 						]
 					}
 				}
 			],
 			"subclassFeatures": [
-				"The Lurker in the Deep|Warlock||Lurker in the Deep (UA)|UASorcererAndWarlock|1",
-				"Fathomless Soul|Warlock||Lurker in the Deep (UA)|UASorcererAndWarlock|6",
-				"Guardian Grasp|Warlock||Lurker in the Deep (UA)|UASorcererAndWarlock|6",
-				"Devouring Maw|Warlock||Lurker in the Deep (UA)|UASorcererAndWarlock|10",
-				"Unleash the Depths|Warlock||Lurker in the Deep (UA)|UASorcererAndWarlock|14"
+				"深渊潜伏者|魔契师||深地潜伏者（UA）|UASorcererAndWarlock|1",
+				"深海意志灵魂|魔契师||深地潜伏者（UA）|UASorcererAndWarlock|6",
+				"守护者攫取|魔契师||深地潜伏者（UA）|UASorcererAndWarlock|6",
+				"喉咬|魔契师||深地潜伏者（UA）|UASorcererAndWarlock|10",
+				"释放深渊|魔契师||深地潜伏者（UA）|UASorcererAndWarlock|14"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Aberrant Mind",
+			"ENG_name": "Aberrant Mind",
+			"name": "畸变心智",
 			"source": "UASorcererAndWarlock",
 			"page": 1,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "PHB",
-			"subclassShortName": "Aberrant Mind (UA)",
+			"subclassShortName": "畸变心智（UA）",
 			"subclassSource": "UASorcererAndWarlock",
 			"level": 1,
 			"entries": [
-				"An alien influence has wrapped its tendrils around you, warping you in both body and mind. Perhaps a psychic splinter lodged in your psyche after you suffered domination by an aboleth. Maybe you were born somewhere tainted by the Far Realm, a planar blot that changed you forever. Or perhaps mind flayers kidnapped you, subjecting you to the nightmarish process of ceremorphosis\u2014but the transformation failed and left you altered.",
+				"一种异域影响力已将其卷须缠绕在你身上，使你在天人合一上都发生畸变。也许是在你遭受底栖魔鱼的统治后，一根心灵碎片嵌入了你的精神。或许你出生在遥远国度污染的某处，这个位面溅墨永远改变了你。又或者夺心魔们绑架了你，让你经历噩梦般的蜕变过程\u2014\u2014但变形失败且使你成为异变者。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Unique Disturbance|Sorcerer||Aberrant Mind (UA)|UASorcererAndWarlock|1"
+					"subclassFeature": "独特扰动|术士||畸变心智（UA）|UASorcererAndWarlock|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Invasive Thoughts|Sorcerer||Aberrant Mind (UA)|UASorcererAndWarlock|1"
+					"subclassFeature": "侵入性思维|术士||畸变心智（UA）|UASorcererAndWarlock|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Psionic Spells|Sorcerer||Aberrant Mind (UA)|UASorcererAndWarlock|1"
+					"subclassFeature": "灵能法术|术士||畸变心智（UA）|UASorcererAndWarlock|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Warped Being|Sorcerer||Aberrant Mind (UA)|UASorcererAndWarlock|1"
+					"subclassFeature": "扭曲存在|术士||畸变心智（UA）|UASorcererAndWarlock|1"
 				}
 			]
 		},
 		{
-			"name": "Invasive Thoughts",
+			"ENG_name": "Invasive Thoughts",
+			"name": "侵入性思维",
 			"source": "UASorcererAndWarlock",
 			"page": 1,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "PHB",
-			"subclassShortName": "Aberrant Mind (UA)",
+			"subclassShortName": "畸变心智（UA）",
 			"subclassSource": "UASorcererAndWarlock",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"{@i 1st-level Aberrant Mind feature}",
-				"At 1st level, you gain the ability to use a bonus action to magically create a telepathic link with one creature you can see within 30 feet of you. Until the link ends, you can telepathically speak to the target through the link, and if it understands at least one language, it can speak telepathically to you. The link lasts for 10 minutes, and it ends early if you are {@condition incapacitated} or die, or if you use another bonus action to break the link or to establish this link with a different creature."
+				"{@i 1级畸变心智特性}",
+				"在1环时，你获得使用附赠动作魔法般地与你30尺内能看见的一个生物建立心灵感应链接的能力。直到链接结束，你可以通过链接与目标心灵感应交谈，且如果它至少理解一种语言，它可以与你心灵感应交谈。链接持续10分钟，如果你处于{@condition 失能}状态或死亡，或者你使用另一个附赠动作来打破链接或与另一个生物建立此链接，则链接提前结束。"
 			]
 		},
 		{
-			"name": "Psionic Spells",
+			"ENG_name": "Psionic Spells",
+			"name": "灵能法术",
 			"source": "UASorcererAndWarlock",
 			"page": 1,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "PHB",
-			"subclassShortName": "Aberrant Mind (UA)",
+			"subclassShortName": "畸变心智（UA）",
 			"subclassSource": "UASorcererAndWarlock",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"{@i 1st-level Aberrant Mind feature}",
-				"Starting at 1st level, your aberrant nature changes your mind in subtle but profound ways. You learn additional spells when you reach certain levels in this class, as shown on the Psionic Spells table. The spell counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.",
+				"{@i 1级畸变心智特性}",
+				"从1级开始，你的畸变本质以精妙但深远的方式改变了你的心智。当你达到此职业的特定等级时，你将学习额外的法术，如灵能法术表格所示。该法术对你而言视为术士法术，但它不计入你所知的术士法术数量。",
 				{
 					"type": "table",
-					"caption": "Psionic Spells",
+					"caption": "灵能法术",
 					"colLabels": [
-						"Sorcerer Level",
-						"Spells"
+						"术士等级",
+						"法术"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -178,156 +183,164 @@
 					],
 					"rows": [
 						[
-							"1st",
-							"{@spell arms of Hadar}, {@spell dissonant whispers}"
+							"1环",
+							"{@spell 哈达之臂}, {@spell 不谐低语}"
 						],
 						[
-							"3rd",
-							"{@spell calm emotions}, {@spell detect thoughts}"
+							"3环",
+							"{@spell 安定心神}, {@spell 侦测思想}"
 						],
 						[
-							"5th",
-							"{@spell hunger of Hadar}, {@spell sending}"
+							"5环",
+							"{@spell 哈达之欲}, {@spell 短讯术}"
 						],
 						[
 							"7th",
-							"{@spell compulsion}, {@spell Evard's black tentacles}"
+							"{@spell 强迫术}, {@spell 艾伐黑触手}"
 						],
 						[
 							"9th",
-							"{@spell modify memory}, {@spell Rary's telepathic bond}"
+							"{@spell 篡改记忆}, {@spell 拉瑞心灵联结}"
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "Unique Disturbance",
-			"source": "UASorcererAndWarlock",
-			"page": 1,
-			"className": "Sorcerer",
-			"classSource": "PHB",
-			"subclassShortName": "Aberrant Mind (UA)",
-			"subclassSource": "UASorcererAndWarlock",
-			"level": 1,
-			"header": 1,
+			"ENG_name": "Unique Disturbance",
+			"name": "独特扰动",
 			"type": "inset",
-			"entries": [
-				"Regardless of its genesis, the Aberrant Mind origin imparts a sense of eeriness to the character or their surroundings. This can be as subtle as when your sorcerer reads a creature's mind with detect thoughts, anyone in their immediate vicinity experiences a faint but pervasive sense of dread. Or it could be unmistakable, such as sweating a sheen of viscous mucus when you're scared, or your pupils squirming when you're excited. Consider the potentially unspeakable source of your sorcerer's powers, and use that as a guide to weave threads of eeriness throughout your magic."
-			]
-		},
-		{
-			"name": "Warped Being",
 			"source": "UASorcererAndWarlock",
 			"page": 1,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "PHB",
-			"subclassShortName": "Aberrant Mind (UA)",
+			"subclassShortName": "畸变心智（UA）",
 			"subclassSource": "UASorcererAndWarlock",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"{@i 1st-level Aberrant Mind feature}",
-				"Starting at 1st level, your aberrant origin protects you from harm. Your body might have a coating of viscous slime, tough hide, scales, or an invisible psionic barrier (choose the form of protection when you gain this feature). Whatever form the protection takes, your AC equals 13 + your Dexterity modifier while you aren't wearing armor."
+				"无论其起源如何，畸变心智起源都会给角色或其周边环境带来一种诡异感。这可能很精妙，比如当你的术士使用侦测思想读取一个生物的思想时，其附近的人会体验到一种微弱但无处不在的恐惧感。或者也可能是显而易见的，比如当你害怕时会分泌一层粘稠的黏液，或者当你兴奋时瞳孔会蠕动。考虑你的术士力量可能来自不可名状的来源，并以此为向导在你的魔法中编织诡异的线索。"
 			]
 		},
 		{
-			"name": "Psionic Sorcery",
+			"ENG_name": "Warped Being",
+			"name": "扭曲存在",
 			"source": "UASorcererAndWarlock",
 			"page": 1,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "PHB",
-			"subclassShortName": "Aberrant Mind (UA)",
+			"subclassShortName": "畸变心智（UA）",
+			"subclassSource": "UASorcererAndWarlock",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"{@i 1级畸变心智特性}",
+				"从1级开始，你的畸变起源会保护你免受伤害。你的身体可能覆盖着粘稠的软泥、硬皮、鳞片或隐形的灵能屏障（获得此特性时选择守护形态）。无论采取何种保护形态，当你不穿戴护甲时，AC等于13 + 你的敏捷调整值。"
+			]
+		},
+		{
+			"ENG_name": "Psionic Sorcery",
+			"name": "灵能术法",
+			"source": "UASorcererAndWarlock",
+			"page": 1,
+			"className": "术士",
+			"classSource": "PHB",
+			"subclassShortName": "畸变心智（UA）",
 			"subclassSource": "UASorcererAndWarlock",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-level Aberrant Mind feature}",
-				"Beginning at 6th level, when you cast any of the spells gained from your Psionic Spells feature, you can cast it by expending a spell slot as normal or by spending a number of sorcery points equal to the spell's level. If you cast the spell using sorcery points, it requires no components."
+				"{@i 6级畸变心智特性}",
+				"从6级开始，当你施放任何从你的灵能法术特性获得的法术时，你可以正常消耗一个法术位来施放它，或者花费等同于法术等级的术法点数值。如果你使用术法点施放该法术，则无需任何成分。"
 			]
 		},
 		{
-			"name": "Psychic Defenses",
+			"ENG_name": "Psychic Defenses",
+			"name": "心灵防御",
 			"source": "UASorcererAndWarlock",
 			"page": 1,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "PHB",
-			"subclassShortName": "Aberrant Mind (UA)",
+			"subclassShortName": "畸变心智（UA）",
 			"subclassSource": "UASorcererAndWarlock",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-level Aberrant Mind feature}",
-				"At 6th level, you gain resistance to psychic damage, and you have advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+				"{@i 6级畸变心智特性}",
+				"在6级时，你获得对心灵伤害的抗性，且你在对抗{@condition 魅惑}或{@condition 恐慌}状态的豁免检定上具有优势。"
 			]
 		},
 		{
-			"name": "Revelation in Flesh",
+			"ENG_name": "Revelation in Flesh",
+			"name": "血肉启示",
 			"source": "UASorcererAndWarlock",
 			"page": 1,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "PHB",
-			"subclassShortName": "Aberrant Mind (UA)",
+			"subclassShortName": "畸变心智（UA）",
 			"subclassSource": "UASorcererAndWarlock",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i 14th-level Aberrant Mind feature}",
-				"Beginning at 14th level, you can unleash the aberrant truth hidden within your flesh. As a bonus action, you can spend 1 or more sorcery points to magically transform your body for 1 minute. For each sorcery point you spend, you can gain one of the following benefits of your choice, the effects of which last until the transformation ends:",
+				"{@i 14级畸变心智特性}",
+				"从14级开始，你可以释放隐藏在血肉中的畸变真相。以一个附赠动作，你可以消耗1个或更多术法点来魔法性地变形你的身体，持续1分钟。每消耗1个术法点，你可以选择获得以下一项增益，其效应持续至变形结束：",
 				{
 					"type": "list",
 					"items": [
-						"You gain a swimming speed equal to your walking speed and the ability to breathe water. Gills grow from your neck or fan out from behind your ears, your fingers become webbed, or you grow lashing cilia that extend through your clothing.",
-						"You gain a flying speed equal to your walking speed and can hover. As you fly, your skin glistens with mucus.",
-						"Your body, along with any equipment you are wearing or carrying, becomes slimy and pliable. You can move through any space as narrow as 1 inch without squeezing, and you can spend 5 feet of movement to escape from nonmagical restraints or being {@condition grappled}.",
-						"Your eyes turn black or become writhing sensory tendrils. You are aware of the location of any hidden or {@condition invisible} creature within 60 feet of you."
+						"你获得等同于行走速度的游泳速度且获得水下呼吸能力。鳃从你的颈部生长出来或从耳后扇出，你的手指变成蹼状，或你长出鞭毛般的纤毛延伸穿过衣物。",
+						"你获得等同于步行速度的飞行速度且可以悬浮。当你飞行时，你的皮肤会因黏液而闪闪发光。",
+						"你的身体和你携带的装备都变得柔韧粘滑。你能够轻松穿过最窄1寸宽的狭窄空间而不用挤身通过，且你可以消耗5尺移动速度以脱离非魔法的束缚状态、或{@condition 受擒}的状态。",
+						"你的眼睛变黑或变成蠕动的感知卷须。你能感知到60尺内任何隐藏或{@condition 隐形}生物的位置。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Warp Reality",
+			"ENG_name": "Warp Reality",
+			"name": "扭转现实",
 			"source": "UASorcererAndWarlock",
 			"page": 1,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "PHB",
-			"subclassShortName": "Aberrant Mind (UA)",
+			"subclassShortName": "畸变心智（UA）",
 			"subclassSource": "UASorcererAndWarlock",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"{@i 18th-level Aberrant Mind feature}",
-				"At 18th level, you become the focal point of a reality-warping anomaly. As an action, you can magically radiate a transparent, 20-foot-radius aura for 1 minute. This might take the form of a sphere of rippling psychic energy, a fluctuating amoebic gel, an extrusion of ephemeral parasites, or some other manifestation. Other creatures treat the aura as {@quickref difficult terrain||3}, and when they start their turn in it, they take {@damage 2d10} psychic damage. When you activate this feature, you can choose any number of creatures you can see to be unaffected by the aura.",
-				"As a bonus action, you can end the aura early. If you do so, you and any number of creatures you choose within the aura are teleported to a location you can see within 1 mile of you. Each creature must appear within 20 feet of you and in an unoccupied space. An unwilling creature that succeeds on a Charisma saving throw against your spell save DC is not teleported. Once you use this feature, you can't use it again until you finish a long rest."
+				"{@i 18级畸变心智特性}",
+				"在18级时，你成为现实扭曲异常的核心焦点。以一个动作，你可以魔法般地散发一个透明、半径20尺的光环，持续1分钟。这可能表现为一个涟漪状心灵能量的球体、一个波动的变形胶体、转瞬即逝的寄生虫的延伸，或其他显迹。其他生物将光环视为{@quickref 困难地形||3}，且当他们在光环内开始回合时，会受到{@damage 2d10}心灵伤害。当你激活此特性时，可以选择任意数量你能看见的生物不受光环影响。",
+				"作为附赠动作，你可以提前结束该光环。若你如此做，你和光环内你选择的任意数量的生物会被传送到你能看见的1英里内的一个位置。每个生物必须出现在你20尺内且位于一个未占据空间。一个不愿意的生物若成功通过对抗你法术豁免DC的魅力豁免检定，则不会被传送。一旦你使用此特性，直到你完成一次长休前都无法再次使用。"
 			]
 		},
 		{
-			"name": "The Lurker in the Deep",
+			"ENG_name": "The Lurker in the Deep",
+			"name": "深渊潜伏者",
 			"source": "UASorcererAndWarlock",
 			"page": 2,
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "PHB",
-			"subclassShortName": "Lurker in the Deep (UA)",
+			"subclassShortName": "深地潜伏者（UA）",
 			"subclassSource": "UASorcererAndWarlock",
 			"level": 1,
 			"entries": [
-				"You made a pact with an entity that lurks somewhere deep in the ocean, or even on the Elemental Plane of Water, such as a mighty kraken, an ancient primordial, or a monstrous being from creation's earliest days. You serve as this creature's eyes and ears, watching the world beyond its domain and reporting your findings. You may have gained this pact as a member of a cult dedicated to the entity or after your patron saved your life when you nearly drowned at sea.",
+				"你与一个潜伏在深海某处、甚至水之位面的实体缔结了契约，例如强大的克拉肯、远古的原初存在，或造物术早期出现的怪物。你作为这个生物的眼睛和耳朵，观察其领域之外的世界并报导你的发现。你可能是在一个致力于该实体的邪教成员时获得此契约，或是在你于海上差点溺亡时被雇主救了性命。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "The Lurker's Clutches|Warlock||Lurker in the Deep (UA)|UASorcererAndWarlock|1"
+					"subclassFeature": "潜伏者的魔爪|魔契师||深地潜伏者（UA）|UASorcererAndWarlock|1"
 				},
 				{
+					"ENG_name": "Expanded Spell List",
+					"name": "扩展法术列表",
 					"type": "entries",
-					"name": "Expanded Spell List",
 					"entries": [
-						"{@i 1st-level Lurker in the Deep feature}",
-						"The Lurker in the Deep lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+						"{@i 1级深地潜伏者特性}",
+						"深渊潜伏者让你在学习魔契师法术时可以从扩展法术列表中选择。以下法术被添加到你的魔契师法术列表中。",
 						{
 							"type": "table",
-							"caption": "Lurker Expanded Spells",
+							"caption": "潜伏者扩展法术",
 							"colLabels": [
-								"Spell Level",
-								"Spells"
+								"法术环阶",
+								"法术"
 							],
 							"colStyles": [
 								"col-2 text-center",
@@ -335,24 +348,24 @@
 							],
 							"rows": [
 								[
-									"1st",
-									"{@spell create or destroy water}, {@spell thunderwave}"
+									"1环",
+									"{@spell 造水术/枯水术}, {@spell 雷鸣波}"
 								],
 								[
-									"2nd",
-									"{@spell gust of wind}, {@spell silence}"
+									"2环",
+									"{@spell 造风术}, {@spell 沉默术}"
 								],
 								[
-									"3rd",
-									"{@spell lightning bolt}, {@spell sleet storm}"
+									"3环",
+									"{@spell 闪电束}, {@spell 雪雨暴}"
 								],
 								[
-									"4th",
-									"{@spell control water}, {@spell Evard's black tentacles}"
+									"4环",
+									"{@spell 操控水体}, {@spell 艾伐黑触手}"
 								],
 								[
-									"5th",
-									"{@spell commune with nature}, {@spell cone of cold}"
+									"5环",
+									"{@spell 问道自然}, {@spell 寒冰锥}"
 								]
 							]
 						}
@@ -360,140 +373,149 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Grasp of the Deep|Warlock||Lurker in the Deep (UA)|UASorcererAndWarlock|1"
+					"subclassFeature": "深地攫取|魔契师||深地潜伏者（UA）|UASorcererAndWarlock|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Scion of the Deep|Warlock||Lurker in the Deep (UA)|UASorcererAndWarlock|1"
+					"subclassFeature": "深海后裔|魔契师||深地潜伏者（UA）|UASorcererAndWarlock|1"
 				}
 			]
 		},
 		{
-			"name": "Grasp of the Deep",
+			"ENG_name": "Grasp of the Deep",
+			"name": "深地攫取",
 			"source": "UASorcererAndWarlock",
 			"page": 2,
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "PHB",
-			"subclassShortName": "Lurker in the Deep (UA)",
+			"subclassShortName": "深地潜伏者（UA）",
 			"subclassSource": "UASorcererAndWarlock",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"{@i 1st-level Lurker in the Deep feature}",
-				"At 1st level, you gain the ability to magically summon a spectral tentacle that strikes at your foes. As a bonus action, you create a 10-foot-long tentacle at a point you can see within 60 feet of you. The tentacle lasts for 1 minute or until you use this feature to create another tentacle.",
-				"When you create the tentacle, you can make a melee spell attack against a creature within 10 feet of it. On a hit, the target takes {@damage 1d8} cold or lightning damage (your choice when it takes the damage) and its speed is reduced by 10 feet until the start of your next turn. When you reach 10th level in this class, the damage dealt by the tentacle increases to {@dice 2d8}.",
-				"As a bonus action on your turn, you can move the tentacle up to 30 feet and repeat the attack. You can summon the tentacle a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a long rest."
+				"{@i 1级深地潜伏者特性}",
+				"在1环时，你获得魔法召唤灵体触须攻击敌人的能力。以一个附赠动作，你可以在你60尺内能看见的一点创造一条10尺长的触须。该触须持续1分钟或直到你使用此特性创造另一条触须。",
+				"当你创造触须时，你可以对10尺内的生物进行一次近战法术攻击。命中时，目标受到{@damage 1d8}寒冷或闪电伤害（在受到伤害时选择）且其速度缩小10尺直到你的下个回合开始。当你在此职业达到10级时，触须造成的伤害增加到{@dice 2d8}。",
+				"在你的回合中，你可以用一个附赠动作将触须移动最多30尺且重复攻击。你可以召唤触须的次数等于你的魅力调整值（至少一次），且完成一次长休后恢复所有已消耗的使用次数。"
 			]
 		},
 		{
-			"name": "Scion of the Deep",
+			"ENG_name": "Scion of the Deep",
+			"name": "深海后裔",
 			"source": "UASorcererAndWarlock",
 			"page": 2,
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "PHB",
-			"subclassShortName": "Lurker in the Deep (UA)",
+			"subclassShortName": "深地潜伏者（UA）",
 			"subclassSource": "UASorcererAndWarlock",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"{@i 1st-level Lurker in the Deep feature}",
-				"At 1st level, your patron accepts you into its inner court of servitors. You can telepathically communicate with any aberration, beast, elemental, or monstrosity that has an innate swimming speed, while it is within 120 feet of you. The creature can understand you and can respond telepathically."
+				"{@i 1级深地潜伏者特性}",
+				"在1环时，你的雇主将你纳入其内部仆从庭院。你可以与任何具有天生游泳速度的异怪、野兽、元素生物或怪兽进行心灵感应交流，只要它在你的120尺范围内。该生物可以理解你且能通过心灵感应回应。"
 			]
 		},
 		{
-			"name": "The Lurker's Clutches",
-			"source": "UASorcererAndWarlock",
-			"page": 2,
-			"className": "Warlock",
-			"classSource": "PHB",
-			"subclassShortName": "Lurker in the Deep (UA)",
-			"subclassSource": "UASorcererAndWarlock",
-			"level": 1,
-			"header": 1,
+			"ENG_name": "The Lurker's Clutches",
+			"name": "潜伏者的魔爪",
 			"type": "inset",
+			"source": "UASorcererAndWarlock",
+			"page": 2,
+			"className": "魔契师",
+			"classSource": "PHB",
+			"subclassShortName": "深地潜伏者（UA）",
+			"subclassSource": "UASorcererAndWarlock",
+			"level": 1,
+			"header": 1,
 			"entries": [
-				"Several features of the Lurker in the Deep create tentacles or a maw that reach into the world. The form of these appendages should reflect the nature of your specific patron. For example, a kraken's warlock might summon great squid-like tentacles, serrated crab claws, or a massive octopus beak, while the servant of a primordial water elemental might create tendrils or swells of living water."
+				"深渊潜伏者的数个特性会创造出触须或喉咬，触及世界。这些附肢的形态应反映你特定雇主的本质。例如，克拉肯的魔契师可能召唤出巨大的类似鱿鱼的触须、锯齿状的蟹爪或巨大的章鱼喙啄，而原初水元素的仆役可能创造出卷须或活体水的涌动。"
 			]
 		},
 		{
-			"name": "Fathomless Soul",
+			"ENG_name": "Fathomless Soul",
+			"name": "深海意志灵魂",
 			"source": "UASorcererAndWarlock",
 			"page": 2,
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "PHB",
-			"subclassShortName": "Lurker in the Deep (UA)",
+			"subclassShortName": "深地潜伏者（UA）",
 			"subclassSource": "UASorcererAndWarlock",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-level Lurker in the Deep feature}",
-				"At 6th level, your patron grants you greater abilities. You gain the following benefits:",
+				"{@i 6级深地潜伏者特性}",
+				"在6级时，你的雇主会赋予你更强的属性。你获得以下增益：",
 				{
 					"type": "list",
 					"items": [
-						"You can breathe both air and water.",
-						"You gain a swimming speed equal to your walking speed.",
-						"You gain resistance to cold damage."
+						"你既能呼吸空气也能在水中呼吸。",
+						"你的游泳速度等同于你的步行速度。",
+						"你获得对寒冷伤害的抗性。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Guardian Grasp",
+			"ENG_name": "Guardian Grasp",
+			"name": "守护者攫取",
 			"source": "UASorcererAndWarlock",
 			"page": 2,
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "PHB",
-			"subclassShortName": "Lurker in the Deep (UA)",
+			"subclassShortName": "深地潜伏者（UA）",
 			"subclassSource": "UASorcererAndWarlock",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-level Lurker in the Deep feature}",
-				"At 6th level, the tentacle you create with Grasp of the Deep can defend you and others. When you or a creature you can see takes damage while within 10 feet of the tentacle, you can use your reaction to choose one of those creatures and reduce the damage to the chosen creature by half. After doing so, the tentacle vanishes."
+				"{@i 6级深地潜伏者特性}",
+				"在6级时，你用地底攫取创造的触须可以保护你和其他人。当你或一个你能看见的生物在触须10尺范围内受到伤害时，你可以使用你的反应选择其中一个生物且将该选民生物受到的伤害缩小一半。之后，触须消失。"
 			]
 		},
 		{
-			"name": "Devouring Maw",
+			"ENG_name": "Devouring Maw",
+			"name": "喉咬",
 			"source": "UASorcererAndWarlock",
 			"page": 2,
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "PHB",
-			"subclassShortName": "Lurker in the Deep (UA)",
+			"subclassShortName": "深地潜伏者（UA）",
 			"subclassSource": "UASorcererAndWarlock",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i 10th-level Lurker in the Deep feature}",
-				"Starting at 10th level, you can magically draw forth a manifestation of your patron's insatiable hunger. As an action, choose a point you can see within 60 feet of you. For 1 minute, a translucent maw manifests in a 10-foot radius centered on that point. Each creature in that area when the maw appears must succeed on a Strength saving throw against your spell save DC or be {@condition restrained}. Any creature that starts its turn in the maw's area takes {@damage 3d6} cold or lightning damage (your choice when it takes the damage). As an action, a {@condition restrained} creature can repeat the saving throw, ending the restraint on a success. At the start of your turn, if there is a creature in the maw's area, you gain temporary hit points equal to your warlock level.",
-				"Once you use this feature, you can't do so again until you finish a short or long rest."
+				"{@i 10级深地潜伏者特性}",
+				"从10级开始，你可以魔法般地召唤出你雇主永不满足的饥渴显迹。以一个动作，选择你能看见的60尺内的一点。持续1分钟，一个半透明的喉咬会在以该点为中心的10尺半径区域内显现。当喉咬出现时，该区域内的每个生物必须进行一次对抗你法术豁免DC的力量豁免检定，否则将被{@condition 束缚}。任何在其回合开始时位于喉咬区域内的生物会受到{@damage 3d6}寒冷或闪电伤害（在受到伤害时选择）。以一个动作，被{@condition 束缚}的生物可以重复豁免检定，成功则结束束缚状态。在你的回合开始时，如果喉咬区域内有生物存在，你将获得等同于你魔契师等级的临时生命值。",
+				"使用此特性后，你必须完成一次短休或长休才能再次使用它。"
 			]
 		},
 		{
-			"name": "Unleash the Depths",
+			"ENG_name": "Unleash the Depths",
+			"name": "释放深渊",
 			"source": "UASorcererAndWarlock",
 			"page": 2,
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "PHB",
-			"subclassShortName": "Lurker in the Deep (UA)",
+			"subclassShortName": "深地潜伏者（UA）",
 			"subclassSource": "UASorcererAndWarlock",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i 14th-level Lurker in the Deep feature}",
-				"Starting at 14th level, you gain the ability to call upon your patron for aid. As an action, you choose a point within 30 feet of you where your patron tears through reality, manifesting a measure of its thalassic grandeur. Choose one of the following effects to issue from this manifestation point. Once you use either effect, you can't use this feature again until you finish a long rest.",
+				"{@i 14级深地潜伏者特性}",
+				"从14级开始，你获得召唤雇主援助的能力。以一个动作，你选择距离你30尺内的一个点，你的雇主将撕裂现实在此显现其海洋般的宏伟。从该显迹点选择以下一项效应发出。一旦你使用了任一效应，在完成一次长休前你无法再次使用该特性。",
 				{
+					"ENG_name": "Transport",
+					"name": "传送",
 					"type": "entries",
-					"name": "Transport",
 					"entries": [
-						"You and up to five willing creatures of your choice that you can see within 30 feet of the manifestation point are grasped by spectral tentacles and yanked through your patron's realm. The tentacles teleport you and the chosen creatures to a point of your choice within 100 miles that you have visited within the past 24 hours. The tentacles then vanish."
+						"你和最多五名你选择的愿意生物，在显迹点30尺内可见，被灵体间谍的触须抓住并被拽过雇主的领域。触须将你和选民传送到你过去24小时内访问过的100英里内的一个你选择的地点。触须随后消隐。"
 					]
 				},
 				{
+					"ENG_name": "Fury",
+					"name": "狂怒",
 					"type": "entries",
-					"name": "Fury",
 					"entries": [
-						"You can direct a barrage of spectral tentacles to issue forth and strike up to five creatures you can see within 30 feet of the manifestation point. Each target must make a Dexterity saving throw against your spell save DC. On a failed save, the creature takes {@damage 6d10} cold or lightning damage (your choice) and is knocked {@condition prone}. On a successful save, it takes half as much damage and is not knocked {@condition prone}. The tentacles then vanish."
+						"你可以引导一波灵体触须从显迹点发出并打击30尺内你能看见的至多五个生物。每个目标必须进行一次对抗你法术豁免DC的敏捷豁免检定。豁免失败时，该生物受到{@damage 6d10}寒冷或闪电伤害（由你选择）并被击倒{@condition 倒地}。豁免成功时，它只受到一半伤害且不会被击倒{@condition 倒地}。随后触须消隐。"
 					]
 				}
 			]
@@ -501,7 +523,8 @@
 	],
 	"spell": [
 		{
-			"name": "Mind Sliver",
+			"ENG_name": "Mind Sliver",
+			"name": "心灵之楔",
 			"source": "UASorcererAndWarlock",
 			"page": 4,
 			"level": 0,
@@ -532,11 +555,11 @@
 				}
 			],
 			"entries": [
-				"You drive a disorienting spike of psychic energy into the mind of one creature you can see within range. The target must make an Intelligence saving throw. Unless the saving throw is successful, the target takes {@damage 1d6} psychic damage, and the first time it makes a saving throw before the end of your next turn, it must roll a {@dice d4} and subtract the number rolled from the save.",
-				"This spell's damage increases by {@dice 1d6} when you reach certain levels: 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6})."
+				"你将一股令人迷失方向的心灵能量钉子打入射程内可见的一只生物的心智中。目标必须进行一次智力豁免。除非豁免成功，否则目标受到{@damage 1d6}点心灵伤害，并且在你的下一回合结束前，它进行的第一次豁免检定时，必须掷一个{@dice d4}，并从豁免结果中减去掷出的数字。",
+				"当你达到特定等级时，这个法术的伤害会增加{@dice 1d6}：5级（{@damage 2d6}），11级（{@damage 3d6}），以及17级（{@damage 4d6}）。"
 			],
 			"scalingLevelDice": {
-				"label": "psychic damage",
+				"label": "心灵伤害",
 				"scaling": {
 					"1": "1d6",
 					"5": "2d6",
@@ -547,15 +570,18 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Sorcerer",
+						"ENG_name": "Sorcerer",
+						"name": "术士",
 						"source": "PHB"
 					},
 					{
-						"name": "Warlock",
+						"ENG_name": "Warlock",
+						"name": "魔契师",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"ENG_name": "Wizard",
+						"name": "法师",
 						"source": "PHB"
 					}
 				]

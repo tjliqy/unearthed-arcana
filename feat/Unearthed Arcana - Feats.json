@@ -4,7 +4,7 @@
 			{
 				"json": "UAFeats",
 				"abbreviation": "UAFT",
-				"full": "Unearthed Arcana: Feats",
+				"full": "破解奥秘：专长",
 				"url": "https://media.wizards.com/2016/downloads/DND/UA-Feats-V1.pdf",
 				"version": "1.0.0",
 				"dateReleased": "2016-06-06",
@@ -18,12 +18,13 @@
 		],
 		"edition": "classic",
 		"dateAdded": 1701616429,
-		"dateLastModified": 1774092631,
+		"dateLastModified": 1792466501,
 		"_dateLastModifiedHash": "c5bd139df6"
 	},
 	"feat": [
 		{
-			"name": "Alchemist",
+			"ENG_name": "Alchemist",
+			"name": "炼金师",
 			"source": "UAFeats",
 			"page": 4,
 			"ability": [
@@ -37,35 +38,37 @@
 				}
 			],
 			"entries": [
-				"You have studied the secrets of alchemy and are an expert in its practice, gaining the following benefits:",
+				"你已研习炼金术的秘密且是其实践的专家，获得以下增益：",
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency with {@item alchemist's supplies|phb}. If you are already proficient with them, you add double your proficiency bonus to checks you make with them.",
-						"As an action, you can identify one potion within 5 feet of you, as if you had tasted it. You must see the liquid for this benefit to work.",
-						"Over the course of any short rest, you can temporarily improve the potency of one {@item potion of healing} of any rarity. To use this benefit, you must have {@item alchemist's supplies|phb} with you, and the potion must be within reach. If the potion is drunk no more than 1 hour after the short rest ends, the creature drinking the potion can forgo the potion's die roll and regains the maximum number of hit points that the potion can restore."
+						"你获得{@item 炼金工具|phb}的熟练项。如果你已经熟练于它们，你在使用它们进行检定时可以添加双倍的熟练加值。",
+						"作为一个动作，你可以鉴定5尺范围内的一瓶药水，就像你已经尝过它一样。你必须看到液体才能使这个增益生效。",
+						"在任何短休期间，你可以临时提升一瓶任意稀有度的{@item 治疗药水}的潜能。要使用此增益，你必须随身携带{@item 炼金工具|phb}，且该药水必须在触及范围内。如果该药水在短休结束后不超过1小时内被饮用，饮用该药水的生物可以放弃药水的掷骰并复原该药水能恢复的最大数值生命值。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Blade Mastery",
+			"ENG_name": "Blade Mastery",
+			"name": "刀锋精通",
 			"source": "UAFeats",
 			"page": 2,
 			"entries": [
-				"You master the {@item shortsword|phb}, {@item longsword|phb}, {@item scimitar|phb}, {@item rapier|phb}, and {@item greatsword|phb}. You gain the following benefits when using any of them:",
+				"你精通{@item 短剑|phb}、{@item 长剑|phb}、{@item 弯刀|phb}、{@item 刺剑|phb}和{@item 巨剑|phb}。使用它们时获得以下增益：",
 				{
 					"type": "list",
 					"items": [
-						"You gain a +1 bonus to attack rolls you make with the weapon.",
-						"On your turn, you can use your reaction to assume a parrying stance, provided you have the weapon in hand. Doing so grants you a +1 bonus to your AC until the start of your next turn or until you're not holding the weapon.",
-						"When you make an opportunity attack with the weapon, you have advantage on the attack roll."
+						"你使用该武器进行攻击检定时获得+1加值。",
+						"在你的回合，你可以使用你的反应来采取防御姿态，前提是你手中持有武器。这样做会使你的AC获得+1加值，直到你的下一个回合开始或你不再持有武器为止。",
+						"当你用该武器进行借机攻击时，你在攻击检定上具有优势。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Burglar",
+			"ENG_name": "Burglar",
+			"name": "盗窃犯",
 			"source": "UAFeats",
 			"page": 4,
 			"ability": [
@@ -79,50 +82,53 @@
 				}
 			],
 			"entries": [
-				"You pride yourself on your quickness and your close study of certain clandestine activities. You gain the following benefits:",
+				"你为自己的迅捷和对某些隐秘活动的深入研究感到骄傲。你获得以下增益：",
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency with {@item thieves' tools|phb}. If you are already proficient with them, you add double your proficiency bonus to checks you make with them."
+						"你获得{@item 盗贼工具|phb}的熟练。如果你已经熟练它们，你在使用它们时添加双倍的熟练加值。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Fell Handed",
+			"ENG_name": "Fell Handed",
+			"name": "凶残之手",
 			"source": "UAFeats",
 			"page": 2,
 			"entries": [
-				"You master the {@item handaxe|phb}, {@item battleaxe|phb}, {@item greataxe|phb}, {@item warhammer|phb}, and {@item maul|phb}. You gain the following benefits when using any of them:",
+				"你精通{@item 手斧|phb}、{@item 战斧|phb}、{@item 巨斧|phb}、{@item 战锤|phb}和{@item 巨锤|phb}。使用它们时获得以下增益：",
 				{
 					"type": "list",
 					"items": [
-						"You gain a +1 bonus to attack rolls you make with the weapon.",
-						"Whenever you have advantage on a melee attack roll you make with the weapon and hit, you can knock the target {@condition prone} if the lower of the two {@dice d20} rolls would also hit the target.",
-						"Whenever you have disadvantage on a melee attack roll you make with the weapon, the target takes bludgeoning damage equal to your Strength modifier (minimum of 0) if the attack misses but the higher of the two {@dice d20} rolls would have hit.",
-						"If you use the {@action Help} action to aid an ally's melee attack while you're wielding the weapon, you knock the target's shield aside momentarily. In addition to the ally gaining advantage on the attack roll, the ally gains a +2 bonus to the roll if the target is using a shield."
+						"你使用该武器进行攻击检定时获得+1加值。",
+						"每当你使用该武器进行近战攻击掷骰具有优势且命中时，如果两个{@dice d20}骰子中较低的掷骰结果也能命中目标，你可以使目标{@condition 倒地}。",
+						"每当你用该武器进行近战攻击掷骰时具有劣势，若攻击未命中但两个{@dice d20}骰子中较高的掷骰结果本可命中，则目标受到等同于你力量调整值（最低为0）的钝击伤害。",
+						"若你在使用该武器时以{@action 协助}动作协助一名盟友的近战攻击，你将目标的盾牌暂时击开。除了使盟友在攻击检定中获得优势外，若目标正在使用盾牌，盟友还能在掷骰中获得+2加值。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Flail Mastery",
+			"ENG_name": "Flail Mastery",
+			"name": "链枷精通",
 			"source": "UAFeats",
 			"page": 3,
 			"entries": [
-				"The {@item flail|phb} is a tricky weapon to use, but you have spent countless hours mastering it. You gain the following benefits:",
+				"这件{@item 链枷|phb}是种难以掌握的武器，但你已花费无数小时精通它。你获得以下增益：",
 				{
 					"type": "list",
 					"items": [
-						"You gain a +1 bonus to attack rolls you make with a flail.",
-						"As a bonus action on your turn, you can prepare yourself to extend your flail to sweep over targets' {@item shield|phb|shields}. Until the end of this turn, your attack rolls with a flail gain a +2 bonus against any target using a {@item shield|phb}.",
-						"When you hit with an opportunity attack using a flail, the target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked {@condition prone}."
+						"你使用链枷进行攻击检定时获得+1加值。",
+						"在你的回合中，你可以使用一个附赠动作来准备用你的链枷横扫目标的{@item 盾牌|phb|盾牌}。直到这个回合结束，你对任何使用{@item 盾牌|phb}的目标进行的链枷攻击检定获得+2加值。",
+						"当你使用链枷进行借机攻击命中时，目标必须成功通过一次力量豁免检定（DC=8+你的熟练加值+你的力量调整值），否则将被击倒{@condition 倒地}。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Gourmand",
+			"ENG_name": "Gourmand",
+			"name": "吃饱喝足",
 			"source": "UAFeats",
 			"page": 4,
 			"ability": [
@@ -136,19 +142,20 @@
 				}
 			],
 			"entries": [
-				"You have mastered a variety of special recipes, allowing you to prepare exotic dishes with useful effects. You gain the following benefits:",
+				"你已精通各种特殊食谱，能够准备具有实用效应的特制菜肴。你获得以下增益：",
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency with {@item cook's utensils|phb}. If you are already proficient with them, you add double your proficiency bonus to checks you make with them.",
-						"As an action, you can inspect a drink or plate of food within 5 feet of you and determine whether it is {@condition poisoned}, provided that you can see and smell it.",
-						"During a long rest, you can prepare and serve a meal that helps you and your allies recover from the rigors of adventuring, provided you have suitable food, {@item cook's utensils|phb}, and other supplies on hand. The meal serves up to six people, and each person who eats it regains two additional Hit Dice at the end of the long rest. In addition, those who partake of the meal have advantage on Constitution saving throws against disease for the next 24 hours."
+						"你获得{@item 厨师工具|phb}的熟练。如果你已经熟练于它们，你在使用它们进行检定时可以添加双倍的熟练加值。",
+						"作为一个动作，你可以检查5尺内的饮品或一盘食物，并确定其是否处于{@condition 中毒}状态，前提是你能看到并闻到它。",
+						"在长休期间，你可以准备并供应一餐点，帮助你和你的盟友从冒险的艰辛中恢复，前提是你手头有合适的进食、{@item 厨师工具|phb}和其他补给品。这餐点最多可供六人食用，每个食用的人在长休结束时恢复两个额外的生命骰。此外，享用这餐点的人在接下来的24小时内对抗疾病的体质豁免检定具有优势。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Master of Disguise",
+			"ENG_name": "Master of Disguise",
+			"name": "易容大师",
 			"source": "UAFeats",
 			"page": 4,
 			"ability": [
@@ -162,41 +169,43 @@
 				}
 			],
 			"entries": [
-				"You have honed your ability to shape your personality and to read the personalities of others. You gain the following benefits:",
+				"你已磨练了塑造自身个性且解读他人个性的能力。你获得以下增益：",
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency with the {@item disguise kit|phb}. If you are already proficient with it, you add double your proficiency bonus to checks you make with it.",
-						"If you spend 1 hour observing a creature, you can then spend 8 hours crafting a disguise you can quickly don to mimic that creature. Making the disguise requires a {@item disguise kit|PHB}. You must make checks as normal to disguise yourself, but you can assume the disguise as an action."
+						"你获得使用{@item 易容工具|phb}的熟练。如果你已经熟练使用它，你在使用它进行检定时可以添加双倍的熟练加值。",
+						"如果你花费1小时观察一个生物，你可以随后花费8小时创造一个可以快速装着以模仿该生物的伪装。创造伪装需要一个{@item 易容工具|PHB}。你必须如常进行检定来伪装自己，但你可以用一个动作来穿戴伪装。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Spear Mastery",
+			"ENG_name": "Spear Mastery",
+			"name": "矛精通",
 			"source": "UAFeats",
 			"page": 3,
 			"entries": [
-				"Though the {@item spear|phb} is a simple weapon to learn, it rewards you for the time you have taken to master it. You gain the following benefits:",
+				"尽管{@item 矛|phb}是一种容易学习的简易武器，但它会因你投入时间掌握而给予增益。你获得以下好处：",
 				{
 					"type": "list",
 					"items": [
-						"You gain a +1 bonus to attack rolls you make with a spear.",
-						"When you use a spear, its damage die changes from a {@dice d6} to a {@dice d8}, and from a {@dice d8} to a {@dice d10} when wielded with two hands. (This benefit has no effect if another feature has already improved the weapon's die.)",
-						"You can set your spear to receive a charge. As a bonus action, choose a creature you can see that is at least 20 feet away from you. If that creature moves within your spear's reach on its next turn, you can make a melee attack against it with your spear as a reaction. If the attack hits, the target takes an extra {@damage 1d8} piercing damage, or an extra {@damage 1d10} piercing damage if you wield the spear with two hands. You can't use this ability if the creature used the {@action Disengage} action before moving.",
-						"As a bonus action on your turn, you can increase your reach with a spear by 5 feet for the rest of your turn."
+						"你使用矛进行攻击检定时获得+1加值。",
+						"当你使用矛时，其伤害骰从{@dice d6}变为{@dice d8}，且当用双手持握时从{@dice d8}变为{@dice d10}。（若另一特性已提升该武器的骰子，则此增益无效果。）",
+						"你可以架设你的矛以应对冲锋。作为一个附赠动作，选择一个你能看见且距离你至少20尺的生物。如果该生物在其下一回合移动至你的矛的触及范围内，你可以用反应以矛对其发动一次近战攻击。如果攻击命中，目标将受到额外{@damage 1d8}穿刺伤害，或者如果你双手持矛则造成额外{@damage 1d10}穿刺伤害。如果该生物在移动前使用了{@action 撤离}动作，则你不能使用此能力。",
+						"在你的回合中，你可以用一个附赠动作使你的矛触及范围增加5尺，直到你的回合结束。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Warhammer Master",
+			"ENG_name": "Warhammer Master",
+			"name": "战锤大师",
 			"source": "UAFeats",
 			"page": 2,
 			"entries": [
-				"{@note This feat is presented as an illustrative example of a poorly-designed feat, and is not intended to be used in play. The {@feat Fell Handed|UAFeats} feat is presented as a well-designed implementation of the same ideas, and should be used instead.}",
-				"When you hit a creature with a {@item warhammer|phb}, the  creature must succeed on a Strength saving  throw (DC 8 + your proficiency bonus + your  Strength modifier) or be knocked {@condition prone}.",
-				"In addition, you can use your warhammer to  knock away a foe's shield. If you hit a creature  that's using a shield, you can have the attack deal  no damage and force the creature to drop its  shield."
+				"{@note 此专长作为设计不良专长的说明范例呈现，且不打算用于游戏中。{@feat 凶残之手|UA专长}专长作为相同理念的良好设计实现呈现，应当被替代使用。}",
+				"当你用{@item 战锤|phb}命中一个生物时，该生物必须成功通过一次力量豁免（DC 8 + 你的熟练加值 + 你的力量调整值）否则陷入{@condition 倒地}状态。",
+				"此外，你可以使用战锤击落敌人的盾牌。如果你命中一个使用护盾的生物，你可以使该攻击不造成伤害且迫使该生物放下其盾牌。"
 			]
 		}
 	]

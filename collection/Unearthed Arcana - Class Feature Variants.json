@@ -4,7 +4,7 @@
 			{
 				"json": "UAClassFeatureVariants",
 				"abbreviation": "UACFV",
-				"full": "Unearthed Arcana: Class Feature Variants",
+				"full": "破解奥秘：职业特性变体",
 				"url": "https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf",
 				"version": "1.0.0",
 				"dateReleased": "2019-11-04",
@@ -18,896 +18,962 @@
 		],
 		"edition": "classic",
 		"dateAdded": 1701616429,
-		"dateLastModified": 1774386097,
+		"dateLastModified": 1792466290,
 		"_dateLastModifiedHash": "2a5bf43294"
 	},
 	"classFeature": [
 		{
-			"name": "Survival Instincts",
+			"ENG_name": "Survival Instincts",
+			"name": "求生本能",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "PHB",
 			"level": 2,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 2nd-level barbarian feature (replaces Danger Sense)}",
-				"You become proficient in your choice of two of the following skills: {@skill Animal Handling}, {@skill Medicine}, {@skill Nature}, {@skill Perception}, or {@skill Survival}.",
-				"Your proficiency bonus is doubled for any ability check you make that uses either of those skills."
+				"{@i 2级野蛮人特性（取代危机感应）}",
+				"你从以下技能中选择两项获得熟练项：{@skill 驯兽}、{@skill 医药}、{@skill 自然}、{@skill 察觉}或{@skill 求生}。",
+				"你进行关于所选两项技能的属性检定时，可以加上双倍的熟练加值。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "PHB",
 			"level": 4,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 4th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 4级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Instinctive Pounce",
+			"ENG_name": "Instinctive Pounce",
+			"name": "莽驰",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "PHB",
 			"level": 5,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 5th-level barbarian feature (replaces Fast Movement)}",
-				"When a creature ends its turn within 15 feet of you, you can use your reaction to move up to half your speed to a space closer to the creature. This movement doesn't provoke opportunity attacks."
+				"{@i 5级野蛮人特性（替代快速移动）}",
+				"当一个生物在你15尺内结束其回合时，你可以使用你的反应移动至多一半速度到一个更靠近该生物的空间。此移动不会引发借机攻击。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "PHB",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 8th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 8级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "PHB",
 			"level": 12,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 12th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 12级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "PHB",
 			"level": 16,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 16th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 16级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "野蛮人",
 			"classSource": "PHB",
 			"level": 19,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 19th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 19级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Magical Inspiration",
+			"ENG_name": "Magical Inspiration",
+			"name": "魔法激励",
 			"source": "UAClassFeatureVariants",
 			"page": 3,
-			"className": "Bard",
+			"className": "吟游诗人",
 			"classSource": "PHB",
 			"level": 1,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 1st-level bard feature (enhances Bardic Inspiration)}",
-				"If a creature has a Bardic Inspiration die from you and casts a spell, the creature can roll that die and add the number rolled to one damage or healing roll of the spell. The Bardic Inspiration die is then lost."
+				"{@i 1级吟游诗人特性（强化诗人激励）}",
+				"如果一个生物拥有你给予的诗人激励骰且施放了一个法术，该生物可以掷该骰并将掷出的数值添加到该法术的一个伤害或治疗骰上。该诗人激励骰随后将迷失。"
 			]
 		},
 		{
-			"name": "Spell Versatility",
+			"ENG_name": "Spell Versatility",
+			"name": "法术多才",
 			"source": "UAClassFeatureVariants",
 			"page": 3,
-			"className": "Bard",
+			"className": "吟游诗人",
 			"classSource": "PHB",
 			"level": 1,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 1st-level bard feature (enhances Spellcasting)}",
-				"Whenever you finish a long rest, you can replace one spell you learned from this Spellcasting feature with another spell from the bard spell list. The new spell must be the same level as the spell you replace."
+				"{@i 1级吟游诗人特性（增强施法）}",
+				"每当你完成一次长休时，你可以将从这个施法特性中学到的一个法术替换为吟游诗人法术列表中的另一个法术。新法术必须与你替换的法术等级相同。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Bard",
+			"className": "吟游诗人",
 			"classSource": "PHB",
 			"level": 4,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 4th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 4级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Bard",
+			"className": "吟游诗人",
 			"classSource": "PHB",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 8th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 8级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Bard",
+			"className": "吟游诗人",
 			"classSource": "PHB",
 			"level": 12,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 12th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 12级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Bard",
+			"className": "吟游诗人",
 			"classSource": "PHB",
 			"level": 16,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 16th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 16级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Bard",
+			"className": "吟游诗人",
 			"classSource": "PHB",
 			"level": 19,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 19th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 19级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Cantrip Versatility",
+			"ENG_name": "Cantrip Versatility",
+			"name": "替换戏法",
 			"source": "UAClassFeatureVariants",
 			"page": 3,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
 			"level": 1,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 1st-level cleric feature (enhances Spellcasting)}",
-				"Whenever you gain a level in this class, you can replace one cantrip you learned from this Spellcasting feature with another cantrip from the cleric spell list."
+				"{@i 1级牧师特性（增强施法）}",
+				"每当你在该职业升级时，你可以将从这个施法特性中学到的一个戏法替换为牧师法术列表中的另一个戏法。"
 			]
 		},
 		{
-			"name": "Channel Divinity: Harness Divine Power",
+			"ENG_name": "Channel Divinity: Harness Divine Power",
+			"name": "引导神力：神力掌控",
 			"source": "UAClassFeatureVariants",
 			"page": 4,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
 			"level": 2,
 			"isClassFeatureVariant": true,
 			"consumes": {
-				"name": "Channel Divinity"
+				"ENG_name": "Channel Divinity",
+				"name": "引导神力"
 			},
 			"entries": [
-				"{@i 2nd-level cleric feature (enhances Channel Divinity)}",
-				"You can expend a use of your Channel Divinity to fuel your spells. As a bonus action, you touch your holy symbol, utter a prayer, and regain one expended 1st-level spell slot."
+				"{@i 2级牧师特性（增强引导神力）}",
+				"你可以消耗一次引导神力使用次数来为你的法术提供燃料。作为一个附赠动作，你接触你的圣徽，念出祷言，且恢复一个已消耗的一环法术位。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
 			"level": 4,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 4th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 4级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 8th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 8级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
 			"level": 12,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 12th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 12级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
 			"level": 16,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 16th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 16级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
 			"level": 19,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 19th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 19级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Cantrip Versatility",
+			"ENG_name": "Cantrip Versatility",
+			"name": "替换戏法",
 			"source": "UAClassFeatureVariants",
 			"page": 4,
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "PHB",
 			"level": 1,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 1st-level druid feature (enhances Spellcasting)}",
-				"Whenever you gain a level in this class, you can replace one cantrip you learned from this Spellcasting feature with another cantrip from the druid spell list."
+				"{@i 1级德鲁伊特性（增强施法）}",
+				"每当你在该职业升级时，你可以将你从该施法特性中学到的一个戏法替换为德鲁伊法术列表中的另一个戏法。"
 			]
 		},
 		{
-			"name": "Wild Companion",
+			"ENG_name": "Wild Companion",
+			"name": "荒野伙伴",
 			"source": "UAClassFeatureVariants",
 			"page": 4,
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "PHB",
 			"level": 2,
 			"isClassFeatureVariant": true,
 			"consumes": {
-				"name": "Wild Shape"
+				"ENG_name": "Wild Shape",
+				"name": "荒野形态"
 			},
 			"entries": [
-				"{@i 2nd-level druid feature (enhances Wild Shape)}",
-				"You gain the ability to summon a spirit that assumes an animal form: as an action, you can expend a use of your Wild Shape feature to cast the {@spell find familiar} spell, without material components.",
-				"When you cast the spell in this way, the familiar is a fey instead of a beast, and the familiar disappears after a number of hours equal to half your druid level."
+				"{@i 2级德鲁伊特性（增强荒野形态）}",
+				"你获得召唤呈现动物形态的精魂的能力，以一个动作，你能够消耗一次荒野变形使用次数来施放一次无需材料的{@spell 寻获魔宠}法术。",
+				"当你以此方法施放该法术时，魔宠的类型是精类而不是野兽，魔宠会在等同于你德鲁伊等级一半的小时数后消失。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "PHB",
 			"level": 4,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 4th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 4级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "PHB",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 8th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 8级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "PHB",
 			"level": 12,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 12th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 12级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "PHB",
 			"level": 16,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 16th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 16级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Druid",
+			"className": "德鲁伊",
 			"classSource": "PHB",
 			"level": 19,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 19th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 19级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Maneuver Versatility",
+			"ENG_name": "Maneuver Versatility",
+			"name": "战技多变",
 			"source": "UAClassFeatureVariants",
 			"page": 5,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "PHB",
 			"level": 1,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 1st-level feature (enhances Maneuvers)}",
-				"If you know any maneuvers from the fighter's Battle Master archetype, you can replace one maneuver you know with a different maneuver whenever you finish a long rest. This change reflects your physical and mental preparation for the day ahead."
+				"{@i 1级特性（增强战技）}",
+				"若你知晓战士战斗大师范型的任何战技，你可以在完成一次长休时将已知的一个战技替换为另一个不同的战技。此变化反映了你为即将到来的白昼所做的身心预备。"
 			]
 		},
 		{
-			"name": "Martial Versatility",
+			"ENG_name": "Martial Versatility",
+			"name": "替换武术",
 			"source": "UAClassFeatureVariants",
 			"page": 12,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "PHB",
 			"level": 1,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 1st-level feature (enhances Fighting Style)}",
-				"Whenever you gain a level in this class, you can replace a fighting style you know with another style available to your class. This change represents a shift of focus in your martial training and practice, causing you to lose the benefits of one style and gain the benefits of another style."
+				"{@i 1级特性（增强战斗风格）}",
+				"每当你在该职业升级时，你可以将一个已知的战斗风格替换为你的职业可用的另一个风格。这种变化代表你在战争训练和实践中的专注转移，导致你失去一个风格的增益且获得另一个风格的增益。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "PHB",
 			"level": 4,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 4th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 4级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "PHB",
 			"level": 6,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 6th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 6级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "PHB",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 8th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 8级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "PHB",
 			"level": 12,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 12th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 12级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "PHB",
 			"level": 14,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 14th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 14级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "PHB",
 			"level": 16,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 16th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 16级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "PHB",
 			"level": 19,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 19th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 19级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Monk Weapons",
+			"ENG_name": "Monk Weapons",
+			"name": "武僧武器",
 			"source": "UAClassFeatureVariants",
 			"page": 6,
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "PHB",
 			"level": 1,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 1st-level monk feature (enhances Martial Arts)}",
-				"You can use this feature to define your monk weapons, rather than using the definition in Martial Arts.",
-				"You practice your martial arts with specially chosen weapons, which become monk weapons for you. You can choose a number of weapons to be your monk weapons equal to 5 + your Wisdom modifier (minimum of five weapons). The chosen weapons must each meet the following criteria:",
+				"{@i 1级武僧特性（增强武艺）}",
+				"你可以使用此特性来定义你的武僧武器，而非使用武艺中的定义。",
+				"你使用特别选定的武器练习武艺，这些武器将成为你的武僧武器。你可以选择数量等于5 + 你的感知调整值（至少五件武器）的武器作为你的武僧武器。选定的武器必须各自满足以下条件：",
 				{
 					"type": "list",
 					"items": [
-						"The weapon must be a {@filter simple or martial weapon|items|source=phb|category=basic|type=martial weapon;simple weapon|property=!heavy;!two-handed;!special}.",
-						"You must be proficient with the weapon.",
-						"The weapon must lack these properties: heavy, special, or two-handed."
+						"该武器必须是一个{@filter 简易或军用武器|items|source=phb|category=基础|type=军用武器;简易武器|property=!重型;!双手;!特殊}。",
+						"你必须擅长该武器。",
+						"该武器必须缺少以下词条：重型、特殊或双手。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Ki Features",
+			"ENG_name": "Ki Features",
+			"name": "气特性",
 			"source": "UAClassFeatureVariants",
 			"page": 6,
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "PHB",
 			"level": 2,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 2nd-level monk feature (enhances Ki)}",
-				"When you gain the Ki feature at 2nd level, you get access to the following features.",
+				"{@i 2级武僧特性（强化气）}",
+				"当你获得2级的真气特性时，你将获得以下特性。",
 				{
+					"ENG_name": "Distant Eye",
+					"name": "遥远之眼",
 					"type": "entries",
-					"name": "Distant Eye",
 					"entries": [
-						"When you make a ranged weapon attack, you can spend 1 ki point to prevent attacking at long range from imposing disadvantage on your attack rolls until the end of the current turn."
+						"当你进行远程武器攻击时，你可以消耗1点气来防止在远距离攻击时对你的攻击检定施加劣势，直到当前回合结束。"
 					]
 				},
 				{
+					"ENG_name": "Quickened Healing",
+					"name": "加速愈合",
 					"type": "entries",
-					"name": "Quickened Healing",
 					"entries": [
-						"As an action, you can spend 2 ki points and roll a Martial Arts die. You regain a number of hit points equal to the number rolled."
+						"作为一个动作，你可以消耗2气点且掷一次武艺骰。你恢复等同于掷骰数值的生命值。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Ki-Fueled Strike",
+			"ENG_name": "Ki-Fueled Strike",
+			"name": "气力打击",
 			"source": "UAClassFeatureVariants",
 			"page": 6,
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "PHB",
 			"level": 2,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 2nd-level monk feature (enhances Ki)}",
-				"If you spend 1 ki or more as part of your action on your turn, you can then immediately make one unarmed strike as a bonus action."
+				"{@i 2级武僧特性（强化气）}",
+				"如果你在你的回合中作为动作的一部分消耗1点或更多气，你可以立即以一个附赠动作进行一次徒手打击。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "PHB",
 			"level": 4,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 4th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 4级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "PHB",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 8th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 8级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "PHB",
 			"level": 12,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 12th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 12级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "PHB",
 			"level": 16,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 16th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 16级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Monk",
+			"className": "武僧",
 			"classSource": "PHB",
 			"level": 19,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 19th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 19级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Martial Versatility",
+			"ENG_name": "Martial Versatility",
+			"name": "替换武术",
 			"source": "UAClassFeatureVariants",
 			"page": 12,
-			"className": "Paladin",
+			"className": "圣武士",
 			"classSource": "PHB",
 			"level": 2,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 2nd-level feature (enhances Fighting Style)}",
-				"Whenever you gain a level in this class, you can replace a fighting style you know with another style available to your class. This change represents a shift of focus in your martial training and practice, causing you to lose the benefits of one style and gain the benefits of another style."
+				"{@i 2级特性（增强战斗风格）}",
+				"每当你在该职业升级时，你可以将一个已知的战斗风格替换为你的职业可用的另一个风格。这种变化代表你在战争训练和实践中的专注转移，导致你失去一个风格的增益且获得另一个风格的增益。"
 			]
 		},
 		{
-			"name": "Channel Divinity: Harness Divine Power",
+			"ENG_name": "Channel Divinity: Harness Divine Power",
+			"name": "引导神力：神力掌控",
 			"source": "UAClassFeatureVariants",
 			"page": 6,
-			"className": "Paladin",
+			"className": "圣武士",
 			"classSource": "PHB",
 			"level": 3,
 			"isClassFeatureVariant": true,
 			"consumes": {
-				"name": "Channel Divinity"
+				"ENG_name": "Channel Divinity",
+				"name": "引导神力"
 			},
 			"entries": [
-				"{@i 3rd-level paladin feature (enhances Channel Divinity)}",
-				"You can expend a use of your Channel Divinity to fuel your spells. As a bonus action, you touch your holy symbol, utter a prayer, and regain one expended 1st-level spell slot."
+				"{@i 3级圣武士特性（强化引导神力）}",
+				"你可以消耗一次引导神力使用次数来为你的法术提供燃料。作为一个附赠动作，你接触你的圣徽，念出祷言，且恢复一个已消耗的一环法术位。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Paladin",
+			"className": "圣武士",
 			"classSource": "PHB",
 			"level": 4,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 4th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 4级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Paladin",
+			"className": "圣武士",
 			"classSource": "PHB",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 8th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 8级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Paladin",
+			"className": "圣武士",
 			"classSource": "PHB",
 			"level": 12,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 12th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 12级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Paladin",
+			"className": "圣武士",
 			"classSource": "PHB",
 			"level": 16,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 16th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 16级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Paladin",
+			"className": "圣武士",
 			"classSource": "PHB",
 			"level": 19,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 19th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 19级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Canny",
+			"ENG_name": "Canny",
+			"name": "精明",
 			"source": "UAClassFeatureVariants",
 			"page": 7,
-			"className": "Ranger",
+			"className": "游侠",
 			"classSource": "PHB",
 			"level": 1,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"Choose one skill: {@skill Animal Handling}, {@skill Athletics}, {@skill History}, {@skill Insight}, {@skill Investigation}, {@skill Medicine}, {@skill Nature}, {@skill Perception}, {@skill Stealth}, or {@skill Survival}. You gain proficiency in the chosen skill if you don't already have it, and you can add double your proficiency bonus to ability checks using that skill.",
-				"In addition, thanks to your extensive wandering, you are able to speak, read, and write two languages of your choice."
+				"选择一项技能：{@skill 驯兽}、{@skill 运动}、{@skill 历史}、{@skill 洞悉}、{@skill 调查}、{@skill 医药}、{@skill 自然}、{@skill 察觉}、{@skill 隐匿}或{@skill 求生}。若你尚未获得该技能的熟练项，则获得之，且你可以将双倍的熟练加值添加到使用该技能的属性检定上。",
+				"此外，得益于你广泛的游历，你能够说、读且写两种你选择的语言。"
 			]
 		},
 		{
-			"name": "Deft Explorer",
+			"ENG_name": "Deft Explorer",
+			"name": "熟练探险家",
 			"source": "UAClassFeatureVariants",
 			"page": 7,
-			"className": "Ranger",
+			"className": "游侠",
 			"classSource": "PHB",
 			"level": 1,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 1st-level ranger feature (replaces Natural Explorer)}",
-				"You are an unsurpassed explorer and survivor. Choose one of the following benefits, and then choose another one at 6th and 10th level.",
+				"{@i 1级游侠特性（替代自然探索者）}",
+				"你是一位无与伦比的探险家且生还者。选择下列一项增益，然后在6级和10级时选择另一项。",
 				{
 					"type": "options",
 					"count": 1,
 					"entries": [
 						{
 							"type": "refClassFeature",
-							"classFeature": "Canny|Ranger|PHB|1|UAClassFeatureVariants"
+							"classFeature": "精明|游侠|PHB|1|UAClassFeatureVariants"
 						},
 						{
 							"type": "refClassFeature",
-							"classFeature": "Roving|Ranger|PHB|1|UAClassFeatureVariants"
+							"classFeature": "越野|游侠|PHB|1|UAClassFeatureVariants"
 						},
 						{
 							"type": "refClassFeature",
-							"classFeature": "Tireless|Ranger|PHB|1|UAClassFeatureVariants"
+							"classFeature": "不知疲倦|游侠|PHB|1|UAClassFeatureVariants"
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "Favored Foe",
+			"ENG_name": "Favored Foe",
+			"name": "夙敌",
 			"source": "UAClassFeatureVariants",
 			"page": 7,
-			"className": "Ranger",
+			"className": "游侠",
 			"classSource": "PHB",
 			"level": 1,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 1st-level ranger feature (replaces Favored Enemy)}",
-				"You can call on your bond with nature to mark a creature as your favored enemy for a time: you know the {@spell hunter's mark} spell, and Wisdom is your spellcasting ability for it. You can use it a certain number of times without expending a spell slot and without requiring {@status concentration}\u2014a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.",
-				"When you gain the Spellcasting feature at 2nd level, hunter's mark doesn't count against the number of ranger spells you know."
+				"{@i 1级游侠特性（替代宿敌）}",
+				"你可以呼唤与自然的牵挂来标记一个生物作为你的夙敌一段时间：你知晓{@spell 猎人印记}法术，且感知是你使用它的施法属性。你可以不消耗法术位且不需要{@status 专注}地使用它一定次数\u2014\u2014次数等于你的感知调整值（至少一次）。你完成一次长休后恢复所有已消耗的使用次数。",
+				"当你获得2级的施法特性时，猎人印记不计入你所知的游侠法术数量。"
 			]
 		},
 		{
-			"name": "Roving",
+			"ENG_name": "Roving",
+			"name": "越野",
 			"source": "UAClassFeatureVariants",
 			"page": 7,
-			"className": "Ranger",
+			"className": "游侠",
 			"classSource": "PHB",
 			"level": 1,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"Your walking speed increases by 5, and you gain a climbing speed and a swimming speed equal to your walking speed."
+				"你的步行速度增加5。同时，你获得等于你步行速度的攀爬速度和游泳速度。"
 			]
 		},
 		{
-			"name": "Tireless",
+			"ENG_name": "Tireless",
+			"name": "不知疲倦",
 			"source": "UAClassFeatureVariants",
 			"page": 7,
-			"className": "Ranger",
+			"className": "游侠",
 			"classSource": "PHB",
 			"level": 1,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"As an action, you can give yourself a number of temporary hit points equal to {@dice 1d10} + your Wisdom modifier. You can use this special action a number of times equal to your Wisdom modifier (a minimum of once), and you regain all expended uses when you finish a long rest.",
-				"In addition, whenever you finish a short rest, your {@condition exhaustion} level, if any, is decreased by 1."
+				"作为一个动作，你可以给予自己等于{@dice 1d10} + 你的感知调整值的临时生命值。你可以使用这个特殊动作的次数等于你的感知调整值（至少一次），且你在完成一次长休后恢复所有已消耗的使用次数。",
+				"此外，当你完成一次短休时，你的{@condition 力竭}等级减少1级（若有）。"
 			]
 		},
 		{
-			"name": "Martial Versatility",
+			"ENG_name": "Martial Versatility",
+			"name": "替换武术",
 			"source": "UAClassFeatureVariants",
 			"page": 12,
-			"className": "Ranger",
+			"className": "游侠",
 			"classSource": "PHB",
 			"level": 2,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 2nd-level feature (enhances Fighting Style)}",
-				"Whenever you gain a level in this class, you can replace a fighting style you know with another style available to your class. This change represents a shift of focus in your martial training and practice, causing you to lose the benefits of one style and gain the benefits of another style."
+				"{@i 2级特性（增强战斗风格）}",
+				"每当你在该职业升级时，你可以将一个已知的战斗风格替换为你的职业可用的另一个风格。这种变化代表你在战争训练和实践中的专注转移，导致你失去一个风格的增益且获得另一个风格的增益。"
 			]
 		},
 		{
-			"name": "Spell Versatility",
+			"ENG_name": "Spell Versatility",
+			"name": "法术多才",
 			"source": "UAClassFeatureVariants",
 			"page": 8,
-			"className": "Ranger",
+			"className": "游侠",
 			"classSource": "PHB",
 			"level": 2,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 2nd-level ranger feature (enhances Spellcasting)}",
-				"Whenever you finish a long rest, you can replace one spell you learned from this Spellcasting feature with another spell from the ranger spell list. The new spell must be the same level as the spell you replace."
+				"{@i 2级游侠特性（增强施法）}",
+				"每当你完成一次长休时，你可以将从这个施法特性中学到的一个法术替换为游侠法术列表中的另一个法术。新法术必须与你替换的法术等级相同。"
 			]
 		},
 		{
-			"name": "Spellcasting Focus",
+			"ENG_name": "Spellcasting Focus",
+			"name": "法器",
 			"source": "UAClassFeatureVariants",
 			"page": 8,
-			"className": "Ranger",
+			"className": "游侠",
 			"classSource": "PHB",
 			"level": 2,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 2nd-level ranger feature (enhances Spellcasting)}",
-				"You can use a {@item druidic focus|phb} as a spellcasting focus for your ranger spells. See chapter 5, \"Equipment,\" of the Player's Handbook for a list of things that count as druidic focuses."
+				"{@i 2级游侠特性（增强施法）}",
+				"你可以使用一个{@item 德鲁伊法器|phb}作为你游侠法术的法器。请参阅玩家手册第五章\"装备\"中关于德鲁伊法器的列表。"
 			]
 		},
 		{
-			"name": "Primal Awareness",
+			"ENG_name": "Primal Awareness",
+			"name": "原始意识",
 			"source": "UAClassFeatureVariants",
 			"page": 8,
-			"className": "Ranger",
+			"className": "游侠",
 			"classSource": "PHB",
 			"level": 3,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 3rd-level ranger feature (replaces Primeval Awareness)}",
-				"You can focus your awareness through the interconnections of nature: you learn additional spells when you reach certain levels in this class if you don't already know them, as shown in the Primal Awareness Spells table. These spells don't count against the number of ranger spells you know.",
+				"{@i 3级游侠特性（取代原初意识）}",
+				"你可以通过与自然的共鸣而集中你的意识:若你尚未习得下方表格种的法术，那么你在抵达对应等级时学会下方原始意识法术表格中的法术。这些法术不占用你的游侠已知法术。",
 				{
 					"type": "table",
-					"caption": "Primal Awareness Spells",
+					"caption": "原始意识法术",
 					"colLabels": [
-						"Ranger Level",
-						"Spell"
+						"游侠等级",
+						"法术"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -915,1110 +981,1188 @@
 					],
 					"rows": [
 						[
-							"3rd",
-							"{@spell detect magic}, {@spell speak with animals}"
+							"3环",
+							"{@spell 侦测魔法}, {@spell 动物交谈}"
 						],
 						[
-							"5th",
-							"{@spell beast sense}, {@spell locate animals or plants}"
+							"5环",
+							"{@spell 野兽感官}, {@spell 动植物定位术}"
 						],
 						[
 							"9th",
-							"{@spell speak with plants}"
+							"{@spell 植物交谈}"
 						],
 						[
 							"13th",
-							"{@spell locate creature}"
+							"{@spell 生物定位术}"
 						],
 						[
 							"17th",
-							"{@spell commune with nature}"
+							"{@spell 问道自然}"
 						]
 					]
 				},
-				"You can cast each of these spells once without expending a spell slot. Once you cast a spell in this way, you can't do so again until you finish a long rest."
+				"你可以不消耗法术位的施展这些法术每个一次。一旦你用这种方式施展了那个法术，直到你完成一次长休前你都不能再次以此施展它。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Ranger",
+			"className": "游侠",
 			"classSource": "PHB",
 			"level": 4,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 4th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 4级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Ranger",
+			"className": "游侠",
 			"classSource": "PHB",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 8th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 8级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Fade Away",
+			"ENG_name": "Fade Away",
+			"name": "匿影无踪",
 			"source": "UAClassFeatureVariants",
 			"page": 8,
-			"className": "Ranger",
+			"className": "游侠",
 			"classSource": "PHB",
 			"level": 10,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 10th-level ranger feature (replaces Hide in Plain Sight)}",
-				"You can use a bonus action to magically become {@condition invisible}, along with any equipment you are wearing or carrying, until the start of your next turn.",
-				"Once you use this feature, you can't use it again until you finish a short or long rest."
+				"{@i 10级游侠特性（替代蔽于平野）}",
+				"你可以使用一个附赠动作魔法般地变为{@condition 隐形}，连同你所穿戴或携带的任何装备，直到你的下一个回合开始。",
+				"你必须完成一次长休或短休后才能再次使用该特性。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Ranger",
+			"className": "游侠",
 			"classSource": "PHB",
 			"level": 12,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 12th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 12级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Ranger",
+			"className": "游侠",
 			"classSource": "PHB",
 			"level": 16,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 16th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 16级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Ranger",
+			"className": "游侠",
 			"classSource": "PHB",
 			"level": 19,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 19th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 19级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Cunning Action: Aim",
+			"ENG_name": "Cunning Action: Aim",
+			"name": "灵巧动作：瞄准",
 			"source": "UAClassFeatureVariants",
 			"page": 9,
-			"className": "Rogue",
+			"className": "游荡者",
 			"classSource": "PHB",
 			"level": 2,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 2nd-level rogue feature (enhances Cunning Action)}",
-				"You gain an additional way to use your Cunning Action: carefully aiming your next attack. As a bonus action, you give yourself advantage on your next attack roll on the current turn. You can use this bonus action only if you haven't moved during this turn, and after you use the bonus action, your speed is 0 until the end of the current turn."
+				"{@i 2级游荡者特性（增强灵巧动作）}",
+				"你获得使用灵巧动作的额外方式：仔细瞄准你的下一次攻击。以一个附赠动作，你在当前回合的下一次攻击检定中获得优势。你只能在本回合未移动的情况下使用此附赠动作，且在你使用此附赠动作后，你的速度变为0直到当前回合结束。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Rogue",
+			"className": "游荡者",
 			"classSource": "PHB",
 			"level": 4,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 4th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 4级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Rogue",
+			"className": "游荡者",
 			"classSource": "PHB",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 8th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 8级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Rogue",
+			"className": "游荡者",
 			"classSource": "PHB",
 			"level": 10,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 10th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 10级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Rogue",
+			"className": "游荡者",
 			"classSource": "PHB",
 			"level": 12,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 12th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 12级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Rogue",
+			"className": "游荡者",
 			"classSource": "PHB",
 			"level": 16,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 16th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 16级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Rogue",
+			"className": "游荡者",
 			"classSource": "PHB",
 			"level": 19,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 19th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 19级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Spell Versatility",
+			"ENG_name": "Spell Versatility",
+			"name": "法术多才",
 			"source": "UAClassFeatureVariants",
 			"page": 10,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "PHB",
 			"level": 1,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 1st-level sorcerer feature (enhances Spellcasting)}",
-				"Whenever you finish a long rest, you can replace one spell you learned from this Spellcasting feature with another spell from the sorcerer spell list. The new spell must be the same level as the spell you replace."
+				"{@i 1级术士特性（增强施法）}",
+				"每当你完成一次长休时，你可以将从这个施法特性中学到的一个法术替换为术士法术列表中的另一个法术。新法术必须与你替换的法术等级相同。"
 			]
 		},
 		{
-			"name": "Empowering Reserves",
+			"ENG_name": "Empowering Reserves",
+			"name": "能量储备",
 			"source": "UAClassFeatureVariants",
 			"page": 10,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "PHB",
 			"level": 2,
 			"isClassFeatureVariant": true,
 			"consumes": {
-				"name": "Sorcery Point",
+				"ENG_name": "Sorcery Point",
+				"name": "术法点",
 				"amount": 2
 			},
 			"entries": [
-				"When you make an ability check on your turn, you can spend 2 sorcery points to gain advantage on the check."
+				"当你在你的回合进行属性检定时，你可以消耗2点术法点来获得该检定的优势。"
 			]
 		},
 		{
-			"name": "Font of Magic Options",
+			"ENG_name": "Font of Magic Options",
+			"name": "魔力泉涌选项",
 			"source": "UAClassFeatureVariants",
 			"page": 10,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "PHB",
 			"level": 2,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 2nd-level sorcerer feature (enhances Font of Magic)}",
-				"When you gain the Font of Magic feature, you get access to the following ways to spend your sorcery points.",
+				"{@i 2级术士特性（增强魔力泉涌）}",
+				"当你获得魔力泉涌特性时，你将获得以下消耗术法点的方式。",
 				{
 					"type": "refClassFeature",
-					"classFeature": "Empowering Reserves|Sorcerer|PHB|2|UAClassFeatureVariants"
+					"classFeature": "能量储备|术士|PHB|2|UAClassFeatureVariants"
 				},
 				{
 					"type": "refClassFeature",
-					"classFeature": "Imbuing Touch|Sorcerer|PHB|2|UAClassFeatureVariants"
+					"classFeature": "注入接触|术士|PHB|2|UAClassFeatureVariants"
 				},
 				{
 					"type": "refClassFeature",
-					"classFeature": "Sorcerous Fortitude|Sorcerer|PHB|2|UAClassFeatureVariants"
+					"classFeature": "术士坚韧|术士|PHB|2|UAClassFeatureVariants"
 				}
 			]
 		},
 		{
-			"name": "Imbuing Touch",
+			"ENG_name": "Imbuing Touch",
+			"name": "注入接触",
 			"source": "UAClassFeatureVariants",
 			"page": 10,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "PHB",
 			"level": 2,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"As an action, you can touch one nonmagical weapon and spend 2 sorcery points to imbue it with magic for 1 minute. For the duration, the weapon is considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks."
+				"作为一个动作，你可以接触一件非魔法武器并消耗2点术法点来为其注入魔法，持续1分钟。在此期间，该武器被视为魔法武器，用于克服对非魔法攻击的免疫和抗性。"
 			]
 		},
 		{
-			"name": "Sorcerous Fortitude",
+			"ENG_name": "Sorcerous Fortitude",
+			"name": "术士坚韧",
 			"source": "UAClassFeatureVariants",
 			"page": 10,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "PHB",
 			"level": 2,
 			"isClassFeatureVariant": true,
 			"consumes": {
-				"name": "Sorcery Point"
+				"ENG_name": "Sorcery Point",
+				"name": "术法点"
 			},
 			"entries": [
-				"As an action, you can spend any number of sorcery points to roll a {@dice d4} for each point expended. You gain a number of temporary hit points equal to the total rolled."
+				"以一个动作，你可以消耗任意数值的术法点来为每点消耗掷骰一个{@dice d4}。你获得等同于全部掷骰结果的临时生命值。"
 			]
 		},
 		{
-			"name": "Metamagic Options",
+			"ENG_name": "Metamagic Options",
+			"name": "超魔法选项",
 			"source": "UAClassFeatureVariants",
 			"page": 10,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "PHB",
 			"level": 3,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 3rd-level sorcerer feature (enhances Metamagic)}",
-				"When you choose Metamagic options, you have access to the following additional options.",
+				"{@i 3级术士特性（增强超魔法）}",
+				"当你选择超魔法选项时，你能够选择以下额外的超魔法选项。",
 				{
 					"type": "options",
 					"entries": [
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Elemental Spell|UAClassFeatureVariants"
+							"optionalfeature": "元素法术|UAClassFeatureVariants"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Seeking Spell|UAClassFeatureVariants"
+							"optionalfeature": "追踪法术|UAClassFeatureVariants"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Unerring Spell|UAClassFeatureVariants"
+							"optionalfeature": "绝不偏航法术|UAClassFeatureVariants"
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "PHB",
 			"level": 4,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 4th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 4级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "PHB",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 8th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 8级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "PHB",
 			"level": 12,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 12th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 12级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "PHB",
 			"level": 16,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 16th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 16级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "PHB",
 			"level": 19,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 19th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 19级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Spell Versatility",
+			"ENG_name": "Spell Versatility",
+			"name": "法术多才",
 			"source": "UAClassFeatureVariants",
 			"page": 10,
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "PHB",
 			"level": 1,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 1st-level warlock feature (enhances Pact Magic)}",
-				"Whenever you finish a long rest, you can replace one spell you learned from this Pact Magic feature with another spell from the warlock spell list. The new spell must be the same level as the spell you replace."
+				"{@i 1级魔契师特性（强化契约魔法）}",
+				"每当你完成一次长休时，你可以将从这个契约魔法特性中学到的一个法术替换为魔契师法术列表中的另一个法术。新法术必须与你替换的法术等级相同。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "PHB",
 			"level": 4,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 4th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 4级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "PHB",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 8th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 8级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "PHB",
 			"level": 12,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 12th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 12级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "PHB",
 			"level": 16,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 16th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 16级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Warlock",
+			"className": "魔契师",
 			"classSource": "PHB",
 			"level": 19,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 19th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 19级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Cantrip Versatility",
+			"ENG_name": "Cantrip Versatility",
+			"name": "替换戏法",
 			"source": "UAClassFeatureVariants",
 			"page": 12,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "PHB",
 			"level": 1,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 1st-level wizard feature (enhances Spellcasting)}",
-				"Whenever you gain a level in this class, you can replace one cantrip you learned from this Spellcasting feature with another cantrip from the wizard spell list."
+				"{@i 1级法师特性（增强施法）}",
+				"每当你在该职业升级时，你可以将你从该施法特性中学到的一个戏法替换为法师法术列表中的另一个戏法。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "PHB",
 			"level": 4,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 4th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 4级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "PHB",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 8th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 8级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "PHB",
 			"level": 12,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 12th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 12级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "PHB",
 			"level": 16,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 16th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 16级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Wizard",
+			"className": "法师",
 			"classSource": "PHB",
 			"level": 19,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 19th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 19级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Artificer",
+			"className": "奇械师",
 			"classSource": "TCE",
 			"level": 4,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 4th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 4级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Artificer",
+			"className": "奇械师",
 			"classSource": "TCE",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 8th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 8级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Artificer",
+			"className": "奇械师",
 			"classSource": "TCE",
 			"level": 12,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 12th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 12级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Artificer",
+			"className": "奇械师",
 			"classSource": "TCE",
 			"level": 16,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 16th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 16级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Artificer",
+			"className": "奇械师",
 			"classSource": "TCE",
 			"level": 19,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 19th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 19级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Artificer",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"level": 4,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 4th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 4级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Artificer",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 8th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 8级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Artificer",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"level": 12,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 12th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 12级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Artificer",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"level": 16,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 16th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 16级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Artificer",
+			"className": "奇械师",
 			"classSource": "UAArtificer",
 			"level": 18,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 18th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 18级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Artificer (Revisited)",
+			"className": "奇械师（重置版）",
 			"classSource": "UAArtificerRevisited",
 			"level": 4,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 4th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 4级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Artificer (Revisited)",
+			"className": "奇械师（重置版）",
 			"classSource": "UAArtificerRevisited",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 8th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 8级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Artificer (Revisited)",
+			"className": "奇械师（重置版）",
 			"classSource": "UAArtificerRevisited",
 			"level": 12,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 12th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 12级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Artificer (Revisited)",
+			"className": "奇械师（重置版）",
 			"classSource": "UAArtificerRevisited",
 			"level": 16,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 16th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 16级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Artificer (Revisited)",
+			"className": "奇械师（重置版）",
 			"classSource": "UAArtificerRevisited",
 			"level": 19,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 19th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 19级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Expert Sidekick",
+			"className": "专家协力者",
 			"classSource": "UASidekicks",
 			"level": 4,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 4th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 4级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Expert Sidekick",
+			"className": "专家协力者",
 			"classSource": "UASidekicks",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 8th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 8级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Expert Sidekick",
+			"className": "专家协力者",
 			"classSource": "UASidekicks",
 			"level": 10,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 10th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 10级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Expert Sidekick",
+			"className": "专家协力者",
 			"classSource": "UASidekicks",
 			"level": 12,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 12th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 12级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Expert Sidekick",
+			"className": "专家协力者",
 			"classSource": "UASidekicks",
 			"level": 14,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 14th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 14级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Expert Sidekick",
+			"className": "专家协力者",
 			"classSource": "UASidekicks",
 			"level": 16,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 16th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 16级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Expert Sidekick",
+			"className": "专家协力者",
 			"classSource": "UASidekicks",
 			"level": 19,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 19th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 19级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Spellcaster Sidekick",
+			"className": "施法者协力者",
 			"classSource": "UASidekicks",
 			"level": 4,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 4th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 4级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Spellcaster Sidekick",
+			"className": "施法者协力者",
 			"classSource": "UASidekicks",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 8th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 8级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Spellcaster Sidekick",
+			"className": "施法者协力者",
 			"classSource": "UASidekicks",
 			"level": 12,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 12th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 12级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Spellcaster Sidekick",
+			"className": "施法者协力者",
 			"classSource": "UASidekicks",
 			"level": 16,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 16th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 16级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Spellcaster Sidekick",
+			"className": "施法者协力者",
 			"classSource": "UASidekicks",
 			"level": 18,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 18th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 18级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Warrior Sidekick",
+			"className": "武者协力者",
 			"classSource": "UASidekicks",
 			"level": 4,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 4th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 4级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Warrior Sidekick",
+			"className": "武者协力者",
 			"classSource": "UASidekicks",
 			"level": 6,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 6th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 6级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Warrior Sidekick",
+			"className": "武者协力者",
 			"classSource": "UASidekicks",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 8th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 8级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Warrior Sidekick",
+			"className": "武者协力者",
 			"classSource": "UASidekicks",
 			"level": 12,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 12th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 12级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Warrior Sidekick",
+			"className": "武者协力者",
 			"classSource": "UASidekicks",
 			"level": 14,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 14th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 14级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Warrior Sidekick",
+			"className": "武者协力者",
 			"classSource": "UASidekicks",
 			"level": 16,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 16th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 16级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Warrior Sidekick",
+			"className": "武者协力者",
 			"classSource": "UASidekicks",
 			"level": 19,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 19th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 19级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Mystic",
+			"className": "秘术师",
 			"classSource": "UATheMysticClass",
 			"level": 4,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 4th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 4级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Mystic",
+			"className": "秘术师",
 			"classSource": "UATheMysticClass",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 8th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 8级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Mystic",
+			"className": "秘术师",
 			"classSource": "UATheMysticClass",
 			"level": 12,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 12th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 12级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Mystic",
+			"className": "秘术师",
 			"classSource": "UATheMysticClass",
 			"level": 16,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 16th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 16级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"ENG_name": "Proficiency Versatility",
+			"name": "熟练多变",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Mystic",
+			"className": "秘术师",
 			"classSource": "UATheMysticClass",
 			"level": 19,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 19th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i 19级特性（增强属性值提升）}",
+				"当你从职业中获得属性值提升特性时，你也可以将你的一个技能熟练替换为职业在1级时提供的技能熟练（被替换的熟练不必来自该职业）。",
+				"这个变化代表你的一项技能因专注于另一项技能而退化。"
 			]
 		}
 	],
 	"foundryClassFeature": [
 		{
-			"name": "Metamagic Options",
+			"ENG_name": "Metamagic Options",
+			"name": "超魔法选项",
 			"source": "UAClassFeatureVariants",
-			"className": "Sorcerer",
+			"className": "术士",
 			"classSource": "PHB",
 			"level": 3,
 			"isIgnored": true
@@ -2026,419 +2170,445 @@
 	],
 	"subclassFeature": [
 		{
-			"name": "Blessed Strikes",
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
 			"source": "UAClassFeatureVariants",
 			"page": 4,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Death",
+			"subclassShortName": "死亡",
 			"subclassSource": "DMG",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
 			"entries": [
-				"{@i 8th-level cleric Divine Domain feature (replaces Divine Strike)}",
-				"In battle, you are blessed with divine might. When a creature takes damage from one of your spells or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+				"{@i 8级牧师领域特性（取代神圣打击）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
 			]
 		},
 		{
-			"name": "Blessed Strikes",
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
 			"source": "UAClassFeatureVariants",
 			"page": 4,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Knowledge",
+			"subclassShortName": "了解",
 			"subclassSource": "PHB",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
 			"entries": [
-				"{@i 8th-level cleric Divine Domain feature (replaces Potent Spellcasting)}",
-				"In battle, you are blessed with divine might. When a creature takes damage from one of your spells or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+				"{@i 8级牧师领域特性（取代强力施法）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
 			]
 		},
 		{
-			"name": "Blessed Strikes",
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
 			"source": "UAClassFeatureVariants",
 			"page": 4,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Life",
+			"subclassShortName": "生命",
 			"subclassSource": "PHB",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
 			"entries": [
-				"{@i 8th-level cleric Divine Domain feature (replaces Divine Strike)}",
-				"In battle, you are blessed with divine might. When a creature takes damage from one of your spells or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+				"{@i 8级牧师领域特性（取代神圣打击）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
 			]
 		},
 		{
-			"name": "Blessed Strikes",
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
 			"source": "UAClassFeatureVariants",
 			"page": 4,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Light",
+			"subclassShortName": "光亮术",
 			"subclassSource": "PHB",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
 			"entries": [
-				"{@i 8th-level cleric Divine Domain feature (replaces Potent Spellcasting)}",
-				"In battle, you are blessed with divine might. When a creature takes damage from one of your spells or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+				"{@i 8级牧师领域特性（取代强力施法）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
 			]
 		},
 		{
-			"name": "Blessed Strikes",
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
 			"source": "UAClassFeatureVariants",
 			"page": 4,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Nature",
+			"subclassShortName": "自然",
 			"subclassSource": "PHB",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
 			"entries": [
-				"{@i 8th-level cleric Divine Domain feature (replaces Divine Strike)}",
-				"In battle, you are blessed with divine might. When a creature takes damage from one of your spells or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+				"{@i 8级牧师领域特性（取代神圣打击）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
 			]
 		},
 		{
-			"name": "Blessed Strikes",
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
 			"source": "UAClassFeatureVariants",
 			"page": 4,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Tempest",
+			"subclassShortName": "风暴",
 			"subclassSource": "PHB",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
 			"entries": [
-				"{@i 8th-level cleric Divine Domain feature (replaces Divine Strike)}",
-				"In battle, you are blessed with divine might. When a creature takes damage from one of your spells or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+				"{@i 8级牧师领域特性（取代神圣打击）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
 			]
 		},
 		{
-			"name": "Blessed Strikes",
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
 			"source": "UAClassFeatureVariants",
 			"page": 4,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Trickery",
+			"subclassShortName": "诡术",
 			"subclassSource": "PHB",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
 			"entries": [
-				"{@i 8th-level cleric Divine Domain feature (replaces Divine Strike)}",
-				"In battle, you are blessed with divine might. When a creature takes damage from one of your spells or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+				"{@i 8级牧师领域特性（取代神圣打击）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
 			]
 		},
 		{
-			"name": "Blessed Strikes",
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
 			"source": "UAClassFeatureVariants",
 			"page": 4,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "War",
+			"subclassShortName": "战争",
 			"subclassSource": "PHB",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
 			"entries": [
-				"{@i 8th-level cleric Divine Domain feature (replaces Divine Strike)}",
-				"In battle, you are blessed with divine might. When a creature takes damage from one of your spells or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+				"{@i 8级牧师领域特性（取代神圣打击）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
 			]
 		},
 		{
-			"name": "Blessed Strikes",
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
 			"source": "UAClassFeatureVariants",
 			"page": 4,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Ambition (PSA)",
+			"subclassShortName": "野心(PSA)",
 			"subclassSource": "PSA",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
 			"entries": [
-				"{@i 8th-level cleric Divine Domain feature (replaces Potent Spellcasting)}",
-				"In battle, you are blessed with divine might. When a creature takes damage from one of your spells or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+				"{@i 8级牧师领域特性（取代强力施法）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
 			]
 		},
 		{
-			"name": "Blessed Strikes",
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
 			"source": "UAClassFeatureVariants",
 			"page": 4,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Solidarity (PSA)",
+			"subclassShortName": "团结(PSA)",
 			"subclassSource": "PSA",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
 			"entries": [
-				"{@i 8th-level cleric Divine Domain feature (replaces Divine Strike)}",
-				"In battle, you are blessed with divine might. When a creature takes damage from one of your spells or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+				"{@i 8级牧师领域特性（取代神圣打击）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
 			]
 		},
 		{
-			"name": "Blessed Strikes",
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
 			"source": "UAClassFeatureVariants",
 			"page": 4,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Strength (PSA)",
+			"subclassShortName": "力量(PSA)",
 			"subclassSource": "PSA",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
 			"entries": [
-				"{@i 8th-level cleric Divine Domain feature (replaces Divine Strike)}",
-				"In battle, you are blessed with divine might. When a creature takes damage from one of your spells or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+				"{@i 8级牧师领域特性（取代神圣打击）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
 			]
 		},
 		{
-			"name": "Blessed Strikes",
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
 			"source": "UAClassFeatureVariants",
 			"page": 4,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Zeal (PSA)",
+			"subclassShortName": "热忱(PSA)",
 			"subclassSource": "PSA",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
 			"entries": [
-				"{@i 8th-level cleric Divine Domain feature (replaces Divine Strike)}",
-				"In battle, you are blessed with divine might. When a creature takes damage from one of your spells or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+				"{@i 8级牧师领域特性（取代神圣打击）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
 			]
 		},
 		{
-			"name": "Blessed Strikes",
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
 			"source": "UAClassFeatureVariants",
 			"page": 4,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Arcana",
+			"subclassShortName": "奥秘",
 			"subclassSource": "SCAG",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
 			"entries": [
-				"{@i 8th-level cleric Divine Domain feature (replaces Potent Spellcasting)}",
-				"In battle, you are blessed with divine might. When a creature takes damage from one of your spells or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+				"{@i 8级牧师领域特性（取代强力施法）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
 			]
 		},
 		{
-			"name": "Blessed Strikes",
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
 			"source": "UAClassFeatureVariants",
 			"page": 31,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Order",
+			"subclassShortName": "秩序",
 			"subclassSource": "TCE",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
 			"entries": [
-				"{@i 8th-level cleric Divine Domain feature (replaces Divine Strike)}",
-				"In battle, you are blessed with divine might. When a creature takes damage from one of your spells or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+				"{@i 8级牧师领域特性（取代神圣打击）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
 			]
 		},
 		{
-			"name": "Blessed Strikes",
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
 			"source": "UAClassFeatureVariants",
 			"page": 4,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Love (UA)",
+			"subclassShortName": "嘲笑 (UA)",
 			"subclassSource": "UA2020SubclassesPt2",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
 			"entries": [
-				"{@i 8th-level cleric Divine Domain feature (replaces Potent Spellcasting)}",
-				"In battle, you are blessed with divine might. When a creature takes damage from one of your spells or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+				"{@i 8级牧师领域特性（取代强力施法）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
 			]
 		},
 		{
-			"name": "Blessed Strikes",
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
 			"source": "UAClassFeatureVariants",
 			"page": 4,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Unity (UA)",
+			"subclassShortName": "团结（UA）",
 			"subclassSource": "UA2020SubclassesPt2",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
 			"entries": [
-				"{@i 8th-level cleric Divine Domain feature (replaces Potent Spellcasting)}",
-				"In battle, you are blessed with divine might. When a creature takes damage from one of your spells or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+				"{@i 8级牧师领域特性（取代强力施法）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
 			]
 		},
 		{
-			"name": "Blessed Strikes",
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
 			"source": "UAClassFeatureVariants",
 			"page": 4,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Fate (UA)",
+			"subclassShortName": "命运（UA）",
 			"subclassSource": "UA2022WondersOfTheMultiverse",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
 			"entries": [
-				"{@i 8th-level cleric Divine Domain feature (replaces Potent Spellcasting)}",
-				"In battle, you are blessed with divine might. When a creature takes damage from one of your spells or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+				"{@i 8级牧师领域特性（取代强力施法）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
 			]
 		},
 		{
-			"name": "Blessed Strikes",
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
 			"source": "UAClassFeatureVariants",
 			"page": 4,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Forge (UA)",
+			"subclassShortName": "锻造（UA）",
 			"subclassSource": "UAClericDivineDomains",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
 			"entries": [
-				"{@i 8th-level cleric Divine Domain feature (replaces Divine Strike)}",
-				"In battle, you are blessed with divine might. When a creature takes damage from one of your spells or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+				"{@i 8级牧师领域特性（取代神圣打击）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
 			]
 		},
 		{
-			"name": "Blessed Strikes",
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
 			"source": "UAClassFeatureVariants",
 			"page": 4,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Grave (UA)",
+			"subclassShortName": "坟墓 (UA)",
 			"subclassSource": "UAClericDivineDomains",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
 			"entries": [
-				"{@i 8th-level cleric Divine Domain feature (replaces Divine Strike)}",
-				"In battle, you are blessed with divine might. When a creature takes damage from one of your spells or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+				"{@i 8级牧师领域特性（取代神圣打击）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
 			]
 		},
 		{
-			"name": "Blessed Strikes",
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
 			"source": "UAClassFeatureVariants",
 			"page": 4,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Protection (UA)",
+			"subclassShortName": "守护 (UA)",
 			"subclassSource": "UAClericDivineDomains",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
 			"entries": [
-				"{@i 8th-level cleric Divine Domain feature (replaces Divine Strike)}",
-				"In battle, you are blessed with divine might. When a creature takes damage from one of your spells or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+				"{@i 8级牧师领域特性（取代神圣打击）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
 			]
 		},
 		{
-			"name": "Blessed Strikes",
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
 			"source": "UAClassFeatureVariants",
 			"page": 4,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Twilight (UA)",
+			"subclassShortName": "暮光 (UA)",
 			"subclassSource": "UAClericDruidWizard",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
 			"entries": [
-				"{@i 8th-level cleric Divine Domain feature (replaces Divine Strike)}",
-				"In battle, you are blessed with divine might. When a creature takes damage from one of your spells or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+				"{@i 8级牧师领域特性（取代神圣打击）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
 			]
 		},
 		{
-			"name": "Blessed Strikes",
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
 			"source": "UAClassFeatureVariants",
 			"page": 4,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "City (UA)",
+			"subclassShortName": "城市（UA）",
 			"subclassSource": "UAModernMagic",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
 			"entries": [
-				"{@i 8th-level cleric Divine Domain feature (replaces Divine Strike)}",
-				"In battle, you are blessed with divine might. When a creature takes damage from one of your spells or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+				"{@i 8级牧师领域特性（取代神圣打击）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
 			]
 		},
 		{
-			"name": "Blessed Strikes",
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
 			"source": "UAClassFeatureVariants",
 			"page": 4,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Order (UA)",
+			"subclassShortName": "秩序 (UA)",
 			"subclassSource": "UAOrderDomain",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
 			"entries": [
-				"{@i 8th-level cleric Divine Domain feature (replaces Divine Strike)}",
-				"In battle, you are blessed with divine might. When a creature takes damage from one of your spells or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+				"{@i 8级牧师领域特性（取代神圣打击）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
 			]
 		},
 		{
-			"name": "Blessed Strikes",
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
 			"source": "UAClassFeatureVariants",
 			"page": 4,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Forge",
+			"subclassShortName": "锻造",
 			"subclassSource": "XGE",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
 			"entries": [
-				"{@i 8th-level cleric Divine Domain feature (replaces Divine Strike)}",
-				"In battle, you are blessed with divine might. When a creature takes damage from one of your spells or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+				"{@i 8级牧师领域特性（取代神圣打击）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
 			]
 		},
 		{
-			"name": "Blessed Strikes",
+			"ENG_name": "Blessed Strikes",
+			"name": "受祝击",
 			"source": "UAClassFeatureVariants",
 			"page": 4,
-			"className": "Cleric",
+			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "Grave",
+			"subclassShortName": "坟墓",
 			"subclassSource": "XGE",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
 			"entries": [
-				"{@i 8th-level cleric Divine Domain feature (replaces Potent Spellcasting)}",
-				"In battle, you are blessed with divine might. When a creature takes damage from one of your spells or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+				"{@i 8级牧师领域特性（取代强力施法）}",
+				"在战斗中，你被赐予神圣力量。当一个生物受到你的法术或武器攻击的伤害时，你还可以对该生物造成{@damage 1d8}光耀伤害。一旦你造成此伤害，直到你的下个回合开始前，你无法再次使用此特性。"
 			]
 		},
 		{
-			"name": "Maneuver Options",
+			"ENG_name": "Maneuver Options",
+			"name": "战技选项",
 			"source": "UAClassFeatureVariants",
 			"page": 5,
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "PHB",
-			"subclassShortName": "Battle Master",
+			"subclassShortName": "战斗大师",
 			"subclassSource": "PHB",
 			"level": 3,
 			"isClassFeatureVariant": true,
 			"header": 1,
 			"entries": [
-				"{@i 1st-level feature (enhances Maneuvers)}",
-				"If you have access to maneuvers, the following maneuvers are added to the list of options available to you. Maneuvers are available to Battle Masters and to characters who have the {@optfeature Superior Technique|TCE} fighting style or the {@feat Martial Adept} feat.",
+				"{@i 1级特性（增强战技）}",
+				"如果你可以使用战技，以下战技将被添加到你可选的列表中。战技可供战斗大师和拥有{@optfeature 卓越技巧|TCE}战斗风格或{@feat 战技专家}专长的角色使用。",
 				{
 					"type": "entries",
 					"entries": [
@@ -2447,31 +2617,31 @@
 							"entries": [
 								{
 									"type": "refOptionalfeature",
-									"optionalfeature": "Ambush|UAClassFeatureVariants"
+									"optionalfeature": "伏击|UAClassFeatureVariants"
 								},
 								{
 									"type": "refOptionalfeature",
-									"optionalfeature": "Bait and Switch|UAClassFeatureVariants"
+									"optionalfeature": "换位诈术|UAClassFeatureVariants"
 								},
 								{
 									"type": "refOptionalfeature",
-									"optionalfeature": "Brace|UAClassFeatureVariants"
+									"optionalfeature": "警戒|UAClassFeatureVariants"
 								},
 								{
 									"type": "refOptionalfeature",
-									"optionalfeature": "Restraining Strike|UAClassFeatureVariants"
+									"optionalfeature": "束缚打击|UAClassFeatureVariants"
 								},
 								{
 									"type": "refOptionalfeature",
-									"optionalfeature": "Silver Tongue|UAClassFeatureVariants"
+									"optionalfeature": "巧舌如簧|UAClassFeatureVariants"
 								},
 								{
 									"type": "refOptionalfeature",
-									"optionalfeature": "Snipe|UAClassFeatureVariants"
+									"optionalfeature": "狙击|UAClassFeatureVariants"
 								},
 								{
 									"type": "refOptionalfeature",
-									"optionalfeature": "Studious Eye|UAClassFeatureVariants"
+									"optionalfeature": "专注之眼|UAClassFeatureVariants"
 								}
 							]
 						}
@@ -2480,32 +2650,34 @@
 			]
 		},
 		{
-			"name": "Ranger Companion Options",
+			"ENG_name": "Ranger Companion Options",
+			"name": "游侠同伴选项",
 			"source": "UAClassFeatureVariants",
 			"page": 8,
-			"className": "Ranger",
+			"className": "游侠",
 			"classSource": "PHB",
-			"subclassShortName": "Beast Master",
+			"subclassShortName": "驯兽师",
 			"subclassSource": "PHB",
 			"level": 3,
 			"isClassFeatureVariant": true,
 			"header": 1,
 			"entries": [
-				"{@i 3rd-level Beast Master feature (enhances Ranger's Companion)}",
-				"While wandering the wilds, a ranger encounters many sorts of animals, some of which the ranger might befriend. This friendship can arise from successful use of the {@skill Animal Handling} skill or the {@spell animal friendship} spell. If the resulting bond is strong enough, the animal might join the ranger on adventures.",
-				"A ranger who has the Beast Master archetype can form an even stronger bond, feeling almost like a sibling to an animal. A special type of beast awaits a Beast Master in the wilds, a creature whose lineage stretches back to the beginnings of the world: a primal beast known as a {@creature Beast of the Air|UAClassFeatureVariants} or a {@creature Beast of the Earth|UAClassFeatureVariants}. Such a creature seeks out the type of companionship that a Beast Master offers, ready for the two of them to battle the imbalances in the natural world.",
-				"The primal beast is a special creature that a Beast Master can choose for the Ranger's Companion feature. When choosing such a creature, you decide whether it is a Beast of the Air or the Earth, and you determine its appearance. Stories describe primal beasts that mystically change form to align with the spirit of their companion.",
-				"When a primal beast is met apart from a Beast Master, the creature takes the form a regular beast of challenge rating 1/4 or lower, as determined by the DM."
+				"{@i 3级驯兽师特性（增强游侠伴侣）}",
+				"游侠在荒野中漫游时会遇到许多种类的动物，其中一些可能会与游侠成为朋友。这种友谊可能源于成功使用{@skill 驯兽}技能或{@spell 化兽为友}法术。如果由此产生的牵挂足够强烈，该动物可能会加入游侠的冒险。",
+				"拥有驯兽师原型的游侠可以形成更强大的牵挂，感觉几乎像是动物的兄弟姐妹。一种特殊的生物类型在荒野中等待着驯兽师，这种生物的祖先血统可以追溯到世界之初：一种被称为{@creature 风之野兽|UAClassFeatureVariants}或{@creature 土之野兽|UAClassFeatureVariants}的原始猛兽。这样的生物寻求驯兽师所提供的陪伴，预备它们二者共同对抗自然界的不平衡。",
+				"原始猛兽是一种特殊生物，驯兽师可以选择它作为游侠伴侣特性。选择这种生物时，你需要决定它是风之野兽还是土之野兽，并确定它的外貌。故事中描述的原始猛兽会神秘地改变形态以与其同伴的精魄保持一致。",
+				"当原始猛兽与驯兽师分开时，该生物会变成一只挑战等级1/4或更低的普通野兽，具体由DM决定。"
 			]
 		}
 	],
 	"foundrySubclassFeature": [
 		{
-			"name": "Maneuver Options",
+			"ENG_name": "Maneuver Options",
+			"name": "战技选项",
 			"source": "UAClassFeatureVariants",
-			"className": "Fighter",
+			"className": "战士",
 			"classSource": "PHB",
-			"subclassShortName": "Battle Master",
+			"subclassShortName": "战斗大师",
 			"subclassSource": "PHB",
 			"level": 3,
 			"isIgnored": true
@@ -2513,7 +2685,8 @@
 	],
 	"optionalfeature": [
 		{
-			"name": "Ambush",
+			"ENG_name": "Ambush",
+			"name": "伏击",
 			"source": "UAClassFeatureVariants",
 			"page": 5,
 			"isClassFeatureVariant": true,
@@ -2521,14 +2694,16 @@
 				"MV:B"
 			],
 			"consumes": {
-				"name": "Superiority Die"
+				"ENG_name": "Superiority Die",
+				"name": "卓越骰"
 			},
 			"entries": [
-				"When you make a Dexterity ({@skill Stealth}) check or an initiative roll, you can expend one superiority die and add the die to the roll."
+				"当你进行一次敏捷（{@skill 隐匿}）检定或先攻掷骰时，你可以消耗一个卓越骰并将该骰子添加到掷骰中。"
 			]
 		},
 		{
-			"name": "Bait and Switch",
+			"ENG_name": "Bait and Switch",
+			"name": "换位诈术",
 			"source": "UAClassFeatureVariants",
 			"page": 5,
 			"isClassFeatureVariant": true,
@@ -2536,15 +2711,17 @@
 				"MV:B"
 			],
 			"consumes": {
-				"name": "Superiority Die"
+				"ENG_name": "Superiority Die",
+				"name": "卓越骰"
 			},
 			"entries": [
-				"When you're within 5 feet of an ally on your turn, you can expend one superiority die and switch places with that ally, provided you spend at least 5 feet of movement. This movement doesn't provoke opportunity attacks.",
-				"Roll the superiority die. Until the start of your next turn, the ally gains a bonus to AC equal to the number rolled."
+				"当你在你的回合内位于一个盟友5尺范围内时，你可以消耗一个卓越骰且与该盟友交换位置，前提是你消耗至少5尺移动力。此移动不会引发借机攻击。",
+				"掷卓越骰。直到你的下个回合开始，该盟友获得等同于掷骰数值的AC加值。"
 			]
 		},
 		{
-			"name": "Blessed Warrior",
+			"ENG_name": "Blessed Warrior",
+			"name": "受祝福的勇士",
 			"source": "UAClassFeatureVariants",
 			"page": 6,
 			"isClassFeatureVariant": true,
@@ -2557,7 +2734,7 @@
 					"known": {
 						"_": [
 							{
-								"choose": "level=0|class=cleric",
+								"choose": "level=0|class=牧师",
 								"count": 2
 							}
 						]
@@ -2565,11 +2742,12 @@
 				}
 			],
 			"entries": [
-				"You learn two cantrips of your choice from the {@filter cleric spell list|spells|level=0|class=Cleric}. They count as paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the cleric spell list."
+				"从{@filter 牧师法术列表|spells|level=0|class=牧师}中选择两种戏法。你习得这些作为圣武士法术的戏法，这些戏法的施法属性是魅力。当你提升此职业的等级时，你能够将一个已知戏法替换为牧师法术列表中的另一个戏法。"
 			]
 		},
 		{
-			"name": "Blind Fighting",
+			"ENG_name": "Blind Fighting",
+			"name": "盲斗",
 			"source": "UAClassFeatureVariants",
 			"page": 12,
 			"isClassFeatureVariant": true,
@@ -2579,11 +2757,12 @@
 				"FS:R"
 			],
 			"entries": [
-				"Being unable to see a creature doesn't impose disadvantage on your attack rolls against it, provided the creature isn't hidden from you."
+				"无法看见一个生物不会使你对它的攻击检定处于劣势，前提是该生物没有对你隐藏。"
 			]
 		},
 		{
-			"name": "Bond of the Talisman",
+			"ENG_name": "Bond of the Talisman",
+			"name": "护符牵绊",
 			"source": "UAClassFeatureVariants",
 			"page": 11,
 			"isClassFeatureVariant": true,
@@ -2595,18 +2774,20 @@
 					"level": {
 						"level": 12,
 						"class": {
-							"name": "Warlock"
+							"ENG_name": "Warlock",
+							"name": "魔契师"
 						}
 					},
-					"pact": "Talisman"
+					"pact": "符之魔契"
 				}
 			],
 			"entries": [
-				"While someone else is wearing your talisman, you can use your action to teleport to the unoccupied space closest to them, provided the two of you are on the same plane of existence. The wearer of your talisman can do the same thing, using their action to teleport to you."
+				"当其他生物佩戴你的符之魔契时，你可以使用你的动作传送到距离它们最近的未占据空间，前提是你们二者处于同一存在平面。符之魔契的佩戴者也可以做同样的事，使用它们的动作传送到你身边。"
 			]
 		},
 		{
-			"name": "Brace",
+			"ENG_name": "Brace",
+			"name": "警戒",
 			"source": "UAClassFeatureVariants",
 			"page": 5,
 			"isClassFeatureVariant": true,
@@ -2614,14 +2795,16 @@
 				"MV:B"
 			],
 			"consumes": {
-				"name": "Superiority Die"
+				"ENG_name": "Superiority Die",
+				"name": "卓越骰"
 			},
 			"entries": [
-				"When an enemy you can see moves within 5 feet of you, you can use your reaction to expend one superiority die and make one weapon attack against that creature. If the attack hits, add the superiority die to the attack's damage roll."
+				"当你能看见的敌人移动至你5尺内时，你可以使用你的反应消耗一个卓越骰并对该生物进行一次武器攻击。若攻击命中，将卓越骰添加到攻击的伤害掷骰上。"
 			]
 		},
 		{
-			"name": "Chain Master's Fury",
+			"ENG_name": "Chain Master's Fury",
+			"name": "链之魔契大师的狂怒",
 			"source": "UAClassFeatureVariants",
 			"page": 11,
 			"isClassFeatureVariant": true,
@@ -2633,18 +2816,20 @@
 					"level": {
 						"level": 9,
 						"class": {
-							"name": "Warlock"
+							"ENG_name": "Warlock",
+							"name": "魔契师"
 						}
 					},
-					"pact": "Chain"
+					"pact": "链之魔契"
 				}
 			],
 			"entries": [
-				"As a bonus action, you can command your familiar to make one attack."
+				"以一个附赠动作，你可以命令你的魔宠进行一次攻击。"
 			]
 		},
 		{
-			"name": "Druidic Warrior",
+			"ENG_name": "Druidic Warrior",
+			"name": "德鲁伊教战士",
 			"source": "UAClassFeatureVariants",
 			"page": 7,
 			"isClassFeatureVariant": true,
@@ -2657,7 +2842,7 @@
 					"known": {
 						"_": [
 							{
-								"choose": "level=0|class=druid",
+								"choose": "level=0|class=德鲁伊",
 								"count": 2
 							}
 						]
@@ -2665,11 +2850,12 @@
 				}
 			],
 			"entries": [
-				"You learn two cantrips of your choice from the {@filter druid spell list|spells|level=0|class=druid}. They count as druid spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the druid spell list."
+				"你从{@filter 德鲁伊法术列表|spells|level=0|class=德鲁伊}中选择两道戏法。它们对你而言视为德鲁伊法术，且感知是你的施法属性。每当你在此职业中升级时，你可以将这些戏法中的一道替换为德鲁伊法术列表中的另一道戏法。"
 			]
 		},
 		{
-			"name": "Eldritch Armor",
+			"ENG_name": "Eldritch Armor",
+			"name": "邪术护甲",
 			"source": "UAClassFeatureVariants",
 			"page": 11,
 			"isClassFeatureVariant": true,
@@ -2678,15 +2864,16 @@
 			],
 			"prerequisite": [
 				{
-					"pact": "Blade"
+					"pact": "刃之魔契"
 				}
 			],
 			"entries": [
-				"As an action, you can touch a suit of armor that isn't being worn or carried by anyone and instantly don it, provided you aren't wearing armor already. You are proficient with this suit of armor until it's removed."
+				"以一个动作，你可以接触一件未被任何人穿着或携带的盔甲套装并立即装着它，前提是你当前未穿着护甲。你对该盔甲套装熟练直到它被移除。"
 			]
 		},
 		{
-			"name": "Eldritch Mind",
+			"ENG_name": "Eldritch Mind",
+			"name": "魔能意志",
 			"source": "UAClassFeatureVariants",
 			"page": 11,
 			"isClassFeatureVariant": true,
@@ -2695,15 +2882,16 @@
 			],
 			"prerequisite": [
 				{
-					"pact": "Tome"
+					"pact": "书之魔契"
 				}
 			],
 			"entries": [
-				"You have advantage on Constitution saving throws that you make to maintain your {@status concentration} on a spell."
+				"你为保持法术的{@status 专注}所进行的体质豁免具有优势。"
 			]
 		},
 		{
-			"name": "Elemental Spell",
+			"ENG_name": "Elemental Spell",
+			"name": "元素法术",
 			"source": "UAClassFeatureVariants",
 			"page": 10,
 			"isClassFeatureVariant": true,
@@ -2711,14 +2899,16 @@
 				"MM"
 			],
 			"consumes": {
-				"name": "Sorcery Point"
+				"ENG_name": "Sorcery Point",
+				"name": "术法点"
 			},
 			"entries": [
-				"When you cast a spell that deals a type of damage from the following list, you can spend 1 sorcery point to change that damage type to one of the other listed types: acid, cold, fire, lightning, thunder."
+				"当你施放一个造成以下列表中一种伤害类型的法术时，你可以消耗1点术法点将该伤害类型更改为列表中其他类型之一：强酸、寒冷、火焰、闪电、雷鸣。"
 			]
 		},
 		{
-			"name": "Far Scribe",
+			"ENG_name": "Far Scribe",
+			"name": "遥远音讯",
 			"source": "UAClassFeatureVariants",
 			"page": 11,
 			"isClassFeatureVariant": true,
@@ -2730,29 +2920,31 @@
 					"level": {
 						"level": 5,
 						"class": {
-							"name": "Warlock"
+							"ENG_name": "Warlock",
+							"name": "魔契师"
 						}
 					},
-					"pact": "Tome"
+					"pact": "书之魔契"
 				}
 			],
 			"additionalSpells": [
 				{
 					"innate": {
 						"_": [
-							"sending"
+							"短讯术"
 						]
 					}
 				}
 			],
 			"entries": [
-				"A new page appears in your Book of Shadows. With your permission, a creature can use its action to write its name on that page, which can contain a number of names equal to your Charisma modifier (minimum of 1).",
-				"You can cast the {@spell sending} spell, targeting a creature whose name is on the page, without using a spell slot and without using material components. To do so, you must write the message on the page. The target hears the message in their mind, and if the target replies, their message appears on the page, rather than in your mind. The writing disappears after 1 minute.",
-				"As an action, you can magically erase a name on the page by touching the name on it."
+				"你的幽影之书中出现了一页新的内容。在你的允许下，一个生物可以用它的动作在那页上写下它的名字，该页可以容纳的名字数量等于你的魅力调整值（至少为1）。",
+				"你可以以一个名字在这一页上的生物为目标，施展法术{@spell 短讯术}，无需法术位与法术的材料成分。不过，你必须将传讯写在这一页上来施展它。目标将在他们的意识中听到这个传讯，且如果目标回复了传讯，他们的回复将会出现在书页上而不是在你的意识中。这些文字会在一分钟后消失。",
+				"作为一个动作，你可以通过触摸页面上的名称来魔法般地擦除该名称。"
 			]
 		},
 		{
-			"name": "Gift of the Protectors",
+			"ENG_name": "Gift of the Protectors",
+			"name": "守护馈赠",
 			"source": "UAClassFeatureVariants",
 			"page": 11,
 			"isClassFeatureVariant": true,
@@ -2764,20 +2956,22 @@
 					"level": {
 						"level": 9,
 						"class": {
-							"name": "Warlock"
+							"ENG_name": "Warlock",
+							"name": "魔契师"
 						}
 					},
-					"pact": "Tome"
+					"pact": "书之魔契"
 				}
 			],
 			"entries": [
-				"A new page appears in your Book of Shadows. With your permission, a creature can use its action to write its name on that page, which can contain a number of names equal to your Charisma modifier (minimum of 1).",
-				"When any creature whose name is on the page is reduced to 0 hit points but not killed outright, the creature magically drops to 1 hit point instead. Once this magic is triggered, no creature can benefit from it until you finish a long rest.",
-				"As an action, you can magically erase a name on the page by touching the name on it."
+				"你的幽影之书中出现了一页新的内容。在你的允许下，一个生物可以用它的动作在那页上写下它的名字，该页可以容纳的名字数量等于你的魅力调整值（至少为1）。",
+				"当一个名字在这一页上的生物生命值降为0，但是没有立刻死亡时，这个生物的生命值魔法性的变为1点。当这个魔法效应被触发后，该效应无法再被任何生物触发，直到你完成一次长休。",
+				"作为一个动作，你可以通过触摸页面上的名称来魔法般地擦除该名称。"
 			]
 		},
 		{
-			"name": "Interception",
+			"ENG_name": "Interception",
+			"name": "拦截",
 			"source": "UAClassFeatureVariants",
 			"page": 12,
 			"isClassFeatureVariant": true,
@@ -2787,11 +2981,12 @@
 				"FS:R"
 			],
 			"entries": [
-				"When a creature you can see hits a target that is within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by {@dice 1d10} + your proficiency bonus (to a minimum of 0 damage). You must be wielding a shield or a {@filter simple or martial weapon|items|source=phb|category=basic|type=martial weapon;simple weapon} to use this reaction."
+				"当你看见的一个生物以攻击命中你5尺内的一个目标时，你可以使用你的反应来缩小目标受到的伤害，减少量为{@dice 1d10} + 你的熟练加值（最小为0伤害）。你必须持用一面盾牌或一件{@filter 简易或军用武器|items|source=phb|category=基础|type=军用武器;简易武器}才能使用此反应。"
 			]
 		},
 		{
-			"name": "Investment of the Chain Master",
+			"ENG_name": "Investment of the Chain Master",
+			"name": "链主赋能",
 			"source": "UAClassFeatureVariants",
 			"page": 11,
 			"isClassFeatureVariant": true,
@@ -2800,24 +2995,25 @@
 			],
 			"prerequisite": [
 				{
-					"pact": "Chain"
+					"pact": "链之魔契"
 				}
 			],
 			"entries": [
-				"When you cast find familiar, you infuse the summoned familiar with a measure of your eldritch power, granting the creature the following benefits:",
+				"当你施放寻获魔宠时，你会将一部分魔能之力注入召唤的魔宠中，赋予该生物以下增益：",
 				{
 					"type": "list",
 					"items": [
-						"The familiar gains either a flying speed or a swimming speed (your choice) of 40 feet.",
-						"The familiar no longer needs to breathe.",
-						"The familiar's weapon attacks are considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks.",
-						"If the familiar forces a creature to make a saving throw, it uses your spell save DC."
+						"该魔宠获得40尺的飞行速度、或40尺的游泳速度（由你选择）。",
+						"该魔宠不再需要呼吸。",
+						"该魔宠的武器攻击被视为魔法性的，用于克服对于非魔法攻击的免疫和抗性。",
+						"若该魔宠强迫一个生物进行豁免检定，它使用你的法术豁免DC。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Pact of the Talisman",
+			"ENG_name": "Pact of the Talisman",
+			"name": "符之魔契",
 			"source": "UAClassFeatureVariants",
 			"page": 11,
 			"isClassFeatureVariant": true,
@@ -2825,13 +3021,14 @@
 				"PB"
 			],
 			"entries": [
-				"Your patron gives you a special amulet, a talisman that can aid you, or anyone else who wears it, when the need is great. When the wearer makes an ability check with a skill in which they lack proficiency, they can add a {@dice d4} to the roll.",
-				"If you lose the talisman, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous amulet.",
-				"The talisman turns to ash when you die."
+				"你的雇主给予你一个特殊的护符，一个能在危急时刻援助你或其他佩戴者的符之魔契。当佩戴者进行一项他们不熟练的技能的属性检定时，他们可以添加一个{@dice d4}到掷骰中。",
+				"如果你丢失了符之魔契，你可以进行一个1小时的典礼术从你的雇主处获得一个替代品。这个典礼术可以在短休或长休期间进行，且它会摧毁先前的护符。",
+				"符之魔契会在你死亡时化为灰烬。"
 			]
 		},
 		{
-			"name": "Protection of the Talisman",
+			"ENG_name": "Protection of the Talisman",
+			"name": "护符庇佑",
 			"source": "UAClassFeatureVariants",
 			"page": 12,
 			"isClassFeatureVariant": true,
@@ -2843,18 +3040,20 @@
 					"level": {
 						"level": 9,
 						"class": {
-							"name": "Warlock"
+							"ENG_name": "Warlock",
+							"name": "魔契师"
 						}
 					},
-					"pact": "Talisman"
+					"pact": "符之魔契"
 				}
 			],
 			"entries": [
-				"When the wearer of your talisman makes a saving throw in which they lack proficiency, they can add a {@dice d4} to the roll."
+				"当你护符的佩戴者进行一项他们不熟练的豁免检定时，他们可以添加一个{@dice d4}到掷骰中。"
 			]
 		},
 		{
-			"name": "Rebuke of the Talisman",
+			"ENG_name": "Rebuke of the Talisman",
+			"name": "符令责斥",
 			"source": "UAClassFeatureVariants",
 			"page": 12,
 			"isClassFeatureVariant": true,
@@ -2863,15 +3062,16 @@
 			],
 			"prerequisite": [
 				{
-					"pact": "Talisman"
+					"pact": "符之魔契"
 				}
 			],
 			"entries": [
-				"When the wearer of your talisman is hit by an attacker you can see within 30 feet of you, you can use your reaction to deal psychic damage to the attacker equal to your Charisma modifier (minimum of 1 damage) and push it up to 10 feet away from the talisman's wearer."
+				"当你的符之魔契佩戴者被一个你能看见且位于你30尺内的攻击手命中时，你可以使用你的反应对该攻击手造成等同于你魅力调整值（至少1点伤害）的心灵伤害且将其推离符之魔契佩戴者至多10尺。"
 			]
 		},
 		{
-			"name": "Restraining Strike",
+			"ENG_name": "Restraining Strike",
+			"name": "束缚打击",
 			"source": "UAClassFeatureVariants",
 			"page": 5,
 			"isClassFeatureVariant": true,
@@ -2879,14 +3079,16 @@
 				"MV:B"
 			],
 			"consumes": {
-				"name": "Superiority Die"
+				"ENG_name": "Superiority Die",
+				"name": "卓越骰"
 			},
 			"entries": [
-				"Immediately after you hit a creature with a melee weapon attack on your turn, you can expend one superiority die and use a bonus action to grapple the target (see chapter 9 in the Player's Handbook for rules on grappling). Add the superiority die to your Strength ({@skill Athletics}) check. The target is also {@condition restrained} while {@condition grappled} in this way."
+				"在你回合内以近战武器攻击命中一个生物后，你可以消耗一个卓越骰并使用附赠动作擒抱目标（擒抱规则详见《玩家手册》第九章）。将该卓越骰添加到你的力量（{@skill 运动}）检定中。目标以此方式被{@condition 受擒}时还会处于{@condition 束缚}状态。"
 			]
 		},
 		{
-			"name": "Seeking Spell",
+			"ENG_name": "Seeking Spell",
+			"name": "追踪法术",
 			"source": "UAClassFeatureVariants",
 			"page": 10,
 			"isClassFeatureVariant": true,
@@ -2894,14 +3096,16 @@
 				"MM"
 			],
 			"consumes": {
-				"name": "Sorcery Point"
+				"ENG_name": "Sorcery Point",
+				"name": "术法点"
 			},
 			"entries": [
-				"When you cast a spell that requires you to make a spell attack roll or that forces a target to make a Dexterity saving throw, you can spend 1 sorcery point to ignore the effects of half- and three-quarters cover against targets of the spell."
+				"当你施放一个需要你进行法术攻击掷骰或迫使目标进行敏捷豁免检定的法术时，你可以消耗1点术法点来忽略该法术目标所受的一半且四分之三掩护效应。"
 			]
 		},
 		{
-			"name": "Silver Tongue",
+			"ENG_name": "Silver Tongue",
+			"name": "巧舌如簧",
 			"source": "UAClassFeatureVariants",
 			"page": 5,
 			"isClassFeatureVariant": true,
@@ -2909,14 +3113,16 @@
 				"MV:B"
 			],
 			"consumes": {
-				"name": "Superiority Die"
+				"ENG_name": "Superiority Die",
+				"name": "卓越骰"
 			},
 			"entries": [
-				"When you make a Charisma ({@skill Deception}) check or a Charisma ({@skill Persuasion}) check, you can expend one superiority die, and add the superiority die to the ability check."
+				"当你进行一次魅力（{@skill 欺瞒}）检定或魅力（{@skill 游说}）检定时，你可以消耗一个卓越骰，并将卓越骰添加到属性检定上。"
 			]
 		},
 		{
-			"name": "Snipe",
+			"ENG_name": "Snipe",
+			"name": "狙击",
 			"source": "UAClassFeatureVariants",
 			"page": 5,
 			"isClassFeatureVariant": true,
@@ -2924,14 +3130,16 @@
 				"MV:B"
 			],
 			"consumes": {
-				"name": "Superiority Die"
+				"ENG_name": "Superiority Die",
+				"name": "卓越骰"
 			},
 			"entries": [
-				"As a bonus action, you can expend one superiority die and make a ranged weapon attack. You can draw a thrown weapon as part of making this attack. If you hit, add the superiority die to the attack's damage roll."
+				"作为附赠动作，你可以消耗一个卓越骰并进行一次远程武器攻击。你可以在此次攻击中抽取一把投掷武器作为创造攻击的一部分。若命中，将卓越骰添加到攻击的伤害掷骰中。"
 			]
 		},
 		{
-			"name": "Studious Eye",
+			"ENG_name": "Studious Eye",
+			"name": "专注之眼",
 			"source": "UAClassFeatureVariants",
 			"page": 5,
 			"isClassFeatureVariant": true,
@@ -2939,14 +3147,16 @@
 				"MV:B"
 			],
 			"consumes": {
-				"name": "Superiority Die"
+				"ENG_name": "Superiority Die",
+				"name": "卓越骰"
 			},
 			"entries": [
-				"When you make a Wisdom ({@skill Insight}) check or an Intelligence ({@skill Investigation}) check, you can expend one superiority die, and add the superiority die to the ability check."
+				"当你进行一次感知（{@skill 洞悉}）检定或智力（{@skill 调查}）检定时，你可以消耗一个卓越骰，并将卓越骰添加到属性检定中。"
 			]
 		},
 		{
-			"name": "Superior Technique",
+			"ENG_name": "Superior Technique",
+			"name": "卓越技巧",
 			"source": "UAClassFeatureVariants",
 			"page": 5,
 			"isClassFeatureVariant": true,
@@ -2955,7 +3165,8 @@
 			],
 			"optionalfeatureProgression": [
 				{
-					"name": "Maneuvers",
+					"ENG_name": "Maneuvers",
+					"name": "战技",
 					"featureType": [
 						"MV:B"
 					],
@@ -2965,12 +3176,13 @@
 				}
 			],
 			"entries": [
-				"You learn one {@filter maneuver|optionalfeatures|feature type=MV:B} of your choice from among those available to the Battle Master archetype. If a maneuver you use requires your target to make a saving throw to resist the maneuver's effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).",
-				"You gain one superiority die, which is a {@dice d6} (this die is added to any superiority dice you have from another source). This die is used to fuel your maneuvers. A superiority die is expended when you use it. You regain your expended superiority dice when you finish a short or long rest."
+				"你从战斗大师原型可用的战技中选择学习一个{@filter 战技|optionalfeatures|feature type=MV:B}。如果你使用的战技需要目标进行豁免检定以抵抗战技的效应，则豁免检定DC等于8 + 你的熟练加值 + 你的力量或敏捷调整值（任选其一）。",
+				"你获得一枚{@dice d6}的卓越骰（或在你以任何其他方式获得的卓越骰池中增加一颗卓越骰）。此卓越骰可用于启动你的战技。此卓越骰一经使用即消耗，并在完成短休或长休后恢复。"
 			]
 		},
 		{
-			"name": "Thrown Weapon Fighting",
+			"ENG_name": "Thrown Weapon Fighting",
+			"name": "投掷武器战斗",
 			"source": "UAClassFeatureVariants",
 			"page": 13,
 			"isClassFeatureVariant": true,
@@ -2980,12 +3192,13 @@
 				"FS:R"
 			],
 			"entries": [
-				"You can draw a weapon that has the thrown property as part of the attack you make with the weapon.",
-				"In addition, when you hit with a ranged attack using a thrown weapon, you gain a +1 bonus to the damage roll."
+				"你可以在使用一件带有投掷属性武器进行攻击时，将那件武器作为攻击的一部分而拔出。",
+				"此外，当你使用投掷武器命中远程攻击时，你的伤害掷骰获得+1加值。"
 			]
 		},
 		{
-			"name": "Unarmed Fighting",
+			"ENG_name": "Unarmed Fighting",
+			"name": "徒手战斗",
 			"source": "UAClassFeatureVariants",
 			"page": 13,
 			"isClassFeatureVariant": true,
@@ -2995,12 +3208,13 @@
 				"FS:R"
 			],
 			"entries": [
-				"Your unarmed strikes can deal bludgeoning damage equal to {@damage 1d6} + your Strength modifier. If you strike with two free hands, the {@damage d6} becomes a {@damage d8}.",
-				"When you successfully start a grapple, you can deal {@damage 1d4} bludgeoning damage to the {@condition grappled} creature. Until the grapple ends, you can also deal this damage to the creature whenever you hit it with a melee attack."
+				"你的徒手打击可以造成等于{@damage 1d6} + 你的力量调整值的钝击伤害。如果你用两只自由手进行打击，则{@damage d6}变为{@damage d8}。",
+				"当你成功开始擒抱时，你可以对{@condition 受擒}的生物造成{@damage 1d4}钝击伤害。直到擒抱结束，你还可以在每次用近战攻击命中该生物时造成此伤害。"
 			]
 		},
 		{
-			"name": "Unerring Spell",
+			"ENG_name": "Unerring Spell",
+			"name": "绝不偏航法术",
 			"source": "UAClassFeatureVariants",
 			"page": 10,
 			"isClassFeatureVariant": true,
@@ -3008,202 +3222,212 @@
 				"MM"
 			],
 			"consumes": {
-				"name": "Sorcery Point",
+				"ENG_name": "Sorcery Point",
+				"name": "术法点",
 				"amount": 2
 			},
 			"entries": [
-				"If you make an attack roll for a spell and miss, you can spend 2 sorcery points to reroll the attack roll. You must use the result of the second roll.",
-				"You can use Unerring Spell even if you have already used a different Metamagic option during the casting of the spell."
+				"如果你为一个法术进行攻击检定且未命中，你可以花费2点术法点来重掷攻击检定。你必须使用第二次掷骰的结果。",
+				"你可以使用绝不偏航法术，即使你在施放该法术时已经使用了不同的超魔法选项。"
 			]
 		}
 	],
 	"spellList": [
 		{
-			"name": "Bard",
+			"ENG_name": "Bard",
+			"name": "吟游诗人",
 			"source": "UAClassFeatureVariants",
-			"spellListType": "variantClass",
-			"className": "Bard",
+			"spellListType": "变体职业",
+			"className": "吟游诗人",
 			"classSource": "PHB",
 			"spells": [
-				"aid|phb",
-				"antipathy/sympathy|phb",
-				"color spray|phb",
-				"command|phb",
-				"contact other plane|phb",
-				"enlarge/reduce|phb",
-				"heroes' feast|phb",
-				"mass healing word|phb",
-				"maze|phb",
-				"mirror image|phb",
-				"phantasmal killer|phb",
-				"prismatic spray|phb",
-				"prismatic wall|phb",
-				"rary's telepathic bond|phb",
-				"slow|phb",
-				"cause fear|xge",
-				"mental prison|xge",
-				"mind spike|xge",
-				"power word pain|xge",
-				"scatter|xge",
-				"tenser's transformation|xge",
-				"tiny servant|xge"
+				"援助术|PHB",
+				"嫌恶术/关怀术|PHB",
+				"七彩喷射|PHB",
+				"命令术|PHB",
+				"异界探知|PHB",
+				"变巨/缩小术|PHB",
+				"英雄宴|PHB",
+				"群体治愈真言|PHB",
+				"迷宫术|PHB",
+				"镜影术|PHB",
+				"魅影杀手|PHB",
+				"虹光喷射|PHB",
+				"虹光法墙|PHB",
+				"拉瑞心灵联结|PHB",
+				"缓慢术|PHB",
+				"造成恐惧|XGE",
+				"精神监狱|XGE",
+				"心灵尖刺|XGE",
+				"律令痛苦|XGE",
+				"散射术|XGE",
+				"谭森变形术|XGE",
+				"迷你仆役|XGE"
 			]
 		},
 		{
-			"name": "Cleric",
+			"ENG_name": "Cleric",
+			"name": "牧师",
 			"source": "UAClassFeatureVariants",
-			"spellListType": "variantClass",
-			"className": "Cleric",
+			"spellListType": "变体职业",
+			"className": "牧师",
 			"classSource": "PHB",
 			"spells": [
-				"aura of life|phb",
-				"aura of purity|phb",
-				"aura of vitality|phb",
-				"branding smite|phb",
-				"power word heal|phb",
-				"wrathful smite|phb",
-				"cause fear|xge",
-				"skill empowerment|xge",
-				"wall of light|xge"
+				"生命灵光|PHB",
+				"净化灵光|PHB",
+				"活力灵光|PHB",
+				"印记斩|PHB",
+				"律令医疗|PHB",
+				"激愤斩|PHB",
+				"造成恐惧|XGE",
+				"授予技能|XGE",
+				"光墙术|XGE"
 			]
 		},
 		{
-			"name": "Druid",
+			"ENG_name": "Druid",
+			"name": "德鲁伊",
 			"source": "UAClassFeatureVariants",
-			"spellListType": "variantClass",
-			"className": "Druid",
+			"spellListType": "变体职业",
+			"className": "德鲁伊",
 			"classSource": "PHB",
 			"spells": [
-				"acid splash|phb",
-				"augury|phb",
-				"aura of vitality|phb",
-				"cone of cold|phb",
-				"continual flame|phb",
-				"divination|phb",
-				"elemental weapon|phb",
-				"enlarge/reduce|phb",
-				"fire shield|phb",
-				"flesh to stone|phb",
-				"incendiary cloud|phb",
-				"power word heal|phb",
-				"protection from evil and good|phb",
-				"revivify|phb",
-				"symbol|phb",
-				"ceremony|xge",
-				"dawn|xge",
-				"immolation|xge",
-				"mass polymorph|xge",
-				"thunder step|xge",
-				"wall of sand|xge"
+				"酸液飞溅|PHB",
+				"卜筮术|PHB",
+				"活力灵光|PHB",
+				"寒冰锥|PHB",
+				"不灭明焰|PHB",
+				"预言术|PHB",
+				"元素武器|PHB",
+				"变巨/缩小术|PHB",
+				"火焰护盾|PHB",
+				"石化术|PHB",
+				"焚云术|PHB",
+				"律令医疗|PHB",
+				"防护善恶|PHB",
+				"回生术|PHB",
+				"徽记术|PHB",
+				"典礼术|XGE",
+				"拂晓|XGE",
+				"焚烧术|XGE",
+				"群体变形术|XGE",
+				"雷霆步|XGE",
+				"沙墙术|XGE"
 			]
 		},
 		{
-			"name": "Paladin",
+			"ENG_name": "Paladin",
+			"name": "圣武士",
 			"source": "UAClassFeatureVariants",
-			"spellListType": "variantClass",
-			"className": "Paladin",
+			"spellListType": "变体职业",
+			"className": "圣武士",
 			"classSource": "PHB",
 			"spells": [
-				"flame strike|phb",
-				"gentle repose|phb",
-				"prayer of healing|phb",
-				"spirit guardians|phb",
-				"warding bond|phb",
-				"dawn|xge",
-				"life transference|xge"
+				"焰击术|PHB",
+				"遗体防腐|PHB",
+				"治疗祷言|PHB",
+				"灵体卫士|PHB",
+				"守护之链|PHB",
+				"拂晓|XGE",
+				"生命转换|XGE"
 			]
 		},
 		{
-			"name": "Ranger",
+			"ENG_name": "Ranger",
+			"name": "游侠",
 			"source": "UAClassFeatureVariants",
-			"spellListType": "variantClass",
-			"className": "Ranger",
+			"spellListType": "变体职业",
+			"className": "游侠",
 			"classSource": "PHB",
 			"spells": [
-				"aid|phb",
-				"awaken|phb",
-				"blinding smite|phb",
-				"death ward|phb",
-				"dominate beast|phb",
-				"enhance ability|phb",
-				"entangle|phb",
-				"greater restoration|phb",
-				"gust of wind|phb",
-				"magic weapon|phb",
-				"meld into stone|phb",
-				"revivify|phb",
-				"searing smite|phb",
-				"tongues|phb",
-				"warding bond|phb"
+				"援助术|PHB",
+				"启蒙术|PHB",
+				"致盲斩|PHB",
+				"防死结界|PHB",
+				"支配野兽|PHB",
+				"强化属性|PHB",
+				"纠缠术|PHB",
+				"高等复原术|PHB",
+				"造风术|PHB",
+				"魔化武器|PHB",
+				"融身入石|PHB",
+				"回生术|PHB",
+				"炽焰斩|PHB",
+				"巧言术|PHB",
+				"守护之链|PHB"
 			]
 		},
 		{
-			"name": "Sorcerer",
+			"ENG_name": "Sorcerer",
+			"name": "术士",
 			"source": "UAClassFeatureVariants",
-			"spellListType": "variantClass",
-			"className": "Sorcerer",
+			"spellListType": "变体职业",
+			"className": "术士",
 			"classSource": "PHB",
 			"spells": [
-				"demiplane|phb",
-				"fire shield|phb",
-				"flame blade|phb",
-				"flaming sphere|phb",
-				"flesh to stone|phb",
-				"foresight|phb",
-				"grease|phb",
-				"protection from evil and good|phb",
-				"vampiric touch|phb",
-				"primal savagery|xge"
+				"半位面|PHB",
+				"火焰护盾|PHB",
+				"火焰刀|PHB",
+				"炽焰法球|PHB",
+				"石化术|PHB",
+				"预见术|PHB",
+				"油腻术|PHB",
+				"防护善恶|PHB",
+				"吸血鬼之触|PHB",
+				"原初蛮击|XGE"
 			]
 		},
 		{
-			"name": "Warlock",
+			"ENG_name": "Warlock",
+			"name": "魔契师",
 			"source": "UAClassFeatureVariants",
-			"spellListType": "variantClass",
-			"className": "Warlock",
+			"spellListType": "变体职业",
+			"className": "魔契师",
 			"classSource": "PHB",
 			"spells": [
-				"animate dead|phb",
-				"gate|phb",
-				"knock|phb",
-				"magic jar|phb",
-				"mislead|phb",
-				"modify memory|phb",
-				"planar binding|phb",
-				"project image|phb",
-				"shapechange|phb",
-				"teleportation circle|phb",
-				"thunderwave|phb",
-				"weird|phb",
-				"abi-dalzim's horrid wilting|xge",
-				"create homunculus|xge",
-				"life transference|xge"
+				"活化死尸|PHB",
+				"异界之门|PHB",
+				"敲击术|PHB",
+				"魔魂壶|PHB",
+				"假象术|PHB",
+				"篡改记忆|PHB",
+				"异界誓缚|PHB",
+				"投影术|PHB",
+				"形体变化|PHB",
+				"传送法阵|PHB",
+				"雷鸣波|PHB",
+				"怪影杀手|PHB",
+				"亚比达奇凋死术|XGE",
+				"创造人工生命体|XGE",
+				"生命转换|XGE"
 			]
 		},
 		{
-			"name": "Wizard",
+			"ENG_name": "Wizard",
+			"name": "法师",
 			"source": "UAClassFeatureVariants",
-			"spellListType": "variantClass",
-			"className": "Wizard",
+			"spellListType": "变体职业",
+			"className": "法师",
 			"classSource": "PHB",
 			"spells": [
-				"augury|phb",
-				"divination|phb",
-				"enhance ability|phb",
-				"speak with dead|phb"
+				"卜筮术|PHB",
+				"预言术|PHB",
+				"强化属性|PHB",
+				"死者交谈|PHB"
 			]
 		}
 	],
 	"monster": [
 		{
-			"name": "Beast of the Air",
+			"ENG_name": "Beast of the Air",
+			"name": "风之野兽",
+			"type": "beast",
 			"source": "UAClassFeatureVariants",
 			"page": 8,
-			"summonedByClass": "Ranger|PHB",
+			"summonedByClass": "游侠|PHB",
 			"size": [
 				"S"
 			],
-			"type": "beast",
 			"alignment": [
 				"N"
 			],
@@ -3211,7 +3435,7 @@
 				13
 			],
 			"hp": {
-				"special": "equal the beast's Constitution modifier + your Wisdom modifier + five times your ranger level (the beast has a number of Hit Dice [d6s] equal to your ranger level)"
+				"special": "等于野兽的体质调整值 + 你的感知调整值 + 你的游侠等级的五倍（野兽的生命骰数量等于你的游侠等级）"
 			},
 			"speed": {
 				"walk": 10,
@@ -3233,37 +3457,41 @@
 				"stealth": "+5"
 			},
 			"senses": [
-				"darkvision 60 ft."
+				"黑暗视觉 60 尺"
 			],
 			"passive": 14,
 			"languages": [
-				"understands the languages you speak"
+				"理解你所说的语言"
 			],
 			"trait": [
 				{
-					"name": "Flyby",
+					"ENG_name": "Flyby",
+					"name": "飞掠",
 					"entries": [
-						"The beast doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+						"野兽以飞行离开敌人的触及范围时不会引发对方的借机攻击。"
 					]
 				},
 				{
-					"name": "Primal Rebirth",
+					"ENG_name": "Primal Rebirth",
+					"name": "原始重生",
 					"entries": [
-						"If the beast has died within the last hour, you can use your action to touch it and expend a spell slot of 1st level or higher. The beast returns to life after 1 minute with all its hit points restored."
+						"如果野兽死亡不超过一小时，你能使用你的动作触碰它，并消耗一个一环或更高的法术位使它复活。它会在一分钟后死而复生并获得所有生命值。"
 					]
 				},
 				{
-					"name": "Ready Companion",
+					"ENG_name": "Ready Companion",
+					"name": "忠诚伙伴",
 					"entries": [
-						"As a bonus action, you can command the beast to make its shred attack or to Hide."
+						"作为bonus action，你可以命令这只野兽进行撕扯攻击或者使用隐匿。"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Shred",
+					"ENG_name": "Shred",
+					"name": "撕扯",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}{@damage 1d6 + 3} slashing damage."
+						"{@atk mw} {@hit 5} 攻击，触及范围 5 英尺，单一目标。{@h}{@damage 1d6 + 3} 挥砍伤害。"
 					]
 				}
 			],
@@ -3285,14 +3513,15 @@
 			]
 		},
 		{
-			"name": "Beast of the Earth",
+			"ENG_name": "Beast of the Earth",
+			"name": "土之野兽",
+			"type": "beast",
 			"source": "UAClassFeatureVariants",
 			"page": 9,
-			"summonedByClass": "Ranger|PHB",
+			"summonedByClass": "游侠|PHB",
 			"size": [
 				"M"
 			],
-			"type": "beast",
 			"alignment": [
 				"N"
 			],
@@ -3300,17 +3529,17 @@
 				12
 			],
 			"hp": {
-				"special": "equal the beast's Constitution modifier + your Wisdom modifier + five times your ranger level (the beast has a number of Hit Dice [d8s] equal to your ranger level)"
+				"special": "等于该魔兽的体质调整值加上你感知调整值加上你的游侠等级的五倍（该魔兽的生命骰数量[d8]等于你的游侠等级）"
 			},
 			"speed": {
 				"walk": 40,
 				"choose": {
 					"from": [
-						"climb",
-						"swim"
+						"攀爬",
+						"游泳"
 					],
 					"amount": 40,
-					"note": "(your choice when you bond with the beast)"
+					"note": "（当你与野兽建立联系时由你选择）"
 				}
 			},
 			"str": 14,
@@ -3329,37 +3558,41 @@
 				"stealth": "+4"
 			},
 			"senses": [
-				"darkvision 60 ft."
+				"黑暗视觉 60 尺"
 			],
 			"passive": 14,
 			"languages": [
-				"understands the languages you speak"
+				"理解你所说的语言"
 			],
 			"trait": [
 				{
-					"name": "Charge",
+					"ENG_name": "Charge",
+					"name": "冲锋",
 					"entries": [
-						"If the beast moves at least 20 feet straight toward a target and then hits it with a maul attack on the same turn, the target takes an extra {@dice 1d6} slashing damage. The DC equals your spell save DC. If the target is a creature, it must succeed on a Strength saving throw against your spell save DC or be knocked {@condition prone}."
+						"如果该生物在同一回合内至少直线移动20英尺朝向一个目标，然后使用钉头锤攻击击中该目标，目标将额外受到{@dice 1d6}点挥砍伤害。该豁免难度等于你的法术豁免DC。如果目标是一个生物，它必须通过一次力量豁免对抗你的法术豁免DC，否则会被击倒{@condition 倒地}。"
 					]
 				},
 				{
-					"name": "Primal Rebirth",
+					"ENG_name": "Primal Rebirth",
+					"name": "原始重生",
 					"entries": [
-						"If the beast has died within the last hour, you can use your action to touch it and expend a spell slot of 1st level or higher. The beast returns to life after 1 minute with all its hit points restored."
+						"如果野兽死亡不超过一小时，你能使用你的动作触碰它，并消耗一个一环或更高的法术位使它复活。它会在一分钟后死而复生并获得所有生命值。"
 					]
 				},
 				{
-					"name": "Ready Companion",
+					"ENG_name": "Ready Companion",
+					"name": "忠诚伙伴",
 					"entries": [
-						"As a bonus action, you can command the beast to make its maul attack or to Hide."
+						"作为附赠动作，你可以命令这只魔兽进行其钉头锤攻击或进行隐藏。"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Maul",
+					"ENG_name": "Maul",
+					"name": "巨锤",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}{@damage 1d6 + 2} slashing damage."
+						"{@atk mw} 命中{@hit 4}，触及5尺，单一目标。{@h}{@damage 1d6 + 2} 挥砍伤害。"
 					]
 				}
 			],
@@ -3368,7 +3601,7 @@
 				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/UAClassFeatureVariants/tokens/Beast of the Earth.webp"
 			},
 			"attachedItems": [
-				"maul|phb"
+				"巨锤|phb"
 			],
 			"traitTags": [
 				"Charge"

@@ -4,7 +4,7 @@
 			{
 				"json": "UA2021GothicLineages",
 				"abbreviation": "UA21GL",
-				"full": "Unearthed Arcana: 2021 Gothic Lineages",
+				"full": "破解奥秘：2021哥特血统",
 				"url": "https://media.wizards.com/2021/dnd/downloads/UA2021_GothicLineages.pdf",
 				"version": "1.0.0",
 				"dateReleased": "2020-01-26",
@@ -18,21 +18,22 @@
 		],
 		"edition": "classic",
 		"dateAdded": 1701616429,
-		"dateLastModified": 1774092631,
+		"dateLastModified": 1792466524,
 		"_dateLastModifiedHash": "b26c564428"
 	},
 	"race": [
 		{
-			"name": "Dhampir",
+			"ENG_name": "Dhampir",
+			"name": "半血裔",
 			"source": "UA2021GothicLineages",
 			"page": 2,
 			"reprintedAs": [
-				"Dhampir|VRGR"
+				"半血裔|VRGR"
 			],
 			"lineage": "UA1",
 			"creatureTypes": [
-				"humanoid",
-				"undead"
+				"类人生物",
+				"亡灵"
 			],
 			"size": [
 				"S",
@@ -52,61 +53,67 @@
 					"style": "list-hang-notitle",
 					"items": [
 						{
+							"ENG_name": "Type:",
+							"name": "类型:",
 							"type": "item",
-							"name": "Type:",
-							"entry": "Humanoid and Undead"
+							"entry": "类人生物和亡灵"
 						},
 						{
+							"ENG_name": "Size:",
+							"name": "体型：",
 							"type": "item",
-							"name": "Size:",
-							"entry": "Medium or Small (choose when you gain this lineage)"
+							"entry": "中等或小型（获得此血统时选择）"
 						}
 					]
 				},
 				{
+					"ENG_name": "Darkvision",
+					"name": "黑暗视觉",
 					"type": "entries",
-					"name": "Darkvision",
 					"entries": [
-						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light."
+						"你可以在60尺内的微光光照中视物如同明亮光照，且在黑暗术或黑暗中视物如同微光光照。"
 					]
 				},
 				{
+					"ENG_name": "Spider Climb",
+					"name": "蛛行术",
 					"type": "entries",
-					"name": "Spider Climb",
 					"entries": [
-						"You have a climbing speed equal to your walking speed. In addition, at 3rd level, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free."
+						"你拥有等同于你步行速度的攀爬速度。此外，自第3级起，你可以在垂直表面上上下左右移动，并且可以倒立着在天花板上移动，同时保持双手空闲。"
 					]
 				},
 				{
+					"ENG_name": "Vampiric Bite",
+					"name": "吸血啃咬",
 					"type": "entries",
-					"name": "Vampiric Bite",
 					"entries": [
-						"Your fanged bite is a natural weapon, which counts as a simple melee weapon with which you are proficient. You add your Constitution modifier to the attack and damage rolls when you attack with your bite. Your bite deals {@damage 1d4} piercing damage on a hit. While you are missing half or more of your hit points, you have advantage on attack rolls you make with this bite.",
-						"When you use your bite and hit a creature that isn't a Construct or an Undead, you can empower yourself in one of the following ways of your choice:",
+						"你的尖牙啃咬是一种天生武器，视为一种你熟练的简易近战武器。当你用啃咬攻击时，可将你的体质调整值添加到攻击检定和伤害掷骰上。你的啃咬在命中时造成{@damage 1d4}点穿刺伤害。当你失去一半或更多生命值时，你用此啃咬进行的攻击检定具有优势。",
+						"当你使用你的吸血啃咬且命中一个非构装体或亡灵的生物时，你可以选择以下方式之一增强自身：",
 						{
 							"type": "list",
 							"items": [
-								"regain hit points equal to the damage dealt by the bite",
-								"gain a bonus to the next ability check or attack roll you make; the bonus equals the damage dealt by the bite."
+								"恢复等同于啃咬造成的伤害的生命值",
+								"获得一个等于啃咬所造成伤害的加值，用于你下一次属性检定或攻击检定；"
 							]
 						},
-						"You can empower yourself with your bite a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+						"你可以用你的啃咬增强自己，次数等同于你的熟练加值，且完成一次长休后恢复所有已消耗的使用次数。"
 					]
 				}
 			],
 			"hasFluff": true
 		},
 		{
-			"name": "Hexblood",
+			"ENG_name": "Hexblood",
+			"name": "巫咒之子",
 			"source": "UA2021GothicLineages",
 			"page": 3,
 			"reprintedAs": [
-				"Hexblood|VRGR"
+				"巫咒之子|VRGR"
 			],
 			"lineage": "UA1",
 			"creatureTypes": [
-				"humanoid",
-				"fey"
+				"类人生物",
+				"妖精"
 			],
 			"size": [
 				"S",
@@ -125,8 +132,8 @@
 					},
 					"known": {
 						"1": [
-							"disguise self",
-							"hex"
+							"易容术",
+							"脆弱诅咒"
 						]
 					}
 				}
@@ -137,64 +144,71 @@
 					"style": "list-hang-notitle",
 					"items": [
 						{
+							"ENG_name": "Type:",
+							"name": "类型:",
 							"type": "item",
-							"name": "Type:",
-							"entry": "Fey and Humanoid"
+							"entry": "妖精和类人生物"
 						},
 						{
+							"ENG_name": "Size:",
+							"name": "体型：",
 							"type": "item",
-							"name": "Size:",
-							"entry": "Medium or Small (choose when you gain this lineage)"
+							"entry": "中等或小型（获得此血统时选择）"
 						}
 					]
 				},
 				{
+					"ENG_name": "Darkvision",
+					"name": "黑暗视觉",
 					"type": "entries",
-					"name": "Darkvision",
 					"entries": [
-						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light."
+						"你可以在60尺内的微光光照中视物如同明亮光照，且在黑暗术或黑暗中视物如同微光光照。"
 					]
 				},
 				{
+					"ENG_name": "Fey Resilience",
+					"name": "精类恢复力",
 					"type": "entries",
-					"name": "Fey Resilience",
 					"entries": [
-						"You have advantage on saving throws you make to avoid or end the {@condition charmed} condition on yourself."
+						"你在为自己避免或结束{@condition 魅惑}状态的豁免检定时具有优势。"
 					]
 				},
 				{
+					"ENG_name": "Hex Magic",
+					"name": "巫咒魔法",
 					"type": "entries",
-					"name": "Hex Magic",
 					"entries": [
-						"You can cast the {@spell disguise self} and {@spell hex} spells with this trait. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you gain this lineage). Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using any spells slots you have."
+						"你可以使用此特质施放{@spell 易容术}和{@spell 脆弱诅咒}法术。智力、感知或魅力是这些法术的施法属性（获得此血统时选择）。一旦你使用此特质施放其中任一法术后，在完成一次长休前无法再次使用此特质施放该法术。你也可以使用任何已有的法术位来施放这些法术。"
 					]
 				},
 				{
+					"ENG_name": "Magic Token",
+					"name": "魔法符",
 					"type": "entries",
-					"name": "Magic Token",
 					"entries": [
-						"As an action, you can harmlessly pull out one of your nails, a tooth, or a lock of hair. This token is imbued with magic until you finish a long rest. While the token is imbued in this way, you can use an action to send a telepathic message to the creature holding or carrying the token, as long as you are on the same plane of existence and are within 10 miles of it. The message can contain up to twenty-five words.",
-						"In addition, while you are within 10 miles of the token, you can use an action to enter a trance for 1 minute, during which you can see and hear from the token as if you were located where it is. While you are using your senses at the token's location, you are {@condition blinded} and {@condition deafened} in regard to your own surroundings. Afterward, the token is harmlessly destroyed.",
-						"Once you create a token using this feature, you can't do so again until you finish a long rest, at which point your missing part regrows."
+						"以一个动作，你可以无害地拔下自己的一片指甲、一颗牙齿或一绺毛发。此符被注入魔法直至你完成一次长休。当此符被如此注入时，你可以用一个动作向持有或携带此符的生物发送心灵传信，只要你们处于同一存在平面且相距不超过10英里。该传讯术最多可包含二十五个词。",
+						"此外，当你处于该符10英里范围内时，你可以使用一个动作进入出神状态1分钟，在此期间你可以如同身处符所在位置般通过它视物听声。当你使用符所在位置的感官时，你自身的周边环境将处于{@condition 目盲}且{@condition 耳聋}状态。之后，该符会被无害地销毁。",
+						"一旦你使用此特性创造一个信物，你便不能再次这样做，直到你结束了一次长休，长休结束时你失去的部分会长回来。"
 					]
 				}
 			],
 			"hasFluff": true
 		},
 		{
-			"name": "Reborn",
+			"ENG_name": "Reborn",
+			"name": "重生者",
 			"source": "UA2021GothicLineages",
 			"page": 4,
 			"reprintedAs": [
-				"Reborn|VRGR"
+				"重生者|VRGR"
 			],
 			"lineage": "UA1",
 			"creatureTypes": [
-				"humanoid",
+				"类人生物",
 				{
 					"choose": [
-						"construct",
-						"undead"
+						"构装",
+						"亡灵"
 					]
 				}
 			],
@@ -216,45 +230,50 @@
 					"style": "list-hang-notitle",
 					"items": [
 						{
+							"ENG_name": "Type:",
+							"name": "类型:",
 							"type": "item",
-							"name": "Type:",
-							"entry": "Humanoid, as well as Construct or Undead (choose when you gain this lineage)"
+							"entry": "类人生物，以及构装或亡灵（获得此血统时选择）"
 						},
 						{
+							"ENG_name": "Size:",
+							"name": "体型：",
 							"type": "item",
-							"name": "Size:",
-							"entry": "Medium or Small (choose when you gain this lineage)"
+							"entry": "中等或小型（获得此血统时选择）"
 						}
 					]
 				},
 				{
+					"ENG_name": "Darkvision",
+					"name": "黑暗视觉",
 					"type": "entries",
-					"name": "Darkvision",
 					"entries": [
-						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light."
+						"你可以在60尺内的微光光照中视物如同明亮光照，且在黑暗术或黑暗中视物如同微光光照。"
 					]
 				},
 				{
+					"ENG_name": "Deathless Nature",
+					"name": "亡灵本质",
 					"type": "entries",
-					"name": "Deathless Nature",
 					"entries": [
-						"You have escaped death, a fact represented by the following benefits:",
+						"你已逃离死亡，这一事实由以下好处体现：",
 						{
 							"type": "list",
 							"items": [
-								"You have advantage on saving throws against disease and being {@condition poisoned}, and you have resistance to poison damage.",
-								"You have advantage on death saving throws.",
-								"You don't need to eat, drink, or breathe.",
-								"You don't need to sleep, and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in an inactive, motionless state, during which you retain consciousness."
+								"你在对抗疾病和{@condition 中毒}的豁免骰上有优势，并且你对毒素伤害具有抗性。",
+								"你在死亡豁免中具有优势。",
+								"你不需要吃、喝和呼吸。",
+								"你不需要睡眠，且魔法无法让你睡眠。你可以花费4小时处于一种一动不动但保持知觉清醒的状态中，以此来完成长休。"
 							]
 						}
 					]
 				},
 				{
+					"ENG_name": "Knowledge from a Past Life",
+					"name": "往昔学识",
 					"type": "entries",
-					"name": "Knowledge from a Past Life",
 					"entries": [
-						"You temporarily remember sporadic glimpses of the past, perhaps faded memories from ages ago or a previous life. When you make an ability check that uses a skill, you can roll a {@dice d6} and add the number rolled to the check. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+						"你暂时回忆起零星的过去片段，或许是久远年代或前世的褪色记忆。当你进行使用技能的属性检定时，可以掷一枚{@dice d6}并将骰出数值加到检定上。你可使用此特性的次数等于熟练加值，且完成长休后恢复所有已消耗使用次数。"
 					]
 				}
 			],
@@ -263,25 +282,27 @@
 	],
 	"raceFluff": [
 		{
-			"name": "Dhampir",
+			"ENG_name": "Dhampir",
+			"name": "半血裔",
 			"source": "UA2021GothicLineages",
 			"entries": [
 				{
 					"type": "entries",
 					"entries": [
-						"Poised between the worlds of the living and the dead, dhampirs retain their grip on life yet are endlessly tested by vicious hungers. Their ties to the undead grant dhampirs a taste of a vampire's deathless prowess in the form of increased speed, {@sense darkvision}, and a life-draining bite. With unique insights into the nature of the undead, many dhampirs turn to the lives of adventurers and monster hunters. Their reasons are often deeply personal. Some seek danger, imagining monsters as personifications of their own hungers. Others pursue revenge against whatever turned them into a dhampir. And still others embrace the solitude of the hunt, striving to distance themselves from those who'd tempt their hunger.",
+						"稳定在活体且死亡的世界之间，半血裔保持着对生命的掌控，却不断被恶毒的饥渴所考验。它们与亡灵的联系让半血裔得以品尝吸血鬼不死的力量，表现为提升的速度、{@sense 黑暗视觉}和吸取生命的啃咬。凭借对亡灵本质的独特洞察，许多半血裔转向冒险者和怪物追猎者的生活。它们的动机通常非常个人化。有些寻求危险，将怪物视为自身饥渴的化身。另一些则向将它们转变为半血裔的存在复仇。还有一些则拥抱搜寻的孤独，努力远离那些会诱惑它们饥渴的存在。",
 						{
+							"ENG_name": "Dhampir Hungers",
+							"name": "半血裔饥渴",
 							"type": "entries",
-							"name": "Dhampir Hungers",
 							"entries": [
-								"Every dhampir knows a thirst slaked only by the living. This desire is a whisper in the mind, a tinge to the sight, a reflex constantly needing to be suppressed. Those who overindulge their thirst risk losing control and forever viewing others as prey. Those who resist might find exceptional ways of controlling their urges or suppress it through constant, molar-grinding restraint. In any case, temptation haunts dhampirs, and circumstances conspire to give them endless reasons to indulge.",
-								"While many dhampirs thirst for blood, your character might otherwise gain sustenance from the living. Roll on or choose an option from the Dhampir Hungers table to determine what tempts your character to feed.",
+								"每个半血裔都知道只有活物才能满足的饥渴。这种欲望是脑海中的低语，视野中的一抹色彩，一种需要不断压制的本能。那些过度沉溺于饥渴的人有失去控制的风险，并永远将他人视为猎物。那些抵抗的人可能会找到控制冲动的特殊方法，或通过持续、咬牙切齿的克制来压制它。无论如何，诱惑困扰着半血裔，而环境也合谋给予它们无数沉溺的理由。",
+								"虽然许多半血裔都渴求血液，但你的角色也可能通过其他方式从活物身上获取养料。从半血裔饥渴表格上掷骰或挑选一个选项，来决定什么会引起你角色进食的欲望。",
 								{
 									"type": "table",
-									"caption": "Dhampir Hungers",
+									"caption": "半血裔饥渴",
 									"colLabels": [
 										"d8",
-										"Hunger"
+										"饥渴"
 									],
 									"colStyles": [
 										"col-2 text-center",
@@ -290,51 +311,52 @@
 									"rows": [
 										[
 											"1",
-											"Blood"
+											"鲜血"
 										],
 										[
 											"2",
-											"Flesh or raw meat"
+											"肉或生肉"
 										],
 										[
 											"3",
-											"Cerebral spinal fluid"
+											"脑脊液"
 										],
 										[
 											"4",
-											"Esoteric humors"
+											"秘传体液"
 										],
 										[
 											"5",
-											"Psychic energy"
+											"精神能量"
 										],
 										[
 											"6",
-											"A color from one's appearance"
+											"外貌中的一种颜色"
 										],
 										[
 											"7",
-											"Dreams"
+											"梦境"
 										],
 										[
 											"8",
-											"Life energy"
+											"生命能量"
 										]
 									]
 								}
 							]
 						},
 						{
+							"ENG_name": "Dhampir Origins",
+							"name": "半血裔起源",
 							"type": "entries",
-							"name": "Dhampir Origins",
 							"entries": [
-								"Dhampirs often arise from encounters with vampires, but all manner of macabre bargains, necromantic influences, and encounters with mysterious immortals might have transformed your character. The Dhampir Origins table provides suggestions for how your character gained their lineage.",
+								"半血裔的诞生经常来源于与吸血鬼的遭遇，但各种可怕的契约交易、死灵魔法影响以及与神秘超凡生物的遭遇都有可能将你的角色转化为半血裔。半血裔起源表格就你的角色如何获得其血统提供了一些建议。",
 								{
 									"type": "table",
-									"caption": "Dhampir Origins",
+									"caption": "半血裔起源",
 									"colLabels": [
 										"d8",
-										"Origin"
+										"起源"
 									],
 									"colStyles": [
 										"col-2 text-center",
@@ -343,35 +365,35 @@
 									"rows": [
 										[
 											"1",
-											"You are the reincarnation of an ancestor who was a vampiric tyrant."
+											"你的祖先是一位吸血鬼暴君，而你是其转世。"
 										],
 										[
 											"2",
-											"Your pact with a predatory deity, fiend, fey, or spirit causes you to share their hunger."
+											"你和一位掠食者神、邪魔、妖精或精魂的契约使得你分享了他们的饥渴。"
 										],
 										[
 											"3",
-											"You survived being attacked by a vampire but were forever changed."
+											"你自一个吸血鬼的攻击中生还，但你被永远地改变了。"
 										],
 										[
 											"4",
-											"A parasite inhabits your body. You indulge your hunger to sate it."
+											"一个寄生物栖息在你的身体里。你放纵你的饥渴来满足它。"
 										],
 										[
 											"5",
-											"You loved an immortal and were willing to be transformed into a vampire to join them, but tragedy interrupted the transformation."
+											"你爱上了一个不朽者且愿意被转化为吸血鬼来加入它们，但悲剧中断了变形。"
 										],
 										[
 											"6",
-											"You are a diminished manifestation of an otherworldly being. Slaking your hunger hastens your renewal."
+											"你是一个异界存在衰弱的显迹。满足你的饥渴能加速你的恢复。"
 										],
 										[
 											"7",
-											"You don't know your origins, but you were raised by vampires or other monsters."
+											"你不知道你的起源，但你被吸血鬼们或其他怪物抚养长大。"
 										],
 										[
 											"8",
-											"A radical experiment changed your body, making you reliant on others for vital fluids."
+											"一场激进的实验改变了你的身体，使得你需要从他人身上获取你维生必须的液体。"
 										]
 									]
 								}
@@ -382,39 +404,43 @@
 			]
 		},
 		{
-			"name": "Hexblood",
+			"ENG_name": "Hexblood",
+			"name": "巫咒之子",
 			"source": "UA2021GothicLineages",
 			"entries": [
 				{
 					"type": "entries",
 					"entries": [
-						"Where wishing fails, ancient magic can offer a heart's desire\u2014at least, for a time. Hexbloods are individuals infused with eldritch magic, fey energy, or mysterious witchcraft. Some who enter into bargains with hags gain their deepest wishes but eventually find themselves transformed. These changes evidence a hag's influence: ears that split in forked points, skin in wild shades, lengthy hair that regrows if cut, and an irremovable living crown. Along with these marks, hexbloods manifest hag-like traits, such as long life, {@sense darkvision}, and a variety of magical methods to beguile the senses and avoid the same.",
-						"While many hexbloods gain their lineage after making a deal with a hag, others reveal their nature as they age\u2014particularly if a hag influenced them early in life or even before their birth. Many hexbloods turn to lives of adventure, seeking to discover the mysteries of their magic, to forge a connection with their fey natures, or to avoid a hag that obsesses over them.",
+						"当许愿失败时，远古魔法可以提供心灵的渴望\u2014\u2014至少在一段时间内。巫咒之子是注入了神秘魔法、妖精能量或神秘巫咒之术的个体。一些与鬼婆达成交易的人获得了他们最深的愿望，但最终发现自己被改变了。这些变化证明了鬼婆的影响力：分叉的耳朵、狂野色调的皮肤、被剪后重新生长的长发，以及一个无法移除的活体王冠。除了这些标记外，巫咒之子还表现出鬼婆般的特质，如长寿命、{@sense 黑暗视觉}，以及各种魔法方法来诱骗感官和避免同样的命运。",
+						"虽然许多巫咒之子都是在于鬼婆进行交易后获得其血统的，但还有一些是在成年后显示出了自己的本质\u2014\u2014尤其是在生命早期甚至出生前就受到了鬼婆的影响的情况下。许多巫咒之子都走上了冒险生涯，以试图发掘他们魔法的秘密，与自己的妖精本质构建联结，亦或躲避那困扰着他们的鬼婆。",
 						{
+							"ENG_name": "Heir of Hags",
+							"name": "鬼婆后嗣",
 							"type": "entries",
-							"name": "Heir of Hags",
 							"entries": [
-								"One way hags create more of their kind is through the creation of hexbloods. Every hexblood exhibits features suggestive of the hag whose magic inspires their powers. This includes an unusual crown, often called a \"eldercross\" or \"witch's turn.\" This living, garland-like part of a hexblood's body extends from their temples and wraps behind the head, serving as a visible mark of the bargain between hag and hexblood, a debt owed, or a change to come."
+								"鬼婆创造更多同类的其中一种方式是通过创造巫咒之子。每个巫咒之子都展现出暗示着赋予他们力量的鬼婆魔法的特性。这包括一顶不寻常的王冠，通常被称为\"长老十字\"或\"女巫的回合\"。这一活生生的、花环般的巫咒之子身体部分从他们的神庙延伸并环绕在头部后方，作为鬼婆与巫咒之子之间契约的可见标记，一笔待偿还的债务，或即将到来的变化。"
 							]
 						},
 						{
+							"ENG_name": "Becoming a Hag",
+							"name": "成为鬼婆",
 							"type": "inset",
-							"name": "Becoming a Hag",
 							"entries": [
-								"Hags can undertake a ritual to irreversibly transform a hexblood they created into a new hag, either one of their own kind or that embodies the hexblood's nature. This requires that both the hag and hexblood be in the same place and consent to the lengthy ritual\u2014circumstances most hexbloods shun but might come to accept over the course of centuries. Once a hexblood undergoes this irreversible ritual, they emerge as a hag NPC no longer under the control of the hexblood's player, unless the DM rules otherwise."
+								"鬼婆可以举行一个仪式，不可逆转地将一个她们创造的巫咒之子转化为一个新的鬼婆，可以是她们自己的种类，也可以是体现了巫咒之子本质的那一种。这需要鬼婆和巫咒之子都身处同一地点，并同意进行这以冗长的仪式\u2014\u2014而绝大多数巫咒之子都会避开这种情况并拒绝它，不过在历经几个世纪的生命后他们也许会同意这场仪式。一个巫咒之子如果经历了这一不可逆转的仪式，其就会变成一名鬼婆NPC，不再受该玩家控制，除非DM做其他规定。"
 							]
 						},
 						{
+							"ENG_name": "Hexblood Origins",
+							"name": "巫咒之子起源",
 							"type": "entries",
-							"name": "Hexblood Origins",
 							"entries": [
-								"A bargain with a hag or other eerie forces transformed your character into a magical being. Roll on or choose an option from the Hexblood Origins table to determine how your character gained their lineage.",
+								"与鬼婆或其他神秘力量所做的交易将你的角色转变为魔法的存在。从巫咒之子起源表格上掷骰或挑选一个选项，来决定你的角色是怎么获得自己的血统的。",
 								{
 									"type": "table",
-									"caption": "Hexblood Origins",
+									"caption": "巫咒之子起源",
 									"colLabels": [
 										"d8",
-										"Origin"
+										"起源"
 									],
 									"colStyles": [
 										"col-2 text-center",
@@ -423,35 +449,35 @@
 									"rows": [
 										[
 											"1",
-											"Seeking a child, your parent made a bargain with a hag. You are the result of that arrangement."
+											"为了拥有一个孩子，你的父母与一个鬼婆做了交易。你便是那约定的结果。"
 										],
 										[
 											"2",
-											"Fey kidnappers swapped you and your parents' child."
+											"妖精绑架者将你和你双亲的孩子替换了。"
 										],
 										[
 											"3",
-											"A coven of hags lost one of their members. You were created to replace the lost hag."
+											"一个鬼婆集会失去了其中一名成员。你被创造出来以取代那失落的鬼婆。"
 										],
 										[
 											"4",
-											"You were cursed as a child. A deal with the spirits of the forest transformed you into a hexblood, now free of the curse."
+											"你在孩童时便被诅咒了。与森林精魂所做的一个交易将你转变为了巫咒之子，现在已摆脱了诅咒。"
 										],
 										[
 											"5",
-											"You began life as a fey creature, but an accident or crime changed you and forced you from your home."
+											"你最初的生命是一个妖精生物，但一场意外或犯罪改变了你且迫使你离开了家。"
 										],
 										[
 											"6",
-											"A slighted druid transformed you and bound you to live only so long as a sacred tree bears fruit."
+											"一个被你侮辱的德鲁伊转变了你，并且将你和一棵圣树绑定，只有在那棵圣树还在结果时你才能活着。"
 										],
 										[
 											"7",
-											"You made a deal with a hag, but they twisted your words and transformed you."
+											"你与一个鬼婆达成了交易，但他们扭曲了你的话语且将你转化了。"
 										],
 										[
 											"8",
-											"You are a child of the wilds. Animals and mysterious whispers were the only family you ever knew."
+											"你是荒野之子。动物和神秘的低语是你唯一知晓的家庭。"
 										]
 									]
 								}
@@ -462,25 +488,27 @@
 			]
 		},
 		{
-			"name": "Reborn",
+			"ENG_name": "Reborn",
+			"name": "重生者",
 			"source": "UA2021GothicLineages",
 			"entries": [
 				{
 					"type": "entries",
 					"entries": [
-						"Death isn't always the end. The reborn exemplify this, being individuals who have died yet, somehow, still live. Some reborn exhibit the scars of fatal fates, their ashen flesh, missing limbs, or bloodless veins making it clear that they've been touched by death. Other reborn are marvels of magic or science, being stitched together from disparate beings or bearing mysterious minds in manufactured bodies. Whatever their origins, reborn know a new life and seek experiences and answers all their own.",
+						"死亡不总是终点。重生者就是例证，他们是那些已经死去却仍以某种方式存活的个体。一些重生者带着致命命运的伤痕\u2014\u2014灰白的血肉、缺失的肢体或无血的静脉，清楚地表明他们曾被死亡触碰。其他重生者则是魔法或科学的奇迹，由不同生物缝合而成，或在人造躯体中承载着神秘的意识。无论其起源如何，重生者知晓新生，并追寻着独属于自己的体验与答案。",
 						{
+							"ENG_name": "Faded Memories",
+							"name": "褪色记忆",
 							"type": "entries",
-							"name": "Faded Memories",
 							"entries": [
-								"Reborn suffer from some manner of discontinuity, an interruption of their lives or physical state that their minds are ill equipped to deal with. Their memories of events before this interruption are often vague or absent. Occasionally, the most unexpected experiences might cause sensations or visions of the past to come rushing back.",
-								"Rather than sleeping, reborn regularly sit and dwell on the past, hoping for some revelation of what came before. Most of the time, these are dark, silent stretches. Occasionally, though, in a moment of peace, stress, or excitement, a reborn gains a glimpse of what came before. When you desire to have such a dreamlike vision, roll on the Lost Memories table to inspire its details.",
+								"重生者饱受某种不连贯性之苦，他们的生命或肉体状态被中断了，而他们的精神还没有准备好应对这一切。他们对于这种中断之前的事情的记忆往往模糊不清或完全缺失。偶尔，最意想不到的经历会导致过去的感受或视象如潮水般涌入。",
+								"重生者不睡觉，而是坐在那里仔细回想过去，期望能看清一些过去的事情。大多数时候，这都是一些黑暗、无声的延伸。然而偶尔，在某个平静、紧张或激动的时刻，一名重生者会在一瞬间瞥见过去发生的事情。如果你想要有这类梦境般的视象，从失落记忆表格上掷骰以为视象细节提供灵感。",
 								{
 									"type": "table",
-									"caption": "Lost Memories",
+									"caption": "失落记忆",
 									"colLabels": [
 										"d8",
-										"Memory"
+										"记忆"
 									],
 									"colStyles": [
 										"col-2 text-center",
@@ -489,51 +517,52 @@
 									"rows": [
 										[
 											"1",
-											"You recall a physically painful moment. What mark or scar on your body does it relate to?"
+											"你回想起身体上痛苦的一刻。你身上与之相关的标记或伤疤是什么样的？"
 										],
 										[
 											"2",
-											"A memory causes you to shed a tear. Is it a bitter or cheerful memory? Does recalling it make you feel the same way?"
+											"一段记忆让你流下眼泪。这是苦痛还是欢愉的记忆？回忆它是否让你有相同的感官？"
 										],
 										[
 											"3",
-											"You recall a childhood memory. What about that event or who you were still influences you?"
+											"你回想起一段童年回忆。那个事件或你的出身是不是还在影响着你？"
 										],
 										[
 											"4",
-											"A memory brings with it the voice of someone once close to you. How do they advise you?"
+											"一段回忆中有着某个曾经与你很亲近的人的声音。那个声音是怎么对你说的？"
 										],
 										[
 											"5",
-											"You recall enjoying something that you can't stand doing now. What is it? Why don't you like it now?"
+											"你回忆起自己曾经享受做某件你现在已经无法忍受的事情。那是什么样的事？你为什么现在不愿意做了？"
 										],
 										[
 											"6",
-											"A memory carries a vivid smell or sensation. What are you going to do to recreate that experience?"
+											"一段回忆中有着某种清晰的味道或感觉。你正在做什么来重现这段体验？"
 										],
 										[
 											"7",
-											"You faintly remember a place that couldn't possibly exist. What is this vision? How does it make you feel?"
+											"你模糊地记起一个不可能存在的地点。这是什么幻象？它让你有什么感官？"
 										],
 										[
 											"8",
-											"You experience a memory you're certain isn't your own. How does it seem unnatural? Could it be a glimpse of a past nightmare or something worse?"
+											"你体验了一段你确信不属于自己的记忆。它为何显得不自然？这可能是一瞥过去的梦魇还是更糟的东西？"
 										]
 									]
 								}
 							]
 						},
 						{
+							"ENG_name": "Reborn Origins",
+							"name": "复生者起源",
 							"type": "entries",
-							"name": "Reborn Origins",
 							"entries": [
-								"Reborn might originate from circumstances similar to those of various undead or constructs. Roll on or choose an option from the Reborn Origins table to determine how your character gained their lineage.",
+								"重生者可能起源于与各种亡灵或构装类似的情况。掷骰或从复生者起源表格中选择一个选项，以确定你的角色如何获得他们的血统。",
 								{
 									"type": "table",
-									"caption": "Reborn Origins",
+									"caption": "复生者起源",
 									"colLabels": [
 										"d8",
-										"Origins"
+										"起源"
 									],
 									"colStyles": [
 										"col-2 text-center",
@@ -542,35 +571,35 @@
 									"rows": [
 										[
 											"1",
-											"You were magically resurrected but something went wrong."
+											"你被魔法复活了，但出了些问题。"
 										],
 										[
 											"2",
-											"Stitches bind your body's mismatched pieces, and your memories come from multiple different lives."
+											"缝线将你那些并不匹配的身体部分缝在了一起，而你的记忆来自于几个不同的生命。"
 										],
 										[
 											"3",
-											"After clawing free from your grave, you realized you have no memories except for a single name."
+											"在从你的坟墓中爬出来之后，你意识到除了一个名字之外你什么都想不起来。"
 										],
 										[
 											"4",
-											"You were a necromancer's undead servant for years. One day, your consciousness returned."
+											"你曾是一个死灵师的亡灵仆从好几年。某一天，你的意识又复苏了。"
 										],
 										[
 											"5",
-											"You awoke in an abandoned laboratory alongside complex designs for clockwork organs."
+											"你自一间废弃的实验室中醒来，周围是机械器官的复杂设计图。"
 										],
 										[
 											"6",
-											"You were released after being petrified for generations. Your memories have faded, though, and your body is not what it once was."
+											"你被石化数代后被释放。然而你的记忆已经模糊，且你的身体已不复从前。"
 										],
 										[
 											"7",
-											"Your body hosts a possessing spirit that shares its memories and replaces your missing appendages with phantasmal limbs."
+											"你的身体里有一个附体的灵魂，其与你分享自己的记忆，并把你失去的肢体用幽灵肢体取代了。"
 										],
 										[
 											"8",
-											"In public, you pass as an unremarkable individual, but you can feel the itchy straw stuffing inside you."
+											"在公众场合，你看起来再普通不过，但你自己能感受到自己体内那让你发痒的填充稻草。"
 										]
 									]
 								}
