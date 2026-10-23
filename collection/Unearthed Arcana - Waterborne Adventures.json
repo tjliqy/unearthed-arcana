@@ -19,7 +19,7 @@
 		],
 		"edition": "classic",
 		"dateAdded": 1701616429,
-		"dateLastModified": 1792466355,
+		"dateLastModified": 1792551019,
 		"_dateLastModifiedHash": "8b8f63c2c1"
 	},
 	"subclass": [
@@ -1079,7 +1079,7 @@
 									"type": "inset",
 									"page": 5,
 									"entries": [
-										"在R&D团队中，任何旨在传达风味而非机械优势的能力都被称为缎带\u2014\u2014主要是为了展示的东西。{@classFeature 盗贼黑话|游荡者|PHB|1|PHB}是一个很好的缎带能力范例，且{@subclassFeature 风暴导向|术士|PHB|风暴|UAWaterborneAdventures|6|UA水上冒险}也属于这一类别。",
+										"在研发团队内部，所有仅用于烘托风味、不提供机制优势的能力，都被称作「装饰能力（ribbon）」\u2014\u2014 这类能力基本只是观赏性设定。{@classFeature 盗贼黑话|游荡者|PHB|1|PHB}就是装饰能力的绝佳例子，{@subclassFeature 风暴导向|术士|PHB|风暴|UAWaterborneAdventures|6|UAWaterborneAdventures}也属于这一类别。",
 										"我们在平衡一个职业或选项与另一个时不会衡量绶带。例如，{@subclassFeature 风暴之心|术士|PHB|风暴|UAWaterborneAdventures|6|UAWaterborneAdventures}承载了6级暴风术士的法力负荷，而{@subclassFeature 风暴导向|术士|PHB|风暴|UAWaterborneAdventures|6|UAWaterborneAdventures}在这里只是为了展示这些术士如何能成为出色的水手。它并非旨在协助战斗，但在操纵船舶时可能非常有用。"
 									]
 								}

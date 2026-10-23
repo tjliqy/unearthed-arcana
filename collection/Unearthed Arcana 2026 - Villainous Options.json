@@ -19,7 +19,7 @@
 		"edition": "one",
 		"status": "ready",
 		"dateAdded": 1775151346,
-		"dateLastModified": 1792466479,
+		"dateLastModified": 1792551097,
 		"_dateLastModifiedHash": "87149bab73"
 	},
 	"subclass": [
@@ -32,7 +32,7 @@
 			"classSource": "XPHB",
 			"page": 3,
 			"reprintedAs": [
-				"泰坦|德鲁伊|XPHB|XUA2026反派选项更新"
+				"泰坦|德鲁伊|XPHB|XUA2026VillainousOptionsUpdate"
 			],
 			"additionalSpells": [
 				{
@@ -43,7 +43,7 @@
 							"奇术|XPHB"
 						],
 						"5": [
-							"恐惧|XPHB"
+							"恐惧术|XPHB"
 						],
 						"7": [
 							"石肤术|XPHB"
@@ -58,15 +58,15 @@
 				"疗伤术|XPHB",
 				"大步奔行|XPHB",
 				"奇术|XPHB",
-				"恐惧|XPHB",
+				"恐惧术|XPHB",
 				"石肤术|XPHB",
 				"湮灭波|XPHB"
 			],
 			"subclassFeatures": [
-				"泰坦结社|德鲁伊|XPHB|泰坦|XUA2026VillainousOptions|3|XUA2026反派选项",
-				"恐怖冲击|德鲁伊|XPHB|泰坦|XUA2026VillainousOptions|6|XUA2026反派选项",
-				"原始浩劫|德鲁伊|XPHB|泰坦|XUA2026VillainousOptions|10|XUA2026反派选项",
-				"怪物胃口|德鲁伊|XPHB|泰坦|XUA2026VillainousOptions|14|XUA2026反派选项"
+				"泰坦结社|德鲁伊|XPHB|泰坦|XUA2026VillainousOptions|3|XUA2026VillainousOptions",
+				"恐怖冲击|德鲁伊|XPHB|泰坦|XUA2026VillainousOptions|6|XUA2026VillainousOptions",
+				"原始浩劫|德鲁伊|XPHB|泰坦|XUA2026VillainousOptions|10|XUA2026VillainousOptions",
+				"怪物胃口|德鲁伊|XPHB|泰坦|XUA2026VillainousOptions|14|XUA2026VillainousOptions"
 			],
 			"hasFluff": true
 		},
@@ -79,7 +79,7 @@
 			"classSource": "XPHB",
 			"page": 7,
 			"reprintedAs": [
-				"恶魔语|术士|XPHB|XUA2026反派选项更新"
+				"恶魔语|术士|XPHB|XUA2026VillainousOptionsUpdate"
 			],
 			"additionalSpells": [
 				{
@@ -128,10 +128,10 @@
 				"邪魔召唤术|XPHB"
 			],
 			"subclassFeatures": [
-				"恶魔语巫术|术士|XPHB|恶魔语|XUA2026VillainousOptions|3|XUA2026反派选项",
-				"深渊气息|术士|XPHB|恶魔语|XUA2026VillainousOptions|6|XUA2026反派选项",
-				"深渊导管|术士|XPHB|恶魔语|XUA2026VillainousOptions|14|XUA2026反派选项",
-				"魔裔仆役|术士|XPHB|恶魔语|XUA2026VillainousOptions|18|XUA2026反派选项"
+				"恶魔语巫术|术士|XPHB|恶魔语|XUA2026VillainousOptions|3|XUA2026VillainousOptions",
+				"深渊气息|术士|XPHB|恶魔语|XUA2026VillainousOptions|6|XUA2026VillainousOptions",
+				"深渊导管|术士|XPHB|恶魔语|XUA2026VillainousOptions|14|XUA2026VillainousOptions",
+				"魔裔仆役|术士|XPHB|恶魔语|XUA2026VillainousOptions|18|XUA2026VillainousOptions"
 			],
 			"hasFluff": true
 		},
@@ -144,16 +144,16 @@
 			"classSource": "XPHB",
 			"page": 6,
 			"reprintedAs": [
-				"地狱骑士|战士|XPHB|XUA2026反派选项更新"
+				"地狱骑士|战士|XPHB|XUA2026VillainousOptionsUpdate"
 			],
 			"subclassFeatures": [
-				"地狱骑士|战士|XPHB|地狱骑士|XUA2026VillainousOptions|3|XUA2026反派选项",
-				"进阶创伤|战士|XPHB|地狱骑士|XUA2026VillainousOptions|7|XUA2026反派选项",
-				"地狱锻造装备|战士|XPHB|地狱骑士|XUA2026VillainousOptions|7|XUA2026反派选项",
-				"地狱火崩天疾驰|战士|XPHB|地狱骑士|XUA2026VillainousOptions|10|XUA2026反派选项",
-				"阿弗纳斯脓疱|战士|XPHB|地狱骑士|XUA2026VillainousOptions|15|XUA2026反派选项",
-				"地狱火定罪|战士|XPHB|地狱骑士|XUA2026VillainousOptions|18|XUA2026反派选项",
-				"炼狱契约|战士|XPHB|地狱骑士|XUA2026VillainousOptions|18|XUA2026反派选项"
+				"地狱骑士|战士|XPHB|地狱骑士|XUA2026VillainousOptions|3|XUA2026VillainousOptions",
+				"进阶创伤|战士|XPHB|地狱骑士|XUA2026VillainousOptions|7|XUA2026VillainousOptions",
+				"地狱锻造装备|战士|XPHB|地狱骑士|XUA2026VillainousOptions|7|XUA2026VillainousOptions",
+				"地狱火崩天疾驰|战士|XPHB|地狱骑士|XUA2026VillainousOptions|10|XUA2026VillainousOptions",
+				"阿弗纳斯脓疱|战士|XPHB|地狱骑士|XUA2026VillainousOptions|15|XUA2026VillainousOptions",
+				"地狱火定罪|战士|XPHB|地狱骑士|XUA2026VillainousOptions|18|XUA2026VillainousOptions",
+				"炼狱契约|战士|XPHB|地狱骑士|XUA2026VillainousOptions|18|XUA2026VillainousOptions"
 			],
 			"hasFluff": true
 		},
@@ -180,7 +180,7 @@
 						],
 						"7": [
 							"枯萎术|XPHB",
-							"巨虫|XPHB"
+							"巨虫术|XPHB"
 						],
 						"9": [
 							"疫病术|XPHB",
@@ -197,14 +197,14 @@
 				"臭云术|XPHB",
 				"吸血鬼之触|XPHB",
 				"枯萎术|XPHB",
-				"巨虫|XPHB",
+				"巨虫术|XPHB",
 				"疫病术|XPHB",
 				"疫病虫群|XPHB"
 			],
 			"subclassFeatures": [
-				"瘟疫领域|牧师|XPHB|瘟疫术|XUA2026VillainousOptions|3|XUA2026反派选项",
-				"猛恶毒爆发|牧师|XPHB|瘟疫术|XUA2026VillainousOptions|6|XUA2026反派选项",
-				"害兽形态|牧师|XPHB|瘟疫术|XUA2026VillainousOptions|17|XUA2026反派选项"
+				"瘟疫领域|牧师|XPHB|瘟疫术|XUA2026VillainousOptions|3|XUA2026VillainousOptions",
+				"猛恶毒爆发|牧师|XPHB|瘟疫术|XUA2026VillainousOptions|6|XUA2026VillainousOptions",
+				"害兽形态|牧师|XPHB|瘟疫术|XUA2026VillainousOptions|17|XUA2026VillainousOptions"
 			],
 			"hasFluff": true
 		}
@@ -272,15 +272,15 @@
 				"瘟疫领域与掌管毒素、疾病、饥荒和腐败的神祇相关。这些神祇会利用枯萎的庄稼、魔法爆发以及昆虫和害兽集群，根据其教义来激励或惩罚凡人。他们的追随者包括药剂师、医生、投毒者和皇家试毒员。其他追随者可能为了使其社区或所爱之人免于瘟疫而投身于一位瘟疫之神。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "枯萎编织者|牧师|XPHB|瘟疫术|XUA2026反派选项|3|XUA2026反派选项"
+					"subclassFeature": "枯萎编织者|牧师|XPHB|瘟疫术|XUA2026VillainousOptions|3|XUA2026VillainousOptions"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "瘟疫领域法术|牧师|XPHB|瘟疫术|XUA2026反派选项|3|XUA2026反派选项"
+					"subclassFeature": "瘟疫领域法术|牧师|XPHB|瘟疫术|XUA2026VillainousOptions|3|XUA2026VillainousOptions"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "瘟疫祝福|牧师|XPHB|瘟疫术|XUA2026反派选项|3|XUA2026反派选项"
+					"subclassFeature": "瘟疫祝福|牧师|XPHB|瘟疫术|XUA2026VillainousOptions|3|XUA2026VillainousOptions"
 				}
 			]
 		},
@@ -483,11 +483,11 @@
 				"当文明侵犯自然世界\u2014\u2014通过砍伐远古林地、污染圣水或将野生动物猎杀至灭绝边缘\u2014\u2014泰坦结社的德鲁伊便会介入。此秩序的德鲁伊相信，为了让自然繁荣，社会有时必须衰落。为此，他们化身高耸的怪物形态，施加灾难性的复仇，并强制地恢复自然秩序。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "泰坦结社法术|德鲁伊|XPHB|泰坦|XUA2026反派选项|3|XUA2026反派选项"
+					"subclassFeature": "泰坦结社法术|德鲁伊|XPHB|泰坦|XUA2026VillainousOptions|3|XUA2026VillainousOptions"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "泰坦形态|德鲁伊|XPHB|泰坦|XUA2026反派选项|3|XUA2026反派选项"
+					"subclassFeature": "泰坦形态|德鲁伊|XPHB|泰坦|XUA2026VillainousOptions|3|XUA2026VillainousOptions"
 				}
 			]
 		},
@@ -504,7 +504,7 @@
 			"header": 2,
 			"entries": [
 				"当你达到{@table 泰坦结社法术|XUA2026VillainousOptions}表格中指定的德鲁伊等级时，你将始终准备所列出的法术。",
-				"此外，当你处于{@subclassFeature 泰坦形态|德鲁伊|XPHB|泰坦|XUA2026反派选项|3|XUA2026反派选项}时，你可以施放此特性中的法术。",
+				"此外，当你处于{@subclassFeature 泰坦形态|德鲁伊|XPHB|泰坦|XUA2026VillainousOptions|3|XUA2026VillainousOptions}时，你可以施放此特性中的法术。",
 				{
 					"ENG_name": "Circle of the Titan Spells",
 					"name": "泰坦结社法术",
@@ -527,7 +527,7 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"当你使用{@classFeature 荒野形态|德鲁伊|XPHB|2|XPHB}时，你可以变身为泰坦形态，从本子职描述后文提供的{@creature 巨兽|XUA2026反派选项}、{@creature 利维坦|XUA2026反派选项}和{@creature 昆虫形态|XUA2026反派选项}数据卡中选择。",
+				"当你使用{@classFeature 荒野形态|德鲁伊|XPHB|2|XPHB}时，你可以变身为泰坦形态，从本子职描述后文提供的{@creature 巨兽|XUA2026VillainousOptions}、{@creature 利维坦|XUA2026VillainousOptions}和{@creature 昆虫形态|XUA2026VillainousOptions}数据卡中选择。",
 				"你决定你的泰坦形态的外貌。掷骰或从{@table 泰坦形态|XUA2026VillainousOptions}表格中选择，以激发你形态外貌的各个方面。",
 				{
 					"ENG_name": "Titan Appearance",
@@ -711,15 +711,15 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "魔鬼赠礼|战士|XPHB|地狱骑士|XUA2026反派选项|3|XUA2026反派选项"
+					"subclassFeature": "魔鬼赠礼|战士|XPHB|地狱骑士|XUA2026VillainousOptions|3|XUA2026VillainousOptions"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "地狱火武器|战士|XPHB|地狱骑士|XUA2026反派选项|3|XUA2026反派选项"
+					"subclassFeature": "地狱火武器|战士|XPHB|地狱骑士|XUA2026VillainousOptions|3|XUA2026VillainousOptions"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "炼狱创伤|战士|XPHB|地狱骑士|XUA2026反派选项|3|XUA2026反派选项"
+					"subclassFeature": "炼狱创伤|战士|XPHB|地狱骑士|XUA2026VillainousOptions|3|XUA2026VillainousOptions"
 				}
 			]
 		},
@@ -788,7 +788,7 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"你的{@subclassFeature 地狱火武器|战士|XPHB|地狱骑士|XUA2026反派选项|3|XUA2026反派选项}可以造成炼狱创伤。",
+				"你的{@subclassFeature 地狱火武器|战士|XPHB|地狱骑士|XUA2026VillainousOptions|3|XUA2026VillainousOptions}可以造成炼狱创伤。",
 				{
 					"type": "list",
 					"style": "list-hang-subtrait",
@@ -806,7 +806,7 @@
 							"name": "造成炼狱创伤",
 							"type": "item",
 							"entries": [
-								"每回合一次，当你用你的{@subclassFeature 地狱火武器|战士|XPHB|地狱骑士|XUA2026反派选项|3|XUA2026反派选项}命中一个生物时，你可以造成等同于一次炼狱创伤骰掷骰结果的额外火焰伤害，并给予目标一个炼狱创伤。",
+								"每回合一次，当你用你的{@subclassFeature 地狱火武器|战士|XPHB|地狱骑士|XUA2026VillainousOptions|3|XUA2026VillainousOptions}命中一个生物时，你可以造成等同于一次炼狱创伤骰掷骰结果的额外火焰伤害，并给予目标一个炼狱创伤。",
 								"当目标以此方式受伤时，在其每回合开始时，受到等同于你掷一次炼狱创伤骰的火焰伤害。此效应持续1分钟，直到目标恢复{@variantrule 生命值|XPHB}，或直到目标或目标5尺内的一个生物用一个动作来止血为止。一个目标一次只能受到此特性的一个实例影响。",
 								"你可以使用此特性的次数等于你的体质调整值（至少一次）。当你完成一次{@variantrule 短休|XPHB|短}或{@variantrule 长休|XPHB}后，你恢复所有已消耗的使用次数。"
 							]
@@ -939,7 +939,7 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"每当你由{@subclassFeature 地狱火武器|战士|XPHB|地狱骑士|XUA2026反派选项|3|XUA2026反派选项}或{@subclassFeature 炼狱创伤|战士|XPHB|地狱骑士|XUA2026反派选项|3|XUA2026反派选项}造成的伤害将一个生物的生命值降至0时，该生物死亡，其灵魂将从冥河中升起，在{@dice 1d4}小时后成为你所选择的九层地狱某一层中的一只{@creature 劣魔}。如果在此之前该生物未被复活，则只有{@spell 祈愿术}法术能使其复生。"
+				"每当你由{@subclassFeature 地狱火武器|战士|XPHB|地狱骑士|XUA2026VillainousOptions|3|XUA2026VillainousOptions}或{@subclassFeature 炼狱创伤|战士|XPHB|地狱骑士|XUA2026VillainousOptions|3|XUA2026VillainousOptions}造成的伤害将一个生物的生命值降至0时，该生物死亡，其灵魂将从冥河中升起，在{@dice 1d4}小时后成为你所选择的九层地狱某一层中的一只{@creature 劣魔}。如果在此之前该生物未被复活，则只有{@spell 祈愿术}法术能使其复生。"
 			]
 		},
 		{
@@ -982,11 +982,11 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "深渊裂隙|术士|XPHB|恶魔语|XUA2026反派选项|3|XUA2026反派选项"
+					"subclassFeature": "深渊裂隙|术士|XPHB|恶魔语|XUA2026VillainousOptions|3|XUA2026VillainousOptions"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "恶魔语法术|术士|XPHB|恶魔语|XUA2026反派选项|3|XUA2026反派选项"
+					"subclassFeature": "恶魔语法术|术士|XPHB|恶魔语|XUA2026VillainousOptions|3|XUA2026VillainousOptions"
 				}
 			]
 		},
@@ -1101,7 +1101,7 @@
 							"name": "灵光增效",
 							"type": "item",
 							"entries": [
-								"你的{@subclassFeature 深渊气息|术士|XPHB|恶魔语|XUA2026反派选项|6|XUA2026反派选项}现在是一个20尺的{@variantrule 光环 [效应区域]|XPHB|光环}。"
+								"你的{@subclassFeature 深渊气息|术士|XPHB|恶魔语|XUA2026VillainousOptions|6|XUA2026VillainousOptions}现在是一个20尺的{@variantrule 光环 [效应区域]|XPHB|光环}。"
 							]
 						},
 						{
@@ -1215,7 +1215,7 @@
 			"prerequisite": [
 				{
 					"feat": [
-						"巫妖入门|XUA2026反派选项"
+						"巫妖入门|XUA2026VillainousOptions"
 					]
 				}
 			],
@@ -1371,7 +1371,7 @@
 				{
 					"level": 8,
 					"feat": [
-						"死亡骑士学徒|XUA2026反派选项"
+						"死亡骑士学徒|XUA2026VillainousOptions"
 					]
 				}
 			],
@@ -1422,7 +1422,7 @@
 			"prerequisite": [
 				{
 					"feat": [
-						"死亡骑士学徒|XUA2026反派选项"
+						"死亡骑士学徒|XUA2026VillainousOptions"
 					]
 				}
 			],
@@ -1472,7 +1472,7 @@
 			"prerequisite": [
 				{
 					"feat": [
-						"死亡骑士学徒|XUA2026反派选项"
+						"死亡骑士学徒|XUA2026VillainousOptions"
 					]
 				}
 			],
@@ -1671,7 +1671,7 @@
 			"prerequisite": [
 				{
 					"feat": [
-						"巫妖入门|XUA2026反派选项"
+						"巫妖入门|XUA2026VillainousOptions"
 					]
 				}
 			],
@@ -1707,7 +1707,7 @@
 			"prerequisite": [
 				{
 					"feat": [
-						"巫妖入门|XUA2026反派选项"
+						"巫妖入门|XUA2026VillainousOptions"
 					]
 				}
 			],
@@ -1762,7 +1762,7 @@
 				{
 					"level": 8,
 					"feat": [
-						"死亡骑士学徒|XUA2026反派选项"
+						"死亡骑士学徒|XUA2026VillainousOptions"
 					]
 				}
 			],
@@ -1881,7 +1881,7 @@
 					"type": "entries",
 					"page": 9,
 					"entries": [
-						"以下专长代表角色成为死亡骑士的一条路途。要完成死亡骑士路途，首先选择{@feat 死亡骑士学徒|XUA2026反派选项}专长，随后选择任意一个你选择的死亡骑士路途专长。最后，当你达到第12层或更高等级时，选择{@feat 死亡骑士晋升|XUA2026反派选项}专长。",
+						"以下专长代表角色成为死亡骑士的一条路途。要完成死亡骑士路途，首先选择{@feat 死亡骑士学徒|XUA2026VillainousOptions}专长，随后选择任意一个你选择的死亡骑士路途专长。最后，当你达到第12层或更高等级时，选择{@feat 死亡骑士晋升|XUA2026VillainousOptions}专长。",
 						{
 							"ENG_name": "Death Knight Initiate",
 							"name": "死亡骑士学徒",
@@ -2030,7 +2030,7 @@
 					"type": "entries",
 					"page": 11,
 					"entries": [
-						"以下巫妖之路专长代表角色成为巫妖的一条途径。要完成巫妖之路，首先选择{@feat 巫妖学徒|XUA2026反派选项}专长，随后选择任意其他你选择的巫妖之路专长。最后，当你达到12级或更高等级时，选择{@feat 巫妖升格|XUA2026反派选项}专长。",
+						"以下巫妖之路专长代表角色成为巫妖的一条途径。要完成巫妖之路，首先选择{@feat 巫妖学徒|XUA2026VillainousOptions}专长，随后选择任意其他你选择的巫妖之路专长。最后，当你达到12级或更高等级时，选择{@feat 巫妖升格|XUA2026VillainousOptions}专长。",
 						{
 							"ENG_name": "Lich Initiate",
 							"name": "巫妖学徒",
@@ -2089,7 +2089,7 @@
 			"source": "XUA2026VillainousOptions",
 			"page": 4,
 			"reprintedAs": [
-				"巨兽|XUA2026反派选项更新"
+				"巨兽|XUA2026VillainousOptionsUpdate"
 			],
 			"size": [
 				"L",
@@ -2213,7 +2213,7 @@
 			"source": "XUA2026VillainousOptions",
 			"page": 5,
 			"reprintedAs": [
-				"虫形|XUA2026反派选项更新"
+				"虫形|XUA2026VillainousOptionsUpdate"
 			],
 			"size": [
 				"L",
@@ -2327,7 +2327,7 @@
 			"source": "XUA2026VillainousOptions",
 			"page": 4,
 			"reprintedAs": [
-				"利维坦|XUA2026反派选项更新"
+				"利维坦|XUA2026VillainousOptionsUpdate"
 			],
 			"size": [
 				"L",
@@ -2901,9 +2901,9 @@
 			"page": 3,
 			"colLabels": [
 				"1d4",
-				"{@creature 巨兽|XUA2026反派选项}",
-				"{@creature 利维坦|XUA2026反派选项}",
-				"{@creature 昆虫形态|XUA2026反派选项}"
+				"{@creature 巨兽|XUA2026VillainousOptions}",
+				"{@creature 利维坦|XUA2026VillainousOptions}",
+				"{@creature 虫形|XUA2026VillainousOptions}"
 			],
 			"colStyles": [
 				"col-3 text-center",
@@ -3168,7 +3168,7 @@
 							"type": "section",
 							"page": 9,
 							"entries": [
-								"本节包含两条路途：{@charoption 死亡骑士道途|XUA2026反派选项}和{@charoption 巫妖之道|XUA2026反派选项}。每条路途都提供了一系列代表角色变形为这两种反派原型的专长。",
+								"本节包含两条路途：{@charoption 死亡骑士道途|XUA2026VillainousOptions}和{@charoption 巫妖之道|XUA2026VillainousOptions}。每条路途都提供了一系列代表角色变形为这两种反派原型的专长。",
 								{
 									"ENG_name": "Path of the Death Knight",
 									"name": "死亡骑士路途",

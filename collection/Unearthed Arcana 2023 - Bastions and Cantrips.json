@@ -21,7 +21,7 @@
 		},
 		"edition": "classic",
 		"dateAdded": 1696529407,
-		"dateLastModified": 1792466424,
+		"dateLastModified": 1792551074,
 		"_dateLastModifiedHash": "b1a4044813"
 	},
 	"_test": {
@@ -1059,7 +1059,7 @@
 		},
 		{
 			"ENG_name": "Sanctuary",
-			"name": "庇护术",
+			"name": "庇护",
 			"source": "XUA2023BastionsAndCantrips",
 			"page": 15,
 			"featureType": [
@@ -3775,7 +3775,7 @@
 				[
 					"造船师公会",
 					"交叉的船桨",
-					"你指派造船师建造一艘{@table 坐骑与载具;水运载具|PHB|水运载具}表格中的载具，该表格位于{@book 玩家手册|PHB}。你需要支付载具的全部花费，且工作需要花费1天每1000GP载具的花费（一艘{@item 划艇|DMG}可以在1天内完成）"
+					"你指派造船师建造一艘{@table 坐骑与载具; 水运载具|PHB|水运载具}表格中的载具，该表格位于{@book 玩家手册|PHB}。你需要支付载具的全部花费，且工作需要花费1天每1000GP载具的花费（一艘{@item 划艇|DMG}可以在1天内完成）"
 				],
 				[
 					"盗贼公会",
@@ -3888,7 +3888,7 @@
 				],
 				[
 					"9",
-					"{@optfeature 马厩|XUA2023BastionsAndCantrips}",
+					"{@optfeature 伤势稳定|XUA2023BastionsAndCantrips}",
 					"无",
 					"贸易"
 				],
@@ -3948,7 +3948,7 @@
 				],
 				[
 					"13",
-					"{@optfeature 圣物库|XUA2023BastionsAndCantrips}",
+					"{@optfeature 圣物匣|XUA2023BastionsAndCantrips}",
 					"使用圣徽或德鲁伊法器作为法器的能力",
 					"收获"
 				],

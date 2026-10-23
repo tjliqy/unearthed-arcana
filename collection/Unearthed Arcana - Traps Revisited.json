@@ -18,7 +18,7 @@
 		],
 		"edition": "classic",
 		"dateAdded": 1672604449,
-		"dateLastModified": 1792466349,
+		"dateLastModified": 1792551017,
 		"_dateLastModifiedHash": "b1e8946937"
 	},
 	"trap": [
@@ -1214,7 +1214,7 @@
 										"复合陷阱会反复行动，需要你注意其先攻。与角色和怪物不同，陷阱无需掷骰决定先攻。作为机械或魔法装置，它们以可预测的方式运作。设计复合陷阱时，你必须首先决定其激活频率。复合陷阱分为三类：缓慢术、快速和极快。",
 										{
 											"ENG_name": "Slow",
-											"name": "缓慢术",
+											"name": "缓速",
 											"type": "entries",
 											"id": "029",
 											"page": 12,

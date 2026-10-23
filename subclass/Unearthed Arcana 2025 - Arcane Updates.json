@@ -33,7 +33,7 @@
 		"edition": "one",
 		"status": "ready",
 		"dateAdded": 1758306933,
-		"dateLastModified": 1792465995,
+		"dateLastModified": 1792550688,
 		"_dateLastModifiedHash": "0e567d3e3a"
 	},
 	"_test": {
@@ -1100,7 +1100,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"你的{@subclassFeature 王车易位|法师|XPHB|咒法师|XUA2025ArcaneUpdates|3|XUA2025奥术更新}特性的范围增加到60尺。此外，你现在在完成一次{@variantrule 短休|XPHB|短}或{@variantrule 长休|XPHB}时恢复所有已消耗的使用次数。"
+				"你的{@subclassFeature 王车易位|法师|XPHB|咒法师|XUA2025ArcaneUpdates|3|XUA2025ArcaneUpdates}特性的范围增加到60尺。此外，你现在在完成一次{@variantrule 短休|XPHB|短}或{@variantrule 长休|XPHB}时恢复所有已消耗的使用次数。"
 			]
 		},
 		{
@@ -2703,7 +2703,7 @@
 															"type": "item",
 															"nameDot": false,
 															"entries": [
-																"取代{@subclassFeature 恼人移动|法师|XPHB|惑控师|XUA2025ArcaneSubclasses|3|XUA2025奥法子职}且已被重新设计为使用{@status 专注|XPHB}，在后续回合中释放你的动作。"
+																"取代{@subclassFeature 恼人移动|法师|XPHB|惑控师|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses}且已被重新设计为使用{@status 专注|XPHB}，在后续回合中释放你的动作。"
 															]
 														},
 														{
@@ -2792,7 +2792,7 @@
 															"type": "item",
 															"nameDot": false,
 															"entries": [
-																"（原为{@subclassFeature 亡灵秘密|法师|XPHB|死灵师|XUA2025ArcaneSubclasses|10|XUA2025奥法子职}）已重新设计，当你摧毁一个你控制的亡灵生物时为你复原{@variantrule 生命值|XPHB}。"
+																"（原为{@subclassFeature 亡灵秘密|法师|XPHB|死灵师|XUA2025ArcaneSubclasses|10|XUA2025ArcaneSubclasses}）已重新设计，当你摧毁一个你控制的亡灵生物时为你复原{@variantrule 生命值|XPHB}。"
 															]
 														},
 														{
@@ -2854,7 +2854,7 @@
 															"type": "item",
 															"nameDot": false,
 															"entries": [
-																"取代{@subclassFeature 奇妙增强|法师|XPHB|变化师|XUA2025ArcaneSubclasses|3|XUA2025奥法子职}且为{@spell 变身术|XPHB}法术提供增益。"
+																"取代{@subclassFeature 奇妙增强|法师|XPHB|变化师|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses}且为{@spell 变身术|XPHB}法术提供增益。"
 															]
 														},
 														{
@@ -2863,7 +2863,7 @@
 															"type": "item",
 															"nameDot": false,
 															"entries": [
-																"取代{@subclassFeature 分裂变化|法师|XPHB|变化师|XUA2025ArcaneSubclasses|6|XUA2025奥法子职|孪生变化}且适用于任何可用更高等级法术位施放的变化法术。"
+																"取代{@subclassFeature 分裂变化|法师|XPHB|变化师|XUA2025ArcaneSubclasses|6|XUA2025ArcaneSubclasses|孪生变化}且适用于任何可用更高等级法术位施放的变化法术。"
 															]
 														},
 														{

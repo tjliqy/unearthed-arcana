@@ -18,7 +18,7 @@
 		],
 		"edition": "classic",
 		"dateAdded": 1671807084,
-		"dateLastModified": 1792466360,
+		"dateLastModified": 1792551024,
 		"_dateLastModifiedHash": "0a2cda9ab9"
 	},
 	"book": [
@@ -701,7 +701,7 @@
 										},
 										{
 											"ENG_name": "Hide",
-											"name": "兽皮甲",
+											"name": "躲藏",
 											"type": "entries",
 											"id": "03a",
 											"page": 6,

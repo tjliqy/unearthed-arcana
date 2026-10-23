@@ -19,7 +19,7 @@
 		"edition": "one",
 		"status": "ready",
 		"dateAdded": 1781806232,
-		"dateLastModified": 1792466249,
+		"dateLastModified": 1792550920,
 		"_dateLastModifiedHash": "1ea2fccc09"
 	},
 	"subclass": [
@@ -40,7 +40,7 @@
 							"奇术|XPHB"
 						],
 						"5": [
-							"恐惧|XPHB"
+							"恐惧术|XPHB"
 						],
 						"7": [
 							"火焰护盾|XPHB"
@@ -55,15 +55,15 @@
 				"变巨/缩小术|XPHB",
 				"雷鸣波|XPHB",
 				"奇术|XPHB",
-				"恐惧|XPHB",
+				"恐惧术|XPHB",
 				"火焰护盾|XPHB",
 				"湮灭波|XPHB"
 			],
 			"subclassFeatures": [
-				"泰坦结社|德鲁伊|XPHB|泰坦|XUA2026VillainousOptionsUpdate|3|XUA2026反派选项更新",
-				"恐怖冲击|德鲁伊|XPHB|泰坦|XUA2026VillainousOptionsUpdate|6|XUA2026反派选项更新",
-				"原始浩劫|德鲁伊|XPHB|泰坦|XUA2026VillainousOptionsUpdate|10|XUA2026反派选项更新",
-				"怪物胃口|德鲁伊|XPHB|泰坦|XUA2026VillainousOptionsUpdate|14|XUA2026反派选项更新"
+				"泰坦结社|德鲁伊|XPHB|泰坦|XUA2026VillainousOptionsUpdate|3|XUA2026VillainousOptionsUpdate",
+				"恐怖冲击|德鲁伊|XPHB|泰坦|XUA2026VillainousOptionsUpdate|6|XUA2026VillainousOptionsUpdate",
+				"原始浩劫|德鲁伊|XPHB|泰坦|XUA2026VillainousOptionsUpdate|10|XUA2026VillainousOptionsUpdate",
+				"怪物胃口|德鲁伊|XPHB|泰坦|XUA2026VillainousOptionsUpdate|14|XUA2026VillainousOptionsUpdate"
 			],
 			"hasFluff": true
 		},
@@ -89,7 +89,7 @@
 							"降咒|XPHB"
 						],
 						"7": [
-							"巨虫|XPHB",
+							"巨虫术|XPHB",
 							"幻景|XPHB"
 						],
 						"9": [
@@ -109,17 +109,17 @@
 				"蛛网术|XPHB",
 				"解除魔法|XPHB",
 				"降咒|XPHB",
-				"巨虫|XPHB",
+				"巨虫术|XPHB",
 				"幻景|XPHB",
 				"异界探知|XPHB",
 				"篡改记忆|XPHB",
 				"邪魔召唤术|XPHB"
 			],
 			"subclassFeatures": [
-				"恶魔语巫术|术士|XPHB|恶魔语|XUA2026VillainousOptionsUpdate|3|XUA2026反派选项更新",
-				"深渊领域|术士|XPHB|恶魔语|XUA2026VillainousOptionsUpdate|6|XUA2026反派选项更新",
-				"深渊导管|术士|XPHB|恶魔语|XUA2026VillainousOptionsUpdate|14|XUA2026反派选项更新",
-				"深渊爆炸|术士|XPHB|恶魔语|XUA2026VillainousOptionsUpdate|18|XUA2026反派选项更新"
+				"恶魔语巫术|术士|XPHB|恶魔语|XUA2026VillainousOptionsUpdate|3|XUA2026VillainousOptionsUpdate",
+				"深渊领域|术士|XPHB|恶魔语|XUA2026VillainousOptionsUpdate|6|XUA2026VillainousOptionsUpdate",
+				"深渊导管|术士|XPHB|恶魔语|XUA2026VillainousOptionsUpdate|14|XUA2026VillainousOptionsUpdate",
+				"深渊爆炸|术士|XPHB|恶魔语|XUA2026VillainousOptionsUpdate|18|XUA2026VillainousOptionsUpdate"
 			],
 			"hasFluff": true
 		},
@@ -132,12 +132,12 @@
 			"classSource": "XPHB",
 			"page": 4,
 			"subclassFeatures": [
-				"地狱骑士|战士|XPHB|地狱骑士|XUA2026VillainousOptionsUpdate|3|XUA2026反派选项更新",
-				"进阶创伤|战士|XPHB|地狱骑士|XUA2026VillainousOptionsUpdate|7|XUA2026反派选项更新",
-				"炼狱装备|战士|XPHB|地狱骑士|XUA2026VillainousOptionsUpdate|7|XUA2026反派选项更新",
-				"地狱火崩天疾驰|战士|XPHB|地狱骑士|XUA2026VillainousOptionsUpdate|10|XUA2026反派选项更新",
-				"魔鬼厄运|战士|XPHB|地狱骑士|XUA2026VillainousOptionsUpdate|15|XUA2026反派选项更新",
-				"炼狱契约|战士|XPHB|地狱骑士|XUA2026VillainousOptionsUpdate|18|XUA2026反派选项更新"
+				"地狱骑士|战士|XPHB|地狱骑士|XUA2026VillainousOptionsUpdate|3|XUA2026VillainousOptionsUpdate",
+				"进阶创伤|战士|XPHB|地狱骑士|XUA2026VillainousOptionsUpdate|7|XUA2026VillainousOptionsUpdate",
+				"炼狱装备|战士|XPHB|地狱骑士|XUA2026VillainousOptionsUpdate|7|XUA2026VillainousOptionsUpdate",
+				"地狱火崩天疾驰|战士|XPHB|地狱骑士|XUA2026VillainousOptionsUpdate|10|XUA2026VillainousOptionsUpdate",
+				"魔鬼厄运|战士|XPHB|地狱骑士|XUA2026VillainousOptionsUpdate|15|XUA2026VillainousOptionsUpdate",
+				"炼狱契约|战士|XPHB|地狱骑士|XUA2026VillainousOptionsUpdate|18|XUA2026VillainousOptionsUpdate"
 			],
 			"hasFluff": true
 		}
@@ -193,11 +193,11 @@
 				"当文明侵犯自然世界\u2014\u2014通过砍伐远古林地、污染圣水或将野生动物猎杀至灭绝边缘\u2014\u2014泰坦结社的德鲁伊便会介入。此秩序的德鲁伊相信，为了让自然繁荣，社会有时必须衰落。为此，他们化身高耸的怪物形态，施加灾难性的复仇，并强制地恢复自然秩序。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "泰坦结社法术|德鲁伊|XPHB|泰坦|XUA2026反派选项更新|3|XUA2026反派选项更新"
+					"subclassFeature": "泰坦结社法术|德鲁伊|XPHB|泰坦|XUA2026VillainousOptionsUpdate|3|XUA2026VillainousOptionsUpdate"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "泰坦形态|德鲁伊|XPHB|泰坦|XUA2026反派选项更新|3|XUA2026反派选项更新"
+					"subclassFeature": "泰坦形态|德鲁伊|XPHB|泰坦|XUA2026VillainousOptionsUpdate|3|XUA2026VillainousOptionsUpdate"
 				}
 			]
 		},
@@ -214,7 +214,7 @@
 			"header": 2,
 			"entries": [
 				"当你达到{@table 泰坦结社法术|XUA2026VillainousOptionsUpdate}表格中指定的德鲁伊等级时，你将始终准备所列出的法术。",
-				"此外，当你处于你的{@subclassFeature 泰坦形态|德鲁伊|XPHB|泰坦|XUA2026反派选项更新|3|XUA2026反派选项更新}时，你可以施放此特性中的法术。",
+				"此外，当你处于你的{@subclassFeature 泰坦形态|德鲁伊|XPHB|泰坦|XUA2026VillainousOptionsUpdate|3|XUA2026VillainousOptionsUpdate}时，你可以施放此特性中的法术。",
 				{
 					"ENG_name": "Circle of the Titan Spells",
 					"name": "泰坦结社法术",
@@ -237,9 +237,9 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"当你使用{@classFeature 荒野形态|德鲁伊|XPHB|2|XPHB}时，你可以变身为泰坦形态，从本子职描述后文提供的{@creature 巨兽|XUA2026反派选项更新}、{@creature 利维坦|XUA2026反派选项更新}和{@creature 昆虫形态|XUA2026反派选项更新}数据卡中选择其一。你可以在泰坦形态中维持10分钟，而非若干小时。",
+				"当你使用{@classFeature 荒野形态|德鲁伊|XPHB|2|XPHB}时，你可以变身为泰坦形态，从本子职描述后文提供的{@creature 巨兽|XUA2026VillainousOptionsUpdate}、{@creature 利维坦|XUA2026VillainousOptionsUpdate}和{@creature 虫形|XUA2026VillainousOptionsUpdate}数据卡中选择其一。你可以在泰坦形态中维持10分钟，而非若干小时。",
 				"每种泰坦形态都会在你达到指定的德鲁伊等级时获得额外增益，如其各自的资料卡所述。适用于你野兽形态的特性也适用于你的泰坦形态。",
-				"你决定你的泰坦形态看起来如何。掷骰或从{@table 泰坦形态|XUA2026VillainousOptionsUpdate}表格中选择，以激发你形态外貌的各个方面。",
+				"你决定你的泰坦形态看起来如何。掷骰或从{@table 泰坦外貌|XUA2026VillainousOptionsUpdate}表格中选择，以激发你形态外貌的各个方面。",
 				{
 					"ENG_name": "Titan Appearance",
 					"name": "泰坦外貌",
@@ -430,15 +430,15 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "魔鬼赠礼|战士|XPHB|地狱骑士|XUA2026反派选项更新|3|XUA2026反派选项更新"
+					"subclassFeature": "魔鬼赠礼|战士|XPHB|地狱骑士|XUA2026VillainousOptionsUpdate|3|XUA2026VillainousOptionsUpdate"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "地狱锻造武器|战士|XPHB|地狱骑士|XUA2026反派选项更新|3|XUA2026反派选项更新"
+					"subclassFeature": "地狱锻造武器|战士|XPHB|地狱骑士|XUA2026VillainousOptionsUpdate|3|XUA2026VillainousOptionsUpdate"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "炼狱创伤|战士|XPHB|地狱骑士|XUA2026反派选项更新|3|XUA2026反派选项更新"
+					"subclassFeature": "炼狱创伤|战士|XPHB|地狱骑士|XUA2026VillainousOptionsUpdate|3|XUA2026VillainousOptionsUpdate"
 				}
 			]
 		},
@@ -472,7 +472,7 @@
 							"name": "魔鬼天赋",
 							"type": "item",
 							"entries": [
-								"你知晓{@language 炼狱}，即魔鬼的语言。如果你已经知晓{@language 炼狱}，则你学会一门自选的其他语言。",
+								"你知晓{@language 炼狱语}，即魔鬼的语言。如果你已经知晓{@language 炼狱语}，则你学会一门自选的其他语言。",
 								"你还可以从以下技能中选择一项获得熟练项：{@skill 欺瞒}、{@skill 表演}或{@skill 巧手}。"
 							]
 						}
@@ -508,7 +508,7 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"你的{@subclassFeature 地狱锻造武器|战士|XPHB|地狱骑士|XUA2026反派选项更新|3|XUA2026反派选项更新}可以造成炼狱创伤。",
+				"你的{@subclassFeature 地狱锻造武器|战士|XPHB|地狱骑士|XUA2026VillainousOptionsUpdate|3|XUA2026VillainousOptionsUpdate}可以造成炼狱创伤。",
 				{
 					"type": "list",
 					"style": "list-hang-subtrait",
@@ -526,7 +526,7 @@
 							"name": "造成炼狱创伤",
 							"type": "item",
 							"entries": [
-								"当你用你的{@subclassFeature 地狱锻造武器|战士|XPHB|地狱骑士|XUA2026反派选项更新|3|XUA2026反派选项更新}命中一个生物时，你可以造成等同于你掷一次炼狱创伤骰的额外伤害。此额外伤害的类型与你为武器灌注地狱火时所选择的类型相同。如果目标尚未拥有炼狱创伤，你也会使其获得一个炼狱创伤。",
+								"当你用你的{@subclassFeature 地狱锻造武器|战士|XPHB|地狱骑士|XUA2026VillainousOptionsUpdate|3|XUA2026VillainousOptionsUpdate}命中一个生物时，你可以造成等同于你掷一次炼狱创伤骰的额外伤害。此额外伤害的类型与你为武器灌注地狱火时所选择的类型相同。如果目标尚未拥有炼狱创伤，你也会使其获得一个炼狱创伤。",
 								"当目标以此方式受伤时，在其每回合开始时，它会受到一次你的炼狱创伤骰掷骰结果的、所选伤害类型的伤害。该创伤持续1分钟，直到目标恢复{@variantrule 生命值|XPHB}，或者直到目标或目标5尺内的一个生物用一个动作止住伤口。",
 								"你可以使用此特性的次数等于你的体质调整值（至少一次）。当你完成一次{@variantrule 短休|XPHB|短}或{@variantrule 长休|XPHB}后，你恢复所有已消耗的使用次数。"
 							]
@@ -706,11 +706,11 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "深渊裂隙|术士|XPHB|恶魔语|XUA2026反派选项更新|3|XUA2026反派选项更新"
+					"subclassFeature": "深渊裂隙|术士|XPHB|恶魔语|XUA2026VillainousOptionsUpdate|3|XUA2026VillainousOptionsUpdate"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "恶魔语法术|术士|XPHB|恶魔语|XUA2026反派选项更新|3|XUA2026反派选项更新"
+					"subclassFeature": "恶魔语法术|术士|XPHB|恶魔语|XUA2026VillainousOptionsUpdate|3|XUA2026VillainousOptionsUpdate"
 				}
 			]
 		},
@@ -786,7 +786,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"当你作为施放一个{@action 魔法|XPHB}动作或一个{@variantrule 附赠动作|XPHB}附赠动作的一部分，在你的回合消耗至少1点术法点时，你可以从无底深渊汲取影响力。当你这样做时，你会创造一个以你为源点、半径10尺的{@variantrule 光环 [效应区域]|XPHB|光环}光环，或者用来自以下无底深渊层级之一的魔法，填满你的{@subclassFeature 深渊裂隙|术士|XPHB|恶魔语|XUA2026反派选项更新|3|XUA2026反派选项更新}深渊裂隙的{@variantrule 球状 [效应区域]|XPHB|球状}球状区域。如果一个效应需要进行豁免检定，其DC等于{@dcYourSpellSave}。",
+				"当你作为施放一个{@action 魔法|XPHB}动作或一个{@variantrule 附赠动作|XPHB}附赠动作的一部分，在你的回合消耗至少1点术法点时，你可以从无底深渊汲取影响力。当你这样做时，你会创造一个以你为源点、半径10尺的{@variantrule 光环 [效应区域]|XPHB|光环}光环，或者用来自以下无底深渊层级之一的魔法，填满你的{@subclassFeature 深渊裂隙|术士|XPHB|恶魔语|XUA2026VillainousOptionsUpdate|3|XUA2026VillainousOptionsUpdate}深渊裂隙的{@variantrule 球状 [效应区域]|XPHB|球状}球状区域。如果一个效应需要进行豁免检定，其DC等于{@dcYourSpellSave}。",
 				{
 					"type": "list",
 					"style": "list-hang-subtrait",
@@ -841,7 +841,7 @@
 							"name": "裂隙扩张",
 							"type": "item",
 							"entries": [
-								"你的{@subclassFeature 深渊裂隙|术士|XPHB|恶魔语|XUA2026反派选项更新|3|XUA2026反派选项更新}的体型现在是一个30尺半径的{@variantrule 球状 [效应区域]|XPHB|球状}区域，并且该区域对你的敌人来说是{@variantrule 困难地形|XPHB}。"
+								"你的{@subclassFeature 深渊裂隙|术士|XPHB|恶魔语|XUA2026VillainousOptionsUpdate|3|XUA2026VillainousOptionsUpdate}的体型现在是一个30尺半径的{@variantrule 球状 [效应区域]|XPHB|球状}区域，并且该区域对你的敌人来说是{@variantrule 困难地形|XPHB}。"
 							]
 						},
 						{
@@ -850,7 +850,7 @@
 							"type": "item",
 							"entries": [
 								"你总是准备着{@spell 邪魔召唤术|XPHB}法术。当你施放该法术时，你可以将其修改为不需要{@status 专注|XPHB}。当你这样做时，该法术的持续时间变为1分钟，并且你在召唤邪魔时必须选择恶魔。",
-								"此外，当邪魔宗主位于你的{@subclassFeature 深渊裂隙|术士|XPHB|恶魔语|XUA2026反派选项更新|3|XUA2026反派选项更新}内时，其攻击检定具有{@variantrule 优势|XPHB}。"
+								"此外，当邪魔宗主位于你的{@subclassFeature 深渊裂隙|术士|XPHB|恶魔语|XUA2026VillainousOptionsUpdate|3|XUA2026VillainousOptionsUpdate}内时，其攻击检定具有{@variantrule 优势|XPHB}。"
 							]
 						}
 					]
@@ -1324,7 +1324,7 @@
 					"ENG_name": "Rend",
 					"name": "撕裂",
 					"entries": [
-						"{@atkr m} {@hitYourSpellAttack}，触及10尺。{@h}{@damage 1d8}加上你的感知调整值的挥砍伤害。当你的德鲁伊等级达到6级（{@damage 2d8}）和12级（{@damage 3d8}）时，此伤害增加{@damage 1d8}。"
+						"{@atkr m} {@hitYourSpellAttack}，触及10尺。{@h}{@damage 1d8}加上你的感知调整值的挥砍伤害。当你达到德鲁伊6级（{@damage 2d8}）和12级（{@damage 3d8}）时，此伤害增加{@damage 1d8}。"
 					]
 				},
 				{
@@ -1455,7 +1455,7 @@
 					"ENG_name": "Rend",
 					"name": "撕裂",
 					"entries": [
-						"{@atkr m} {@hitYourSpellAttack}，触及10尺。{@h}{@damage 1d8}加上你的感知调整值的穿刺伤害。当你达到德鲁伊6级（{@damage 2d8}）和12级（{@damage 3d8}）时，此伤害增加{@damage 1d8}。"
+						"{@atkr m} {@hitYourSpellAttack}，触及10尺。{@h}{@damage 1d8}加上你的感知调整值的穿刺伤害。当你的德鲁伊等级达到6级（{@damage 2d8}）和12级（{@damage 3d8}）时，此伤害增加{@damage 1d8}。"
 					]
 				},
 				{
@@ -1758,9 +1758,9 @@
 			"page": 2,
 			"colLabels": [
 				"1d4",
-				"{@creature 巨兽|XUA2026反派选项更新}",
-				"{@creature 利维坦|XUA2026反派选项更新}",
-				"{@creature 昆虫形态|XUA2026反派选项更新}"
+				"{@creature 巨兽|XUA2026VillainousOptionsUpdate}",
+				"{@creature 利维坦|XUA2026VillainousOptionsUpdate}",
+				"{@creature 虫形|XUA2026VillainousOptionsUpdate}"
 			],
 			"colStyles": [
 				"col-3 text-center",

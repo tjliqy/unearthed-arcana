@@ -18,7 +18,7 @@
 		],
 		"edition": "classic",
 		"dateAdded": 1663844222,
-		"dateLastModified": 1792466445,
+		"dateLastModified": 1792551083,
 		"_dateLastModifiedHash": "1cab1b9499"
 	},
 	"_test": {
@@ -7744,7 +7744,7 @@
 			"entries": [
 				{
 					"ENG_name": "Light",
-					"name": "缓速",
+					"name": "轻型",
 					"type": "entries",
 					"entries": [
 						"当你在你的回合中采取{@action 攻击|XUA2023PlayersHandbookP5}动作且一只手使用轻型武器攻击且另一只手持有轻型武器时，你可以作为同一动作的一部分进行一次额外攻击。该额外攻击必须使用另一只手的轻型武器进行，且你不将属性调整值添加到额外攻击的伤害上。你只能在每个回合中进行一次这种额外攻击。",
@@ -7861,7 +7861,7 @@
 		},
 		{
 			"ENG_name": "Slow",
-			"name": "缓慢术",
+			"name": "缓速",
 			"source": "XUA2023PlayersHandbookP5",
 			"entries": [
 				"如果你用此武器命中一个生物且对其造成伤害，你可以缩小其10尺速度直到你的下个回合开始。如果你用此属性命中该生物超过一次，速度缩小不会超过10尺。"
@@ -10572,7 +10572,7 @@
 		},
 		{
 			"ENG_name": "Hide",
-			"name": "兽皮甲",
+			"name": "躲藏",
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 46,
 			"time": [

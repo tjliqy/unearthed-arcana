@@ -19,7 +19,7 @@
 		"edition": "one",
 		"status": "ready",
 		"dateAdded": 1761853046,
-		"dateLastModified": 1792466014,
+		"dateLastModified": 1792550704,
 		"_dateLastModifiedHash": "9ef934dcdf"
 	},
 	"subclass": [
@@ -148,17 +148,17 @@
 		{
 			"ENG_name": "Warrior of Intoxication",
 			"name": "沉醉战士",
-			"shortName": "醉意",
+			"shortName": "沉醉",
 			"source": "XUA2025SubclassesUpdate",
 			"className": "武僧",
 			"classSource": "XPHB",
 			"page": 4,
 			"subclassFeatures": [
-				"沉醉战士|武僧|XPHB|醉意|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate",
-				"酣醉若狂|武僧|XPHB|醉意|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate",
-				"秘术酿造|武僧|XPHB|醉意|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate",
-				"大师酿酒师|武僧|XPHB|醉意|XUA2025SubclassesUpdate|11|XUA2025SubclassesUpdate",
-				"酣醉若狂|武僧|XPHB|醉意|XUA2025SubclassesUpdate|17|XUA2025SubclassesUpdate"
+				"沉醉战士|武僧|XPHB|沉醉|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate",
+				"酣醉若狂|武僧|XPHB|沉醉|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate",
+				"秘术酿造|武僧|XPHB|沉醉|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate",
+				"大师酿酒师|武僧|XPHB|沉醉|XUA2025SubclassesUpdate|11|XUA2025SubclassesUpdate",
+				"酣醉若狂|武僧|XPHB|沉醉|XUA2025SubclassesUpdate|17|XUA2025SubclassesUpdate"
 			],
 			"hasFluff": true
 		}
@@ -379,7 +379,7 @@
 		{
 			"ENG_name": "Warrior of Intoxication",
 			"name": "沉醉战士",
-			"shortName": "醉意",
+			"shortName": "沉醉",
 			"source": "XUA2025SubclassesUpdate",
 			"className": "武僧",
 			"classSource": "XPHB",
@@ -387,7 +387,7 @@
 				"{@i 饮用秘术佳酿以压制且迷惑敌人}",
 				{
 					"ENG_name": "Design Note: Warrior of Intoxication Updates",
-					"name": "设计笔记：醉意战士更新",
+					"name": "设计笔记：沉醉战士更新",
 					"type": "inset",
 					"page": 4,
 					"entries": [
@@ -411,7 +411,7 @@
 									"type": "item",
 									"nameDot": false,
 									"entries": [
-										"是一个新特性，取代了{@subclassFeature 醉汉机运|武僧|PHB|醉拳|XGE|11|XGE}。该特性为{@subclassFeature 秘术酿造|武僧|XPHB|醉意|XUA2025SubclassesUpdate|6|XUA2025子职更新}增加了额外的饮品选项。"
+										"是一个新特性，取代了{@subclassFeature 醉汉机运|武僧|PHB|醉拳|XGE|11|XGE}。该特性为{@subclassFeature 秘术酿造|武僧|XPHB|沉醉|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate}增加了额外的饮品选项。"
 									]
 								}
 							]
@@ -664,7 +664,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"即使你的灵光未激活，风暴也会为你提供增益。这些增益基于你上次进入{@classFeature 狂暴|野蛮人|XPHB|1|XPHB}时为你的{@subclassFeature 风暴灵光|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|3|XUA2025子职更新}选择的环境。",
+				"即使你的灵光未激活，风暴也会为你提供增益。这些增益基于你上次进入{@classFeature 狂暴|野蛮人|XPHB|1|XPHB}时为你的{@subclassFeature 风暴灵光|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate}选择的环境。",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "荒漠|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
@@ -736,7 +736,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"你可以运用风暴的精通来保护他人。你选择的每个处于你的{@subclassFeature 风暴灵光|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|3|XUA2025子职更新}范围内的生物，都将获得来自{@subclassFeature 风暴之魂|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|6|XUA2025子职更新}特性的{@variantrule 抗性|XPHB}伤害。"
+				"你可以运用风暴的精通来保护他人。你选择的每个处于你的{@subclassFeature 风暴灵光|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate}范围内的生物，都将获得来自{@subclassFeature 风暴之魂|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate}特性的{@variantrule 抗性|XPHB}伤害。"
 			]
 		},
 		{
@@ -793,7 +793,7 @@
 			"level": 14,
 			"header": 3,
 			"entries": [
-				"无论目标是否通过对抗你{@subclassFeature 风暴灵光|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|3|XUA2025子职更新}效应的豁免检定，一道闪电都会从目标跃向30尺内你指定的另一个目标。新目标需进行与第一个目标相同的敏捷豁免检定。"
+				"无论目标是否通过对抗你{@subclassFeature 风暴灵光|野蛮人|XPHB|风暴先声|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate}效应的豁免检定，一道闪电都会从目标跃向30尺内你指定的另一个目标。新目标需进行与第一个目标相同的敏捷豁免检定。"
 			]
 		},
 		{
@@ -954,7 +954,7 @@
 			"page": 4,
 			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "醉意",
+			"subclassShortName": "沉醉",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 3,
 			"header": 1,
@@ -963,11 +963,11 @@
 				"沉醉武者常以愚者姿态为落魄者带来欢乐，或教导傲慢者谦逊，但这些武僧在战斗中却是令人发狂的精湛对手。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "附赠熟练|武僧|XPHB|醉意|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+					"subclassFeature": "附赠熟练|武僧|XPHB|沉醉|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "醉拳技巧|武僧|XPHB|醉意|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+					"subclassFeature": "醉拳技巧|武僧|XPHB|沉醉|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
 				}
 			]
 		},
@@ -978,7 +978,7 @@
 			"page": 4,
 			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "醉意",
+			"subclassShortName": "沉醉",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 3,
 			"header": 2,
@@ -993,7 +993,7 @@
 			"page": 4,
 			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "醉意",
+			"subclassShortName": "沉醉",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 3,
 			"header": 2,
@@ -1008,7 +1008,7 @@
 			"page": 4,
 			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "醉意",
+			"subclassShortName": "沉醉",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 6,
 			"header": 2,
@@ -1036,15 +1036,15 @@
 					"items": [
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "肉桂龙|武僧|XPHB|醉意|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
+							"subclassFeature": "肉桂龙|武僧|XPHB|沉醉|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "天界精魄|武僧|XPHB|醉意|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
+							"subclassFeature": "天界精魄|武僧|XPHB|沉醉|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "清爽浸浴|武僧|XPHB|醉意|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
+							"subclassFeature": "清爽浸浴|武僧|XPHB|沉醉|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
 						}
 					]
 				},
@@ -1066,7 +1066,7 @@
 			"page": 4,
 			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "醉意",
+			"subclassShortName": "沉醉",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 6,
 			"header": 2,
@@ -1074,11 +1074,11 @@
 				"你可以以突然、摇摆的方式移动。你获得以下增益。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "鲤鱼打挺|武僧|XPHB|醉意|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
+					"subclassFeature": "鲤鱼打挺|武僧|XPHB|沉醉|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "借力打力|武僧|XPHB|醉意|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
+					"subclassFeature": "借力打力|武僧|XPHB|沉醉|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
 				}
 			]
 		},
@@ -1089,7 +1089,7 @@
 			"page": 5,
 			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "醉意",
+			"subclassShortName": "沉醉",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 6,
 			"header": 3,
@@ -1104,7 +1104,7 @@
 			"page": 5,
 			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "醉意",
+			"subclassShortName": "沉醉",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 6,
 			"header": 3,
@@ -1119,7 +1119,7 @@
 			"page": 4,
 			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "醉意",
+			"subclassShortName": "沉醉",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 6,
 			"header": 3,
@@ -1134,7 +1134,7 @@
 			"page": 4,
 			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "醉意",
+			"subclassShortName": "沉醉",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 6,
 			"header": 3,
@@ -1154,7 +1154,7 @@
 			"page": 5,
 			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "醉意",
+			"subclassShortName": "沉醉",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 6,
 			"header": 3,
@@ -1169,12 +1169,12 @@
 			"page": 5,
 			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "醉意",
+			"subclassShortName": "沉醉",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"你学会了更复杂的风味。以下饮品被添加到你的{@subclassFeature 秘术酿造|武僧|XPHB|醉意|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate}选项中。",
+				"你学会了更复杂的风味。以下饮品被添加到你的{@subclassFeature 秘术酿造|武僧|XPHB|沉醉|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate}选项中。",
 				{
 					"type": "list",
 					"page": 5,
@@ -1182,11 +1182,11 @@
 					"items": [
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "蓝闪电|武僧|XPHB|醉意|XUA2025SubclassesUpdate|11|XUA2025SubclassesUpdate"
+							"subclassFeature": "蓝闪电|武僧|XPHB|沉醉|XUA2025SubclassesUpdate|11|XUA2025SubclassesUpdate"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "醉汉机运|武僧|XPHB|醉意|XUA2025SubclassesUpdate|11|XUA2025SubclassesUpdate"
+							"subclassFeature": "醉汉机运|武僧|XPHB|沉醉|XUA2025SubclassesUpdate|11|XUA2025SubclassesUpdate"
 						}
 					]
 				}
@@ -1199,7 +1199,7 @@
 			"page": 5,
 			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "醉意",
+			"subclassShortName": "沉醉",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 11,
 			"header": 3,
@@ -1214,7 +1214,7 @@
 			"page": 5,
 			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "醉意",
+			"subclassShortName": "沉醉",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 11,
 			"header": 3,
@@ -1229,7 +1229,7 @@
 			"page": 5,
 			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "醉意",
+			"subclassShortName": "沉醉",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 17,
 			"header": 2,
@@ -1510,7 +1510,7 @@
 			"source": "XUA2025SubclassesUpdate",
 			"className": "武僧",
 			"classSource": "XPHB",
-			"subclassShortName": "醉意",
+			"subclassShortName": "沉醉",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 3,
 			"entryData": {
@@ -1629,7 +1629,7 @@
 							"depth": 1
 						},
 						{
-							"header": "醉意战士（武僧）",
+							"header": "沉醉战士（武僧）",
 							"depth": 1
 						},
 						{
@@ -1880,14 +1880,14 @@
 								},
 								{
 									"ENG_name": "Warrior of Intoxication (Monk)",
-									"name": "醉意战士（武僧）",
+									"name": "沉醉战士（武僧）",
 									"type": "entries",
 									"page": 4,
 									"entries": [
 										"{@i 饮用秘术佳酿以压制且迷惑敌人}",
 										{
 											"ENG_name": "Design Note: Warrior of Intoxication Updates",
-											"name": "设计笔记：醉意战士更新",
+											"name": "设计笔记：沉醉战士更新",
 											"type": "inset",
 											"page": 4,
 											"entries": [
@@ -1911,7 +1911,7 @@
 															"type": "item",
 															"nameDot": false,
 															"entries": [
-																"是一个新特性，取代了{@subclassFeature 醉汉机运|武僧|PHB|醉拳|XGE|11|XGE}。该特性为{@subclassFeature 秘术酿造|武僧|XPHB|醉意|XUA2025SubclassesUpdate|6|XUA2025子职更新}增加了额外的饮品选项。"
+																"是一个新特性，取代了{@subclassFeature 醉汉机运|武僧|PHB|醉拳|XGE|11|XGE}。该特性为{@subclassFeature 秘术酿造|武僧|XPHB|沉醉|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate}增加了额外的饮品选项。"
 															]
 														}
 													]
@@ -1923,7 +1923,7 @@
 											"name": "沉醉战士",
 											"type": "statblock",
 											"prop": "subclass",
-											"shortName": "醉意",
+											"shortName": "沉醉",
 											"className": "武僧",
 											"classSource": "XPHB",
 											"source": "XUA2025SubclassesUpdate",

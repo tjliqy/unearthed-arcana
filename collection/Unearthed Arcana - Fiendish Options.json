@@ -18,7 +18,7 @@
 		],
 		"edition": "classic",
 		"dateAdded": 1701616429,
-		"dateLastModified": 1792466316,
+		"dateLastModified": 1792550988,
 		"_dateLastModifiedHash": "098a83c5c5"
 	},
 	"subrace": [
@@ -203,13 +203,13 @@
 		},
 		{
 			"ENG_name": "Glasya",
-			"name": "格莱西亚",
+			"name": "格莱西雅",
 			"source": "UAFiendishOptions",
 			"raceName": "提夫林",
 			"raceSource": "PHB",
 			"page": 2,
 			"reprintedAs": [
-				"提夫林 (格莱西亚)|MTF"
+				"提夫林 (格莱西雅)|MTF"
 			],
 			"ability": [
 				{
@@ -653,9 +653,9 @@
 				"entry": "{@spell 交友术} （戏法）, {@spell 魅惑类人} （1环法术）, {@spell 隐形术} （2环法术）, {@spell 加速术} （3环法术）"
 			},
 			"entries": [
-				"格拉西亚擅长发现法律漏洞并为自己谋利，她是小偷和其他罪犯的守护神，特别是腐败贵族。她的影响本应加强家庭纽带，但她对这一点有着自由的解释，并提供可以反过来对付家庭成员的礼物。",
-				"{@creature 地精||地精}冒险反抗他们的{@creature 大地精}主人与格拉西亚结盟，同样结盟的还有组成犯罪团伙的{@creature 天狗}。",
-				"格莱西亚授予魅力与敏捷的提升。此外，邪教徒可以获得步入幽影特质。邪教领袖还可以获得地狱领袖特质。",
+				"格莱西雅擅长发现法律漏洞并为自己谋利，她是小偷和其他罪犯的守护神，特别是腐败贵族。她的影响本应加强家庭纽带，但她对这一点有着自由的解释，并提供可以反过来对付家庭成员的礼物。",
+				"{@creature 地精||地精}冒险反抗他们的{@creature 大地精}主人与格莱西雅结盟，同样结盟的还有组成犯罪团伙的{@creature 天狗}。",
+				"格莱西雅授予魅力与敏捷的提升。此外，邪教徒可以获得步入幽影特质。邪教领袖还可以获得地狱领袖特质。",
 				{
 					"ENG_name": "Step into Shadows (Recharges after a Short or Long Rest)",
 					"name": "步入阴影（短休或长休后充能）",

@@ -19,7 +19,7 @@
 		"edition": "one",
 		"status": "ready",
 		"dateAdded": 1734452950,
-		"dateLastModified": 1792466145,
+		"dateLastModified": 1792550833,
 		"_dateLastModifiedHash": "bcb820e4f1"
 	},
 	"_test": {
@@ -3385,7 +3385,7 @@
 				"psychic"
 			],
 			"entries": [
-				"{@note 由{@subclassFeature 魔能炮台|奇械师|XUA2024奇械师|魔炮师|XUA2024奇械师|3}子职特性创造。}"
+				"{@note 由{@subclassFeature 魔能炮台|奇械师|XUA2024Artificer|魔炮师|XUA2024Artificer|3}子职特性创造。}"
 			],
 			"actionEntries": [
 				{

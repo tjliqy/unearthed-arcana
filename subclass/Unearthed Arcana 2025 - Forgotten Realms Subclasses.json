@@ -19,7 +19,7 @@
 		"edition": "one",
 		"status": "ready",
 		"dateAdded": 1738085408,
-		"dateLastModified": 1792466002,
+		"dateLastModified": 1792550691,
 		"_dateLastModifiedHash": "add0250380"
 	},
 	"subclass": [
@@ -83,7 +83,7 @@
 		{
 			"ENG_name": "Knowledge Domain",
 			"name": "知识领域",
-			"shortName": "了解",
+			"shortName": "知识",
 			"source": "XUA2025ForgottenRealmsSubclasses",
 			"className": "牧师",
 			"classSource": "XPHB",
@@ -112,7 +112,7 @@
 						],
 						"9": [
 							"通晓传奇|XPHB",
-							"探知|XPHB",
+							"探知术|XPHB",
 							"突触静止|XPHB"
 						]
 					}
@@ -132,13 +132,13 @@
 				"放逐术|XPHB",
 				"困惑术|XPHB",
 				"通晓传奇|XPHB",
-				"探知|XPHB",
+				"探知术|XPHB",
 				"突触静止|XPHB"
 			],
 			"subclassFeatures": [
-				"知识领域|牧师|XPHB|了解|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses",
-				"无拘心智|牧师|XPHB|了解|XUA2025ForgottenRealmsSubclasses|6|XUA2025ForgottenRealmsSubclasses",
-				"神圣预知|牧师|XPHB|了解|XUA2025ForgottenRealmsSubclasses|17|XUA2025ForgottenRealmsSubclasses"
+				"知识领域|牧师|XPHB|知识|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses",
+				"无拘心智|牧师|XPHB|知识|XUA2025ForgottenRealmsSubclasses|6|XUA2025ForgottenRealmsSubclasses",
+				"神圣预知|牧师|XPHB|知识|XUA2025ForgottenRealmsSubclasses|17|XUA2025ForgottenRealmsSubclasses"
 			],
 			"hasFluff": true
 		},
@@ -444,7 +444,7 @@
 		{
 			"ENG_name": "Knowledge Domain",
 			"name": "知识领域",
-			"shortName": "了解",
+			"shortName": "知识",
 			"source": "XUA2025ForgottenRealmsSubclasses",
 			"className": "牧师",
 			"classSource": "XPHB",
@@ -782,7 +782,7 @@
 			"page": 2,
 			"className": "牧师",
 			"classSource": "XPHB",
-			"subclassShortName": "了解",
+			"subclassShortName": "知识",
 			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
 			"level": 3,
 			"entries": [
@@ -796,7 +796,7 @@
 			"page": 2,
 			"className": "牧师",
 			"classSource": "XPHB",
-			"subclassShortName": "了解",
+			"subclassShortName": "知识",
 			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
 			"level": 3,
 			"entries": [
@@ -804,15 +804,15 @@
 				"知识领域的神明从奥术魔法的大师到制造与发明的赞助人各不相同。对他们而言，知识比物质财富更有价值，而学习的欲望本身就是一种崇拜行为。图书馆、大学和其他致力于教育的机构也汲取了知识领域的力量。在费伦，知识领域的牧师崇拜诸如{@deity 欧格玛|费伦|SCAG}和{@deity 贡德|费伦|SCAG}这样的学识与创造力之神。其他强大的神明\u2014\u2014如{@deity 阿斯蒙蒂斯|费伦|SCAG}、{@deity 密斯特拉|费伦|SCAG}、{@deity 萨弗拉斯|费伦|SCAG}和{@deity 耶格|费伦|SCAG}\u2014\u2014也有知识领域的牧师作为信徒，不那么常见的神明如{@deity 迪尼尔|费伦|SCAG}、{@deity 欧格玛|费伦|SCAG}的抄写员和{@deity 阿祖斯|费伦|SCAG}、{@deity 密斯特拉|费伦|SCAG}的仆役也是如此。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "知识祝福|牧师|XPHB|了解|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses"
+					"subclassFeature": "知识祝福|牧师|XPHB|知识|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "知识领域法术|牧师|XPHB|了解|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses"
+					"subclassFeature": "知识领域法术|牧师|XPHB|知识|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "思维魔法|牧师|XPHB|了解|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses"
+					"subclassFeature": "思维魔法|牧师|XPHB|知识|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses"
 				}
 			]
 		},
@@ -823,7 +823,7 @@
 			"page": 2,
 			"className": "牧师",
 			"classSource": "XPHB",
-			"subclassShortName": "了解",
+			"subclassShortName": "知识",
 			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
 			"level": 3,
 			"entries": [
@@ -845,7 +845,7 @@
 			"page": 3,
 			"className": "牧师",
 			"classSource": "XPHB",
-			"subclassShortName": "了解",
+			"subclassShortName": "知识",
 			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
 			"level": 3,
 			"consumes": {
@@ -864,7 +864,7 @@
 			"page": 3,
 			"className": "牧师",
 			"classSource": "XPHB",
-			"subclassShortName": "了解",
+			"subclassShortName": "知识",
 			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
 			"level": 6,
 			"header": 2,
@@ -879,7 +879,7 @@
 			"page": 3,
 			"className": "牧师",
 			"classSource": "XPHB",
-			"subclassShortName": "了解",
+			"subclassShortName": "知识",
 			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
 			"level": 17,
 			"header": 2,
@@ -2026,7 +2026,7 @@
 			"source": "XUA2025ForgottenRealmsSubclasses",
 			"className": "牧师",
 			"classSource": "XPHB",
-			"subclassShortName": "了解",
+			"subclassShortName": "知识",
 			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
 			"level": 3,
 			"entries": [
@@ -2676,7 +2676,7 @@
 											"name": "知识领域",
 											"type": "statblock",
 											"prop": "subclass",
-											"shortName": "了解",
+											"shortName": "知识",
 											"className": "牧师",
 											"classSource": "XPHB",
 											"source": "XUA2025ForgottenRealmsSubclasses",

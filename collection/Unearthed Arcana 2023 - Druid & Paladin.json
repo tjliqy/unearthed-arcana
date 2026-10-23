@@ -23,7 +23,7 @@
 		},
 		"edition": "classic",
 		"dateAdded": 1663844222,
-		"dateLastModified": 1792466433,
+		"dateLastModified": 1792551078,
 		"_dateLastModifiedHash": "fa1830183c"
 	},
 	"_test": {
@@ -3096,7 +3096,7 @@
 			"entries": [
 				{
 					"ENG_name": "Light",
-					"name": "光亮术",
+					"name": "轻型",
 					"type": "entries",
 					"entries": [
 						"当你在你的回合使用{@action 攻击|XUA2023DruidAndPaladin}动作且用一只手攻击轻型武器并在另一只手持有轻型武器时，你可以作为同一动作的一部分进行一次额外攻击。该额外攻击必须用另一只手的轻型武器进行，且你不将属性调整值加到额外攻击的伤害上。你只能在每个回合进行一次这种额外攻击。",
@@ -5632,7 +5632,7 @@
 			"source": "XUA2023DruidAndPaladin",
 			"page": 23,
 			"entries": [
-				"{@note 当一名玩家角色的生命值降至0时，该角色将获得濒死状态，这将取代2014年《玩家手册》（第197页）中的以下规则：「坠落{@condition 昏迷|XUA2023德鲁伊与圣武士}」、「死亡豁免检定」且「稳定伤势」。}",
+				"{@note 当一名玩家角色的生命值降至0时，该角色将获得濒死状态，这将取代2014年《玩家手册》（第197页）中的以下规则：「坠落{@condition 昏迷|XUA2023DruidAndPaladin}」、「死亡豁免检定」且「稳定伤势」。}",
 				"处于濒死状态时，你会体验到以下效应：",
 				{
 					"type": "list",
@@ -6006,7 +6006,7 @@
 		},
 		{
 			"ENG_name": "Hide",
-			"name": "兽皮甲",
+			"name": "躲藏",
 			"source": "XUA2023DruidAndPaladin",
 			"page": 24,
 			"time": [

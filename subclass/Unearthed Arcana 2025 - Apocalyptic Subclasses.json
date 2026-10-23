@@ -19,7 +19,7 @@
 		"edition": "one",
 		"status": "ready",
 		"dateAdded": 1755803795,
-		"dateLastModified": 1792465982,
+		"dateLastModified": 1792550672,
 		"_dateLastModifiedHash": "66cb4a6d0d"
 	},
 	"subclass": [
@@ -89,7 +89,7 @@
 		{
 			"ENG_name": "Defiled Sorcery",
 			"name": "亵渎法术",
-			"shortName": "亵渎者",
+			"shortName": "亵渎",
 			"source": "XUA2025ApocalypticSubclasses",
 			"className": "术士",
 			"classSource": "XPHB",
@@ -131,10 +131,10 @@
 				"疫病术|XPHB"
 			],
 			"subclassFeatures": [
-				"亵渎法术|术士|XPHB|亵渎者|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses",
-				"腐化施法者|术士|XPHB|亵渎者|XUA2025ApocalypticSubclasses|6|XUA2025ApocalypticSubclasses",
-				"枯萎灵气|术士|XPHB|亵渎者|XUA2025ApocalypticSubclasses|14|XUA2025ApocalypticSubclasses",
-				"高阶亵渎者|术士|XPHB|亵渎者|XUA2025ApocalypticSubclasses|18|XUA2025ApocalypticSubclasses"
+				"亵渎法术|术士|XPHB|亵渎|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses",
+				"腐化施法者|术士|XPHB|亵渎|XUA2025ApocalypticSubclasses|6|XUA2025ApocalypticSubclasses",
+				"枯萎灵气|术士|XPHB|亵渎|XUA2025ApocalypticSubclasses|14|XUA2025ApocalypticSubclasses",
+				"高阶亵渎|术士|XPHB|亵渎|XUA2025ApocalypticSubclasses|18|XUA2025ApocalypticSubclasses"
 			],
 			"hasFluff": true
 		},
@@ -236,7 +236,7 @@
 		{
 			"ENG_name": "Defiled Sorcery",
 			"name": "亵渎法术",
-			"shortName": "亵渎者",
+			"shortName": "亵渎",
 			"source": "XUA2025ApocalypticSubclasses",
 			"className": "术士",
 			"classSource": "XPHB",
@@ -431,15 +431,15 @@
 							"name": "加固保护者",
 							"type": "item",
 							"entries": [
-								"当你和你的盟友处于由你的{@subclassFeature 保留地|德鲁伊|XPHB|存护|XUA2025ApocalypticSubclasses|3|XUA2025末日子职}创造的{@variantrule 立方 [效应区域]|XPHB|立方}内时，你和你的盟友获得等同于你感知调整值的体质豁免检定加值（至少为+1）。"
+								"当你和你的盟友处于由你的{@subclassFeature 保留地|德鲁伊|XPHB|存护|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses}创造的{@variantrule 立方 [效应区域]|XPHB|立方}内时，你和你的盟友获得等同于你感知调整值的体质豁免检定加值（至少为+1）。"
 							]
 						},
 						{
 							"ENG_name": "Reject Desecrators",
-							"name": "拒绝亵渎者",
+							"name": "拒绝亵渎",
 							"type": "item",
 							"entries": [
-								"每当你由{@subclassFeature 保留地|德鲁伊|XPHB|存护|XUA2025ApocalypticSubclasses|3|XUA2025末日子职}创造的{@variantrule 立方 [效应区域]|XPHB|立方}进入一个敌人的空间，或每当一个敌人进入{@variantrule 立方 [效应区域]|XPHB|立方}或在其内结束回合时，该敌人需进行一次对抗你法术豁免DC的感知豁免检定。豁免失败时，敌人受到{@damage 2d10}光耀伤害，且其{@variantrule 速度|XPHB}减半直至其下个回合结束，新生的繁花滋长会阻碍它。豁免成功时，敌人仅受到一半伤害。敌人每回合仅需进行一次此豁免。"
+								"每当你由{@subclassFeature 保留地|德鲁伊|XPHB|存护|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses}创造的{@variantrule 立方 [效应区域]|XPHB|立方}进入一个敌人的空间，或每当一个敌人进入{@variantrule 立方 [效应区域]|XPHB|立方}或在其内结束回合时，该敌人需进行一次对抗你法术豁免DC的感知豁免检定。豁免失败时，敌人受到{@damage 2d10}光耀伤害，且其{@variantrule 速度|XPHB}减半直至其下个回合结束，新生的繁花滋长会阻碍它。豁免成功时，敌人仅受到一半伤害。敌人每回合仅需进行一次此豁免。"
 							]
 						}
 					]
@@ -474,7 +474,7 @@
 			"header": 2,
 			"entries": [
 				"由你的{@subclassFeature 保留地|德鲁伊|XPHB|存护|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses}创造的{@variantrule 立方 [效应区域]|XPHB|立方}的体型增加到30尺{@variantrule 立方 [效应区域]|XPHB|立方}。",
-				"此外，当你在你的{@subclassFeature 保留地|德鲁伊|XPHB|存护|XUA2025ApocalypticSubclasses|3|XUA2025末日子职}区域内能看见的一个生物被攻击检定命中时，你可以采取一个{@variantrule 反应|XPHB}来使该攻击对该生物造成的伤害减半。"
+				"此外，当你在你的{@subclassFeature 保留地|德鲁伊|XPHB|存护|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses}区域内能看见的一个生物被攻击检定命中时，你可以采取一个{@variantrule 反应|XPHB}来使该攻击对该生物造成的伤害减半。"
 			]
 		},
 		{
@@ -769,7 +769,7 @@
 			"page": 4,
 			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "亵渎者",
+			"subclassShortName": "亵渎",
 			"subclassSource": "XUA2025ApocalypticSubclasses",
 			"level": 3,
 			"header": 1,
@@ -777,11 +777,11 @@
 				"你的内在法力从周围世界汲取生命精华。在你的命令术下，生物会生病且植物会枯萎成空壳。你从生命本身的腐化中汲取力量，消耗生命力来为破坏性魔法提供燃料。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "污染和增强|术士|XPHB|亵渎者|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses"
+					"subclassFeature": "污染和增强|术士|XPHB|亵渎|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "亵渎者法术|术士|XPHB|亵渎者|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses"
+					"subclassFeature": "亵渎法术|术士|XPHB|亵渎|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses"
 				}
 			]
 		},
@@ -792,7 +792,7 @@
 			"page": 4,
 			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "亵渎者",
+			"subclassShortName": "亵渎",
 			"subclassSource": "XUA2025ApocalypticSubclasses",
 			"level": 3,
 			"header": 2,
@@ -817,20 +817,20 @@
 		},
 		{
 			"ENG_name": "Defiler Spells",
-			"name": "亵渎者法术",
+			"name": "亵渎法术",
 			"source": "XUA2025ApocalypticSubclasses",
 			"page": 4,
 			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "亵渎者",
+			"subclassShortName": "亵渎",
 			"subclassSource": "XUA2025ApocalypticSubclasses",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"每当你达到{@class 术士|XPHB}表格中{@table 亵渎者法术|XUA2025ApocalypticSubclasses}指定的等级时，你此后始终准备着列出的法术。",
+				"每当你达到{@class 术士|XPHB}表格中{@table 亵渎法术|XUA2025ApocalypticSubclasses}指定的等级时，你此后始终准备着列出的法术。",
 				{
 					"ENG_name": "Defiler Spells",
-					"name": "亵渎者法术",
+					"name": "亵渎法术",
 					"type": "statblock",
 					"tag": "table",
 					"source": "XUA2025ApocalypticSubclasses",
@@ -845,7 +845,7 @@
 			"page": 4,
 			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "亵渎者",
+			"subclassShortName": "亵渎",
 			"subclassSource": "XUA2025ApocalypticSubclasses",
 			"level": 6,
 			"header": 2,
@@ -858,7 +858,7 @@
 					"items": [
 						{
 							"ENG_name": "Defiler's Ward",
-							"name": "亵渎者之护",
+							"name": "亵渎之护",
 							"type": "item",
 							"entries": [
 								"当你使用一个{@variantrule 附赠动作|XPHB}将术法点转化为法术位时，你可以用污化能量编织一个具有安全感的蛛网术环绕你的身体。掷骰等同于所创造法术位等级的{@dice d6|d6s}数量。你获得等同于全部掷骰结果的{@variantrule 临时生命值|XPHB}。",
@@ -884,7 +884,7 @@
 			"page": 4,
 			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "亵渎者",
+			"subclassShortName": "亵渎",
 			"subclassSource": "XUA2025ApocalypticSubclasses",
 			"level": 14,
 			"header": 2,
@@ -917,12 +917,12 @@
 		},
 		{
 			"ENG_name": "Superior Defiler",
-			"name": "高阶亵渎者",
+			"name": "高阶亵渎",
 			"source": "XUA2025ApocalypticSubclasses",
 			"page": 4,
 			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "亵渎者",
+			"subclassShortName": "亵渎",
 			"subclassSource": "XUA2025ApocalypticSubclasses",
 			"level": 18,
 			"header": 2,
@@ -946,7 +946,7 @@
 							"name": "深度亵渎",
 							"type": "item",
 							"entries": [
-								"你的{@subclassFeature 枯萎灵气|术士|XPHB|亵渎者|XUA2025ApocalypticSubclasses|14|XUA2025ApocalypticSubclasses}的体型增加到30尺{@variantrule 光环 [效应区域]|XPHB|光环}。此外，敌人在你的灵气范围内无法恢复{@variantrule 生命值|XPHB}。"
+								"你的{@subclassFeature 枯萎灵气|术士|XPHB|亵渎|XUA2025ApocalypticSubclasses|14|XUA2025ApocalypticSubclasses}的体型增加到30尺{@variantrule 光环 [效应区域]|XPHB|光环}。此外，敌人在你的灵气范围内无法恢复{@variantrule 生命值|XPHB}。"
 							]
 						}
 					]
@@ -1163,11 +1163,11 @@
 		},
 		{
 			"ENG_name": "Superior Defiler",
-			"name": "高阶亵渎者",
+			"name": "高阶亵渎",
 			"source": "XUA2025ApocalypticSubclasses",
 			"className": "术士",
 			"classSource": "XPHB",
-			"subclassShortName": "亵渎者",
+			"subclassShortName": "亵渎",
 			"subclassSource": "XUA2025ApocalypticSubclasses",
 			"level": 18,
 			"entryData": {
@@ -1236,7 +1236,7 @@
 		},
 		{
 			"ENG_name": "Defiler Spells",
-			"name": "亵渎者法术",
+			"name": "亵渎法术",
 			"type": "table",
 			"source": "XUA2025ApocalypticSubclasses",
 			"page": 4,
@@ -1474,7 +1474,7 @@
 											"name": "亵渎法术",
 											"type": "statblock",
 											"prop": "subclass",
-											"shortName": "亵渎者",
+											"shortName": "亵渎",
 											"className": "术士",
 											"classSource": "XPHB",
 											"source": "XUA2025ApocalypticSubclasses",

@@ -34,7 +34,7 @@
 		"edition": "one",
 		"status": "ready",
 		"dateAdded": 1759589353,
-		"dateLastModified": 1792466154,
+		"dateLastModified": 1792550845,
 		"_dateLastModifiedHash": "90cddc336f"
 	},
 	"_test": {
@@ -202,7 +202,7 @@
 				"假象术|XPHB",
 				"篡改记忆|XPHB",
 				"拉瑞心灵联结|XPHB",
-				"探知|XPHB",
+				"探知术|XPHB",
 				"伪装术|XPHB",
 				"突触静止|XPHB",
 				"心灵遥控|XPHB",
@@ -1841,7 +1841,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"当你使用{@subclassFeature 可变形态|灵能使|XUA2025PsionUpdate|变形|XUA2025PsionUpdate|3|XUA2025灵能使更新}时，持续时间增加至10分钟且你获得下列一个自选的增益，其效应持续至{@subclassFeature 可变形态|灵能使|XUA2025PsionUpdate|变形|XUA2025PsionUpdate|3|XUA2025灵能使更新}结束。",
+				"当你使用{@subclassFeature 可变形态|灵能使|XUA2025PsionUpdate|变形|XUA2025PsionUpdate|3|XUA2025PsionUpdate}时，持续时间增加至10分钟且你获得下列一个自选的增益，其效应持续至{@subclassFeature 可变形态|灵能使|XUA2025PsionUpdate|变形|XUA2025PsionUpdate|3|XUA2025PsionUpdate}结束。",
 				{
 					"type": "entries",
 					"entries": [
@@ -5311,8 +5311,8 @@
 													"items": [
 														"{@subclassFeature 可变形态|灵能使|XUA2025PsionUpdate|变形|XUA2025PsionUpdate|3|XUA2025PsionUpdate}（原为{@subclassFeature 延伸肢体|灵能使|XUA2025Psion|变形|XUA2025Psion|3|XUA2025Psion}）现在会从消耗的灵能骰中提供{@variantrule 临时生命值|XPHB}。",
 														"{@subclassFeature 有机武器|灵能使|XUA2025PsionUpdate|变形|XUA2025PsionUpdate|3|XUA2025PsionUpdate}现在会保持其形态，直到你改变它或处于昏迷状态。此外，如果该子职被正式发布，未来产品中将出现为有机武器提供增益的魔法物品。",
-														"{@subclassFeature 血肉织物店|灵能使|XUA2025PsionUpdate|变形|XUA2025PsionUpdate|6|XUA2025灵能使更新} 是一个新特性。",
-														"{@subclassFeature 生命扭曲武器|灵能使|XUA2025PsionUpdate|变形|XUA2025PsionUpdate|14|XUA2025灵能使更新}现在无需消耗灵能骰即可提供额外伤害。"
+														"{@subclassFeature 血肉织物店|灵能使|XUA2025PsionUpdate|变形|XUA2025PsionUpdate|6|XUA2025PsionUpdate} 是一个新特性。",
+														"{@subclassFeature 生命扭曲武器|灵能使|XUA2025PsionUpdate|变形|XUA2025PsionUpdate|14|XUA2025PsionUpdate}现在无需消耗灵能骰即可提供额外伤害。"
 													]
 												}
 											]
@@ -5346,9 +5346,9 @@
 												{
 													"type": "list",
 													"items": [
-														"{@subclassFeature 更强的心灵遥控|灵能使|XUA2025PsionUpdate|心灵动能|XUA2025PsionUpdate|3|XUA2025灵能使更新} 是一个新特性。",
-														"{@subclassFeature 念动力技巧|灵能使|XUA2025PsionUpdate|心灵动能|XUA2025PsionUpdate|3|XUA2025灵能使更新} 现在允许灵能使比其他灵能使更频繁地使用念动力推进。",
-														"{@subclassFeature 毁灭出神|灵能使|XUA2025PsionUpdate|心灵动能|XUA2025PsionUpdate|6|XUA2025灵能使更新}（原为{@subclassFeature 强化攻击模式|灵能使|XUA2025Psion|心灵动能|XUA2025Psion|6|XUA2025灵能使}）不再使用灵能模式，且你可以添加一个灵能骰到你的法术伤害而不消耗它。",
+														"{@subclassFeature 更强的心灵遥控|灵能使|XUA2025PsionUpdate|心灵动能|XUA2025PsionUpdate|3|XUA2025PsionUpdate} 是一个新特性。",
+														"{@subclassFeature 念动力技巧|灵能使|XUA2025PsionUpdate|心灵动能|XUA2025PsionUpdate|3|XUA2025PsionUpdate} 现在允许灵能使比其他灵能使更频繁地使用念动力推进。",
+														"{@subclassFeature 毁灭出神|灵能使|XUA2025PsionUpdate|心灵动能|XUA2025PsionUpdate|6|XUA2025PsionUpdate}（原为{@subclassFeature 强化攻击模式|灵能使|XUA2025Psion|心灵动能|XUA2025Psion|6|XUA2025Psion}）不再使用灵能模式，且你可以添加一个灵能骰到你的法术伤害而不消耗它。",
 														"{@subclassFeature 反弹力场|灵能使|XUA2025PsionUpdate|心灵动能|XUA2025PsionUpdate|6|XUA2025PsionUpdate} 无论目标是否通过豁免检定，都会获得{@variantrule 临时生命值|XPHB}。",
 														"{@subclassFeature 强化念动力镇压|灵能使|XUA2025PsionUpdate|心灵动能|XUA2025PsionUpdate|10|XUA2025PsionUpdate}现在会将消耗的灵能骰加到调整后法术的伤害上。",
 														"{@subclassFeature 强化心灵遥控|灵能使|XUA2025PsionUpdate|心灵动能|XUA2025PsionUpdate|14|XUA2025PsionUpdate}现在仅需要灵能能量骰子且不消耗法术位。"
@@ -5387,7 +5387,7 @@
 													"items": [
 														"{@subclassFeature 心灵渗透者|灵能使|XUA2025PsionUpdate|心灵感应|XUA2025PsionUpdate|3|XUA2025PsionUpdate} 现在仅消耗一个灵能骰。",
 														"{@subclassFeature 心灵感应法术|灵能使|XUA2025PsionUpdate|心灵感应|XUA2025PsionUpdate|3|XUA2025PsionUpdate}有新法术。",
-														"{@subclassFeature 心灵感应纷扰|灵能使|XUA2025PsionUpdate|心灵感应|XUA2025PsionUpdate|3|XUA2025灵能使更新}是一个新特性，取代了{@subclassFeature 心灵感应中枢|灵能使|XUA2025Psion|心灵感应|XUA2025Psion|3|XUA2025灵能使}。",
+														"{@subclassFeature 心灵感应纷扰|灵能使|XUA2025PsionUpdate|心灵感应|XUA2025PsionUpdate|3|XUA2025PsionUpdate}是一个新特性，取代了{@subclassFeature 心灵感应中枢|灵能使|XUA2025Psion|心灵感应|XUA2025Psion|3|XUA2025Psion}。",
 														"{@subclassFeature 意志壁垒|灵能使|XUA2025PsionUpdate|心灵感应|XUA2025PsionUpdate|6|XUA2025PsionUpdate}（原为{@subclassFeature 强化防御模式|灵能使|XUA2025Psion|心灵感应|XUA2025Psion|6|XUA2025Psion}）不再使用灵能模式，且你可以将一个灵能骰添加到豁免检定中而不消耗它。",
 														"{@subclassFeature 强力思维|灵能使|XUA2025PsionUpdate|心灵感应|XUA2025PsionUpdate|6|XUA2025PsionUpdate} 现在还会增加你心灵感应的范围。",
 														"{@subclassFeature 扰乱心智|灵能使|XUA2025PsionUpdate|心灵感应|XUA2025PsionUpdate|14|XUA2025PsionUpdate}现在不消耗法术位且允许灵能使选择目标的行为而非掷骰。"

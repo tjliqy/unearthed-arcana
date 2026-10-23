@@ -22,7 +22,7 @@
 		"edition": "one",
 		"status": "ready",
 		"dateAdded": 1750964106,
-		"dateLastModified": 1792465989,
+		"dateLastModified": 1792550680,
 		"_dateLastModifiedHash": "e653290217"
 	},
 	"_test": {
@@ -2048,7 +2048,7 @@
 					"type": "entries",
 					"page": 7,
 					"entries": [
-						"当你的{@subclassFeature 咒剑诅咒|魔契师|XPHB|咒剑|XUA2025ArcaneSubclasses|3|XUA2025奥法子职}的目标在距离你30尺或更远的地方结束其回合时，你可以朝目标方向直线移动最多你的{@variantrule 速度|XPHB}。"
+						"当你的{@subclassFeature 咒剑诅咒|魔契师|XPHB|咒剑|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses}的目标在距离你30尺或更远的地方结束其回合时，你可以朝目标方向直线移动最多你的{@variantrule 速度|XPHB}。"
 					]
 				}
 			]
@@ -2096,7 +2096,7 @@
 					"type": "entries",
 					"page": 7,
 					"entries": [
-						"当你对被你的{@subclassFeature 咒剑诅咒|魔契师|XPHB|咒剑|XUA2025ArcaneSubclasses|3|XUA2025奥法子职}诅咒的目标造成伤害时，你可以使你的诅咒带着邪恶能量爆炸。目标和你在30尺{@variantrule 光环 [效应区域]|XPHB|光环}内选择的每个生物受到{@damage 3d6}暗蚀、心灵或光耀伤害（由你选择），且它们的{@variantrule 速度|XPHB}减少10尺直到你的下个回合开始。一旦你使用此增益，在完成一次{@variantrule 长休|XPHB}前不能再次使用，除非你消耗一个{@classFeature 契约魔法|魔契师|XPHB|1|XPHB}位来复原其使用（无需动作）。"
+						"当你对被你的{@subclassFeature 咒剑诅咒|魔契师|XPHB|咒剑|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses}诅咒的目标造成伤害时，你可以使你的诅咒带着邪恶能量爆炸。目标和你在30尺{@variantrule 光环 [效应区域]|XPHB|光环}内选择的每个生物受到{@damage 3d6}暗蚀、心灵或光耀伤害（由你选择），且它们的{@variantrule 速度|XPHB}减少10尺直到你的下个回合开始。一旦你使用此增益，在完成一次{@variantrule 长休|XPHB}前不能再次使用，除非你消耗一个{@classFeature 契约魔法|魔契师|XPHB|1|XPHB}位来复原其使用（无需动作）。"
 					]
 				},
 				{
@@ -2177,7 +2177,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"你的{@subclassFeature 王车易位|法师|XPHB|咒法师|XUA2025ArcaneSubclasses|3|XUA2025奥法子职}特性的范围增加到60尺。此外，当你完成一次{@variantrule 短休|XPHB|短}或{@variantrule 长休|XPHB}时，你可以恢复其消耗的使用次数。"
+				"你的{@subclassFeature 王车易位|法师|XPHB|咒法师|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses}特性的范围增加到60尺。此外，当你完成一次{@variantrule 短休|XPHB|短}或{@variantrule 长休|XPHB}时，你可以恢复其消耗的使用次数。"
 			]
 		},
 		{
@@ -2222,7 +2222,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"你可以将{@subclassFeature 王车易位|法师|XPHB|咒法师|XUA2025ArcaneSubclasses|3|XUA2025奥法子职}作为{@variantrule 附赠动作|XPHB}使用。",
+				"你可以将{@subclassFeature 王车易位|法师|XPHB|咒法师|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses}作为{@variantrule 附赠动作|XPHB}使用。",
 				"你也可以在被一个你能看见的生物进行攻击检定时，使用{@subclassFeature 王车易位|法师|XPHB|咒法师|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses}作为{@variantrule 反应|XPHB}，但只能与一个愿意的生物交换位置。与你交换位置的生物将成为该攻击的目标。"
 			]
 		},

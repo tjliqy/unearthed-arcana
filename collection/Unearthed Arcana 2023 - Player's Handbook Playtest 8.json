@@ -27,7 +27,7 @@
 		},
 		"edition": "classic",
 		"dateAdded": 1701114642,
-		"dateLastModified": 1792466226,
+		"dateLastModified": 1792550896,
 		"_dateLastModifiedHash": "dc6e1acd00"
 	},
 	"class": [
@@ -5187,7 +5187,7 @@
 			"entries": [
 				{
 					"ENG_name": "Light",
-					"name": "光亮术",
+					"name": "轻型",
 					"type": "entries",
 					"entries": [
 						"当你在你的回合使用{@action 攻击|XUA2023PlayersHandbookP8}动作且用一把轻型武器攻击时，你可以在同一回合后文以一个附赠动作进行一次额外攻击。该额外攻击必须用另一把轻型武器进行，且你不将你的属性调整值加到额外攻击的伤害上，除非该调整值为负值。",
@@ -6508,7 +6508,7 @@
 		},
 		{
 			"ENG_name": "Hide",
-			"name": "兽皮甲",
+			"name": "躲藏",
 			"source": "XUA2023PlayersHandbookP8",
 			"page": 26,
 			"time": [
@@ -7942,7 +7942,7 @@
 								},
 								{
 									"ENG_name": "Light",
-									"name": "光亮术",
+									"name": "轻型",
 									"type": "entries",
 									"id": "022",
 									"page": 22,
@@ -8196,7 +8196,7 @@
 						},
 						{
 							"ENG_name": "Hide",
-							"name": "兽皮甲",
+							"name": "躲藏",
 							"type": "statblock",
 							"tag": "action",
 							"source": "XUA2023PlayersHandbookP8",

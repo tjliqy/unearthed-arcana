@@ -18,7 +18,7 @@
 		],
 		"edition": "classic",
 		"dateAdded": 1701616429,
-		"dateLastModified": 1792466290,
+		"dateLastModified": 1792550966,
 		"_dateLastModifiedHash": "2a5bf43294"
 	},
 	"classFeature": [
@@ -2193,7 +2193,7 @@
 			"page": 4,
 			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "了解",
+			"subclassShortName": "知识",
 			"subclassSource": "PHB",
 			"level": 8,
 			"isClassFeatureVariant": true,
@@ -2227,7 +2227,7 @@
 			"page": 4,
 			"className": "牧师",
 			"classSource": "PHB",
-			"subclassShortName": "光亮术",
+			"subclassShortName": "光明",
 			"subclassSource": "PHB",
 			"level": 8,
 			"isClassFeatureVariant": true,

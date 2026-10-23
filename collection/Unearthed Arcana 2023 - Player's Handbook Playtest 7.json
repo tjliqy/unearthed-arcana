@@ -24,7 +24,7 @@
 		},
 		"edition": "classic",
 		"dateAdded": 1691158917,
-		"dateLastModified": 1792466212,
+		"dateLastModified": 1792550889,
 		"_dateLastModifiedHash": "eb1cc8a0a9"
 	},
 	"_test": {
@@ -2158,16 +2158,16 @@
 		{
 			"ENG_name": "Diviner",
 			"name": "预言师",
-			"shortName": "预言术",
+			"shortName": "预言",
 			"source": "XUA2023PlayersHandbookP7",
 			"className": "法师",
 			"classSource": "XUA2023PlayersHandbookP7",
 			"page": 40,
 			"subclassFeatures": [
-				"预言师|法师|XUA2023PlayersHandbookP7|预言术|XUA2023PlayersHandbookP7|3",
-				"预言专家|法师|XUA2023PlayersHandbookP7|预言术|XUA2023PlayersHandbookP7|6",
-				"天眼通|法师|XUA2023PlayersHandbookP7|预言术|XUA2023PlayersHandbookP7|10",
-				"高等预兆|法师|XUA2023PlayersHandbookP7|预言术|XUA2023PlayersHandbookP7|14"
+				"预言师|法师|XUA2023PlayersHandbookP7|预言|XUA2023PlayersHandbookP7|3",
+				"预言专家|法师|XUA2023PlayersHandbookP7|预言|XUA2023PlayersHandbookP7|6",
+				"天眼通|法师|XUA2023PlayersHandbookP7|预言|XUA2023PlayersHandbookP7|10",
+				"高等预兆|法师|XUA2023PlayersHandbookP7|预言|XUA2023PlayersHandbookP7|14"
 			]
 		},
 		{
@@ -6481,18 +6481,18 @@
 			"page": 40,
 			"className": "法师",
 			"classSource": "XUA2023PlayersHandbookP7",
-			"subclassShortName": "预言术",
+			"subclassShortName": "预言",
 			"subclassSource": "XUA2023PlayersHandbookP7",
 			"level": 3,
 			"entries": [
 				"预言师的建议被那些寻求更清晰理解过去、现在和未来的人所寻求。作为预言师，你努力揭开空间、时间和意识的帷幕，以便能看得更清楚。你致力于掌握洞察法术、遥远视野、超自然知识和预见术。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "预言学者|法师|XUA2023PlayersHandbookP7|预言术|XUA2023PlayersHandbookP7|3"
+					"subclassFeature": "预言学者|法师|XUA2023PlayersHandbookP7|预言|XUA2023PlayersHandbookP7|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "预兆|法师|XUA2023PlayersHandbookP7|预言术|XUA2023PlayersHandbookP7|3"
+					"subclassFeature": "预兆|法师|XUA2023PlayersHandbookP7|预言|XUA2023PlayersHandbookP7|3"
 				}
 			]
 		},
@@ -6503,13 +6503,13 @@
 			"page": 40,
 			"className": "法师",
 			"classSource": "XUA2023PlayersHandbookP7",
-			"subclassShortName": "预言术",
+			"subclassShortName": "预言",
 			"subclassSource": "XUA2023PlayersHandbookP7",
 			"level": 3,
 			"header": 1,
 			"entries": [
 				"从法师法术列表中选择两项预言系法术，每项法术必须不高于2级，且免费将它们添加到你的法术书中。",
-				"此外，每当你获得该职业新等级的法术位时，你可以免费将一个预言术法术从法师法术列表添加到你的法术书中。"
+				"此外，每当你获得该职业新等级的法术位时，你可以免费将一个预言法术从法师法术列表添加到你的法术书中。"
 			]
 		},
 		{
@@ -6519,7 +6519,7 @@
 			"page": 41,
 			"className": "法师",
 			"classSource": "XUA2023PlayersHandbookP7",
-			"subclassShortName": "预言术",
+			"subclassShortName": "预言",
 			"subclassSource": "XUA2023PlayersHandbookP7",
 			"level": 3,
 			"header": 1,
@@ -6535,7 +6535,7 @@
 			"page": 41,
 			"className": "法师",
 			"classSource": "XUA2023PlayersHandbookP7",
-			"subclassShortName": "预言术",
+			"subclassShortName": "预言",
 			"subclassSource": "XUA2023PlayersHandbookP7",
 			"level": 6,
 			"header": 2,
@@ -6550,7 +6550,7 @@
 			"page": 41,
 			"className": "法师",
 			"classSource": "XUA2023PlayersHandbookP7",
-			"subclassShortName": "预言术",
+			"subclassShortName": "预言",
 			"subclassSource": "XUA2023PlayersHandbookP7",
 			"level": 10,
 			"header": 2,
@@ -6589,7 +6589,7 @@
 			"page": 41,
 			"className": "法师",
 			"classSource": "XUA2023PlayersHandbookP7",
-			"subclassShortName": "预言术",
+			"subclassShortName": "预言",
 			"subclassSource": "XUA2023PlayersHandbookP7",
 			"level": 14,
 			"header": 2,
@@ -9192,7 +9192,7 @@
 		},
 		{
 			"ENG_name": "Whip",
-			"name": "鞭击",
+			"name": "鞭子",
 			"type": "M",
 			"source": "XUA2023PlayersHandbookP7",
 			"page": 45,
@@ -9288,7 +9288,7 @@
 			"entries": [
 				{
 					"ENG_name": "Light",
-					"name": "缓速",
+					"name": "轻型",
 					"type": "entries",
 					"entries": [
 						"当你在你的回合使用{@action 攻击|XUA2023PlayersHandbookP7}动作且用轻型武器攻击时，你可以在同一回合的后文以一个附赠动作进行一次额外攻击。该额外攻击必须使用另一把轻型武器，且你不将属性调整值加到额外攻击的伤害上，除非该调整值为负数。",
@@ -10602,7 +10602,7 @@
 							"name": "协助属性检定",
 							"type": "item",
 							"entries": [
-								"选择一项你的技能或{@variantrule 工具熟练项|XUA2023PlayersHandbookP7|工具熟练项}且一个能感知到你的盟友。你给予该盟友在下一次使用所选技能或工具进行的属性检定上优势。若盟友在你的下个回合开始前未使用此增益，则增益失效。要提供此协助，你必须足够靠近盟友以便在其进行检定时口头或身体上协助。DM最终决定你的协助是否可行。"
+								"选择一项你的技能或{@variantrule 工具熟练|XUA2023PlayersHandbookP7|工具熟练}且一个能感知到你的盟友。你给予该盟友在下一次使用所选技能或工具进行的属性检定上优势。若盟友在你的下个回合开始前未使用此增益，则增益失效。要提供此协助，你必须足够靠近盟友以便在其进行检定时口头或身体上协助。DM最终决定你的协助是否可行。"
 							]
 						},
 						{
@@ -10619,7 +10619,7 @@
 		},
 		{
 			"ENG_name": "Hide",
-			"name": "兽皮甲",
+			"name": "躲藏",
 			"source": "XUA2023PlayersHandbookP7",
 			"page": 49,
 			"time": [
@@ -13750,7 +13750,7 @@
 																	"type": "item",
 																	"nameDot": false,
 																	"entries": [
-																		"现在每当你在此职业中获得新等级的法术位时，都会将一个预言术法术添加到你的法术书中。此增益取代了很少使用的折扣。"
+																		"现在每当你在此职业中获得新等级的法术位时，都会将一个预言法术添加到你的法术书中。此增益取代了很少使用的折扣。"
 																	]
 																},
 																{
@@ -13771,7 +13771,7 @@
 													"name": "预言师",
 													"type": "statblock",
 													"prop": "subclass",
-													"shortName": "预言术",
+													"shortName": "预言",
 													"className": "法师",
 													"classSource": "XUA2023PlayersHandbookP7",
 													"source": "XUA2023PlayersHandbookP7",
@@ -14225,7 +14225,7 @@
 								},
 								{
 									"ENG_name": "Light",
-									"name": "光亮术",
+									"name": "轻型",
 									"type": "entries",
 									"id": "050",
 									"page": 46,
@@ -14489,7 +14489,7 @@
 						},
 						{
 							"ENG_name": "Hide",
-							"name": "兽皮甲",
+							"name": "躲藏",
 							"type": "statblock",
 							"tag": "action",
 							"source": "XUA2023PlayersHandbookP7",

@@ -23,7 +23,7 @@
 		},
 		"edition": "classic",
 		"dateAdded": 1672604449,
-		"dateLastModified": 1792466388,
+		"dateLastModified": 1792551046,
 		"_dateLastModifiedHash": "4782890824"
 	},
 	"class": [
@@ -5596,7 +5596,7 @@
 			"entries": [
 				{
 					"ENG_name": "Light",
-					"name": "光亮术",
+					"name": "轻型",
 					"type": "entries",
 					"entries": [
 						"当你在你的回合使用攻击动作且用一只手攻击轻型武器时，你可以作为同一动作的一部分进行一次额外攻击。该额外攻击必须用另一只手的另一把轻型武器进行，且你不将属性调整值加到额外攻击的伤害上。你每回合只能进行一次这种额外攻击。",
@@ -9180,7 +9180,7 @@
 		},
 		{
 			"ENG_name": "Hide",
-			"name": "兽皮甲",
+			"name": "躲藏",
 			"source": "XUA2022ExpertClasses",
 			"page": 33,
 			"time": [

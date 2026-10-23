@@ -19,7 +19,7 @@
 		"edition": "one",
 		"status": "ready",
 		"dateAdded": 1776966837,
-		"dateLastModified": 1792466019,
+		"dateLastModified": 1792550709,
 		"_dateLastModifiedHash": "283f714a7e"
 	},
 	"subclass": [
@@ -47,11 +47,11 @@
 				"死者交谈|XPHB"
 			],
 			"subclassFeatures": [
-				"悲恸之道|野蛮人|XPHB|悲恸|XUA2026VillainousOptions2|3|XUA2026反派选项2",
-				"与死亡通神|野蛮人|XPHB|悲恸|XUA2026VillainousOptions2|6|XUA2026反派选项2",
-				"惊骇打击|野蛮人|XPHB|悲恸|XUA2026VillainousOptions2|6|XUA2026反派选项2",
-				"异界苦痛|野蛮人|XPHB|悲恸|XUA2026VillainousOptions2|10|XUA2026反派选项2",
-				"忧伤形态|野蛮人|XPHB|悲恸|XUA2026VillainousOptions2|14|XUA2026反派选项2"
+				"悲恸之道|野蛮人|XPHB|悲恸|XUA2026VillainousOptions2|3|XUA2026VillainousOptions2",
+				"与死亡通神|野蛮人|XPHB|悲恸|XUA2026VillainousOptions2|6|XUA2026VillainousOptions2",
+				"惊骇打击|野蛮人|XPHB|悲恸|XUA2026VillainousOptions2|6|XUA2026VillainousOptions2",
+				"异界苦痛|野蛮人|XPHB|悲恸|XUA2026VillainousOptions2|10|XUA2026VillainousOptions2",
+				"忧伤形态|野蛮人|XPHB|悲恸|XUA2026VillainousOptions2|14|XUA2026VillainousOptions2"
 			],
 			"hasFluff": true
 		},
@@ -236,10 +236,10 @@
 				]
 			},
 			"subclassFeatures": [
-				"原初语雇主|魔契师|XPHB|原初语|XUA2026VillainousOptions2|3|XUA2026反派选项2",
-				"元素庇护所|魔契师|XPHB|原初语|XUA2026VillainousOptions2|6|XUA2026反派选项2",
-				"原始守护|魔契师|XPHB|原初语|XUA2026VillainousOptions2|10|XUA2026反派选项2",
-				"元素先驱者|魔契师|XPHB|原初语|XUA2026VillainousOptions2|14|XUA2026反派选项2"
+				"原初语雇主|魔契师|XPHB|原初语|XUA2026VillainousOptions2|3|XUA2026VillainousOptions2",
+				"元素庇护所|魔契师|XPHB|原初语|XUA2026VillainousOptions2|6|XUA2026VillainousOptions2",
+				"原始守护|魔契师|XPHB|原初语|XUA2026VillainousOptions2|10|XUA2026VillainousOptions2",
+				"元素先驱者|魔契师|XPHB|原初语|XUA2026VillainousOptions2|14|XUA2026VillainousOptions2"
 			],
 			"hasFluff": true
 		},
@@ -252,11 +252,11 @@
 			"classSource": "XPHB",
 			"page": 3,
 			"subclassFeatures": [
-				"毒液战士|武僧|XPHB|恶毒|XUA2026VillainousOptions2|3|XUA2026反派选项2",
-				"剧毒之触|武僧|XPHB|恶毒|XUA2026VillainousOptions2|6|XUA2026反派选项2",
-				"毒素精炼师|武僧|XPHB|恶毒|XUA2026VillainousOptions2|11|XUA2026反派选项2",
-				"剧毒之血|武僧|XPHB|恶毒|XUA2026VillainousOptions2|11|XUA2026反派选项2",
-				"致幻吐息|武僧|XPHB|恶毒|XUA2026VillainousOptions2|17|XUA2026反派选项2"
+				"毒液战士|武僧|XPHB|恶毒|XUA2026VillainousOptions2|3|XUA2026VillainousOptions2",
+				"剧毒之触|武僧|XPHB|恶毒|XUA2026VillainousOptions2|6|XUA2026VillainousOptions2",
+				"毒素精炼师|武僧|XPHB|恶毒|XUA2026VillainousOptions2|11|XUA2026VillainousOptions2",
+				"剧毒之血|武僧|XPHB|恶毒|XUA2026VillainousOptions2|11|XUA2026VillainousOptions2",
+				"致幻吐息|武僧|XPHB|恶毒|XUA2026VillainousOptions2|17|XUA2026VillainousOptions2"
 			],
 			"hasFluff": true
 		}
@@ -321,7 +321,7 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "报丧妖之嚎|野蛮人|XPHB|悲恸|XUA2026反派选项2|3|XUA2026反派选项2"
+					"subclassFeature": "报丧妖之嚎|野蛮人|XPHB|悲恸|XUA2026VillainousOptions2|3|XUA2026VillainousOptions2"
 				}
 			]
 		},
@@ -390,7 +390,7 @@
 					"type": "entries",
 					"page": 2,
 					"entries": [
-						"如果目标对抗你的{@subclassFeature 报丧妖之嚎|野蛮人|XPHB|悲叹|XUA2026反派选项2|3|XUA2026反派选项2}的豁免检定失败，并且其{@variantrule 生命值|XPHB}等于或少于你{@class 野蛮人|XPHB}等级的两倍，则其{@variantrule 生命值|XPHB}降至0而非受到伤害。"
+						"如果目标对抗你的{@subclassFeature 报丧妖之嚎|野蛮人|XPHB|悲恸|XUA2026VillainousOptions2|3|XUA2026VillainousOptions2}的豁免检定失败，并且其{@variantrule 生命值|XPHB}等于或少于你{@class 野蛮人|XPHB}等级的两倍，则其{@variantrule 生命值|XPHB}降至0而非受到伤害。"
 					]
 				},
 				{
@@ -441,7 +441,7 @@
 					"type": "entries",
 					"page": 2,
 					"entries": [
-						"当一个生物对抗你的{@subclassFeature 恐怖打击|野蛮人|XPHB|悲叹|XUA2026反派选项2|6|XUA2026反派选项2}豁免检定失败时，该生物受到{@damage 2d10}暗蚀伤害。你恢复等同于造成的暗蚀伤害数值的{@variantrule 生命值|XPHB}。"
+						"当一个生物对抗你的{@subclassFeature 恐怖打击|野蛮人|XPHB|悲恸|XUA2026VillainousOptions2|6|XUA2026VillainousOptions2}豁免检定失败时，该生物受到{@damage 2d10}暗蚀伤害。你恢复等同于造成的暗蚀伤害数值的{@variantrule 生命值|XPHB}。"
 					]
 				},
 				{
@@ -470,11 +470,11 @@
 				"毒液战士污染其内在法力储备，以成为毒素化身。通过多年的专注和对所有形式毒素的研究，这些武僧学会驾驭自身的毒性来削弱敌人并对其下毒。与毒液战士接触\u2014\u2014哪怕是最轻微的触碰或一滴鲜血\u2014\u2014都可能像蝰蛇的啃咬一样致命。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "淬毒武器|武僧|XPHB|恶毒|XUA2026反派选项2|3|XUA2026反派选项2"
+					"subclassFeature": "淬毒武器|武僧|XPHB|恶毒|XUA2026VillainousOptions2|3|XUA2026VillainousOptions2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "强力武库|武僧|XPHB|恶毒|XUA2026反派选项2|3|XUA2026反派选项2"
+					"subclassFeature": "强力武库|武僧|XPHB|恶毒|XUA2026VillainousOptions2|3|XUA2026VillainousOptions2"
 				}
 			]
 		},
@@ -614,7 +614,7 @@
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"你的身体可以过滤毒素。你获得对毒素伤害的{@variantrule 免疫|XPHB}。每当你受到毒素伤害时，你的每个{@subclassFeature 淬毒武器|武僧|XPHB|恶毒|XUA2026反派选项2|3|XUA2026反派选项2}选项都会造成额外毒素伤害，数值等于你掷一次{@classFeature 武艺|武僧|XPHB|1|XPHB}骰，并且你在你的下一个回合结束前无法再次获得此增益。此外，每当你摄入毒素时，你恢复一定数量的{@variantrule 生命值|XPHB}，数值等于你掷一次{@classFeature 武艺|武僧|XPHB|1|XPHB}骰。"
+				"你的身体可以过滤毒素。你获得对毒素伤害的{@variantrule 免疫|XPHB}。每当你受到毒素伤害时，你的每个{@subclassFeature 淬毒武器|武僧|XPHB|恶毒|XUA2026VillainousOptions2|3|XUA2026VillainousOptions2}选项都会造成额外毒素伤害，数值等于你掷一次{@classFeature 武艺|武僧|XPHB|1|XPHB}骰，并且你在你的下一个回合结束前无法再次获得此增益。此外，每当你摄入毒素时，你恢复一定数量的{@variantrule 生命值|XPHB}，数值等于你掷一次{@classFeature 武艺|武僧|XPHB|1|XPHB}骰。"
 			]
 		},
 		{
@@ -662,11 +662,11 @@
 				"元素联盟变幻莫测的本质也延伸至你的契约。你可以在每次升级时改变你选择的元素\u2014\u2014以及你的宗主。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "元素节点|魔契师|XPHB|原初语|XUA2026反派选项2|3|XUA2026反派选项2"
+					"subclassFeature": "元素节点|魔契师|XPHB|原初语|XUA2026VillainousOptions2|3|XUA2026VillainousOptions2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "元素法术|魔契师|XPHB|原初语|XUA2026反派选项2|3|XUA2026反派选项2"
+					"subclassFeature": "元素法术|魔契师|XPHB|原初语|XUA2026VillainousOptions2|3|XUA2026VillainousOptions2"
 				}
 			]
 		},
@@ -723,7 +723,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"你的{@subclassFeature 元素节点|魔契师|XPHB|原初语|XUA2026反派选项2|3|XUA2026反派选项2}保护你免受伤害。你获得以下增益。",
+				"你的{@subclassFeature 元素节点|魔契师|XPHB|原初语|XUA2026VillainousOptions2|3|XUA2026VillainousOptions2}保护你免受伤害。你获得以下增益。",
 				{
 					"ENG_name": "Elemental Protection",
 					"name": "元素守护",
@@ -763,7 +763,7 @@
 					"type": "entries",
 					"page": 5,
 					"entries": [
-						"你获得对你所选元素伤害类型的{@variantrule 抗性|XPHB}。此外，当处于你的{@subclassFeature 元素节点|魔契师|XPHB|原初语|XUA2026反派选项2|3|XUA2026反派选项2}内时，你对该伤害类型具有{@variantrule 免疫|XPHB}。"
+						"你获得对你所选元素伤害类型的{@variantrule 抗性|XPHB}。此外，当处于你的{@subclassFeature 元素节点|魔契师|XPHB|原初语|XUA2026VillainousOptions2|3|XUA2026VillainousOptions2}内时，你对该伤害类型具有{@variantrule 免疫|XPHB}。"
 					]
 				},
 				{
@@ -772,7 +772,7 @@
 					"type": "entries",
 					"page": 5,
 					"entries": [
-						"你的{@subclassFeature 元素节点|魔契师|XPHB|原初语|XUA2026反派选项2|3|XUA2026反派选项2}现在是一个半径10尺的{@variantrule 球状 [效应区域]|XPHB|球状}。"
+						"你的{@subclassFeature 元素节点|魔契师|XPHB|原初语|XUA2026VillainousOptions2|3|XUA2026VillainousOptions2}现在是一个半径10尺的{@variantrule 球状 [效应区域]|XPHB|球状}。"
 					]
 				}
 			]
@@ -789,14 +789,14 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"你的{@subclassFeature 元素节点|魔契师|XPHB|原初语|XUA2026反派选项2|3|XUA2026反派选项2}可以召唤最强大的元素生物，为你提供以下增益。",
+				"你的{@subclassFeature 元素节点|魔契师|XPHB|原初语|XUA2026VillainousOptions2|3|XUA2026VillainousOptions2}可以召唤最强大的元素生物，为你提供以下增益。",
 				{
 					"ENG_name": "Elemental Vortex",
 					"name": "元素漩涡",
 					"type": "entries",
 					"page": 5,
 					"entries": [
-						"每当你位于你的{@subclassFeature 元素节点|魔契师|XPHB|原初语|XUA2026反派选项2|3|XUA2026反派选项2}内并消耗一个{@classFeature 契约魔法|魔契师|XPHB|1|XPHB}法术位时，你可以尝试将一个生物拉入节点。你选择的节点30尺内的一个生物必须成功通过一次力量豁免检定，否则将被拉向节点中心最多15尺。"
+						"每当你位于你的{@subclassFeature 元素节点|魔契师|XPHB|原初语|XUA2026VillainousOptions2|3|XUA2026VillainousOptions2}内并消耗一个{@classFeature 契约魔法|魔契师|XPHB|1|XPHB}法术位时，你可以尝试将一个生物拉入节点。你选择的节点30尺内的一个生物必须成功通过一次力量豁免检定，否则将被拉向节点中心最多15尺。"
 					]
 				},
 				{
@@ -805,7 +805,7 @@
 					"type": "entries",
 					"page": 5,
 					"entries": [
-						"你的{@subclassFeature 元素节点|魔契师|XPHB|原初语|XUA2026反派选项2|3|XUA2026反派选项2}现在最多可持续1小时。"
+						"你的{@subclassFeature 元素节点|魔契师|XPHB|原初语|XUA2026VillainousOptions2|3|XUA2026VillainousOptions2}现在最多可持续1小时。"
 					]
 				},
 				{
@@ -1139,7 +1139,7 @@
 								{
 									"type": "list",
 									"items": [
-										"{@class 野蛮人} ({@class 野蛮人|XPHB|悲恸之道|哀恸|XUA2026VillainousOptions2})",
+										"{@class 野蛮人} ({@class 野蛮人|XPHB|悲恸之道|悲恸|XUA2026VillainousOptions2})",
 										"{@class 武僧} ({@class 武僧|XPHB|毒液战士|恶毒|XUA2026VillainousOptions2})",
 										"{@class 魔契师} ({@class 魔契师|XPHB|原初语宗主|原初语|XUA2026VillainousOptions2})"
 									]
