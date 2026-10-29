@@ -48,11 +48,11 @@
 				"回避侦测|XPHB"
 			],
 			"subclassFeatures": [
-				"魔法窃取者|游荡者|XPHB|魔法窃取者|XUA2026MysticSubclasses|3|XUA2026秘术师子职",
-				"魔法破坏|游荡者|XPHB|魔法窃取者|XUA2026MysticSubclasses|9|XUA2026秘术师子职",
-				"神秘环绕|游荡者|XPHB|魔法窃取者|XUA2026MysticSubclasses|13|XUA2026秘术师子职",
-				"强化汲取魔法|游荡者|XPHB|魔法窃取者|XUA2026MysticSubclasses|13|XUA2026秘术师子职",
-				"诡秘崩裂|游荡者|XPHB|魔法窃取者|XUA2026MysticSubclasses|17|XUA2026秘术师子职"
+				"魔法窃取者|游荡者|XPHB|魔法窃取者|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses",
+				"魔法破坏|游荡者|XPHB|魔法窃取者|XUA2026MysticSubclasses|9|XUA2026MysticSubclasses",
+				"神秘环绕|游荡者|XPHB|魔法窃取者|XUA2026MysticSubclasses|13|XUA2026MysticSubclasses",
+				"强化汲取魔法|游荡者|XPHB|魔法窃取者|XUA2026MysticSubclasses|13|XUA2026MysticSubclasses",
+				"诡秘崩裂|游荡者|XPHB|魔法窃取者|XUA2026MysticSubclasses|17|XUA2026MysticSubclasses"
 			],
 			"hasFluff": true
 		},
@@ -103,10 +103,10 @@
 				"圣居|XPHB"
 			],
 			"subclassFeatures": [
-				"法术卫队誓仇|圣武士|XPHB|法术卫队|XUA2026MysticSubclasses|3|XUA2026秘术师子职",
-				"专注光环|圣武士|XPHB|法术卫队|XUA2026MysticSubclasses|7|XUA2026秘术师子职",
-				"破法之刃|圣武士|XPHB|法术卫队|XUA2026MysticSubclasses|15|XUA2026秘术师子职",
-				"永恒法术守卫|圣武士|XPHB|法术卫队|XUA2026MysticSubclasses|20|XUA2026秘术师子职"
+				"法术卫队誓仇|圣武士|XPHB|法术卫队|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses",
+				"专注光环|圣武士|XPHB|法术卫队|XUA2026MysticSubclasses|7|XUA2026MysticSubclasses",
+				"破法之刃|圣武士|XPHB|法术卫队|XUA2026MysticSubclasses|15|XUA2026MysticSubclasses",
+				"永恒法术守卫|圣武士|XPHB|法术卫队|XUA2026MysticSubclasses|20|XUA2026MysticSubclasses"
 			],
 			"hasFluff": true
 		},
@@ -316,10 +316,10 @@
 				]
 			},
 			"subclassFeatures": [
-				"契灵宗主|魔契师|XPHB|契灵|XUA2026MysticSubclasses|3|XUA2026秘术师子职",
-				"契灵复苏|魔契师|XPHB|契灵|XUA2026MysticSubclasses|6|XUA2026秘术师子职",
-				"力量光环|魔契师|XPHB|契灵|XUA2026MysticSubclasses|10|XUA2026秘术师子职",
-				"生命的假象|魔契师|XPHB|契灵|XUA2026MysticSubclasses|14|XUA2026秘术师子职"
+				"契灵宗主|魔契师|XPHB|契灵|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses",
+				"契灵复苏|魔契师|XPHB|契灵|XUA2026MysticSubclasses|6|XUA2026MysticSubclasses",
+				"力量光环|魔契师|XPHB|契灵|XUA2026MysticSubclasses|10|XUA2026MysticSubclasses",
+				"生命的假象|魔契师|XPHB|契灵|XUA2026MysticSubclasses|14|XUA2026MysticSubclasses"
 			],
 			"hasFluff": true
 		},
@@ -630,11 +630,11 @@
 				}
 			],
 			"subclassFeatures": [
-				"秘术武者|武僧|XPHB|秘术|XUA2026MysticSubclasses|3|XUA2026秘术师子职",
-				"秘法武功|武僧|XPHB|秘术|XUA2026MysticSubclasses|6|XUA2026秘术师子职",
-				"秘法战斗风格|武僧|XPHB|秘术|XUA2026MysticSubclasses|6|XUA2026秘术师子职",
-				"专注中心|武僧|XPHB|秘术|XUA2026MysticSubclasses|11|XUA2026秘术师子职",
-				"精通秘法战斗风格|武僧|XPHB|秘术|XUA2026MysticSubclasses|17|XUA2026秘术师子职"
+				"秘术武者|武僧|XPHB|秘术|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses",
+				"秘法武功|武僧|XPHB|秘术|XUA2026MysticSubclasses|6|XUA2026MysticSubclasses",
+				"秘法战斗风格|武僧|XPHB|秘术|XUA2026MysticSubclasses|6|XUA2026MysticSubclasses",
+				"专注中心|武僧|XPHB|秘术|XUA2026MysticSubclasses|11|XUA2026MysticSubclasses",
+				"精通秘法战斗风格|武僧|XPHB|秘术|XUA2026MysticSubclasses|17|XUA2026MysticSubclasses"
 			],
 			"hasFluff": true
 		}
@@ -701,7 +701,7 @@
 				"秘术武者运用魔法来增强他们的战斗技能。他们驾驭自身的超自然专注来提升其魔法与身体能力。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "施法|武僧|XPHB|秘术|XUA2026秘术师子职|3|XUA2026秘术师子职"
+					"subclassFeature": "施法|武僧|XPHB|秘术|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses"
 				}
 			]
 		},
@@ -892,15 +892,15 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "守护者牵挂|圣武士|XPHB|法术卫队|XUA2026秘术师子职|3|XUA2026秘术师子职"
+					"subclassFeature": "守护者牵挂|圣武士|XPHB|法术卫队|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "法术卫队誓约法术|圣武士|XPHB|法术卫队|XUA2026秘术师子职|3|XUA2026秘术师子职"
+					"subclassFeature": "法术卫队誓约法术|圣武士|XPHB|法术卫队|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "法术卫队打击|圣武士|XPHB|法术卫队|XUA2026秘术师子职|3|XUA2026秘术师子职"
+					"subclassFeature": "法术卫队打击|圣武士|XPHB|法术卫队|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses"
 				}
 			]
 		},
@@ -989,7 +989,7 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"在你用你的{@subclassFeature 法术卫队打击|圣武士|XPHB|法术卫队|XUA2026秘术师子职|3|XUA2026秘术师子职}命中一个生物后，你可以立即作为同一个{@variantrule 反应|XPHB}的一部分施放{@spell 法术反制}。",
+				"在你用你的{@subclassFeature 法术卫队打击|圣武士|XPHB|法术卫队|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses}命中一个生物后，你可以立即作为同一个{@variantrule 反应|XPHB}的一部分施放{@spell 法术反制}。",
 				"当你使用法术位施放{@spell 法术反制}时，如果该法术未能阻止一个法术，则该法术位不会被消耗。"
 			]
 		},
@@ -1011,7 +1011,7 @@
 					"name": "保镖",
 					"type": "entries",
 					"entries": [
-						"当你{@subclassFeature 守护者联结|圣武士|XPHB|法术卫队|XUA2026秘术师子职|3|XUA2026秘术师子职}的目标处于此灵光内时，该生物获得对所有伤害的{@variantrule 抗性|XPHB}。"
+						"当你{@subclassFeature 守护者联结|圣武士|XPHB|法术卫队|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses}的目标处于此灵光内时，该生物获得对所有伤害的{@variantrule 抗性|XPHB}。"
 					]
 				},
 				{
@@ -1047,11 +1047,11 @@
 				"当普通的窃贼还在割钱包和入室行窃时，魔法窃取者所追求的是一种更有价值的战利品：魔法。魔法窃取者以施法者为猎物，重新利用他们的法术，并躲避预言系法术，在刀刃之下窃取魔法力量。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "增强偷袭|游荡者|XPHB|魔法窃取者|XUA2026秘术师子职|3|XUA2026秘术师子职"
+					"subclassFeature": "增强偷袭|游荡者|XPHB|魔法窃取者|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "汲取魔法|游荡者|XPHB|魔法窃取者|XUA2026秘术师子职|3|XUA2026秘术师子职"
+					"subclassFeature": "汲取魔法|游荡者|XPHB|魔法窃取者|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses"
 				}
 			]
 		},
@@ -1102,15 +1102,15 @@
 				"你获得以下诡诈打击选项。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "法术易感性（花费：2d6）|游荡者|XPHB|魔法窃取者|XUA2026秘术师子职|9|XUA2026秘术师子职"
+					"subclassFeature": "法术易感性（花费：2d6）|游荡者|XPHB|魔法窃取者|XUA2026MysticSubclasses|9|XUA2026MysticSubclasses"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "扰乱法术（花费：3d6）|游荡者|XPHB|魔法窃取者|XUA2026秘术师子职|9|XUA2026秘术师子职"
+					"subclassFeature": "扰乱法术（花费：3d6）|游荡者|XPHB|魔法窃取者|XUA2026MysticSubclasses|9|XUA2026MysticSubclasses"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "窃取抗性（花费：2d6）|游荡者|XPHB|魔法窃取者|XUA2026秘术师子职|9|XUA2026秘术师子职"
+					"subclassFeature": "窃取抗性（花费：2d6）|游荡者|XPHB|魔法窃取者|XUA2026MysticSubclasses|9|XUA2026MysticSubclasses"
 				}
 			]
 		},
@@ -1171,7 +1171,7 @@
 			"level": 13,
 			"header": 2,
 			"entries": [
-				"你现在可以将{@subclassFeature 汲取魔法|游荡者|XPHB|魔法窃取者|XUA2026秘术师子职|3|XUA2026秘术师子职}作为{@variantrule 附赠动作|XPHB}使用。此外，当你使用{@subclassFeature 汲取魔法|游荡者|XPHB|魔法窃取者|XUA2026秘术师子职|3|XUA2026秘术师子职}时，你可以结束目标身上一个持续生效的1环、2环或3环法术，并且目标恢复一个已消耗的3环或更低的法术位（由目标选择）。"
+				"你现在可以将{@subclassFeature 汲取魔法|游荡者|XPHB|魔法窃取者|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses}作为{@variantrule 附赠动作|XPHB}使用。此外，当你使用{@subclassFeature 汲取魔法|游荡者|XPHB|魔法窃取者|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses}时，你可以结束目标身上一个持续生效的1环、2环或3环法术，并且目标恢复一个已消耗的3环或更低的法术位（由目标选择）。"
 			]
 		},
 		{
@@ -1201,7 +1201,7 @@
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"当你使用{@subclassFeature 增强偷袭|游荡者|XPHB|魔法窃取者|XUA2026秘术师子职|3|XUA2026秘术师子职}时，你可以强迫目标进行一次体质豁免检定（{@dc 8}加上你的敏捷调整值和{@table 熟练加值|XPHB}）。豁免失败时，该法术将无效果地消散，且目标获得{@condition 震慑}状态，直到其下一回合开始。"
+				"当你使用{@subclassFeature 增强偷袭|游荡者|XPHB|魔法窃取者|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses}时，你可以强迫目标进行一次体质豁免检定（{@dc 8}加上你的敏捷调整值和{@table 熟练加值|XPHB}）。豁免失败时，该法术将无效果地消散，且目标获得{@condition 震慑}状态，直到其下一回合开始。"
 			]
 		},
 		{
@@ -1219,11 +1219,11 @@
 				"你的契约汲取了一位垂死之神的力量，这位存在曾受无数追随者崇拜，但如今已被遗弃和遗忘。这位垂死之神，被称为契灵，可能曾是仁慈的、邪恶的、或是怪异且不可知的，但如今它一心想要重获昔日的力量。契灵需要你的协助，它愿意与你分享其残余的力量。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "契灵伙伴|魔契师|XPHB|契灵|XUA2026秘术师子职|3|XUA2026秘术师子职"
+					"subclassFeature": "契灵伙伴|魔契师|XPHB|契灵|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "契灵法术|魔契师|XPHB|契灵|XUA2026秘术师子职|3|XUA2026秘术师子职"
+					"subclassFeature": "契灵法术|魔契师|XPHB|契灵|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses"
 				}
 			]
 		},
@@ -1239,7 +1239,7 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"契灵显现，协助你并汲取你契约的力量。它使用{@creature 契灵伙伴|XUA2026秘术师子职}资料卡，并且是天族、邪魔或亡灵（在你获得此特性时选择）。你决定契灵的外观，但无论其形态如何，契灵都带有表明其超然起源的特征。例如，你可以决定你的契灵是一个刻有符文的巨型漂浮头骨、一个发光的符文圆环，或是一个不断变化的抽象形态。该契灵对你和你的盟友{@variantrule 友好【态度】|XPHB|友好}并服从你的命令。如果你死亡，它会消失。",
+				"契灵显现，协助你并汲取你契约的力量。它使用{@creature 契灵伙伴|XUA2026MysticSubclasses}资料卡，并且是天族、邪魔或亡灵（在你获得此特性时选择）。你决定契灵的外观，但无论其形态如何，契灵都带有表明其超然起源的特征。例如，你可以决定你的契灵是一个刻有符文的巨型漂浮头骨、一个发光的符文圆环，或是一个不断变化的抽象形态。该契灵对你和你的盟友{@variantrule 友好【态度】|XPHB|友好}并服从你的命令。如果你死亡，它会消失。",
 				{
 					"ENG_name": "The Vestige in Combat",
 					"name": "战斗中的契灵",
@@ -1280,7 +1280,7 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"你的{@creature 契灵伙伴|XUA2026秘术师子职}的魔法确保你总是预备着某些法术。从以下{@class 牧师}领域中选择一个：{@subclassFeature 生命领域法术|牧师|XPHB|生命|XPHB|3|XPHB|生命}、{@subclassFeature 光明领域法术|牧师|XPHB|光线|XPHB|3|XPHB|光线}、{@subclassFeature 诡术领域法术|牧师|XPHB|诡术|XPHB|3|XPHB|诡术}或{@subclassFeature 战争领域法术|牧师|XPHB|战争|XPHB|3|XPHB|战争}。你所选领域的领域法术对你而言是魔契师法术。当你达到的魔契师等级等于你所选领域在领域法术表格中列出的牧师等级时，你此后总是准备着所列出的法术。",
+				"你的{@creature 契灵伙伴|XUA2026MysticSubclasses}的魔法确保你总是预备着某些法术。从以下{@class 牧师}领域中选择一个：{@subclassFeature 生命领域法术|牧师|XPHB|生命|XPHB|3|XPHB|生命}、{@subclassFeature 光明领域法术|牧师|XPHB|光线|XPHB|3|XPHB|光线}、{@subclassFeature 诡术领域法术|牧师|XPHB|诡术|XPHB|3|XPHB|诡术}或{@subclassFeature 战争领域法术|牧师|XPHB|战争|XPHB|3|XPHB|战争}。你所选领域的领域法术对你而言是魔契师法术。当你达到的魔契师等级等于你所选领域在领域法术表格中列出的牧师等级时，你此后总是准备着所列出的法术。",
 				"例如，如果你为这个特性选择了{@subclassFeature 战争领域法术|牧师|XPHB|战争|XPHB|3|XPHB|战争领域}，那么当你达到魔契师3级时，你将准备好{@spell 光导箭}、{@spell 魔化武器}、{@spell 虔诚护盾}和{@spell 灵体武器}法术。"
 			]
 		},
@@ -1296,7 +1296,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"你的{@creature 契灵伙伴|XUA2026秘术师子职}现在会在你完成一次{@variantrule 短休|XPHB|短}或{@variantrule 长休|XPHB}时，或者当你使用你的{@classFeature 秘法回流|魔契师|XPHB|2|XPHB}特性时，恢复其神力法力的使用次数。"
+				"你的{@creature 契灵伙伴|XUA2026MysticSubclasses}现在会在你完成一次{@variantrule 短休|XPHB|短}或{@variantrule 长休|XPHB}时，或者当你使用你的{@classFeature 秘法回流|魔契师|XPHB|2|XPHB}特性时，恢复其神力法力的使用次数。"
 			]
 		},
 		{
@@ -1311,7 +1311,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"你的{@creature 契灵伙伴|XUA2026秘术师子职}的魔法力量得到增强。以一个{@action 魔法|XPHB}动作，你可以使契灵在其自身周围30尺范围内显现一个{@variantrule 光环 [效应区域]|XPHB|光环}光环。该光环持续小时数等同于你的魅力调整值，或持续至契灵消失或被暂时遣散。你、契灵以及光环内的盟友获得对火焰、暗蚀和光耀伤害的{@variantrule 抗性|XPHB}，并对{@condition 魅惑}和{@condition 恐慌}状态具有{@variantrule 免疫|XPHB}。一旦你显现此光环，直到你完成一次{@variantrule 长休|XPHB}前，你无法再次使用此能力。",
+				"你的{@creature 契灵伙伴|XUA2026MysticSubclasses}的魔法力量得到增强。以一个{@action 魔法|XPHB}动作，你可以使契灵在其自身周围30尺范围内显现一个{@variantrule 光环 [效应区域]|XPHB|光环}光环。该光环持续小时数等同于你的魅力调整值，或持续至契灵消失或被暂时遣散。你、契灵以及光环内的盟友获得对火焰、暗蚀和光耀伤害的{@variantrule 抗性|XPHB}，并对{@condition 魅惑}和{@condition 恐慌}状态具有{@variantrule 免疫|XPHB}。一旦你显现此光环，直到你完成一次{@variantrule 长休|XPHB}前，你无法再次使用此能力。",
 				"此外，当你在该灵光内{@variantrule 生命值|XPHB}降至0时，你可以改为将你的{@variantrule 生命值|XPHB}变为一个等于你的魔契师等级加上你的魅力调整值的数值。随后，该契灵会被遣返至一个口袋维度，并且在你完成一次{@variantrule 长休|XPHB}前无法返回。"
 			]
 		},
@@ -1327,7 +1327,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"你的{@creature 契灵伙伴|XUA2026秘术师子职}持续增强力量，在你的协助下，它能短暂地采用一种更强大的形态。根据契灵的类型，当它在距离你90尺范围内时，你可以不消耗法术位且无需材料成分施放以下法术之一：{@spell 天界召唤术|XPHB}（天族契灵）、{@spell 邪魔召唤术|XPHB}（邪魔契灵）或{@spell 亡灵召唤术|XPHB}（亡灵契灵）。当你使用此特性施放该法术时，契灵会变为被召唤的生物。它的游戏数据将被被召唤生物的资料卡所取代，法术环阶等于你魔契师等级的一半（向下取整；最高9环），法术持续时间为1分钟。当法术结束时，契灵会恢复其先前的形态。",
+				"你的{@creature 契灵伙伴|XUA2026MysticSubclasses}持续增强力量，在你的协助下，它能短暂地采用一种更强大的形态。根据契灵的类型，当它在距离你90尺范围内时，你可以不消耗法术位且无需材料成分施放以下法术之一：{@spell 天界召唤术|XPHB}（天族契灵）、{@spell 邪魔召唤术|XPHB}（邪魔契灵）或{@spell 亡灵召唤术|XPHB}（亡灵契灵）。当你使用此特性施放该法术时，契灵会变为被召唤的生物。它的游戏数据将被被召唤生物的资料卡所取代，法术环阶等于你魔契师等级的一半（向下取整；最高9环），法术持续时间为1分钟。当法术结束时，契灵会恢复其先前的形态。",
 				"一旦你以这种方式施放了该法术，直到你完成一次{@variantrule 长休|XPHB}前，你无法再次这样做。"
 			]
 		}

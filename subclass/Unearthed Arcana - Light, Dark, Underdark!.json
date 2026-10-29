@@ -572,7 +572,7 @@
 	"optionalfeature": [
 		{
 			"ENG_name": "Close Quarters Shooter",
-			"name": "近距离射手住所",
+			"name": "近战射击",
 			"source": "UALightDarkUnderdark",
 			"page": 1,
 			"featureType": [
